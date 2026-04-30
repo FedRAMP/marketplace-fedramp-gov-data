@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-04-29T07:26:46.748Z",
-    "total_products": 760,
+    "export_timestamp": "2026-04-30T07:26:43.547Z",
+    "total_products": 762,
     "description": "FedRAMP status changelog data export from GSA system"
   },
   "products": {
@@ -9259,7 +9259,7 @@
       ]
     },
     "FR2421035110": {
-      "current_status": "PMO Review",
+      "current_status": "Authorized",
       "statuses": [
         {
           "status_name": "FRR",
@@ -9272,6 +9272,10 @@
         {
           "status_name": "PMO Review",
           "start_date": "2026-04-13T04:00:00.000Z"
+        },
+        {
+          "status_name": "Authorized",
+          "start_date": "2026-04-29T04:00:00.000Z"
         }
       ]
     },
@@ -11406,6 +11410,24 @@
         {
           "status_name": "Authorized",
           "start_date": "2026-04-24T04:00:00.000Z"
+        }
+      ]
+    },
+    "FR2613731293": {
+      "current_status": "FRR",
+      "statuses": [
+        {
+          "status_name": "FRR",
+          "start_date": "2026-04-23T04:00:00.000Z"
+        }
+      ]
+    },
+    "FR2619646960": {
+      "current_status": "FRR",
+      "statuses": [
+        {
+          "status_name": "FRR",
+          "start_date": "2026-04-23T04:00:00.000Z"
         }
       ]
     }
