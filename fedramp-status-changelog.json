@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "export_timestamp": "2026-05-01T07:26:43.355Z",
+    "export_timestamp": "2026-05-02T07:26:43.019Z",
     "total_products": 762,
     "description": "FedRAMP status changelog data export from GSA system"
   },
@@ -10149,11 +10149,19 @@
       ]
     },
     "FR2527132001": {
-      "current_status": "Agency In Process",
+      "current_status": "PMO Review",
       "statuses": [
         {
           "status_name": "Agency Review",
           "start_date": "2025-07-17T04:00:00.000Z"
+        },
+        {
+          "status_name": "Agency In Process",
+          "start_date": "2026-05-01T04:00:00.000Z"
+        },
+        {
+          "status_name": "PMO Review",
+          "start_date": "2026-05-01T04:00:00.000Z"
         }
       ]
     },
@@ -10795,7 +10803,7 @@
       ]
     },
     "FR2420341612": {
-      "current_status": "PMO Review",
+      "current_status": "Authorized",
       "statuses": [
         {
           "status_name": "Agency Review",
@@ -10804,6 +10812,10 @@
         {
           "status_name": "PMO Review",
           "start_date": "2026-03-17T04:00:00.000Z"
+        },
+        {
+          "status_name": "Authorized",
+          "start_date": "2026-05-01T04:00:00.000Z"
         }
       ]
     },
