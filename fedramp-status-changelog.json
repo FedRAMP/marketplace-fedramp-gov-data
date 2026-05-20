@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "export_timestamp": "2026-05-19T19:14:54.525Z",
+    "export_timestamp": "2026-05-20T19:14:53.961Z",
     "total_products": 773,
     "description": "FedRAMP status changelog data export from GSA system"
   },
@@ -11603,8 +11603,12 @@
       ]
     },
     "FR2621733550": {
-      "current_status": "No Status Found",
+      "current_status": "FRR",
       "statuses": [
+        {
+          "status_name": "FRR",
+          "start_date": "2026-05-13T04:00:00.000Z"
+        },
         {
           "status_name": "No Status Found",
           "start_date": "2026-05-13T22:12:54.450Z"
