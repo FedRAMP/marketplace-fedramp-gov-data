@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "export_timestamp": "2026-05-20T19:14:53.961Z",
+    "export_timestamp": "2026-05-21T19:14:53.643Z",
     "total_products": 773,
     "description": "FedRAMP status changelog data export from GSA system"
   },
@@ -11415,11 +11415,15 @@
       ]
     },
     "FR2615854261": {
-      "current_status": "FRR",
+      "current_status": "Agency Review",
       "statuses": [
         {
           "status_name": "FRR",
           "start_date": "2026-03-30T04:00:00.000Z"
+        },
+        {
+          "status_name": "Agency Review",
+          "start_date": "2026-05-21T04:00:00.000Z"
         }
       ]
     },
