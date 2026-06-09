@@ -1,10 +1,11 @@
 {
   "metadata": {
-    "export_timestamp": "2026-06-01T19:12:33.406Z",
-    "description": "FedRAMP ATOs data export from GSA system"
+    "export_timestamp": "2026-06-09T22:31:55.306Z",
+    "total_entries": 5797,
+    "description": "FedRAMP data ATOs export from GSA system"
   },
   "data": {
-    "serializedData": [
+    "atos": [
       {
         "uuid": "4d1b8deb-79c7-42c3-8c0a-f01ba9f75a6f",
         "product_id": "F1206061350",
@@ -39777,7 +39778,7 @@
         "log_date": "2026-05-05T20:08:34.621Z",
         "log_reason": "Reuse Authorization",
         "exp_date": "2023-04-03T04:00:00.000Z",
-        "authorizing_official": "Pape Ciss?",
+        "authorizing_official": "Pape Cissé",
         "agency_poc_email": "",
         "is_active": "N",
         "use_cases": "",
@@ -65499,7 +65500,7 @@
         "log_date": "2026-05-05T20:08:35.292Z",
         "log_reason": "Reuse Authorization",
         "exp_date": "2027-03-11T05:00:00.000Z",
-        "authorizing_official": "Sanjeev ?Sonny? Bhagowalia",
+        "authorizing_official": "Sanjeev “Sonny” Bhagowalia",
         "agency_poc_email": "",
         "is_active": "Y",
         "use_cases": "",
@@ -66777,7 +66778,7 @@
         "log_date": "2026-05-05T20:08:35.324Z",
         "log_reason": "Reuse Authorization",
         "exp_date": "",
-        "authorizing_official": "Sanjeev ?Sonny? Bhagowalia",
+        "authorizing_official": "Sanjeev “Sonny” Bhagowalia",
         "agency_poc_email": "",
         "is_active": "Y",
         "use_cases": "",
@@ -81555,7 +81556,7 @@
         "log_date": "2026-05-05T20:08:35.770Z",
         "log_reason": "Reuse Authorization",
         "exp_date": "",
-        "authorizing_official": "Sanjeev ?Sonny? Bhagowalia",
+        "authorizing_official": "Sanjeev “Sonny” Bhagowalia",
         "agency_poc_email": "",
         "is_active": "Y",
         "use_cases": "",
@@ -104295,6 +104296,60 @@
         "use_cases": "",
         "comments": "",
         "termination_date": "",
+        "termination_reason": ""
+      },
+      {
+        "uuid": "",
+        "product_id": "FAKE-FFAAKKEE",
+        "agency_id": "22-027",
+        "is_reuse": false,
+        "is_hidden": false,
+        "ato_date": "2026-06-03T04:00:00.000Z",
+        "log_date": "2026-06-03T04:00:00.000Z",
+        "log_reason": "",
+        "exp_date": "2027-06-03T04:00:00.000Z",
+        "authorizing_official": "",
+        "agency_poc_email": "amanda.robinson+agency-poc-email@gmail.com",
+        "is_active": true,
+        "use_cases": "",
+        "comments": "2026-06-03T04:00:00.000Z",
+        "termination_date": "2026-06-03T04:00:00.000Z",
+        "termination_reason": ""
+      },
+      {
+        "uuid": "",
+        "product_id": "FAKE-3JCS83J3",
+        "agency_id": "22-061-01",
+        "is_reuse": false,
+        "is_hidden": true,
+        "ato_date": "2026-06-05T04:00:00.000Z",
+        "log_date": "2026-06-05T04:00:00.000Z",
+        "log_reason": "",
+        "exp_date": "2026-06-05T04:00:00.000Z",
+        "authorizing_official": "",
+        "agency_poc_email": "amanda.robinson+agency-email-test-1@gsa.gov",
+        "is_active": true,
+        "use_cases": "",
+        "comments": "2026-06-05T04:00:00.000Z",
+        "termination_date": "2026-06-05T04:00:00.000Z",
+        "termination_reason": ""
+      },
+      {
+        "uuid": "feIzxkwB3jgBGEzmWBOfLX",
+        "product_id": "FAKE-E4MXIR43",
+        "agency_id": "22-005-09",
+        "is_reuse": false,
+        "is_hidden": true,
+        "ato_date": "2026-06-05T04:00:00.000Z",
+        "log_date": "2026-06-05T04:00:00.000Z",
+        "log_reason": "",
+        "exp_date": "2026-06-05T04:00:00.000Z",
+        "authorizing_official": "Theodore Lasso [FAKE]",
+        "agency_poc_email": "amanda.robinson+test-agency-poc-3@gsa.gov",
+        "is_active": true,
+        "use_cases": "",
+        "comments": "2026-06-05T04:00:00.000Z",
+        "termination_date": "2026-06-05T04:00:00.000Z",
         "termination_reason": ""
       }
     ]
