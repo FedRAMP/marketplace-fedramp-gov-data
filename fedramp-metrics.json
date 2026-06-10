@@ -1,16 +1,17 @@
 {
   "metadata": {
-    "export_timestamp": "2026-06-09T22:46:07.226Z",
+    "export_timestamp": "2026-06-10T19:54:41.072Z",
     "total_entries": 1,
     "description": "FedRAMP data Metrics export from GSA system"
   },
   "data": {
     "metrics": [
       {
-        "fedramp_ready_count": 66,
-        "in_process_count": 12,
-        "certified_count": 520,
-        "total_count": 598
+        "fedramp_ready_count": 69,
+        "agency_auth_in_process_count": 57,
+        "fedramp_in_process_count": 10,
+        "certified_count": 523,
+        "total_count": 659
       }
     ]
   }
