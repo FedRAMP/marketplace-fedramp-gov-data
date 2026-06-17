@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-06-10T19:54:40.565Z",
-    "total_entries": 1957,
+    "export_timestamp": "2026-06-17T16:13:42.498Z",
+    "total_entries": 1961,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -25444,6 +25444,58 @@
         "to_status": "FRR",
         "transition_date": "2026-06-08T22:17:40.501Z",
         "recorded_date": "2026-06-08T22:17:40.501Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "aacca4e9-4637-4f22-8e3c-b6adc88bf679",
+        "product_id": "FR2617664138",
+        "csp": "Inteum Company",
+        "cso": "Minuet",
+        "auth_path": "Agency",
+        "from_status": "",
+        "to_status": "FRR",
+        "transition_date": "2026-06-10T22:12:59.929Z",
+        "recorded_date": "2026-06-10T22:12:59.929Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "37ebeecc-7b40-482e-8741-626e3d943977",
+        "product_id": "FR2619254906",
+        "csp": "Vulcan Technologies",
+        "cso": "VulcanGov",
+        "auth_path": "Agency",
+        "from_status": "",
+        "to_status": "FRR",
+        "transition_date": "2026-06-10T22:13:00.787Z",
+        "recorded_date": "2026-06-10T22:13:00.787Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "b9c164ea-d94f-4202-b227-566ca81ba3d0",
+        "product_id": "FR2623840126",
+        "csp": "Saviynt",
+        "cso": "Saviynt High Security Identity Platform",
+        "auth_path": "Agency",
+        "from_status": "",
+        "to_status": "Agency In Process",
+        "transition_date": "2026-06-10T22:13:02.893Z",
+        "recorded_date": "2026-06-10T22:13:02.893Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "d117f211-3b8e-448a-bc12-6381e4c1c13c",
+        "product_id": "FR2304757473A",
+        "csp": "Cisco Systems Inc.",
+        "cso": "Cisco Security Cloud for Government",
+        "auth_path": "Agency",
+        "from_status": "",
+        "to_status": "Agency Review",
+        "transition_date": "2026-06-12T22:13:11.139Z",
+        "recorded_date": "2026-06-12T22:13:11.139Z",
         "source": "manual",
         "comments": ""
       }
