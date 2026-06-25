@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-06-24T03:59:20.536Z",
-    "total_entries": 1958,
+    "export_timestamp": "2026-06-25T03:59:17.911Z",
+    "total_entries": 1960,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -25457,6 +25457,32 @@
         "to_status": "Agency Review",
         "transition_date": "2026-06-12T22:13:11.139Z",
         "recorded_date": "2026-06-12T22:13:11.139Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "ac42b75c-cf70-4de6-90eb-c0d36f295eb1",
+        "product_id": "FR2620235600",
+        "csp": "Anecdotes",
+        "cso": "Anecdotes",
+        "cert_path": "",
+        "from_status": "",
+        "to_status": "Authorized",
+        "transition_date": "2026-06-24T22:13:49.342Z",
+        "recorded_date": "2026-06-24T22:13:49.342Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "2295e5e0-37d4-440a-829e-0407278193fa",
+        "product_id": "FR2626247309",
+        "csp": "Groupize, Inc.",
+        "cso": "Groupize",
+        "cert_path": "",
+        "from_status": "",
+        "to_status": "Agency In Process",
+        "transition_date": "2026-06-24T22:13:50.122Z",
+        "recorded_date": "2026-06-24T22:13:50.122Z",
         "source": "manual",
         "comments": ""
       }
