@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-06-26T03:59:25.732Z",
-    "total_entries": 1960,
+    "export_timestamp": "2026-06-27T03:59:18.528Z",
+    "total_entries": 1961,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -25483,6 +25483,19 @@
         "to_status": "Agency In Process",
         "transition_date": "2026-06-24T22:13:50.122Z",
         "recorded_date": "2026-06-24T22:13:50.122Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "82d5b337-3809-4ead-890d-c87dbb0f10dd",
+        "product_id": "FR2220654178",
+        "csp": "Tyler Federal, LLC",
+        "cso": "Tyler Federal Cloud Platform (TFCP)",
+        "cert_path": "",
+        "from_status": "",
+        "to_status": "Agency In Process",
+        "transition_date": "2026-06-26T22:13:42.066Z",
+        "recorded_date": "2026-06-26T22:13:42.066Z",
         "source": "manual",
         "comments": ""
       }
