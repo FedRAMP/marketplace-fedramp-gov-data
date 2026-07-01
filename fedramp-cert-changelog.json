@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-06-30T03:59:21.063Z",
-    "total_entries": 1961,
+    "export_timestamp": "2026-07-01T03:59:22.595Z",
+    "total_entries": 1963,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -25496,6 +25496,32 @@
         "to_status": "Agency In Process",
         "transition_date": "2026-06-26T22:13:42.066Z",
         "recorded_date": "2026-06-26T22:13:42.066Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "8977fe40-84ff-4943-bfd5-9097d3c27f13",
+        "product_id": "FR2624455459",
+        "csp": "Valid8 Financial",
+        "cso": "Valid8 Federal",
+        "cert_path": "Agency",
+        "from_status": "",
+        "to_status": "Agency In Process",
+        "transition_date": "2026-06-30T22:14:46.044Z",
+        "recorded_date": "2026-06-30T22:14:46.044Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "15d14e38-2bd0-483e-b3d9-b26554596a76",
+        "product_id": "FR2625525331",
+        "csp": "Clearview AI, Inc.",
+        "cso": "Clearview GovCloud",
+        "cert_path": "Agency",
+        "from_status": "",
+        "to_status": "Agency In Process",
+        "transition_date": "2026-06-30T22:14:49.259Z",
+        "recorded_date": "2026-06-30T22:14:49.259Z",
         "source": "manual",
         "comments": ""
       }
