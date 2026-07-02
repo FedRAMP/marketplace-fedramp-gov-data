@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-01T03:59:22.595Z",
-    "total_entries": 1963,
+    "export_timestamp": "2026-07-02T03:59:17.517Z",
+    "total_entries": 1964,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -25522,6 +25522,19 @@
         "to_status": "Agency In Process",
         "transition_date": "2026-06-30T22:14:49.259Z",
         "recorded_date": "2026-06-30T22:14:49.259Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "4f74d55b-8f27-4536-85f2-6de3242cd7ec",
+        "product_id": "FR2626461720",
+        "csp": "Optum Serve",
+        "cso": "Optum Serve Federal Platform",
+        "cert_path": "Agency",
+        "from_status": "",
+        "to_status": "FRR",
+        "transition_date": "2026-07-01T22:13:50.904Z",
+        "recorded_date": "2026-07-01T22:13:50.904Z",
         "source": "manual",
         "comments": ""
       }
