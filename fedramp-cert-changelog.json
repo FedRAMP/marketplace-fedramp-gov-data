@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-02T03:59:17.517Z",
-    "total_entries": 1964,
+    "export_timestamp": "2026-07-03T03:59:18.343Z",
+    "total_entries": 1965,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -25535,6 +25535,19 @@
         "to_status": "FRR",
         "transition_date": "2026-07-01T22:13:50.904Z",
         "recorded_date": "2026-07-01T22:13:50.904Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "e547467a-75b9-4c91-80b9-a3230e3a796c",
+        "product_id": "FR2625055623",
+        "csp": "DataRobot",
+        "cso": "DataRobot for Government",
+        "cert_path": "Agency",
+        "from_status": "",
+        "to_status": "FRR",
+        "transition_date": "2026-07-02T22:13:09.922Z",
+        "recorded_date": "2026-07-02T22:13:09.922Z",
         "source": "manual",
         "comments": ""
       }
