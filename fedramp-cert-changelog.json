@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-08T03:59:18.334Z",
-    "total_entries": 1966,
+    "export_timestamp": "2026-07-09T03:59:32.614Z",
+    "total_entries": 1967,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -25561,6 +25561,19 @@
         "to_status": "Agency In Process",
         "transition_date": "2026-07-06T22:13:15.349Z",
         "recorded_date": "2026-07-06T22:13:15.349Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "e5365e1e-a1ae-4b99-8437-3ae3e8606c6e",
+        "product_id": "FR2620739750",
+        "csp": "VisibleThread",
+        "cso": "VisibleThread",
+        "cert_path": "Agency",
+        "from_status": "",
+        "to_status": "FRR",
+        "transition_date": "2026-07-08T22:13:58.248Z",
+        "recorded_date": "2026-07-08T22:13:58.248Z",
         "source": "manual",
         "comments": ""
       }
