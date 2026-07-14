@@ -1,0 +1,553 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "Legacy FedRAMP Marketplace Data",
+  "description": "Schema for the legacy FedRAMP Marketplace data structure (products, agencies, assessors, and their mappings).",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "$ref": "#/definitions/Meta"
+    },
+    "data": {
+      "$ref": "#/definitions/Data"
+    }
+  },
+  "required": ["meta", "data"],
+  "additionalProperties": false,
+  "definitions": {
+    "Meta": {
+      "type": "object",
+      "description": "Metadata describing the provenance of the dataset.",
+      "properties": {
+        "last_change": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The date and time the data was last changed, in ISO 8601 format."
+        },
+        "produced_by": {
+          "type": "string",
+          "description": "The organization that produced the dataset."
+        }
+      },
+      "required": ["last_change", "produced_by"],
+      "additionalProperties": false
+    },
+    "Data": {
+      "type": "object",
+      "description": "The FedRAMP Marketplace dataset payload.",
+      "properties": {
+        "Metrics": {
+          "$ref": "#/definitions/Metrics"
+        },
+        "Filters": {
+          "$ref": "#/definitions/Filters"
+        },
+        "Products": {
+          "type": "array",
+          "description": "The list of Cloud Service Offerings in the marketplace.",
+          "items": {
+            "$ref": "#/definitions/Product"
+          }
+        },
+        "Agencies": {
+          "type": "array",
+          "description": "The list of federal agencies and their initial authorization to operate (ATO) and reuse authorizations.",
+          "items": {
+            "$ref": "#/definitions/Agency"
+          }
+        },
+        "Assessors": {
+          "type": "array",
+          "description": "The list of FedRAMP-recognized Third Party Assessment Organizations (3PAOs).",
+          "items": {
+            "$ref": "#/definitions/Assessor"
+          }
+        },
+        "AtoMapping": {
+          "type": "array",
+          "description": "Mappings of authorizations to operate (ATO) between products and agencies.",
+          "items": {
+            "$ref": "#/definitions/AtoMapping"
+          }
+        },
+        "ReuseMapping": {
+          "type": "array",
+          "description": "Mappings describing reuse of authorizations across agencies.",
+          "items": {
+            "$ref": "#/definitions/ReuseMapping"
+          }
+        }
+      },
+      "required": [
+        "Metrics",
+        "Filters",
+        "Products",
+        "Agencies",
+        "Assessors",
+        "AtoMapping",
+        "ReuseMapping"
+      ],
+      "additionalProperties": false
+    },
+    "Metrics": {
+      "type": "object",
+      "description": "Aggregate metrics about the FedRAMP Marketplace.",
+      "properties": {
+        "ready": {
+          "type": "integer",
+          "description": "The number of Cloud Service Offerings qualified with the FedRAMP Ready designation."
+        },
+        "in_process": {
+          "type": "integer",
+          "description": "The number of Cloud Service Offerings whose FedRAMP certification application is in process."
+        },
+        "total": {
+          "type": "integer",
+          "description": "The total number of Cloud Service Offerings certified by FedRAMP."
+        },
+        "latest": {
+          "type": "array",
+          "description": "The most recent status changes.",
+          "items": {
+            "$ref": "#/definitions/LatestMetric"
+          }
+        }
+      },
+      "required": ["ready", "in_process", "total", "latest"],
+      "additionalProperties": false
+    },
+    "LatestMetric": {
+      "type": "object",
+      "description": "A recent status change for an offering.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "The FedRAMP identifier of the Cloud Servive Offering."
+        },
+        "logo": {
+          "type": "string",
+          "description": "The path or URL to the Cloud Service Offering's logo (may be empty)."
+        },
+        "cso": {
+          "type": "string",
+          "description": "The Cloud Service Offering name."
+        },
+        "date": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The date of the FedRAMP certification status change in ISO 8601 format."
+        },
+        "status": {
+          "type": "string",
+          "description": "The current FedRAMP certification status of the offering."
+        }
+      },
+      "required": ["id", "logo", "cso", "date", "status"],
+      "additionalProperties": false
+    },
+    "Filters": {
+      "type": "object",
+      "description": "Filter option groups for products, agencies, and assessors.",
+      "properties": {
+        "product": {
+          "type": "object",
+          "description": "Filter groups applicable to products.",
+          "properties": {
+            "status": { "$ref": "#/definitions/FilterOptionList" },
+            "business_function": { "$ref": "#/definitions/FilterOptionList" },
+            "service_model": { "$ref": "#/definitions/FilterOptionList" },
+            "impact_level": { "$ref": "#/definitions/FilterOptionList" },
+            "auth_type": { "$ref": "#/definitions/FilterOptionList" },
+            "deployment_models": { "$ref": "#/definitions/FilterOptionList" },
+            "small_business": { "$ref": "#/definitions/FilterOptionList" },
+            "assessor": { "$ref": "#/definitions/FilterOptionList" }
+          },
+          "required": [
+            "status",
+            "business_function",
+            "service_model",
+            "impact_level",
+            "auth_type",
+            "deployment_models",
+            "small_business",
+            "assessor"
+          ],
+          "additionalProperties": false
+        },
+        "agency": {
+          "type": "object",
+          "description": "Filter groups applicable to agencies.",
+          "properties": {
+            "parent_agency": { "$ref": "#/definitions/FilterOptionList" },
+            "authorization": { "$ref": "#/definitions/FilterOptionList" },
+            "reuse": { "$ref": "#/definitions/FilterOptionList" },
+            "impact_level": { "$ref": "#/definitions/FilterOptionList" }
+          },
+          "required": ["parent_agency", "authorization", "reuse", "impact_level"],
+          "additionalProperties": false
+        },
+        "assessor": {
+          "type": "object",
+          "description": "Filter groups applicable to assessors.",
+          "properties": {
+            "product_assessing": { "$ref": "#/definitions/FilterOptionList" },
+            "impact_level": { "$ref": "#/definitions/FilterOptionList" },
+            "status": { "$ref": "#/definitions/FilterOptionList" }
+          },
+          "required": ["product_assessing", "impact_level", "status"],
+          "additionalProperties": false
+        }
+      },
+      "required": ["product", "agency", "assessor"],
+      "additionalProperties": false
+    },
+    "FilterOptionList": {
+      "type": "array",
+      "description": "A list of filter options.",
+      "items": {
+        "$ref": "#/definitions/FilterOption"
+      }
+    },
+    "FilterOption": {
+      "type": "object",
+      "description": "A single selectable filter option.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The display name of the filter option."
+        },
+        "class_name": {
+          "type": "string",
+          "description": "The CSS class name associated with the filter option."
+        }
+      },
+      "required": ["name", "class_name"],
+      "additionalProperties": false
+    },
+    "SystemReference": {
+      "type": "object",
+      "description": "A reference to a Cloud Service Offering with its status and impact level.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "The FedRAMP identifier of the offering."
+        },
+        "csp": {
+          "type": "string",
+          "description": "The Cloud Service Provider name."
+        },
+        "cso": {
+          "type": "string",
+          "description": "The Cloud Service Offering name."
+        },
+        "status": {
+          "type": "string",
+          "description": "The FedRAMP certification status of the offering."
+        },
+        "impact_level": {
+          "type": "string",
+          "description": "The impact level label as defined under FIPS PUB 199 (e.g., 'High', 'Moderate', 'Low')."
+        },
+        "impact_level_number": {
+          "type": "string",
+          "description": "The numeric representation of the impact level as defined under FIPS PUB 199."
+        }
+      },
+      "required": [
+        "id",
+        "csp",
+        "cso",
+        "status",
+        "impact_level",
+        "impact_level_number"
+      ],
+      "additionalProperties": false
+    },
+    "Product": {
+      "type": "object",
+      "description": "A Cloud Service Offering listed in the FedRAMP Marketplace.",
+      "properties": {
+        "id": { "type": "string", "description": "The FedRAMP identifier." },
+        "name": { "type": "string", "description": "The Cloud Service Provider name (duplicate of csp field)." },
+        "csp": { "type": "string", "description": "The Cloud Service Provider name." },
+        "cso": { "type": "string", "description": "The Cloud Service Offering name." },
+        "logo": { "type": "string", "description": "The path or URL to the logo." },
+        "service_offering": { "type": "string", "description": "The Cloud Serice Offering name (duplicate of cso field)." },
+        "status": { "type": "string", "description": "The FedRAMP certification status." },
+        "authorization": { "type": "integer", "description": "The count of total authorizations from agencies." },
+        "reuse": { "type": "integer", "description": "The count of reuses authorizations from agencies." },
+        "ready_status": { "type": "string", "description": "Whether the offering is currently in FedRAMP Ready designation: an ISO date if active, otherwise 'Not Active'." },
+        "ready_date": { "type": "string", "description": "The date the offering became FedRAMP Ready (regardless of current status): an ISO date, otherwise 'No FRR Date'." },
+        "ip_jab_status": { "type": "string", "description": "The in-process legacy Joint Authorization Board (JAB) status. Always 'Not Active' because the JAB no longer exists." },
+        "ip_jab_date": { "type": "string", "description": "The in-process JAB date." },
+        "ip_prog_status": { "type": "string", "description": "The in-process FedRAMP Program Review status for 20x." },
+        "ip_prog_date": { "type": "string", "description": "The in-process FedRAMP Program Review date for 20x." },
+        "ip_prog_date2": { "type": "string", "description": "A secondary in-process FedRAMP Program Review date for 20x." },
+        "ip_agency_status": { "type": "string", "description": "The in-process Agency Authorization Review status for Rev5." },
+        "ip_agency_date": { "type": "string", "description": "The in-process Agency Authorization Review date for Rev5." },
+        "ip_pmo_status": { "type": "string", "description": "The in-process FedRAMP Program Review status for Rev5." },
+        "ip_pmo_date": { "type": "string", "description": "The in-process FedRAMP Program Review date for Rev5." },
+        "auth_date": { "type": "string", "description": "The FedRAMP certification issuance date." },
+        "auth_type": { "type": "string", "description": "The FedRAMP certification type." },
+        "fedramp_ready": { "type": "string", "description": "The FedRAMP Ready date; duplicate of 'ready_date' (an ISO date, otherwise 'No FRR Date')." },
+        "partnering_agency": { "type": "string", "description": "The partnering or sponsoring agency for Rev5." },
+        "fedramp_auth": { "type": "string", "description": "The FedRAMP authorization date; duplicate of 'auth_date'." },
+        "annual_assessment": { "type": "string", "description": "The annual assessment date in the form of MM/DD." },
+        "independent_assessor": { "type": "string", "description": "The Third Party Assessment Organization name." },
+        "service_model": {
+          "type": "array",
+          "description": "The service model(s) (e.g., SaaS, PaaS, IaaS).",
+          "items": { "type": "string" }
+        },
+        "deployment_model": { "type": "string", "description": "The deployment model." },
+        "impact_level": { "type": "string", "description": "The impact level label as defined under FIPS PUB 199." },
+        "impact_level_number": { "type": "string", "description": "The numeric impact level as defined under FIPS PUB 199." },
+        "leveraged_systems": {
+          "type": "array",
+          "description": "The Cloud Service Offerings leveraged by this offering.",
+          "items": { "$ref": "#/definitions/SystemReference" }
+        },
+        "agency_authorizations": {
+          "type": "array",
+          "description": "The names of agencies that have authorized this offering.",
+          "items": { "type": "string" }
+        },
+        "agency_reuse": {
+          "type": "array",
+          "description": "The names of agencies associated with this offering through indirect reuse.",
+          "items": { "type": "string" }
+        },
+        "service_desc": { "type": "string", "description": "The service description." },
+        "fedramp_msg": { "type": "string", "description": "An optional FedRAMP message." },
+        "sales_email": { "type": "string", "description": "The sales contact email." },
+        "security_email": { "type": "string", "description": "The security contact email." },
+        "website": { "type": "string", "description": "The Cloud Service Offering's website." },
+        "uei": { "type": "string", "description": "The Unique Entity Identifier (UEI) from sam.gov." },
+        "small_business": { "type": "string", "description": "The small business indicator ('Yes' or 'No')." },
+        "business_function": {
+          "type": "array",
+          "description": "The business function categories.",
+          "items": { "type": "string" }
+        },
+        "service_last_90": {
+          "type": "array",
+          "description": "Names of new services within the authorization boundary added in the last 90 days.",
+          "items": { "type": "string" }
+        },
+        "all_others": {
+          "type": "array",
+          "description": "Names of associated services within the authorization boundary.",
+          "items": { "type": "string" }
+        },
+        "filter_classes": {
+          "type": "string",
+          "description": "A space-delimited string of filter CSS classes applicable to this product."
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "csp",
+        "cso",
+        "logo",
+        "service_offering",
+        "status",
+        "authorization",
+        "reuse",
+        "ready_status",
+        "ready_date",
+        "ip_jab_status",
+        "ip_jab_date",
+        "ip_prog_status",
+        "ip_prog_date",
+        "ip_prog_date2",
+        "ip_agency_status",
+        "ip_agency_date",
+        "ip_pmo_status",
+        "ip_pmo_date",
+        "auth_date",
+        "auth_type",
+        "fedramp_ready",
+        "partnering_agency",
+        "fedramp_auth",
+        "annual_assessment",
+        "independent_assessor",
+        "service_model",
+        "deployment_model",
+        "impact_level",
+        "impact_level_number",
+        "leveraged_systems",
+        "agency_authorizations",
+        "agency_reuse",
+        "service_desc",
+        "fedramp_msg",
+        "sales_email",
+        "security_email",
+        "website",
+        "uei",
+        "small_business",
+        "business_function",
+        "service_last_90",
+        "all_others",
+        "filter_classes"
+      ],
+      "additionalProperties": false
+    },
+    "Agency": {
+      "type": "object",
+      "description": "A federal agency and its associated initial authorizations, reuse authorizations, and authorization in-process items.",
+      "properties": {
+        "id": { "type": "string", "description": "The agency identifier." },
+        "parent": { "type": "string", "description": "The parent agency name." },
+        "sub": { "type": "string", "description": "The sub-agency name." },
+        "csp": { "type": "string", "description": "The display name for the agency (misnamed field)." },
+        "logo": { "type": "string", "description": "The path or URL to the agency logo." },
+        "authorization": { "type": "integer", "description": "The total count of authorizations." },
+        "reuse": { "type": "integer", "description": "The count of reuse authorizations." },
+        "email": { "type": "string", "description": "The agency contact email." },
+        "website": { "type": "string", "description": "The agency website." },
+        "auths": {
+          "type": "array",
+          "description": "The Cloud Service Offerings the agency has authorized.",
+          "items": { "$ref": "#/definitions/SystemReference" }
+        },
+        "reuses": {
+          "type": "array",
+          "description": "The Cloud Service Offerings the agency reuses.",
+          "items": { "$ref": "#/definitions/SystemReference" }
+        },
+        "procs": {
+          "type": "array",
+          "description": "The Cloud Service Offerings the agency has in process.",
+          "items": { "$ref": "#/definitions/SystemReference" }
+        },
+        "filter_classes": {
+          "type": "string",
+          "description": "A space-delimited string of filter CSS classes applicable to this agency."
+        },
+        "sub_id": {
+          "type": "string",
+          "description": "The sub-agency identifier (optional)."
+        }
+      },
+      "required": [
+        "id",
+        "parent",
+        "sub",
+        "csp",
+        "logo",
+        "authorization",
+        "reuse",
+        "email",
+        "website",
+        "auths",
+        "reuses",
+        "procs",
+        "filter_classes"
+      ],
+      "additionalProperties": false
+    },
+    "Assessor": {
+      "type": "object",
+      "description": "A Third Party Assessment Organization (3PAO).",
+      "properties": {
+        "id": { "type": "integer", "description": "The assessor identifier." },
+        "name": { "type": "string", "description": "The assessor name." },
+        "csp": { "type": "string", "description": "The display name of the assessor (misnamed field)." },
+        "logo": { "type": "string", "description": "The path or URL to the assessor logo." },
+        "products_assessing": { "type": "integer", "description": "The count of products being assessed." },
+        "accredited_since": { "type": "string", "description": "The accreditation start date." },
+        "poc": { "type": "string", "description": "The point of contact." },
+        "email": { "type": "string", "description": "The contact email." },
+        "founded": {
+          "type": ["integer", "string"],
+          "description": "The year the assessor was founded."
+        },
+        "address": { "type": "string", "description": "The assessor's address." },
+        "desc": { "type": "string", "description": "A description of the assessor." },
+        "csps": { "type": "string", "description": "The Cloud Service Providers served as customers." },
+        "frameworks": { "type": "string", "description": "The cybersecurity frameworks the assessor supports evaluating against." },
+        "clients": {
+          "type": "array",
+          "description": "The Cloud Service Offerings the assessor is assessing.",
+          "items": { "$ref": "#/definitions/SystemReference" }
+        },
+        "filter_classes": {
+          "type": "string",
+          "description": "A space-delimited string of filter CSS classes applicable to this assessor."
+        },
+        "services": {
+          "type": "string",
+          "description": "The services the assessor provides (optional)."
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "csp",
+        "logo",
+        "products_assessing",
+        "accredited_since",
+        "poc",
+        "email",
+        "founded",
+        "address",
+        "desc",
+        "csps",
+        "frameworks",
+        "clients",
+        "filter_classes"
+      ],
+      "additionalProperties": false
+    },
+    "AtoMapping": {
+      "type": "object",
+      "description": "A mapping of an authorization to operate (ATO) between a Cloud Service Offering and an agency.",
+      "properties": {
+        "id": { "type": "string", "description": "The FedRAMP identifier of the offering." },
+        "agency_id": { "type": "string", "description": "The agency identifier." },
+        "parent": { "type": "string", "description": "The parent agency name." },
+        "sub": { "type": "string", "description": "The sub-agency name." },
+        "ato_date": { "type": "string", "description": "The ATO issuance date." },
+        "auth_date": { "type": "string", "description": "The authorization date." },
+        "exp_date": { "type": "string", "description": "The ATO expiration date." },
+        "assessment_date": { "type": "string", "description": "The annual assessment date as required under Rev5." }
+      },
+      "required": [
+        "id",
+        "agency_id",
+        "parent",
+        "sub",
+        "ato_date",
+        "auth_date",
+        "exp_date",
+        "assessment_date"
+      ],
+      "additionalProperties": false
+    },
+    "ReuseMapping": {
+      "type": "object",
+      "description": "A mapping describing reuse of an authorization to operate (ATO) by an agency.",
+      "properties": {
+        "id": { "type": "string", "description": "The FedRAMP identifier of the offering." },
+        "agency_id": { "type": "string", "description": "The agency identifier." },
+        "parent": { "type": "string", "description": "The parent agency name." },
+        "sub_id": { "type": "string", "description": "The sub-agency identifier." },
+        "sub": { "type": "string", "description": "The sub-agency name." },
+        "ato_date": { "type": "string", "description": "The ATO issuance date." },
+        "auth_date": { "type": "string", "description": "The authorization date." },
+        "exp_date": { "type": "string", "description": "The ATO expiration date." }
+      },
+      "required": [
+        "id",
+        "agency_id",
+        "parent",
+        "sub_id",
+        "sub",
+        "ato_date",
+        "auth_date",
+        "exp_date"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
