@@ -1,94 +1,11 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-17T18:43:02.410Z",
+    "export_timestamp": "2026-07-17T19:22:47.160Z",
     "total_entries": 5,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
     "frc-cso-pkg": [
-      {
-        "assessor": {
-          "assessorID": "200765",
-          "id": "200765",
-          "name": "MegaPlanIT"
-        },
-        "certifiedServices": [
-          {
-            "dateAvailable": "2026-07-07",
-            "serviceDescription": "Zero-trust / Moving-target-defense secure remote access for ICS/OT systems",
-            "serviceName": "Dispel Zero Trust Engine (DZTE) For Government"
-          }
-        ],
-        "contactInformation": [
-          {
-            "contactEmail": "sales@dispel-federal.com",
-            "contactName": "Dispel Sales",
-            "contactType": "Sales"
-          },
-          {
-            "contactEmail": "security@dispel-federal.com",
-            "contactName": "Dispel Security",
-            "contactType": "Security"
-          }
-        ],
-        "serviceIdentification": {
-          "certificationType": "20x",
-          "fedRampPackageId": "FR2333660884",
-          "logo": "https://api.dispeltrust.com/api/trust-center/public/system/dzte-fedramp-high-001/logo.png",
-          "providerName": "Dispel LLC",
-          "serviceAcronym": "DZTE",
-          "serviceDescription": "DZTE is a Government-only cloud computing SaaS that provides secure remote access to critical systems, enabling customers to implement compensating controls for operational technology and legacy technology environments.",
-          "serviceName": "Dispel Zero Trust Engine (DZTE) For Government",
-          "ueiNumber": "CWVGPF8X5X76",
-          "website": "https://www.dispel.com"
-        },
-        "serviceProperties": {
-          "additionalRepositories": [],
-          "businessCategory": [
-            "Cybersecurity & Risk Management",
-            "Virtual Private Network (VPN)",
-            "Network Management"
-          ],
-          "deploymentModel": "Government-Only Cloud",
-          "digitalIdentityLevel": "IAL3/AAL3/FAL3",
-          "nextOngoingCertificationReportDate": "2026-09-05",
-          "secureConfigurationGuidance": {
-            "accessRequestInstructions": "To request access to the DZTE Secure Configuration Guide, contact security@dispel-federal.com. Access is provided to FedRAMP reviewers and authorized U.S. Government customers.",
-            "authenticationRequired": true,
-            "repositoryDescription": "Dispel's Secure Configuration Guide",
-            "repositoryType": [
-              "Secure Configuration Guidance"
-            ],
-            "url": "https://api.dispeltrust.com/api/trust-center/public/system/dzte-fedramp-high-001/secure-configuration-guide"
-          },
-          "serviceType": [
-            "SaaS"
-          ]
-        },
-        "thirdPartyInformationResources": {
-          "certified": [
-            {
-              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
-              "useCase": "FedRAMP-authorized IaaS providing the compute, storage, and networking that hosts the DZTE service within the U.S. Government-only AWS GovCloud region."
-            },
-            {
-              "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
-              "useCase": "FedRAMP-authorized SIEM/SOAR platform providing security information and event management (SIEM) and security orchestration, automation, and response (SOAR) for continuous security monitoring of the DZTE service."
-            },
-            {
-              "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
-              "useCase": "Corporate identity, email, and collaboration services supporting Dispel personnel who operate and administer the DZTE service."
-            },
-            {
-              "fedRampCertifiedThirdPartyInformationResource": "FR1919071020A",
-              "useCase": "FedRAMP-authorized Endpoint Detection and Response (EDR) providing continuous threat monitoring and response for the DZTE service infrastructure and administrative endpoints."
-            }
-          ]
-        },
-        "ZD_frid_retro": "FR2628647233",
-        "id_matches_expected": "FALSE",
-        "last_fetched_timestamp": "2026-07-17T18:42:50Z"
-      },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "serviceIdentification": {
@@ -189,15 +106,98 @@
             }
           ]
         },
-        "ZD_frid_retro": "FR2628647238",
+        "ZD_frid_retro": "",
         "id_matches_expected": "FALSE",
-        "last_fetched_timestamp": "2026-07-17T18:42:55Z"
+        "last_fetched_timestamp": "2026-07-17T19:22:43Z"
+      },
+      {
+        "assessor": {
+          "assessorID": "200765",
+          "id": "200765",
+          "name": "MegaPlanIT"
+        },
+        "certifiedServices": [
+          {
+            "dateAvailable": "2026-07-07",
+            "serviceDescription": "Zero-trust / Moving-target-defense secure remote access for ICS/OT systems",
+            "serviceName": "Dispel Zero Trust Engine (DZTE) For Government"
+          }
+        ],
+        "contactInformation": [
+          {
+            "contactEmail": "sales@dispel-federal.com",
+            "contactName": "Dispel Sales",
+            "contactType": "Sales"
+          },
+          {
+            "contactEmail": "security@dispel-federal.com",
+            "contactName": "Dispel Security",
+            "contactType": "Security"
+          }
+        ],
+        "serviceIdentification": {
+          "certificationType": "20x",
+          "fedRampPackageId": "FR2333660884",
+          "logo": "https://api.dispeltrust.com/api/trust-center/public/system/dzte-fedramp-high-001/logo.png",
+          "providerName": "Dispel LLC",
+          "serviceAcronym": "DZTE",
+          "serviceDescription": "DZTE is a Government-only cloud computing SaaS that provides secure remote access to critical systems, enabling customers to implement compensating controls for operational technology and legacy technology environments.",
+          "serviceName": "Dispel Zero Trust Engine (DZTE) For Government",
+          "ueiNumber": "CWVGPF8X5X76",
+          "website": "https://www.dispel.com"
+        },
+        "serviceProperties": {
+          "additionalRepositories": [],
+          "businessCategory": [
+            "Cybersecurity & Risk Management",
+            "Virtual Private Network (VPN)",
+            "Network Management"
+          ],
+          "deploymentModel": "Government-Only Cloud",
+          "digitalIdentityLevel": "IAL3/AAL3/FAL3",
+          "nextOngoingCertificationReportDate": "2026-09-05",
+          "secureConfigurationGuidance": {
+            "accessRequestInstructions": "To request access to the DZTE Secure Configuration Guide, contact security@dispel-federal.com. Access is provided to FedRAMP reviewers and authorized U.S. Government customers.",
+            "authenticationRequired": true,
+            "repositoryDescription": "Dispel's Secure Configuration Guide",
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://api.dispeltrust.com/api/trust-center/public/system/dzte-fedramp-high-001/secure-configuration-guide"
+          },
+          "serviceType": [
+            "SaaS"
+          ]
+        },
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+              "useCase": "FedRAMP-authorized IaaS providing the compute, storage, and networking that hosts the DZTE service within the U.S. Government-only AWS GovCloud region."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+              "useCase": "FedRAMP-authorized SIEM/SOAR platform providing security information and event management (SIEM) and security orchestration, automation, and response (SOAR) for continuous security monitoring of the DZTE service."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+              "useCase": "Corporate identity, email, and collaboration services supporting Dispel personnel who operate and administer the DZTE service."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1919071020A",
+              "useCase": "FedRAMP-authorized Endpoint Detection and Response (EDR) providing continuous threat monitoring and response for the DZTE service infrastructure and administrative endpoints."
+            }
+          ]
+        },
+        "ZD_frid_retro": "",
+        "id_matches_expected": "FALSE",
+        "last_fetched_timestamp": "2026-07-17T19:22:46Z"
       },
       {
         "assessor": {
           "assessorID": "000000",
           "id": "000000",
-          "name": "TODO ? 3PAO engagement pending (RFQ in progress)"
+          "name": "Not yet assigned ? independent assessment (IV&V) in procurement"
         },
         "certifiedServices": [
           {
@@ -240,8 +240,11 @@
         "serviceIdentification": {
           "cageCode": "627S4",
           "certificationType": "20x",
+          "fedRampId": "FR2628647238",
           "fedRampPackageId": "ADVENTBUSINESS-ENB",
+          "implementationPhase": "Initial Implementation",
           "logo": "https://enablement.cc/assets/enablement/logo.png",
+          "marketplaceUrl": "https://fedramp.gov/marketplace/products/FR2628647238",
           "providerName": "Advent Business Company Inc.",
           "serviceAcronym": "ENB",
           "serviceDescription": "Enablement? is a multi-tenant BPMN-driven business process platform with an integrated Continuous Monitoring service: operated credentialed vulnerability scanning (OpenVAS/GVM), container and IaC scanning (Trivy), cloud security posture management (Prowler), and agent-based CVE/SCA monitoring (Wazuh), with OSCAL and FedRAMP CR26 machine-readable outputs.",
@@ -442,9 +445,9 @@
             }
           ]
         },
-        "ZD_frid_retro": "FR2628647238",
+        "ZD_frid_retro": "",
         "id_matches_expected": "FALSE",
-        "last_fetched_timestamp": "2026-07-17T18:42:56Z"
+        "last_fetched_timestamp": "2026-07-17T19:22:46Z"
       },
       {
         "serviceIdentification": {
@@ -508,7 +511,7 @@
           "id": "202040",
           "assessorID": "202040"
         },
-        "ZD_frid_retro": "FR2628647241",
+        "ZD_frid_retro": "",
         "id_matches_expected": "FALSE",
         "last_fetched_timestamp": "2026-07-17T18:14:32Z"
       },
@@ -645,9 +648,9 @@
             }
           ]
         },
-        "ZD_frid_retro": "FR2628647242",
+        "ZD_frid_retro": "",
         "id_matches_expected": "FALSE",
-        "last_fetched_timestamp": "2026-07-17T18:43:01Z"
+        "last_fetched_timestamp": "2026-07-17T19:22:47Z"
       }
     ]
   }
