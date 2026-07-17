@@ -1,0 +1,654 @@
+{
+  "metadata": {
+    "export_timestamp": "2026-07-17T18:43:02.410Z",
+    "total_entries": 5,
+    "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
+  },
+  "data": {
+    "frc-cso-pkg": [
+      {
+        "assessor": {
+          "assessorID": "200765",
+          "id": "200765",
+          "name": "MegaPlanIT"
+        },
+        "certifiedServices": [
+          {
+            "dateAvailable": "2026-07-07",
+            "serviceDescription": "Zero-trust / Moving-target-defense secure remote access for ICS/OT systems",
+            "serviceName": "Dispel Zero Trust Engine (DZTE) For Government"
+          }
+        ],
+        "contactInformation": [
+          {
+            "contactEmail": "sales@dispel-federal.com",
+            "contactName": "Dispel Sales",
+            "contactType": "Sales"
+          },
+          {
+            "contactEmail": "security@dispel-federal.com",
+            "contactName": "Dispel Security",
+            "contactType": "Security"
+          }
+        ],
+        "serviceIdentification": {
+          "certificationType": "20x",
+          "fedRampPackageId": "FR2333660884",
+          "logo": "https://api.dispeltrust.com/api/trust-center/public/system/dzte-fedramp-high-001/logo.png",
+          "providerName": "Dispel LLC",
+          "serviceAcronym": "DZTE",
+          "serviceDescription": "DZTE is a Government-only cloud computing SaaS that provides secure remote access to critical systems, enabling customers to implement compensating controls for operational technology and legacy technology environments.",
+          "serviceName": "Dispel Zero Trust Engine (DZTE) For Government",
+          "ueiNumber": "CWVGPF8X5X76",
+          "website": "https://www.dispel.com"
+        },
+        "serviceProperties": {
+          "additionalRepositories": [],
+          "businessCategory": [
+            "Cybersecurity & Risk Management",
+            "Virtual Private Network (VPN)",
+            "Network Management"
+          ],
+          "deploymentModel": "Government-Only Cloud",
+          "digitalIdentityLevel": "IAL3/AAL3/FAL3",
+          "nextOngoingCertificationReportDate": "2026-09-05",
+          "secureConfigurationGuidance": {
+            "accessRequestInstructions": "To request access to the DZTE Secure Configuration Guide, contact security@dispel-federal.com. Access is provided to FedRAMP reviewers and authorized U.S. Government customers.",
+            "authenticationRequired": true,
+            "repositoryDescription": "Dispel's Secure Configuration Guide",
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://api.dispeltrust.com/api/trust-center/public/system/dzte-fedramp-high-001/secure-configuration-guide"
+          },
+          "serviceType": [
+            "SaaS"
+          ]
+        },
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+              "useCase": "FedRAMP-authorized IaaS providing the compute, storage, and networking that hosts the DZTE service within the U.S. Government-only AWS GovCloud region."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+              "useCase": "FedRAMP-authorized SIEM/SOAR platform providing security information and event management (SIEM) and security orchestration, automation, and response (SOAR) for continuous security monitoring of the DZTE service."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+              "useCase": "Corporate identity, email, and collaboration services supporting Dispel personnel who operate and administer the DZTE service."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1919071020A",
+              "useCase": "FedRAMP-authorized Endpoint Detection and Response (EDR) providing continuous threat monitoring and response for the DZTE service infrastructure and administrative endpoints."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2628647233",
+        "id_matches_expected": "FALSE",
+        "last_fetched_timestamp": "2026-07-17T18:42:50Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "serviceIdentification": {
+          "fedRampPackageId": "Eleven Labs Inc. (ElevenLabs)",
+          "ueiNumber": "SGN5YJ1W8418",
+          "providerName": "Eleven Labs Inc.",
+          "serviceName": "ElevenLabs Platform",
+          "serviceAcronym": "ElevenLabs",
+          "serviceDescription": "The ElevenLabs Platform is a cloud-based AI voice and audio service that enables organizations to generate, transform, and deploy AI-produced speech and audio at scale. The FedRAMP Class A certification scope of the offering comprises three services ? Text to Speech, Speech to Text, and Agents ? delivered via the ElevenLabs API and the ElevenAgents platform, and applies only when the services are operated in Zero Retention Mode (ZRM), in which customer inputs and outputs are not retained and only system and audit data is persisted. All services share a common identity and access management layer, workspace-based multi-tenancy, and a unified data plane, with capabilities accessible to enterprise workspace administrators and developers integrating via API.",
+          "certificationType": "20x",
+          "website": "https://elevenlabs.io",
+          "logo": "https://eleven-public-cdn.elevenlabs.io/payloadcms/elevenlabs-official-logo.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "digitalIdentityLevel": "IAL1 / AAL2 / FAL2",
+          "businessCategory": [
+            "Artificial Intelligence (AI)"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://compliance.elevenlabs.io",
+            "repositoryDescription": "The ElevenLabs Compliance Repository is a collection of documents that are used to demonstrate that the ElevenLabs Platform is compliant with a number of different requirements, including the requirements of the FedRAMP program.",
+            "authenticationRequired": false
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://elevenlabs.io/docs/eleven-api/guides/how-to/best-practices/security",
+            "repositoryDescription": "Public secure configuration guidance for the ElevenLabs Platform, covering encryption in transit and at rest, cryptographic module validation, identity and access management (SSO and SCIM), API credential security, data protection (including Zero Retention Mode and data residency), monitoring and audit logging, webhook security, and recommended configuration for regulated workloads.",
+            "authenticationRequired": false
+          },
+          "additionalRepositories": []
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Security Team",
+            "contactEmail": "fedramp-security@elevenlabs.io"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Sales Team",
+            "contactEmail": "fedramp-sales@elevenlabs.io"
+          }
+        ],
+        "assessor": {
+          "name": "No assessor engaged, Class A self-attestation, independent assessment planned for the B/C/D track, and the ID is a schema-format placeholder",
+          "id": "000000",
+          "assessorID": "000000"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Text to Speech",
+            "serviceDescription": "AI speech synthesis via the ElevenLabs API, converting text to natural-sounding audio across 32?70+ languages depending on model, with Python and TypeScript SDKs. Included in the FedRAMP Class A certification scope only when operated in Zero Retention Mode (ZRM): customer inputs and outputs are processed but not retained.",
+            "dateAvailable": "2026-08-03"
+          },
+          {
+            "serviceName": "Speech to Text",
+            "serviceDescription": "AI transcription via the ElevenLabs API, with word-level timestamps, speaker diarization, and entity detection across 90+ languages. Included in the FedRAMP Class A certification scope only when operated in Zero Retention Mode (ZRM): customer inputs and outputs are processed but not retained.",
+            "dateAvailable": "2026-08-03"
+          },
+          {
+            "serviceName": "Agents",
+            "serviceDescription": "ElevenAgents: a platform for designing, deploying, and operating real-time conversational voice agents, accessible through the elevenlabs.io dashboard and programmatically via the ElevenLabs API, conducting low-latency bidirectional voice conversations over WebRTC or telephony channels. Included in the FedRAMP Class A certification scope only when operated in Zero Retention Mode (ZRM); optional customer-enabled external integrations (third-party LLM providers, telephony) are outside the certified configuration and disabled by default for federal use.",
+            "dateAvailable": "2026-08-03"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+              "useCase": "Underlying FedRAMP-certified (High) cloud infrastructure and platform services (GCP) hosting the entire ElevenLabs trust boundary; inherit IaaS/PaaS controls via the GCP CRM."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+              "useCase": "FedRAMP-certified (Moderate) cloud infrastructure and platform services (AWS US East/West regions) supporting portions of the ElevenLabs trust boundary; inherit IaaS/PaaS controls via the AWS Customer Responsibility Matrix. Note: applies to the commercial AWS US East/West authorization (AGENCYAMAZONEW); AWS GovCloud (US) is a separate High package (F1603047866) not currently used."
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "MongoDB Atlas (commercial)",
+              "provider": "MongoDB, Inc.",
+              "website": "https://www.mongodb.com",
+              "useCase": "Managed NoSQL document database supporting application and workspace data for the offering, deployed in US regions. The commercial MongoDB Atlas environment is not FedRAMP certified; MongoDB Atlas for Government (FR2122150307) is a separate, physically distinct authorized environment not used by this offering.",
+              "generalUsageAndConfiguration": "MongoDB Atlas clusters deployed on cloud infrastructure in US regions, storing application and workspace data. Under Zero Retention Mode ? required for the certified configuration of this offering ? customer inputs and outputs are not retained in any datastore, including Atlas.",
+              "justificationForUse": "Managed document-database capabilities supporting the platform?s application data needs.",
+              "mitigationMeasures": "All Atlas traffic is TLS-encrypted by default (supported by the OpenSSL FIPS Object Module) and all data is encrypted at rest with AES-256; deployment is restricted to US regions. Per MongoDB?s Technical and Organizational Security Measures ?4.2, MongoDB personnel are not authorized to access customer clusters by default; only a small group of background-checked Privileged Users may access clusters in rare cases to restore critical services, via a gated process requiring a bastion host, multi-factor authentication, and MongoDB senior-management approval, limited to the minimum time and extent necessary.",
+              "compensatingControls": "Per MongoDB's Technical and Organizational Security Measures ?4.2.3?4.2.4: Privileged User accounts are individually credentialed (no shared credentials) and used only for privileged activities; Privileged User authorizations are reviewed quarterly and revoked within 24 hours of role change or departure; all MongoDB personnel access to customer clusters is logged, with audit records retained for at least six years and subject to automated and human review. MongoDB Atlas is certified against ISO/IEC 27001:2022, ISO 27017, ISO 27018, and SOC 2 Type II. Reference: https://www.mongodb.com/legal/customer-service-agreement/technical-and-organizational-security-measures",
+              "fedRampStatus": "Not certified (commercial Atlas); Atlas for Government is a separate FedRAMP Moderate authorized environment",
+              "disposition": "Retained with documented mitigations;"
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2628647238",
+        "id_matches_expected": "FALSE",
+        "last_fetched_timestamp": "2026-07-17T18:42:55Z"
+      },
+      {
+        "assessor": {
+          "assessorID": "000000",
+          "id": "000000",
+          "name": "TODO ? 3PAO engagement pending (RFQ in progress)"
+        },
+        "certifiedServices": [
+          {
+            "dateAvailable": "2026-04-17",
+            "serviceDescription": "Operated credentialed vulnerability scanning, CSPM, container/IaC scanning, and agent-based monitoring with OSCAL + CR26 machine-readable compliance deliverables.",
+            "serviceName": "Enablement Continuous Monitoring"
+          }
+        ],
+        "contactInformation": [
+          {
+            "contactEmail": "rajesh@adventbusiness.com",
+            "contactName": "Security Team",
+            "contactType": "Security"
+          },
+          {
+            "contactEmail": "support@adventbusiness.com",
+            "contactName": "Sales Team",
+            "contactType": "Sales"
+          },
+          {
+            "contactEmail": "fedramp-security@adventbusiness.com",
+            "contactName": "FedRAMP Security Inbox (AFC-CSO-INB)",
+            "contactType": "FedRAMP Security Inbox"
+          }
+        ],
+        "enablementArtifacts": {
+          "machineReadable": {
+            "avi": "https://enablement.cc/ml/20x/avi?src_id=53",
+            "historical": "https://enablement.cc/ml/20x/historical?src_id=53",
+            "ksi": "https://enablement.cc/ml/20x/ksi?src_id=53",
+            "ocr": "https://enablement.cc/ml/20x/ocr?src_id=53",
+            "oscal_ar": "https://enablement.cc/ml/oscal/assessment-results?src_id=53",
+            "oscal_poam": "https://enablement.cc/ml/oscal/poam?src_id=53",
+            "sdr": "https://enablement.cc/ml/20x/sdr?src_id=53",
+            "vdr": "https://enablement.cc/ml/20x/vdr?src_id=53"
+          },
+          "rulesVersion": "2026.07.01.01",
+          "schemaPin": "2026-06-24"
+        },
+        "serviceIdentification": {
+          "cageCode": "627S4",
+          "certificationType": "20x",
+          "fedRampPackageId": "ADVENTBUSINESS-ENB",
+          "logo": "https://enablement.cc/assets/enablement/logo.png",
+          "providerName": "Advent Business Company Inc.",
+          "serviceAcronym": "ENB",
+          "serviceDescription": "Enablement? is a multi-tenant BPMN-driven business process platform with an integrated Continuous Monitoring service: operated credentialed vulnerability scanning (OpenVAS/GVM), container and IaC scanning (Trivy), cloud security posture management (Prowler), and agent-based CVE/SCA monitoring (Wazuh), with OSCAL and FedRAMP CR26 machine-readable outputs.",
+          "serviceName": "Enablement?",
+          "uei": "C7LGVA7B5JT1",
+          "website": "https://enablement.cc"
+        },
+        "serviceProperties": {
+          "additionalRepositories": [
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Vulnerability Detail Report (VER-RPT-VDT)",
+              "repositoryType": [
+                "Machine-Readable Authorization Data"
+              ],
+              "url": "https://enablement.cc/ml/20x/vdr?src_id=53"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Accepted Vulnerability Info (VER-RPT-AVI)",
+              "repositoryType": [
+                "Machine-Readable Authorization Data"
+              ],
+              "url": "https://enablement.cc/ml/20x/avi?src_id=53"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Historical VER activity for automated retrieval (VER-TFR-MRH)",
+              "repositoryType": [
+                "Machine-Readable Authorization Data"
+              ],
+              "url": "https://enablement.cc/ml/20x/historical?src_id=53"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Ongoing Certification Report (CCM-OCR-AVL)",
+              "repositoryType": [
+                "Machine-Readable Authorization Data"
+              ],
+              "url": "https://enablement.cc/ml/20x/ocr?src_id=53"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Security Decision Record (SDR-CSO-FRR)",
+              "repositoryType": [
+                "Machine-Readable Authorization Data"
+              ],
+              "url": "https://enablement.cc/ml/20x/sdr?src_id=53"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "KSI evidence report (FRC-CSX-VVK / FRC-CSX-MOT)",
+              "repositoryType": [
+                "Machine-Readable Authorization Data"
+              ],
+              "url": "https://enablement.cc/ml/20x/ksi?src_id=53"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Rev5 OSCAL Plan of Action & Milestones",
+              "repositoryType": [
+                "Machine-Readable Authorization Data"
+              ],
+              "url": "https://enablement.cc/ml/oscal/poam?src_id=53"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Rev5 OSCAL Assessment Results",
+              "repositoryType": [
+                "Machine-Readable Authorization Data"
+              ],
+              "url": "https://enablement.cc/ml/oscal/assessment-results?src_id=53"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Incident Evaluation & Communication runbook (IEC-CSO-*)",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/iec-runbook"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "KSI Self-Assessment ? 46 Class C KSIs with implementation, evidence pointers, and self-verdicts (IVV Verify-step input)",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/ksi-self-assessment"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Minimum Assessment Scope (MAS-CSO-*)",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/mas"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Plan of Action & Milestones ? open 20x items",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/poam"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Class C ruleset status tracker (all 15 rulesets)",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/ruleset-status"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Significant Change Notification process (SCN-CSO-*)",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/scn-process"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "KSI Validation Design & Measurement System ? end-to-end trace of every automated validation method (scope, source, code/thresholds, failure semantics, preservation) per the 20x assessor guidance",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/validation-design"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Assessment document index + supporting evidence records (SSP appendices, signed records, boundary diagrams)",
+              "repositoryType": [
+                "Assessment Documentation",
+                "Evidence Repository"
+              ],
+              "url": "https://enablement.cc/ml/20x/docs"
+            }
+          ],
+          "businessCategory": [
+            "Cybersecurity & Risk Management",
+            "Governance, Risk, and Compliance (GRC)"
+          ],
+          "deploymentModel": "Public Cloud",
+          "digitalIdentityLevel": "IAL2/AAL2",
+          "nextOngoingCertificationReportDate": "2026-10-01",
+          "secureConfigurationGuide": "https://enablement.cc/ml/20x/scg",
+          "serviceType": [
+            "SaaS"
+          ],
+          "trustCenter": {
+            "accessRequestInstructions": "Public page. Tokens for access-controlled artifacts: rajesh@adventbusiness.com",
+            "authenticationRequired": false,
+            "repositoryDescription": "Enablement FedRAMP Trust Center: public offering summary and SCG; token-gated programmatic access to certification artifacts with per-access logging (CDS-TRC-USH/PAC/AAI).",
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://enablement.cc/ml/20x/trust"
+          }
+        },
+        "thirdPartyInformationResources": {
+          "nonCertified": [
+            {
+              "name": "OpenVAS / GVM",
+              "provider": "Greenbone",
+              "useCase": "Network vulnerability scanning engine (self-hosted)."
+            },
+            {
+              "name": "Trivy",
+              "provider": "Aqua Security",
+              "useCase": "Container image and IaC scanning (self-hosted)."
+            },
+            {
+              "name": "Prowler",
+              "provider": "Prowler",
+              "useCase": "Cloud security posture management (self-hosted)."
+            },
+            {
+              "name": "Wazuh",
+              "provider": "Wazuh Inc.",
+              "useCase": "Agent-based CVE inventory and SCA (self-hosted)."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2628647238",
+        "id_matches_expected": "FALSE",
+        "last_fetched_timestamp": "2026-07-17T18:42:56Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "Partos",
+          "ueiNumber": "DCXZNU8JTTM9",
+          "providerName": "Partos Inc.",
+          "serviceName": "Partos for Government",
+          "serviceAcronym": "Partos",
+          "serviceDescription": "Partos is an AI-native operating system for the U.S. aerospace and defense supply chain, unifying prime contractors, suppliers, and sub-tier vendors in a single Government Community Cloud environment on AWS GovCloud (US). Partos accelerates supplier onboarding and vetting with continuous KYB, KYC, AML, and OFAC screening and compliance monitoring across ITAR, EAR export controls, and DFARS. It delivers end-to-end, multi-tier supply chain risk visibility and active risk management, and orchestrates domestic and international supplier payments?ACH, RTP, and wires?with compliance tracing preserved throughout. The platform leverages export control regulatory frameworks (including ITAR, EAR, and CUI) to automatically enforce data access boundaries. Access is dynamically controlled based on variables like nationality and geographic location, ensuring continuous compliance at every layer. A unified data ontology and pipeline layer powers Partos AI, a multi-agent, multimodal system in which specialized agents collaborate to answer questions and act across the entire supply chain. Partos AI works both reactively and proactively?agents operate as an extension of your team, monitoring, surfacing risks, and advancing work 24/7 rather than only responding on request. Partos AI is model-agnostic (open-source and proprietary), extensible via a no-code workflow builder and REST, WebSocket, SSE, and MCP interfaces, and embeddable in any enterprise application. It supports multi- and single-tenancy, multiple IdPs and SSO, SCIM provisioning, and granular role-, group-, and permission-based access. Customers retain full ownership and exportability of their data and the AI's memory.",
+          "certificationType": "20x",
+          "website": "https://partos.ai",
+          "logo": "https://cdn.partos.ai/fedramp/logo.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Government Community Cloud",
+          "digitalIdentityLevel": "IAL2/AAL2/FAL2",
+          "businessCategory": [
+            "Artificial Intelligence (AI)",
+            "Governance, Risk, and Compliance (GRC)",
+            "Cybersecurity & Risk Management",
+            "Operations Management",
+            "Data Management",
+            "Analytics",
+            "Development Tools",
+            "Legal & Policy",
+            "Finance",
+            "Accounting"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.partos.ai",
+            "repositoryDescription": "Central access point for Partos for Government FedRAMP Certification Data, including current certification progress, security posture, continuous monitoring evidence, and machine- and human-readable certification artifacts. Provides federal agencies and authorized parties with self-service access and instructions for requesting FedRAMP Certification Data.",
+            "authenticationRequired": false
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://partos.ai/fedramp/secure-configuration-guide-SCG-CSO-PUB",
+            "repositoryDescription": "Guidance for securely accessing, configuring, and operating Partos for Government, including administrative account setup and hardening. Contains the Secure Configuration Guide.",
+            "authenticationRequired": false
+          }
+        },
+        "contactInformation": [
+          {
+            "contactType": "Sales",
+            "contactEmail": "federal@partos.ai"
+          },
+          {
+            "contactType": "Security",
+            "contactEmail": "security@partos.ai"
+          }
+        ],
+        "assessor": {
+          "name": "Prescient Security LLC",
+          "id": "202040",
+          "assessorID": "202040"
+        },
+        "ZD_frid_retro": "FR2628647241",
+        "id_matches_expected": "FALSE",
+        "last_fetched_timestamp": "2026-07-17T18:14:32Z"
+      },
+      {
+        "serviceIdentification": {
+          "providerName": "Bland AI",
+          "serviceName": "Bland",
+          "serviceAcronym": "Bland",
+          "serviceDescription": "Bland is an enterprise voice AI platform for building, deploying, and operating AI phone agents at scale. Bland runs its own speech and language models, so customer calls are not sent to third-party frontier model providers.",
+          "certificationType": "20x",
+          "fedRampPackageId": "Bland AI - Bland",
+          "ueiNumber": "Not Applicable",
+          "website": "https://www.bland.ai",
+          "logo": "https://www.bland.ai/images/bland-logo.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "PaaS"
+          ],
+          "deploymentModel": "Government-Only Cloud",
+          "digitalIdentityLevel": "IAL: customer/agency-managed or not performed by Bland; AAL2 for Bland-managed administrative authentication where MFA is enforced; FAL2 where federated SSO is configured",
+          "businessCategory": [
+            "Artificial Intelligence (AI)",
+            "Contact Center"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.bland-gov.com/",
+            "repositoryDescription": "Bland FedRAMP Trust Center. FedRAMP package and security documentation for federal agencies and recognized assessors.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://trust.bland-gov.com/resources?s=8udmre29tx8im63a7l6bhw&name=bland-ai-secure-configuration-guide.pdf",
+            "repositoryDescription": "Bland AI secure configuration guide: hardening and configuration guidance for operating Bland securely (SCG-CSO-RSC).",
+            "authenticationRequired": false
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Documentation Catalog"
+              ],
+              "url": "https://trust.bland-gov.com/",
+              "repositoryDescription": "Catalog of all policies and procedures (name, version, date updated, summary). Available on the Trust Center in human-readable and machine-readable format.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+            },
+            {
+              "repositoryType": [
+                "Quarterly Certification Progress Report"
+              ],
+              "url": "https://trust.bland-gov.com/",
+              "repositoryDescription": "Detailed quarterly roadmap: completed milestones, current work, upcoming work, and assessment timeline.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+            },
+            {
+              "repositoryType": [
+                "Assessment Deadline"
+              ],
+              "url": "https://trust.bland-gov.com/",
+              "repositoryDescription": "Official statement of work from Prescient Security documenting Bland?s commitment to a Class C assessment within the next 24 months.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+            }
+          ],
+          "nextOngoingCertificationReportDate": "2026-07-31"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Bland FedRAMP",
+            "contactEmail": "fedramp@bland.ai"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Bland Federal Sales",
+            "contactEmail": "sales@bland.ai"
+          }
+        ],
+        "assessor": {
+          "name": "Prescient Security, LLC.",
+          "id": "202040",
+          "assessorID": "202040"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Voice agents",
+            "serviceDescription": "AI phone agents that answer inbound calls and place outbound calls, hold natural spoken conversations, and act on what the caller needs. Each agent follows a configurable conversation pathway, a decision tree that interprets the caller?s intent and then routes the call or takes an action such as scheduling, sending follow-ups, taking payments, answering questions from an approved knowledge base, or escalating to a person. Speech-to-text, reasoning, and text-to-speech all run on Bland?s own models inside Bland?s boundary.",
+            "dateAvailable": "2026-07-13"
+          },
+          {
+            "serviceName": "SMS",
+            "serviceDescription": "Programmatic two-way text messaging driven by the same pathway logic as voice agents. Agents send and respond to messages for notifications, reminders, status updates, and structured question-and-answer flows, triggering the same actions as a voice agent, such as scheduling, follow-ups, and record updates, over text rather than a call.",
+            "dateAvailable": "2026-07-13"
+          },
+          {
+            "serviceName": "Chat",
+            "serviceDescription": "Web and in-app chat agents that run on the same conversation pathways and actions as voice and SMS, embedded in an agency?s web properties for self-service. Chat shares the rule sets, knowledge, and integrations of the other channels, so a constituent gets the same answers and outcomes no matter how they reach out.",
+            "dateAvailable": "2026-07-13"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "name": "AWS GovCloud",
+              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+              "useCase": "Cloud infrastructure hosting the Bland service."
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "Cloudflare",
+              "provider": "Cloudflare",
+              "website": "https://www.cloudflare.com",
+              "useCase": "Network edge and application security in front of the Bland service."
+            },
+            {
+              "name": "Okta",
+              "provider": "Okta",
+              "website": "https://www.okta.com",
+              "useCase": "Identity provider for Bland-managed administrative authentication."
+            },
+            {
+              "name": "Twilio",
+              "provider": "Twilio",
+              "website": "https://www.twilio.com",
+              "useCase": "Telephony carrier connectivity (PSTN) for voice calls."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2628647242",
+        "id_matches_expected": "FALSE",
+        "last_fetched_timestamp": "2026-07-17T18:43:01Z"
+      }
+    ]
+  }
+}
