@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-17T18:42:37.315Z",
-    "total_entries": 1968,
+    "export_timestamp": "2026-07-17T20:56:27.779Z",
+    "total_entries": 1974,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -25588,6 +25588,84 @@
         "transition_date": "2026-07-15T21:35:28.098Z",
         "recorded_date": "2026-07-15T21:35:28.098Z",
         "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "067f49c9-4292-4266-ba40-2938a64cf434",
+        "product_id": "FR2628650874",
+        "csp": "Pincus Technologies Inc (dba Tarly)",
+        "cso": "Tarly Cowork",
+        "cert_path": "Program",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-07-17T19:33:03Z",
+        "recorded_date": "2026-07-17T20:49:35.646Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "42194701-37fb-468d-ba19-30a1596e2b78",
+        "product_id": "FR2628647233",
+        "csp": "Dispel LLC",
+        "cso": "Dispel Zero Trust Engine (DZTE)",
+        "cert_path": "Program",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-07-17T19:33:07Z",
+        "recorded_date": "2026-07-17T20:49:35.646Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "4c2d6cef-3df0-4289-a43c-4150b65fa9c1",
+        "product_id": "FR2628647238",
+        "csp": "Eleven Labs Inc.",
+        "cso": "ElevenLabs Platform",
+        "cert_path": "Program",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-07-17T19:33:12Z",
+        "recorded_date": "2026-07-17T20:49:35.646Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "b36e1bc7-54ba-4e3a-b143-1e39ffe76d1b",
+        "product_id": "FR2628647241",
+        "csp": "Partos Inc.",
+        "cso": "Partos for Government",
+        "cert_path": "Program",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-07-17T18:14:32Z",
+        "recorded_date": "2026-07-17T20:49:35.646Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "48ba7fbc-0884-4797-8e88-a07978f45841",
+        "product_id": "FR2628647242",
+        "csp": "Bland AI",
+        "cso": "Bland",
+        "cert_path": "Program",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-07-17T19:33:18Z",
+        "recorded_date": "2026-07-17T20:49:35.646Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "20f5e2c3-f8f0-42af-87e7-9b5ccb10a029",
+        "product_id": "FR2628647239",
+        "csp": "Advent Business Company Inc.",
+        "cso": "Enablement@",
+        "cert_path": "Program",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-07-17T19:33:14Z",
+        "recorded_date": "2026-07-17T20:49:35.646Z",
+        "source": "frc-cso-pkg",
         "comments": ""
       }
     ]
