@@ -1,11 +1,248 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-17T19:22:47.160Z",
-    "total_entries": 5,
+    "export_timestamp": "2026-07-17T19:33:37.624Z",
+    "total_entries": 6,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
     "frc-cso-pkg": [
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "serviceIdentification": {
+          "fedRampPackageId": "Tarly Cowork (TARLY)",
+          "providerName": "Pincus Technologies Inc (dba Tarly)",
+          "ueiNumber": "RKCYVMCNUK45",
+          "serviceName": "Tarly Cowork",
+          "serviceAcronym": "TARLY",
+          "serviceDescription": "AI-powered procurement workspace for government acquisition teams. Tarly Cowork helps contracting professionals run market research, draft acquisition documents (IGCEs, solicitations, evaluation materials), and manage procurement files with grounded citations to authoritative federal data sources (SAM.gov, USAspending, the FAR and agency supplements).",
+          "certificationType": "20x",
+          "website": "https://gov.tarly.co",
+          "logo": "https://gov.tarly.co/tarly-logo.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "digitalIdentityLevel": "IAL1/AAL1 (federated sign-in; target IAL2/AAL2 at certification)",
+          "businessCategory": [
+            "Artificial Intelligence (AI)",
+            "Collaboration",
+            "Data Management"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://gov.tarly.co/trust/",
+            "repositoryDescription": "Tarly Trust Center ? FedRAMP certification status, security posture, certification roadmap, and quarterly progress updates. Machine-readable data at https://gov.tarly.co/trust/fedramp.json. No authentication required.",
+            "authenticationRequired": false
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://gov.tarly.co/trust/secure-configuration-guide.html",
+            "repositoryDescription": "Public customer guidance for securely provisioning, configuring, operating, reviewing, and decommissioning Tarly Cowork administrative and privileged access.",
+            "authenticationRequired": false
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Machine Readable Package",
+                "Git Repository"
+              ],
+              "url": "https://github.com/patrick-tarly-co/trust-center",
+              "repositoryDescription": "Public git repository with machine-readable Key Security Indicator (KSI) evaluation results, updated nightly by Tarly's automated compliance pipeline. Commit history is the public record of security-posture changes over time. No authentication required.",
+              "authenticationRequired": false
+            }
+          ],
+          "nextOngoingCertificationReportDate": "2026-10-06"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Tarly Cowork AI Procurement Assistant",
+            "serviceDescription": "Conversational, citation-grounded assistance for federal acquisition research, FAR and agency-supplement analysis, and procurement document development. Included in the planned FedRAMP Minimum Assessment Scope.",
+            "dateAvailable": "2026-03-13",
+            "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
+            "includedInMinimumAssessmentScope": true
+          },
+          {
+            "serviceName": "Tarly Cowork Procurement File Workspace",
+            "serviceDescription": "Role-based procurement files containing conversations, evidence, artifacts, file metadata, review status, membership, and audit history. Included in the planned FedRAMP Minimum Assessment Scope.",
+            "dateAvailable": "2026-03-13",
+            "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
+            "includedInMinimumAssessmentScope": true
+          },
+          {
+            "serviceName": "Tarly Cowork Evidence and Federal Data Research",
+            "serviceDescription": "Evidence upload, extraction, citation, and read-only research against authoritative federal sources including SAM.gov, USAspending, the FAR, and agency supplements. Included in the planned FedRAMP Minimum Assessment Scope.",
+            "dateAvailable": "2026-03-13",
+            "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
+            "includedInMinimumAssessmentScope": true
+          },
+          {
+            "serviceName": "Tarly Cowork Acquisition Workflows and Document Exports",
+            "serviceDescription": "Guided acquisition workflows and generation, versioning, validation, and export of procurement artifacts. Included in the planned FedRAMP Minimum Assessment Scope.",
+            "dateAvailable": "2026-05-07",
+            "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
+            "includedInMinimumAssessmentScope": true
+          },
+          {
+            "serviceName": "Tarly Cowork Collaboration and Controlled Sharing",
+            "serviceDescription": "Role-based collaboration within procurement files and intentional link-based sharing of selected conversations and their associated artifacts and evidence. Included in the planned FedRAMP Minimum Assessment Scope.",
+            "dateAvailable": "2026-03-19",
+            "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
+            "includedInMinimumAssessmentScope": true
+          }
+        ],
+        "documentationOverview": [
+          {
+            "name": "Certification Package Overview",
+            "formats": [
+              "HTML",
+              "JSON"
+            ],
+            "availability": "Public",
+            "url": "https://gov.tarly.co/trust/"
+          },
+          {
+            "name": "Secure Configuration Guide",
+            "formats": [
+              "HTML"
+            ],
+            "availability": "Public",
+            "url": "https://gov.tarly.co/trust/secure-configuration-guide.html"
+          },
+          {
+            "name": "System Security Plan and Plan of Action and Milestones",
+            "formats": [
+              "OSCAL JSON",
+              "Human-readable rendering"
+            ],
+            "availability": "Maintained by the provider; supplied to authorized agency and assessment personnel on request"
+          },
+          {
+            "name": "Authorization boundary, data flows, policies, procedures, assessment evidence, and continuous-compliance results",
+            "formats": [
+              "Human-readable",
+              "Machine-readable evidence"
+            ],
+            "availability": "Public summaries in the Trust Center; detailed materials supplied to authorized agency and assessment personnel on request"
+          }
+        ],
+        "servicesOutsideMinimumAssessmentScope": [
+          {
+            "serviceName": "Tarly Scanner",
+            "url": "https://tarly.co",
+            "reason": "A separate public procurement-opportunity scanning product and not part of the Tarly Cowork cloud service offering submitted for this Marketplace listing."
+          },
+          {
+            "serviceName": "Development, test, staging, and corporate business systems",
+            "reason": "They do not process production Tarly Cowork federal customer data and are outside the planned authorization boundary."
+          }
+        ],
+        "contactInformation": [
+          {
+            "contactType": "Sales",
+            "contactName": "Cary Volpert",
+            "contactEmail": "cary@tarly.co",
+            "contactPhone": "310-883-8302"
+          },
+          {
+            "contactType": "Security",
+            "contactName": "Patrick Phillips",
+            "contactEmail": "patrick@tarly.co",
+            "contactPhone": "585-474-2276"
+          }
+        ],
+        "ZD_frid_retro": "FR2628650874",
+        "id_matches_expected": "FALSE",
+        "last_fetched_timestamp": "2026-07-17T19:33:34Z"
+      },
+      {
+        "assessor": {
+          "assessorID": "200765",
+          "id": "200765",
+          "name": "MegaPlanIT"
+        },
+        "certifiedServices": [
+          {
+            "dateAvailable": "2026-07-07",
+            "serviceDescription": "Zero-trust / Moving-target-defense secure remote access for ICS/OT systems",
+            "serviceName": "Dispel Zero Trust Engine (DZTE) For Government"
+          }
+        ],
+        "contactInformation": [
+          {
+            "contactEmail": "sales@dispel-federal.com",
+            "contactName": "Dispel Sales",
+            "contactType": "Sales"
+          },
+          {
+            "contactEmail": "security@dispel-federal.com",
+            "contactName": "Dispel Security",
+            "contactType": "Security"
+          }
+        ],
+        "serviceIdentification": {
+          "certificationType": "20x",
+          "fedRampPackageId": "FR2333660884",
+          "logo": "https://api.dispeltrust.com/api/trust-center/public/system/dzte-fedramp-high-001/logo.png",
+          "providerName": "Dispel LLC",
+          "serviceAcronym": "DZTE",
+          "serviceDescription": "DZTE is a Government-only cloud computing SaaS that provides secure remote access to critical systems, enabling customers to implement compensating controls for operational technology and legacy technology environments.",
+          "serviceName": "Dispel Zero Trust Engine (DZTE) For Government",
+          "ueiNumber": "CWVGPF8X5X76",
+          "website": "https://www.dispel.com"
+        },
+        "serviceProperties": {
+          "additionalRepositories": [],
+          "businessCategory": [
+            "Cybersecurity & Risk Management",
+            "Virtual Private Network (VPN)",
+            "Network Management"
+          ],
+          "deploymentModel": "Government-Only Cloud",
+          "digitalIdentityLevel": "IAL3/AAL3/FAL3",
+          "nextOngoingCertificationReportDate": "2026-09-05",
+          "secureConfigurationGuidance": {
+            "accessRequestInstructions": "To request access to the DZTE Secure Configuration Guide, contact security@dispel-federal.com. Access is provided to FedRAMP reviewers and authorized U.S. Government customers.",
+            "authenticationRequired": true,
+            "repositoryDescription": "Dispel's Secure Configuration Guide",
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://api.dispeltrust.com/api/trust-center/public/system/dzte-fedramp-high-001/secure-configuration-guide"
+          },
+          "serviceType": [
+            "SaaS"
+          ]
+        },
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+              "useCase": "FedRAMP-authorized IaaS providing the compute, storage, and networking that hosts the DZTE service within the U.S. Government-only AWS GovCloud region."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+              "useCase": "FedRAMP-authorized SIEM/SOAR platform providing security information and event management (SIEM) and security orchestration, automation, and response (SOAR) for continuous security monitoring of the DZTE service."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+              "useCase": "Corporate identity, email, and collaboration services supporting Dispel personnel who operate and administer the DZTE service."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1919071020A",
+              "useCase": "FedRAMP-authorized Endpoint Detection and Response (EDR) providing continuous threat monitoring and response for the DZTE service infrastructure and administrative endpoints."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2628647233",
+        "id_matches_expected": "FALSE",
+        "last_fetched_timestamp": "2026-07-17T19:33:35Z"
+      },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "serviceIdentification": {
@@ -106,92 +343,212 @@
             }
           ]
         },
-        "ZD_frid_retro": "",
+        "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": "FALSE",
-        "last_fetched_timestamp": "2026-07-17T19:22:43Z"
+        "last_fetched_timestamp": "2026-07-17T19:33:36Z"
       },
       {
-        "assessor": {
-          "assessorID": "200765",
-          "id": "200765",
-          "name": "MegaPlanIT"
-        },
-        "certifiedServices": [
-          {
-            "dateAvailable": "2026-07-07",
-            "serviceDescription": "Zero-trust / Moving-target-defense secure remote access for ICS/OT systems",
-            "serviceName": "Dispel Zero Trust Engine (DZTE) For Government"
-          }
-        ],
-        "contactInformation": [
-          {
-            "contactEmail": "sales@dispel-federal.com",
-            "contactName": "Dispel Sales",
-            "contactType": "Sales"
-          },
-          {
-            "contactEmail": "security@dispel-federal.com",
-            "contactName": "Dispel Security",
-            "contactType": "Security"
-          }
-        ],
         "serviceIdentification": {
+          "fedRampPackageId": "Partos",
+          "ueiNumber": "DCXZNU8JTTM9",
+          "providerName": "Partos Inc.",
+          "serviceName": "Partos for Government",
+          "serviceAcronym": "Partos",
+          "serviceDescription": "Partos is an AI-native operating system for the U.S. aerospace and defense supply chain, unifying prime contractors, suppliers, and sub-tier vendors in a single Government Community Cloud environment on AWS GovCloud (US). Partos accelerates supplier onboarding and vetting with continuous KYB, KYC, AML, and OFAC screening and compliance monitoring across ITAR, EAR export controls, and DFARS. It delivers end-to-end, multi-tier supply chain risk visibility and active risk management, and orchestrates domestic and international supplier payments?ACH, RTP, and wires?with compliance tracing preserved throughout. The platform leverages export control regulatory frameworks (including ITAR, EAR, and CUI) to automatically enforce data access boundaries. Access is dynamically controlled based on variables like nationality and geographic location, ensuring continuous compliance at every layer. A unified data ontology and pipeline layer powers Partos AI, a multi-agent, multimodal system in which specialized agents collaborate to answer questions and act across the entire supply chain. Partos AI works both reactively and proactively?agents operate as an extension of your team, monitoring, surfacing risks, and advancing work 24/7 rather than only responding on request. Partos AI is model-agnostic (open-source and proprietary), extensible via a no-code workflow builder and REST, WebSocket, SSE, and MCP interfaces, and embeddable in any enterprise application. It supports multi- and single-tenancy, multiple IdPs and SSO, SCIM provisioning, and granular role-, group-, and permission-based access. Customers retain full ownership and exportability of their data and the AI's memory.",
           "certificationType": "20x",
-          "fedRampPackageId": "FR2333660884",
-          "logo": "https://api.dispeltrust.com/api/trust-center/public/system/dzte-fedramp-high-001/logo.png",
-          "providerName": "Dispel LLC",
-          "serviceAcronym": "DZTE",
-          "serviceDescription": "DZTE is a Government-only cloud computing SaaS that provides secure remote access to critical systems, enabling customers to implement compensating controls for operational technology and legacy technology environments.",
-          "serviceName": "Dispel Zero Trust Engine (DZTE) For Government",
-          "ueiNumber": "CWVGPF8X5X76",
-          "website": "https://www.dispel.com"
+          "website": "https://partos.ai",
+          "logo": "https://cdn.partos.ai/fedramp/logo.png"
         },
         "serviceProperties": {
-          "additionalRepositories": [],
-          "businessCategory": [
-            "Cybersecurity & Risk Management",
-            "Virtual Private Network (VPN)",
-            "Network Management"
+          "serviceType": [
+            "SaaS"
           ],
-          "deploymentModel": "Government-Only Cloud",
-          "digitalIdentityLevel": "IAL3/AAL3/FAL3",
-          "nextOngoingCertificationReportDate": "2026-09-05",
+          "deploymentModel": "Government Community Cloud",
+          "digitalIdentityLevel": "IAL2/AAL2/FAL2",
+          "businessCategory": [
+            "Artificial Intelligence (AI)",
+            "Governance, Risk, and Compliance (GRC)",
+            "Cybersecurity & Risk Management",
+            "Operations Management",
+            "Data Management",
+            "Analytics",
+            "Development Tools",
+            "Legal & Policy",
+            "Finance",
+            "Accounting"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.partos.ai",
+            "repositoryDescription": "Central access point for Partos for Government FedRAMP Certification Data, including current certification progress, security posture, continuous monitoring evidence, and machine- and human-readable certification artifacts. Provides federal agencies and authorized parties with self-service access and instructions for requesting FedRAMP Certification Data.",
+            "authenticationRequired": false
+          },
           "secureConfigurationGuidance": {
-            "accessRequestInstructions": "To request access to the DZTE Secure Configuration Guide, contact security@dispel-federal.com. Access is provided to FedRAMP reviewers and authorized U.S. Government customers.",
-            "authenticationRequired": true,
-            "repositoryDescription": "Dispel's Secure Configuration Guide",
             "repositoryType": [
               "Secure Configuration Guidance"
             ],
-            "url": "https://api.dispeltrust.com/api/trust-center/public/system/dzte-fedramp-high-001/secure-configuration-guide"
-          },
-          "serviceType": [
-            "SaaS"
-          ]
+            "url": "https://partos.ai/fedramp/secure-configuration-guide-SCG-CSO-PUB",
+            "repositoryDescription": "Guidance for securely accessing, configuring, and operating Partos for Government, including administrative account setup and hardening. Contains the Secure Configuration Guide.",
+            "authenticationRequired": false
+          }
         },
+        "contactInformation": [
+          {
+            "contactType": "Sales",
+            "contactEmail": "federal@partos.ai"
+          },
+          {
+            "contactType": "Security",
+            "contactEmail": "security@partos.ai"
+          }
+        ],
+        "assessor": {
+          "name": "Prescient Security LLC",
+          "id": "202040",
+          "assessorID": "202040"
+        },
+        "ZD_frid_retro": "FR2628647241",
+        "id_matches_expected": "FALSE",
+        "last_fetched_timestamp": "2026-07-17T18:14:32Z"
+      },
+      {
+        "serviceIdentification": {
+          "providerName": "Bland AI",
+          "serviceName": "Bland",
+          "serviceAcronym": "Bland",
+          "serviceDescription": "Bland is an enterprise voice AI platform for building, deploying, and operating AI phone agents at scale. Bland runs its own speech and language models, so customer calls are not sent to third-party frontier model providers.",
+          "certificationType": "20x",
+          "fedRampPackageId": "Bland AI - Bland",
+          "ueiNumber": "Not Applicable",
+          "website": "https://www.bland.ai",
+          "logo": "https://www.bland.ai/images/bland-logo.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "PaaS"
+          ],
+          "deploymentModel": "Government-Only Cloud",
+          "digitalIdentityLevel": "IAL: customer/agency-managed or not performed by Bland; AAL2 for Bland-managed administrative authentication where MFA is enforced; FAL2 where federated SSO is configured",
+          "businessCategory": [
+            "Artificial Intelligence (AI)",
+            "Contact Center"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.bland-gov.com/",
+            "repositoryDescription": "Bland FedRAMP Trust Center. FedRAMP package and security documentation for federal agencies and recognized assessors.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://trust.bland-gov.com/resources?s=8udmre29tx8im63a7l6bhw&name=bland-ai-secure-configuration-guide.pdf",
+            "repositoryDescription": "Bland AI secure configuration guide: hardening and configuration guidance for operating Bland securely (SCG-CSO-RSC).",
+            "authenticationRequired": false
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Documentation Catalog"
+              ],
+              "url": "https://trust.bland-gov.com/",
+              "repositoryDescription": "Catalog of all policies and procedures (name, version, date updated, summary). Available on the Trust Center in human-readable and machine-readable format.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+            },
+            {
+              "repositoryType": [
+                "Quarterly Certification Progress Report"
+              ],
+              "url": "https://trust.bland-gov.com/",
+              "repositoryDescription": "Detailed quarterly roadmap: completed milestones, current work, upcoming work, and assessment timeline.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+            },
+            {
+              "repositoryType": [
+                "Assessment Deadline"
+              ],
+              "url": "https://trust.bland-gov.com/",
+              "repositoryDescription": "Official statement of work from Prescient Security documenting Bland?s commitment to a Class C assessment within the next 24 months.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+            }
+          ],
+          "nextOngoingCertificationReportDate": "2026-07-31"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Bland FedRAMP",
+            "contactEmail": "fedramp@bland.ai"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Bland Federal Sales",
+            "contactEmail": "sales@bland.ai"
+          }
+        ],
+        "assessor": {
+          "name": "Prescient Security, LLC.",
+          "id": "202040",
+          "assessorID": "202040"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Voice agents",
+            "serviceDescription": "AI phone agents that answer inbound calls and place outbound calls, hold natural spoken conversations, and act on what the caller needs. Each agent follows a configurable conversation pathway, a decision tree that interprets the caller?s intent and then routes the call or takes an action such as scheduling, sending follow-ups, taking payments, answering questions from an approved knowledge base, or escalating to a person. Speech-to-text, reasoning, and text-to-speech all run on Bland?s own models inside Bland?s boundary.",
+            "dateAvailable": "2026-07-13"
+          },
+          {
+            "serviceName": "SMS",
+            "serviceDescription": "Programmatic two-way text messaging driven by the same pathway logic as voice agents. Agents send and respond to messages for notifications, reminders, status updates, and structured question-and-answer flows, triggering the same actions as a voice agent, such as scheduling, follow-ups, and record updates, over text rather than a call.",
+            "dateAvailable": "2026-07-13"
+          },
+          {
+            "serviceName": "Chat",
+            "serviceDescription": "Web and in-app chat agents that run on the same conversation pathways and actions as voice and SMS, embedded in an agency?s web properties for self-service. Chat shares the rule sets, knowledge, and integrations of the other channels, so a constituent gets the same answers and outcomes no matter how they reach out.",
+            "dateAvailable": "2026-07-13"
+          }
+        ],
         "thirdPartyInformationResources": {
           "certified": [
             {
+              "name": "AWS GovCloud",
               "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
-              "useCase": "FedRAMP-authorized IaaS providing the compute, storage, and networking that hosts the DZTE service within the U.S. Government-only AWS GovCloud region."
+              "useCase": "Cloud infrastructure hosting the Bland service."
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "Cloudflare",
+              "provider": "Cloudflare",
+              "website": "https://www.cloudflare.com",
+              "useCase": "Network edge and application security in front of the Bland service."
             },
             {
-              "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
-              "useCase": "FedRAMP-authorized SIEM/SOAR platform providing security information and event management (SIEM) and security orchestration, automation, and response (SOAR) for continuous security monitoring of the DZTE service."
+              "name": "Okta",
+              "provider": "Okta",
+              "website": "https://www.okta.com",
+              "useCase": "Identity provider for Bland-managed administrative authentication."
             },
             {
-              "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
-              "useCase": "Corporate identity, email, and collaboration services supporting Dispel personnel who operate and administer the DZTE service."
-            },
-            {
-              "fedRampCertifiedThirdPartyInformationResource": "FR1919071020A",
-              "useCase": "FedRAMP-authorized Endpoint Detection and Response (EDR) providing continuous threat monitoring and response for the DZTE service infrastructure and administrative endpoints."
+              "name": "Twilio",
+              "provider": "Twilio",
+              "website": "https://www.twilio.com",
+              "useCase": "Telephony carrier connectivity (PSTN) for voice calls."
             }
           ]
         },
-        "ZD_frid_retro": "",
+        "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": "FALSE",
-        "last_fetched_timestamp": "2026-07-17T19:22:46Z"
+        "last_fetched_timestamp": "2026-07-17T19:33:37Z"
       },
       {
         "assessor": {
@@ -445,212 +802,9 @@
             }
           ]
         },
-        "ZD_frid_retro": "",
+        "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": "FALSE",
-        "last_fetched_timestamp": "2026-07-17T19:22:46Z"
-      },
-      {
-        "serviceIdentification": {
-          "fedRampPackageId": "Partos",
-          "ueiNumber": "DCXZNU8JTTM9",
-          "providerName": "Partos Inc.",
-          "serviceName": "Partos for Government",
-          "serviceAcronym": "Partos",
-          "serviceDescription": "Partos is an AI-native operating system for the U.S. aerospace and defense supply chain, unifying prime contractors, suppliers, and sub-tier vendors in a single Government Community Cloud environment on AWS GovCloud (US). Partos accelerates supplier onboarding and vetting with continuous KYB, KYC, AML, and OFAC screening and compliance monitoring across ITAR, EAR export controls, and DFARS. It delivers end-to-end, multi-tier supply chain risk visibility and active risk management, and orchestrates domestic and international supplier payments?ACH, RTP, and wires?with compliance tracing preserved throughout. The platform leverages export control regulatory frameworks (including ITAR, EAR, and CUI) to automatically enforce data access boundaries. Access is dynamically controlled based on variables like nationality and geographic location, ensuring continuous compliance at every layer. A unified data ontology and pipeline layer powers Partos AI, a multi-agent, multimodal system in which specialized agents collaborate to answer questions and act across the entire supply chain. Partos AI works both reactively and proactively?agents operate as an extension of your team, monitoring, surfacing risks, and advancing work 24/7 rather than only responding on request. Partos AI is model-agnostic (open-source and proprietary), extensible via a no-code workflow builder and REST, WebSocket, SSE, and MCP interfaces, and embeddable in any enterprise application. It supports multi- and single-tenancy, multiple IdPs and SSO, SCIM provisioning, and granular role-, group-, and permission-based access. Customers retain full ownership and exportability of their data and the AI's memory.",
-          "certificationType": "20x",
-          "website": "https://partos.ai",
-          "logo": "https://cdn.partos.ai/fedramp/logo.png"
-        },
-        "serviceProperties": {
-          "serviceType": [
-            "SaaS"
-          ],
-          "deploymentModel": "Government Community Cloud",
-          "digitalIdentityLevel": "IAL2/AAL2/FAL2",
-          "businessCategory": [
-            "Artificial Intelligence (AI)",
-            "Governance, Risk, and Compliance (GRC)",
-            "Cybersecurity & Risk Management",
-            "Operations Management",
-            "Data Management",
-            "Analytics",
-            "Development Tools",
-            "Legal & Policy",
-            "Finance",
-            "Accounting"
-          ],
-          "trustCenter": {
-            "repositoryType": [
-              "Trust Center"
-            ],
-            "url": "https://trust.partos.ai",
-            "repositoryDescription": "Central access point for Partos for Government FedRAMP Certification Data, including current certification progress, security posture, continuous monitoring evidence, and machine- and human-readable certification artifacts. Provides federal agencies and authorized parties with self-service access and instructions for requesting FedRAMP Certification Data.",
-            "authenticationRequired": false
-          },
-          "secureConfigurationGuidance": {
-            "repositoryType": [
-              "Secure Configuration Guidance"
-            ],
-            "url": "https://partos.ai/fedramp/secure-configuration-guide-SCG-CSO-PUB",
-            "repositoryDescription": "Guidance for securely accessing, configuring, and operating Partos for Government, including administrative account setup and hardening. Contains the Secure Configuration Guide.",
-            "authenticationRequired": false
-          }
-        },
-        "contactInformation": [
-          {
-            "contactType": "Sales",
-            "contactEmail": "federal@partos.ai"
-          },
-          {
-            "contactType": "Security",
-            "contactEmail": "security@partos.ai"
-          }
-        ],
-        "assessor": {
-          "name": "Prescient Security LLC",
-          "id": "202040",
-          "assessorID": "202040"
-        },
-        "ZD_frid_retro": "",
-        "id_matches_expected": "FALSE",
-        "last_fetched_timestamp": "2026-07-17T18:14:32Z"
-      },
-      {
-        "serviceIdentification": {
-          "providerName": "Bland AI",
-          "serviceName": "Bland",
-          "serviceAcronym": "Bland",
-          "serviceDescription": "Bland is an enterprise voice AI platform for building, deploying, and operating AI phone agents at scale. Bland runs its own speech and language models, so customer calls are not sent to third-party frontier model providers.",
-          "certificationType": "20x",
-          "fedRampPackageId": "Bland AI - Bland",
-          "ueiNumber": "Not Applicable",
-          "website": "https://www.bland.ai",
-          "logo": "https://www.bland.ai/images/bland-logo.svg"
-        },
-        "serviceProperties": {
-          "serviceType": [
-            "PaaS"
-          ],
-          "deploymentModel": "Government-Only Cloud",
-          "digitalIdentityLevel": "IAL: customer/agency-managed or not performed by Bland; AAL2 for Bland-managed administrative authentication where MFA is enforced; FAL2 where federated SSO is configured",
-          "businessCategory": [
-            "Artificial Intelligence (AI)",
-            "Contact Center"
-          ],
-          "trustCenter": {
-            "repositoryType": [
-              "Trust Center"
-            ],
-            "url": "https://trust.bland-gov.com/",
-            "repositoryDescription": "Bland FedRAMP Trust Center. FedRAMP package and security documentation for federal agencies and recognized assessors.",
-            "authenticationRequired": true,
-            "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
-          },
-          "secureConfigurationGuidance": {
-            "repositoryType": [
-              "Secure Configuration Guidance"
-            ],
-            "url": "https://trust.bland-gov.com/resources?s=8udmre29tx8im63a7l6bhw&name=bland-ai-secure-configuration-guide.pdf",
-            "repositoryDescription": "Bland AI secure configuration guide: hardening and configuration guidance for operating Bland securely (SCG-CSO-RSC).",
-            "authenticationRequired": false
-          },
-          "additionalRepositories": [
-            {
-              "repositoryType": [
-                "Documentation Catalog"
-              ],
-              "url": "https://trust.bland-gov.com/",
-              "repositoryDescription": "Catalog of all policies and procedures (name, version, date updated, summary). Available on the Trust Center in human-readable and machine-readable format.",
-              "authenticationRequired": true,
-              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
-            },
-            {
-              "repositoryType": [
-                "Quarterly Certification Progress Report"
-              ],
-              "url": "https://trust.bland-gov.com/",
-              "repositoryDescription": "Detailed quarterly roadmap: completed milestones, current work, upcoming work, and assessment timeline.",
-              "authenticationRequired": true,
-              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
-            },
-            {
-              "repositoryType": [
-                "Assessment Deadline"
-              ],
-              "url": "https://trust.bland-gov.com/",
-              "repositoryDescription": "Official statement of work from Prescient Security documenting Bland?s commitment to a Class C assessment within the next 24 months.",
-              "authenticationRequired": true,
-              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
-            }
-          ],
-          "nextOngoingCertificationReportDate": "2026-07-31"
-        },
-        "contactInformation": [
-          {
-            "contactType": "Security",
-            "contactName": "Bland FedRAMP",
-            "contactEmail": "fedramp@bland.ai"
-          },
-          {
-            "contactType": "Sales",
-            "contactName": "Bland Federal Sales",
-            "contactEmail": "sales@bland.ai"
-          }
-        ],
-        "assessor": {
-          "name": "Prescient Security, LLC.",
-          "id": "202040",
-          "assessorID": "202040"
-        },
-        "certifiedServices": [
-          {
-            "serviceName": "Voice agents",
-            "serviceDescription": "AI phone agents that answer inbound calls and place outbound calls, hold natural spoken conversations, and act on what the caller needs. Each agent follows a configurable conversation pathway, a decision tree that interprets the caller?s intent and then routes the call or takes an action such as scheduling, sending follow-ups, taking payments, answering questions from an approved knowledge base, or escalating to a person. Speech-to-text, reasoning, and text-to-speech all run on Bland?s own models inside Bland?s boundary.",
-            "dateAvailable": "2026-07-13"
-          },
-          {
-            "serviceName": "SMS",
-            "serviceDescription": "Programmatic two-way text messaging driven by the same pathway logic as voice agents. Agents send and respond to messages for notifications, reminders, status updates, and structured question-and-answer flows, triggering the same actions as a voice agent, such as scheduling, follow-ups, and record updates, over text rather than a call.",
-            "dateAvailable": "2026-07-13"
-          },
-          {
-            "serviceName": "Chat",
-            "serviceDescription": "Web and in-app chat agents that run on the same conversation pathways and actions as voice and SMS, embedded in an agency?s web properties for self-service. Chat shares the rule sets, knowledge, and integrations of the other channels, so a constituent gets the same answers and outcomes no matter how they reach out.",
-            "dateAvailable": "2026-07-13"
-          }
-        ],
-        "thirdPartyInformationResources": {
-          "certified": [
-            {
-              "name": "AWS GovCloud",
-              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
-              "useCase": "Cloud infrastructure hosting the Bland service."
-            }
-          ],
-          "nonCertified": [
-            {
-              "name": "Cloudflare",
-              "provider": "Cloudflare",
-              "website": "https://www.cloudflare.com",
-              "useCase": "Network edge and application security in front of the Bland service."
-            },
-            {
-              "name": "Okta",
-              "provider": "Okta",
-              "website": "https://www.okta.com",
-              "useCase": "Identity provider for Bland-managed administrative authentication."
-            },
-            {
-              "name": "Twilio",
-              "provider": "Twilio",
-              "website": "https://www.twilio.com",
-              "useCase": "Telephony carrier connectivity (PSTN) for voice calls."
-            }
-          ]
-        },
-        "ZD_frid_retro": "",
-        "id_matches_expected": "FALSE",
-        "last_fetched_timestamp": "2026-07-17T19:22:47Z"
+        "last_fetched_timestamp": "2026-07-17T19:33:37Z"
       }
     ]
   }
