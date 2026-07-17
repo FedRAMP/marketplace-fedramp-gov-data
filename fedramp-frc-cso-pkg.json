@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-17T19:51:13.458Z",
+    "export_timestamp": "2026-07-17T21:26:44.048Z",
     "total_entries": 6,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
@@ -35,7 +35,7 @@
               "Trust Center"
             ],
             "url": "https://gov.tarly.co/trust/",
-            "repositoryDescription": "Tarly Trust Center ? FedRAMP certification status, security posture, certification roadmap, and quarterly progress updates. Machine-readable data at https://gov.tarly.co/trust/fedramp.json. No authentication required.",
+            "repositoryDescription": "Tarly Trust Center — FedRAMP certification status, security posture, certification roadmap, and quarterly progress updates. Machine-readable data at https://gov.tarly.co/trust/fedramp.json. No authentication required.",
             "authenticationRequired": false
           },
           "secureConfigurationGuidance": {
@@ -84,7 +84,7 @@
           {
             "serviceName": "Tarly Cowork Acquisition Workflows and Document Exports",
             "serviceDescription": "Guided acquisition workflows and generation, versioning, validation, and export of procurement artifacts. Included in the planned FedRAMP Minimum Assessment Scope.",
-            "dateAvailable": "2026-05-07",
+            "dateAvailable": "2026-03-13",
             "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
             "includedInMinimumAssessmentScope": true
           },
@@ -115,12 +115,20 @@
             "url": "https://gov.tarly.co/trust/secure-configuration-guide.html"
           },
           {
-            "name": "System Security Plan and Plan of Action and Milestones",
+            "name": "Security Decision Record",
             "formats": [
-              "OSCAL JSON",
+              "JSON",
               "Human-readable rendering"
             ],
             "availability": "Maintained by the provider; supplied to authorized agency and assessment personnel on request"
+          },
+          {
+            "name": "Ongoing Certification Report",
+            "formats": [
+              "JSON",
+              "Human-readable rendering"
+            ],
+            "availability": "An example is included with the initial package; quarterly reports follow certification"
           },
           {
             "name": "Authorization boundary, data flows, policies, procedures, assessment evidence, and continuous-compliance results",
@@ -140,6 +148,10 @@
           {
             "serviceName": "Development, test, staging, and corporate business systems",
             "reason": "They do not process production Tarly Cowork federal customer data and are outside the planned authorization boundary."
+          },
+          {
+            "serviceName": "Alternative deployment models",
+            "reason": "Customer-hosted, on-premises, and Azure Government deployments are not included in this Marketplace listing or planned Minimum Assessment Scope."
           }
         ],
         "contactInformation": [
@@ -158,7 +170,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-17T19:51:10Z"
+        "last_fetched_timestamp": "2026-07-17T21:26:38Z"
       },
       {
         "assessor": {
@@ -241,7 +253,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-17T19:51:11Z"
+        "last_fetched_timestamp": "2026-07-17T21:26:41Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -251,7 +263,7 @@
           "providerName": "Eleven Labs Inc.",
           "serviceName": "ElevenLabs Platform",
           "serviceAcronym": "ElevenLabs",
-          "serviceDescription": "The ElevenLabs Platform is a cloud-based AI voice and audio service that enables organizations to generate, transform, and deploy AI-produced speech and audio at scale. The FedRAMP Class A certification scope of the offering comprises three services ? Text to Speech, Speech to Text, and Agents ? delivered via the ElevenLabs API and the ElevenAgents platform, and applies only when the services are operated in Zero Retention Mode (ZRM), in which customer inputs and outputs are not retained and only system and audit data is persisted. All services share a common identity and access management layer, workspace-based multi-tenancy, and a unified data plane, with capabilities accessible to enterprise workspace administrators and developers integrating via API.",
+          "serviceDescription": "The ElevenLabs Platform is a cloud-based AI voice and audio service that enables organizations to generate, transform, and deploy AI-produced speech and audio at scale. The FedRAMP Class A certification scope of the offering comprises three services — Text to Speech, Speech to Text, and Agents — delivered via the ElevenLabs API and the ElevenAgents platform, and applies only when the services are operated in Zero Retention Mode (ZRM), in which customer inputs and outputs are not retained and only system and audit data is persisted. All services share a common identity and access management layer, workspace-based multi-tenancy, and a unified data plane, with capabilities accessible to enterprise workspace administrators and developers integrating via API.",
           "certificationType": "20x",
           "website": "https://elevenlabs.io",
           "logo": "https://eleven-public-cdn.elevenlabs.io/payloadcms/elevenlabs-official-logo.svg"
@@ -303,7 +315,7 @@
         "certifiedServices": [
           {
             "serviceName": "Text to Speech",
-            "serviceDescription": "AI speech synthesis via the ElevenLabs API, converting text to natural-sounding audio across 32?70+ languages depending on model, with Python and TypeScript SDKs. Included in the FedRAMP Class A certification scope only when operated in Zero Retention Mode (ZRM): customer inputs and outputs are processed but not retained.",
+            "serviceDescription": "AI speech synthesis via the ElevenLabs API, converting text to natural-sounding audio across 32–70+ languages depending on model, with Python and TypeScript SDKs. Included in the FedRAMP Class A certification scope only when operated in Zero Retention Mode (ZRM): customer inputs and outputs are processed but not retained.",
             "dateAvailable": "2026-08-03"
           },
           {
@@ -334,10 +346,10 @@
               "provider": "MongoDB, Inc.",
               "website": "https://www.mongodb.com",
               "useCase": "Managed NoSQL document database supporting application and workspace data for the offering, deployed in US regions. The commercial MongoDB Atlas environment is not FedRAMP certified; MongoDB Atlas for Government (FR2122150307) is a separate, physically distinct authorized environment not used by this offering.",
-              "generalUsageAndConfiguration": "MongoDB Atlas clusters deployed on cloud infrastructure in US regions, storing application and workspace data. Under Zero Retention Mode ? required for the certified configuration of this offering ? customer inputs and outputs are not retained in any datastore, including Atlas.",
-              "justificationForUse": "Managed document-database capabilities supporting the platform?s application data needs.",
-              "mitigationMeasures": "All Atlas traffic is TLS-encrypted by default (supported by the OpenSSL FIPS Object Module) and all data is encrypted at rest with AES-256; deployment is restricted to US regions. Per MongoDB?s Technical and Organizational Security Measures ?4.2, MongoDB personnel are not authorized to access customer clusters by default; only a small group of background-checked Privileged Users may access clusters in rare cases to restore critical services, via a gated process requiring a bastion host, multi-factor authentication, and MongoDB senior-management approval, limited to the minimum time and extent necessary.",
-              "compensatingControls": "Per MongoDB's Technical and Organizational Security Measures ?4.2.3?4.2.4: Privileged User accounts are individually credentialed (no shared credentials) and used only for privileged activities; Privileged User authorizations are reviewed quarterly and revoked within 24 hours of role change or departure; all MongoDB personnel access to customer clusters is logged, with audit records retained for at least six years and subject to automated and human review. MongoDB Atlas is certified against ISO/IEC 27001:2022, ISO 27017, ISO 27018, and SOC 2 Type II. Reference: https://www.mongodb.com/legal/customer-service-agreement/technical-and-organizational-security-measures",
+              "generalUsageAndConfiguration": "MongoDB Atlas clusters deployed on cloud infrastructure in US regions, storing application and workspace data. Under Zero Retention Mode — required for the certified configuration of this offering — customer inputs and outputs are not retained in any datastore, including Atlas.",
+              "justificationForUse": "Managed document-database capabilities supporting the platform’s application data needs.",
+              "mitigationMeasures": "All Atlas traffic is TLS-encrypted by default (supported by the OpenSSL FIPS Object Module) and all data is encrypted at rest with AES-256; deployment is restricted to US regions. Per MongoDB’s Technical and Organizational Security Measures §4.2, MongoDB personnel are not authorized to access customer clusters by default; only a small group of background-checked Privileged Users may access clusters in rare cases to restore critical services, via a gated process requiring a bastion host, multi-factor authentication, and MongoDB senior-management approval, limited to the minimum time and extent necessary.",
+              "compensatingControls": "Per MongoDB's Technical and Organizational Security Measures §4.2.3–4.2.4: Privileged User accounts are individually credentialed (no shared credentials) and used only for privileged activities; Privileged User authorizations are reviewed quarterly and revoked within 24 hours of role change or departure; all MongoDB personnel access to customer clusters is logged, with audit records retained for at least six years and subject to automated and human review. MongoDB Atlas is certified against ISO/IEC 27001:2022, ISO 27017, ISO 27018, and SOC 2 Type II. Reference: https://www.mongodb.com/legal/customer-service-agreement/technical-and-organizational-security-measures",
               "fedRampStatus": "Not certified (commercial Atlas); Atlas for Government is a separate FedRAMP Moderate authorized environment",
               "disposition": "Retained with documented mitigations;"
             }
@@ -345,7 +357,7 @@
         },
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-17T19:51:12Z"
+        "last_fetched_timestamp": "2026-07-17T21:26:43Z"
       },
       {
         "serviceIdentification": {
@@ -354,7 +366,7 @@
           "providerName": "Partos Inc.",
           "serviceName": "Partos for Government",
           "serviceAcronym": "Partos",
-          "serviceDescription": "Partos is an AI-native operating system for the U.S. aerospace and defense supply chain, unifying prime contractors, suppliers, and sub-tier vendors in a single Government Community Cloud environment on AWS GovCloud (US). Partos accelerates supplier onboarding and vetting with continuous KYB, KYC, AML, and OFAC screening and compliance monitoring across ITAR, EAR export controls, and DFARS. It delivers end-to-end, multi-tier supply chain risk visibility and active risk management, and orchestrates domestic and international supplier payments?ACH, RTP, and wires?with compliance tracing preserved throughout. The platform leverages export control regulatory frameworks (including ITAR, EAR, and CUI) to automatically enforce data access boundaries. Access is dynamically controlled based on variables like nationality and geographic location, ensuring continuous compliance at every layer. A unified data ontology and pipeline layer powers Partos AI, a multi-agent, multimodal system in which specialized agents collaborate to answer questions and act across the entire supply chain. Partos AI works both reactively and proactively?agents operate as an extension of your team, monitoring, surfacing risks, and advancing work 24/7 rather than only responding on request. Partos AI is model-agnostic (open-source and proprietary), extensible via a no-code workflow builder and REST, WebSocket, SSE, and MCP interfaces, and embeddable in any enterprise application. It supports multi- and single-tenancy, multiple IdPs and SSO, SCIM provisioning, and granular role-, group-, and permission-based access. Customers retain full ownership and exportability of their data and the AI's memory.",
+          "serviceDescription": "Partos is an AI-native operating system for the U.S. aerospace and defense supply chain, unifying prime contractors, suppliers, and sub-tier vendors in a single Government Community Cloud environment on AWS GovCloud (US). Partos accelerates supplier onboarding and vetting with continuous KYB, KYC, AML, and OFAC screening and compliance monitoring across ITAR, EAR export controls, and DFARS. It delivers end-to-end, multi-tier supply chain risk visibility and active risk management, and orchestrates domestic and international supplier payments—ACH, RTP, and wires—with compliance tracing preserved throughout. The platform leverages export control regulatory frameworks (including ITAR, EAR, and CUI) to automatically enforce data access boundaries. Access is dynamically controlled based on variables like nationality and geographic location, ensuring continuous compliance at every layer. A unified data ontology and pipeline layer powers Partos AI, a multi-agent, multimodal system in which specialized agents collaborate to answer questions and act across the entire supply chain. Partos AI works both reactively and proactively—agents operate as an extension of your team, monitoring, surfacing risks, and advancing work 24/7 rather than only responding on request. Partos AI is model-agnostic (open-source and proprietary), extensible via a no-code workflow builder and REST, WebSocket, SSE, and MCP interfaces, and embeddable in any enterprise application. It supports multi- and single-tenancy, multiple IdPs and SSO, SCIM provisioning, and granular role-, group-, and permission-based access. Customers retain full ownership and exportability of their data and the AI's memory.",
           "certificationType": "20x",
           "website": "https://partos.ai",
           "logo": "https://cdn.partos.ai/fedramp/logo.png"
@@ -420,7 +432,7 @@
           "serviceAcronym": "Bland",
           "serviceDescription": "Bland is an enterprise voice AI platform for building, deploying, and operating AI phone agents at scale. Bland runs its own speech and language models, so customer calls are not sent to third-party frontier model providers.",
           "certificationType": "20x",
-          "fedRampPackageId": "Bland AI - Bland",
+          "fedRampPackageId": "FR2628647242",
           "ueiNumber": "Not Applicable",
           "website": "https://www.bland.ai",
           "logo": "https://www.bland.ai/images/bland-logo.svg"
@@ -476,7 +488,7 @@
                 "Assessment Deadline"
               ],
               "url": "https://trust.bland-gov.com/",
-              "repositoryDescription": "Official statement of work from Prescient Security documenting Bland?s commitment to a Class C assessment within the next 24 months.",
+              "repositoryDescription": "Official statement of work from Prescient Security documenting Bland’s commitment to a Class C assessment within the next 24 months.",
               "authenticationRequired": true,
               "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
             }
@@ -503,7 +515,7 @@
         "certifiedServices": [
           {
             "serviceName": "Voice agents",
-            "serviceDescription": "AI phone agents that answer inbound calls and place outbound calls, hold natural spoken conversations, and act on what the caller needs. Each agent follows a configurable conversation pathway, a decision tree that interprets the caller?s intent and then routes the call or takes an action such as scheduling, sending follow-ups, taking payments, answering questions from an approved knowledge base, or escalating to a person. Speech-to-text, reasoning, and text-to-speech all run on Bland?s own models inside Bland?s boundary.",
+            "serviceDescription": "AI phone agents that answer inbound calls and place outbound calls, hold natural spoken conversations, and act on what the caller needs. Each agent follows a configurable conversation pathway, a decision tree that interprets the caller’s intent and then routes the call or takes an action such as scheduling, sending follow-ups, taking payments, answering questions from an approved knowledge base, or escalating to a person. Speech-to-text, reasoning, and text-to-speech all run on Bland’s own models inside Bland’s boundary.",
             "dateAvailable": "2026-07-13"
           },
           {
@@ -513,7 +525,7 @@
           },
           {
             "serviceName": "Chat",
-            "serviceDescription": "Web and in-app chat agents that run on the same conversation pathways and actions as voice and SMS, embedded in an agency?s web properties for self-service. Chat shares the rule sets, knowledge, and integrations of the other channels, so a constituent gets the same answers and outcomes no matter how they reach out.",
+            "serviceDescription": "Web and in-app chat agents that run on the same conversation pathways and actions as voice and SMS, embedded in an agency’s web properties for self-service. Chat shares the rule sets, knowledge, and integrations of the other channels, so a constituent gets the same answers and outcomes no matter how they reach out.",
             "dateAvailable": "2026-07-13"
           }
         ],
@@ -547,14 +559,14 @@
           ]
         },
         "ZD_frid_retro": "FR2628647242",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-17T19:51:13Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-07-17T21:26:43Z"
       },
       {
         "assessor": {
           "assessorID": "000000",
           "id": "000000",
-          "name": "Not yet assigned ? independent assessment (IV&V) in procurement"
+          "name": "Not yet assigned — independent assessment (IV&V) in procurement"
         },
         "certifiedServices": [
           {
@@ -604,8 +616,8 @@
           "marketplaceUrl": "https://fedramp.gov/marketplace/products/FR2628647238",
           "providerName": "Advent Business Company Inc.",
           "serviceAcronym": "ENB",
-          "serviceDescription": "Enablement? is a multi-tenant BPMN-driven business process platform with an integrated Continuous Monitoring service: operated credentialed vulnerability scanning (OpenVAS/GVM), container and IaC scanning (Trivy), cloud security posture management (Prowler), and agent-based CVE/SCA monitoring (Wazuh), with OSCAL and FedRAMP CR26 machine-readable outputs.",
-          "serviceName": "Enablement?",
+          "serviceDescription": "Enablement® is a multi-tenant BPMN-driven business process platform with an integrated Continuous Monitoring service: operated credentialed vulnerability scanning (OpenVAS/GVM), container and IaC scanning (Trivy), cloud security posture management (Prowler), and agent-based CVE/SCA monitoring (Wazuh), with OSCAL and FedRAMP CR26 machine-readable outputs.",
+          "serviceName": "Enablement®",
           "uei": "C7LGVA7B5JT1",
           "website": "https://enablement.cc"
         },
@@ -695,7 +707,7 @@
             {
               "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
               "authenticationRequired": true,
-              "repositoryDescription": "KSI Self-Assessment ? 46 Class C KSIs with implementation, evidence pointers, and self-verdicts (IVV Verify-step input)",
+              "repositoryDescription": "KSI Self-Assessment — 46 Class C KSIs with implementation, evidence pointers, and self-verdicts (IVV Verify-step input)",
               "repositoryType": [
                 "Assessment Documentation"
               ],
@@ -713,7 +725,7 @@
             {
               "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
               "authenticationRequired": true,
-              "repositoryDescription": "Plan of Action & Milestones ? open 20x items",
+              "repositoryDescription": "Plan of Action & Milestones — open 20x items",
               "repositoryType": [
                 "Assessment Documentation"
               ],
@@ -740,7 +752,7 @@
             {
               "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
               "authenticationRequired": true,
-              "repositoryDescription": "KSI Validation Design & Measurement System ? end-to-end trace of every automated validation method (scope, source, code/thresholds, failure semantics, preservation) per the 20x assessor guidance",
+              "repositoryDescription": "KSI Validation Design & Measurement System — end-to-end trace of every automated validation method (scope, source, code/thresholds, failure semantics, preservation) per the 20x assessor guidance",
               "repositoryType": [
                 "Assessment Documentation"
               ],
@@ -804,7 +816,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-17T19:51:13Z"
+        "last_fetched_timestamp": "2026-07-17T21:26:43Z"
       }
     ]
   }
