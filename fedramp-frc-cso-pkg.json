@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-17T21:26:44.048Z",
-    "total_entries": 6,
+    "export_timestamp": "2026-07-20T17:48:38.869Z",
+    "total_entries": 11,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -9,8 +9,8 @@
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "serviceIdentification": {
-          "fedRampPackageId": "Tarly Cowork (TARLY)",
-          "providerName": "Pincus Technologies Inc (dba Tarly)",
+          "fedRampPackageId": "FR2628650874",
+          "providerName": "Pincus Technologies Inc",
           "ueiNumber": "RKCYVMCNUK45",
           "serviceName": "Tarly Cowork",
           "serviceAcronym": "TARLY",
@@ -169,8 +169,8 @@
           }
         ],
         "ZD_frid_retro": "FR2628650874",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-17T21:26:38Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-07-20T17:48:31Z"
       },
       {
         "assessor": {
@@ -253,7 +253,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-17T21:26:41Z"
+        "last_fetched_timestamp": "2026-07-20T17:48:34Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -357,7 +357,7 @@
         },
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-17T21:26:43Z"
+        "last_fetched_timestamp": "2026-07-20T17:48:35Z"
       },
       {
         "serviceIdentification": {
@@ -423,7 +423,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-17T18:14:32Z"
+        "last_fetched_timestamp": "2026-07-20T17:48:36Z"
       },
       {
         "serviceIdentification": {
@@ -560,18 +560,18 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-07-17T21:26:43Z"
+        "last_fetched_timestamp": "2026-07-20T17:48:36Z"
       },
       {
         "assessor": {
           "assessorID": "000000",
           "id": "000000",
-          "name": "Not yet assigned — independent assessment (IV&V) in procurement"
+          "name": "Not yet assigned; independent assessment (IV&V) in procurement"
         },
         "certifiedServices": [
           {
             "dateAvailable": "2026-04-17",
-            "serviceDescription": "Operated credentialed vulnerability scanning, CSPM, container/IaC scanning, and agent-based monitoring with OSCAL + CR26 machine-readable compliance deliverables.",
+            "serviceDescription": "Native, always-on continuous monitoring operated entirely within the authorization boundary, covering network vulnerability, container/IaC, cloud-posture, and host configuration/CVE assessment, producing OSCAL + FedRAMP CR26 machine-readable compliance evidence. No data is sent to any external scanning or monitoring service.",
             "serviceName": "Enablement Continuous Monitoring"
           }
         ],
@@ -608,15 +608,21 @@
         },
         "serviceIdentification": {
           "cageCode": "627S4",
+          "certificationClass": "Class C",
+          "certificationPath": "Program",
           "certificationType": "20x",
-          "fedRampId": "FR2628647238",
+          "deploymentModel": "Government Community Cloud",
+          "description": "Enablement® is the self-contained, no-code compliance platform you fully own. It is deterministic (no AI, no hallucinations, no token costs), portable to any cloud or data center, CMMC-ready with native continuous monitoring, and zero-trust with no third-party data egress. It is error-proof by design, through automated access control, automated marking, and share-time leak prevention. Built by CMMI-appraised, ISO-certified Advent.\n\nEnablement®\nOwn your compliance. Send nothing out. Need no experts, no AI.\nMost compliance platforms make you hire specialists, wire in third-party services, and increasingly hand your data to AI you cannot audit. Enablement flips that. It is a self-contained, deterministic, zero-trust platform where your teams build and run everything visually, and nothing ever leaves your boundary.\n\n1. No-code process building. No developers, no AI, no token bills.\nBusiness users design complete workflows (BPMN) visually and get web and mobile interfaces generated automatically, with no coding, no integration team, and no consultants. Because the engine is deterministic rather than generative, it is free from AI hallucination and carries zero per-token cost. Every process behaves the same way every time, is fully auditable, and never invents an answer. What you design is exactly what runs.\n\n2. Deploy anywhere. True portability.\nOne platform, any environment. Run Enablement in any commercial cloud, government cloud, or your own data center, or as a fully self-contained appliance. There is no cloud lock-in and no vendor-specific dependency. Move it, mirror it, or air-gap it.\n\n3. Rapid CMMC Level 2 compliance with built-in continuous monitoring.\nCMMC Level 2 readiness comes out of the box, backed by native, always-on continuous monitoring, with no separate scanning products to buy, license, or integrate. Assess, monitor, and produce authorization evidence from day one, on a single system.\n\n4. A genuine zero-trust boundary. Your data never touches a third party.\nEnablement keeps everything inside your perimeter. Your source code lives in its own repository. No data is sent to any outside service for user authentication, code-quality analysis, container scanning, file scanning, or continuous monitoring. Nothing is shipped off to a SaaS, a scanning vendor, or an AI provider. What happens in your boundary stays in your boundary.\n\n5. RBAC and ABAC, with automated document marking that removes human error.\nFine-grained role-based and attribute-based access control (RBAC and ABAC) governs exactly who can see and do what. Documents are marked automatically to federal standards (DoW and NARA), with no manual labeling, no inconsistent tags, and no mislabeled files. The platform does the marking so people cannot get it wrong.\n\n6. Stop data leaks before they happen, and the liability that follows.\nHuman error is the number one cause of data spillage. Enablement checks every share and warns before a document reaches unauthorized personnel, catching the mistake at the moment of sharing rather than after a breach. That turns a potential disclosure, and the corporate liability that comes with it, into a blocked action.\n\n7. Every authentication method, and your password never leaves your device.\nSupport the full range of sign-in: passkeys, single sign-on (SSO), authenticator apps, email, and more. Critically, the password is never sent over the network or to the server. It is proven with a challenge-response so the secret never leaves the user's device. Strong, flexible, phishing-resistant authentication without ever transmitting the credential.",
+          "fedRampId": "FR2628647239",
           "fedRampPackageId": "ADVENTBUSINESS-ENB",
+          "impactLevel": "Moderate",
           "implementationPhase": "Initial Implementation",
           "logo": "https://enablement.cc/assets/enablement/logo.png",
-          "marketplaceUrl": "https://fedramp.gov/marketplace/products/FR2628647238",
+          "marketplaceUrl": "https://fedramp.gov/marketplace/products/FR2628647239",
           "providerName": "Advent Business Company Inc.",
           "serviceAcronym": "ENB",
-          "serviceDescription": "Enablement® is a multi-tenant BPMN-driven business process platform with an integrated Continuous Monitoring service: operated credentialed vulnerability scanning (OpenVAS/GVM), container and IaC scanning (Trivy), cloud security posture management (Prowler), and agent-based CVE/SCA monitoring (Wazuh), with OSCAL and FedRAMP CR26 machine-readable outputs.",
+          "serviceDescription": "Enablement® is the self-contained, no-code compliance platform you fully own. It is deterministic (no AI, no hallucinations, no token costs), portable to any cloud or data center, CMMC-ready with native continuous monitoring, and zero-trust with no third-party data egress. It is error-proof by design, through automated access control, automated marking, and share-time leak prevention. Built by CMMI-appraised, ISO-certified Advent.\n\nEnablement®\nOwn your compliance. Send nothing out. Need no experts, no AI.\nMost compliance platforms make you hire specialists, wire in third-party services, and increasingly hand your data to AI you cannot audit. Enablement flips that. It is a self-contained, deterministic, zero-trust platform where your teams build and run everything visually, and nothing ever leaves your boundary.\n\n1. No-code process building. No developers, no AI, no token bills.\nBusiness users design complete workflows (BPMN) visually and get web and mobile interfaces generated automatically, with no coding, no integration team, and no consultants. Because the engine is deterministic rather than generative, it is free from AI hallucination and carries zero per-token cost. Every process behaves the same way every time, is fully auditable, and never invents an answer. What you design is exactly what runs.\n\n2. Deploy anywhere. True portability.\nOne platform, any environment. Run Enablement in any commercial cloud, government cloud, or your own data center, or as a fully self-contained appliance. There is no cloud lock-in and no vendor-specific dependency. Move it, mirror it, or air-gap it.\n\n3. Rapid CMMC Level 2 compliance with built-in continuous monitoring.\nCMMC Level 2 readiness comes out of the box, backed by native, always-on continuous monitoring, with no separate scanning products to buy, license, or integrate. Assess, monitor, and produce authorization evidence from day one, on a single system.\n\n4. A genuine zero-trust boundary. Your data never touches a third party.\nEnablement keeps everything inside your perimeter. Your source code lives in its own repository. No data is sent to any outside service for user authentication, code-quality analysis, container scanning, file scanning, or continuous monitoring. Nothing is shipped off to a SaaS, a scanning vendor, or an AI provider. What happens in your boundary stays in your boundary.\n\n5. RBAC and ABAC, with automated document marking that removes human error.\nFine-grained role-based and attribute-based access control (RBAC and ABAC) governs exactly who can see and do what. Documents are marked automatically to federal standards (DoW and NARA), with no manual labeling, no inconsistent tags, and no mislabeled files. The platform does the marking so people cannot get it wrong.\n\n6. Stop data leaks before they happen, and the liability that follows.\nHuman error is the number one cause of data spillage. Enablement checks every share and warns before a document reaches unauthorized personnel, catching the mistake at the moment of sharing rather than after a breach. That turns a potential disclosure, and the corporate liability that comes with it, into a blocked action.\n\n7. Every authentication method, and your password never leaves your device.\nSupport the full range of sign-in: passkeys, single sign-on (SSO), authenticator apps, email, and more. Critically, the password is never sent over the network or to the server. It is proven with a challenge-response so the secret never leaves the user's device. Strong, flexible, phishing-resistant authentication without ever transmitting the credential.",
+          "serviceModel": "SaaS, PaaS",
           "serviceName": "Enablement®",
           "uei": "C7LGVA7B5JT1",
           "website": "https://enablement.cc"
@@ -771,14 +777,23 @@
           ],
           "businessCategory": [
             "Cybersecurity & Risk Management",
-            "Governance, Risk, and Compliance (GRC)"
+            "Development Tools",
+            "Data Management",
+            "Artificial Intelligence (AI)",
+            "System Administration",
+            "Mobile Device Management (MDM)",
+            "Governance, Risk, and Compliance (GRC)",
+            "Content Management System (CMS)",
+            "Operations Management",
+            "Finance"
           ],
-          "deploymentModel": "Public Cloud",
+          "deploymentModel": "Government Community Cloud",
           "digitalIdentityLevel": "IAL2/AAL2",
           "nextOngoingCertificationReportDate": "2026-10-01",
           "secureConfigurationGuide": "https://enablement.cc/ml/20x/scg",
           "serviceType": [
-            "SaaS"
+            "SaaS",
+            "PaaS"
           ],
           "trustCenter": {
             "accessRequestInstructions": "Public page. Tokens for access-controlled artifacts: rajesh@adventbusiness.com",
@@ -793,30 +808,514 @@
         "thirdPartyInformationResources": {
           "nonCertified": [
             {
-              "name": "OpenVAS / GVM",
-              "provider": "Greenbone",
-              "useCase": "Network vulnerability scanning engine (self-hosted)."
-            },
-            {
-              "name": "Trivy",
-              "provider": "Aqua Security",
-              "useCase": "Container image and IaC scanning (self-hosted)."
-            },
-            {
-              "name": "Prowler",
-              "provider": "Prowler",
-              "useCase": "Cloud security posture management (self-hosted)."
-            },
-            {
-              "name": "Wazuh",
-              "provider": "Wazuh Inc.",
-              "useCase": "Agent-based CVE inventory and SCA (self-hosted)."
+              "name": "Self-hosted open-source security tooling",
+              "provider": "Operated by Advent within the authorization boundary",
+              "useCase": "Network vulnerability, container/IaC, cloud-posture, and host configuration/CVE assessment, all executed inside the boundary; no data leaves the boundary and no external scanning or monitoring service is relied upon."
             }
           ]
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-17T21:26:43Z"
+        "last_fetched_timestamp": "2026-07-20T17:48:36Z"
+      },
+      {
+        "serviceIdentification": {
+          "providerName": "International Vending Management, Inc.",
+          "serviceName": "SmartHub",
+          "serviceAcronym": "SH",
+          "serviceDescription": "IVM SmartHub is an intelligent, centralized access and asset management solution designed to streamline how organizations control, track, and manage access to IVM Smart Solutions. Built for modern workplaces, government agencies, IT teams, and distributed operations, SmartHub provides secure self-service access to connected IVM solutions while maintaining full accountability through automated tracking and chain-of-custody workflows.\n \nWith SmartHub, organizations can reduce manual administrative tasks, improve operational visibility, and provide 24/7 controlled access to IVM Smart Solutions without requiring constant onsite support. The system helps teams manage users, permissions, access activity, inventory visibility, and asset workflows in real time, improving audit readiness and ensuring the right users have access to the right solutions when they need them.\n \nWhether supporting IT service delivery, field operations, onboarding, break/fix replacement, or controlled equipment distribution, IVM SmartHub delivers a smarter, more secure, and more efficient way to manage access across the IVM Smart Solutions ecosystem.",
+          "certificationType": "20x",
+          "fedRampPackageId": "IVM",
+          "website": "https://www.ivminc.com",
+          "logo": "https://trustcenter.gov.ivminc.com/img/ivm-logo.webp",
+          "ueiNumber": "X7PFXJTGKKC4"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "digitalIdentityLevel": "IAL2/AAL2/FAL2",
+          "businessCategory": [
+            "Operations Management"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trustcenter.gov.ivminc.com/",
+            "repositoryDescription": "IVM FedRAMP Trust Center — Certification Data landing page and access instructions.",
+            "authenticationRequired": false
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Documentation"
+              ],
+              "url": "https://trustcenter.gov.ivminc.com/",
+              "repositoryDescription": "The provider delivers a complete, structurally validated compliance documentation package for the IVM Cloud Service Offering (CSO) built on Microsoft Azure. This package establishes the Class C (No CUI) security boundary, outlines control responsibilities, and provides the framework for continuous machine-readable telemetry.The provided documentation suite consists of the following core artifacts:System Security Plan (SSP) & System Boundary Diagram: A comprehensive implementation guide detailing how the SaaS application inherits physical and environmental controls from the FedRAMP-authorized Azure platform, manages its public-facing (unauthenticated) ingestion boundary via Azure Front Door/WAF, and strictly enforces IAL2/AAL2 phishing-resistant identity controls for all internal administrative staff.Corporate Security Policies and Procedures Reference Index: A cross-referenced directory mapping internal operational policies (including Access Control, Incident Response, and Configuration Management) to specific FedRAMP Class C Practices, complete with document IDs, revision dates, and operational scope summaries.Customer-Facing Secure Configuration Guide: A deployment manual provided to federal consumers detailing consumer-side responsibilities, secure data ingestion parameters, and integration best practices for interacting with the public endpoints.Continuous Monitoring (ConMon) Strategy & KSI Framework: A technical blueprint detailing the automation of Key Security Indicators (KSIs) using Azure Policy and Log Analytics to stream continuous, machine-readable system health and security telemetry.Independent Assessment Report (IAR) Template & Plan: Prepared documentation frameworks for the Third-Party Assessment Organization (3PAO) to validate the system boundary, penetration testing rules of engagement for public endpoints, and Class C control implementation.All artifacts are maintained in human-readable formats for reviewer analysis and are indexed with corresponding cryptographic hashes and metadata to support conversion into machine-readable OSCAL JSON formats.",
+              "authenticationRequired": false
+            }
+          ]
+        },
+        "contactInformation": [
+          {
+            "contactType": "Sales",
+            "contactEmail": "bruceg@ivminc.com"
+          },
+          {
+            "contactType": "Security",
+            "contactEmail": "wbender117@ivminc.com"
+          }
+        ],
+        "assessor": {
+          "name": "Kompleye",
+          "assessorID": "201591",
+          "id": "201591"
+        },
+        "ZD_frid_retro": "FR2628943629",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-07-20T17:48:37Z"
+      },
+      {
+        "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "lastUpdated": "2026-07-17",
+        "serviceIdentification": {
+          "fedRampPackageId": "PENDING",
+          "ueiNumber": "PL1GB2CMMCK5",
+          "providerName": "Xfinion Inc.",
+          "serviceName": "Continuously Aware Realtime Tracking Network (CARTN)",
+          "serviceAcronym": "CARTN",
+          "serviceDescription": "CARTN is a cloud-based real-time asset tracking and visibility platform designed to help organizations track, manage, and monitor physical assets across facilities. By combining RFID, NFC & Barcode technology, location tracking, and unified dashboards, CARTN gives teams complete visibility into asset movement, inventory, and operations. The service includes a web portal and mobile application for viewing and managing asset data, a backend service that receives data from multi-modal readers readers in the field, and a secure central data store. All components are hosted in a cloud environment with network-level controls that limit connectivity to authorized services only. Access to the portal and underlying infrastructure is protected by multi-factor authentication.",
+          "certificationType": "20x",
+          "website": "https://www.cartn.com",
+          "logo": "https://www.cartn.com/assets/cartn-logo.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Operations Management"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.paramify.com/xfinion",
+            "repositoryDescription": "CARTN Trust Center — system security documentation, configuration guidance, and authorization artifacts.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "https://trust.paramify.com/xfinion/continuously-aware-realtime-tracking-network-cartn/deliverables"
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://www.cartn.com/admin-guide.html",
+            "repositoryDescription": "CARTN administrator guide covering secure configuration of the platform.",
+            "authenticationRequired": false
+          },
+          "nextOngoingCertificationReportDate": "2026-08-31"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Sales",
+            "contactName": "Vijay Goswami",
+            "contactEmail": "contact@xfinion.com",
+            "contactPhone": "301-801-4897"
+          },
+          {
+            "contactType": "Security",
+            "contactName": "Vijay Goswami",
+            "contactEmail": "security@xfinion.com",
+            "contactPhone": "301-801-4897"
+          }
+        ],
+        "assessor": {
+          "name": "A-Lign",
+          "assessorID": "138665"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "CARTN",
+            "securityCategory": "Low",
+            "serviceDescription": "CARTN is a cloud-based real-time asset tracking and visibility platform designed to help organizations track, manage, and monitor physical assets across facilities. By combining RFID, NFC & Barcode technology, location tracking, and unified dashboards, CARTN gives teams complete visibility into asset movement, inventory, and operations.",
+            "dateAvailable": "2026-03-14"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
+              "useCase": "The CARTN FedRAMP SaaS offering is hosted on Microsoft Azure Commercial, which serves as the Infrastructure-as-a-Service (IaaS) platform for the service. Azure provides the underlying compute, storage, and networking resources on which CARTN's web portal, backend data ingestion services, and central data store are deployed, with network-level controls that limit connectivity to authorized services only. CARTN uses Microsoft Entra for identity and access management of the Azure infrastructure and CARTN management plane. Microsoft Entra authenticates and authorizes administrative and privileged access, enforcing multi-factor authentication, conditional access policies, and role-based access controls so that only authorized personnel can access CARTN's cloud environment and supporting resources."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+              "useCase": "The CARTN FedRAMP SaaS offering uses Amazon Web Services (AWS) for supporting infrastructure services. AWS Route 53 provides authoritative DNS resolution for CARTN's public-facing endpoints, routing user and reader traffic to the appropriate CARTN services. AWS CodeBuild, within its FedRAMP-authorized offering, serves as the DevOps build and continuous integration platform used to compile, test, and package CARTN application code as part of the secure software development and deployment pipeline."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1512167750",
+              "useCase": "The CARTN FedRAMP SaaS offering uses Okta Identity-as-a-Service (IDaaS) Regulated Cloud to provide user authentication and authorization for the CARTN web portal and mobile application. Okta manages end-user identities, enforces multi-factor authentication, and applies access policies that govern which users may access CARTN and the data and functions available to them, providing centralized and auditable identity management for the service."
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "Azure DevOps",
+              "provider": "Microsoft",
+              "website": "https://azure.microsoft.com/en-us/products/devops",
+              "useCase": "Azure DevOps is currently used as DevOps platform with planned retirement in favor of AWS Codebuild on 2026-07-24"
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2628943630",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-07-20T17:48:37Z"
+      },
+      {
+        "serviceIdentification": {
+          "providerName": "Pryme Infil, Inc.",
+          "serviceName": "Pryme Infil",
+          "serviceAcronym": "PRYME",
+          "serviceDescription": "Cloud-based command-and-control platform for public safety operations, providing operational planning, real-time team coordination, encrypted messaging, GPS mapping, risk assessments, and after-action documentation for law enforcement and public safety agencies.",
+          "certificationType": "20x",
+          "fedRampPackageId": "Pryme Infil, Inc. (PRYME)",
+          "ueiNumber": "Z363L7GPL7P9",
+          "website": "https://www.prymeinfil.com/",
+          "logo": "https://cdn.prod.website-files.com/698cfd876cf33430c0e79e6b/69e90cda3b41e585b3212654_pryme%20infil%20logo%20small-01.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Government-Only Cloud",
+          "businessCategory": [
+            "Law Enforcement",
+            "Operations Management"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://app.vanta.com/prymeinfil/trust/7tlcmt81p2x555bymou4kr",
+            "repositoryDescription": "Pryme Infil Trust Center — security and compliance documentation for agencies evaluating the offering.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Visit the Trust Center and select the document you wish to review. You will be presented with a request form; submit it to request access. Pryme Infil reviews each request and grants access to the requested documents once approved."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://app.vanta.com/prymeinfil/trust/7tlcmt81p2x555bymou4kr/resources?s=329nbsfnmtgsp5fldc4awl&name=secure-configuration-guide",
+            "repositoryDescription": "Secure Configuration Guide for agency administrators — how to securely access, configure, operate, and decommission privileged accounts, and the security implication of each administrative setting.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Access the guide through the Pryme Infil Trust Center: select the document and submit the request form. Pryme Infil reviews each request and grants access once approved."
+          }
+        },
+        "contactInformation": [
+          {
+            "contactType": "Sales",
+            "contactName": "Jarred Pereira",
+            "contactEmail": "sales@prymeinfil.com",
+            "contactPhone": "707-505-5004"
+          },
+          {
+            "contactType": "Security",
+            "contactName": "Mike Cowgill",
+            "contactEmail": "security@prymeinfil.com",
+            "contactPhone": "707-505-5004"
+          }
+        ],
+        "assessor": {
+          "name": "Insight Assurance",
+          "assessorID": "203355"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Operational Planning & Coordination",
+            "serviceDescription": "Tactical operation and event planning (SMEAC, course of action, breach and energetic-breach plans, contingencies, deconfliction, control points, briefings, negotiations), structured risk assessment, real-time operational messaging and channels, live and historical GPS mapping of personnel and assets, and in-app, email, and push notifications.",
+            "dateAvailable": "2023-03-10"
+          },
+          {
+            "serviceName": "After-Action & Incident Reporting",
+            "serviceDescription": "After-action reports, use-of-force and injury reporting, property damage, medical aid, and evidentiary finds.",
+            "dateAvailable": "2023-03-10"
+          },
+          {
+            "serviceName": "Training & Readiness",
+            "serviceDescription": "Training events, training matrices, qualification tracking and compliance results, and K9 program management (certifications, health records, deployments, training logs).",
+            "dateAvailable": "2023-03-10"
+          },
+          {
+            "serviceName": "Personnel & Resource Management",
+            "serviceDescription": "Teams, rosters, personnel and applicant profiles, emergency contacts, personas and permissions, and inventory and assignment of equipment and assets (drones, chemical agents, body-worn cameras, firearms, less-lethal weapons, radios, vehicles, GPS devices).",
+            "dateAvailable": "2023-03-10"
+          },
+          {
+            "serviceName": "Records, Forms & Document Management",
+            "serviceDescription": "Upload, storage, and organization of operational documents, images, and media in per-tenant encrypted storage; custom form templates, captured form data, and agency-configurable data dictionary fields.",
+            "dateAvailable": "2026-04-06"
+          },
+          {
+            "serviceName": "Dashboards & Analytics",
+            "serviceDescription": "Configurable dashboards and widgets with an analytics layer over tenant operational data.",
+            "dateAvailable": "2025-07-08"
+          }
+        ],
+        "ZD_frid_retro": "FR2628943632",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-07-20T17:48:37Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "serviceIdentification": {
+          "fedRampPackageId": "Boundera (B)",
+          "providerName": "Boundera",
+          "serviceName": "Boundera SaaS",
+          "serviceAcronym": "B",
+          "serviceDescription": "Boundera is a platform for automating FedRAMP 20x compliance through continuous validation, evidence collection, and AI-assisted remediation. Boundera is available as a SaaS service or as a self-deployed installation that runs entirely within a customer's cloud environment. Boundera uses the same production platform internally while pursuing FedRAMP 20x Class B certification.",
+          "certificationType": "20x",
+          "website": "https://boundera.io",
+          "logo": "https://boundera.io/logo-icon-navy.svg",
+          "ueiNumber": "Z7P7R1CJQB56"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Cybersecurity & Risk Management"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://boundera.io/tc/fedramp-trust-center",
+            "repositoryDescription": "FedRAMP Trust Center landing page with access instructions.",
+            "authenticationRequired": false
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://boundera.io/trust/secure-configuration-guide",
+            "repositoryDescription": "Secure Configuration Guide.",
+            "authenticationRequired": false
+          }
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Edmund Agu",
+            "contactEmail": "security@boundera.io"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Arian Taj",
+            "contactEmail": "sales@boundera.io"
+          }
+        ],
+        "certifiedServices": [
+          {
+            "serviceName": "AWS Certificate Manager",
+            "serviceDescription": "Certificate provisioning, management, and renewal.",
+            "dateAvailable": "2026-07-08"
+          },
+          {
+            "serviceName": "AWS Key Management Service",
+            "serviceDescription": "Managed encryption key creation and control.",
+            "dateAvailable": "2026-07-08"
+          },
+          {
+            "serviceName": "AWS Secrets Manager",
+            "serviceDescription": "Secrets storage and rotation.",
+            "dateAvailable": "2026-07-08"
+          },
+          {
+            "serviceName": "Amazon EC2",
+            "serviceDescription": "Resizable virtual compute instances.",
+            "dateAvailable": "2026-07-08"
+          },
+          {
+            "serviceName": "Amazon RDS",
+            "serviceDescription": "Managed relational database service.",
+            "dateAvailable": "2026-07-08"
+          },
+          {
+            "serviceName": "Amazon Route 53",
+            "serviceDescription": "Scalable DNS and domain routing.",
+            "dateAvailable": "2026-07-08"
+          },
+          {
+            "serviceName": "Amazon S3",
+            "serviceDescription": "Object storage for files and backups.",
+            "dateAvailable": "2026-07-08"
+          },
+          {
+            "serviceName": "Elastic Load Balancing",
+            "serviceDescription": "Application and network traffic load balancing.",
+            "dateAvailable": "2026-07-08"
+          },
+          {
+            "serviceName": "GitHub",
+            "serviceDescription": "Source code hosting and version control.",
+            "dateAvailable": "2026-07-08"
+          }
+        ],
+        "ZD_frid_retro": "FR2628943633",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-07-20T17:48:38Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "$comment": "Draft FRC-CSO-PKG for Boltline Marketplace submission. Schema URL matches the live FedRAMP schemas index as of 2026-07-10. digitalIdentityLevel set from implemented Cognito posture (IAL1/AAL1/FAL2). Confirm interim SCG URL with GRC before submission.",
+        "serviceIdentification": {
+          "fedRampPackageId": "FR2622064089",
+          "ueiNumber": "QDQ6V2X12WF1",
+          "providerName": "Stoke Space Technologies, Inc.",
+          "serviceName": "Boltline",
+          "serviceAcronym": "BL",
+          "serviceDescription": "Boltline is a multi-tenant manufacturing execution and operations SaaS platform. Federal customers use Boltline to manage engineering-to-production workflows, including parts, bills of materials, inventory, work plans, orders, integrations, attachments, and auditable workflow activity.\n\nBoltline may store, process, or transmit federal customer data including user and organization records, technical product metadata, part and BOM data, work instructions, inventory and order records, files and attachments, connector payloads, integration metadata, security events, and audit logs. Depending on customer use, this data may include controlled unclassified information. Boltline is not intended to store classified information.\n\nThe primary FedRAMP assessment boundary is the Stoke-operated Boltline SaaS production environment in AWS GovCloud (`prod-govcloud`).",
+          "certificationType": "20x",
+          "website": "https://www.boltline.com",
+          "logo": "https://boltline.com/wp-content/themes/boltline/public/favicons/android-chrome-512x512.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Government Community Cloud",
+          "digitalIdentityLevel": "IAL1/AAL1/FAL2",
+          "businessCategory": [
+            "Operations Management",
+            "Data Management",
+            "Development Tools",
+            "Collaboration"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.paramify.com/stoke/boltline",
+            "repositoryDescription": "Boltline Trust Center on Paramify. Public compliance program summary, controls, interconnections, and deliverables. Restricted authorization package access for agency and FedRAMP reviewers after approval.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Visit https://trust.paramify.com/stoke/boltline and select **Request Access**. Include agency or organization name, requested materials, business justification, and FedRAMP Package ID FR2622064089. Stoke reviews access requests within five business days and grants named trust center accounts where appropriate. For urgent FedRAMP communications, email boltline-fedramp@stokespace.com."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://help.boltline.com/boltline/Organization/Preferences",
+            "repositoryDescription": "Interim customer configuration guidance for organization session timeouts, access restrictions, and admin settings. Full FedRAMP Secure Configuration Guide pending publication.",
+            "authenticationRequired": false
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Assessment Reports",
+                "Policies and Procedures"
+              ],
+              "url": "https://trust.paramify.com/stoke/boltline",
+              "repositoryDescription": "Restricted authorization package deliverables in the Boltline Trust Center, including assessment reports, policies, procedures, and supporting evidence for assessors, FedRAMP, and authorized agency reviewers.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Use the same **Request Access** process as the Boltline Trust Center at https://trust.paramify.com/stoke/boltline. Restricted deliverables are available after Stoke approves named access."
+            }
+          ]
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Lowell Young",
+            "contactEmail": "boltline-fedramp@stokespace.com",
+            "contactPhone": "425-299-2370"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Anshul Garg",
+            "contactEmail": "marketing@boltline.com",
+            "contactPhone": "253-220-4600"
+          },
+          {
+            "contactType": "Primary",
+            "contactName": "Brent Bradbury",
+            "contactEmail": "marketing@boltline.com"
+          }
+        ],
+        "assessor": {
+          "name": "Coalfire Systems, Inc.",
+          "id": "138514",
+          "assessorID": "138514"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Boltline Web UI",
+            "serviceDescription": "Customer-facing web application for manufacturing operations, workflows, inventory, orders, and attachments.",
+            "dateAvailable": "2025-08-14"
+          },
+          {
+            "serviceName": "Boltline API",
+            "serviceDescription": "GraphQL and REST API, authentication flows, and customer integration endpoints included in the FedRAMP boundary.",
+            "dateAvailable": "2025-08-14"
+          },
+          {
+            "serviceName": "Organization and user management",
+            "serviceDescription": "Tenant provisioning, user lifecycle, roles, groups, and organization preferences.",
+            "dateAvailable": "2025-08-14"
+          },
+          {
+            "serviceName": "Parts, BOMs, inventory, work plans, and orders",
+            "serviceDescription": "Core manufacturing execution data and workflow records.",
+            "dateAvailable": "2025-08-14"
+          },
+          {
+            "serviceName": "Integrations and connector processing",
+            "serviceDescription": "Customer-authorized PLM, ERP, and connector workflows included in the federal boundary.",
+            "dateAvailable": "2025-08-14"
+          },
+          {
+            "serviceName": "Supporting AWS GovCloud runtime services",
+            "serviceDescription": "Production runtime and platform services in scope for `prod-govcloud`, including ECS, RDS PostgreSQL, S3, Redis, Temporal, Topaz, Cognito, KMS, Secrets Manager, SSM, ALB, WAF, CloudWatch, and related network services.",
+            "dateAvailable": "2025-08-14"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+              "useCase": "AWS GovCloud hosts the Boltline production environment, including compute, storage, database, identity, networking, encryption, logging, and email services inherited into the authorization boundary."
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "Datadog Gov",
+              "provider": "Datadog, Inc.",
+              "website": "https://www.datadoghq.com/",
+              "useCase": "Central logging, metrics, traces, monitoring, and alerting for production operations."
+            },
+            {
+              "name": "GitHub Enterprise",
+              "provider": "GitHub, Inc.",
+              "website": "https://github.com/",
+              "useCase": "Source control, CI/CD, deployment automation, and SDLC evidence for production changes."
+            },
+            {
+              "name": "PagerDuty",
+              "provider": "PagerDuty, Inc.",
+              "website": "https://www.pagerduty.com/",
+              "useCase": "Incident routing and on-call escalation."
+            },
+            {
+              "name": "JFrog Artifactory",
+              "provider": "JFrog Ltd.",
+              "website": "https://jfrog.com/",
+              "useCase": "Artifact and container image storage and promotion in the deployment path."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2628943634",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-07-20T17:48:39Z"
       }
     ]
   }
