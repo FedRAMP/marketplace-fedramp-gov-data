@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-20T19:59:29.717Z",
-    "total_entries": 1979,
+    "export_timestamp": "2026-07-21T19:59:29.969Z",
+    "total_entries": 1980,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -25731,6 +25731,19 @@
         "transition_date": "2026-07-20T17:44:15Z",
         "recorded_date": "2026-07-20T17:46:54.930Z",
         "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "7e63cdfd-1380-47cf-b281-8d32e54bf080",
+        "product_id": "MSO365MTA",
+        "csp": "Microsoft",
+        "cso": "Microsoft 365 Government Community Cloud & Supporting Services",
+        "cert_path": "Agency",
+        "from_status": "",
+        "to_status": "PMO Review",
+        "transition_date": "2026-07-20T21:35:48.487Z",
+        "recorded_date": "2026-07-20T21:35:48.487Z",
+        "source": "manual",
         "comments": ""
       }
     ]
