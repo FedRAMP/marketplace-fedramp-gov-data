@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-21T20:44:33.806Z",
-    "total_entries": 11,
+    "export_timestamp": "2026-07-22T00:32:31.370Z",
+    "total_entries": 14,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -170,7 +170,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-07-21T20:44:25Z"
+        "last_fetched_timestamp": "2026-07-22T00:32:22Z"
       },
       {
         "assessor": {
@@ -253,7 +253,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-21T20:44:29Z"
+        "last_fetched_timestamp": "2026-07-22T00:32:25Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -357,7 +357,7 @@
         },
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-21T20:44:29Z"
+        "last_fetched_timestamp": "2026-07-22T00:32:26Z"
       },
       {
         "serviceIdentification": {
@@ -560,7 +560,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-07-21T20:44:30Z"
+        "last_fetched_timestamp": "2026-07-22T00:32:27Z"
       },
       {
         "assessor": {
@@ -816,7 +816,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-21T20:44:31Z"
+        "last_fetched_timestamp": "2026-07-22T00:32:27Z"
       },
       {
         "serviceIdentification": {
@@ -875,7 +875,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-21T20:44:32Z"
+        "last_fetched_timestamp": "2026-07-22T00:32:28Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -970,7 +970,7 @@
         },
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-21T20:44:32Z"
+        "last_fetched_timestamp": "2026-07-22T00:32:28Z"
       },
       {
         "serviceIdentification": {
@@ -1064,7 +1064,7 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-21T20:44:32Z"
+        "last_fetched_timestamp": "2026-07-22T00:32:29Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1165,7 +1165,7 @@
         ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-21T20:44:33Z"
+        "last_fetched_timestamp": "2026-07-22T00:32:29Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1315,7 +1315,301 @@
         },
         "ZD_frid_retro": "FR2628943634",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-21T20:44:34Z"
+        "last_fetched_timestamp": "2026-07-22T00:32:31Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "sourceDocuments": [
+          "README.md",
+          "CSP.md",
+          "CSO.md",
+          "SECURE_CONFIGURATION_GUIDE.md"
+        ],
+        "serviceIdentification": {
+          "fedRampPackageId": "XX-XXXXXXXX",
+          "ueiNumber": "KLL2SDMGF7W9",
+          "providerName": "SunStone Secure, LLC",
+          "serviceName": "SunStone Artemis Platform",
+          "serviceAcronym": "Artemis",
+          "serviceDescription": "SunStone Artemis Platform is SunStone's Federal Platform running on AWS GovCloud and Commercial AWS. The Apollo Digital Twin Engine can ingest and process OSCAL 1.1.3 models, prototype and extension models, markdown, and other document content to support agency AO and ISSO analysis workflows for CSO inventory, data flows, POA&Ms, incidents, threat models, testing exercises, change artifacts, impact assessments, deviation requests, and NIST 800-53 documentation.",
+          "certificationType": "20x",
+          "website": "https://sunstonesecure.com/platform",
+          "logo": "https://sunstonesecure.com/assets/sunstone-logo-dark-DlKpnxzK.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Hybrid Cloud",
+          "deploymentModelComponents": [
+            "Public Cloud",
+            "Government-Only Cloud"
+          ],
+          "businessCategory": [
+            "Governance, Risk, and Compliance (GRC)",
+            "Cybersecurity & Risk Management"
+          ],
+          "digitalIdentityLevel": {
+            "identityAssuranceLevel": "IAL2",
+            "authenticatorAssuranceLevel": "AAL2",
+            "federationAssuranceLevel": "FAL2",
+            "requirement": "Authenticators must be compliant with NIST SP 800-63-3 Digital Identity Guidelines at IAL2, AAL2, and FAL2.",
+            "reference": "https://pages.nist.gov/800-63-3/"
+          },
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://github.com/SunStone-Secure-LLC/artemis-fedramp20x",
+            "repositoryDescription": "Public Trust Center for the SunStone Artemis FedRAMP 20x package. A private GitHub repository exists for agency Trust Center materials.",
+            "authenticationRequired": false,
+            "accessRequestInstructions": "Public materials are available in this repository. For private agency Trust Center access, file a GitHub issue at https://github.com/SunStone-Secure-LLC/artemis-fedramp20x/issues/new?template=access_request.yml or email security@sunstonesecure.com with the requester's name and email address. Issue requests are automatically rejected unless the requester email ends in sunstonesecure.com, .gov, or .mil."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://github.com/SunStone-Secure-LLC/artemis-fedramp20x/blob/main/SECURE_CONFIGURATION_GUIDE.md",
+            "repositoryDescription": "Placeholder for the Artemis Secure Configuration Guide. The final guide will be published later via a repository release artifact.",
+            "authenticationRequired": false
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Assessment Plans",
+                "Assessment Results",
+                "Supporting Artifacts"
+              ],
+              "url": "https://github.com/SunStone-Secure-LLC/artemis-fedramp20x",
+              "repositoryDescription": "Public repository containing CSP and CSO summaries, KSI assessment plans, KSI assessment results, KSI summaries, OSCAL catalogs, and pro forma 3PAO assessment plans.",
+              "authenticationRequired": false
+            },
+            {
+              "repositoryType": [
+                "Private FedRAMP Trust Center",
+                "Audit Evidence",
+                "Assessment Reports"
+              ],
+              "url": "https://github.com/SunStone-Secure-LLC/artemis-fedramp",
+              "repositoryDescription": "Private FedRAMP Trust Center repository for authorized agency Trust Center materials, audit evidence, and assessment reporting artifacts.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "File a GitHub issue at https://github.com/SunStone-Secure-LLC/artemis-fedramp20x/issues/new?template=access_request.yml or email security@sunstonesecure.com with the requester's name and email address. Issue requests are automatically rejected unless the requester email ends in sunstonesecure.com, .gov, or .mil."
+            }
+          ],
+          "nextOngoingCertificationReportDate": "2026-09-30"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Sales",
+            "contactEmail": "info@sunstonesecure.com"
+          },
+          {
+            "contactType": "Security",
+            "contactEmail": "security@sunstonesecure.com"
+          }
+        ],
+        "assessor": {
+          "name": "ACME 3PAO Inc.",
+          "assessorID": "000000"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Artemis API Service",
+            "serviceDescription": "Artemis API Service. FIPS-199 security category: Confidentiality Moderate, Integrity Moderate, Availability Moderate. Supporting capabilities include OSCAL model ingestion and processing; markdown and document content ingestion; CSO inventory and data-flow analysis; POA&M analysis and remediation guidance; CSO/CSP incident impact analysis; CSO threat model generation; CSO-specific penetration test and red team exercise generation; Significant Change Request, Security Impact Assessment, Business Impact Assessment, and Deviation Request analysis; NIST 800-53 policy/procedure/plan content support; AWS-native delivery services; FedRAMP ATO'd DAST scanner; and GitHub Enterprise GitOps automation.",
+            "dateAvailable": "2026-08-01",
+            "fips199SecurityCategory": {
+              "confidentiality": "Moderate",
+              "integrity": "Moderate",
+              "availability": "Moderate"
+            },
+            "supportingCapabilities": [
+              "OSCAL model ingestion and processing",
+              "Markdown and document content ingestion",
+              "CSO inventory and data-flow analysis",
+              "CSO POA&M analysis and remediation guidance",
+              "CSO/CSP incident impact analysis",
+              "CSO threat model generation",
+              "CSO-specific penetration test exercise generation",
+              "CSO-specific red team exercise generation",
+              "Significant Change Request analysis",
+              "Security Impact Assessment analysis",
+              "Business Impact Assessment analysis or generation",
+              "Deviation Request analysis",
+              "NIST 800-53 policy, procedure, and plan content support"
+            ]
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+              "useCase": "AWS US East/West provides the Commercial AWS environment and AWS-native services used to deliver the CSO."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+              "useCase": "AWS GovCloud provides the government cloud environment and AWS-native services used to deliver the CSO."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+              "useCase": "Google Workspace provides FedRAMP-authorized workspace services for CSP staff support and business communications related to the CSO."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
+              "useCase": "GitHub Enterprise Cloud provides source control and GitOps automation used for CSO change management and deployment workflows."
+            }
+          ]
+        },
+        "providerDocumentationOverview": "The public repository provides CSP and CSO summaries, KSI assessment plans, KSI assessment results, KSI summaries, OSCAL catalogs, and pro forma 3PAO assessment plans. The provider intends to supply continuously generated, machine-readable public supporting evidence, digitally signed KSI SAR artifacts, and summary 3PAO SAR information. Underlying raw audit evidence and the 3PAO test case workbook are limited to a private repository for the 3PAO, CSO customers, agency customers, and other authorized users.",
+        "sourceMapping": {
+          "deploymentModel": "CSO.md states that Artemis runs on AWS GovCloud and Commercial AWS. The FedRAMP schema defines deploymentModel as a single string enum, so the schema-valid value is Hybrid Cloud. deploymentModelComponents records the two underlying environments as Public Cloud and Government-Only Cloud.",
+          "businessCategory": "Mapped from the FedRAMP schema enum based on CSO.md GRC, authorization, risk, and security-analysis workflows.",
+          "digitalIdentityLevel": "Provider-supplied requirement: authenticators must be compliant with NIST SP 800-63-3 Digital Identity Guidelines at IAL2, AAL2, and FAL2.",
+          "thirdPartyInformationResources": "FedRAMP certified third-party information resources are sourced from https://github.com/FedRAMP/marketplace-fedramp-gov-data/blob/main/data.json. Selected records: AGENCYAMAZONEW (Amazon AWS US East/West), F1603047866 (Amazon AWS GovCloud), F1206081364 (Google Workspace), and FR1812058188 (GitHub Enterprise Cloud).",
+          "secureConfigurationGuidance": "SECURE_CONFIGURATION_GUIDE.md is a placeholder for the Artemis-specific guide. CSO.md also references AWS Security Reference Architecture and AWS Well-Architected Framework guidance.",
+          "trustCenter": "This public repository is the public Trust Center. Private agency Trust Center access is available through https://github.com/SunStone-Secure-LLC/artemis-fedramp by request.",
+          "providerDocumentationOverview": "README.md sections on validation evidence, supporting artifacts, 3PAO review, continuous reporting, prototype reporting, and submission."
+        },
+        "externalReferences": {
+          "awsSecurityReferenceArchitecture": {
+            "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html"
+          },
+          "awsWellArchitectedFramework": {
+            "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html"
+          },
+          "nistSp800633DigitalIdentityGuidelines": {
+            "url": "https://pages.nist.gov/800-63-3/"
+          },
+          "fedRampMarketplaceData": {
+            "url": "https://github.com/FedRAMP/marketplace-fedramp-gov-data/blob/main/data.json"
+          }
+        },
+        "missingInformationRequested": [],
+        "ZD_frid_retro": "FR2629068830",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-07-22T00:32:30Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "OATI-TEMPId",
+          "ueiNumber": "HAL1AXFK8ZB3",
+          "providerName": "Open Access Technology International, Inc.",
+          "serviceName": "OATI Marketplace",
+          "serviceAcronym": "OATI",
+          "serviceDescription": "OATI services focus on data / transaction management, warehousing, and retrieval in real-time. These services are delivered via OATI managed Data Centers that are equipped with multiple redundant systems and networks and provide a secure production application environment, with multiple redundant systems and networks.\nOATI provides services to over 700 energy industry organizations in North America. Over 90% of the wholesale power entities in North America use OATI services in their operations. OATI, as a provider of SaaS, reduces the burden and expense for energy industry participants who must deploy mission-critical software that complies with industry regulations and Sarbanes-Oxley requirements (SOX).",
+          "certificationType": "Rev5",
+          "website": "https://www.oati.com/",
+          "logo": "https://www.oati.com/assets/logo.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Hybrid Cloud",
+          "digitalIdentityLevel": "IAL2/AAL2/FAL2",
+          "businessCategory": [
+            "Artificial Intelligence (AI)",
+            "Customer Service",
+            "Data Management",
+            "Research"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://www.oati.com/fedramp/",
+            "repositoryDescription": "COMING SOON! FedRAMP trust center with authorization documents and evidence.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Request access by emailing FedRAMP@oati.net."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://www.oati.com/fedramp/secure-configuration-guide.pdf",
+            "repositoryDescription": "Not Applicable for Rev5 Class A",
+            "authenticationRequired": false
+          }
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Security Team",
+            "contactEmail": "FedRAMP@oati.net",
+            "contactPhone": "202-555-0123"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Sales Team",
+            "contactEmail": "Sales@oati.net",
+            "contactPhone": "763-201-2000"
+          }
+        ],
+        "assessor": {
+          "name": "Schellman and Company, LLC",
+          "assessorID": "000000"
+        },
+        "ZD_frid_retro": "FR2629068832",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-07-22T00:32:30Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "TBD",
+          "ueiNumber": "47-1877648",
+          "providerName": "Immuta",
+          "serviceName": "Immuta Federal",
+          "serviceAcronym": "IMMUTA",
+          "serviceDescription": "Immuta's SaaS platform, the Immuta Data Security Platform, provides a number of capabilities that enable customers to govern and provision data access, automating how data is delivered to both human and non-human consumers while maintaining continuous compliance. These capabilities are managed through Immuta’s web-based interface and Application Programming Interface (API). Authentication to Immuta’s service is controlled via a variety of Single Sign-on (SSO) and directory systems maintained by the customer or a third party. Management of each customer’s Immuta environment is split into a number of roles so that customers desiring a separation of duties for governance purposes can limit users to specific roles to achieve that goal. User attributes can be defined within the platform’s identity manager or synced from an external identity management system. This functionality is central to implementing attribute-based access and control (ABAC) of data, which is a key capability of the platform. Users allowed to act under the application admin role may register metadata from their cloud data warehouse systems, such as Snowflake, Databricks, Starburst, Redshift, Synapse, and BigQuery, etc., with Immuta. Selected tables from these warehouses then appear as entries in Immuta’s metadata catalog interface, where users can add documentation, discuss the data, and tag tables and columns. Tables, called Data Sources in Immuta, can further be grouped into Immuta Projects, which are a logical collection of Data Sources, users, documentation, and clearly defined purposes. Immuta Projects ensure that customers can use data in accordance with laws and regulations that require traceability to the legitimate reasons that sensitive data is used in the various distinct contexts that permeate each organization. Registered metadata is also analyzed by the platform’s Sensitive Data Discovery functionality, which can determine if data in a column is in one of a number of categories, such as personally identifiable information (PII) or “PII First Name,” that are commonly used to drive data access policies. Analysis of this data occurs completely in the customer’s data platform; no data ever leaves back to Immuta. This information is used to tag data within Immuta. Additionally, for customers who have successfully cataloged data in other systems, this kind of information can be synced to Immuta from a variety of common external catalogs. As users, data, and their attributes are registered with Immuta, users are allowed to act under the Data Owner and Governance roles, and can use Immuta’s natural language policy builder to apply access control policies to the data at the data set and row levels, and minimize access to data through Privacy Enhancing Technologies (PETs). Each Data Owner can manage such policies for the data they own. Users in the Governance role can manage policies at a global level. This global policy capability allows governors to review policies for compliance and set up policies that automatically impact new data and new users as they are added to the system. Based on these policies, Immuta connects to the customer cloud data warehouse and administers those policies into the data platform in question, keeping Immuta out of the data path but still enforcing policy. Users query data in the systems they are already using, but Immuta enforces their access based on the defined policies. Immuta also extends this policy-driven model to AI agents acting on behalf of users. When an agent requests data, Immuta evaluates the request in real time and provisions a temporary, scoped role in the underlying data platform – reflecting only the permissions relevant to that specific task. This access is automatically removed once the task is complete, so no standing privilege persists. Because the agent acts on behalf of a human user rather than as that user, Immuta maintains a dual-identity audit trail showing both the human who delegated the request and the agent that acted. Finally, Immuta provides robust auditing of actions taken within the platform to allow customers to document their data controls and have evidence for compliance purposes. For certain cloud warehouses, such as Databricks or Starburst, this examination extends to queries users perform in the source data systems. For others, Immuta logs and warehouse logs can easily produce an organization’s complete compliance picture when combined in their existing log aggregation and analysis system. This audit trail extends to agent activity, distinguishing human actions, agent actions, and agent-on-behalf-of-user actions.",
+          "certificationType": "20x",
+          "website": "https://www.immuta.com",
+          "logo": "https://immuta-public-info-648834167897.s3.us-gov-west-1.amazonaws.com/immuta_logo.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Government Community Cloud",
+          "businessCategory": [
+            "Data Management",
+            "Governance, Risk, and Compliance (GRC)"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://vault.immutacloud.us",
+            "repositoryDescription": "Immuta's FedRAMP Trust Center containing security documentation and certification artifacts.",
+            "authenticationRequired": false
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://documentation.immuta.com/latest",
+            "repositoryDescription": "Provider-authored guidance for agency customers on securely configuring Immuta, including recommended settings, integration patterns, and hardening considerations relevant to agency ATO decisions.",
+            "authenticationRequired": false
+          },
+          "nextOngoingCertificationReportDate": "2027-01-01"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Immuta FedRAMP Security",
+            "contactEmail": "security-fedramp@immuta.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Immuta Sales",
+            "contactEmail": "sales@immuta.com"
+          }
+        ],
+        "assessor": {
+          "name": "Fortreum",
+          "assessorID": "201664"
+        },
+        "ZD_frid_retro": "FR2629068833",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-07-22T00:32:32Z"
       }
     ]
   }

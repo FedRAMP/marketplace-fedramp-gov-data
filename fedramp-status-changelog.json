@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-21T20:44:33.807Z",
-    "total_entries": 1980,
+    "export_timestamp": "2026-07-22T00:32:31.371Z",
+    "total_entries": 1984,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -25744,6 +25744,58 @@
         "transition_date": "2026-07-20T21:35:48.487Z",
         "recorded_date": "2026-07-20T21:35:48.487Z",
         "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "1f6211ad-c1c8-46c2-8a9c-255dbe43c6a1",
+        "product_id": "FR2626164349",
+        "csp": "Ericsson",
+        "cso": "Ericsson - NetCloud Federal (NCF)",
+        "cert_path": "Agency",
+        "from_status": "",
+        "to_status": "FRR",
+        "transition_date": "2026-07-21T21:35:36.259Z",
+        "recorded_date": "2026-07-21T21:35:36.259Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "98ed39f7-fa86-4449-99d9-205c13b74cd3",
+        "product_id": "FR2629068830",
+        "csp": "SunStone Secure, LLC",
+        "cso": "SunStone Artemis Platform",
+        "cert_path": "Program",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-07-22T00:31:10Z",
+        "recorded_date": "2026-07-22T00:32:16.170Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "e8f9401b-d8c7-450f-ad96-d0d18d900433",
+        "product_id": "FR2629068832",
+        "csp": "Open Access Technology International, Inc.",
+        "cso": "OATI webFedRAMP™",
+        "cert_path": "Program",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-07-22T00:31:12Z",
+        "recorded_date": "2026-07-22T00:32:16.170Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "f0a37e1c-cc3a-478c-9f63-44fe9ba2a32d",
+        "product_id": "FR2629068833",
+        "csp": "Immuta",
+        "cso": "Immuta Data Security Platform",
+        "cert_path": "Program",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-07-22T00:31:14Z",
+        "recorded_date": "2026-07-22T00:32:16.170Z",
+        "source": "frc-cso-pkg",
         "comments": ""
       }
     ]
