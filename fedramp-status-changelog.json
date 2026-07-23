@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-23T16:09:41.931Z",
-    "total_entries": 2006,
+    "export_timestamp": "2026-07-23T18:17:18.382Z",
+    "total_entries": 2009,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -24736,7 +24736,7 @@
         "cert_class": "Class D",
         "from_status": "",
         "to_status": "Agency Review",
-        "transition_date": "2025-04-25T04:00:00.000Z",
+        "transition_date": "2026-04-25T04:00:00.000Z",
         "recorded_date": "2026-04-22T18:26:43.663Z",
         "source": "migration",
         "comments": ""
@@ -28874,7 +28874,7 @@
         "cert_type": "Rev5",
         "cert_path": "Agency",
         "cert_class": "Class C",
-        "from_status": "Authorized",
+        "from_status": "PMO Review",
         "to_status": "Authorized",
         "transition_date": "2026-05-13T04:00:00.000Z",
         "recorded_date": "2026-05-15T04:00:00.000Z",
@@ -28912,21 +28912,6 @@
         "comments": ""
       },
       {
-        "unique_id": "1e89e351",
-        "product_id": "FR2514023311",
-        "csp": "Trenchant Analytics",
-        "cso": "AI for Federal Acquisitions (ACQBOT)",
-        "cert_type": "Rev5",
-        "cert_path": "Agency",
-        "cert_class": "Class C",
-        "from_status": "No Status Found",
-        "to_status": "No Status Found (Delisted)",
-        "transition_date": "2026-05-15T04:00:00.000Z",
-        "recorded_date": "2026-05-15T04:00:00.000Z",
-        "source": "AppSheet",
-        "comments": ""
-      },
-      {
         "unique_id": "e7465280",
         "product_id": "FR2529113288",
         "csp": "Archive360 platform",
@@ -28949,7 +28934,7 @@
         "cert_type": "Rev5",
         "cert_path": "Agency",
         "cert_class": "Class C",
-        "from_status": "PMO Review",
+        "from_status": "Agency Review",
         "to_status": "PMO Review",
         "transition_date": "2026-05-04T04:00:00.000Z",
         "recorded_date": "2026-05-15T04:00:00.000Z",
@@ -28964,7 +28949,7 @@
         "cert_type": "Rev5",
         "cert_path": "Agency",
         "cert_class": "Class C",
-        "from_status": "PMO Review",
+        "from_status": "Agency Review",
         "to_status": "PMO Review",
         "transition_date": "2026-05-11T04:00:00.000Z",
         "recorded_date": "2026-05-15T04:00:00.000Z",
@@ -29144,7 +29129,7 @@
         "cert_type": "Rev5",
         "cert_path": "Agency",
         "cert_class": "Class C",
-        "from_status": "Authorized",
+        "from_status": "PMO Review",
         "to_status": "Authorized",
         "transition_date": "2026-06-01T04:00:00.000Z",
         "recorded_date": "2026-06-02T04:00:00.000Z",
@@ -30095,6 +30080,66 @@
         "recorded_date": "2026-07-23T04:00:00.000Z",
         "source": "AppSheet",
         "comments": "Recertification"
+      },
+      {
+        "unique_id": "9befa73e-14e2-478f-b7ad-59164e035b7e",
+        "product_id": "FR2407275137",
+        "csp": "Coralogix Inc.",
+        "cso": "Coralogix U.S. GovOps",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "Ageny In Process",
+        "to_status": "PMO Review",
+        "transition_date": "2026-07-23T18:00:30.821Z",
+        "recorded_date": "2026-07-23T18:00:30.821Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "20c68d02",
+        "product_id": "FR2122140784A",
+        "csp": "Covergent Solutions Inc dba Exiger Government Solutions (EGS)",
+        "cso": "Exiger Federal Cloud (EFC) - High",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class D",
+        "from_status": "Agency Review",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-05-13T04:00:00.000Z",
+        "recorded_date": "2026-07-23T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "572f19c6",
+        "product_id": "FR2304757473A",
+        "csp": "Cisco Systems Inc.",
+        "cso": "Cisco Security Cloud for Government",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class D",
+        "from_status": "Agency Review",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-06-12T04:00:00.000Z",
+        "recorded_date": "2026-07-23T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "afb844de",
+        "product_id": "FR2220654178",
+        "csp": "Tyler Federal, LLC",
+        "cso": "Tyler Federal Cloud Platform (TFCP)",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "PMO Review",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-07-08T04:00:00.000Z",
+        "recorded_date": "2026-07-23T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
       }
     ]
   }
