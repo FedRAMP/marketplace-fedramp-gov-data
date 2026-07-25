@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-24T19:59:30.386Z",
-    "total_entries": 2009,
+    "export_timestamp": "2026-07-25T19:59:31.431Z",
+    "total_entries": 2010,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -30139,6 +30139,21 @@
         "transition_date": "2026-07-08T04:00:00.000Z",
         "recorded_date": "2026-07-23T04:00:00.000Z",
         "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "8c644d0f-3851-4a78-a866-6c921991f9f8",
+        "product_id": "FR2628345439",
+        "csp": "Stell Engineering",
+        "cso": "Stell Requirements Management System",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "",
+        "to_status": "FRR",
+        "transition_date": "2026-07-24T21:35:50.751Z",
+        "recorded_date": "2026-07-24T21:35:50.751Z",
+        "source": "manual",
         "comments": ""
       }
     ]
