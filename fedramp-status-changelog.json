@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-26T19:59:30.120Z",
-    "total_entries": 2010,
+    "export_timestamp": "2026-07-27T19:59:32.820Z",
+    "total_entries": 2013,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -30154,6 +30154,51 @@
         "transition_date": "2026-07-24T21:35:50.751Z",
         "recorded_date": "2026-07-24T21:35:50.751Z",
         "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "f5682845",
+        "product_id": "FR2528336463",
+        "csp": "Document Storage Systems, Inc. (DSS, Inc.)",
+        "cso": "DSS Health Cloud (DSSHC)",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class D",
+        "from_status": "PMO Review",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-07-27T04:00:00.000Z",
+        "recorded_date": "2026-07-27T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "604be2c4",
+        "product_id": "FR2527234065",
+        "csp": "Anomali",
+        "cso": "Anomali Security Operations Platform (ASOP)",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "Agency In Process",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-07-27T04:00:00.000Z",
+        "recorded_date": "2026-07-27T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "286cf0e0",
+        "product_id": "FR2210850126",
+        "csp": "Cleartronic, Inc. dba. ReadyOp Communications, Inc.",
+        "cso": "ReadyOp",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "Agency In Process",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-07-27T04:00:00.000Z",
+        "recorded_date": "2026-07-27T04:00:00.000Z",
+        "source": "AppSheet",
         "comments": ""
       }
     ]
