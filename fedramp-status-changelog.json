@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-28T19:59:30.637Z",
-    "total_entries": 2018,
+    "export_timestamp": "2026-07-29T19:59:30.803Z",
+    "total_entries": 2019,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -30274,6 +30274,21 @@
         "transition_date": "2026-07-28T04:00:00.000Z",
         "recorded_date": "2026-07-28T04:00:00.000Z",
         "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "2173ea09-ddc8-48f5-8b27-4e6e61107c2f",
+        "product_id": "FR2620331565",
+        "csp": "Cableteque Corp.",
+        "cso": "CabletequeGov",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "",
+        "to_status": "FRR",
+        "transition_date": "2026-07-28T21:36:24.440Z",
+        "recorded_date": "2026-07-28T21:36:24.440Z",
+        "source": "manual",
         "comments": ""
       }
     ]
