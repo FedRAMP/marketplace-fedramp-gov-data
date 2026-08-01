@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-31T19:59:32.756Z",
-    "total_entries": 2030,
+    "export_timestamp": "2026-08-01T19:59:30.349Z",
+    "total_entries": 2032,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -30453,6 +30453,36 @@
         "to_status": "FedRAMP Certified",
         "transition_date": "2026-07-31T04:00:00.000Z",
         "recorded_date": "2026-07-31T04:00:00.000Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "7a7236e9-68e5-4e60-9749-2b7409835616",
+        "product_id": "FR2620071868",
+        "csp": "Asato Corporation",
+        "cso": "asato.ai",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "",
+        "to_status": "FRR",
+        "transition_date": "2026-07-31T21:38:44.291Z",
+        "recorded_date": "2026-07-31T21:38:44.291Z",
+        "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "fe2727b6-0bdd-454c-845a-f4d30d0f138c",
+        "product_id": "FR2629158373",
+        "csp": "Halcyon Tech, Inc.",
+        "cso": "Halcyon",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "",
+        "to_status": "FRR",
+        "transition_date": "2026-07-31T21:38:47.798Z",
+        "recorded_date": "2026-07-31T21:38:47.798Z",
         "source": "manual",
         "comments": ""
       }
