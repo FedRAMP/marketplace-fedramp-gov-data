@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-02T19:59:30.569Z",
-    "total_entries": 2032,
+    "export_timestamp": "2026-08-03T19:59:30.276Z",
+    "total_entries": 2034,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -30484,6 +30484,36 @@
         "transition_date": "2026-07-31T21:38:47.798Z",
         "recorded_date": "2026-07-31T21:38:47.798Z",
         "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "08b8bf9a",
+        "product_id": "FR1704369518",
+        "csp": "Accenture Federal Services",
+        "cso": "Accenture Insights Platform (AIP) For Government",
+        "cert_type": "Rev5",
+        "cert_path": "JAB",
+        "cert_class": "Class D",
+        "from_status": "Authorized",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2026-07-29T04:00:00.000Z",
+        "recorded_date": "2026-08-03T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "70f2306a",
+        "product_id": "FR2627547824",
+        "csp": "CrowdStrike, Inc.",
+        "cso": "CrowdStrike Falcon Platform IL5 SaaS",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class D",
+        "from_status": "Agency In Process",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-08-03T04:00:00.000Z",
+        "recorded_date": "2026-08-03T04:00:00.000Z",
+        "source": "AppSheet",
         "comments": ""
       }
     ]
