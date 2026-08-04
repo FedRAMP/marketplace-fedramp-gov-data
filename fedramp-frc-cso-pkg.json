@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-07-22T00:32:31.370Z",
-    "total_entries": 14,
+    "export_timestamp": "2026-08-04T20:12:55.939Z",
+    "total_entries": 21,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -170,7 +170,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-07-22T00:32:22Z"
+        "last_fetched_timestamp": "2026-08-04T20:12:44Z"
       },
       {
         "assessor": {
@@ -253,7 +253,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-22T00:32:25Z"
+        "last_fetched_timestamp": "2026-08-04T20:12:46Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -357,11 +357,11 @@
         },
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-22T00:32:26Z"
+        "last_fetched_timestamp": "2026-08-04T20:12:47Z"
       },
       {
         "serviceIdentification": {
-          "fedRampPackageId": "Partos",
+          "fedRampPackageId": "FR2628647241",
           "ueiNumber": "DCXZNU8JTTM9",
           "providerName": "Partos Inc.",
           "serviceName": "Partos for Government",
@@ -422,8 +422,8 @@
           "assessorID": "202040"
         },
         "ZD_frid_retro": "FR2628647241",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-21T20:44:31Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-08-04T20:12:48Z"
       },
       {
         "serviceIdentification": {
@@ -560,7 +560,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-07-22T00:32:27Z"
+        "last_fetched_timestamp": "2026-08-04T20:12:48Z"
       },
       {
         "assessor": {
@@ -604,7 +604,8 @@
             "vdr": "https://enablement.cc/ml/20x/vdr?src_id=53"
           },
           "rulesVersion": "2026.07.01.01",
-          "schemaPin": "2026-06-24"
+          "schemaPin": "2026-06-24",
+          "schemaPinSynced": "2026-07-30"
         },
         "serviceIdentification": {
           "cageCode": "627S4",
@@ -816,7 +817,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-22T00:32:27Z"
+        "last_fetched_timestamp": "2026-08-04T20:12:48Z"
       },
       {
         "serviceIdentification": {
@@ -875,13 +876,13 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-22T00:32:28Z"
+        "last_fetched_timestamp": "2026-08-04T20:12:49Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
-        "lastUpdated": "2026-07-17",
+        "lastUpdated": "2026-07-28",
         "serviceIdentification": {
-          "fedRampPackageId": "PENDING",
+          "fedRampPackageId": "FR2628943664",
           "ueiNumber": "PL1GB2CMMCK5",
           "providerName": "Xfinion Inc.",
           "serviceName": "Continuously Aware Realtime Tracking Network (CARTN)",
@@ -970,7 +971,7 @@
         },
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-22T00:32:28Z"
+        "last_fetched_timestamp": "2026-08-04T20:12:49Z"
       },
       {
         "serviceIdentification": {
@@ -1064,12 +1065,13 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-22T00:32:29Z"
+        "last_fetched_timestamp": "2026-08-04T20:12:50Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "$schemaVersion": "0.1.2",
         "serviceIdentification": {
-          "fedRampPackageId": "Boundera (B)",
+          "fedRampPackageId": "FR2628943633",
           "providerName": "Boundera",
           "serviceName": "Boundera SaaS",
           "serviceAcronym": "B",
@@ -1120,202 +1122,52 @@
           {
             "serviceName": "AWS Certificate Manager",
             "serviceDescription": "Certificate provisioning, management, and renewal.",
-            "dateAvailable": "2026-07-08"
+            "dateAvailable": "2026-07-24"
           },
           {
             "serviceName": "AWS Key Management Service",
             "serviceDescription": "Managed encryption key creation and control.",
-            "dateAvailable": "2026-07-08"
+            "dateAvailable": "2026-07-24"
           },
           {
             "serviceName": "AWS Secrets Manager",
             "serviceDescription": "Secrets storage and rotation.",
-            "dateAvailable": "2026-07-08"
+            "dateAvailable": "2026-07-24"
           },
           {
             "serviceName": "Amazon EC2",
             "serviceDescription": "Resizable virtual compute instances.",
-            "dateAvailable": "2026-07-08"
+            "dateAvailable": "2026-07-24"
           },
           {
             "serviceName": "Amazon RDS",
             "serviceDescription": "Managed relational database service.",
-            "dateAvailable": "2026-07-08"
+            "dateAvailable": "2026-07-24"
           },
           {
             "serviceName": "Amazon Route 53",
             "serviceDescription": "Scalable DNS and domain routing.",
-            "dateAvailable": "2026-07-08"
+            "dateAvailable": "2026-07-24"
           },
           {
             "serviceName": "Amazon S3",
             "serviceDescription": "Object storage for files and backups.",
-            "dateAvailable": "2026-07-08"
+            "dateAvailable": "2026-07-24"
           },
           {
             "serviceName": "Elastic Load Balancing",
             "serviceDescription": "Application and network traffic load balancing.",
-            "dateAvailable": "2026-07-08"
+            "dateAvailable": "2026-07-24"
           },
           {
             "serviceName": "GitHub",
             "serviceDescription": "Source code hosting and version control.",
-            "dateAvailable": "2026-07-08"
+            "dateAvailable": "2026-07-24"
           }
         ],
         "ZD_frid_retro": "FR2628943633",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-22T00:32:29Z"
-      },
-      {
-        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
-        "$comment": "Draft FRC-CSO-PKG for Boltline Marketplace submission. Schema URL matches the live FedRAMP schemas index as of 2026-07-10. digitalIdentityLevel set from implemented Cognito posture (IAL1/AAL1/FAL2). Confirm interim SCG URL with GRC before submission.",
-        "serviceIdentification": {
-          "fedRampPackageId": "FR2622064089",
-          "ueiNumber": "QDQ6V2X12WF1",
-          "providerName": "Stoke Space Technologies, Inc.",
-          "serviceName": "Boltline",
-          "serviceAcronym": "BL",
-          "serviceDescription": "Boltline is a multi-tenant manufacturing execution and operations SaaS platform. Federal customers use Boltline to manage engineering-to-production workflows, including parts, bills of materials, inventory, work plans, orders, integrations, attachments, and auditable workflow activity.\n\nBoltline may store, process, or transmit federal customer data including user and organization records, technical product metadata, part and BOM data, work instructions, inventory and order records, files and attachments, connector payloads, integration metadata, security events, and audit logs. Depending on customer use, this data may include controlled unclassified information. Boltline is not intended to store classified information.\n\nThe primary FedRAMP assessment boundary is the Stoke-operated Boltline SaaS production environment in AWS GovCloud (`prod-govcloud`).",
-          "certificationType": "20x",
-          "website": "https://www.boltline.com",
-          "logo": "https://boltline.com/wp-content/themes/boltline/public/favicons/android-chrome-512x512.png"
-        },
-        "serviceProperties": {
-          "serviceType": [
-            "SaaS"
-          ],
-          "deploymentModel": "Government Community Cloud",
-          "digitalIdentityLevel": "IAL1/AAL1/FAL2",
-          "businessCategory": [
-            "Operations Management",
-            "Data Management",
-            "Development Tools",
-            "Collaboration"
-          ],
-          "trustCenter": {
-            "repositoryType": [
-              "Trust Center"
-            ],
-            "url": "https://trust.paramify.com/stoke/boltline",
-            "repositoryDescription": "Boltline Trust Center on Paramify. Public compliance program summary, controls, interconnections, and deliverables. Restricted authorization package access for agency and FedRAMP reviewers after approval.",
-            "authenticationRequired": true,
-            "accessRequestInstructions": "Visit https://trust.paramify.com/stoke/boltline and select **Request Access**. Include agency or organization name, requested materials, business justification, and FedRAMP Package ID FR2622064089. Stoke reviews access requests within five business days and grants named trust center accounts where appropriate. For urgent FedRAMP communications, email boltline-fedramp@stokespace.com."
-          },
-          "secureConfigurationGuidance": {
-            "repositoryType": [
-              "Secure Configuration Guidance"
-            ],
-            "url": "https://help.boltline.com/boltline/Organization/Preferences",
-            "repositoryDescription": "Interim customer configuration guidance for organization session timeouts, access restrictions, and admin settings. Full FedRAMP Secure Configuration Guide pending publication.",
-            "authenticationRequired": false
-          },
-          "additionalRepositories": [
-            {
-              "repositoryType": [
-                "Assessment Reports",
-                "Policies and Procedures"
-              ],
-              "url": "https://trust.paramify.com/stoke/boltline",
-              "repositoryDescription": "Restricted authorization package deliverables in the Boltline Trust Center, including assessment reports, policies, procedures, and supporting evidence for assessors, FedRAMP, and authorized agency reviewers.",
-              "authenticationRequired": true,
-              "accessRequestInstructions": "Use the same **Request Access** process as the Boltline Trust Center at https://trust.paramify.com/stoke/boltline. Restricted deliverables are available after Stoke approves named access."
-            }
-          ]
-        },
-        "contactInformation": [
-          {
-            "contactType": "Security",
-            "contactName": "Lowell Young",
-            "contactEmail": "boltline-fedramp@stokespace.com",
-            "contactPhone": "425-299-2370"
-          },
-          {
-            "contactType": "Sales",
-            "contactName": "Anshul Garg",
-            "contactEmail": "marketing@boltline.com",
-            "contactPhone": "253-220-4600"
-          },
-          {
-            "contactType": "Primary",
-            "contactName": "Brent Bradbury",
-            "contactEmail": "marketing@boltline.com"
-          }
-        ],
-        "assessor": {
-          "name": "Coalfire Systems, Inc.",
-          "id": "138514",
-          "assessorID": "138514"
-        },
-        "certifiedServices": [
-          {
-            "serviceName": "Boltline Web UI",
-            "serviceDescription": "Customer-facing web application for manufacturing operations, workflows, inventory, orders, and attachments.",
-            "dateAvailable": "2025-08-14"
-          },
-          {
-            "serviceName": "Boltline API",
-            "serviceDescription": "GraphQL and REST API, authentication flows, and customer integration endpoints included in the FedRAMP boundary.",
-            "dateAvailable": "2025-08-14"
-          },
-          {
-            "serviceName": "Organization and user management",
-            "serviceDescription": "Tenant provisioning, user lifecycle, roles, groups, and organization preferences.",
-            "dateAvailable": "2025-08-14"
-          },
-          {
-            "serviceName": "Parts, BOMs, inventory, work plans, and orders",
-            "serviceDescription": "Core manufacturing execution data and workflow records.",
-            "dateAvailable": "2025-08-14"
-          },
-          {
-            "serviceName": "Integrations and connector processing",
-            "serviceDescription": "Customer-authorized PLM, ERP, and connector workflows included in the federal boundary.",
-            "dateAvailable": "2025-08-14"
-          },
-          {
-            "serviceName": "Supporting AWS GovCloud runtime services",
-            "serviceDescription": "Production runtime and platform services in scope for `prod-govcloud`, including ECS, RDS PostgreSQL, S3, Redis, Temporal, Topaz, Cognito, KMS, Secrets Manager, SSM, ALB, WAF, CloudWatch, and related network services.",
-            "dateAvailable": "2025-08-14"
-          }
-        ],
-        "thirdPartyInformationResources": {
-          "certified": [
-            {
-              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
-              "useCase": "AWS GovCloud hosts the Boltline production environment, including compute, storage, database, identity, networking, encryption, logging, and email services inherited into the authorization boundary."
-            }
-          ],
-          "nonCertified": [
-            {
-              "name": "Datadog Gov",
-              "provider": "Datadog, Inc.",
-              "website": "https://www.datadoghq.com/",
-              "useCase": "Central logging, metrics, traces, monitoring, and alerting for production operations."
-            },
-            {
-              "name": "GitHub Enterprise",
-              "provider": "GitHub, Inc.",
-              "website": "https://github.com/",
-              "useCase": "Source control, CI/CD, deployment automation, and SDLC evidence for production changes."
-            },
-            {
-              "name": "PagerDuty",
-              "provider": "PagerDuty, Inc.",
-              "website": "https://www.pagerduty.com/",
-              "useCase": "Incident routing and on-call escalation."
-            },
-            {
-              "name": "JFrog Artifactory",
-              "provider": "JFrog Ltd.",
-              "website": "https://jfrog.com/",
-              "useCase": "Artifact and container image storage and promotion in the deployment path."
-            }
-          ]
-        },
-        "ZD_frid_retro": "FR2628943634",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-22T00:32:31Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-08-04T20:12:50Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1486,7 +1338,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-22T00:32:30Z"
+        "last_fetched_timestamp": "2026-08-04T20:12:51Z"
       },
       {
         "serviceIdentification": {
@@ -1550,7 +1402,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-22T00:32:30Z"
+        "last_fetched_timestamp": "2026-08-04T20:12:51Z"
       },
       {
         "serviceIdentification": {
@@ -1609,7 +1461,640 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-07-22T00:32:32Z"
+        "last_fetched_timestamp": "2026-08-04T20:12:53Z"
+      },
+      {
+        "assessor": {
+          "assessorID": "200765",
+          "id": "200765",
+          "name": "MegaPlanIT"
+        },
+        "contactInformation": [
+          {
+            "contactEmail": "ben@dispel.com",
+            "contactName": "Ben Burke",
+            "contactType": "Sales"
+          },
+          {
+            "contactEmail": "dean.macris@dispel.com",
+            "contactName": "Dean Macris",
+            "contactType": "Security"
+          }
+        ],
+        "serviceIdentification": {
+          "certificationType": "20x",
+          "fedRampPackageId": "Dispel LLC (DZTE)",
+          "logo": "https://api.dispeltrust.com/api/trust-center/public/system/ebaac73a-1660-4e94-a0f5-3fc9e4f05f47/logo.png",
+          "providerName": "Dispel LLC",
+          "serviceAcronym": "DZTE",
+          "serviceDescription": "Dispel Zero Trust Engine (DZTE) is a cloud-hosted zero trust remote access and privileged access management platform that provides secure, isolated, identity-federated connectivity to operational technology and enterprise environments. It delivers moving-target-defense networking, brokered remote sessions, and least-privilege access for federal and critical-infrastructure customers.",
+          "serviceName": "Dispel Zero Trust Engine",
+          "ueiNumber": "CWVGPF8X5X76",
+          "website": "https://www.dispel.com"
+        },
+        "serviceProperties": {
+          "additionalRepositories": [],
+          "businessCategory": [
+            "Cybersecurity & Risk Management",
+            "Virtual Private Network (VPN)"
+          ],
+          "deploymentModel": "Public Cloud",
+          "digitalIdentityLevel": "IAL2/AAL2/FAL2",
+          "serviceType": [
+            "SaaS"
+          ],
+          "trustCenter": {
+            "authenticationRequired": false,
+            "repositoryDescription": "FedRAMP 20x Trust Center",
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://dzte-gov.dispeltrust.com/api/trust-center/public/system/ebaac73a-1660-4e94-a0f5-3fc9e4f05f47/landing"
+          }
+        },
+        "ZD_frid_retro": "FR2630354482",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-04T20:12:53Z"
+      },
+      {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "$schemaVersion": "0.1.2",
+        "serviceIdentification": {
+          "fedRampPackageId": "VisualVault LLC (VisualVault Cloud)",
+          "ueiNumber": "SZUJPFHV8JA3",
+          "providerName": "VisualVault LLC",
+          "serviceName": "VisualVault Cloud",
+          "serviceAcronym": "VisualVault Cloud",
+          "serviceDescription": "VisualVault is a secure, scalable platform that helps government agencies automate constituent-facing processes that require Compliance and Enforcement — from licensing and permitting to case management and general compliance enforcement. It enables agencies to configure workflows and adapt to evolving requirements.",
+          "certificationType": "20x",
+          "website": "https://www.visualvault.com",
+          "logo": "https://www.visualvault.com/static/c53c7cdcf1ab9d0f01e5719462cd1b2d/vvlogo.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Governance, Risk, and Compliance (GRC)"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.paramify.com/visualvault/visualvault",
+            "repositoryDescription": "VisualVault Cloud FedRAMP Trust Center. Publishes compliance programs, controls, third-party interconnections, and package deliverables.",
+            "authenticationRequired": false
+          }
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "VisualVault FedRAMP Team",
+            "contactEmail": "fedramp-security@visualvault.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "VisualVault Federal Sales",
+            "contactEmail": "fedramp-sales@visualvault.com"
+          }
+        ],
+        "assessor": {
+          "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+          "assessorID": "138665"
+        },
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+              "useCase": "AWS GovCloud (US) hosts VisualVault Cloud's infrastructure for the government-exclusive offering."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1603087869",
+              "useCase": "Microsoft Entra ID (via Azure Government) provides internal corporate single sign-on for personnel accessing VisualVault Cloud."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1807853629A",
+              "useCase": "CrowdStrike Falcon Platform for Government provides endpoint detection and response across VisualVault's corporate AWS and AWS GovCloud infrastructure, via separate subscriptions for each environment."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR2201340492",
+              "useCase": "KnowBe4 Platform provides security awareness training for VisualVault personnel."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2630354484",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-04T20:12:54Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "ComplianceAid INC. (CA)",
+          "ueiNumber": "NWX6B48RJVM4",
+          "providerName": "ComplianceAid INC.",
+          "serviceName": "ComplianceAide Government Cloud",
+          "serviceAcronym": "CA Gov",
+          "serviceDescription": "ComplianceAide is an evidence-cited, human-approved SaaS compliance copilot for cybersecurity and regulatory readiness. The service connects to customer-approved evidence in governed repositories such as SharePoint; evaluates evidence clarity, recency, traceability, and sufficiency; maps evidence to applicable controls and framework requirements; identifies unsupported, partial, stale, missing, or conflicting evidence; and produces source-linked, review-ready assessments, reports, policies, control narratives, System Security Plan (SSP) support, Security Assessment Report (SAR) support, Plan of Action and Milestones (POA&M) entries, validation matrices, and executive readiness briefs. A named human reviewer approves, revises, rejects, or requests additional evidence before work product is accepted. ComplianceAide supports FedRAMP and NIST SP 800-53 readiness and package-preparation workflows; it does not replace an independent assessor or Authorizing Official, make authorization decisions, or currently represent a FedRAMP-authorized cloud service offering.",
+          "certificationType": "20x",
+          "website": "https://www.thecomplianceaide.com/",
+          "logo": "https://github.com/TheComplianceAide.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Government-Only Cloud",
+          "businessCategory": [
+            "Artificial Intelligence (AI)",
+            "Cybersecurity & Risk Management",
+            "Governance, Risk, and Compliance (GRC)"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://www.thecomplianceaide.com/trust.html",
+            "repositoryDescription": "Public ComplianceAide Trust & Safety Portal covering platform scope, customer-data boundaries, Microsoft Azure hosting, security controls, framework readiness, incident response, continuity, and responsible disclosure.",
+            "authenticationRequired": false
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Supporting Evidence",
+                "Federal Registration and Corporate Records",
+                "Package Working Materials"
+              ],
+              "url": "https://thecomplianceaide.sharepoint.com/sites/theComplianceAide/Shared%20Documents/ComplianceAide%20One%20Stop%20Shop/2026",
+              "repositoryDescription": "Primary ComplianceAide One Stop Shop for 2026. The authenticated SharePoint hub contains the SAM.gov registration packet, active UEI and CAGE evidence, entity and governance records, security working materials, source-referenced solution briefs, and controlled package-preparation materials. Access does not imply that every document is part of the final FedRAMP certification boundary or submission package.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Request least-privilege access from the ComplianceAid INC. package owner. Access is limited to authorized company personnel, assessors, reviewers, and government stakeholders with a documented need."
+            },
+            {
+              "repositoryType": [
+                "Privacy Policy"
+              ],
+              "url": "https://www.thecomplianceaide.com/privacy.html",
+              "repositoryDescription": "Public privacy policy describing collection, use, retention, protection, sharing, user rights, and security-contact information.",
+              "authenticationRequired": false
+            },
+            {
+              "repositoryType": [
+                "Government Cloud Portal"
+              ],
+              "url": "https://gov.complianceaideai.com/",
+              "repositoryDescription": "ComplianceAide Azure Government portal. Authentication is required for customer workspace access.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Contact gov@thecomplianceaide.com to request government-cloud access or a procurement and security review."
+            }
+          ]
+        },
+        "contactInformation": [
+          {
+            "contactType": "Primary",
+            "contactName": "Randy Blasik, President and CTO",
+            "contactEmail": "randyb@thecomplianceaide.com",
+            "contactPhone": "603-903-3612"
+          },
+          {
+            "contactType": "Security",
+            "contactName": "Randy Blasik, President and CTO",
+            "contactEmail": "randyb@thecomplianceaide.com",
+            "contactPhone": "603-903-3612"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Joseph Cardin, VP of Sales",
+            "contactEmail": "JoeC@thecomplianceaide.com"
+          }
+        ],
+        "ZD_frid_retro": "FR2630354485",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-04T20:12:53Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "Globality Inc-GLO",
+          "ueiNumber": "FLDZQLWX4L33",
+          "providerName": "Globality Inc",
+          "serviceName": "Globality Platform",
+          "serviceAcronym": "GLO",
+          "serviceDescription": "Globality's core application, the Globality Platform, is a software as a service ('SaaS') application that is accessible to end users through their web browser. The application can intelligently guide users in creating project briefs ('RFPs / Request for Proposals') or proposals, by leveraging AI and ML to suggest answers, automatically scope projects, analyze user input, and match clients with suitable providers and support the approval process. The Globality Platform enables processing of the following tasks related to the procurement process:\n - Capturing data from clients and providers to automatically build out comprehensive project briefs and proposals\n - Intelligently analyzing user input to identify key components and match clients with providers\n - Providing secure communication channels between clients and matched providers, as well as with Globality support personnel\n - Providing learning systems to help users become self-sufficient on the platform\n - Enabling clients to rate providers using common criteria\n - Authenticating and authorizing users to ensure access is strictly controlled\n - Supporting configurable workflows to streamline procurement processes and make it specific to each client use case\n - Providing approval flows to users, include ways to require nondisclosure agreements ('NDAs') prior to submissions\n - Providing data reporting to end users through a variety of formats\n - Integrating with external systems, including SAP and Oracle\n Projects are tracked throughout the procurement cycle, from initial brief creation to the final awarding of a provider proposal. Access is managed through the web browser, and all user data is encrypted at rest, in transit, and fully protected throughout its data lifecycle.",
+          "certificationType": "20x",
+          "website": "https://www.globality.com",
+          "logo": "https://www.globality.com/wp-content/uploads/2026/07/Globality-Logo.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Artificial Intelligence (AI)",
+            "Finance"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://www.globality.com/security-trust/",
+            "repositoryDescription": "Globality's Trust Center publishes the current certification status, continuous reporting artifacts, SOC 2 Type 2 and ISO/IEC 27001:2022 certificates, sub-processor listing, the shared responsibility model, security policies and procedures",
+            "authenticationRequired": false,
+            "accessRequestInstructions": "Public summary content is available without authentication. 1. Controlled artifacts (assessment reports, secured configuration guidance, penetration test reports and policy documents) can be requested by emailing infosec@globality.com.\n2. Provide requester name, agency or organization, government email address, and the specific artifacts required.\n3. Federal agency personnel and FedRAMP reviewers are granted access without a non-disclosure agreement. All other requesters must execute Globality's standard mutual NDA.\n4. Artifacts are provided within 2 business days"
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Sub processors"
+              ],
+              "url": "https://www.globality.com/globality-subprocessors/",
+              "repositoryDescription": "This page provides information about the identity, location, and description of each subprocessor used by Globality",
+              "authenticationRequired": false
+            }
+          ]
+        },
+        "contactInformation": [
+          {
+            "contactType": "Primary",
+            "contactName": "Globality FedRAMP Program Office",
+            "contactEmail": "fedramp@globality.com"
+          },
+          {
+            "contactType": "Security",
+            "contactName": "Globality Information Security Team",
+            "contactEmail": "infosec@globality.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Globality Public Sector Sales",
+            "contactEmail": "publicsector@globality.com"
+          },
+          {
+            "contactType": "Support",
+            "contactName": "Globality Customer Support",
+            "contactEmail": "support@globality.com"
+          }
+        ],
+        "assessor": {
+          "name": "PLACEHOLDER - Independent Assessment Service name pending engagement",
+          "assessorID": "000000"
+        },
+        "ZD_frid_retro": "FR2630354487",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-04T20:12:53Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "FWGOV",
+          "ueiNumber": "G7ZZLNUUUXV2",
+          "providerName": "Fresworks",
+          "serviceName": "Freshworks for Government",
+          "serviceAcronym": "FWGOV",
+          "serviceDescription": "Freshservice, by Freshworks for Government, is the AI-powered, unified service operations platform that is fast to deploy, intuitive to use, and enables every employee to be more productive. Freshservice offers powerful governance and scale, without the operational drag of legacy platforms. This is a critical requirement for federal agencies navigating ever-changing and demanding missions.\nSome highlights of the Freshservice solution include but are not limited to:\nFreshservice ITSM – A comprehensive IT Service Management solution built on ITIL best practices, unifying incident, problem, change, and request management on a single platform\nFreshservice ITOM – IT Operations Management with dependency mapping and signal correlation across systems, enabling proactive incident coordination before employees feel the impact\nFreshservice ITAM – Continuous, agentless hybrid IT discovery, inventory, and dependency mapping delivers instant visibility into hardware, software, and services across data centers, hybrid, and multi-cloud environments, with insights to optimize infrastructure and applications\nFreshservice ESM – Extends service delivery beyond IT to HR, Finance, and other business teams on a common data and workflow model\nFreddy AI – Domain-specialized AI for IT service operations, powering a continually increasing portfolio of AI service workflows built on a decade of experience, workflow, and service domain context across tens of thousands of customers. By unifying agentic and assistive AI, Freddy AI enables zero-touch resolutions, proactive operations, and service intelligence to anticipate and solve problems at the source\nMajor Incident Management, extended with FireHydrant – An end-to-end incident management platform bringing on-call and alerting, chat-native response, and retrospectives into a single workflow, powered by AI and automation to help teams respond more effectively and resolve incidents faster\nFreshservice empowers organizations to:\nDeliver service, operations, and asset management from a single AI-powered platform\nResolve employee requests instantly, routing issues to the right team and context\nCoordinate onboarding and access across IT, HR, and Finance for a smoother employee experience\nGet ahead of major incidents by connecting signals and mapping dependencies across systems\nMaintain accurate asset records through continuous, automated discovery\nDeploy rapidly through no-code setup, intuitive configuration, and built-in best practices, without extensive consulting or custom development\nReduce costs and increase efficiencies with transparent pricing and built-in security, compliance, and governance controls\n\n",
+          "certificationType": "20x",
+          "website": "https://freshworks.com",
+          "logo": "https://dam.freshworks.com/asset/4a736cb7-c1d8-4fba-8e1a-e4aa65d5ba5e/Freshworks-Logo.webp"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Government-Only Cloud",
+          "businessCategory": [
+            "Operations Management",
+            "Artificial Intelligence (AI)",
+            "System Administration"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.freshworks.com/product/freshservice/fedramp-certification-package-overview",
+            "repositoryDescription": "This portal provides access to information and documentation related to Freshworks’ security, privacy, and compliance practices. Here you can review certifications, third-party attestations, compliance reports, and other materials commonly requested during vendor security and risk assessments.\n\nFreshworks is committed to protecting customer data and maintaining transparency around our security and compliance posture. The resources available in this Trust Center are intended to support your due diligence process and help you better understand the controls and practices that underpin our services.\n\nDocumentation in this portal is reviewed periodically and updated as appropriate. If you require additional information or have questions regarding Freshworks’ security or compliance programs, please contact our security team for assistance.",
+            "authenticationRequired": false,
+            "accessRequestInstructions": ""
+          },
+          "nextOngoingCertificationReportDate": "2026-10-01"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Jason Loomis",
+            "contactEmail": "jason.loomis@freshworks.com",
+            "contactPhone": "310-357-0852"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Eric Boserup",
+            "contactEmail": "eric.boserup@freshworks.com",
+            "contactPhone": "949-463-3164"
+          }
+        ],
+        "assessor": {
+          "name": "A-Lign",
+          "assessorID": "138665"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "ITSM",
+            "serviceDescription": "– A comprehensive IT Service Management solution built on ITIL best practices, unifying incident, problem, change, and request management on a single platform",
+            "dateAvailable": "2027-06-01"
+          },
+          {
+            "serviceName": "ITOM",
+            "serviceDescription": "– IT Operations Management with dependency mapping and signal correlation across systems, enabling proactive incident coordination before employees feel the impact",
+            "dateAvailable": "2027-06-01"
+          },
+          {
+            "serviceName": " ITAM ",
+            "serviceDescription": "Continuous, agentless hybrid IT discovery, inventory, and dependency mapping delivers instant visibility into hardware, software, and services across data centers, hybrid, and multi-cloud environments, with insights to optimize infrastructure and applications",
+            "dateAvailable": "2027-06-01"
+          },
+          {
+            "serviceName": "ESM",
+            "serviceDescription": "Extends service delivery beyond IT to HR, Finance, and other business teams on a common data and workflow model",
+            "dateAvailable": "2027-06-01"
+          },
+          {
+            "serviceName": "Freddy AI ",
+            "serviceDescription": " Domain-specialized AI for IT service operations, powering a continually increasing portfolio of AI service workflows built on a decade of experience, workflow, and service domain context across tens of thousands of customers. By unifying agentic and assistive AI, Freddy AI enables zero-touch resolutions, proactive operations, and service intelligence to anticipate and solve problems at the source",
+            "dateAvailable": "2027-06-01"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+              "useCase": "Used to host the solutions"
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2630354491",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-04T20:12:54Z"
+      },
+      {
+        "serviceIdentification": {
+          "providerName": "MaintainX",
+          "serviceName": "MaintainX for Government",
+          "serviceAcronym": "CSP",
+          "serviceDescription": "MaintainX is a mobile and cloud based Computerized Maintenance Management System (CMMS) deployed in a FedRAMP Moderate-authorized environment dedicated for U.S. government use. The system provides work order management, preventive maintenance scheduling, asset tracking, standardized procedure management, realtime team communication, and reporting/analytics. All services are delivered through a secure SaaS platform hosted in AWS GovCloud, with backend microservices orchestrated on Amazon EKS. Security measures include container hardening (CIS/STIG baselines), end to end TLS 1.2+ encryption, role based access via a dedicated fed only identity provider with CAC/PIV support, continuous monitoring and anomaly detection, malware scanning for uploaded files, configuration drift detection, and vulnerability scanning. The authorization boundary includes all production services, storage, monitoring and logging pipelines. This deployment is available exclusively to members of the U.S. government community, including federal, state, local, and tribal agencies, as well as authorized federal contractors.",
+          "certificationType": "20x",
+          "fedRampPackageId": "MaintainX for Government CSP",
+          "website": "https://www.getmaintainx.com",
+          "logo": "https://mx-gov-public-init.s3.us-gov-west-1.amazonaws.com/default-org-logo.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Andrew Krumel",
+            "contactEmail": "andrew.krumel@getmaintainx.com",
+            "contactPhone": "415-429-5456"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Sonny Hashmi",
+            "contactEmail": "sonny.hashmi@getmaintainx.com",
+            "contactPhone": "415-429-5456"
+          }
+        ],
+        "assessor": {
+          "name": "Schellman Compliance, LLC",
+          "assessorID": "136571"
+        },
+        "ZD_frid_retro": "FR2630354492",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-04T20:12:56Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "serviceIdentification": {
+          "fedRampPackageId": "TODO: Pending FedRAMP assignment",
+          "ueiNumber": "MG92A8AJK343",
+          "providerName": "NextgenID, Inc.",
+          "serviceName": "NextgenID User Interface as a Service (UIaaS)",
+          "serviceAcronym": "UIaaS",
+          "serviceDescription": "The NextgenID UIaaS is a SaaS offering that resides in the AWS East/West Infrastructure as a Service (IaaS) cloud environment. NextgenID UIaaS provides identity & credential management services utilizing Supervised Remote Identity Proofing (SRIP) services. NextgenID UIaaS provides clients with an identity-proofing solution meeting digital Identity Assurance Level 3 (IAL3), and lower, requirements. Applicants that have a requirement to provide evidence of their identity utilize the NextgenID UIaaS Identity Station and Identity as a Service software to self-enroll while being remotely supervised by a SRIP Agent so that the requirements for IAL3 are met. The NextgenID UIaaS Identity Station captures the applicant's biometrics and identity documentation, including biometrics (fingerprints and photo), documents (driver's license, passport, etc.), and other biographic information to verify the identity of the applicant. After the SRIP Agent has verified the applicant's identity, the NextgenID UIaaS transmits the package to the adjudicating agency.",
+          "certificationType": "20x",
+          "website": "https://www.nextgenid.com/",
+          "logo": "https://www.nextgenid.com/wp-content/themes/nextgenid/public/nextgen-logo.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Government-Only Cloud",
+          "businessCategory": [
+            "Cybersecurity & Risk Management"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://www.nextgenid.com/trust-center/",
+            "repositoryDescription": "Public TrustCenter information for NextgenID UIaaS.",
+            "authenticationRequired": false
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://www.nextgenid.com/trust-center/#configuration",
+            "repositoryDescription": "User Guide and Baseline Configuration Guides (CIS Benchmarks).",
+            "authenticationRequired": false
+          }
+        },
+        "contactInformation": [
+          {
+            "contactType": "Sales",
+            "contactName": "NextgenID Sales",
+            "contactEmail": "info@nextgenid.com",
+            "contactPhone": "888-373-8648"
+          },
+          {
+            "contactType": "Security",
+            "contactName": "Jaafar Abdeen — Security Contact",
+            "contactEmail": "jabdeen@nextgenid.com"
+          },
+          {
+            "contactType": "System Owner",
+            "contactName": "Michael Harris — System Owner",
+            "contactEmail": "mharris@nextgenid.com",
+            "contactPhone": "410-810-4910"
+          }
+        ],
+        "certifiedServices": [
+          {
+            "serviceName": "Identity Station",
+            "serviceDescription": "Self-enrollment stations located in client facilities. The Identity Station captures the applicant's biometrics and identity documentation, including biometrics (fingerprints and photo), documents (driver's license, passport, etc.), and other biographic information to verify the identity of the applicant. No PII is persisted on the Identity Station. Security Category: Moderate.",
+            "dateAvailable": "2023-08-23"
+          },
+          {
+            "serviceName": "Workflow Application",
+            "serviceDescription": "The workflow software application installed on the Identity Station packages and encrypts the enrollee's data (the enrollment package) for transmission. Security Category: Moderate.",
+            "dateAvailable": "2023-08-23"
+          },
+          {
+            "serviceName": "Supervised Remote Identity Proofing (SRIP) System",
+            "serviceDescription": "Connects Identity Stations and Trust Agents for remotely supervised enrollment sessions, supporting screen sharing and video conferencing through a built-in WebRTC-based communication infrastructure. Comprises the SRIP Agent Console and the SRIP Management Server. Security Category: Moderate.",
+            "dateAvailable": "2023-08-23"
+          },
+          {
+            "serviceName": "Command Center",
+            "serviceDescription": "Enterprise-level reporting, monitoring, and deployment management system for the Identity Stations, enabling workflow creation, deployment scheduling, telemetry collection, and infrastructure monitoring. Comprises the Command Center Management Server and the Management Console. Security Category: Moderate.",
+            "dateAvailable": "2023-08-23"
+          },
+          {
+            "serviceName": "Transactional Gateway",
+            "serviceDescription": "Facilitates the secure exchange of verification information between validation partners via API connections, including address verification, face matching, and pre-enrollment and package submission. Security Category: Moderate.",
+            "dateAvailable": "2023-08-23"
+          }
+        ],
+        "policies": [
+          {
+            "name": "Code of Conduct Policy",
+            "file": "CODE OF CONDUCT POLICY.pdf",
+            "summary": "Company-wide conduct standards covering trust and credibility, respect for the individual, equal employment and anti-harassment commitments, and reporting channels.",
+            "wordCountApprox": 4056,
+            "version": "1.0",
+            "lastUpdated": "2021-12-01",
+            "availability": "Available on request."
+          },
+          {
+            "name": "NextgenID Rules of Behavior",
+            "file": "NextgenID Rules of Behavior.docx",
+            "summary": "Appropriate-use rules for NextgenID and client information technology resources, acknowledged by system users.",
+            "wordCountApprox": 1454,
+            "version": "1.1",
+            "lastUpdated": "2026-01",
+            "availability": "Available on request."
+          },
+          {
+            "name": "Website Privacy Policy",
+            "file": "nextgenid.com/privacy-policy/",
+            "summary": "Public privacy policy for the NextgenID website, covering information collected, use, and visitor choices. The website does not collect biometric data; biometric capture occurs only within supervised enrollment services.",
+            "wordCountApprox": 881,
+            "lastUpdated": "2026-07-15",
+            "availability": "Public.",
+            "url": "https://www.nextgenid.com/privacy-policy/"
+          },
+          {
+            "name": "Accessibility Statement",
+            "file": "NextgenID-Accessibility-Statement.docx",
+            "summary": "NextgenID's commitment to an accessible, inclusive, and user-friendly experience for all users, designed to support Section 508 of the Rehabilitation Act, the Web Content Accessibility Guidelines (WCAG) where applicable, and the Americans with Disabilities Act (ADA). Covers accessibility standards, continuous improvement through manual and automated accessibility testing, keyboard-only navigation and screen reader compatibility testing, and how to request assistance or report an accessibility barrier (support@nextgenid.com).",
+            "wordCountApprox": 308,
+            "lastUpdated": "2026-07",
+            "availability": "Public.",
+            "url": "https://www.nextgenid.com/wp-content/uploads/2026/07/NextgenID-Accessibility-Statement.docx"
+          }
+        ],
+        "submissionApproachAndRationale": {
+          "submissionRationale": "NextgenID is an excellent candidate for FedRAMP authorization because its platform is purpose-built to support federal agencies and other highly regulated organizations that require the highest levels of identity assurance. The NextgenID platform provides Identity Assurance Level 3 (IAL3) identity proofing, credentialing, and enrollment services that align with federal identity standards, including NIST SP 800-63, FIPS 201-3, and HSPD-12. NextgenID enables federal agencies to securely verify the identities of employees, contractors, and other authorized personnel before granting access to government facilities, cloud services, or sensitive information systems. The platform supports supervised remote identity proofing through certified operators, multi-modal biometric collection, physical identity document verification, advanced liveness detection, and tamper-resistant enrollment hardware. These capabilities are designed to reduce identity fraud while providing agencies with high-assurance identity verification that satisfies federal credentialing requirements.",
+          "submissionApproach": "NextgenID is pursuing a FedRAMP 20x Class C authorization using a security-by-design approach that emphasizes automation, machine-readable evidence, and continuous validation of security controls. Rather than relying primarily on static documentation and point-in-time assessments, NextgenID has integrated security, compliance, and operational processes throughout the Cloud Service Offering (CSO) lifecycle to produce objective, repeatable evidence that demonstrates the ongoing effectiveness of its security program.\n\nThe submission package has been developed in accordance with the FedRAMP 20x principles of reducing documentation burden while increasing confidence through automated evidence collection, continuous monitoring, and independent validation. The authorization boundary includes all systems, services, interfaces, and information flows necessary to securely deliver the NextgenID platform. Security-relevant components are clearly defined, documented, and included within the assessment scope.\n\nTo support this approach, NextgenID has leveraged the FedRAMP authorized Vanta Governance Risk and Compliance (GRC) tool to implement automated control validation capabilities for each of the FedRAMP Key Security Indicators (KSI).\n\nSecurity controls are implemented using native cloud security capabilities, integrated security tooling, and automated workflows that provide measurable evidence of control effectiveness. This enables NextgenID to demonstrate compliance through operational evidence rather than relying solely on manual documentation.\n\nNextgenID also maintains a secure Trust Center that provides public security documentation and controlled access to restricted FedRAMP 20x Class C authorization artifacts for authorized government stakeholders."
+        },
+        "subProcessors": {
+          "description": "To support the delivery, operation, and security of its Cloud Service Offering (CSO), NextgenID may engage carefully selected third-party service providers to perform specific business, operational, or technical functions on its behalf. When these providers process customer information in support of NextgenID's services, they operate as sub-processors under the direction and control of NextgenID.\n\nThis page identifies NextgenID's authorized sub-processors, their geographic locations, and the services they provide in support of our platform.\n\nPrior to engaging any sub-processor, NextgenID conducts a comprehensive due diligence review that includes technical, security, privacy, legal, operational, and compliance assessments. Each provider is evaluated to ensure it meets NextgenID's security, privacy, and risk management requirements, as well as applicable contractual and regulatory obligations, including those supporting FedRAMP and other federal compliance frameworks.\n\nNextgenID engages sub-processors only after they have successfully satisfied our vendor risk management process. All approved sub-processors are contractually required to implement appropriate administrative, technical, and physical safeguards to protect customer information and to maintain security controls that are commensurate with the services they provide. NextgenID continuously monitors the performance and security posture of its sub-processors throughout the duration of the business relationship to ensure ongoing compliance with our security and privacy standards.",
+          "providers": [
+            {
+              "name": "Amazon Web Services (AWS)",
+              "location": "Seattle, Washington, USA (Cloud services hosted in AWS GovCloud (US))",
+              "servicesProvided": "Provides secure cloud infrastructure, compute, networking, storage, database services, encryption services, backup, monitoring, and disaster recovery capabilities that support the hosting and operation of the NextgenID Cloud Service Offering (CSO)."
+            },
+            {
+              "name": "Microsoft Azure",
+              "location": "Redmond, Washington, USA (U.S. Azure and Azure Government regions, as applicable)",
+              "servicesProvided": "Provides cloud platform services supporting identity integration, application hosting, secure networking, and infrastructure services. Microsoft services may also support development, testing, and enterprise productivity functions where applicable."
+            },
+            {
+              "name": "GitHub",
+              "location": "San Francisco, California, USA",
+              "servicesProvided": "Provides secure source code repository, version control, software collaboration, issue tracking, and DevSecOps workflow management to support the secure software development lifecycle (SDLC). GitHub Enterprise security features are used to protect source code and support secure development practices."
+            },
+            {
+              "name": "BeyondTrust",
+              "location": "Johns Creek, Georgia, USA",
+              "servicesProvided": "Provides Privileged Access Management (PAM), privileged remote access, credential vaulting, session monitoring, and privileged account security to control and audit administrative access to NextgenID information systems."
+            },
+            {
+              "name": "Okta",
+              "location": "San Francisco, California, USA",
+              "servicesProvided": "Provides Identity and Access Management (IAM), Single Sign-On (SSO), Multi-Factor Authentication (MFA), lifecycle management, and identity federation services for secure authentication and access to NextgenID systems and applications."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2630354494",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-04T20:12:55Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "Files.com (FILES)",
+          "ueiNumber": "E41FM27LQUY7",
+          "providerName": "Files.com",
+          "serviceName": "Files.com",
+          "serviceAcronym": "FILES",
+          "serviceDescription": "Files.com is a Software-as-a-Service (SaaS) platform with one unified application and API to manage, store, and transfer files across your organization.",
+          "certificationType": "20x",
+          "website": "https://www.files.com",
+          "logo": "https://filescorp.hosted-by-files.com/Compliance-Hosting/FedRAMP-Logo/files-pinwheel.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Data Management",
+            "Storage"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.files.com",
+            "repositoryDescription": "Files.com's FedRAMP-compatible Trust Center, providing access to FedRAMP Certification Data including the Security Decision Record, POA&M summary, and SOC 2 Type II report.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Submit the Trust Center access request form with first name, last name, work email, company name, and reason for access (existing customer, prospective customer, or other). Requests are reviewed by the Files.com security team before access is granted. Existing accessors can use the 'Reclaim access' option on the same page."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://www.files.com/docs/settings-and-usage/security/configuring-filescom-for-maximum-security",
+            "repositoryDescription": "Guidance for securely configuring Files.com, including administrative account settings and security-related options.",
+            "authenticationRequired": false
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Product Documentation"
+              ],
+              "url": "https://www.files.com/docs",
+              "repositoryDescription": "Public product documentation covering setup, security, encryption, data governance, logging, and other Files.com platform capabilities.",
+              "authenticationRequired": false
+            }
+          ],
+          "nextOngoingCertificationReportDate": "2026-10-01"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Sales",
+            "contactEmail": "sales@files.com"
+          },
+          {
+            "contactType": "Security",
+            "contactEmail": "fedramp-notifications@files.com"
+          }
+        ],
+        "ZD_frid_retro": "FR2630354495",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-04T20:12:55Z"
       }
     ]
   }
