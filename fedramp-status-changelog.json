@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-03T19:59:30.276Z",
-    "total_entries": 2034,
+    "export_timestamp": "2026-08-04T19:59:35.135Z",
+    "total_entries": 2035,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -30513,6 +30513,21 @@
         "to_status": "FedRAMP In Process",
         "transition_date": "2026-08-03T04:00:00.000Z",
         "recorded_date": "2026-08-03T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "2dc8304a",
+        "product_id": "FR2623840126",
+        "csp": "Saviynt",
+        "cso": "Saviynt High Security Identity Platform",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class D",
+        "from_status": "Agency In Process",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-08-04T04:00:00.000Z",
+        "recorded_date": "2026-08-04T04:00:00.000Z",
         "source": "AppSheet",
         "comments": ""
       }
