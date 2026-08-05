@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-04T20:12:55.939Z",
-    "total_entries": 21,
+    "export_timestamp": "2026-08-05T21:47:56.218Z",
+    "total_entries": 19,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -57,7 +57,14 @@
               "authenticationRequired": false
             }
           ],
-          "nextOngoingCertificationReportDate": "2026-10-06"
+          "nextOngoingCertificationReportDate": "2026-10-06",
+          "nextQuarterlyReview": {
+            "date": "2026-10-13",
+            "startTime": "14:00:00-04:00",
+            "registrationUrl": "mailto:patrick@tarly.co?subject=Tarly%20Cowork%20Q4%202026%20FedRAMP%20Quarterly%20Review%20registration",
+            "calendarUrl": "https://gov.tarly.co/trust/quarterly-review-2026-q4.ics"
+          },
+          "ongoingCertificationReportFeedbackUrl": "mailto:patrick@tarly.co?subject=Tarly%20Cowork%20Ongoing%20Certification%20Report%20feedback"
         },
         "certifiedServices": [
           {
@@ -115,6 +122,24 @@
             "url": "https://gov.tarly.co/trust/secure-configuration-guide.html"
           },
           {
+            "name": "Certification Data Access Guide",
+            "formats": [
+              "HTML",
+              "JSON"
+            ],
+            "availability": "Public access instructions; controlled artifacts delivered to authorized parties",
+            "url": "https://gov.tarly.co/trust/access.html"
+          },
+          {
+            "name": "Independent Availability Status",
+            "formats": [
+              "Markdown",
+              "JSON"
+            ],
+            "availability": "Public; hosted outside the production request path",
+            "url": "https://github.com/patrick-tarly-co/trust-center/blob/main/STATUS.md"
+          },
+          {
             "name": "Security Decision Record",
             "formats": [
               "JSON",
@@ -170,7 +195,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-04T20:12:44Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:37Z"
       },
       {
         "assessor": {
@@ -253,7 +278,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:46Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:42Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -357,7 +382,7 @@
         },
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:47Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:42Z"
       },
       {
         "serviceIdentification": {
@@ -423,7 +448,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-04T20:12:48Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:44Z"
       },
       {
         "serviceIdentification": {
@@ -560,7 +585,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-04T20:12:48Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:43Z"
       },
       {
         "assessor": {
@@ -817,7 +842,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:48Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:43Z"
       },
       {
         "serviceIdentification": {
@@ -836,7 +861,6 @@
             "SaaS"
           ],
           "deploymentModel": "Public Cloud",
-          "digitalIdentityLevel": "IAL2/AAL2/FAL2",
           "businessCategory": [
             "Operations Management"
           ],
@@ -848,6 +872,7 @@
             "repositoryDescription": "IVM FedRAMP Trust Center — Certification Data landing page and access instructions.",
             "authenticationRequired": false
           },
+          "nextOngoingCertificationReportDate": "2026-11-05",
           "additionalRepositories": [
             {
               "repositoryType": [
@@ -871,12 +896,11 @@
         ],
         "assessor": {
           "name": "Kompleye",
-          "assessorID": "201591",
-          "id": "201591"
+          "assessorID": "201591"
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:49Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:45Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -971,7 +995,7 @@
         },
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:49Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:45Z"
       },
       {
         "serviceIdentification": {
@@ -1065,7 +1089,7 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:50Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:46Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1167,7 +1191,7 @@
         ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-04T20:12:50Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:46Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1338,7 +1362,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:51Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:47Z"
       },
       {
         "serviceIdentification": {
@@ -1402,7 +1426,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:51Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:48Z"
       },
       {
         "serviceIdentification": {
@@ -1461,7 +1485,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:53Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:49Z"
       },
       {
         "assessor": {
@@ -1514,79 +1538,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:53Z"
-      },
-      {
-        "$schema": "https://json-schema.org/draft/2020-12/schema",
-        "$id": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
-        "$schemaVersion": "0.1.2",
-        "serviceIdentification": {
-          "fedRampPackageId": "VisualVault LLC (VisualVault Cloud)",
-          "ueiNumber": "SZUJPFHV8JA3",
-          "providerName": "VisualVault LLC",
-          "serviceName": "VisualVault Cloud",
-          "serviceAcronym": "VisualVault Cloud",
-          "serviceDescription": "VisualVault is a secure, scalable platform that helps government agencies automate constituent-facing processes that require Compliance and Enforcement — from licensing and permitting to case management and general compliance enforcement. It enables agencies to configure workflows and adapt to evolving requirements.",
-          "certificationType": "20x",
-          "website": "https://www.visualvault.com",
-          "logo": "https://www.visualvault.com/static/c53c7cdcf1ab9d0f01e5719462cd1b2d/vvlogo.svg"
-        },
-        "serviceProperties": {
-          "serviceType": [
-            "SaaS"
-          ],
-          "deploymentModel": "Public Cloud",
-          "businessCategory": [
-            "Governance, Risk, and Compliance (GRC)"
-          ],
-          "trustCenter": {
-            "repositoryType": [
-              "Trust Center"
-            ],
-            "url": "https://trust.paramify.com/visualvault/visualvault",
-            "repositoryDescription": "VisualVault Cloud FedRAMP Trust Center. Publishes compliance programs, controls, third-party interconnections, and package deliverables.",
-            "authenticationRequired": false
-          }
-        },
-        "contactInformation": [
-          {
-            "contactType": "Security",
-            "contactName": "VisualVault FedRAMP Team",
-            "contactEmail": "fedramp-security@visualvault.com"
-          },
-          {
-            "contactType": "Sales",
-            "contactName": "VisualVault Federal Sales",
-            "contactEmail": "fedramp-sales@visualvault.com"
-          }
-        ],
-        "assessor": {
-          "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
-          "assessorID": "138665"
-        },
-        "thirdPartyInformationResources": {
-          "certified": [
-            {
-              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
-              "useCase": "AWS GovCloud (US) hosts VisualVault Cloud's infrastructure for the government-exclusive offering."
-            },
-            {
-              "fedRampCertifiedThirdPartyInformationResource": "F1603087869",
-              "useCase": "Microsoft Entra ID (via Azure Government) provides internal corporate single sign-on for personnel accessing VisualVault Cloud."
-            },
-            {
-              "fedRampCertifiedThirdPartyInformationResource": "FR1807853629A",
-              "useCase": "CrowdStrike Falcon Platform for Government provides endpoint detection and response across VisualVault's corporate AWS and AWS GovCloud infrastructure, via separate subscriptions for each environment."
-            },
-            {
-              "fedRampCertifiedThirdPartyInformationResource": "FR2201340492",
-              "useCase": "KnowBe4 Platform provides security awareness training for VisualVault personnel."
-            }
-          ]
-        },
-        "ZD_frid_retro": "FR2630354484",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:54Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:50Z"
       },
       {
         "serviceIdentification": {
@@ -1670,78 +1622,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:53Z"
-      },
-      {
-        "serviceIdentification": {
-          "fedRampPackageId": "Globality Inc-GLO",
-          "ueiNumber": "FLDZQLWX4L33",
-          "providerName": "Globality Inc",
-          "serviceName": "Globality Platform",
-          "serviceAcronym": "GLO",
-          "serviceDescription": "Globality's core application, the Globality Platform, is a software as a service ('SaaS') application that is accessible to end users through their web browser. The application can intelligently guide users in creating project briefs ('RFPs / Request for Proposals') or proposals, by leveraging AI and ML to suggest answers, automatically scope projects, analyze user input, and match clients with suitable providers and support the approval process. The Globality Platform enables processing of the following tasks related to the procurement process:\n - Capturing data from clients and providers to automatically build out comprehensive project briefs and proposals\n - Intelligently analyzing user input to identify key components and match clients with providers\n - Providing secure communication channels between clients and matched providers, as well as with Globality support personnel\n - Providing learning systems to help users become self-sufficient on the platform\n - Enabling clients to rate providers using common criteria\n - Authenticating and authorizing users to ensure access is strictly controlled\n - Supporting configurable workflows to streamline procurement processes and make it specific to each client use case\n - Providing approval flows to users, include ways to require nondisclosure agreements ('NDAs') prior to submissions\n - Providing data reporting to end users through a variety of formats\n - Integrating with external systems, including SAP and Oracle\n Projects are tracked throughout the procurement cycle, from initial brief creation to the final awarding of a provider proposal. Access is managed through the web browser, and all user data is encrypted at rest, in transit, and fully protected throughout its data lifecycle.",
-          "certificationType": "20x",
-          "website": "https://www.globality.com",
-          "logo": "https://www.globality.com/wp-content/uploads/2026/07/Globality-Logo.png"
-        },
-        "serviceProperties": {
-          "serviceType": [
-            "SaaS"
-          ],
-          "deploymentModel": "Public Cloud",
-          "businessCategory": [
-            "Artificial Intelligence (AI)",
-            "Finance"
-          ],
-          "trustCenter": {
-            "repositoryType": [
-              "Trust Center"
-            ],
-            "url": "https://www.globality.com/security-trust/",
-            "repositoryDescription": "Globality's Trust Center publishes the current certification status, continuous reporting artifacts, SOC 2 Type 2 and ISO/IEC 27001:2022 certificates, sub-processor listing, the shared responsibility model, security policies and procedures",
-            "authenticationRequired": false,
-            "accessRequestInstructions": "Public summary content is available without authentication. 1. Controlled artifacts (assessment reports, secured configuration guidance, penetration test reports and policy documents) can be requested by emailing infosec@globality.com.\n2. Provide requester name, agency or organization, government email address, and the specific artifacts required.\n3. Federal agency personnel and FedRAMP reviewers are granted access without a non-disclosure agreement. All other requesters must execute Globality's standard mutual NDA.\n4. Artifacts are provided within 2 business days"
-          },
-          "additionalRepositories": [
-            {
-              "repositoryType": [
-                "Sub processors"
-              ],
-              "url": "https://www.globality.com/globality-subprocessors/",
-              "repositoryDescription": "This page provides information about the identity, location, and description of each subprocessor used by Globality",
-              "authenticationRequired": false
-            }
-          ]
-        },
-        "contactInformation": [
-          {
-            "contactType": "Primary",
-            "contactName": "Globality FedRAMP Program Office",
-            "contactEmail": "fedramp@globality.com"
-          },
-          {
-            "contactType": "Security",
-            "contactName": "Globality Information Security Team",
-            "contactEmail": "infosec@globality.com"
-          },
-          {
-            "contactType": "Sales",
-            "contactName": "Globality Public Sector Sales",
-            "contactEmail": "publicsector@globality.com"
-          },
-          {
-            "contactType": "Support",
-            "contactName": "Globality Customer Support",
-            "contactEmail": "support@globality.com"
-          }
-        ],
-        "assessor": {
-          "name": "PLACEHOLDER - Independent Assessment Service name pending engagement",
-          "assessorID": "000000"
-        },
-        "ZD_frid_retro": "FR2630354487",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:53Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:51Z"
       },
       {
         "serviceIdentification": {
@@ -1831,7 +1712,7 @@
         },
         "ZD_frid_retro": "FR2630354491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:54Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:53Z"
       },
       {
         "serviceIdentification": {
@@ -1870,7 +1751,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:56Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:54Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2030,7 +1911,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:55Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:55Z"
       },
       {
         "serviceIdentification": {
@@ -2094,7 +1975,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-04T20:12:55Z"
+        "last_fetched_timestamp": "2026-08-05T21:47:55Z"
       }
     ]
   }
