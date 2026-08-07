@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-06T20:00:10.526Z",
-    "total_entries": 2048,
+    "export_timestamp": "2026-08-07T16:44:47.860Z",
+    "total_entries": 2047,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -7440,8 +7440,8 @@
         "cert_path": "Agency",
         "cert_class": "Class C",
         "from_status": "Agency Review",
-        "to_status": "Authorized",
-        "transition_date": "2021-03-15T04:00:00.000Z",
+        "to_status": "PMO Review",
+        "transition_date": "2020-11-05T05:00:00.000Z",
         "recorded_date": "2026-04-22T18:26:43.614Z",
         "source": "migration",
         "comments": ""
@@ -7454,9 +7454,9 @@
         "cert_type": "Rev5",
         "cert_path": "Agency",
         "cert_class": "Class C",
-        "from_status": "Authorized",
-        "to_status": "PMO Review",
-        "transition_date": "2022-04-07T04:00:00.000Z",
+        "from_status": "PMO Review",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2021-03-15T04:00:00.000Z",
         "recorded_date": "2026-04-22T18:26:43.614Z",
         "source": "migration",
         "comments": ""
@@ -30341,21 +30341,6 @@
         "product_id": "MSO365MT",
         "csp": "Microsoft",
         "cso": "Microsoft 365 Government Community Cloud & Supporting Services",
-        "cert_type": "Rev5",
-        "cert_path": "Agency",
-        "cert_class": "Class C",
-        "from_status": "PMO Review",
-        "to_status": "FedRAMP Certified",
-        "transition_date": "2026-07-31T04:00:00.000Z",
-        "recorded_date": "2026-07-31T04:00:00.000Z",
-        "source": "manual",
-        "comments": ""
-      },
-      {
-        "unique_id": "f6ee0f69-435b-438f-a283-89e1bc4b73df-manual",
-        "product_id": "FR2004146362",
-        "csp": "MediaLab, Inc.",
-        "cso": "MediaLab Federal",
         "cert_type": "Rev5",
         "cert_path": "Agency",
         "cert_class": "Class C",
