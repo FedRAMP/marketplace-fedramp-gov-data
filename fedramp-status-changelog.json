@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-09T19:59:34.563Z",
-    "total_entries": 2040,
+    "export_timestamp": "2026-08-10T19:59:31.595Z",
+    "total_entries": 2041,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -30603,6 +30603,21 @@
         "to_status": "FedRAMP Certified",
         "transition_date": "2026-08-06T04:00:00.000Z",
         "recorded_date": "2026-08-06T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "90318066",
+        "product_id": "FR2304757473A",
+        "csp": "Cisco Systems Inc.",
+        "cso": "Cisco Security Cloud for Government",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class D",
+        "from_status": "Agency Review",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-08-06T04:00:00.000Z",
+        "recorded_date": "2026-08-10T04:00:00.000Z",
         "source": "AppSheet",
         "comments": ""
       }
