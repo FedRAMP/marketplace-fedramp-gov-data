@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-05T23:46:12.130Z",
-    "total_entries": 20,
+    "export_timestamp": "2026-08-11T16:17:28.458Z",
+    "total_entries": 21,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -179,6 +179,10 @@
             "reason": "Customer-hosted, on-premises, and Azure Government deployments are not included in this Marketplace listing or planned Minimum Assessment Scope."
           }
         ],
+        "assessor": {
+          "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+          "assessorID": "138665"
+        },
         "contactInformation": [
           {
             "contactType": "Sales",
@@ -195,7 +199,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-05T23:45:57Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:15Z"
       },
       {
         "assessor": {
@@ -278,7 +282,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:00Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:18Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -382,7 +386,7 @@
         },
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:01Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:18Z"
       },
       {
         "serviceIdentification": {
@@ -448,7 +452,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-05T21:47:44Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:18Z"
       },
       {
         "serviceIdentification": {
@@ -580,7 +584,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-05T23:46:01Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:19Z"
       },
       {
         "assessor": {
@@ -588,23 +592,210 @@
           "id": "000000",
           "name": "Not yet assigned; independent assessment (IV&V) in procurement"
         },
+        "certificationProgress": {
+          "goals": [
+            {
+              "goal": "Submit a FedRAMP 20x Class C application through the FedRAMP submission pipeline.",
+              "measuredBy": "The Class B and C pipeline opens on 2026-08-31 per the published FedRAMP 2026 timeline. Progress is measured by whether an application has been submitted. As of this statement it has not, because the pipeline is not yet open."
+            },
+            {
+              "goal": "Engage an independent assessment service.",
+              "measuredBy": "Measured by a signed engagement and a real assessor id in the published package. As of this statement no assessor is engaged and the package carries the unassigned placeholder id, disclosed as such elsewhere on this page. This is on the critical path to certification."
+            },
+            {
+              "goal": "Bring every Key Security Indicator to two or more active automated validation methods.",
+              "measuredBy": "Measured by the daily evidence snapshots: 42 of 46 as of 2026-08-11. The remaining four are the yardstick for the next statement."
+            },
+            {
+              "goal": "Move partially met rules to met and close the known gaps.",
+              "measuredBy": "Measured by the same rule verdicts summarized above: 26 partially met and 2 with known gaps at page generation. The next statement will report the same counts, so movement, or the lack of it, will be visible."
+            },
+            {
+              "goal": "Build the six-month persistent validation history that Class C reporting expects.",
+              "measuredBy": "Daily snapshots have run since 2026-07-09, so an unbroken six-month record cannot exist before January 2027. The record grows by observation only and is never backfilled."
+            }
+          ],
+          "milestonesReached": [
+            {
+              "date": "2026-07-09",
+              "milestone": "Daily automated Key Security Indicator evidence snapshots began."
+            },
+            {
+              "date": "2026-07-17",
+              "milestone": "FedRAMP Marketplace listing approved at the Initial Implementation stage."
+            }
+          ],
+          "nextUpdateDueBy": "2026-11-11",
+          "notGoingWell": [
+            "There is a six-day hole in the daily evidence history: no Key Security Indicator snapshots were recorded from 2026-07-31 through 2026-08-05. It cannot be backfilled and will not be. The gap stays in the record, and an assessor reading the history will see it.",
+            "26 of the 45 tracked rules are still only partially met and 2 have known gaps.",
+            "No independent assessor is engaged, and the assessment cannot start until one is."
+          ],
+          "rule": "MKT-IIP-DCP",
+          "ruleText": "Providers MUST demonstrate continuous progress towards a FedRAMP Certification, documented in their Trust Center or website and updated at least quarterly; progress is measured by the provider against documented goals and milestones.",
+          "seriesNote": "This is the first statement in this series. Every statement carries its own date and the date the next one is due, so the cadence can be checked from the statements alone.",
+          "sources": {
+            "fedRampTimeline": "https://www.fedramp.gov/2026/timeline/",
+            "marketplaceListing": "https://fedramp.gov/marketplace/products/FR2628647239"
+          },
+          "statementDate": "2026-08-11",
+          "updateCadence": "at least quarterly",
+          "whereWeStand": [
+            "Enablement is listed in the FedRAMP Marketplace under FedRAMP ID FR2628647239 at the Initial Implementation stage. It is not FedRAMP certified and holds zero FedRAMP authorizations. Nothing in this statement claims otherwise.",
+            "The certification being pursued is a FedRAMP 20x Class C Program Certification. No date for obtaining it is promised anywhere on this page, because that decision belongs to FedRAMP, not to Advent.",
+            "Advent tracks 45 FedRAMP rules covering certification data sharing, trust center operation, cryptographic module use, minimum assessment scope, and vulnerability detection and response against its own implementation. Current standing: 11 met, 26 partially met, 2 with known gaps, 3 not applicable to this offering, and 3 not currently triggered. These counts are recomputed from the rule-by-rule verdict data every time this page is generated, so they can move between quarterly statements; the dated figures elsewhere in this statement stay as written.",
+            "All 46 Key Security Indicators report at least one active automated validation method, and 42 of 46 report two or more. Verified against the daily evidence snapshot of 2026-08-11. Per-indicator evidence is available to agencies and assessors through the access-controlled endpoints listed on this page."
+          ]
+        },
         "certifiedServices": [
           {
+            "dateAvailable": "2026-07-17",
+            "inMinimumAssessmentScope": true,
+            "minimumAssessmentScopeReference": "MINIMUM_ASSESSMENT_SCOPE.md §2.1-2.3, §2.6",
+            "securityCategory": {
+              "categorizationScope": "System-wide FIPS 199 high-water mark; not separately derived for this service.",
+              "certificationClass": "Class C",
+              "certificationImpactLevel": "Moderate",
+              "fips199SystemCategorization": "High"
+            },
+            "serviceDescription": "The PaaS platform-build layer: business users author complete BPMN processes and applications visually and get web and mobile interfaces generated automatically, with no coding. Customer-authored content is treated as untrusted and runs under server-authoritative tenant binding. Public description capability 1; Secure Configuration Guide §14.",
+            "serviceModel": "PaaS",
+            "serviceName": "Enablement No-Code Process Designer"
+          },
+          {
+            "dateAvailable": "2026-07-17",
+            "inMinimumAssessmentScope": true,
+            "minimumAssessmentScopeReference": "MINIMUM_ASSESSMENT_SCOPE.md §2.1-2.3, §2.6",
+            "securityCategory": {
+              "categorizationScope": "System-wide FIPS 199 high-water mark; not separately derived for this service.",
+              "certificationClass": "Class C",
+              "certificationImpactLevel": "Moderate",
+              "fips199SystemCategorization": "High"
+            },
+            "serviceDescription": "Deterministic server-side execution of published processes — forms, tasks, approvals, and integrations. No generative model is in the execution path, so a process behaves identically on every run and never invents an answer. Public description capability 1.",
+            "serviceModel": "SaaS",
+            "serviceName": "Enablement Process Execution Engine"
+          },
+          {
+            "dateAvailable": "2026-07-17",
+            "inMinimumAssessmentScope": true,
+            "minimumAssessmentScopeReference": "MINIMUM_ASSESSMENT_SCOPE.md §2.1-2.3, §2.6",
+            "securityCategory": {
+              "categorizationScope": "System-wide FIPS 199 high-water mark; not separately derived for this service.",
+              "certificationClass": "Class C",
+              "certificationImpactLevel": "Moderate",
+              "fips199SystemCategorization": "High"
+            },
+            "serviceDescription": "Mobile client for the same processes and forms as the web application, with device binding on authenticated sessions. Referenced in the public description as the automatically generated mobile interface.",
+            "serviceModel": "SaaS",
+            "serviceName": "Enablement Mobile Access"
+          },
+          {
+            "dateAvailable": "2026-07-17",
+            "inMinimumAssessmentScope": true,
+            "minimumAssessmentScopeReference": "MINIMUM_ASSESSMENT_SCOPE.md §2.1-2.3, §2.6",
+            "securityCategory": {
+              "categorizationScope": "System-wide FIPS 199 high-water mark; not separately derived for this service.",
+              "certificationClass": "Class C",
+              "certificationImpactLevel": "Moderate",
+              "fips199SystemCategorization": "High"
+            },
+            "serviceDescription": "Role-based and attribute-based access control (RBAC/ABAC), user lifecycle, time-boxed privileged grants, and the full authentication range: passkeys, SAML SSO, authenticator apps, and email OTP. The password is proven by challenge-response and is never transmitted to the server. Public description capabilities 5 and 7; Secure Configuration Guide §2–§7.",
+            "serviceModel": "SaaS",
+            "serviceName": "Enablement Identity, Authentication and Access Control"
+          },
+          {
+            "dateAvailable": "2026-07-17",
+            "inMinimumAssessmentScope": true,
+            "minimumAssessmentScopeReference": "MINIMUM_ASSESSMENT_SCOPE.md §2.1-2.3, §2.6",
+            "securityCategory": {
+              "categorizationScope": "System-wide FIPS 199 high-water mark; not separately derived for this service.",
+              "certificationClass": "Class C",
+              "certificationImpactLevel": "Moderate",
+              "fips199SystemCategorization": "High"
+            },
+            "serviceDescription": "Encrypted file storage and sharing, secured email, watermarked read-only viewing, and malware scanning of every upload — all inside the boundary, with no file content sent to an external scanning service. Secure Configuration Guide §10.2–§10.5.",
+            "serviceModel": "SaaS",
+            "serviceName": "Enablement Secured Files and Secured Email"
+          },
+          {
+            "dateAvailable": "2026-07-17",
+            "inMinimumAssessmentScope": true,
+            "minimumAssessmentScopeReference": "MINIMUM_ASSESSMENT_SCOPE.md §2.1-2.3, §2.6",
+            "securityCategory": {
+              "categorizationScope": "System-wide FIPS 199 high-water mark; not separately derived for this service.",
+              "certificationClass": "Class C",
+              "certificationImpactLevel": "Moderate",
+              "fips199SystemCategorization": "High"
+            },
+            "serviceDescription": "Automatic CUI and distribution-statement marking to federal standards (DoW and NARA), plus a share-time authorization check that warns or blocks before a document reaches unauthorized personnel. Public description capabilities 5 and 6; Secure Configuration Guide §10.1.",
+            "serviceModel": "SaaS",
+            "serviceName": "Enablement Automated Marking and Share-Time Leak Prevention"
+          },
+          {
+            "dateAvailable": "2026-07-17",
+            "inMinimumAssessmentScope": true,
+            "minimumAssessmentScopeReference": "MINIMUM_ASSESSMENT_SCOPE.md §2.1-2.3, §2.6",
+            "securityCategory": {
+              "categorizationScope": "System-wide FIPS 199 high-water mark; not separately derived for this service.",
+              "certificationClass": "Class C",
+              "certificationImpactLevel": "Moderate",
+              "fips199SystemCategorization": "High"
+            },
+            "serviceDescription": "Tamper-evident audit capture of user and administrative activity with scoped audit-log access for customer administrators, plus execution-pattern anomaly detection and an operator kill switch for a runaway process or account. Secure Configuration Guide §9.",
+            "serviceModel": "SaaS",
+            "serviceName": "Enablement Audit and Activity Monitoring"
+          },
+          {
+            "dateAvailable": "2026-07-17",
+            "inMinimumAssessmentScope": true,
+            "minimumAssessmentScopeReference": "MINIMUM_ASSESSMENT_SCOPE.md §2.1-2.3, §2.6",
+            "securityCategory": {
+              "categorizationScope": "System-wide FIPS 199 high-water mark; not separately derived for this service.",
+              "certificationClass": "Class C",
+              "certificationImpactLevel": "Moderate",
+              "fips199SystemCategorization": "High"
+            },
+            "serviceDescription": "Scheduled and recurring execution of published processes, operated inside the boundary with no external scheduler or orchestration service.",
+            "serviceModel": "SaaS",
+            "serviceName": "Enablement Process Scheduler"
+          },
+          {
             "dateAvailable": "2026-04-17",
+            "inMinimumAssessmentScope": true,
+            "minimumAssessmentScopeReference": "MINIMUM_ASSESSMENT_SCOPE.md §2.1-2.3, §2.6",
+            "securityCategory": {
+              "categorizationScope": "System-wide FIPS 199 high-water mark; not separately derived for this service.",
+              "certificationClass": "Class C",
+              "certificationImpactLevel": "Moderate",
+              "fips199SystemCategorization": "High"
+            },
             "serviceDescription": "Native, always-on continuous monitoring operated entirely within the authorization boundary, covering network vulnerability, container/IaC, cloud-posture, and host configuration/CVE assessment, producing OSCAL + FedRAMP CR26 machine-readable compliance evidence. No data is sent to any external scanning or monitoring service.",
+            "serviceModel": "SaaS",
             "serviceName": "Enablement Continuous Monitoring"
           }
         ],
+        "certifiedServicesNote": {
+          "dateAvailableBasis": "dateAvailable is the date the service entered the declared FedRAMP 20x certification scope (Initial Implementation approval, 2026-07-17), not a commercial general-availability date. The platform capabilities predate the FedRAMP effort; their original ship dates are not published here because they are not the dates that matter to this certification.",
+          "rule": "CDS-CSO-SVC",
+          "schemaNote": "securityCategory, inMinimumAssessmentScope, and serviceModel are additional properties. The pinned FedRAMP CPO schema (fedramp-certification-package-overview-schema-2026-06-24.json) defines no field for a service security category; when it does, these move into it.",
+          "scopeDetermination": "Every service listed in certifiedServices is inside the FedRAMP Minimum Assessment Scope; servicesNotIncluded names what is outside it. Both lists are public and require no access to underlying FedRAMP Certification Data, which is what this rule requires."
+        },
         "contactInformation": [
           {
-            "contactEmail": "rajesh@adventbusiness.com",
+            "contactEmail": "fedramp-security@adventbusiness.com",
             "contactName": "Security Team",
             "contactType": "Security"
           },
           {
-            "contactEmail": "support@adventbusiness.com",
+            "contactEmail": "sales@adventbusiness.com",
             "contactName": "Sales Team",
             "contactType": "Sales"
+          },
+          {
+            "contactEmail": "support@adventbusiness.com",
+            "contactName": "Support Team",
+            "contactType": "Support"
           },
           {
             "contactEmail": "fedramp-security@adventbusiness.com",
@@ -612,8 +803,29 @@
             "contactType": "FedRAMP Security Inbox"
           }
         ],
+        "crossFormatConsistency": {
+          "documentsPublishedInBothFormats": [
+            {
+              "humanReadable": "https://enablement.cc/ml/20x/trust",
+              "machineReadable": "https://enablement.cc/ml/20x/package?src_id=1711",
+              "renderer": "render_trust_html(cpo)"
+            },
+            {
+              "humanReadable": "https://enablement.cc/ml/20x/status",
+              "machineReadable": "https://enablement.cc/ml/20x/availability",
+              "renderer": "render_status_html(doc)"
+            }
+          ],
+          "howOmissionIsPrevented": "Single-sourcing stops the page contradicting the JSON; it does not stop the page omitting part of it, which is the failure that actually occurred when availability endpoints were added to the document after the HTML tables were written. fedramp_20x.cpo_html_divergence and availability_html_divergence walk every scalar in the JSON and assert it reached the page, so a new field must be either rendered or added to a named exemption list carrying its reason.",
+          "howStalenessIsPrevented": "Structurally, not procedurally. Each human-readable page is RENDERED FROM the machine-readable document at request time and is handed no other source of facts — no database handle, no second query, no cached copy. A stale HTML rendering is therefore not a state this service can be in.",
+          "howToVerifyIndependently": "Fetch both formats and diff them yourself, or run the provider's own check: `python3 app/routes/fedramp_20x.py --selftest` fails on any divergence, and the unit suite re-runs it across an outage, a measurement gap, a partial day, a single-endpoint window and an empty log.",
+          "limitationsOfThisCheck": "It runs at build and self-test time, not on every request, so it gates a release rather than a response. It compares values one way (every JSON scalar must appear in the HTML); the reverse needs no check because the page has no other source. Booleans and nulls are matched by field rather than by literal, since a page renders them as words.",
+          "rule": "CDS-CSO-CBF"
+        },
         "enablementArtifacts": {
           "machineReadable": {
+            "access_log_summary": "https://enablement.cc/ml/20x/access-log-summary",
+            "availability": "https://enablement.cc/ml/20x/availability",
             "avi": "https://enablement.cc/ml/20x/avi?src_id=53",
             "historical": "https://enablement.cc/ml/20x/historical?src_id=53",
             "ksi": "https://enablement.cc/ml/20x/ksi?src_id=53",
@@ -623,9 +835,39 @@
             "sdr": "https://enablement.cc/ml/20x/sdr?src_id=53",
             "vdr": "https://enablement.cc/ml/20x/vdr?src_id=53"
           },
+          "offCsoMirror": {
+            "authoritative": false,
+            "availability": "https://trust.enablement.cc/availability.json",
+            "base": "https://trust.enablement.cc",
+            "mirrorExternalObservation": "https://trust.enablement.cc/mirror-availability.json",
+            "mirrorExternalObservationHistory": "https://trust.enablement.cc/external-probe-history.json",
+            "mirrorManifest": "https://trust.enablement.cc/mirror-manifest.json",
+            "note": "Point-in-time copies, not the live endpoints. Read mirroredAt in mirrorManifest before relying on any of them. Rules served: CDS-TRC-USH, CDS-CSO-UTC, and the independent-hosting arm of CDS-CSO-AVR.",
+            "package": "https://trust.enablement.cc/package.json",
+            "refreshIntervalMinutes": 15,
+            "scg": "https://trust.enablement.cc/scg.md",
+            "status": "https://trust.enablement.cc/status.html",
+            "trust": "https://trust.enablement.cc/trust.html"
+          },
+          "public": {
+            "availability": "https://enablement.cc/ml/20x/availability",
+            "package": "https://enablement.cc/ml/20x/package?src_id=1711",
+            "scg": "https://enablement.cc/ml/20x/scg",
+            "status": "https://enablement.cc/ml/20x/status",
+            "trust": "https://enablement.cc/ml/20x/trust"
+          },
           "rulesVersion": "2026.07.01.01",
           "schemaPin": "2026-06-24",
           "schemaPinSynced": "2026-07-30"
+        },
+        "securityCategorization": {
+          "authority": "MINIMUM_ASSESSMENT_SCOPE.md §3 (information flows and security categories) and §9.1 item 8 (Class C declaration). Available token-gated at https://enablement.cc/ml/20x/doc/mas.",
+          "categorizationBasis": "FIPS 199 high-water mark across the 13 NIST SP 800-60 information types the platform handles (Personal Identity & Authentication rated High/High/High is the driver), per SSP §3 Table 3.1 and Appendix K Table K.1. Digital identity level IAL2/AAL2/FAL2, with IAL3/AAL3/FAL3 supported where an agency requires it.",
+          "fips199Rev5PackageCategorization": "High",
+          "perServiceCategorization": "NOT declared per service. Every service below handles the same federal customer data inside one authorization boundary, on the same in-scope components, so the system-level high-water mark applies uniformly. No service carries a separately derived C/I/A triad, and none is invented here to fill the column.",
+          "reconciliation": "Two categorizations are in force at once and both are accurate. The Rev5 authorization package of record categorises the system FIPS 199 High. The FedRAMP 20x certification being pursued is Class C, which corresponds to Moderate impact; that declaration was made by the System Owner on 2026-07-10 and is tracked as an open, deliberate reconciliation item. Class D (the 20x High path) is the intended upgrade when FedRAMP opens it, estimated 2027. A prospective customer should read this as: the system is built and assessed to a High water mark, and the certification currently being sought is Class C / Moderate.",
+          "twentyXCertificationClass": "Class C",
+          "twentyXImpactLevel": "Moderate"
         },
         "serviceIdentification": {
           "cageCode": "627S4",
@@ -633,7 +875,7 @@
           "certificationPath": "Program",
           "certificationType": "20x",
           "deploymentModel": "Government Community Cloud",
-          "description": "Enablement® is the self-contained, no-code compliance platform you fully own. It is deterministic (no AI, no hallucinations, no token costs), portable to any cloud or data center, CMMC-ready with native continuous monitoring, and zero-trust with no third-party data egress. It is error-proof by design, through automated access control, automated marking, and share-time leak prevention. Built by CMMI-appraised, ISO-certified Advent.\n\nEnablement®\nOwn your compliance. Send nothing out. Need no experts, no AI.\nMost compliance platforms make you hire specialists, wire in third-party services, and increasingly hand your data to AI you cannot audit. Enablement flips that. It is a self-contained, deterministic, zero-trust platform where your teams build and run everything visually, and nothing ever leaves your boundary.\n\n1. No-code process building. No developers, no AI, no token bills.\nBusiness users design complete workflows (BPMN) visually and get web and mobile interfaces generated automatically, with no coding, no integration team, and no consultants. Because the engine is deterministic rather than generative, it is free from AI hallucination and carries zero per-token cost. Every process behaves the same way every time, is fully auditable, and never invents an answer. What you design is exactly what runs.\n\n2. Deploy anywhere. True portability.\nOne platform, any environment. Run Enablement in any commercial cloud, government cloud, or your own data center, or as a fully self-contained appliance. There is no cloud lock-in and no vendor-specific dependency. Move it, mirror it, or air-gap it.\n\n3. Rapid CMMC Level 2 compliance with built-in continuous monitoring.\nCMMC Level 2 readiness comes out of the box, backed by native, always-on continuous monitoring, with no separate scanning products to buy, license, or integrate. Assess, monitor, and produce authorization evidence from day one, on a single system.\n\n4. A genuine zero-trust boundary. Your data never touches a third party.\nEnablement keeps everything inside your perimeter. Your source code lives in its own repository. No data is sent to any outside service for user authentication, code-quality analysis, container scanning, file scanning, or continuous monitoring. Nothing is shipped off to a SaaS, a scanning vendor, or an AI provider. What happens in your boundary stays in your boundary.\n\n5. RBAC and ABAC, with automated document marking that removes human error.\nFine-grained role-based and attribute-based access control (RBAC and ABAC) governs exactly who can see and do what. Documents are marked automatically to federal standards (DoW and NARA), with no manual labeling, no inconsistent tags, and no mislabeled files. The platform does the marking so people cannot get it wrong.\n\n6. Stop data leaks before they happen, and the liability that follows.\nHuman error is the number one cause of data spillage. Enablement checks every share and warns before a document reaches unauthorized personnel, catching the mistake at the moment of sharing rather than after a breach. That turns a potential disclosure, and the corporate liability that comes with it, into a blocked action.\n\n7. Every authentication method, and your password never leaves your device.\nSupport the full range of sign-in: passkeys, single sign-on (SSO), authenticator apps, email, and more. Critically, the password is never sent over the network or to the server. It is proven with a challenge-response so the secret never leaves the user's device. Strong, flexible, phishing-resistant authentication without ever transmitting the credential.",
+          "description": "Enablement® is the self-contained, no-code compliance platform you fully own. It is deterministic (no AI, no hallucinations, no token costs), portable to any cloud or data center, CMMC-ready with native continuous monitoring, and zero-trust with no third-party data egress. It is error-proof by design, through automated access control, automated marking, and share-time leak prevention. Built by CMMI-appraised, ISO-certified Advent.\n\n**Enablement®**: Own your compliance. Send nothing out. Need no experts, no AI.\nMost compliance platforms make you hire specialists, wire in third-party services, and increasingly hand your data to AI you cannot audit. Enablement flips that. It is a self-contained, deterministic, zero-trust platform where your teams build and run everything visually, and nothing ever leaves your boundary.\n\n1. **No-code process building. No developers, no AI, no token bills.** Business users design complete workflows (BPMN) visually and get web and mobile interfaces generated automatically, with no coding, no integration team, and no consultants. Because the engine is deterministic rather than generative, it is free from AI hallucination and carries zero per-token cost. Every process behaves the same way every time, is fully auditable, and never invents an answer. What you design is exactly what runs.\n2. **Deploy anywhere. True portability.** One platform, any environment. Run Enablement in any commercial cloud, government cloud, or your own data center, or as a fully self-contained appliance. There is no cloud lock-in and no vendor-specific dependency. Move it, mirror it, or air-gap it.\n3. **Rapid CMMC Level 2 compliance with built-in continuous monitoring.** CMMC Level 2 readiness comes out of the box, backed by native, always-on continuous monitoring, with no separate scanning products to buy, license, or integrate. Assess, monitor, and produce authorization evidence from day one, on a single system.\n4. **A genuine zero-trust boundary. Your data never touches a third party.** Enablement keeps everything inside your perimeter. Your source code lives in its own repository. No data is sent to any outside service for user authentication, code-quality analysis, container scanning, file scanning, or continuous monitoring. Nothing is shipped off to a SaaS, a scanning vendor, or an AI provider. What happens in your boundary stays in your boundary.\n5. **RBAC and ABAC, with automated document marking that removes human error.** Fine-grained role-based and attribute-based access control (RBAC and ABAC) governs exactly who can see and do what. Documents are marked automatically to federal standards (DoW and NARA), with no manual labeling, no inconsistent tags, and no mislabeled files. The platform does the marking so people cannot get it wrong.\n6. **Stop data leaks before they happen, and the liability that follows.** Human error is the number one cause of data spillage. Enablement checks every share and warns before a document reaches unauthorized personnel, catching the mistake at the moment of sharing rather than after a breach. That turns a potential disclosure, and the corporate liability that comes with it, into a blocked action.\n7. **Every authentication method, and your password never reaches the server.** Support the full range of sign-in: passkeys, single sign-on (SSO), authenticator apps, email, and more. Critically, the password is never transmitted to the server. It is proven with a challenge-response so the secret never leaves the user's device, and the server stores only a verifier and salt, never the password or any recoverable form of it. At enrolment the server generates the initial password, delivers it out of band by email, and requires the account holder to replace it at first sign-in. Strong, flexible, phishing-resistant authentication without ever transmitting the credential.",
           "fedRampId": "FR2628647239",
           "fedRampPackageId": "ADVENTBUSINESS-ENB",
           "impactLevel": "Moderate",
@@ -642,16 +884,16 @@
           "marketplaceUrl": "https://fedramp.gov/marketplace/products/FR2628647239",
           "providerName": "Advent Business Company Inc.",
           "serviceAcronym": "ENB",
-          "serviceDescription": "Enablement® is the self-contained, no-code compliance platform you fully own. It is deterministic (no AI, no hallucinations, no token costs), portable to any cloud or data center, CMMC-ready with native continuous monitoring, and zero-trust with no third-party data egress. It is error-proof by design, through automated access control, automated marking, and share-time leak prevention. Built by CMMI-appraised, ISO-certified Advent.\n\nEnablement®\nOwn your compliance. Send nothing out. Need no experts, no AI.\nMost compliance platforms make you hire specialists, wire in third-party services, and increasingly hand your data to AI you cannot audit. Enablement flips that. It is a self-contained, deterministic, zero-trust platform where your teams build and run everything visually, and nothing ever leaves your boundary.\n\n1. No-code process building. No developers, no AI, no token bills.\nBusiness users design complete workflows (BPMN) visually and get web and mobile interfaces generated automatically, with no coding, no integration team, and no consultants. Because the engine is deterministic rather than generative, it is free from AI hallucination and carries zero per-token cost. Every process behaves the same way every time, is fully auditable, and never invents an answer. What you design is exactly what runs.\n\n2. Deploy anywhere. True portability.\nOne platform, any environment. Run Enablement in any commercial cloud, government cloud, or your own data center, or as a fully self-contained appliance. There is no cloud lock-in and no vendor-specific dependency. Move it, mirror it, or air-gap it.\n\n3. Rapid CMMC Level 2 compliance with built-in continuous monitoring.\nCMMC Level 2 readiness comes out of the box, backed by native, always-on continuous monitoring, with no separate scanning products to buy, license, or integrate. Assess, monitor, and produce authorization evidence from day one, on a single system.\n\n4. A genuine zero-trust boundary. Your data never touches a third party.\nEnablement keeps everything inside your perimeter. Your source code lives in its own repository. No data is sent to any outside service for user authentication, code-quality analysis, container scanning, file scanning, or continuous monitoring. Nothing is shipped off to a SaaS, a scanning vendor, or an AI provider. What happens in your boundary stays in your boundary.\n\n5. RBAC and ABAC, with automated document marking that removes human error.\nFine-grained role-based and attribute-based access control (RBAC and ABAC) governs exactly who can see and do what. Documents are marked automatically to federal standards (DoW and NARA), with no manual labeling, no inconsistent tags, and no mislabeled files. The platform does the marking so people cannot get it wrong.\n\n6. Stop data leaks before they happen, and the liability that follows.\nHuman error is the number one cause of data spillage. Enablement checks every share and warns before a document reaches unauthorized personnel, catching the mistake at the moment of sharing rather than after a breach. That turns a potential disclosure, and the corporate liability that comes with it, into a blocked action.\n\n7. Every authentication method, and your password never leaves your device.\nSupport the full range of sign-in: passkeys, single sign-on (SSO), authenticator apps, email, and more. Critically, the password is never sent over the network or to the server. It is proven with a challenge-response so the secret never leaves the user's device. Strong, flexible, phishing-resistant authentication without ever transmitting the credential.",
+          "serviceDescription": "Enablement® is the self-contained, no-code compliance platform you fully own. It is deterministic (no AI, no hallucinations, no token costs), portable to any cloud or data center, CMMC-ready with native continuous monitoring, and zero-trust with no third-party data egress. It is error-proof by design, through automated access control, automated marking, and share-time leak prevention. Built by CMMI-appraised, ISO-certified Advent.\n\n**Enablement®**: Own your compliance. Send nothing out. Need no experts, no AI.\nMost compliance platforms make you hire specialists, wire in third-party services, and increasingly hand your data to AI you cannot audit. Enablement flips that. It is a self-contained, deterministic, zero-trust platform where your teams build and run everything visually, and nothing ever leaves your boundary.\n\n1. **No-code process building. No developers, no AI, no token bills.** Business users design complete workflows (BPMN) visually and get web and mobile interfaces generated automatically, with no coding, no integration team, and no consultants. Because the engine is deterministic rather than generative, it is free from AI hallucination and carries zero per-token cost. Every process behaves the same way every time, is fully auditable, and never invents an answer. What you design is exactly what runs.\n2. **Deploy anywhere. True portability.** One platform, any environment. Run Enablement in any commercial cloud, government cloud, or your own data center, or as a fully self-contained appliance. There is no cloud lock-in and no vendor-specific dependency. Move it, mirror it, or air-gap it.\n3. **Rapid CMMC Level 2 compliance with built-in continuous monitoring.** CMMC Level 2 readiness comes out of the box, backed by native, always-on continuous monitoring, with no separate scanning products to buy, license, or integrate. Assess, monitor, and produce authorization evidence from day one, on a single system.\n4. **A genuine zero-trust boundary. Your data never touches a third party.** Enablement keeps everything inside your perimeter. Your source code lives in its own repository. No data is sent to any outside service for user authentication, code-quality analysis, container scanning, file scanning, or continuous monitoring. Nothing is shipped off to a SaaS, a scanning vendor, or an AI provider. What happens in your boundary stays in your boundary.\n5. **RBAC and ABAC, with automated document marking that removes human error.** Fine-grained role-based and attribute-based access control (RBAC and ABAC) governs exactly who can see and do what. Documents are marked automatically to federal standards (DoW and NARA), with no manual labeling, no inconsistent tags, and no mislabeled files. The platform does the marking so people cannot get it wrong.\n6. **Stop data leaks before they happen, and the liability that follows.** Human error is the number one cause of data spillage. Enablement checks every share and warns before a document reaches unauthorized personnel, catching the mistake at the moment of sharing rather than after a breach. That turns a potential disclosure, and the corporate liability that comes with it, into a blocked action.\n7. **Every authentication method, and your password never reaches the server.** Support the full range of sign-in: passkeys, single sign-on (SSO), authenticator apps, email, and more. Critically, the password is never transmitted to the server. It is proven with a challenge-response so the secret never leaves the user's device, and the server stores only a verifier and salt, never the password or any recoverable form of it. At enrolment the server generates the initial password, delivers it out of band by email, and requires the account holder to replace it at first sign-in. Strong, flexible, phishing-resistant authentication without ever transmitting the credential.",
           "serviceModel": "SaaS, PaaS",
           "serviceName": "Enablement®",
           "uei": "C7LGVA7B5JT1",
-          "website": "https://enablement.cc"
+          "website": "https://enablement.company"
         },
         "serviceProperties": {
           "additionalRepositories": [
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
               "repositoryDescription": "Vulnerability Detail Report (VER-RPT-VDT)",
               "repositoryType": [
@@ -660,7 +902,7 @@
               "url": "https://enablement.cc/ml/20x/vdr?src_id=53"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
               "repositoryDescription": "Accepted Vulnerability Info (VER-RPT-AVI)",
               "repositoryType": [
@@ -669,7 +911,7 @@
               "url": "https://enablement.cc/ml/20x/avi?src_id=53"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
               "repositoryDescription": "Historical VER activity for automated retrieval (VER-TFR-MRH)",
               "repositoryType": [
@@ -678,7 +920,7 @@
               "url": "https://enablement.cc/ml/20x/historical?src_id=53"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
               "repositoryDescription": "Ongoing Certification Report (CCM-OCR-AVL)",
               "repositoryType": [
@@ -687,7 +929,7 @@
               "url": "https://enablement.cc/ml/20x/ocr?src_id=53"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
               "repositoryDescription": "Security Decision Record (SDR-CSO-FRR)",
               "repositoryType": [
@@ -696,7 +938,7 @@
               "url": "https://enablement.cc/ml/20x/sdr?src_id=53"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
               "repositoryDescription": "KSI evidence report (FRC-CSX-VVK / FRC-CSX-MOT)",
               "repositoryType": [
@@ -705,7 +947,7 @@
               "url": "https://enablement.cc/ml/20x/ksi?src_id=53"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
               "repositoryDescription": "Rev5 OSCAL Plan of Action & Milestones",
               "repositoryType": [
@@ -714,7 +956,7 @@
               "url": "https://enablement.cc/ml/oscal/poam?src_id=53"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
               "repositoryDescription": "Rev5 OSCAL Assessment Results",
               "repositoryType": [
@@ -723,70 +965,142 @@
               "url": "https://enablement.cc/ml/oscal/assessment-results?src_id=53"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
-              "repositoryDescription": "Incident Evaluation & Communication runbook (IEC-CSO-*)",
+              "repositoryDescription": "How an incident is evaluated, reported and communicated, including federal notification timeframes",
               "repositoryType": [
                 "Assessment Documentation"
               ],
               "url": "https://enablement.cc/ml/20x/doc/iec-runbook"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
-              "repositoryDescription": "KSI Self-Assessment — 46 Class C KSIs with implementation, evidence pointers, and self-verdicts (IVV Verify-step input)",
+              "repositoryDescription": "46 Class C KSIs with implementation, evidence pointers, and self-verdicts (IVV Verify-step input)",
               "repositoryType": [
                 "Assessment Documentation"
               ],
               "url": "https://enablement.cc/ml/20x/doc/ksi-self-assessment"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
-              "repositoryDescription": "Minimum Assessment Scope (MAS-CSO-*)",
+              "repositoryDescription": "The information resources assessed for FedRAMP Certification, their flows and security categories, exclusions, third-party resources and metadata",
               "repositoryType": [
                 "Assessment Documentation"
               ],
               "url": "https://enablement.cc/ml/20x/doc/mas"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
-              "repositoryDescription": "Plan of Action & Milestones — open 20x items",
+              "repositoryDescription": "How access to the offering is authorized, resolved and revoked: the user-group-role-authorization chain, tenant scoping, time-boxed privileged grants, and the limitations stated rather than omitted",
               "repositoryType": [
                 "Assessment Documentation"
               ],
-              "url": "https://enablement.cc/ml/20x/doc/poam"
+              "url": "https://enablement.cc/ml/20x/doc/policy-access-control"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
-              "repositoryDescription": "Class C ruleset status tracker (all 15 rulesets)",
+              "repositoryDescription": "What is logged, where it is retained and for how long, how it is reviewed, and where automated review is real rather than asserted",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-audit-logging"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "How changes reach production, which configuration-management procedure governs, and the second-approver position stated as a deviation rather than implied",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-change-management"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Backup siting and encryption, recovery verification, the trust-centre availability position and its stated monthly target",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-contingency"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Which cryptography the platform uses and where, key custody and rotation including the AWS-managed key position, and the plaintext master-seed exception stated explicitly",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-cryptography"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Incident evaluation, PAIN rating, notification timelines and recipients, and the per-tenant agency contact register that supplies the addresses",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-incident-response"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "The human- and machine-readable policy reference CDS-CSO-IRP requires: one row per policy carrying name, file, summary, word count, version, date and related FedRAMP practices, plus the policy-to-control-family and policy-to-implementing-system maps",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-index"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Who holds authority, how governance records are produced and signed, the co-signature class introduced 2026-08-10, and the screening non-applicability with its stated trigger",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-personnel-governance"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Detection coverage and cadence, response deadlines by PAIN rating, acceptance and deviation handling, and the KEV gate position",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-vulnerability-management"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Status of all 15 Class C rulesets",
               "repositoryType": [
                 "Assessment Documentation"
               ],
               "url": "https://enablement.cc/ml/20x/doc/ruleset-status"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
-              "repositoryDescription": "Significant Change Notification process (SCN-CSO-*)",
+              "repositoryDescription": "How a change is classified and notified: the routine, adaptive, transformative and certification-class flow and its notification timelines",
               "repositoryType": [
                 "Assessment Documentation"
               ],
               "url": "https://enablement.cc/ml/20x/doc/scn-process"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
-              "repositoryDescription": "KSI Validation Design & Measurement System — end-to-end trace of every automated validation method (scope, source, code/thresholds, failure semantics, preservation) per the 20x assessor guidance",
+              "repositoryDescription": "End-to-end trace of every automated validation method: scope, source, code and thresholds, failure semantics and preservation, per the 20x assessor guidance",
               "repositoryType": [
                 "Assessment Documentation"
               ],
               "url": "https://enablement.cc/ml/20x/doc/validation-design"
             },
             {
-              "accessRequestInstructions": "Request tenant-scoped API access from rajesh@adventbusiness.com.",
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
               "repositoryDescription": "Assessment document index + supporting evidence records (SSP appendices, signed records, boundary diagrams)",
               "repositoryType": [
@@ -794,8 +1108,44 @@
                 "Evidence Repository"
               ],
               "url": "https://enablement.cc/ml/20x/docs"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Trust-center access-log summary + retention statement (CDS-TRC-ACL) — monthly access counts by endpoint and outcome, so an assessor can verify access logging without a database account",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/access-log-summary"
+            },
+            {
+              "authenticationRequired": false,
+              "repositoryDescription": "Availability report (CDS-CSO-AVR): current state and 30-day historical availability of core services with availability incidents, machine-readable. Public, no token required.",
+              "repositoryType": [
+                "Availability Reporting"
+              ],
+              "url": "https://enablement.cc/ml/20x/availability"
+            },
+            {
+              "authenticationRequired": false,
+              "repositoryDescription": "Availability status page (CDS-CSO-AVR), human-readable rendering of the same data. Public, no token required.",
+              "repositoryType": [
+                "Availability Reporting"
+              ],
+              "url": "https://enablement.cc/ml/20x/status"
             }
           ],
+          "availabilityReporting": {
+            "authenticationRequired": false,
+            "offCsoExternalObservationUrl": "https://trust.enablement.cc/mirror-availability.json",
+            "offCsoMirrorDescription": "The independent-hosting arm of CDS-CSO-AVR. The mirror's refresher is itself an external probe running in the AWS commercial partition: every 15 minutes it records whether this offering answered, and when it did not, it publishes that — with a first-failure time and a running duration — from infrastructure the outage does not touch. The mirrored copy of the availability report is last-known-good and stamped; the external observation is live.",
+            "offCsoMirrorUrl": "https://trust.enablement.cc/index.html",
+            "repositoryDescription": "Public availability status service (CDS-CSO-AVR): current state, 30-day history, and availability incidents. Machine-readable JSON at https://enablement.cc/ml/20x/availability. This endpoint is hosted on the infrastructure it measures and therefore cannot report an outage it is part of; the off-CSO mirror below can, and does.",
+            "repositoryType": [
+              "Availability Reporting"
+            ],
+            "url": "https://enablement.cc/ml/20x/status"
+          },
           "businessCategory": [
             "Cybersecurity & Risk Management",
             "Development Tools",
@@ -811,14 +1161,24 @@
           "deploymentModel": "Government Community Cloud",
           "digitalIdentityLevel": "IAL2/AAL2",
           "nextOngoingCertificationReportDate": "2026-10-01",
+          "secureConfigurationGuidance": {
+            "authenticationRequired": false,
+            "repositoryDescription": "Enablement® Secure Configuration Guide — recommended secure configuration, use instructions, and secure defaults for customer administrators.",
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://enablement.cc/ml/20x/scg"
+          },
           "secureConfigurationGuide": "https://enablement.cc/ml/20x/scg",
           "serviceType": [
             "SaaS",
             "PaaS"
           ],
           "trustCenter": {
-            "accessRequestInstructions": "Public page. Tokens for access-controlled artifacts: rajesh@adventbusiness.com",
+            "accessRequestInstructions": "Public page. Tokens for access-controlled artifacts: fedramp-security@adventbusiness.com",
             "authenticationRequired": false,
+            "offCsoMirrorDescription": "Point-in-time copy of the PUBLIC trust-center artifacts (this CPO, the trust page, the SCG, and both availability formats), refreshed every 15 minutes into the AWS commercial partition (account 971328156383, us-east-1) and served from S3 via CloudFront. It shares no partition, account, region, host, database, web server, TLS certificate or DNS zone with production, so it stays reachable during an outage of this offering. It is not authoritative: each artifact is stamped with mirroredAt in https://trust.enablement.cc/mirror-manifest.json, and the live endpoints take precedence whenever they answer. No token-gated certification data is mirrored.",
+            "offCsoMirrorUrl": "https://trust.enablement.cc",
             "repositoryDescription": "Enablement FedRAMP Trust Center: public offering summary and SCG; token-gated programmatic access to certification artifacts with per-access logging (CDS-TRC-USH/PAC/AAI).",
             "repositoryType": [
               "Trust Center"
@@ -826,18 +1186,85 @@
             "url": "https://enablement.cc/ml/20x/trust"
           }
         },
+        "servicesNotIncluded": [
+          {
+            "item": "Enablement® deployed outside Advent's GovCloud environment",
+            "reason": "This certification covers exactly one deployment: the Advent-operated multi-tenant instance in AWS GovCloud us-gov-east-1. The public description correctly says the software is portable to any cloud, to a customer data center, or to a self-contained appliance — none of those customer-operated deployments is inside this authorization boundary or covered by this certification.",
+            "reference": "MINIMUM_ASSESSMENT_SCOPE.md §2.1"
+          },
+          {
+            "item": "Non-production environments (test.enablement.cc)",
+            "reason": "Physically separate host holding synthetic data only; no federal customer data. Note the CI/CD pipeline that deploys to production runs on that host and IS in scope — the test application environment is not.",
+            "reference": "MINIMUM_ASSESSMENT_SCOPE.md §4 and §9.1 item 2"
+          },
+          {
+            "item": "Customer-controlled components",
+            "reason": "Customer premise equipment, customer browsers and devices, the customer's own SSO identity provider, and customer logging systems are outside the provider boundary. The interfaces to them are in scope; the systems themselves are not.",
+            "reference": "MINIMUM_ASSESSMENT_SCOPE.md §4"
+          },
+          {
+            "item": "Corporate workstations and code-analysis tooling",
+            "reason": "Developer workstations and source-code analysis tooling process no federal customer data and sit outside the boundary; the development team has no access to production inside the boundary.",
+            "reference": "MINIMUM_ASSESSMENT_SCOPE.md §4"
+          }
+        ],
         "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "compensatingControls": "US-persons environment. Root account MFA enabled and no IAM user carries console access, so the control plane is reachable only by key-based programmatic call, verified 2026-08-07.",
+              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+              "fedRampClass": "Class D (formerly High baseline)",
+              "marketplaceUrl": "https://www.fedramp.gov/marketplace/products/F1603047866/",
+              "mitigationMeasures": "Inherited controls documented in the SSP; platform firewall manager governs subnet ACLs; encryption at rest through KMS and in transit through TLS. All four EBS volumes verified encrypted on 2026-08-07.",
+              "name": "AWS GovCloud (US)",
+              "provider": "Amazon Web Services",
+              "reference": "MINIMUM_ASSESSMENT_SCOPE.md §5, §2.1",
+              "useCase": "Hosts the entire offering. EC2, S3, KMS, IAM, Config, Inspector, Security Hub, GuardDuty, CloudTrail, CloudWatch and networking in us-gov-east-1."
+            },
+            {
+              "compensatingControls": "No federal customer data and no file content leaves the boundary by this path. A one-time passcode is single-use and time-boxed, and is not sufficient to authenticate on its own.",
+              "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+              "fedRampClass": "Class C (formerly Moderate baseline)",
+              "marketplaceUrl": "https://www.fedramp.gov/marketplace/products/AGENCYAMAZONEW/",
+              "mitigationMeasures": "SMTP STARTTLS enforced. Message bodies are categorical only: an alert says that something happened, never what, and any detail requires the recipient to authenticate to the platform.",
+              "name": "Amazon SES (commercial, us-east-1)",
+              "provider": "Amazon Web Services",
+              "reference": "MINIMUM_ASSESSMENT_SCOPE.md §5, §9.2 svc-ses-email",
+              "useCase": "Outbound notification and one-time-passcode delivery. GovCloud cannot call the commercial SES API from inside the boundary, so delivery egresses to the AWS US East/West authorized environment."
+            }
+          ],
           "nonCertified": [
             {
-              "name": "Self-hosted open-source security tooling",
-              "provider": "Operated by Advent within the authorization boundary",
-              "useCase": "Network vulnerability, container/IaC, cloud-posture, and host configuration/CVE assessment, all executed inside the boundary; no data leaves the boundary and no external scanning or monitoring service is relied upon."
+              "compensatingControls": "A failover DNS flip is a documented manual recovery step rather than an automatic one, so a zone change is a deliberate operator action. Certificates are issued and renewed by Let's Encrypt through certbot on the host, so a DNS compromise alone does not yield a trusted certificate.",
+              "mitigationMeasures": "DNSSEC signing is enabled on the enablement.cc hosted zone (ServeSignature SIGNING, verified 2026-08-07), which supersedes the 'not enabled' entry at §9.2 svc-route53-dnssec. Zone changes are restricted to key-based programmatic access; the account has no console-enabled IAM user and root MFA is enabled.",
+              "name": "Amazon Route 53 (commercial account)",
+              "provider": "Amazon Web Services",
+              "reference": "MINIMUM_ASSESSMENT_SCOPE.md §5, §9.2 svc-route53-dnssec",
+              "useCase": "Authoritative DNS for enablement.cc. Route 53 is not available in GovCloud, so the zone is hosted in the commercial account. DNS carries no customer data."
+            },
+            {
+              "compensatingControls": "Feeds carry detection content, never customer data. A poisoned feed degrades detection rather than granting access, and feed staleness is itself monitored.",
+              "mitigationMeasures": "Pull-only over HTTPS 443. Nothing is pushed outward and no feed provider is granted inbound access. Content is digitally signed and validated before install.",
+              "name": "Vendor definition and threat-intelligence feeds",
+              "provider": "Greenbone Community Feed, ClamAV signature mirrors, Trivy vulnerability database, CISA Known Exploited Vulnerabilities catalog",
+              "reference": "MINIMUM_ASSESSMENT_SCOPE.md §5",
+              "useCase": "Scanner, anti-virus and vulnerability-prioritization content updates. Required for detection efficacy; without them the continuous-monitoring capability degrades silently."
             }
-          ]
+          ],
+          "schemaNote": "certified[] carries the schema-required fedRampCertifiedThirdPartyInformationResource (the FedRAMP ID) and useCase. mitigationMeasures, compensatingControls, name, provider, fedRampClass, marketplaceUrl and reference are additional properties. MAS-CSO-TPR requires the mitigation and compensating-control attributes, and the pinned FedRAMP CPO schema (fedramp-certification-package-overview-schema-2026-06-24.json) defines no field for either; when it does, these move into it. This is the same pattern used for securityCategory under certifiedServicesNote.",
+          "sourceOfRecord": "MINIMUM_ASSESSMENT_SCOPE.md §5, reconciled against §9.2. Edit that table, not this structure."
+        },
+        "trustCenterAccessLogging": {
+          "logged": "Every access to every /20x/* endpoint, public and token-gated alike, is recorded with endpoint, outcome, client IP, and timestamp.",
+          "retentionEnforcement": "Stated policy, not yet machine-enforced at write time. No purge job, TTL, scheduled event, or partition-drop targets BPM_RUN.TRUST_CENTER_ACCESS_LOG, so records currently accumulate indefinitely — retention is achieved by the absence of deletion rather than by an enforced retention job. The table was created on 2026-07-11, so a full 6-month retention period has not yet elapsed and cannot yet be demonstrated by observation. What IS enforced is DETECTION: every /20x/access-log-summary response recomputes a retentionIntegrity verdict that compares the oldest surviving record against the code-pinned table-creation watermark and against the six-month floor, and reports BREACH if a record that must still exist has gone. See retentionIntegrity and the retentionDemonstrated flag in /20x/access-log-summary for the live answer rather than trusting this sentence.",
+          "retentionMonths": 24,
+          "retentionPolicy": "Advent retains trust-center access summaries for at least 24 months from the date of access, which exceeds the 6-month CDS-TRC-ACL floor. Records are never purged earlier for convenience, capacity, or at a consumer's request.",
+          "rule": "CDS-TRC-ACL",
+          "summaryUri": "https://enablement.cc/ml/20x/access-log-summary"
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:01Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:19Z"
       },
       {
         "serviceIdentification": {
@@ -895,7 +1322,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:03Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:21Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -990,7 +1417,7 @@
         },
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:03Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:21Z"
       },
       {
         "serviceIdentification": {
@@ -1084,7 +1511,7 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:03Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:22Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1186,7 +1613,7 @@
         ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-05T23:46:04Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:22Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1357,7 +1784,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:05Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:22Z"
       },
       {
         "serviceIdentification": {
@@ -1421,7 +1848,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:05Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:22Z"
       },
       {
         "serviceIdentification": {
@@ -1480,7 +1907,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:06Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:24Z"
       },
       {
         "assessor": {
@@ -1533,7 +1960,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:07Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:24Z"
       },
       {
         "serviceIdentification": {
@@ -1617,7 +2044,95 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:08Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:24Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "FR2630354487",
+          "ueiNumber": "FLDZQLWX4L33",
+          "providerName": "Globality Inc",
+          "serviceName": "Globality Platform",
+          "serviceAcronym": "GLO",
+          "serviceDescription": "Globality's core application, the Globality Platform, is a software as a service ('SaaS') application that is accessible to end users through their web browser. The application can intelligently guide users in creating project briefs ('RFPs / Request for Proposals') or proposals, by leveraging AI and ML to suggest answers, automatically scope projects, analyze user input, and match clients with suitable providers and support the approval process. The Globality Platform enables processing of the following tasks related to the procurement process:\n - Capturing data from clients and providers to automatically build out comprehensive project briefs and proposals\n - Intelligently analyzing user input to identify key components and match clients with providers\n - Providing secure communication channels between clients and matched providers, as well as with Globality support personnel\n - Providing learning systems to help users become self-sufficient on the platform\n - Enabling clients to rate providers using common criteria\n - Authenticating and authorizing users to ensure access is strictly controlled\n - Supporting configurable workflows to streamline procurement processes and make it specific to each client use case\n - Providing approval flows to users, include ways to require nondisclosure agreements ('NDAs') prior to submissions\n - Providing data reporting to end users through a variety of formats\n - Integrating with external systems, including SAP and Oracle\n Projects are tracked throughout the procurement cycle, from initial brief creation to the final awarding of a provider proposal. Access is managed through the web browser, and all user data is encrypted at rest, in transit, and fully protected throughout its data lifecycle.",
+          "certificationType": "20x",
+          "website": "https://www.globality.com",
+          "logo": "https://www.globality.com/wp-content/uploads/2026/07/Globality-Logo.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "nextOngoingCertificationReportDate": "2026-10-31",
+          "businessCategory": [
+            "Artificial Intelligence (AI)",
+            "Finance"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://www.globality.com/security-trust/",
+            "repositoryDescription": "Globality's Trust Center publishes the current certification status, continuous reporting artifacts, SOC 2 Type 2 and ISO/IEC 27001:2022 certificates, sub-processor listing, the shared responsibility model, security policies and procedures",
+            "authenticationRequired": false,
+            "accessRequestInstructions": "Public summary content is available without authentication. 1. Controlled artifacts (assessment reports, secured configuration guidance, penetration test reports and policy documents) can be requested by emailing infosec@globality.com.\n2. Provide requester name, agency or organization, government email address, and the specific artifacts required.\n3. Federal agency personnel and FedRAMP reviewers are granted access without a non-disclosure agreement. All other requesters must execute Globality's standard mutual NDA.\n4. Artifacts are provided within 2 business days"
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Sub processors"
+              ],
+              "url": "https://www.globality.com/globality-subprocessors/",
+              "repositoryDescription": "This page provides information about the identity, location, and description of each subprocessor used by Globality",
+              "authenticationRequired": false
+            },
+            {
+              "repositoryType": [
+                "Assessment Reports"
+              ],
+              "url": "https://www.globality.com/security-trust/",
+              "repositoryDescription": "AICPA SOC 2 Type II report (examined under AT-C 105 and AT-C 205) issued by A-LIGN ASSURANCE on October 5, 2025, covering the Security, Availability, and Confidentiality Trust Services Categories for the period October 1, 2024 to September 30, 2025. The report scope is Globality's Smart Sourcing Platform Services System (Palo Alto, CA facility); AWS is disclosed as a subservice organization for cloud hosting under the carve-out method and is excluded from the tested boundary. The next SOC 2 Type II audit is scheduled for September 2026, with the report expected by approximately October 2026.",
+              "authenticationRequired": false,
+              "accessRequestInstructions": "Request the full report by emailing infosec@globality.com with requester name, agency or organization, and government email address. Federal agency personnel and FedRAMP reviewers are granted access without a non-disclosure agreement."
+            }
+          ]
+        },
+        "contactInformation": [
+          {
+            "contactType": "Primary",
+            "contactName": "Globality FedRAMP Program Office",
+            "contactEmail": "fedramp@globality.com"
+          },
+          {
+            "contactType": "Security",
+            "contactName": "Globality Information Security Team",
+            "contactEmail": "infosec@globality.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Globality Public Sector Sales",
+            "contactEmail": "publicsector@globality.com"
+          },
+          {
+            "contactType": "Support",
+            "contactName": "Globality Customer Support",
+            "contactEmail": "support@globality.com"
+          }
+        ],
+        "assessor": {
+          "name": "No FedRAMP-recognized assessor engaged for this Class A package (self-attestation route); a FedRAMP-recognized independent assessment is planned for the Class C track. The underlying alternative-framework assessment supporting this Class A application is the SOC 2 Type II examination performed by A-LIGN ASSURANCE for the period October 1, 2024 to September 30, 2025.",
+          "assessorID": "000000"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Globality Platform",
+            "serviceDescription": "SaaS application that guides users through AI-assisted creation of project briefs and proposals, matches clients with qualified providers, and manages the procurement process from brief creation through award.",
+            "dateAvailable": "2024-10-01"
+          }
+        ],
+        "ZD_frid_retro": "FR2630354487",
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-08-11T16:17:24Z"
       },
       {
         "serviceIdentification": {
@@ -1707,7 +2222,7 @@
         },
         "ZD_frid_retro": "FR2630354491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:09Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:26Z"
       },
       {
         "serviceIdentification": {
@@ -1746,7 +2261,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:10Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:27Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1906,7 +2421,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:11Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:27Z"
       },
       {
         "serviceIdentification": {
@@ -1970,7 +2485,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:11Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:27Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2119,7 +2634,7 @@
         },
         "ZD_frid_retro": "FR2630447318",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-05T23:46:13Z"
+        "last_fetched_timestamp": "2026-08-11T16:17:29Z"
       }
     ]
   }
