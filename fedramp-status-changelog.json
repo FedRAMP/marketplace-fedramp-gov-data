@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-11T20:23:32.838Z",
-    "total_entries": 2047,
+    "export_timestamp": "2026-08-12T17:06:42.736Z",
+    "total_entries": 2049,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -30709,6 +30709,36 @@
         "transition_date": "2026-08-11T20:18:07Z",
         "recorded_date": "2026-08-11T20:23:05.201Z",
         "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "6109fe3a",
+        "product_id": "FR2525662082",
+        "csp": "Nexthink",
+        "cso": "Infinity for Government (NXT-G)",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "Agency In Process",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-08-12T04:00:00.000Z",
+        "recorded_date": "2026-08-12T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "d21353b8",
+        "product_id": "FR2424553196",
+        "csp": "BLINK CHARGING",
+        "cso": "BLINK GOV",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class B",
+        "from_status": "Authorized",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2026-08-12T04:00:00.000Z",
+        "recorded_date": "2026-08-12T04:00:00.000Z",
+        "source": "AppSheet",
         "comments": ""
       }
     ]

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-11T20:23:32.837Z",
-    "total_entries": 26,
+    "export_timestamp": "2026-08-12T17:06:42.735Z",
+    "total_entries": 25,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -61,48 +61,106 @@
           "nextQuarterlyReview": {
             "date": "2026-10-13",
             "startTime": "14:00:00-04:00",
-            "registrationUrl": "mailto:patrick@tarly.co?subject=Tarly%20Cowork%20Q4%202026%20FedRAMP%20Quarterly%20Review%20registration",
+            "registrationUrl": "mailto:security@tarly.co?subject=Tarly%20Cowork%20Q4%202026%20FedRAMP%20Quarterly%20Review%20registration",
             "calendarUrl": "https://gov.tarly.co/trust/quarterly-review-2026-q4.ics"
           },
-          "ongoingCertificationReportFeedbackUrl": "mailto:patrick@tarly.co?subject=Tarly%20Cowork%20Ongoing%20Certification%20Report%20feedback"
+          "ongoingCertificationReportFeedbackUrl": "mailto:security@tarly.co?subject=Tarly%20Cowork%20Ongoing%20Certification%20Report%20feedback"
         },
         "certifiedServices": [
           {
-            "serviceName": "Tarly Cowork AI Procurement Assistant",
-            "serviceDescription": "Conversational, citation-grounded assistance for federal acquisition research, FAR and agency-supplement analysis, and procurement document development. Included in the planned FedRAMP Minimum Assessment Scope.",
+            "serviceName": "Conversations",
+            "serviceDescription": "The Tarly Cowork AI procurement assistant. Users work in threaded conversations in which the assistant performs citation-grounded acquisition research, FAR and agency-supplement analysis, and document drafting. Retrieval covers uploaded evidence, connected sources, authoritative federal data (SAM.gov, USAspending, the FAR and agency supplements), and read-only fetches of public web pages identified by the user or the assistant. Individual conversations may be shared outside their procurement file through explicit, revocable share links (available 2026-03-19). Included in the planned FedRAMP Minimum Assessment Scope.",
             "dateAvailable": "2026-03-13",
             "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
             "includedInMinimumAssessmentScope": true
           },
           {
-            "serviceName": "Tarly Cowork Procurement File Workspace",
-            "serviceDescription": "Role-based procurement files containing conversations, evidence, artifacts, file metadata, review status, membership, and audit history. Included in the planned FedRAMP Minimum Assessment Scope.",
+            "serviceName": "Procurement Files",
+            "serviceDescription": "The system of record for an acquisition. Each procurement file holds its overview and contract data, conversations, artifacts, sources and evidence, reviews, membership and access, and an append-only audit log. Membership and privileges are role-based and enforced per file. Included in the planned FedRAMP Minimum Assessment Scope.",
             "dateAvailable": "2026-03-13",
             "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
             "includedInMinimumAssessmentScope": true
           },
           {
-            "serviceName": "Tarly Cowork Evidence and Federal Data Research",
-            "serviceDescription": "Evidence upload, extraction, citation, and read-only research against authoritative federal sources including SAM.gov, USAspending, the FAR, and agency supplements. Included in the planned FedRAMP Minimum Assessment Scope.",
+            "serviceName": "Workflows",
+            "serviceDescription": "Guided, multi-step acquisition workflows that produce procurement artifacts — market research, independent government cost estimates, solicitations, and evaluation materials — with versioning, validation against the applicable regulation, and export to Word and PDF. Included in the planned FedRAMP Minimum Assessment Scope.",
             "dateAvailable": "2026-03-13",
             "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
             "includedInMinimumAssessmentScope": true
           },
           {
-            "serviceName": "Tarly Cowork Acquisition Workflows and Document Exports",
-            "serviceDescription": "Guided acquisition workflows and generation, versioning, validation, and export of procurement artifacts. Included in the planned FedRAMP Minimum Assessment Scope.",
+            "serviceName": "Resources",
+            "serviceDescription": "The customer-managed reference library, together with the indexed corpus of the FAR, agency supplements, and document templates the assistant retrieves and cites from. Customer-uploaded resource documents are stored inside the authorization boundary. Included in the planned FedRAMP Minimum Assessment Scope.",
             "dateAvailable": "2026-03-13",
             "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
             "includedInMinimumAssessmentScope": true
           },
           {
-            "serviceName": "Tarly Cowork Collaboration and Controlled Sharing",
-            "serviceDescription": "Role-based collaboration within procurement files and intentional link-based sharing of selected conversations and their associated artifacts and evidence. Included in the planned FedRAMP Minimum Assessment Scope.",
-            "dateAvailable": "2026-03-19",
+            "serviceName": "Workspace",
+            "serviceDescription": "The isolated execution environment in which the assistant reads and writes working files and runs analysis over evidence the customer has supplied. Each workspace is scoped to a single procurement file or conversation, runs in a dedicated sandbox container with no direct database access, and mounts only its own storage share. Included in the planned FedRAMP Minimum Assessment Scope.",
+            "dateAvailable": "2026-05-12",
+            "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
+            "includedInMinimumAssessmentScope": true
+          },
+          {
+            "serviceName": "Approval Paths",
+            "serviceDescription": "Administrator-defined review and approval routing for procurement files and the artifacts produced within them, with per-step assignment, approval state, and audit history. Included in the planned FedRAMP Minimum Assessment Scope.",
+            "dateAvailable": "2026-07-29",
             "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
             "includedInMinimumAssessmentScope": true
           }
         ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1603047324",
+              "useCase": "Microsoft Azure Commercial (FedRAMP High, Authorized) is the sole hosting platform for the Tarly Cowork authorization boundary, which runs entirely in the tarly-prod subscription in Azure Central US. Azure services used: Container Apps (frontend, backend API, and workspace sandbox), PostgreSQL Flexible Server (primary data store), Storage Account blobs and file shares (evidence, artifacts, uploads, workspace mounts), Key Vault (secrets and the evidence-signing key), Service Bus (asynchronous jobs), Container Registry (image supply chain), Front Door Premium with managed WAF (sole public ingress, delivered over Private Link), Azure DNS, Entra ID (identity and federated sign-in), Log Analytics and Azure Monitor (audit and diagnostic logging), Microsoft Defender for Cloud (posture and vulnerability findings), Azure AI Foundry model deployments (LLM inference), Azure AI Search (retrieval over the regulation and resource corpus), Azure AI Document Intelligence (document extraction), and Azure Communication Services Email (transactional notifications). Physical, hypervisor, storage-media, and platform-cryptography controls are inherited from this package; the inheritance map is maintained in the certification package."
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "SAM.gov Data Services API",
+              "provider": "U.S. General Services Administration",
+              "website": "https://open.gsa.gov/api/",
+              "useCase": "Read-only retrieval of entity registration data, contract opportunities, and opportunity attachments so the assistant can cite authoritative source records. Requests carry search parameters and public identifiers only; no federal customer content is transmitted."
+            },
+            {
+              "name": "USAspending.gov API",
+              "provider": "U.S. Department of the Treasury",
+              "website": "https://api.usaspending.gov/",
+              "useCase": "Read-only retrieval of federal award and spending records used for market research and pricing comparisons. Requests carry query parameters and public identifiers only; no federal customer content is transmitted."
+            },
+            {
+              "name": "GSA acquisition APIs (Federal Acquisition Service, FPDS)",
+              "provider": "U.S. General Services Administration",
+              "website": "https://open.gsa.gov/api/",
+              "useCase": "Read-only retrieval of schedule, catalog, and federal procurement data system records supporting market research. Requests carry query parameters and public identifiers only; no federal customer content is transmitted."
+            },
+            {
+              "name": "eCFR and Acquisition.gov regulation sources",
+              "provider": "U.S. Government Publishing Office and U.S. General Services Administration",
+              "website": "https://www.ecfr.gov/",
+              "useCase": "Read-only ingestion of the FAR and agency supplements into the in-boundary regulation corpus that the assistant retrieves and cites from. Ingestion is one-way and carries no federal customer content."
+            },
+            {
+              "name": "Brave Search API",
+              "provider": "Brave Software, Inc.",
+              "website": "https://brave.com/search/api/",
+              "useCase": "Discovery-only web search. The assistant sends a short search query string derived from the user's request and receives result titles, URLs, and snippets; results are never cited directly, and any source relied upon is subsequently fetched and captured as evidence inside the boundary. Procurement file contents, uploaded evidence, and generated artifacts are not transmitted to this provider."
+            },
+            {
+              "name": "Public web content retrieval",
+              "provider": "Various public website operators",
+              "useCase": "Read-only, outbound HTTPS retrieval of specific public web pages identified by the user or by search results, so that cited material can be captured and stored as evidence inside the boundary. Retrieval is one-way; the request URL is the only information disclosed to the destination site."
+            },
+            {
+              "name": "Customer Microsoft 365 / SharePoint Online tenant",
+              "provider": "Microsoft Corporation (operated by the agency customer)",
+              "website": "https://www.microsoft.com/microsoft-365",
+              "useCase": "Optional, customer-enabled integration that lets users search their own SharePoint site and import selected documents into a Tarly Cowork procurement file as evidence. The tenant is the customer's own information resource under the customer's own authorization; Tarly does not operate it, and the integration is inert unless the customer configures it. Access uses a registered application in the customer's tenant, and the data flow is inbound only."
+            }
+          ]
+        },
         "documentationOverview": [
           {
             "name": "Certification Package Overview",
@@ -193,13 +251,13 @@
           {
             "contactType": "Security",
             "contactName": "Patrick Phillips",
-            "contactEmail": "patrick@tarly.co",
+            "contactEmail": "security@tarly.co",
             "contactPhone": "585-474-2276"
           }
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-11T20:23:12Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:25Z"
       },
       {
         "assessor": {
@@ -282,12 +340,12 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:16Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:29Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "serviceIdentification": {
-          "fedRampPackageId": "Eleven Labs Inc. (ElevenLabs)",
+          "fedRampPackageId": "FR2628647238",
           "ueiNumber": "SGN5YJ1W8418",
           "providerName": "Eleven Labs Inc.",
           "serviceName": "ElevenLabs Platform",
@@ -344,16 +402,19 @@
         "certifiedServices": [
           {
             "serviceName": "Text to Speech",
+            "securityCategory": "Low",
             "serviceDescription": "AI speech synthesis via the ElevenLabs API, converting text to natural-sounding audio across 32–70+ languages depending on model, with Python and TypeScript SDKs. Included in the FedRAMP Class A certification scope only when operated in Zero Retention Mode (ZRM): customer inputs and outputs are processed but not retained.",
             "dateAvailable": "2026-08-03"
           },
           {
             "serviceName": "Speech to Text",
+            "securityCategory": "Low",
             "serviceDescription": "AI transcription via the ElevenLabs API, with word-level timestamps, speaker diarization, and entity detection across 90+ languages. Included in the FedRAMP Class A certification scope only when operated in Zero Retention Mode (ZRM): customer inputs and outputs are processed but not retained.",
             "dateAvailable": "2026-08-03"
           },
           {
             "serviceName": "Agents",
+            "securityCategory": "Low",
             "serviceDescription": "ElevenAgents: a platform for designing, deploying, and operating real-time conversational voice agents, accessible through the elevenlabs.io dashboard and programmatically via the ElevenLabs API, conducting low-latency bidirectional voice conversations over WebRTC or telephony channels. Included in the FedRAMP Class A certification scope only when operated in Zero Retention Mode (ZRM); optional customer-enabled external integrations (third-party LLM providers, telephony) are outside the certified configuration and disabled by default for federal use.",
             "dateAvailable": "2026-08-03"
           }
@@ -384,9 +445,10 @@
             }
           ]
         },
+        "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:16Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-08-12T17:06:30Z"
       },
       {
         "serviceIdentification": {
@@ -452,7 +514,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-11T20:23:18Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:31Z"
       },
       {
         "serviceIdentification": {
@@ -584,7 +646,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-11T20:23:17Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:31Z"
       },
       {
         "assessor": {
@@ -1264,7 +1326,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:18Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:31Z"
       },
       {
         "serviceIdentification": {
@@ -1322,7 +1384,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:19Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:32Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1417,7 +1479,7 @@
         },
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:19Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:32Z"
       },
       {
         "serviceIdentification": {
@@ -1511,11 +1573,13 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:20Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:33Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "$schemaVersion": "0.1.2",
+        "lastUpdated": "2026-08-12T17:06:33.848078+00:00",
+        "sourceOfUpdate": "FedRAMP 2026 hub",
         "serviceIdentification": {
           "fedRampPackageId": "FR2628943633",
           "providerName": "Boundera",
@@ -1564,56 +1628,9 @@
             "contactEmail": "sales@boundera.io"
           }
         ],
-        "certifiedServices": [
-          {
-            "serviceName": "AWS Certificate Manager",
-            "serviceDescription": "Certificate provisioning, management, and renewal.",
-            "dateAvailable": "2026-07-24"
-          },
-          {
-            "serviceName": "AWS Key Management Service",
-            "serviceDescription": "Managed encryption key creation and control.",
-            "dateAvailable": "2026-07-24"
-          },
-          {
-            "serviceName": "AWS Secrets Manager",
-            "serviceDescription": "Secrets storage and rotation.",
-            "dateAvailable": "2026-07-24"
-          },
-          {
-            "serviceName": "Amazon EC2",
-            "serviceDescription": "Resizable virtual compute instances.",
-            "dateAvailable": "2026-07-24"
-          },
-          {
-            "serviceName": "Amazon RDS",
-            "serviceDescription": "Managed relational database service.",
-            "dateAvailable": "2026-07-24"
-          },
-          {
-            "serviceName": "Amazon Route 53",
-            "serviceDescription": "Scalable DNS and domain routing.",
-            "dateAvailable": "2026-07-24"
-          },
-          {
-            "serviceName": "Amazon S3",
-            "serviceDescription": "Object storage for files and backups.",
-            "dateAvailable": "2026-07-24"
-          },
-          {
-            "serviceName": "Elastic Load Balancing",
-            "serviceDescription": "Application and network traffic load balancing.",
-            "dateAvailable": "2026-07-24"
-          },
-          {
-            "serviceName": "GitHub",
-            "serviceDescription": "Source code hosting and version control.",
-            "dateAvailable": "2026-07-24"
-          }
-        ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-11T20:23:20Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:33Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1784,7 +1801,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:21Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:34Z"
       },
       {
         "serviceIdentification": {
@@ -1848,7 +1865,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:21Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:34Z"
       },
       {
         "serviceIdentification": {
@@ -1907,7 +1924,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:23Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:35Z"
       },
       {
         "assessor": {
@@ -1960,7 +1977,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:24Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:35Z"
       },
       {
         "serviceIdentification": {
@@ -2044,7 +2061,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:24Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:36Z"
       },
       {
         "serviceIdentification": {
@@ -2132,7 +2149,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-11T20:23:25Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:36Z"
       },
       {
         "serviceIdentification": {
@@ -2171,7 +2188,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:27Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:38Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2331,7 +2348,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:27Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:38Z"
       },
       {
         "serviceIdentification": {
@@ -2395,7 +2412,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:28Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:39Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2544,7 +2561,7 @@
         },
         "ZD_frid_retro": "FR2630447318",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:29Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:41Z"
       },
       {
         "serviceIdentification": {
@@ -2620,7 +2637,7 @@
         ],
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:30Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:41Z"
       },
       {
         "assessor": {
@@ -3300,7 +3317,7 @@
         },
         "ZD_frid_retro": "FR2631054536",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:29Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:40Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3452,7 +3469,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:31Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:41Z"
       },
       {
         "publicDisclosure": {
@@ -3721,7 +3738,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:31Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:42Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3889,68 +3906,7 @@
         ],
         "ZD_frid_retro": "FR2631054484",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:31Z"
-      },
-      {
-        "serviceIdentification": {
-          "fedRampPackageId": "Nastro Technologies, Inc. - BitRip",
-          "ueiNumber": "KSD5TAKH1GA3",
-          "providerName": "Nastro Technologies, Inc.",
-          "serviceName": "BitRip",
-          "serviceAcronym": "BitRip",
-          "serviceDescription": "BitRip is a cloud-based asset tracking and inventory management platform that uses smart labels to bridge cloud-based data with physical assets in the field. These smart labels provide instant access to critical asset data while remaining dynamic and rugged, and they drive decision-making through enhanced, learning-based analytics. BitRip supports the Defense Logistics Agency's logistics operations under Phase 2 of R&D BAA0001-23.",
-          "certificationType": "20x",
-          "website": "https://www.bitrip.com",
-          "logo": "https://bitrip.com/fedramp/logo.png"
-        },
-        "serviceProperties": {
-          "serviceType": [
-            "SaaS"
-          ],
-          "deploymentModel": "Public Cloud",
-          "businessCategory": [
-            "Analytics",
-            "Collaboration",
-            "Communication",
-            "Construction",
-            "Data Management",
-            "Fleet Management",
-            "Operations Management"
-          ],
-          "trustCenter": {
-            "repositoryType": [
-              "Trust Center"
-            ],
-            "url": "https://www.bitrip.com/trust/",
-            "repositoryDescription": "BitRip's public Trust & Compliance page, including FedRAMP 20x certification status and security contact information.",
-            "authenticationRequired": false
-          }
-        },
-        "contactInformation": [
-          {
-            "contactType": "Security",
-            "contactName": "Heath Williams",
-            "contactEmail": "heath@bitrip.com",
-            "contactPhone": "248-921-3700"
-          },
-          {
-            "contactType": "Sales",
-            "contactName": "Nicholas Dimitruk",
-            "contactEmail": "nick@bitrip.com",
-            "contactPhone": "361-296-5606"
-          }
-        ],
-        "thirdPartyInformationResources": {
-          "certified": [
-            {
-              "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
-              "useCase": "Underlying Infrastructure-as-a-Service (IaaS) provider. BitRip is hosted on Google Cloud Platform."
-            }
-          ]
-        },
-        "ZD_frid_retro": "FR2631054487",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-11T20:23:32Z"
+        "last_fetched_timestamp": "2026-08-12T17:06:42Z"
       }
     ]
   }
