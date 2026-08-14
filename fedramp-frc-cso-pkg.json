@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-13T21:03:03.001Z",
+    "export_timestamp": "2026-08-14T20:56:26.562Z",
     "total_entries": 34,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
@@ -257,7 +257,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-13T21:02:40Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:05Z"
       },
       {
         "assessor": {
@@ -340,7 +340,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:43Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:08Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -448,7 +448,7 @@
         "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-13T21:02:44Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:09Z"
       },
       {
         "serviceIdentification": {
@@ -514,7 +514,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-13T21:02:46Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:11Z"
       },
       {
         "serviceIdentification": {
@@ -646,7 +646,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-13T21:02:45Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:10Z"
       },
       {
         "assessor": {
@@ -1326,7 +1326,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:46Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:10Z"
       },
       {
         "serviceIdentification": {
@@ -1384,7 +1384,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:47Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:11Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1479,7 +1479,7 @@
         },
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:47Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:12Z"
       },
       {
         "serviceIdentification": {
@@ -1573,19 +1573,19 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:48Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:12Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "$schemaVersion": "0.1.2",
-        "lastUpdated": "2026-08-13T21:02:49.052858+00:00",
+        "lastUpdated": "2026-08-14T20:56:12.999265+00:00",
         "sourceOfUpdate": "FedRAMP 2026 hub",
         "serviceIdentification": {
           "fedRampPackageId": "FR2628943633",
           "providerName": "Boundera",
           "serviceName": "Boundera SaaS",
           "serviceAcronym": "B",
-          "serviceDescription": "Boundera is a platform for automating FedRAMP 20x compliance through continuous validation, evidence collection, and AI-assisted remediation. Boundera is available as a SaaS service or as a self-deployed installation that runs entirely within a customer's cloud environment. Boundera uses the same production platform internally while pursuing FedRAMP 20x Class B certification.",
+          "serviceDescription": "Boundera automates FedRAMP 20x compliance from continuous evidence collection to certification package. The platform connects to a provider's cloud accounts and code repositories, collects evidence on an automatic schedule, and persistently validates every Key Security Indicator against the FedRAMP 2026 Consolidated Rules. Every result carries evidence lineage, and every run records score history, so providers can show a trend over time instead of a point-in-time snapshot.\n\nVulnerability Detection and Response (VDR) is built in. Scanner findings and failed KSI assertions become tracked vulnerability records with due dates, dispositions, and remediation clocks aligned to FedRAMP timelines. For technical findings, Boundera's AI agent drafts code and infrastructure fixes as pull requests that engineers review before anything merges.\n\nProviders publish current posture through a branded Trust Center and grant assessors controlled access to KSIs, rules, evidence, vulnerabilities, SDR and other packages. Exports validate against the official FedRAMP 2026 JSON schemas.\n\nBoundera is available as a SaaS service or as a self-deployed installation that runs entirely within a customer's cloud environment. Boundera uses the same production platform internally to pursue its own FedRAMP 20x Class C certification.",
           "certificationType": "20x",
           "website": "https://boundera.io",
           "logo": "https://boundera.io/logo-icon-navy.svg",
@@ -1626,11 +1626,29 @@
             "contactType": "Sales",
             "contactName": "Arian Taj",
             "contactEmail": "sales@boundera.io"
+          },
+          {
+            "contactType": "Responsible Official",
+            "contactName": "Edmund C Agu",
+            "contactEmail": "eddy@boundera.io",
+            "contactTitle": "Co-Founder"
+          }
+        ],
+        "certifiedServices": [
+          {
+            "serviceName": "Evidence Workspace",
+            "serviceDescription": "",
+            "dateAvailable": "2026-08-14"
+          },
+          {
+            "serviceName": "Authorization OS",
+            "serviceDescription": "",
+            "dateAvailable": "2026-08-14"
           }
         ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-13T21:02:49Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:13Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1801,7 +1819,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:49Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:13Z"
       },
       {
         "serviceIdentification": {
@@ -1865,7 +1883,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:49Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:13Z"
       },
       {
         "serviceIdentification": {
@@ -1924,7 +1942,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:51Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:15Z"
       },
       {
         "assessor": {
@@ -1977,7 +1995,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:51Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:15Z"
       },
       {
         "serviceIdentification": {
@@ -2061,7 +2079,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:52Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:16Z"
       },
       {
         "serviceIdentification": {
@@ -2149,7 +2167,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-13T21:02:52Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:16Z"
       },
       {
         "serviceIdentification": {
@@ -2188,7 +2206,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:54Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:19Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2348,7 +2366,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:53Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:18Z"
       },
       {
         "serviceIdentification": {
@@ -2412,7 +2430,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:54Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:19Z"
       },
       {
         "serviceIdentification": {
@@ -2488,7 +2506,7 @@
         ],
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:56Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:20Z"
       },
       {
         "assessor": {
@@ -3168,7 +3186,7 @@
         },
         "ZD_frid_retro": "FR2631054536",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:55Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:20Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3320,7 +3338,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-13T21:02:56Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:21Z"
       },
       {
         "publicDisclosure": {
@@ -3589,7 +3607,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:57Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:21Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3757,7 +3775,7 @@
         ],
         "ZD_frid_retro": "FR2631054484",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:57Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:21Z"
       },
       {
         "serviceIdentification": {
@@ -3847,7 +3865,7 @@
         },
         "ZD_frid_retro": "FR2631154497",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:58Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:22Z"
       },
       {
         "serviceIdentification": {
@@ -3915,7 +3933,7 @@
         ],
         "ZD_frid_retro": "FR2631154499",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-13T21:02:59Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:22Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4012,7 +4030,7 @@
         },
         "ZD_frid_retro": "FR2631258113",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:02:59Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:22Z"
       },
       {
         "serviceIdentification": {
@@ -4178,7 +4196,7 @@
         ],
         "ZD_frid_retro": "FR2631258117",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:03:00Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:24Z"
       },
       {
         "serviceIdentification": {
@@ -4300,7 +4318,7 @@
           "serviceAcronym": "Certivo",
           "serviceDescription": "Certivo is an AI-powered product and supply chain compliance platform for manufacturers and regulated industries. It replaces manual, spreadsheet-driven compliance work with a continuously maintained evidence base that links every supplier document to the parts, products, and requirements it supports.",
           "certificationType": "20x",
-          "fedRampPackageId": "Certivo",
+          "fedRampPackageId": "FR2631258125",
           "ueiNumber": "E457B1U8K8P5",
           "website": "https://www.certivo.com/",
           "logo": "https://framerusercontent.com/images/S9sGny65rueqYeyz6Z5NwHE26M.png?width=3840&height=696"
@@ -4350,8 +4368,8 @@
           }
         ],
         "ZD_frid_retro": "FR2631258125",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:03:01Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-08-14T20:56:24Z"
       },
       {
         "serviceIdentification": {
@@ -4360,7 +4378,7 @@
           "serviceAcronym": "NEXGEN AM",
           "serviceDescription": "NEXGEN Asset Management (NEXGEN AM) is a cloud-hosted Enterprise Asset Management (EAM) and Computerized Maintenance Management System (CMMS) delivered as Software as a Service (SaaS). It provides real-time inventory tracking, asset lifecycle management, predictive maintenance workflows, analytics and reporting, and secure mobile field access for technicians through integrated web and mobile interfaces. Federal agencies use NEXGEN AM to manage government-owned physical assets, facilities, vehicles, equipment, and critical infrastructure. Key capabilities support shifting from reactive to predictive maintenance, minimizing downtime, optimizing resource allocation and capital planning, reducing costs, and enabling data-driven decisions.",
           "certificationType": "20x",
-          "fedRampPackageId": "FR2613848166",
+          "fedRampPackageId": "FR2631258127",
           "website": "https://www.nexgenam.com",
           "logo": "https://www.nexgenam.com/wp-content/uploads/2021/05/NEXGEN_Brandmark_Horizontal_SteelGrey.svg"
         },
@@ -4384,9 +4402,9 @@
         "contactInformation": [
           {
             "contactType": "Security",
-            "contactName": "Joseph E. Klegseth",
-            "contactEmail": "jklegseth@nexgenam.com",
-            "contactPhone": "916-779-7313"
+            "contactName": "Gaja Naik",
+            "contactEmail": "gnaik@nexgenam.com",
+            "contactPhone": "916-779-7302"
           },
           {
             "contactType": "Sales",
@@ -4427,8 +4445,8 @@
           ]
         },
         "ZD_frid_retro": "FR2631258127",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:03:01Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-08-14T20:56:24Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4578,373 +4596,7 @@
         },
         "ZD_frid_retro": "FR2631258130",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:03:02Z"
-      },
-      {
-        "serviceIdentification": {
-          "fedRampPackageId": "FR#########",
-          "providerName": "Harness, Inc.",
-          "serviceName": "Harness for Government",
-          "serviceAcronym": "HARG",
-          "serviceDescription": "Harness.io Software-as-a-Service (SaaS) is a fully managed, cloud-native software delivery platform that provides continuous integration, continuous delivery, security testing, and related DevSecOps capabilities using a cloud computing environment. It enables its customers to focus on building and shipping software instead of managing the underlying infrastructure supporting their delivery pipelines. It is available to public, federal, state, local and tribal governments, as well as research institutions, federal contractors, and government contractors.\n\nThe Harness offering is comprised of two components — the SaaS Control Plane and the customer-deployed Harness Agents. The Control Plane is hosted in Amazon Web Services (AWS) GovCloud on Amazon Elastic Kubernetes Service, and is used by customers to configure, orchestrate, and monitor their pipelines and workloads. Customers deploy one or more Agents inside their own environment — such as their AWS GovCloud tenancy — to execute pipeline operations. The Agents initiate a single outbound HTTPS connection to the Harness Control Plane to receive task instructions; no inbound connection from the Control Plane into the customer's environment is required. All customer source code (unless using Harness Code), artifacts, and workload data remain within the customer's environment where the Agents operate, and no such customer data is transmitted to or retained in the Control Plane.",
-          "certificationType": "20x",
-          "website": "https://www.harness.io",
-          "logo": "https://cdn.prod.website-files.com/6222ca42ea87e1bd1aa1d10c/67c1e03a066112554425a47b_harness-logo%20white-p-500.png"
-        },
-        "serviceProperties": {
-          "serviceType": [
-            "SaaS"
-          ],
-          "deploymentModel": "Government Community Cloud",
-          "businessCategory": [
-            "Collaboration",
-            "Cybersecurity & Risk Management",
-            "Development Tools"
-          ],
-          "nextOngoingCertificationReportDate": "2026-09-01",
-          "trustCenter": {
-            "repositoryType": [
-              "Trust Center"
-            ],
-            "url": "https://trust.paramify.com/harness/harness-for-government",
-            "repositoryDescription": "Harness Federal Trust Center",
-            "authenticationRequired": true,
-            "accessRequestInstructions": "https://support.paramify.com/hc/en-us/articles/48690571994003-Trust-Center-Deliverables-in-Paramify-Cloud"
-          },
-          "secureConfigurationGuidance": {
-            "repositoryType": [
-              "Secure Configuration Guidance"
-            ],
-            "url": "https://developer.harness.io/",
-            "repositoryDescription": "Harness Platform",
-            "authenticationRequired": false
-          },
-          "additionalRepositories": [
-            {
-              "repositoryType": [
-                "Commercial Assessment Reports and Documents"
-              ],
-              "url": "http://trust.harness.io",
-              "repositoryDescription": "Commercial Trust Center",
-              "authenticationRequired": true,
-              "accessRequestInstructions": "https://help.drata.com/en/articles/16153632-safebase-trust-center-access-levels-training-video"
-            }
-          ]
-        },
-        "contactInformation": [
-          {
-            "contactType": "Security",
-            "contactName": "Kevin Moy",
-            "contactEmail": "security@harnessgov.com",
-            "contactPhone": "310-775-7247"
-          },
-          {
-            "contactType": "Sales",
-            "contactName": "David Clarke",
-            "contactEmail": "sales@harness.io"
-          },
-          {
-            "contactType": "Primary",
-            "contactName": "Kevin Moy",
-            "contactEmail": "kevin.moy@harness.io",
-            "contactPhone": "310-775-7247"
-          }
-        ],
-        "certifiedServices": [
-          {
-            "serviceName": "Harness for Government",
-            "serviceDescription": "Software Delivery Platform",
-            "dateAvailable": "2026-08-03",
-            "securityCategory_NEEDS_CONFIRMATION": "Class A"
-          },
-          {
-            "serviceName": "Harness CI (Continuous Integration)",
-            "serviceDescription": "Continuous Integration",
-            "dateAvailable": "2026-08-03",
-            "securityCategory_NEEDS_CONFIRMATION": "Class A"
-          },
-          {
-            "serviceName": "Harness CD (Continuous Delivery)",
-            "serviceDescription": "Continuous Delivery & GitOps",
-            "dateAvailable": "2026-08-03",
-            "securityCategory_NEEDS_CONFIRMATION": "Class A"
-          },
-          {
-            "serviceName": "Harness STO (Security Testing Orchestration)",
-            "serviceDescription": "Security Testing Orchestration",
-            "dateAvailable": "2026-08-03",
-            "securityCategory_NEEDS_CONFIRMATION": "Class A"
-          },
-          {
-            "serviceName": "Harness IaCM (Infrastructure as Code Management)",
-            "serviceDescription": "Infrastructure as Code Management",
-            "dateAvailable": "2026-08-03",
-            "securityCategory_NEEDS_CONFIRMATION": "Class A"
-          },
-          {
-            "serviceName": "Harness CODE (Code Repository)",
-            "serviceDescription": "Code Repository",
-            "dateAvailable": "2026-08-03",
-            "securityCategory_NEEDS_CONFIRMATION": "Class A"
-          },
-          {
-            "serviceName": "Harness SCS (Supply Chain Security)",
-            "serviceDescription": "Supply Chain Security",
-            "dateAvailable": "2026-08-03",
-            "securityCategory_NEEDS_CONFIRMATION": "Class A"
-          },
-          {
-            "serviceName": "Harness DB DevOps (DBD)",
-            "serviceDescription": "Database DevOps",
-            "dateAvailable": "2026-08-03",
-            "securityCategory_NEEDS_CONFIRMATION": "Class A"
-          },
-          {
-            "serviceName": "Harness Resilience Testing",
-            "serviceDescription": "Resilience Testing",
-            "dateAvailable": "2026-08-03",
-            "securityCategory_NEEDS_CONFIRMATION": "Class A"
-          }
-        ],
-        "informationResourcesFlowsAndSecurityCategories_UNCONFIRMED": [
-          {
-            "securityCategory": "Category 1: Primary Customer Data & Storage Tier",
-            "informationResourcesIncluded": [
-              "AWS - RDS/Aurora/PostgreSQL",
-              "AWS - S3",
-              "MongoDB"
-            ],
-            "handledDataTypes": "Federal Customer Data, Controlled Unclassified Information (CUI), PII, application backups, analytical event logs",
-            "riskSensitivityClassification": "High Sensitivity",
-            "boundary": "High Impact / Federal Customer Data Boundary"
-          },
-          {
-            "securityCategory": "Category 2: Core Workloads & In-Memory Compute",
-            "informationResourcesIncluded": [
-              "AWS - Elastic Kubernetes Service (EKS) / Virtual Machines (EC2)",
-              "AWS - ElastiCache"
-            ],
-            "handledDataTypes": "Microservice execution state, in-flight transaction payloads, temporary user session caches",
-            "riskSensitivityClassification": "High / Moderate Sensitivity",
-            "boundary": "Core Workload & Processing Boundary"
-          },
-          {
-            "securityCategory": "Category 3: Identity & Access Management (IAM)",
-            "informationResourcesIncluded": [
-              "Okta",
-              "KeyCloak"
-            ],
-            "handledDataTypes": "User credentials, SAML/OIDC assertions, MFA secrets, RBAC rules, administrative tokens",
-            "riskSensitivityClassification": "High Sensitivity",
-            "boundary": "Privileged Management & Authentication Boundary"
-          },
-          {
-            "securityCategory": "Category 4: Network Perimeter & Ingress Defense",
-            "informationResourcesIncluded": [
-              "AWS - VPC",
-              "AWS - WAF",
-              "AWS - Elastic Load Balancing"
-            ],
-            "handledDataTypes": "Network routing tables, TLS-encrypted traffic, HTTP headers, public IP metadata, WAF inspection rules",
-            "riskSensitivityClassification": "Low to Moderate Sensitivity",
-            "boundary": "Public Edge & Network Routing Boundary"
-          },
-          {
-            "securityCategory": "Category 5: Observability, Security & Audit Logging",
-            "informationResourcesIncluded": [
-              "AWS - SecurityHub / GuardDuty",
-              "AWS - CloudTrail / CloudWatch",
-              "Google SecOps"
-            ],
-            "handledDataTypes": "System API call audits, runtime security alerts, infrastructure metrics, security telemetry, dashboard configs",
-            "riskSensitivityClassification": "Moderate Sensitivity",
-            "boundary": "System Management & Audit Boundary"
-          },
-          {
-            "securityCategory": "Category 6: External Enterprise & Support SaaS",
-            "informationResourcesIncluded": [
-              "Google Workspace",
-              "Zendesk"
-            ],
-            "handledDataTypes": "Support tickets, customer communication logs, internal documentation, administrative emails",
-            "riskSensitivityClassification": "External Boundary",
-            "boundary": "Third-Party SaaS Service Boundary"
-          }
-        ],
-        "thirdPartyInformationResources": {
-          "certified": [
-            {
-              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
-              "useCase": "Cloud Hosting Provider"
-            }
-          ],
-          "nonCertified": [
-            {
-              "name": "Zendesk",
-              "provider": "Zendesk",
-              "website_NEEDS_REAL_URL": "Link titled \"AI-Powered Service Platform | Zendesk\" -- actual href unknown from PDF",
-              "useCase": "Support Tickets"
-            },
-            {
-              "name": "Okta Workforce",
-              "provider": "Okta",
-              "website_NEEDS_REAL_URL": "Link titled \"Secure Identity for Employees, Customers, and AI | Okta\" -- actual href unknown from PDF",
-              "useCase": "IDP"
-            },
-            {
-              "name": "Google SecOps",
-              "provider": "Google",
-              "website_NEEDS_REAL_URL": "Link titled \"Google Security Operations—Detect\" -- actual href unknown from PDF",
-              "useCase": "SIEM"
-            },
-            {
-              "name": "Google Workspace",
-              "provider": "Google",
-              "website_NEEDS_REAL_URL": "Link titled \"Business Streamlining & Collaboration Solutions | Google Workspace\" -- actual href unknown from PDF",
-              "useCase": "E-mail and Collaboration"
-            }
-          ]
-        },
-        "cryptographicModuleDocumentation": [
-          {
-            "resource": "6 KMS Keys",
-            "resourceType": "KMS Keys",
-            "cryptoModule": "AWS KMS Hardware Security Module (HSM)",
-            "cmvpCertNumber": "#3139 / #4884",
-            "fipsStandard": "FIPS 140-2 / SYMMETRIC_DEFAULT",
-            "securityLevel": "Level 2 / Level 3",
-            "sunsetDate": "11/17/2026 (#4884 sunset)",
-            "status": "Compliant"
-          },
-          {
-            "resource": "57 S3 Buckets",
-            "resourceType": "S3 Buckets",
-            "cryptoModule": "AWS KMS HSM (aws:kms) / S3-Managed (AES256)",
-            "cmvpCertNumber": "#3139 / #4884 (SSE-KMS); #4631 / #4816 (AWS-LC for SSE-S3)",
-            "fipsStandard": "FIPS 140-2 (SSE-KMS) / FIPS Approved AES-256 (SSE-S3)",
-            "securityLevel": "Level 3 (KMS) / Level 1 (AWS-LC)",
-            "sunsetDate": "11/17/2026 (KMS HSM)",
-            "status": "Partial Compliant"
-          },
-          {
-            "resource": "85 EBS Volumes",
-            "resourceType": "EBS Volumes",
-            "cryptoModule": "AWS EBS Default Service Key",
-            "cmvpCertNumber": "#3139 / #4884 (KMS HSM); #4631 / #4816 (Nitro Crypto)",
-            "fipsStandard": "FIPS Approved (AES-256)",
-            "securityLevel": "Level 3 (KMS) / Level 1 (Nitro)",
-            "sunsetDate": "11/17/2026 (KMS HSM)",
-            "status": "Compliant"
-          },
-          {
-            "resource": "3 RDS Instances",
-            "resourceType": "RDS Instances",
-            "cryptoModule": "AWS KMS & CA",
-            "cmvpCertNumber": "#3139 / #4884 (KMS HSM); #4631 / #4816 (AWS-LC TLS)",
-            "fipsStandard": "FIPS 140-2",
-            "securityLevel": "Level 3 (KMS) / Level 1 (TLS)",
-            "sunsetDate": "Extended Support (PostgreSQL 13)",
-            "status": "Partial Compliant"
-          },
-          {
-            "resource": "33 EC2 Instances",
-            "resourceType": "EC2 Instances",
-            "cryptoModule": "IMDSv2 Token Enforcement (HttpTokens: required)",
-            "cmvpCertNumber": "#4631 / #4816 (AWS-LC Module)",
-            "fipsStandard": "FIPS 140-2 / 140-3",
-            "securityLevel": "Level 1",
-            "sunsetDate": "10/05/2028 (#4631 sunset)",
-            "status": "Compliant"
-          },
-          {
-            "resource": "Bottlerocket FIPS AMIs (EKS Worker Nodes)",
-            "resourceType": "Machine Image / OS",
-            "cryptoModule": "Kernel Crypto API Cryptographic Module & Go Cryptographic Module",
-            "cmvpCertNumber": "#4747 (Kernel Crypto) / #4631 (AWS-LC)",
-            "fipsStandard": "FIPS 140-3",
-            "securityLevel": "Level 1",
-            "sunsetDate": "Active",
-            "status": "Compliant"
-          },
-          {
-            "resource": "Red Hat UBI Container Images (UBI 9)",
-            "resourceType": "Container Base Image",
-            "cryptoModule": "RHEL OpenSSL Cryptographic Module (fips.so), Libgcrypt, NSS",
-            "cmvpCertNumber": "#4746 (OpenSSL Provider), #4754 (Libgcrypt), #4774 / #5022 (NSS)",
-            "fipsStandard": "FIPS 140-2 / FIPS 140-3",
-            "securityLevel": "Level 1",
-            "sunsetDate": "Sept 21, 2026 (FIPS 140-2 transition to Historical List)",
-            "status": "Compliant"
-          },
-          {
-            "resource": "2 Load Balancers / 4 Listeners (ALB & NLB)",
-            "resourceType": "Load Balancers",
-            "cryptoModule": "ELBSecurityPolicyTLS13-1-2-FIPS-2023-04 / TCP Passthrough / HTTP",
-            "cmvpCertNumber": "#4631 / #4816 (AWS-LC powering s2n-tls for HTTPS)",
-            "fipsStandard": "FIPS 140-2 (ALB HTTPS)",
-            "securityLevel": "Level 1 (AWS-LC)",
-            "sunsetDate": "10/05/2028 (#4631 sunset)",
-            "status": "Compliant"
-          },
-          {
-            "resource": "1 ACM Certificate (*.harnessgov.com)",
-            "resourceType": "ACM Certificates",
-            "cryptoModule": "AWS Certificate Manager (RSA-2048)",
-            "cmvpCertNumber": "#3139 / #4884 (AWS KMS HSM key protection)",
-            "fipsStandard": "FIPS Approved (RSA-2048)",
-            "securityLevel": "Level 3 (KMS HSM)",
-            "sunsetDate": "Active",
-            "status": "Compliant"
-          },
-          {
-            "resource": "90 Secrets Manager Secrets",
-            "resourceType": "Secrets Manager",
-            "cryptoModule": "AWS Managed Key",
-            "cmvpCertNumber": "#3139 / #4884 (AWS KMS HSM)",
-            "fipsStandard": "FIPS Approved (AES-256)",
-            "securityLevel": "Level 3 (KMS HSM)",
-            "sunsetDate": "11/17/2026 (#4884 sunset)",
-            "status": "Compliant"
-          },
-          {
-            "resource": "1 EKS Cluster",
-            "resourceType": "EKS Clusters",
-            "cryptoModule": "AWS KMS Envelope Encryption",
-            "cmvpCertNumber": "#3139 / #4884 (AWS KMS HSM)",
-            "fipsStandard": "FIPS 140-2 / 140-3",
-            "securityLevel": "Level 3 (KMS HSM)",
-            "sunsetDate": "11/17/2026 (#4884 sunset)",
-            "status": "Compliant"
-          },
-          {
-            "resource": "2 ElastiCache Clusters",
-            "resourceType": "ElastiCache (Redis)",
-            "cryptoModule": "AWS KMS for SSE & AWS-LC TLS for In-Transit",
-            "cmvpCertNumber": "#3139 / #4884 (KMS HSM); #4631 / #4816 (AWS-LC TLS)",
-            "fipsStandard": "FIPS 140-2 / FIPS 140-3",
-            "securityLevel": "Level 3 (KMS) / Level 1 (TLS)",
-            "sunsetDate": "11/17/2026 (#4884 sunset)",
-            "status": "Partial Compliant"
-          }
-        ],
-        "packageMetadata_UNCONFIRMED": {
-          "responsibleParty": {
-            "name": "Kevin Moy",
-            "title": "Director, GRC",
-            "contactInformation": "kevin.moy@harness.io",
-            "role": "Responsible and accountable for the FedRAMP Certification Package"
-          },
-          "revisionHistory": [
-            {
-              "version": "1.0",
-              "dateOfLastUpdate": "2026-08-11",
-              "sourceOfUpdate": "Manual"
-            }
-          ]
-        },
-        "ZD_frid_retro": "FR2631258132",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:03:03Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:25Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4990,7 +4642,131 @@
         ],
         "ZD_frid_retro": "FR2631258135",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:03:02Z"
+        "last_fetched_timestamp": "2026-08-14T20:56:26Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "F1311222650",
+          "ueiNumber": "XGTZMLVEG7R9",
+          "providerName": "MIS Sciences Corporation",
+          "serviceName": "GovPoint Cloud Services",
+          "serviceAcronym": "GCS",
+          "serviceDescription": "GCS is a FedRAMP Moderate (previously JAB P-ATO authorized) IaaS/PaaS/SaaS platform offering scalable compute, private cloud, and SaaS solutions to federal agencies. Customers may deploy on shared infrastructure, provision a dedicated private cloud, or co-locate their own hardware within the GCS authorization boundary.\n\nOverview of Authorized Services\n\nCompute (IaaS)\nConfigurable virtual machines balancing CPU, RAM, and high-I/O flash storage; available as pre-hardened images or custom builds.\n\nPrivate FedRAMP Cloud (IaaS)\nDedicated, tenant-isolated compute, networking, and storage fully within the GCS boundary for agencies requiring resource segregation.\n\nBring Your Own Hardware\nCustomer-owned hardware co-located within the GCS boundary, leveraging inherited GCS controls for specialized appliances and equipment.\n\nVirtual Desktop Services (DaaS)\nBrowser-accessible virtual desktops hosted within the GCS boundary, providing agency users with secure, managed access to applications and data from any endpoint without local installation requirements.\n\nAuthorization as a Service (AaaS)\nEnables SaaS providers to inherit GCS controls and deliver FedRAMP-authorized products under the GCS P-ATO.\n\nCalabrio Workforce Engagement Management (SaaS)\nContact center workforce optimization suite covering scheduling, agent performance analytics, and business intelligence.\n\nSharetru Federal (SaaS)\nManaged File Transfer as a Service (MFTaaS) supporting CMMC, ITAR, HIPAA, and PCI-DSS regulated data exchange.\n\nSayari Risk Intelligence (SaaS)\nSupply chain and counterparty risk platform aggregating corporate ownership and trade data from 250+ jurisdictions.\n\nGRID20/20 ATI (SaaS/IoT)\nCloud-based distribution grid and environmental monitoring platform covering wildfire detection, auto-alerting, and AI-enhanced analytics. Field sensor devices operate outside the authorization boundary and feed data into the GCS-hosted ATI application, which is fully within scope.\n\nIGS Bridge (SaaS)\nSecure, platform-agnostic integration suite connecting enterprise and legacy systems (Bridge Connect), coordinating clinical decision support (Bridge Care), standardizing data relationships (Bridge Map), and delivering real-time operational analytics (Bridge Monitor).\n\nAutomated Background Investigation System (ABIS)\nABIS is a personnel security case management system that tracks background investigations for Federal Employees, Contractors, Volunteers, and Interns from initiation through final adjudication. The system allows cases to be checked for transfer of trust, eApp initiation, and to conduct all pre-hire checks, and to make pre-hire and final adjudication determinations. The system also processes security clearances, SEAD-3 self-reporting, Detailee cases, and other types of cases. Interfaces with DCSA's eDelivery, CVS, OF79a Adjudications, and other interfaces are included in the system. The system fully implements Continuous Vetting (CV) and RapBack enrollment/unenrollment and processing of alerts received from CV/Rapback\n",
+          "certificationType": "Rev5",
+          "website": "http://www.mis-sciences.com/",
+          "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/MIS%20Sciences%20Logo.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "IaaS",
+            "PaaS",
+            "SaaS"
+          ],
+          "deploymentModel": "Government Community Cloud",
+          "businessCategory": [
+            "Data Management",
+            "Development Tools",
+            "Storage",
+            "Virtual Private Network (VPN)"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://missc.sharepoint.com/sites/GovPointTrustCenter",
+            "repositoryDescription": "GovPoint Documents, Compliance Scans, SSP, etc",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "For access: email security@mis-sciences.com\nThis will allow user access going forward without re-requesting access\n"
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://missc.sharepoint.com/:f:/s/GovPoint/IgCY9x0kBCzmSakZE-m9uOnFAULJ0WAwfd-58fjFC-pqDIY?e=83FRab",
+            "repositoryDescription": "Recommended Secure Configuratiuon Guides",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "For access: email security@mis-sciences.com\n"
+          },
+          "nextOngoingCertificationReportDate": "2027-04-21"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Jeff Willis",
+            "contactEmail": "security@mis-sciences.com",
+            "contactPhone": "818-847-0213"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Jamie DeLa Torre",
+            "contactEmail": "jamie@mis-sciences.com",
+            "contactPhone": "818-847-0213"
+          }
+        ],
+        "assessor": {
+          "name": "First Information Technology Services, Inc.",
+          "assessorID": "137801"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "IGS Bridge Care",
+            "serviceDescription": "Coordinates clinical decision support as part of the IGS Bridge integration suite. TODO: confirm/expand description.",
+            "dateAvailable": "2026-07-01"
+          },
+          {
+            "serviceName": "IGS Bridge Connect",
+            "serviceDescription": "Connects enterprise and legacy systems as part of the IGS Bridge integration suite. TODO: confirm/expand description.",
+            "dateAvailable": "2026-07-01"
+          },
+          {
+            "serviceName": "Calabrio Workforce Engagement Management",
+            "serviceDescription": "Contact center workforce optimization suite covering scheduling, agent performance analytics, and business intelligence.",
+            "dateAvailable": "2024-09-10"
+          },
+          {
+            "serviceName": "GRID20/20 - Advanced Transformer Infrastructure (ATI) - Sensor Devices",
+            "serviceDescription": "TODO: confirm description — how should the sensor device component specifically be scoped/described for the certification package.",
+            "dateAvailable": "2026-03-03"
+          },
+          {
+            "serviceName": "IGS Bridge Map",
+            "serviceDescription": "Standardizes data relationships as part of the IGS Bridge integration suite. TODO: confirm/expand description.",
+            "dateAvailable": "2026-07-01"
+          },
+          {
+            "serviceName": "IGS Bridge Monitor",
+            "serviceDescription": "Delivers real-time operational analytics as part of the IGS Bridge integration suite. TODO: confirm/expand description.",
+            "dateAvailable": "2026-07-01"
+          },
+          {
+            "serviceName": "Private FedRAMP Cloud",
+            "serviceDescription": "Dedicated, tenant-isolated compute, networking, and storage fully within the GCS boundary for agencies requiring resource segregation.",
+            "dateAvailable": "2025-01-01"
+          },
+          {
+            "serviceName": "Sayari Counterparty and Supply Chain Risk Intelligence",
+            "serviceDescription": "Supply chain and counterparty risk platform aggregating corporate ownership and trade data from 250+ jurisdictions.",
+            "dateAvailable": "2025-06-03"
+          },
+          {
+            "serviceName": "Sharetru Federal",
+            "serviceDescription": "Managed File Transfer as a Service (MFTaaS) supporting CMMC, ITAR, HIPAA, and PCI-DSS regulated data exchange.",
+            "dateAvailable": "2026-03-01"
+          },
+          {
+            "serviceName": "Virtual Desktop Services",
+            "serviceDescription": "Browser-accessible virtual desktops hosted within the GCS boundary, providing agency users with secure, managed access to applications and data from any endpoint without local installation requirements.",
+            "dateAvailable": "2025-01-01"
+          },
+          {
+            "serviceName": "Automated Background Investigation System (ABIS)",
+            "serviceDescription": "ABIS is a personnel security case management system that tracks background investigations for Federal Employees, Contractors, Volunteers, and Interns from initiation through final adjudication.",
+            "dateAvailable": "2026-04-01"
+          }
+        ],
+        "ZD_frid_retro": "FR2631354503",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-14T20:56:26Z"
       }
     ]
   }
