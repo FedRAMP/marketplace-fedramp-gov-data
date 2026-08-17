@@ -1,20 +1,31 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-14T20:56:26.562Z",
-    "total_entries": 34,
+    "export_timestamp": "2026-08-17T20:59:47.286Z",
+    "total_entries": 35,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
     "frc-cso-pkg": [
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "metadata": {
+          "responsibleAccountableOfficial": {
+            "name": "Patrick Phillips",
+            "title": "System Owner and FedRAMP Program Owner",
+            "email": "security@tarly.co",
+            "phone": "585-474-2276"
+          },
+          "version": "2026.08.14.1",
+          "lastUpdated": "2026-08-14T00:00:00Z",
+          "sourceOfUpdate": "Tarly compliance repository source revision"
+        },
         "serviceIdentification": {
           "fedRampPackageId": "FR2628650874",
           "providerName": "Pincus Technologies Inc",
           "ueiNumber": "RKCYVMCNUK45",
           "serviceName": "Tarly Cowork",
           "serviceAcronym": "TARLY",
-          "serviceDescription": "AI-powered procurement workspace for government acquisition teams. Tarly Cowork helps contracting professionals run market research, draft acquisition documents (IGCEs, solicitations, evaluation materials), and manage procurement files with grounded citations to authoritative federal data sources (SAM.gov, USAspending, the FAR and agency supplements).",
+          "serviceDescription": "AI-powered procurement workspace intended for direct use by federal agency acquisition teams within agency-authorized federal information systems. Tarly Cowork helps contracting professionals run market research, draft acquisition documents (IGCEs, solicitations, evaluation materials), and manage procurement files with grounded citations to authoritative federal data sources (SAM.gov, USAspending, the FAR and agency supplements). Each agency authorizes its use through the agency's Authorization to Operate (ATO) process.",
           "certificationType": "20x",
           "website": "https://gov.tarly.co",
           "logo": "https://gov.tarly.co/tarly-logo.png"
@@ -43,7 +54,7 @@
               "Secure Configuration Guidance"
             ],
             "url": "https://gov.tarly.co/trust/secure-configuration-guide.html",
-            "repositoryDescription": "Public customer guidance for securely provisioning, configuring, operating, reviewing, and decommissioning Tarly Cowork administrative and privileged access.",
+            "repositoryDescription": "Public customer guidance for securely provisioning, configuring, operating, reviewing, and decommissioning Tarly Cowork administrative and privileged access. Machine-readable guidance: https://gov.tarly.co/trust/secure-configuration-guide.json.",
             "authenticationRequired": false
           },
           "additionalRepositories": [
@@ -114,7 +125,19 @@
           "certified": [
             {
               "fedRampCertifiedThirdPartyInformationResource": "F1603047324",
-              "useCase": "Microsoft Azure Commercial (FedRAMP High, Authorized) is the sole hosting platform for the Tarly Cowork authorization boundary, which runs entirely in the tarly-prod subscription in Azure Central US. Azure services used: Container Apps (frontend, backend API, and workspace sandbox), PostgreSQL Flexible Server (primary data store), Storage Account blobs and file shares (evidence, artifacts, uploads, workspace mounts), Key Vault (secrets and the evidence-signing key), Service Bus (asynchronous jobs), Container Registry (image supply chain), Front Door Premium with managed WAF (sole public ingress, delivered over Private Link), Azure DNS, Entra ID (identity and federated sign-in), Log Analytics and Azure Monitor (audit and diagnostic logging), Microsoft Defender for Cloud (posture and vulnerability findings), Azure AI Foundry model deployments (LLM inference), Azure AI Search (retrieval over the regulation and resource corpus), Azure AI Document Intelligence (document extraction), and Azure Communication Services Email (transactional notifications). Physical, hypervisor, storage-media, and platform-cryptography controls are inherited from this package; the inheritance map is maintained in the certification package."
+              "useCase": "Microsoft Azure Commercial (FedRAMP High, Authorized) is the sole hosting platform for the Tarly Cowork authorization boundary and its Tarly-operated shared public-data services. Current production services include Container Apps, PostgreSQL Flexible Server, Storage, Key Vault, Container Registry, Front Door Premium with managed WAF, Azure DNS, Entra ID, Log Analytics and Azure Monitor, Microsoft Defender for Cloud, Azure AI services, and Azure Communication Services Email. Cowork does not use Service Bus as a direct application-runtime connection; the separate Tarly-operated shared-data ingestion plane contains an Azure Service Bus namespace that can affect the freshness and integrity of public records Cowork later reads.",
+              "generalUsageAndConfiguration": "Azure hosts the production frontend, backend API, isolated workspace sandbox, managed data stores, private endpoints, image supply chain, identity, telemetry, AI inference and retrieval, transactional email, and Tarly-operated shared public-data PostgreSQL and Azure AI Search services. Front Door is the sole intended public application ingress; the API and sandbox Container Apps have internal ingress. Cowork uses credentialed read paths to the shared data services. PostgreSQL, Storage, Key Vault, and Container Registry use the network controls documented in the boundary inventory.",
+              "justification": "Tarly Cowork requires an elastic managed hosting and security platform. Azure Commercial supplies the managed services, inherited controls, Central US deployment, and FedRAMP High authorization on which the offering depends.",
+              "mitigationMeasures": [
+                "Restrict public application ingress to Front Door and WAF and use private endpoints for protected platform data services.",
+                "Use workload and managed identities where implemented, centralized monitoring, Defender findings, immutable compliance evidence, and infrastructure-as-code review.",
+                "Inventory shared AI/data services as external dependencies and track credential, egress, and network-isolation exceptions to closure."
+              ],
+              "compensatingControls": [
+                "The application enforces tenant and procurement-file authorization before data access and records security-relevant activity.",
+                "The controlled privilege and attack-surface matrices fail closed when required resources, flows, source references, or exceptions are omitted.",
+                "Where platform private connectivity or keyless authentication is not yet complete, narrow credentials, outbound allowlisting, monitoring, rotation, and dated remediation records reduce risk."
+              ]
             }
           ],
           "nonCertified": [
@@ -122,42 +145,137 @@
               "name": "SAM.gov Data Services API",
               "provider": "U.S. General Services Administration",
               "website": "https://open.gsa.gov/api/",
-              "useCase": "Read-only retrieval of entity registration data, contract opportunities, and opportunity attachments so the assistant can cite authoritative source records. Requests carry search parameters and public identifiers only; no federal customer content is transmitted."
+              "useCase": "Read-only retrieval of entity registration data, contract opportunities, and opportunity attachments so the assistant can cite authoritative source records. Requests carry search parameters and public identifiers only; no federal customer content is transmitted.",
+              "generalUsageAndConfiguration": "The backend makes outbound HTTPS GET requests to documented public GSA endpoints and stores selected returned public records or attachments as cited evidence inside the authorization boundary.",
+              "justification": "SAM.gov is the authoritative federal source for entity registrations and contract opportunities used in acquisition research.",
+              "mitigationMeasures": [
+                "Send only public identifiers and search parameters; do not send customer documents, prompts, or procurement-file content.",
+                "Treat responses as untrusted input and retain relied-upon records as in-boundary evidence."
+              ],
+              "compensatingControls": [
+                "Read-only integration, TLS transport, application egress controls, citation provenance, and in-boundary access control on retained evidence."
+              ]
             },
             {
               "name": "USAspending.gov API",
               "provider": "U.S. Department of the Treasury",
               "website": "https://api.usaspending.gov/",
-              "useCase": "Read-only retrieval of federal award and spending records used for market research and pricing comparisons. Requests carry query parameters and public identifiers only; no federal customer content is transmitted."
+              "useCase": "Read-only retrieval of federal award and spending records used for market research and pricing comparisons. Requests carry query parameters and public identifiers only; no federal customer content is transmitted.",
+              "generalUsageAndConfiguration": "The backend submits outbound HTTPS queries to the public USAspending API and ingests returned public award records for analysis and citation.",
+              "justification": "USAspending.gov is the authoritative source for federal award and spending data used in defensible market research.",
+              "mitigationMeasures": [
+                "Limit requests to public query parameters and identifiers and prohibit transmission of customer content.",
+                "Validate and normalize returned records before use."
+              ],
+              "compensatingControls": [
+                "Read-only integration, TLS transport, source attribution, and in-boundary authorization for saved research artifacts."
+              ]
             },
             {
               "name": "GSA acquisition APIs (Federal Acquisition Service, FPDS)",
               "provider": "U.S. General Services Administration",
               "website": "https://open.gsa.gov/api/",
-              "useCase": "Read-only retrieval of schedule, catalog, and federal procurement data system records supporting market research. Requests carry query parameters and public identifiers only; no federal customer content is transmitted."
+              "useCase": "Read-only retrieval of schedule, catalog, and federal procurement data system records supporting market research. Requests carry query parameters and public identifiers only; no federal customer content is transmitted.",
+              "generalUsageAndConfiguration": "The backend uses outbound HTTPS read operations against documented GSA public-data endpoints and imports selected public records into customer research results.",
+              "justification": "These government-operated sources provide authoritative schedule, catalog, and procurement records not maintained by Tarly.",
+              "mitigationMeasures": [
+                "Send only public search terms and record identifiers.",
+                "Parse responses as untrusted external data and preserve source provenance."
+              ],
+              "compensatingControls": [
+                "Read-only access, TLS, application-layer validation, citations, and access-controlled in-boundary storage of relied-upon records."
+              ]
             },
             {
               "name": "eCFR and Acquisition.gov regulation sources",
               "provider": "U.S. Government Publishing Office and U.S. General Services Administration",
               "website": "https://www.ecfr.gov/",
-              "useCase": "Read-only ingestion of the FAR and agency supplements into the in-boundary regulation corpus that the assistant retrieves and cites from. Ingestion is one-way and carries no federal customer content."
+              "useCase": "Read-only ingestion of the FAR and agency supplements into the in-boundary regulation corpus that the assistant retrieves and cites from. Ingestion is one-way and carries no federal customer content.",
+              "generalUsageAndConfiguration": "Scheduled or operator-initiated HTTPS retrieval imports published regulation text into an in-boundary indexed corpus; production customer data is never sent to the publishers.",
+              "justification": "The official publishers are the authoritative sources for current federal acquisition regulations and agency supplements.",
+              "mitigationMeasures": [
+                "Maintain a one-way ingestion path with no customer-data payload.",
+                "Record source location and validate content before indexing."
+              ],
+              "compensatingControls": [
+                "TLS retrieval, provenance records, in-boundary indexing, and application authorization around derived research and artifacts."
+              ]
+            },
+            {
+              "name": "Bureau of Labor Statistics public data API",
+              "provider": "U.S. Department of Labor, Bureau of Labor Statistics",
+              "website": "https://www.bls.gov/developers/",
+              "useCase": "Read-only ingestion of public occupational employment and wage data used for independent government cost estimates and price analysis. No federal customer content is sent to BLS.",
+              "generalUsageAndConfiguration": "A Tarly-operated ingestion job retrieves public BLS API data over HTTPS and stores normalized records in the shared Azure public-data platform. Cowork reads the resulting public wage records through its credentialed, read-oriented shared-data connection; the production configuration includes a secret-backed BLS_API_KEY binding.",
+              "justification": "BLS is the authoritative federal source for occupational employment and wage observations used in acquisition cost research.",
+              "mitigationMeasures": [
+                "Limit outbound requests to public series identifiers, dates, and subscription credentials; never include customer prompts, documents, or procurement-file content.",
+                "Validate and normalize returned public records before making them available to Cowork."
+              ],
+              "compensatingControls": [
+                "One-way public-data ingestion, TLS transport, secret-managed subscription credentials, in-boundary storage, source attribution, and application authorization around saved research artifacts."
+              ]
+            },
+            {
+              "name": "Regulations.gov public API",
+              "provider": "U.S. General Services Administration, eRulemaking Program",
+              "website": "https://open.gsa.gov/api/regulationsgov/",
+              "useCase": "Read-only ingestion and retrieval of public rulemaking dockets, documents, and public comments used for regulatory and acquisition research. No federal customer content is sent to Regulations.gov.",
+              "generalUsageAndConfiguration": "A Tarly-operated ingestion path retrieves public Regulations.gov API records over HTTPS using a secret-backed REGULATIONS_GOV_API_KEY binding and stores normalized records in the shared Azure public-data platform for read-oriented Cowork queries.",
+              "justification": "Regulations.gov is the authoritative federal source for public rulemaking dockets, notices, supporting materials, and submitted public comments.",
+              "mitigationMeasures": [
+                "Limit requests to public query parameters and identifiers and prohibit customer-content payloads.",
+                "Treat public comments and attachments as untrusted external content, preserve source provenance, and validate content before indexing or display."
+              ],
+              "compensatingControls": [
+                "One-way public-data ingestion, TLS transport, secret-managed subscription credentials, content handling controls, source attribution, and in-boundary access controls on retained records."
+              ]
             },
             {
               "name": "Brave Search API",
               "provider": "Brave Software, Inc.",
               "website": "https://brave.com/search/api/",
-              "useCase": "Discovery-only web search. The assistant sends a short search query string derived from the user's request and receives result titles, URLs, and snippets; results are never cited directly, and any source relied upon is subsequently fetched and captured as evidence inside the boundary. Procurement file contents, uploaded evidence, and generated artifacts are not transmitted to this provider."
+              "useCase": "Discovery-only web search. The assistant sends a short search query string derived from the user's request and receives result titles, URLs, and snippets; results are never cited directly, and any source relied upon is subsequently fetched and captured as evidence inside the boundary. Procurement file contents, uploaded evidence, and generated artifacts are not transmitted to this provider.",
+              "generalUsageAndConfiguration": "The backend sends bounded query strings over HTTPS to the Brave Search API and uses returned titles, URLs, and snippets only to discover candidate public sources.",
+              "justification": "The integration supplies broad public-source discovery when authoritative structured federal APIs do not contain the needed material.",
+              "mitigationMeasures": [
+                "Do not transmit procurement-file contents, uploads, complete prompts, or generated artifacts.",
+                "Do not cite search snippets; fetch and retain the underlying source before relying on it."
+              ],
+              "compensatingControls": [
+                "Query minimization, secret-managed API credentials, outbound HTTPS controls, evidence capture, and source-level citation review."
+              ]
             },
             {
               "name": "Public web content retrieval",
               "provider": "Various public website operators",
-              "useCase": "Read-only, outbound HTTPS retrieval of specific public web pages identified by the user or by search results, so that cited material can be captured and stored as evidence inside the boundary. Retrieval is one-way; the request URL is the only information disclosed to the destination site."
+              "useCase": "Read-only, outbound HTTPS retrieval of specific public web pages identified by the user or by search results, so that cited material can be captured and stored as evidence inside the boundary. Retrieval is one-way; the request URL is the only information disclosed to the destination site.",
+              "generalUsageAndConfiguration": "The backend performs bounded outbound HTTPS GET retrieval for an explicit public URL and captures the response as evidence; it does not authenticate to or write to the destination.",
+              "justification": "Acquisition research sometimes depends on public source material outside structured government APIs.",
+              "mitigationMeasures": [
+                "Limit disclosure to the requested URL and normal network metadata.",
+                "Treat response content as untrusted and constrain retrieval against server-side request forgery and unsafe-content risks."
+              ],
+              "compensatingControls": [
+                "Read-only HTTPS, fetch limits, content handling controls, in-boundary evidence storage, and citation provenance."
+              ]
             },
             {
-              "name": "Customer Microsoft 365 / SharePoint Online tenant",
-              "provider": "Microsoft Corporation (operated by the agency customer)",
+              "name": "Tarly Microsoft 365 / SharePoint Online integration",
+              "provider": "Microsoft Corporation (tenant operated by Tarly)",
               "website": "https://www.microsoft.com/microsoft-365",
-              "useCase": "Optional, customer-enabled integration that lets users search their own SharePoint site and import selected documents into a Tarly Cowork procurement file as evidence. The tenant is the customer's own information resource under the customer's own authorization; Tarly does not operate it, and the integration is inert unless the customer configures it. Access uses a registered application in the customer's tenant, and the data flow is inbound only."
+              "useCase": "The connector is a test placeholder for a future customer-operated SharePoint tenant. It is configured to a Tarly-operated SharePoint Online site so the import path can be exercised, and it lets authenticated Cowork users search that configured site and import selected documents into a procurement file as evidence. No agency or customer tenant is connected, so no federal customer data flows through it today. The data flow is inbound from SharePoint to Cowork; this record does not claim the current tenant is agency-operated or covered by an agency authorization.",
+              "generalUsageAndConfiguration": "The production backend has a configured Tarly Microsoft 365 tenant, application identity, secret-backed credential, and SharePoint site URL. Application code uses Microsoft Graph HTTPS read, search, list, and download operations and imports only a user-selected document into Cowork evidence storage.",
+              "justification": "The connector provides a governed shared source for documents that authorized Cowork users need to locate and import without unmanaged local transfer steps.",
+              "mitigationMeasures": [
+                "Keep the application credential in the managed secret store and restrict the connector to the configured site and read-oriented Graph operations.",
+                "Require authenticated Cowork access and explicit user selection before importing a document, and treat imported content as untrusted until processed inside the boundary.",
+                "Do not represent the Tarly-operated tenant as an agency information resource or extend the integration to an agency tenant without a new configuration and scope review."
+              ],
+              "compensatingControls": [
+                "Secret protection, application authorization, source and import audit metadata, user-selected transfer, and in-boundary access controls after import.",
+                "The effective Microsoft Graph permission grant was independently verified on 2026-08-16 two ways: the appRoleAssignments on the service principal, and the roles claim of a live client-credentials token. Both show Sites.Read.All and Files.ReadWrite.All. Source review confirms every Graph call the connector makes is a read, so the write scope is unused; removing it is a production permission change paired with the next SharePoint import smoke test. Because the connected tenant is Tarly-operated and holds no customer or federal data, the unused scope reaches no customer content."
+              ]
             }
           ]
         },
@@ -174,10 +292,12 @@
           {
             "name": "Secure Configuration Guide",
             "formats": [
-              "HTML"
+              "HTML",
+              "JSON"
             ],
             "availability": "Public",
-            "url": "https://gov.tarly.co/trust/secure-configuration-guide.html"
+            "url": "https://gov.tarly.co/trust/secure-configuration-guide.html",
+            "machineReadableUrl": "https://gov.tarly.co/trust/secure-configuration-guide.json"
           },
           {
             "name": "Certification Data Access Guide",
@@ -211,7 +331,10 @@
               "JSON",
               "Human-readable rendering"
             ],
-            "availability": "An example is included with the initial package; quarterly reports follow certification"
+            "availability": "Public example report covering all required sections; the first quarterly report is targeted for 2026-10-06 and each report is published under its own quarter",
+            "url": "https://github.com/patrick-tarly-co/trust-center/blob/main/ocr/example/REPORT.md",
+            "machineReadableUrl": "https://raw.githubusercontent.com/patrick-tarly-co/trust-center/main/ocr/example/report.json",
+            "isExample": true
           },
           {
             "name": "Authorization boundary, data flows, policies, procedures, assessment evidence, and continuous-compliance results",
@@ -226,20 +349,40 @@
           {
             "serviceName": "Tarly Scanner",
             "url": "https://tarly.co",
-            "reason": "A separate public procurement-opportunity scanning product and not part of the Tarly Cowork cloud service offering submitted for this Marketplace listing."
+            "reason": "A separate public procurement-opportunity scanning product and not part of the Tarly Cowork cloud service offering submitted for this Marketplace listing.",
+            "supplemental": true,
+            "includedInCloudServiceOffering": false,
+            "includedInMinimumAssessmentScope": false,
+            "fedRampCertified": false
           },
           {
             "serviceName": "Development, test, staging, and corporate business systems",
-            "reason": "They do not process production Tarly Cowork federal customer data and are outside the planned authorization boundary."
+            "reason": "They do not process production Tarly Cowork federal customer data and are outside the planned authorization boundary.",
+            "supplemental": true,
+            "includedInCloudServiceOffering": false,
+            "includedInMinimumAssessmentScope": false,
+            "fedRampCertified": false
           },
           {
             "serviceName": "Alternative deployment models",
-            "reason": "Customer-hosted, on-premises, and Azure Government deployments are not included in this Marketplace listing or planned Minimum Assessment Scope."
+            "reason": "Customer-hosted, on-premises, and Azure Government deployments are not included in this Marketplace listing or planned Minimum Assessment Scope.",
+            "supplemental": true,
+            "includedInCloudServiceOffering": false,
+            "includedInMinimumAssessmentScope": false,
+            "fedRampCertified": false
           }
         ],
         "assessor": {
           "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
           "assessorID": "138665"
+        },
+        "changeNotificationMechanism": {
+          "mechanism": "Controlled certification-data distribution channel",
+          "description": "Tarly supplies every formal Significant Change Notification to FedRAMP and to each necessary agency or assessment party through a single mechanism: the controlled certification-data distribution channel. Each notice is retained with its exact sent bytes and SHA-256, the complete recipient population, one digest-bound delivery receipt per party, delivery timestamps, and an immutable archive URI and SHA-256.",
+          "publishedAt": "https://gov.tarly.co/trust/index.html#change-notification-mechanism",
+          "accessGuide": "https://gov.tarly.co/trust/access.html",
+          "machineReadableAccessGuide": "https://gov.tarly.co/trust/access.json",
+          "procedure": "compliance/docs/significant-change-procedure.md"
         },
         "contactInformation": [
           {
@@ -257,7 +400,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-14T20:56:05Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:22Z"
       },
       {
         "assessor": {
@@ -340,7 +483,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:08Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:26Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -448,7 +591,7 @@
         "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-14T20:56:09Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:27Z"
       },
       {
         "serviceIdentification": {
@@ -514,7 +657,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-14T20:56:11Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:27Z"
       },
       {
         "serviceIdentification": {
@@ -646,7 +789,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-14T20:56:10Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:28Z"
       },
       {
         "assessor": {
@@ -1326,7 +1469,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:10Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:28Z"
       },
       {
         "serviceIdentification": {
@@ -1384,7 +1527,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:11Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:30Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1479,7 +1622,7 @@
         },
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:12Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:30Z"
       },
       {
         "serviceIdentification": {
@@ -1573,12 +1716,12 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:12Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:31Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "$schemaVersion": "0.1.2",
-        "lastUpdated": "2026-08-14T20:56:12.999265+00:00",
+        "lastUpdated": "2026-08-17T20:59:31.590049+00:00",
         "sourceOfUpdate": "FedRAMP 2026 hub",
         "serviceIdentification": {
           "fedRampPackageId": "FR2628943633",
@@ -1638,17 +1781,17 @@
           {
             "serviceName": "Evidence Workspace",
             "serviceDescription": "",
-            "dateAvailable": "2026-08-14"
+            "dateAvailable": "2026-08-17"
           },
           {
             "serviceName": "Authorization OS",
             "serviceDescription": "",
-            "dateAvailable": "2026-08-14"
+            "dateAvailable": "2026-08-17"
           }
         ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-14T20:56:13Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:31Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1819,7 +1962,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:13Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:31Z"
       },
       {
         "serviceIdentification": {
@@ -1883,7 +2026,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:13Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:32Z"
       },
       {
         "serviceIdentification": {
@@ -1942,7 +2085,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:15Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:34Z"
       },
       {
         "assessor": {
@@ -1995,7 +2138,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:15Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:34Z"
       },
       {
         "serviceIdentification": {
@@ -2079,7 +2222,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:16Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:35Z"
       },
       {
         "serviceIdentification": {
@@ -2167,7 +2310,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-14T20:56:16Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:35Z"
       },
       {
         "serviceIdentification": {
@@ -2206,7 +2349,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:19Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:37Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2366,7 +2509,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:18Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:37Z"
       },
       {
         "serviceIdentification": {
@@ -2430,7 +2573,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:19Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:37Z"
       },
       {
         "serviceIdentification": {
@@ -2506,7 +2649,7 @@
         ],
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:20Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:39Z"
       },
       {
         "assessor": {
@@ -3186,7 +3329,7 @@
         },
         "ZD_frid_retro": "FR2631054536",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:20Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:38Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3338,7 +3481,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-14T20:56:21Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:39Z"
       },
       {
         "publicDisclosure": {
@@ -3607,7 +3750,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:21Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:39Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3617,7 +3760,7 @@
           "serviceAcronym": "CURSOR",
           "serviceDescription": "Cursor is an AI-powered software development platform that helps developers and organizations understand, generate, review, and maintain software. The offering includes the Cursor editor, AI-assisted development workflows, and related cloud services. Anysphere, Inc. is pursuing FedRAMP 20x Class A certification for the Cursor platform. Certification has not yet been granted.",
           "certificationType": "20x",
-          "fedRampPackageId": "Anysphere, Inc. (CURSOR)",
+          "fedRampPackageId": "FR2631054484",
           "ueiNumber": "YK4LNCE1L847",
           "website": "https://cursor.com",
           "logo": "https://cursor.com/marketing-static/favicon.svg"
@@ -3728,7 +3871,7 @@
         ],
         "documentationOverview": {
           "status": "Initial Implementation Phase",
-          "lastUpdated": "2026-08-10",
+          "lastUpdated": "2026-08-15",
           "availableDocumentation": [
             {
               "name": "FedRAMP Certification Package Overview",
@@ -3774,8 +3917,8 @@
           }
         ],
         "ZD_frid_retro": "FR2631054484",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:21Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-08-17T20:59:40Z"
       },
       {
         "serviceIdentification": {
@@ -3865,7 +4008,7 @@
         },
         "ZD_frid_retro": "FR2631154497",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:22Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:41Z"
       },
       {
         "serviceIdentification": {
@@ -3933,7 +4076,7 @@
         ],
         "ZD_frid_retro": "FR2631154499",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-14T20:56:22Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:41Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4030,7 +4173,7 @@
         },
         "ZD_frid_retro": "FR2631258113",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:22Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:42Z"
       },
       {
         "serviceIdentification": {
@@ -4196,7 +4339,7 @@
         ],
         "ZD_frid_retro": "FR2631258117",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:24Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:43Z"
       },
       {
         "serviceIdentification": {
@@ -4369,7 +4512,7 @@
         ],
         "ZD_frid_retro": "FR2631258125",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-14T20:56:24Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:43Z"
       },
       {
         "serviceIdentification": {
@@ -4446,7 +4589,7 @@
         },
         "ZD_frid_retro": "FR2631258127",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-14T20:56:24Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:43Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4596,7 +4739,7 @@
         },
         "ZD_frid_retro": "FR2631258130",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:25Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:45Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4642,7 +4785,7 @@
         ],
         "ZD_frid_retro": "FR2631258135",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:26Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:45Z"
       },
       {
         "serviceIdentification": {
@@ -4766,7 +4909,117 @@
         ],
         "ZD_frid_retro": "FR2631354503",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-14T20:56:26Z"
+        "last_fetched_timestamp": "2026-08-17T20:59:46Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "serviceIdentification": {
+          "fedRampPackageId": "WISEDOCS-WD",
+          "providerName": "Wisedocs USA Inc.",
+          "serviceName": "Wisedocs for Government",
+          "serviceAcronym": "WD",
+          "serviceDescription": "The Wisedocs Platform is a cloud-based, AI-powered document processing system designed to help insurance companies, independent medical evaluation firms, and legal entities process medical claims. The Platform uses optical character recognition to process unstructured medical documents such as handwritten clinician notes, medical briefs and records, and discharge summaries, and creates fully searchable records. It organizes, indexes, and identifies duplicate documents to streamline the review, documentation, and management of the medical record life cycle, with embedded machine learning supporting document processing workflows via foundational model providers including AWS Bedrock, Google Cloud Vertex AI, and Azure OpenAI Service. The Platform is hosted on AWS cloud infrastructure and made available to customers through a web application format.",
+          "certificationType": "20x",
+          "website": "https://wisedocs.ai",
+          "logo": "https://static-assets.mycroft.io/production/org_logos/e918d50f-f8ea-4f2c-a4d6-c1fad5a7222f.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Data Management",
+            "Artificial Intelligence (AI)",
+            "Health & Wellness",
+            "Legal & Policy"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center",
+              "Assessment Reports"
+            ],
+            "url": "https://trust.mycroft.io/wisedocs",
+            "repositoryDescription": "Trust Center containing all the necessary documentation for FedRAMP Certification submission package.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request Access' button on the top right of the Trust Center."
+          },
+          "nextOngoingCertificationReportDate": "2026-10-31"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Wisedocs security contact",
+            "contactEmail": "security@wisedocs.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Wisedocs sales contact",
+            "contactEmail": "sales@wisedocs.com"
+          }
+        ],
+        "certifiedServices": [
+          {
+            "serviceName": "Wisedocs for Government",
+            "serviceDescription": "AI-powered medical document processing platform providing OCR of unstructured medical records, document organization and indexing, duplicate identification, and searchable medical record life cycle management for insurance, independent medical evaluation, and legal entities.",
+            "dateAvailable": "2026-03-24"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+              "useCase": "Amazon Web Services (AWS US East/West). Primary cloud infrastructure provider hosting the Wisedocs Platform."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
+              "useCase": "Microsoft Azure foundational model provider via Azure OpenAI Service."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+              "useCase": "Google Cloud Vertex AI, compute and foundational model provider."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1809360201",
+              "useCase": "Snowflake data storage and analytics platform."
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "Claude",
+              "provider": "Anthropic",
+              "website": "https://www.anthropic.com",
+              "useCase": "AI models. "
+            },
+            {
+              "name": "Microsoft 365",
+              "provider": "Microsoft",
+              "website": "https://www.microsoft.com/microsoft-365",
+              "useCase": "Email, file sharing, messaging, and productivity tools."
+            },
+            {
+              "name": "Bitbucket",
+              "provider": "Atlassian",
+              "website": "https://bitbucket.org",
+              "useCase": "Source code repository and CI/CD."
+            },
+            {
+              "name": "Jira",
+              "provider": "Atlassian",
+              "website": "https://www.atlassian.com/software/jira",
+              "useCase": "Project management and issue tracking, including tracking of security deficiencies and remediation."
+            },
+            {
+              "name": "Sentry",
+              "provider": "Functional Software, Inc.",
+              "website": "https://sentry.io",
+              "useCase": "Application monitoring and error tracking."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2631654537",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-17T20:59:47Z"
       }
     ]
   }
