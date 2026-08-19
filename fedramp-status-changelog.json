@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-18T19:59:30.591Z",
-    "total_entries": 2065,
+    "export_timestamp": "2026-08-19T19:59:31.235Z",
+    "total_entries": 2066,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -29561,7 +29561,7 @@
         "product_id": "FR2628647242",
         "csp": "Bland AI",
         "cso": "Bland",
-        "cert_type": "Rev5",
+        "cert_type": "20x",
         "cert_path": "Program",
         "cert_class": "",
         "from_status": "",
@@ -30539,7 +30539,7 @@
         "cert_type": "Rev5",
         "cert_path": "Agency",
         "cert_class": "Class B",
-        "from_status": "Authorized",
+        "from_status": "FedRAMP Certified (In Remediation)",
         "to_status": "No Status Found (Delisted)",
         "transition_date": "2026-08-05T04:00:00.000Z",
         "recorded_date": "2026-08-05T04:00:00.000Z",
@@ -30979,6 +30979,21 @@
         "transition_date": "2026-08-18T18:34:44Z",
         "recorded_date": "2026-08-18T18:35:35.366Z",
         "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "bb52a44f",
+        "product_id": "FR2628647242",
+        "csp": "Bland AI",
+        "cso": "Bland",
+        "cert_type": "20x",
+        "cert_path": "Unknown",
+        "cert_class": "Class A",
+        "from_status": "Initial Implementation",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-08-06T04:00:00.000Z",
+        "recorded_date": "2026-08-18T04:00:00.000Z",
+        "source": "AppSheet",
         "comments": ""
       }
     ]
