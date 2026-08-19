@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-18T18:36:09.068Z",
+    "export_timestamp": "2026-08-19T20:59:57.985Z",
     "total_entries": 39,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
@@ -400,7 +400,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:35:42Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:37Z"
       },
       {
         "assessor": {
@@ -483,7 +483,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:35:48Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:41Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -591,7 +591,7 @@
         "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:35:49Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:42Z"
       },
       {
         "serviceIdentification": {
@@ -657,7 +657,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-17T20:59:27Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:43Z"
       },
       {
         "serviceIdentification": {
@@ -789,7 +789,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:35:50Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:42Z"
       },
       {
         "assessor": {
@@ -813,7 +813,7 @@
             },
             {
               "goal": "Move partially met rules to met and close the known gaps.",
-              "measuredBy": "Measured by the same rule verdicts summarized above: 24 partially met and 2 with known gaps at page generation. The next statement will report the same counts, so movement, or the lack of it, will be visible."
+              "measuredBy": "Measured by the same rule verdicts summarized above: 23 partially met and 2 with known gaps at page generation. The next statement will report the same counts, so movement, or the lack of it, will be visible."
             },
             {
               "goal": "Build the six-month persistent validation history that Class C reporting expects.",
@@ -833,7 +833,7 @@
           "nextUpdateDueBy": "2026-11-11",
           "notGoingWell": [
             "There is a six-day hole in the daily evidence history: no Key Security Indicator snapshots were recorded from 2026-07-31 through 2026-08-05. It cannot be backfilled and will not be. The gap stays in the record, and an assessor reading the history will see it.",
-            "24 of the 45 tracked rules are still only partially met and 2 have known gaps.",
+            "23 of the 45 tracked rules are still only partially met and 2 have known gaps.",
             "No independent assessor is engaged, and the assessment cannot start until one is."
           ],
           "rule": "MKT-IIP-DCP",
@@ -848,7 +848,7 @@
           "whereWeStand": [
             "Enablement is listed in the FedRAMP Marketplace under FedRAMP ID FR2628647239 at the Initial Implementation stage. It is not FedRAMP certified and holds zero FedRAMP authorizations. Nothing in this statement claims otherwise.",
             "The certification being pursued is a FedRAMP 20x Class C Program Certification. No date for obtaining it is promised anywhere on this page, because that decision belongs to FedRAMP, not to Advent.",
-            "Advent tracks 45 FedRAMP rules covering certification data sharing, trust center operation, cryptographic module use, minimum assessment scope, and vulnerability detection and response against its own implementation. Current standing: 13 met, 24 partially met, 2 with known gaps, 3 not applicable to this offering, and 3 not currently triggered. These counts are recomputed from the rule-by-rule verdict data every time this page is generated, so they can move between quarterly statements; the dated figures elsewhere in this statement stay as written.",
+            "Advent tracks 45 FedRAMP rules covering certification data sharing, trust center operation, cryptographic module use, minimum assessment scope, and vulnerability detection and response against its own implementation. Current standing: 14 met, 23 partially met, 2 with known gaps, 3 not applicable to this offering, and 3 not currently triggered. These counts are recomputed from the rule-by-rule verdict data every time this page is generated, so they can move between quarterly statements; the dated figures elsewhere in this statement stay as written.",
             "All 46 Key Security Indicators report at least one active automated validation method, and 42 of 46 report two or more. Verified against the daily evidence snapshot of 2026-08-11. Per-indicator evidence is available to agencies and assessors through the access-controlled endpoints listed on this page."
           ]
         },
@@ -1208,11 +1208,38 @@
             {
               "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
+              "repositoryDescription": "The periodic review that confirms every account, grant, and non-person identity on the offering is still authorized: what is reviewed, on what cadence, by whom, the signed record each review produces, and the clock on fixing what the review finds.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-access-review"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "What counts as an asset of the Enablement offering, which inventory is the record for each asset class, how assets enter and leave service, and which inventory claims Advent does not make.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-asset-management"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
               "repositoryDescription": "What is logged, where it is retained and for how long, how it is reviewed, and where automated review is real rather than asserted",
               "repositoryType": [
                 "Assessment Documentation"
               ],
               "url": "https://enablement.cc/ml/20x/doc/policy-audit-logging"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "The personal-data branch of incident response: when a security incident is also a personal-data breach, who assesses it, who gets told and on what clock, what the notification says, and what record survives. An annex to the Incident Response Policy, which continues to govern detection, containment and recovery.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-breach-notification"
             },
             {
               "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
@@ -1226,6 +1253,15 @@
             {
               "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
+              "repositoryDescription": "The ethical commitments and rules of behavior binding every person who operates or accesses the Enablement® cloud service offering: evidence honesty, acceptable use of production access, remote-work obligations, and how acknowledgment is recorded.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-code-of-conduct"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
               "repositoryDescription": "Backup siting and encryption, recovery verification, the trust-centre availability position and its stated monthly target",
               "repositoryType": [
                 "Assessment Documentation"
@@ -1235,11 +1271,56 @@
             {
               "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
+              "repositoryDescription": "How Advent continuously monitors the Enablement platform: what is scanned and by which tool, on what schedule, against which deadlines and freshness thresholds, how results reach customers and assessors, and how exceptions, known exploited vulnerabilities, and risk acceptances are decided and escalated.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-continuous-monitoring"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
               "repositoryDescription": "Which cryptography the platform uses and where, key custody and rotation including the AWS-managed key position, and the plaintext master-seed exception stated explicitly",
               "repositoryType": [
                 "Assessment Documentation"
               ],
               "url": "https://enablement.cc/ml/20x/doc/policy-cryptography"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "How CUI is identified when it arrives or is created in a tenant, what marking the platform actually affixes to the file bytes, how marked content behaves on sharing and email, the handling rules that follow from the classification level, what decontrol means for a service that designates nothing, and the precise boundary of what marking evidence proves.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-cui-marking"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "The classification levels for data held in or about the Enablement offering, the handling rule set for each level, the CUI/FCI position, and the honest state of marking enforcement.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-data-classification"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "One retention schedule for every record class the Enablement offering holds, the disposal mechanism for each, the tenant-exit path, and the enforcement state stated honestly per class.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-data-retention"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "How a request to access, correct, delete, port, object to or restrict personal information is received, verified, located, fulfilled and recorded, including which requests Advent answers itself and which belong to the customer as controller.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-data-subject-request"
             },
             {
               "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
@@ -1262,11 +1343,119 @@
             {
               "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
               "authenticationRequired": true,
+              "repositoryDescription": "The umbrella policy over Advent's security program for the Enablement® cloud service offering: management's commitment and intent, the fifteen subordinate policies that implement the program, who owns them, how they are reviewed, and the path an exception must take.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-information-security"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "The step by step handling of a CISA Known Exploited Vulnerability at Advent, from the daily catalog pull that flags it, through selection into the KEV tracker, the test first workflow with a second reviewer gate before production, the deadline that governs it, and the deploy gate that blocks a test image built with a KEV in it. Closes catalog row 29.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-kev-remediation"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Every class of media the offering touches, the NIST SP 800-88 category applied to each, the sanitization method, the verification step, and the record produced. Written for a service that owns no physical device: Advent's method is cryptographic erasure, and physical destruction is inherited from AWS GovCloud.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-media-sanitization"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
               "repositoryDescription": "Who holds authority, how governance records are produced and signed, the co-signature class introduced 2026-08-10, and the screening non-applicability with its stated trigger",
               "repositoryType": [
                 "Assessment Documentation"
               ],
               "url": "https://enablement.cc/ml/20x/doc/policy-personnel-governance"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "What must happen before any new person (employee, contractor, or subcontractor) is granted access to the offering, the checklist that grants it, the checklist that removes it, and the record each step leaves behind. Closes the commitment in Personnel Security and Governance Policy §6 and `policies/INDEX.md` §6.1 decision 14.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-personnel-screening"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "The formal statement that every physical facility hosting the offering belongs to AWS GovCloud, which physical and environmental controls are inherited under AWS's attestations, what Advent must operate on its own side for the inheritance to hold, and the remote-workstation residual that inheritance cannot cover.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-physical-environmental"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "The notice a person reads before using the Enablement platform: what personal information the service collects, why, on what basis, how long it is kept, who receives it, and how to exercise a right over it. Written to the content list that GDPR Articles 13 and 14 and the CCPA notice at collection require, and stated against what the platform does today.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-privacy-notice"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "How Advent assesses risk to the Enablement® offering: the declared objectives risk is measured against, the continuous IRV/LEV/PAIN methodology for the vulnerability class, the signed annual entity-level reviews, how fraud and change risk are considered, and how controls are selected and gaps recorded.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-risk-assessment"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "Advent's actual scanning configuration for the Enablement platform as held in the `CM_Config` row for SRC_ID 1711: what is targeted, from which vantage, with which credentials, on what schedule, with what exclusions, and in what validation and synchronization state, together with the scanner families whose cadence lives outside that row. A record of configured fact, not a policy statement. Closes catalog row 56.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-scan-configuration"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "The procedure behind Advent's training records: who is trained on the Enablement® offering, the three-area curriculum with role-based tracks, the annual and quarterly cadence, the on-grant trigger for new access, how completion becomes a signed governance record, and what happens on lapse.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-security-awareness-training"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "What maintenance is for a cloud service that owns no hardware: the five maintenance classes, what triggers each and by when, the windows and notification path, how a remote maintenance session is established and ended, how maintenance tooling is checked, who performs the work, and the records left behind.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-system-maintenance"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "How Advent inventories, tiers, assesses and reviews the third parties the Enablement offering depends on, and what happens when one is retired. Written to close the 'documented inventory but no periodic vendor review' limitation stated in the Personnel Security and Governance Policy section 8, and to give SOC 2 TSC CC9.2 a named artifact.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-vendor-risk"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "How a finding that will not be remediated inside its response deadline is reviewed, classified, decided, signed, recorded and re-reviewed at Advent: the evaluation model that decides what a person even sees, the review workflow and its single writer, the four decision classes and the artifact each produces, the two signature requirement, and the clocks that make an acceptance temporary rather than permanent. Closes catalog row 30.",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/policy-vulnerability-exception-review"
             },
             {
               "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
@@ -1469,7 +1658,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:35:50Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:43Z"
       },
       {
         "serviceIdentification": {
@@ -1527,7 +1716,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:35:52Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:44Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1622,7 +1811,7 @@
         },
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:35:53Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:44Z"
       },
       {
         "serviceIdentification": {
@@ -1716,12 +1905,12 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:35:53Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:45Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "$schemaVersion": "0.1.2",
-        "lastUpdated": "2026-08-18T18:35:54.116904+00:00",
+        "lastUpdated": "2026-08-19T20:59:45.457257+00:00",
         "sourceOfUpdate": "FedRAMP 2026 hub",
         "serviceIdentification": {
           "fedRampPackageId": "FR2628943633",
@@ -1781,17 +1970,17 @@
           {
             "serviceName": "Evidence Workspace",
             "serviceDescription": "",
-            "dateAvailable": "2026-08-17"
+            "dateAvailable": "2026-08-19"
           },
           {
             "serviceName": "Authorization OS",
             "serviceDescription": "",
-            "dateAvailable": "2026-08-17"
+            "dateAvailable": "2026-08-19"
           }
         ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:35:54Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:45Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1962,7 +2151,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:35:54Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:45Z"
       },
       {
         "serviceIdentification": {
@@ -2026,7 +2215,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:35:54Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:46Z"
       },
       {
         "serviceIdentification": {
@@ -2085,7 +2274,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:35:56Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:47Z"
       },
       {
         "assessor": {
@@ -2138,7 +2327,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:35:56Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:47Z"
       },
       {
         "serviceIdentification": {
@@ -2222,7 +2411,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:35:57Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:48Z"
       },
       {
         "serviceIdentification": {
@@ -2310,7 +2499,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:35:57Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:48Z"
       },
       {
         "serviceIdentification": {
@@ -2400,7 +2589,7 @@
         },
         "ZD_frid_retro": "FR2630354491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:35:58Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:48Z"
       },
       {
         "serviceIdentification": {
@@ -2439,7 +2628,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:35:59Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:50Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2599,7 +2788,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:35:58Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:49Z"
       },
       {
         "serviceIdentification": {
@@ -2663,7 +2852,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:35:59Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:49Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2813,7 +3002,7 @@
         },
         "ZD_frid_retro": "FR2630447318",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:36:01Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:51Z"
       },
       {
         "serviceIdentification": {
@@ -2889,7 +3078,7 @@
         ],
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:36:01Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:51Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3041,7 +3230,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:36:01Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:51Z"
       },
       {
         "publicDisclosure": {
@@ -3310,7 +3499,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:36:02Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:51Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3478,7 +3667,7 @@
         ],
         "ZD_frid_retro": "FR2631054484",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:36:02Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:52Z"
       },
       {
         "serviceIdentification": {
@@ -3546,7 +3735,7 @@
         ],
         "ZD_frid_retro": "FR2631154499",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:36:02Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:52Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3643,7 +3832,7 @@
         },
         "ZD_frid_retro": "FR2631258113",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:36:03Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:52Z"
       },
       {
         "serviceIdentification": {
@@ -3809,7 +3998,7 @@
         ],
         "ZD_frid_retro": "F1206111371",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:36:04Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:53Z"
       },
       {
         "serviceIdentification": {
@@ -3921,7 +4110,7 @@
         "lastUpdated": "2026-08-11",
         "ZD_frid_retro": "FR2631258122",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-13T21:03:00Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:53Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3982,7 +4171,7 @@
         ],
         "ZD_frid_retro": "FR2631258125",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:36:04Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:54Z"
       },
       {
         "serviceIdentification": {
@@ -4059,7 +4248,7 @@
         },
         "ZD_frid_retro": "FR2631258127",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:36:04Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:54Z"
       },
       {
         "serviceIdentification": {
@@ -4425,7 +4614,7 @@
         },
         "ZD_frid_retro": "FR2631258132",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:36:06Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:55Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4471,7 +4660,7 @@
         ],
         "ZD_frid_retro": "FR2631258135",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:36:05Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:54Z"
       },
       {
         "serviceIdentification": {
@@ -4595,7 +4784,7 @@
         ],
         "ZD_frid_retro": "FR2631354503",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:36:06Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:55Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4705,7 +4894,7 @@
         },
         "ZD_frid_retro": "FR2631654537",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:36:07Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:56Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4778,7 +4967,7 @@
         },
         "ZD_frid_retro": "FR2631747315",
         "id_matches_expected": null,
-        "last_fetched_timestamp": "2026-08-18T18:34:35Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:58Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4824,7 +5013,7 @@
         ],
         "ZD_frid_retro": "FR2631747321",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:36:08Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:57Z"
       },
       {
         "serviceIdentification": {
@@ -4876,7 +5065,7 @@
         ],
         "ZD_frid_retro": "FR2631747327",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-18T18:36:08Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:57Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4888,7 +5077,7 @@
           "providerName": "Project Hosts Inc.",
           "serviceName": "GSS One AWS",
           "serviceAcronym": "GSSOne AWS",
-          "serviceDescription": "<p>The GSSOne AWS is a General Support System (GSS) operated by Project Hosts and deployed within AWS GovCloud. The platform is designed as a secure, multi-tenant PaaS/SaaS environment that enables federal, DoD, state, local, and tribal agencies, as well as government contractors, members of the DIB and the public to deploy and operate applications in compliance with federal security requirements.</p><p><br></p><p>The GSSOne AWS Core provides a standardized set of centrally managed services that support secure application deployment and operations, including: access control, authentication, auditing, monitoring, scanning, patching, configuration management, malware prevention, intrusion prevention, incident response, backup, and disaster recovery.</p><p>These capabilities are implemented and managed by Project Hosts and are leveraged by applications deployed on the platform to meet security and compliance requirements.</p><p><br></p><p>GSSOne AWS supports two primary application deployment models:</p><p><strong>1. Applications Included Within the GSS One Authorization Boundary</strong></p><p>Certain SaaS applications are incorporated directly into the GSSOne AWS authorization boundary and are assessed and certified as part of the GSSOne AWS system.</p><p><strong>2. Applications Supported on the Platform</strong></p><p>GSSOne AWS also supports customer and Independent Software Vendor (ISV) applications that are deployed on the platform but maintain their own authorization boundary (e.g., agency ATO or ISV-owned system).</p><p>In this model, Project Hosts provides the underlying infrastructure, security services, and operational support, while the application owner maintains responsibility for their system authorization and application-specific controls.</p><p>This flexible deployment model allows agencies to either leverage existing SaaS capabilities or deploy their own applications within a secure, FedRAMP-authorized environment.</p><p><br></p><p><strong>Applications Included Within the GSS One Authorization Boundary</strong></p><p>These applications are deployed, secured, and operated as part of the GSSOne AWS system and certification.</p><p>The following SaaS applications are currently included within the GSSOne AWS authorization boundary:</p><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>GSSOne AWS Portal/Admin Page</strong></li></ol><p>Provided by Project Hosts this application provides user and administrative interfaces for account management, access provisioning, and operational support activities</p><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>JAMIS Prime ERP</strong></li></ol><p>Provided and managed by JAMIS software, JAMIS Prime ERP is a platform that provides browser and mobile access to finance, project accounting, contract management, billing, and operational workflows for U.S. government contractors. The system supports core functions including job cost/project accounting, contract and subcontract management, budgeting and forecasting, general ledger, cash management, accounts receivable/payable, timecards, expense reporting, fixed assets, distribution management, and project manufacturing. JAMIS Prime streamlines contract management and billing by centralizing documents, automating workflows and approvals, tracking contract actions and funding, supporting government-compliant billing across common contract types, and managing revenue recognition, cost ceilings, retention, labor categories, markups, ACRN funding, and contract-specific billing rules. These capabilities help improve visibility, collaboration, invoice accuracy, and timely payment processing across the contract lifecycle.</p><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Siemens Federal Cloud (SFC)</strong></li></ol><p>Provided and Managed by Siemens Government Technology,<strong> </strong>The primary software application suite within SFC consists of the Teamcenter Product Lifecycle Management (PLM) software, which is a product and process digital thread management system.&nbsp;&nbsp;Teamcenter PLM provides full product lifecycle data management services for a customer authored end item (to include requirements, product(s)&nbsp;and processes) and enables customer teams to better connect with each other on relevant data needed to make informed decisions throughout a product’s lifecycle.&nbsp;&nbsp;Teamcenter offers integration capabilities with various CAD products, serving as the central hub for managing design data throughout the product lifecycle. Teamcenter ensures that all CAD models, assemblies, and drawings are securely stored, version-controlled, and accessible within the environment. This integration allows engineers to work directly within their preferred CAD authoring tools while&nbsp;benefiting&nbsp;from Teamcenter's data management, workflow automation, and collaboration features.&nbsp;</p><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Perseus™ </strong></li></ol><p>Provided and managed by Chainbridge Solutions Inc., Perseus™ is a&nbsp;&nbsp;&nbsp;&nbsp;cloud-native SaaS product purpose-built to transform personnel security (PERSEC) workflows across the federal government. Blending deep PERSEC expertise with the scalability and performance of commercial software, Perseus™ streamlines clearance processes, enables Trusted Workforce readiness, and equips agencies with the clarity, efficiency, and confidence they need to deliver from day one.</p><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>FutureFeed and Cyber Illumination Application Environment (FutureFeed)</strong></li></ol><p>Provided and managed by Continuous Compliance, There are two main components that make up the FutureFeed environment. FutureFeed is a robust, SaaS-based compliance management platform.&nbsp;Using FutureFeed’s powerful automation and reporting capabilities, organizations create a security-oriented culture that permeates the organization.&nbsp;Organizations use FutureFeed to create and maintain information security programs that comply with legal and regulatory requirements, and to prove compliance at any time.</p><p><br></p><p>Cyber Illumination is a supply chain communication, risk identification, and risk management tool.&nbsp;Federal agencies, government contractors, and commercial entities can use Cyber Illumination to gain better insight into and control over the risks, including cybersecurity risks, associated with their vendors and business partners.&nbsp;Clients can leverage Cyber Illumination’s built-in questionnaires, or create custom questionnaires, to gain the knowledge they need to better manage their supply chain risks.&nbsp;When a client’s vendor also uses FutureFeed, the vendor and the client enjoy seamless integration and robust, automated information sharing that takes the hassles out of supply chain risk management.</p><p><br></p><p><strong>Applications Supported on the Platform</strong></p><p>GSSOne AWS also supports customer and Independent Software Vendor (ISV) applications that are deployed on the platform but maintain their own authorization boundary (e.g., agency ATO or ISV-owned system). Each of the systems below have been vetted and meets the FedRAMP requirements and are ready to pursue FedRAMP certification or have been certified under their own listing and are viewable under the dependent product list.</p><p><br></p><p>Examples of supported applications include:</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>1Factory (1Factory)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>202 Group/ BlueVoyant Government Services (Supply Chain Command)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Brightly (Brightly Software)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Caveonix (Caveonix Platform)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>CloudApper (Cloudapper.ai)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>H2O.ai (H2O.ai Cloud for Government)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Invicti (Invicti Application Security Posture Management (ASPM) and Invicti Unified Platform (UP)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Microsoft (Office, Dynamics, Power BI Server, Project Server, SharePoint, SSRS)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>ProSymmetry</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>San Luis Aviation, Inc. (ESChat)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>TELCLOUD (TELCLOUD)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>TCP Software (TimeClock Plus)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>WordPress (WordPress CMS)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>WordPress As a Service (WPaaS)</li></ol><p><br></p><p>For each of these applications, Project Hosts provides deployment, security, and operational support services for these applications, enabling customers to leverage the GSSOne AWS platform while maintaining flexibility in how their systems are authorized and managed. Performing these functions on the partner’s behalf allows the software vendors to focus on their core business model in delivering a secure, highly functional application to the agency while Project Hosts handles the security/ compliance requirements.</p><p><br></p><p>In either scenario, GSSOne AWS customers also are provided with access to the following systems running on the GSS One Azure system.</p><p><strong>GSS One Command Center (GSSOCC)</strong></p><p>The GSS One Command Center is a centralized compliance and operations platform that gives agencies and CSP partners real-time visibility into system security, risk, and authorization status. Designed to meet FedRAMP Rev. 5 BIRs and aligned with the direction of FedRAMP 20x, the GSSOCC supports a shift toward continuous, evidence-driven validation rather than static, point-in-time assessments.</p><p>It serves as a single pane of glass for managing the full lifecycle of authorization and operations, bringing together system documentation, vulnerability data, incident tracking, change control, and monitoring into one integrated experience. By linking controls directly to supporting evidence and operational data, the GSSOCC reduces the overhead of maintaining compliance and enables faster, more transparent ATO decisions for agencies.</p><p><br></p><p><strong>GSS One Support Center: </strong></p><p>Project Hosts has configured a customer-facing support portal for creating and managing support tickets powered by Atlassian Jira. This allows customers to view all of their relevant tickets, create tickets, submit change control requests, upload screenshots, review knowledgebases and communicate with PH staff through a secure channel.</p>",
+          "serviceDescription": "The GSSOne AWS is a General Support System (GSS) operated by Project Hosts and deployed within AWS GovCloud. The platform is designed as a secure, multi-tenant PaaS/SaaS environment that enables federal, DoD, state, local, and tribal agencies, as well as government contractors, members of the DIB and the public to deploy and operate applications in compliance with federal security requirements.\n\nThe GSSOne AWS Core provides a standardized set of centrally managed services that support secure application deployment and operations, including: access control, authentication, auditing, monitoring, scanning, patching, configuration management, malware prevention, intrusion prevention, incident response, backup, and disaster recovery.\n\nThese capabilities are implemented and managed by Project Hosts and are leveraged by applications deployed on the platform to meet security and compliance requirements.\n\nGSSOne AWS supports two primary application deployment models:\n\n**1. Applications Included Within the GSS One Authorization Boundary**\n\nCertain SaaS applications are incorporated directly into the GSSOne AWS authorization boundary and are assessed and certified as part of the GSSOne AWS system.\n\n**2. Applications Supported on the Platform**\n\nGSSOne AWS also supports customer and Independent Software Vendor (ISV) applications that are deployed on the platform but maintain their own authorization boundary (e.g., agency ATO or ISV-owned system).\n\nIn this model, Project Hosts provides the underlying infrastructure, security services, and operational support, while the application owner maintains responsibility for their system authorization and application-specific controls.\n\nThis flexible deployment model allows agencies to either leverage existing SaaS capabilities or deploy their own applications within a secure, FedRAMP-authorized environment.\n\n**Applications Included Within the GSS One Authorization Boundary**\n\nThese applications are deployed, secured, and operated as part of the GSSOne AWS system and certification.\n\nThe following SaaS applications are currently included within the GSSOne AWS authorization boundary:\n\n- **GSSOne AWS Portal/Admin Page**\n\nProvided by Project Hosts this application provides user and administrative interfaces for account management, access provisioning, and operational support activities\n\n- **JAMIS Prime ERP**\n\nProvided and managed by JAMIS software, JAMIS Prime ERP is a platform that provides browser and mobile access to finance, project accounting, contract management, billing, and operational workflows for U.S. government contractors. The system supports core functions including job cost/project accounting, contract and subcontract management, budgeting and forecasting, general ledger, cash management, accounts receivable/payable, timecards, expense reporting, fixed assets, distribution management, and project manufacturing. JAMIS Prime streamlines contract management and billing by centralizing documents, automating workflows and approvals, tracking contract actions and funding, supporting government-compliant billing across common contract types, and managing revenue recognition, cost ceilings, retention, labor categories, markups, ACRN funding, and contract-specific billing rules. These capabilities help improve visibility, collaboration, invoice accuracy, and timely payment processing across the contract lifecycle.\n\n- **Siemens Federal Cloud (SFC)**\n\nProvided and Managed by Siemens Government Technology,** **The primary software application suite within SFC consists of the Teamcenter Product Lifecycle Management (PLM) software, which is a product and process digital thread management system. Teamcenter PLM provides full product lifecycle data management services for a customer authored end item (to include requirements, product(s) and processes) and enables customer teams to better connect with each other on relevant data needed to make informed decisions throughout a product’s lifecycle. Teamcenter offers integration capabilities with various CAD products, serving as the central hub for managing design data throughout the product lifecycle. Teamcenter ensures that all CAD models, assemblies, and drawings are securely stored, version-controlled, and accessible within the environment. This integration allows engineers to work directly within their preferred CAD authoring tools while benefiting from Teamcenter's data management, workflow automation, and collaboration features.\n\n- **Perseus™ **\n\nProvided and managed by Chainbridge Solutions Inc., Perseus™ is a cloud-native SaaS product purpose-built to transform personnel security (PERSEC) workflows across the federal government. Blending deep PERSEC expertise with the scalability and performance of commercial software, Perseus™ streamlines clearance processes, enables Trusted Workforce readiness, and equips agencies with the clarity, efficiency, and confidence they need to deliver from day one.\n\n- **FutureFeed and Cyber Illumination Application Environment (FutureFeed)**\n\nProvided and managed by Continuous Compliance, There are two main components that make up the FutureFeed environment. FutureFeed is a robust, SaaS-based compliance management platform. Using FutureFeed’s powerful automation and reporting capabilities, organizations create a security-oriented culture that permeates the organization. Organizations use FutureFeed to create and maintain information security programs that comply with legal and regulatory requirements, and to prove compliance at any time.\n\nCyber Illumination is a supply chain communication, risk identification, and risk management tool. Federal agencies, government contractors, and commercial entities can use Cyber Illumination to gain better insight into and control over the risks, including cybersecurity risks, associated with their vendors and business partners. Clients can leverage Cyber Illumination’s built-in questionnaires, or create custom questionnaires, to gain the knowledge they need to better manage their supply chain risks. When a client’s vendor also uses FutureFeed, the vendor and the client enjoy seamless integration and robust, automated information sharing that takes the hassles out of supply chain risk management.\n\n**Applications Supported on the Platform**\n\nGSSOne AWS also supports customer and Independent Software Vendor (ISV) applications that are deployed on the platform but maintain their own authorization boundary (e.g., agency ATO or ISV-owned system). Each of the systems below have been vetted and meets the FedRAMP requirements and are ready to pursue FedRAMP certification or have been certified under their own listing and are viewable under the dependent product list.\n\nExamples of supported applications include:\n\n- 1Factory (1Factory)\n- 202 Group/ BlueVoyant Government Services (Supply Chain Command)\n- Brightly (Brightly Software)\n- Caveonix (Caveonix Platform)\n- CloudApper (Cloudapper.ai)\n- H2O.ai (H2O.ai Cloud for Government)\n- Invicti (Invicti AppSec Platform)\n- Microsoft (Office, Dynamics, Power BI Server, Project Server, SharePoint, SSRS)\n- ProSymmetry\n- San Luis Aviation, Inc. (ESChat)\n- TELCLOUD (TELCLOUD)\n- TCP Software (TimeClock Plus)\n- WordPress (WordPress CMS)\n- WordPress As a Service (WPaaS)\n\nFor each of these applications, Project Hosts provides deployment, security, and operational support services for these applications, enabling customers to leverage the GSSOne AWS platform while maintaining flexibility in how their systems are authorized and managed. Performing these functions on the partner’s behalf allows the software vendors to focus on their core business model in delivering a secure, highly functional application to the agency while Project Hosts handles the security/ compliance requirements.\n\nIn either scenario, GSSOne AWS customers also are provided with access to the following systems running on the GSS One Azure system.\n\n**GSS One Command Center (GSSOCC)**\n\nThe GSS One Command Center is a centralized compliance and operations platform that gives agencies and CSP partners real-time visibility into system security, risk, and authorization status. Designed to meet FedRAMP Rev. 5 BIRs and aligned with the direction of FedRAMP 20x, the GSSOCC supports a shift toward continuous, evidence-driven validation rather than static, point-in-time assessments.\n\nIt serves as a single pane of glass for managing the full lifecycle of authorization and operations, bringing together system documentation, vulnerability data, incident tracking, change control, and monitoring into one integrated experience. By linking controls directly to supporting evidence and operational data, the GSSOCC reduces the overhead of maintaining compliance and enables faster, more transparent ATO decisions for agencies.\n\n**GSS One Support Center: **\n\nProject Hosts has configured a customer-facing support portal for creating and managing support tickets powered by Atlassian Jira. This allows customers to view all of their relevant tickets, create tickets, submit change control requests, upload screenshots, review knowledgebases and communicate with PH staff through a secure channel.\n\n## FedRAMP Certification and Marketplace Metadata\n\nThe following information is provided within the Overall System Description to ensure that material certification information remains visible while corresponding FedRAMP Marketplace fields and relationships are being synchronized with the Certification Package Overview (CPO).\n\n- **Cloud Service Offering:** GSS One AWS\n- **Cloud Service Provider:** Project Hosts Inc.\n- **FedRAMP Package ID:** FR2300457485\n- **FedRAMP Certification Status:** FedRAMP Certified\n- **Certification Type:** Rev5\n- **Certification Path:** Agency\n- **Certification Class:** Class D\n- **Security Impact Level:** High\n- **Certified Since:** April 6, 2026\n- **Lifecycle Phase:** Ongoing Certification\n- **Authorizing Agency:** U.S. Department of Health and Human Services (HHS) – National Heart, Lung, and Blood Institute (NHLBI)\n- **Agency Authorizations:** 1\n- **Recorded Dependent Product / Reuse Relationships:** 3\n- **Independent Assessor / 3PAO:** Lunarline, Inc.\n- **Assessor ID:** 137004\n\n### Certified Services\n\nThe following services are included as Certified Services within the GSS One AWS certification. Unless otherwise noted, each service operates within the GSS One AWS authorization boundary at the **High** security impact level and under **Certification Class D**.\n\n#### GSSOne AWS Core\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nThe GSSOne AWS Core provides a standardized set of centrally managed services that support secure application deployment and operations, including access control, authentication, auditing, monitoring, scanning, patching, configuration management, malware prevention, intrusion prevention, incident response, backup, and disaster recovery.\n\n#### GSSOne Admin/User Portal\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nGSSOne Admin/User Portal provides a centralized interface for customer onboarding, account provisioning, access management, billing visibility, and authorized administrative activities. Administrative actions are governed through role-based access controls and documented approval workflows.\n\n#### GSSOne SMTP Service\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvides centrally managed email relay and routing services for applications operating within the authorization boundary. The service supports controlled delivery, encryption, authentication, logging, and monitoring of system-generated email.\n\n#### GSSOne Certificate Authority\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvides centralized certificate issuance, validation, renewal, revocation, and lifecycle management for system components. It supports trusted encrypted communications and consistent certificate governance across the environment.\n\n#### GSSOne CertForge\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nAutomates the generation, deployment, renewal, and tracking of TLS certificates used by authorized applications and infrastructure. Automation reduces expired-certificate risk while supporting approved cryptographic and certificate-management requirements.\n\n#### GSSOne Illumination/Inventory\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvides automated discovery and inventory of cloud resources, configurations, and security-relevant attributes within the environment. The service supports continuous compliance validation, evidence generation, configuration-drift identification, and centralized reporting.\n\n#### JAMIS Prime ERP\n\n- **Date Available:** June 14, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvided and managed by JAMIS Software, JAMIS Prime ERP is a platform that provides browser and mobile access to finance, project accounting, contract management, billing, and operational workflows for U.S. government contractors.\n\nThe system supports core functions including job cost/project accounting, contract and subcontract management, budgeting and forecasting, general ledger, cash management, accounts receivable/payable, timecards, expense reporting, fixed assets, distribution management, and project manufacturing.\n\nJAMIS Prime streamlines contract management and billing by centralizing documents, automating workflows and approvals, tracking contract actions and funding, supporting government-compliant billing across common contract types, and managing revenue recognition, cost ceilings, retention, labor categories, markups, ACRN funding, and contract-specific billing rules. These capabilities help improve visibility, collaboration, invoice accuracy, and timely payment processing across the contract lifecycle.\n\n#### Siemens Federal Cloud (SFC)\n\n- **Date Available:** June 14, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvided and managed by Siemens Government Technologies, the primary software application suite within SFC consists of the Teamcenter Product Lifecycle Management (PLM) software, which is a product and process digital-thread management system.\n\nTeamcenter PLM provides full product lifecycle data management services for a customer-authored end item, including requirements, products, and processes, and enables customer teams to better connect with each other using the relevant data needed to make informed decisions throughout a product's lifecycle.\n\nTeamcenter offers integration capabilities with various CAD products, serving as the central hub for managing design data throughout the product lifecycle. Teamcenter ensures that CAD models, assemblies, and drawings are securely stored, version-controlled, and accessible within the environment. This integration allows engineers to work directly within their preferred CAD authoring tools while benefiting from Teamcenter's data management, workflow automation, and collaboration features.\n\n#### Chainbridge Perseus™\n\n- **Date Available:** August 17, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvided and managed by Chainbridge Solutions Inc., Perseus™ is a cloud-native SaaS product purpose-built to transform personnel security (PERSEC) workflows across the federal government.\n\nBlending deep PERSEC expertise with the scalability and performance of commercial software, Perseus™ streamlines clearance processes, enables Trusted Workforce readiness, and equips agencies with the clarity, efficiency, and confidence needed to support personnel security operations from day one.\n\n#### FutureFeed\n\n- **Date Available:** August 17, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvided and managed by Continuous Compliance, the FutureFeed environment consists of two primary components: FutureFeed and Cyber Illumination.\n\nFutureFeed is a SaaS-based compliance management platform. Using FutureFeed's automation and reporting capabilities, organizations can create and maintain information security programs that comply with applicable legal and regulatory requirements and provide evidence of compliance.\n\nCyber Illumination is a supply-chain communication, risk-identification, and risk-management tool. Federal agencies, government contractors, and commercial entities can use Cyber Illumination to gain greater insight into and control over risks, including cybersecurity risks, associated with vendors and business partners.\n\nClients can leverage Cyber Illumination's built-in questionnaires or create custom questionnaires to obtain information needed to manage supply-chain risks. When a client's vendor also uses FutureFeed, the vendor and client can use integrated and automated information sharing to improve the efficiency of supply-chain risk management.\n\n## Agency Authorization and Reuse Relationships\n\nGSS One AWS maintains an Agency certification path associated with the **U.S. Department of Health and Human Services (HHS), National Heart, Lung, and Blood Institute (NHLBI)**.\n\nThe FedRAMP Marketplace metadata associated with the certification has historically reflected:\n\n- **Agency Authorizations:** 1\n- **Dependent Product / Reuse Relationships:** 3\n- **Certification Path:** Agency\n- **Certification Class:** Class D (High)\n- **Certified Since:** April 6, 2026\n\nGSS One AWS also serves as an underlying authorized platform for applications and cloud service offerings that leverage GSS One AWS security, infrastructure, and operational capabilities. Depending on the application deployment and authorization model, these relationships may be represented as included Certified Services, dependent products, reuse relationships, or separately authorized customer systems.\n\nThe information in this section is included to preserve visibility into the certification and authorization relationships associated with GSS One AWS where corresponding structured Marketplace fields are not currently displayed.",
           "certificationType": "Rev5",
           "website": "https://projecthosts.com/solutions/fedramp/",
           "logo": "https://projecthosts.com/wp-content/uploads/2024/12/Vector_ProjectHosts_logo.png"
@@ -4929,7 +5118,7 @@
               "repositoryType": [
                 "FedRAMP Marketplace"
               ],
-              "url": "https://marketplace.fedramp.gov/products/FR2300457485",
+              "url": "https://www.fedramp.gov/marketplace/products/FR2300457485",
               "repositoryDescription": "FedRAMP Marketplace listing for the cloud service offering.",
               "authenticationRequired": false
             }
@@ -5000,13 +5189,13 @@
           },
           {
             "serviceName": "FutureFeed",
-            "serviceDescription": "Provided and managed by Continuous Compliance, there are two main components that make up the FutureFeed environment. FutureFeed is a robust, SaaS-based compliance management platform. Using FutureFeed’s powerful automation and reporting capabilities, organizations create a security-oriented culture that permeates the organization. Organizations use FutureFeed to create and maintain information security programs that comply with legal and regulatory requirements, and to prove compliance at any time. Cyber Illumination is a supply chain communication, risk identification, and risk management tool. Federal agencies, government contractors, and commercial entities can use Cyber Illumination to gain better insight into and control over the risks, including cybersecurity risks, associated with their vendors and business partners. Clients can leverage Cyber Illumination’s built-in questionnaires, or create custom questionnaires, to gain the knowledge they need to better manage their supply chain risks. When a client’s vendor also uses FutureFeed, the vendor and the client enjoy seamless integration and robust, automated information sharing that takes the hassles out of supply chain risk management. Security Category: High, Certification Class: D",
+            "serviceDescription": "Provided and managed by Continuous Compliance, there are two main components that make up the FutureFeed environment. FutureFeed is a robust, SaaS-based compliance management platform. Using FutureFeed’s powerful automation and reporting capabilities, organizations create a security-oriented culture that permeates the organization. Organizations use FutureFeed to create and maintain information security programs that comply with legal and regulatory requirements, and to prove compliance at any time.\n\nCyber Illumination is a supply chain communication, risk identification, and risk management tool. Federal agencies, government contractors, and commercial entities can use Cyber Illumination to gain better insight into and control over the risks, including cybersecurity risks, associated with their vendors and business partners. Clients can leverage Cyber Illumination’s built-in questionnaires, or create custom questionnaires, to gain the knowledge they need to better manage their supply chain risks. When a client’s vendor also uses FutureFeed, the vendor and the client enjoy seamless integration and robust, automated information sharing that takes the hassles out of supply chain risk management. Security Category: High, Certification Class: D",
             "dateAvailable": "2026-08-17"
           }
         ],
         "ZD_frid_retro": "FR2300457485",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-18T18:36:09Z"
+        "last_fetched_timestamp": "2026-08-19T20:59:57Z"
       }
     ]
   }
