@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-20T19:59:30.958Z",
-    "total_entries": 2066,
+    "export_timestamp": "2026-08-21T19:59:29.872Z",
+    "total_entries": 2067,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -30993,6 +30993,21 @@
         "to_status": "FedRAMP In Process",
         "transition_date": "2026-08-06T04:00:00.000Z",
         "recorded_date": "2026-08-18T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "5d87209b",
+        "product_id": "FR2513256853",
+        "csp": "StackArmor",
+        "cso": "The Armory",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class D",
+        "from_status": "PMO Review",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-08-21T04:00:00.000Z",
+        "recorded_date": "2026-08-21T04:00:00.000Z",
         "source": "AppSheet",
         "comments": ""
       }
