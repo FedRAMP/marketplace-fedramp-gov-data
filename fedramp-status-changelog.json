@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-25T19:59:30.723Z",
-    "total_entries": 2078,
+    "export_timestamp": "2026-08-26T19:59:30.249Z",
+    "total_entries": 2079,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -31173,6 +31173,21 @@
         "to_status": "FedRAMP Certified",
         "transition_date": "2026-08-25T04:00:00.000Z",
         "recorded_date": "2026-08-25T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "77ae076b",
+        "product_id": "FR2600545894",
+        "csp": "Butterfly Network Inc.",
+        "cso": "Butterfly Network Ultrasound",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "PMO Review",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-08-26T04:00:00.000Z",
+        "recorded_date": "2026-08-26T04:00:00.000Z",
         "source": "AppSheet",
         "comments": ""
       }
