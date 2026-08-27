@@ -4,3 +4,7 @@ A new repository under the FedRAMP org that performs functionally similar to GSA
 ## Update frequency
 * Legacy FedRAMP certification data and associated agency and assessor mappings (`data.json`) will be uploaded between 2-3 AM ET daily.
 * Marketplace status changelog (`fedramp-status-changelog.json`) will be uploaded between 3-4 AM ET daily.
+* `fedramp-cso-pkg.json`, `fedramp-mkt-cas-web.json`, and `fedramp-mkt-ias-web.json` are updated as needed.
+
+## JSON Schemas
+JSON Schemas related to the export artifacts are located on https://github.com/FedRAMP/schemas
