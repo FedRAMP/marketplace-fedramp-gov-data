@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "export_timestamp": "2026-08-27T20:09:12.760Z",
+    "total_entries": 2,
+    "description": "FedRAMP data MKT-CAS-WEB export from GSA system"
+  },
+  "data": {
+    "mkt-cas-web": [
+      {
+        "advisorName": "Fortinetics LLC",
+        "logo": "https://fortinetics.com/fortinetics-mark.svg",
+        "serviceDescription": "Fortinetics LLC is a compliance architecture firm working with cloud service providers entering the federal market and with defense contractors handling Controlled Unclassified Information. Advisory scope covers FedRAMP authorization under the Consolidated Rules for 2026, including both the 20x and Rev 5 paths and the Certification Classes that grade assurance, together with DoD Cloud Computing SRG Impact Levels 2 through 6. The firm designs the control architecture, builds the evidence pipeline, authors the documentation a 3PAO reviews, and supports the provider through assessment and continuous monitoring. A member of the team contributed to the CMMC standard at the U.S. Department of Defense in 2019. Engagements are architecture-led rather than audit-led: the firm does not perform assessments and is not a 3PAO or a C3PAO.",
+        "contactInformation": [
+          "contact@fortinetics.com",
+          "https://fortinetics.com/contact/",
+          "Commonwealth of Virginia, United States"
+        ],
+        "servicesOffered": [
+          {
+            "serviceName": "Greenfield IT & Security",
+            "serviceDescription": "Greenfield IT, security, and compliance, built right the first time. For startups winning their first defense contract and firms opening new CUI-handling facilities. We design, build, and deploy the full stack (network, identity, endpoints, cloud, SIEM, enclave), compliance-ready on day one."
+          },
+          {
+            "serviceName": "CMMC 2.0",
+            "serviceDescription": "CMMC readiness, including what to do now that Phase 2 is suspended. End-to-end support for defense contractors handling FCI or CUI. 110 NIST 800-171 Rev 2 controls across 14 families, by a team that includes a contributor to the standard. Phase 2 is suspended. The obligations underneath it are not."
+          },
+          {
+            "serviceName": "FedRAMP & DoD CC SRG",
+            "serviceDescription": "FedRAMP certification and the CR26 rules that become mandatory January 1, 2027. FedRAMP Certification under the Consolidated Rules for 2026, where Classes A through D measure assurance rather than replace the Low/Moderate/High impact levels, plus DoD CSP SRG Impact Levels 2 through 6 for CSPs hosting DoD workloads."
+          },
+          {
+            "serviceName": "SOC 2",
+            "serviceDescription": "SOC 2 Type I and Type II: architected, not checkbox-automated. SOC 2 Type I and Type II for commercial SaaS proving security posture to enterprise buyers. Control design and implementation, not a dashboard that watches you fail."
+          },
+          {
+            "serviceName": "ISO 27001",
+            "serviceDescription": "ISO 27001:2022 — a working ISMS, not a binder. ISO 27001:2022 certification for global and enterprise requirements. ISMS design, Annex A selection, Statement of Applicability, and Stage 1/Stage 2 audit management."
+          },
+          {
+            "serviceName": "Classified Networks",
+            "serviceDescription": "SCIF and SAPF accreditation support for classified network enclaves. Secure network architecture and facility accreditation support for defense primes. JWICS, SIPRNet, and Space Force enclaves. Designed to ICD 705, CNSSI 1253, NISPOM, and RMF."
+          }
+        ],
+        "ZD_assessor_advisor_name": "Fortinetics LLC",
+        "last_fetched_timestamp": "2026-08-27T20:09:12Z"
+      },
+      {
+        "advisorName": "Verdict Technologies Inc.",
+        "logo": "https://verdictcorp.com/logo.png",
+        "serviceDescription": "Verdict Technologies is a regulatory compliance and governance firm. We take on the compliance work for our clients and run it, across federal authorization, commercial assurance, and AI governance, and deliver it through a client portal. We prepare and maintain the record. We do not assess, audit, or certify it. Assessment is performed by an independent assessor, and that independence is structural: the party that builds a package cannot be the party that assesses it. An agency Authorization to Operate is the decision of that agency’s authorizing official to accept the risk of running a service for their mission. That decision is theirs alone, and every agency makes its own. Where third-party conformity assessment applies, it is performed by a notified body, and certification belongs to an accredited certification body. We build and maintain what those parties examine. Nothing we produce constitutes legal advice.",
+        "contactInformation": [
+          "corporate@verdictcorp.com"
+        ],
+        "servicesOffered": [
+          {
+            "serviceName": "Federal Authorization",
+            "serviceDescription": "Advisory support for organizations pursuing a FedRAMP Certified designation, and for the contractors and agencies operating federal systems. We prepare and maintain the security package across Certification Classes A through D, through the Initial Implementation Phase listing state, and through the continuous monitoring that follows. A provider chooses one path per cloud service offering — 20x, covering Classes A, B, and C, or Rev5, covering Classes B, C, and D — and we work across both. Assessment belongs to the independent assessor, and the Authorization to Operate decision belongs to the agency. System security plans covering the applicable NIST SP 800-53 baseline; Control implementation statements, written to be examined rather than skimmed; Readiness review ahead of an independent assessor; Findings and plans of action and milestones, with owners and traceability; Certification packages prepared for agency review; Continuous monitoring deliverables and periodic control assessments; FISMA reporting support; SSDF attestation records for federal software supply chain requirements; GovRAMP (formerly StateRAMP) packages for state, local, tribal, and education government cloud services."
+          },
+          {
+            "serviceName": "Commercial Assurance",
+            "serviceDescription": "Advisory support for organizations whose buyers require proof before they will sign. We run the readiness work, carry it through the auditor or certification body, and keep the record current between cycles. The opinion belongs to the CPA firm and the certificate to the certification body. Readiness assessment against the criteria your buyers actually invoke; Control design, implementation statements, and the evidence behind each; Risk assessments and, for ISO/IEC 27001, the statement of applicability; Findings and remediation plans with owners and dates; Evidence collection across the observation period for a SOC 2 Type II; Internal audit and management review records for a certifiable management system; HIPAA risk analysis, safeguard documentation, and policy set; Support through auditor or certification body fieldwork, and the responses it generates."
+          },
+          {
+            "serviceName": "AI Governance",
+            "serviceDescription": "Advisory support for organizations carrying obligations under the EU AI Act, the NIST AI Risk Management Framework, and ISO/IEC 42001. We inventory the AI systems an organization builds, embeds, and deploys, classify them with the reasoning recorded, and maintain the governance record as the rules move. Where third-party conformity assessment applies, it is performed by a notified body. An inventory of the AI systems you build, embed, and deploy; Role and risk classification for each system, with the reasoning recorded; AI system impact assessments covering effects on the people subject to them; Technical documentation and risk management records for systems in scope; Data governance records covering provenance, quality, and fitness for purpose; An AI policy and the management system records behind it; Findings and remediation plans where obligations are not yet met."
+          }
+        ],
+        "ZD_assessor_advisor_name": "Verdict Technologies Inc.",
+        "last_fetched_timestamp": "2026-08-27T20:09:12Z"
+      }
+    ]
+  }
+}
