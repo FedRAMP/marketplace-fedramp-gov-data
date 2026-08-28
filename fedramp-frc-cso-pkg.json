@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-25T15:37:05.251Z",
-    "total_entries": 45,
+    "export_timestamp": "2026-08-28T14:04:29.931Z",
+    "total_entries": 49,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -274,7 +274,7 @@
               ],
               "compensatingControls": [
                 "Secret protection, application authorization, source and import audit metadata, user-selected transfer, and in-boundary access controls after import.",
-                "The effective Microsoft Graph permission grant was independently verified on 2026-08-16 two ways: the appRoleAssignments on the service principal, and the roles claim of a live client-credentials token. Both show Sites.Read.All and Files.ReadWrite.All. Source review confirms every Graph call the connector makes is a read, so the write scope is unused; removing it is a production permission change paired with the next SharePoint import smoke test. Because the connected tenant is Tarly-operated and holds no customer or federal data, the unused scope reaches no customer content."
+                "The effective Microsoft Graph permission grant was independently verified on 2026-08-26 two ways: the appRoleAssignments on the service principal, and the roles claim of a live client-credentials token. Both show Sites.Read.All and no other application role, so the connector holds no write authority over any site collection. Source review confirms every Graph call the connector makes is a read. An unused Files.ReadWrite.All role observed on 2026-08-16 was removed on 2026-08-18 and its absence is confirmed by this measurement. Because the connected tenant is Tarly-operated and holds no customer or federal data, the remaining read scope reaches no customer content."
               ]
             }
           ]
@@ -378,11 +378,22 @@
         },
         "changeNotificationMechanism": {
           "mechanism": "Controlled certification-data distribution channel",
-          "description": "Tarly supplies every formal Significant Change Notification to FedRAMP and to each necessary agency or assessment party through a single mechanism: the controlled certification-data distribution channel. Each notice is retained with its exact sent bytes and SHA-256, the complete recipient population, one digest-bound delivery receipt per party, delivery timestamps, and an immutable archive URI and SHA-256.",
+          "description": "Tarly supplies every formal Significant Change Notification to every necessary party through a single mechanism: the controlled certification-data distribution channel. Entitled agency and assessment parties can read every change record and notice in a browser on the gated Significant Change Notices page, which serves the same controlled bundle behind per-party entitlement credentials. Each notice is retained with its exact bytes and SHA-256, the complete recipient population, one digest-bound delivery receipt per party when delivered, delivery timestamps, and an immutable archive URI and SHA-256.",
           "publishedAt": "https://gov.tarly.co/trust/index.html#change-notification-mechanism",
           "accessGuide": "https://gov.tarly.co/trust/access.html",
+          "gatedNoticesPage": "https://gov.tarly.co/trust/significant-changes.html",
           "machineReadableAccessGuide": "https://gov.tarly.co/trust/access.json",
           "procedure": "compliance/docs/significant-change-procedure.md"
+        },
+        "incidentNotificationMechanism": {
+          "status": "Implemented; no real FedRAMP Reportable Incident or real incident report has occurred",
+          "mechanism": "FedRAMP email, verified agency-specific procedures, and the controlled certification-data distribution channel",
+          "description": "Tarly sends every approved Initial, Ongoing, and Final Incident Report to fedramp_security@fedramp.gov, to every affected agency through its verified agency-specific procedure, and to all necessary parties through an update to the entitlement-gated controlled Trust Center. The controlled update contains the exact validated human-readable and JSON pair in the signed incident-reports manifest category; publication is generation-first and pointer-last, and the operator verifies served bytes and retains a digest-bound delivery result per recipient. No real report exists when no reportable incident has occurred.",
+          "publishedAt": "https://gov.tarly.co/trust/index.html#incident-notification-mechanism",
+          "accessGuide": "https://gov.tarly.co/trust/access.html#incident-notification-mechanism",
+          "machineReadableAccessGuide": "https://gov.tarly.co/trust/access.json",
+          "controlledManifestEndpoint": "https://gov.tarly.co/api/trust/controlled/manifest",
+          "procedure": "compliance/docs/incident-reporting-procedure.md"
         },
         "contactInformation": [
           {
@@ -400,7 +411,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:36:45Z"
+        "last_fetched_timestamp": "2026-08-28T14:03:49Z"
       },
       {
         "assessor": {
@@ -483,7 +494,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:48Z"
+        "last_fetched_timestamp": "2026-08-28T14:03:54Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -591,7 +602,7 @@
         "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:36:49Z"
+        "last_fetched_timestamp": "2026-08-28T14:03:55Z"
       },
       {
         "serviceIdentification": {
@@ -657,7 +668,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:35:33Z"
+        "last_fetched_timestamp": "2026-08-28T14:03:57Z"
       },
       {
         "serviceIdentification": {
@@ -789,7 +800,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:36:49Z"
+        "last_fetched_timestamp": "2026-08-28T14:03:56Z"
       },
       {
         "assessor": {
@@ -813,7 +824,7 @@
             },
             {
               "goal": "Move partially met rules to met and close the known gaps.",
-              "measuredBy": "Measured by the same rule verdicts summarized above: 23 partially met and 2 with known gaps at page generation. The next statement will report the same counts, so movement, or the lack of it, will be visible."
+              "measuredBy": "Measured by the same rule verdicts summarized above: 16 partially met and 2 with known gaps at page generation. The next statement will report the same counts, so movement, or the lack of it, will be visible."
             },
             {
               "goal": "Build the six-month persistent validation history that Class C reporting expects.",
@@ -837,7 +848,7 @@
           "nextUpdateDueBy": "2026-11-11",
           "notGoingWell": [
             "There is a six-day hole in the daily evidence history: no Key Security Indicator snapshots were recorded from 2026-07-31 through 2026-08-05. It cannot be backfilled and will not be. The gap stays in the record, and an assessor reading the history will see it.",
-            "23 of the 45 tracked rules are still only partially met and 2 have known gaps.",
+            "16 of the 45 tracked rules are still only partially met and 2 have known gaps.",
             "An independent assessor is engaged as of 2026-08-25, but no independent assessment has been performed yet. Every per indicator assessment statement in the Security Decision Record still reads as not yet assessed, and none of them may be written by the provider."
           ],
           "rule": "MKT-IIP-DCP",
@@ -852,7 +863,7 @@
           "whereWeStand": [
             "Enablement is listed in the FedRAMP Marketplace under FedRAMP ID FR2628647239 at the Initial Implementation stage. It is not FedRAMP certified and holds zero FedRAMP authorizations. Nothing in this statement claims otherwise.",
             "The certification being pursued is a FedRAMP 20x Class C Program Certification. No date for obtaining it is promised anywhere on this page, because that decision belongs to FedRAMP, not to Advent.",
-            "Advent tracks 45 FedRAMP rules covering certification data sharing, trust center operation, cryptographic module use, minimum assessment scope, and vulnerability detection and response against its own implementation. Current standing: 14 met, 23 partially met, 2 with known gaps, 3 not applicable to this offering, and 3 not currently triggered. These counts are recomputed from the rule-by-rule verdict data every time this page is generated, so they can move between quarterly statements; the dated figures elsewhere in this statement stay as written.",
+            "Advent tracks 45 FedRAMP rules covering certification data sharing, trust center operation, cryptographic module use, minimum assessment scope, and vulnerability detection and response against its own implementation. Current standing: 21 met, 16 partially met, 2 with known gaps, 3 not applicable to this offering, and 3 not currently triggered. These counts are recomputed from the rule-by-rule verdict data every time this page is generated, so they can move between quarterly statements; the dated figures elsewhere in this statement stay as written.",
             "All 46 Key Security Indicators report at least one active automated validation method, and 42 of 46 report two or more. Verified against the daily evidence snapshot of 2026-08-11. Per-indicator evidence is available to agencies and assessors through the access-controlled endpoints listed on this page."
           ]
         },
@@ -1038,9 +1049,10 @@
             "avi": "https://enablement.cc/ml/20x/avi?src_id=1711",
             "historical": "https://enablement.cc/ml/20x/historical?src_id=1711",
             "ksi": "https://enablement.cc/ml/20x/ksi?src_id=1711",
+            "mas_information_flows": "https://enablement.cc/ml/20x/mas/flows",
+            "mas_information_resources": "https://enablement.cc/ml/20x/mas/resources",
+            "mas_metadata": "https://enablement.cc/ml/20x/mas/metadata",
             "ocr": "https://enablement.cc/ml/20x/ocr?src_id=1711",
-            "oscal_ar": "https://enablement.cc/ml/oscal/assessment-results?src_id=1711",
-            "oscal_poam": "https://enablement.cc/ml/oscal/poam?src_id=1711",
             "sdr": "https://enablement.cc/ml/20x/sdr?src_id=1711",
             "vdr": "https://enablement.cc/ml/20x/vdr?src_id=1711"
           },
@@ -1154,24 +1166,6 @@
                 "Machine-Readable Authorization Data"
               ],
               "url": "https://enablement.cc/ml/20x/ksi?src_id=1711"
-            },
-            {
-              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
-              "authenticationRequired": true,
-              "repositoryDescription": "Rev5 OSCAL Plan of Action & Milestones",
-              "repositoryType": [
-                "Machine-Readable Authorization Data"
-              ],
-              "url": "https://enablement.cc/ml/oscal/poam?src_id=1711"
-            },
-            {
-              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
-              "authenticationRequired": true,
-              "repositoryDescription": "Rev5 OSCAL Assessment Results",
-              "repositoryType": [
-                "Machine-Readable Authorization Data"
-              ],
-              "url": "https://enablement.cc/ml/oscal/assessment-results?src_id=1711"
             },
             {
               "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
@@ -1662,7 +1656,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:49Z"
+        "last_fetched_timestamp": "2026-08-28T14:03:57Z"
       },
       {
         "serviceIdentification": {
@@ -1720,11 +1714,13 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:51Z"
+        "last_fetched_timestamp": "2026-08-28T14:03:58Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
-        "lastUpdated": "2026-07-28",
+        "version": "1.0",
+        "lastUpdatedDateTime": "2026-08-26 14:30",
+        "source": "System Operations Team",
         "serviceIdentification": {
           "fedRampPackageId": "FR2628943664",
           "ueiNumber": "PL1GB2CMMCK5",
@@ -1813,9 +1809,41 @@
             }
           ]
         },
+        "relevantPolicies": {
+          "url": "https://trust.paramify.com/xfinion",
+          "authenticationRequired": true,
+          "accessRequestInstructions": "https://trust.paramify.com/xfinion/continuously-aware-realtime-tracking-network-cartn/deliverables"
+        },
+        "identifiedInformationResources": {
+          "resourcesIdentified": false,
+          "statement": "No information resources within the CARTN CSO boundary process, store, or transmit federal data, CUI, or PII."
+        },
+        "informationFlows": {
+          "url": "https://trust.paramify.com/xfinion",
+          "authenticationRequired": true,
+          "accessRequestInstructions": "https://trust.paramify.com/xfinion/continuously-aware-realtime-tracking-network-cartn/deliverables"
+        },
+        "cryptographicModules": [
+          {
+            "moduleName": "Cryptographic Primitives Library",
+            "usedIn": "Microsoft Azure Storage Accounts, Azure SQL Server, Azure Key Vault, and Azure Blob Storage; Microsoft Entra ID (Entra IDaaS - CARTN IdP)",
+            "purpose": "Inherited from the FedRAMP-authorized Azure Commercial platform. Provides AES-256 encryption of data at rest and TLS 1.2 / 2048-bit RSA for data in transit (IoT-to-API and API-to-database) and identity operations.",
+            "nistCmvpValidated": true,
+            "certificateNumber": "4825",
+            "isUpdateStream": false
+          },
+          {
+            "moduleName": "Kernel Mode Cryptographic Primitives Library",
+            "usedIn": "Underlying Windows Server infrastructure supporting the Azure and Microsoft Entra ID services used by CARTN",
+            "purpose": "Inherited from the FedRAMP-authorized Azure Commercial platform. Provides kernel-mode AES-256, TLS 1.2, and 2048-bit RSA cryptographic operations for the same components.",
+            "nistCmvpValidated": true,
+            "certificateNumber": "4766",
+            "isUpdateStream": false
+          }
+        ],
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:51Z"
+        "last_fetched_timestamp": "2026-08-28T14:03:59Z"
       },
       {
         "serviceIdentification": {
@@ -1909,12 +1937,12 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:36:51Z"
+        "last_fetched_timestamp": "2026-08-28T14:03:59Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "$schemaVersion": "0.1.2",
-        "lastUpdated": "2026-08-25T15:36:52.055249+00:00",
+        "lastUpdated": "2026-08-28T14:04:05.219720+00:00",
         "sourceOfUpdate": "FedRAMP 2026 hub",
         "serviceIdentification": {
           "fedRampPackageId": "FR2628943633",
@@ -2006,7 +2034,7 @@
         ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:36:52Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:05Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2177,7 +2205,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:52Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:05Z"
       },
       {
         "serviceIdentification": {
@@ -2241,7 +2269,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:52Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:06Z"
       },
       {
         "serviceIdentification": {
@@ -2300,7 +2328,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:53Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:07Z"
       },
       {
         "assessor": {
@@ -2353,7 +2381,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:54Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:09Z"
       },
       {
         "serviceIdentification": {
@@ -2437,7 +2465,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:54Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:10Z"
       },
       {
         "serviceIdentification": {
@@ -2525,7 +2553,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:36:54Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:10Z"
       },
       {
         "serviceIdentification": {
@@ -2615,7 +2643,7 @@
         },
         "ZD_frid_retro": "FR2630354491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:55Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:11Z"
       },
       {
         "serviceIdentification": {
@@ -2654,7 +2682,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:56Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:12Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2814,7 +2842,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:55Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:11Z"
       },
       {
         "serviceIdentification": {
@@ -2878,7 +2906,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:56Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:12Z"
       },
       {
         "serviceIdentification": {
@@ -2954,7 +2982,7 @@
         ],
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:57Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:13Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3106,7 +3134,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:36:57Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:14Z"
       },
       {
         "publicDisclosure": {
@@ -3375,7 +3403,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:36:57Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:14Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3496,7 +3524,7 @@
         ],
         "documentationOverview": {
           "status": "Initial Implementation Phase",
-          "lastUpdated": "2026-08-15",
+          "lastUpdated": "2026-08-25",
           "availableDocumentation": [
             {
               "name": "FedRAMP Certification Package Overview",
@@ -3524,7 +3552,6 @@
             }
           ],
           "materialsInDevelopment": [
-            "SOC 2 Type II assessment materials",
             "FedRAMP Class A certification materials",
             "Quarterly FedRAMP implementation progress updates"
           ]
@@ -3537,13 +3564,13 @@
           },
           {
             "contactType": "Sales",
-            "contactName": "Public Sector Revenue Operations",
-            "contactEmail": "revops-pub-sec+sam@anysphere.co"
+            "contactName": "Thomas Stamos",
+            "contactEmail": "thomas.stamos@cursor.com"
           }
         ],
         "ZD_frid_retro": "FR2631054484",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:36:58Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:15Z"
       },
       {
         "serviceIdentification": {
@@ -3611,7 +3638,7 @@
         ],
         "ZD_frid_retro": "FR2631154499",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:36:58Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:15Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3708,7 +3735,7 @@
         },
         "ZD_frid_retro": "FR2631258113",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:36:58Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:15Z"
       },
       {
         "serviceIdentification": {
@@ -3874,7 +3901,7 @@
         ],
         "ZD_frid_retro": "F1206111371",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:36:58Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:17Z"
       },
       {
         "serviceIdentification": {
@@ -3986,7 +4013,7 @@
         "lastUpdated": "2026-08-11",
         "ZD_frid_retro": "FR2631258122",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:35:48Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:16Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4047,7 +4074,7 @@
         ],
         "ZD_frid_retro": "FR2631258125",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:37:00Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:17Z"
       },
       {
         "serviceIdentification": {
@@ -4124,7 +4151,7 @@
         },
         "ZD_frid_retro": "FR2631258127",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:36:59Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:17Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4170,7 +4197,7 @@
         ],
         "ZD_frid_retro": "FR2631258135",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:37:00Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:18Z"
       },
       {
         "serviceIdentification": {
@@ -4294,7 +4321,7 @@
         ],
         "ZD_frid_retro": "F1311222650",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:37:00Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:18Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4404,20 +4431,20 @@
         },
         "ZD_frid_retro": "FR2631654537",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:37:01Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:20Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "serviceIdentification": {
-          "fedRampPackageId": "",
+          "fedRampPackageId": "FR2631747315",
           "ueiNumber": "FYX9J759QPE4",
           "providerName": "Sustainment Technologies Inc.",
           "serviceName": "Sustainment Digital Manufacturing Hub",
           "serviceAcronym": "DMH",
-          "serviceDescription": "Sustainment Digital Manufacturing Hub (DMH) is a cloud-based platform that provides advanced manufacturing capabilities, including AI-driven analytics, operations management, and data management solutions for government agencies.",
+          "serviceDescription": "Sustainment Digital Manufacturing Hub (DMH) is a cloud-based supplier discovery and market research platform that helps government agencies identify, evaluate, and connect with qualified U.S. manufacturing suppliers. DMH provides AI-driven supplier intelligence, including capabilities data, certifications, machine and process information, and past performance context. Our platform enables acquisition teams, program offices, and sourcing specialists to conduct market research and strengthen the defense industrial base. DMH is the government enclave of the Sustainment platform, purpose-built for federal security and compliance requirements.",
           "certificationType": "20x",
           "website": "https://sustainment.com",
-          "logo": "https://cdn.prod.website-files.com/67082abf9680c4d0489861fb/6875b3a87bb05de07b4cd3d2_SUST-Logo-Full_White%20(1).png"
+          "logo": "https://fedramp.sustainment.com/ST_Horizontal_Logo_RGB_Blk.png"
         },
         "serviceProperties": {
           "serviceType": [
@@ -4425,9 +4452,10 @@
           ],
           "deploymentModel": "Government-Only Cloud",
           "businessCategory": [
-            "Artificial Intelligence (AI)",
             "Operations Management",
+            "Collaboration",
             "Analytics",
+            "Artificial Intelligence (AI)",
             "Data Management"
           ],
           "trustCenter": {
@@ -4464,20 +4492,14 @@
             "contactPhone": "833-412-1962"
           }
         ],
-        "certifiedServices": [
-          {
-            "serviceName": "SOC 2 Type II",
-            "serviceDescription": "SOC 2 Type II report for Sustainment Technologies Inc. platform.",
-            "dateAvailable": "2026-02-15"
-          }
-        ],
+        "certifiedServices": [],
         "thirdPartyInformationResources": {
           "certified": [],
           "nonCertified": []
         },
         "ZD_frid_retro": "FR2631747315",
-        "id_matches_expected": null,
-        "last_fetched_timestamp": "2026-08-25T15:35:53Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-08-28T14:04:22Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4523,7 +4545,7 @@
         ],
         "ZD_frid_retro": "FR2631747321",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:37:02Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:21Z"
       },
       {
         "serviceIdentification": {
@@ -4575,7 +4597,7 @@
         ],
         "ZD_frid_retro": "FR2631747327",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:37:02Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:21Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4587,7 +4609,7 @@
           "providerName": "Project Hosts Inc.",
           "serviceName": "GSS One AWS",
           "serviceAcronym": "GSSOne AWS",
-          "serviceDescription": "The GSSOne AWS is a General Support System (GSS) operated by Project Hosts and deployed within AWS GovCloud. The platform is designed as a secure, multi-tenant PaaS/SaaS environment that enables federal, DoD, state, local, and tribal agencies, as well as government contractors, members of the DIB and the public to deploy and operate applications in compliance with federal security requirements.\n\nThe GSSOne AWS Core provides a standardized set of centrally managed services that support secure application deployment and operations, including: access control, authentication, auditing, monitoring, scanning, patching, configuration management, malware prevention, intrusion prevention, incident response, backup, and disaster recovery.\n\nThese capabilities are implemented and managed by Project Hosts and are leveraged by applications deployed on the platform to meet security and compliance requirements.\n\nGSSOne AWS supports two primary application deployment models:\n\n**1. Applications Included Within the GSS One Authorization Boundary**\n\nCertain SaaS applications are incorporated directly into the GSSOne AWS authorization boundary and are assessed and certified as part of the GSSOne AWS system.\n\n**2. Applications Supported on the Platform**\n\nGSSOne AWS also supports customer and Independent Software Vendor (ISV) applications that are deployed on the platform but maintain their own authorization boundary (e.g., agency ATO or ISV-owned system).\n\nIn this model, Project Hosts provides the underlying infrastructure, security services, and operational support, while the application owner maintains responsibility for their system authorization and application-specific controls.\n\nThis flexible deployment model allows agencies to either leverage existing SaaS capabilities or deploy their own applications within a secure, FedRAMP-authorized environment.\n\n**Applications Included Within the GSS One Authorization Boundary**\n\nThese applications are deployed, secured, and operated as part of the GSSOne AWS system and certification.\n\nThe following SaaS applications are currently included within the GSSOne AWS authorization boundary:\n\n- **GSSOne AWS Portal/Admin Page**\n\nProvided by Project Hosts this application provides user and administrative interfaces for account management, access provisioning, and operational support activities\n\n- **JAMIS Prime ERP**\n\nProvided and managed by JAMIS software, JAMIS Prime ERP is a platform that provides browser and mobile access to finance, project accounting, contract management, billing, and operational workflows for U.S. government contractors. The system supports core functions including job cost/project accounting, contract and subcontract management, budgeting and forecasting, general ledger, cash management, accounts receivable/payable, timecards, expense reporting, fixed assets, distribution management, and project manufacturing. JAMIS Prime streamlines contract management and billing by centralizing documents, automating workflows and approvals, tracking contract actions and funding, supporting government-compliant billing across common contract types, and managing revenue recognition, cost ceilings, retention, labor categories, markups, ACRN funding, and contract-specific billing rules. These capabilities help improve visibility, collaboration, invoice accuracy, and timely payment processing across the contract lifecycle.\n\n- **Siemens Federal Cloud (SFC)**\n\nProvided and Managed by Siemens Government Technology,The primary software application suite within SFC consists of the Teamcenter Product Lifecycle Management (PLM) software, which is a product and process digital thread management system. Teamcenter PLM provides full product lifecycle data management services for a customer authored end item (to include requirements, product(s) and processes) and enables customer teams to better connect with each other on relevant data needed to make informed decisions throughout a product’s lifecycle. Teamcenter offers integration capabilities with various CAD products, serving as the central hub for managing design data throughout the product lifecycle. Teamcenter ensures that all CAD models, assemblies, and drawings are securely stored, version-controlled, and accessible within the environment. This integration allows engineers to work directly within their preferred CAD authoring tools while benefiting from Teamcenter's data management, workflow automation, and collaboration features.\n\n- **Perseus™**\n\nProvided and managed by Chainbridge Solutions Inc., Perseus™ is a cloud-native SaaS product purpose-built to transform personnel security (PERSEC) workflows across the federal government. Blending deep PERSEC expertise with the scalability and performance of commercial software, Perseus™ streamlines clearance processes, enables Trusted Workforce readiness, and equips agencies with the clarity, efficiency, and confidence they need to deliver from day one.\n\n- **FutureFeed and Cyber Illumination Application Environment (FutureFeed)**\n\nProvided and managed by Continuous Compliance, There are two main components that make up the FutureFeed environment. FutureFeed is a robust, SaaS-based compliance management platform. Using FutureFeed’s powerful automation and reporting capabilities, organizations create a security-oriented culture that permeates the organization. Organizations use FutureFeed to create and maintain information security programs that comply with legal and regulatory requirements, and to prove compliance at any time.\n\nCyber Illumination is a supply chain communication, risk identification, and risk management tool. Federal agencies, government contractors, and commercial entities can use Cyber Illumination to gain better insight into and control over the risks, including cybersecurity risks, associated with their vendors and business partners. Clients can leverage Cyber Illumination’s built-in questionnaires, or create custom questionnaires, to gain the knowledge they need to better manage their supply chain risks. When a client’s vendor also uses FutureFeed, the vendor and the client enjoy seamless integration and robust, automated information sharing that takes the hassles out of supply chain risk management.\n\n**Applications Supported on the Platform**\n\nGSSOne AWS also supports customer and Independent Software Vendor (ISV) applications that are deployed on the platform but maintain their own authorization boundary (e.g., agency ATO or ISV-owned system). Each of the systems below have been vetted and meets the FedRAMP requirements and are ready to pursue FedRAMP certification or have been certified under their own listing and are viewable under the dependent product list.\n\nExamples of supported applications include:\n\n- 1Factory (1Factory)\n- 202 Group/ BlueVoyant Government Services (Supply Chain Command)\n- Brightly (Brightly Software)\n- Caveonix (Caveonix Platform)\n- CloudApper (Cloudapper.ai)\n- H2O.ai (H2O.ai Cloud for Government)\n- Invicti (Invicti AppSec Platform)\n- Microsoft (Office, Dynamics, Power BI Server, Project Server, SharePoint, SSRS)\n- ProSymmetry\n- San Luis Aviation, Inc. (ESChat)\n- TELCLOUD (TELCLOUD)\n- TCP Software (TimeClock Plus)\n- WordPress (WordPress CMS)\n- WordPress As a Service (WPaaS)\n\nFor each of these applications, Project Hosts provides deployment, security, and operational support services for these applications, enabling customers to leverage the GSSOne AWS platform while maintaining flexibility in how their systems are authorized and managed. Performing these functions on the partner’s behalf allows the software vendors to focus on their core business model in delivering a secure, highly functional application to the agency while Project Hosts handles the security/ compliance requirements.\n\nIn either scenario, GSSOne AWS customers also are provided with access to the following systems running on the GSS One Azure system.\n\n**GSS One Command Center (GSSOCC)**\n\nThe GSS One Command Center is a centralized compliance and operations platform that gives agencies and CSP partners real-time visibility into system security, risk, and authorization status. Designed to meet FedRAMP Rev. 5 BIRs and aligned with the direction of FedRAMP 20x, the GSSOCC supports a shift toward continuous, evidence-driven validation rather than static, point-in-time assessments.\n\nIt serves as a single pane of glass for managing the full lifecycle of authorization and operations, bringing together system documentation, vulnerability data, incident tracking, change control, and monitoring into one integrated experience. By linking controls directly to supporting evidence and operational data, the GSSOCC reduces the overhead of maintaining compliance and enables faster, more transparent ATO decisions for agencies.\n\n**GSS One Support Center:**\n\nProject Hosts has configured a customer-facing support portal for creating and managing support tickets powered by Atlassian Jira. This allows customers to view all of their relevant tickets, create tickets, submit change control requests, upload screenshots, review knowledgebases and communicate with PH staff through a secure channel.\n\n## FedRAMP Certification and Marketplace Metadata\n\n- **Cloud Service Offering:** GSS One AWS\n- **Cloud Service Provider:** Project Hosts Inc.\n- **FedRAMP Package ID:** FR2300457485\n- **FedRAMP Certification Status:** FedRAMP Certified\n- **Certification Type:** Rev5\n- **Certification Path:** Agency\n- **Certification Class:** Class D\n- **Security Impact Level:** High\n- **Certified Since:** April 6, 2026\n- **Lifecycle Phase:** Ongoing Certification\n- **Authorizing Agency:** U.S. Department of Health and Human Services (HHS) – National Heart, Lung, and Blood Institute (NHLBI)\n- **Agency Authorizations:** 1\n- **Recorded Dependent Product / Reuse Relationships:** 3\n- **Independent Assessor / 3PAO:** Lunarline, Inc.\n- **Assessor ID:** 137004\n\n###\n\n## Certified Services\n\nThe following services are included as Certified Services within the GSS One AWS certification. Unless otherwise noted, each service operates within the GSS One AWS authorization boundary at the **High** security impact level and under **Certification Class D**.\n\n### **GSSOne AWS Core**\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nThe GSSOne AWS Core provides a standardized set of centrally managed services that support secure application deployment and operations, including access control, authentication, auditing, monitoring, scanning, patching, configuration management, malware prevention, intrusion prevention, incident response, backup, and disaster recovery.\n\n### **GSSOne Admin/User Portal**\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nGSSOne Admin/User Portal provides a centralized interface for customer onboarding, account provisioning, access management, billing visibility, and authorized administrative activities. Administrative actions are governed through role-based access controls and documented approval workflows.\n\n### **GSSOne SMTP Service**\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvides centrally managed email relay and routing services for applications operating within the authorization boundary. The service supports controlled delivery, encryption, authentication, logging, and monitoring of system-generated email.\n\n### **GSSOne Certificate Authority**\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvides centralized certificate issuance, validation, renewal, revocation, and lifecycle management for system components. It supports trusted encrypted communications and consistent certificate governance across the environment.\n\n### **GSSOne CertForge**\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nAutomates the generation, deployment, renewal, and tracking of TLS certificates used by authorized applications and infrastructure. Automation reduces expired-certificate risk while supporting approved cryptographic and certificate-management requirements.\n\n### **GSSOne Illumination/Inventory**\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvides automated discovery and inventory of cloud resources, configurations, and security-relevant attributes within the environment. The service supports continuous compliance validation, evidence generation, configuration-drift identification, and centralized reporting.\n\n### **JAMIS Prime ERP**\n\n- **Date Available:** June 14, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvided and managed by JAMIS Software, JAMIS Prime ERP is a platform that provides browser and mobile access to finance, project accounting, contract management, billing, and operational workflows for U.S. government contractors.\n\nThe system supports core functions including job cost/project accounting, contract and subcontract management, budgeting and forecasting, general ledger, cash management, accounts receivable/payable, timecards, expense reporting, fixed assets, distribution management, and project manufacturing.\n\nJAMIS Prime streamlines contract management and billing by centralizing documents, automating workflows and approvals, tracking contract actions and funding, supporting government-compliant billing across common contract types, and managing revenue recognition, cost ceilings, retention, labor categories, markups, ACRN funding, and contract-specific billing rules. These capabilities help improve visibility, collaboration, invoice accuracy, and timely payment processing across the contract lifecycle.\n\n### **Siemens Federal Cloud (SFC)**\n\n- **Date Available:** June 14, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvided and managed by Siemens Government Technologies, the primary software application suite within SFC consists of the Teamcenter Product Lifecycle Management (PLM) software, which is a product and process digital-thread management system.\n\nTeamcenter PLM provides full product lifecycle data management services for a customer-authored end item, including requirements, products, and processes, and enables customer teams to better connect with each other using the relevant data needed to make informed decisions throughout a product's lifecycle.\n\nTeamcenter offers integration capabilities with various CAD products, serving as the central hub for managing design data throughout the product lifecycle. Teamcenter ensures that CAD models, assemblies, and drawings are securely stored, version-controlled, and accessible within the environment. This integration allows engineers to work directly within their preferred CAD authoring tools while benefiting from Teamcenter's data management, workflow automation, and collaboration features.\n\n### **Chainbridge Perseus™**\n\n- **Date Available:** August 17, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvided and managed by Chainbridge Solutions Inc., Perseus™ is a cloud-native SaaS product purpose-built to transform personnel security (PERSEC) workflows across the federal government.\n\nBlending deep PERSEC expertise with the scalability and performance of commercial software, Perseus™ streamlines clearance processes, enables Trusted Workforce readiness, and equips agencies with the clarity, efficiency, and confidence needed to support personnel security operations from day one.\n\n### **FutureFeed**\n\n- **Date Available:** August 17, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvided and managed by Continuous Compliance, the FutureFeed environment consists of two primary components: FutureFeed and Cyber Illumination.\n\nFutureFeed is a SaaS-based compliance management platform. Using FutureFeed's automation and reporting capabilities, organizations can create and maintain information security programs that comply with applicable legal and regulatory requirements and provide evidence of compliance.\n\nCyber Illumination is a supply-chain communication, risk-identification, and risk-management tool. Federal agencies, government contractors, and commercial entities can use Cyber Illumination to gain greater insight into and control over risks, including cybersecurity risks, associated with vendors and business partners.\n\nClients can leverage Cyber Illumination's built-in questionnaires or create custom questionnaires to obtain information needed to manage supply-chain risks. When a client's vendor also uses FutureFeed, the vendor and client can use integrated and automated information sharing to improve the efficiency of supply-chain risk management.\n\n## Agency Authorization and Reuse Relationships\n\nGSS One AWS maintains an Agency certification path associated with the **U.S. Department of Health and Human Services (HHS), National Heart, Lung, and Blood Institute (NHLBI)**.\n\nThe FedRAMP Marketplace metadata associated with the certification:\n\n- **Agency Authorizations:** 1\n- **Dependent Product / Reuse Relationships:** 3\n- **Certification Path:** Agency\n- **Certification Class:** Class D (High)\n- **Certified Since:** April 6, 2026\n\nGSS One AWS also serves as an underlying authorized platform for applications and cloud service offerings that leverage GSS One AWS security, infrastructure, and operational capabilities. Depending on the application deployment and authorization model, these relationships may be represented as included Certified Services, dependent products, reuse relationships, or separately authorized customer systems.\n\nThe information in this section is included to preserve visibility into the certification and authorization relationships associated with GSS One AWS where corresponding structured Marketplace fields are not currently displayed.",
+          "serviceDescription": "The GSSOne AWS is a General Support System (GSS) operated by Project Hosts and deployed within AWS GovCloud. The platform is designed as a secure, multi-tenant PaaS/SaaS environment that enables federal, DoD, state, local, and tribal agencies, as well as government contractors, members of the DIB and the public to deploy and operate applications in compliance with federal security requirements.\n\nThe GSSOne AWS Core provides a standardized set of centrally managed services that support secure application deployment and operations, including: access control, authentication, auditing, monitoring, scanning, patching, configuration management, malware prevention, intrusion prevention, incident response, backup, and disaster recovery.\n\nThese capabilities are implemented and managed by Project Hosts and are leveraged by applications deployed on the platform to meet security and compliance requirements.\n\nGSSOne AWS supports two primary application deployment models:\n\n**1. Applications Included Within the GSS One Authorization Boundary**\n\nCertain SaaS applications are incorporated directly into the GSSOne AWS authorization boundary and are assessed and certified as part of the GSSOne AWS system.\n\n**2. Applications Supported on the Platform**\n\nGSSOne AWS also supports customer and Independent Software Vendor (ISV) applications that are deployed on the platform but maintain their own authorization boundary (e.g., agency ATO or ISV-owned system).\n\nIn this model, Project Hosts provides the underlying infrastructure, security services, and operational support, while the application owner maintains responsibility for their system authorization and application-specific controls.\n\nThis flexible deployment model allows agencies to either leverage existing SaaS capabilities or deploy their own applications within a secure, FedRAMP-authorized environment.\n\n**Applications Included Within the GSS One Authorization Boundary**\n\nThese applications are deployed, secured, and operated as part of the GSSOne AWS system and certification.\n\nThe following SaaS applications are currently included within the GSSOne AWS authorization boundary:\n\n- **GSSOne AWS Portal/Admin Page**\n\nProvided by Project Hosts this application provides user and administrative interfaces for account management, access provisioning, and operational support activities\n\n- **JAMIS Prime ERP**\n\nProvided and managed by JAMIS software, JAMIS Prime ERP is a platform that provides browser and mobile access to finance, project accounting, contract management, billing, and operational workflows for U.S. government contractors. The system supports core functions including job cost/project accounting, contract and subcontract management, budgeting and forecasting, general ledger, cash management, accounts receivable/payable, timecards, expense reporting, fixed assets, distribution management, and project manufacturing. JAMIS Prime streamlines contract management and billing by centralizing documents, automating workflows and approvals, tracking contract actions and funding, supporting government-compliant billing across common contract types, and managing revenue recognition, cost ceilings, retention, labor categories, markups, ACRN funding, and contract-specific billing rules. These capabilities help improve visibility, collaboration, invoice accuracy, and timely payment processing across the contract lifecycle.\n\n- **Siemens Federal Cloud (SFC)**\n\nProvided and Managed by Siemens Government Technology,The primary software application suite within SFC consists of the Teamcenter Product Lifecycle Management (PLM) software, which is a product and process digital thread management system.  Teamcenter PLM provides full product lifecycle data management services for a customer authored end item (to include requirements, product(s) and processes) and enables customer teams to better connect with each other on relevant data needed to make informed decisions throughout a product’s lifecycle.  Teamcenter offers integration capabilities with various CAD products, serving as the central hub for managing design data throughout the product lifecycle. Teamcenter ensures that all CAD models, assemblies, and drawings are securely stored, version-controlled, and accessible within the environment. This integration allows engineers to work directly within their preferred CAD authoring tools while benefiting from Teamcenter's data management, workflow automation, and collaboration features.\n\n- **Perseus™**\n\nProvided and managed by Chainbridge Solutions Inc., Perseus™ is a cloud-native SaaS product purpose-built to transform personnel security (PERSEC) workflows across the federal government. Blending deep PERSEC expertise with the scalability and performance of commercial software, Perseus™ streamlines clearance processes, enables Trusted Workforce readiness, and equips agencies with the clarity, efficiency, and confidence they need to deliver from day one.\n\n- **FutureFeed and Cyber Illumination Application Environment (FutureFeed)**\n\nProvided and managed by Continuous Compliance, There are two main components that make up the FutureFeed environment. FutureFeed is a robust, SaaS-based compliance management platform. Using FutureFeed’s powerful automation and reporting capabilities, organizations create a security-oriented culture that permeates the organization. Organizations use FutureFeed to create and maintain information security programs that comply with legal and regulatory requirements, and to prove compliance at any time.\n\nCyber Illumination is a supply chain communication, risk identification, and risk management tool. Federal agencies, government contractors, and commercial entities can use Cyber Illumination to gain better insight into and control over the risks, including cybersecurity risks, associated with their vendors and business partners. Clients can leverage Cyber Illumination’s built-in questionnaires, or create custom questionnaires, to gain the knowledge they need to better manage their supply chain risks. When a client’s vendor also uses FutureFeed, the vendor and the client enjoy seamless integration and robust, automated information sharing that takes the hassles out of supply chain risk management.\n\n**Applications Supported on the Platform**\n\nGSSOne AWS also supports customer and Independent Software Vendor (ISV) applications that are deployed on the platform but maintain their own authorization boundary (e.g., agency ATO or ISV-owned system). Each of the systems below have been vetted and meets the FedRAMP requirements and are ready to pursue FedRAMP certification or have been certified under their own listing and are viewable under the dependent product list.\n\nExamples of supported applications include:\n\n- 1Factory (1Factory)\n- 202 Group/ BlueVoyant Government Services (Supply Chain Command)\n- Brightly (Brightly Software)\n- Caveonix (Caveonix Platform)\n- CloudApper (Cloudapper.ai)\n- H2O.ai (H2O.ai Cloud for Government)\n- Invicti (Invicti AppSec Platform)\n- Microsoft (Office, Dynamics, Power BI Server, Project Server, SharePoint, SSRS)\n- ProSymmetry\n- San Luis Aviation, Inc. (ESChat)\n- TELCLOUD (TELCLOUD)\n- TCP Software (TimeClock Plus)\n- WordPress (WordPress CMS)\n- WordPress As a Service (WPaaS)\n\nFor each of these applications, Project Hosts provides deployment, security, and operational support services for these applications, enabling customers to leverage the GSSOne AWS platform while maintaining flexibility in how their systems are authorized and managed. Performing these functions on the partner’s behalf allows the software vendors to focus on their core business model in delivering a secure, highly functional application to the agency while Project Hosts handles the security/ compliance requirements.\n\nIn either scenario, GSSOne AWS customers also are provided with access to the following systems running on the GSS One Azure system.\n\n**GSS One Command Center (GSSOCC)**\n\nThe GSS One Command Center is a centralized compliance and operations platform that gives agencies and CSP partners real-time visibility into system security, risk, and authorization status. Designed to meet FedRAMP Rev. 5 BIRs and aligned with the direction of FedRAMP 20x, the GSSOCC supports a shift toward continuous, evidence-driven validation rather than static, point-in-time assessments.\n\nIt serves as a single pane of glass for managing the full lifecycle of authorization and operations, bringing together system documentation, vulnerability data, incident tracking, change control, and monitoring into one integrated experience. By linking controls directly to supporting evidence and operational data, the GSSOCC reduces the overhead of maintaining compliance and enables faster, more transparent ATO decisions for agencies.\n\n**GSS One Support Center:**\n\nProject Hosts has configured a customer-facing support portal for creating and managing support tickets powered by Atlassian Jira. This allows customers to view all of their relevant tickets, create tickets, submit change control requests, upload screenshots, review knowledgebases and communicate with PH staff through a secure channel.\n\n## FedRAMP Certification and Marketplace Metadata\n\n- **Cloud Service Offering:** GSS One AWS\n- **Cloud Service Provider:** Project Hosts Inc.\n- **FedRAMP Package ID:** FR2300457485\n- **FedRAMP Certification Status:** FedRAMP Certified\n- **Certification Type:** Rev5\n- **Certification Path:** Agency\n- **Certification Class:** Class D\n- **Security Impact Level:** High\n- **Certified Since:** April 6, 2026\n- **Lifecycle Phase:** Ongoing Certification\n- **Authorizing Agency:** U.S. Department of Health and Human Services (HHS) – National Heart, Lung, and Blood Institute (NHLBI)\n- **Agency Authorizations:** 1\n- **Recorded Dependent Product / Reuse Relationships:** 3\n- **Independent Assessor / 3PAO:** Lunarline, Inc.\n- **Assessor ID:** 137004\n\n###\n\n## Certified Services\n\nThe following services are included as Certified Services within the GSS One AWS certification. Unless otherwise noted, each service operates within the GSS One AWS authorization boundary at the **High** security impact level and under **Certification Class D**.\n\n### **GSSOne AWS Core**\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nThe GSSOne AWS Core provides a standardized set of centrally managed services that support secure application deployment and operations, including access control, authentication, auditing, monitoring, scanning, patching, configuration management, malware prevention, intrusion prevention, incident response, backup, and disaster recovery.\n\n### **GSSOne Admin/User Portal**\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nGSSOne Admin/User Portal provides a centralized interface for customer onboarding, account provisioning, access management, billing visibility, and authorized administrative activities. Administrative actions are governed through role-based access controls and documented approval workflows.\n\n### **GSSOne SMTP Service**\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvides centrally managed email relay and routing services for applications operating within the authorization boundary. The service supports controlled delivery, encryption, authentication, logging, and monitoring of system-generated email.\n\n### **GSSOne Certificate Authority**\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvides centralized certificate issuance, validation, renewal, revocation, and lifecycle management for system components. It supports trusted encrypted communications and consistent certificate governance across the environment.\n\n### **GSSOne CertForge**\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nAutomates the generation, deployment, renewal, and tracking of TLS certificates used by authorized applications and infrastructure. Automation reduces expired-certificate risk while supporting approved cryptographic and certificate-management requirements.\n\n### **GSSOne Illumination/Inventory**\n\n- **Date Available:** April 6, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvides automated discovery and inventory of cloud resources, configurations, and security-relevant attributes within the environment. The service supports continuous compliance validation, evidence generation, configuration-drift identification, and centralized reporting.\n\n### **JAMIS Prime ERP**\n\n- **Date Available:** June 14, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvided and managed by JAMIS Software, JAMIS Prime ERP is a platform that provides browser and mobile access to finance, project accounting, contract management, billing, and operational workflows for U.S. government contractors.\n\nThe system supports core functions including job cost/project accounting, contract and subcontract management, budgeting and forecasting, general ledger, cash management, accounts receivable/payable, timecards, expense reporting, fixed assets, distribution management, and project manufacturing.\n\nJAMIS Prime streamlines contract management and billing by centralizing documents, automating workflows and approvals, tracking contract actions and funding, supporting government-compliant billing across common contract types, and managing revenue recognition, cost ceilings, retention, labor categories, markups, ACRN funding, and contract-specific billing rules. These capabilities help improve visibility, collaboration, invoice accuracy, and timely payment processing across the contract lifecycle.\n\n### **Siemens Federal Cloud (SFC)**\n\n- **Date Available:** June 14, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvided and managed by Siemens Government Technologies, the primary software application suite within SFC consists of the Teamcenter Product Lifecycle Management (PLM) software, which is a product and process digital-thread management system.\n\nTeamcenter PLM provides full product lifecycle data management services for a customer-authored end item, including requirements, products, and processes, and enables customer teams to better connect with each other using the relevant data needed to make informed decisions throughout a product's lifecycle.\n\nTeamcenter offers integration capabilities with various CAD products, serving as the central hub for managing design data throughout the product lifecycle. Teamcenter ensures that CAD models, assemblies, and drawings are securely stored, version-controlled, and accessible within the environment. This integration allows engineers to work directly within their preferred CAD authoring tools while benefiting from Teamcenter's data management, workflow automation, and collaboration features.\n\n### **Chainbridge Perseus™**\n\n- **Date Available:** August 17, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvided and managed by Chainbridge Solutions Inc., Perseus™ is a cloud-native SaaS product purpose-built to transform personnel security (PERSEC) workflows across the federal government.\n\nBlending deep PERSEC expertise with the scalability and performance of commercial software, Perseus™ streamlines clearance processes, enables Trusted Workforce readiness, and equips agencies with the clarity, efficiency, and confidence needed to support personnel security operations from day one.\n\n### **FutureFeed**\n\n- **Date Available:** August 17, 2026\n- **Security Impact Level:** High\n- **Certification Class:** D\n\nProvided and managed by Continuous Compliance, the FutureFeed environment consists of two primary components: FutureFeed and Cyber Illumination.\n\nFutureFeed is a SaaS-based compliance management platform. Using FutureFeed's automation and reporting capabilities, organizations can create and maintain information security programs that comply with applicable legal and regulatory requirements and provide evidence of compliance.\n\nCyber Illumination is a supply-chain communication, risk-identification, and risk-management tool. Federal agencies, government contractors, and commercial entities can use Cyber Illumination to gain greater insight into and control over risks, including cybersecurity risks, associated with vendors and business partners.\n\nClients can leverage Cyber Illumination's built-in questionnaires or create custom questionnaires to obtain information needed to manage supply-chain risks. When a client's vendor also uses FutureFeed, the vendor and client can use integrated and automated information sharing to improve the efficiency of supply-chain risk management.\n\n## Agency Authorization and Reuse Relationships\n\nGSS One AWS maintains an Agency certification path associated with the **U.S. Department of Health and Human Services (HHS), National Heart, Lung, and Blood Institute (NHLBI)**.\n\nThe FedRAMP Marketplace metadata associated with the certification:\n\n- **Agency Authorizations:** 1\n- **Dependent Product / Reuse Relationships:** 3\n- **Certification Path:** Agency\n- **Certification Class:** Class D (High)\n- **Certified Since:** April 6, 2026\n\nGSS One AWS also serves as an underlying authorized platform for applications and cloud service offerings that leverage GSS One AWS security, infrastructure, and operational capabilities. Depending on the application deployment and authorization model, these relationships may be represented as included Certified Services, dependent products, reuse relationships, or separately authorized customer systems.\n\nThe information in this section is included to preserve visibility into the certification and authorization relationships associated with GSS One AWS where corresponding structured Marketplace fields are not currently displayed.",
           "certificationType": "Rev5",
           "website": "https://projecthosts.com/solutions/fedramp/",
           "logo": "https://projecthosts.com/wp-content/uploads/2024/12/Vector_ProjectHosts_logo.png"
@@ -4606,23 +4628,6 @@
             "Customer Service",
             "Cybersecurity & Risk Management"
           ],
-          "trustCenter": {
-            "repositoryType": [
-              "Trust Center",
-              "Certification Package"
-            ],
-            "url": "https://trust.gssone.us/public/gss-one-aws",
-            "repositoryDescription": "Trust Center repository for FedRAMP certification package information and access instructions.",
-            "authenticationRequired": false
-          },
-          "secureConfigurationGuidance": {
-            "repositoryType": [
-              "Secure Configuration Guidance"
-            ],
-            "url": "https://trust.gssone.us/public/gss-one-aws",
-            "repositoryDescription": "Repository or access path for secure configuration guidance associated with the cloud service offering.",
-            "authenticationRequired": false
-          },
           "additionalRepositories": [
             {
               "repositoryType": [
@@ -4689,7 +4694,7 @@
           },
           {
             "serviceName": "Siemens Federal Cloud (SFC)",
-            "serviceDescription": "Provided and Managed by Siemens Government Technology, The primary software application suite within SFC consists of the Teamcenter Product Lifecycle Management (PLM) software, which is a product and process digital thread management system. Teamcenter PLM provides full product lifecycle data management services for a customer authored end item (to include requirements, product(s) and processes) and enables customer teams to better connect with each other on relevant data needed to make informed decisions throughout a product’s lifecycle. Teamcenter offers integration capabilities with various CAD products, serving as the central hub for managing design data throughout the product lifecycle. Teamcenter ensures that all CAD models, assemblies, and drawings are securely stored, version-controlled, and accessible within the environment. This integration allows engineers to work directly within their preferred CAD authoring tools while benefiting from Teamcenter's data management, workflow automation, and collaboration features. Security Category: High, Certification Class: D",
+            "serviceDescription": "Provided and Managed by Siemens Government Technology, The primary software application suite within SFC consists of the Teamcenter Product Lifecycle Management (PLM) software, which is a product and process digital thread management system.  Teamcenter PLM provides full product lifecycle data management services for a customer authored end item (to include requirements, product(s) and processes) and enables customer teams to better connect with each other on relevant data needed to make informed decisions throughout a product’s lifecycle.  Teamcenter offers integration capabilities with various CAD products, serving as the central hub for managing design data throughout the product lifecycle. Teamcenter ensures that all CAD models, assemblies, and drawings are securely stored, version-controlled, and accessible within the environment. This integration allows engineers to work directly within their preferred CAD authoring tools while benefiting from Teamcenter's data management, workflow automation, and collaboration features. Security Category: High, Certification Class: D",
             "dateAvailable": "2026-06-14"
           },
           {
@@ -4705,7 +4710,7 @@
         ],
         "ZD_frid_retro": "FR2300457485",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:36:59Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:22Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4741,7 +4746,7 @@
         ],
         "ZD_frid_retro": "FR2632054516",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:37:02Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:22Z"
       },
       {
         "serviceIdentification": {
@@ -4846,7 +4851,7 @@
         ],
         "ZD_frid_retro": "FR2632054521",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:37:03Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:23Z"
       },
       {
         "packageMetadata": {
@@ -4937,7 +4942,7 @@
         },
         "ZD_frid_retro": "FR2520254824",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:37:03Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:23Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5053,7 +5058,7 @@
         },
         "ZD_frid_retro": "FR2632054530",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:37:04Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:25Z"
       },
       {
         "serviceIdentification": {
@@ -5104,12 +5109,12 @@
           {
             "contactType": "Security",
             "contactName": "FedRAMP Security Inbox (routes to Senior Security Official)",
-            "contactEmail": "security@threadai.com"
+            "contactEmail": "fedramp-security@threadai.com"
           },
           {
             "contactType": "Primary",
             "contactName": "Compliance Lead",
-            "contactEmail": "security@threadai.com"
+            "contactEmail": "fedramp-security@threadai.com"
           },
           {
             "contactType": "Sales",
@@ -5138,7 +5143,7 @@
         },
         "ZD_frid_retro": "FR2632054534",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:37:04Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:25Z"
       },
       {
         "serviceIdentification": {
@@ -5250,7 +5255,7 @@
         },
         "ZD_frid_retro": "FR2632054491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:37:04Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:26Z"
       },
       {
         "last_updated": "2026-08-10",
@@ -5335,11 +5340,11 @@
         },
         "ZD_frid_retro": "FR2632054495",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-25T15:37:04Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:26Z"
       },
       {
         "serviceIdentification": {
-          "fedRampPackageId": "Rohirrim, Inc. (UAP)",
+          "fedRampPackageId": "FR2632436493",
           "ueiNumber": "NYRPKZL34MZ4",
           "providerName": "Rohirrim, Inc.",
           "serviceName": "Unified Acquisition Platform",
@@ -5397,8 +5402,292 @@
           }
         ],
         "ZD_frid_retro": "FR2632436493",
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-08-28T14:04:27Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "Ocasio Convergence Holdings LLC - ACE",
+          "providerName": "Ocasio Convergence Holdings LLC",
+          "serviceName": "Axiom Convergence Engine (ACE)",
+          "serviceAcronym": "ACE",
+          "serviceDescription": "Axiom Convergence Engine (ACE) is an AI/ML governance, control, and audit cloud service offering designed to evaluate source validity, structural readiness, claim scope, authorization boundaries, evidence integrity, and reviewability before AI-assisted output is permitted to move downstream. ACE produces machine-verifiable governance decisions and reviewable evidence records for high-stakes AI/ML workflows. This listing represents an Initial Implementation offering pursuing FedRAMP 20x certification; ACE is not currently FedRAMP Certified or authorized to operate in a federal production environment.",
+          "certificationType": "20x",
+          "website": "https://ocasioconvergence.com/",
+          "logo": "https://ocasioconvergence.com/favicon.ico"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Government-Only Cloud",
+          "businessCategory": [
+            "Artificial Intelligence (AI)",
+            "Governance, Risk, and Compliance (GRC)",
+            "Cybersecurity & Risk Management"
+          ]
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Ocasio Convergence Holdings LLC Security Contact",
+            "contactEmail": "founder@ocasioconvergence.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Joseph Edward Ocasio",
+            "contactEmail": "founder@ocasioconvergence.com"
+          }
+        ],
+        "ZD_frid_retro": "FR2632558735",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-25T15:37:05Z"
+        "last_fetched_timestamp": "2026-08-28T14:04:27Z"
+      },
+      {
+        "serviceIdentification": {
+          "providerName": "Cornerstone Information Systems",
+          "serviceName": "Upstream Gov",
+          "serviceAcronym": "UG",
+          "serviceDescription": "Aggregation of travel data to support comprehensive reporting and analysis.",
+          "certificationType": "20x",
+          "fedRampPackageId": "Cornerstone Information Systems UG",
+          "website": "https://www.ciswired.com",
+          "logo": "https://www.ciswired.com/wp-content/uploads/2024/04/logo.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Government Community Cloud",
+          "businessCategory": [
+            "Travel Management",
+            "Accounting",
+            "Analytics"
+          ]
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Security",
+            "contactEmail": "security@ciswired.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Sales",
+            "contactEmail": "sales@ciswired.com"
+          }
+        ],
+        "ZD_frid_retro": "FR2632558740",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-28T14:04:29Z"
+      },
+      {
+        "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "serviceIdentification": {
+          "fedRampPackageId": "Baseten Labs, Inc. (Baseten)",
+          "ueiNumber": "",
+          "providerName": "Baseten Labs, Inc.",
+          "serviceName": "Baseten Inference Platform",
+          "serviceAcronym": "Baseten",
+          "serviceDescription": "A cloud-based AI inference platform that provides managed model deployment, autoscaling, and serving infrastructure for production machine learning workloads.",
+          "certificationType": "20x",
+          "website": "https://www.baseten.co",
+          "logo": "https://www.baseten.co/brand/svg/Baseten_Logotype-9.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Artificial Intelligence (AI)"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.baseten.co",
+            "repositoryDescription": "Repository for FedRAMP certification materials, SOC 2 Type II report, security policies, and supporting compliance evidence.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Agency personnel may request access through the access-request form on the Baseten trust center."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://docs.baseten.co/observability/security",
+            "repositoryDescription": "Secure deployment and configuration requirements for customers using the Baseten Inference Platform.",
+            "authenticationRequired": false
+          },
+          "nextOngoingCertificationReportDate": "2026-11-03"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Security Team",
+            "contactEmail": "security@baseten.co"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Public Sector Sales",
+            "contactEmail": "fedramp-sales@baseten.co"
+          },
+          {
+            "contactType": "FedRAMP Support",
+            "contactName": "FedRAMP Support Team",
+            "contactEmail": "fedramp@baseten.co"
+          }
+        ],
+        "certifiedServices": [
+          {
+            "serviceName": "Dedicated Inference",
+            "serviceDescription": "Reserved, autoscaling GPU/CPU compute for customer-owned and custom-trained models, deployed through Baseten's Truss framework. Customers get dedicated hardware, full deployment-lifecycle management, and multi-cloud capacity, suited for steady, latency-sensitive, or high-scale production inference workloads that need consistent performance and reliability.",
+            "dateAvailable": "2026-08-03"
+          },
+          {
+            "serviceName": "Model APIs",
+            "serviceDescription": "Fully managed, serverless inference endpoints for popular open-source and frontier models, compatible with the OpenAI Chat Completions and Anthropic Messages API formats. Billed per token with no dedicated infrastructure required from the customer, Model APIs are optimized and hosted by Baseten and are suited for variable-traffic workloads and rapid prototyping through production.",
+            "dateAvailable": "2026-08-03"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+              "useCase": "Amazon Web Services (AWS US East/West) is the underlying public cloud infrastructure provider (compute, storage, networking, GPU capacity) hosting the Baseten Inference Platform within the assessment boundary."
+            }
+          ],
+          "nonCertified": []
+        },
+        "ZD_frid_retro": "FR2632558748",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-28T14:04:29Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "serviceIdentification": {
+          "fedRampPackageId": "TRANSMITTR-CASCO",
+          "providerName": "Transmittr, Inc.",
+          "serviceName": "Casco for Government",
+          "serviceAcronym": "CASCO",
+          "serviceDescription": "Casco is an agentic system that provides autonomous, 24/7 security testing and vulnerability assessments for web applications, APIs, cloud infrastructure, and AI systems. Casco was founded in February 2025 with the objective of making artificial intelligence-powered services production-grade, and Casco is delivered to customers across the United States, United Kingdom, and Europe in the cloud service provider, artificial intelligence, cybersecurity, and SaaS industries.",
+          "certificationType": "20x",
+          "website": "https://casco.com/",
+          "logo": "https://static-assets.mycroft.io/production/org_logos/ac58d658-f3d7-4434-9394-d1b5810c3cc7.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Cybersecurity & Risk Management",
+            "Artificial Intelligence (AI)"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.mycroft.io/casco",
+            "repositoryDescription": "Casco's public Trust Center, hosting system authorization documentation, policies, and assessment reports.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request Access' button on the top right of the Trust Center."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://trust.mycroft.io/casco",
+            "repositoryDescription": "Secure configuration guidance for Casco, hosted on the Casco Trust Center.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request Access' button on the top right of the Trust Center."
+          },
+          "nextOngoingCertificationReportDate": "2026-09-15"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "René Brandel, CEO / Co-founder",
+            "contactEmail": "security@casco.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Chris Womack",
+            "contactEmail": "government@casco.com"
+          }
+        ],
+        "assessor": {
+          "name": "Pending",
+          "assessorID": "000000"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Casco",
+            "serviceDescription": "Autonomous, 24/7 security testing and vulnerability assessments for web applications, APIs, cloud infrastructure, and AI systems.",
+            "dateAvailable": "2025-04-15"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+              "useCase": "Primary cloud infrastructure subservice organization providing the networking, compute, storage, and database components underlying Casco, including AWS Lambda (compute), Amazon Aurora (database), AWS WAF, AWS CloudFront (CDN), AWS Certificate Manager, AWS KMS (key management), AWS CloudTrail, AWS CloudWatch, AWS GuardDuty, and AWS Inspector."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
+              "useCase": "Source code repository and version control, CI/CD pipeline (GitHub Actions), and vulnerability scanning (GitHub Dependabot) for the Casco codebase."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+              "useCase": "Suite of enterprise productivity, collaboration, and communication tools."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR2631054539",
+              "useCase": "Mycroft GRC Platform (Mycroft Technologies Inc). Compliance automation software used to support the design, implementation, operation, monitoring, and documentation of internal controls via API-based integrations."
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "1Password",
+              "provider": "1Password (AgileBits Inc.)",
+              "website": "https://1password.com",
+              "useCase": "Enterprise password manager used to store authentication secrets and strengthen credential security."
+            },
+            {
+              "name": "Rippling",
+              "provider": "Rippling",
+              "website": "https://www.rippling.com",
+              "useCase": "Mobile device management (MDM) software used to track and manage security policies on employee workstations, and human resources information system used to manage employee onboarding/offboarding."
+            },
+            {
+              "name": "Linear",
+              "provider": "Linear",
+              "website": "https://linear.app",
+              "useCase": "Ticketing software used to log events and requirements supporting the internal change management process."
+            },
+            {
+              "name": "WorkOS",
+              "provider": "WorkOS, Inc.",
+              "website": "https://workos.com",
+              "useCase": "WorkOS is a developer platform that provides APIs and SDKs to help software companies quickly add enterprise-grade identity and access management features to their applications."
+            },
+            {
+              "name": "Blaxel",
+              "provider": "Blaxel",
+              "website": "https://blaxel.ai",
+              "useCase": "Blaxel is an agentic compute platform providing cloud infrastructure for building, deploying, and scaling autonomous AI agents with serverless computing and specialized agent tooling."
+            },
+            {
+              "name": "Daytona",
+              "provider": "Daytona",
+              "website": "https://www.daytona.io",
+              "useCase": "Daytona is an agentic compute platform providing secure, elastic sandbox infrastructure for running AI-generated code and giving AI agents isolated, on-demand compute environments."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2632731472",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-28T14:04:29Z"
       }
     ]
   }
