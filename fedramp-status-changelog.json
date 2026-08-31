@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-30T19:59:30.553Z",
-    "total_entries": 2085,
+    "export_timestamp": "2026-08-31T19:59:31.000Z",
+    "total_entries": 2086,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -31279,6 +31279,21 @@
         "transition_date": "2026-08-28T20:30:31Z",
         "recorded_date": "2026-08-28T20:30:43.518Z",
         "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "30046232",
+        "product_id": "FR2628647238",
+        "csp": "Eleven Labs Inc.",
+        "cso": "ElevenLabs Platform",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-08-31T04:00:00.000Z",
+        "recorded_date": "2026-08-31T04:00:00.000Z",
+        "source": "AppSheet",
         "comments": ""
       }
     ]
