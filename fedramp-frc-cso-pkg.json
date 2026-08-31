@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-28T20:31:19.305Z",
-    "total_entries": 50,
+    "export_timestamp": "2026-08-31T21:11:37.973Z",
+    "total_entries": 53,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -411,7 +411,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:30:48Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:01Z"
       },
       {
         "assessor": {
@@ -494,7 +494,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:30:52Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:05Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -602,7 +602,7 @@
         "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:30:53Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:06Z"
       },
       {
         "serviceIdentification": {
@@ -668,7 +668,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:30:54Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:07Z"
       },
       {
         "serviceIdentification": {
@@ -800,12 +800,23 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:30:54Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:07Z"
       },
       {
         "assessor": {
           "assessorID": "203203",
+          "assessors": [
+            {
+              "name": "Dean Rock",
+              "role": "Lead Assessor"
+            },
+            {
+              "name": "Andy Cooper",
+              "role": "Assessor"
+            }
+          ],
           "id": "203203",
+          "leadAssessor": "Dean Rock",
           "name": "SteelToad Consulting LLC"
         },
         "certificationProgress": {
@@ -843,6 +854,10 @@
             {
               "date": "2026-08-25",
               "milestone": "Independent assessment service engaged and named in the published package: SteelToad Consulting LLC, FedRAMP assessor id 203203."
+            },
+            {
+              "date": "2026-08-28",
+              "milestone": "Assessment team named in the published package: Dean Rock, Lead Assessor, and Andy Cooper, Assessor, both of SteelToad Consulting LLC."
             }
           ],
           "nextUpdateDueBy": "2026-11-11",
@@ -880,7 +895,7 @@
             },
             "serviceDescription": "The PaaS platform-build layer: business users author complete BPMN processes and applications visually and get web and mobile interfaces generated automatically, with no coding. Customer-authored content is treated as untrusted and runs under server-authoritative tenant binding. Public description capability 1; Secure Configuration Guide §14.",
             "serviceModel": "PaaS",
-            "serviceName": "Enablement No-Code Process Designer"
+            "serviceName": "No-Code Process Designer"
           },
           {
             "dateAvailable": "2026-07-17",
@@ -894,7 +909,7 @@
             },
             "serviceDescription": "Deterministic server-side execution of published processes — forms, tasks, approvals, and integrations. No generative model is in the execution path, so a process behaves identically on every run and never invents an answer. Public description capability 1.",
             "serviceModel": "SaaS",
-            "serviceName": "Enablement Process Execution Engine"
+            "serviceName": "Process Execution Engine"
           },
           {
             "dateAvailable": "2026-07-17",
@@ -908,7 +923,7 @@
             },
             "serviceDescription": "Mobile client for the same processes and forms as the web application, with device binding on authenticated sessions. Referenced in the public description as the automatically generated mobile interface.",
             "serviceModel": "SaaS",
-            "serviceName": "Enablement Mobile Access"
+            "serviceName": "Mobile Access"
           },
           {
             "dateAvailable": "2026-07-17",
@@ -922,7 +937,7 @@
             },
             "serviceDescription": "Role-based and attribute-based access control (RBAC/ABAC), user lifecycle, time-boxed privileged grants, and the full authentication range: passkeys, SAML SSO, authenticator apps, and email OTP. The password is proven by challenge-response and is never transmitted to the server. Public description capabilities 5 and 7; Secure Configuration Guide §2–§7.",
             "serviceModel": "SaaS",
-            "serviceName": "Enablement Identity, Authentication and Access Control"
+            "serviceName": "Identity, Authentication and Access Control"
           },
           {
             "dateAvailable": "2026-07-17",
@@ -936,7 +951,7 @@
             },
             "serviceDescription": "Encrypted file storage and sharing, secured email, watermarked read-only viewing, and malware scanning of every upload — all inside the boundary, with no file content sent to an external scanning service. Secure Configuration Guide §10.2–§10.5.",
             "serviceModel": "SaaS",
-            "serviceName": "Enablement Secured Files and Secured Email"
+            "serviceName": "Secured Files and Secured Email"
           },
           {
             "dateAvailable": "2026-07-17",
@@ -950,7 +965,7 @@
             },
             "serviceDescription": "Automatic CUI and distribution-statement marking to federal standards (DoW and NARA), plus a share-time authorization check that warns or blocks before a document reaches unauthorized personnel. Public description capabilities 5 and 6; Secure Configuration Guide §10.1.",
             "serviceModel": "SaaS",
-            "serviceName": "Enablement Automated Marking and Share-Time Leak Prevention"
+            "serviceName": "Automated Marking and Share-Time Leak Prevention"
           },
           {
             "dateAvailable": "2026-07-17",
@@ -964,7 +979,7 @@
             },
             "serviceDescription": "Tamper-evident audit capture of user and administrative activity with scoped audit-log access for customer administrators, plus execution-pattern anomaly detection and an operator kill switch for a runaway process or account. Secure Configuration Guide §9.",
             "serviceModel": "SaaS",
-            "serviceName": "Enablement Audit and Activity Monitoring"
+            "serviceName": "Audit and Activity Monitoring"
           },
           {
             "dateAvailable": "2026-07-17",
@@ -978,7 +993,7 @@
             },
             "serviceDescription": "Scheduled and recurring execution of published processes, operated inside the boundary with no external scheduler or orchestration service.",
             "serviceModel": "SaaS",
-            "serviceName": "Enablement Process Scheduler"
+            "serviceName": "Process Scheduler"
           },
           {
             "dateAvailable": "2026-04-17",
@@ -992,7 +1007,7 @@
             },
             "serviceDescription": "Native, always-on continuous monitoring operated entirely within the authorization boundary, covering network vulnerability, container/IaC, cloud-posture, and host configuration/CVE assessment, producing OSCAL + FedRAMP CR26 machine-readable compliance evidence. No data is sent to any external scanning or monitoring service.",
             "serviceModel": "SaaS",
-            "serviceName": "Enablement Continuous Monitoring"
+            "serviceName": "Continuous Monitoring"
           }
         ],
         "certifiedServicesNote": {
@@ -1079,7 +1094,7 @@
           },
           "rulesVersion": "2026.07.01.01",
           "schemaPin": "2026-06-24",
-          "schemaPinSynced": "2026-07-30"
+          "schemaPinSynced": "2026-08-30"
         },
         "securityCategorization": {
           "authority": "MINIMUM_ASSESSMENT_SCOPE.md §3 (information flows and security categories) and §9.1 item 8 (Class C declaration). Available token-gated at https://enablement.cc/ml/20x/doc/mas.",
@@ -1166,6 +1181,15 @@
                 "Machine-Readable Authorization Data"
               ],
               "url": "https://enablement.cc/ml/20x/ksi?src_id=1711"
+            },
+            {
+              "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+              "authenticationRequired": true,
+              "repositoryDescription": "The designated FedRAMP Security Inbox and how it is operated: the address and its hosting, dual monitoring and forwarding, automatic acknowledgment, the per-designator handling matrix with the Class C reaction deadline, escalation to the senior security official, the default-trust rule for @fedramp.gov/@gsa.gov with its anti-phishing verification step, address-change notification duties, and a rule-by-rule compliance mapping of all 16 AFC rules",
+              "repositoryType": [
+                "Assessment Documentation"
+              ],
+              "url": "https://enablement.cc/ml/20x/doc/fedramp-security-inbox"
             },
             {
               "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
@@ -1656,7 +1680,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:30:54Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:07Z"
       },
       {
         "serviceIdentification": {
@@ -1714,7 +1738,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:30:55Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:08Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1843,7 +1867,7 @@
         ],
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:30:56Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:09Z"
       },
       {
         "serviceIdentification": {
@@ -1852,7 +1876,7 @@
           "serviceAcronym": "PRYME",
           "serviceDescription": "Cloud-based command-and-control platform for public safety operations, providing operational planning, real-time team coordination, encrypted messaging, GPS mapping, risk assessments, and after-action documentation for law enforcement and public safety agencies.",
           "certificationType": "20x",
-          "fedRampPackageId": "FR2628943632",
+          "fedRampPackageId": "Pryme Infil, Inc. (PRYME)",
           "ueiNumber": "Z363L7GPL7P9",
           "website": "https://www.prymeinfil.com/",
           "logo": "https://cdn.prod.website-files.com/698cfd876cf33430c0e79e6b/69e90cda3b41e585b3212654_pryme%20infil%20logo%20small-01.svg"
@@ -1936,13 +1960,13 @@
           }
         ],
         "ZD_frid_retro": "FR2628943632",
-        "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:30:56Z"
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-31T21:11:09Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "$schemaVersion": "0.1.2",
-        "lastUpdated": "2026-08-28T20:30:57.336495+00:00",
+        "lastUpdated": "2026-08-31T21:11:10.276382+00:00",
         "sourceOfUpdate": "FedRAMP 2026 hub",
         "serviceIdentification": {
           "fedRampPackageId": "FR2628943633",
@@ -2002,12 +2026,12 @@
           {
             "serviceName": "Evidence Workspace",
             "serviceDescription": "",
-            "dateAvailable": "2026-08-28"
+            "dateAvailable": "2026-08-29"
           },
           {
             "serviceName": "Authorization OS",
             "serviceDescription": "",
-            "dateAvailable": "2026-08-28"
+            "dateAvailable": "2026-08-29"
           }
         ],
         "certificationProgress": [
@@ -2034,7 +2058,7 @@
         ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:30:57Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:10Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2205,7 +2229,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:30:57Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:10Z"
       },
       {
         "serviceIdentification": {
@@ -2269,7 +2293,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:30:58Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:11Z"
       },
       {
         "serviceIdentification": {
@@ -2328,7 +2352,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:00Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:12Z"
       },
       {
         "assessor": {
@@ -2381,7 +2405,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:01Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:13Z"
       },
       {
         "serviceIdentification": {
@@ -2465,7 +2489,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:02Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:14Z"
       },
       {
         "serviceIdentification": {
@@ -2553,7 +2577,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:02Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:15Z"
       },
       {
         "serviceIdentification": {
@@ -2643,7 +2667,7 @@
         },
         "ZD_frid_retro": "FR2630354491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:03Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:16Z"
       },
       {
         "serviceIdentification": {
@@ -2682,7 +2706,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:05Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:17Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2842,7 +2866,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:04Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:17Z"
       },
       {
         "serviceIdentification": {
@@ -2906,7 +2930,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:04Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:17Z"
       },
       {
         "serviceIdentification": {
@@ -2982,7 +3006,7 @@
         ],
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:06Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:19Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3134,7 +3158,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:06Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:19Z"
       },
       {
         "publicDisclosure": {
@@ -3403,7 +3427,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:07Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:20Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3570,7 +3594,7 @@
         ],
         "ZD_frid_retro": "FR2631054484",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:07Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:20Z"
       },
       {
         "serviceIdentification": {
@@ -3638,7 +3662,7 @@
         ],
         "ZD_frid_retro": "FR2631154499",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:07Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:20Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3735,7 +3759,7 @@
         },
         "ZD_frid_retro": "FR2631258113",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:08Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:21Z"
       },
       {
         "serviceIdentification": {
@@ -3901,7 +3925,7 @@
         ],
         "ZD_frid_retro": "F1206111371",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:09Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:22Z"
       },
       {
         "serviceIdentification": {
@@ -4074,7 +4098,7 @@
         ],
         "ZD_frid_retro": "FR2631258125",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:09Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:22Z"
       },
       {
         "serviceIdentification": {
@@ -4151,7 +4175,7 @@
         },
         "ZD_frid_retro": "FR2631258127",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:09Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:22Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4161,7 +4185,7 @@
           "serviceAcronym": "SCP",
           "serviceDescription": "Specset is the AI platform for high-stakes construction. The Specset Cloud Platform automates technical review across Project Manuals, Drawing Sheets, and Shop Drawings — including submittal review against project specifications, UFGS compliance checking, design review automation, and asset management logic — flagging potential issues and delivering fast, accurate answers across project documents in seconds.",
           "certificationType": "20x",
-          "fedRampPackageId": "SPECSET-SCP",
+          "fedRampPackageId": "FR2631258135",
           "website": "https://specset.com",
           "logo": "https://specset.com/fedramp/specset-logo.png",
           "ueiNumber": "S7RZBSZXNBD5"
@@ -4170,7 +4194,7 @@
           "serviceType": [
             "SaaS"
           ],
-          "deploymentModel": "Government Community Cloud",
+          "deploymentModel": "Public Cloud",
           "businessCategory": [
             "Artificial Intelligence (AI)",
             "Construction"
@@ -4182,8 +4206,30 @@
             "url": "https://trust.specset.com",
             "repositoryDescription": "Specset Trust Center. The landing page, compliance posture summary, and FedRAMP milestone information are publicly viewable without authentication.",
             "authenticationRequired": true,
-            "accessRequestInstructions": "The Trust Center landing page at https://trust.specset.com is publicly accessible with no login. Certain detailed compliance documents require submitting an access request directly on the page; requests are reviewed promptly by the Specset security team (security@specset.com). All information required by FedRAMP CDS-CSO-PUB is published without authentication at https://specset.com/fedramp/ and https://specset.com/fedramp/fedramp.json."
-          }
+            "accessRequestInstructions": "The Trust Center landing page at https://trust.specset.com is publicly accessible with no login. FedRAMP Certification Data (Certification Package Overview, Security Decision Record, Ongoing Certification Reports, policies, and the SOC 2 Type II report) is available to FedRAMP staff and agency customers on request from the Trust Center page; access is granted without requiring acceptance of terms or a non-disclosure agreement, normally within one business day. If access is not granted, contact security@specset.com. All information required by FedRAMP CDS-CSO-PUB is published without authentication at https://specset.com/fedramp/ and https://specset.com/fedramp/fedramp.json."
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Public Information"
+              ],
+              "url": "https://github.com/specsetai/fedramp-marketplace",
+              "repositoryDescription": "Source repository for this public FedRAMP information (fedramp.json and the generated human-readable page) with full change history.",
+              "authenticationRequired": false
+            },
+            {
+              "repositoryType": [
+                "Trust Center",
+                "Certification Package",
+                "Policies and Procedures",
+                "Assessment Reports"
+              ],
+              "url": "https://trust.specset.com",
+              "repositoryDescription": "FedRAMP Certification Data for the Specset Cloud Platform: Certification Package Overview, Security Decision Record, Ongoing Certification Reports, security policies and procedures, and the SOC 2 Type II report and bridge letters.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Request access from the Trust Center page. FedRAMP staff and agency customers are granted access without accepting terms or an NDA; contact security@specset.com if access is not granted within one business day."
+            }
+          ]
         },
         "contactInformation": [
           {
@@ -4195,9 +4241,114 @@
             "contactEmail": "security@specset.com"
           }
         ],
+        "certifiedServices": [
+          {
+            "serviceName": "Specset Cloud Platform",
+            "serviceDescription": "The Specset Cloud Platform is a single multi-tenant SaaS service for construction document intelligence. It ingests customer project documents (project manuals and specifications, drawing sheets, shop drawings and submittals) and provides: automated submittal review against project specifications; UFGS and specification compliance checking; design review automation; document search and question answering across a project's documents; and asset management logic. Customers access the service through a web application; optional customer-initiated integrations connect to the customer's own Procore or Autodesk tenants. Production is hosted on Google Cloud Platform (us-west1, Assured Workloads) with supporting services on Amazon Web Services and Microsoft Azure as listed under third-party information resources.",
+            "dateAvailable": "2025-01-22"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+              "useCase": "Google Cloud Platform (Google Services) — primary hosting of all production infrastructure: GKE Autopilot, Cloud SQL, Cloud Storage, Memorystore, Cloud KMS, Cloud Load Balancing and Cloud Armor, Cloud Logging and Monitoring, Secret Manager, Artifact Registry, and Vertex AI (Gemini) model inference and embeddings. Stores and processes customer data."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+              "useCase": "AWS US East/West — supporting services: Amazon SES (transactional email), Route 53 (DNS), S3 (database backups, CI cache, audit-log storage), GuardDuty (threat detection), and Amazon Bedrock (Claude model inference; may process customer document text in prompts)."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
+              "useCase": "Azure Commercial Cloud — Azure OpenAI (GPT model inference; may process customer document text in prompts) and Microsoft Entra ID application registrations for customer 'Sign in with Microsoft' single sign-on. No customer data is stored on Azure."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+              "useCase": "Google Workspace — provider identity (Cloud Identity) for administrator access to production via Identity-Aware Proxy; administrator email. No customer data."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
+              "useCase": "GitHub Enterprise Cloud — source control and CI/CD for the application and infrastructure-as-code; deploys to production via OpenID Connect workload identity federation. No customer data."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR2525556241",
+              "useCase": "Vanta Trust Management Platform — continuous configuration monitoring of the production cloud accounts (read-only metadata), compliance evidence, and the Specset Trust Center at trust.specset.com. No customer data."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1823447014",
+              "useCase": "Slack — operational alerting and change-notification channel for the provider (infrastructure change notifications, security alerts). Resource metadata only; no customer data."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR2604643715",
+              "useCase": "Perplexity Enterprise and API Platform — web search for AI agent features. Receives search queries; customer documents are not sent. Excluded for customer organizations flagged as handling CUI."
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "Intercom",
+              "provider": "Intercom, Inc.",
+              "website": "https://www.intercom.com",
+              "useCase": "In-app customer support chat. Processes customer user contact details and support conversation content; no project documents."
+            },
+            {
+              "name": "Customer.io",
+              "provider": "Customer.io, Inc.",
+              "website": "https://customer.io",
+              "useCase": "Product email and lifecycle messaging. Processes customer user contact details and product-usage events; no project documents."
+            },
+            {
+              "name": "Laminar",
+              "provider": "lmnr-ai, Inc.",
+              "website": "https://www.lmnr.ai",
+              "useCase": "LLM observability and tracing for the provider's engineering team. Tracing is disabled for customer organizations flagged as handling CUI."
+            },
+            {
+              "name": "Google AI Studio (Gemini API)",
+              "provider": "Google LLC",
+              "website": "https://aistudio.google.com",
+              "useCase": "Secondary Gemini API path outside the Google Cloud FedRAMP boundary, used for evaluation. Excluded for customer organizations flagged as handling CUI; scheduled for retirement."
+            },
+            {
+              "name": "Better Stack",
+              "provider": "Better Stack, Inc.",
+              "website": "https://betterstack.com",
+              "useCase": "External uptime monitoring and the public status page (status.specbook.ai). Availability metadata only; no customer data."
+            },
+            {
+              "name": "Cloudflare",
+              "provider": "Cloudflare, Inc.",
+              "website": "https://www.cloudflare.com",
+              "useCase": "Edge fronting for the Trust Center custom hostname (trust.specset.com) as provided by Vanta. No customer data; the Cloudflare for Government offering is not used."
+            },
+            {
+              "name": "Apryse (PDFTron) SDK",
+              "provider": "Apryse Software Inc.",
+              "website": "https://apryse.com",
+              "useCase": "Document rendering SDK embedded in the application; only license-validation pings leave the environment. No customer data."
+            },
+            {
+              "name": "Firecrawl",
+              "provider": "Mendable, Inc.",
+              "website": "https://www.firecrawl.dev",
+              "useCase": "Public web page fetching for AI agent features. Receives public URLs only; no customer documents."
+            },
+            {
+              "name": "Procore",
+              "provider": "Procore Technologies, Inc.",
+              "website": "https://www.procore.com",
+              "useCase": "Optional customer-initiated integration to the customer's own Procore tenant via OAuth; data exchanged is chosen and authorized by the customer."
+            },
+            {
+              "name": "Autodesk Platform Services",
+              "provider": "Autodesk, Inc.",
+              "website": "https://aps.autodesk.com",
+              "useCase": "Optional customer-initiated integration to the customer's own Autodesk tenant via OAuth; data exchanged is chosen and authorized by the customer."
+            }
+          ]
+        },
         "ZD_frid_retro": "FR2631258135",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:10Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-08-31T21:11:23Z"
       },
       {
         "serviceIdentification": {
@@ -4321,7 +4472,7 @@
         ],
         "ZD_frid_retro": "F1311222650",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:11Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:24Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4431,7 +4582,7 @@
         },
         "ZD_frid_retro": "FR2631654537",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:12Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:25Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4499,7 +4650,7 @@
         },
         "ZD_frid_retro": "FR2631747315",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:14Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:26Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4509,7 +4660,7 @@
           "serviceAcronym": "SCP",
           "serviceDescription": "Specset is the AI platform for high-stakes construction. The Specset Cloud Platform automates technical review across Project Manuals, Drawing Sheets, and Shop Drawings — including submittal review against project specifications, UFGS compliance checking, design review automation, and asset management logic — flagging potential issues and delivering fast, accurate answers across project documents in seconds.",
           "certificationType": "20x",
-          "fedRampPackageId": "SPECSET-SCP",
+          "fedRampPackageId": "FR2631258135",
           "website": "https://specset.com",
           "logo": "https://specset.com/fedramp/specset-logo.png",
           "ueiNumber": "S7RZBSZXNBD5"
@@ -4518,7 +4669,7 @@
           "serviceType": [
             "SaaS"
           ],
-          "deploymentModel": "Government Community Cloud",
+          "deploymentModel": "Public Cloud",
           "businessCategory": [
             "Artificial Intelligence (AI)",
             "Construction"
@@ -4530,8 +4681,30 @@
             "url": "https://trust.specset.com",
             "repositoryDescription": "Specset Trust Center. The landing page, compliance posture summary, and FedRAMP milestone information are publicly viewable without authentication.",
             "authenticationRequired": true,
-            "accessRequestInstructions": "The Trust Center landing page at https://trust.specset.com is publicly accessible with no login. Certain detailed compliance documents require submitting an access request directly on the page; requests are reviewed promptly by the Specset security team (security@specset.com). All information required by FedRAMP CDS-CSO-PUB is published without authentication at https://specset.com/fedramp/ and https://specset.com/fedramp/fedramp.json."
-          }
+            "accessRequestInstructions": "The Trust Center landing page at https://trust.specset.com is publicly accessible with no login. FedRAMP Certification Data (Certification Package Overview, Security Decision Record, Ongoing Certification Reports, policies, and the SOC 2 Type II report) is available to FedRAMP staff and agency customers on request from the Trust Center page; access is granted without requiring acceptance of terms or a non-disclosure agreement, normally within one business day. If access is not granted, contact security@specset.com. All information required by FedRAMP CDS-CSO-PUB is published without authentication at https://specset.com/fedramp/ and https://specset.com/fedramp/fedramp.json."
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Public Information"
+              ],
+              "url": "https://github.com/specsetai/fedramp-marketplace",
+              "repositoryDescription": "Source repository for this public FedRAMP information (fedramp.json and the generated human-readable page) with full change history.",
+              "authenticationRequired": false
+            },
+            {
+              "repositoryType": [
+                "Trust Center",
+                "Certification Package",
+                "Policies and Procedures",
+                "Assessment Reports"
+              ],
+              "url": "https://trust.specset.com",
+              "repositoryDescription": "FedRAMP Certification Data for the Specset Cloud Platform: Certification Package Overview, Security Decision Record, Ongoing Certification Reports, security policies and procedures, and the SOC 2 Type II report and bridge letters.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Request access from the Trust Center page. FedRAMP staff and agency customers are granted access without accepting terms or an NDA; contact security@specset.com if access is not granted within one business day."
+            }
+          ]
         },
         "contactInformation": [
           {
@@ -4543,9 +4716,114 @@
             "contactEmail": "security@specset.com"
           }
         ],
+        "certifiedServices": [
+          {
+            "serviceName": "Specset Cloud Platform",
+            "serviceDescription": "The Specset Cloud Platform is a single multi-tenant SaaS service for construction document intelligence. It ingests customer project documents (project manuals and specifications, drawing sheets, shop drawings and submittals) and provides: automated submittal review against project specifications; UFGS and specification compliance checking; design review automation; document search and question answering across a project's documents; and asset management logic. Customers access the service through a web application; optional customer-initiated integrations connect to the customer's own Procore or Autodesk tenants. Production is hosted on Google Cloud Platform (us-west1, Assured Workloads) with supporting services on Amazon Web Services and Microsoft Azure as listed under third-party information resources.",
+            "dateAvailable": "2025-01-22"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+              "useCase": "Google Cloud Platform (Google Services) — primary hosting of all production infrastructure: GKE Autopilot, Cloud SQL, Cloud Storage, Memorystore, Cloud KMS, Cloud Load Balancing and Cloud Armor, Cloud Logging and Monitoring, Secret Manager, Artifact Registry, and Vertex AI (Gemini) model inference and embeddings. Stores and processes customer data."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+              "useCase": "AWS US East/West — supporting services: Amazon SES (transactional email), Route 53 (DNS), S3 (database backups, CI cache, audit-log storage), GuardDuty (threat detection), and Amazon Bedrock (Claude model inference; may process customer document text in prompts)."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
+              "useCase": "Azure Commercial Cloud — Azure OpenAI (GPT model inference; may process customer document text in prompts) and Microsoft Entra ID application registrations for customer 'Sign in with Microsoft' single sign-on. No customer data is stored on Azure."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+              "useCase": "Google Workspace — provider identity (Cloud Identity) for administrator access to production via Identity-Aware Proxy; administrator email. No customer data."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
+              "useCase": "GitHub Enterprise Cloud — source control and CI/CD for the application and infrastructure-as-code; deploys to production via OpenID Connect workload identity federation. No customer data."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR2525556241",
+              "useCase": "Vanta Trust Management Platform — continuous configuration monitoring of the production cloud accounts (read-only metadata), compliance evidence, and the Specset Trust Center at trust.specset.com. No customer data."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1823447014",
+              "useCase": "Slack — operational alerting and change-notification channel for the provider (infrastructure change notifications, security alerts). Resource metadata only; no customer data."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR2604643715",
+              "useCase": "Perplexity Enterprise and API Platform — web search for AI agent features. Receives search queries; customer documents are not sent. Excluded for customer organizations flagged as handling CUI."
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "Intercom",
+              "provider": "Intercom, Inc.",
+              "website": "https://www.intercom.com",
+              "useCase": "In-app customer support chat. Processes customer user contact details and support conversation content; no project documents."
+            },
+            {
+              "name": "Customer.io",
+              "provider": "Customer.io, Inc.",
+              "website": "https://customer.io",
+              "useCase": "Product email and lifecycle messaging. Processes customer user contact details and product-usage events; no project documents."
+            },
+            {
+              "name": "Laminar",
+              "provider": "lmnr-ai, Inc.",
+              "website": "https://www.lmnr.ai",
+              "useCase": "LLM observability and tracing for the provider's engineering team. Tracing is disabled for customer organizations flagged as handling CUI."
+            },
+            {
+              "name": "Google AI Studio (Gemini API)",
+              "provider": "Google LLC",
+              "website": "https://aistudio.google.com",
+              "useCase": "Secondary Gemini API path outside the Google Cloud FedRAMP boundary, used for evaluation. Excluded for customer organizations flagged as handling CUI; scheduled for retirement."
+            },
+            {
+              "name": "Better Stack",
+              "provider": "Better Stack, Inc.",
+              "website": "https://betterstack.com",
+              "useCase": "External uptime monitoring and the public status page (status.specbook.ai). Availability metadata only; no customer data."
+            },
+            {
+              "name": "Cloudflare",
+              "provider": "Cloudflare, Inc.",
+              "website": "https://www.cloudflare.com",
+              "useCase": "Edge fronting for the Trust Center custom hostname (trust.specset.com) as provided by Vanta. No customer data; the Cloudflare for Government offering is not used."
+            },
+            {
+              "name": "Apryse (PDFTron) SDK",
+              "provider": "Apryse Software Inc.",
+              "website": "https://apryse.com",
+              "useCase": "Document rendering SDK embedded in the application; only license-validation pings leave the environment. No customer data."
+            },
+            {
+              "name": "Firecrawl",
+              "provider": "Mendable, Inc.",
+              "website": "https://www.firecrawl.dev",
+              "useCase": "Public web page fetching for AI agent features. Receives public URLs only; no customer documents."
+            },
+            {
+              "name": "Procore",
+              "provider": "Procore Technologies, Inc.",
+              "website": "https://www.procore.com",
+              "useCase": "Optional customer-initiated integration to the customer's own Procore tenant via OAuth; data exchanged is chosen and authorized by the customer."
+            },
+            {
+              "name": "Autodesk Platform Services",
+              "provider": "Autodesk, Inc.",
+              "website": "https://aps.autodesk.com",
+              "useCase": "Optional customer-initiated integration to the customer's own Autodesk tenant via OAuth; data exchanged is chosen and authorized by the customer."
+            }
+          ]
+        },
         "ZD_frid_retro": "FR2631747321",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:13Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:26Z"
       },
       {
         "serviceIdentification": {
@@ -4597,7 +4875,7 @@
         ],
         "ZD_frid_retro": "FR2631747327",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:13Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:26Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4710,7 +4988,7 @@
         ],
         "ZD_frid_retro": "FR2300457485",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:14Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:27Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4746,7 +5024,7 @@
         ],
         "ZD_frid_retro": "FR2632054516",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:14Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:28Z"
       },
       {
         "serviceIdentification": {
@@ -4851,7 +5129,7 @@
         ],
         "ZD_frid_retro": "FR2632054521",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:14Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:28Z"
       },
       {
         "packageMetadata": {
@@ -4942,7 +5220,7 @@
         },
         "ZD_frid_retro": "FR2520254824",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:14Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:28Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5058,7 +5336,7 @@
         },
         "ZD_frid_retro": "FR2632054530",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:15Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:29Z"
       },
       {
         "serviceIdentification": {
@@ -5143,7 +5421,7 @@
         },
         "ZD_frid_retro": "FR2632054534",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:15Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:30Z"
       },
       {
         "serviceIdentification": {
@@ -5255,7 +5533,7 @@
         },
         "ZD_frid_retro": "FR2632054491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:16Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:30Z"
       },
       {
         "last_updated": "2026-08-10",
@@ -5340,7 +5618,7 @@
         },
         "ZD_frid_retro": "FR2632054495",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:16Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:30Z"
       },
       {
         "serviceIdentification": {
@@ -5403,7 +5681,7 @@
         ],
         "ZD_frid_retro": "FR2632436493",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-28T20:31:16Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:31Z"
       },
       {
         "serviceIdentification": {
@@ -5441,7 +5719,7 @@
         ],
         "ZD_frid_retro": "FR2632558735",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:17Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:31Z"
       },
       {
         "serviceIdentification": {
@@ -5479,7 +5757,7 @@
         ],
         "ZD_frid_retro": "FR2632558740",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:18Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:32Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5561,7 +5839,7 @@
         },
         "ZD_frid_retro": "FR2632558748",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:18Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:32Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5687,7 +5965,7 @@
         },
         "ZD_frid_retro": "FR2632731472",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:18Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:34Z"
       },
       {
         "serviceIdentification": {
@@ -5765,7 +6043,296 @@
         },
         "ZD_frid_retro": "FR2632755834",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-28T20:31:19Z"
+        "last_fetched_timestamp": "2026-08-31T21:11:34Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "Emburse Ent",
+          "ueiNumber": "LVF6SRG7MUY4",
+          "providerName": "Emburse",
+          "serviceName": "Emburse Enterprise",
+          "serviceAcronym": "EE",
+          "serviceDescription": "Emburse Enterprise is a cloud-based SaaS solution that enables organizations to manage employee expense reporting, approval, and reimbursement workflows. For federal agency use, the solution is designed to enable authorized users to submit, review, approve, and administer business expenses in accordance with applicable organizational travel and expense policies. Potential users within a federal agency may include employees, expense approvers, finance and administrative personnel, and authorized system administrators.",
+          "certificationType": "20x",
+          "website": "https://www.emburse.com/",
+          "logo": "https://www.emburse.com/images/emburse-logo-dark.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Finance",
+            "Travel Management"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.emburse.com/",
+            "repositoryDescription": "Security and compliance documentation for Emburse Enterprise, including the SOC 2 Type II report, SOC 1 Type II report, ISO/IEC 27001, ISO/IEC 27701 and ISO/IEC 42001 certificates, and PCI DSS attestation.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Request access at trust.emburse.com using a work email address. The Emburse security team reviews federal agency and independent assessor requests; please include your agency or organization name and the documents you require. Access is normally granted within 3 business days."
+          }
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Emburse Security Team",
+            "contactEmail": "fedramp-security@emburse.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Public Sector Sales",
+            "contactEmail": "publicsector@emburse.com"
+          },
+          {
+            "contactType": "Billing",
+            "contactName": "Billing Team",
+            "contactEmail": "billing@emburse.com"
+          }
+        ],
+        "certifiedServices": [
+          {
+            "serviceName": "Emburse Enterprise",
+            "serviceDescription": "Expense report creation and submission, receipt capture and management, policy-based approval workflows, expense categorization, reporting, and administrative configuration. Previously marketed as Chrome River.",
+            "dateAvailable": "2008-01-01"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+              "useCase": "Underlying cloud infrastructure hosting the offering."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2633058235",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-31T21:11:35Z"
+      },
+      {
+        "$comment": "Ultra Security FedRAMP 20x Certification Package Overview — conformant to fedramp-certification-package-overview-schema-2026-06-24.json (FRC-CSO-PKG). Machine-readable identification package for the CSO. This is the schema-conformant CPO; the narrative CPO (metadata/publicInformation/... index) is a separate human-readable companion.",
+        "serviceIdentification": {
+          "providerName": "Ultra Security, Inc.",
+          "serviceName": "Ultra Hub and Ultra Gateway",
+          "serviceAcronym": "Ultra",
+          "serviceDescription": "Ultra is an AI-native security platform for the Model Context Protocol (MCP). It proxies and governs MCP tool calls through the customer-deployed Ultra Gateway and provides centralized visibility, identity, governance, and guardrails through Ultra Hub — enabling organizations to safely deploy and scale AI.",
+          "certificationType": "20x",
+          "fedRampPackageId": "Ultra Security, Inc. — Ultra (FedRAMP ID pending assignment)",
+          "ueiNumber": "",
+          "website": "https://ultra.security",
+          "logo": "https://ultra.security/favicon.ico"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Cybersecurity & Risk Management",
+            "Artificial Intelligence (AI)"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.ultra.security",
+            "repositoryDescription": "Ultra's FedRAMP-compatible trust center — certification status, public information, public service list, Secure Configuration Guide, Ongoing Certification Report, and availability/status page. FedRAMP 20x documents are listed in the FedRAMP 20x section of the resources panel on the left side of the trust center and are viewable without a request; controlled documents are available via the document-request control.",
+            "authenticationRequired": false
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://docs.ultra.security/concepts/secure-configuration-guide",
+            "repositoryDescription": "Ultra's public Secure Configuration Guide — recommended secure defaults and administrative-account guidance for customers, including a machine-readable baseline and a settings-comparison capability.",
+            "authenticationRequired": false
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Assessment Reports"
+              ],
+              "url": "https://trust.ultra.security",
+              "repositoryDescription": "A-LIGN FedRAMP 20x Class B independent assessment report (assessed 2026-08-12; 201 of 203 rules met). Included in the certification package per IVV-CSO-ICP.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Request via the document-request control in Ultra's trust center (trust.ultra.security); approved requests are granted access."
+            },
+            {
+              "repositoryType": [
+                "Provider Documentation"
+              ],
+              "url": "https://docs.ultra.security",
+              "repositoryDescription": "Product and security documentation — hub configuration, observability, installation, and core concepts.",
+              "authenticationRequired": false
+            }
+          ],
+          "nextOngoingCertificationReportDate": "2026-11-13"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Primary",
+            "contactName": "Rob Gutierrez, Director, Security & Business Operations",
+            "contactEmail": "security@ultra.security"
+          },
+          {
+            "contactType": "Security",
+            "contactName": "Ultra Security Team",
+            "contactEmail": "security@ultra.security"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Ultra Sales & Support",
+            "contactEmail": "support@ultra.security"
+          }
+        ],
+        "assessor": {
+          "name": "A-LIGN",
+          "assessorID": "138665"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Ultra Hub",
+            "serviceDescription": "Cloud control plane — org/team/workspace management, identities, governance, guardrails, and telemetry. Categorized Low (FedRAMP 20x Class B baseline).",
+            "dateAvailable": "2026-08-12"
+          },
+          {
+            "serviceName": "Ultra Gateway",
+            "serviceDescription": "Customer-deployed MCP proxy / enforcement point that syncs telemetry to Ultra Hub. Categorized Low (FedRAMP 20x Class B baseline).",
+            "dateAvailable": "2026-08-12"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "nonCertified": [
+            {
+              "name": "Amazon Web Services (AWS)",
+              "provider": "Amazon Web Services, Inc.",
+              "website": "https://aws.amazon.com",
+              "useCase": "Underlying IaaS — compute (ECS/Fargate), database (Aurora), load balancing, KMS, and CloudTrail logging; primary region us-east-1 (also us-west-2, eu-west-1). Mitigations: least-privilege security groups, KMS encryption at rest, TLS in transit, CloudTrail logging."
+            },
+            {
+              "name": "Google Workspace",
+              "provider": "Google LLC",
+              "website": "https://workspace.google.com",
+              "useCase": "Corporate email and productivity (FedRAMP High authorized); limited handling of federal customer communications."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2633058240",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-31T21:11:37Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "serviceIdentification": {
+          "fedRampPackageId": "Anthropic-CE",
+          "ueiNumber": "SPQZL8XDKGK7",
+          "providerName": "Anthropic",
+          "serviceName": "Claude for Enterprise",
+          "serviceAcronym": "CE",
+          "serviceDescription": "Claude for Enterprise is a software-as-a-service AI assistant that lets organizations use Anthropic's Claude models through a managed web, desktop, and mobile application. Users interact with Claude in natural language to draft and analyze documents, reason over uploaded files, search connected data sources, and automate multi-step work. Administrators manage the deployment through organization-level identity, access, data-retention, and audit controls. Customer conversations and uploaded content are not used to train Anthropic's models by default.",
+          "certificationType": "20x",
+          "website": "https://claude.com/product/overview",
+          "logo": "https://assets.claude.ai/brand/logos/anthropic-logo.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Artificial Intelligence (AI)"
+          ]
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Anthropic FedRAMP Security Contact",
+            "contactEmail": "fedramp@anthropic.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Anthropic Public Sector Sales",
+            "contactEmail": "pubsec@anthropic.com"
+          },
+          {
+            "contactType": "Primary",
+            "contactName": "Taylor Trigger, Security Governance, Risk, and Compliance (GRC)",
+            "contactEmail": "fedramp@anthropic.com"
+          }
+        ],
+        "assessor": {
+          "name": "Schellman & Company, LLC",
+          "assessorID": "136571"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Claude",
+            "serviceDescription": "Web, desktop, and mobile chat interface for interacting with Claude models to draft and analyze content, reason over uploaded files, and search connected data sources.",
+            "dateAvailable": "2023-03-14"
+          },
+          {
+            "serviceName": "Claude Code",
+            "serviceDescription": "Agentic coding tool that lets developers delegate coding tasks to Claude from the command line, desktop app, or mobile app.",
+            "dateAvailable": "2025-05-22"
+          },
+          {
+            "serviceName": "Claude Cowork",
+            "serviceDescription": "Agentic knowledge-work desktop application for delegating multi-step, file-based tasks to Claude.",
+            "dateAvailable": "2026-01-12"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+              "useCase": "Google Cloud Platform (Vertex AI) serves model inference for FedRAMP customers; GCP also hosts production data stores (AlloyDB)."
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "Cloudflare",
+              "provider": "Cloudflare, Inc.",
+              "website": "https://www.cloudflare.com",
+              "useCase": "Edge ingress operating in proxy mode: DNS, TLS termination, WAF, and rate limiting for all customer traffic before forwarding to Anthropic load balancers."
+            },
+            {
+              "name": "WorkOS",
+              "provider": "WorkOS, Inc.",
+              "website": "https://workos.com",
+              "useCase": "Enterprise single sign-on broker. Hosts customer organization SSO configuration, domain verification, and identity-provider connections; issues SP-initiated authorization URLs."
+            },
+            {
+              "name": "Datadog",
+              "provider": "Datadog, Inc.",
+              "website": "https://www.datadoghq.com",
+              "useCase": "Logging and monitoring for production services. Contains log data that could affect the security of customer data."
+            },
+            {
+              "name": "Wiz",
+              "provider": "Wiz, Inc.",
+              "website": "https://www.wiz.io",
+              "useCase": "Cloud security posture and vulnerability scanning of the production environment."
+            },
+            {
+              "name": "Brave Search",
+              "provider": "Brave Software, Inc.",
+              "website": "https://brave.com",
+              "useCase": "Web search backend. When a user invokes web search, query content is transmitted to Brave and results are returned to the product service."
+            },
+            {
+              "name": "ElevenLabs",
+              "provider": "ElevenLabs, Inc.",
+              "website": "https://elevenlabs.io",
+              "useCase": "Text-to-speech service for voice output features; processes customer content passed for synthesis."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2633058245",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-08-31T21:11:37Z"
       }
     ]
   }
