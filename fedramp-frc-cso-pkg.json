@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-31T21:11:37.973Z",
-    "total_entries": 53,
+    "export_timestamp": "2026-09-01T19:54:41.591Z",
+    "total_entries": 55,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -411,7 +411,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:01Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:07Z"
       },
       {
         "assessor": {
@@ -494,7 +494,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:05Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:10Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -602,7 +602,7 @@
         "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:06Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:11Z"
       },
       {
         "serviceIdentification": {
@@ -675,10 +675,10 @@
           "providerName": "Bland AI",
           "serviceName": "Bland",
           "serviceAcronym": "Bland",
-          "serviceDescription": "Bland is an enterprise voice AI platform for building, deploying, and operating AI phone agents at scale. Bland runs its own speech and language models, so customer calls are not sent to third-party frontier model providers.",
+          "serviceDescription": "Bland is an enterprise voice AI platform for building, deploying, and operating AI phone agents at scale. Bland runs its own speech and language models, so customer calls are not sent to third-party frontier model providers. Speech-to-text, reasoning, and text-to-speech all run on Bland’s own models within Bland’s boundary.",
           "certificationType": "20x",
           "fedRampPackageId": "FR2628647242",
-          "ueiNumber": "Not Applicable",
+          "ueiNumber": "",
           "website": "https://www.bland.ai",
           "logo": "https://www.bland.ai/images/bland-logo.svg"
         },
@@ -736,6 +736,42 @@
               "repositoryDescription": "Official statement of work from Prescient Security documenting Bland’s commitment to a Class C assessment within the next 24 months.",
               "authenticationRequired": true,
               "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+            },
+            {
+              "repositoryType": [
+                "Vulnerability Reporting"
+              ],
+              "url": "https://trust.bland-gov.com/",
+              "repositoryDescription": "Vulnerability detection and response reporting published as FedRAMP Certification Data: the monthly human-readable report required by VER-TFR-MHR and its machine-readable companions for VER-RPT-VDT and VER-RPT-AVI. Governed by the Bland Vulnerability Management Plan and the Bland VDR Reporting Procedure.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+            },
+            {
+              "repositoryType": [
+                "Historical Vulnerability Activity"
+              ],
+              "url": "https://trust.bland-gov.com/",
+              "repositoryDescription": "Machine-readable historical vulnerability evaluation and reporting activity for automated retrieval (VER-TFR-MRH), with the retrieval design, access model, and schedule set out in the Bland Historical Vulnerability Activity Retrieval Statement. Partially implemented; published as a periodic snapshot pending the authenticated retrieval endpoint.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+            },
+            {
+              "repositoryType": [
+                "Incident Reporting"
+              ],
+              "url": "https://trust.bland-gov.com/",
+              "repositoryDescription": "Where Bland publishes Initial, Ongoing, and Final Incident Reports for FedRAMP Reportable Incidents (IEC-CSO-IIR, IEC-CSO-OIR, IEC-CSO-FIR) in human-readable and machine-readable form.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+            },
+            {
+              "repositoryType": [
+                "Significant Change Notifications"
+              ],
+              "url": "https://trust.bland-gov.com/",
+              "repositoryDescription": "Where Bland publishes Significant Change Notifications and related audit records (SCN-CSO-INF, SCN-CSO-HRM) in human-readable and machine-readable form.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
             }
           ],
           "nextOngoingCertificationReportDate": "2026-10-30"
@@ -779,12 +815,6 @@
           ],
           "nonCertified": [
             {
-              "name": "Cloudflare",
-              "provider": "Cloudflare",
-              "website": "https://www.cloudflare.com",
-              "useCase": "Network edge and application security in front of the Bland service."
-            },
-            {
               "name": "Okta",
               "provider": "Okta",
               "website": "https://www.okta.com",
@@ -798,9 +828,22 @@
             }
           ]
         },
+        "x-bland": {
+          "note": "CPO-CSO-MTD requires the responsible official, version, date and time of last update, and source of update in the Certification Package Overview. The official FedRAMP Certification Package Overview schema has no property for any of the four, so Bland carries them here. The schema does not set additionalProperties to false, so this validates. Re-check on each schema release.",
+          "certificationPackageOverviewMetadata": {
+            "responsibleOfficial": {
+              "name": "Juan Riojas",
+              "title": "Chief Information Officer",
+              "email": "fedramp@bland.ai"
+            },
+            "version": "1.3",
+            "lastUpdated": "2026-08-31T00:00:00Z",
+            "sourceOfUpdate": "Recorded 20x Class A Certification received 2026-08-25 (FedRAMP Marketplace FR2628647242; Type 20x, Path Program, Class A Pilot, phase Ongoing Certification) and the move to a Class C application, with the Prescient Security Class C assessment beginning 2026-09-01 and submission to follow in Q3. Corrected the next Ongoing Certification Report date to 2026-10-30. Removed Cloudflare from third-party information resources. Aligned the service description with the human-readable overview, cleared ueiNumber to blank per the schema’s guidance for an unassigned UEI, and added Trust Center repositories for vulnerability reporting (VER-TFR-MHR, VER-RPT-VDT, VER-RPT-AVI), historical vulnerability activity (VER-TFR-MRH), incident reporting (IEC-CSO-IIR/OIR/FIR), and significant change notifications (SCN-CSO-INF, SCN-CSO-HRM)."
+          }
+        },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:07Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:12Z"
       },
       {
         "assessor": {
@@ -1680,7 +1723,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:07Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:12Z"
       },
       {
         "serviceIdentification": {
@@ -1738,7 +1781,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:08Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:14Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1867,7 +1910,7 @@
         ],
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:09Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:14Z"
       },
       {
         "serviceIdentification": {
@@ -1961,12 +2004,12 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:09Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:14Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "$schemaVersion": "0.1.2",
-        "lastUpdated": "2026-08-31T21:11:10.276382+00:00",
+        "lastUpdated": "2026-09-01T19:54:15.310916+00:00",
         "sourceOfUpdate": "FedRAMP 2026 hub",
         "serviceIdentification": {
           "fedRampPackageId": "FR2628943633",
@@ -2026,12 +2069,17 @@
           {
             "serviceName": "Evidence Workspace",
             "serviceDescription": "",
-            "dateAvailable": "2026-08-29"
+            "dateAvailable": "2026-08-31"
           },
           {
             "serviceName": "Authorization OS",
             "serviceDescription": "",
-            "dateAvailable": "2026-08-29"
+            "dateAvailable": "2026-08-31"
+          },
+          {
+            "serviceName": "Trust center",
+            "serviceDescription": "",
+            "dateAvailable": "2026-08-31"
           }
         ],
         "certificationProgress": [
@@ -2058,7 +2106,7 @@
         ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:10Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:15Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2229,7 +2277,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:10Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:15Z"
       },
       {
         "serviceIdentification": {
@@ -2293,7 +2341,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:11Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:15Z"
       },
       {
         "serviceIdentification": {
@@ -2352,7 +2400,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:12Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:17Z"
       },
       {
         "assessor": {
@@ -2405,7 +2453,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:13Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:18Z"
       },
       {
         "serviceIdentification": {
@@ -2489,7 +2537,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:14Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:19Z"
       },
       {
         "serviceIdentification": {
@@ -2577,7 +2625,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:15Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:20Z"
       },
       {
         "serviceIdentification": {
@@ -2667,7 +2715,7 @@
         },
         "ZD_frid_retro": "FR2630354491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:16Z"
+        "last_fetched_timestamp": "2026-08-31T19:08:30Z"
       },
       {
         "serviceIdentification": {
@@ -2706,7 +2754,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:17Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:22Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2755,8 +2803,8 @@
           },
           {
             "contactType": "Security",
-            "contactName": "Jaafar Abdeen — Security Contact",
-            "contactEmail": "jabdeen@nextgenid.com"
+            "contactName": "Mamoun Hayel — Security Contact",
+            "contactEmail": "mhayel@nextgenid.com"
           },
           {
             "contactType": "System Owner",
@@ -2866,7 +2914,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:17Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:22Z"
       },
       {
         "serviceIdentification": {
@@ -2930,7 +2978,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:17Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:23Z"
       },
       {
         "serviceIdentification": {
@@ -3006,7 +3054,7 @@
         ],
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:19Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:24Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3158,7 +3206,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:19Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:25Z"
       },
       {
         "publicDisclosure": {
@@ -3427,7 +3475,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:20Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:25Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3468,7 +3516,8 @@
             "repositoryDescription": "Public guidance for configuring identity, privacy, agent controls, network access, extensions, and monitoring for a secure Cursor deployment.",
             "authenticationRequired": false
           },
-          "securityCategoryNote": "The adopting federal agency determines the applicable FIPS 199 security category for its intended use of each service. Cursor's FedRAMP 20x Class A profile does not assert a provider-wide Low, Moderate, or High impact level."
+          "securityCategoryNote": "The adopting federal agency determines the applicable FIPS 199 security category for its intended use of each service. Cursor's FedRAMP 20x Class A profile does not assert a provider-wide Low, Moderate, or High impact level.",
+          "nextOngoingCertificationReportDate": "2026-09-08"
         },
         "certifiedServices": [
           {
@@ -3594,7 +3643,7 @@
         ],
         "ZD_frid_retro": "FR2631054484",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:20Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:25Z"
       },
       {
         "serviceIdentification": {
@@ -3662,7 +3711,7 @@
         ],
         "ZD_frid_retro": "FR2631154499",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:20Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:26Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3759,7 +3808,7 @@
         },
         "ZD_frid_retro": "FR2631258113",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:21Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:26Z"
       },
       {
         "serviceIdentification": {
@@ -3925,7 +3974,7 @@
         ],
         "ZD_frid_retro": "F1206111371",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:22Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:27Z"
       },
       {
         "serviceIdentification": {
@@ -4098,7 +4147,7 @@
         ],
         "ZD_frid_retro": "FR2631258125",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:22Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:27Z"
       },
       {
         "serviceIdentification": {
@@ -4175,7 +4224,7 @@
         },
         "ZD_frid_retro": "FR2631258127",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:22Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:28Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4239,6 +4288,10 @@
           {
             "contactType": "Security",
             "contactEmail": "security@specset.com"
+          },
+          {
+            "contactType": "FedRAMP Security Inbox",
+            "contactEmail": "fedramp@specset.com"
           }
         ],
         "certifiedServices": [
@@ -4288,19 +4341,13 @@
               "name": "Intercom",
               "provider": "Intercom, Inc.",
               "website": "https://www.intercom.com",
-              "useCase": "In-app customer support chat. Processes customer user contact details and support conversation content; no project documents."
+              "useCase": "In-app customer support chat for commercial organizations. Processes customer user contact details and support conversation content; no project documents. Disabled for customer organizations flagged as handling CUI — the messenger never boots for a CUI organization and CUI memberships are never shared with it."
             },
             {
               "name": "Customer.io",
               "provider": "Customer.io, Inc.",
               "website": "https://customer.io",
-              "useCase": "Product email and lifecycle messaging. Processes customer user contact details and product-usage events; no project documents."
-            },
-            {
-              "name": "Laminar",
-              "provider": "lmnr-ai, Inc.",
-              "website": "https://www.lmnr.ai",
-              "useCase": "LLM observability and tracing for the provider's engineering team. Tracing is disabled for customer organizations flagged as handling CUI."
+              "useCase": "Product email and lifecycle messaging for commercial organizations. Processes customer user contact details and product-usage events; no project documents. Excluded from the federal/CUI data path; per-organization CUI gating (mirroring the in-app messenger) is being applied before any federal customer onboarding."
             },
             {
               "name": "Google AI Studio (Gemini API)",
@@ -4318,25 +4365,13 @@
               "name": "Cloudflare",
               "provider": "Cloudflare, Inc.",
               "website": "https://www.cloudflare.com",
-              "useCase": "Edge fronting for the Trust Center custom hostname (trust.specset.com) as provided by Vanta. No customer data; the Cloudflare for Government offering is not used."
+              "useCase": "Two uses: (1) edge fronting for the Trust Center custom hostname (trust.specset.com) as provided by Vanta — no customer data; (2) Cloudflare AI Gateway proxying experimental model traffic for commercial organizations only — excluded for customer organizations flagged as handling CUI via the per-organization routing control. The Cloudflare for Government offering is not used."
             },
             {
               "name": "Apryse (PDFTron) SDK",
               "provider": "Apryse Software Inc.",
               "website": "https://apryse.com",
               "useCase": "Document rendering SDK embedded in the application; only license-validation pings leave the environment. No customer data."
-            },
-            {
-              "name": "Firecrawl",
-              "provider": "Mendable, Inc.",
-              "website": "https://www.firecrawl.dev",
-              "useCase": "Public web page fetching for AI agent features. Receives public URLs only; no customer documents."
-            },
-            {
-              "name": "Procore",
-              "provider": "Procore Technologies, Inc.",
-              "website": "https://www.procore.com",
-              "useCase": "Optional customer-initiated integration to the customer's own Procore tenant via OAuth; data exchanged is chosen and authorized by the customer."
             },
             {
               "name": "Autodesk Platform Services",
@@ -4348,7 +4383,7 @@
         },
         "ZD_frid_retro": "FR2631258135",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:23Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:28Z"
       },
       {
         "serviceIdentification": {
@@ -4472,7 +4507,7 @@
         ],
         "ZD_frid_retro": "F1311222650",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:24Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:30Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4582,7 +4617,7 @@
         },
         "ZD_frid_retro": "FR2631654537",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:25Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:31Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4650,7 +4685,7 @@
         },
         "ZD_frid_retro": "FR2631747315",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:26Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:32Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4714,6 +4749,10 @@
           {
             "contactType": "Security",
             "contactEmail": "security@specset.com"
+          },
+          {
+            "contactType": "FedRAMP Security Inbox",
+            "contactEmail": "fedramp@specset.com"
           }
         ],
         "certifiedServices": [
@@ -4763,19 +4802,13 @@
               "name": "Intercom",
               "provider": "Intercom, Inc.",
               "website": "https://www.intercom.com",
-              "useCase": "In-app customer support chat. Processes customer user contact details and support conversation content; no project documents."
+              "useCase": "In-app customer support chat for commercial organizations. Processes customer user contact details and support conversation content; no project documents. Disabled for customer organizations flagged as handling CUI — the messenger never boots for a CUI organization and CUI memberships are never shared with it."
             },
             {
               "name": "Customer.io",
               "provider": "Customer.io, Inc.",
               "website": "https://customer.io",
-              "useCase": "Product email and lifecycle messaging. Processes customer user contact details and product-usage events; no project documents."
-            },
-            {
-              "name": "Laminar",
-              "provider": "lmnr-ai, Inc.",
-              "website": "https://www.lmnr.ai",
-              "useCase": "LLM observability and tracing for the provider's engineering team. Tracing is disabled for customer organizations flagged as handling CUI."
+              "useCase": "Product email and lifecycle messaging for commercial organizations. Processes customer user contact details and product-usage events; no project documents. Excluded from the federal/CUI data path; per-organization CUI gating (mirroring the in-app messenger) is being applied before any federal customer onboarding."
             },
             {
               "name": "Google AI Studio (Gemini API)",
@@ -4793,25 +4826,13 @@
               "name": "Cloudflare",
               "provider": "Cloudflare, Inc.",
               "website": "https://www.cloudflare.com",
-              "useCase": "Edge fronting for the Trust Center custom hostname (trust.specset.com) as provided by Vanta. No customer data; the Cloudflare for Government offering is not used."
+              "useCase": "Two uses: (1) edge fronting for the Trust Center custom hostname (trust.specset.com) as provided by Vanta — no customer data; (2) Cloudflare AI Gateway proxying experimental model traffic for commercial organizations only — excluded for customer organizations flagged as handling CUI via the per-organization routing control. The Cloudflare for Government offering is not used."
             },
             {
               "name": "Apryse (PDFTron) SDK",
               "provider": "Apryse Software Inc.",
               "website": "https://apryse.com",
               "useCase": "Document rendering SDK embedded in the application; only license-validation pings leave the environment. No customer data."
-            },
-            {
-              "name": "Firecrawl",
-              "provider": "Mendable, Inc.",
-              "website": "https://www.firecrawl.dev",
-              "useCase": "Public web page fetching for AI agent features. Receives public URLs only; no customer documents."
-            },
-            {
-              "name": "Procore",
-              "provider": "Procore Technologies, Inc.",
-              "website": "https://www.procore.com",
-              "useCase": "Optional customer-initiated integration to the customer's own Procore tenant via OAuth; data exchanged is chosen and authorized by the customer."
             },
             {
               "name": "Autodesk Platform Services",
@@ -4823,7 +4844,7 @@
         },
         "ZD_frid_retro": "FR2631747321",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:26Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:31Z"
       },
       {
         "serviceIdentification": {
@@ -4875,7 +4896,7 @@
         ],
         "ZD_frid_retro": "FR2631747327",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:26Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:31Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4988,7 +5009,7 @@
         ],
         "ZD_frid_retro": "FR2300457485",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:27Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:32Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5024,7 +5045,7 @@
         ],
         "ZD_frid_retro": "FR2632054516",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:28Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:32Z"
       },
       {
         "serviceIdentification": {
@@ -5129,7 +5150,7 @@
         ],
         "ZD_frid_retro": "FR2632054521",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:28Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:33Z"
       },
       {
         "packageMetadata": {
@@ -5220,7 +5241,7 @@
         },
         "ZD_frid_retro": "FR2520254824",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:28Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:33Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5336,7 +5357,7 @@
         },
         "ZD_frid_retro": "FR2632054530",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:29Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:34Z"
       },
       {
         "serviceIdentification": {
@@ -5421,7 +5442,7 @@
         },
         "ZD_frid_retro": "FR2632054534",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:30Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:34Z"
       },
       {
         "serviceIdentification": {
@@ -5533,7 +5554,7 @@
         },
         "ZD_frid_retro": "FR2632054491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:30Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:35Z"
       },
       {
         "last_updated": "2026-08-10",
@@ -5618,7 +5639,7 @@
         },
         "ZD_frid_retro": "FR2632054495",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:30Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:35Z"
       },
       {
         "serviceIdentification": {
@@ -5681,7 +5702,7 @@
         ],
         "ZD_frid_retro": "FR2632436493",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:31Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:36Z"
       },
       {
         "serviceIdentification": {
@@ -5719,7 +5740,7 @@
         ],
         "ZD_frid_retro": "FR2632558735",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:31Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:36Z"
       },
       {
         "serviceIdentification": {
@@ -5757,7 +5778,7 @@
         ],
         "ZD_frid_retro": "FR2632558740",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:32Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:37Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5839,7 +5860,7 @@
         },
         "ZD_frid_retro": "FR2632558748",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:32Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:37Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5965,7 +5986,7 @@
         },
         "ZD_frid_retro": "FR2632731472",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:34Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:38Z"
       },
       {
         "serviceIdentification": {
@@ -6043,7 +6064,7 @@
         },
         "ZD_frid_retro": "FR2632755834",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:34Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:38Z"
       },
       {
         "serviceIdentification": {
@@ -6110,7 +6131,7 @@
         },
         "ZD_frid_retro": "FR2633058235",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:35Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:39Z"
       },
       {
         "$comment": "Ultra Security FedRAMP 20x Certification Package Overview — conformant to fedramp-certification-package-overview-schema-2026-06-24.json (FRC-CSO-PKG). Machine-readable identification package for the CSO. This is the schema-conformant CPO; the narrative CPO (metadata/publicInformation/... index) is a separate human-readable companion.",
@@ -6222,7 +6243,7 @@
         },
         "ZD_frid_retro": "FR2633058240",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:37Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:40Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6332,7 +6353,201 @@
         },
         "ZD_frid_retro": "FR2633058245",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-08-31T21:11:37Z"
+        "last_fetched_timestamp": "2026-09-01T19:54:40Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "TGuardAI Inc. (TGAI)",
+          "providerName": "TGuardAI Inc.",
+          "serviceName": "TrustGuard AI Compliance Platform",
+          "serviceAcronym": "TGAI",
+          "serviceDescription": "TrustGuard AI is a comprehensive, AI-native Governance, Risk, and Compliance (GRC) platform that unifies internal compliance automation and external threat monitoring in a single system of record. Inside the organization, TrustGuard AI continuously collects evidence, maps it to recognized control frameworks — including FedRAMP, SOC 2, ISO 27001, NIST 800-53, NIST CSF, HIPAA, PCI DSS, and CMMC — and uses retrieval-augmented AI to assess controls, surface gaps, draft remediations, and generate audit-ready, machine-readable findings and reports. Looking outward, it delivers continuous third-party and supply-chain risk monitoring, scoring vendors and partners against real-world security signals so teams can quantify exposure, prioritize outreach, and track remediation across their entire ecosystem. By combining automated internal compliance with external security ratings and attack-surface intelligence, TrustGuard AI gives security, risk, and compliance leaders one continuously-updated view of their posture — from their own controls to every vendor they depend on. The platform is offered as SaaS. The provider maintains a SOC 2 Type 2 program and is undergoing a FedRAMP 20x Moderate (Class C) assessment; the FedRAMP-assessed instance operates in production within AWS GovCloud (US).",
+          "certificationType": "20x",
+          "website": "https://app-gov.trustguardai.com",
+          "logo": "https://app-gov.trustguardai.com/logo.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Government-Only Cloud",
+          "digitalIdentityLevel": "IAL2 / AAL2 / FAL2 (NIST SP 800-63-3). Privileged operators: IAL2 identity proofing tied to HR onboarding; AAL2 phishing-resistant FIDO2/WebAuthn enforced via AWS IAM Identity Center (no password-only path); FAL2 signed SAML assertions. Customer/agency end users: proofed by their sponsoring agency (IAL2), authenticate to the app with password + TOTP MFA (RFC 6238, app/utils/totp.py) or federated agency SAML via BoxyHQ (FAL2), short-lived JWTs. Full determination and justification: program/02_nist_800_63_identity.md (signed 2026-07-04).",
+          "businessCategory": [
+            "Cybersecurity & Risk Management",
+            "Governance, Risk, and Compliance (GRC)",
+            "Artificial Intelligence (AI)"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://app-gov.trustguardai.com/trust-center/tguard-ai",
+            "repositoryDescription": "FedRAMP Trust Center for the TrustGuard AI Compliance Platform. PUBLISHED LIVE: public tier open unauthenticated; reviewer tier request-only behind a server-side NDA gate with .gov/.mil auto-approve and access logging.",
+            "authenticationRequired": false
+          }
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "TrustGuard AI Security",
+            "contactEmail": "contact@trustguardai.com",
+            "contactPhone": "646-462-8750"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "TrustGuard AI Sales",
+            "contactEmail": "contact@trustguardai.com"
+          },
+          {
+            "contactType": "Primary",
+            "contactName": "TrustGuard AI",
+            "contactEmail": "contact@trustguardai.com"
+          }
+        ],
+        "assessor": {
+          "name": "A-LIGN (A-LIGN Compliance and Security, Inc.) — FedRAMP-Recognized 3PAO engaged by the provider to perform the independent verification and validation for the initial FedRAMP 20x Moderate / Class C assessment",
+          "id": "138665",
+          "assessorID": "138665"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "TrustGuard AI Compliance Platform",
+            "serviceDescription": "SaaS for automated security and compliance assessment using retrieval-augmented AI pipelines over recognized control frameworks. The FedRAMP-assessed instance is hosted in AWS GovCloud (US).",
+            "dateAvailable": "2026-07-06"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "nonCertified": [
+            {
+              "name": "Nango",
+              "provider": "Nango",
+              "useCase": "OAuth/integration connector platform used to broker third-party evidence-source integrations."
+            },
+            {
+              "name": "BoxyHQ Jackson",
+              "provider": "BoxyHQ",
+              "useCase": "SAML/SSO and enterprise identity federation gateway."
+            },
+            {
+              "name": "Langfuse",
+              "provider": "Langfuse",
+              "useCase": "LLM observability and prompt/trace management for the AI assessment pipeline (self-hosted in-partition for GovCloud)."
+            },
+            {
+              "name": "PagerDuty",
+              "provider": "PagerDuty",
+              "useCase": "On-call alerting and incident notification routing."
+            },
+            {
+              "name": "Amazon SES",
+              "provider": "Amazon Web Services",
+              "useCase": "Transactional email delivery for notifications."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2633053629",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-09-01T19:54:40Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "serviceIdentification": {
+          "fedRampPackageId": "Anthropic-Claude",
+          "ueiNumber": "SPQZL8XDKGK7",
+          "providerName": "Anthropic",
+          "serviceName": "Claude",
+          "serviceAcronym": "Claude",
+          "serviceDescription": "Claude is Anthropic's AI assistant, delivered as a cloud service and accessed through multiple interfaces that share the same underlying platform, models, and security controls: the Claude application on web, desktop, and mobile; Claude Code for agentic software development; Claude Cowork for delegating multi-step knowledge work; and the Claude API and Developer Platform for programmatic access to Claude models and agent-building capabilities. Users interact with Claude in natural language to draft and analyze documents, reason over uploaded files, search connected data sources, write and run code, and automate multi-step work. Organization administrators manage identity, access, data retention, and audit controls across all interfaces from a single deployment. Customer content is not used to train Anthropic's models by default.",
+          "certificationType": "20x",
+          "website": "https://claude.com/product/overview",
+          "logo": "https://assets.claude.ai/brand/logos/anthropic-logo.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Artificial Intelligence (AI)"
+          ]
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Anthropic FedRAMP Security Contact",
+            "contactEmail": "fedramp@anthropic.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Anthropic Public Sector Sales",
+            "contactEmail": "pubsec@anthropic.com"
+          },
+          {
+            "contactType": "Primary",
+            "contactName": "Taylor Trigger, Security Governance, Risk, and Compliance (GRC)",
+            "contactEmail": "fedramp@anthropic.com"
+          }
+        ],
+        "assessor": {
+          "name": "Schellman & Company, LLC",
+          "assessorID": "136571"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Claude",
+            "serviceDescription": "Claude is Anthropic's AI assistant, delivered as a single cloud service and accessed through multiple interfaces that share the same underlying platform, models, and security controls. This certification covers all Claude services offered to enterprise and government customers, including: the Claude application on web, desktop, and mobile; Claude Code, for agentic software development from the terminal, IDE, desktop, or mobile; Claude Cowork, for delegating multi-step knowledge work; and the Claude API and Developer Platform, for programmatic access to Claude models and agent-building capabilities. Organization administrators manage identity, access, data retention, and audit controls across all interfaces from a single enterprise deployment.",
+            "dateAvailable": "2023-03-14"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+              "useCase": "Google Cloud Platform (Vertex AI) serves model inference for FedRAMP customers; GCP also hosts production data stores (AlloyDB)."
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "Cloudflare",
+              "provider": "Cloudflare, Inc.",
+              "website": "https://www.cloudflare.com",
+              "useCase": "Edge ingress operating in proxy mode: DNS, TLS termination, WAF, and rate limiting for all customer traffic before forwarding to Anthropic load balancers."
+            },
+            {
+              "name": "WorkOS",
+              "provider": "WorkOS, Inc.",
+              "website": "https://workos.com",
+              "useCase": "Enterprise single sign-on broker. Hosts customer organization SSO configuration, domain verification, and identity-provider connections; issues SP-initiated authorization URLs."
+            },
+            {
+              "name": "Datadog",
+              "provider": "Datadog, Inc.",
+              "website": "https://www.datadoghq.com",
+              "useCase": "Logging and monitoring for production services. Contains log data that could affect the security of customer data."
+            },
+            {
+              "name": "Wiz",
+              "provider": "Wiz, Inc.",
+              "website": "https://www.wiz.io",
+              "useCase": "Cloud security posture and vulnerability scanning of the production environment."
+            },
+            {
+              "name": "Brave Search",
+              "provider": "Brave Software, Inc.",
+              "website": "https://brave.com",
+              "useCase": "Web search backend. When a user invokes web search, query content is transmitted to Brave and results are returned to the product service."
+            },
+            {
+              "name": "ElevenLabs",
+              "provider": "ElevenLabs, Inc.",
+              "website": "https://elevenlabs.io",
+              "useCase": "Text-to-speech service for voice output features; processes customer content passed for synthesis."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2633053633",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-09-01T19:53:51Z"
       }
     ]
   }

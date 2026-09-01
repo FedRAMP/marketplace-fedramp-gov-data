@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-31T21:10:59.138Z",
-    "total_entries": 2090,
+    "export_timestamp": "2026-09-01T19:54:04.738Z",
+    "total_entries": 2092,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -31342,7 +31342,7 @@
         "comments": ""
       },
       {
-        "unique_id": "f57ed6cc-8a5a-4571-a68f-052b3e86d97e",
+        "unique_id": "84be4702-b1cf-4af7-bff8-9c88ad29045f",
         "product_id": "FR2633058245",
         "csp": "Ultra Security, Inc.",
         "cso": "Ultra Security Hub and Agentic Security Platform",
@@ -31351,8 +31351,38 @@
         "cert_class": "",
         "from_status": "",
         "to_status": "Initial Implementation",
-        "transition_date": "2026-08-31T21:10:43Z",
-        "recorded_date": "2026-08-31T21:10:55.750Z",
+        "transition_date": "2026-09-01T18:09:41Z",
+        "recorded_date": "2026-09-01T19:54:00.857Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "0ba8cc33-2ffa-4940-93c9-d7068d20da7e",
+        "product_id": "FR2633053629",
+        "csp": "TGuardAI Inc.",
+        "cso": "TrustGuard AI Compliance Platform",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-01T19:53:46Z",
+        "recorded_date": "2026-09-01T19:54:00.857Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "4c9ffa6e-5704-4402-83aa-144b76e62320",
+        "product_id": "FR2633053633",
+        "csp": "Anthropic",
+        "cso": "Claude",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-01T19:53:51Z",
+        "recorded_date": "2026-09-01T19:54:00.857Z",
         "source": "frc-cso-pkg",
         "comments": ""
       }
