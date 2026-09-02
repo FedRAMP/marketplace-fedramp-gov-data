@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-01T19:59:30.767Z",
-    "total_entries": 2092,
+    "export_timestamp": "2026-09-02T19:59:30.797Z",
+    "total_entries": 2095,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -28933,7 +28933,7 @@
         "cso": "TimeLooper Inc.",
         "cert_type": "Rev5",
         "cert_path": "Agency",
-        "cert_class": "Class C",
+        "cert_class": "Class B",
         "from_status": "Agency Review",
         "to_status": "PMO Review",
         "transition_date": "2026-05-04T04:00:00.000Z",
@@ -29619,8 +29619,8 @@
       {
         "unique_id": "969e298a-a94e-432c-bdf6-3f4cb436153a",
         "product_id": "FR2628943632",
-        "csp": "Pryme Infil",
-        "cso": "Pryme",
+        "csp": "Pryme Infil, Inc.",
+        "cso": "Pryme Infil",
         "cert_type": "Rev5",
         "cert_path": "Program",
         "cert_class": "",
@@ -31384,6 +31384,51 @@
         "transition_date": "2026-09-01T19:53:51Z",
         "recorded_date": "2026-09-01T19:54:00.857Z",
         "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "4e8ff420",
+        "product_id": "FR2610538972",
+        "csp": "Bizzdesign US",
+        "cso": "Bizzdesign GovCloud",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-09-01T04:00:00.000Z",
+        "recorded_date": "2026-09-01T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "1edd09fa",
+        "product_id": "FR2022243058",
+        "csp": "CGI Federal",
+        "cso": "Momentum Enterprise Suite",
+        "cert_type": "Rev5",
+        "cert_path": "JAB",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Certified",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-09-02T04:00:00.000Z",
+        "recorded_date": "2026-09-02T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "a0ebb5db",
+        "product_id": "F1404043549",
+        "csp": "Accenture Federal Services",
+        "cso": "Accenture Federal Cloud ERP",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Certified",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-09-02T04:00:00.000Z",
+        "recorded_date": "2026-09-02T04:00:00.000Z",
+        "source": "AppSheet",
         "comments": ""
       }
     ]
