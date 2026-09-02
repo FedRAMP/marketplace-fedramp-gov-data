@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-01T19:54:41.591Z",
-    "total_entries": 55,
+    "export_timestamp": "2026-09-02T21:13:12.661Z",
+    "total_entries": 58,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -15,8 +15,8 @@
             "email": "security@tarly.co",
             "phone": "585-474-2276"
           },
-          "version": "2026.08.14.1",
-          "lastUpdated": "2026-08-14T00:00:00Z",
+          "version": "2026.09.01.1",
+          "lastUpdated": "2026-09-01T00:00:00Z",
           "sourceOfUpdate": "Tarly compliance repository source revision"
         },
         "serviceIdentification": {
@@ -39,7 +39,10 @@
           "businessCategory": [
             "Artificial Intelligence (AI)",
             "Collaboration",
-            "Data Management"
+            "Data Management",
+            "Legal & Policy",
+            "Operations Management",
+            "Research"
           ],
           "trustCenter": {
             "repositoryType": [
@@ -411,7 +414,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:07Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:39Z"
       },
       {
         "assessor": {
@@ -494,7 +497,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:10Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:43Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -602,7 +605,7 @@
         "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:11Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:43Z"
       },
       {
         "serviceIdentification": {
@@ -668,7 +671,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-08-31T21:11:07Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:45Z"
       },
       {
         "serviceIdentification": {
@@ -843,7 +846,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:12Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:44Z"
       },
       {
         "assessor": {
@@ -1079,6 +1082,11 @@
             "contactEmail": "fedramp-security@adventbusiness.com",
             "contactName": "FedRAMP Security Inbox (AFC-CSO-INB)",
             "contactType": "FedRAMP Security Inbox"
+          },
+          {
+            "contactEmail": "fedramp-security@adventbusiness.com",
+            "contactName": "Ongoing Certification Report feedback (CCM-OCR-FBM)",
+            "contactType": "Ongoing Certification Report Feedback"
           }
         ],
         "crossFormatConsistency": {
@@ -1137,7 +1145,20 @@
           },
           "rulesVersion": "2026.07.01.01",
           "schemaPin": "2026-06-24",
-          "schemaPinSynced": "2026-08-30"
+          "schemaPinSynced": "2026-09-02"
+        },
+        "ongoingCertificationReportFeedback": {
+          "acknowledgement": "Automatic on receipt (AFC-CSO-ACK mechanism, shared).",
+          "contactEmail": "fedramp-security@adventbusiness.com",
+          "feedbackSummaryPublication": "An anonymized, desensitized summary of feedback, questions and answers is published as an addendum to the report it concerns, or in the next Ongoing Certification Report, whichever comes first (CCM-OCR-AFS).",
+          "instructions": "Send feedback or questions about any Ongoing Certification Report to this address, naming the report period. Receipt is acknowledged automatically, and a substantive answer is sent within 5 US business days. No account, portal registration or CAPTCHA is required, and no token is needed to use this channel.",
+          "mechanismType": "Email, asynchronous, monitored during US business days",
+          "openTo": "All necessary parties: FedRAMP, agency customers, prospective agency customers and their assessors.",
+          "relatedFedRampRules": [
+            "CCM-OCR-FBM",
+            "CCM-OCR-AFS"
+          ],
+          "substantiveResponseTargetBusinessDays": 5
         },
         "securityCategorization": {
           "authority": "MINIMUM_ASSESSMENT_SCOPE.md §3 (information flows and security categories) and §9.1 item 8 (Class C declaration). Available token-gated at https://enablement.cc/ml/20x/doc/mas.",
@@ -1723,7 +1744,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:12Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:45Z"
       },
       {
         "serviceIdentification": {
@@ -1781,7 +1802,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:14Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:46Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1910,7 +1931,7 @@
         ],
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:14Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:47Z"
       },
       {
         "serviceIdentification": {
@@ -2004,12 +2025,12 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:14Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:47Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "$schemaVersion": "0.1.2",
-        "lastUpdated": "2026-09-01T19:54:15.310916+00:00",
+        "lastUpdated": "2026-09-02T21:12:47.925424+00:00",
         "sourceOfUpdate": "FedRAMP 2026 hub",
         "serviceIdentification": {
           "fedRampPackageId": "FR2628943633",
@@ -2106,7 +2127,7 @@
         ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:15Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:48Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2277,7 +2298,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:15Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:48Z"
       },
       {
         "serviceIdentification": {
@@ -2341,7 +2362,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:15Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:48Z"
       },
       {
         "serviceIdentification": {
@@ -2400,7 +2421,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:17Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:49Z"
       },
       {
         "assessor": {
@@ -2453,7 +2474,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:18Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:50Z"
       },
       {
         "serviceIdentification": {
@@ -2537,7 +2558,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:19Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:51Z"
       },
       {
         "serviceIdentification": {
@@ -2625,7 +2646,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:20Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:52Z"
       },
       {
         "serviceIdentification": {
@@ -2754,7 +2775,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:22Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:53Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2914,7 +2935,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:22Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:54Z"
       },
       {
         "serviceIdentification": {
@@ -2978,7 +2999,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:23Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:54Z"
       },
       {
         "serviceIdentification": {
@@ -3054,7 +3075,7 @@
         ],
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:24Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:56Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3115,6 +3136,7 @@
           "name": "Insight Assurance LLC",
           "assessorID": "203355"
         },
+        "overallSummaryOfAssessment": "Insight Assurance LLC (FedRAMP Assessor ID 203355) performed an independent, documentation-level review of this FedRAMP 20x Class A certification package for completeness and accuracy against FedRAMP 20x Class A requirements, completed 2026-09-02. This review examined the Certification Package Overview, Security Decision Record, and Ongoing Certification Report for internal consistency, completeness of required content, and accuracy of citations to supporting evidence; it did not independently test or validate the underlying security controls. No significant findings were identified. This engagement is general due diligence supplementary to the package and is not claimed as satisfying any specific optional independent-assessment rule (e.g., IVV-CSO-FIA); the mandatory independent verification and validation requirement (IVV-CSX-AIA) is satisfied by Mycroft's annual SOC 2 Type 2 examination (MJD Advisors, LLC), described in the Security Decision Record.",
         "certifiedServices": [
           {
             "serviceName": "Mycroft GRC Platform",
@@ -3145,8 +3167,8 @@
               "useCase": "GitHub Enterprise Cloud (Moderate, Agency authorized). Source code management and CI/CD for platform development."
             },
             {
-              "fedRampCertifiedThirdPartyInformationResource": "FR1811231846",
-              "useCase": "Slack Enterprise Grid (Moderate, Agency authorized). Internal team communication and collaboration."
+              "fedRampCertifiedThirdPartyInformationResource": "FR1823447014",
+              "useCase": "Slack (Moderate, Agency authorized). Internal team communication and collaboration."
             },
             {
               "fedRampCertifiedThirdPartyInformationResource": "FR1805111100",
@@ -3206,7 +3228,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:25Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:56Z"
       },
       {
         "publicDisclosure": {
@@ -3475,7 +3497,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:25Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:57Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3633,7 +3655,7 @@
           {
             "contactType": "Security",
             "contactName": "Security Team",
-            "contactEmail": "security@cursor.com"
+            "contactEmail": "fedramp@cursor.com"
           },
           {
             "contactType": "Sales",
@@ -3643,7 +3665,7 @@
         ],
         "ZD_frid_retro": "FR2631054484",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:25Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:57Z"
       },
       {
         "serviceIdentification": {
@@ -3711,7 +3733,7 @@
         ],
         "ZD_frid_retro": "FR2631154499",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:26Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:57Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3808,7 +3830,7 @@
         },
         "ZD_frid_retro": "FR2631258113",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:26Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:58Z"
       },
       {
         "serviceIdentification": {
@@ -3974,7 +3996,7 @@
         ],
         "ZD_frid_retro": "F1206111371",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:27Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:59Z"
       },
       {
         "serviceIdentification": {
@@ -4147,7 +4169,7 @@
         ],
         "ZD_frid_retro": "FR2631258125",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:27Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:00Z"
       },
       {
         "serviceIdentification": {
@@ -4224,7 +4246,7 @@
         },
         "ZD_frid_retro": "FR2631258127",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:28Z"
+        "last_fetched_timestamp": "2026-09-02T21:12:59Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4278,7 +4300,8 @@
               "authenticationRequired": true,
               "accessRequestInstructions": "Request access from the Trust Center page. FedRAMP staff and agency customers are granted access without accepting terms or an NDA; contact security@specset.com if access is not granted within one business day."
             }
-          ]
+          ],
+          "nextOngoingCertificationReportDate": "2026-12-01"
         },
         "contactInformation": [
           {
@@ -4287,7 +4310,7 @@
           },
           {
             "contactType": "Security",
-            "contactEmail": "security@specset.com"
+            "contactEmail": "fedramp@specset.com"
           },
           {
             "contactType": "FedRAMP Security Inbox",
@@ -4381,9 +4404,63 @@
             }
           ]
         },
+        "metadata": {
+          "accountableOfficial": {
+            "name": "Gordon Hempton",
+            "title": "CEO and Co-Founder",
+            "email": "gordon@specset.com"
+          },
+          "version": "2026.09.01",
+          "lastUpdated": "2026-09-01T20:05:47Z",
+          "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; validated by the validate workflow; published to specset.com/fedramp/)"
+        },
+        "documentation": [
+          {
+            "name": "Security Decision Record (SDR)",
+            "type": "JSON + Markdown (FedRAMP 2026-06-24 schema)",
+            "summary": "Per-rule and per-KSI implementation, validation and assessment statements for the Class A package, with SOC 2 control mappings.",
+            "availability": "Trust center (trust.specset.com), no NDA; on request via fedramp@specset.com"
+          },
+          {
+            "name": "Ongoing Certification Report (OCR)",
+            "type": "JSON + Markdown (FedRAMP 2026-06-24 schema)",
+            "summary": "Quarterly report of certification-data changes, planned changes, accepted vulnerabilities, agencies and reportable incidents. Example report available now; first live report 2026-12-01.",
+            "availability": "Trust center, no NDA"
+          },
+          {
+            "name": "Information-resources inventory (MAS-CSO-IIR)",
+            "type": "JSON (generated)",
+            "summary": "Every cloud account, project and third-party service likely to handle federal customer data, with location, boundary membership, encryption and CUI routing.",
+            "availability": "Trust center, no NDA"
+          },
+          {
+            "name": "SOC 2 Type II report and management representation letter",
+            "type": "PDF (restricted use)",
+            "summary": "Prescient Assurance LLC, issued 2026-08-31, Security TSC, period 2026-04-15 to 2026-07-15, unqualified opinion, no exceptions.",
+            "availability": "Trust center on request, no NDA for FedRAMP staff and agency reviewers"
+          },
+          {
+            "name": "Security policies and procedures",
+            "type": "PDF / web",
+            "summary": "Information security, access control, incident response, vulnerability management, change management and related policies maintained in Vanta; the operational incident-response and vulnerability-management procedures.",
+            "availability": "Trust center, no NDA"
+          },
+          {
+            "name": "Vulnerability activity reports",
+            "type": "Markdown + JSON, monthly",
+            "summary": "Monthly vulnerability detection and response activity (VER-TFR-MHR); first report 2026-10-01.",
+            "availability": "Trust center, no NDA"
+          },
+          {
+            "name": "Secure configuration guidance",
+            "type": "Web page",
+            "summary": "Customer-side configuration guidance (SSO, roles, CUI mode). In development.",
+            "availability": "Will be linked here when published"
+          }
+        ],
         "ZD_frid_retro": "FR2631258135",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:28Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:00Z"
       },
       {
         "serviceIdentification": {
@@ -4507,12 +4584,12 @@
         ],
         "ZD_frid_retro": "F1311222650",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:30Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:01Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "serviceIdentification": {
-          "fedRampPackageId": "WISEDOCS-WD",
+          "fedRampPackageId": "FR2631654537",
           "providerName": "Wisedocs USA Inc.",
           "serviceName": "Wisedocs for Government",
           "serviceAcronym": "WD",
@@ -4542,17 +4619,31 @@
             "authenticationRequired": true,
             "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request Access' button on the top right of the Trust Center."
           },
-          "nextOngoingCertificationReportDate": "2026-10-31"
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://trust.mycroft.io/wisedocs",
+            "repositoryDescription": "Secure configuration guidance for Wisedocs, currently hosted within the Wisedocs Trust Center.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request Access' button on the top right of the Trust Center."
+          },
+          "nextOngoingCertificationReportDate": "2026-11-30"
         },
+        "assessor": {
+          "name": "Prescient Security, LLC",
+          "assessorID": "202040"
+        },
+        "overallSummaryOfAssessment": "Prescient Security, LLC performed an independent review of the Wisedocs FedRAMP 20x Class A certification package (Certification Package Overview, Security Decision Record, and Ongoing Certification Report) for completeness and accuracy against FedRAMP 20x Class A requirements, completed 2026-09-02. This was a documentation/package-level review, not an independent technical assessment of the underlying security controls; no significant findings were identified. Independent verification and validation of Wisedocs' security controls (per FRC-CLA-MFR/IVV-CSX-AIA) continues to be satisfied through Wisedocs' annual SOC 2 Type II examination performed by MJD Advisors, LLC.",
         "contactInformation": [
           {
             "contactType": "Security",
-            "contactName": "Wisedocs security contact",
+            "contactName": "Nicole Saunders, Senior Manager, Risk and Operations",
             "contactEmail": "security@wisedocs.com"
           },
           {
             "contactType": "Sales",
-            "contactName": "Wisedocs sales contact",
+            "contactName": "Alexander Temelkovski, Head of Sales",
             "contactEmail": "sales@wisedocs.com"
           }
         ],
@@ -4580,6 +4671,14 @@
             {
               "fedRampCertifiedThirdPartyInformationResource": "FR1809360201",
               "useCase": "Snowflake data storage and analytics platform."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR2631054539",
+              "useCase": "Mycroft GRC Platform (Mycroft Technologies Inc). Compliance automation software used by Wisedocs to support the design, implementation, operation, monitoring, and documentation of internal controls."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1823447014",
+              "useCase": "Slack (Moderate, Agency authorized). Internal team communication and collaboration."
             }
           ],
           "nonCertified": [
@@ -4616,8 +4715,8 @@
           ]
         },
         "ZD_frid_retro": "FR2631654537",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:31Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-09-02T21:13:02Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4685,7 +4784,7 @@
         },
         "ZD_frid_retro": "FR2631747315",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:32Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:02Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4739,7 +4838,8 @@
               "authenticationRequired": true,
               "accessRequestInstructions": "Request access from the Trust Center page. FedRAMP staff and agency customers are granted access without accepting terms or an NDA; contact security@specset.com if access is not granted within one business day."
             }
-          ]
+          ],
+          "nextOngoingCertificationReportDate": "2026-12-01"
         },
         "contactInformation": [
           {
@@ -4748,7 +4848,7 @@
           },
           {
             "contactType": "Security",
-            "contactEmail": "security@specset.com"
+            "contactEmail": "fedramp@specset.com"
           },
           {
             "contactType": "FedRAMP Security Inbox",
@@ -4842,18 +4942,72 @@
             }
           ]
         },
+        "metadata": {
+          "accountableOfficial": {
+            "name": "Gordon Hempton",
+            "title": "CEO and Co-Founder",
+            "email": "gordon@specset.com"
+          },
+          "version": "2026.09.01",
+          "lastUpdated": "2026-09-01T20:05:47Z",
+          "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; validated by the validate workflow; published to specset.com/fedramp/)"
+        },
+        "documentation": [
+          {
+            "name": "Security Decision Record (SDR)",
+            "type": "JSON + Markdown (FedRAMP 2026-06-24 schema)",
+            "summary": "Per-rule and per-KSI implementation, validation and assessment statements for the Class A package, with SOC 2 control mappings.",
+            "availability": "Trust center (trust.specset.com), no NDA; on request via fedramp@specset.com"
+          },
+          {
+            "name": "Ongoing Certification Report (OCR)",
+            "type": "JSON + Markdown (FedRAMP 2026-06-24 schema)",
+            "summary": "Quarterly report of certification-data changes, planned changes, accepted vulnerabilities, agencies and reportable incidents. Example report available now; first live report 2026-12-01.",
+            "availability": "Trust center, no NDA"
+          },
+          {
+            "name": "Information-resources inventory (MAS-CSO-IIR)",
+            "type": "JSON (generated)",
+            "summary": "Every cloud account, project and third-party service likely to handle federal customer data, with location, boundary membership, encryption and CUI routing.",
+            "availability": "Trust center, no NDA"
+          },
+          {
+            "name": "SOC 2 Type II report and management representation letter",
+            "type": "PDF (restricted use)",
+            "summary": "Prescient Assurance LLC, issued 2026-08-31, Security TSC, period 2026-04-15 to 2026-07-15, unqualified opinion, no exceptions.",
+            "availability": "Trust center on request, no NDA for FedRAMP staff and agency reviewers"
+          },
+          {
+            "name": "Security policies and procedures",
+            "type": "PDF / web",
+            "summary": "Information security, access control, incident response, vulnerability management, change management and related policies maintained in Vanta; the operational incident-response and vulnerability-management procedures.",
+            "availability": "Trust center, no NDA"
+          },
+          {
+            "name": "Vulnerability activity reports",
+            "type": "Markdown + JSON, monthly",
+            "summary": "Monthly vulnerability detection and response activity (VER-TFR-MHR); first report 2026-10-01.",
+            "availability": "Trust center, no NDA"
+          },
+          {
+            "name": "Secure configuration guidance",
+            "type": "Web page",
+            "summary": "Customer-side configuration guidance (SSO, roles, CUI mode). In development.",
+            "availability": "Will be linked here when published"
+          }
+        ],
         "ZD_frid_retro": "FR2631747321",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:31Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:02Z"
       },
       {
         "serviceIdentification": {
           "providerName": "Geographic Solutions Inc.",
-          "serviceName": "Virtual One Stop",
+          "serviceName": "VOS Sapphire",
           "serviceAcronym": "VOS",
-          "serviceDescription": "Virtual OneStop Sapphire (VOS Sapphire) is a cloud-based workforce development platform that helps government agencies modernize employment services. It combines labor exchange, case management, employer services, unemployment insurance integration, labor market information, reporting, and program management into one secure system. VOS Sapphire streamlines operations through automation, improves collaboration and compliance, and delivers personalized services for job seekers, employers, workforce professionals, educators, and partner organizations.",
+          "serviceDescription": "VOS Sapphire is a cloud-based workforce development platform that helps government agencies modernize employment services. It combines labor exchange, case management, employer services, unemployment insurance integration, labor market information, reporting, and program management into one secure system. VOS Sapphire streamlines operations through automation, improves collaboration and compliance, and delivers personalized services for job seekers, employers, workforce professionals, educators, and partner organizations.",
           "certificationType": "20x",
-          "fedRampPackageId": "TBD",
+          "fedRampPackageId": "FR2631747327",
           "website": "https://www.geographicsolutions.com/",
           "logo": "https://www.geographicsolutions.com/Portals/0/GSI-Web-Logo.png?ver=fKp9ISSQr5Siv43345L-4g%3d%3d",
           "primaryServiceCategory": "Talent Development"
@@ -4895,8 +5049,8 @@
           }
         ],
         "ZD_frid_retro": "FR2631747327",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:31Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-09-02T21:13:02Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5009,7 +5163,7 @@
         ],
         "ZD_frid_retro": "FR2300457485",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:32Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:03Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5045,7 +5199,7 @@
         ],
         "ZD_frid_retro": "FR2632054516",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:32Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:03Z"
       },
       {
         "serviceIdentification": {
@@ -5150,7 +5304,7 @@
         ],
         "ZD_frid_retro": "FR2632054521",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:33Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:04Z"
       },
       {
         "packageMetadata": {
@@ -5241,7 +5395,7 @@
         },
         "ZD_frid_retro": "FR2520254824",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:33Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:03Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5357,7 +5511,7 @@
         },
         "ZD_frid_retro": "FR2632054530",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:34Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:04Z"
       },
       {
         "serviceIdentification": {
@@ -5387,17 +5541,16 @@
             "url": "https://trust.threadai.com",
             "repositoryDescription": "Thread AI trust center hosting security documentation and compliance reports. FedRAMP Certification Data is published separately at the certification package overview URI and needs no access request.",
             "authenticationRequired": true,
-            "accessRequestInstructions": "FedRAMP Certification Data is public and requires no access request. Gated materials (third-party assessment reports, SOC 2 and CJIS attestation packages) are available by submitting an access request on the trust center page; requests are reviewed and granted by the security team."
+            "accessRequestInstructions": "FedRAMP Certification Data is public and requires no access request. Gated materials (the third-party penetration test report, the SOC 2 Type II report and the certification package) are available by submitting an access request on the trust center page; requests are reviewed and granted by the security team."
           },
           "additionalRepositories": [
             {
               "repositoryType": [
                 "Assessment Reports",
-                "Policies and Procedures",
                 "Certification Package"
               ],
               "url": "https://trust.threadai.com",
-              "repositoryDescription": "Certification package documents, the SOC 2 Type II report and its supporting assessment materials, and the security policies and procedures governing the offering.",
+              "repositoryDescription": "Certification package documents, the SOC 2 Type II report and the third-party penetration test report.",
               "authenticationRequired": true,
               "accessRequestInstructions": "Submit an access request on the trust center page. Requests are reviewed and granted by the Thread AI security team."
             }
@@ -5436,13 +5589,13 @@
             },
             {
               "fedRampCertifiedThirdPartyInformationResource": "F1512167750",
-              "useCase": "Okta US Workforce Identity Cloud for Government is the workforce identity provider for the boundary; it federates administrative and operator access into AWS IAM Identity Center via SCIM."
+              "useCase": "Okta IDaaS Regulated Cloud is the workforce identity provider for the boundary; it federates administrative and operator access into AWS IAM Identity Center via SCIM."
             }
           ]
         },
         "ZD_frid_retro": "FR2632054534",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:34Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:05Z"
       },
       {
         "serviceIdentification": {
@@ -5554,7 +5707,7 @@
         },
         "ZD_frid_retro": "FR2632054491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:35Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:05Z"
       },
       {
         "last_updated": "2026-08-10",
@@ -5639,7 +5792,7 @@
         },
         "ZD_frid_retro": "FR2632054495",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:35Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:06Z"
       },
       {
         "serviceIdentification": {
@@ -5702,7 +5855,7 @@
         ],
         "ZD_frid_retro": "FR2632436493",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-01T19:54:36Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:06Z"
       },
       {
         "serviceIdentification": {
@@ -5740,7 +5893,7 @@
         ],
         "ZD_frid_retro": "FR2632558735",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:36Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:06Z"
       },
       {
         "serviceIdentification": {
@@ -5778,7 +5931,7 @@
         ],
         "ZD_frid_retro": "FR2632558740",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:37Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:08Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5860,12 +6013,12 @@
         },
         "ZD_frid_retro": "FR2632558748",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:37Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:07Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "serviceIdentification": {
-          "fedRampPackageId": "TRANSMITTR-CASCO",
+          "fedRampPackageId": "FR2632731472",
           "providerName": "Transmittr, Inc.",
           "serviceName": "Casco for Government",
           "serviceAcronym": "CASCO",
@@ -5901,7 +6054,7 @@
             "authenticationRequired": true,
             "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request Access' button on the top right of the Trust Center."
           },
-          "nextOngoingCertificationReportDate": "2026-09-15"
+          "nextOngoingCertificationReportDate": "2026-12-15"
         },
         "contactInformation": [
           {
@@ -5915,13 +6068,9 @@
             "contactEmail": "government@casco.com"
           }
         ],
-        "assessor": {
-          "name": "Pending",
-          "assessorID": "000000"
-        },
         "certifiedServices": [
           {
-            "serviceName": "Casco",
+            "serviceName": "Casco for Government",
             "serviceDescription": "Autonomous, 24/7 security testing and vulnerability assessments for web applications, APIs, cloud infrastructure, and AI systems.",
             "dateAvailable": "2025-04-15"
           }
@@ -5938,7 +6087,7 @@
             },
             {
               "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
-              "useCase": "Suite of enterprise productivity, collaboration, and communication tools."
+              "useCase": "Google Workspace. Suite of enterprise productivity, collaboration, and communication tools, and the workforce identity and access management provider supplying single sign-on to in-scope systems."
             },
             {
               "fedRampCertifiedThirdPartyInformationResource": "FR2631054539",
@@ -5985,8 +6134,8 @@
           ]
         },
         "ZD_frid_retro": "FR2632731472",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:38Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-09-02T21:13:08Z"
       },
       {
         "serviceIdentification": {
@@ -6064,7 +6213,7 @@
         },
         "ZD_frid_retro": "FR2632755834",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:38Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:09Z"
       },
       {
         "serviceIdentification": {
@@ -6131,7 +6280,7 @@
         },
         "ZD_frid_retro": "FR2633058235",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:39Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:09Z"
       },
       {
         "$comment": "Ultra Security FedRAMP 20x Certification Package Overview — conformant to fedramp-certification-package-overview-schema-2026-06-24.json (FRC-CSO-PKG). Machine-readable identification package for the CSO. This is the schema-conformant CPO; the narrative CPO (metadata/publicInformation/... index) is a separate human-readable companion.",
@@ -6243,7 +6392,7 @@
         },
         "ZD_frid_retro": "FR2633058240",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:40Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:10Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6353,7 +6502,7 @@
         },
         "ZD_frid_retro": "FR2633058245",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:40Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:10Z"
       },
       {
         "serviceIdentification": {
@@ -6447,7 +6596,7 @@
         },
         "ZD_frid_retro": "FR2633053629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:54:40Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:11Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6547,7 +6696,215 @@
         },
         "ZD_frid_retro": "FR2633053633",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-01T19:53:51Z"
+        "last_fetched_timestamp": "2026-09-02T21:13:11Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "certificationPackageMetadata": {
+          "responsibleOfficial": {
+            "name": "Nick Hardy",
+            "title": "Senior Director, Security GRC and Program Management",
+            "email": "GRC@samsara.com"
+          },
+          "version": "1.0.0",
+          "lastUpdated": "2026-09-01T00:00:00Z",
+          "updateSource": "Samsara Security GRC (manual update)"
+        },
+        "serviceIdentification": {
+          "providerName": "Samsara Inc.",
+          "serviceName": "Samsara Connected Operations Cloud",
+          "serviceAcronym": "COC",
+          "serviceDescription": "The Samsara Connected Operations Cloud is a software-as-a-service platform that connects vehicles, equipment, sites, and workers to provide real-time operational visibility. Samsara IoT devices, including vehicle gateways, dash cameras, and environmental sensors, transmit data to the cloud platform, where customers use applications for fleet telematics, video-based safety, equipment monitoring, driver workflows, and regulatory compliance. The platform provides dashboards, alerting, reporting, and open APIs for integration with customer systems.",
+          "certificationType": "20x",
+          "fedRampPackageId": "SAMSARA-COC",
+          "ueiNumber": "",
+          "website": "https://www.samsara.com/resources/connected-operations",
+          "logo": "https://raw.githubusercontent.com/samsarahq/samsara-fr-info/main/samsara-logo.jpg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Fleet Management",
+            "Operations Management"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://security.samsara.com/",
+            "repositoryDescription": "Samsara Trust Center containing security documentation, compliance reports, subprocessor information, and FedRAMP program information for the Connected Operations Cloud.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Visit https://security.samsara.com/ and select Request Access. Provide your name, organization, and business email address; access to gated documents is granted after review by the Samsara security team. Publicly available materials on the landing page do not require authentication."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://security.samsara.com/",
+            "repositoryDescription": "Samsara secure configuration guidance covering administrator account setup, authentication and single sign-on configuration, role-based access control, and recommended security settings for the Connected Operations Cloud, available via the Samsara Trust Center.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Visit https://security.samsara.com/ and select Request Access. Provide your name, organization, and business email address; access to gated documents is granted after review by the Samsara security team."
+          },
+          "nextOngoingCertificationReportDate": "2026-11-30"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Nick Hardy, Senior Director, Security GRC and Program Management",
+            "contactEmail": "GRC@samsara.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Samsara Sales Operations",
+            "contactEmail": "salesops-team@samsara.com"
+          }
+        ],
+        "documentationOverview": "Samsara provides customer-facing product documentation, administrator guides, API documentation, and security documentation via its public documentation site and trust center.",
+        "certifiedServices": [
+          {
+            "serviceName": "Connected Operations Cloud",
+            "serviceDescription": "The Samsara Connected Operations Cloud platform, including fleet telematics, video-based safety, equipment monitoring, driver workflows, and compliance applications, with dashboards, alerting, reporting, and open APIs.",
+            "dateAvailable": "2021-04-20",
+            "securityCategory": "Low"
+          }
+        ],
+        "ZD_frid_retro": "FR2633153272",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-09-02T21:13:11Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "serviceIdentification": {
+          "fedRampPackageId": "Anyreach-ARA",
+          "providerName": "Anyreach, Inc.",
+          "serviceName": "Anyreach App Software Application",
+          "serviceAcronym": "ARA",
+          "serviceDescription": "Anyreach App is a cloud-hosted SaaS offering for building, deploying, and operating omnichannel conversational AI agents. Anyreach is preparing the offering for direct use by federal agencies in constituent-service and contact-center workflows. An adopting agency will make its own risk decision and issue the applicable authorization for integration into its federal information system.",
+          "certificationType": "20x",
+          "website": "https://anyreach.ai/",
+          "logo": "https://anyreach-public.s3.us-west-1.amazonaws.com/anyreach-logos/lockup-light.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Artificial Intelligence (AI)",
+            "Communication",
+            "Contact Center",
+            "Customer Service"
+          ]
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Anyreach Security Team"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Anyreach Sales",
+            "contactEmail": "sales@anyreach.ai"
+          }
+        ],
+        "ZD_frid_retro": "FR2633153276",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-09-02T21:13:12Z"
+      },
+      {
+        "serviceIdentification": {
+          "providerName": "A-LIGN",
+          "serviceName": "A-SCEND",
+          "serviceAcronym": "A-SCEND",
+          "serviceDescription": "A-SCEND is an AI-powered audit management platform supported by certified practitioners with over 20 years of experience. The platform is designed to automate and streamline the audit and compliance process.",
+          "certificationType": "20x",
+          "fedRampPackageId": "FR2532557612",
+          "ueiNumber": "Q76FLNZDM992",
+          "website": "https://www.a-lign.com/a-scend",
+          "logo": "https://github.com/A-SCEND/FedRAMPx20/blob/main/img/a-scend.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Collaboration",
+            "Customer Service",
+            "Cybersecurity & Risk Management"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.a-lign.com",
+            "repositoryDescription": "Public URL to A-LIGN's Trust Center",
+            "authenticationRequired": false
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://github.com/A-SCEND/FedRAMPx20/blob/main/secure_configuration.md",
+            "repositoryDescription": "Public URL to A-SCEND Secure Configuration Guidance",
+            "authenticationRequired": false
+          }
+        },
+        "contactInformation": [
+          {
+            "contactType": "Sales",
+            "contactEmail": "Sales@a-lign.com"
+          },
+          {
+            "contactType": "Security",
+            "contactEmail": "FedRAMPaccreditation@a-lign.com"
+          }
+        ],
+        "assessor": {
+          "name": "RISCPoint",
+          "assessorID": "201825"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "A-SCEND",
+            "serviceDescription": "A-SCEND is an AI-powered audit management platform supported by certified practitioners with over 20 years of experience. The platform is designed to automate and streamline the audit and compliance process.",
+            "dateAvailable": "2025-09-17"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+              "useCase": "Production authorization boundary and SIEM (Google Services / GCP)"
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "MSO365MT",
+              "useCase": "Change Authorization Record, incident records, compliance artifacts (Microsoft 365 GCC)"
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR2000863987A",
+              "useCase": "WAF and sole network ingress point (Cloudflare for Government)"
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "Microsoft Entra ID",
+              "provider": "Microsoft",
+              "useCase": "Workforce identity and account provisioning"
+            },
+            {
+              "name": "Google Workspace",
+              "provider": "Google",
+              "useCase": "Workforce identity and account provisioning"
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2532557612",
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-09-02T21:13:12Z"
       }
     ]
   }
