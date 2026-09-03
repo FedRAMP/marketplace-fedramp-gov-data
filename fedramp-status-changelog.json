@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-02T23:45:34.625Z",
-    "total_entries": 2097,
+    "export_timestamp": "2026-09-03T17:25:57.048Z",
+    "total_entries": 2099,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -31342,21 +31342,6 @@
         "comments": ""
       },
       {
-        "unique_id": "84be4702-b1cf-4af7-bff8-9c88ad29045f",
-        "product_id": "FR2633058245",
-        "csp": "Ultra Security, Inc.",
-        "cso": "Ultra Security Hub and Agentic Security Platform",
-        "cert_type": "",
-        "cert_path": "Program",
-        "cert_class": "",
-        "from_status": "",
-        "to_status": "Initial Implementation",
-        "transition_date": "2026-09-01T18:09:41Z",
-        "recorded_date": "2026-09-01T19:54:00.857Z",
-        "source": "frc-cso-pkg",
-        "comments": ""
-      },
-      {
         "unique_id": "0ba8cc33-2ffa-4940-93c9-d7068d20da7e",
         "product_id": "FR2633053629",
         "csp": "TGuardAI Inc.",
@@ -31459,6 +31444,51 @@
         "transition_date": "2026-09-02T21:11:20Z",
         "recorded_date": "2026-09-02T21:12:20.511Z",
         "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "9c41dd7e",
+        "product_id": "FR2602138115",
+        "csp": "Nozomi Networks Inc.",
+        "cso": "Vantage for Government",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "Agency Authorization In Process",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-09-03T04:00:00.000Z",
+        "recorded_date": "2026-09-03T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "4070c6c6",
+        "product_id": "FR2631054539",
+        "csp": "Mycroft Technologies Inc",
+        "cso": "Mycroft GRC Platform",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Class A",
+        "from_status": "Initial Implementation",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-09-03T04:00:00.000Z",
+        "recorded_date": "2026-09-03T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "b9c506d3",
+        "product_id": "FR2512056954",
+        "csp": "NORC",
+        "cso": "Data Enclave Gov",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-09-03T04:00:00.000Z",
+        "recorded_date": "2026-09-03T04:00:00.000Z",
+        "source": "AppSheet",
         "comments": ""
       }
     ]
