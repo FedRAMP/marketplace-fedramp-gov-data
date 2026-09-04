@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-03T21:23:36.701Z",
-    "total_entries": 2106,
+    "export_timestamp": "2026-09-04T19:59:31.495Z",
+    "total_entries": 2108,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -31593,6 +31593,36 @@
         "to_status": "No Status Found (Delisted)",
         "transition_date": "2026-09-02T04:00:00.000Z",
         "recorded_date": "2026-09-03T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "9c1de026",
+        "product_id": "FR2502224058",
+        "csp": "zLink, Inc.",
+        "cso": "zLinkFM",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class B",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-09-04T04:00:00.000Z",
+        "recorded_date": "2026-09-04T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "6dfab6b2",
+        "product_id": "FR2527234065",
+        "csp": "Anomali",
+        "cso": "Anomali Security Operations Platform (ASOP)",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-09-04T04:00:00.000Z",
+        "recorded_date": "2026-09-04T04:00:00.000Z",
         "source": "AppSheet",
         "comments": ""
       }
