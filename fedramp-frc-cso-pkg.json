@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-08T14:49:28.399Z",
-    "total_entries": 63,
+    "export_timestamp": "2026-09-08T19:40:59.052Z",
+    "total_entries": 64,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -15,8 +15,8 @@
             "email": "security@tarly.co",
             "phone": "585-474-2276"
           },
-          "version": "2026.09.01.1",
-          "lastUpdated": "2026-09-01T00:00:00Z",
+          "version": "2026.09.08.1",
+          "lastUpdated": "2026-09-08T14:55:00Z",
           "sourceOfUpdate": "Tarly compliance repository source revision"
         },
         "serviceIdentification": {
@@ -69,6 +69,15 @@
               "url": "https://github.com/patrick-tarly-co/trust-center",
               "repositoryDescription": "Public git repository with machine-readable Key Security Indicator (KSI) evaluation results, updated nightly by Tarly's automated compliance pipeline. Commit history is the public record of security-posture changes over time. No authentication required.",
               "authenticationRequired": false
+            },
+            {
+              "repositoryType": [
+                "Controlled Certification Package"
+              ],
+              "url": "https://gov.tarly.co/trust/package.html",
+              "repositoryDescription": "Authenticated browser and downloads for the SDR, policies, rule/KSI supporting packages, and other published certification data.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Request a per-party access token from security@tarly.co, identifying your organization, official purpose, and package FR2628650874. Instructions: https://gov.tarly.co/trust/access.html"
             }
           ],
           "nextOngoingCertificationReportDate": "2026-10-06",
@@ -414,7 +423,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:48:45Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:16Z"
       },
       {
         "assessor": {
@@ -497,7 +506,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:48:50Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:23Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -605,7 +614,7 @@
         "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:48:51Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:24Z"
       },
       {
         "serviceIdentification": {
@@ -671,7 +680,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:48:52Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:25Z"
       },
       {
         "serviceIdentification": {
@@ -775,6 +784,15 @@
               "repositoryDescription": "Where Bland publishes Significant Change Notifications and related audit records (SCN-CSO-INF, SCN-CSO-HRM) in human-readable and machine-readable form.",
               "authenticationRequired": true,
               "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+            },
+            {
+              "repositoryType": [
+                "Independent Assessment Results"
+              ],
+              "url": "https://trust.bland-gov.com/",
+              "repositoryDescription": "Results of the Prescient Security FedRAMP 20x Class C independent assessment supplied without inappropriate modification per IVV-CSO-ICP: assessment report, master assessment workbook, machine-readable assessment results, assessor acceptance and completion register, provider responses and assessor dispositions, metrics mechanism inventory, evidence index, supporting artifact date register, and release gate register.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
             }
           ],
           "nextOngoingCertificationReportDate": "2026-10-30"
@@ -791,6 +809,10 @@
             "contactEmail": "sales@bland.ai"
           }
         ],
+        "assessor": {
+          "name": "Prescient Security, LLC.",
+          "assessorID": "202040"
+        },
         "certifiedServices": [
           {
             "serviceName": "Voice agents",
@@ -832,21 +854,465 @@
           ]
         },
         "x-bland": {
-          "note": "CPO-CSO-MTD requires the responsible official, version, date and time of last update, and source of update in the Certification Package Overview. The official FedRAMP Certification Package Overview schema has no property for any of the four, so Bland carries them here. The schema does not set additionalProperties to false, so this validates. Re-check on each schema release.",
+          "note": "CPO-CSO-MTD requires the responsible official, version, date and time of last update, and source of update in the Certification Package Overview, and CPO-CSO-OSA requires the overall summary of the independent assessment. The official FedRAMP Certification Package Overview schema has no property for any of these, so Bland carries them here. The schema does not set additionalProperties to false, so this validates. Re-check on each schema release.",
           "certificationPackageOverviewMetadata": {
             "responsibleOfficial": {
               "name": "Juan Riojas",
               "title": "Chief Information Officer",
               "email": "fedramp@bland.ai"
             },
-            "version": "1.3",
-            "lastUpdated": "2026-08-31T00:00:00Z",
-            "sourceOfUpdate": "Recorded 20x Class A Certification received 2026-08-25 (FedRAMP Marketplace FR2628647242; Type 20x, Path Program, Class A Pilot, phase Ongoing Certification) and the move to a Class C application, with the Prescient Security Class C assessment beginning 2026-09-01 and submission to follow in Q3. Corrected the next Ongoing Certification Report date to 2026-10-30. Removed Cloudflare from third-party information resources. Aligned the service description with the human-readable overview, cleared ueiNumber to blank per the schema’s guidance for an unassigned UEI, and added Trust Center repositories for vulnerability reporting (VER-TFR-MHR, VER-RPT-VDT, VER-RPT-AVI), historical vulnerability activity (VER-TFR-MRH), incident reporting (IEC-CSO-IIR/OIR/FIR), and significant change notifications (SCN-CSO-INF, SCN-CSO-HRM)."
+            "version": "1.4",
+            "lastUpdated": "2026-09-08T00:00:00Z",
+            "sourceOfUpdate": "Incorporated the overall summary of assessment required by CPO-CSO-OSA from the final assessment supplied by Prescient Security, LLC. under IVV-IAS-OSA: the Class C Assessment Report issued 2026-09-08, the machine-readable assessment results, the assessor acceptance and completion register, the provider responses and assessor dispositions register, the metrics mechanism inventory, the supporting artifact date register, and the release gate register (delivery edition Bland-C-Final-Delivery-20260908-v2). Recorded the assessment timeline (completion 2026-09-03, reconciliation 2026-09-04, corrections 2026-09-05, independent quality assurance 2026-09-07 across all 204 records), determinations for 46 Key Security Indicators and 158 provider rules, the FRC-CSX-VVK continuous validation method counts, the 20 retained findings, the areas of dispute and matters requiring disposition or interpretation, the assessor-stated limitations, and the release gates. Recorded Bland's own notes that the assessment does not acknowledge Security Decision Record v2.4 published 2026-09-04, and that no met or not-met determinations were delivered. Recorded Bland's adoption of Security Decision Record v2.4 as the Class C release and the submission of Bland's 20x Class C application on 2026-09-08. Added the assessor record to the machine-readable overview and a Trust Center repository for independent assessment results, and updated the certification status and the Independent Verification and Validation section for a completed Class C assessment pending provider adoption, findings dispositions, and submission."
+          },
+          "overallSummaryOfAssessment": {
+            "note": "CPO-CSO-OSA requires providers seeking Class C Certification to include the overall summary of their FedRAMP independent assessment, supplied by the assessor per IVV-IAS-OSA, in the Certification Package Overview. The official FedRAMP Certification Package Overview schema (2026-06-24) has no property for this summary, so Bland carries it here. Structure and presentation have been adapted to Bland's package; determinations, counts, findings and their meaning are as supplied by the assessor (IVV-CSO-ICP). Re-check on each schema release.",
+            "suppliedBy": {
+              "name": "Prescient Security, LLC.",
+              "assessorID": "202040",
+              "fedRampRecognized": true,
+              "sourceDocuments": [
+                "Class C Assessment Report, issued 2026-09-08",
+                "Machine-readable assessment results (final independently reviewed assessment results, generated 2026-09-08)",
+                "Assessor acceptance and completion register (204 records)",
+                "Provider responses and assessor dispositions register (101 records, 2026-09-04)",
+                "Metrics mechanism inventory (46 Key Security Indicators)",
+                "Supporting artifact date register",
+                "Release gate register"
+              ],
+              "deliveryEdition": "Bland-C-Final-Delivery-20260908-v2",
+              "packageState": "FINAL ASSESSMENT - INDEPENDENT QA COMPLETED"
+            },
+            "scope": {
+              "description": "FedRAMP 20x Class C at the Moderate security category; all 46 Key Security Indicators and all 158 applicable provider rules (IVV-CSX-AIA). A further 11 rules are carried as out-of-scope context and receive no determination.",
+              "keySecurityIndicatorsAssessed": 46,
+              "providerRulesAssessed": 158,
+              "contextOnlyRules": 11,
+              "rulesSource": {
+                "version": "2026.07.14.01",
+                "lastUpdated": "2026-07-14",
+                "changedSinceSpecifiedBaseline": false,
+                "source": "00-manifest/official-sources/fedramp-consolidated-rules.json"
+              },
+              "methods": "Completed source examinations, automated validation results, offline evidence reviews, interviews, demonstrations and walkthroughs, recorded as 45 Key Security Indicator discussion notes and 121 provider-rule discussion notes. Rule and KSI determinations are final; implementation status reconciliation is complete."
+            },
+            "timeline": {
+              "assessmentStartDate": "2026-09-01",
+              "assessmentCompletionDate": "2026-09-03",
+              "responseReconciliationDate": "2026-09-04",
+              "correctionsDate": "2026-09-05",
+              "correctionsApplied": [
+                "KSI-MLA-OSM",
+                "KSI-MLA-RVL"
+              ],
+              "qualificationsAndIndependenceCompleted": "2026-09-05",
+              "independentQaCompletionDate": "2026-09-07",
+              "finalAssessmentIssued": "2026-09-08"
+            },
+            "completionAttribution": {
+              "decision": "Completed historical IV&V",
+              "attributedTo": "Prescient Security Assessment Team (IV&V)",
+              "recordsCompleted": 204,
+              "namedAssessorSignoffsComplete": 0,
+              "individualSignature": "No named individual assessor sign-off is recorded; completion is attributed to the assessment team as an organization.",
+              "scopeConfirmed": {
+                "automated_results": true,
+                "offline_evidence_reviews": true,
+                "interviews": true,
+                "demonstrations": true,
+                "walkthroughs": true,
+                "rule_determinations_final": true,
+                "ksi_determinations_final": true,
+                "implementation_status_reconciliation_complete": true
+              }
+            },
+            "independentQa": {
+              "status": "Completed",
+              "completionDate": "2026-09-07",
+              "reviewer": "Lynette Shelton, Senior Assessor",
+              "recordsReviewed": 204,
+              "recordSource": "05-evidence/qa-source/QA-Completed-Master-Assessment-20260907.xlsx",
+              "sourceSha256": "1ae586d73130234f160477a2ae1425261c475a1317b56207294e7051a456fc63",
+              "signatureTreatment": "Reviewer name and date are recorded on every acceptance row of the supplied workbook; no signature image or signing time is recorded.",
+              "determinationsChangedInQa": 0
+            },
+            "results": {
+              "keySecurityIndicators": {
+                "total": 46,
+                "statusCounts": {
+                  "Supported with Conditions": 38,
+                  "Partial": 8
+                },
+                "note": "The assessor reports Key Security Indicator outcomes as Supported with Conditions or Partial; the KSI category set contains no unconditional pass."
+              },
+              "providerRules": {
+                "total": 158,
+                "statusCounts": {
+                  "Supported with Conditions": 88,
+                  "Satisfied": 54,
+                  "Optional / Non-Adverse": 5,
+                  "Pending Application / Submission Gate": 4,
+                  "Partial": 6,
+                  "Not Applicable / Not Exercised": 1
+                }
+              },
+              "continuousValidationMethodCount": {
+                "rule": "FRC-CSX-VVK",
+                "meetsTwoMethodCount": 33,
+                "belowTwoMethods": 12,
+                "unresolvedSecondMethod": 1,
+                "unresolvedRecord": "KSI-CED-RAT",
+                "determination": "Partial",
+                "note": "Arithmetic pairing is not technical qualification: actual evaluated conditions, identities and configuration, population, outputs and recurring execution must be recorded for each method. Same-tool methods may qualify; duplicate presentations of a single evaluation do not."
+              }
+            },
+            "retainedFindings": {
+              "count": 20,
+              "dispositionAuthority": "Accountable assessor evaluates; provider/FedRAMP acceptance where applicable; no silent waiver of MUST",
+              "perPracticeDetail": "Carried in the Bland Security Decision Record per IVV-IAS-SUM and in the assessor's Class C Assessment Report.",
+              "records": [
+                {
+                  "recordId": "KSI-CED-RAT",
+                  "name": "Reviewing All Training",
+                  "force": "KSI outcome",
+                  "determination": "Supported with Conditions"
+                },
+                {
+                  "recordId": "KSI-CNA-EIS",
+                  "name": "Enforcing Intended State",
+                  "force": "KSI outcome",
+                  "determination": "Partial"
+                },
+                {
+                  "recordId": "KSI-IAM-AAM",
+                  "name": "Automating Account Management",
+                  "force": "KSI outcome",
+                  "determination": "Partial"
+                },
+                {
+                  "recordId": "KSI-IAM-JIT",
+                  "name": "Authorizing Just-in-Time",
+                  "force": "KSI outcome",
+                  "determination": "Partial"
+                },
+                {
+                  "recordId": "KSI-MLA-ALA",
+                  "name": "Authorizing Log Access",
+                  "force": "KSI outcome",
+                  "determination": "Partial"
+                },
+                {
+                  "recordId": "KSI-MLA-OSM",
+                  "name": "Operating SIEM Capability",
+                  "force": "KSI outcome",
+                  "determination": "Partial"
+                },
+                {
+                  "recordId": "KSI-MLA-RVL",
+                  "name": "Reviewing Logs",
+                  "force": "KSI outcome",
+                  "determination": "Partial"
+                },
+                {
+                  "recordId": "KSI-PIY-RES",
+                  "name": "Reviewing Executive Support",
+                  "force": "KSI outcome",
+                  "determination": "Supported with Conditions"
+                },
+                {
+                  "recordId": "KSI-PIY-RIS",
+                  "name": "Reviewing Investments in Security",
+                  "force": "KSI outcome",
+                  "determination": "Supported with Conditions"
+                },
+                {
+                  "recordId": "KSI-RPL-TRC",
+                  "name": "Testing Recovery Capabilities",
+                  "force": "KSI outcome",
+                  "determination": "Partial"
+                },
+                {
+                  "recordId": "KSI-SVC-ASM",
+                  "name": "Automating Secret Management",
+                  "force": "KSI outcome",
+                  "determination": "Partial"
+                },
+                {
+                  "recordId": "FRC-CSO-FCP",
+                  "name": "FedRAMP Certification Profile",
+                  "force": "MUST",
+                  "determination": "Satisfied"
+                },
+                {
+                  "recordId": "FRC-CSO-JSN",
+                  "name": "FedRAMP JSON Schemas",
+                  "force": "MUST",
+                  "determination": "Partial"
+                },
+                {
+                  "recordId": "FRC-CSX-MOT",
+                  "name": "Metrics Over Time for Key Security Indicators",
+                  "force": "MUST",
+                  "determination": "Partial"
+                },
+                {
+                  "recordId": "FRC-CSX-VVK",
+                  "name": "Automated Verification and Validation of Key Security Indicators",
+                  "force": "MUST",
+                  "determination": "Partial"
+                },
+                {
+                  "recordId": "FRC-CSX-VVR",
+                  "name": "Automated Verification and Validation of FedRAMP Rules",
+                  "force": "SHOULD",
+                  "determination": "Partial"
+                },
+                {
+                  "recordId": "IEC-CSO-AIR",
+                  "name": "Automated Incident Reporting",
+                  "force": "SHOULD",
+                  "determination": "Partial"
+                },
+                {
+                  "recordId": "MKT-CSO-MLR",
+                  "name": "Marketplace Listing Requirements",
+                  "force": "MUST",
+                  "determination": "Satisfied"
+                },
+                {
+                  "recordId": "MKT-CSO-PML",
+                  "name": "Provider Marketplace Listing Requests",
+                  "force": "MUST",
+                  "determination": "Pending Application / Submission Gate"
+                },
+                {
+                  "recordId": "SDR-CSX-KMT",
+                  "name": "Key Security Indicator Metrics",
+                  "force": "MUST",
+                  "determination": "Partial"
+                }
+              ]
+            },
+            "providerResponsesAndDispositions": {
+              "responseDate": "2026-09-04",
+              "recordsResponded": 101,
+              "adverseDeterminationsOrGapsWithdrawn": 53,
+              "assessorRecordCorrections": 8,
+              "priorStatusRetainedWithConcurrence": 4,
+              "respondedRecordsCurrentlyPartial": 13,
+              "postReconciliationRevisions": [
+                {
+                  "recordId": "KSI-MLA-RVL",
+                  "determinationOn20260904": "Supported with Conditions",
+                  "currentDetermination": "Partial"
+                },
+                {
+                  "recordId": "KSI-MLA-OSM",
+                  "determinationOn20260904": "Supported with Conditions",
+                  "currentDetermination": "Partial"
+                }
+              ],
+              "interpretation": "The dated exchange is preserved. The QA-completed current determination controls where later reconciliation changed the result.",
+              "register": "06-independent-assessment/provider-responses-and-dispositions.json"
+            },
+            "areasOfDisputeAndMattersRequiringDisposition": {
+              "note": "Supplied under IVV-IAS-OSA, which requires the overall summary to include any resulting failures or areas of dispute.",
+              "items": [
+                {
+                  "records": [
+                    "KSI-IAM-JIT",
+                    "KSI-MLA-ALA"
+                  ],
+                  "subject": "Just-in-time authorization",
+                  "matter": "Privileged and log-access grants remain standing entitlements with no approval-gated, time-bound elevation workflow. Closure requires an implemented JIT mechanism or a FedRAMP-approved alternative interpretation."
+                },
+                {
+                  "records": [
+                    "KSI-SVC-ASM"
+                  ],
+                  "subject": "Secret and certificate management",
+                  "matter": "An explicit contradiction between two sections of the provider's own source about whether two static edge TLS certificates are auto-renewed must be resolved. No provider exception is represented as assessor accepted."
+                },
+                {
+                  "records": [
+                    "FRC-CSX-VVK",
+                    "KSI-CED-RAT"
+                  ],
+                  "subject": "Two-method qualification",
+                  "matter": "Qualification of the second automated method for KSI-CED-RAT is unresolved pending test identity, in-scope population and execution outputs; training-specific tests operating in the commercial Vanta workspace returned no result in the CR26 export. Reconciliation of training populations and dates is outstanding."
+                },
+                {
+                  "records": [
+                    "FRC-CSX-MOT",
+                    "SDR-CSX-KMT"
+                  ],
+                  "subject": "Metric history",
+                  "matter": "Elapsed artifact date spans do not establish a complete six-calendar-month KSI metric history or the required 30-day metric summaries and daily series. Initial-certification treatment requires operating mechanisms and documented agreement where historical metrics are unavailable; that agreement is not yet recorded."
+                },
+                {
+                  "records": [
+                    "FRC-CSO-JSN"
+                  ],
+                  "subject": "Security Decision Record adoption",
+                  "matter": "The original v2.3 Security Decision Record carries an invalid implementation enum on a Rev5-only context row. The prepared Class C derivative excludes all 11 out-of-scope context rules without changing the 158 applicable provider implementation fields. The determination stays Partial until Bland approves or adopts the corrected release and all required formats pass final validation."
+                },
+                {
+                  "records": [
+                    "MKT-CSO-PML"
+                  ],
+                  "subject": "Marketplace listing evidence",
+                  "matter": "Missing listing transaction evidence is recorded as an explicit substantive limitation and the rule is held at the application and submission gate."
+                },
+                {
+                  "records": [
+                    "FRC-CSX-VVR",
+                    "IEC-CSO-AIR"
+                  ],
+                  "subject": "Recommendations retained at SHOULD strength",
+                  "matter": "The unresolved validation-review and incident-reporting automation items are recorded at their official SHOULD strength and are not additional mandates; the absence of a specific scheduler, automatic external-send design or fully automated external communication is not disqualifying. The accountable assessor records any justified alternative and residual risk."
+                },
+                {
+                  "records": [
+                    "KSI-RPL-TRC"
+                  ],
+                  "subject": "Recovery testing",
+                  "matter": "Full-path service re-point and recovery were explicitly untested; Partial is retained until an in-scope end-to-end recovery test and an actual objective comparison are documented."
+                },
+                {
+                  "records": [],
+                  "subject": "Sign-off attribution",
+                  "matter": "Completion of the assessment is attributed to the assessment team as an organization on all 204 records and no named individual assessor sign-off is recorded. Independent quality assurance is attributed to a named senior assessor."
+                }
+              ]
+            },
+            "providerNotesOnTheAssessment": {
+              "note": "Recorded by Bland; not part of the summary supplied by the assessor.",
+              "items": [
+                {
+                  "subject": "Security Decision Record version not acknowledged",
+                  "records": [
+                    "FRC-CSO-JSN"
+                  ],
+                  "note": "Bland published Security Decision Record v2.4 on 2026-09-04, which passes JSON schema validation, and supplied it to Prescient Security the same day. The final assessment addresses the original v2.3 record and the Class C derivative prepared from it; it does not acknowledge or evaluate v2.4. The FRC-CSO-JSN Partial determination is therefore premised on v2.3. Bland has adopted v2.4 as the Class C release and closed the provider Security Decision Record adoption gate on its own record."
+                },
+                {
+                  "subject": "Met / not-met determinations were not delivered",
+                  "records": [],
+                  "note": "Bland asked Prescient Security to state each outcome as met or not met against the corresponding FedRAMP Practice. The overall summary of assessment supplied by the assessor reports only its own six determination categories - Satisfied, Supported with Conditions, Partial, Optional / Non-Adverse, Pending Application / Submission Gate, and Not Applicable / Not Exercised. No met or not-met determination was delivered."
+                }
+              ]
+            },
+            "assessorStatedLimitations": [
+              "Historical IV&V completion is September 3, 2026; September 4 reconciliations and September 5 corrections are retained.",
+              "Independent QA was completed September 7, 2026. Existing findings and provider/application release gates remain recorded.",
+              "Finalization reconciles the supplied QA workbook and does not represent a new technical test execution.",
+              "ArtifactDateSpanDays = latest - earliest + 1. It is elapsed calendar span, not continuous history days demonstrated. A dated sample, policy age or a query window does not alone establish 30-day KSI metrics or six-calendar-month history. Available longer evidence is retained. Current assessment determinations are preserved.",
+              "Independent QA completed September 7, 2026. Date enrichment prepared September 8, 2026 from retained sources; no new assessor signature, test execution or independent QA execution is asserted.",
+              "Screenshots and passing governance-tool counters alone do not establish effectiveness. Separate Security Assessment Plan and Security Assessment Report documents are not required for 20x, and the per-record acceptance layout used in this delivery is not represented as a mandated FedRAMP template."
+            ],
+            "releaseGates": [
+              {
+                "gate": "Historical assessor procedures",
+                "owner": "Prescient engagement lead",
+                "status": "Completed 2026-09-03",
+                "closure": "Completed assessment work and September 4 reconciliations carried forward across all 204 records. Current package corrections remain available for revision review."
+              },
+              {
+                "gate": "Qualifications and independence",
+                "owner": "Prescient engagement lead",
+                "status": "Completed 2026-09-05",
+                "closure": "Historical workpapers record organizational independence confirmation. Carry forward the engagement QMS/qualification references under normal release documentation; no individual signature was synthesized."
+              },
+              {
+                "gate": "Provider SDR adoption",
+                "owner": "Bland responsible official",
+                "status": "Pending",
+                "closure": "Approve the Class C derivative or provide corrected release; preserve original and context exclusions."
+              },
+              {
+                "gate": "Independent QA",
+                "owner": "Lynette Shelton - Senior Assessor",
+                "status": "Completed 2026-09-07",
+                "closure": "Independent QA completed for all 204 records in the supplied master workbook. Reviewer and date are recorded in Assessor Acceptance."
+              },
+              {
+                "gate": "Application freshness and findings",
+                "owner": "Bland responsible official / Prescient engagement lead",
+                "status": "Pending",
+                "closure": "Resolve or obtain authorized dispositions for substantive MUST findings; distinguish SHOULD recommendations. Verify package within seven days of application and independent assessment completion within three months."
+              },
+              {
+                "gate": "Publication and submission",
+                "owner": "Bland responsible official",
+                "status": "Pending",
+                "closure": "Reconcile listing transaction evidence, publish matching current formats and provider submits directly. No submission has been sent."
+              }
+            ],
+            "providerClosureRecord": {
+              "note": "Recorded by Bland; the release gate statuses above are as issued by the assessor on 2026-09-08 and are unchanged by these provider actions.",
+              "asOf": "2026-09-08",
+              "securityDecisionRecordAdoption": "Closed on Bland's record. Bland adopted Security Decision Record v2.4 as the Class C release; v2.4 passes JSON schema validation and preserves the original record and the out-of-scope context exclusions.",
+              "applicationSubmitted": "Bland verified the Certification Package and submitted its FedRAMP 20x Class C application on 2026-09-08, five days after assessment completion, satisfying the application freshness conditions.",
+              "remainingOpen": [
+                "Authorized dispositions for the substantive MUST findings, which require the assessor.",
+                "Reconciliation of FedRAMP Marketplace listing transaction evidence (MKT-CSO-PML)."
+              ]
+            },
+            "artifacts": {
+              "referenceNote": "References are file paths within the Prescient Security final delivery package (edition Bland-C-Final-Delivery-20260908-v2), not public URLs. The documents themselves are supplied to federal agencies and FedRAMP Recognized assessors through the Trust Center under Independent Assessment Results.",
+              "items": [
+                {
+                  "name": "Class C Assessment Report",
+                  "reference": "06-independent-assessment/Bland-Class-C-Assessment-Report.pdf"
+                },
+                {
+                  "name": "Master assessment workbook (controls the assessment results)",
+                  "reference": "06-independent-assessment/Bland-Class-C-Master-Assessment.xlsx"
+                },
+                {
+                  "name": "Machine-readable assessment results",
+                  "reference": "06-independent-assessment/assessment-results.json"
+                },
+                {
+                  "name": "Assessor acceptance and completion register",
+                  "reference": "06-independent-assessment/assessor-acceptance-register.json"
+                },
+                {
+                  "name": "Provider responses and assessor dispositions",
+                  "reference": "06-independent-assessment/provider-responses-and-dispositions.json"
+                },
+                {
+                  "name": "Metrics mechanism inventory",
+                  "reference": "06-independent-assessment/metrics-mechanism-inventory.json"
+                },
+                {
+                  "name": "Supporting artifact date register",
+                  "reference": "06-independent-assessment/artifact-date-register.json and .html"
+                },
+                {
+                  "name": "Release gate register",
+                  "reference": "06-independent-assessment/application-gates.json"
+                },
+                {
+                  "name": "QA-completed master assessment workbook",
+                  "reference": "05-evidence/qa-source/QA-Completed-Master-Assessment-20260907.xlsx",
+                  "sha256": "1ae586d73130234f160477a2ae1425261c475a1317b56207294e7051a456fc63"
+                },
+                {
+                  "name": "Evidence index",
+                  "reference": "05-evidence/evidence-index.json and .html"
+                },
+                {
+                  "name": "Pinned FedRAMP rules source",
+                  "reference": "00-manifest/official-sources/fedramp-consolidated-rules.json"
+                }
+              ]
+            }
           }
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:48:51Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:25Z"
       },
       {
         "assessor": {
@@ -1754,7 +2220,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:48:52Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:26Z"
       },
       {
         "serviceIdentification": {
@@ -1812,7 +2278,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:48:54Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:27Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -1941,7 +2407,7 @@
         ],
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:48:54Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:27Z"
       },
       {
         "serviceIdentification": {
@@ -2035,12 +2501,12 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:48:55Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:28Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "$schemaVersion": "0.1.2",
-        "lastUpdated": "2026-09-08T14:48:55.535133+00:00",
+        "lastUpdated": "2026-09-08T19:40:28.661821+00:00",
         "sourceOfUpdate": "FedRAMP 2026 hub",
         "serviceIdentification": {
           "fedRampPackageId": "FR2628943633",
@@ -2137,7 +2603,7 @@
         ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:48:55Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:28Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2308,7 +2774,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:48:56Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:29Z"
       },
       {
         "serviceIdentification": {
@@ -2372,7 +2838,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:48:56Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:29Z"
       },
       {
         "serviceIdentification": {
@@ -2431,7 +2897,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:48:58Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:31Z"
       },
       {
         "assessor": {
@@ -2484,7 +2950,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:48:59Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:32Z"
       },
       {
         "serviceIdentification": {
@@ -2568,7 +3034,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:00Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:33Z"
       },
       {
         "serviceIdentification": {
@@ -2656,7 +3122,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:01Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:33Z"
       },
       {
         "serviceIdentification": {
@@ -2785,7 +3251,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:03Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:35Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2945,7 +3411,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:02Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:36Z"
       },
       {
         "serviceIdentification": {
@@ -3009,7 +3475,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:03Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:36Z"
       },
       {
         "serviceIdentification": {
@@ -3085,7 +3551,7 @@
         ],
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:05Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:37Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3238,7 +3704,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:05Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:38Z"
       },
       {
         "publicDisclosure": {
@@ -3507,7 +3973,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:06Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:39Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3535,10 +4001,10 @@
             "repositoryType": [
               "Trust Center"
             ],
-            "url": "https://trust.cursor.com",
-            "repositoryDescription": "The Cursor Trust Center provides security and compliance documentation for organizations evaluating the Cursor platform.",
+            "url": "https://trust.paramify.com/cursor/cursor",
+            "repositoryDescription": "The Cursor FedRAMP Trust Center, hosted on Paramify, publishes the FedRAMP 20x Class A compliance program, control-by-control implementation status, and controlled deliverables such as the SOC 2 Type II report for the Cursor platform.",
             "authenticationRequired": true,
-            "accessRequestInstructions": "Visit the Cursor Trust Center, select the resource you want to review, and submit the access request form. Cursor reviews each request and grants access to approved resources."
+            "accessRequestInstructions": "The compliance program and control status are viewable without an account. To review controlled deliverables, select Request Access on the FedRAMP Trust Center and identify your agency or organization. Cursor grants federal agencies and other necessary parties just-in-time access to approved materials."
           },
           "secureConfigurationGuidance": {
             "repositoryType": [
@@ -3629,7 +4095,7 @@
         ],
         "documentationOverview": {
           "status": "Initial Implementation Phase",
-          "lastUpdated": "2026-09-07",
+          "lastUpdated": "2026-09-08",
           "availableDocumentation": [
             {
               "name": "FedRAMP Certification Package Overview",
@@ -3650,16 +4116,16 @@
               "access": "Public"
             },
             {
-              "name": "Cursor Trust Center",
-              "url": "https://trust.cursor.com",
+              "name": "Cursor FedRAMP Trust Center",
+              "url": "https://trust.paramify.com/cursor/cursor",
               "format": "Trust Center",
-              "access": "Public landing page; some detailed materials require an approved access request"
+              "access": "Public compliance program and control status; controlled deliverables require just-in-time access granted to agencies and other necessary parties"
             },
             {
               "name": "SOC 2 Type II Report (Schellman; Security, Availability, and Confidentiality; August 15, 2025 to August 15, 2026)",
-              "url": "https://trust.cursor.com",
+              "url": "https://trust.paramify.com/cursor/cursor",
               "format": "PDF",
-              "access": "Requires an approved Trust Center access request. SOC 2 is an independent attestation and is not a FedRAMP certification."
+              "access": "Published as a controlled deliverable on the FedRAMP Trust Center; requires just-in-time access granted to agencies and other necessary parties. SOC 2 is an independent attestation and is not a FedRAMP certification."
             }
           ],
           "materialsInDevelopment": [
@@ -3681,7 +4147,7 @@
         ],
         "ZD_frid_retro": "FR2631054484",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:06Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:39Z"
       },
       {
         "serviceIdentification": {
@@ -3749,7 +4215,7 @@
         ],
         "ZD_frid_retro": "FR2631154499",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:07Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:40Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3846,7 +4312,7 @@
         },
         "ZD_frid_retro": "FR2631258113",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:07Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:40Z"
       },
       {
         "serviceIdentification": {
@@ -4012,7 +4478,7 @@
         ],
         "ZD_frid_retro": "F1206111371",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:09Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:40Z"
       },
       {
         "serviceIdentification": {
@@ -4124,7 +4590,7 @@
         "lastUpdated": "2026-08-11",
         "ZD_frid_retro": "FR2631258122",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-06T15:27:00Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:41Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4185,7 +4651,7 @@
         ],
         "ZD_frid_retro": "FR2631258125",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:10Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:42Z"
       },
       {
         "serviceIdentification": {
@@ -4262,7 +4728,373 @@
         },
         "ZD_frid_retro": "FR2631258127",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:09Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:41Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "FR2631258132",
+          "ueiNumber": "",
+          "providerName": "Harness, Inc.",
+          "serviceName": "Harness for Government",
+          "serviceAcronym": "HARG",
+          "serviceDescription": "Harness.io Software-as-a-Service (SaaS) is a fully managed, cloud-native software delivery platform that provides continuous integration, continuous delivery, security testing, and related DevSecOps capabilities using a cloud computing environment. It enables its customers to focus on building and shipping software instead of managing the underlying infrastructure supporting their delivery pipelines. It is available to public, federal, state, local and tribal governments, as well as research institutions, federal contractors, and government contractors. The Harness offering is comprised of two components - the SaaS Control Plane and the customer-deployed Harness Agents. The Control Plane is hosted in Amazon Web Services (AWS) GovCloud on Amazon Elastic Kubernetes Service, and is used by customers to configure, orchestrate, and monitor their pipelines and workloads. Customers deploy one or more Agents inside their own environment - such as their AWS GovCloud tenancy - to execute pipeline operations. The Agents initiate a single outbound HTTPS connection to the Harness Control Plane to receive task instructions; no inbound connection from the Control Plane into the customer's environment is required. All customer source code (unless using Harness Code), artifacts, and workload data remain within the customer's environment where the Agents operate, and no such customer data is transmitted to or retained in the Control Plane.",
+          "certificationType": "20x",
+          "website": "https://www.harness.io",
+          "logo": "https://cdn.prod.websitefiles.com/6222ca42ea87e1bd1aa1d10c/6511d736f2e624696bd189cd_harness%20logo.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Government Community Cloud",
+          "businessCategory": [
+            "Collaboration",
+            "Cybersecurity & Risk Management",
+            "Development Tools"
+          ],
+          "nextOngoingCertificationReportDate": "2026-10-01",
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.paramify.com/harness/harness-for-government",
+            "repositoryDescription": "Harness Federal Trust Center",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "https://support.paramify.com/hc/en-us/articles/48690571994003-Trust-Center-Deliverables-in-Paramify-Cloud"
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://developer.harness.io/",
+            "repositoryDescription": "Harness Platform",
+            "authenticationRequired": false
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Commercial Assessment Reports and Documents"
+              ],
+              "url": "https://trust.harness.io/",
+              "repositoryDescription": "Commercial Trust Center",
+              "authenticationRequired": false,
+              "accessRequestInstructions": "https://help.drata.com/en/articles/16153632-safebase-trust-center-access-levels-training-video"
+            }
+          ]
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Kevin Moy",
+            "contactEmail": "security@harnessgov.com",
+            "contactPhone": "310-775-7247"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "David Clarke",
+            "contactEmail": "sales@harness.io",
+            "contactPhone": "000-000-0000"
+          },
+          {
+            "contactType": "Primary",
+            "contactName": "Kevin Moy",
+            "contactEmail": "kevin.moy@harness.io",
+            "contactPhone": "310-775-7247"
+          }
+        ],
+        "assessor": {
+          "name": "N/A",
+          "assessorID": "000000"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Harness Platform",
+            "serviceDescription": "Software Delivery Platform",
+            "dateAvailable": "2026-08-03",
+            "securityCategory": "Class A"
+          },
+          {
+            "serviceName": "Harness CI (Continuous Integration)",
+            "serviceDescription": "Continuous Integration",
+            "dateAvailable": "2026-08-03",
+            "securityCategory": "Class A"
+          },
+          {
+            "serviceName": "Harness CD (Continuous Delivery)",
+            "serviceDescription": "Continuous Delivery & GitOps",
+            "dateAvailable": "2026-08-03",
+            "securityCategory": "Class A"
+          },
+          {
+            "serviceName": "Harness STO (Security Testing Orchestration)",
+            "serviceDescription": "Security Testing Orchestration",
+            "dateAvailable": "2026-08-03",
+            "securityCategory": "Class A"
+          },
+          {
+            "serviceName": "Harness IaCM (Infrastructure as Code Management)",
+            "serviceDescription": "Infrastructure as Code Management",
+            "dateAvailable": "2026-08-03",
+            "securityCategory": "Class A"
+          },
+          {
+            "serviceName": "Harness CODE (Code Repository)",
+            "serviceDescription": "Code Repository",
+            "dateAvailable": "2026-08-03",
+            "securityCategory": "Class A"
+          },
+          {
+            "serviceName": "Harness SCS (Supply Chain Security)",
+            "serviceDescription": "Supply Chain Security",
+            "dateAvailable": "2026-08-03",
+            "securityCategory": "Class A"
+          },
+          {
+            "serviceName": "Harness DB DevOps (DBD)",
+            "serviceDescription": "Database DevOps",
+            "dateAvailable": "2026-08-03",
+            "securityCategory": "Class A"
+          },
+          {
+            "serviceName": "Harness Resilience Testing",
+            "serviceDescription": "Resilience Testing",
+            "dateAvailable": "2026-08-03",
+            "securityCategory": "Class A"
+          }
+        ],
+        "informationResourcesFlowsAndSecurityCategories": [
+          {
+            "securityCategory": "Category 1: Primary Customer Data & Storage Tier",
+            "informationResourcesIncluded": [
+              "AWS - RDS/Aurora/PostgreSQL",
+              "AWS - S3"
+            ],
+            "handledDataTypes": "Federal Customer Data, Controlled Unclassified Information (CUI), PII, application backups, analytical event logs",
+            "riskSensitivityClassification": "High Sensitivity (High Impact / Federal Customer Data Boundary)"
+          },
+          {
+            "securityCategory": "Category 2: Core Workloads & In-Memory Compute",
+            "informationResourcesIncluded": [
+              "AWS - Elastic Kubernetes Service (EKS) / Virtual Machines (EC2)"
+            ],
+            "handledDataTypes": "Microservice execution state, in-flight transaction payloads, temporary user session caches",
+            "riskSensitivityClassification": "High / Moderate Sensitivity (Core Workload & Processing Boundary)"
+          },
+          {
+            "securityCategory": "Category 3: Identity & Access Management (IAM)",
+            "informationResourcesIncluded": [
+              "AWS IAM",
+              "Okta",
+              "OIDC Providers",
+              "AWS Secrets Manager"
+            ],
+            "handledDataTypes": "User credentials, SAML/OIDC assertions, MFA secrets, RBAC rules, administrative tokens",
+            "riskSensitivityClassification": "High Sensitivity (Privileged Management & Authentication Boundary)"
+          },
+          {
+            "securityCategory": "Category 4: Network Perimeter & Ingress Defense",
+            "informationResourcesIncluded": [
+              "AWS - VPC",
+              "AWS - WAF",
+              "AWS - Elastic Load Balancing",
+              "AWS - Security Groups"
+            ],
+            "handledDataTypes": "Network routing tables, TLS-encrypted traffic, HTTP headers, public IP metadata, WAF inspection rules",
+            "riskSensitivityClassification": "Low to Moderate Sensitivity (Public Edge & Network Routing Boundary)"
+          },
+          {
+            "securityCategory": "Category 5: Observability, Security & Audit Logging",
+            "informationResourcesIncluded": [
+              "AWS - SecurityHub / GuardDuty",
+              "AWS - CloudTrail / CloudWatch",
+              "Google SecOps"
+            ],
+            "handledDataTypes": "System API call audits, runtime security alerts, infrastructure metrics, security telemetry, dashboard configs",
+            "riskSensitivityClassification": "Moderate Sensitivity (System Management & Audit Boundary)"
+          },
+          {
+            "securityCategory": "Category 6: External Enterprise & Support SaaS",
+            "informationResourcesIncluded": [
+              "Google Workspace",
+              "Zendesk"
+            ],
+            "handledDataTypes": "Support tickets, customer communication logs, internal documentation",
+            "riskSensitivityClassification": "Low to Moderate Sensitivity (Third-Party SaaS Service Boundary)"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "Amazon Web Services",
+              "fedRampPackageId": "F1603047866",
+              "useCase": "Cloud Hosting Provider"
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "Zendesk",
+              "provider": "Zendesk",
+              "website": "https://www.zendesk.com/",
+              "useCase": "Support Tickets"
+            },
+            {
+              "name": "Okta Workforce",
+              "provider": "Okta",
+              "website": "https://www.okta.com/",
+              "useCase": "IDP"
+            },
+            {
+              "name": "Google SecOps",
+              "provider": "Google",
+              "website": "https://cloud.google.com/security/products/security-information-event-management",
+              "useCase": "SIEM"
+            },
+            {
+              "name": "Google Workspace",
+              "provider": "Google",
+              "website": "https://workspace.google.com/",
+              "useCase": "E-mail and Collaboration"
+            }
+          ]
+        },
+        "cryptographicModuleDocumentation": [
+          {
+            "resource": "6 KMS CMKs",
+            "resourceType": "KMS Keys",
+            "cryptoModule": "AWS KMS Hardware Security Module (HSM)",
+            "cmvpCert": "#4523",
+            "fipsStandard": "FIPS 140-3",
+            "securityLevel": "Level 3",
+            "sunsetDate": "Active - 2028-03-15",
+            "status": "Compliant"
+          },
+          {
+            "resource": "55 S3 Buckets",
+            "resourceType": "S3 Buckets",
+            "cryptoModule": "AWS KMS HSM (SSE-S3 AES-256, GovCloud default)",
+            "cmvpCert": "#4523",
+            "fipsStandard": "FIPS 140-3",
+            "securityLevel": "Level 3",
+            "sunsetDate": "Active - 2028-03-15",
+            "status": "Compliant"
+          },
+          {
+            "resource": "EBS Volumes (all sampled)",
+            "resourceType": "EBS Volumes",
+            "cryptoModule": "AWS KMS CMK (key/18c6a199-...)",
+            "cmvpCert": "#4523",
+            "fipsStandard": "FIPS 140-3",
+            "securityLevel": "Level 3",
+            "sunsetDate": "Active - 2028-03-15",
+            "status": "Compliant"
+          },
+          {
+            "resource": "4 RDS Instances (3 PostgreSQL, 1 MySQL)",
+            "resourceType": "RDS Instances",
+            "cryptoModule": "AWS KMS CMK (storage) / AWS-LC TLS (rds-ca-rsa4096-g1)",
+            "cmvpCert": "#4523 (KMS) / #4631 (TLS)",
+            "fipsStandard": "FIPS 140-3",
+            "securityLevel": "Level 3 (KMS) / Level 1 (TLS)",
+            "sunsetDate": "Active - 2028-03-15 / 2028-06-20",
+            "status": "Partial Compliant"
+          },
+          {
+            "resource": "39 EC2 Instances (Bottlerocket)",
+            "resourceType": "EC2 Instances",
+            "cryptoModule": "AWS-LC Cryptographic Module",
+            "cmvpCert": "#4631",
+            "fipsStandard": "FIPS 140-3",
+            "securityLevel": "Level 1",
+            "sunsetDate": "Active - 2028-06-20",
+            "status": "Compliant"
+          },
+          {
+            "resource": "1 EKS Cluster (prod-k8s-eks-pri)",
+            "resourceType": "EKS Clusters",
+            "cryptoModule": "AWS KMS Envelope Encryption / AWS-LC (Bottlerocket worker nodes)",
+            "cmvpCert": "#4523 (KMS) / #4631 (AWS-LC)",
+            "fipsStandard": "FIPS 140-3",
+            "securityLevel": "Level 3 (KMS) / Level 1 (AWS-LC)",
+            "sunsetDate": "Active - 2028-03-15 / 2028-06-20",
+            "status": "Compliant"
+          },
+          {
+            "resource": "2 ElastiCache Clusters (Redis)",
+            "resourceType": "ElastiCache (Redis)",
+            "cryptoModule": "AWS KMS CMK (at-rest) / AWS-LC TLS (in-transit, mode=preferred)",
+            "cmvpCert": "#4523 (KMS) / #4631 (TLS)",
+            "fipsStandard": "FIPS 140-3",
+            "securityLevel": "Level 3 (KMS) / Level 1 (TLS)",
+            "sunsetDate": "Active - 2028-03-15 / 2028-06-20",
+            "status": "Partial Compliant"
+          },
+          {
+            "resource": "90+ Secrets Manager Secrets (13 tagged, 30+ unconfirmed)",
+            "resourceType": "Secrets Manager",
+            "cryptoModule": "AWS Managed Key (default KMS)",
+            "cmvpCert": "#4523 (unconfirmed on 30+ secrets)",
+            "fipsStandard": "FIPS 140-3",
+            "securityLevel": "Level 3",
+            "sunsetDate": "Active - 2028-03-15",
+            "status": "Partial Compliant"
+          },
+          {
+            "resource": "2 ACM Certificates (*.harnessgov.com, *.harness.io)",
+            "resourceType": "ACM Certificates",
+            "cryptoModule": "AWS Certificate Manager (RSA-2048) via AWS-LC TLS",
+            "cmvpCert": "#4631",
+            "fipsStandard": "FIPS 140-3",
+            "securityLevel": "Level 1",
+            "sunsetDate": "Active - 2028-06-20 (certs expire 2026-12-02 / 2026-12-23)",
+            "status": "Compliant"
+          },
+          {
+            "resource": "2 Load Balancers / 4 Listeners (ALB & NLB)",
+            "resourceType": "Load Balancers",
+            "cryptoModule": "ELBSecurityPolicy-TLS13-1-2-FIPS-2023-04 (AWS-LC) / 1 HTTP listener (plaintext, port 10000)",
+            "cmvpCert": "#4631",
+            "fipsStandard": "FIPS 140-3 (3 of 4 listeners)",
+            "securityLevel": "Level 1",
+            "sunsetDate": "Active - 2028-06-20",
+            "status": "Partial Compliant"
+          },
+          {
+            "resource": "1 VPC Flow Log (prod-vpc)",
+            "resourceType": "VPC Flow Logs",
+            "cryptoModule": "CloudWatch Logs (AWS-managed encryption)",
+            "cmvpCert": "#4523",
+            "fipsStandard": "FIPS 140-3",
+            "securityLevel": "Level 3",
+            "sunsetDate": "Active - 2028-03-15",
+            "status": "Compliant"
+          }
+        ],
+        "certificationPackageOverviewMetadata": {
+          "name": "Kevin Moy",
+          "title": "Director, GRC",
+          "contactInformation": "kevin.moy@harness.io",
+          "role": "Responsible and accountable for the FedRAMP Certification Package",
+          "versionHistory": [
+            {
+              "version": "1.0",
+              "dateTime": "2026-08-11T00:00:00Z",
+              "source": "Manual"
+            },
+            {
+              "version": "2.0",
+              "dateTime": "2026-08-20T00:00:00Z",
+              "source": "Manual"
+            },
+            {
+              "version": "2.1",
+              "dateTime": "2026-09-01T15:22:08Z",
+              "source": "Auto Generated"
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2631258132",
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-09-08T19:40:43Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4344,7 +5176,7 @@
           "certified": [
             {
               "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
-              "useCase": "Google Cloud Platform (Google Services) — primary hosting of all production infrastructure: GKE Autopilot, Cloud SQL, Cloud Storage, Memorystore, Cloud KMS, Cloud Load Balancing and Cloud Armor, Cloud Logging and Monitoring, Secret Manager, Artifact Registry, and Vertex AI (Gemini) model inference and embeddings. Stores and processes customer data."
+              "useCase": "Google Cloud Platform (Google Services) — primary hosting of all production infrastructure: GKE Autopilot, Cloud SQL, Cloud Storage, Memorystore, Cloud KMS, Cloud Load Balancing and Cloud Armor, Cloud Logging and Monitoring, Secret Manager, Artifact Registry, and Vertex AI (Gemini) model inference and embeddings, including Web Grounding for Enterprise (web search for organizations flagged as handling CUI). Stores and processes customer data."
             },
             {
               "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
@@ -4372,21 +5204,21 @@
             },
             {
               "fedRampCertifiedThirdPartyInformationResource": "FR2604643715",
-              "useCase": "Perplexity Enterprise and API Platform — web search for AI agent features. Receives search queries; customer documents are not sent. Excluded for customer organizations flagged as handling CUI."
+              "useCase": "Perplexity Enterprise and API Platform (FedRAMP Certified, Class B / Low) — web search for AI agent features of commercial organizations. Receives search queries; customer documents are not sent. Not used for organizations flagged as handling CUI: their web lookups run on Vertex AI Web Grounding for Enterprise inside the Google Cloud boundary."
             }
           ],
           "nonCertified": [
+            {
+              "name": "Anthropic API (Claude)",
+              "provider": "Anthropic, PBC",
+              "website": "https://www.anthropic.com",
+              "useCase": "Direct Claude model inference for a small set of models not served through Amazon Bedrock, selectable only by Specset administrators; prompts may include customer document text. Never enabled for organizations flagged as handling CUI."
+            },
             {
               "name": "Intercom",
               "provider": "Intercom, Inc.",
               "website": "https://www.intercom.com",
               "useCase": "In-app customer support chat for commercial organizations. Processes customer user contact details and support conversation content; no project documents. Disabled for customer organizations flagged as handling CUI — the messenger never boots for a CUI organization and CUI memberships are never shared with it."
-            },
-            {
-              "name": "Customer.io",
-              "provider": "Customer.io, Inc.",
-              "website": "https://customer.io",
-              "useCase": "Product email and lifecycle messaging for commercial organizations. Processes customer user contact details and product-usage events; no project documents. Excluded from the federal/CUI data path; per-organization CUI gating (mirroring the in-app messenger) is being applied before any federal customer onboarding."
             },
             {
               "name": "Google AI Studio (Gemini API)",
@@ -4416,7 +5248,13 @@
               "name": "Autodesk Platform Services",
               "provider": "Autodesk, Inc.",
               "website": "https://aps.autodesk.com",
-              "useCase": "Optional customer-initiated integration to the customer's own Autodesk tenant via OAuth; data exchanged is chosen and authorized by the customer."
+              "useCase": "Optional customer-initiated integration to the customer's own Autodesk tenant via OAuth; data exchanged is chosen and authorized by the customer. Not used unless a customer connects it."
+            },
+            {
+              "name": "Procore",
+              "provider": "Procore Technologies, Inc.",
+              "website": "https://www.procore.com",
+              "useCase": "Optional customer-initiated integration to the customer's own Procore tenant via OAuth; data exchanged is chosen and authorized by the customer. Not used unless a customer connects it."
             }
           ]
         },
@@ -4426,8 +5264,8 @@
             "title": "CEO and Co-Founder",
             "email": "gordon@specset.com"
           },
-          "version": "2026.09.01",
-          "lastUpdated": "2026-09-01T20:05:47Z",
+          "version": "2026.09.02",
+          "lastUpdated": "2026-09-03T17:30:34Z",
           "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; validated by the validate workflow; published to specset.com/fedramp/)"
         },
         "documentation": [
@@ -4476,7 +5314,7 @@
         ],
         "ZD_frid_retro": "FR2631258135",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:10Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:42Z"
       },
       {
         "serviceIdentification": {
@@ -4600,7 +5438,7 @@
         ],
         "ZD_frid_retro": "F1311222650",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:12Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:43Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4732,7 +5570,7 @@
         },
         "ZD_frid_retro": "FR2631654537",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:12Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:43Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4810,7 +5648,7 @@
         },
         "ZD_frid_retro": "FR2631747315",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:14Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:45Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4892,7 +5730,7 @@
           "certified": [
             {
               "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
-              "useCase": "Google Cloud Platform (Google Services) — primary hosting of all production infrastructure: GKE Autopilot, Cloud SQL, Cloud Storage, Memorystore, Cloud KMS, Cloud Load Balancing and Cloud Armor, Cloud Logging and Monitoring, Secret Manager, Artifact Registry, and Vertex AI (Gemini) model inference and embeddings. Stores and processes customer data."
+              "useCase": "Google Cloud Platform (Google Services) — primary hosting of all production infrastructure: GKE Autopilot, Cloud SQL, Cloud Storage, Memorystore, Cloud KMS, Cloud Load Balancing and Cloud Armor, Cloud Logging and Monitoring, Secret Manager, Artifact Registry, and Vertex AI (Gemini) model inference and embeddings, including Web Grounding for Enterprise (web search for organizations flagged as handling CUI). Stores and processes customer data."
             },
             {
               "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
@@ -4920,21 +5758,21 @@
             },
             {
               "fedRampCertifiedThirdPartyInformationResource": "FR2604643715",
-              "useCase": "Perplexity Enterprise and API Platform — web search for AI agent features. Receives search queries; customer documents are not sent. Excluded for customer organizations flagged as handling CUI."
+              "useCase": "Perplexity Enterprise and API Platform (FedRAMP Certified, Class B / Low) — web search for AI agent features of commercial organizations. Receives search queries; customer documents are not sent. Not used for organizations flagged as handling CUI: their web lookups run on Vertex AI Web Grounding for Enterprise inside the Google Cloud boundary."
             }
           ],
           "nonCertified": [
+            {
+              "name": "Anthropic API (Claude)",
+              "provider": "Anthropic, PBC",
+              "website": "https://www.anthropic.com",
+              "useCase": "Direct Claude model inference for a small set of models not served through Amazon Bedrock, selectable only by Specset administrators; prompts may include customer document text. Never enabled for organizations flagged as handling CUI."
+            },
             {
               "name": "Intercom",
               "provider": "Intercom, Inc.",
               "website": "https://www.intercom.com",
               "useCase": "In-app customer support chat for commercial organizations. Processes customer user contact details and support conversation content; no project documents. Disabled for customer organizations flagged as handling CUI — the messenger never boots for a CUI organization and CUI memberships are never shared with it."
-            },
-            {
-              "name": "Customer.io",
-              "provider": "Customer.io, Inc.",
-              "website": "https://customer.io",
-              "useCase": "Product email and lifecycle messaging for commercial organizations. Processes customer user contact details and product-usage events; no project documents. Excluded from the federal/CUI data path; per-organization CUI gating (mirroring the in-app messenger) is being applied before any federal customer onboarding."
             },
             {
               "name": "Google AI Studio (Gemini API)",
@@ -4964,7 +5802,13 @@
               "name": "Autodesk Platform Services",
               "provider": "Autodesk, Inc.",
               "website": "https://aps.autodesk.com",
-              "useCase": "Optional customer-initiated integration to the customer's own Autodesk tenant via OAuth; data exchanged is chosen and authorized by the customer."
+              "useCase": "Optional customer-initiated integration to the customer's own Autodesk tenant via OAuth; data exchanged is chosen and authorized by the customer. Not used unless a customer connects it."
+            },
+            {
+              "name": "Procore",
+              "provider": "Procore Technologies, Inc.",
+              "website": "https://www.procore.com",
+              "useCase": "Optional customer-initiated integration to the customer's own Procore tenant via OAuth; data exchanged is chosen and authorized by the customer. Not used unless a customer connects it."
             }
           ]
         },
@@ -4974,8 +5818,8 @@
             "title": "CEO and Co-Founder",
             "email": "gordon@specset.com"
           },
-          "version": "2026.09.01",
-          "lastUpdated": "2026-09-01T20:05:47Z",
+          "version": "2026.09.02",
+          "lastUpdated": "2026-09-03T17:30:34Z",
           "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; validated by the validate workflow; published to specset.com/fedramp/)"
         },
         "documentation": [
@@ -5024,7 +5868,7 @@
         ],
         "ZD_frid_retro": "FR2631747321",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:13Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:44Z"
       },
       {
         "serviceIdentification": {
@@ -5076,7 +5920,7 @@
         ],
         "ZD_frid_retro": "FR2631747327",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:13Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:45Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5189,7 +6033,7 @@
         ],
         "ZD_frid_retro": "FR2300457485",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:14Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:45Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5225,7 +6069,7 @@
         ],
         "ZD_frid_retro": "FR2632054516",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:14Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:46Z"
       },
       {
         "serviceIdentification": {
@@ -5330,7 +6174,7 @@
         ],
         "ZD_frid_retro": "FR2632054521",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:15Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:46Z"
       },
       {
         "packageMetadata": {
@@ -5421,7 +6265,7 @@
         },
         "ZD_frid_retro": "FR2520254824",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:14Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:46Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5537,7 +6381,7 @@
         },
         "ZD_frid_retro": "FR2632054530",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:16Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:48Z"
       },
       {
         "serviceIdentification": {
@@ -5621,7 +6465,7 @@
         },
         "ZD_frid_retro": "FR2632054534",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:16Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:48Z"
       },
       {
         "serviceIdentification": {
@@ -5733,7 +6577,7 @@
         },
         "ZD_frid_retro": "FR2632054491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:16Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:49Z"
       },
       {
         "serviceIdentification": {
@@ -5796,7 +6640,7 @@
         ],
         "ZD_frid_retro": "FR2632436493",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:17Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:50Z"
       },
       {
         "serviceIdentification": {
@@ -5834,7 +6678,7 @@
         ],
         "ZD_frid_retro": "FR2632558735",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:18Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:50Z"
       },
       {
         "serviceIdentification": {
@@ -5872,7 +6716,7 @@
         ],
         "ZD_frid_retro": "FR2632558740",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:20Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:51Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5954,7 +6798,7 @@
         },
         "ZD_frid_retro": "FR2632558748",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:19Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:51Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6076,7 +6920,7 @@
         },
         "ZD_frid_retro": "FR2632731472",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:20Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:52Z"
       },
       {
         "serviceIdentification": {
@@ -6154,7 +6998,7 @@
         },
         "ZD_frid_retro": "FR2632755834",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:21Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:52Z"
       },
       {
         "serviceIdentification": {
@@ -6221,7 +7065,7 @@
         },
         "ZD_frid_retro": "FR2633058235",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:21Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:53Z"
       },
       {
         "$comment": "Ultra Security FedRAMP 20x Certification Package Overview — conformant to fedramp-certification-package-overview-schema-2026-06-24.json (FRC-CSO-PKG). Machine-readable identification package for the CSO. This is the schema-conformant CPO; the narrative CPO (metadata/publicInformation/... index) is a separate human-readable companion.",
@@ -6333,7 +7177,7 @@
         },
         "ZD_frid_retro": "FR2633058240",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:22Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:54Z"
       },
       {
         "serviceIdentification": {
@@ -6427,7 +7271,7 @@
         },
         "ZD_frid_retro": "FR2633053629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:22Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:54Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6527,7 +7371,7 @@
         },
         "ZD_frid_retro": "FR2633053633",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:23Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:54Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6604,7 +7448,7 @@
         ],
         "ZD_frid_retro": "FR2633153272",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:23Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:55Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6653,7 +7497,7 @@
         ],
         "ZD_frid_retro": "FR2633153276",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:24Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:55Z"
       },
       {
         "serviceIdentification": {
@@ -6745,7 +7589,7 @@
         },
         "ZD_frid_retro": "FR2532557612",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:24Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:56Z"
       },
       {
         "serviceIdentification": {
@@ -6778,7 +7622,7 @@
         ],
         "ZD_frid_retro": "FR2633734906",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:25Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:56Z"
       },
       {
         "serviceIdentification": {
@@ -6904,7 +7748,7 @@
         },
         "ZD_frid_retro": "FR2633734912",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:26Z"
+        "last_fetched_timestamp": "2026-09-08T14:41:51Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6962,7 +7806,7 @@
         ],
         "ZD_frid_retro": "FR2633734917",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:26:18Z"
+        "last_fetched_timestamp": "2026-09-08T16:55:55Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7020,7 +7864,7 @@
         },
         "ZD_frid_retro": "FR2633734921",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:42:00Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:58Z"
       },
       {
         "serviceIdentification": {
@@ -7107,7 +7951,7 @@
         },
         "ZD_frid_retro": "FR2633734927",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:42:03Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:57Z"
       },
       {
         "serviceIdentification": {
@@ -7227,7 +8071,7 @@
         ],
         "ZD_frid_retro": "FR2633734932",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-08T14:49:27Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:58Z"
       },
       {
         "serviceIdentification": {
@@ -7267,7 +8111,7 @@
         ],
         "ZD_frid_retro": "FR2626164349",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-08T14:49:28Z"
+        "last_fetched_timestamp": "2026-09-08T19:40:59Z"
       }
     ]
   }
