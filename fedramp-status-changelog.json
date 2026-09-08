@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-08T14:30:39.407Z",
-    "total_entries": 2108,
+    "export_timestamp": "2026-09-08T14:48:41.668Z",
+    "total_entries": 2114,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -31624,6 +31624,96 @@
         "transition_date": "2026-09-04T04:00:00.000Z",
         "recorded_date": "2026-09-04T04:00:00.000Z",
         "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "25b38fa4-7ad2-4e84-bbf5-fe2b7ce67591",
+        "product_id": "FR2633734906",
+        "csp": "Microsoft Azure Goverment Cloud",
+        "cso": "Benchmark Construction Estimator",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-08T14:41:43Z",
+        "recorded_date": "2026-09-08T14:44:23.647Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "5ac520bc-a61c-401f-818e-a885a8038314",
+        "product_id": "FR2633734912",
+        "csp": "ConnectSecure",
+        "cso": "ConnectSecure Vulnerability and Compliance Manager",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-08T14:41:51Z",
+        "recorded_date": "2026-09-08T14:44:23.647Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "87878608-a58f-4005-8d9c-f5b19522e796",
+        "product_id": "FR2633734917",
+        "csp": "Simuhealth Technologies Inc.",
+        "cso": "Simuhealth",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-08T14:26:18Z",
+        "recorded_date": "2026-09-08T14:44:23.647Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "6a92e811-8fcd-4226-91a2-81e8e31d4f3c",
+        "product_id": "FR2633734921",
+        "csp": "ElvoAI",
+        "cso": "ElvoAI",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-08T14:42:00Z",
+        "recorded_date": "2026-09-08T14:44:23.647Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "474b3c07-0b85-47eb-915d-da34346099c9",
+        "product_id": "FR2633734927",
+        "csp": "Meterbox Inc.",
+        "cso": "Meterbox",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-08T14:42:03Z",
+        "recorded_date": "2026-09-08T14:44:23.647Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "cc9f1bb8-2bc5-488a-a9b5-335c08dbc76e",
+        "product_id": "FR2633734932",
+        "csp": "Skyward IT Solutions",
+        "cso": "Alira",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-08T14:42:09Z",
+        "recorded_date": "2026-09-08T14:44:23.647Z",
+        "source": "frc-cso-pkg",
         "comments": ""
       }
     ]
