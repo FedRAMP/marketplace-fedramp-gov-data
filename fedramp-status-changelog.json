@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-08T19:59:30.269Z",
-    "total_entries": 2114,
+    "export_timestamp": "2026-09-09T16:33:43.355Z",
+    "total_entries": 2116,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -29983,7 +29983,7 @@
         "cso": "Koniag Government Services Electronic Health Record System (KGS EHRS)",
         "cert_type": "Rev5",
         "cert_path": "Agency",
-        "cert_class": "Class C",
+        "cert_class": "Class D",
         "from_status": "PMO Review",
         "to_status": "FedRAMP Certified",
         "transition_date": "2026-06-17T04:00:00.000Z",
@@ -31713,6 +31713,36 @@
         "to_status": "Initial Implementation",
         "transition_date": "2026-09-08T14:42:09Z",
         "recorded_date": "2026-09-08T14:44:23.647Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "006a8302",
+        "product_id": "FR2502834044",
+        "csp": "Trisotech",
+        "cso": "Digital Enterprise Suite FedRAMP Edition",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class B",
+        "from_status": "Agency Review",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-09-09T04:00:00.000Z",
+        "recorded_date": "2026-09-09T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "ce73a228-6771-4880-a573-4531690ce71c",
+        "product_id": "FR2633841585",
+        "csp": "Silkline.ai",
+        "cso": "Silkline",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-09T16:33:02Z",
+        "recorded_date": "2026-09-09T16:33:39.385Z",
         "source": "frc-cso-pkg",
         "comments": ""
       }
