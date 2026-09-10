@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-09T20:26:20.812Z",
-    "total_entries": 2116,
+    "export_timestamp": "2026-09-10T15:24:25.642Z",
+    "total_entries": 2117,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -28603,7 +28603,7 @@
         "cso": "Datadog for Government - High",
         "cert_type": "Rev5",
         "cert_path": "Agency",
-        "cert_class": "Class C",
+        "cert_class": "Class D",
         "from_status": "Agency In Process",
         "to_status": "Authorized",
         "transition_date": "2026-05-05T04:00:00.000Z",
@@ -31744,6 +31744,21 @@
         "transition_date": "2026-09-09T16:33:02Z",
         "recorded_date": "2026-09-09T16:33:39.385Z",
         "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "c563f429",
+        "product_id": "F1603307884",
+        "csp": "e-Builder, A Trimble Company",
+        "cso": "Trimble Unity Construct Government Edition",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "Authorized",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2026-09-10T04:00:00.000Z",
+        "recorded_date": "2026-09-10T04:00:00.000Z",
+        "source": "AppSheet",
         "comments": ""
       }
     ]
