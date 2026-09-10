@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-10T19:59:33.633Z",
-    "total_entries": 2118,
+    "export_timestamp": "2026-09-10T20:57:13.084Z",
+    "total_entries": 2120,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -31774,6 +31774,36 @@
         "transition_date": "2026-09-10T04:00:00.000Z",
         "recorded_date": "2026-09-10T04:00:00.000Z",
         "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "ebcb7375-ee5b-41ca-9ecc-54ffdc4a2967",
+        "product_id": "FR2633957417",
+        "csp": "Dayforce",
+        "cso": "Dayforce HCM, Public Sector",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-10T20:56:55Z",
+        "recorded_date": "2026-09-10T20:57:10.340Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "08378cb0-1329-4a72-81c0-0499be2e8fcc",
+        "product_id": "FR2633957422",
+        "csp": "Vastian",
+        "cso": "Vastian (MediaLab by Vastian)",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-10T20:57:01Z",
+        "recorded_date": "2026-09-10T20:57:10.340Z",
+        "source": "frc-cso-pkg",
         "comments": ""
       }
     ]
