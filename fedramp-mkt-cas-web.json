@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-08-28T19:24:49.532Z",
-    "total_entries": 2,
+    "export_timestamp": "2026-09-11T17:52:29.272Z",
+    "total_entries": 6,
     "description": "FedRAMP data MKT-CAS-WEB export from GSA system"
   },
   "data": {
@@ -43,7 +43,7 @@
         ],
         "ZD_assessor_advisor_name": "Fortinetics LLC",
         "fedramp_listing_timestamp": "2026-08-27T16:29:43Z",
-        "last_fetched_timestamp": "2026-08-28T19:24:49Z"
+        "last_fetched_timestamp": "2026-09-11T17:52:27Z"
       },
       {
         "advisorName": "Verdict Technologies Inc.",
@@ -68,7 +68,136 @@
         ],
         "ZD_assessor_advisor_name": "Verdict Technologies Inc.",
         "fedramp_listing_timestamp": "2026-08-27T16:29:41Z",
-        "last_fetched_timestamp": "2026-08-28T19:24:49Z"
+        "last_fetched_timestamp": "2026-09-11T17:52:27Z"
+      },
+      {
+        "advisorName": "Elevate Consult",
+        "logo": "https://elevateconsult.com/wp-content/uploads/2024/09/cropped-favicon.png",
+        "serviceDescription": "Elevate Consult provides FedRAMP advisory and consulting services for cloud service providers pursuing federal certification under the Consolidated Rules for 2026 (CR26). Elevate operates as an advisor, not an independent assessor, which keeps its guidance free of assessment conflicts. Services cover certification strategy and scoping, gap analysis and remediation planning, FedRAMP 20x advisory, Rev5 completion and transition strategy, independent assessment preparation, and collaborative continuous monitoring support. Elevate Consult was founded in 2008 and has supported more than 500 clients with an 85% client retention rate and a 100% audit pass rate.",
+        "contactInformation": [
+          "Elevate Consult",
+          "fedramp@elevateconsult.com",
+          "https://elevateconsult.com"
+        ],
+        "servicesOffered": [
+          {
+            "serviceName": "FedRAMP Certification Strategy and Scoping",
+            "serviceDescription": "Selection of certification type (FedRAMP 20x or Rev5), certification path (Program or Agency), and Certification Class (A through D) against your architecture, target agencies, and data types. Authorization boundary definition and minimization."
+          },
+          {
+            "serviceName": "FedRAMP Gap Analysis and Remediation Planning",
+            "serviceDescription": "Assessment of your current environment against the applicable FedRAMP baseline or Key Security Indicators, with prioritized corrective action plans ahead of independent assessment."
+          },
+          {
+            "serviceName": "FedRAMP 20x Advisory",
+            "serviceDescription": "Key Security Indicator alignment, machine-readable evidence design, trust center setup, and continuous validation architecture."
+          },
+          {
+            "serviceName": "FedRAMP Rev5 Completion and Transition Strategy",
+            "serviceDescription": "Security Decision Record and package development, machine-readable package compliance, and transition planning toward FedRAMP 20x where appropriate."
+          },
+          {
+            "serviceName": "Independent Assessment Preparation",
+            "serviceDescription": "Evidence collection, package quality review, and mock assessment ahead of engagement with a FedRAMP-recognized independent assessor. Elevate does not perform independent assessments."
+          },
+          {
+            "serviceName": "Collaborative Continuous Monitoring Support",
+            "serviceDescription": "Vulnerability detection and response aligned to the CISA KEV catalog, reporting cadences, and ongoing certification data sharing with your agency customers, including monthly vulnerability scans and penetration test support."
+          }
+        ],
+        "ZD_assessor_advisor_name": "Elevate Consult",
+        "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
+        "last_fetched_timestamp": "2026-09-11T17:52:28Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
+        "advisorName": "Steel Patriot Partners",
+        "logo": "https://www.steelpatriotpartners.com/hubfs/Steel_Patriot_Partners_logo.svg",
+        "serviceDescription": "Steel Patriot Partners is a cybersecurity and data governance advisory firm that helps cloud service providers and their customers navigate FedRAMP. We advise organizations on FedRAMP readiness, authorization strategy, security control implementation, continuous monitoring, and data governance so they can achieve and maintain FedRAMP authorization efficiently.",
+        "contactInformation": [
+          "Company: Steel Patriot Partners",
+          "Contact: Doug Stonier, Director of Compliance",
+          "Phone: 855-578-7272",
+          "Email: security-alerts@steelpatriotpartners.com",
+          "Website: https://www.steelpatriotpartners.com"
+        ],
+        "servicesOffered": [
+          {
+            "serviceName": "FedRAMP Readiness & Advisory",
+            "serviceDescription": "Gap assessments, readiness reviews, and advisory support to prepare cloud service offerings for FedRAMP authorization."
+          },
+          {
+            "serviceName": "Security Control Implementation Support",
+            "serviceDescription": "Guidance on implementing and documenting the security and privacy controls required for FedRAMP authorization."
+          },
+          {
+            "serviceName": "Continuous Monitoring & Ongoing Authorization",
+            "serviceDescription": "Advisory support for maintaining FedRAMP authorization, including continuous monitoring, vulnerability management, and reporting."
+          },
+          {
+            "serviceName": "Cybersecurity Data Governance",
+            "serviceDescription": "Advisory services for establishing data governance, data protection, and compliance practices aligned to federal security requirements."
+          }
+        ],
+        "ZD_assessor_advisor_name": "Steel Patriot Partners",
+        "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
+        "last_fetched_timestamp": "2026-09-11T17:52:28Z"
+      },
+      {
+        "advisorName": "SunStone Secure",
+        "logo": "https://sunstone-secure-llc.github.io/artemisadvisory/sunstone-logo.svg",
+        "serviceDescription": "SunStone Secure has been providing FedRAMP and other regulated security and compliance advisory services, including CISO-as-a-Service and ConMon-as-a-Service offerings since 2019.",
+        "contactInformation": [
+          "Mats Nahlinder|info@sunstonesecure.com",
+          "Security Team|security@sunstonesecure.com",
+          "General|(650)508-1796"
+        ],
+        "servicesOffered": [
+          {
+            "serviceName": "20x",
+            "serviceDescription": "AI-native and Agentic SaaS capabilities for continuous threat assessment, audit readiness and compliance operations."
+          },
+          {
+            "serviceName": "Rev5",
+            "serviceDescription": "AI-native and Agentic SaaS capabilities for continuous threat assessment, audit readiness, and compliance operations. Rev 5 SSP and appendices automation. Rev 5 SAP and SRTM automation. Rev 5 interview preparation automation. Rev 5 ConMon automation. Rev 5 red teaming automation."
+          }
+        ],
+        "customerReferences": [
+          "SunStone Secure advises and maintains ConMon preparedness for multiple Rev 4, Rev 5 and 20x FedRAMP Marketplace-listed CSPs. For detailed customer references, contact Mats Nahlinder at info@sunstonesecure.com or (650) 508-1796."
+        ],
+        "ZD_assessor_advisor_name": "SunStone Secure",
+        "fedramp_listing_timestamp": "",
+        "last_fetched_timestamp": "2026-09-11T17:52:28Z"
+      },
+      {
+        "advisorName": "Skirret Consulting, LLC",
+        "logo": "https://www.skirretconsulting.com/skirret-logo.png",
+        "serviceDescription": "Fractional CISO advisory and security program development for growing organizations. Sole-practitioner firm serving the defense industrial base, healthcare, higher education and research, technology, and manufacturing, open to any organization serious about getting it right.",
+        "contactInformation": [
+          "info@skirretconsulting.com",
+          "https://www.skirretconsulting.com/"
+        ],
+        "servicesOffered": [
+          {
+            "serviceName": "Assessments",
+            "serviceDescription": "Independent, point-in-time evaluation against a target framework, risk landscape, or transaction, with prioritized findings."
+          },
+          {
+            "serviceName": "Program Development",
+            "serviceDescription": "Security, risk management, third-party risk, and AI governance programs built to NIST or ISO frameworks."
+          },
+          {
+            "serviceName": "Fractional CISO",
+            "serviceDescription": "Fractional executive security leadership, advising leadership on strategy and risk and staff on implementation."
+          },
+          {
+            "serviceName": "Workforce & Leadership Development",
+            "serviceDescription": "Security awareness workshops, executive and board education, tabletop exercises, security hiring advisory."
+          }
+        ],
+        "ZD_assessor_advisor_name": "Skirret Consulting, LLC",
+        "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
+        "last_fetched_timestamp": "2026-09-11T17:52:29Z"
       }
     ]
   }
