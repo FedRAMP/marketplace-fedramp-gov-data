@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-11T17:16:31.402Z",
-    "total_entries": 2120,
+    "export_timestamp": "2026-09-11T18:17:19.586Z",
+    "total_entries": 2121,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -31803,6 +31803,21 @@
         "to_status": "Initial Implementation",
         "transition_date": "2026-09-10T20:57:01Z",
         "recorded_date": "2026-09-10T20:57:10.340Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "444f91f3-b996-401a-9ba0-0b1eaacd6c95",
+        "product_id": "FR2634047811",
+        "csp": "86Borders",
+        "cso": "ConnectAllCare",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-11T18:16:50Z",
+        "recorded_date": "2026-09-11T18:17:16.460Z",
         "source": "frc-cso-pkg",
         "comments": ""
       }
