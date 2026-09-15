@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-15T15:03:12.250Z",
-    "total_entries": 2124,
+    "export_timestamp": "2026-09-15T19:09:43.635Z",
+    "total_entries": 2125,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -31863,6 +31863,21 @@
         "to_status": "Initial Implementation",
         "transition_date": "2026-09-15T15:02:28Z",
         "recorded_date": "2026-09-15T15:03:10.406Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "866687c5-f07d-4604-a0fc-44db6e3b4f25",
+        "product_id": "FR2634450946",
+        "csp": "Pinecone Systems, Inc.",
+        "cso": "Pinecone Vector Database",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-15T19:09:04Z",
+        "recorded_date": "2026-09-15T19:09:30.687Z",
         "source": "frc-cso-pkg",
         "comments": ""
       }
