@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-14T21:02:20.116Z",
-    "total_entries": 2123,
+    "export_timestamp": "2026-09-15T15:03:12.250Z",
+    "total_entries": 2124,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -31848,6 +31848,21 @@
         "to_status": "Initial Implementation",
         "transition_date": "2026-09-14T21:01:29Z",
         "recorded_date": "2026-09-14T21:02:17.040Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "06138b1e-c980-4485-a56b-cabbbcbefb00",
+        "product_id": "FR2634436150",
+        "csp": "Remedio Technologies Inc",
+        "cso": "Remedio",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-15T15:02:28Z",
+        "recorded_date": "2026-09-15T15:03:10.406Z",
         "source": "frc-cso-pkg",
         "comments": ""
       }
