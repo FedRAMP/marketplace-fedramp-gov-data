@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-15T19:13:12.339Z",
-    "total_entries": 6,
+    "export_timestamp": "2026-09-16T13:39:56.763Z",
+    "total_entries": 7,
     "description": "FedRAMP data MKT-CAS-WEB export from GSA system"
   },
   "data": {
@@ -43,7 +43,7 @@
         ],
         "ZD_assessor_advisor_name": "Fortinetics LLC",
         "fedramp_listing_timestamp": "2026-08-27T16:29:43Z",
-        "last_fetched_timestamp": "2026-09-15T19:13:10Z"
+        "last_fetched_timestamp": "2026-09-16T13:39:54Z"
       },
       {
         "advisorName": "Verdict Technologies Inc.",
@@ -68,7 +68,7 @@
         ],
         "ZD_assessor_advisor_name": "Verdict Technologies Inc.",
         "fedramp_listing_timestamp": "2026-08-27T16:29:41Z",
-        "last_fetched_timestamp": "2026-09-15T19:13:10Z"
+        "last_fetched_timestamp": "2026-09-16T13:39:54Z"
       },
       {
         "advisorName": "Elevate Consult",
@@ -107,7 +107,7 @@
         ],
         "ZD_assessor_advisor_name": "Elevate Consult",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-09-15T19:13:11Z"
+        "last_fetched_timestamp": "2026-09-16T13:39:55Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
@@ -141,7 +141,7 @@
         ],
         "ZD_assessor_advisor_name": "Steel Patriot Partners",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-09-15T19:13:11Z"
+        "last_fetched_timestamp": "2026-09-16T13:39:55Z"
       },
       {
         "advisorName": "SunStone Secure",
@@ -167,7 +167,7 @@
         ],
         "ZD_assessor_advisor_name": "SunStone Secure",
         "fedramp_listing_timestamp": "",
-        "last_fetched_timestamp": "2026-09-15T19:13:11Z"
+        "last_fetched_timestamp": "2026-09-16T13:39:55Z"
       },
       {
         "advisorName": "Skirret Consulting, LLC",
@@ -197,7 +197,51 @@
         ],
         "ZD_assessor_advisor_name": "Skirret Consulting, LLC",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-09-15T19:13:12Z"
+        "last_fetched_timestamp": "2026-09-16T13:39:56Z"
+      },
+      {
+        "advisorName": "38North Security",
+        "logo": "https://38northsecurity.com/wp-content/uploads/38-North-Logo-Full-Color-1.png",
+        "serviceDescription": "38North Security provides end-to-end FedRAMP advisory, cloud security engineering, accelerated implementation, certification readiness, continuous validation, and ongoing compliance operations services. 38North combines experienced FedRAMP practitioners, cloud security engineers, the LaunchPad FedRAMP ATO Accelerator, and the FedRAMP 20x-native NorthWatch compliance operations platform to support cloud service providers from initial strategy and system scoping through implementation, independent assessment, certification, and continuous assurance.",
+        "contactInformation": [
+          "Email: FedRAMPSecurity@38northsecurity.com",
+          "Phone: 202-640-1472",
+          "Website: https://38northsecurity.com/security-compliance/north-america/fedramp/",
+          "Address: 5335 Wisconsin Ave., N.W., Suite 640, Washington, D.C. 20015"
+        ],
+        "servicesOffered": [
+          {
+            "serviceName": "FedRAMP Strategy and Readiness",
+            "serviceDescription": "FedRAMP 20x and Rev. 5 certification strategy and readiness assessments that benchmark your posture and chart the most efficient path to authorization. Minimum Assessment Scope (MAS) analysis and system scoping define your authorization boundaries with precision. Gap assessments identify control deficiencies and feed directly into prioritized remediation planning. Certification planning and independent assessment preparation set your team up for a smooth, defensible audit."
+          },
+          {
+            "serviceName": "FedRAMP Security Engineering",
+            "serviceDescription": "Cloud security architecture and engineering across major cloud platforms and hybrid, multi-cloud environments. Infrastructure-as-Code for repeatable, security-hardened deployments. Identity and access management built on least-privilege and federated access models. Centralized logging and monitoring for real-time visibility into security posture. Vulnerability management from scanning through remediation, paired with security automation that reduces manual overhead across compliance and engineering workflows. Continuous evidence collection and control validation aligned to FedRAMP 20x. Security control implementation carries through to compliance integrations that unify security tooling, documentation, and ticketing into a single source of truth. Remediation engineering that resolves findings efficiently, without disrupting existing workflows."
+          },
+          {
+            "serviceName": "LaunchPad FedRAMP ATO Accelerator",
+            "serviceDescription": "LaunchPad is 38North Security's engineered FedRAMP accelerator for rapidly establishing secure-by-design cloud environments. LaunchPad uses Infrastructure-as-Code, security automation, reusable architecture, and proven engineering patterns to accelerate implementation of foundational FedRAMP security capabilities and prepare cloud environments for certification."
+          },
+          {
+            "serviceName": "FedRAMP 20x and Continuous Validation",
+            "serviceDescription": "Advisory and engineering services supporting FedRAMP 20x, from Minimum Assessment Scope (MAS) implementation to Key Security Indicator (KSI) automation that keeps control validation current and defensible. Continuous validation that is backed by automated evidence pipelines which eliminate manual evidence assembly, plus Vulnerability Detection and Response and Vulnerability Evaluation and Reporting that keep findings prioritized and audit-ready. Certification Data Sharing that streamlines agency and 3PAO communication, while Significant Change Notification workflows build around your existing change management technology to keep your authorization posture always audit-ready and ahead of the curve."
+          },
+          {
+            "serviceName": "NorthWatch Compliance Operations",
+            "serviceDescription": "Deployment and operational support for NorthWatch, 38North Security's FedRAMP 20x-native compliance operations platform. NorthWatch supports continuous validation, applicable KSI automation, vulnerability detection, evaluation and reporting, significant-change workflows, structured certification data sharing, and current and historical assurance visibility."
+          },
+          {
+            "serviceName": "Ongoing FedRAMP Compliance Operations",
+            "serviceDescription": "Continuous monitoring that keeps your authorization posture under constant watch, backed by vulnerability and remediation management and POA&M support that keeps outstanding items tracked and on schedule. Ongoing certification reporting, significant-change support that is built around your existing change management technology, and evidence automation work together to keep compliance running smoothly. Compliance program management and preparation for FedRAMP and independent assessor reviews that will keep your team audit-ready year-round."
+          },
+          {
+            "serviceName": "International Compliance",
+            "serviceDescription": "Readiness assessments and pathway analysis across global frameworks, including ISO 27001/27017, SOC 2, IRAP, and ISMAP, charting the most efficient path to certification. Conducting gap assessments to identify control deficiencies against each framework's requirements and feed directly into prioritized remediation planning. System scoping and boundary analysis to account for the jurisdictional and regulatory nuances of each target market. Certification planning and independent assessor preparation to set your team up for a smooth, defensible audit, no matter which framework(s) you're pursuing."
+          }
+        ],
+        "ZD_assessor_advisor_name": "38North Security",
+        "fedramp_listing_timestamp": "2026-09-16T13:39:40.901Z",
+        "last_fetched_timestamp": "2026-09-16T13:39:56Z"
       }
     ]
   }
