@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-17T19:59:29.915Z",
-    "total_entries": 2126,
+    "export_timestamp": "2026-09-17T21:25:24.012Z",
+    "total_entries": 2131,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -31894,6 +31894,81 @@
         "transition_date": "2026-08-12T04:00:00.000Z",
         "recorded_date": "2026-09-17T04:00:00.000Z",
         "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "c292368e-8901-4ba3-bc01-c401e22325cf",
+        "product_id": "FR2634659079",
+        "csp": "ThinkTrends LLC",
+        "cso": "ThinkTrends AI Platform",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-17T21:24:37Z",
+        "recorded_date": "2026-09-17T21:25:20.430Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "4c89a7ce-78e6-4618-81d9-24d69f3eb707",
+        "product_id": "FR2634659083",
+        "csp": "NavigatorCRE",
+        "cso": "NavigatorCRE",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-17T21:24:40Z",
+        "recorded_date": "2026-09-17T21:25:20.430Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "e5e89b83-34e4-48d0-b5fe-51d3d3706d5e",
+        "product_id": "FR2634659087",
+        "csp": "Signifi Solutions Inc.",
+        "cso": "SignifiVISION",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-17T21:24:45Z",
+        "recorded_date": "2026-09-17T21:25:20.430Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "0fc91c8c-9fc0-4658-825d-d85687eccc9b",
+        "product_id": "FR2634659091",
+        "csp": "Tactical Takedown LLC",
+        "cso": "TNT Business Resilience Platform",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-17T21:24:48Z",
+        "recorded_date": "2026-09-17T21:25:20.430Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "3e513e24-b301-4102-91b0-aea93f49b62e",
+        "product_id": "FR2634659095",
+        "csp": "Cisco Systems, Inc",
+        "cso": "Cisco Cloud Control with AgenticOps",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-17T21:24:54Z",
+        "recorded_date": "2026-09-17T21:25:20.430Z",
+        "source": "frc-cso-pkg",
         "comments": ""
       }
     ]
