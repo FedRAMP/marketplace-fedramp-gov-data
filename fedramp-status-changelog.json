@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-16T19:59:33.443Z",
-    "total_entries": 2125,
+    "export_timestamp": "2026-09-17T19:59:29.915Z",
+    "total_entries": 2126,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -31879,6 +31879,21 @@
         "transition_date": "2026-09-15T19:09:04Z",
         "recorded_date": "2026-09-15T19:09:30.687Z",
         "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "9ab1dd39",
+        "product_id": "FR2525662082",
+        "csp": "Nexthink",
+        "cso": "Infinity for Government (NXT-G)",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-08-12T04:00:00.000Z",
+        "recorded_date": "2026-09-17T04:00:00.000Z",
+        "source": "AppSheet",
         "comments": ""
       }
     ]
