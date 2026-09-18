@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-17T21:25:24.012Z",
-    "total_entries": 2131,
+    "export_timestamp": "2026-09-18T19:59:32.648Z",
+    "total_entries": 2133,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -31969,6 +31969,36 @@
         "transition_date": "2026-09-17T21:24:54Z",
         "recorded_date": "2026-09-17T21:25:20.430Z",
         "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "2d522804",
+        "product_id": "FR2531434700",
+        "csp": "Spectro Cloud",
+        "cso": "Palette VerteX",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-09-18T04:00:00.000Z",
+        "recorded_date": "2026-09-18T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "fcc3afd2",
+        "product_id": "FR2432824061",
+        "csp": "TimeLooper Xplore",
+        "cso": "TimeLooper Inc.",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class B",
+        "from_status": "PMO Review",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-09-18T04:00:00.000Z",
+        "recorded_date": "2026-09-18T04:00:00.000Z",
+        "source": "AppSheet",
         "comments": ""
       }
     ]
