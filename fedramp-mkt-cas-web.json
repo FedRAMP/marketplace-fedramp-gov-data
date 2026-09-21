@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-17T13:26:54.339Z",
-    "total_entries": 7,
+    "export_timestamp": "2026-09-21T19:18:22.557Z",
+    "total_entries": 10,
     "description": "FedRAMP data MKT-CAS-WEB export from GSA system"
   },
   "data": {
@@ -43,7 +43,7 @@
         ],
         "ZD_assessor_advisor_name": "Fortinetics LLC",
         "fedramp_listing_timestamp": "2026-08-27T16:29:43Z",
-        "last_fetched_timestamp": "2026-09-17T13:26:52Z"
+        "last_fetched_timestamp": "2026-09-21T19:18:19Z"
       },
       {
         "advisorName": "Verdict Technologies Inc.",
@@ -68,7 +68,7 @@
         ],
         "ZD_assessor_advisor_name": "Verdict Technologies Inc.",
         "fedramp_listing_timestamp": "2026-08-27T16:29:41Z",
-        "last_fetched_timestamp": "2026-09-17T13:26:52Z"
+        "last_fetched_timestamp": "2026-09-21T19:18:19Z"
       },
       {
         "advisorName": "Elevate Consult",
@@ -107,7 +107,7 @@
         ],
         "ZD_assessor_advisor_name": "Elevate Consult",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-09-17T13:26:53Z"
+        "last_fetched_timestamp": "2026-09-21T19:18:19Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
@@ -141,7 +141,7 @@
         ],
         "ZD_assessor_advisor_name": "Steel Patriot Partners",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-09-17T13:26:53Z"
+        "last_fetched_timestamp": "2026-09-21T19:18:20Z"
       },
       {
         "advisorName": "SunStone Secure",
@@ -167,7 +167,7 @@
         ],
         "ZD_assessor_advisor_name": "SunStone Secure",
         "fedramp_listing_timestamp": "",
-        "last_fetched_timestamp": "2026-09-17T13:26:53Z"
+        "last_fetched_timestamp": "2026-09-21T19:18:20Z"
       },
       {
         "advisorName": "Skirret Consulting, LLC",
@@ -197,7 +197,7 @@
         ],
         "ZD_assessor_advisor_name": "Skirret Consulting, LLC",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-09-17T13:26:53Z"
+        "last_fetched_timestamp": "2026-09-21T19:18:21Z"
       },
       {
         "advisorName": "38North Security",
@@ -241,7 +241,158 @@
         ],
         "ZD_assessor_advisor_name": "38North Security",
         "fedramp_listing_timestamp": "2026-09-16T13:39:40.901Z",
-        "last_fetched_timestamp": "2026-09-17T13:26:54Z"
+        "last_fetched_timestamp": "2026-09-21T19:18:21Z"
+      },
+      {
+        "advisorName": "InfusionPoints",
+        "logo": "https://infusionpoints.com/logos/Logo_Teal.png",
+        "serviceDescription": "InfusionPoints provides cybersecurity, compliance, and cloud security advisory services focused on helping organizations achieve and maintain FedRAMP, Federal, Defense, and other regulated compliance requirements. Services span the full lifecycle of cloud security and compliance programs, including readiness assessments, architecture and engineering guidance, control implementation, documentation development, audit support, continuous monitoring, risk management, compliance strategy, and authorization acceleration. InfusionPoints supports organizations pursuing FedRAMP, FedRAMP 20x, DoD SRG, CMMC, NIST 800-53, FISMA, StateRAMP, and related compliance initiatives.",
+        "contactInformation": [
+          "InfPtsFedRAMP@InfusionPoints.com",
+          "https://InfusionPoints.com/"
+        ],
+        "servicesOffered": [
+          {
+            "serviceName": "FedRAMP 20x and CR26 Advisory Services",
+            "serviceDescription": "Advisory support for FedRAMP 20x implementations, machine-readable evidence development, continuous compliance approaches, and alignment with evolving FedRAMP requirements."
+          },
+          {
+            "serviceName": "FedRAMP Certified Continuous Trust Platform",
+            "serviceDescription": "XBU40 is InfusionPoints' FedRAMP Certified Continuous Trust Platform offering designed to accelerate customer adoption of secure and compliant cloud services. The platform aligns with FedRAMP 20x Class C requirements as well as Rev5 high and DoD IL4/5 and provides a compliance-ready foundation that helps organizations reduce authorization effort, inherit implemented security capabilities, and streamline their path to Federal and Defense cloud deployments. XBU40 supports customers operating under Department of Defense Provisional Authorizations (PAs) and other highly regulated environments."
+          },
+          {
+            "serviceName": "Cloud Security Architecture",
+            "serviceDescription": "Design and implementation guidance for secure cloud environments on AWS and other cloud platforms, including reference architectures and security control implementation."
+          },
+          {
+            "serviceName": "FedRAMP Advisory Services",
+            "serviceDescription": "Strategic and technical guidance for organizations pursuing FedRAMP authorization, including roadmap development, readiness planning, authorization strategy, program governance, and compliance consulting."
+          },
+          {
+            "serviceName": "Compliance Readiness Assessments",
+            "serviceDescription": "Gap analyses, maturity assessments, and readiness evaluations against FedRAMP, NIST SP 800-53, CMMC, DoD SRG, FISMA, and related cybersecurity frameworks."
+          },
+          {
+            "serviceName": "Security Documentation Development",
+            "serviceDescription": "Development and review of security and compliance documentation including SSPs, policies, procedures, plans, diagrams, inventories, and supporting authorization artifacts."
+          },
+          {
+            "serviceName": "Audit and Assessment Preparation",
+            "serviceDescription": "Preparation and support for independent assessments, audits, and authorization reviews, including evidence collection, remediation support, and assessor coordination."
+          },
+          {
+            "serviceName": "Continuous Monitoring Advisory",
+            "serviceDescription": "Guidance for ongoing compliance operations including vulnerability management, POA&M management, change management, reporting, and continuous monitoring programs."
+          },
+          {
+            "serviceName": "Managed Security and Compliance Operations",
+            "serviceDescription": "Advisory and operational support for security monitoring, incident response, managed compliance activities, and security operations center functions."
+          },
+          {
+            "serviceName": "DoD and Defense Compliance Advisory",
+            "serviceDescription": "Consulting services supporting DoD SRG impact levels, CMMC, DFARS, and other defense-related cybersecurity and compliance requirements."
+          },
+          {
+            "serviceName": "Risk Management and Governance",
+            "serviceDescription": "Enterprise risk management, cybersecurity governance, third-party risk management, compliance program development, and executive advisory services."
+          }
+        ],
+        "customerReferences": [
+          "Customer references and case studies available upon request.",
+          "InfusionPoints supports commercial, federal, government contractor, and regulated industry customers pursuing cloud security and compliance objectives."
+        ],
+        "ZD_assessor_advisor_name": "InfusionPoints",
+        "fedramp_listing_timestamp": "2026-09-21T19:18:04.483Z",
+        "last_fetched_timestamp": "2026-09-21T19:18:22Z"
+      },
+      {
+        "advisorName": "Workstreet",
+        "logo": "https://cdn.prod.website-files.com/685955c86d74c05f940f73a1/699f353876f29645907d1ea0_workstreet-logo.svg",
+        "serviceDescription": "Workstreet is a public sector compliance advisory that guides technology companies through CMMC, FedRAMP 20x, GovRAMP, CJIS, and NIST 800-171/800-53 authorization, using a five-step automation-first methodology covering scoping, policy foundation, gap remediation, documentation (SSPs, POA&Ms), and coordination with C3PAOs/3PAOs through final certification.",
+        "contactInformation": [
+          "info@workstreet.com",
+          "https://www.workstreet.com/scheduler",
+          "https://www.linkedin.com/company/trustworkstreet"
+        ],
+        "servicesOffered": [
+          {
+            "serviceName": "CMMC Advisory",
+            "serviceDescription": "Scoping, gap assessment, and implementation support for CMMC Level 1 and Level 2, including preparation for C3PAO assessment."
+          },
+          {
+            "serviceName": "FedRAMP and GovRAMP Advisory",
+            "serviceDescription": "Guidance through FedRAMP 20x and GovRAMP authorization at Low, Moderate, and High impact levels, including 3PAO coordination and readiness preparation."
+          },
+          {
+            "serviceName": "NIST 800-171 and NIST 800-53 Implementation",
+            "serviceDescription": "Control implementation, gap remediation, and documentation support mapped to NIST 800-171 and NIST 800-53 requirements."
+          },
+          {
+            "serviceName": "Government Compliance Documentation",
+            "serviceDescription": "Development of System Security Plans (SSPs), Plans of Action and Milestones (POA&Ms), risk assessment reports, and continuous monitoring procedures."
+          },
+          {
+            "serviceName": "Audit and Authorization Management",
+            "serviceDescription": "End-to-end management of the authorization process, including assessor coordination, finding remediation, and evidence supplementation."
+          }
+        ],
+        "customerReferences": [
+          "\"Can't say enough good things about Workstreet - they fully solved my security problems and a number of other security/compliance work that fell on me. At one point this stuff was my number one blocker and now I don't even think about it anymore.\" — Everett Berry, Head of GTM Engineering, Clay",
+          "\"Besides doing the actual work, they provided great recommendations and advice when we had any questions. Working with them saved us a ton of time and eliminated any worries about whether we are doing this well. I'd partner with them again in a heartbeat.\" — Una Japundza, CRO, HeyTaco",
+          "\"We've been consistently impressed by the expertise, responsiveness, and communication style of our vCISO... Having their support has definitely saved us time, but beyond that, it's also given us more confidence and peace-of-mind in how we navigate increasingly complex requirements.\" — Ari Bader-Natal, CTO, Sparkwise",
+          "\"Workstreet's team has dramatically improve our team's compliance operations. From leading our work on GDPR and HITRUST, to managing one-off compliance requests, their team is knowledgeable and flexible, enabling us to quickly build critical security infrastructure as we have grown.\" — Benji Gellman, Chief of Staff, ReflexAI",
+          "\"The speed with which we were able to get our engagement initial letter, the thoroughness with which we were able to figure out everywhere that we needed to patch any vulnerabilities and ensure our system was enterprise grade, and then the fast turnaround to get SOC 2 done, I think in like two weeks is what it was, was awesome.\" — Sahil Mansuri, Co-founder & CEO, Bravado",
+          "\"Workstreet's security questionnaire help has been a game changer. Saved me a ton of time and I see the team taking on my slight feedback. Allows us to move 10x faster with security questionnaires.\" — Shreman Shrestha, Enterprise, Granola",
+          "\"Our team has been really happy with the speed and responsiveness from you all. Several of our AEs have mentioned being extremely impressed relative to what they saw at their past companies. Excited to keep working together here.\" — Roman Ugarte, GTM Engineering, Cursor"
+        ],
+        "ZD_assessor_advisor_name": "Workstreet",
+        "fedramp_listing_timestamp": "2026-09-21T19:18:04.483Z",
+        "last_fetched_timestamp": "2026-09-21T19:18:22Z"
+      },
+      {
+        "$comment": "Conforms to FedRAMP Advisor Information Schema (MKT-CAS-WEB), version 1.0.1, https://www.fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json.",
+        "advisorName": "Emagine IT, Inc.",
+        "logo": "https://cdn.prod.website-files.com/67c1d983cbfc5e150b583008/6aac0d9e8db3da8bafd56967_EIT-Advisor-Logo.png",
+        "a2laId": "3706.01",
+        "serviceDescription": "Emagine IT (EIT) provides compliance advisory services that help Cloud Service Providers, system owners, and other organizations plan, scope, and prepare for FedRAMP, as well as related federal and industry security certifications and authorizations. EIT's advisory team supports clients from strategic roadmap planning, initial gap assessment, and readiness planning through full implementation guidance, working across FedRAMP Rev5 and 20x (Classes A-D), CMMC, DoD RMF, HIPAA, FISMA, SOC 2, and maritime (IMO / U.S. Coast Guard NVIC) cybersecurity compliance frameworks. EIT is accredited as both a [FedRAMP Recognized Independent Assessment Service (IAS)](https://www.fedramp.gov/marketplace/assessors/137046/) and a CMMC Certified Third-Party Assessment Organization (C3PAO). While EIT never assesses a system it advises on, EIT's advisors are actively assessing systems against these frameworks right now. This isn't self-taught expertise, it's what EIT does every day.",
+        "contactInformation": [
+          "Point of Contact: Adam Chun",
+          "Email: 3pao@eit2.com",
+          "Address: 909 Rose Avenue, Suite 900, North Bethesda, MD 20852",
+          "Web: https://www.eit2.com"
+        ],
+        "servicesOffered": [
+          {
+            "serviceName": "Discovery and Gap Analysis",
+            "serviceDescription": "Perform detailed gap analysis of the system offering against security requirements to determine technical readiness. Review client’s existing security documentation for their service offering to determine if any content could be reused when developing a FedRAMP security compliance package."
+          },
+          {
+            "serviceName": "Advisory and Package Development",
+            "serviceDescription": "Collaborate with your subject matter experts (SMEs) to refine security documentation, e.g., Security Decision Record (SDR), and governance practices all the way up to and including the Executive level. Coach your team for eventual assessment interview questions. Attend sales meetings with customers as evidence that you’re making serious, significant, and immediate steps toward your Certification. Conduct a pre-assessment readiness review."
+          },
+          {
+            "serviceName": "Cyber Engineering",
+            "serviceDescription": "Migrate current service offering to compliant infrastructure of your choice (AWS, Azure, GCP). Consult with or design, integrate, and optimize your Cloud offering to be as secure, effective, expansive, and reliable as possible."
+          },
+          {
+            "serviceName": "Assessment Support",
+            "serviceDescription": "EIT will advocate on your behalf and provide resources to bring your service offering to the FedRAMP marketplace or achieve your desired certification, help maintain and update security documentation as needed, act as an intermediary with (FedRAMP) assessor(s) to support evidence collection, and clarify how your security controls and practices, as implemented, comply with FedRAMP or your desired framework."
+          },
+          {
+            "serviceName": "Compliance as a Service",
+            "serviceDescription": "Perform ongoing (monthly, quarterly, and annually) risk monitoring activities required to monitor and maintain the system after achieving a certification. Can be expanded across multiple security frameworks."
+          }
+        ],
+        "customerReferences": [
+          "\"EIT helped us fast-track our path to FedRAMP compliance and save months of additional work we would have had to do ourselves. EIT's expertise, experience and knowledge of FedRAMP were critical in getting this done. Working with EIT's advisory team, we had a FedRAMP-compliant platform and all FedRAMP required documentation in less than half the time usually required.\" — Michael Nichols, Executive VP of Enterprise Products and Solutions, R&K Solutions",
+          "\"It was a great experience for us and we couldn't have asked for a better and knowledgeable partner to assist us with our first FedRAMP Authorization, you have a great team. We learned a lot about the FedRAMP process and requirements from your team during the assessment. So on behalf of the entire team, it was a pleasure working with your team as well. I am looking forward to working together on our annual assessments and possibly other future requirements.\" — Vice President, Network and Security Infrastructure and Architecture, Mathematica",
+          "\"EIT took over our 3PAO assessment and we didn't realize the professionalism and high-quality team we were missing until working with them. Looking forward to continuing to work with their team on current and future projects to come.\" — Ken Collo, Senior Director, Federal Hosting, Tyler Technologies",
+          "\"When we were choosing between Third-Party Assessment Organizations (3PAO) for advisory services, the cost difference with Emagine IT from all the other 3PAO's was a night and day difference. This obviously alarmed me, but we wanted to ensure we gave all vendors a fair chance. Needless to say, we were and are continuously blown away by EIT's performance. EIT consistently impresses, from our initial vendor selection interviews all the way to today, where we are currently engaged EIT for ConMon support. We are very glad to have EIT as our partners through our FedRAMP journey.\" — Marcelo Sant'Anna, CISO, MDRC",
+          "\"Veritone had the best advisory service throughout the FedRAMP Certification process. Thanks to all the team members at EIT. Looking forward to continued relationship with ConMon and future re-certification support from EIT and team.\" — Gary Everekyan, Chief Information Security Officer, Veritone"
+        ],
+        "ZD_assessor_advisor_name": "Emagine IT, Inc.",
+        "fedramp_listing_timestamp": "2026-09-21T19:18:04.483Z",
+        "last_fetched_timestamp": "2026-09-21T19:18:22Z"
       }
     ]
   }
