@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-17T21:26:25.901Z",
-    "total_entries": 88,
+    "export_timestamp": "2026-09-21T19:15:02.303Z",
+    "total_entries": 92,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -459,7 +459,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:26Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:22Z"
       },
       {
         "assessor": {
@@ -542,7 +542,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:29Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:25Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -650,7 +650,7 @@
         "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:30Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:26Z"
       },
       {
         "serviceIdentification": {
@@ -716,7 +716,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:32Z"
+        "last_fetched_timestamp": "2026-09-21T18:55:37Z"
       },
       {
         "serviceIdentification": {
@@ -1348,7 +1348,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:31Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:26Z"
       },
       {
         "assessor": {
@@ -2271,7 +2271,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:32Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:26Z"
       },
       {
         "serviceIdentification": {
@@ -2329,7 +2329,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:33Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:28Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2458,7 +2458,7 @@
         ],
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:34Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:28Z"
       },
       {
         "serviceIdentification": {
@@ -2552,12 +2552,12 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:34Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:28Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "$schemaVersion": "0.1.2",
-        "lastUpdated": "2026-09-17T21:25:35.093792+00:00",
+        "lastUpdated": "2026-09-21T19:14:29.217626+00:00",
         "sourceOfUpdate": "FedRAMP 2026 hub",
         "serviceIdentification": {
           "fedRampPackageId": "FR2628943633",
@@ -2593,7 +2593,18 @@
             "url": "https://boundera.io/trust/secure-configuration-guide",
             "repositoryDescription": "Secure Configuration Guide.",
             "authenticationRequired": false
-          }
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Policies and Procedures"
+              ],
+              "url": "https://boundera.io/tc/fedramp-trust-center",
+              "repositoryDescription": "Policy and procedure index (CDS-CSO-IRP): name, file, summary, word count, version, date of last update, and related FedRAMP Practices for each included policy and procedure.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Go to https://boundera.io/tc/fedramp-trust-center\n\nClick Request Access.\n\nYou’ll receive an email once access has been granted."
+            }
+          ]
         },
         "contactInformation": [
           {
@@ -2613,21 +2624,35 @@
             "contactTitle": "Co-Founder"
           }
         ],
+        "assessor": {
+          "name": "Schellman Compliance, LLC",
+          "assessorID": "136571"
+        },
         "certifiedServices": [
           {
             "serviceName": "Evidence Workspace",
             "serviceDescription": "",
-            "dateAvailable": "2026-09-17"
+            "dateAvailable": "2026-09-21"
           },
           {
             "serviceName": "Authorization OS",
             "serviceDescription": "",
-            "dateAvailable": "2026-09-17"
+            "dateAvailable": "2026-09-21"
           },
           {
             "serviceName": "Trust center",
             "serviceDescription": "",
-            "dateAvailable": "2026-09-17"
+            "dateAvailable": "2026-09-21"
+          },
+          {
+            "serviceName": "Assessor Workspace",
+            "serviceDescription": "",
+            "dateAvailable": "2026-09-21"
+          },
+          {
+            "serviceName": "Vulnerability Management Workspace",
+            "serviceDescription": "",
+            "dateAvailable": "2026-09-21"
           }
         ],
         "certificationProgress": [
@@ -2644,7 +2669,7 @@
           {
             "date": "2026-07-30",
             "title": "Independent assessment booked",
-            "status": "planned"
+            "status": "done"
           },
           {
             "date": "2026-08-01",
@@ -2654,7 +2679,7 @@
         ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:35Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:29Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2825,7 +2850,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:35Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:29Z"
       },
       {
         "serviceIdentification": {
@@ -2889,12 +2914,12 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:36Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:29Z"
       },
       {
         "serviceIdentification": {
-          "fedRampPackageId": "TBD",
-          "ueiNumber": "47-1877648",
+          "fedRampPackageId": "FR2629068833",
+          "ueiNumber": "M9L7XF577ZV5",
           "providerName": "Immuta",
           "serviceName": "Immuta Federal",
           "serviceAcronym": "IMMUTA",
@@ -2917,18 +2942,18 @@
               "Trust Center"
             ],
             "url": "https://vault.immutacloud.us",
-            "repositoryDescription": "Immuta's FedRAMP Trust Center containing security documentation and certification artifacts.",
+            "repositoryDescription": "Immuta's FedRAMP Trust Center containing security documentation and certification artifacts, including public dashboards and general certification package materials, as well as authenticated access to additional documentation such as the Security Decision Record (SDR), Quarterly Ongoing Certification Reports (OCRs), and the Certification Package Overview (CPO), which includes cryptographic module (CMVP) documentation, system interconnections, information flows, security categorization, and public information. See attached workbooks Immuta-Federal-Cryptographic-Modules(CMU-CSO-CMD).xlsx, Immuta-Federal-Third-Party-Information-Resources(MAS-CSO-TPR).xlsx, and Immuta-Federal-Information-Flows-And-Security-Categorization(MAS-CSO-FLO).xlsx for supporting detail.",
             "authenticationRequired": false
           },
           "secureConfigurationGuidance": {
             "repositoryType": [
               "Secure Configuration Guidance"
             ],
-            "url": "https://documentation.immuta.com/latest",
-            "repositoryDescription": "Provider-authored guidance for agency customers on securely configuring Immuta, including recommended settings, integration patterns, and hardening considerations relevant to agency ATO decisions.",
+            "url": "https://documentation.immuta.com/saas/configuration",
+            "repositoryDescription": "Provider-authored guidance for agency customers on securely configuring Immuta, including recommended settings, integration patterns, and hardening considerations relevant to agency ATO decisions. A structured configuration security settings file (immuta_saas_configuration_security_settings.json) detailing these settings is also published on the Immuta Trust Center.",
             "authenticationRequired": false
           },
-          "nextOngoingCertificationReportDate": "2027-01-01"
+          "nextOngoingCertificationReportDate": "2026-12-16"
         },
         "contactInformation": [
           {
@@ -2947,8 +2972,8 @@
           "assessorID": "201664"
         },
         "ZD_frid_retro": "FR2629068833",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:37Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-09-21T19:14:31Z"
       },
       {
         "assessor": {
@@ -3001,7 +3026,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:38Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:32Z"
       },
       {
         "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -3073,7 +3098,7 @@
         },
         "ZD_frid_retro": "FR2630354484",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:40Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:33Z"
       },
       {
         "serviceIdentification": {
@@ -3157,7 +3182,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:39Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:33Z"
       },
       {
         "serviceIdentification": {
@@ -3245,7 +3270,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:39Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:33Z"
       },
       {
         "serviceIdentification": {
@@ -3335,7 +3360,7 @@
         },
         "ZD_frid_retro": "FR2630354491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:40Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:33Z"
       },
       {
         "serviceIdentification": {
@@ -3374,7 +3399,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:42Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:35Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3559,7 +3584,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:41Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:35Z"
       },
       {
         "serviceIdentification": {
@@ -3623,7 +3648,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:42Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:35Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3773,14 +3798,14 @@
         },
         "ZD_frid_retro": "FR2630447318",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:43Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:37Z"
       },
       {
         "serviceIdentification": {
           "fedRampPackageId": "FR2631054533",
           "ueiNumber": "J383UFKBFXA6",
           "providerName": "Portal26, Inc.",
-          "serviceName": "Portal26 SaaS Platform (GovCloud)",
+          "serviceName": "AI Security, Governance, & Telemetry Platform",
           "serviceAcronym": "P26",
           "certificationType": "20x",
           "serviceDescription": "Portal26 is an AI visibility, security, governance, and adoption management\nplatform. Portal26 provides a SaaS application for Agentic, Generative and Embedded\nAI governance and adoption, together with AI network gateways for\nreal-time traffic routing and analysis.\n\nThe platform gives agencies detailed visibility into AI\ndeployment, usage, risk, cost, business value, compliance, and overall impact — enabling \na rich understanding where and how AI is used, ensure its security, assess its contribution,\nand ensure alignment with mission objectives, regulations, and policy.\n\nThe FedRAMP offering is deployed in AWS GovCloud (US) for direct use by\nfederal agency customers handling Controlled Unclassified Information\n(CUI). Federal customer data is encrypted in transit and at rest, and\npersonally identifiable information is additionally encrypted at the field\nlevel under a key specific to each customer.",
@@ -3803,6 +3828,14 @@
             ],
             "url": "https://trust.portal26.ai/",
             "repositoryDescription": "Portal26 Trust Center: public security documentation, current compliance certifications, FedRAMP progress and milestones, and instructions for federal agencies requesting access to controlled certification data.",
+            "authenticationRequired": false
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guide"
+            ],
+            "url": "https://docs.portal26.ai/trail/planning_guide/secure_configuration.html",
+            "repositoryDescription": "Portal26 Secure Configuration Guide: instructions for securely configuring the Portal26 AI Security, Governance, & Telemetry Platform offering.",
             "authenticationRequired": false
           },
           "additionalRepositories": [
@@ -3830,6 +3863,10 @@
             "contactEmail": "federal@portal26.ai"
           }
         ],
+        "assessor": {
+          "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+          "assessorID": "138665"
+        },
         "certifiedServices": [
           {
             "serviceName": "Generative AI Governance & Adoption Platform",
@@ -3849,7 +3886,7 @@
         ],
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:44Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:37Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3990,7 +4027,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:44Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:37Z"
       },
       {
         "publicDisclosure": {
@@ -4259,7 +4296,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:44Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:37Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4509,7 +4546,7 @@
         ],
         "ZD_frid_retro": "FR2631054484",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:45Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:38Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4519,7 +4556,7 @@
           "providerName": "IronWiFi, LLC",
           "serviceName": "IronWiFi Cloud RADIUS and Wi-Fi Authentication Platform",
           "serviceAcronym": "IronWiFi",
-          "serviceDescription": "**IronWiFi is the vendor-neutral authentication layer for agency Wi-Fi and wired networks: cloud RADIUS, 802.1X with EAP-TLS, cloud PKI with SCEP enrollment, captive portals, and Wi-Fi identity threat detection (ITDR), delivered as SaaS on Google Cloud with US regions available.**\n\n**Keep the network you have.** IronWiFi works with any access point, switch or controller that speaks RADIUS and 802.1X, so an agency adds certificate-based authentication and policy without replacing hardware or running RADIUS and NPS servers on premises.\n\n**Use the identities you already manage.** Users and devices authenticate against Microsoft Entra ID (commercial and GCC High), Google Workspace, Okta, and LDAP or Active Directory. Device certificates are issued and renewed by the built-in cloud PKI over SCEP, including for MDM-managed fleets.\n\n**See who and what is on the network.** Every authentication is logged per user and device; the ITDR service flags credential misuse, rogue devices and anomalous access on Wi-Fi and reports through the console, API and webhooks.\n\n**Guest, visitor and roaming access** through branded captive portals, vouchers, sponsored access and OpenRoaming, on the same platform.\n\n**Assurance on record.** SOC 2 Type II (Johanson Group LLP, report issued 7 May 2026) held in the IronWiFi Trust Center; FIPS 199 categorization Moderate; the complete FedRAMP 20x Class A Certification Package (Certification Package Overview, Security Decision Record, example Ongoing Certification Report, component inventory) published to the Trust Center on 13 September 2026 and available to agencies on request. IronWiFi is in the Initial Implementation Phase and is not FedRAMP Certified today.\n\n**Agency use cases:** direct use as the authentication, policy and monitoring layer inside an agency information system; indirect use as a third-party information resource inside integrator and managed-service offerings delivered to agencies. Documentation, a REST API and a self-service console let an agency pilot the service on its existing network.",
+          "serviceDescription": "**IronWiFi is the vendor-neutral authentication layer for agency Wi-Fi and wired networks: cloud RADIUS, 802.1X with EAP-TLS, cloud PKI with SCEP enrollment, captive portals, and Wi-Fi identity threat detection (ITDR), delivered as SaaS on Google Cloud with US regions available.**\n\n**Keep the network you have.** IronWiFi works with any access point, switch or controller that speaks RADIUS and 802.1X, so an agency adds certificate-based authentication and policy without replacing hardware or running RADIUS and NPS servers on premises.\n\n**Use the identities you already manage.** Users and devices authenticate against Microsoft Entra ID (commercial and GCC High), Google Workspace, Okta, and LDAP or Active Directory. Device certificates are issued and renewed by the built-in cloud PKI over SCEP, including for MDM-managed fleets.\n\n**See who and what is on the network.** Every authentication is logged per user and device; the ITDR service flags credential misuse, rogue devices and anomalous access on Wi-Fi and reports through the console, API and webhooks.\n\n**Guest, visitor and roaming access** through branded captive portals, vouchers, sponsored access and OpenRoaming, on the same platform.\n\n**Assurance on record.** SOC 2 Type II (Johanson Group LLP, report issued 7 May 2026) held in the IronWiFi Trust Center. FIPS 199 impact categorization Moderate (this is not a FedRAMP Moderate Authorization). IronWiFi-prepared 20x Class A package documents were published 13 September 2026 and the 20x Class A Certification application (FRC-APP-AFC) was submitted to FedRAMP the same day; FedRAMP's decision is pending. Marketplace status is Not yet certified and Certification Class is Unknown until FedRAMP records it. IronWiFi is in the Initial Implementation Phase and is not FedRAMP Certified today.\n\n**Agency use cases:** direct use as the authentication, policy and monitoring layer inside an agency information system; indirect use as a third-party information resource inside integrator and managed-service offerings delivered to agencies. Documentation, a REST API and a self-service console let an agency pilot the service on its existing network.",
           "certificationType": "20x",
           "website": "https://www.ironwifi.com/",
           "logo": "https://www.ironwifi.com/ironwifi.png"
@@ -4880,7 +4917,7 @@
           }
         ],
         "alternativeSecurityFramework": {
-          "note": "IronWiFi qualifies for FedRAMP 20x Class A Certification through an alternative security framework (FRC-CLA-ASF) rather than a FedRAMP independent assessment. No FedRAMP Recognized assessor is engaged, as none is required at Class A, so the schema's assessor property is omitted; the decision on engaging one for a higher class is due by the third quarter of 2027 (see Certification progress on the public page).",
+          "note": "IronWiFi applied on 2026-09-13 for FedRAMP 20x Class A using an alternative security framework (FRC-CLA-ASF) rather than a FedRAMP independent assessment. No FedRAMP Recognized assessor is engaged, as none is required at Class A, so the schema's assessor property is omitted; the decision on engaging one for a higher class is due by the third quarter of 2027 (see Certification progress on the public page). Marketplace Certification Class remains Unknown until FedRAMP decides the application and records a class.",
           "framework": "SOC 2 Type II",
           "auditor": "Johanson Group LLP",
           "trustServicesCriteria": "Security and Availability",
@@ -4894,7 +4931,7 @@
         },
         "informationFlows": {
           "summary": "Operators, end users, network devices and API clients reach the offering over the public internet through TLS 1.2 or higher terminated at the Google edge. The console API and single-page application run on Cloud Run in eleven regions and talk to Cloud Spanner (a global database for operator accounts, OAuth clients and settings; regional databases, selected by hostname, for end users, networks, devices and RADIUS secrets), Redis for sessions and rate limiting, and BigQuery for request logs and usage metrics. RADIUS, RadSec, captive portal, PKI and SCEP services receive authentication and enrolment requests from network and end-user devices, consult the tenant's identity provider (Entra ID, Google Workspace, Okta or LDAP) where configured, and return results to the network; the identity threat detection pipeline is derived from those authentication and accounting events. Scheduled reports, connector syncs and cleanup run as internal task workers. Tenant data is stored in the region the tenant selects; all data at rest is encrypted with Google-managed AES-256 and all transit is TLS.",
-          "securityCategories": "All twenty certified services are categorized under FIPS 199 as Confidentiality Moderate, Integrity Moderate, Availability Low, overall Moderate (approved by the accountable official 2026-08-24). No information resource within the Minimum Assessment Scope carries a different categorization; the resources under excludedFromMinimumAssessmentScope carry none because they handle no customer data of the offering. Device Trust is marketed as Coming Soon and is not one of the twenty services.",
+          "securityCategories": "All twenty services in this offering are categorized under FIPS 199 as Confidentiality Moderate, Integrity Moderate, Availability Low, overall Moderate (approved by the accountable official 2026-08-24). FIPS 199 Moderate is an impact categorization; it is not a FedRAMP Moderate Authorization and it is not a 20x Class C certification. No information resource within the Minimum Assessment Scope carries a different categorization; the resources under excludedFromMinimumAssessmentScope carry none because they handle no customer data of the offering. Device Trust is marketed as Coming Soon and is not one of the twenty services.",
           "publicReferences": [
             "https://www.ironwifi.com/fedramp/",
             "https://www.ironwifi.com/fedramp/secure-configuration/"
@@ -4921,7 +4958,7 @@
               ],
               "access": "Public",
               "url": "https://www.ironwifi.com/fedramp/IronWiFi-FedRAMP-20x-ClassA-Package.zip",
-              "summary": "Every file of the FedRAMP 20x Class A certification package (overview JSON and PDF, Security Decision Record PDF and JSON, example Ongoing Certification Report PDF and JSON, component inventory JSON, method PDF and script, Key Security Indicator Summary PDF, Secure Configuration Guide PDF and JSON, policy register Markdown and JSON) with MANIFEST.json, the SHA-256 and size of each file, the ruleset version and the build verification verdict. Stable URL; the version and assembly time are inside MANIFEST.json (1.4, 2026-09-13)."
+              "summary": "IronWiFi-prepared 20x Class A package documents (overview JSON and PDF, Security Decision Record PDF and JSON, example Ongoing Certification Report PDF and JSON, component inventory JSON, method PDF and script, Key Security Indicator Summary PDF, Secure Configuration Guide PDF and JSON, policy register Markdown and JSON) with MANIFEST.json, the SHA-256 and size of each file, the ruleset version and the build verification verdict. These files are provider materials, not a FedRAMP Certification. Stable URL; the ZIP snapshot version and assembly time are inside MANIFEST.json (1.4, 2026-09-13). The live public JSON on this site is version 1.5."
             },
             {
               "name": "Security Decision Record",
@@ -5022,14 +5059,14 @@
             "phone": "800-963-6221",
             "note": "security@ironwifi.com is a monitored role mailbox reaching the accountable official; FedRAMP communications go to the FedRAMP Security Inbox. A role address is published so that communications keep reaching an accountable owner across personnel changes."
           },
-          "version": "1.4",
-          "dateAndTimeOfLastUpdate": "2026-09-13T20:00:00Z",
-          "sourceOfUpdate": "IronWiFi, LLC, accountable official Martin Benuska (CEO); version 1.4 filing corrections: service list uses marketing names, Device Trust removed as Coming Soon, third-party statements reconciled, policy register included in the bundle, stale metadata sentences corrected.",
+          "version": "1.6",
+          "dateAndTimeOfLastUpdate": "2026-09-18T18:00:00Z",
+          "sourceOfUpdate": "IronWiFi, LLC, accountable official Martin Benuska (CEO); version 1.6: FRC-APP-AFC submitted 2026-09-13 with FedRAMP's decision pending; listing status Not yet certified, Certification Class Unknown, FIPS 199 Moderate distinguished from FedRAMP Moderate and from Class C, Google Cloud High inheritance not claimed, OCR date not applicable until certification.",
           "schemaNote": "CPO-CSO-MTD requires this metadata in the Certification Package Overview. The published schema (fedramp-certification-package-overview-schema-2026-06-24) defines no property for it, so it is carried here as a declared object; extra fields do not fail FedRAMP schema validation. The accountable official's role address is also recorded under contactInformation."
         },
         "ZD_frid_retro": "FR2631154499",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:45Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:38Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5126,7 +5163,7 @@
         },
         "ZD_frid_retro": "FR2631258113",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:45Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:38Z"
       },
       {
         "serviceIdentification": {
@@ -5134,7 +5171,7 @@
           "providerName": "Knox Systems, Inc.",
           "serviceName": "Knox Systems",
           "serviceAcronym": "KSI",
-          "serviceDescription": "Knox Systems provides a multi-tenant cloud platform for delivering commercial software to federal government customers. Customer applications deploy on Knox's managed infrastructure across AWS, Azure, and Google Cloud Platform using Kubernetes containers, serverless functions, or virtual machines. Knox provides 24/7 Security Operations Center and Network Operations Center management, continuous security monitoring, vulnerability scanning, patch management, and incident response for all customer workloads. This includes:\n\nAdobe Connect is designed for immersive synchronous online meeting experiences for training, large-scale webinars, and virtual classroom meetings for a distributed workforce.\n\nAdobe Learning Manager (ALM) is an asynchronous Learning Management System that enables Learning and Development teams to drive personalized learning experiences across multiple devices.\n\nClass Technologies Inc. (class.com) is the next generation virtual learning environment that enables active learning, collaboration, and engagement in online classes and virtual instructor-led training.\n\nSpacelift delivers a FedRAMP-compliant IaC automation platform for secure and efficient cloud infrastructure management. It streamlines OpenTofu, Terraform, Pulumi, and Kubernetes workflows with robust policy enforcement and secret management for government agencies.\n\nTovuti LMS and Tovuti Waypoints: Best of Class Compliance Training and AI Course Authoring in Minutes not Months - Tovuti LMS is a FedRAMP Moderate authorized platform built for federal agencies, delivering secure learner management, automated compliance tracking, role-based access controls, and real-time reporting across your workforce. For AI course authoring, Tovuti Waypoints converts your agency's source materials into interactive, Section 508-compliant SCORM courses. Instantly transform policy PDFs and procedures into ready-to-deploy training, accelerating your response to new mandates with a platform built for both speed and security.\n\nCelonis Process Mining (CPM4) is the world's leading data-driven process optimization platform that helps organizations automatically discover inefficiencies, ensure compliance, and identify improvement opportunities across business processes through real-time analytics and visualization.\n\nBackupta is a Resilience Platform for Okta that ensures uninterrupted identity and access management. It delivers secure backup, disaster recovery, and rapid restoration of tenants or objects. Tenant cloning and failover strengthen business continuity, while proactive monitoring and audit logs enhance security.\n\nKovr.AI accelerates compliance authorizations (FedRAMP, CMMC, DOD SRG) from months to minutes by automating gap assessments and ATO package generation, instantly identifying compliant controls and remediation needs, then auto-generating required authorization documentation including SSPs, POA&Ms, and policies. The platform connects to environments via read-only integrations—or accepts direct evidence uploads—enabling teams to rapidly and continuously monitor and assess their security configurations, logs, policies, evidence, and artifacts using state-of-the-art Large Language Models (LLMs).\n\nOutSystems enables federal agencies to rapidly build, manage, and scale mission-critical digital solutions with government-grade security, reliability, and governance built in. The platform supports the entire software development lifecycle, including integrated DevSecOps capabilities, enabling teams to deliver better frontline digital services and modernize core mission systems significantly faster. Agencies can accelerate delivery without extensive re-skilling, expanding development teams, or taking on the risks and costs associated with vendor lock-in.\n\nArmis APEX Manage provides federal administrators a \"single pane of glass\" to aggregate operational data across multi-tenant Armis Centrix deployments. It eliminates manual per-tenant logins by centralizing health metrics and consolidated reporting into a unified oversight interface.\n\nResilinc Supply Chain Risk and Compliance Platform - Resilinc provides federal agencies with enterprise-level visibility and risk management across multi-tier supplier networks. The platform utilizes AI-driven workflows to automate disruption monitoring, forced labor compliance assessments (including UFLPA), and trade impact analysis. This SaaS solution streamlines oversight, allowing organizations to proactively identify and mitigate vulnerabilities within the global supply chain.\n\nBigID provides an automated foundation for data security, privacy, and governance across the federal enterprise. The platform proactively discovers, architectures, and inventories sensitive data and AI assets across all environments—including multi-cloud, on-premises data centers, and data pipelines. By utilizing advanced machine learning for deep data classification, BigID enables agencies to automatically identify PII, PHI, and CUI. This visibility allows organizations to mitigate risk, enforce granular access controls, and ensure regulatory compliance. From automating data lifecycle management to securing the data fed into AI models, BigID transforms fragmented information into a secure, searchable, and compliant asset.\n\nProcurement Sciences offers a secure, end-to-end AI platform purpose-built for government contractors to find, qualify, manage, and win federal and SLED opportunities. The Awarded AI platform uses advanced generative and agentic AI to identify and surface relevant opportunities, evaluate bid/no-bid fit, manage capture and pipeline activities, extract and shred requirements, generate structured proposal outlines and first drafts, and automate compliance review and quality checks prior to submission. With human-in-the-loop oversight embedded across AI-powered workflows, the platform accelerates response timelines, strengthens compliance accuracy, improves proposal quality, and drives revenue growth without compromising security.\n\nPresage Technologies delivers a contactless physiological and behavioral assessment platform leveraging advanced video-based capture and analysis across in-person and fully remote environments. The platform identifies physiological signals and micromovements from video input, surfacing actionable response patterns and real-time indicators through an intuitive interface that empowers expert analysts to observe, annotate, and interpret findings with speed and confidence. Purpose-built for federal agencies and authorized mission partners, the system supports a broad range of high-value use cases and decision-making workflows requiring non-contact assessment at scale.\n\nBrightfin is a ServiceNow-native telecom and IT financial management application that consolidates enterprise wireless, wireline, and cloud spend into a single platform for invoice processing, cost allocation, asset lifecycle management, and carrier integrations. Brightfin provides finance, IT, and procurement teams with authoritative control over telecom and technology costs directly within their ServiceNow environment.\n\nServal is an AI-native enterprise service management platform that automates employee requests, onboarding/offboarding, just-in-time access, and more. Serval allows IT, Security, HR, and other functions to eliminate repetitive work with AI agents while maintaining enterprise-grade security and governance.\n\nGovEagle is a purpose-built software-as-a-service (SaaS) platform that helps U.S. government contractors plan, analyze, draft, and manage responses to federal solicitations, addressing the mission need for faster, higher-quality, and more compliant proposal development. The authorization boundary is a multi-tenant SaaS application hosted in AWS GovCloud (US) with logical isolation between customer tenants, used by contractors' business development, capture, and proposal teams to process business and proposal data that may include Controlled Unclassified Information (CUI).\n\nFieldguide is an AI-native platform transforming how audit, advisory, and assurance work gets done. Purpose-built for regulated environments, Fieldguide brings professionals and agentic AI together to modernize engagement delivery from planning through close, enabling audit and advisory practitioners to deliver higher-quality work, strengthen client experiences, and unlock growth for the decade ahead.\n\nThreatModeler Nexus is a threat modeling platform that ingests architecture artifacts, source code, infrastructure-as-code, and system documentation to build and maintain models of an organization's applications and infrastructure, identify security threats and required controls, and generate audit-ready reports; it exists to give organizations a continuously updated, centralized record of system security design rather than relying on manual, point-in-time assessments. Within the authorization boundary, the system covers the model-building, analysis, and reporting components that process customer-submitted architecture and code artifacts and produce the resulting threat/control/compliance data; it is delivered as a single, dedicated-tenant SaaS application meaning each customer has its own isolated instance with system mapping, graph management, and reporting functioning as the major internal components. Users include security architects, developers, and security/compliance leaders at customer organizations, who submit system data (architecture diagrams, code, infrastructure configurations, and related business/technical metadata not typically PII beyond user account information) and consume the resulting risk and compliance outputs; the system depends on customer-provided source repositories and documentation as external inputs to build its models.",
+          "serviceDescription": "Knox Systems provides a multi-tenant cloud platform for delivering commercial software to federal government customers. Customer applications deploy on Knox's managed infrastructure across AWS, Azure, and Google Cloud Platform using Kubernetes containers, serverless functions, or virtual machines. Knox provides 24/7 Security Operations Center and Network Operations Center management, continuous security monitoring, vulnerability scanning, patch management, and incident response for all customer workloads. This includes:\n\nAdobe Connect is designed for immersive synchronous online meeting experiences for training, large-scale webinars, and virtual classroom meetings for a distributed workforce.\n\nAdobe Learning Manager (ALM) is an asynchronous Learning Management System that enables Learning and Development teams to drive personalized learning experiences across multiple devices.\n\nClass Technologies Inc. (class.com) is the next generation virtual learning environment that enables active learning, collaboration, and engagement in online classes and virtual instructor-led training.\n\nSpacelift delivers a FedRAMP-compliant IaC automation platform for secure and efficient cloud infrastructure management. It streamlines OpenTofu, Terraform, Pulumi, and Kubernetes workflows with robust policy enforcement and secret management for government agencies.\n\nTovuti LMS and Tovuti Waypoints: Best of Class Compliance Training and AI Course Authoring in Minutes not Months - Tovuti LMS is a FedRAMP Moderate authorized platform built for federal agencies, delivering secure learner management, automated compliance tracking, role-based access controls, and real-time reporting across your workforce. For AI course authoring, Tovuti Waypoints converts your agency's source materials into interactive, Section 508-compliant SCORM courses. Instantly transform policy PDFs and procedures into ready-to-deploy training, accelerating your response to new mandates with a platform built for both speed and security.\n\nCelonis Process Mining (CPM4) is the world's leading data-driven process optimization platform that helps organizations automatically discover inefficiencies, ensure compliance, and identify improvement opportunities across business processes through real-time analytics and visualization.\n\nBackupta is a Resilience Platform for Okta that ensures uninterrupted identity and access management. It delivers secure backup, disaster recovery, and rapid restoration of tenants or objects. Tenant cloning and failover strengthen business continuity, while proactive monitoring and audit logs enhance security.\n\nKovr.AI accelerates compliance authorizations (FedRAMP, CMMC, DOD SRG) from months to minutes by automating gap assessments and ATO package generation, instantly identifying compliant controls and remediation needs, then auto-generating required authorization documentation including SSPs, POA&Ms, and policies. The platform connects to environments via read-only integrations—or accepts direct evidence uploads—enabling teams to rapidly and continuously monitor and assess their security configurations, logs, policies, evidence, and artifacts using state-of-the-art Large Language Models (LLMs).\n\nOutSystems enables federal agencies to rapidly build, manage, and scale mission-critical digital solutions with government-grade security, reliability, and governance built in. The platform supports the entire software development lifecycle, including integrated DevSecOps capabilities, enabling teams to deliver better frontline digital services and modernize core mission systems significantly faster. Agencies can accelerate delivery without extensive re-skilling, expanding development teams, or taking on the risks and costs associated with vendor lock-in.\n\nArmis APEX Manage provides federal administrators a \"single pane of glass\" to aggregate operational data across multi-tenant Armis Centrix deployments. It eliminates manual per-tenant logins by centralizing health metrics and consolidated reporting into a unified oversight interface.\n\nResilinc Supply Chain Risk and Compliance Platform - Resilinc provides federal agencies with enterprise-level visibility and risk management across multi-tier supplier networks. The platform utilizes AI-driven workflows to automate disruption monitoring, forced labor compliance assessments (including UFLPA), and trade impact analysis. This SaaS solution streamlines oversight, allowing organizations to proactively identify and mitigate vulnerabilities within the global supply chain.\n\nBigID provides an automated foundation for data security, privacy, and governance across the federal enterprise. The platform proactively discovers, architectures, and inventories sensitive data and AI assets across all environments—including multi-cloud, on-premises data centers, and data pipelines. By utilizing advanced machine learning for deep data classification, BigID enables agencies to automatically identify PII, PHI, and CUI. This visibility allows organizations to mitigate risk, enforce granular access controls, and ensure regulatory compliance. From automating data lifecycle management to securing the data fed into AI models, BigID transforms fragmented information into a secure, searchable, and compliant asset.\n\nProcurement Sciences offers a secure, end-to-end AI platform purpose-built for government contractors to find, qualify, manage, and win federal and SLED opportunities. The Awarded AI platform uses advanced generative and agentic AI to identify and surface relevant opportunities, evaluate bid/no-bid fit, manage capture and pipeline activities, extract and shred requirements, generate structured proposal outlines and first drafts, and automate compliance review and quality checks prior to submission. With human-in-the-loop oversight embedded across AI-powered workflows, the platform accelerates response timelines, strengthens compliance accuracy, improves proposal quality, and drives revenue growth without compromising security.\n\nPresage Technologies delivers a contactless physiological and behavioral assessment platform leveraging advanced video-based capture and analysis across in-person and fully remote environments. The platform identifies physiological signals and micromovements from video input, surfacing actionable response patterns and real-time indicators through an intuitive interface that empowers expert analysts to observe, annotate, and interpret findings with speed and confidence. Purpose-built for federal agencies and authorized mission partners, the system supports a broad range of high-value use cases and decision-making workflows requiring non-contact assessment at scale.\n\nBrightfin is a ServiceNow-native telecom and IT financial management application that consolidates enterprise wireless, wireline, and cloud spend into a single platform for invoice processing, cost allocation, asset lifecycle management, and carrier integrations. Brightfin provides finance, IT, and procurement teams with authoritative control over telecom and technology costs directly within their ServiceNow environment.\n\nServal is an AI-native enterprise service management platform that automates employee requests, onboarding/offboarding, just-in-time access, and more. Serval allows IT, Security, HR, and other functions to eliminate repetitive work with AI agents while maintaining enterprise-grade security and governance.\n\nGovEagle is a purpose-built software-as-a-service (SaaS) platform that helps U.S. government contractors plan, analyze, draft, and manage responses to federal solicitations, addressing the mission need for faster, higher-quality, and more compliant proposal development. The authorization boundary is a multi-tenant SaaS application hosted in AWS GovCloud (US) with logical isolation between customer tenants, used by contractors' business development, capture, and proposal teams to process business and proposal data that may include Controlled Unclassified Information (CUI).\n\nFieldguide is an AI-native platform transforming how audit, advisory, and assurance work gets done. Purpose-built for regulated environments, Fieldguide brings professionals and agentic AI together to modernize engagement delivery from planning through close, enabling audit and advisory practitioners to deliver higher-quality work, strengthen client experiences, and unlock growth for the decade ahead.\n\nThreatModeler Nexus is a threat modeling platform that ingests architecture artifacts, source code, infrastructure-as-code, and system documentation to build and maintain models of an organization's applications and infrastructure, identify security threats and required controls, and generate audit-ready reports; it exists to give organizations a continuously updated, centralized record of system security design rather than relying on manual, point-in-time assessments. Within the authorization boundary, the system covers the model-building, analysis, and reporting components that process customer-submitted architecture and code artifacts and produce the resulting threat/control/compliance data; it is delivered as a single, dedicated-tenant SaaS application meaning each customer has its own isolated instance with system mapping, graph management, and reporting functioning as the major internal components. Users include security architects, developers, and security/compliance leaders at customer organizations, who submit system data (architecture diagrams, code, infrastructure configurations, and related business/technical metadata not typically PII beyond user account information) and consume the resulting risk and compliance outputs; the system depends on customer-provided source repositories and documentation as external inputs to build its models.\n\nAidFinder is a Software as a Service (SaaS) platform that helps disaster survivors identify, apply for, and track federal and state emergency assistance programs, primarily FEMA Individual Assistance. The system supports both preparedness and disaster response workflows: before a disaster, it analyzes property-level insurance coverage gaps across six hazard categories — flood, fire, wind, earthquake, snow/ice, and volcano — to help users understand their financial exposure relative to rebuild cost; after a disaster declaration, it evaluates survivor household profiles against program-specific eligibility rules using factors including property ownership, occupancy status, damage severity, insurance coverage, household composition, and income, then orchestrates AI-driven agents that automate end-to-end application submission on the survivor's behalf directly on DisasterAssistance.gov. The platform is delivered as a cloud-native, multi-tenant SaaS application used by disaster survivors and program administrators, and processes Tier 1/2 PII including names, addresses, Social Security data, financial records, property records, and damage documentation. Key external dependencies include FEMA's DisasterAssistance.gov for application submission, Socure for identity verification, Plaid for bank account linking, Mapbox for geospatial disaster visualization.\n\nSolve Intelligence is a single-tenant SaaS system for authorized examiners, attorneys, technical specialists, reviewers, supervisors, and administrators who perform government patent work. The system supports examination, legal analysis, document review, research, and drafting, and processes patent records, prior art, business data, CUI, and PII. The authorization boundary contains the web application, workflow, AI, search, and storage services, with dependencies on cloud hosting, identity services, and approved information sources.",
           "certificationType": "Rev5",
           "website": "http://www.knoxsystems.com/",
           "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Knox%20Logo2.png",
@@ -5294,11 +5331,21 @@
             "serviceName": "ThreatModeler Nexus",
             "serviceDescription": "ThreatModeler Nexus is a threat modeling platform that ingests architecture artifacts, source code, infrastructure-as-code, and system documentation to build and maintain models of an organization's applications and infrastructure, identify security threats and required controls, and generate audit-ready reports; it exists to give organizations a continuously updated, centralized record of system security design rather than relying on manual, point-in-time assessments. Within the authorization boundary, the system covers the model-building, analysis, and reporting components that process customer-submitted architecture and code artifacts and produce the resulting threat/control/compliance data; it is delivered as a single, dedicated-tenant SaaS application meaning each customer has its own isolated instance with system mapping, graph management, and reporting functioning as the major internal components. Users include security architects, developers, and security/compliance leaders at customer organizations, who submit system data (architecture diagrams, code, infrastructure configurations, and related business/technical metadata not typically PII beyond user account information) and consume the resulting risk and compliance outputs; the system depends on customer-provided source repositories and documentation as external inputs to build its models.",
             "dateAvailable": "2026-09-14"
+          },
+          {
+            "serviceName": "AidFinder",
+            "serviceDescription": "AidFinder is a Software as a Service (SaaS) platform that helps disaster survivors identify, apply for, and track federal and state emergency assistance programs, primarily FEMA Individual Assistance. The system supports both preparedness and disaster response workflows: before a disaster, it analyzes property-level insurance coverage gaps across six hazard categories — flood, fire, wind, earthquake, snow/ice, and volcano — to help users understand their financial exposure relative to rebuild cost; after a disaster declaration, it evaluates survivor household profiles against program-specific eligibility rules using factors including property ownership, occupancy status, damage severity, insurance coverage, household composition, and income, then orchestrates AI-driven agents that automate end-to-end application submission on the survivor's behalf directly on DisasterAssistance.gov. The platform is delivered as a cloud-native, multi-tenant SaaS application used by disaster survivors and program administrators, and processes Tier 1/2 PII including names, addresses, Social Security data, financial records, property records, and damage documentation. Key external dependencies include FEMA's DisasterAssistance.gov for application submission, Socure for identity verification, Plaid for bank account linking, Mapbox for geospatial disaster visualization.",
+            "dateAvailable": "2026-09-18"
+          },
+          {
+            "serviceName": "Solve Intelligence",
+            "serviceDescription": "Solve Intelligence is a single-tenant SaaS system for authorized examiners, attorneys, technical specialists, reviewers, supervisors, and administrators who perform government patent work. The system supports examination, legal analysis, document review, research, and drafting, and processes patent records, prior art, business data, CUI, and PII. The authorization boundary contains the web application, workflow, AI, search, and storage services, with dependencies on cloud hosting, identity services, and approved information sources.",
+            "dateAvailable": "2026-09-22"
           }
         ],
         "ZD_frid_retro": "F1206111371",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:46Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:39Z"
       },
       {
         "serviceIdentification": {
@@ -5471,7 +5518,7 @@
         ],
         "ZD_frid_retro": "FR2631258125",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:47Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:39Z"
       },
       {
         "serviceIdentification": {
@@ -5548,7 +5595,7 @@
         },
         "ZD_frid_retro": "FR2631258127",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:47Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:40Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5834,7 +5881,7 @@
         ],
         "ZD_frid_retro": "FR2631258135",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:48Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:40Z"
       },
       {
         "serviceIdentification": {
@@ -5958,7 +6005,7 @@
         ],
         "ZD_frid_retro": "F1311222650",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:49Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:41Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5991,7 +6038,7 @@
             "url": "https://trust.mycroft.io/wisedocs",
             "repositoryDescription": "Trust Center containing all the necessary documentation for FedRAMP Certification submission package.",
             "authenticationRequired": true,
-            "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request Access' button on the top right of the Trust Center."
+            "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request FedRAMP access' button on the top right of the Trust Center."
           },
           "secureConfigurationGuidance": {
             "repositoryType": [
@@ -6000,7 +6047,7 @@
             "url": "https://trust.mycroft.io/wisedocs",
             "repositoryDescription": "Secure configuration guidance for Wisedocs, currently hosted within the Wisedocs Trust Center.",
             "authenticationRequired": true,
-            "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request Access' button on the top right of the Trust Center."
+            "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request FedRAMP access' button on the top right of the Trust Center."
           },
           "nextOngoingCertificationReportDate": "2026-11-30"
         },
@@ -6086,7 +6133,7 @@
         },
         "ZD_frid_retro": "FR2631654537",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:50Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:42Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6168,7 +6215,7 @@
         },
         "ZD_frid_retro": "FR2631747315",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:50Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:43Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6454,7 +6501,7 @@
         ],
         "ZD_frid_retro": "FR2631747321",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:50Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:42Z"
       },
       {
         "serviceIdentification": {
@@ -6506,7 +6553,7 @@
         ],
         "ZD_frid_retro": "FR2631747327",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:51Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:42Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6619,7 +6666,7 @@
         ],
         "ZD_frid_retro": "FR2300457485",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:51Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:43Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6655,7 +6702,7 @@
         ],
         "ZD_frid_retro": "FR2632054516",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:51Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:43Z"
       },
       {
         "serviceIdentification": {
@@ -6760,7 +6807,7 @@
         ],
         "ZD_frid_retro": "FR2632054521",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:52Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:43Z"
       },
       {
         "packageMetadata": {
@@ -6851,7 +6898,7 @@
         },
         "ZD_frid_retro": "FR2520254824",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:52Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:43Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6967,7 +7014,7 @@
         },
         "ZD_frid_retro": "FR2632054530",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:53Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:44Z"
       },
       {
         "serviceIdentification": {
@@ -7051,7 +7098,7 @@
         },
         "ZD_frid_retro": "FR2632054534",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:53Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:44Z"
       },
       {
         "serviceIdentification": {
@@ -7163,7 +7210,7 @@
         },
         "ZD_frid_retro": "FR2632054491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:54Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:45Z"
       },
       {
         "serviceIdentification": {
@@ -7253,7 +7300,7 @@
         },
         "ZD_frid_retro": "FR2632054495",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:54Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:45Z"
       },
       {
         "serviceIdentification": {
@@ -7389,7 +7436,7 @@
         },
         "ZD_frid_retro": "FR2632436493",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:54Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:45Z"
       },
       {
         "serviceIdentification": {
@@ -7427,7 +7474,7 @@
         ],
         "ZD_frid_retro": "FR2632558735",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:55Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:46Z"
       },
       {
         "serviceIdentification": {
@@ -7465,7 +7512,7 @@
         ],
         "ZD_frid_retro": "FR2632558740",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:56Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:47Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7547,7 +7594,7 @@
         },
         "ZD_frid_retro": "FR2632558748",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:56Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:46Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7669,7 +7716,7 @@
         },
         "ZD_frid_retro": "FR2632731472",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:56Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:47Z"
       },
       {
         "serviceIdentification": {
@@ -7747,7 +7794,7 @@
         },
         "ZD_frid_retro": "FR2632755834",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:58Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:47Z"
       },
       {
         "serviceIdentification": {
@@ -7814,7 +7861,7 @@
         },
         "ZD_frid_retro": "FR2633058235",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:25:59Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:48Z"
       },
       {
         "$comment": "Ultra Security FedRAMP 20x Certification Package Overview — conformant to fedramp-certification-package-overview-schema-2026-06-24.json (FRC-CSO-PKG). Machine-readable identification package for the CSO. This is the schema-conformant CPO; the narrative CPO (metadata/publicInformation/... index) is a separate human-readable companion.",
@@ -7921,7 +7968,7 @@
         },
         "ZD_frid_retro": "FR2633058240",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:25:59Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:48Z"
       },
       {
         "serviceIdentification": {
@@ -8015,7 +8062,7 @@
         },
         "ZD_frid_retro": "FR2633053629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:00Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:49Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8115,7 +8162,7 @@
         },
         "ZD_frid_retro": "FR2633053633",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:00Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:49Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8192,7 +8239,7 @@
         ],
         "ZD_frid_retro": "FR2633153272",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:00Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:49Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8241,7 +8288,7 @@
         ],
         "ZD_frid_retro": "FR2633153276",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:01Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:49Z"
       },
       {
         "serviceIdentification": {
@@ -8333,7 +8380,7 @@
         },
         "ZD_frid_retro": "FR2532557612",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:01Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:50Z"
       },
       {
         "serviceIdentification": {
@@ -8366,7 +8413,7 @@
         ],
         "ZD_frid_retro": "FR2633734906",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:01Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:50Z"
       },
       {
         "serviceIdentification": {
@@ -8550,7 +8597,7 @@
         ],
         "ZD_frid_retro": "FR2633734917",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:03Z"
+        "last_fetched_timestamp": "2026-09-21T03:11:22Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8608,7 +8655,7 @@
         },
         "ZD_frid_retro": "FR2633734921",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:04Z"
+        "last_fetched_timestamp": "2026-09-20T22:44:18Z"
       },
       {
         "serviceIdentification": {
@@ -8695,7 +8742,7 @@
         },
         "ZD_frid_retro": "FR2633734927",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:03Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:51Z"
       },
       {
         "serviceIdentification": {
@@ -8815,7 +8862,7 @@
         ],
         "ZD_frid_retro": "FR2633734932",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:04Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:51Z"
       },
       {
         "serviceIdentification": {
@@ -8855,7 +8902,7 @@
         ],
         "ZD_frid_retro": "FR2626164349",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:05Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:52Z"
       },
       {
         "serviceIdentification": {
@@ -8945,13 +8992,355 @@
           "certified": [
             {
               "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
-              "useCase": "Underlying IaaS — AWS GovCloud (US), the cloud hosting the offering."
+              "useCase": "AWS GovCloud (US) hosts the offering and provides managed services, including Amazon Bedrock inference."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR2023864279A",
+              "useCase": "Datadog for Government (US1-FED) provides observability, security monitoring, incident investigation, and audit evidence."
+            }
+          ],
+          "nonCertified": [
+            {
+              "name": "PostHog",
+              "provider": "PostHog",
+              "website": "https://posthog.com/",
+              "useCase": "Product analytics, session replay, and feature flags.",
+              "resourceCategory": "operational",
+              "usageAndConfiguration": "Browser and server clients supply analytics while the application reads feature flags from the PostHog control plane.",
+              "justification": "Silkline uses PostHog to understand product usage and control staged feature delivery.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "Session replay could expose displayed federal customer content if the organization gate failed or was removed.",
+              "mitigationMeasures": "Analytics capture and session replay are disabled for FedRAMP-enabled organizations while feature-flag reads remain available.",
+              "compensatingControls": "A per-organization FedRAMP setting blocks capture and recording for federal tenants.",
+              "disposition": "replace",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "SendGrid",
+              "provider": "Twilio",
+              "website": "https://sendgrid.com/",
+              "useCase": "Transactional email delivery and delivery-event processing.",
+              "resourceCategory": "operational",
+              "usageAndConfiguration": "SendGrid receives email recipients, subjects, and message bodies and sends signed delivery events to Silkline webhooks.",
+              "justification": "Silkline uses SendGrid to deliver account and workflow notifications.",
+              "federalCustomerDataReachable": true,
+              "potentialImpactToFederalCustomerData": "Email addresses and message bodies can contain federal customer data.",
+              "mitigationMeasures": "Transactional delivery is designated for migration to Amazon SES in AWS GovCloud using its FIPS SMTP endpoint.",
+              "compensatingControls": "Inbound delivery events require signature validation before processing.",
+              "disposition": "migrate",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Kernel",
+              "provider": "Kernel",
+              "website": "https://www.onkernel.com/",
+              "useCase": "Managed browser sessions for desktop punchout workflows.",
+              "resourceCategory": "operational",
+              "usageAndConfiguration": "Kernel runs cloud browser sessions that can observe merchant content, session state, and credentials during desktop punchout.",
+              "justification": "Silkline uses Kernel to provide browser automation for desktop punchout.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "A session could expose purchasing content or supplier credentials if desktop punchout were enabled for a federal organization.",
+              "mitigationMeasures": "Kernel-backed desktop punchout is disabled for FedRAMP-enabled organizations.",
+              "compensatingControls": "The organization-level FedRAMP gate prevents federal sessions from starting in Kernel.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Merge",
+              "provider": "Merge",
+              "website": "https://www.merge.dev/",
+              "useCase": "HRIS integration for employee and workforce data.",
+              "resourceCategory": "operational",
+              "usageAndConfiguration": "Merge API and webhooks are limited to configured HRIS integrations and employee records.",
+              "justification": "Silkline uses Merge to normalize supported human-resources systems.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "The integration is not connected to federal customer procurement data, but compromise could affect workforce identity information.",
+              "mitigationMeasures": "The integration is scoped to HRIS data and excluded from customer content workflows.",
+              "compensatingControls": "API and webhook processing enforce the HRIS-only integration boundary.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Tailscale",
+              "provider": "Tailscale",
+              "website": "https://tailscale.com/",
+              "useCase": "Privileged network access and device coordination.",
+              "resourceCategory": "operational",
+              "usageAndConfiguration": "The coordination plane handles device identity, access policies, and connection metadata while encrypted payloads remain peer-to-peer.",
+              "justification": "Silkline uses Tailscale to restrict administrative access to system resources.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "The service does not receive payload data, but its control plane can affect privileged access to systems that handle federal data.",
+              "mitigationMeasures": "The cryptographic and authorization posture remains subject to a formal FedRAMP suitability decision.",
+              "compensatingControls": "Access policies, device identity, tailnet audit logs, and flow logs constrain and record privileged connectivity.",
+              "disposition": "determine",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "ToDesktop",
+              "provider": "ToDesktop",
+              "website": "https://www.todesktop.com/",
+              "useCase": "Desktop application builds, signing, and automatic updates.",
+              "resourceCategory": "operational",
+              "usageAndConfiguration": "ToDesktop packages and distributes the Electron desktop application and its updates to user devices.",
+              "justification": "Silkline uses ToDesktop to operate the desktop distribution and update channel.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "Compromise of the build or update chain could execute unauthorized code on devices used to access federal customer data.",
+              "mitigationMeasures": "The service requires a documented supply-chain determination covering code signing and update integrity.",
+              "compensatingControls": "Signed artifacts and application review reduce the risk of unauthorized desktop code distribution.",
+              "disposition": "determine",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Braintrust",
+              "provider": "Braintrust",
+              "website": "https://www.braintrust.dev/",
+              "useCase": "Supporting LLM evaluation and trace storage.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "Braintrust stores evaluation data and production punchout traces. Programmatic access uses a static API key; console access uses native email and password authentication without SSO.",
+              "justification": "Silkline uses Braintrust to evaluate model behavior and inspect LLM prompt and completion traces.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "Punchout traces can contain cart, order-confirmation, and part-pack content, but federal organizations cannot use the traced workflow.",
+              "mitigationMeasures": "The production tracing path is covered by the FedRAMP organization punchout gate and is designated for tighter trace scoping.",
+              "compensatingControls": "The organization-level punchout gate prevents federal content from reaching Braintrust; programmatic writes require an API key.",
+              "disposition": "mitigate",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Pulumi Cloud",
+              "provider": "Pulumi",
+              "website": "https://www.pulumi.com/product/pulumi-cloud/",
+              "useCase": "Infrastructure state and deployment orchestration.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "Pulumi Cloud stores infrastructure state and orchestrates deployments into Silkline environments, including AWS GovCloud.",
+              "justification": "Silkline uses Pulumi Cloud for reproducible infrastructure management and deployment controls.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "Infrastructure state and deployment authority can affect the confidentiality, integrity, and availability of federal workloads.",
+              "mitigationMeasures": "The hosting and authorization model remains subject to a formal FedRAMP boundary decision.",
+              "compensatingControls": "Per-stack identities, encrypted secrets, and short-lived deployment credentials restrict deployment access.",
+              "disposition": "determine",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "GitHub",
+              "provider": "GitHub",
+              "website": "https://github.com/",
+              "useCase": "Source control, code review, and repository automation.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "GitHub hosts source code, pull requests, repository configuration, and automation credentials.",
+              "justification": "Silkline uses GitHub as the authoritative software-development collaboration platform.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "Repository compromise could introduce code or configuration that affects systems handling federal customer data.",
+              "mitigationMeasures": "Repository changes require controlled review and protected-branch workflows.",
+              "compensatingControls": "Branch protections, CODEOWNERS, access reviews, and required CI checks protect the software supply chain.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Depot",
+              "provider": "Depot",
+              "website": "https://depot.dev/",
+              "useCase": "Managed CI runners and container image builds.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "Ephemeral Depot runners receive source code and scoped build secrets; selected workflow artifacts are retained for seven days.",
+              "justification": "Silkline uses Depot to run CI workloads and accelerate container builds.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "Runner compromise could alter build outputs or expose credentials used to deploy systems that handle federal customer data.",
+              "mitigationMeasures": "CI workflows use ephemeral runners, short artifact retention, and scoped access to build inputs.",
+              "compensatingControls": "OIDC supplies short-lived Pulumi access and repository controls require reviewed changes before deployment.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Greptile",
+              "provider": "Greptile",
+              "website": "https://www.greptile.com/",
+              "useCase": "Automated code review and repository analysis.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "Greptile reads repository source and pull-request context to produce automated review feedback.",
+              "justification": "Silkline uses Greptile to supplement human code review.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "Repository access could expose source or produce unsafe review advice, but it does not grant deployment authority.",
+              "mitigationMeasures": "Greptile output is advisory and changes still pass human review and CI.",
+              "compensatingControls": "Repository permissions and protected branches prevent the service from directly publishing application changes.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Stainless",
+              "provider": "Stainless",
+              "website": "https://www.stainless.com/",
+              "useCase": "Generation of client SDK source code.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "Stainless processes API specifications and generates SDK source that is committed to version control.",
+              "justification": "Silkline uses Stainless to maintain consistent client libraries for its public APIs.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "Generated code could introduce client-side security defects if accepted without review.",
+              "mitigationMeasures": "Generated output is reviewed and tested before it is released.",
+              "compensatingControls": "Committed output passes the same source review and CI controls as maintainer-authored code.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Rootly",
+              "provider": "Rootly",
+              "website": "https://rootly.com/",
+              "useCase": "Incident workflows, escalation, and response coordination.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "Rootly stores incident records, escalation policies, schedules, and response workflow state.",
+              "justification": "Silkline uses Rootly to coordinate incident response and escalation.",
+              "federalCustomerDataReachable": true,
+              "potentialImpactToFederalCustomerData": "Incident records can include excerpts or descriptions of affected federal customer content.",
+              "mitigationMeasures": "Incident records are limited to the detail required for response and follow-up activities.",
+              "compensatingControls": "Access is limited to incident responders and workflow notifications use scoped incident context.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Slack",
+              "provider": "Salesforce",
+              "website": "https://slack.com/",
+              "useCase": "Operational alerting and incident collaboration.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "Monitoring and security systems send alert summaries to controlled Slack channels used by responders.",
+              "justification": "Silkline uses Slack to notify personnel and coordinate operational response.",
+              "federalCustomerDataReachable": true,
+              "potentialImpactToFederalCustomerData": "Alert payloads or incident discussion can contain limited customer details during diagnosis.",
+              "mitigationMeasures": "Alert content is scoped to operational context needed for response.",
+              "compensatingControls": "Channel membership and workspace access controls limit incident data to authorized personnel.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Linear",
+              "provider": "Linear",
+              "website": "https://linear.app/",
+              "useCase": "Engineering planning and security work tracking.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "Linear stores development plans, defect reports, remediation tasks, and security program work items.",
+              "justification": "Silkline uses Linear to assign and track engineering and compliance work.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "Planning records can reveal architecture or security details that could assist attacks against the service.",
+              "mitigationMeasures": "Work items avoid customer content and restrict sensitive details to the minimum needed for remediation.",
+              "compensatingControls": "Workspace access controls limit records to authorized personnel.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Notion",
+              "provider": "Notion",
+              "website": "https://www.notion.so/",
+              "useCase": "Internal operational and security documentation.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "Notion stores internal documentation, including architecture, boundary, and vendor inventory material.",
+              "justification": "Silkline uses Notion for collaborative operational documentation.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "Documentation can reveal system design and security decisions relevant to systems that handle federal customer data.",
+              "mitigationMeasures": "Documentation excludes federal customer content and separates internal security material from public pages.",
+              "compensatingControls": "Workspace permissions limit internal documentation to authorized users.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Drata",
+              "provider": "Drata",
+              "website": "https://drata.com/",
+              "useCase": "Compliance evidence and control monitoring.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "Drata stores compliance evidence and monitors selected organizational and technical controls.",
+              "justification": "Silkline uses Drata to support compliance operations and assessments.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "Compliance evidence can reveal control implementation details but does not include federal customer content.",
+              "mitigationMeasures": "Evidence collection is scoped to the material required for compliance verification.",
+              "compensatingControls": "Access controls restrict compliance records to authorized staff and assessors.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Paramify",
+              "provider": "Paramify",
+              "website": "https://www.paramify.com/",
+              "useCase": "FedRAMP control implementation and evidence management.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "Paramify stores control narratives, component records, mappings, and assessment evidence for the authorization program.",
+              "justification": "Silkline uses Paramify as the governance workflow for its FedRAMP certification package.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "Authorization records can expose security architecture and affect the accuracy of risk decisions.",
+              "mitigationMeasures": "Records are reviewed by assigned control owners and scoped to security and compliance evidence.",
+              "compensatingControls": "Role-based access and human review govern changes to control evidence.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Keeper",
+              "provider": "Keeper Security",
+              "website": "https://www.keepersecurity.com/",
+              "useCase": "Staff credential and secret management.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "Keeper stores staff-managed credentials used to access operational and administrative systems.",
+              "justification": "Silkline uses Keeper to centralize protected credential storage and sharing.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "Compromised credentials could grant access to systems that handle federal customer data.",
+              "mitigationMeasures": "Credential access is limited by workforce role and periodically reviewed.",
+              "compensatingControls": "SSO, multifactor authentication, and access reviews protect privileged credentials.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "KnowBe4",
+              "provider": "KnowBe4",
+              "website": "https://www.knowbe4.com/",
+              "useCase": "Security awareness training and completion records.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "KnowBe4 assigns security training and stores staff training status and completion evidence.",
+              "justification": "Silkline uses KnowBe4 to operate and evidence its security-awareness program.",
+              "federalCustomerDataReachable": false,
+              "potentialImpactToFederalCustomerData": "The service handles workforce records but no federal customer content; program failure could weaken personnel security awareness.",
+              "mitigationMeasures": "Data is limited to workforce identity and training records.",
+              "compensatingControls": "Administrative access is restricted and training completion is reviewed.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Google Workspace",
+              "provider": "Google",
+              "website": "https://workspace.google.com/",
+              "useCase": "Corporate email, identity, documents, and collaboration.",
+              "resourceCategory": "supporting-supply-chain",
+              "usageAndConfiguration": "Google Workspace provides staff email, groups, shared documents, and identity services used in company operations.",
+              "justification": "Silkline uses Google Workspace for workforce communication and collaboration.",
+              "federalCustomerDataReachable": true,
+              "potentialImpactToFederalCustomerData": "Email or documents can receive federal customer-provided content during support and business communications.",
+              "mitigationMeasures": "Staff limit customer content in collaboration tools and use application workflows for operational records.",
+              "compensatingControls": "Central identity controls, multifactor authentication, and managed groups restrict workforce access.",
+              "disposition": "keep",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
             }
           ]
         },
         "ZD_frid_retro": "FR2633841585",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:05Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:52Z"
       },
       {
         "serviceIdentification": {
@@ -9101,7 +9490,7 @@
         ],
         "ZD_frid_retro": "FR2528033654",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:07Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:53Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -9215,7 +9604,7 @@
         ],
         "ZD_frid_retro": "FR2410866384",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:06Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:53Z"
       },
       {
         "serviceIdentification": {
@@ -9336,7 +9725,7 @@
         },
         "ZD_frid_retro": "FR2633957417",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:14Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:53Z"
       },
       {
         "serviceIdentification": {
@@ -9451,7 +9840,7 @@
         ],
         "ZD_frid_retro": "FR2633957422",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:16Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:56Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -9809,7 +10198,7 @@
         },
         "ZD_frid_retro": "FR2634047811",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:17Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:56Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -9863,7 +10252,7 @@
         ],
         "ZD_frid_retro": "FR2527234065",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:17Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:56Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -9912,7 +10301,7 @@
         },
         "ZD_frid_retro": "FR2634357692",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:19Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:56Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -10059,7 +10448,7 @@
         },
         "ZD_frid_retro": "FR2612446381",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:20Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:56Z"
       },
       {
         "serviceIdentification": {
@@ -10196,7 +10585,7 @@
         },
         "ZD_frid_retro": "FR2619254906",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:21Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:57Z"
       },
       {
         "serviceIdentification": {
@@ -10235,7 +10624,7 @@
         ],
         "ZD_frid_retro": "FR2619646960",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:20Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:57Z"
       },
       {
         "serviceIdentification": {
@@ -10349,7 +10738,7 @@
         },
         "ZD_frid_retro": "FR2634436150",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:21Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:57Z"
       },
       {
         "serviceIdentification": {
@@ -10467,7 +10856,7 @@
             "dateAvailable": "2026-08-06"
           },
           {
-            "serviceName": "Cloudflare for SaaS",
+            "serviceName": "Cloudflare for SaaS*",
             "serviceDescription": "Multi-tenant SaaS delivery platform enabling custom hostname management, certificates, and edge configuration for a provider's own customers.",
             "dateAvailable": "2026-08-06"
           },
@@ -10699,7 +11088,7 @@
         ],
         "ZD_frid_retro": "FR2000863987A",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:21Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:57Z"
       },
       {
         "serviceIdentification": {
@@ -10761,7 +11150,7 @@
         ],
         "ZD_frid_retro": "FR2206159758",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:23Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:59Z"
       },
       {
         "serviceIdentification": {
@@ -10803,7 +11192,7 @@
         },
         "ZD_frid_retro": "FR2306445868",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:22Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:58Z"
       },
       {
         "serviceIdentification": {
@@ -10814,7 +11203,8 @@
           "serviceDescription": "Pinecone is a fully managed vector database for AI applications. It stores, indexes, and\nsearches high-dimensional vector embeddings to power retrieval for semantic search,\nrecommendation, and retrieval-augmented generation (RAG) workloads. Customers create\nindexes in a cloud region of their choosing and interact with the service through\ndocumented APIs and client SDKs. The service is operated by Pinecone on public cloud\ninfrastructure, with customer data encrypted at rest (AES-256, unique per-customer keys)\nand in transit (TLS 1.2 minimum).",
           "certificationType": "20x",
           "website": "https://www.pinecone.io",
-          "logo": "https://www.pinecone.io/images/pinecone-logo.png"
+          "logo": "https://www.pinecone.io/images/pinecone-logo.png",
+          "ueiNumber": "EHLZAJFML1J5"
         },
         "serviceProperties": {
           "serviceType": [
@@ -10882,7 +11272,7 @@
         ],
         "ZD_frid_retro": "FR2634450946",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:23Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:59Z"
       },
       {
         "serviceIdentification": {
@@ -10916,7 +11306,7 @@
         },
         "ZD_frid_retro": "FR2634659079",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:24Z"
+        "last_fetched_timestamp": "2026-09-21T19:15:00Z"
       },
       {
         "serviceIdentification": {
@@ -10993,7 +11383,7 @@
         },
         "ZD_frid_retro": "FR2634659083",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:23Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:59Z"
       },
       {
         "serviceIdentification": {
@@ -11035,7 +11425,7 @@
         ],
         "ZD_frid_retro": "FR2634659087",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:24Z"
+        "last_fetched_timestamp": "2026-09-21T19:14:59Z"
       },
       {
         "serviceIdentification": {
@@ -11074,7 +11464,7 @@
         ],
         "ZD_frid_retro": "FR2634659091",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:24Z"
+        "last_fetched_timestamp": "2026-09-21T19:15:00Z"
       },
       {
         "serviceIdentification": {
@@ -11200,7 +11590,7 @@
         ],
         "ZD_frid_retro": "FR2634659095",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-17T21:26:26Z"
+        "last_fetched_timestamp": "2026-09-21T19:15:01Z"
       },
       {
         "serviceIdentification": {
@@ -11299,7 +11689,2241 @@
         },
         "ZD_frid_retro": "FR1907847653",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-17T21:26:26Z"
+        "last_fetched_timestamp": "2026-09-21T19:15:02Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "(LEAVE BLANK — assigned by FedRAMP upon\nsubmission)",
+          "ueiNumber": "XW8XSKM51JJ4",
+          "providerName": "DigiCert, Inc.",
+          "serviceName": "DigiCert for Government",
+          "serviceAcronym": "DC-GOV",
+          "serviceDescription": "DigiCert ONE is a unified digital trust platform that\ndelivers certificate lifecycle management, code signing\nsecurity, private PKI, and centralized access\ngovernance for enterprise and government customers.\nThe platform is offered as a SaaS-based suite of four\nintegrated services:\nDigiCert® Trust Lifecycle Manager (TLM) - CA-agnostic\ncertificate lifecycle management (CLM) providing discovery,\ninventory, automated issuance and renewal, private CA\nmanagement, and integrations with ITSM and DevOps\ntoolchains across cloud, hybrid, and on-premises\nenvironments.\nDigiCert® Software Trust Manager (STM) - Code signing\nand software supply chain security platform providing\ncentralized, policy-driven key and certificate management,\nHSM-backed private key protection (FIPS 140-2 Level 3),\nCI/CD pipeline integrations, multi-person approval\nworkflows, and tamperproof audit logging to support\ncompliance with EO 14028 and NIST SP 800-218.\nDigiCert® Private CA - Private certificate authority platform\nenabling organizations to create, manage, and operate\nprivately trusted root and intermediate CAs for issuing\ncertificates to internal users, devices, servers, and\nworkloads. Supports cloud-hosted, on-premises, and hybrid\ndeployment models with HSM-backed key protection and\npost-quantum cryptography readiness.\nDigiCert® Account Manager - Administrative and identity\ngovernance layer of the DigiCert ONE platform providing\ncentralized user management, role-based access control\n(RBAC), SSO/SAML configuration, API credential\nmanagement, organization management, and audit logging\nacross all DigiCert ONE services.",
+          "certificationType": "20x",
+          "website": "https://www.digicert.com",
+          "logo": "https://www.digicert.com/content/dam/dcg/logos/digicert-logo-no-mark.svg",
+          "certificationClass": "C",
+          "certificationPath": "Program"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Cybersecurity & Risk Management",
+            "Data Management",
+            "Development Tools",
+            "Governance, Risk, and Compliance (GRC)"
+          ],
+          "informationResources": {
+            "summary": "DigiCert ONE (comprising Trust Lifecycle Manager,\nSoftware Trust Manager, Private CA, and Account Manager)\nis hosted on AWS GovCloud (US) in the US-East regions.\nKey information resources include: the DigiCert ONE\napplication and API layer, the Certificate Authority (CA)\ninfrastructure with HSM-backed key storage (FIPS 140-2\nLevel 3), the certificate and signing event database and\naudit log store, and customer identity/access management\nintegrations (SSO/SAML, RBAC)",
+            "explicitExclusions": "CertCentral (public-trust TLS/SSL management portal) is\nexplicitly out of scope for this FedRAMP package. Public\nCertificate Authority (CA) infrastructure including CRL/OCSP\nservices is also excluded per FedRAMP scope guidance\n(fedramp.gov/scope). CA trust hierarchy operations are\ngoverned separately under WebTrust and CA/B Forum\naudits.",
+            "resources": [
+              {
+                "name": "DigiCert ONE Platform",
+                "type": "Machine-based",
+                "descriptionAndRole": "Multi-tenant SaaS application providing certificate lifecycle\nmanagement, private CA services, API gateway, and web-\nbased management console. Processes federal customer\ncertificate requests, stores certificate metadata, and\norchestrates issuance workflows.",
+                "handlesFederalCustomerData": true,
+                "impactOnConfidentialityIntegrityAvailability": "AWS GovCloud ( (us-gov-east-1))\n☐ GovRAMP at any Impact Level"
+              }
+            ]
+          }
+        },
+        "contactInformation": [
+          {
+            "contactType": "FedRAMP Security Inbox",
+            "contactEmail": "fedrampsecurity@digicert.com"
+          },
+          {
+            "contactType": "Security",
+            "contactTypeAsEntered": "Security Trust Ops",
+            "contactName": "Lizzy VanDeCar",
+            "contactEmail": "fedrampsecurity@digicert.com",
+            "contactPhone": "801-701-9600"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Tiphany Zellers",
+            "contactEmail": "tiphany.zellers@digicert.com",
+            "contactPhone": "650-213-6398"
+          }
+        ],
+        "assessor": {
+          "name": "Schellman",
+          "assessorID": "136571"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "DigiCert Trust Lifecycle Manager",
+            "serviceDescription": "DigiCert® Trust Lifecycle Manager (TLM) is a SaaS-based,\nCA-agnostic certificate lifecycle management (CLM) and PKI\nservices platform built on the DigiCert ONE architecture.\nTLM enables enterprise and government customers to\ndiscover, inventory, automate, and govern digital certificates\n(TLS/SSL, S/MIME, device, code signing) across cloud,\nhybrid, and on-premises environments. Core capabilities\ninclude certificate discovery and inventory, policy-based\nissuance workflows, last-mile automation for servers and\ndevices, private CA creation and management, and\nintegrations with ITSM and DevOps toolchains. The platform\nprevents certificate-related outages, reduces manual\noperations overhead, and maintains continuous compliance\nacross the certificate estate.",
+            "dateAvailable": "2027-04-15",
+            "securityCategory": "Moderate (Class C)"
+          },
+          {
+            "serviceName": "DigiCert Software Trust Manager",
+            "serviceDescription": "DigiCert® Software Trust Manager (STM) is a SaaS-based\ncode signing and software supply chain security platform\nbuilt on the DigiCert ONE architecture. STM provides\ncentralized, policy-driven management of code signing keys\nand certificates, with private keys protected in FIPS 140-2\nLevel 3 hardware security modules (HSMs). It integrates\nnatively with CI/CD pipelines (Jenkins, Azure DevOps,\nGitHub Actions, Gradle) and supports remote signing via\nAPI, CLI (SMCTL), and pre-built DevOps connectors. STM\nenforces multi-person approval workflows, tracks all signing\nactivity in tamperproof audit logs, and helps organizations\ncomply with government software supply chain security\nmandates including EO 14028 and NIST SP 800-218.",
+            "dateAvailable": "2027-04-15",
+            "securityCategory": "Moderate (Class C)"
+          },
+          {
+            "serviceName": "DigiCert Private CA",
+            "serviceDescription": "DigiCert® Private CA (also known as CA Manager / Private\nPKI Services) is a SaaS and on-premises private certificate\nauthority platform within the DigiCert ONE suite. It enables\norganizations to create, manage, and operate privately\ntrusted root and intermediate CAs for issuing certificates to\ninternal users, devices, servers, and workloads. Key\ncapabilities include HSM-backed key protection (FIPS 140-2\nLevel 3), support for post-quantum cryptography (ML-DSA\nvia Crypto4A HSMs), OCSP/CRL publishing, SCEP and\nEST enrollment protocol support, and integration with\nDigiCert Trust Lifecycle Manager for unified certificate\nlifecycle governance. Supports deployment models including\ncloud-hosted managed PKI, customer-managed on-\npremises, and hybrid.",
+            "dateAvailable": "2027-04-15",
+            "securityCategory": "Moderate (Class C)"
+          },
+          {
+            "serviceName": "DigiCert Account Manager",
+            "serviceDescription": "DigiCert® Account Manager is the administrative and\nidentity governance layer of the DigiCert ONE platform. It\nprovides centralized user management, role-based access\ncontrol (RBAC), single sign-on (SSO/SAML) configuration,\nAPI token and service user credential management,\norganization management, and audit logging across all\nDigiCert ONE services (including Trust Lifecycle Manager,\nSoftware Trust Manager, Private CA, and Device Trust\nManager). Account Manager is bundled with all DigiCert\nONE subscriptions and is the authoritative access control\nplane for the platform. Note: Account Manager is a platform\nmodule, not a standalone purchasable product; it is included\nwith each of the above service subscriptions.",
+            "dateAvailable": "2027-04-15",
+            "securityCategory": "Moderate (Class C)"
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+              "useCase": "AWS GovCloud (US) provides the foundational cloud\ninfrastructure for all DigiCert ONE services — Trust Lifecycle\nManager, Software Trust Manager, Private CA, and Account\nManager — deployed across US-East regions for\nredundancy and high availability.",
+              "justificationForUse": "AWS GovCloud is the only AWS partition designed for US\ngovernment workloads, with ITAR-compliant infrastructure,\nphysical access restricted to US persons, and FedRAMP\nHigh authorization. Deployment across three availability\nzones within us-gov-east-1 satisfies DigiCert ONE's high-\navailability and fault-tolerance requirements for federal\ncustomers.",
+              "mitigationMeasures": "DigiCert applies application-level encryption on top of AWS\nnative encryption, ensuring AWS personnel cannot access\nfederal customer data in plaintext. Access to GovCloud\nenvironments is restricted to vetted DigiCert personnel via\nMFA-enforced IAM roles with least-privilege policies. AWS\nCloudTrail logs and AWS Config are continuously monitored\nfor unauthorized changes.",
+              "compensatingControls": "• Application-layer encryption — federal customer\ndata is encrypted with DigiCert-managed keys",
+              "securityCategory": "High (AWS GovCloud is authorized at FedRAMP High,\nClass D — DigiCert ONE operates at Moderate, inheriting a\nsubset of High controls)"
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2635050845",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-09-21T19:15:02Z"
+      },
+      {
+        "serviceIdentification": {
+          "providerName": "Toonimo Inc.",
+          "serviceName": "Toonimo Digital Adoption Platform",
+          "serviceAcronym": "Toonimo-DAP",
+          "serviceDescription": "Toonimo is a cloud-native SaaS digital adoption platform that delivers in-application walkthroughs, AI chatbot and voicebot guidance, process intelligence, and analytics so organizations can help employees and constituents complete tasks in existing web applications. The FedRAMP authorization boundary is commercial Amazon Web Services only (containers on Kubernetes/EKS, managed database, object storage, CDN, WAF, KMS). Oracle Cloud Infrastructure is used for some commercial non-federal tenants and is outside this boundary.\n\nTarget certification: FedRAMP 20x Class C (Moderate) via Program Certification (no agency sponsor). Marketplace status: Initial Implementation. FedRAMP ID pending assignment.",
+          "certificationType": "20x",
+          "fedRampPackageId": "TOONIMO-DAP",
+          "ueiNumber": "",
+          "website": "https://www.toonimo.com",
+          "logo": "https://www.toonimo.com/images/logo_toonimo_g.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Customer Service",
+            "Education & Training",
+            "Artificial Intelligence (AI)",
+            "Analytics",
+            "Content Management System (CMS)"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://www.toonimo.com/en/trust",
+            "repositoryDescription": "Public FedRAMP 20x Trust Center: offering overview, Initial Implementation progress, machine-readable listing JSON, and vulnerability disclosure.",
+            "authenticationRequired": false
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://www.toonimo.com/en/trust#secure-configuration",
+            "repositoryDescription": "Public summary of customer-controlled security settings. Full Secure Configuration Guide is provided to agency customers and the 3PAO under NDA.",
+            "authenticationRequired": false
+          },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Vulnerability Disclosure Program"
+              ],
+              "url": "https://www.toonimo.com/en/security",
+              "repositoryDescription": "Public vulnerability disclosure policy and intake.",
+              "authenticationRequired": false
+            },
+            {
+              "repositoryType": [
+                "Machine-readable listing"
+              ],
+              "url": "https://www.toonimo.com/fedramp/frc-cso-pkg.json",
+              "repositoryDescription": "Certification Package Overview JSON (FRC-CSO-PKG / CDS-CSO-PUB).",
+              "authenticationRequired": false
+            }
+          ],
+          "nextOngoingCertificationReportDate": "2027-01-15"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Security / FedRAMP Program",
+            "contactEmail": "security@toonimo.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Federal / Public Sector Sales",
+            "contactEmail": "sales@toonimo.com"
+          }
+        ],
+        "certifiedServices": [
+          {
+            "serviceName": "In-application walkthroughs",
+            "serviceDescription": "Interactive, in-app guidance overlaid on customer web applications to complete tasks and reduce support load."
+          },
+          {
+            "serviceName": "AI chatbot and voicebot",
+            "serviceDescription": "Grounded conversational assistance with human handoff, used inside customer applications and contact-center flows."
+          },
+          {
+            "serviceName": "Process intelligence and analytics",
+            "serviceDescription": "Task completion, proficiency, and funnel analytics for authors and operators."
+          }
+        ],
+        "thirdPartyInformationResources": {
+          "certified": [],
+          "nonCertified": [
+            {
+              "name": "Amazon Web Services (commercial regions)",
+              "provider": "Amazon Web Services",
+              "website": "https://aws.amazon.com/",
+              "useCase": "Sole in-boundary cloud: compute and Kubernetes (EKS), managed database, object storage, CDN, DNS, WAF, KMS, and related edge services for the SaaS control plane and data plane."
+            },
+            {
+              "name": "GitHub",
+              "provider": "GitHub, Inc.",
+              "website": "https://github.com/",
+              "useCase": "Source control and CI/CD. Outside the authorization boundary; produces signed immutable artifacts pulled into the runtime boundary."
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2635050850",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-09-21T19:15:01Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "TBD",
+          "providerName": "SuperGov, Inc",
+          "serviceName": "SuperFile",
+          "serviceAcronym": "SUPER-CSP",
+          "serviceDescription": "SuperFile: Secure Files. Share Confidently. Stay in\nControl.\nWith SuperFile, teams and individuals protect, share,\nand manage sensitive content. Users can track who has\naccess and revoke anyone’s access at any time, even\nafter sharing.\nProtection built into every file. A proprietary\nencryption framework combines dynamic key\ngeneration, layered encryption, and embedded access\ncontrols. Trusted device verification and secure\ndecryption in memory add further protection.\nAccess wherever you work. Real-time\nsynchronization keeps files available across devices,\nwhile encrypted sharing and customizable security\nsettings put you in control of who can access and share\nyour content.",
+          "certificationType": "20x",
+          "website": "https://Superfile.com",
+          "logo": "https://www.superfile.com/super.png",
+          "certificationClass": "A",
+          "certificationPath": "Program"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Government-Only Cloud",
+          "businessCategory": [
+            "Artificial Intelligence (AI)",
+            "Collaboration",
+            "Cybersecurity & Risk Management",
+            "Data Management",
+            "Design & Multimedia",
+            "Finance",
+            "Governance, Risk, and Compliance (GRC)",
+            "Health & Wellness",
+            "Law Enforcement",
+            "Legal & Policy"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.paramify.com/superfile",
+            "repositoryDescription": "FedRAMP Trust Center for the Cloud Service Offering.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "",
+            "agencyAccessDenialProcess": "Agency Access Denial Process"
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://docs.superfile.com/",
+            "repositoryDescription": "Secure Configuration Guidance for the Cloud Service Offering.",
+            "authenticationRequired": false,
+            "accessRequestInstructions": ""
+          },
+          "ongoingCertificationReportLocation": "trust.paramify.com/superfile",
+          "nextOngoingCertificationReportDate": "2026-10-15",
+          "informationResources": {
+            "resources": [
+              {
+                "impactOnConfidentialityIntegrityAvailability": "☐ FedRAMP Rev5, including FedRAMP Ready, at any\nhistorical Impact Level\n☐ GovRAMP at any Impact Level"
+              }
+            ]
+          }
+        },
+        "contactInformation": [
+          {
+            "contactType": "FedRAMP Security Inbox",
+            "contactEmail": "security@supergov.com"
+          },
+          {
+            "contactType": "Security",
+            "contactEmail": "security@supergov.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactEmail": "sales@superfile.com"
+          }
+        ],
+        "alternativeSecurityFramework": {
+          "impactLevelScope": "SuperFile system",
+          "dateCompleted": "2025-10-15",
+          "certifyingBody": "BARR Advisory",
+          "independentAssessmentIncluded": "Yes",
+          "documentation": [
+            {
+              "framework": "SOC 2 Type II",
+              "documentType": "Complete report",
+              "location": "Please see Trust Center"
+            },
+            {
+              "framework": "SOC 2 Type II",
+              "documentType": "Bridge or gap letter",
+              "location": "Please see Trust Center"
+            },
+            {
+              "framework": "SOC 2 Type II",
+              "documentType": "Verified audit engagement documentation",
+              "location": "Please see Trust Center"
+            },
+            {
+              "framework": "SOC 2 Type II",
+              "documentType": "Supplemental compliance evidence",
+              "location": "Please see Trust Center"
+            }
+          ]
+        },
+        "ZD_frid_retro": "FR2635050855",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-09-21T19:15:03Z"
+      },
+      {
+        "fedramp_id": "FR2615441197",
+        "cso_name": "VirtualDojo AI CRM",
+        "service_model": "SaaS",
+        "deployment_model": "Public Cloud",
+        "impact_level": "Moderate",
+        "business_category": "Customer Relationship Management",
+        "certification_status": "FedRAMP 20x Class C, Initial Implementation Phase",
+        "certification_path": "Program (no agency sponsor)",
+        "agency_use_case": "Direct Use",
+        "agency_use_case_detail": "VirtualDojo AI CRM targets two federal markets and is intended for direct\nuse by federal agencies (MKT-IIP-AGU Direct Use).\n\nFederal agencies: the platform is designed for direct agency adoption to\nmanage customer-relationship, procurement, and contract workflows and the\nControlled Unclassified Information (CUI) involved integrated into a federal\ninformation system under 44 U.S.C. 3506 and receiving an agency Authorization\nto Operate once FedRAMP Certification is achieved.\n\nFederal contractors: contractors performing on federal contract vehicles\n(e.g., GSA Schedules, NASA SEWP VI, Army ITES) must, under DFARS 252.204-7012\nand CMMC, host the CUI generated in contract performance in a cloud service\nmeeting the FedRAMP Moderate baseline. VirtualDojo AI CRM is built to satisfy\nthat requirement, maintaining federal CUI generated on behalf of those\nagencies through their contractors.\n\nStatus: VirtualDojo is pursuing FedRAMP 20x Certification (Class C, Program\npath) at the Moderate impact level and is in the Initial Implementation\nPhase. It has not completed a FedRAMP assessment and holds no agency ATO yet;\nthis listing will be updated as agency adoption is confirmed.",
+        "provider": {
+          "name": "VirtualDojo, Inc.",
+          "uei": "JZCAH18DEDC8",
+          "cage_code": "142E1",
+          "website": "https://virtualdojo.com"
+        },
+        "description": "VirtualDojo AI CRM is a cloud-based customer relationship management\nplatform with AI-powered proposal generation, contact management,\npipeline forecasting, and document automation. The platform is designed\nfor government contractors and federal agencies managing procurement\nworkflows, storing Controlled Unclassified Information (CUI) including\ngovernment contract data, customer PII, proposal documents, and\nfinancial/pricing data.",
+        "services": [
+          {
+            "name": "Contact & Account Management",
+            "description": "CRM contact records, account hierarchies, activity tracking",
+            "security_objectives": {
+              "confidentiality": "Moderate",
+              "integrity": "Moderate",
+              "availability": "Moderate"
+            },
+            "in_fedramp_scope": true
+          },
+          {
+            "name": "AI Proposal Generation",
+            "description": "AI-powered proposal drafting using Google Vertex AI",
+            "security_objectives": {
+              "confidentiality": "Moderate",
+              "integrity": "Moderate",
+              "availability": "Low"
+            },
+            "in_fedramp_scope": true
+          },
+          {
+            "name": "Pipeline & Forecasting",
+            "description": "Sales pipeline management, revenue forecasting, analytics",
+            "security_objectives": {
+              "confidentiality": "Moderate",
+              "integrity": "Moderate",
+              "availability": "Low"
+            },
+            "in_fedramp_scope": true
+          },
+          {
+            "name": "Document Management",
+            "description": "Proposal documents, quotes, attachments stored in GCS",
+            "security_objectives": {
+              "confidentiality": "Moderate",
+              "integrity": "Moderate",
+              "availability": "Moderate"
+            },
+            "in_fedramp_scope": true
+          },
+          {
+            "name": "Tenant Administration",
+            "description": "Multi-tenant provisioning, user management, RBAC",
+            "security_objectives": {
+              "confidentiality": "Moderate",
+              "integrity": "High",
+              "availability": "Moderate"
+            },
+            "in_fedramp_scope": true
+          },
+          {
+            "name": "Customer Support Portal (support.virtualdojo.com)",
+            "description": "Salesforce Experience Cloud site, fronted by Cloudflare, holding product documentation and customer support requests. It is NOT part of the FedRAMP Minimum Assessment Scope, runs outside the Assured Workloads perimeter, and is NOT authorized for Controlled Unclassified Information or federal customer data. Content reaches it only when a person submits a support request. Submitting CUI or federal customer data through it is prohibited by the VirtualDojo Rules of Behavior; this is an administrative control, not a technical one. Use of this portal is optional and is not required to use VirtualDojo AI CRM.",
+            "security_objectives": {
+              "confidentiality": null,
+              "integrity": null,
+              "availability": null
+            },
+            "in_fedramp_scope": false
+          },
+          {
+            "name": "Corporate Website (virtualdojo.com, www.virtualdojo.com)",
+            "description": "Public marketing and product information website, hosted on Wix. It is NOT part of the FedRAMP Minimum Assessment Scope. It handles no federal customer data and provides no access to the CRM.",
+            "security_objectives": {
+              "confidentiality": null,
+              "integrity": null,
+              "availability": null
+            },
+            "in_fedramp_scope": false
+          },
+          {
+            "name": "Development Environment (dev.virtualdojo.com, portal.virtualdojo.com)",
+            "description": "Non-production development deployment of the platform. portal.virtualdojo.com is a historical DNS alias (CNAME) for this environment and is not a separate system or a customer portal. Neither name is part of the FedRAMP Minimum Assessment Scope, neither is offered to customers, and neither stores, processes or transmits federal customer production data.",
+            "security_objectives": {
+              "confidentiality": null,
+              "integrity": null,
+              "availability": null
+            },
+            "in_fedramp_scope": false
+          }
+        ],
+        "scope_statement": "The services marked in scope above constitute the FedRAMP Minimum Assessment Scope for VirtualDojo AI CRM. The production service is delivered exclusively at app.virtualdojo.com. The surfaces marked out of scope are the only other customer-reachable services VirtualDojo operates; they are not FedRAMP Certified and must not be used to handle federal customer data. Anything not listed above is not part of this cloud service offering.",
+        "contacts": {
+          "security": {
+            "name": "Devin Henderson",
+            "role": "ISSO / CEO",
+            "email": "security@virtualdojo.com"
+          },
+          "sales": {
+            "name": "Cyrus Calloway",
+            "role": "VP of Sales",
+            "email": "cyrus@virtualdojo.com"
+          },
+          "assessor": {
+            "name": "Anthony Timbers LLC",
+            "role": "FedRAMP-recognized 3PAO",
+            "assessor_id": "203181"
+          }
+        },
+        "leveraged_authorizations": [
+          {
+            "provider": "Google Cloud Platform",
+            "service": "GCP Assured Workloads, including Vertex AI in-boundary (us-central1 for interactive inference; us multi-region via US REP endpoint for CUI-classifier batch jobs; org policy denies global)",
+            "fedramp_id": "FR1805580474",
+            "impact_level": "Moderate",
+            "authorization_type": "JAB P-ATO"
+          },
+          {
+            "provider": "Microsoft",
+            "service": "Microsoft 365 GCC",
+            "fedramp_id": "MSO365MT",
+            "impact_level": "Moderate",
+            "authorization_type": "Agency ATO"
+          },
+          {
+            "provider": "Microsoft",
+            "service": "Azure Commercial Cloud (EMS for GCC)",
+            "fedramp_id": "F1209051525",
+            "impact_level": "High",
+            "authorization_type": "JAB P-ATO"
+          }
+        ],
+        "certifications": [
+          {
+            "name": "FedRAMP 20x Certification (Class C)",
+            "status": "In Progress",
+            "detail": "Program path; Consolidated Rules for 2026"
+          },
+          {
+            "name": "SOC 2 (Security / Common Criteria)",
+            "status": "In Progress",
+            "detail": "Type II, Security scope; independent CPA examination"
+          }
+        ],
+        "subprocessors": [
+          {
+            "name": "Google Cloud Platform",
+            "purpose": "Application hosting, storage, database, AI/ML (Vertex AI)",
+            "data_handled": "In-boundary CUI (contract data, PII, documents)",
+            "location": "US us-central1 (Assured Workloads)"
+          },
+          {
+            "name": "Microsoft",
+            "purpose": "Identity (Entra ID), endpoint management (Intune), productivity (M365)",
+            "data_handled": "Administrator identities and device posture",
+            "location": "US M365 GCC / Azure"
+          },
+          {
+            "name": "SendGrid (Twilio)",
+            "purpose": "Transactional email delivery",
+            "data_handled": "System notifications only no CUI",
+            "location": "US"
+          },
+          {
+            "name": "Stripe",
+            "purpose": "Subscription payment processing",
+            "data_handled": "Billing metadata only (plan, tenant ID) no CUI/PII",
+            "location": "US"
+          },
+          {
+            "name": "GitHub",
+            "purpose": "Source code management and CI/CD",
+            "data_handled": "Source code no customer data",
+            "location": "US"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Secure Configuration Guide",
+            "access": "public",
+            "delivery": "portal",
+            "url": "https://trust.virtualdojo.com/secure-configuration-guide",
+            "summary": "How to securely configure and operate the service",
+            "metadata": {
+              "file": "VDJ-Secure-Configuration-Guide.md",
+              "related_practices": [
+                "SCG",
+                "KSI-PIY"
+              ],
+              "version": "1.2",
+              "word_count": 5528,
+              "word_count_source": "generated PDF",
+              "last_updated": "2026-09-08"
+            }
+          },
+          {
+            "title": "Data Retention Schedule",
+            "access": "agency",
+            "delivery": "portal",
+            "summary": "Retention periods by data type",
+            "metadata": {
+              "file": "VDJ-Data-Retention-Schedule.md",
+              "related_practices": [
+                "KSI-RPL",
+                "SI-12"
+              ],
+              "version": "1.0",
+              "word_count": 2498,
+              "word_count_source": "generated PDF",
+              "last_updated": "2026-08-27"
+            }
+          },
+          {
+            "title": "Contingency & Disaster Recovery Procedures",
+            "access": "agency",
+            "delivery": "portal",
+            "summary": "Backup, recovery, and contingency testing",
+            "metadata": {
+              "file": "VDJ-Contingency-Testing-Procedures.md",
+              "related_practices": [
+                "KSI-RPL",
+                "CP-2",
+                "CP-4",
+                "CP-9",
+                "CP-10"
+              ],
+              "version": "1.0",
+              "word_count": 11490,
+              "word_count_source": "generated PDF",
+              "last_updated": "2026-08-27"
+            }
+          },
+          {
+            "title": "Operational Security Procedures",
+            "access": "agency",
+            "delivery": "portal",
+            "summary": "Detection, response, and operational controls",
+            "metadata": {
+              "file": "VDJ-Operational-Security-Procedures.md",
+              "related_practices": [
+                "KSI-INR",
+                "KSI-MLA",
+                "IR-4",
+                "SI-4"
+              ],
+              "version": "1.2",
+              "word_count": 13355,
+              "word_count_source": "generated PDF",
+              "last_updated": "2026-09-08"
+            }
+          },
+          {
+            "title": "Personnel Security Procedures",
+            "access": "agency",
+            "delivery": "portal",
+            "summary": "Screening, onboarding, and access management",
+            "metadata": {
+              "file": "VDJ-Personnel-Security-Procedures.md",
+              "related_practices": [
+                "KSI-PIY",
+                "PS-2",
+                "PS-3",
+                "PS-8"
+              ],
+              "version": "1.1",
+              "word_count": 10615,
+              "word_count_source": "generated PDF",
+              "last_updated": "2026-08-29"
+            }
+          },
+          {
+            "title": "Supply Chain Risk Management Plan",
+            "access": "agency",
+            "delivery": "portal",
+            "summary": "Third-party and supply-chain risk controls",
+            "metadata": {
+              "file": "VDJ-Supply-Chain-Risk-Management-Plan.md",
+              "related_practices": [
+                "KSI-TPR",
+                "SR-1",
+                "SR-5",
+                "SR-6"
+              ],
+              "version": "1.0",
+              "word_count": 11780,
+              "word_count_source": "generated PDF",
+              "last_updated": "2026-08-27"
+            }
+          },
+          {
+            "title": "Incident Response Procedures",
+            "access": "agency",
+            "delivery": "direct",
+            "summary": "Incident detection, response, and reporting (dissemination controls preclude portal delivery; supplied directly to agencies)",
+            "metadata": {
+              "file": "VDJ-Risk-Response-Procedures.md",
+              "related_practices": [
+                "KSI-INR",
+                "VDR",
+                "IR-4",
+                "IR-6",
+                "RA-5(11)"
+              ],
+              "version": "1.1",
+              "word_count": 10205,
+              "word_count_source": "generated PDF",
+              "last_updated": "2026-08-31"
+            }
+          },
+          {
+            "title": "Privacy Impact Assessment",
+            "access": "agency",
+            "delivery": "direct",
+            "summary": "Privacy analysis of data handling (dissemination controls preclude portal delivery; supplied directly to agencies)",
+            "metadata": {
+              "file": "VDJ-Privacy-Impact-Assessment.md",
+              "related_practices": [
+                "KSI-PIY",
+                "PT-1",
+                "RA-8"
+              ],
+              "version": "1.0",
+              "word_count": 7378,
+              "word_count_source": "generated PDF",
+              "last_updated": "2026-08-31"
+            }
+          },
+          {
+            "title": "Risk & Vulnerability Management Procedures",
+            "access": "agency",
+            "delivery": "direct",
+            "summary": "Vulnerability detection, evaluation, and remediation SLAs (dissemination controls preclude portal delivery)",
+            "metadata": {
+              "file": "VDJ-Risk-Vulnerability-Management-Procedures.md",
+              "related_practices": [
+                "VDR",
+                "VER",
+                "RA-5",
+                "SI-2"
+              ],
+              "version": "1.0",
+              "word_count": 15656,
+              "word_count_source": "generated PDF",
+              "last_updated": "2026-08-31"
+            }
+          },
+          {
+            "title": "Continuous Monitoring SOP",
+            "access": "agency",
+            "delivery": "direct",
+            "summary": "Ongoing security-monitoring program (CUI marking review in progress; supplied directly to agencies meanwhile)",
+            "metadata": {
+              "file": "VDJ-Continuous-Monitoring-SOP.md",
+              "related_practices": [
+                "CCM",
+                "CA-7"
+              ],
+              "version": "1.0",
+              "word_count": 9513,
+              "word_count_source": "generated PDF",
+              "last_updated": "2026-09-01"
+            }
+          },
+          {
+            "title": "FedRAMP Certification Package (CPO · SDR · OCR)",
+            "access": "agency",
+            "delivery": "portal",
+            "summary": "Full authorization package (human-readable + machine-readable JSON at /reports)"
+          }
+        ],
+        "documentation_overview": "Public documents are readable by everyone below. Documents marked 'agency' are FedRAMP Certification Data: portal-delivered items are retrievable as signed PDFs, marked Proprietary and Confidential, through the authenticated trust center (/documents); direct-delivery items carry dissemination controls that preclude portal delivery and are supplied to agencies through a direct controlled channel on request. Per CDS-CSO-IRP, the metadata published machine-readably here for every document is: file name, version, word count, last update and related FedRAMP practices. 1 of the 11 entries below is a composite artifact with no single source document and carries no per-document metadata.",
+        "faq": [
+          {
+            "q": "Where is my data stored?",
+            "a": "All customer data is stored and processed within the United States in Google Cloud under Assured Workloads (DATA_BOUNDARY_FOR_FEDRAMP_MODERATE). The primary region is us-central1 and disaster-recovery backups are replicated to us-east4; both are inside the same FedRAMP Moderate Assured Workloads enclave, so data never leaves the US boundary. All copies are encrypted with customer-managed keys (CMEK)."
+          },
+          {
+            "q": "How is data encrypted?",
+            "a": "Data is encrypted at rest with customer-managed encryption keys (CMEK) in Google Cloud KMS, and in transit with TLS 1.2+. Cryptography uses FIPS 140-validated modules."
+          },
+          {
+            "q": "What compliance frameworks do you follow?",
+            "a": "VirtualDojo is pursuing FedRAMP 20x Certification (Class C) and a SOC 2 (Security) examination. The service is built on Google Cloud and Microsoft services that hold FedRAMP authorizations. Current status is shown on this page."
+          },
+          {
+            "q": "Is VirtualDojo FedRAMP High or Moderate?",
+            "a": "VirtualDojo AI CRM is assessed to the FedRAMP Moderate baseline via FedRAMP 20x Certification Class C, which matches the Controlled Unclassified Information the service handles. It runs inside Google Cloud's Assured Workloads FedRAMP Moderate boundary and inherits Google's Moderate infrastructure authorization. The application's own certification is in progress."
+          },
+          {
+            "q": "Who are your subprocessors?",
+            "a": "Google Cloud, Microsoft, SendGrid, Stripe, and GitHub. Each subprocessor, its purpose, the data it handles, and its location are listed in the Subprocessors section above."
+          },
+          {
+            "q": "How do you control access?",
+            "a": "Access requires multi-factor authentication and Conditional Access via Microsoft Entra ID, enforces role-based access control and least privilege, and is continuously monitored by the automated KSI validator."
+          },
+          {
+            "q": "How do you handle security incidents?",
+            "a": "VirtualDojo maintains documented incident-response procedures with continuous monitoring and defined notification timelines. Suspected incidents can be reported to security@virtualdojo.com."
+          },
+          {
+            "q": "How is availability monitored?",
+            "a": "Service availability is measured by a Google Cloud uptime check on app.virtualdojo.com, and 46 Key Security Indicators are validated nightly in-boundary. A rolling availability percentage publishes on this page as monitoring history accrues."
+          },
+          {
+            "q": "What data does the service handle?",
+            "a": "The service handles Controlled Unclassified Information (CUI) including government contract data, customer PII, proposal documents, and pricing data, at the FedRAMP Moderate impact level."
+          },
+          {
+            "q": "How can a federal agency access the full certification package?",
+            "a": "The Certification Package (Certification Package Overview, Security Decision Record, and Ongoing Certification Reports) is available through authenticated self-service access at trust.virtualdojo.com/request-access federal (.gov/.mil) requesters are granted access automatically; other requests are reviewed under NDA. After signing in, human-readable report pages and the machine-readable JSON are both available under /reports."
+          }
+        ],
+        "data_residency": "* All customer data is stored and processed only in the United States, on Google\nCloud under Assured Workloads (policy DATA_BOUNDARY_FOR_FEDRAMP_MODERATE, which\nGoogle enforces so resources cannot be created outside the FedRAMP Moderate US\nregion set; the policy denies non-US and global locations). Compute and most AI\ninference run in us-central1 (Iowa); the CUI-classifier batch jobs run on Vertex\nAI in the US multi-region; durable object storage uses the US multi-region; and\ndisaster-recovery backups replicate to us-east4 (Virginia). All of these are US\nlocations inside the same FedRAMP Moderate Assured Workloads enclave, so data\nnever leaves the US authorization boundary. Every copy is encrypted with\ncustomer-managed keys (CMEK) that VirtualDojo controls.",
+        "data_residency_regions": [
+          {
+            "name": "us-central1",
+            "location": "Iowa",
+            "role": "Primary region",
+            "contents": "Cloud Run compute, most Vertex AI inference, the AlloyDB primary, Memorystore Redis, Secret Manager, and the primary application services. All encrypted with customer-managed keys (CMEK)."
+          },
+          {
+            "name": "us (multi-region)",
+            "location": "United States",
+            "role": "Storage and batch AI",
+            "contents": "Durable object storage (Cloud Storage US multi-region) and the CUI-classifier batch jobs on Vertex AI via the US REP endpoint. Location is enforced by the Assured Workloads DATA_BOUNDARY_FOR_FEDRAMP_MODERATE regime; the inherited gcp.resourceLocations organization policy additionally denies global and asia-east2 locations. CMEK encrypted."
+          },
+          {
+            "name": "us-east4",
+            "location": "Virginia",
+            "role": "Disaster recovery",
+            "contents": "AlloyDB cross-region CMEK backups (every 4 hours, 35-day retention) and Cloud Storage file replication. Recovery objectives RTO 12h / RPO 4h."
+          }
+        ],
+        "service_availability": {
+          "monitoring": "Google Cloud uptime checks (5-minute interval) on app.virtualdojo.com",
+          "monitoring_since": "2026-07-04",
+          "measured": {
+            "rolling_percent": 99.94,
+            "window_days": 30,
+            "daily_history": [
+              {
+                "date": "2026-08-22",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-08-23",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-08-24",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-08-25",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-08-26",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-08-27",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-08-28",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-08-29",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-08-30",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-08-31",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-01",
+                "availability_percent": 98.263
+              },
+              {
+                "date": "2026-09-02",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-03",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-04",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-05",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-06",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-07",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-08",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-09",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-10",
+                "availability_percent": 99.942
+              },
+              {
+                "date": "2026-09-11",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-12",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-13",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-14",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-15",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-16",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-17",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-18",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-19",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-20",
+                "availability_percent": 100
+              }
+            ]
+          },
+          "incidents": [
+            {
+              "date": "2026-09-01",
+              "start": "2026-09-01T15:10:00Z",
+              "end": "2026-09-01T16:50:00Z",
+              "status": "resolved",
+              "title": "Availability incident: Google Cloud us-central1 regional disruption (2026-09-01)",
+              "reference": "https://github.com/virtualdojo-inc/virtualdojo/issues/1702",
+              "source": "cloud-monitoring uptime_check/check_passed, trust-center-app-uptime",
+              "duration_minutes": 100
+            }
+          ],
+          "incident_criterion": "An availability incident is recorded when more than 2 of the 6 uptime probe locations report failure for at least 300 seconds, the same threshold that triggers the alert policy. Shorter single-probe failures appear in the daily history but are not incidents."
+        },
+        "links": {
+          "product_website": "https://virtualdojo.com",
+          "marketplace": null,
+          "secure_configuration_guide": "https://trust.virtualdojo.com/secure-configuration-guide",
+          "privacy_policy": "https://www.virtualdojo.com/privacy-policy",
+          "trust_center": "https://trust.virtualdojo.com",
+          "continuous_progress": "https://trust.virtualdojo.com/progress",
+          "logo": "https://trust.virtualdojo.com/static/logo.png"
+        },
+        "next_certification_report_date": "2026-10-02",
+        "continuous_progress": {
+          "statement": "VirtualDojo is pursuing FedRAMP 20x Certification Class C for VirtualDojo AI CRM by the Program path. Progress below is measured against dated milestones and refreshed at least quarterly. Milestones that are not yet met say so.",
+          "review_cadence": "quarterly",
+          "next_review_date": "2026-12-01",
+          "last_updated": "2026-09-21T19:06:44Z",
+          "goals": [
+            {
+              "id": "G1",
+              "title": "Continuous, automated validation of all Key Security Indicators",
+              "detail": "Every applicable Key Security Indicator is verified and validated by an automated, scheduled process with retained per-day evidence, meeting the Class C floor of at least two automated methods per indicator.\n"
+            },
+            {
+              "id": "G2",
+              "title": "Complete, machine-readable certification data published openly",
+              "detail": "Certification data is published as valid JSON against the FedRAMP schemas, retrievable without negotiation, and kept current.\n"
+            },
+            {
+              "id": "G3",
+              "title": "Independent assessment and Program certification",
+              "detail": "An independent assessment by a FedRAMP Recognized assessment service, followed by application for Certification.\n"
+            }
+          ],
+          "milestones": [
+            {
+              "id": "M1",
+              "goal": "G1",
+              "title": "Scheduled, non-interactive KSI validation operating daily",
+              "status": "met",
+              "date_met": "2026-07-04",
+              "detail": "Cloud Scheduler triggers a Cloud Run job daily at 04:00 UTC under a dedicated service account. The first scheduled firing was 2026-07-04 at 04:00 UTC; per-indicator results are retained for every day since. The job was created on 2026-07-03 and the runs that day were started by hand, so 2026-07-03 is reported as manual and is not counted as persistent validation.\n",
+              "measure": "consecutive_days_of_validation",
+              "measured": {
+                "value": 20,
+                "unit": "days",
+                "window": {
+                  "from": "2026-09-02",
+                  "to": "2026-09-21"
+                },
+                "source": "retained per-day validation results",
+                "target": 183,
+                "percent_complete": 11
+              }
+            },
+            {
+              "id": "M2",
+              "goal": "G1",
+              "title": "Two or more automated validation methods for every indicator",
+              "status": "in_progress",
+              "target_date": "2026-12-15",
+              "detail": "Class C requires at least two automated methods per indicator (FRC-CSX-VVK). Method independence and outcome-based validation evidence are being strengthened indicator by indicator.\n",
+              "measure": "ksis_with_2plus_methods",
+              "measured": {
+                "value": 42,
+                "of": 46,
+                "unit": "indicators",
+                "source": "latest validation run (indicators with 2+ PASSING automated methods)"
+              }
+            },
+            {
+              "id": "M3",
+              "goal": "G1",
+              "title": "Six months of continuous validation history",
+              "status": "in_progress",
+              "target_date": "2027-01-03",
+              "target_value": 183,
+              "detail": "FRC-CSX-MOT requires six months of historical metrics from persistent validation at Class C. The mechanism is in place and accumulating; the six-month point is reached on 2027-01-03.\n",
+              "measure": "consecutive_days_of_validation",
+              "measured": {
+                "value": 20,
+                "unit": "days",
+                "window": {
+                  "from": "2026-09-02",
+                  "to": "2026-09-21"
+                },
+                "source": "retained per-day validation results",
+                "target": 183,
+                "percent_complete": 11
+              }
+            },
+            {
+              "id": "M4",
+              "goal": "G2",
+              "title": "Public certification data published and schema-valid",
+              "status": "met",
+              "date_met": "2026-08-26",
+              "detail": "Certification data is published at https://trust.virtualdojo.com and validated against the FedRAMP Certification Package Overview schema.\n",
+              "measure": "manual"
+            },
+            {
+              "id": "M5",
+              "goal": "G2",
+              "title": "FedRAMP Marketplace listing obtained",
+              "status": "in_progress",
+              "target_date": "2026-09-01",
+              "detail": "Marketplace Provider Listing Request submitted to FedRAMP. Listing is a prerequisite to applying for Certification (FRC-APP-MLF).\n",
+              "measure": "manual"
+            },
+            {
+              "id": "M6",
+              "goal": "G3",
+              "title": "Independent assessment scheduled",
+              "status": "in_progress",
+              "target_date": "2026-09-30",
+              "detail": "Engagement with a FedRAMP Recognized independent assessment service. The assessment must be less than three months old at application (FRC-APP-FIA).\n",
+              "measure": "manual"
+            },
+            {
+              "id": "M7",
+              "goal": "G3",
+              "title": "Application for FedRAMP Certification submitted",
+              "status": "not_started",
+              "target_date": "2027-Q1",
+              "detail": "Submitted once the Marketplace listing is in place and the independent assessment is complete and fresh.\n",
+              "measure": "manual"
+            }
+          ],
+          "summary": {
+            "milestones_total": 7,
+            "milestones_met": 2,
+            "milestones_in_progress": 4,
+            "milestones_not_started": 1
+          }
+        },
+        "evidence_history": {
+          "days": [
+            {
+              "date": "2026-01-13",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-14",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-15",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-16",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-17",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-18",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-19",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-20",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-21",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-22",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-23",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-24",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-25",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-26",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-27",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-28",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-29",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-30",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-01-31",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-01",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-02",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-03",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-04",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-05",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-06",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-07",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-08",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-09",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-10",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-11",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-12",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-13",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-14",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-15",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-16",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-17",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-18",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-19",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-20",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-21",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-22",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-23",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-24",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-25",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-26",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-27",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-02-28",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-01",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-02",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-03",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-04",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-05",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-06",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-07",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-08",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-09",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-10",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-11",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-12",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-13",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-14",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-15",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-16",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-17",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-18",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-19",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-20",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-21",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-22",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-23",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-24",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-25",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-26",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-27",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-28",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-29",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-30",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-03-31",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-01",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-02",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-03",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-04",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-05",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-06",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-07",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-08",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-09",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-10",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-11",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-12",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-13",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-14",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-15",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-16",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-17",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-18",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-19",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-20",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-21",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-22",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-23",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-24",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-25",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-26",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-27",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-28",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-29",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-04-30",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-01",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-02",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-03",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-04",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-05",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-06",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-07",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-08",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-09",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-10",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-11",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-12",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-13",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-14",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-15",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-16",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-17",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-18",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-19",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-20",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-21",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-22",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-23",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-24",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-25",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-26",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-27",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-28",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-29",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-30",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-05-31",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-01",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-02",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-03",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-04",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-05",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-06",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-07",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-08",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-09",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-10",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-11",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-12",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-13",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-14",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-15",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-16",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-17",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-18",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-19",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-20",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-21",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-22",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-23",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-24",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-25",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-26",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-27",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-28",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-29",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-06-30",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-07-01",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-07-02",
+              "class": "reconstructed"
+            },
+            {
+              "date": "2026-07-03",
+              "class": "manual"
+            },
+            {
+              "date": "2026-07-04",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-05",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-06",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-07",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-08",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-09",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-10",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-11",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-12",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-13",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-14",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-15",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-16",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-17",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-18",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-19",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-20",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-21",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-22",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-23",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-24",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-25",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-26",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-27",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-28",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-29",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-30",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-07-31",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-01",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-02",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-03",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-04",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-05",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-06",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-07",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-08",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-09",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-10",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-11",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-12",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-13",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-14",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-15",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-16",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-17",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-18",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-19",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-20",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-21",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-22",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-23",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-24",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-25",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-26",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-27",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-28",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-29",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-30",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-08-31",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-01",
+              "class": "none"
+            },
+            {
+              "date": "2026-09-02",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-03",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-04",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-05",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-06",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-07",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-08",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-09",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-10",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-11",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-12",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-13",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-14",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-15",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-16",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-17",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-18",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-19",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-20",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-21",
+              "class": "scheduled"
+            }
+          ],
+          "scheduled": {
+            "days": 79,
+            "from": "2026-07-04",
+            "to": "2026-09-21",
+            "meaning": "The scheduled validation job ran unattended on this date at its documented 04:00 UTC cycle and produced per-indicator results. This is the only class that counts as persistent validation."
+          },
+          "manual": {
+            "days": 1,
+            "from": "2026-07-03",
+            "to": "2026-07-03",
+            "meaning": "Validation ran on this date but was started by hand, outside the scheduled cycle. Not counted as persistent validation."
+          },
+          "reconstructed": {
+            "days": 171,
+            "from": "2026-01-13",
+            "to": "2026-07-02",
+            "meaning": "Status derived after the fact from retained audit evidence. Not the output of validation performed on this date."
+          },
+          "total_days_with_evidence": 251,
+          "gaps": 1
+        },
+        "certification_data_access": {
+          "agency_inventory": "CDS-TRC-AAI. The inventory of federal agency users and systems holding\naccess to FedRAMP Certification Data is the membership of the Microsoft\nEntra group VDJ-TrustCenter-Agencies, which is the group the self-service\nprovisioning flow grants into. The history of that access is retained\nseparately from current membership: every grant, denial and access event\nis written to Cloud Logging with the principal, the resource and the\noutcome, on buckets whose 400-day retention is locked, so a record\nsurvives the removal of a user from the group.\n\nFedRAMP may obtain either by emailing security@virtualdojo.com. The\ncurrent inventory is supplied as a group membership export and the\nhistory as the corresponding access records for the requested period,\nwithin 5 business days of the request.",
+          "historical_snapshots": "CDS-CSO-HAD. Snapshots of FedRAMP Certification Data are aligned to\nOngoing Certification Reports and retained for the duration of the\ncertification. Each Ongoing Certification Report is published with the\nCertification Package as it stood at that report, reachable through the\nauthenticated trust center under /reports and programmatically under\n/api/certification-package, and the underlying validation run for each\nreport is retained in the append-only evidence bucket.\n\nAll necessary parties obtain a snapshot by selecting the corresponding\nreport in the trust center, or by requesting a specific period from\nsecurity@virtualdojo.com.\n\nNo Ongoing Certification Report has been issued yet: this offering is not\nyet certified and its first report is due 2026-10-02. Per the note on\nCDS-CSO-HAD, snapshots are not reconstructed for periods before the first\nOngoing Certification Report, so none is outstanding. The retention\nmechanism above is in place ahead of that first report."
+        },
+        "secure_configuration_release_history": {
+          "current_version": "1.2",
+          "document_id": "VDJ-SCG-001",
+          "public_url": "https://trust.virtualdojo.com/secure-configuration-guide",
+          "versions": [
+            {
+              "version": "1.0",
+              "date": "2026-07-01",
+              "author": "Devin Henderson, CEO / ISSO",
+              "approver": "Devin Henderson, CEO / ISSO",
+              "default_settings_changed": true,
+              "summary": "Initial release of the Secure Configuration Guide. Established the recommended secure-defaults baseline for top-level administrative (superadmin) and privileged (admin) accounts and satisfied SCG-CSO-RSC, SCG-CSO-AUP, SCG-CSO-PUB, and SCG-CSO-SDF for the FedRAMP 20x Certification Package."
+            },
+            {
+              "version": "1.1",
+              "date": "2026-08-31",
+              "author": "Devin Henderson, CEO / ISSO",
+              "approver": "Devin Henderson, CEO / ISSO",
+              "default_settings_changed": true,
+              "summary": "Corrected a recommended secure default (the application inactivity timeout) and extended the guide to own the complete Secure Configuration Guidance (SCG) family at Class C, adding the Section 1.4 family coverage and decision register across all 9 applicable SCG rules."
+            },
+            {
+              "version": "1.2",
+              "date": "2026-09-01",
+              "author": "Devin Henderson, CEO / ISSO",
+              "approver": "Devin Henderson, CEO / ISSO",
+              "default_settings_changed": false,
+              "summary": "Implemented SCG-ENH-VRH. Introduced this purpose-built, queryable release-history register for the Secure Configuration Guide and updated the guide's Section 1.4 decision register and Section 9 to record the control as implemented rather than a documented deviation. No recommended secure defaults changed."
+            }
+          ]
+        },
+        "live_monitoring": {
+          "controls_monitored": 46,
+          "controls_passing": 27,
+          "last_validated": "2026-09-21T19:02:59.836792Z"
+        },
+        "pending_fields": [
+          "marketplace_url (expected, populated after listing)"
+        ],
+        "metadata": {
+          "responsibleOfficial": {
+            "name": "Devin Henderson",
+            "title": "ISSO / CEO",
+            "email": "security@virtualdojo.com"
+          },
+          "version": "1.0",
+          "lastUpdated": "2026-09-21T19:06:44.923263+00:00",
+          "updateSource": "Generated by fedramp-ksi-validator export.certification_package from package.yaml and the automated KSI/FRR validation results."
+        },
+        "serviceIdentification": {
+          "providerName": "VirtualDojo, Inc.",
+          "serviceName": "VirtualDojo AI CRM",
+          "serviceAcronym": "VAC",
+          "serviceDescription": "VirtualDojo AI CRM is a cloud-based customer relationship management\nplatform with AI-powered proposal generation, contact management,\npipeline forecasting, and document automation. The platform is designed\nfor government contractors and federal agencies managing procurement\nworkflows, storing Controlled Unclassified Information (CUI) including\ngovernment contract data, customer PII, proposal documents, and\nfinancial/pricing data.",
+          "certificationType": "20x",
+          "fedRampPackageId": "FR2615441197",
+          "website": "https://virtualdojo.com",
+          "logo": "https://trust.virtualdojo.com/static/torii-logo.svg",
+          "ueiNumber": "JZCAH18DEDC8"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "digitalIdentityLevel": "",
+          "businessCategory": [
+            "Customer Relations Management (CRM)"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.virtualdojo.com",
+            "repositoryDescription": "Request access self-service at https://trust.virtualdojo.com/request-access.\nFederal agency and FedRAMP personnel with a .gov or .mil email are granted\naccess automatically (just-in-time) accept the emailed invitation, then\nsign in with your work email. Customers and prospective customers are\nreviewed by the security team (a non-disclosure or customer agreement must\nbe on file; typically within 2 business days). Signed-in users can view\nvalidation reports and the certification package at\nhttps://trust.virtualdojo.com/reports, with the machine-readable JSON for\nevery document linked alongside (or via the authenticated API under\n/api/). For automated/programmatic integrations, contact\nsecurity@virtualdojo.com to be issued machine credentials.\n",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "The trust center landing page at https://trust.virtualdojo.com, the public\nFedRAMP certification data feed, and the Secure Configuration Guide are\navailable to anyone with no account and no request required.\n\nAccess to the full Certification Package (Certification Package Overview,\nSecurity Decision Record, and Ongoing Certification Reports) and to the\ndetailed validation reports under https://trust.virtualdojo.com/reports is\ngranted on request at https://trust.virtualdojo.com/request-access.\nRequesters with a .gov or .mil email address are provisioned automatically\n(just in time): submit the address, then accept the emailed invitation and\nsign in with that work email. Requests from all other addresses are\nreviewed by the VirtualDojo security team and require a non-disclosure or\ncustomer agreement on file, typically completed within 2 business days.\n\nEvery document is available in both human-readable and machine-readable\nform, with the JSON linked alongside each report and also reachable through\nthe authenticated API under /api/. For automated or programmatic\nintegrations, contact security@virtualdojo.com to be issued machine\ncredentials.\n\nAccess to FedRAMP Certification Data is logged. Each record identifies the\nrequesting principal, the resource reached and the outcome, and the records\nare retained for 400 days, which exceeds the six months CDS-TRC-ACL\nrequires. An agency, assessor or customer may request a summary of its own\naccess by emailing security@virtualdojo.com from an address already\nprovisioned for trust center access; the summary covers that party's own\nactivity only and is supplied within 5 business days."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://trust.virtualdojo.com/secure-configuration-guide",
+            "repositoryDescription": "Secure Configuration Guide for federal agency customers.",
+            "authenticationRequired": false
+          },
+          "nextOngoingCertificationReportDate": "2026-10-02"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Devin Henderson",
+            "contactEmail": "security@virtualdojo.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Cyrus Calloway",
+            "contactEmail": "cyrus@virtualdojo.com"
+          }
+        ],
+        "assessor": {
+          "name": "Anthony Timbers LLC",
+          "assessorID": "203181",
+          "id": "203181",
+          "assessmentStatus": "PENDING - independent verification and validation has not been performed",
+          "assessmentTiming": "No assessment date is scheduled yet. MKT-IIP-DLA requires one within 2 years of initial listing in the Initial Implementation Phase; this offering is not yet listed, so that window has not started."
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Contact & Account Management",
+            "serviceDescription": "CRM contact records, account hierarchies, activity tracking",
+            "securityObjectives": {
+              "confidentiality": "Moderate",
+              "integrity": "Moderate",
+              "availability": "Moderate"
+            },
+            "inFedRampScope": true
+          },
+          {
+            "serviceName": "AI Proposal Generation",
+            "serviceDescription": "AI-powered proposal drafting using Google Vertex AI",
+            "securityObjectives": {
+              "confidentiality": "Moderate",
+              "integrity": "Moderate",
+              "availability": "Low"
+            },
+            "inFedRampScope": true
+          },
+          {
+            "serviceName": "Pipeline & Forecasting",
+            "serviceDescription": "Sales pipeline management, revenue forecasting, analytics",
+            "securityObjectives": {
+              "confidentiality": "Moderate",
+              "integrity": "Moderate",
+              "availability": "Low"
+            },
+            "inFedRampScope": true
+          },
+          {
+            "serviceName": "Document Management",
+            "serviceDescription": "Proposal documents, quotes, attachments stored in GCS",
+            "securityObjectives": {
+              "confidentiality": "Moderate",
+              "integrity": "Moderate",
+              "availability": "Moderate"
+            },
+            "inFedRampScope": true
+          },
+          {
+            "serviceName": "Tenant Administration",
+            "serviceDescription": "Multi-tenant provisioning, user management, RBAC",
+            "securityObjectives": {
+              "confidentiality": "Moderate",
+              "integrity": "High",
+              "availability": "Moderate"
+            },
+            "inFedRampScope": true
+          }
+        ],
+        "ZD_frid_retro": "FR2635050861",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-09-21T19:15:02Z"
       }
     ]
   }
