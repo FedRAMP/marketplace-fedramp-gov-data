@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-22T13:44:06.885Z",
-    "total_entries": 2140,
+    "export_timestamp": "2026-09-22T19:59:37.216Z",
+    "total_entries": 2141,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -32103,6 +32103,21 @@
         "to_status": "FedRAMP In Process",
         "transition_date": "2026-09-21T04:00:00.000Z",
         "recorded_date": "2026-09-21T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "bab4aa8e",
+        "product_id": "FR2024952734",
+        "csp": "Egnyte, Inc",
+        "cso": "EgnyteGov",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Ready",
+        "to_status": "Agency Authorization In Process",
+        "transition_date": "2026-09-22T04:00:00.000Z",
+        "recorded_date": "2026-09-22T04:00:00.000Z",
         "source": "AppSheet",
         "comments": ""
       }
