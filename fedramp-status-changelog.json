@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-21T19:59:31.157Z",
-    "total_entries": 2139,
+    "export_timestamp": "2026-09-22T13:44:06.885Z",
+    "total_entries": 2140,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -32089,6 +32089,21 @@
         "transition_date": "2026-09-21T19:12:09Z",
         "recorded_date": "2026-09-21T19:14:09.975Z",
         "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "a3444e1c",
+        "product_id": "FR2518943913",
+        "csp": "SentiLink Corp",
+        "cso": "SentiLink",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Ready",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-09-21T04:00:00.000Z",
+        "recorded_date": "2026-09-21T04:00:00.000Z",
+        "source": "AppSheet",
         "comments": ""
       }
     ]
