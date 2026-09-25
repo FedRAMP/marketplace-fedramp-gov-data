@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-21T19:15:02.303Z",
-    "total_entries": 92,
+    "export_timestamp": "2026-09-25T18:14:29.415Z",
+    "total_entries": 93,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -459,7 +459,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:22Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:43Z"
       },
       {
         "assessor": {
@@ -542,7 +542,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:25Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:47Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -650,7 +650,7 @@
         "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:26Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:47Z"
       },
       {
         "serviceIdentification": {
@@ -716,7 +716,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T18:55:37Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:49Z"
       },
       {
         "serviceIdentification": {
@@ -1348,7 +1348,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:26Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:48Z"
       },
       {
         "assessor": {
@@ -1662,17 +1662,17 @@
           },
           "rulesVersion": "2026.07.01.01",
           "schemaPin": "2026-06-24",
-          "schemaPinSynced": "2026-09-04"
+          "schemaPinSynced": "2026-09-24"
         },
         "metadata": {
-          "lastUpdated": "2026-09-16T01:17:06Z",
+          "lastUpdated": "2026-09-24T18:19:39Z",
           "responsibleOfficial": {
             "contactEmail": "rajesh@adventbusiness.com",
             "name": "Rajesh Gupta",
-            "title": "President, System Owner and ISSO, Advent Business Company Inc."
+            "title": "Vice President and Secretary, System Owner and ISSO, Advent Business Company Inc."
           },
           "updateSource": "Generated at request time by the deployed certification-data service; content changes reach it only through the automated build and deployment pipeline under Advent's change management procedure.",
-          "version": "1.0.0+8459cf56"
+          "version": "1.0.0+a9188fce"
         },
         "ongoingCertificationReportFeedback": {
           "acknowledgement": "Automatic on receipt (AFC-CSO-ACK mechanism, shared).",
@@ -2271,7 +2271,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:26Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:49Z"
       },
       {
         "serviceIdentification": {
@@ -2329,7 +2329,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:28Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:50Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2458,7 +2458,7 @@
         ],
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:28Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:50Z"
       },
       {
         "serviceIdentification": {
@@ -2552,12 +2552,12 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:28Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:51Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "$schemaVersion": "0.1.2",
-        "lastUpdated": "2026-09-21T19:14:29.217626+00:00",
+        "lastUpdated": "2026-09-25T18:13:51.549614+00:00",
         "sourceOfUpdate": "FedRAMP 2026 hub",
         "serviceIdentification": {
           "fedRampPackageId": "FR2628943633",
@@ -2566,6 +2566,7 @@
           "serviceAcronym": "B",
           "serviceDescription": "Boundera automates FedRAMP 20x compliance from continuous evidence collection to certification package. The platform connects to a provider's cloud accounts and code repositories, collects evidence on an automatic schedule, and persistently validates every Key Security Indicator against the FedRAMP 2026 Consolidated Rules. Every result carries evidence lineage, and every run records score history, so providers can show a trend over time instead of a point-in-time snapshot.\n\nVulnerability Detection and Response (VDR) is built in. Scanner findings and failed KSI assertions become tracked vulnerability records with due dates, dispositions, and remediation clocks aligned to FedRAMP timelines. For technical findings, Boundera's AI agent drafts code and infrastructure fixes as pull requests that engineers review before anything merges.\n\nProviders publish current posture through a branded Trust Center and grant assessors controlled access to KSIs, rules, evidence, vulnerabilities, SDR and other packages. Exports validate against the official FedRAMP 2026 JSON schemas.\n\nBoundera is available as a SaaS service or as a self-deployed installation that runs entirely within a customer's cloud environment. Boundera uses the same production platform internally to pursue its own FedRAMP 20x Class C certification.",
           "certificationType": "20x",
+          "certificationClass": "C",
           "website": "https://boundera.io",
           "logo": "https://boundera.io/logo-icon-navy.svg",
           "ueiNumber": "Z7P7R1CJQB56"
@@ -2584,7 +2585,8 @@
             ],
             "url": "https://boundera.io/tc/fedramp-trust-center",
             "repositoryDescription": "FedRAMP Trust Center landing page with access instructions.",
-            "authenticationRequired": false
+            "authenticationRequired": false,
+            "accessRequestInstructions": "Go to https://boundera.io/tc/fedramp-trust-center\n\nClick Request Access.\n\nYou’ll receive an email once access has been granted."
           },
           "secureConfigurationGuidance": {
             "repositoryType": [
@@ -2604,7 +2606,9 @@
               "authenticationRequired": true,
               "accessRequestInstructions": "Go to https://boundera.io/tc/fedramp-trust-center\n\nClick Request Access.\n\nYou’ll receive an email once access has been granted."
             }
-          ]
+          ],
+          "nextOngoingCertificationReportDate": "2026-10-27",
+          "nextQuarterlyReviewDate": "2026-11-05"
         },
         "contactInformation": [
           {
@@ -2632,27 +2636,27 @@
           {
             "serviceName": "Evidence Workspace",
             "serviceDescription": "",
-            "dateAvailable": "2026-09-21"
+            "dateAvailable": "2026-09-25"
           },
           {
             "serviceName": "Authorization OS",
             "serviceDescription": "",
-            "dateAvailable": "2026-09-21"
+            "dateAvailable": "2026-09-25"
           },
           {
             "serviceName": "Trust center",
             "serviceDescription": "",
-            "dateAvailable": "2026-09-21"
+            "dateAvailable": "2026-09-25"
           },
           {
             "serviceName": "Assessor Workspace",
             "serviceDescription": "",
-            "dateAvailable": "2026-09-21"
+            "dateAvailable": "2026-09-25"
           },
           {
             "serviceName": "Vulnerability Management Workspace",
             "serviceDescription": "",
-            "dateAvailable": "2026-09-21"
+            "dateAvailable": "2026-09-25"
           }
         ],
         "certificationProgress": [
@@ -2679,7 +2683,7 @@
         ],
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:29Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:51Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2850,7 +2854,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:29Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:51Z"
       },
       {
         "serviceIdentification": {
@@ -2914,7 +2918,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:29Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:52Z"
       },
       {
         "serviceIdentification": {
@@ -2973,7 +2977,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:31Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:53Z"
       },
       {
         "assessor": {
@@ -3026,7 +3030,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:32Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:53Z"
       },
       {
         "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -3098,7 +3102,7 @@
         },
         "ZD_frid_retro": "FR2630354484",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:33Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:55Z"
       },
       {
         "serviceIdentification": {
@@ -3182,7 +3186,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:33Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:54Z"
       },
       {
         "serviceIdentification": {
@@ -3270,7 +3274,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:33Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:54Z"
       },
       {
         "serviceIdentification": {
@@ -3360,7 +3364,7 @@
         },
         "ZD_frid_retro": "FR2630354491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:33Z"
+        "last_fetched_timestamp": "2026-09-11T20:54:04Z"
       },
       {
         "serviceIdentification": {
@@ -3399,7 +3403,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:35Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:56Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3584,7 +3588,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:35Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:56Z"
       },
       {
         "serviceIdentification": {
@@ -3648,7 +3652,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:35Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:57Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3798,7 +3802,7 @@
         },
         "ZD_frid_retro": "FR2630447318",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:37Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:58Z"
       },
       {
         "serviceIdentification": {
@@ -3886,7 +3890,7 @@
         ],
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:37Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:59Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4027,7 +4031,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:37Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:59Z"
       },
       {
         "publicDisclosure": {
@@ -4296,7 +4300,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:37Z"
+        "last_fetched_timestamp": "2026-09-25T18:13:59Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4327,7 +4331,7 @@
             "url": "https://trust.paramify.com/cursor/cursor",
             "repositoryDescription": "The Cursor FedRAMP Trust Center, hosted on Paramify, publishes the FedRAMP 20x Class A compliance program, control-by-control implementation status, and controlled deliverables such as the SOC 2 Type II report for the Cursor platform.",
             "authenticationRequired": true,
-            "accessRequestInstructions": "The compliance program and control status are viewable without an account. To review controlled deliverables, select Request Access on the FedRAMP Trust Center and identify your agency or organization. For control-level evidence, email fedramp@cursor.com from an official account to request read-only Paramify Assessment Viewer access."
+            "accessRequestInstructions": "The compliance program and control status are viewable without an account. To review controlled deliverables, select Request Access on the FedRAMP Trust Center and identify your agency or organization. For control-level evidence, email fedramp@cursor.com from an official account to request read-only Paramify Assessment Viewer access. The Certification Package Overview is also available programmatically as JSON at https://cursor.com/fedramp/certification-package-overview.json through an unauthenticated HTTPS GET that returns application/json."
           },
           "secureConfigurationGuidance": {
             "repositoryType": [
@@ -4486,9 +4490,9 @@
         ],
         "documentationOverview": {
           "status": "Initial Implementation Phase",
-          "version": "2026-09-14",
-          "lastUpdated": "2026-09-14T21:41:43Z",
-          "updateSource": "Anysphere Security review against the FedRAMP 2026 Class A rules, the current Paramify package, and public Cursor product documentation.",
+          "version": "2026-09-21",
+          "lastUpdated": "2026-09-21T03:45:12Z",
+          "updateSource": "Anysphere Security review adding the engaged independent assessor (A-LIGN, FedRAMP assessor ID 138665; FedRAMP 20x Class C assessment in progress since 2026-09-15) and the programmatic access path for this package, checked against the current Paramify package and public Cursor product documentation.",
           "responsibleOfficial": {
             "name": "Ethan Troy",
             "title": "Senior Security Engineer",
@@ -4544,9 +4548,13 @@
             "contactEmail": "pubsec@cursor.com"
           }
         ],
+        "assessor": {
+          "name": "A-LIGN",
+          "assessorID": "138665"
+        },
         "ZD_frid_retro": "FR2631054484",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:38Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:00Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5066,7 +5074,7 @@
         },
         "ZD_frid_retro": "FR2631154499",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:38Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:00Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5163,7 +5171,7 @@
         },
         "ZD_frid_retro": "FR2631258113",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:38Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:00Z"
       },
       {
         "serviceIdentification": {
@@ -5171,7 +5179,7 @@
           "providerName": "Knox Systems, Inc.",
           "serviceName": "Knox Systems",
           "serviceAcronym": "KSI",
-          "serviceDescription": "Knox Systems provides a multi-tenant cloud platform for delivering commercial software to federal government customers. Customer applications deploy on Knox's managed infrastructure across AWS, Azure, and Google Cloud Platform using Kubernetes containers, serverless functions, or virtual machines. Knox provides 24/7 Security Operations Center and Network Operations Center management, continuous security monitoring, vulnerability scanning, patch management, and incident response for all customer workloads. This includes:\n\nAdobe Connect is designed for immersive synchronous online meeting experiences for training, large-scale webinars, and virtual classroom meetings for a distributed workforce.\n\nAdobe Learning Manager (ALM) is an asynchronous Learning Management System that enables Learning and Development teams to drive personalized learning experiences across multiple devices.\n\nClass Technologies Inc. (class.com) is the next generation virtual learning environment that enables active learning, collaboration, and engagement in online classes and virtual instructor-led training.\n\nSpacelift delivers a FedRAMP-compliant IaC automation platform for secure and efficient cloud infrastructure management. It streamlines OpenTofu, Terraform, Pulumi, and Kubernetes workflows with robust policy enforcement and secret management for government agencies.\n\nTovuti LMS and Tovuti Waypoints: Best of Class Compliance Training and AI Course Authoring in Minutes not Months - Tovuti LMS is a FedRAMP Moderate authorized platform built for federal agencies, delivering secure learner management, automated compliance tracking, role-based access controls, and real-time reporting across your workforce. For AI course authoring, Tovuti Waypoints converts your agency's source materials into interactive, Section 508-compliant SCORM courses. Instantly transform policy PDFs and procedures into ready-to-deploy training, accelerating your response to new mandates with a platform built for both speed and security.\n\nCelonis Process Mining (CPM4) is the world's leading data-driven process optimization platform that helps organizations automatically discover inefficiencies, ensure compliance, and identify improvement opportunities across business processes through real-time analytics and visualization.\n\nBackupta is a Resilience Platform for Okta that ensures uninterrupted identity and access management. It delivers secure backup, disaster recovery, and rapid restoration of tenants or objects. Tenant cloning and failover strengthen business continuity, while proactive monitoring and audit logs enhance security.\n\nKovr.AI accelerates compliance authorizations (FedRAMP, CMMC, DOD SRG) from months to minutes by automating gap assessments and ATO package generation, instantly identifying compliant controls and remediation needs, then auto-generating required authorization documentation including SSPs, POA&Ms, and policies. The platform connects to environments via read-only integrations—or accepts direct evidence uploads—enabling teams to rapidly and continuously monitor and assess their security configurations, logs, policies, evidence, and artifacts using state-of-the-art Large Language Models (LLMs).\n\nOutSystems enables federal agencies to rapidly build, manage, and scale mission-critical digital solutions with government-grade security, reliability, and governance built in. The platform supports the entire software development lifecycle, including integrated DevSecOps capabilities, enabling teams to deliver better frontline digital services and modernize core mission systems significantly faster. Agencies can accelerate delivery without extensive re-skilling, expanding development teams, or taking on the risks and costs associated with vendor lock-in.\n\nArmis APEX Manage provides federal administrators a \"single pane of glass\" to aggregate operational data across multi-tenant Armis Centrix deployments. It eliminates manual per-tenant logins by centralizing health metrics and consolidated reporting into a unified oversight interface.\n\nResilinc Supply Chain Risk and Compliance Platform - Resilinc provides federal agencies with enterprise-level visibility and risk management across multi-tier supplier networks. The platform utilizes AI-driven workflows to automate disruption monitoring, forced labor compliance assessments (including UFLPA), and trade impact analysis. This SaaS solution streamlines oversight, allowing organizations to proactively identify and mitigate vulnerabilities within the global supply chain.\n\nBigID provides an automated foundation for data security, privacy, and governance across the federal enterprise. The platform proactively discovers, architectures, and inventories sensitive data and AI assets across all environments—including multi-cloud, on-premises data centers, and data pipelines. By utilizing advanced machine learning for deep data classification, BigID enables agencies to automatically identify PII, PHI, and CUI. This visibility allows organizations to mitigate risk, enforce granular access controls, and ensure regulatory compliance. From automating data lifecycle management to securing the data fed into AI models, BigID transforms fragmented information into a secure, searchable, and compliant asset.\n\nProcurement Sciences offers a secure, end-to-end AI platform purpose-built for government contractors to find, qualify, manage, and win federal and SLED opportunities. The Awarded AI platform uses advanced generative and agentic AI to identify and surface relevant opportunities, evaluate bid/no-bid fit, manage capture and pipeline activities, extract and shred requirements, generate structured proposal outlines and first drafts, and automate compliance review and quality checks prior to submission. With human-in-the-loop oversight embedded across AI-powered workflows, the platform accelerates response timelines, strengthens compliance accuracy, improves proposal quality, and drives revenue growth without compromising security.\n\nPresage Technologies delivers a contactless physiological and behavioral assessment platform leveraging advanced video-based capture and analysis across in-person and fully remote environments. The platform identifies physiological signals and micromovements from video input, surfacing actionable response patterns and real-time indicators through an intuitive interface that empowers expert analysts to observe, annotate, and interpret findings with speed and confidence. Purpose-built for federal agencies and authorized mission partners, the system supports a broad range of high-value use cases and decision-making workflows requiring non-contact assessment at scale.\n\nBrightfin is a ServiceNow-native telecom and IT financial management application that consolidates enterprise wireless, wireline, and cloud spend into a single platform for invoice processing, cost allocation, asset lifecycle management, and carrier integrations. Brightfin provides finance, IT, and procurement teams with authoritative control over telecom and technology costs directly within their ServiceNow environment.\n\nServal is an AI-native enterprise service management platform that automates employee requests, onboarding/offboarding, just-in-time access, and more. Serval allows IT, Security, HR, and other functions to eliminate repetitive work with AI agents while maintaining enterprise-grade security and governance.\n\nGovEagle is a purpose-built software-as-a-service (SaaS) platform that helps U.S. government contractors plan, analyze, draft, and manage responses to federal solicitations, addressing the mission need for faster, higher-quality, and more compliant proposal development. The authorization boundary is a multi-tenant SaaS application hosted in AWS GovCloud (US) with logical isolation between customer tenants, used by contractors' business development, capture, and proposal teams to process business and proposal data that may include Controlled Unclassified Information (CUI).\n\nFieldguide is an AI-native platform transforming how audit, advisory, and assurance work gets done. Purpose-built for regulated environments, Fieldguide brings professionals and agentic AI together to modernize engagement delivery from planning through close, enabling audit and advisory practitioners to deliver higher-quality work, strengthen client experiences, and unlock growth for the decade ahead.\n\nThreatModeler Nexus is a threat modeling platform that ingests architecture artifacts, source code, infrastructure-as-code, and system documentation to build and maintain models of an organization's applications and infrastructure, identify security threats and required controls, and generate audit-ready reports; it exists to give organizations a continuously updated, centralized record of system security design rather than relying on manual, point-in-time assessments. Within the authorization boundary, the system covers the model-building, analysis, and reporting components that process customer-submitted architecture and code artifacts and produce the resulting threat/control/compliance data; it is delivered as a single, dedicated-tenant SaaS application meaning each customer has its own isolated instance with system mapping, graph management, and reporting functioning as the major internal components. Users include security architects, developers, and security/compliance leaders at customer organizations, who submit system data (architecture diagrams, code, infrastructure configurations, and related business/technical metadata not typically PII beyond user account information) and consume the resulting risk and compliance outputs; the system depends on customer-provided source repositories and documentation as external inputs to build its models.\n\nAidFinder is a Software as a Service (SaaS) platform that helps disaster survivors identify, apply for, and track federal and state emergency assistance programs, primarily FEMA Individual Assistance. The system supports both preparedness and disaster response workflows: before a disaster, it analyzes property-level insurance coverage gaps across six hazard categories — flood, fire, wind, earthquake, snow/ice, and volcano — to help users understand their financial exposure relative to rebuild cost; after a disaster declaration, it evaluates survivor household profiles against program-specific eligibility rules using factors including property ownership, occupancy status, damage severity, insurance coverage, household composition, and income, then orchestrates AI-driven agents that automate end-to-end application submission on the survivor's behalf directly on DisasterAssistance.gov. The platform is delivered as a cloud-native, multi-tenant SaaS application used by disaster survivors and program administrators, and processes Tier 1/2 PII including names, addresses, Social Security data, financial records, property records, and damage documentation. Key external dependencies include FEMA's DisasterAssistance.gov for application submission, Socure for identity verification, Plaid for bank account linking, Mapbox for geospatial disaster visualization.\n\nSolve Intelligence is a single-tenant SaaS system for authorized examiners, attorneys, technical specialists, reviewers, supervisors, and administrators who perform government patent work. The system supports examination, legal analysis, document review, research, and drafting, and processes patent records, prior art, business data, CUI, and PII. The authorization boundary contains the web application, workflow, AI, search, and storage services, with dependencies on cloud hosting, identity services, and approved information sources.",
+          "serviceDescription": "Knox Systems provides a multi-tenant cloud platform for delivering commercial software to federal government customers. Customer applications deploy on Knox's managed infrastructure across AWS, Azure, and Google Cloud Platform using Kubernetes containers, serverless functions, or virtual machines. Knox provides 24/7 Security Operations Center and Network Operations Center management, continuous security monitoring, vulnerability scanning, patch management, and incident response for all customer workloads. This includes:\n\nAdobe Connect is designed for immersive synchronous online meeting experiences for training, large-scale webinars, and virtual classroom meetings for a distributed workforce.\n\nAdobe Learning Manager (ALM) is an asynchronous Learning Management System that enables Learning and Development teams to drive personalized learning experiences across multiple devices.\n\nClass Technologies Inc. (class.com) is the next generation virtual learning environment that enables active learning, collaboration, and engagement in online classes and virtual instructor-led training.\n\nSpacelift delivers a FedRAMP-compliant IaC automation platform for secure and efficient cloud infrastructure management. It streamlines OpenTofu, Terraform, Pulumi, and Kubernetes workflows with robust policy enforcement and secret management for government agencies.\n\nTovuti LMS and Tovuti Waypoints: Best of Class Compliance Training and AI Course Authoring in Minutes not Months - Tovuti LMS is a FedRAMP Moderate authorized platform built for federal agencies, delivering secure learner management, automated compliance tracking, role-based access controls, and real-time reporting across your workforce. For AI course authoring, Tovuti Waypoints converts your agency's source materials into interactive, Section 508-compliant SCORM courses. Instantly transform policy PDFs and procedures into ready-to-deploy training, accelerating your response to new mandates with a platform built for both speed and security.\n\nCelonis Process Mining (CPM4) is the world's leading data-driven process optimization platform that helps organizations automatically discover inefficiencies, ensure compliance, and identify improvement opportunities across business processes through real-time analytics and visualization.\n\nBackupta is a Resilience Platform for Okta that ensures uninterrupted identity and access management. It delivers secure backup, disaster recovery, and rapid restoration of tenants or objects. Tenant cloning and failover strengthen business continuity, while proactive monitoring and audit logs enhance security.\n\nKovr.AI accelerates compliance authorizations (FedRAMP, CMMC, DOD SRG) from months to minutes by automating gap assessments and ATO package generation, instantly identifying compliant controls and remediation needs, then auto-generating required authorization documentation including SSPs, POA&Ms, and policies. The platform connects to environments via read-only integrations—or accepts direct evidence uploads—enabling teams to rapidly and continuously monitor and assess their security configurations, logs, policies, evidence, and artifacts using state-of-the-art Large Language Models (LLMs).\n\nOutSystems enables federal agencies to rapidly build, manage, and scale mission-critical digital solutions with government-grade security, reliability, and governance built in. The platform supports the entire software development lifecycle, including integrated DevSecOps capabilities, enabling teams to deliver better frontline digital services and modernize core mission systems significantly faster. Agencies can accelerate delivery without extensive re-skilling, expanding development teams, or taking on the risks and costs associated with vendor lock-in.\n\nArmis APEX Manage provides federal administrators a \"single pane of glass\" to aggregate operational data across multi-tenant Armis Centrix deployments. It eliminates manual per-tenant logins by centralizing health metrics and consolidated reporting into a unified oversight interface.\n\nResilinc Supply Chain Risk and Compliance Platform - Resilinc provides federal agencies with enterprise-level visibility and risk management across multi-tier supplier networks. The platform utilizes AI-driven workflows to automate disruption monitoring, forced labor compliance assessments (including UFLPA), and trade impact analysis. This SaaS solution streamlines oversight, allowing organizations to proactively identify and mitigate vulnerabilities within the global supply chain.\n\nBigID provides an automated foundation for data security, privacy, and governance across the federal enterprise. The platform proactively discovers, architectures, and inventories sensitive data and AI assets across all environments—including multi-cloud, on-premises data centers, and data pipelines. By utilizing advanced machine learning for deep data classification, BigID enables agencies to automatically identify PII, PHI, and CUI. This visibility allows organizations to mitigate risk, enforce granular access controls, and ensure regulatory compliance. From automating data lifecycle management to securing the data fed into AI models, BigID transforms fragmented information into a secure, searchable, and compliant asset.\n\nProcurement Sciences offers a secure, end-to-end AI platform purpose-built for government contractors to find, qualify, manage, and win federal and SLED opportunities. The Awarded AI platform uses advanced generative and agentic AI to identify and surface relevant opportunities, evaluate bid/no-bid fit, manage capture and pipeline activities, extract and shred requirements, generate structured proposal outlines and first drafts, and automate compliance review and quality checks prior to submission. With human-in-the-loop oversight embedded across AI-powered workflows, the platform accelerates response timelines, strengthens compliance accuracy, improves proposal quality, and drives revenue growth without compromising security.\n\nPresage Technologies delivers a contactless physiological and behavioral assessment platform leveraging advanced video-based capture and analysis across in-person and fully remote environments. The platform identifies physiological signals and micromovements from video input, surfacing actionable response patterns and real-time indicators through an intuitive interface that empowers expert analysts to observe, annotate, and interpret findings with speed and confidence. Purpose-built for federal agencies and authorized mission partners, the system supports a broad range of high-value use cases and decision-making workflows requiring non-contact assessment at scale.\n\nBrightfin is a ServiceNow-native telecom and IT financial management application that consolidates enterprise wireless, wireline, and cloud spend into a single platform for invoice processing, cost allocation, asset lifecycle management, and carrier integrations. Brightfin provides finance, IT, and procurement teams with authoritative control over telecom and technology costs directly within their ServiceNow environment.\n\nServal is an AI-native enterprise service management platform that automates employee requests, onboarding/offboarding, just-in-time access, and more. Serval allows IT, Security, HR, and other functions to eliminate repetitive work with AI agents while maintaining enterprise-grade security and governance.\n\nGovEagle is a purpose-built software-as-a-service (SaaS) platform that helps U.S. government contractors plan, analyze, draft, and manage responses to federal solicitations, addressing the mission need for faster, higher-quality, and more compliant proposal development. The authorization boundary is a multi-tenant SaaS application hosted in AWS GovCloud (US) with logical isolation between customer tenants, used by contractors' business development, capture, and proposal teams to process business and proposal data that may include Controlled Unclassified Information (CUI).\n\nFieldguide is an AI-native platform transforming how audit, advisory, and assurance work gets done. Purpose-built for regulated environments, Fieldguide brings professionals and agentic AI together to modernize engagement delivery from planning through close, enabling audit and advisory practitioners to deliver higher-quality work, strengthen client experiences, and unlock growth for the decade ahead.\n\nThreatModeler Nexus is a threat modeling platform that ingests architecture artifacts, source code, infrastructure-as-code, and system documentation to build and maintain models of an organization's applications and infrastructure, identify security threats and required controls, and generate audit-ready reports; it exists to give organizations a continuously updated, centralized record of system security design rather than relying on manual, point-in-time assessments. Within the authorization boundary, the system covers the model-building, analysis, and reporting components that process customer-submitted architecture and code artifacts and produce the resulting threat/control/compliance data; it is delivered as a single, dedicated-tenant SaaS application meaning each customer has its own isolated instance with system mapping, graph management, and reporting functioning as the major internal components. Users include security architects, developers, and security/compliance leaders at customer organizations, who submit system data (architecture diagrams, code, infrastructure configurations, and related business/technical metadata not typically PII beyond user account information) and consume the resulting risk and compliance outputs; the system depends on customer-provided source repositories and documentation as external inputs to build its models.\n\nAidFinder is a Software as a Service (SaaS) platform that helps disaster survivors identify, apply for, and track federal and state emergency assistance programs, primarily FEMA Individual Assistance. The system supports both preparedness and disaster response workflows: before a disaster, it analyzes property-level insurance coverage gaps across six hazard categories — flood, fire, wind, earthquake, snow/ice, and volcano — to help users understand their financial exposure relative to rebuild cost; after a disaster declaration, it evaluates survivor household profiles against program-specific eligibility rules using factors including property ownership, occupancy status, damage severity, insurance coverage, household composition, and income, then orchestrates AI-driven agents that automate end-to-end application submission on the survivor's behalf directly on DisasterAssistance.gov. The platform is delivered as a cloud-native, multi-tenant SaaS application used by disaster survivors and program administrators, and processes Tier 1/2 PII including names, addresses, Social Security data, financial records, property records, and damage documentation. Key external dependencies include FEMA's DisasterAssistance.gov for application submission, Socure for identity verification, Plaid for bank account linking, Mapbox for geospatial disaster visualization.\n\nSolve Intelligence is a single-tenant SaaS system for authorized examiners, attorneys, technical specialists, reviewers, supervisors, and administrators who perform government patent work. The system supports examination, legal analysis, document review, research, and drafting, and processes patent records, prior art, business data, CUI, and PII. The authorization boundary contains the web application, workflow, AI, search, and storage services, with dependencies on cloud hosting, identity services, and approved information sources.\n\nSweetspot is a cloud-based, multi-tenant AI platform that enables federal agencies, government contractors, and enterprises to configure, run, and manage complex workflows using their data, institutional knowledge, people, and connected systems. For government contractors, Sweetspot automates work across the business development and bid lifecycle, including opportunity discovery, federal market research, teaming, pipeline and capture management, compliance and capability matrix development, and proposal drafting, with configurable human review and approval steps. Native Microsoft 365 integrations support workflow execution and collaboration across Outlook, Teams, SharePoint, Word, PowerPoint, and Excel.",
           "certificationType": "Rev5",
           "website": "http://www.knoxsystems.com/",
           "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Knox%20Logo2.png",
@@ -5341,11 +5349,16 @@
             "serviceName": "Solve Intelligence",
             "serviceDescription": "Solve Intelligence is a single-tenant SaaS system for authorized examiners, attorneys, technical specialists, reviewers, supervisors, and administrators who perform government patent work. The system supports examination, legal analysis, document review, research, and drafting, and processes patent records, prior art, business data, CUI, and PII. The authorization boundary contains the web application, workflow, AI, search, and storage services, with dependencies on cloud hosting, identity services, and approved information sources.",
             "dateAvailable": "2026-09-22"
+          },
+          {
+            "serviceName": "Sweetspot",
+            "serviceDescription": "Sweetspot is a cloud-based, multi-tenant AI platform that enables federal agencies, government contractors, and enterprises to configure, run, and manage complex workflows using their data, institutional knowledge, people, and connected systems. For government contractors, Sweetspot automates work across the business development and bid lifecycle, including opportunity discovery, federal market research, teaming, pipeline and capture management, compliance and capability matrix development, and proposal drafting, with configurable human review and approval steps. Native Microsoft 365 integrations support workflow execution and collaboration across Outlook, Teams, SharePoint, Word, PowerPoint, and Excel.",
+            "dateAvailable": "2026-09-25"
           }
         ],
         "ZD_frid_retro": "F1206111371",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:39Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:01Z"
       },
       {
         "serviceIdentification": {
@@ -5518,7 +5531,7 @@
         ],
         "ZD_frid_retro": "FR2631258125",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:39Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:01Z"
       },
       {
         "serviceIdentification": {
@@ -5595,7 +5608,7 @@
         },
         "ZD_frid_retro": "FR2631258127",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:40Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:01Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5881,7 +5894,7 @@
         ],
         "ZD_frid_retro": "FR2631258135",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:40Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:02Z"
       },
       {
         "serviceIdentification": {
@@ -5890,7 +5903,7 @@
           "providerName": "MIS Sciences Corporation",
           "serviceName": "GovPoint Cloud Services",
           "serviceAcronym": "GCS",
-          "serviceDescription": "GCS is a FedRAMP Moderate (previously JAB P-ATO authorized) IaaS/PaaS/SaaS platform offering scalable compute, private cloud, and SaaS solutions to federal agencies. Customers may deploy on shared infrastructure, provision a dedicated private cloud, or co-locate their own hardware within the GCS authorization boundary.\n\nOverview of Authorized Services\n\nCompute (IaaS)\nConfigurable virtual machines balancing CPU, RAM, and high-I/O flash storage; available as pre-hardened images or custom builds.\n\nPrivate FedRAMP Cloud (IaaS)\nDedicated, tenant-isolated compute, networking, and storage fully within the GCS boundary for agencies requiring resource segregation.\n\nBring Your Own Hardware\nCustomer-owned hardware co-located within the GCS boundary, leveraging inherited GCS controls for specialized appliances and equipment.\n\nVirtual Desktop Services (DaaS)\nBrowser-accessible virtual desktops hosted within the GCS boundary, providing agency users with secure, managed access to applications and data from any endpoint without local installation requirements.\n\nAuthorization as a Service (AaaS)\nEnables SaaS providers to inherit GCS controls and deliver FedRAMP-authorized products under the GCS P-ATO.\n\nCalabrio Workforce Engagement Management (SaaS)\nContact center workforce optimization suite covering scheduling, agent performance analytics, and business intelligence.\n\nSharetru Federal (SaaS)\nManaged File Transfer as a Service (MFTaaS) supporting CMMC, ITAR, HIPAA, and PCI-DSS regulated data exchange.\n\nSayari Risk Intelligence (SaaS)\nSupply chain and counterparty risk platform aggregating corporate ownership and trade data from 250+ jurisdictions.\n\nGRID20/20 ATI (SaaS/IoT)\nCloud-based distribution grid and environmental monitoring platform covering wildfire detection, auto-alerting, and AI-enhanced analytics. Field sensor devices operate outside the authorization boundary and feed data into the GCS-hosted ATI application, which is fully within scope.\n\nIGS Bridge (SaaS)\nSecure, platform-agnostic integration suite connecting enterprise and legacy systems (Bridge Connect), coordinating clinical decision support (Bridge Care), standardizing data relationships (Bridge Map), and delivering real-time operational analytics (Bridge Monitor).\n\nAutomated Background Investigation System (ABIS)\nABIS is a personnel security case management system that tracks background investigations for Federal Employees, Contractors, Volunteers, and Interns from initiation through final adjudication. The system allows cases to be checked for transfer of trust, eApp initiation, and to conduct all pre-hire checks, and to make pre-hire and final adjudication determinations. The system also processes security clearances, SEAD-3 self-reporting, Detailee cases, and other types of cases. Interfaces with DCSA's eDelivery, CVS, OF79a Adjudications, and other interfaces are included in the system. The system fully implements Continuous Vetting (CV) and RapBack enrollment/unenrollment and processing of alerts received from CV/Rapback\n",
+          "serviceDescription": "GCS is a FedRAMP Moderate (previously JAB P-ATO authorized) IaaS/PaaS/SaaS platform offering scalable compute, private cloud, and SaaS solutions to federal agencies. Customers may deploy on shared infrastructure, provision a dedicated private cloud, or co-locate their own hardware within the GCS authorization boundary.\n\nOverview of Authorized Services\n\nCompute (IaaS)\nConfigurable virtual machines balancing CPU, RAM, and high-I/O flash storage; available as pre-hardened images or custom builds.\n\nPrivate FedRAMP Cloud (IaaS)\nDedicated, tenant-isolated compute, networking, and storage fully within the GCS boundary for agencies requiring resource segregation.\n\nBring Your Own Hardware\nCustomer-owned hardware co-located within the GCS boundary, leveraging inherited GCS controls for specialized appliances and equipment.\n\nVirtual Desktop Services (DaaS)\nBrowser-accessible virtual desktops hosted within the GCS boundary, providing agency users with secure, managed access to applications and data from any endpoint without local installation requirements.\n\nAuthorization as a Service (AaaS)\nEnables SaaS providers to inherit GCS controls and deliver FedRAMP-authorized products under the GCS P-ATO.\n\nCalabrio Workforce Engagement Management (SaaS)\nContact center workforce optimization suite covering scheduling, agent performance analytics, and business intelligence.\n\nSharetru Federal (SaaS)\nManaged File Transfer as a Service (MFTaaS) supporting CMMC, ITAR, HIPAA, and PCI-DSS regulated data exchange.\n\nSayari Risk Intelligence (SaaS)\nSupply chain and counterparty risk platform aggregating corporate ownership and trade data from 250+ jurisdictions.\n\nGRID20/20 ATI (SaaS/IoT)\nCloud-based distribution grid and environmental monitoring platform covering wildfire detection, auto-alerting, and AI-enhanced analytics. Field sensor devices operate outside the authorization boundary and feed data into the GCS-hosted ATI application, which is fully within scope.\n\nIGS Bridge (SaaS)\nSecure, platform-agnostic integration suite connecting enterprise and legacy systems (Bridge Connect), coordinating clinical decision support (Bridge Care), standardizing data relationships (Bridge Map), and delivering real-time operational analytics (Bridge Monitor).\n\nAutomated Background Investigation System (ABIS)\nABIS is a personnel security case management system that tracks background investigations for Federal Employees, Contractors, Volunteers, and Interns from initiation through final adjudication. The system allows cases to be checked for transfer of trust, eApp initiation, and to conduct all pre-hire checks, and to make pre-hire and final adjudication determinations. The system also processes security clearances, SEAD-3 self-reporting, Detailee cases, and other types of cases. Interfaces with DCSA's eDelivery, CVS, OF79a Adjudications, and other interfaces are included in the system. The system fully implements Continuous Vetting (CV) and RapBack enrollment/unenrollment and processing of alerts received from CV/Rapback\n\nNXXUS Unified Imaging Intelligence Platform\nNXXUS is a federated enterprise imaging, clinical data, workflow, and AI orchestration platform. With NXXUS, healthcare organizations no longer need to replace their existing infrastructure or undertake a massive data migration; NXXUS creates a unified access and intelligence layer across those systems.\n",
           "certificationType": "Rev5",
           "website": "http://www.mis-sciences.com/",
           "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/MIS%20Sciences%20Logo.png"
@@ -5938,7 +5951,7 @@
           {
             "contactType": "Sales",
             "contactName": "Jamie DeLa Torre",
-            "contactEmail": "jamie@mis-sciences.com",
+            "contactEmail": "sales@mis-sciences.com",
             "contactPhone": "818-847-0213"
           }
         ],
@@ -6001,11 +6014,16 @@
             "serviceName": "Automated Background Investigation System (ABIS)",
             "serviceDescription": "ABIS is a personnel security case management system that tracks background investigations for Federal Employees, Contractors, Volunteers, and Interns from initiation through final adjudication.",
             "dateAvailable": "2026-04-01"
+          },
+          {
+            "serviceName": "NXXUS Unified Imaging Intelligence Platform",
+            "serviceDescription": "NXXUS as a federated enterprise imaging, clinical data, workflow, and AI orchestration platform.",
+            "dateAvailable": "2026-09-22"
           }
         ],
         "ZD_frid_retro": "F1311222650",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:41Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:03Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6133,7 +6151,7 @@
         },
         "ZD_frid_retro": "FR2631654537",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:42Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:04Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6215,7 +6233,7 @@
         },
         "ZD_frid_retro": "FR2631747315",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:43Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:04Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6501,7 +6519,7 @@
         ],
         "ZD_frid_retro": "FR2631747321",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:42Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:04Z"
       },
       {
         "serviceIdentification": {
@@ -6553,7 +6571,7 @@
         ],
         "ZD_frid_retro": "FR2631747327",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:42Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:05Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6666,7 +6684,7 @@
         ],
         "ZD_frid_retro": "FR2300457485",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:43Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:05Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6702,7 +6720,7 @@
         ],
         "ZD_frid_retro": "FR2632054516",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:43Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:06Z"
       },
       {
         "serviceIdentification": {
@@ -6807,7 +6825,7 @@
         ],
         "ZD_frid_retro": "FR2632054521",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:43Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:06Z"
       },
       {
         "packageMetadata": {
@@ -6898,7 +6916,7 @@
         },
         "ZD_frid_retro": "FR2520254824",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:43Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:07Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7014,7 +7032,7 @@
         },
         "ZD_frid_retro": "FR2632054530",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:44Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:07Z"
       },
       {
         "serviceIdentification": {
@@ -7098,7 +7116,7 @@
         },
         "ZD_frid_retro": "FR2632054534",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:44Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:07Z"
       },
       {
         "serviceIdentification": {
@@ -7210,7 +7228,7 @@
         },
         "ZD_frid_retro": "FR2632054491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:45Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:08Z"
       },
       {
         "serviceIdentification": {
@@ -7300,7 +7318,7 @@
         },
         "ZD_frid_retro": "FR2632054495",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:45Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:08Z"
       },
       {
         "serviceIdentification": {
@@ -7436,7 +7454,7 @@
         },
         "ZD_frid_retro": "FR2632436493",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:45Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:08Z"
       },
       {
         "serviceIdentification": {
@@ -7474,7 +7492,7 @@
         ],
         "ZD_frid_retro": "FR2632558735",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:46Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:08Z"
       },
       {
         "serviceIdentification": {
@@ -7512,7 +7530,7 @@
         ],
         "ZD_frid_retro": "FR2632558740",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:47Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:09Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7594,7 +7612,7 @@
         },
         "ZD_frid_retro": "FR2632558748",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:46Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:09Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7716,7 +7734,7 @@
         },
         "ZD_frid_retro": "FR2632731472",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:47Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:10Z"
       },
       {
         "serviceIdentification": {
@@ -7794,7 +7812,7 @@
         },
         "ZD_frid_retro": "FR2632755834",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:47Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:10Z"
       },
       {
         "serviceIdentification": {
@@ -7861,7 +7879,7 @@
         },
         "ZD_frid_retro": "FR2633058235",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:48Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:11Z"
       },
       {
         "$comment": "Ultra Security FedRAMP 20x Certification Package Overview — conformant to fedramp-certification-package-overview-schema-2026-06-24.json (FRC-CSO-PKG). Machine-readable identification package for the CSO. This is the schema-conformant CPO; the narrative CPO (metadata/publicInformation/... index) is a separate human-readable companion.",
@@ -7968,7 +7986,7 @@
         },
         "ZD_frid_retro": "FR2633058240",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:48Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:11Z"
       },
       {
         "serviceIdentification": {
@@ -8062,7 +8080,7 @@
         },
         "ZD_frid_retro": "FR2633053629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:49Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:11Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8162,7 +8180,7 @@
         },
         "ZD_frid_retro": "FR2633053633",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:49Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:12Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8239,7 +8257,7 @@
         ],
         "ZD_frid_retro": "FR2633153272",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:49Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:12Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8288,7 +8306,7 @@
         ],
         "ZD_frid_retro": "FR2633153276",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:49Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:12Z"
       },
       {
         "serviceIdentification": {
@@ -8380,7 +8398,7 @@
         },
         "ZD_frid_retro": "FR2532557612",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:50Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:13Z"
       },
       {
         "serviceIdentification": {
@@ -8413,7 +8431,7 @@
         ],
         "ZD_frid_retro": "FR2633734906",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:50Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:13Z"
       },
       {
         "serviceIdentification": {
@@ -8597,7 +8615,7 @@
         ],
         "ZD_frid_retro": "FR2633734917",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T03:11:22Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:14Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8655,7 +8673,7 @@
         },
         "ZD_frid_retro": "FR2633734921",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-20T22:44:18Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:15Z"
       },
       {
         "serviceIdentification": {
@@ -8742,7 +8760,7 @@
         },
         "ZD_frid_retro": "FR2633734927",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:51Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:14Z"
       },
       {
         "serviceIdentification": {
@@ -8862,7 +8880,7 @@
         ],
         "ZD_frid_retro": "FR2633734932",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:51Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:14Z"
       },
       {
         "serviceIdentification": {
@@ -8902,7 +8920,7 @@
         ],
         "ZD_frid_retro": "FR2626164349",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:52Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:16Z"
       },
       {
         "serviceIdentification": {
@@ -9340,7 +9358,7 @@
         },
         "ZD_frid_retro": "FR2633841585",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:52Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:16Z"
       },
       {
         "serviceIdentification": {
@@ -9490,7 +9508,7 @@
         ],
         "ZD_frid_retro": "FR2528033654",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:53Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:16Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -9604,7 +9622,7 @@
         ],
         "ZD_frid_retro": "FR2410866384",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:53Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:17Z"
       },
       {
         "serviceIdentification": {
@@ -9725,7 +9743,7 @@
         },
         "ZD_frid_retro": "FR2633957417",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:53Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:17Z"
       },
       {
         "serviceIdentification": {
@@ -9840,17 +9858,17 @@
         ],
         "ZD_frid_retro": "FR2633957422",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:56Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:19Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "serviceIdentification": {
-          "fedRampPackageId": "86Borders-ConnectAllCare",
+          "fedRampPackageId": "FR2634047811",
           "ueiNumber": "",
           "providerName": "86Borders LLC",
           "serviceName": "86Borders ConnectAllCare",
           "serviceAcronym": "86B-CAC",
-          "serviceDescription": "86Borders is the trusted partner for health plans seeking measurable outcomes and quality improvement through human-first member engagement. By pairing local Care Coordinators with our ConnectAllCare (CAC) platform, we help payers and other risk-bearing entities reach hard-to-engage members, overcome social and behavioral barriers, and translate genuine connection into improved outcomes, higher quality scores, and healthier communities. 86Borders ConnectAllCare is a cloud-based healthcare coordination platform managing patient engagement and social care, deployed on AWS Commercial infrastructure.\n\n### Certification Package Metadata [CPO-CSO-MTD]\n- **Accountable Official:** Dan McDonald, Chief Executive Officer (CEO) (dmcdonald@86borders.com)\n- **Version:** 1.0.0\n- **Date and Time of Last Update:** 2026-08-28T15:08:00Z\n- **Source of Update:** Manual",
+          "serviceDescription": "86Borders is the trusted partner for health plans seeking measurable outcomes and quality improvement through human-first member engagement. By pairing local Care Coordinators with our ConnectAllCare (CAC) platform, we help payers and other risk-bearing entities reach hard-to-engage members, overcome social and behavioral barriers, and translate genuine connection into improved outcomes, higher quality scores, and healthier communities. 86Borders ConnectAllCare is a cloud-based healthcare coordination platform managing patient engagement and social care, deployed on AWS Commercial infrastructure.\n\n### Certification Package Metadata [CPO-CSO-MTD]\n- **Accountable Official:** Dan McDonald, Chief Executive Officer (CEO) (dmcdonald@86borders.com)\n- **Version:** 1.0.1\n- **Date and Time of Last Update:** 2026-09-22T15:13:30Z\n- **Source of Update:** Manual",
           "certificationType": "20x",
           "website": "https://www.86borders.com",
           "logo": "https://www.86borders.com/wp-content/uploads/2026/07/86Borders-Logo-scaled-2.png"
@@ -10197,8 +10215,8 @@
           ]
         },
         "ZD_frid_retro": "FR2634047811",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:56Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-09-25T18:14:20Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -10252,7 +10270,7 @@
         ],
         "ZD_frid_retro": "FR2527234065",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:56Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:20Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -10301,7 +10319,7 @@
         },
         "ZD_frid_retro": "FR2634357692",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:56Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:21Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -10448,7 +10466,7 @@
         },
         "ZD_frid_retro": "FR2612446381",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:56Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:22Z"
       },
       {
         "serviceIdentification": {
@@ -10585,7 +10603,7 @@
         },
         "ZD_frid_retro": "FR2619254906",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:57Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:24Z"
       },
       {
         "serviceIdentification": {
@@ -10624,7 +10642,7 @@
         ],
         "ZD_frid_retro": "FR2619646960",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:57Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:23Z"
       },
       {
         "serviceIdentification": {
@@ -10738,7 +10756,7 @@
         },
         "ZD_frid_retro": "FR2634436150",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:57Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:23Z"
       },
       {
         "serviceIdentification": {
@@ -11088,7 +11106,7 @@
         ],
         "ZD_frid_retro": "FR2000863987A",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:57Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:23Z"
       },
       {
         "serviceIdentification": {
@@ -11150,7 +11168,7 @@
         ],
         "ZD_frid_retro": "FR2206159758",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:59Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:25Z"
       },
       {
         "serviceIdentification": {
@@ -11192,7 +11210,7 @@
         },
         "ZD_frid_retro": "FR2306445868",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:14:58Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:24Z"
       },
       {
         "serviceIdentification": {
@@ -11272,7 +11290,7 @@
         ],
         "ZD_frid_retro": "FR2634450946",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:59Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:25Z"
       },
       {
         "serviceIdentification": {
@@ -11306,7 +11324,7 @@
         },
         "ZD_frid_retro": "FR2634659079",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:15:00Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:26Z"
       },
       {
         "serviceIdentification": {
@@ -11383,7 +11401,7 @@
         },
         "ZD_frid_retro": "FR2634659083",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:59Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:25Z"
       },
       {
         "serviceIdentification": {
@@ -11425,7 +11443,7 @@
         ],
         "ZD_frid_retro": "FR2634659087",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:14:59Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:26Z"
       },
       {
         "serviceIdentification": {
@@ -11464,7 +11482,7 @@
         ],
         "ZD_frid_retro": "FR2634659091",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:15:00Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:26Z"
       },
       {
         "serviceIdentification": {
@@ -11590,7 +11608,7 @@
         ],
         "ZD_frid_retro": "FR2634659095",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:15:01Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:27Z"
       },
       {
         "serviceIdentification": {
@@ -11689,7 +11707,7 @@
         },
         "ZD_frid_retro": "FR1907847653",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-09-21T19:15:02Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:28Z"
       },
       {
         "serviceIdentification": {
@@ -11793,7 +11811,7 @@
         },
         "ZD_frid_retro": "FR2635050845",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:15:02Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:28Z"
       },
       {
         "serviceIdentification": {
@@ -11900,15 +11918,15 @@
         },
         "ZD_frid_retro": "FR2635050850",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:15:01Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:27Z"
       },
       {
         "serviceIdentification": {
-          "fedRampPackageId": "TBD",
+          "fedRampPackageId": "FR2635050855",
           "providerName": "SuperGov, Inc",
           "serviceName": "SuperFile",
           "serviceAcronym": "SUPER-CSP",
-          "serviceDescription": "SuperFile: Secure Files. Share Confidently. Stay in\nControl.\nWith SuperFile, teams and individuals protect, share,\nand manage sensitive content. Users can track who has\naccess and revoke anyone’s access at any time, even\nafter sharing.\nProtection built into every file. A proprietary\nencryption framework combines dynamic key\ngeneration, layered encryption, and embedded access\ncontrols. Trusted device verification and secure\ndecryption in memory add further protection.\nAccess wherever you work. Real-time\nsynchronization keeps files available across devices,\nwhile encrypted sharing and customizable security\nsettings put you in control of who can access and share\nyour content.",
+          "serviceDescription": "SuperFile: Stay in control after you share. SuperFile helps organizations protect and share sensitive files while retaining control over access. Users can see who has access, manage sharing permissions, and revoke access after a file has been shared. Security controls are built into each file. SuperFile combines dynamic key generation, layered encryption, and embedded access controls with trusted device verification and decryption in memory. Files synchronize across devices, giving authorized users access wherever they work. Encrypted sharing and configurable settings let organizations determine who can open and share their content.",
           "certificationType": "20x",
           "website": "https://Superfile.com",
           "logo": "https://www.superfile.com/super.png",
@@ -11956,7 +11974,7 @@
           "informationResources": {
             "resources": [
               {
-                "impactOnConfidentialityIntegrityAvailability": "☐ FedRAMP Rev5, including FedRAMP Ready, at any\nhistorical Impact Level\n☐ GovRAMP at any Impact Level"
+                "impactOnConfidentialityIntegrityAvailability": "☐ GovRAMP at any Impact Level"
               }
             ]
           }
@@ -12004,11 +12022,11 @@
           ]
         },
         "ZD_frid_retro": "FR2635050855",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:15:03Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-09-25T18:14:29Z"
       },
       {
-        "fedramp_id": "FR2615441197",
+        "fedramp_id": "FR2635050861",
         "cso_name": "VirtualDojo AI CRM",
         "service_model": "SaaS",
         "deployment_model": "Public Cloud",
@@ -12458,22 +12476,6 @@
             "window_days": 30,
             "daily_history": [
               {
-                "date": "2026-08-22",
-                "availability_percent": 100
-              },
-              {
-                "date": "2026-08-23",
-                "availability_percent": 100
-              },
-              {
-                "date": "2026-08-24",
-                "availability_percent": 100
-              },
-              {
-                "date": "2026-08-25",
-                "availability_percent": 100
-              },
-              {
                 "date": "2026-08-26",
                 "availability_percent": 100
               },
@@ -12576,6 +12578,22 @@
               {
                 "date": "2026-09-20",
                 "availability_percent": 100
+              },
+              {
+                "date": "2026-09-21",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-22",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-23",
+                "availability_percent": 100
+              },
+              {
+                "date": "2026-09-24",
+                "availability_percent": 100
               }
             ]
           },
@@ -12595,19 +12613,44 @@
         },
         "links": {
           "product_website": "https://virtualdojo.com",
-          "marketplace": null,
+          "marketplace": "https://fedramp.gov/marketplace/products/FR2635050861",
           "secure_configuration_guide": "https://trust.virtualdojo.com/secure-configuration-guide",
           "privacy_policy": "https://www.virtualdojo.com/privacy-policy",
           "trust_center": "https://trust.virtualdojo.com",
           "continuous_progress": "https://trust.virtualdojo.com/progress",
+          "quarterly_reviews": "https://trust.virtualdojo.com/quarterly-reviews",
           "logo": "https://trust.virtualdojo.com/static/logo.png"
+        },
+        "quarterly_reviews": {
+          "next_date": "2026-10-09",
+          "registration_url": "https://trust.virtualdojo.com/quarterly-reviews",
+          "calendar_file_url": null,
+          "feedback_mechanism": "security@virtualdojo.com",
+          "meetings": [
+            {
+              "date": "2026-10-09",
+              "time_local": "11:00",
+              "timezone": "America/New_York",
+              "starts_at_utc": "2026-10-09T15:00:00Z",
+              "join_url": "https://teams.microsoft.com/meet/229894863813595?p=3AaW2HDBIUWm85OG5T",
+              "platform": "Microsoft Teams"
+            },
+            {
+              "date": "2026-12-01",
+              "time_local": "14:00",
+              "timezone": "America/New_York",
+              "starts_at_utc": "2026-12-01T19:00:00Z",
+              "join_url": "https://teams.microsoft.com/meet/298395501401406?p=HERVnLUSLrogOkIjfd",
+              "platform": "Microsoft Teams"
+            }
+          ]
         },
         "next_certification_report_date": "2026-10-02",
         "continuous_progress": {
           "statement": "VirtualDojo is pursuing FedRAMP 20x Certification Class C for VirtualDojo AI CRM by the Program path. Progress below is measured against dated milestones and refreshed at least quarterly. Milestones that are not yet met say so.",
           "review_cadence": "quarterly",
           "next_review_date": "2026-12-01",
-          "last_updated": "2026-09-21T19:06:44Z",
+          "last_updated": "2026-09-25T16:13:43Z",
           "goals": [
             {
               "id": "G1",
@@ -12635,15 +12678,15 @@
               "detail": "Cloud Scheduler triggers a Cloud Run job daily at 04:00 UTC under a dedicated service account. The first scheduled firing was 2026-07-04 at 04:00 UTC; per-indicator results are retained for every day since. The job was created on 2026-07-03 and the runs that day were started by hand, so 2026-07-03 is reported as manual and is not counted as persistent validation.\n",
               "measure": "consecutive_days_of_validation",
               "measured": {
-                "value": 20,
+                "value": 24,
                 "unit": "days",
                 "window": {
                   "from": "2026-09-02",
-                  "to": "2026-09-21"
+                  "to": "2026-09-25"
                 },
                 "source": "retained per-day validation results",
                 "target": 183,
-                "percent_complete": 11
+                "percent_complete": 13
               }
             },
             {
@@ -12655,7 +12698,7 @@
               "detail": "Class C requires at least two automated methods per indicator (FRC-CSX-VVK). Method independence and outcome-based validation evidence are being strengthened indicator by indicator.\n",
               "measure": "ksis_with_2plus_methods",
               "measured": {
-                "value": 42,
+                "value": 46,
                 "of": 46,
                 "unit": "indicators",
                 "source": "latest validation run (indicators with 2+ PASSING automated methods)"
@@ -12671,15 +12714,15 @@
               "detail": "FRC-CSX-MOT requires six months of historical metrics from persistent validation at Class C. The mechanism is in place and accumulating; the six-month point is reached on 2027-01-03.\n",
               "measure": "consecutive_days_of_validation",
               "measured": {
-                "value": 20,
+                "value": 24,
                 "unit": "days",
                 "window": {
                   "from": "2026-09-02",
-                  "to": "2026-09-21"
+                  "to": "2026-09-25"
                 },
                 "source": "retained per-day validation results",
                 "target": 183,
-                "percent_complete": 11
+                "percent_complete": 13
               }
             },
             {
@@ -13735,12 +13778,28 @@
             {
               "date": "2026-09-21",
               "class": "scheduled"
+            },
+            {
+              "date": "2026-09-22",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-23",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-24",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-09-25",
+              "class": "scheduled"
             }
           ],
           "scheduled": {
-            "days": 79,
+            "days": 83,
             "from": "2026-07-04",
-            "to": "2026-09-21",
+            "to": "2026-09-25",
             "meaning": "The scheduled validation job ran unattended on this date at its documented 04:00 UTC cycle and produced per-indicator results. This is the only class that counts as persistent validation."
           },
           "manual": {
@@ -13755,7 +13814,7 @@
             "to": "2026-07-02",
             "meaning": "Status derived after the fact from retained audit evidence. Not the output of validation performed on this date."
           },
-          "total_days_with_evidence": 251,
+          "total_days_with_evidence": 255,
           "gaps": 1
         },
         "certification_data_access": {
@@ -13795,20 +13854,17 @@
         },
         "live_monitoring": {
           "controls_monitored": 46,
-          "controls_passing": 27,
-          "last_validated": "2026-09-21T19:02:59.836792Z"
+          "controls_passing": 45,
+          "last_validated": "2026-09-25T16:09:29.873415Z"
         },
-        "pending_fields": [
-          "marketplace_url (expected, populated after listing)"
-        ],
         "metadata": {
           "responsibleOfficial": {
             "name": "Devin Henderson",
             "title": "ISSO / CEO",
             "email": "security@virtualdojo.com"
           },
-          "version": "1.0",
-          "lastUpdated": "2026-09-21T19:06:44.923263+00:00",
+          "version": "1.1",
+          "lastUpdated": "2026-09-25T16:13:43.998989+00:00",
           "updateSource": "Generated by fedramp-ksi-validator export.certification_package from package.yaml and the automated KSI/FRR validation results."
         },
         "serviceIdentification": {
@@ -13817,7 +13873,7 @@
           "serviceAcronym": "VAC",
           "serviceDescription": "VirtualDojo AI CRM is a cloud-based customer relationship management\nplatform with AI-powered proposal generation, contact management,\npipeline forecasting, and document automation. The platform is designed\nfor government contractors and federal agencies managing procurement\nworkflows, storing Controlled Unclassified Information (CUI) including\ngovernment contract data, customer PII, proposal documents, and\nfinancial/pricing data.",
           "certificationType": "20x",
-          "fedRampPackageId": "FR2615441197",
+          "fedRampPackageId": "FR2635050861",
           "website": "https://virtualdojo.com",
           "logo": "https://trust.virtualdojo.com/static/torii-logo.svg",
           "ueiNumber": "JZCAH18DEDC8"
@@ -13922,8 +13978,129 @@
           }
         ],
         "ZD_frid_retro": "FR2635050861",
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-09-25T18:14:28Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "TBD",
+          "providerName": "MyEvaluations.com Inc.",
+          "serviceName": "MyEvaluations",
+          "serviceAcronym": "MYEVAL",
+          "serviceDescription": "MyEvaluations is an integrated SaaS platform for medical education\nmanagement, supporting assessments and competency management,\ncurriculum, scheduling and clinical hours, procedure and patient logs,\nonboarding and credentialing, accreditation workflows, institutional\nreporting, analytics, and continuous educational improvement.",
+          "certificationType": "20x",
+          "website": "https://www.myevaluations.com/",
+          "logo": "https://site-assets.plasmic.app/e0d717efc79e1714572b0ff755fc9dba.svg",
+          "certificationClass": "A",
+          "certificationPath": "Program"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Analytics",
+            "Artificial Intelligence (AI)",
+            "Data Management",
+            "Education & Training",
+            "Human Resources",
+            "Learning Management"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.paramify.com/myevaluations/myevaluations",
+            "repositoryDescription": "FedRAMP Trust Center for the Cloud Service Offering.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "",
+            "agencyAccessDenialProcess": "Agency Access Denial Process.pdf"
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://SecureConfigurationGuidance.pdf",
+            "repositoryDescription": "Secure Configuration Guidance for the Cloud Service Offering.",
+            "authenticationRequired": false,
+            "accessRequestInstructions": ""
+          },
+          "ongoingCertificationReportLocation": "https://trust.paramify.com/myevaluations/myevaluations",
+          "nextOngoingCertificationReportDate": "2026-10-15"
+        },
+        "contactInformation": [
+          {
+            "contactType": "FedRAMP Security Inbox",
+            "contactEmail": "security@myevaluations.com"
+          },
+          {
+            "contactType": "Security",
+            "contactName": "Safi Ahmed Choudhury",
+            "contactEmail": "security@myevaluations.com",
+            "contactPhone": "646-422-0554"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Sales",
+            "contactEmail": "sales@myevaluations.com",
+            "contactPhone": "646-422-0554"
+          },
+          {
+            "contactType": "Primary",
+            "contactName": "David P Melamed",
+            "contactEmail": "david@myevaluations.com",
+            "contactPhone": "917-741-4116"
+          }
+        ],
+        "assessor": {
+          "name": "Prescient Security, LLC.",
+          "assessorID": "202040",
+          "independentAssessmentUsed": true
+        },
+        "alternativeSecurityFramework": {
+          "frameworkUsed": "SOC 2 Type II",
+          "impactLevelScope": "MyEvaluations",
+          "dateCompleted": "2026-12-19",
+          "certifyingBody": "Atom Assurances LLC",
+          "independentAssessmentIncluded": "Yes",
+          "mappingToFedRampRules": "SOC 2 Type II controls are mapped in accordance with the FedRAMP\ncontrols.",
+          "documentation": [
+            {
+              "framework": "SOC 2 Type II",
+              "documentType": "Complete report",
+              "location": "See Trust Center"
+            },
+            {
+              "framework": "SOC 2 Type II",
+              "documentType": "Bridge or gap letter",
+              "location": "See Trust Center"
+            },
+            {
+              "framework": "SOC 2 Type II",
+              "documentType": "Verified audit engagement documentation",
+              "location": "See Trust Center"
+            },
+            {
+              "framework": "SOC 2 Type II",
+              "documentType": "Estimated schedule for upcoming report",
+              "location": "See Trust Center"
+            }
+          ]
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "MyEvaluations",
+            "serviceDescription": "Integrated medical education management SaaS platform\nsupporting assessments and competencies, educational\noperations, learning and development, analytics, accreditation and\ninstitutional reporting, onboarding and credentialing, and related\nadministrative workflows."
+          },
+          {
+            "serviceName": "NA",
+            "serviceDescription": "NA"
+          }
+        ],
+        "ZD_frid_retro": "FR2635447609",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-09-21T19:15:02Z"
+        "last_fetched_timestamp": "2026-09-25T18:14:30Z"
       }
     ]
   }

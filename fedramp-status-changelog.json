@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-24T19:59:30.629Z",
-    "total_entries": 2148,
+    "export_timestamp": "2026-09-25T18:13:40.851Z",
+    "total_entries": 2150,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -28588,7 +28588,7 @@
         "cso": "Omnissa Government Services",
         "cert_type": "Rev5",
         "cert_path": "Agency",
-        "cert_class": "Class C",
+        "cert_class": "Class D",
         "from_status": "PMO Review",
         "to_status": "Authorized",
         "transition_date": "2026-05-04T04:00:00.000Z",
@@ -29008,7 +29008,7 @@
         "cso": "Riverbed Platform for Government (RP4G)",
         "cert_type": "Rev5",
         "cert_path": "Agency",
-        "cert_class": "Class C",
+        "cert_class": "Class D",
         "from_status": "PMO Review",
         "to_status": "Authorized",
         "transition_date": "2026-05-19T04:00:00.000Z",
@@ -29023,7 +29023,7 @@
         "cso": "Artera Harmony Federal Edition",
         "cert_type": "Rev5",
         "cert_path": "Agency",
-        "cert_class": "Class C",
+        "cert_class": "Class D",
         "from_status": "PMO Review",
         "to_status": "Authorized",
         "transition_date": "2026-05-19T04:00:00.000Z",
@@ -32188,8 +32188,8 @@
         "cso": "Harness for Government",
         "cert_type": "20x",
         "cert_path": "Program",
-        "cert_class": "Unknown",
-        "from_status": "",
+        "cert_class": "Class A",
+        "from_status": "Initial Implementation",
         "to_status": "FedRAMP In Process",
         "transition_date": "2026-09-08T04:00:00.000Z",
         "recorded_date": "2026-09-23T04:00:00.000Z",
@@ -32224,6 +32224,36 @@
         "transition_date": "2026-09-24T04:00:00.000Z",
         "recorded_date": "2026-09-24T04:00:00.000Z",
         "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "808575bb",
+        "product_id": "FR2627547824",
+        "csp": "CrowdStrike, Inc.",
+        "cso": "CrowdStrike Falcon Platform IL5 SaaS",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class D",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-09-25T04:00:00.000Z",
+        "recorded_date": "2026-09-25T04:00:00.000Z",
+        "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "1a4bc315-2dcb-4cdb-b1d0-69b8b770067f",
+        "product_id": "FR2635447609",
+        "csp": "MyEvaluations.com Inc.",
+        "cso": "MyEvaluations",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-25T18:13:27Z",
+        "recorded_date": "2026-09-25T18:13:37.875Z",
+        "source": "frc-cso-pkg",
         "comments": ""
       }
     ]
