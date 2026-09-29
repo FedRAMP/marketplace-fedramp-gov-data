@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-28T19:59:31.107Z",
-    "total_entries": 2150,
+    "export_timestamp": "2026-09-29T19:59:30.677Z",
+    "total_entries": 2151,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -32254,6 +32254,21 @@
         "transition_date": "2026-09-25T18:13:27Z",
         "recorded_date": "2026-09-25T18:13:37.875Z",
         "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "101160a3",
+        "product_id": "FR2611036548",
+        "csp": "LexisNexis Risk Solutions",
+        "cso": "LexisNexis Risk Enterprise Platform",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "Agency Review",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-09-29T04:00:00.000Z",
+        "recorded_date": "2026-09-29T04:00:00.000Z",
+        "source": "AppSheet",
         "comments": ""
       }
     ]
