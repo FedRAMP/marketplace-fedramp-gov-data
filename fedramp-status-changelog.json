@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-09-30T03:59:14.464Z",
-    "total_entries": 2151,
+    "export_timestamp": "2026-10-01T03:59:15.956Z",
+    "total_entries": 2155,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -32269,6 +32269,66 @@
         "transition_date": "2026-09-29T04:00:00.000Z",
         "recorded_date": "2026-09-29T04:00:00.000Z",
         "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "eed9d7a7-276e-46b5-b1ad-4e4ccc1421c3",
+        "product_id": "FR2635930421",
+        "csp": "SOFware, LLC",
+        "cso": "FORGE",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-30T13:26:58Z",
+        "recorded_date": "2026-09-30T13:28:29.046Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "3a177d3f-ada0-4f27-af6c-6c2619524df7",
+        "product_id": "FR2635930425",
+        "csp": "CodeSignal, Inc.",
+        "cso": "CodeSignal Platform",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-30T13:27:04Z",
+        "recorded_date": "2026-09-30T13:28:29.046Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "fe39a276-3b97-4f66-9926-3b68dd517c90",
+        "product_id": "FR2635930439",
+        "csp": "Advent Business Company Inc.",
+        "cso": "Enablement®",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-30T13:27:16Z",
+        "recorded_date": "2026-09-30T13:28:29.046Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "dae9c9aa-ad39-4358-bba1-a4127d313de7",
+        "product_id": "FR2635930482",
+        "csp": "VisualVault LLC",
+        "cso": "VisualVault Cloud",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-09-30T13:27:54Z",
+        "recorded_date": "2026-09-30T13:28:29.046Z",
+        "source": "frc-cso-pkg",
         "comments": ""
       }
     ]
