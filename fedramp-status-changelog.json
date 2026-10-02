@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-01T19:59:31.964Z",
-    "total_entries": 2155,
+    "export_timestamp": "2026-10-02T16:06:00.155Z",
+    "total_entries": 2159,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -32328,6 +32328,66 @@
         "to_status": "Initial Implementation",
         "transition_date": "2026-09-30T13:27:54Z",
         "recorded_date": "2026-09-30T13:28:29.046Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "799947b0-7a01-4398-9b52-31588817f33c",
+        "product_id": "FR2700137029",
+        "csp": "HealthEdge Software, Inc",
+        "cso": "HealthEdge Integrated Solution Suite",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-02T15:17:07Z",
+        "recorded_date": "2026-10-02T16:02:19.472Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "4d893c2c-d75a-43b6-ad5e-c29eec4ce351",
+        "product_id": "FR2700137035",
+        "csp": "Caldera AI Inc.",
+        "cso": "Mesa",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-02T15:17:11Z",
+        "recorded_date": "2026-10-02T16:02:19.472Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "be3e4219-718e-44fc-9098-f2e2c60a31a6",
+        "product_id": "FR2700137041",
+        "csp": "Dossier, Inc.",
+        "cso": "Dossier for Government",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-02T15:17:18Z",
+        "recorded_date": "2026-10-02T16:02:19.472Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "b4d3aa8e-1232-4c3d-a3ab-9a39cadad210",
+        "product_id": "FR2700137045",
+        "csp": "RegScale",
+        "cso": "RegScale Trust Center",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-02T15:17:23Z",
+        "recorded_date": "2026-10-02T16:02:19.472Z",
         "source": "frc-cso-pkg",
         "comments": ""
       }
