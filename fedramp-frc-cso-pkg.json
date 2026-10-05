@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-02T16:07:06.982Z",
-    "total_entries": 107,
+    "export_timestamp": "2026-10-05T13:19:37.990Z",
+    "total_entries": 108,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -459,7 +459,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:03Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:33Z"
       },
       {
         "assessor": {
@@ -542,7 +542,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:10Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:39Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -650,7 +650,7 @@
         "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:11Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:40Z"
       },
       {
         "serviceIdentification": {
@@ -716,7 +716,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:11Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:40Z"
       },
       {
         "serviceIdentification": {
@@ -1348,7 +1348,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:12Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:41Z"
       },
       {
         "assessor": {
@@ -1665,14 +1665,14 @@
           "schemaPinSynced": "2026-09-28"
         },
         "metadata": {
-          "lastUpdated": "2026-09-29T20:31:49Z",
+          "lastUpdated": "2026-10-05T05:21:42Z",
           "responsibleOfficial": {
             "contactEmail": "rajesh@adventbusiness.com",
             "name": "Rajesh Gupta",
             "title": "Vice President and Secretary, System Owner and ISSO, Advent Business Company Inc."
           },
           "updateSource": "Generated at request time by the deployed certification-data service; content changes reach it only through the automated build and deployment pipeline under Advent's change management procedure.",
-          "version": "1.0.0+bc6ec232"
+          "version": "1.0.0+8e10e704"
         },
         "ongoingCertificationReportFeedback": {
           "acknowledgement": "Automatic on receipt (AFC-CSO-ACK mechanism, shared).",
@@ -2271,7 +2271,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:12Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:41Z"
       },
       {
         "serviceIdentification": {
@@ -2329,7 +2329,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:13Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:43Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2458,7 +2458,7 @@
         ],
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:14Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:43Z"
       },
       {
         "serviceIdentification": {
@@ -2552,106 +2552,108 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:14Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:43Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
-        "$schemaVersion": "0.1.4",
-        "lastUpdated": "2026-10-02T16:06:15.273424+00:00",
-        "sourceOfUpdate": "FedRAMP 2026 hub",
-        "serviceIdentification": {
-          "fedRampPackageId": "FR2628943633",
-          "providerName": "Boundera",
-          "serviceName": "Boundera SaaS",
-          "serviceAcronym": "B",
-          "serviceDescription": "Boundera automates FedRAMP 20x compliance from continuous evidence collection to certification package. The platform connects to a provider's cloud accounts and code repositories, collects evidence on an automatic schedule, and persistently validates every Key Security Indicator against the FedRAMP 2026 Consolidated Rules. Every result carries evidence lineage, and every run records score history, so providers can show a trend over time instead of a point-in-time snapshot.\n\nVulnerability Detection and Response (VDR) is built in. Scanner findings and failed KSI assertions become tracked vulnerability records with due dates, dispositions, and remediation clocks aligned to FedRAMP timelines. For technical findings, Boundera's AI agent drafts code and infrastructure fixes as pull requests that engineers review before anything merges.\n\nProviders publish current posture through a branded Trust Center and grant assessors controlled access to KSIs, rules, evidence, vulnerabilities, SDR and other packages. Exports validate against the official FedRAMP 2026 JSON schemas.\n\nBoundera is available as a SaaS service or as a self-deployed installation that runs entirely within a customer's cloud environment. Boundera uses the same production platform internally to pursue its own FedRAMP 20x Class C certification.",
-          "certificationType": "20x",
-          "certificationClass": "C",
-          "website": "https://boundera.io",
-          "logo": "https://boundera.io/logo-icon-navy.svg",
-          "ueiNumber": "Z7P7R1CJQB56"
+        "assessor": {
+          "name": "Schellman Compliance, LLC",
+          "assessorID": "136571"
         },
+        "cpoVersion": "2026.10.04-1",
+        "lastUpdated": "2026-10-04T14:31:53.538573+00:00",
+        "$schemaVersion": "0.1.4",
+        "sourceOfUpdate": "FedRAMP 2026 ConMon snapshot",
+        "certifiedServices": [
+          {
+            "serviceName": "Evidence Workspace",
+            "securityCategory": "Moderate",
+            "serviceDescription": "",
+            "inMinimumAssessmentScope": true
+          },
+          {
+            "serviceName": "Authorization OS",
+            "securityCategory": "Moderate",
+            "serviceDescription": "",
+            "inMinimumAssessmentScope": true
+          },
+          {
+            "serviceName": "Trust center",
+            "securityCategory": "Moderate",
+            "serviceDescription": "",
+            "inMinimumAssessmentScope": true
+          },
+          {
+            "serviceName": "Assessor Workspace",
+            "securityCategory": "Moderate",
+            "serviceDescription": "",
+            "inMinimumAssessmentScope": true
+          },
+          {
+            "serviceName": "Vulnerability Management Workspace",
+            "securityCategory": "Moderate",
+            "serviceDescription": "",
+            "inMinimumAssessmentScope": true
+          }
+        ],
         "serviceProperties": {
           "serviceType": [
             "SaaS"
           ],
-          "deploymentModel": "Public Cloud",
-          "businessCategory": [
-            "Cybersecurity & Risk Management"
-          ],
           "trustCenter": {
+            "url": "https://boundera.io/tc/fedramp-trust-center",
             "repositoryType": [
               "Trust Center"
             ],
-            "url": "https://boundera.io/tc/fedramp-trust-center",
             "repositoryDescription": "FedRAMP Trust Center landing page with access instructions.",
             "authenticationRequired": false,
             "accessRequestInstructions": "Go to https://boundera.io/tc/fedramp-trust-center\n\nClick Request Access.\n\nYou’ll receive an email once access has been granted."
           },
-          "secureConfigurationGuidance": {
-            "repositoryType": [
-              "Secure Configuration Guidance"
-            ],
-            "url": "https://boundera.io/trust/secure-configuration-guide",
-            "repositoryDescription": "Secure Configuration Guide.",
-            "authenticationRequired": false
-          },
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Cybersecurity & Risk Management"
+          ],
+          "availabilityService": "https://stats.uptimerobot.com/xCcAavrKoH/802400387",
+          "documentationOverview": "Secure configuration guide is publicly available on our website.",
           "additionalRepositories": [
             {
+              "url": "https://boundera.io/tc/fedramp-trust-center",
               "repositoryType": [
                 "Policies and Procedures"
               ],
-              "url": "https://boundera.io/tc/fedramp-trust-center",
               "repositoryDescription": "Policy and procedure index (CDS-CSO-IRP): each policy and procedure the provider has made visible at the reader's access level, with its name, file, summary, version, date of last update, and related FedRAMP Practices.",
               "authenticationRequired": true,
               "accessRequestInstructions": "Go to https://boundera.io/tc/fedramp-trust-center\n\nClick Request Access.\n\nYou’ll receive an email once access has been granted."
             }
           ],
-          "nextOngoingCertificationReportDate": "2026-10-27",
-          "nextQuarterlyReviewDate": "2026-11-05"
+          "nextQuarterlyReviewDate": "2026-11-05",
+          "quarterlyReviewRegistration": "https://docs.google.com/forms/d/e/1FAIpQLSf1TdXlFW2uVQ9K9WfJvI8g5ddL5ssZFzJ4pQxDABARt-e5xw/viewform",
+          "secureConfigurationGuidance": {
+            "url": "https://boundera.io/trust/secure-configuration-guide",
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "repositoryDescription": "Secure Configuration Guide.",
+            "authenticationRequired": false
+          },
+          "nextOngoingCertificationReportDate": "2026-10-27"
         },
         "contactInformation": [
           {
-            "contactType": "Security",
             "contactName": "Edmund Agu",
+            "contactType": "Security",
             "contactEmail": "security@boundera.io"
           },
           {
-            "contactType": "Sales",
             "contactName": "Arian Taj",
+            "contactType": "Sales",
             "contactEmail": "sales@boundera.io"
           },
           {
-            "contactType": "Responsible Official",
             "contactName": "Edmund C Agu",
+            "contactType": "Responsible Official",
             "contactEmail": "eddy@boundera.io",
             "contactTitle": "Co-Founder"
-          }
-        ],
-        "assessor": {
-          "name": "Schellman Compliance, LLC",
-          "assessorID": "136571"
-        },
-        "certifiedServices": [
-          {
-            "serviceName": "Evidence Workspace",
-            "serviceDescription": ""
-          },
-          {
-            "serviceName": "Authorization OS",
-            "serviceDescription": ""
-          },
-          {
-            "serviceName": "Trust center",
-            "serviceDescription": ""
-          },
-          {
-            "serviceName": "Assessor Workspace",
-            "serviceDescription": ""
-          },
-          {
-            "serviceName": "Vulnerability Management Workspace",
-            "serviceDescription": ""
           }
         ],
         "certificationProgress": [
@@ -2676,9 +2678,22 @@
             "status": "planned"
           }
         ],
+        "serviceIdentification": {
+          "logo": "https://boundera.io/logo-icon-navy.svg",
+          "website": "https://boundera.io",
+          "ueiNumber": "Z7P7R1CJQB56",
+          "serviceName": "Boundera SaaS",
+          "providerName": "Boundera",
+          "serviceAcronym": "B",
+          "fedRampPackageId": "FR2628943633",
+          "certificationType": "20x",
+          "certificationClass": "C",
+          "marketplaceListing": "https://www.fedramp.gov/marketplace/products/FR2628943633/",
+          "serviceDescription": "Boundera automates FedRAMP 20x compliance from continuous evidence collection to certification package. The platform connects to a provider's cloud accounts and code repositories, collects evidence on an automatic schedule, and persistently validates every Key Security Indicator against the FedRAMP 2026 Consolidated Rules. Every result carries evidence lineage, and every run records score history, so providers can show a trend over time instead of a point-in-time snapshot.\n\nVulnerability Detection and Response (VDR) is built in. Scanner findings and failed KSI assertions become tracked vulnerability records with due dates, dispositions, and remediation clocks aligned to FedRAMP timelines. For technical findings, Boundera's AI agent drafts code and infrastructure fixes as pull requests that engineers review before anything merges.\n\nProviders publish current posture through a branded Trust Center and grant assessors controlled access to KSIs, rules, evidence, vulnerabilities, SDR and other packages. Exports validate against the official FedRAMP 2026 JSON schemas.\n\nBoundera is available as a SaaS service or as a self-deployed installation that runs entirely within a customer's cloud environment. Boundera uses the same production platform internally to pursue its own FedRAMP 20x Class C certification."
+        },
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:15Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:44Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2849,7 +2864,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:15Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:44Z"
       },
       {
         "serviceIdentification": {
@@ -2913,7 +2928,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:16Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:45Z"
       },
       {
         "serviceIdentification": {
@@ -2972,7 +2987,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:17Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:47Z"
       },
       {
         "assessor": {
@@ -3025,7 +3040,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:19Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:48Z"
       },
       {
         "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -3097,7 +3112,7 @@
         },
         "ZD_frid_retro": "FR2630354484",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:20Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:50Z"
       },
       {
         "serviceIdentification": {
@@ -3181,7 +3196,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:19Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:49Z"
       },
       {
         "serviceIdentification": {
@@ -3269,7 +3284,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:20Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:49Z"
       },
       {
         "serviceIdentification": {
@@ -3357,7 +3372,7 @@
         },
         "ZD_frid_retro": "FR2630354491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:20Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:50Z"
       },
       {
         "serviceIdentification": {
@@ -3396,7 +3411,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:22Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:51Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3581,7 +3596,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:21Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:51Z"
       },
       {
         "serviceIdentification": {
@@ -3645,7 +3660,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:22Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:51Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3795,7 +3810,7 @@
         },
         "ZD_frid_retro": "FR2630447318",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:23Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:53Z"
       },
       {
         "serviceIdentification": {
@@ -3884,7 +3899,7 @@
         ],
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:23Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:53Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4025,7 +4040,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:25Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:53Z"
       },
       {
         "publicDisclosure": {
@@ -4294,7 +4309,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:25Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:53Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4548,7 +4563,7 @@
         },
         "ZD_frid_retro": "FR2631054484",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:26Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:54Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5068,7 +5083,7 @@
         },
         "ZD_frid_retro": "FR2631154499",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:26Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:54Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5165,7 +5180,7 @@
         },
         "ZD_frid_retro": "FR2631258113",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:26Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:54Z"
       },
       {
         "serviceIdentification": {
@@ -5357,7 +5372,7 @@
         ],
         "ZD_frid_retro": "F1206111371",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:27Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:56Z"
       },
       {
         "serviceIdentification": {
@@ -5469,7 +5484,7 @@
         "lastUpdated": "2026-08-11",
         "ZD_frid_retro": "FR2631258122",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:27Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:55Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5530,7 +5545,7 @@
         ],
         "ZD_frid_retro": "FR2631258125",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:27Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:55Z"
       },
       {
         "serviceIdentification": {
@@ -5607,7 +5622,7 @@
         },
         "ZD_frid_retro": "FR2631258127",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:28Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:56Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5642,6 +5657,14 @@
             "repositoryDescription": "Specset Trust Center, the single repository for FedRAMP Certification Data for the Specset Cloud Platform. The landing page, compliance posture summary, subprocessor list and FedRAMP milestone information are public. The Class A certification data has been published there since 2026-09-14 as 24 restricted resources, with no non-disclosure agreement or acceptance of terms required. Twenty-two are open to access requests: the Security Decision Record, the example Ongoing Certification Report and the information-resources inventory, each in machine-readable and human-readable form; the Incident Response Procedure; the Vulnerability Management Procedure; the SOC 2 Type II report and the engagement letter for that examination, both view only; and twelve supporting-evidence documents, one per artifact the Security Decision Record cites. The other two, the management representation letter and the SOC 2 renewal engagement letter, are private resources supplied on request to fedramp@specset.com.",
             "authenticationRequired": true,
             "accessRequestInstructions": "The landing page at https://trust.specset.com requires no login. FedRAMP staff and agency reviewers request access to the restricted FedRAMP Certification Data from the Trust Center page. Requests from fedramp.gov and gsa.gov email addresses are approved automatically; Specset approves all other requests manually. Specset does not require acceptance of terms or a non-disclosure agreement. If a request is not approved within one business day, email fedramp@specset.com."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://docs.specset.com/docs/secure-configuration",
+            "repositoryDescription": "Specset's Secure Configuration Guide (SCG-CSO-RSC), a public page in the product documentation written for the administrators of a customer organization: the roles that control an organization and the FedRAMP term for each, the recommended security settings for an organization that holds federal information or CUI and what each does, how Admin accounts are set up, reviewed and removed, and how account access is requested and recovered. It gives the recommended settings in JSON with the API query that exports an organization's current settings for comparison, and the version history of the recommended settings.",
+            "authenticationRequired": false
           },
           "additionalRepositories": [
             {
@@ -5795,9 +5818,9 @@
             "title": "CEO and Co-Founder",
             "email": "gordon@specset.com"
           },
-          "version": "2026.09.30",
-          "lastUpdated": "2026-09-30T22:00:00Z",
-          "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Provider correction during FedRAMP review of the Class A application: corrects statements in the filed version 2026.09.14 that became outdated after the application was filed."
+          "version": "2026.10.03",
+          "lastUpdated": "2026-10-03T16:29:00Z",
+          "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Provider update during FedRAMP review of the Class A application: links the Secure Configuration Guide, published on 2026-10-03, as the Security Decision Record planned, and replaces the statement that it was not yet published. Version 2026.09.30 corrected statements in the filed version 2026.09.14 that became outdated after the application was filed."
         },
         "documentation": [
           {
@@ -5887,13 +5910,13 @@
           {
             "name": "Secure configuration guidance",
             "type": "Web page",
-            "summary": "Customer-side configuration guidance (single sign-on, roles, CUI mode). The Secure Configuration Guide rules (SCG-CSO) apply to Classes B, C and D, not to Class A, so no guide is required for this application. Gap: not yet published. Plan: publish it on the Trust Center and link it from serviceProperties.secureConfigurationGuidance in this document before the Class C application.",
-            "availability": "Not yet published"
+            "summary": "The Secure Configuration Guide for the administrators of a customer organization: the roles that control an organization, the recommended security settings for an organization that holds federal information or CUI, managing Admin accounts, and account access. The Secure Configuration Guide rules (SCG-CSO) apply to Classes B, C and D, not to Class A; the guide was published on 2026-10-03, ahead of the Class C application, and is linked from serviceProperties.secureConfigurationGuidance in this document.",
+            "availability": "Public, no login: https://docs.specset.com/docs/secure-configuration"
           }
         ],
         "ZD_frid_retro": "FR2631258135",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:28Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:56Z"
       },
       {
         "serviceIdentification": {
@@ -6022,7 +6045,7 @@
         ],
         "ZD_frid_retro": "F1311222650",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:28Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:57Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6150,7 +6173,7 @@
         },
         "ZD_frid_retro": "FR2631654537",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:29Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:57Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6232,7 +6255,7 @@
         },
         "ZD_frid_retro": "FR2631747315",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:29Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:59Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6267,6 +6290,14 @@
             "repositoryDescription": "Specset Trust Center, the single repository for FedRAMP Certification Data for the Specset Cloud Platform. The landing page, compliance posture summary, subprocessor list and FedRAMP milestone information are public. The Class A certification data has been published there since 2026-09-14 as 24 restricted resources, with no non-disclosure agreement or acceptance of terms required. Twenty-two are open to access requests: the Security Decision Record, the example Ongoing Certification Report and the information-resources inventory, each in machine-readable and human-readable form; the Incident Response Procedure; the Vulnerability Management Procedure; the SOC 2 Type II report and the engagement letter for that examination, both view only; and twelve supporting-evidence documents, one per artifact the Security Decision Record cites. The other two, the management representation letter and the SOC 2 renewal engagement letter, are private resources supplied on request to fedramp@specset.com.",
             "authenticationRequired": true,
             "accessRequestInstructions": "The landing page at https://trust.specset.com requires no login. FedRAMP staff and agency reviewers request access to the restricted FedRAMP Certification Data from the Trust Center page. Requests from fedramp.gov and gsa.gov email addresses are approved automatically; Specset approves all other requests manually. Specset does not require acceptance of terms or a non-disclosure agreement. If a request is not approved within one business day, email fedramp@specset.com."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://docs.specset.com/docs/secure-configuration",
+            "repositoryDescription": "Specset's Secure Configuration Guide (SCG-CSO-RSC), a public page in the product documentation written for the administrators of a customer organization: the roles that control an organization and the FedRAMP term for each, the recommended security settings for an organization that holds federal information or CUI and what each does, how Admin accounts are set up, reviewed and removed, and how account access is requested and recovered. It gives the recommended settings in JSON with the API query that exports an organization's current settings for comparison, and the version history of the recommended settings.",
+            "authenticationRequired": false
           },
           "additionalRepositories": [
             {
@@ -6420,9 +6451,9 @@
             "title": "CEO and Co-Founder",
             "email": "gordon@specset.com"
           },
-          "version": "2026.09.30",
-          "lastUpdated": "2026-09-30T22:00:00Z",
-          "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Provider correction during FedRAMP review of the Class A application: corrects statements in the filed version 2026.09.14 that became outdated after the application was filed."
+          "version": "2026.10.03",
+          "lastUpdated": "2026-10-03T16:29:00Z",
+          "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Provider update during FedRAMP review of the Class A application: links the Secure Configuration Guide, published on 2026-10-03, as the Security Decision Record planned, and replaces the statement that it was not yet published. Version 2026.09.30 corrected statements in the filed version 2026.09.14 that became outdated after the application was filed."
         },
         "documentation": [
           {
@@ -6512,13 +6543,13 @@
           {
             "name": "Secure configuration guidance",
             "type": "Web page",
-            "summary": "Customer-side configuration guidance (single sign-on, roles, CUI mode). The Secure Configuration Guide rules (SCG-CSO) apply to Classes B, C and D, not to Class A, so no guide is required for this application. Gap: not yet published. Plan: publish it on the Trust Center and link it from serviceProperties.secureConfigurationGuidance in this document before the Class C application.",
-            "availability": "Not yet published"
+            "summary": "The Secure Configuration Guide for the administrators of a customer organization: the roles that control an organization, the recommended security settings for an organization that holds federal information or CUI, managing Admin accounts, and account access. The Secure Configuration Guide rules (SCG-CSO) apply to Classes B, C and D, not to Class A; the guide was published on 2026-10-03, ahead of the Class C application, and is linked from serviceProperties.secureConfigurationGuidance in this document.",
+            "availability": "Public, no login: https://docs.specset.com/docs/secure-configuration"
           }
         ],
         "ZD_frid_retro": "FR2631747321",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:30Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:58Z"
       },
       {
         "serviceIdentification": {
@@ -6570,7 +6601,7 @@
         ],
         "ZD_frid_retro": "FR2631747327",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:30Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:58Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6683,7 +6714,7 @@
         ],
         "ZD_frid_retro": "FR2300457485",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:31Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:59Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6719,7 +6750,7 @@
         ],
         "ZD_frid_retro": "FR2632054516",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:31Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:59Z"
       },
       {
         "serviceIdentification": {
@@ -6824,7 +6855,7 @@
         ],
         "ZD_frid_retro": "FR2632054521",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:31Z"
+        "last_fetched_timestamp": "2026-10-05T13:18:59Z"
       },
       {
         "packageMetadata": {
@@ -6915,7 +6946,7 @@
         },
         "ZD_frid_retro": "FR2520254824",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:32Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:00Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7031,7 +7062,7 @@
         },
         "ZD_frid_retro": "FR2632054530",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:33Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:01Z"
       },
       {
         "serviceIdentification": {
@@ -7115,7 +7146,7 @@
         },
         "ZD_frid_retro": "FR2632054534",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:33Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:01Z"
       },
       {
         "serviceIdentification": {
@@ -7227,7 +7258,7 @@
         },
         "ZD_frid_retro": "FR2632054491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:34Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:02Z"
       },
       {
         "serviceIdentification": {
@@ -7317,7 +7348,7 @@
         },
         "ZD_frid_retro": "FR2632054495",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:34Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:02Z"
       },
       {
         "serviceIdentification": {
@@ -7453,7 +7484,7 @@
         },
         "ZD_frid_retro": "FR2632436493",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:35Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:02Z"
       },
       {
         "serviceIdentification": {
@@ -7491,7 +7522,7 @@
         ],
         "ZD_frid_retro": "FR2632558735",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:35Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:03Z"
       },
       {
         "serviceIdentification": {
@@ -7529,7 +7560,7 @@
         ],
         "ZD_frid_retro": "FR2632558740",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:35Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:03Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7611,7 +7642,7 @@
         },
         "ZD_frid_retro": "FR2632558748",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:36Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:04Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7733,7 +7764,7 @@
         },
         "ZD_frid_retro": "FR2632731472",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:37Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:05Z"
       },
       {
         "serviceIdentification": {
@@ -7811,7 +7842,7 @@
         },
         "ZD_frid_retro": "FR2632755834",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:37Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:05Z"
       },
       {
         "serviceIdentification": {
@@ -7878,7 +7909,7 @@
         },
         "ZD_frid_retro": "FR2633058235",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:38Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:06Z"
       },
       {
         "$comment": "Ultra Security FedRAMP 20x Certification Package Overview — conformant to fedramp-certification-package-overview-schema-2026-06-24.json (FRC-CSO-PKG). Machine-readable identification package for the CSO. This is the schema-conformant CPO; the narrative CPO (metadata/publicInformation/... index) is a separate human-readable companion.",
@@ -7985,7 +8016,7 @@
         },
         "ZD_frid_retro": "FR2633058240",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:39Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:06Z"
       },
       {
         "serviceIdentification": {
@@ -8079,7 +8110,7 @@
         },
         "ZD_frid_retro": "FR2633053629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:39Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:07Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8179,7 +8210,7 @@
         },
         "ZD_frid_retro": "FR2633053633",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:39Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:07Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8256,7 +8287,7 @@
         ],
         "ZD_frid_retro": "FR2633153272",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:39Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:07Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8305,7 +8336,7 @@
         ],
         "ZD_frid_retro": "FR2633153276",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:40Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:08Z"
       },
       {
         "serviceIdentification": {
@@ -8397,7 +8428,7 @@
         },
         "ZD_frid_retro": "FR2532557612",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:40Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:08Z"
       },
       {
         "serviceIdentification": {
@@ -8430,7 +8461,7 @@
         ],
         "ZD_frid_retro": "FR2633734906",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:40Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:08Z"
       },
       {
         "serviceIdentification": {
@@ -8614,7 +8645,7 @@
         ],
         "ZD_frid_retro": "FR2633734917",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:41Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:10Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8672,7 +8703,7 @@
         },
         "ZD_frid_retro": "FR2633734921",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:43Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:09Z"
       },
       {
         "serviceIdentification": {
@@ -8759,7 +8790,7 @@
         },
         "ZD_frid_retro": "FR2633734927",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:42Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:10Z"
       },
       {
         "serviceIdentification": {
@@ -8879,7 +8910,7 @@
         ],
         "ZD_frid_retro": "FR2633734932",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:42Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:11Z"
       },
       {
         "serviceIdentification": {
@@ -8919,7 +8950,7 @@
         ],
         "ZD_frid_retro": "FR2626164349",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:43Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:11Z"
       },
       {
         "serviceIdentification": {
@@ -9110,6 +9141,22 @@
               "mitigationMeasures": "The service requires a documented supply-chain determination covering code signing and update integrity.",
               "compensatingControls": "Signed artifacts and application review reduce the risk of unauthorized desktop code distribution.",
               "disposition": "determine",
+              "reviewOwner": "Vendor Risk Management Admin",
+              "reviewCadence": "Quarterly"
+            },
+            {
+              "name": "Customer-owned Amazon S3 storage",
+              "provider": "Amazon Web Services",
+              "website": "https://aws.amazon.com/s3/",
+              "useCase": "Optional per-organization storage of uploaded files in the customer's own S3 bucket in a commercial AWS region.",
+              "resourceCategory": "operational",
+              "usageAndConfiguration": "An organization administrator opts in and supplies a bucket, region, and a silkline-s3-access role in their own AWS account. The application assumes that role through STS from a Silkline bridge principal in Silkline's commercial AWS account (us-east-1), using a per-organization ExternalId held in AWS GovCloud Secrets Manager, and issues one-hour presigned URLs that browsers use to upload and download objects directly. STS and S3 calls use FIPS endpoints where the region publishes them.",
+              "justification": "Customers that must keep files in an account they control need this option. The bridge sits in the commercial partition because a GovCloud principal cannot assume a role in a commercial-region account.",
+              "federalCustomerDataReachable": true,
+              "potentialImpactToFederalCustomerData": "Files an organization uploads while this is enabled live in the customer's bucket, outside the authorization boundary; compromise of the bridge principal together with the ExternalId could expose them.",
+              "mitigationMeasures": "The bridge principal may assume only roles named silkline-s3-access-<environment>, each customer role must require its ExternalId, sessions last at most one hour, and ExternalIds are generated server-side, shown once, and revocable.",
+              "compensatingControls": "The customer owns the bucket, its encryption keys, access policy, and CloudTrail logging under the shared responsibility model. Enabling the feature requires the Edit Integration permission.",
+              "disposition": "mitigate",
               "reviewOwner": "Vendor Risk Management Admin",
               "reviewCadence": "Quarterly"
             },
@@ -9517,7 +9564,7 @@
         },
         "ZD_frid_retro": "FR2633841585",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:43Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:12Z"
       },
       {
         "serviceIdentification": {
@@ -9677,7 +9724,7 @@
         ],
         "ZD_frid_retro": "FR2528033654",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:44Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:12Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -9791,7 +9838,7 @@
         ],
         "ZD_frid_retro": "FR2410866384",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:45Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:13Z"
       },
       {
         "serviceIdentification": {
@@ -9912,7 +9959,7 @@
         },
         "ZD_frid_retro": "FR2633957417",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:45Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:13Z"
       },
       {
         "serviceIdentification": {
@@ -10027,7 +10074,7 @@
         ],
         "ZD_frid_retro": "FR2633957422",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:47Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:15Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -10385,7 +10432,7 @@
         },
         "ZD_frid_retro": "FR2634047811",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:47Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:15Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -10439,7 +10486,7 @@
         ],
         "ZD_frid_retro": "FR2527234065",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:48Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:16Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -10488,7 +10535,7 @@
         },
         "ZD_frid_retro": "FR2634357692",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:51Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:16Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -10635,7 +10682,7 @@
         },
         "ZD_frid_retro": "FR2612446381",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:52Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:16Z"
       },
       {
         "serviceIdentification": {
@@ -10772,7 +10819,7 @@
         },
         "ZD_frid_retro": "FR2619254906",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:53Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:17Z"
       },
       {
         "serviceIdentification": {
@@ -10811,7 +10858,7 @@
         ],
         "ZD_frid_retro": "FR2619646960",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:53Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:17Z"
       },
       {
         "serviceIdentification": {
@@ -10925,7 +10972,7 @@
         },
         "ZD_frid_retro": "FR2634436150",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:53Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:17Z"
       },
       {
         "serviceIdentification": {
@@ -11275,7 +11322,7 @@
         ],
         "ZD_frid_retro": "FR2000863987A",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:53Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:18Z"
       },
       {
         "serviceIdentification": {
@@ -11337,7 +11384,7 @@
         ],
         "ZD_frid_retro": "FR2206159758",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:55Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:19Z"
       },
       {
         "serviceIdentification": {
@@ -11379,7 +11426,7 @@
         },
         "ZD_frid_retro": "FR2306445868",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:54Z"
+        "last_fetched_timestamp": "2026-10-02T14:25:24Z"
       },
       {
         "serviceIdentification": {
@@ -11387,7 +11434,7 @@
           "providerName": "Pinecone Systems, Inc.",
           "serviceName": "Pinecone",
           "serviceAcronym": "PINECONE",
-          "serviceDescription": "Pinecone is a fully managed vector database for AI applications. It stores, indexes, and\nsearches high-dimensional vector embeddings to power retrieval for semantic search,\nrecommendation, and retrieval-augmented generation (RAG) workloads. Customers create\nindexes in a cloud region of their choosing and interact with the service through\ndocumented APIs and client SDKs. The service is operated by Pinecone on public cloud\ninfrastructure, with customer data encrypted at rest (AES-256, unique per-customer keys)\nand in transit (TLS 1.2 minimum).",
+          "serviceDescription": "Pinecone is a fully managed vector database for AI applications. It stores, indexes, and\nsearches high-dimensional vector embeddings to power retrieval for semantic search,\nrecommendation, and retrieval-augmented generation (RAG) workloads. Customers create\nindexes in a cloud region of their choosing and interact with the service through\ndocumented APIs and client SDKs. The service is operated by Pinecone on public cloud\ninfrastructure, with customer data encrypted at rest (AES-256, with a distinct data\nencryption key for every stored object, so no data key is shared between customers) and in\ntransit (TLS 1.2 minimum).",
           "certificationType": "20x",
           "website": "https://www.pinecone.io",
           "logo": "https://www.pinecone.io/images/pinecone-logo.png",
@@ -11412,7 +11459,7 @@
             ],
             "repositoryDescription": "Pinecone Trust Center. Publishes the SOC 2 Type II report, ISO/IEC 27001 certificate, security policy set, subprocessor list, and current security posture.",
             "authenticationRequired": true,
-            "accessRequestInstructions": "Pinecone's trust center is hosted on SafeBase (by Drata) and is reached at https://trust.pinecone.io, which redirects to https://security.pinecone.io. Agency personnel should: (1) open the trust center landing page; (2) review the publicly visible material, which includes the compliance overview and the subprocessor list and needs no request; (3) select \"Get access\" — offered at the top of the page, in the Documents section, and beside each individual document — to request the access-controlled material; (4) complete the requester details the platform asks for and accept its terms of access; (5) once approved, retrieve documents individually or by bulk download. Access-controlled material includes the SOC 2 Type II report, the ISO/IEC 27001 certificate, the HIPAA attestation, the CAIQ self-assessment, the penetration test report, the product architecture description and the security policy set. Federal agency personnel who cannot obtain access this way should contact the security contact published on the overview page."
+            "accessRequestInstructions": "Pinecone's trust center is hosted on Vanta at https://trust.pinecone.io. Agency personnel should: (1) open https://trust.pinecone.io; (2) complete the access request form with first name, last name, work email, company name and a reason (existing customer, prospective customer, or other); (3) select \"Request access\"; (4) once access is granted, return to the same page to view and download the access-controlled material. Someone who has been granted access before can restore it with \"Reclaim access\". Federal agency personnel who cannot obtain access this way should contact trust@pinecone.io."
           },
           "secureConfigurationGuidance": {
             "url": "https://docs.pinecone.io/guides/production/security-overview",
@@ -11459,7 +11506,7 @@
         ],
         "ZD_frid_retro": "FR2634450946",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:54Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:19Z"
       },
       {
         "serviceIdentification": {
@@ -11493,7 +11540,7 @@
         },
         "ZD_frid_retro": "FR2634659079",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:56Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:20Z"
       },
       {
         "serviceIdentification": {
@@ -11570,7 +11617,7 @@
         },
         "ZD_frid_retro": "FR2634659083",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:55Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:19Z"
       },
       {
         "serviceIdentification": {
@@ -11612,7 +11659,7 @@
         ],
         "ZD_frid_retro": "FR2634659087",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:55Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:19Z"
       },
       {
         "serviceIdentification": {
@@ -11651,7 +11698,7 @@
         ],
         "ZD_frid_retro": "FR2634659091",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:56Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:20Z"
       },
       {
         "serviceIdentification": {
@@ -11777,7 +11824,7 @@
         ],
         "ZD_frid_retro": "FR2634659095",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:57Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:22Z"
       },
       {
         "serviceIdentification": {
@@ -11876,7 +11923,7 @@
         },
         "ZD_frid_retro": "FR1907847653",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:58Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:22Z"
       },
       {
         "serviceIdentification": {
@@ -11980,7 +12027,7 @@
         },
         "ZD_frid_retro": "FR2635050845",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:58Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:23Z"
       },
       {
         "serviceIdentification": {
@@ -12192,7 +12239,7 @@
         },
         "ZD_frid_retro": "FR2635050855",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:58Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:25Z"
       },
       {
         "fedramp_id": "FR2635050861",
@@ -12641,21 +12688,9 @@
           "monitoring": "Google Cloud uptime checks (5-minute interval) on app.virtualdojo.com",
           "monitoring_since": "2026-07-04",
           "measured": {
-            "rolling_percent": 99.99,
+            "rolling_percent": 99.986,
             "window_days": 30,
             "daily_history": [
-              {
-                "date": "2026-09-02",
-                "availability_percent": 100
-              },
-              {
-                "date": "2026-09-03",
-                "availability_percent": 100
-              },
-              {
-                "date": "2026-09-04",
-                "availability_percent": 100
-              },
               {
                 "date": "2026-09-05",
                 "availability_percent": 100
@@ -12763,6 +12798,18 @@
               {
                 "date": "2026-10-01",
                 "availability_percent": 99.826
+              },
+              {
+                "date": "2026-10-02",
+                "availability_percent": 99.942
+              },
+              {
+                "date": "2026-10-03",
+                "availability_percent": 99.942
+              },
+              {
+                "date": "2026-10-04",
+                "availability_percent": 100
               }
             ]
           },
@@ -12808,7 +12855,7 @@
           "statement": "VirtualDojo is pursuing FedRAMP 20x Certification Class C for VirtualDojo AI CRM by the Program path. Progress below is measured against dated milestones and refreshed at least quarterly. Milestones that are not yet met say so.",
           "review_cadence": "quarterly",
           "next_review_date": "2026-12-01",
-          "last_updated": "2026-10-02T12:13:05Z",
+          "last_updated": "2026-10-05T12:12:23Z",
           "goals": [
             {
               "id": "G1",
@@ -12836,15 +12883,15 @@
               "detail": "Cloud Scheduler triggers a Cloud Run job daily at 04:00 UTC under a dedicated service account. The first scheduled firing was 2026-07-04 at 04:00 UTC; per-indicator results are retained for every day since. The job was created on 2026-07-03 and the runs that day were started by hand, so 2026-07-03 is reported as manual and is not counted as persistent validation.\n",
               "measure": "consecutive_days_of_validation",
               "measured": {
-                "value": 31,
+                "value": 34,
                 "unit": "days",
                 "window": {
                   "from": "2026-09-02",
-                  "to": "2026-10-02"
+                  "to": "2026-10-05"
                 },
                 "source": "retained per-day validation results",
                 "target": 183,
-                "percent_complete": 17
+                "percent_complete": 19
               }
             },
             {
@@ -12856,7 +12903,7 @@
               "detail": "Class C requires at least two automated methods per indicator (FRC-CSX-VVK). Method independence and outcome-based validation evidence are being strengthened indicator by indicator.\n",
               "measure": "ksis_with_2plus_methods",
               "measured": {
-                "value": 46,
+                "value": 45,
                 "of": 46,
                 "unit": "indicators",
                 "source": "latest validation run (indicators with 2+ PASSING automated methods)"
@@ -12872,15 +12919,15 @@
               "detail": "FRC-CSX-MOT requires six months of historical metrics from persistent validation at Class C. The mechanism is in place and accumulating; the six-month point is reached on 2027-01-03.\n",
               "measure": "consecutive_days_of_validation",
               "measured": {
-                "value": 31,
+                "value": 34,
                 "unit": "days",
                 "window": {
                   "from": "2026-09-02",
-                  "to": "2026-10-02"
+                  "to": "2026-10-05"
                 },
                 "source": "retained per-day validation results",
                 "target": 183,
-                "percent_complete": 17
+                "percent_complete": 19
               }
             },
             {
@@ -13980,12 +14027,24 @@
             {
               "date": "2026-10-02",
               "class": "scheduled"
+            },
+            {
+              "date": "2026-10-03",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-10-04",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-10-05",
+              "class": "scheduled"
             }
           ],
           "scheduled": {
-            "days": 90,
+            "days": 93,
             "from": "2026-07-04",
-            "to": "2026-10-02",
+            "to": "2026-10-05",
             "meaning": "The scheduled validation job ran unattended on this date at its documented 04:00 UTC cycle and produced per-indicator results. This is the only class that counts as persistent validation."
           },
           "manual": {
@@ -14000,7 +14059,7 @@
             "to": "2026-07-02",
             "meaning": "Status derived after the fact from retained audit evidence. Not the output of validation performed on this date."
           },
-          "total_days_with_evidence": 262,
+          "total_days_with_evidence": 265,
           "gaps": 1
         },
         "certification_data_access": {
@@ -14040,8 +14099,8 @@
         },
         "live_monitoring": {
           "controls_monitored": 46,
-          "controls_passing": 44,
-          "last_validated": "2026-10-02T12:08:47.608890Z"
+          "controls_passing": 43,
+          "last_validated": "2026-10-05T12:08:21.505306Z"
         },
         "metadata": {
           "responsibleOfficial": {
@@ -14050,7 +14109,7 @@
             "email": "security@virtualdojo.com"
           },
           "version": "1.1",
-          "lastUpdated": "2026-10-02T12:13:06.447885+00:00",
+          "lastUpdated": "2026-10-05T12:12:24.781731+00:00",
           "updateSource": "Generated by fedramp-ksi-validator export.certification_package from package.yaml and the automated KSI/FRR validation results."
         },
         "serviceIdentification": {
@@ -14165,7 +14224,7 @@
         ],
         "ZD_frid_retro": "FR2635050861",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:58Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:24Z"
       },
       {
         "serviceIdentification": {
@@ -14286,7 +14345,7 @@
         ],
         "ZD_frid_retro": "FR2635447609",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:06:59Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:25Z"
       },
       {
         "serviceIdentification": {
@@ -14340,7 +14399,7 @@
         ],
         "ZD_frid_retro": "FR2635930421",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:06:58Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:25Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -14494,7 +14553,7 @@
         },
         "ZD_frid_retro": "FR2635930425",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:07:00Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:26Z"
       },
       {
         "assessor": {
@@ -14811,14 +14870,14 @@
           "schemaPinSynced": "2026-09-28"
         },
         "metadata": {
-          "lastUpdated": "2026-09-29T20:31:49Z",
+          "lastUpdated": "2026-10-05T05:21:42Z",
           "responsibleOfficial": {
             "contactEmail": "rajesh@adventbusiness.com",
             "name": "Rajesh Gupta",
             "title": "Vice President and Secretary, System Owner and ISSO, Advent Business Company Inc."
           },
           "updateSource": "Generated at request time by the deployed certification-data service; content changes reach it only through the automated build and deployment pipeline under Advent's change management procedure.",
-          "version": "1.0.0+bc6ec232"
+          "version": "1.0.0+8e10e704"
         },
         "ongoingCertificationReportFeedback": {
           "acknowledgement": "Automatic on receipt (AFC-CSO-ACK mechanism, shared).",
@@ -15417,7 +15476,7 @@
         },
         "ZD_frid_retro": "FR2635930439",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:07:00Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:26Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -15537,7 +15596,7 @@
         ],
         "ZD_frid_retro": "F1403283529A",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:07:00Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:26Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -15626,7 +15685,7 @@
         },
         "ZD_frid_retro": "FR2618738935",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:07:01Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:27Z"
       },
       {
         "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -16016,7 +16075,7 @@
         ],
         "ZD_frid_retro": "FR2635930482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:07:03Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:33Z"
       },
       {
         "serviceIdentification": {
@@ -16158,7 +16217,7 @@
         },
         "ZD_frid_retro": "FR2700137029",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:07:05Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:34Z"
       },
       {
         "serviceIdentification": {
@@ -16245,7 +16304,7 @@
         },
         "ZD_frid_retro": "FR2700137035",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:07:04Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:34Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -16345,7 +16404,7 @@
         },
         "ZD_frid_retro": "FR2700137041",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:07:05Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:35Z"
       },
       {
         "serviceIdentification": {
@@ -16452,7 +16511,7 @@
         },
         "ZD_frid_retro": "FR2700137045",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:07:05Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:35Z"
       },
       {
         "serviceIdentification": {
@@ -16504,7 +16563,7 @@
         },
         "ZD_frid_retro": "FR1915750265",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-02T16:07:06Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:36Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -16564,7 +16623,7 @@
         },
         "ZD_frid_retro": "FR1711546389",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T16:07:06Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:36Z"
       },
       {
         "serviceIdentification": {
@@ -17362,7 +17421,7 @@
         "certifiedServicesNote": "The date available for each service represents the date the service was included in the AWS GovCloud FedRAMP certification boundary based on available assessment records. Actual inclusion dates as reflected in FedRAMP PMO records may vary. AWS has maintained continuous FedRAMP certification for GovCloud (Class D) since 2016, and all listed services are subject to ongoing annual independent assessment regardless of their inclusion date.",
         "ZD_frid_retro": "F1603047866",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T15:17:46Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:36Z"
       },
       {
         "serviceIdentification": {
@@ -18240,7 +18299,57 @@
         "certifiedServicesNote": "The date available for each service represents the date the service was included in the AWS US East/West FedRAMP certification boundary based on available assessment records. Actual inclusion dates as reflected in FedRAMP PMO records may vary. AWS has maintained continuous FedRAMP certification for US East/West (Class C) since 2013, and all listed services are subject to ongoing annual independent assessment regardless of their inclusion date.",
         "ZD_frid_retro": "AGENCYAMAZONEW",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-02T15:17:54Z"
+        "last_fetched_timestamp": "2026-10-05T13:19:37Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+        "serviceIdentification": {
+          "fedRampPackageId": "ARDOQ-ARDOQ",
+          "providerName": "Ardoq Inc",
+          "serviceName": "Ardoq",
+          "serviceAcronym": "Ardoq",
+          "serviceDescription": "Ardoq is a cloud-based software-as-a-service enterprise architecture platform that gives organizations a single, connected model of their IT and business landscape, covering applications, infrastructure, processes, data, and strategic initiatives. Built on a proprietary graph-based data model, Ardoq ingests and continuously updates information from an organization's existing systems, replacing static documentation with a live, queryable view of how technology and business capabilities connect. It has built-in AI capabilities, visualization, and dashboards that help expedite access to and transformation of architecture into consumable insights for non-technical stakeholders.\n\nAgencies use Ardoq to gain visibility into AI deployment and current-state architecture, plan and track technology transformation and modernization initiatives, and maintain ongoing oversight of technical risk, dependencies, and change across the enterprise. The platform supports IT portfolio management, application rationalization, cloud migration planning, risk and compliance reporting, strategic planning and execution, and tracking of AI adoption across the technology estate.",
+          "certificationType": "20x",
+          "website": "https://www.ardoq.com",
+          "logo": "https://www.ardoq.com/hubfs/00_Visuals%20(covers%2c%20logos%2c%20illustrations%2c%20etc)/Logos/Ardoq/RGB_Ardoq_Logo_Primary_Purple.svg"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Public Cloud",
+          "businessCategory": [
+            "Data Management",
+            "Artificial Intelligence (AI)",
+            "Analytics",
+            "Operations Management",
+            "Governance, Risk, and Compliance (GRC)"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center",
+              "Assessment Reports"
+            ],
+            "url": "https://www.ardoq.com/trust-center",
+            "repositoryDescription": "Ardoq's FedRAMP Trust Center gives federal agencies and FedRAMP ongoing public access to Ardoq's FedRAMP 20x Class A certification data: the Certification Package Overview (this record, available in both human-readable and JSON form), Ardoq's SOC 2 Type II report and supporting documentation, and, as applicable, Incident Reports related to FedRAMP Reportable Incidents.",
+            "authenticationRequired": false
+          }
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Security contact",
+            "contactEmail": "fedramp@ardoq.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Sales contact",
+            "contactEmail": "sales@ardoq.com"
+          }
+        ],
+        "ZD_frid_retro": "FR2700429895",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-10-05T13:19:37Z"
       }
     ]
   }
