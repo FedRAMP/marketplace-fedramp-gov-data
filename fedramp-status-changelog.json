@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-06T19:59:30.612Z",
-    "total_entries": 2161,
+    "export_timestamp": "2026-10-06T20:31:12.382Z",
+    "total_entries": 2163,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -32419,6 +32419,36 @@
         "transition_date": "2026-10-06T04:00:00.000Z",
         "recorded_date": "2026-10-06T04:00:00.000Z",
         "source": "AppSheet",
+        "comments": ""
+      },
+      {
+        "unique_id": "51c84832-11d7-4c4a-b9cb-5633410b00c1",
+        "product_id": "FR2700555844",
+        "csp": "Linear Orbit, Inc.",
+        "cso": "Linear",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-06T20:30:42Z",
+        "recorded_date": "2026-10-06T20:31:10.216Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "1b1fd8e6-4fac-4c41-b708-d6d9d099d482",
+        "product_id": "FR2700555848",
+        "csp": "Dynatrace",
+        "cso": "Dynatrace Platform for FedRAMP Class D (High)",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-06T20:30:48Z",
+        "recorded_date": "2026-10-06T20:31:10.216Z",
+        "source": "frc-cso-pkg",
         "comments": ""
       }
     ]
