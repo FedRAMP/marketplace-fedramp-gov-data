@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-05T03:59:15.446Z",
-    "total_entries": 2159,
+    "export_timestamp": "2026-10-06T03:59:14.667Z",
+    "total_entries": 2160,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -28828,7 +28828,7 @@
         "cso": "CyCloud for VMware Cloud Foundation",
         "cert_type": "Rev5",
         "cert_path": "JAB",
-        "cert_class": "Class C",
+        "cert_class": "Class D",
         "from_status": "No Status Found",
         "to_status": "FedRAMP Ready",
         "transition_date": "2026-05-12T04:00:00.000Z",
@@ -32388,6 +32388,21 @@
         "to_status": "Initial Implementation",
         "transition_date": "2026-10-02T15:17:23Z",
         "recorded_date": "2026-10-02T16:02:19.472Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "9112fa31-b59f-4120-90cc-9d82ad9f02d6",
+        "product_id": "FR2700429895",
+        "csp": "Ardoq Inc",
+        "cso": "Ardoq",
+        "cert_type": "",
+        "cert_path": "Program",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-05T13:18:12Z",
+        "recorded_date": "2026-10-05T13:18:27.314Z",
         "source": "frc-cso-pkg",
         "comments": ""
       }
