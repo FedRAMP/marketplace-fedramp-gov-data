@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-07T03:59:14.190Z",
+    "export_timestamp": "2026-10-08T03:59:17.594Z",
     "total_entries": 2165,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
@@ -234,7 +234,7 @@
         "cert_path": "Agency",
         "cert_class": "Class C",
         "from_status": "Agency Authorization In Process",
-        "to_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
         "transition_date": "2014-05-23T04:00:00.000Z",
         "recorded_date": "2026-04-22T18:26:43.594Z",
         "source": "migration",
@@ -446,7 +446,7 @@
         "transition_date": "2014-05-20T04:00:00.000Z",
         "recorded_date": "2026-04-22T18:26:43.595Z",
         "source": "migration",
-        "comments": ""
+        "comments": "RAR Submission"
       },
       {
         "unique_id": "ee2c45d8-4bd9-4632-9461-ae0ad9b84424",
