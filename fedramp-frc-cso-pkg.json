@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-06T20:33:09.213Z",
+    "export_timestamp": "2026-10-08T16:44:48.285Z",
     "total_entries": 112,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
@@ -459,14 +459,9 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:14Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:39Z"
       },
       {
-        "assessor": {
-          "assessorID": "200765",
-          "id": "200765",
-          "name": "MegaPlanIT"
-        },
         "certifiedServices": [
           {
             "dateAvailable": "2026-07-07",
@@ -488,9 +483,9 @@
         ],
         "serviceIdentification": {
           "certificationType": "20x",
-          "fedRampPackageId": "FR2333660884",
-          "logo": "https://api.dispeltrust.com/api/trust-center/public/system/dzte-fedramp-high-001/logo.png",
-          "providerName": "Dispel LLC",
+          "fedRampPackageId": "FR2628647233",
+          "logo": "https://dzte-gov.dispeltrust.com/assets/dispel-logo.png",
+          "providerName": "Dispel, LLC",
           "serviceAcronym": "DZTE",
           "serviceDescription": "DZTE is a Government-only cloud computing SaaS that provides secure remote access to critical systems, enabling customers to implement compensating controls for operational technology and legacy technology environments.",
           "serviceName": "Dispel Zero Trust Engine (DZTE) For Government",
@@ -506,7 +501,7 @@
           ],
           "deploymentModel": "Government-Only Cloud",
           "digitalIdentityLevel": "IAL3/AAL3/FAL3",
-          "nextOngoingCertificationReportDate": "2026-09-05",
+          "nextOngoingCertificationReportDate": "2027-01-06",
           "secureConfigurationGuidance": {
             "accessRequestInstructions": "To request access to the DZTE Secure Configuration Guide, contact security@dispel-federal.com. Access is provided to FedRAMP reviewers and authorized U.S. Government customers.",
             "authenticationRequired": true,
@@ -518,7 +513,15 @@
           },
           "serviceType": [
             "SaaS"
-          ]
+          ],
+          "trustCenter": {
+            "authenticationRequired": false,
+            "repositoryDescription": "FedRAMP 20x Trust Center",
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://dzte-gov.dispeltrust.com/api/trust-center/public/system/dzte-fedramp-high-001/landing"
+          }
         },
         "thirdPartyInformationResources": {
           "certified": [
@@ -541,8 +544,8 @@
           ]
         },
         "ZD_frid_retro": "FR2628647233",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:18Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-10-08T16:43:41Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -650,7 +653,7 @@
         "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:19Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:42Z"
       },
       {
         "serviceIdentification": {
@@ -716,7 +719,7 @@
         },
         "ZD_frid_retro": "FR2628647241",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-05T20:37:53Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:44Z"
       },
       {
         "serviceIdentification": {
@@ -1348,7 +1351,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:19Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:43Z"
       },
       {
         "assessor": {
@@ -1665,14 +1668,14 @@
           "schemaPinSynced": "2026-09-28"
         },
         "metadata": {
-          "lastUpdated": "2026-10-06T19:03:33Z",
+          "lastUpdated": "2026-10-08T15:05:09Z",
           "responsibleOfficial": {
             "contactEmail": "rajesh@adventbusiness.com",
             "name": "Rajesh Gupta",
             "title": "Vice President and Secretary, System Owner and ISSO, Advent Business Company Inc."
           },
           "updateSource": "Generated at request time by the deployed certification-data service; content changes reach it only through the automated build and deployment pipeline under Advent's change management procedure.",
-          "version": "1.0.0+f6cd0022"
+          "version": "1.0.0+e9639564"
         },
         "ongoingCertificationReportFeedback": {
           "acknowledgement": "Automatic on receipt (AFC-CSO-ACK mechanism, shared).",
@@ -2271,7 +2274,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:38Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:44Z"
       },
       {
         "serviceIdentification": {
@@ -2329,7 +2332,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:39Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:45Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2458,7 +2461,7 @@
         ],
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:40Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:46Z"
       },
       {
         "serviceIdentification": {
@@ -2552,7 +2555,7 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:40Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:46Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2560,8 +2563,8 @@
           "name": "Schellman Compliance, LLC",
           "assessorID": "136571"
         },
-        "cpoVersion": "2026.10.06-1",
-        "lastUpdated": "2026-10-06T17:26:23.126377+00:00",
+        "cpoVersion": "2026.10.08-3",
+        "lastUpdated": "2026-10-08T14:34:46.166359+00:00",
         "$schemaVersion": "0.1.4",
         "sourceOfUpdate": "FedRAMP 2026 ConMon snapshot",
         "certifiedServices": [
@@ -2693,7 +2696,7 @@
         },
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:41Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:47Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2864,7 +2867,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:41Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:48Z"
       },
       {
         "serviceIdentification": {
@@ -2928,7 +2931,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:42Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:48Z"
       },
       {
         "serviceIdentification": {
@@ -2987,7 +2990,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:43Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:50Z"
       },
       {
         "assessor": {
@@ -3040,7 +3043,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:44Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:50Z"
       },
       {
         "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -3112,7 +3115,7 @@
         },
         "ZD_frid_retro": "FR2630354484",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:46Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:51Z"
       },
       {
         "serviceIdentification": {
@@ -3196,7 +3199,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:45Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:51Z"
       },
       {
         "serviceIdentification": {
@@ -3284,7 +3287,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:46Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:51Z"
       },
       {
         "serviceIdentification": {
@@ -3372,7 +3375,7 @@
         },
         "ZD_frid_retro": "FR2630354491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:46Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:52Z"
       },
       {
         "serviceIdentification": {
@@ -3411,7 +3414,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:48Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:54Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3596,7 +3599,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:47Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:53Z"
       },
       {
         "serviceIdentification": {
@@ -3660,7 +3663,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:47Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:54Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3810,7 +3813,7 @@
         },
         "ZD_frid_retro": "FR2630447318",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:49Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:55Z"
       },
       {
         "serviceIdentification": {
@@ -3899,7 +3902,7 @@
         ],
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:49Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:55Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4040,7 +4043,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:50Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:56Z"
       },
       {
         "publicDisclosure": {
@@ -4309,7 +4312,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:50Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:56Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4317,7 +4320,7 @@
           "providerName": "Anysphere, Inc.",
           "serviceName": "Cursor",
           "serviceAcronym": "CURSOR",
-          "serviceDescription": "Cursor is an AI-powered software development platform that helps developers and organizations understand, generate, review, and maintain software. The offering includes the Cursor editor, AI-assisted development workflows, and related cloud services. Anysphere, Inc. is pursuing FedRAMP 20x Class A certification for the Cursor platform. Certification has not yet been granted.",
+          "serviceDescription": "Cursor is an AI-powered software development platform that helps developers and organizations understand, generate, review, and maintain software. The offering includes the Cursor editor, AI-assisted development workflows, and related cloud services. Anysphere, Inc. is pursuing FedRAMP 20x Class C certification for the Cursor platform, and A-LIGN is performing the independent assessment. Certification has not yet been granted. Anysphere's FedRAMP 20x Class A application is under FedRAMP review. Origin, Cursor's Git hosting product, is not part of this offering and is not offered to FedRAMP customers; service capabilities that operate on Origin repositories are outside the assessed scope.",
           "certificationType": "20x",
           "fedRampPackageId": "FR2631054484",
           "ueiNumber": "YK4LNCE1L847",
@@ -4338,9 +4341,9 @@
               "Trust Center"
             ],
             "url": "https://trust.paramify.com/cursor/cursor",
-            "repositoryDescription": "The Cursor FedRAMP Trust Center, hosted on Paramify, publishes the FedRAMP 20x Class A compliance program, control-by-control implementation status, and controlled deliverables such as the SOC 2 Type II report for the Cursor platform.",
+            "repositoryDescription": "The Cursor FedRAMP Trust Center, hosted on Paramify, publishes the FedRAMP 20x Class A and Class C compliance programs, provider-reported control implementation status, and controlled deliverables such as the SOC 2 Type II report for the Cursor platform.",
             "authenticationRequired": true,
-            "accessRequestInstructions": "The compliance program and control status are viewable without an account. To review controlled deliverables, select Request Access on the FedRAMP Trust Center and identify your agency or organization. For control-level evidence, email fedramp@cursor.com from an official account to request read-only Paramify Assessment Viewer access. The Certification Package Overview is also available programmatically as JSON at https://cursor.com/fedramp/certification-package-overview.json through an unauthenticated HTTPS GET that returns application/json."
+            "accessRequestInstructions": "The compliance programs are viewable without an account. To review controlled deliverables, select Request Access on the FedRAMP Trust Center and identify your agency or organization. For control-level evidence, email fedramp@cursor.com from an official account to request read-only Paramify Assessment Viewer access. The Certification Package Overview is also available programmatically as JSON at https://cursor.com/fedramp/certification-package-overview.json through an unauthenticated HTTPS GET that returns application/json."
           },
           "secureConfigurationGuidance": {
             "repositoryType": [
@@ -4350,7 +4353,7 @@
             "repositoryDescription": "Public guidance for configuring identity, privacy, agent controls, network access, extensions, and monitoring for a secure Cursor deployment.",
             "authenticationRequired": false
           },
-          "securityCategoryNote": "The adopting federal agency determines the applicable FIPS 199 security category for its intended use of each service. Cursor's FedRAMP 20x Class A profile does not assert a provider-wide Low, Moderate, or High impact level.",
+          "securityCategoryNote": "The adopting federal agency determines the applicable FIPS 199 security category for its intended use of each service. This package does not assert a provider-wide Low, Moderate, or High impact level.",
           "nextOngoingCertificationReportDate": "2026-12-08"
         },
         "certifiedServices": [
@@ -4499,9 +4502,9 @@
         ],
         "documentationOverview": {
           "status": "Initial Implementation Phase",
-          "version": "2026-09-21",
-          "lastUpdated": "2026-09-21T03:45:12Z",
-          "updateSource": "Anysphere Security review adding the engaged independent assessor (A-LIGN, FedRAMP assessor ID 138665; FedRAMP 20x Class C assessment in progress since 2026-09-15) and the programmatic access path for this package, checked against the current Paramify package and public Cursor product documentation.",
+          "version": "2026-10-07",
+          "lastUpdated": "2026-10-07T16:08:00Z",
+          "updateSource": "Anysphere Security review adding that Anysphere's FedRAMP 20x Class A application is under FedRAMP review, checked against the status of that application with FedRAMP. The other statements are unchanged from revision 2026-09-28, which named the FedRAMP 20x Class C certification being pursued and its independent assessor (A-LIGN, FedRAMP assessor ID 138665; assessment in progress since 2026-09-15), described access to controlled FedRAMP Trust Center deliverables as a one-time approval, stated that Origin is not part of this offering, and stopped listing published materials as in development.",
           "responsibleOfficial": {
             "name": "Ethan Troy",
             "title": "Senior Security Engineer",
@@ -4530,19 +4533,18 @@
               "name": "Cursor FedRAMP Trust Center",
               "url": "https://trust.paramify.com/cursor/cursor",
               "format": "Trust Center",
-              "access": "Public compliance program and control status; controlled deliverables require just-in-time access granted to agencies and other necessary parties"
+              "access": "Public compliance program; controlled deliverables are available to agencies and other necessary parties after a one-time access approval requested on the FedRAMP Trust Center"
             },
             {
               "name": "SOC 2 Type II Report (Schellman; Security, Availability, and Confidentiality; August 15, 2025 to August 15, 2026)",
               "url": "https://trust.paramify.com/cursor/cursor",
               "format": "PDF",
-              "access": "Published as a controlled deliverable on the FedRAMP Trust Center; requires just-in-time access granted to agencies and other necessary parties. SOC 2 is an independent attestation and is not a FedRAMP certification."
+              "access": "Published as a controlled deliverable on the FedRAMP Trust Center, available to agencies and other necessary parties after a one-time access approval. SOC 2 is an independent attestation and is not a FedRAMP certification."
             }
           ],
           "materialsInDevelopment": [
-            "FedRAMP Class A Security Decision Record with rule-level validation and assessment statements",
             "Minimum Assessment Scope resource, information-flow, metadata, and third-party inventories",
-            "Quarterly FedRAMP implementation progress updates"
+            "FedRAMP 20x Class C progress update (the Class A progress update of 2026-09-13 is published on the FedRAMP Trust Center)"
           ]
         },
         "contactInformation": [
@@ -4563,7 +4565,7 @@
         },
         "ZD_frid_retro": "FR2631054484",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:50Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:57Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5083,7 +5085,7 @@
         },
         "ZD_frid_retro": "FR2631154499",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:51Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:57Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5180,7 +5182,7 @@
         },
         "ZD_frid_retro": "FR2631258113",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:51Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:57Z"
       },
       {
         "serviceIdentification": {
@@ -5372,7 +5374,7 @@
         ],
         "ZD_frid_retro": "F1206111371",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:51Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:58Z"
       },
       {
         "serviceIdentification": {
@@ -5527,8 +5529,28 @@
             "repositoryDescription": "Secure configuration guidance for the Certivo Compliance Platform.",
             "authenticationRequired": false
           },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Trust Center",
+                "Assessment Reports",
+                "Policies",
+                "Procedures"
+              ],
+              "url": "https://trust-gov.certivo.com/",
+              "repositoryDescription": "FedRAMP Certification Data for package FR2631258125 in the Trust Center Resources section: Security Decision Record (JSON and human-readable), Ongoing Certification Report, Ongoing Certification Report and Incident Report schemas, SOC 2 Type II report with bridge letter, Class A Assessment Evidence Register, Amazon Inspector and AWS Config exports for the AWS GovCloud (US) account, and the FedRAMP policies and procedures cited by the Security Decision Record.",
+              "authenticationRequired": true,
+              "accessRequestInstructions": "Open the Trust Center at https://trust-gov.certivo.com/ and select Request access. Agencies and FedRAMP are given access to requestable documents after Certivo verifies the requester. Questions: security@certivo.com."
+            }
+          ],
           "nextOngoingCertificationReportDate": "2026-12-15"
         },
+        "certifiedServices": [
+          {
+            "serviceName": "Certivo Compliance Platform",
+            "serviceDescription": "The whole cloud service offering, delivered as SaaS from AWS GovCloud (US) us-gov-west-1: the web application and API, document processing, rule evaluation, AI-assisted (LLM) processing on Amazon Bedrock in AWS GovCloud (US), framework orchestration, batch operations, file preview and scheduled jobs. All features of the Certivo Compliance Platform are in the FedRAMP Minimum Assessment Scope; no feature is excluded. No model or service outside AWS GovCloud (US) is called. Security category (FIPS 199): Moderate."
+          }
+        ],
         "contactInformation": [
           {
             "contactType": "Security",
@@ -5545,7 +5567,7 @@
         ],
         "ZD_frid_retro": "FR2631258125",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:53Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:00Z"
       },
       {
         "serviceIdentification": {
@@ -5622,7 +5644,7 @@
         },
         "ZD_frid_retro": "FR2631258127",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:52Z"
+        "last_fetched_timestamp": "2026-10-08T16:43:59Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5689,13 +5711,210 @@
             "contactEmail": "fedramp@specset.com"
           }
         ],
+        "assessor": {
+          "name": "Prescient Security, LLC.",
+          "assessorID": "202040"
+        },
         "certifiedServices": [
           {
             "serviceName": "Specset Cloud Platform",
-            "serviceDescription": "The Specset Cloud Platform is a single multi-tenant SaaS service for construction document intelligence. Security category: Moderate (FIPS 199), reflecting the Controlled Unclassified Information the service handles for defense and federal customers. The platform is offered as a single service, and no component of it carries a different security category. It ingests customer project documents (project manuals and specifications, drawing sheets, shop drawings and submittals) and provides automated submittal review against project specifications, UFGS and specification compliance checking, design review automation, document search and question answering across a project's documents, and asset management logic. Customers use the service through a web application. Optional customer-initiated integrations connect to the customer's own Procore or Autodesk tenants. Production runs on Google Cloud Platform in project specset-prod-assured (Assured Workloads, FEDRAMP_MODERATE control package, us-west1), with supporting services on Amazon Web Services and Microsoft Azure as listed under third-party information resources. A per-organization CUI mode restricts model, embedding and web-grounding calls to the Assured Workloads project (Vertex AI, location us), disables the commercial AI and support-chat integrations and the customer-initiated Procore and Autodesk integrations, and never calls Perplexity. Federal tenants are provisioned with CUI mode enabled.",
-            "dateAvailable": "2025-01-22"
+            "serviceDescription": "The offering as a whole: one multi-tenant SaaS service for construction document intelligence, used in a web browser on a computer or phone. An organization's members keep the project record in it (project manuals and specifications, drawing sets, submittals, RFIs, daily logs and photos, issues and documents), and every feature listed below runs on that record inside the same boundary. Production runs on Google Cloud in project specset-prod-assured (Assured Workloads, FEDRAMP_MODERATE control package, us-west1), with the supporting services listed under third-party information resources. Security category: Moderate (FIPS 199), reflecting the Controlled Unclassified Information the service handles for defense and federal customers. The whole service carries that one category, and no feature carries a different one. A per-organization CUI mode keeps model, embedding and web-grounding calls in the Assured Workloads project (Vertex AI, location us), turns off the commercial AI and support-chat integrations and the Procore and Autodesk integrations, and never calls Perplexity. Federal tenants are provisioned with CUI mode enabled.",
+            "dateAvailable": "2025-01-22",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Ask the project (Q&A chat)",
+            "serviceDescription": "Plain-language questions from anywhere in a project, answered from the project's own documents with a citation to each source.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Design quality review",
+            "serviceDescription": "Reviews specifications and drawings in project-wide context and returns conflicts, omissions and constructability risks, each cited to its source.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Submittal review",
+            "serviceDescription": "Reviews submittal packages (mix designs, shop drawings, product data, safety plans and more) against the applicable project requirements and returns the package annotated.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Plan comparison",
+            "serviceDescription": "Compares two plan sets, or two revisions of one sheet, and returns each change matched by sheet and classified by what it touches.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Document generation",
+            "serviceDescription": "Drafts documents such as safety plans, quality-control plans, closeout forms and proposal sections from the project record into the customer's own Word template.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "RFIs & revisions",
+            "serviceDescription": "Tracks each RFI against the conformed specifications and current drawings, and checks the answer before it reaches the field.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Submittal log",
+            "serviceDescription": "Reads the project manual and builds a cited register of the product data, samples, shop drawings and closeout packages it requires.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Spec intelligence",
+            "serviceDescription": "Merges the base specification, every addendum and the special provisions into one conformed text per section, searchable and cited to the paragraph.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Bid screening",
+            "serviceDescription": "Extracts opportunities from bid boards and notices and reads the invitation for damages, bonding, set-asides and schedule risks. Reading a public bid-portal page uses Firecrawl, listed under third-party information resources with its CUI-mode gap and plan.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Contract review",
+            "serviceDescription": "Works the agreement, conditions and special provisions through a checklist and returns a severity-flagged review table.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Schedule intelligence",
+            "serviceDescription": "Imports a Primavera P6 or Microsoft Project schedule, computes the network and answers questions about what slipped, what drives the finish and what comes next.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Closeout & operations (F&M portal)",
+            "serviceDescription": "Turns the specifications, equipment schedules, submittals and O&M package into a structured facility record of assets, warranties and maintenance schedules, which the owner's team uses through the F&M portal after handoff.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Custom skills",
+            "serviceDescription": "Lets an organization write down its own procedure (a checklist, an extraction or a deliverable in its template) for the agents to run on every project.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Specset API, command-line tool and AI-assistant connectors",
+            "serviceDescription": "The Specset API, the specset command-line tool, and the connector (MCP) through which a member uses Specset from Claude, ChatGPT or Codex. Each acts with the member's own sign-in and permissions. The API and the connector endpoint run inside the service; the assistant a member connects is not part of the offering (see Not included).",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Procore and Autodesk Construction Cloud integrations",
+            "serviceDescription": "Optional, customer-initiated connections to the customer's own Procore or Autodesk tenant through OAuth, moving only the records the customer chooses. Not available to an organization in CUI mode: an application gate stops it from connecting either integration and makes an existing connection inert.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
           }
         ],
+        "servicesNotIncluded": [
+          {
+            "serviceName": "AI assistants a member connects (Claude, ChatGPT, Codex)",
+            "serviceDescription": "The assistant runs on its own provider's service under the customer's account with that provider. What a member retrieves into it through the connector leaves the offering at the member's direction and is outside the Minimum Assessment Scope.",
+            "minimumAssessmentScope": "Not included"
+          },
+          {
+            "serviceName": "The customer's own Procore and Autodesk tenants",
+            "serviceDescription": "The integrations listed above are included; the tenants they connect to are the customer's own systems.",
+            "minimumAssessmentScope": "Not included"
+          }
+        ],
+        "cryptographicModules": {
+          "summary": "Each place where cryptography protects federal customer data in the Specset Cloud Platform, the module that performs it and its status under the NIST Cryptographic Module Validation Program (CMVP). Modules that Google operates inside its services are BoringCrypto: Google states that it holds FIPS 140-3 certificate 5104, which NIST lists as active, and Google Cloud KMS keys at the software protection level use the same module. Which certificate covers the build behind each Google service is Google's statement, which Specset relies on and cannot test. The TLS libraries inside the containers Specset runs are not CMVP-validated as deployed. The list was checked against the information-resources inventory and the Terraform configuration on 2026-10-07; certificate status and component releases are re-read at each quarterly Ongoing Certification Report.",
+          "modules": [
+            {
+              "protects": "Data at rest: Cloud SQL application and workflow databases and their backups. AES-256 under a customer-managed Cloud KMS key, software protection level, rotated every 90 days.",
+              "module": "BoringCrypto (Cloud KMS, Cloud SQL)",
+              "operatedBy": "Google",
+              "cmvpStatus": "Validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services"
+            },
+            {
+              "protects": "Data at rest: Kubernetes Secrets in GKE etcd, including service credentials and the in-cluster certificate authority's private key. Application-layer encryption under a customer-managed Cloud KMS key, rotated every 90 days.",
+              "module": "BoringCrypto (Cloud KMS, GKE)",
+              "operatedBy": "Google",
+              "cmvpStatus": "Validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services"
+            },
+            {
+              "protects": "Data at rest: Cloud Storage (customer documents and the audit-log archive), Cloud Logging buckets, Memorystore, Persistent Disk (search-embedding volumes and GKE node boot disks), Secret Manager and the Terraform state bucket. Google default encryption, AES-256.",
+              "module": "BoringCrypto",
+              "operatedBy": "Google",
+              "cmvpStatus": "Validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services"
+            },
+            {
+              "protects": "Data in transit: users' browsers to the service. TLS 1.2 or later at Google's global HTTPS load balancer under a restricted SSL policy. The hop from the load balancer to the application is inside Google's network, and its protection is Google's and inherited.",
+              "module": "Google Front End TLS (BoringSSL, whose core is BoringCrypto)",
+              "operatedBy": "Google",
+              "cmvpStatus": "Validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services"
+            },
+            {
+              "protects": "Data in transit: users' browsers to Cloud Storage. Documents are uploaded and read directly with signed URLs; TLS ends at Google's API front end under Google's own TLS configuration.",
+              "module": "Google Front End TLS (BoringSSL, whose core is BoringCrypto)",
+              "operatedBy": "Google",
+              "cmvpStatus": "Validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services"
+            },
+            {
+              "protects": "Data in transit: application and workers to Cloud SQL. TLS 1.2 or later with the server certificate verified against the instance's own certificate authority; the instance refuses unencrypted connections.",
+              "module": "Clients: OpenSSL as bundled with Node.js 24.21.0 in the application image; Go's standard TLS library in Temporal 1.32.0. Server: Cloud SQL.",
+              "operatedBy": "Specset (clients); Google (server)",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode) for the clients; the server side is Google's, and Specset makes no separate claim for it"
+            },
+            {
+              "protects": "Data in transit: application to Memorystore for Redis. TLS only, with AUTH; the application verifies each server certificate against that instance's certificate authority.",
+              "module": "Client: Node.js OpenSSL. Server: Memorystore.",
+              "operatedBy": "Specset (client); Google (server)",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode) for the client; the server side is Google's, and Specset makes no separate claim for it"
+            },
+            {
+              "protects": "Data in transit: application and workers to the Qdrant vector database, and between Qdrant peers. TLS from the in-cluster certificate authority, an API key for clients and mutually authenticated TLS between peers.",
+              "module": "Client: Node.js OpenSSL. Server and peers: rustls as built into Qdrant 1.19.0.",
+              "operatedBy": "Specset",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode)"
+            },
+            {
+              "protects": "Data in transit: to the Temporal workflow service and between its services. TLS from the in-cluster certificate authority, verified by every client.",
+              "module": "Server: Go's standard TLS library in Temporal 1.32.0. Clients: the Temporal TypeScript SDK 1.24.0 in the application image (worker connections through the SDK's Rust core on rustls; client connections on Node.js OpenSSL); Go's standard TLS library in the Temporal web UI 2.54.1, the Temporal admin tools 1.32.0 and the autoscaler (KEDA 2.21.0).",
+              "operatedBy": "Specset",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode)"
+            },
+            {
+              "protects": "Data in transit: in-cluster certificate authority. cert-manager v1.21.2 issues the Temporal, autoscaler and Qdrant certificates (ECDSA P-256).",
+              "module": "Go's standard cryptography library in cert-manager v1.21.2",
+              "operatedBy": "Specset",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode)"
+            },
+            {
+              "protects": "Data in transit: administrative path to Cloud SQL. An operator's session reaches the in-cluster Cloud SQL Auth Proxy through a TLS-protected port-forward over Connect Gateway; the proxy carries it to the instance over TLS 1.3 with verified client and server identities.",
+              "module": "Go's standard TLS library in Cloud SQL Auth Proxy 2.25.4 and in kubectl on the operator's machine; Google Front End TLS for Connect Gateway.",
+              "operatedBy": "Specset (proxy, kubectl); Google (Connect Gateway)",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode) for the Go library; Google's front end as above"
+            },
+            {
+              "protects": "Data in transit: administrative browser path to the workflow console and the vector database, behind Identity-Aware Proxy on a second global HTTPS load balancer with the same restricted SSL policy. Behind it, the hop to the workflow console is inside Google's network and inherited, and the hop to the vector database is TLS.",
+              "module": "Edge: Google Front End TLS. Vector database: rustls in Qdrant 1.19.0.",
+              "operatedBy": "Google (edge); Specset (Qdrant)",
+              "cmvpStatus": "Edge: Validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services. Qdrant: Not CMVP-validated as deployed (not built or run in an approved mode)"
+            },
+            {
+              "protects": "Data in transit: calls from the application to Google APIs inside the boundary (Vertex AI on the assured route, Cloud Storage, and the IAM Credentials API that signs Cloud Storage URLs).",
+              "module": "Client: Node.js OpenSSL. Server: Google Front End TLS.",
+              "operatedBy": "Specset (client); Google (server)",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode) for the client; server validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services"
+            },
+            {
+              "protects": "Data in transit: calls from the application to services outside Google Cloud listed under third-party information resources (for example Amazon SES, customer identity providers and, for organizations not in CUI mode, the commercial model and integration providers).",
+              "module": "Client: Node.js OpenSSL. Server side and storage: the provider's own modules.",
+              "operatedBy": "Specset (client); the provider (server)",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode) for the client; the provider's modules are covered by its own FedRAMP certification where the resource is listed as certified"
+            }
+          ]
+        },
         "thirdPartyInformationResources": {
           "certified": [
             {
@@ -5799,12 +6018,6 @@
               "website": "https://www.firecrawl.dev"
             },
             {
-              "name": "CARTO basemaps",
-              "provider": "CARTO, Inc.",
-              "useCase": "Browser-side raster map tiles for one dashboard panel, the closeout facility map. The vendor receives the visitor's IP address and the requested tile coordinates, which disclose the approximate location of a project facility; no project name, address, identifier or document is sent, and no server-side path to the vendor exists. Gap: those tile requests are not gated on CUI mode. Plan: self-host the tiles and remove the egress before the 2026-12-01 Ongoing Certification Report.",
-              "website": "https://carto.com"
-            },
-            {
               "name": "Customer single sign-on identity providers (Google Sign-In and customer-configured OpenID Connect providers)",
               "provider": "The customer's own identity provider (Google Sign-In, or any OpenID Connect provider a customer configures)",
               "useCase": "Customer-chosen authentication for customer users. Specset receives the identity assertion and the claims the customer's provider releases; no project document or row leaves the boundary. Each provider is the customer's own information resource under the customer's own administration, so its certification status is the customer's decision. Corporate Google single sign-on is enforced for Specset staff and superadmin access.",
@@ -5818,9 +6031,9 @@
             "title": "CEO and Co-Founder",
             "email": "gordon@specset.com"
           },
-          "version": "2026.10.05",
-          "lastUpdated": "2026-10-05T15:00:00Z",
-          "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Provider update during FedRAMP review of the Class A application: the Vulnerability Management Procedure summary states the procedure's current evaluation and remediation timeframes (the Class C response table, adopted 2026-10-01) instead of the Class A ones. Version 2026.10.03 linked the Secure Configuration Guide; version 2026.09.30 corrected statements in the filed version 2026.09.14 that became outdated after the application was filed."
+          "version": "2026.10.07",
+          "lastUpdated": "2026-10-07T23:20:00Z",
+          "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Provider update during FedRAMP review of the Class A application: names the FedRAMP Recognized independent assessment service engaged for the Class C assessment, Prescient Security, LLC. (Assessor ID 202040), and gives the status page's machine-readable addresses that are served as JSON and RSS; and adds what the Class C rules ask the overview to carry: the service list item by item, with each item's security category and whether it is in the Minimum Assessment Scope (CDS-CSO-SVC), the reference to every policy and procedure in the certification data (CDS-CSO-IRP, policiesAndProcedures) and the cryptographic module list (CMU-CSO-CMD, cryptographicModules), and names the fifteen approved security policies. CARTO basemaps is removed from the third-party information resources: the closeout dashboard's facility map, its only use, was removed from the application (specbook #1154, deployed 2026-10-07), so no map-tile request leaves the offering. Version 2026.10.05 stated the Vulnerability Management Procedure's current timeframes; version 2026.10.03 linked the Secure Configuration Guide; version 2026.09.30 corrected statements in the filed version 2026.09.14 that became outdated after the application was filed."
         },
         "documentation": [
           {
@@ -5844,7 +6057,7 @@
           {
             "name": "SOC 2 Type II report",
             "type": "PDF (restricted use)",
-            "summary": "Prescient Assurance LLC, issued 2026-08-31, Security Trust Services Criteria, period 2026-04-15 to 2026-07-15, unqualified opinion, no exceptions on 131 tested controls. This is the approved alternative security framework assessment that Class A rests on (FRC-CLA-ASF). Independent verification and validation of the certification package by a FedRAMP Recognized independent assessment service is optional at Class A (FRC-CLA-IVV), and none is engaged for this submission. An independent assessor is engaged for the Class C assessment that follows. The management representation letter accompanying the report is retained in the evidence repository and supplied with the application and on request to fedramp@specset.com.",
+            "summary": "Prescient Assurance LLC, issued 2026-08-31, Security Trust Services Criteria, period 2026-04-15 to 2026-07-15, unqualified opinion, no exceptions on 131 tested controls. This is the approved alternative security framework assessment that Class A rests on (FRC-CLA-ASF). Independent verification and validation of the certification package by a FedRAMP Recognized independent assessment service is optional at Class A (FRC-CLA-IVV), and none is engaged for this submission. An independent assessor, Prescient Security, LLC. (Assessor ID 202040, the assessor named in this document), is engaged for the Class C assessment that follows. The management representation letter accompanying the report is retained in the evidence repository and supplied with the application and on request to fedramp@specset.com.",
             "availability": "Trust center (trust.specset.com), restricted resource open to access requests, view only, no NDA"
           },
           {
@@ -5867,8 +6080,8 @@
           },
           {
             "name": "Security policies",
-            "type": "PDF / web",
-            "summary": "The policy set maintained in Vanta, with employee acceptance recorded there: information security, access control, data management, cryptography, operations security (which carries the change management requirements), acceptable use, password, mobile device, data leakage prevention and third-party management policies, plus the incident response plan and the business continuity and disaster recovery plan. Gap: the revised business continuity and disaster recovery plan that aligns the recovery time objective with the recovery plan is pending approval, and the approved version still records the earlier objective. Plan: approve the revision by 2026-11-30, before the 2026-12-01 Ongoing Certification Report.",
+            "type": "PDF (Vanta policy documents)",
+            "summary": "The fifteen company policies and plans approved and maintained in Vanta, with employee acceptance recorded there: access control (which carries the password requirements), asset management, business continuity and disaster recovery, code of conduct, cryptography, data management, human resource security, incident response, information security and acceptable use (which carries the mobile device requirements), information security roles and responsibilities, operations security (which carries the change management and data leakage prevention requirements), physical security, risk management, secure development and third-party management. Each is listed with its version, date of last update and word count under Policies and procedures.",
             "availability": "Maintained in Vanta with employee acceptance records; not published on the trust center; supplied on request to fedramp@specset.com."
           },
           {
@@ -5903,8 +6116,8 @@
           },
           {
             "name": "Service availability (CDS-CSO-AVR)",
-            "type": "Web page + JSON",
-            "summary": "Current status, 90-day per-service history and incidents, hosted independently of the offering; machine-readable at https://status.specset.com/index.json.",
+            "type": "Web page + JSON + RSS",
+            "summary": "Current status, 90-day per-service history and incidents, hosted independently of the offering; machine-readable at https://status.specset.com/index.json?format=json (JSON) and https://status.specset.com/feed.rss (incident RSS).",
             "availability": "Public: https://status.specset.com"
           },
           {
@@ -5914,9 +6127,376 @@
             "availability": "Public, no login: https://docs.specset.com/docs/secure-configuration"
           }
         ],
+        "policiesAndProcedures": [
+          {
+            "name": "Incident Response Procedure",
+            "type": "Procedure",
+            "file": "incident-response.pdf",
+            "summary": "Incident detection, triage, FedRAMP reportability evaluation, initial, ongoing and final incident reports, the FedRAMP Security Inbox procedure and the quarterly review.",
+            "wordCount": 3169,
+            "currentVersion": "2026-10-01",
+            "lastUpdated": "2026-10-01",
+            "relatedFedRampPractices": [
+              "IEC-CSO-EFR",
+              "IEC-CSO-EFI",
+              "IEC-CSO-DPR",
+              "IEC-CSO-IIR",
+              "IEC-CSO-OIR",
+              "IEC-CSO-FIR",
+              "IEC-CSO-AIR",
+              "AFC-CSO-INB",
+              "AFC-CSO-NOC",
+              "AFC-CSO-TFG",
+              "AFC-CSO-RCV",
+              "AFC-CSO-CRA",
+              "AFC-CSO-EMR",
+              "AFC-CSO-IMA",
+              "AFC-CSO-ACK",
+              "CDS-UTC-AAD",
+              "KSI-INR-RIR",
+              "KSI-INR-AAR",
+              "KSI-INR-RPI"
+            ],
+            "availability": "Trust center (https://trust.specset.com), restricted resource open to access requests, no NDA."
+          },
+          {
+            "name": "Vulnerability Management Procedure",
+            "type": "Procedure",
+            "file": "vulnerability-management.pdf",
+            "summary": "Persistent vulnerability detection, PAIN-based evaluation, response timeframes, exceptions and risk acceptance, and the monthly vulnerability activity report.",
+            "wordCount": 3657,
+            "currentVersion": "2026-10-02",
+            "lastUpdated": "2026-10-02",
+            "relatedFedRampPractices": [
+              "VDR (all rules)",
+              "VER (all rules)"
+            ],
+            "availability": "Trust center (https://trust.specset.com), restricted resource open to access requests, no NDA."
+          },
+          {
+            "name": "Recovery plan (Recovery and Backup Configuration)",
+            "type": "Plan",
+            "file": "12-recovery-and-backup-configuration.pdf",
+            "summary": "Service recovery objectives, backup configuration by datastore, recovery procedures and the recovery testing cadence.",
+            "wordCount": 1157,
+            "currentVersion": "2026-09-13",
+            "lastUpdated": "2026-09-13",
+            "relatedFedRampPractices": [
+              "KSI-RPL-ARP",
+              "KSI-RPL-RRO",
+              "KSI-RPL-ABO",
+              "KSI-RPL-TRC"
+            ],
+            "availability": "Trust center (https://trust.specset.com), restricted resource open to access requests, no NDA."
+          },
+          {
+            "name": "Secure Configuration Guide",
+            "type": "Procedure",
+            "file": "https://docs.specset.com/docs/secure-configuration",
+            "summary": "For the administrators of a customer organization: the accounts that control an organization, the recommended security settings for one holding federal information or CUI, and how account access is requested and recovered.",
+            "wordCount": 1222,
+            "currentVersion": "2026.09.18.2",
+            "lastUpdated": "2026-10-05",
+            "relatedFedRampPractices": [
+              "SCG-CSO-RSC",
+              "SCG-CSO-PUB",
+              "SCG-CSO-AUP",
+              "SCG-ENH-VRH"
+            ],
+            "availability": "Public documentation page, no login."
+          },
+          {
+            "name": "Ongoing Certification Reports and Quarterly Reviews",
+            "type": "Procedure",
+            "file": "ongoing-certification-reports.md",
+            "summary": "How the quarterly Ongoing Certification Report is assembled, checked for sensitive information and published, how questions about it are answered, the reviews held in the same quarterly slot and the Class C Quarterly Review.",
+            "wordCount": 1371,
+            "currentVersion": "edition 2026-10-05",
+            "lastUpdated": "2026-10-05",
+            "relatedFedRampPractices": [
+              "CCM-OCR-AVL",
+              "CCM-OCR-NRD",
+              "CCM-OCR-SOR",
+              "CCM-OCR-FBM",
+              "CCM-OCR-AFS",
+              "CCM-OCR-LSI",
+              "CCM-OCR-RPS",
+              "CCM-QTR-MTG",
+              "CCM-QTR-SAR",
+              "CCM-QTR-REG",
+              "CCM-QTR-NRD",
+              "CCM-QTR-ACT",
+              "CCM-QTR-RTR",
+              "CCM-QTR-RTP",
+              "CCM-QTR-NID",
+              "CCM-QTR-SCR",
+              "CCM-QTR-SRR",
+              "CDS-CSO-HAD",
+              "CDS-CSO-RIS",
+              "CPO-CSX-CPM",
+              "KSI-CMT-RVP"
+            ],
+            "availability": "Class C package procedure; supplied on request to fedramp@specset.com until the Class C package is filed with it."
+          },
+          {
+            "name": "Significant Change Notification procedure",
+            "type": "Procedure",
+            "file": "significant-change-notification.md",
+            "summary": "How each production change is evaluated for significance, confirmed by an operator, recorded and, when significant, notified.",
+            "wordCount": 3132,
+            "currentVersion": "edition 2026-10-07",
+            "lastUpdated": "2026-10-07",
+            "relatedFedRampPractices": [
+              "SCN (all rules)",
+              "KSI-CMT-LMC"
+            ],
+            "availability": "Class C package procedure; supplied on request to fedramp@specset.com until the Class C package is filed with it."
+          },
+          {
+            "name": "Use of representative samples",
+            "type": "Procedure",
+            "file": "use-of-representative-samples.md",
+            "summary": "Every place where Specset's own verification and validation looks at a sample instead of a whole population, and why the sample stands for the rest.",
+            "wordCount": 476,
+            "currentVersion": "edition 2026-10-05",
+            "lastUpdated": "2026-10-05",
+            "relatedFedRampPractices": [
+              "IVV-CSO-USR",
+              "IVV-CSO-DUS"
+            ],
+            "availability": "Class C package procedure; supplied on request to fedramp@specset.com until the Class C package is filed with it."
+          },
+          {
+            "name": "Privileged access procedure",
+            "type": "Procedure",
+            "file": "privileged-access.md",
+            "summary": "How the founders obtain administrative access to production per task, with a reason and for a limited time, through Privileged Access Manager, and the last-resort path.",
+            "wordCount": 2628,
+            "currentVersion": "edition 2026-10-07",
+            "lastUpdated": "2026-10-07",
+            "relatedFedRampPractices": [
+              "KSI-IAM-JIT",
+              "KSI-IAM-ELP"
+            ],
+            "availability": "Class C package procedure; supplied on request to fedramp@specset.com until the Class C package is filed with it."
+          },
+          {
+            "name": "Access Control Policy",
+            "type": "Policy",
+            "file": "Access Control Policy (Vanta policy document)",
+            "summary": "Limits access to information and information-processing systems, networks and facilities to authorized parties, including account management, authentication and password requirements.",
+            "wordCount": 2719,
+            "currentVersion": "3.1",
+            "lastUpdated": "2026-09-11",
+            "relatedFedRampPractices": [
+              "KSI-IAM-AAM",
+              "KSI-IAM-APM",
+              "KSI-IAM-ELP",
+              "KSI-IAM-JIT",
+              "KSI-IAM-SNU",
+              "KSI-IAM-SUS",
+              "KSI-MLA-ALA"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Asset Management Policy",
+            "type": "Policy",
+            "file": "Asset Management Policy (Vanta policy document)",
+            "summary": "Identifies the organization's assets and who is responsible for protecting them, and prevents unauthorized disclosure, modification, removal or destruction of information on media.",
+            "wordCount": 548,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [
+              "MAS-CSO-IIR",
+              "KSI-PIY-GIV"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Business Continuity and Disaster Recovery Plan",
+            "type": "Plan",
+            "file": "Business Continuity and Disaster Recovery Plan (Vanta policy document)",
+            "summary": "Continuity of critical services in a disaster, the responsibilities and communications, and the recovery time and recovery point objectives.",
+            "wordCount": 2386,
+            "currentVersion": "3.1",
+            "lastUpdated": "2026-09-14",
+            "relatedFedRampPractices": [
+              "KSI-RPL-ARP",
+              "KSI-RPL-RRO",
+              "KSI-RPL-ABO",
+              "KSI-RPL-TRC",
+              "KSI-CNA-OFA"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Code of Conduct",
+            "type": "Policy",
+            "file": "Code of Conduct (Vanta policy document)",
+            "summary": "The conduct expected of all staff, for safe and collaborative working conditions, and the consequences of unacceptable behavior.",
+            "wordCount": 1107,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Cryptography Policy",
+            "type": "Policy",
+            "file": "Cryptography Policy (Vanta policy document)",
+            "summary": "Requirements for cryptographic keys and methods across the encryption lifecycle, so that cryptography protects the confidentiality, authenticity and integrity of information.",
+            "wordCount": 416,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [
+              "CMU-CSO-CMD",
+              "CMU-CSO-UVM",
+              "KSI-SVC-SIN",
+              "KSI-SVC-VCM",
+              "KSI-SVC-ASM"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Data Management Policy",
+            "type": "Policy",
+            "file": "Data Management Policy (Vanta policy document)",
+            "summary": "Classification, protection, retention and secure disposal of information according to its importance; version 3.2 amends the retained version 3.0 text.",
+            "wordCount": 3165,
+            "currentVersion": "3.2",
+            "lastUpdated": "2026-10-05",
+            "relatedFedRampPractices": [
+              "KSI-SVC-RUD",
+              "KSI-SVC-SIN"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Human Resource Security Policy",
+            "type": "Policy",
+            "file": "Human Resource Security Policy (Vanta policy document)",
+            "summary": "Screening, security responsibilities, training and suitability of personnel and contractors, before, during and after employment.",
+            "wordCount": 1024,
+            "currentVersion": "3.1",
+            "lastUpdated": "2026-09-14",
+            "relatedFedRampPractices": [
+              "KSI-CED-RAT"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Incident Response Plan",
+            "type": "Plan",
+            "file": "Incident Response Plan (Vanta policy document)",
+            "summary": "The organizational plan for managing information security incidents and events; version 3.1 amends the retained version 3.0 text, and the Incident Response Procedure carries the FedRAMP reporting steps.",
+            "wordCount": 5453,
+            "currentVersion": "3.1",
+            "lastUpdated": "2026-09-14",
+            "relatedFedRampPractices": [
+              "IEC (all rules)",
+              "KSI-INR-RIR",
+              "KSI-INR-AAR",
+              "KSI-INR-RPI"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Information Security Policy (Acceptable Use)",
+            "type": "Policy",
+            "file": "Information Security Policy (AUP) (Vanta policy document)",
+            "summary": "The company's information security policies and the acceptable use and protection of its information and assets, including mobile devices.",
+            "wordCount": 2521,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Information Security Roles and Responsibilities",
+            "type": "Policy",
+            "file": "Information Security Roles and Responsibilities (Vanta policy document)",
+            "summary": "Who in the company is responsible for which part of information security, so that policies are communicated and responsibility is clearly assigned.",
+            "wordCount": 914,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [
+              "KSI-PIY-RES"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Operations Security Policy",
+            "type": "Policy",
+            "file": "Operations Security Policy (Vanta policy document)",
+            "summary": "Secure operation of information-processing systems, including change management, logging and monitoring, malware and vulnerability handling and data leakage prevention.",
+            "wordCount": 3483,
+            "currentVersion": "3.1",
+            "lastUpdated": "2026-09-14",
+            "relatedFedRampPractices": [
+              "KSI-CMT-LMC",
+              "KSI-CMT-RVP",
+              "KSI-MLA-LET",
+              "KSI-MLA-RVL"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Physical Security Policy",
+            "type": "Policy",
+            "file": "Physical Security Policy (Vanta policy document)",
+            "summary": "Prevents unauthorized physical access to, and damage to, the organization's information and information-processing facilities; production facilities are Google Cloud's.",
+            "wordCount": 743,
+            "currentVersion": "4.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Risk Management Policy",
+            "type": "Policy",
+            "file": "Risk Management Policy (Vanta policy document)",
+            "summary": "How information security risks and opportunities are identified and treated, and the plan for reaching the security and privacy objectives.",
+            "wordCount": 2674,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Secure Development Policy",
+            "type": "Policy",
+            "file": "Secure Development Policy (Vanta policy document)",
+            "summary": "Security designed and implemented within the development lifecycle of applications and information systems.",
+            "wordCount": 976,
+            "currentVersion": "3.1",
+            "lastUpdated": "2026-09-14",
+            "relatedFedRampPractices": [
+              "KSI-PIY-RSD",
+              "KSI-CMT-VTD",
+              "KSI-SCR-MIT"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Third-Party Management Policy",
+            "type": "Policy",
+            "file": "Third-Party Management Policy (Vanta policy document)",
+            "summary": "Protection of data and assets shared with, accessible to or managed by suppliers, and the agreed level of security and service in supplier agreements.",
+            "wordCount": 1321,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [
+              "MAS-CSO-TPR",
+              "KSI-SCR-MIT",
+              "KSI-SCR-MON"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          }
+        ],
         "ZD_frid_retro": "FR2631258135",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:53Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:00Z"
       },
       {
         "serviceIdentification": {
@@ -6045,7 +6625,7 @@
         ],
         "ZD_frid_retro": "F1311222650",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:53Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:00Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6173,7 +6753,7 @@
         },
         "ZD_frid_retro": "FR2631654537",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:55Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:02Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6255,7 +6835,7 @@
         },
         "ZD_frid_retro": "FR2631747315",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:56Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:03Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6322,13 +6902,210 @@
             "contactEmail": "fedramp@specset.com"
           }
         ],
+        "assessor": {
+          "name": "Prescient Security, LLC.",
+          "assessorID": "202040"
+        },
         "certifiedServices": [
           {
             "serviceName": "Specset Cloud Platform",
-            "serviceDescription": "The Specset Cloud Platform is a single multi-tenant SaaS service for construction document intelligence. Security category: Moderate (FIPS 199), reflecting the Controlled Unclassified Information the service handles for defense and federal customers. The platform is offered as a single service, and no component of it carries a different security category. It ingests customer project documents (project manuals and specifications, drawing sheets, shop drawings and submittals) and provides automated submittal review against project specifications, UFGS and specification compliance checking, design review automation, document search and question answering across a project's documents, and asset management logic. Customers use the service through a web application. Optional customer-initiated integrations connect to the customer's own Procore or Autodesk tenants. Production runs on Google Cloud Platform in project specset-prod-assured (Assured Workloads, FEDRAMP_MODERATE control package, us-west1), with supporting services on Amazon Web Services and Microsoft Azure as listed under third-party information resources. A per-organization CUI mode restricts model, embedding and web-grounding calls to the Assured Workloads project (Vertex AI, location us), disables the commercial AI and support-chat integrations and the customer-initiated Procore and Autodesk integrations, and never calls Perplexity. Federal tenants are provisioned with CUI mode enabled.",
-            "dateAvailable": "2025-01-22"
+            "serviceDescription": "The offering as a whole: one multi-tenant SaaS service for construction document intelligence, used in a web browser on a computer or phone. An organization's members keep the project record in it (project manuals and specifications, drawing sets, submittals, RFIs, daily logs and photos, issues and documents), and every feature listed below runs on that record inside the same boundary. Production runs on Google Cloud in project specset-prod-assured (Assured Workloads, FEDRAMP_MODERATE control package, us-west1), with the supporting services listed under third-party information resources. Security category: Moderate (FIPS 199), reflecting the Controlled Unclassified Information the service handles for defense and federal customers. The whole service carries that one category, and no feature carries a different one. A per-organization CUI mode keeps model, embedding and web-grounding calls in the Assured Workloads project (Vertex AI, location us), turns off the commercial AI and support-chat integrations and the Procore and Autodesk integrations, and never calls Perplexity. Federal tenants are provisioned with CUI mode enabled.",
+            "dateAvailable": "2025-01-22",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Ask the project (Q&A chat)",
+            "serviceDescription": "Plain-language questions from anywhere in a project, answered from the project's own documents with a citation to each source.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Design quality review",
+            "serviceDescription": "Reviews specifications and drawings in project-wide context and returns conflicts, omissions and constructability risks, each cited to its source.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Submittal review",
+            "serviceDescription": "Reviews submittal packages (mix designs, shop drawings, product data, safety plans and more) against the applicable project requirements and returns the package annotated.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Plan comparison",
+            "serviceDescription": "Compares two plan sets, or two revisions of one sheet, and returns each change matched by sheet and classified by what it touches.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Document generation",
+            "serviceDescription": "Drafts documents such as safety plans, quality-control plans, closeout forms and proposal sections from the project record into the customer's own Word template.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "RFIs & revisions",
+            "serviceDescription": "Tracks each RFI against the conformed specifications and current drawings, and checks the answer before it reaches the field.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Submittal log",
+            "serviceDescription": "Reads the project manual and builds a cited register of the product data, samples, shop drawings and closeout packages it requires.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Spec intelligence",
+            "serviceDescription": "Merges the base specification, every addendum and the special provisions into one conformed text per section, searchable and cited to the paragraph.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Bid screening",
+            "serviceDescription": "Extracts opportunities from bid boards and notices and reads the invitation for damages, bonding, set-asides and schedule risks. Reading a public bid-portal page uses Firecrawl, listed under third-party information resources with its CUI-mode gap and plan.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Contract review",
+            "serviceDescription": "Works the agreement, conditions and special provisions through a checklist and returns a severity-flagged review table.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Schedule intelligence",
+            "serviceDescription": "Imports a Primavera P6 or Microsoft Project schedule, computes the network and answers questions about what slipped, what drives the finish and what comes next.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Closeout & operations (F&M portal)",
+            "serviceDescription": "Turns the specifications, equipment schedules, submittals and O&M package into a structured facility record of assets, warranties and maintenance schedules, which the owner's team uses through the F&M portal after handoff.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Custom skills",
+            "serviceDescription": "Lets an organization write down its own procedure (a checklist, an extraction or a deliverable in its template) for the agents to run on every project.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Specset API, command-line tool and AI-assistant connectors",
+            "serviceDescription": "The Specset API, the specset command-line tool, and the connector (MCP) through which a member uses Specset from Claude, ChatGPT or Codex. Each acts with the member's own sign-in and permissions. The API and the connector endpoint run inside the service; the assistant a member connects is not part of the offering (see Not included).",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
+          },
+          {
+            "serviceName": "Procore and Autodesk Construction Cloud integrations",
+            "serviceDescription": "Optional, customer-initiated connections to the customer's own Procore or Autodesk tenant through OAuth, moving only the records the customer chooses. Not available to an organization in CUI mode: an application gate stops it from connecting either integration and makes an existing connection inert.",
+            "securityCategory": "Moderate",
+            "minimumAssessmentScope": "Included"
           }
         ],
+        "servicesNotIncluded": [
+          {
+            "serviceName": "AI assistants a member connects (Claude, ChatGPT, Codex)",
+            "serviceDescription": "The assistant runs on its own provider's service under the customer's account with that provider. What a member retrieves into it through the connector leaves the offering at the member's direction and is outside the Minimum Assessment Scope.",
+            "minimumAssessmentScope": "Not included"
+          },
+          {
+            "serviceName": "The customer's own Procore and Autodesk tenants",
+            "serviceDescription": "The integrations listed above are included; the tenants they connect to are the customer's own systems.",
+            "minimumAssessmentScope": "Not included"
+          }
+        ],
+        "cryptographicModules": {
+          "summary": "Each place where cryptography protects federal customer data in the Specset Cloud Platform, the module that performs it and its status under the NIST Cryptographic Module Validation Program (CMVP). Modules that Google operates inside its services are BoringCrypto: Google states that it holds FIPS 140-3 certificate 5104, which NIST lists as active, and Google Cloud KMS keys at the software protection level use the same module. Which certificate covers the build behind each Google service is Google's statement, which Specset relies on and cannot test. The TLS libraries inside the containers Specset runs are not CMVP-validated as deployed. The list was checked against the information-resources inventory and the Terraform configuration on 2026-10-07; certificate status and component releases are re-read at each quarterly Ongoing Certification Report.",
+          "modules": [
+            {
+              "protects": "Data at rest: Cloud SQL application and workflow databases and their backups. AES-256 under a customer-managed Cloud KMS key, software protection level, rotated every 90 days.",
+              "module": "BoringCrypto (Cloud KMS, Cloud SQL)",
+              "operatedBy": "Google",
+              "cmvpStatus": "Validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services"
+            },
+            {
+              "protects": "Data at rest: Kubernetes Secrets in GKE etcd, including service credentials and the in-cluster certificate authority's private key. Application-layer encryption under a customer-managed Cloud KMS key, rotated every 90 days.",
+              "module": "BoringCrypto (Cloud KMS, GKE)",
+              "operatedBy": "Google",
+              "cmvpStatus": "Validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services"
+            },
+            {
+              "protects": "Data at rest: Cloud Storage (customer documents and the audit-log archive), Cloud Logging buckets, Memorystore, Persistent Disk (search-embedding volumes and GKE node boot disks), Secret Manager and the Terraform state bucket. Google default encryption, AES-256.",
+              "module": "BoringCrypto",
+              "operatedBy": "Google",
+              "cmvpStatus": "Validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services"
+            },
+            {
+              "protects": "Data in transit: users' browsers to the service. TLS 1.2 or later at Google's global HTTPS load balancer under a restricted SSL policy. The hop from the load balancer to the application is inside Google's network, and its protection is Google's and inherited.",
+              "module": "Google Front End TLS (BoringSSL, whose core is BoringCrypto)",
+              "operatedBy": "Google",
+              "cmvpStatus": "Validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services"
+            },
+            {
+              "protects": "Data in transit: users' browsers to Cloud Storage. Documents are uploaded and read directly with signed URLs; TLS ends at Google's API front end under Google's own TLS configuration.",
+              "module": "Google Front End TLS (BoringSSL, whose core is BoringCrypto)",
+              "operatedBy": "Google",
+              "cmvpStatus": "Validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services"
+            },
+            {
+              "protects": "Data in transit: application and workers to Cloud SQL. TLS 1.2 or later with the server certificate verified against the instance's own certificate authority; the instance refuses unencrypted connections.",
+              "module": "Clients: OpenSSL as bundled with Node.js 24.21.0 in the application image; Go's standard TLS library in Temporal 1.32.0. Server: Cloud SQL.",
+              "operatedBy": "Specset (clients); Google (server)",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode) for the clients; the server side is Google's, and Specset makes no separate claim for it"
+            },
+            {
+              "protects": "Data in transit: application to Memorystore for Redis. TLS only, with AUTH; the application verifies each server certificate against that instance's certificate authority.",
+              "module": "Client: Node.js OpenSSL. Server: Memorystore.",
+              "operatedBy": "Specset (client); Google (server)",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode) for the client; the server side is Google's, and Specset makes no separate claim for it"
+            },
+            {
+              "protects": "Data in transit: application and workers to the Qdrant vector database, and between Qdrant peers. TLS from the in-cluster certificate authority, an API key for clients and mutually authenticated TLS between peers.",
+              "module": "Client: Node.js OpenSSL. Server and peers: rustls as built into Qdrant 1.19.0.",
+              "operatedBy": "Specset",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode)"
+            },
+            {
+              "protects": "Data in transit: to the Temporal workflow service and between its services. TLS from the in-cluster certificate authority, verified by every client.",
+              "module": "Server: Go's standard TLS library in Temporal 1.32.0. Clients: the Temporal TypeScript SDK 1.24.0 in the application image (worker connections through the SDK's Rust core on rustls; client connections on Node.js OpenSSL); Go's standard TLS library in the Temporal web UI 2.54.1, the Temporal admin tools 1.32.0 and the autoscaler (KEDA 2.21.0).",
+              "operatedBy": "Specset",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode)"
+            },
+            {
+              "protects": "Data in transit: in-cluster certificate authority. cert-manager v1.21.2 issues the Temporal, autoscaler and Qdrant certificates (ECDSA P-256).",
+              "module": "Go's standard cryptography library in cert-manager v1.21.2",
+              "operatedBy": "Specset",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode)"
+            },
+            {
+              "protects": "Data in transit: administrative path to Cloud SQL. An operator's session reaches the in-cluster Cloud SQL Auth Proxy through a TLS-protected port-forward over Connect Gateway; the proxy carries it to the instance over TLS 1.3 with verified client and server identities.",
+              "module": "Go's standard TLS library in Cloud SQL Auth Proxy 2.25.4 and in kubectl on the operator's machine; Google Front End TLS for Connect Gateway.",
+              "operatedBy": "Specset (proxy, kubectl); Google (Connect Gateway)",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode) for the Go library; Google's front end as above"
+            },
+            {
+              "protects": "Data in transit: administrative browser path to the workflow console and the vector database, behind Identity-Aware Proxy on a second global HTTPS load balancer with the same restricted SSL policy. Behind it, the hop to the workflow console is inside Google's network and inherited, and the hop to the vector database is TLS.",
+              "module": "Edge: Google Front End TLS. Vector database: rustls in Qdrant 1.19.0.",
+              "operatedBy": "Google (edge); Specset (Qdrant)",
+              "cmvpStatus": "Edge: Validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services. Qdrant: Not CMVP-validated as deployed (not built or run in an approved mode)"
+            },
+            {
+              "protects": "Data in transit: calls from the application to Google APIs inside the boundary (Vertex AI on the assured route, Cloud Storage, and the IAM Credentials API that signs Cloud Storage URLs).",
+              "module": "Client: Node.js OpenSSL. Server: Google Front End TLS.",
+              "operatedBy": "Specset (client); Google (server)",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode) for the client; server validated: BoringCrypto, FIPS 140-3 certificate 5104 (active, validated 2025-12-09; certificate 4735 also active), as Google states for its services"
+            },
+            {
+              "protects": "Data in transit: calls from the application to services outside Google Cloud listed under third-party information resources (for example Amazon SES, customer identity providers and, for organizations not in CUI mode, the commercial model and integration providers).",
+              "module": "Client: Node.js OpenSSL. Server side and storage: the provider's own modules.",
+              "operatedBy": "Specset (client); the provider (server)",
+              "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode) for the client; the provider's modules are covered by its own FedRAMP certification where the resource is listed as certified"
+            }
+          ]
+        },
         "thirdPartyInformationResources": {
           "certified": [
             {
@@ -6432,12 +7209,6 @@
               "website": "https://www.firecrawl.dev"
             },
             {
-              "name": "CARTO basemaps",
-              "provider": "CARTO, Inc.",
-              "useCase": "Browser-side raster map tiles for one dashboard panel, the closeout facility map. The vendor receives the visitor's IP address and the requested tile coordinates, which disclose the approximate location of a project facility; no project name, address, identifier or document is sent, and no server-side path to the vendor exists. Gap: those tile requests are not gated on CUI mode. Plan: self-host the tiles and remove the egress before the 2026-12-01 Ongoing Certification Report.",
-              "website": "https://carto.com"
-            },
-            {
               "name": "Customer single sign-on identity providers (Google Sign-In and customer-configured OpenID Connect providers)",
               "provider": "The customer's own identity provider (Google Sign-In, or any OpenID Connect provider a customer configures)",
               "useCase": "Customer-chosen authentication for customer users. Specset receives the identity assertion and the claims the customer's provider releases; no project document or row leaves the boundary. Each provider is the customer's own information resource under the customer's own administration, so its certification status is the customer's decision. Corporate Google single sign-on is enforced for Specset staff and superadmin access.",
@@ -6451,9 +7222,9 @@
             "title": "CEO and Co-Founder",
             "email": "gordon@specset.com"
           },
-          "version": "2026.10.05",
-          "lastUpdated": "2026-10-05T15:00:00Z",
-          "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Provider update during FedRAMP review of the Class A application: the Vulnerability Management Procedure summary states the procedure's current evaluation and remediation timeframes (the Class C response table, adopted 2026-10-01) instead of the Class A ones. Version 2026.10.03 linked the Secure Configuration Guide; version 2026.09.30 corrected statements in the filed version 2026.09.14 that became outdated after the application was filed."
+          "version": "2026.10.07",
+          "lastUpdated": "2026-10-07T23:20:00Z",
+          "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Provider update during FedRAMP review of the Class A application: names the FedRAMP Recognized independent assessment service engaged for the Class C assessment, Prescient Security, LLC. (Assessor ID 202040), and gives the status page's machine-readable addresses that are served as JSON and RSS; and adds what the Class C rules ask the overview to carry: the service list item by item, with each item's security category and whether it is in the Minimum Assessment Scope (CDS-CSO-SVC), the reference to every policy and procedure in the certification data (CDS-CSO-IRP, policiesAndProcedures) and the cryptographic module list (CMU-CSO-CMD, cryptographicModules), and names the fifteen approved security policies. CARTO basemaps is removed from the third-party information resources: the closeout dashboard's facility map, its only use, was removed from the application (specbook #1154, deployed 2026-10-07), so no map-tile request leaves the offering. Version 2026.10.05 stated the Vulnerability Management Procedure's current timeframes; version 2026.10.03 linked the Secure Configuration Guide; version 2026.09.30 corrected statements in the filed version 2026.09.14 that became outdated after the application was filed."
         },
         "documentation": [
           {
@@ -6477,7 +7248,7 @@
           {
             "name": "SOC 2 Type II report",
             "type": "PDF (restricted use)",
-            "summary": "Prescient Assurance LLC, issued 2026-08-31, Security Trust Services Criteria, period 2026-04-15 to 2026-07-15, unqualified opinion, no exceptions on 131 tested controls. This is the approved alternative security framework assessment that Class A rests on (FRC-CLA-ASF). Independent verification and validation of the certification package by a FedRAMP Recognized independent assessment service is optional at Class A (FRC-CLA-IVV), and none is engaged for this submission. An independent assessor is engaged for the Class C assessment that follows. The management representation letter accompanying the report is retained in the evidence repository and supplied with the application and on request to fedramp@specset.com.",
+            "summary": "Prescient Assurance LLC, issued 2026-08-31, Security Trust Services Criteria, period 2026-04-15 to 2026-07-15, unqualified opinion, no exceptions on 131 tested controls. This is the approved alternative security framework assessment that Class A rests on (FRC-CLA-ASF). Independent verification and validation of the certification package by a FedRAMP Recognized independent assessment service is optional at Class A (FRC-CLA-IVV), and none is engaged for this submission. An independent assessor, Prescient Security, LLC. (Assessor ID 202040, the assessor named in this document), is engaged for the Class C assessment that follows. The management representation letter accompanying the report is retained in the evidence repository and supplied with the application and on request to fedramp@specset.com.",
             "availability": "Trust center (trust.specset.com), restricted resource open to access requests, view only, no NDA"
           },
           {
@@ -6500,8 +7271,8 @@
           },
           {
             "name": "Security policies",
-            "type": "PDF / web",
-            "summary": "The policy set maintained in Vanta, with employee acceptance recorded there: information security, access control, data management, cryptography, operations security (which carries the change management requirements), acceptable use, password, mobile device, data leakage prevention and third-party management policies, plus the incident response plan and the business continuity and disaster recovery plan. Gap: the revised business continuity and disaster recovery plan that aligns the recovery time objective with the recovery plan is pending approval, and the approved version still records the earlier objective. Plan: approve the revision by 2026-11-30, before the 2026-12-01 Ongoing Certification Report.",
+            "type": "PDF (Vanta policy documents)",
+            "summary": "The fifteen company policies and plans approved and maintained in Vanta, with employee acceptance recorded there: access control (which carries the password requirements), asset management, business continuity and disaster recovery, code of conduct, cryptography, data management, human resource security, incident response, information security and acceptable use (which carries the mobile device requirements), information security roles and responsibilities, operations security (which carries the change management and data leakage prevention requirements), physical security, risk management, secure development and third-party management. Each is listed with its version, date of last update and word count under Policies and procedures.",
             "availability": "Maintained in Vanta with employee acceptance records; not published on the trust center; supplied on request to fedramp@specset.com."
           },
           {
@@ -6536,8 +7307,8 @@
           },
           {
             "name": "Service availability (CDS-CSO-AVR)",
-            "type": "Web page + JSON",
-            "summary": "Current status, 90-day per-service history and incidents, hosted independently of the offering; machine-readable at https://status.specset.com/index.json.",
+            "type": "Web page + JSON + RSS",
+            "summary": "Current status, 90-day per-service history and incidents, hosted independently of the offering; machine-readable at https://status.specset.com/index.json?format=json (JSON) and https://status.specset.com/feed.rss (incident RSS).",
             "availability": "Public: https://status.specset.com"
           },
           {
@@ -6547,9 +7318,376 @@
             "availability": "Public, no login: https://docs.specset.com/docs/secure-configuration"
           }
         ],
+        "policiesAndProcedures": [
+          {
+            "name": "Incident Response Procedure",
+            "type": "Procedure",
+            "file": "incident-response.pdf",
+            "summary": "Incident detection, triage, FedRAMP reportability evaluation, initial, ongoing and final incident reports, the FedRAMP Security Inbox procedure and the quarterly review.",
+            "wordCount": 3169,
+            "currentVersion": "2026-10-01",
+            "lastUpdated": "2026-10-01",
+            "relatedFedRampPractices": [
+              "IEC-CSO-EFR",
+              "IEC-CSO-EFI",
+              "IEC-CSO-DPR",
+              "IEC-CSO-IIR",
+              "IEC-CSO-OIR",
+              "IEC-CSO-FIR",
+              "IEC-CSO-AIR",
+              "AFC-CSO-INB",
+              "AFC-CSO-NOC",
+              "AFC-CSO-TFG",
+              "AFC-CSO-RCV",
+              "AFC-CSO-CRA",
+              "AFC-CSO-EMR",
+              "AFC-CSO-IMA",
+              "AFC-CSO-ACK",
+              "CDS-UTC-AAD",
+              "KSI-INR-RIR",
+              "KSI-INR-AAR",
+              "KSI-INR-RPI"
+            ],
+            "availability": "Trust center (https://trust.specset.com), restricted resource open to access requests, no NDA."
+          },
+          {
+            "name": "Vulnerability Management Procedure",
+            "type": "Procedure",
+            "file": "vulnerability-management.pdf",
+            "summary": "Persistent vulnerability detection, PAIN-based evaluation, response timeframes, exceptions and risk acceptance, and the monthly vulnerability activity report.",
+            "wordCount": 3657,
+            "currentVersion": "2026-10-02",
+            "lastUpdated": "2026-10-02",
+            "relatedFedRampPractices": [
+              "VDR (all rules)",
+              "VER (all rules)"
+            ],
+            "availability": "Trust center (https://trust.specset.com), restricted resource open to access requests, no NDA."
+          },
+          {
+            "name": "Recovery plan (Recovery and Backup Configuration)",
+            "type": "Plan",
+            "file": "12-recovery-and-backup-configuration.pdf",
+            "summary": "Service recovery objectives, backup configuration by datastore, recovery procedures and the recovery testing cadence.",
+            "wordCount": 1157,
+            "currentVersion": "2026-09-13",
+            "lastUpdated": "2026-09-13",
+            "relatedFedRampPractices": [
+              "KSI-RPL-ARP",
+              "KSI-RPL-RRO",
+              "KSI-RPL-ABO",
+              "KSI-RPL-TRC"
+            ],
+            "availability": "Trust center (https://trust.specset.com), restricted resource open to access requests, no NDA."
+          },
+          {
+            "name": "Secure Configuration Guide",
+            "type": "Procedure",
+            "file": "https://docs.specset.com/docs/secure-configuration",
+            "summary": "For the administrators of a customer organization: the accounts that control an organization, the recommended security settings for one holding federal information or CUI, and how account access is requested and recovered.",
+            "wordCount": 1222,
+            "currentVersion": "2026.09.18.2",
+            "lastUpdated": "2026-10-05",
+            "relatedFedRampPractices": [
+              "SCG-CSO-RSC",
+              "SCG-CSO-PUB",
+              "SCG-CSO-AUP",
+              "SCG-ENH-VRH"
+            ],
+            "availability": "Public documentation page, no login."
+          },
+          {
+            "name": "Ongoing Certification Reports and Quarterly Reviews",
+            "type": "Procedure",
+            "file": "ongoing-certification-reports.md",
+            "summary": "How the quarterly Ongoing Certification Report is assembled, checked for sensitive information and published, how questions about it are answered, the reviews held in the same quarterly slot and the Class C Quarterly Review.",
+            "wordCount": 1371,
+            "currentVersion": "edition 2026-10-05",
+            "lastUpdated": "2026-10-05",
+            "relatedFedRampPractices": [
+              "CCM-OCR-AVL",
+              "CCM-OCR-NRD",
+              "CCM-OCR-SOR",
+              "CCM-OCR-FBM",
+              "CCM-OCR-AFS",
+              "CCM-OCR-LSI",
+              "CCM-OCR-RPS",
+              "CCM-QTR-MTG",
+              "CCM-QTR-SAR",
+              "CCM-QTR-REG",
+              "CCM-QTR-NRD",
+              "CCM-QTR-ACT",
+              "CCM-QTR-RTR",
+              "CCM-QTR-RTP",
+              "CCM-QTR-NID",
+              "CCM-QTR-SCR",
+              "CCM-QTR-SRR",
+              "CDS-CSO-HAD",
+              "CDS-CSO-RIS",
+              "CPO-CSX-CPM",
+              "KSI-CMT-RVP"
+            ],
+            "availability": "Class C package procedure; supplied on request to fedramp@specset.com until the Class C package is filed with it."
+          },
+          {
+            "name": "Significant Change Notification procedure",
+            "type": "Procedure",
+            "file": "significant-change-notification.md",
+            "summary": "How each production change is evaluated for significance, confirmed by an operator, recorded and, when significant, notified.",
+            "wordCount": 3132,
+            "currentVersion": "edition 2026-10-07",
+            "lastUpdated": "2026-10-07",
+            "relatedFedRampPractices": [
+              "SCN (all rules)",
+              "KSI-CMT-LMC"
+            ],
+            "availability": "Class C package procedure; supplied on request to fedramp@specset.com until the Class C package is filed with it."
+          },
+          {
+            "name": "Use of representative samples",
+            "type": "Procedure",
+            "file": "use-of-representative-samples.md",
+            "summary": "Every place where Specset's own verification and validation looks at a sample instead of a whole population, and why the sample stands for the rest.",
+            "wordCount": 476,
+            "currentVersion": "edition 2026-10-05",
+            "lastUpdated": "2026-10-05",
+            "relatedFedRampPractices": [
+              "IVV-CSO-USR",
+              "IVV-CSO-DUS"
+            ],
+            "availability": "Class C package procedure; supplied on request to fedramp@specset.com until the Class C package is filed with it."
+          },
+          {
+            "name": "Privileged access procedure",
+            "type": "Procedure",
+            "file": "privileged-access.md",
+            "summary": "How the founders obtain administrative access to production per task, with a reason and for a limited time, through Privileged Access Manager, and the last-resort path.",
+            "wordCount": 2628,
+            "currentVersion": "edition 2026-10-07",
+            "lastUpdated": "2026-10-07",
+            "relatedFedRampPractices": [
+              "KSI-IAM-JIT",
+              "KSI-IAM-ELP"
+            ],
+            "availability": "Class C package procedure; supplied on request to fedramp@specset.com until the Class C package is filed with it."
+          },
+          {
+            "name": "Access Control Policy",
+            "type": "Policy",
+            "file": "Access Control Policy (Vanta policy document)",
+            "summary": "Limits access to information and information-processing systems, networks and facilities to authorized parties, including account management, authentication and password requirements.",
+            "wordCount": 2719,
+            "currentVersion": "3.1",
+            "lastUpdated": "2026-09-11",
+            "relatedFedRampPractices": [
+              "KSI-IAM-AAM",
+              "KSI-IAM-APM",
+              "KSI-IAM-ELP",
+              "KSI-IAM-JIT",
+              "KSI-IAM-SNU",
+              "KSI-IAM-SUS",
+              "KSI-MLA-ALA"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Asset Management Policy",
+            "type": "Policy",
+            "file": "Asset Management Policy (Vanta policy document)",
+            "summary": "Identifies the organization's assets and who is responsible for protecting them, and prevents unauthorized disclosure, modification, removal or destruction of information on media.",
+            "wordCount": 548,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [
+              "MAS-CSO-IIR",
+              "KSI-PIY-GIV"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Business Continuity and Disaster Recovery Plan",
+            "type": "Plan",
+            "file": "Business Continuity and Disaster Recovery Plan (Vanta policy document)",
+            "summary": "Continuity of critical services in a disaster, the responsibilities and communications, and the recovery time and recovery point objectives.",
+            "wordCount": 2386,
+            "currentVersion": "3.1",
+            "lastUpdated": "2026-09-14",
+            "relatedFedRampPractices": [
+              "KSI-RPL-ARP",
+              "KSI-RPL-RRO",
+              "KSI-RPL-ABO",
+              "KSI-RPL-TRC",
+              "KSI-CNA-OFA"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Code of Conduct",
+            "type": "Policy",
+            "file": "Code of Conduct (Vanta policy document)",
+            "summary": "The conduct expected of all staff, for safe and collaborative working conditions, and the consequences of unacceptable behavior.",
+            "wordCount": 1107,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Cryptography Policy",
+            "type": "Policy",
+            "file": "Cryptography Policy (Vanta policy document)",
+            "summary": "Requirements for cryptographic keys and methods across the encryption lifecycle, so that cryptography protects the confidentiality, authenticity and integrity of information.",
+            "wordCount": 416,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [
+              "CMU-CSO-CMD",
+              "CMU-CSO-UVM",
+              "KSI-SVC-SIN",
+              "KSI-SVC-VCM",
+              "KSI-SVC-ASM"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Data Management Policy",
+            "type": "Policy",
+            "file": "Data Management Policy (Vanta policy document)",
+            "summary": "Classification, protection, retention and secure disposal of information according to its importance; version 3.2 amends the retained version 3.0 text.",
+            "wordCount": 3165,
+            "currentVersion": "3.2",
+            "lastUpdated": "2026-10-05",
+            "relatedFedRampPractices": [
+              "KSI-SVC-RUD",
+              "KSI-SVC-SIN"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Human Resource Security Policy",
+            "type": "Policy",
+            "file": "Human Resource Security Policy (Vanta policy document)",
+            "summary": "Screening, security responsibilities, training and suitability of personnel and contractors, before, during and after employment.",
+            "wordCount": 1024,
+            "currentVersion": "3.1",
+            "lastUpdated": "2026-09-14",
+            "relatedFedRampPractices": [
+              "KSI-CED-RAT"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Incident Response Plan",
+            "type": "Plan",
+            "file": "Incident Response Plan (Vanta policy document)",
+            "summary": "The organizational plan for managing information security incidents and events; version 3.1 amends the retained version 3.0 text, and the Incident Response Procedure carries the FedRAMP reporting steps.",
+            "wordCount": 5453,
+            "currentVersion": "3.1",
+            "lastUpdated": "2026-09-14",
+            "relatedFedRampPractices": [
+              "IEC (all rules)",
+              "KSI-INR-RIR",
+              "KSI-INR-AAR",
+              "KSI-INR-RPI"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Information Security Policy (Acceptable Use)",
+            "type": "Policy",
+            "file": "Information Security Policy (AUP) (Vanta policy document)",
+            "summary": "The company's information security policies and the acceptable use and protection of its information and assets, including mobile devices.",
+            "wordCount": 2521,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Information Security Roles and Responsibilities",
+            "type": "Policy",
+            "file": "Information Security Roles and Responsibilities (Vanta policy document)",
+            "summary": "Who in the company is responsible for which part of information security, so that policies are communicated and responsibility is clearly assigned.",
+            "wordCount": 914,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [
+              "KSI-PIY-RES"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Operations Security Policy",
+            "type": "Policy",
+            "file": "Operations Security Policy (Vanta policy document)",
+            "summary": "Secure operation of information-processing systems, including change management, logging and monitoring, malware and vulnerability handling and data leakage prevention.",
+            "wordCount": 3483,
+            "currentVersion": "3.1",
+            "lastUpdated": "2026-09-14",
+            "relatedFedRampPractices": [
+              "KSI-CMT-LMC",
+              "KSI-CMT-RVP",
+              "KSI-MLA-LET",
+              "KSI-MLA-RVL"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Physical Security Policy",
+            "type": "Policy",
+            "file": "Physical Security Policy (Vanta policy document)",
+            "summary": "Prevents unauthorized physical access to, and damage to, the organization's information and information-processing facilities; production facilities are Google Cloud's.",
+            "wordCount": 743,
+            "currentVersion": "4.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Risk Management Policy",
+            "type": "Policy",
+            "file": "Risk Management Policy (Vanta policy document)",
+            "summary": "How information security risks and opportunities are identified and treated, and the plan for reaching the security and privacy objectives.",
+            "wordCount": 2674,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Secure Development Policy",
+            "type": "Policy",
+            "file": "Secure Development Policy (Vanta policy document)",
+            "summary": "Security designed and implemented within the development lifecycle of applications and information systems.",
+            "wordCount": 976,
+            "currentVersion": "3.1",
+            "lastUpdated": "2026-09-14",
+            "relatedFedRampPractices": [
+              "KSI-PIY-RSD",
+              "KSI-CMT-VTD",
+              "KSI-SCR-MIT"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          },
+          {
+            "name": "Third-Party Management Policy",
+            "type": "Policy",
+            "file": "Third-Party Management Policy (Vanta policy document)",
+            "summary": "Protection of data and assets shared with, accessible to or managed by suppliers, and the agreed level of security and service in supplier agreements.",
+            "wordCount": 1321,
+            "currentVersion": "3.0",
+            "lastUpdated": "2026-05-29",
+            "relatedFedRampPractices": [
+              "MAS-CSO-TPR",
+              "KSI-SCR-MIT",
+              "KSI-SCR-MON"
+            ],
+            "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
+          }
+        ],
         "ZD_frid_retro": "FR2631747321",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:55Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:03Z"
       },
       {
         "serviceIdentification": {
@@ -6601,7 +7739,7 @@
         ],
         "ZD_frid_retro": "FR2631747327",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:56Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:03Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6714,7 +7852,7 @@
         ],
         "ZD_frid_retro": "FR2300457485",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:56Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:03Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6750,7 +7888,7 @@
         ],
         "ZD_frid_retro": "FR2632054516",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:56Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:04Z"
       },
       {
         "serviceIdentification": {
@@ -6855,7 +7993,7 @@
         ],
         "ZD_frid_retro": "FR2632054521",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:57Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:04Z"
       },
       {
         "packageMetadata": {
@@ -6946,7 +8084,7 @@
         },
         "ZD_frid_retro": "FR2520254824",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:57Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:05Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7062,7 +8200,7 @@
         },
         "ZD_frid_retro": "FR2632054530",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:58Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:06Z"
       },
       {
         "serviceIdentification": {
@@ -7146,7 +8284,7 @@
         },
         "ZD_frid_retro": "FR2632054534",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:58Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:06Z"
       },
       {
         "serviceIdentification": {
@@ -7258,7 +8396,7 @@
         },
         "ZD_frid_retro": "FR2632054491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:58Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:06Z"
       },
       {
         "serviceIdentification": {
@@ -7348,7 +8486,7 @@
         },
         "ZD_frid_retro": "FR2632054495",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:59Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:07Z"
       },
       {
         "serviceIdentification": {
@@ -7432,7 +8570,7 @@
         },
         "ZD_frid_retro": "FR2632436493",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:31:59Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:07Z"
       },
       {
         "serviceIdentification": {
@@ -7470,7 +8608,7 @@
         ],
         "ZD_frid_retro": "FR2632558735",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:31:59Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:08Z"
       },
       {
         "serviceIdentification": {
@@ -7508,7 +8646,7 @@
         ],
         "ZD_frid_retro": "FR2632558740",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:00Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:09Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7590,7 +8728,7 @@
         },
         "ZD_frid_retro": "FR2632558748",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:00Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:09Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7631,6 +8769,16 @@
             "authenticationRequired": true,
             "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request Access' button on the top right of the Trust Center."
           },
+          "additionalRepositories": [
+            {
+              "repositoryType": [
+                "Availability Status"
+              ],
+              "url": "https://status.casco.com/",
+              "repositoryDescription": "Casco availability status page, presenting current and historical availability and availability incidents for Casco for Government. Hosted independently of the offering so that it remains reachable if the service is unavailable.",
+              "authenticationRequired": false
+            }
+          ],
           "nextOngoingCertificationReportDate": "2026-12-15"
         },
         "contactInformation": [
@@ -7712,7 +8860,7 @@
         },
         "ZD_frid_retro": "FR2632731472",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:01Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:10Z"
       },
       {
         "serviceIdentification": {
@@ -7790,7 +8938,7 @@
         },
         "ZD_frid_retro": "FR2632755834",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:02Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:10Z"
       },
       {
         "serviceIdentification": {
@@ -7857,7 +9005,7 @@
         },
         "ZD_frid_retro": "FR2633058235",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:02Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:11Z"
       },
       {
         "$comment": "Ultra Security FedRAMP 20x Certification Package Overview — conformant to fedramp-certification-package-overview-schema-2026-06-24.json (FRC-CSO-PKG). Machine-readable identification package for the CSO. This is the schema-conformant CPO; the narrative CPO (metadata/publicInformation/... index) is a separate human-readable companion.",
@@ -7964,7 +9112,7 @@
         },
         "ZD_frid_retro": "FR2633058240",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:05Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:11Z"
       },
       {
         "serviceIdentification": {
@@ -8058,7 +9206,7 @@
         },
         "ZD_frid_retro": "FR2633053629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:05Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:12Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8158,7 +9306,7 @@
         },
         "ZD_frid_retro": "FR2633053633",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:06Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:12Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8235,7 +9383,7 @@
         ],
         "ZD_frid_retro": "FR2633153272",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:06Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:13Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8284,7 +9432,7 @@
         ],
         "ZD_frid_retro": "FR2633153276",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:06Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:13Z"
       },
       {
         "serviceIdentification": {
@@ -8376,7 +9524,7 @@
         },
         "ZD_frid_retro": "FR2532557612",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:07Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:14Z"
       },
       {
         "serviceIdentification": {
@@ -8409,7 +9557,7 @@
         ],
         "ZD_frid_retro": "FR2633734906",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:07Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:14Z"
       },
       {
         "serviceIdentification": {
@@ -8593,7 +9741,7 @@
         ],
         "ZD_frid_retro": "FR2633734917",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T09:05:00Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:16Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8651,7 +9799,7 @@
         },
         "ZD_frid_retro": "FR2633734921",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-05T20:38:20Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:17Z"
       },
       {
         "serviceIdentification": {
@@ -8738,7 +9886,7 @@
         },
         "ZD_frid_retro": "FR2633734927",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-05T20:38:21Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:16Z"
       },
       {
         "serviceIdentification": {
@@ -8858,7 +10006,7 @@
         ],
         "ZD_frid_retro": "FR2633734932",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:08Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:17Z"
       },
       {
         "serviceIdentification": {
@@ -8898,7 +10046,7 @@
         ],
         "ZD_frid_retro": "FR2626164349",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:09Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:18Z"
       },
       {
         "serviceIdentification": {
@@ -9512,7 +10660,7 @@
         },
         "ZD_frid_retro": "FR2633841585",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:10Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:19Z"
       },
       {
         "serviceIdentification": {
@@ -9672,7 +10820,7 @@
         ],
         "ZD_frid_retro": "FR2528033654",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:10Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:19Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -9786,7 +10934,7 @@
         ],
         "ZD_frid_retro": "FR2410866384",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:11Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:19Z"
       },
       {
         "serviceIdentification": {
@@ -9907,7 +11055,7 @@
         },
         "ZD_frid_retro": "FR2633957417",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:11Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:20Z"
       },
       {
         "serviceIdentification": {
@@ -10022,7 +11170,7 @@
         ],
         "ZD_frid_retro": "FR2633957422",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:14Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:22Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -10380,7 +11528,7 @@
         },
         "ZD_frid_retro": "FR2634047811",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:14Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:23Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -10434,7 +11582,7 @@
         ],
         "ZD_frid_retro": "FR2527234065",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:14Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:22Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -10483,7 +11631,7 @@
         },
         "ZD_frid_retro": "FR2634357692",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:17Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:23Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -10630,7 +11778,7 @@
         },
         "ZD_frid_retro": "FR2612446381",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:18Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:24Z"
       },
       {
         "serviceIdentification": {
@@ -10661,7 +11809,7 @@
             "url": "https://trust.vulcangov.app",
             "repositoryDescription": "VulcanGov FedRAMP Trust Center: public offering information (human-readable and JSON), in-scope service list, certification progress, and live availability status (status.vulcangov.app). Federal agency access to full FedRAMP Certification Data is provided through the gated portal.",
             "authenticationRequired": false,
-            "accessRequestInstructions": "The public tier requires no authentication. Federal agency users obtain FedRAMP Certification Data through the gated portal at https://trust.vulcangov.app/portal: enter a .gov or .mil email address, receive a one-time code by email, and download artifacts for 12 hours; no approval step and no provider action is required. Programmatic access (artifact index and downloads with the session token) is documented at https://trust.vulcangov.app/portal/api-docs. Parties without a .gov/.mil address (for example contractors acting on behalf of an agency) may request access by emailing security@vulcan-gov.ai from their organizational address."
+            "accessRequestInstructions": "The public tier requires no authentication. Federal agency users obtain FedRAMP Certification Data through the gated portal at https://trust.vulcangov.app/portal: enter a .gov or .mil email address, receive a one-time code by email, and download artifacts for 12 hours; no approval step and no provider action is required. Programmatic access (artifact index and downloads with the session token) is documented at https://trust.vulcangov.app/portal/api-docs. Parties without a .gov/.mil address (for example contractors acting on behalf of an agency) may request access by emailing security@vulcan.ai from their organizational address."
           },
           "secureConfigurationGuidance": {
             "repositoryType": [
@@ -10691,7 +11839,7 @@
         "certifiedServices": [
           {
             "serviceName": "VulcanGov AI Workspace",
-            "serviceDescription": "Conversational AI and long-running agent sessions, including file uploads for AI-assisted analysis (an in-scope feature currently disabled on this deployment; see the Secure Configuration Guide) and Office-compatible document collaboration.",
+            "serviceDescription": "Conversational AI and long-running agent sessions, including file uploads for AI-assisted analysis and Office-compatible document collaboration. File uploads are in the assessed scope; deployment restrictions and required administrative grants are described in the Secure Configuration Guide.",
             "dateAvailable": "2026-06-23"
           },
           {
@@ -10713,48 +11861,50 @@
         "thirdPartyInformationResources": {
           "certified": [
             {
-              "fedRampCertifiedThirdPartyInformationResource": "AWS GovCloud (US) — FedRAMP High",
-              "useCase": "Infrastructure hosting. VulcanGov infrastructure and federal customer data reside in AWS GovCloud (US), apart from the disclosed cross-boundary resources listed here."
+              "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+              "useCase": "AWS GovCloud (US), FedRAMP High. Infrastructure hosting: VulcanGov infrastructure and federal customer data reside in AWS GovCloud (US), apart from the disclosed cross-boundary resources listed here."
             },
             {
-              "fedRampCertifiedThirdPartyInformationResource": "Amazon Bedrock AgentCore — FedRAMP Moderate",
-              "useCase": "Managed web search (AgentCore Web Search Tool), reached only through the platform's documented transport bridge."
+              "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+              "useCase": "AWS US East/West, FedRAMP Moderate. Amazon Bedrock model inference for the platform's AI features: Anthropic Claude models through US cross-region inference profiles that route only to us-east-1, us-east-2 and us-west-2, reached only through the platform's documented transport bridge. Bedrock receives user prompts and the content supplied with them and returns model output; model invocation logging is not enabled in the bridge account, so prompts and outputs are not retained there."
             },
             {
-              "fedRampCertifiedThirdPartyInformationResource": "Datadog for Government — FedRAMP High",
-              "useCase": "Monitoring, logging, and application telemetry."
+              "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+              "useCase": "AWS US East/West, FedRAMP Moderate. Amazon Bedrock AgentCore managed web search (AgentCore Web Search Tool), reached only through the platform's documented transport bridge."
             },
             {
-              "fedRampCertifiedThirdPartyInformationResource": "Okta for Government",
-              "useCase": "Identity and single sign-on for VulcanGov users."
+              "fedRampCertifiedThirdPartyInformationResource": "FR2023864279A",
+              "useCase": "Datadog for Government, FedRAMP High. Monitoring, logging and application telemetry."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR2131856836",
+              "useCase": "Okta for Government High (Okta IDaaS Government High Cloud), FedRAMP High. Identity and single sign-on for VulcanGov users."
+            },
+            {
+              "fedRampCertifiedThirdPartyInformationResource": "FR2308034636A",
+              "useCase": "Wiz for U.S. Government, FedRAMP High. Cloud security posture management and agentless vulnerability scanning of the VulcanGov AWS GovCloud (US) environment."
             }
           ],
-          "nonCertified": [
-            {
-              "name": "AWS Bedrock managed model inference",
-              "provider": "Amazon Web Services (AWS Bedrock)",
-              "useCase": "Large language model inference for the platform's AI features."
-            }
-          ]
+          "nonCertified": []
         },
-        "certificationStatusNote": "Ongoing certification report dates are not yet applicable and will publish here upon certification. The initial FedRAMP 20x Class C (Moderate) independent assessment by A-LIGN (a FedRAMP Recognized independent assessment service, FedRAMP assessor ID 138665) was completed on 2026-09-11; the FedRAMP Certification Application was filed on 2026-09-14 (FedRAMP Support ticket 67477) and is under FedRAMP review. The Security Decision Record (JSON and human-readable) is available to federal agencies through the gated portal.",
-        "certificationTrackNote": "The FedRAMP Marketplace listing for FR2619254906 was updated at application time from the provider's legacy Rev5/Agency profile (Legacy FedRAMP Ready, designated 2026-06-10) to the FedRAMP 20x / Program / Class C (Moderate) profile; FedRAMP approved the listing update on 2026-09-14, and the listing carries the Initial Implementation phase until the certification decision is issued. This trust center carries the 20x posture.",
-        "availabilityNote": "Availability history on status.vulcangov.app accrues from 2026-08-16 (monitor stand-up); days before first measurement render as no-data rather than backfilled. A full 30-day measured window completes 2026-09-15.",
+        "certificationStatusNote": "The FedRAMP 20x Class C (Moderate) application was filed September 14, 2026 (ticket 67477). On October 6, 2026, FedRAMP placed the application in its review queue; a review team has not yet been assigned. A-LIGN completed the independent assessment September 11, 2026. Ongoing certification report dates will be published upon certification; the available OCR dry-run is a readiness example, not a filed ongoing report. The Security Decision Record and assessment materials are available through the agency portal.",
+        "certificationTrackNote": "This package supports the application for FedRAMP 20x / Program / Class C (Moderate). At the provider's request, the Marketplace listing retains the Legacy FedRAMP Ready designation (June 10, 2026) while the 20x Class C application is under review.",
+        "availabilityNote": "Availability measurements began August 16, 2026. The status page shows the measured history, any no-data periods and the full incident history; dates before monitoring began are not backfilled.",
         "documentMetadata": {
           "accountableOfficial": {
             "name": "Jonah Calvo",
             "title": "Chief Information Security Officer, Vulcan Technologies, Inc.",
             "email": "jonah@vulcan.ai"
           },
-          "updateSource": "Generated by generator/build.py from source/trust-center.source.json (repository vulcan/infrastructure/trust-center, main); 2026-09-11 update: A-LIGN independent assessment completed, assessor deliverables and SDR v38+ published to the gated tier, vulnerability artifacts regenerated from 2026-09-11 scanner data, product website and service description revised.",
-          "version": "2026-09-15+859a5d215c31",
-          "lastUpdatedAt": "2026-09-17T20:56:50+00:00",
-          "sourceRevision": "859a5d215c31"
+          "updateSource": "Generated by generator/build.py from source/trust-center.source.json. This revision: application queue status, Marketplace designation note, reviewer navigation, Security Inbox address in the access instructions, and third-party resource identifiers.",
+          "version": "2026-10-07+7cf0fddd11ea",
+          "lastUpdatedAt": "2026-10-07T19:39:29+00:00",
+          "sourceRevision": "7cf0fddd11ea"
         },
         "independentAssessmentSummary": {
           "status": "supplied",
           "assessor": "A-LIGN Compliance and Security, Inc. dba A-LIGN (FedRAMP Recognized independent assessor, ID 138665)",
-          "summary": "A-LIGN (FedRAMP Recognized independent assessor; lead assessor Dennis Coats) completed the initial FedRAMP 20x Class C (Moderate) independent assessment of VulcanGov on September 11, 2026. All 203 applicable FedRAMP Consolidated Rules were assessed: 202 were found implemented and 1 gap was identified — FRC-APP-AFC, the FedRAMP Certification Application Form, which is submitted after the assessment and is in progress. All 46 Key Security Indicators were determined to be implemented and to meet the Class C bar of at least two automated validation methods per KSI. The six-month KSI validation history continues to accrue under the initial-certification arrangement. The assessor's report and control-testing export are available to agencies through the Trust Center portal.",
+          "summary": "A-LIGN (FedRAMP Recognized independent assessor; lead assessor Dennis Coats) completed the initial FedRAMP 20x Class C (Moderate) independent assessment of VulcanGov on September 11, 2026. All 203 applicable FedRAMP Consolidated Rules were assessed: 202 were found implemented and 1 gap was identified — FRC-APP-AFC, the FedRAMP Certification Application Form, which had not yet been filed at the assessment date. Provider follow-up: the application was filed September 14, 2026 (ticket 67477), and the provider recorded closure in SDR v48. This follow-up does not change the assessor's September 11 findings. All 46 Key Security Indicators were determined to be implemented and to meet the Class C bar of at least two automated validation methods per KSI. The six-month KSI validation history continues to accrue under the initial-certification arrangement. The assessor's report and control-testing export are available to agencies through the Trust Center portal.",
           "suppliedOn": "2026-09-11",
           "note": "Overall summary of the FedRAMP independent assessment (IVV-IAS-OSA) as reflected in the assessor's report cover summary; the assessor's full report and per-rule testing export are published as gated-tier artifacts (independent-assessment class) following the CISO's first-publication review (CDS-CSO-RIS) on 2026-09-11."
         },
@@ -10763,11 +11913,11 @@
           "nextOngoingCertificationReportDate": null,
           "nextQuarterlyReviewDate": null,
           "selectedRecurrence": "Ongoing Certification Report: the 15th day of the middle month of each calendar quarter (February, May, August, November), or the next business day when the 15th falls on a weekend or federal holiday; synchronous Quarterly Review: second Wednesday after each report publication (selected by the CISO 2026-08-25, replacing the quarter-end anchor selected 2026-08-23; first cycle contingent on certification).",
-          "note": "Ongoing certification report dates are not yet applicable and will publish here upon certification. The initial FedRAMP 20x Class C (Moderate) independent assessment by A-LIGN (a FedRAMP Recognized independent assessment service, FedRAMP assessor ID 138665) was completed on 2026-09-11; the FedRAMP Certification Application was filed on 2026-09-14 (FedRAMP Support ticket 67477) and is under FedRAMP review. The Security Decision Record (JSON and human-readable) is available to federal agencies through the gated portal."
+          "note": "The FedRAMP 20x Class C (Moderate) application was filed September 14, 2026 (ticket 67477). On October 6, 2026, FedRAMP placed the application in its review queue; a review team has not yet been assigned. A-LIGN completed the independent assessment September 11, 2026. Ongoing certification report dates will be published upon certification; the available OCR dry-run is a readiness example, not a filed ongoing report. The Security Decision Record and assessment materials are available through the agency portal."
         },
         "ZD_frid_retro": "FR2619254906",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:19Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:25Z"
       },
       {
         "serviceIdentification": {
@@ -10806,7 +11956,7 @@
         ],
         "ZD_frid_retro": "FR2619646960",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:19Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:25Z"
       },
       {
         "serviceIdentification": {
@@ -10920,7 +12070,7 @@
         },
         "ZD_frid_retro": "FR2634436150",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:19Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:25Z"
       },
       {
         "serviceIdentification": {
@@ -11270,7 +12420,7 @@
         ],
         "ZD_frid_retro": "FR2000863987A",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:19Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:26Z"
       },
       {
         "serviceIdentification": {
@@ -11332,7 +12482,7 @@
         ],
         "ZD_frid_retro": "FR2206159758",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:21Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:27Z"
       },
       {
         "serviceIdentification": {
@@ -11454,7 +12604,7 @@
         ],
         "ZD_frid_retro": "FR2634450946",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:22Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:29Z"
       },
       {
         "serviceIdentification": {
@@ -11595,7 +12745,7 @@
         ],
         "ZD_frid_retro": "FR2634659079",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:23Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:31Z"
       },
       {
         "serviceIdentification": {
@@ -11672,7 +12822,7 @@
         },
         "ZD_frid_retro": "FR2634659083",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:22Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:30Z"
       },
       {
         "serviceIdentification": {
@@ -11714,7 +12864,7 @@
         ],
         "ZD_frid_retro": "FR2634659087",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:22Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:30Z"
       },
       {
         "serviceIdentification": {
@@ -11753,18 +12903,18 @@
         ],
         "ZD_frid_retro": "FR2634659091",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:23Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:31Z"
       },
       {
         "serviceIdentification": {
-          "fedRampPackageId": "000000",
+          "fedRampPackageId": "FR2634659095",
           "providerName": "Cisco Systems, Inc.",
           "serviceName": "Cisco Cloud Control with AgenticOps",
           "serviceAcronym": "Cisco Cloud Control",
-          "serviceDescription": "Cisco Cloud Control with AgenticOps\nCisco Cloud Control with AgenticOps serves as the autonomous control\nplane for hybrid cloud environments. By integrating \"AgenticOps\"—a\nframework of specialized, task-oriented AI agents—the system moves\nbeyond traditional automation into autonomous remediation and lifecycle\nmanagement. It is designed to handle complex compliance requirements by\nenabling agents to autonomously detect drift, perform vulnerability\nremediation, and ensure that infrastructure state remains continuously\naligned with defined security policies.\nCisco Cloud Control is the unified management and orchestration platform\nfor hybrid and multi-cloud environments. It acts as the central plane for\ngoverning, securing, and operating distributed infrastructure, providing\nconsistent policy enforcement and lifecycle automation across disparate\ncloud services and data centers. By centralizing management, it eliminates\noperational silos, streamlines compliance, and ensures that infrastructure\nremains performant and secure at scale.\nThe Rich Suite of Offers\nTo support the autonomous capabilities of Cloud Control, the following\nproducts integrate into a cohesive operational ecosystem:\n1. AI Canvas\n● Description: The design and orchestration workbench for the\nAgenticOps ecosystem. AI Canvas provides a visual interface for\nengineering teams to design, model, and deploy autonomous agents.\nIt allows for the mapping of complex operational workflows into\nexecutable logic, ensuring that agents are constrained by well-defined\noperational boundaries before they are deployed to manage\nproduction environments.\n2. AI Assistant\n● Description: The natural language operational interface for the suite.\nAI Assistant bridges the gap between human intent and machine\nexecution. It enables engineers to query system status, request\ncomplex remediation tasks, or gain insights into compliance posture\nthrough conversational interactions. It serves as the primary gateway\nfor users to interface with the autonomous agents created in AI\nCanvas.\n3. Cisco IQ\n● Description: The centralized intelligence and observability engine.\nCisco IQ processes massive streams of telemetry data from across\nthe cloud infrastructure to provide actionable insights. It serves as the\n\"brain\" for the agents, providing the contextual data required for\ninformed decision-making, trend analysis, and predictive modeling,\nensuring that operational actions are grounded in current, real-time\ndata.\n4. AI Defense\n● Description: The dedicated security layer for the AI model pipeline\nand agentic infrastructure. AI Defense provides the necessary\nguardrails to protect AI models from adversarial manipulation, data\nleakage, and unauthorized access. In high-compliance environments,\nit ensures that the models driving the agents are hardened, verifiable,\nand protected against vulnerabilities that could compromise the\nintegrity of the automated security remediation processes.",
+          "serviceDescription": "Cisco Cloud Control with AgenticOps\nCisco Cloud Control with AgenticOps serves as the autonomous control\nplane for hybrid cloud environments. By integrating \"AgenticOps\"—a\nframework of specialized, task-oriented AI agents—the system moves\nbeyond traditional automation into autonomous remediation and lifecycle\nmanagement. It is designed to handle complex compliance requirements by\nenabling agents to autonomously detect drift, perform vulnerability\nremediation, and ensure that infrastructure state remains continuously\naligned with defined security policies.\nCisco Cloud Control is the unified management and orchestration platform\nfor hybrid and multi-cloud environments. It acts as the central plane for\ngoverning, securing, and operating distributed infrastructure, providing\nconsistent policy enforcement and lifecycle automation across disparate\ncloud services and data centers. By centralizing management, it eliminates\noperational silos, streamlines compliance, and ensures that infrastructure\nremains performant and secure at scale.\nThe Rich Suite of Offers\nTo support the autonomous capabilities of Cloud Control, the following\nproducts integrate into a cohesive operational ecosystem:\n1. AI Canvas\n● Description: The design and orchestration workbench for the\nAgenticOps ecosystem. AI Canvas provides a visual interface for\nengineering teams to design, model, and deploy autonomous agents.\nIt allows for the mapping of complex operational workflows into\nexecutable logic, ensuring that agents are constrained by well-defined\noperational boundaries before they are deployed to manage\nproduction environments.\n2. AI Assistant\n● Description: The natural language operational interface for the suite.\nAI Assistant bridges the gap between human intent and machine\nexecution. It enables engineers to query system status, request\ncomplex remediation tasks, or gain insights into compliance posture\nthrough conversational interactions. It serves as the primary gateway\nfor users to interface with the autonomous agents created in AI\nCanvas.\n3. Cisco IQ\n● Description: The centralized intelligence and observability engine.\nCisco IQ processes massive streams of telemetry data from across the\ncloud infrastructure to provide actionable insights. It serves as the\n\"brain\" for the agents, providing the contextual data required for\ninformed decision-making, trend analysis, and predictive modeling,\nensuring that operational actions are grounded in current, real-time\ndata.\n4. AI Defense\n● Description: The dedicated security layer for the AI model pipeline\nand agentic infrastructure. AI Defense provides the necessary\nguardrails to protect AI models from adversarial manipulation, data\nleakage, and unauthorized access. In high-compliance environments,\nit ensures that the models driving the agents are hardened, verifiable,\nand protected against vulnerabilities that could compromise the\nintegrity of the automated security remediation processes.",
           "certificationType": "20x",
           "website": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/agentic-ops/cisco-cloud-control/index.html",
-          "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cisco%20Logo.png",
+          "logo": "https://brand-assets.security.cisco.com/cisco-light.svg",
           "certificationClass": "Class A",
           "certificationPath": "Program"
         },
@@ -11783,10 +12933,10 @@
             "repositoryType": [
               "Trust Center"
             ],
-            "url": "https://trust.paramify.com/ciscocloudcontrol",
+            "url": "https://trust.paramify.com/ciscoaidefense",
             "repositoryDescription": "FedRAMP Trust Center for the Cloud Service Offering.",
             "authenticationRequired": true,
-            "accessRequestInstructions": "Step 1: Navigate to trust.paramify.com/ciscocloudcontrol\nStep 2: Click the Request Access button",
+            "accessRequestInstructions": "",
             "agencyAccessDenialProcess": "Agency can send email to cisco-fedramp@cisco.com for help with any\nproblems related to access to the Trust Center."
           },
           "secureConfigurationGuidance": {
@@ -11822,7 +12972,7 @@
           "dateCompleted": "2025-12-05",
           "certifyingBody": "AICPA/BDO",
           "independentAssessmentIncluded": "Yes",
-          "mappingToFedRampRules": "Executive Summary\nThis report provides a mapping of the existing control activities documented in\nthe Cisco AI Defense SOC 2 Type 2 Report (July 1, 2025 – September 30, 2025,\nAuditor Report issued Dec. 5, 2025) against the FedRAMP 2026 Consolidated\nRules for Class A certification. This analysis is intended to support your Level of Effort\n(LOE) estimate for FedRAMP 20x Class A certification.\nMapping Summary: SOC 2 Controls to FedRAMP 20x Class A Requirements\nFedRAMP SOC 2 Control Compliance Status\nRule Mapping\nFRC-CSO-P CCF-CCC-01.0Package developed for FedRAMP Class a Submission\nKG 1\nFRC-CSO-J FR Mapping existing artifacts to FedRAMP JSON schema\nSN Requirement completed with FedRAMP Submission.\nFRC-CSO-P FR Internal choice to select Program path, 20x, Class A\nOP Requirement\nMAS-CSO-II CCF-DSP-01.0Annual asset reconciliation proven in SOC 2.\nR 2\nCDS-CSO-P FR Package developed for FedRAMP Class a Submission\nUB Requirement\nCDS-CSO-UFR Establish FedRAMP-compatible Trust Center in Paramify\nTC Requirement\nCDS-UTC-A FR Pending: Specific notification procedure for access\nAD Requirement denial. Users to notify Cisco via our security email\ncisco-fedramp@cisco.com\nAFC-CSO-I New Requires dedicated Security Inbox (FSI)\nNB Requirement cisco-fedramp@cisco.com\nAFC-CSO-R CCF-SEF-01.0 Incident response channel exists; update for FSI.\nCV 1\nAFC-CSO-C CCF-SEF-01.0 Incident response timeline management exists.\nRA 1\nIEC-CSO-EFCCF-SEF-02.0 Incident evaluation metrics proven in SOC 2.\nR 1\nIEC-CSO-FI CCF-SEF-02.0 Incident resolution/reporting exists.\nR 1\nVDR-CSO-DCCF-TVM-02.0Daily vulnerability scanning in place.\nET 1\nCCM-OCR- FR Package vulnerability reports into OCR format.\nAVL Requirement\nCCM-OCR- FR December 2026\nNRD Requirement\nIVV-CSX-AI CCF-TVM-02.0Annual penetration testing is in place.\nA 2\nKSI-CMT-LMKSI-CMT-LMC Existing change logging is robust.\nC (SOC)\nKSI-CNA-R KSI-CNA-RNT AWS security groups/firewall logic proven.\nNT (SOC)\nKSI-CED-RAKSI-CED-RAT Training/Education exists in SOC 2.\nT (SOC)\nKSI-IAM-AA KSI-IAM-AAM (Automation via HRMS/Active Directory proven.\nM SOC)\nKSI-IAM-AP CCF-IAM-02.0 MFA/SSO usage validated.\nM 2\nKSI-INR-RIR KSI-INR-RIR ( Annual IR tabletop exercises proven.\nSOC)\nKSI-SVC-SI KSI-SVC-SIN ( TLS/Encryption at rest proven.\nN SOC)\nKSI-IAM-INR KSI-INR-RPI ( Past incident review process exists.\nSOC)\nDetails Analysis/ Evidence of Automation (KSI Focus)\nThe FedRAMP 20x rules heavily emphasize Persistent and Automated activities.\n● Strengths: AI Defense SOC 2 report confirms the use of Datadog for\navailability monitoring (CCF-STA-03.02) and Jenkins/ArgoCD for automated\nCI/CD pipeline validation (CCF-CCC-04.02).\n● FedRAMP 20x Class A requires the JSON schema output for these\nactivities. AI Defense SOC 2 proves the existence of the control; AI Defense\nwill ensure these tools output to the specific FedRAMP JSON schema\n.\nrequired by FRC-CSO-JSN\nPenetration Testing Requirements\n● Rule: FRC-CLA-MFR mandates annual penetration testing\n(CCF-TVM-02.02 in your SOC 2).\n● AI Defense SOC 2 report confirms annual pen testing was performed.\nData Flow and Scope\n● Rule: MAS-CSO-IIR requires a machine-readable inventory of all information\nresources.\n● AI Defense have CCF-DSP-01.02 (Inventory maintenance)\nand CCF-DSP-02.02 (Data flow documentation). Since these already exist in\nDefense SOC 2 description, the LOE for this requirement is\nprimarily formatting (mapping current inventory artifacts into the FedRAMP\nJSON/OSCAL structure) which is done at time of submission to FedRAMP.\nAdditional Notes on Implementations\n● JSON Schema Mapping (FRC-CSO-JSN & CDS-CSO-PUB): Defense SOC 2\nreport contains rich control evidence. The biggest lift for Class A is moving\nfrom documentary evidence (PDFs) to structured data (JSON/OSCAL). Defense\nCompliance team will export existing audit logs from Splunk and AWS CloudTrail\ndirectly into the FedRAMP JSON schema format defined in the ruleset.\n● Addressing \"New\" Requirements: Rules like AFC-CSO-INB (Security Inbox)\nand CDS-CSO-UTC (Trust Center) are not typically found in SOC 2 reports.\nThese are operational requirements. Since Cisco AI Defense already has an\nestablished Incident Response and Communication procedure (CCF-SEF-01.01),\nAI Defense leverages existing communication protocols and use\nthe fedramp_security@cisco.com alias to satisfy this rule.\n● Refining \"Persistent\" Indicators: Several rules require \"persistent\" verification\n(e.g., KSI-CNA-MAT, KSI-CNA-RNT). AI Defense’s SOC 2 audit tested these on\nan annual or quarterly basis. To satisfy 20x, cadence is persistently (e.g.,\nautomated weekly check) and ensure Datadog or AWS Security Hub configuration\nsnapshots document this frequency.\nAgency Use Case: MKT-IIP-AGU. SOC 2 confirms the AI Defense System is\ndesigned to identify and manage AI model risks across distributed environments. This\nis AI Defense’s \"Direct Use\" case justification for the FedRAMP marketplace listing.",
+          "mappingToFedRampRules": "Executive Summary\nThis report provides a mapping of the existing control activities documented in\nthe Cisco AI Defense SOC 2 Type 2 Report (July 1, 2025 – September 30, 2025,\nAuditor Report issued Dec. 5, 2025) against the FedRAMP 2026 Consolidated\nRules for Class A certification. This analysis is intended to support your Level of Effort\n(LOE) estimate for FedRAMP 20x Class A certification.\nMapping Summary: SOC 2 Controls to FedRAMP 20x Class A Requirements\nFedRAMP SOC 2 Compliance Status\nRule Control\nMapping\nFRC-CSO- CCF-CCC- Package developed for FedRAMP Class a Submission\nPKG 01.01\nFRC-CSO- FR Mapping existing artifacts to FedRAMP JSON schema\nJSN Requirement completed with FedRAMP Submission.\nFRC-CSO- FR Internal choice to select Program path, 20x, Class A\nPOP Requirement\nMAS-CSO- CCF-DSP- Annual asset reconciliation proven in SOC 2.\nIIR 01.02\nCDS-CSO- FR Package developed for FedRAMP Class a Submission\nPUB Requirement\nCDS-CSO- FR Establish FedRAMP-compatible Trust Center in\nUTC Requirement Paramify\nCDS-UTC- FR Pending: Specific notification procedure for access\nAAD Requirement denial. Users to notify Cisco via our security email cisco-\nfedramp@cisco.com\nAFC-CSO- New Requires dedicated Security Inbox (FSI) cisco-\nINB Requirement fedramp@cisco.com\nAFC-CSO- CCF-SEF- Incident response channel exists; update for FSI.\nRCV 01.01\nAFC-CSO- CCF-SEF- Incident response timeline management exists.\nCRA 01.01\nIEC-CSO- CCF-SEF- Incident evaluation metrics proven in SOC 2.\nEFR 02.01\nIEC-CSO- CCF-SEF- Incident resolution/reporting exists.\nFIR 02.01\nVDR-CSO- CCF-TVM- Daily vulnerability scanning in place.\nDET 02.01\nCCM-OCR- FR Package vulnerability reports into OCR format.\nAVL Requirement\nCCM-OCR- FR December 2026\nNRD Requirement\nIVV-CSX- CCF-TVM- Annual penetration testing is in place.\nAIA 02.02\nKSI-CMT- KSI-CMT- Existing change logging is robust.\nLMC LMC (SOC)\nKSI-CNA- KSI-CNA- AWS security groups/firewall logic proven.\nRNT RNT (SOC)\nKSI-CED- KSI-CED- Training/Education exists in SOC 2.\nRAT RAT (SOC)\nKSI-IAM- KSI-IAM- Automation via HRMS/Active Directory proven.\nAAM AAM (SOC)\nKSI-IAM- CCF-IAM- MFA/SSO usage validated.\nAPM 02.02\nKSI-INR- KSI-INR- Annual IR tabletop exercises proven.\nRIR RIR (SOC)\nKSI-SVC- KSI-SVC- TLS/Encryption at rest proven.\nSIN SIN (SOC)\nKSI-IAM- KSI-INR- Past incident review process exists.\nINR RPI (SOC)\nDetails Analysis/ Evidence of Automation (KSI Focus)\nThe FedRAMP 20x rules heavily emphasize Persistent and Automated activities.\n• Strengths: AI Defense SOC 2 report confirms the use of Datadog for\navailability monitoring (CCF-STA-03.02) and Jenkins/ArgoCD for automated\nCI/CD pipeline validation (CCF-CCC-04.02).\n• FedRAMP 20x Class A requires the JSON schema output for these\nactivities. AI Defense SOC 2 proves the existence of the control; AI Defense\nwill ensure these tools output to the specific FedRAMP JSON schema\n.\nrequired by FRC-CSO-JSN\nPenetration Testing Requirements\n• Rule: FRC-CLA-MFR mandates annual penetration testing (CCF-TVM-\n02.02 in your SOC 2).\n• AI Defense SOC 2 report confirms annual pen testing was performed.\nData Flow and Scope\n• Rule: MAS-CSO-IIR requires a machine-readable inventory of all information\nresources.\n• AI Defense have CCF-DSP-01.02 (Inventory maintenance) and CCF-DSP-\n02.02 (Data flow documentation). Since these already exist in Defense SOC 2\ndescription, the LOE for this requirement is primarily formatting (mapping current\ninventory artifacts into the FedRAMP JSON/OSCAL structure) which is done at\ntime of submission to FedRAMP.\nAdditional Notes on Implementations\n• JSON Schema Mapping (FRC-CSO-JSN & CDS-CSO-PUB): Defense SOC 2\nreport contains rich control evidence. The biggest lift for Class A is moving\nfrom documentary evidence (PDFs) to structured data (JSON/OSCAL). Defense\nCompliance team will export existing audit logs from Splunk and AWS CloudTrail\ndirectly into the FedRAMP JSON schema format defined in the ruleset.\n• Addressing \"New\" Requirements: Rules like AFC-CSO-INB (Security Inbox)\nand CDS-CSO-UTC (Trust Center) are not typically found in SOC 2 reports.\nThese are operational requirements. Since Cisco AI Defense already has an\nestablished Incident Response and Communication procedure (CCF-SEF-01.01),\nAI Defense leverages existing communication protocols and use\nthe fedramp_security@cisco.com alias to satisfy this rule.\n• Refining \"Persistent\" Indicators: Several rules require \"persistent\" verification\n(e.g., KSI-CNA-MAT, KSI-CNA-RNT). AI Defense’s SOC 2 audit tested these on\nan annual or quarterly basis. To satisfy 20x, cadence is persistently (e.g.,\nautomated weekly check) and ensure Datadog or AWS Security Hub configuration\nsnapshots document this frequency.\nAgency Use Case: MKT-IIP-AGU. SOC 2 confirms the AI Defense System is\ndesigned to identify and manage AI model risks across distributed environments. This\nis AI Defense’s \"Direct Use\" case justification for the FedRAMP marketplace listing.",
           "documentation": [
             {
               "framework": "SOC 2 Type II",
@@ -11854,7 +13004,7 @@
         "certifiedServices": [
           {
             "serviceName": "Cisco Cloud Control.",
-            "serviceDescription": "Security Cloud Control is Cisco’s unified, cloud-native security management\ninterface for the Cisco Security Cloud. It simplifies and strengthens\ndefenses by centralizing security solutions into a single, cohesive interface.\nThis approach eliminates silos, reduces complexity, and provides\nend-to-end visibility, empowering organizations to proactively address\nsecurity",
+            "serviceDescription": "Security Cloud Control is Cisco’s unified, cloud-native security management\ninterface for the Cisco Security Cloud. It simplifies and strengthens\ndefenses by centralizing security solutions into a single, cohesive interface.\nThis approach eliminates silos, reduces complexity, and provides end-to-\nend visibility, empowering organizations to proactively address security",
             "dateAvailable": "2026-08-25"
           },
           {
@@ -11864,11 +13014,11 @@
           },
           {
             "serviceName": "Cisco AI Canvas",
-            "serviceDescription": "AI Canvas is a shared operational workspace where people and AI agents\nwork together to investigate and resolve IT issues.\nAn investigation in AI Canvas can bring together information from Cisco\nproducts and integrated third-party systems—such as monitoring,\nincident-management, security, automation, and knowledge-management\ntools—along with uploaded files, organizational knowledge, and specialized\nAI agents."
+            "serviceDescription": "AI Canvas is a shared operational workspace where people and AI agents\nwork together to investigate and resolve IT issues.\nAn investigation in AI Canvas can bring together information from Cisco\nproducts and integrated third-party systems—such as monitoring, incident-\nmanagement, security, automation, and knowledge-management tools—\nalong with uploaded files, organizational knowledge, and specialized AI\nagents."
           },
           {
             "serviceName": "Cisco IQ",
-            "serviceDescription": "Cisco IQ is a suite of AI-powered applications designed to enhance the\ncustomer experience by delivering real-time insights, assessments,\ntroubleshooting, learning, automation, and agent-driven guidance\nthroughout the entire customer lifecycle. It connects the entire customer\njourney with Cisco Services, helping customers plan, deploy, manage,\nsecure, and optimize their IT environments. Cisco IQ provides a unified,\ninteractive digital experience available via SaaS, with upcoming\nOn-Premises and API deployment options.",
+            "serviceDescription": "Cisco IQ is a suite of AI-powered applications designed to enhance the\ncustomer experience by delivering real-time insights, assessments,\ntroubleshooting, learning, automation, and agent-driven guidance\nthroughout the entire customer lifecycle. It connects the entire customer\njourney with Cisco Services, helping customers plan, deploy, manage,\nsecure, and optimize their IT environments. Cisco IQ provides a unified,\ninteractive digital experience available via SaaS, with upcoming On-\nPremises and API deployment options.",
             "dateAvailable": "2026-04-24"
           },
           {
@@ -11878,8 +13028,8 @@
           }
         ],
         "ZD_frid_retro": "FR2634659095",
-        "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:24Z"
+        "id_matches_expected": true,
+        "last_fetched_timestamp": "2026-10-08T16:44:33Z"
       },
       {
         "serviceIdentification": {
@@ -11978,7 +13128,7 @@
         },
         "ZD_frid_retro": "FR1907847653",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:25Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:33Z"
       },
       {
         "serviceIdentification": {
@@ -12082,7 +13232,7 @@
         },
         "ZD_frid_retro": "FR2635050845",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:25Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:34Z"
       },
       {
         "serviceIdentification": {
@@ -12294,7 +13444,7 @@
         },
         "ZD_frid_retro": "FR2635050855",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:26Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:35Z"
       },
       {
         "fedramp_id": "FR2635050861",
@@ -12397,6 +13547,9 @@
           }
         ],
         "scope_statement": "The services marked in scope above constitute the FedRAMP Minimum Assessment Scope for VirtualDojo AI CRM. The production service is delivered exclusively at app.virtualdojo.com. The surfaces marked out of scope are the only other customer-reachable services VirtualDojo operates; they are not FedRAMP Certified and must not be used to handle federal customer data. Anything not listed above is not part of this cloud service offering.",
+        "assessment_conducted": true,
+        "assessment_date": "2026-10-02",
+        "assessment_state": "conducted",
         "contacts": {
           "security": {
             "name": "Devin Henderson",
@@ -12743,17 +13896,9 @@
           "monitoring": "Google Cloud uptime checks (5-minute interval) on app.virtualdojo.com",
           "monitoring_since": "2026-07-04",
           "measured": {
-            "rolling_percent": 99.986,
+            "rolling_percent": 99.983,
             "window_days": 30,
             "daily_history": [
-              {
-                "date": "2026-09-06",
-                "availability_percent": 100
-              },
-              {
-                "date": "2026-09-07",
-                "availability_percent": 100
-              },
               {
                 "date": "2026-09-08",
                 "availability_percent": 100
@@ -12865,6 +14010,14 @@
               {
                 "date": "2026-10-05",
                 "availability_percent": 100
+              },
+              {
+                "date": "2026-10-06",
+                "availability_percent": 99.942
+              },
+              {
+                "date": "2026-10-07",
+                "availability_percent": 99.942
               }
             ]
           },
@@ -12910,7 +14063,7 @@
           "statement": "VirtualDojo is pursuing FedRAMP 20x Certification Class C for VirtualDojo AI CRM by the Program path. Progress below is measured against dated milestones and refreshed at least quarterly. Milestones that are not yet met say so.",
           "review_cadence": "quarterly",
           "next_review_date": "2026-12-01",
-          "last_updated": "2026-10-06T20:11:15Z",
+          "last_updated": "2026-10-08T16:14:10Z",
           "goals": [
             {
               "id": "G1",
@@ -12938,15 +14091,15 @@
               "detail": "Cloud Scheduler triggers a Cloud Run job daily at 04:00 UTC under a dedicated service account. The first scheduled firing was 2026-07-04 at 04:00 UTC; per-indicator results are retained for every day since. The job was created on 2026-07-03 and the runs that day were started by hand, so 2026-07-03 is reported as manual and is not counted as persistent validation.\n",
               "measure": "consecutive_days_of_validation",
               "measured": {
-                "value": 35,
+                "value": 37,
                 "unit": "days",
                 "window": {
                   "from": "2026-09-02",
-                  "to": "2026-10-06"
+                  "to": "2026-10-08"
                 },
                 "source": "retained per-day validation results",
                 "target": 183,
-                "percent_complete": 19
+                "percent_complete": 20
               }
             },
             {
@@ -12958,7 +14111,7 @@
               "detail": "Class C requires at least two automated methods per indicator (FRC-CSX-VVK). Method independence and outcome-based validation evidence are being strengthened indicator by indicator.\n",
               "measure": "ksis_with_2plus_methods",
               "measured": {
-                "value": 46,
+                "value": 45,
                 "of": 46,
                 "unit": "indicators",
                 "source": "latest validation run (indicators with 2+ PASSING automated methods)"
@@ -12974,15 +14127,15 @@
               "detail": "FRC-CSX-MOT requires six months of historical metrics from persistent validation at Class C. The mechanism is in place and accumulating; the six-month point is reached on 2027-01-03.\n",
               "measure": "consecutive_days_of_validation",
               "measured": {
-                "value": 35,
+                "value": 37,
                 "unit": "days",
                 "window": {
                   "from": "2026-09-02",
-                  "to": "2026-10-06"
+                  "to": "2026-10-08"
                 },
                 "source": "retained per-day validation results",
                 "target": 183,
-                "percent_complete": 19
+                "percent_complete": 20
               }
             },
             {
@@ -12998,35 +14151,35 @@
               "id": "M5",
               "goal": "G2",
               "title": "FedRAMP Marketplace listing obtained",
-              "status": "in_progress",
+              "status": "met",
               "target_date": "2026-09-01",
-              "detail": "Marketplace Provider Listing Request submitted to FedRAMP. Listing is a prerequisite to applying for Certification (FRC-APP-MLF).\n",
+              "detail": "Marketplace Provider Listing Request submitted 2026-09-17 (ticket #67687); package validated and approved by FedRAMP 2026-09-21 and listed in the Initial Implementation Phase on 2026-09-22 as FR2635050861. Listing is a prerequisite to applying for Certification (FRC-APP-MLF).\n",
               "measure": "manual"
             },
             {
               "id": "M6",
               "goal": "G3",
-              "title": "Independent assessment scheduled",
-              "status": "in_progress",
+              "title": "Independent assessment conducted",
+              "status": "met",
               "target_date": "2026-09-30",
-              "detail": "Engagement with a FedRAMP Recognized independent assessment service. The assessment must be less than three months old at application (FRC-APP-FIA).\n",
+              "detail": "Independent assessment by a FedRAMP Recognized assessment service (Anthony Timbers LLC, Marketplace assessor id 203181). Assessment date 2026-10-02 as supplied by the assessor; KSI examination report dated 2026-10-05 and received 2026-10-06, which completes the assessment (38 of 46 indicators met, 8 partially met, remediation in progress). The assessment must be less than three months old at application (FRC-APP-FIA), so the application window runs to 2027-01-02.\n",
               "measure": "manual"
             },
             {
               "id": "M7",
               "goal": "G3",
               "title": "Application for FedRAMP Certification submitted",
-              "status": "not_started",
-              "target_date": "2027-Q1",
-              "detail": "Submitted once the Marketplace listing is in place and the independent assessment is complete and fresh.\n",
+              "status": "in_progress",
+              "target_date": "2026-10-16",
+              "detail": "Both prerequisites are met: the Marketplace listing (2026-09-22, FRC-APP-MLF) and the independent assessment (assessment date 2026-10-02, assessor report received 2026-10-06, FRC-APP-FIA). The Certification Package is being submitted to the FedRAMP office the week of 2026-10-12. The package must be verified and validated within the 7 days before submission (FRC-APP-FCP), so the final regeneration happens in that week.\n",
               "measure": "manual"
             }
           ],
           "summary": {
             "milestones_total": 7,
-            "milestones_met": 2,
-            "milestones_in_progress": 4,
-            "milestones_not_started": 1
+            "milestones_met": 4,
+            "milestones_in_progress": 3,
+            "milestones_not_started": 0
           }
         },
         "evidence_history": {
@@ -14098,12 +15251,20 @@
             {
               "date": "2026-10-06",
               "class": "scheduled"
+            },
+            {
+              "date": "2026-10-07",
+              "class": "scheduled"
+            },
+            {
+              "date": "2026-10-08",
+              "class": "scheduled"
             }
           ],
           "scheduled": {
-            "days": 94,
+            "days": 96,
             "from": "2026-07-04",
-            "to": "2026-10-06",
+            "to": "2026-10-08",
             "meaning": "The scheduled validation job ran unattended on this date at its documented 04:00 UTC cycle and produced per-indicator results. This is the only class that counts as persistent validation."
           },
           "manual": {
@@ -14118,7 +15279,7 @@
             "to": "2026-07-02",
             "meaning": "Status derived after the fact from retained audit evidence. Not the output of validation performed on this date."
           },
-          "total_days_with_evidence": 266,
+          "total_days_with_evidence": 268,
           "gaps": 1
         },
         "certification_data_access": {
@@ -14159,7 +15320,7 @@
         "live_monitoring": {
           "controls_monitored": 46,
           "controls_passing": 43,
-          "last_validated": "2026-10-06T20:07:27.450954Z"
+          "last_validated": "2026-10-08T16:09:46.037664Z"
         },
         "metadata": {
           "responsibleOfficial": {
@@ -14168,7 +15329,7 @@
             "email": "security@virtualdojo.com"
           },
           "version": "1.1",
-          "lastUpdated": "2026-10-06T20:11:16.748747+00:00",
+          "lastUpdated": "2026-10-08T16:14:11.861445+00:00",
           "updateSource": "Generated by fedramp-ksi-validator export.certification_package from package.yaml and the automated KSI/FRR validation results."
         },
         "serviceIdentification": {
@@ -14226,8 +15387,8 @@
           "name": "Anthony Timbers LLC",
           "assessorID": "203181",
           "id": "203181",
-          "assessmentStatus": "PENDING - independent verification and validation has not been performed",
-          "assessmentTiming": "No assessment date is scheduled yet. MKT-IIP-DLA requires one within 2 years of initial listing in the Initial Implementation Phase; this offering is not yet listed, so that window has not started."
+          "assessmentStatus": "CONDUCTED - assessor results not yet transcribed",
+          "assessmentTiming": "Independent assessment conducted on 2026-10-02 by Anthony Timbers LLC (FedRAMP Marketplace assessor id 203181). Assessor examination report dated 2026-10-05. The assessor's per-indicator results have not yet been transcribed into this document's assessment arrays."
         },
         "certifiedServices": [
           {
@@ -14283,7 +15444,7 @@
         ],
         "ZD_frid_retro": "FR2635050861",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:26Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:35Z"
       },
       {
         "serviceIdentification": {
@@ -14318,7 +15479,7 @@
             "url": "https://trust.paramify.com/myevaluations/myevaluations",
             "repositoryDescription": "FedRAMP Trust Center for the Cloud Service Offering.",
             "authenticationRequired": true,
-            "accessRequestInstructions": "",
+            "accessRequestInstructions": "Navigate to Trust Center URL and request access.",
             "agencyAccessDenialProcess": "Agency Access Denial Process.pdf"
           },
           "secureConfigurationGuidance": {
@@ -14404,7 +15565,7 @@
         ],
         "ZD_frid_retro": "FR2635447609",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:28Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:36Z"
       },
       {
         "serviceIdentification": {
@@ -14458,7 +15619,7 @@
         ],
         "ZD_frid_retro": "FR2635930421",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:27Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:36Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -14612,7 +15773,7 @@
         },
         "ZD_frid_retro": "FR2635930425",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:28Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:37Z"
       },
       {
         "assessor": {
@@ -14929,14 +16090,14 @@
           "schemaPinSynced": "2026-09-28"
         },
         "metadata": {
-          "lastUpdated": "2026-10-06T19:03:33Z",
+          "lastUpdated": "2026-10-08T15:05:09Z",
           "responsibleOfficial": {
             "contactEmail": "rajesh@adventbusiness.com",
             "name": "Rajesh Gupta",
             "title": "Vice President and Secretary, System Owner and ISSO, Advent Business Company Inc."
           },
           "updateSource": "Generated at request time by the deployed certification-data service; content changes reach it only through the automated build and deployment pipeline under Advent's change management procedure.",
-          "version": "1.0.0+f6cd0022"
+          "version": "1.0.0+e9639564"
         },
         "ongoingCertificationReportFeedback": {
           "acknowledgement": "Automatic on receipt (AFC-CSO-ACK mechanism, shared).",
@@ -15535,7 +16696,7 @@
         },
         "ZD_frid_retro": "FR2635930439",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:53Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:37Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -15655,7 +16816,7 @@
         ],
         "ZD_frid_retro": "F1403283529A",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:54Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:37Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -15744,7 +16905,7 @@
         },
         "ZD_frid_retro": "FR2618738935",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:54Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:38Z"
       },
       {
         "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -16134,7 +17295,7 @@
         ],
         "ZD_frid_retro": "FR2635930482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:56Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:39Z"
       },
       {
         "serviceIdentification": {
@@ -16276,7 +17437,7 @@
         },
         "ZD_frid_retro": "FR2700137029",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:57Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:41Z"
       },
       {
         "serviceIdentification": {
@@ -16369,7 +17530,7 @@
         },
         "ZD_frid_retro": "FR2700137035",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:57Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:41Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -16469,7 +17630,7 @@
         },
         "ZD_frid_retro": "FR2700137041",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:58Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:41Z"
       },
       {
         "serviceIdentification": {
@@ -16633,7 +17794,7 @@
         },
         "ZD_frid_retro": "FR2700137045",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:32:58Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:42Z"
       },
       {
         "serviceIdentification": {
@@ -16685,7 +17846,7 @@
         },
         "ZD_frid_retro": "FR1915750265",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:32:59Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:43Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -16745,7 +17906,7 @@
         },
         "ZD_frid_retro": "FR1711546389",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:33:03Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:43Z"
       },
       {
         "serviceIdentification": {
@@ -17543,7 +18704,7 @@
         "certifiedServicesNote": "The date available for each service represents the date the service was included in the AWS GovCloud FedRAMP certification boundary based on available assessment records. Actual inclusion dates as reflected in FedRAMP PMO records may vary. AWS has maintained continuous FedRAMP certification for GovCloud (Class D) since 2016, and all listed services are subject to ongoing annual independent assessment regardless of their inclusion date.",
         "ZD_frid_retro": "F1603047866",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:33:04Z"
+        "last_fetched_timestamp": "2026-10-08T16:06:05Z"
       },
       {
         "serviceIdentification": {
@@ -18421,7 +19582,7 @@
         "certifiedServicesNote": "The date available for each service represents the date the service was included in the AWS US East/West FedRAMP certification boundary based on available assessment records. Actual inclusion dates as reflected in FedRAMP PMO records may vary. AWS has maintained continuous FedRAMP certification for US East/West (Class C) since 2013, and all listed services are subject to ongoing annual independent assessment regardless of their inclusion date.",
         "ZD_frid_retro": "AGENCYAMAZONEW",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:33:05Z"
+        "last_fetched_timestamp": "2026-10-08T16:06:05Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -18471,7 +19632,7 @@
         ],
         "ZD_frid_retro": "FR2700429895",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:33:07Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:45Z"
       },
       {
         "serviceIdentification": {
@@ -18698,7 +19859,7 @@
         },
         "ZD_frid_retro": "FR2700555844",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-06T20:33:07Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:46Z"
       },
       {
         "serviceIdentification": {
@@ -18733,7 +19894,7 @@
         ],
         "ZD_frid_retro": "FR2700555848",
         "id_matches_expected": null,
-        "last_fetched_timestamp": "2026-10-06T20:33:08Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:48Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -18840,7 +20001,7 @@
         },
         "ZD_frid_retro": "FR2113346550",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:33:08Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:47Z"
       },
       {
         "serviceIdentification": {
@@ -18927,7 +20088,7 @@
         },
         "ZD_frid_retro": "FR2522249893",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-06T20:33:08Z"
+        "last_fetched_timestamp": "2026-10-08T16:44:47Z"
       }
     ]
   }
