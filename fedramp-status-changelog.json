@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-08T03:59:17.594Z",
-    "total_entries": 2165,
+    "export_timestamp": "2026-10-09T03:59:17.555Z",
+    "total_entries": 2170,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -28115,8 +28115,8 @@
       {
         "unique_id": "1b1fd8e6-4fac-4c41-b708-d6d9d099d482",
         "product_id": "FR2700555848",
-        "cert_type": "20x",
-        "cert_path": "Program",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
         "cert_class": "Unknown",
         "from_status": "",
         "to_status": "Initial Implementation",
@@ -28149,6 +28149,71 @@
         "transition_date": "2026-06-24T04:00:00.000Z",
         "recorded_date": "2026-10-06T23:35:48.525Z",
         "source": "manual",
+        "comments": ""
+      },
+      {
+        "unique_id": "947c47c5",
+        "product_id": "FR2504771625",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "Agency Authorization In Process",
+        "to_status": "FedRAMP Ready",
+        "transition_date": "2026-01-30T05:00:00.000Z",
+        "recorded_date": "2026-10-08T13:02:51.000Z",
+        "source": "AppSheet",
+        "comments": "Lost sponsorship"
+      },
+      {
+        "unique_id": "9c900096",
+        "product_id": "FR2428549698",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class B",
+        "from_status": "FedRAMP In Process",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2025-05-17T04:00:00.000Z",
+        "recorded_date": "2026-10-08T13:08:07.000Z",
+        "source": "AppSheet",
+        "comments": "CSP no longer pursuing FedRAMP certification"
+      },
+      {
+        "unique_id": "a80ee603",
+        "product_id": "FR2516140413",
+        "cert_type": "Rev5",
+        "cert_path": "Program",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Ready",
+        "to_status": "Final Program Review",
+        "transition_date": "2025-03-25T16:00:00.000Z",
+        "recorded_date": "2026-10-08T18:10:47.000Z",
+        "source": "AppSheet",
+        "comments": "Transunion was eligible for the Lost Sponsor/Ready Conversion pathway to achieve Class C Program Certification."
+      },
+      {
+        "unique_id": "c1e302ab-6792-4138-9bb6-078265739a19",
+        "product_id": "FR2700754078",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-08T20:01:16.000Z",
+        "recorded_date": "2026-10-08T20:01:48.333Z",
+        "source": "frc-cso-pkg",
+        "comments": ""
+      },
+      {
+        "unique_id": "9215adb0-8b89-4354-b6e4-a13e6adbb13c",
+        "product_id": "FR2700754082",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-08T20:01:19.000Z",
+        "recorded_date": "2026-10-08T20:01:48.333Z",
+        "source": "frc-cso-pkg",
         "comments": ""
       }
     ]
