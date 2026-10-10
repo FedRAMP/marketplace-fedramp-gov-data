@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-09T19:59:30.936Z",
-    "total_entries": 2172,
+    "export_timestamp": "2026-10-10T19:59:37.605Z",
+    "total_entries": 2176,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -30413,6 +30413,62 @@
         "source": "2026-10-06T04:00:00.000Z",
         "comments": "2026-10-09T04:00:00.000Z",
         "": "AppSheet"
+      },
+      {
+        "unique_id": "b5c9b94d-5eeb-484c-992b-18043fda547e",
+        "product_id": "FR2700857464",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-09T20:57:43.000Z",
+        "recorded_date": "2026-10-09T20:58:29.682Z",
+        "source": "frc-cso-pkg",
+        "comments": "",
+        "": ""
+      },
+      {
+        "unique_id": "a7f963d8-e2e0-439a-b979-dddda5a70d4a",
+        "product_id": "FR2700857469",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-09T20:57:48.000Z",
+        "recorded_date": "2026-10-09T20:58:29.682Z",
+        "source": "frc-cso-pkg",
+        "comments": "",
+        "": ""
+      },
+      {
+        "unique_id": "8f70f4c7-d51b-4051-893e-958a1a35ec6f",
+        "product_id": "FR2700857472",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-09T20:57:50.000Z",
+        "recorded_date": "2026-10-09T20:58:29.682Z",
+        "source": "frc-cso-pkg",
+        "comments": "",
+        "": ""
+      },
+      {
+        "unique_id": "230ee0e1-51a9-4f5e-bb12-8eb92202c9c7",
+        "product_id": "FR2700857493",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-09T20:58:06.000Z",
+        "recorded_date": "2026-10-09T20:58:29.682Z",
+        "source": "frc-cso-pkg",
+        "comments": "",
+        "": ""
       }
     ]
   }
