@@ -1,0 +1,119 @@
+{
+  "serviceIdentification": {
+    "serviceAcronym": "ALR",
+    "serviceDescription": "Alira is an AI-powered case management platform purpose-built for Freedom of Information Act (FOIA) processing and records disclosure workflows in federal agencies. Alira replaces manual, spreadsheet- and email-driven FOIA intake and processing with a single system of record that helps agency FOIA offices meet statutory response deadlines, apply exemptions consistently, and produce defensible, auditable release packages. Alira combines purpose-built case management with AI assistance for the most time-consuming parts of the FOIA lifecycle. Alira is designed for direct use by federal agency FOIA offices and their analysts, requesters, and program office contacts, and supports the full request lifecycle from intake through release.",
+    "fedRampPackageId": "FR2633734932",
+    "website": "https://alira.tech",
+    "logo": "https://trust.skywarditsolutions.com/alira.svg",
+    "ueiNumber": "JHH5NXX58DM4",
+    "providerName": "Skyward IT Solutions",
+    "serviceName": "Alira",
+    "certificationType": "20x"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Collaboration",
+      "Data Management",
+      "Content Management System (CMS)",
+      "Legal & Policy",
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "url": "https://trust.skywarditsolutions.com",
+      "authenticationRequired": true,
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "repositoryDescription": "FedRAMP 20x Class A certification data for Alira: rule and control status, automated validation evidence, and the current Ongoing Certification Report.",
+      "accessRequestInstructions": "To request access to the gated portions of the Trust Center, email security@alira.tech with your name, organization, and the reason for your request. An administrator will provision an account and respond with login instructions."
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Alira Security",
+      "contactEmail": "security@alira.tech"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Alira Sales",
+      "contactEmail": "foia@alira.tech",
+      "contactPhone": "410-449-3003"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Requester Portal",
+      "serviceDescription": "Public-facing interface for submitting Freedom of Information Act requests and receiving sanitized, redacted documents. Authenticated with Login.gov at IAL2.",
+      "dateAvailable": "2026-06-30",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low"
+      },
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Analyst Portal",
+      "serviceDescription": "Agency case management for FOIA processing: access to unredacted records, document ingestion, redaction tooling, workflow and disposition tracking. Agency SSO/IdP federation with PIV/CAC; not publicly routable.",
+      "dateAvailable": "2026-06-30",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Moderate"
+      },
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "External Stakeholder Portal",
+      "serviceDescription": "Collaborative document review for authorized external parties such as consultants and inter-agency reviewers. Role-based access limits visibility to assigned matters only; MFA enforced.",
+      "dateAvailable": "2026-06-30",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low"
+      },
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "AI-Assisted Redaction",
+      "serviceDescription": "AI assistance for redaction and exemption application within the FOIA processing lifecycle. Delivered as a capability of the Analyst Portal.",
+      "dateAvailable": "2026-06-30",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Moderate"
+      },
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Audit Logging and Monitoring",
+      "serviceDescription": "Tenant-scoped audit logging of platform activity, streamed continuously to support agency oversight and incident response.",
+      "dateAvailable": "2026-06-30",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "High",
+        "availability": "Moderate"
+      },
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Authentication and Access Management",
+      "serviceDescription": "Federated authentication and role-based access control across all portals, including Login.gov IAL2, agency SSO/IdP, PIV/CAC and multi-factor authentication.",
+      "dateAvailable": "2026-06-30",
+      "securityCategory": {
+        "confidentiality": "High",
+        "integrity": "High",
+        "availability": "Moderate"
+      },
+      "inMinimumAssessmentScope": true
+    }
+  ],
+  "ZD_frid_retro": "FR2633734932",
+  "id_matches_expected": true
+}

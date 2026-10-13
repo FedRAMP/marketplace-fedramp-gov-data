@@ -1,0 +1,125 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "TBD",
+    "providerName": "ConnectSecure LLC",
+    "serviceName": "ConnectSecure Vulnerability and Compliance Manager",
+    "serviceAcronym": "CS-VCM",
+    "serviceDescription": "ConnectSecure Vulnerability and Compliance Manager is a\ncloud-hosted Software-as-a-Service (SaaS) application\npurpose-built for the Managed Service Provider (MSP)\ncommunity. It empowers small and medium-sized\nbusinesses to protect their IT assets from security threats\nthrough comprehensive, affordable vulnerability and\ncompliance management.",
+    "certificationType": "20x",
+    "website": "https://Connectsecure.com",
+    "logo": "https://connectsecure.com/hubfs/ConnectSecure_Standard%20(Two%20Tone).png",
+    "certificationClass": "A",
+    "certificationPath": "Program"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Governance, Risk, and Compliance (GRC)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/connectsecure",
+      "repositoryDescription": "FedRAMP Trust Center for the Cloud Service Offering.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Step 1: Navigate to trust.paramify.com/connectsecure\nStep 2: Click the Request Access button",
+      "agencyAccessDenialProcess": "If denied, you will receive an email within 5 days of your request with an\nexplanation for the denial"
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://cybercns.atlassian.net/wiki/spaces/CVB/overview",
+      "repositoryDescription": "Secure Configuration Guidance for the Cloud Service Offering.",
+      "authenticationRequired": false
+    },
+    "ongoingCertificationReportLocation": "N/A",
+    "informationResources": {
+      "summary": "In-scope system: the ConnectSecure Vulnerability and\nCompliance Manager SaaS application (Linux, PostgreSQL,\nKubernetes-orchestrated), hosted on Vultr IaaS across US\nEast, US West, Europe-Frankfurt, Europe-London, and\nAustralia-Sydney regions. Cloudflare provides edge security,\nDNS, WAF, CDN, and TLS/SSL termination; GitHub\nprovides source control and build; Microsoft 365 provides\nidentity and email. Supporting components include\nRabbitMQ (message queue) and Redis (in-memory cache /\nsession store)."
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "FedRAMP Security Inbox",
+      "contactEmail": "ciso@connectsecure.com"
+    },
+    {
+      "contactType": "Security",
+      "contactTypeAsEntered": "Primary / Security",
+      "contactName": "Brian Blakley",
+      "contactEmail": "brian@connectsecure.com",
+      "contactPhone": "602-291-9571"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Peter Bellini",
+      "contactEmail": "peter@connectsecure.com",
+      "contactPhone": "813-361-7957"
+    }
+  ],
+  "assessor": {
+    "name": "CertPro CPA LLC",
+    "assessorID": "000000",
+    "independentAssessmentUsed": true,
+    "assessmentCompletionDate": "2026-06-09",
+    "assessmentSummary": {
+      "overallSummary": "For the period April 1, 2025 to March 31, 2026, CertPro CPA LLC examined\nConnectSecure LLC's ConnectSecure Vulnerability and Compliance\nManager system. In the service auditor's opinion, in all material respects\nand based on the applicable Trust Services Criteria for Security, Availability,\nand Confidentiality: (1) the description fairly presents the system that was\ndesigned and implemented throughout the period; (2) the controls were\nsuitably designed to provide reasonable assurance that ConnectSecure's\nservice commitments and system requirements would be achieved if the\ncontrols operated effectively, and if the subservice organizations and user\nentities applied the complementary controls contemplated in the design;\nand (3) the controls operated effectively throughout the period. This is an\nunqualified opinion with no exceptions noted.",
+      "assessmentFailures": "None. No exceptions were noted for any control tested during the\nexamination period, and no incidents resulting from control deficiencies with",
+      "areasOfDispute": "None.",
+      "fullResultsLocation": "Complete SOC 2 Type II Attestation available via the\nConnectSecure Trust Center."
+    }
+  },
+  "alternativeSecurityFramework": {
+    "frameworkUsed": "SOC 2 Type II",
+    "impactLevelScope": "Trust Services Criteria in scope: Security, Availability, and\nConfidentiality. Scope: the ConnectSecure Vulnerability and\nCompliance Manager cloud-hosted SaaS application,\nincluding the supporting people, processes, and\ninfrastructure. (SOC 2 has no FedRAMP impact level; the\noffering is not yet FedRAMP-categorized.)",
+    "dateCompleted": "2026-06-09",
+    "certifyingBody": "CertPro CPA LLC (Certified Public Accountants; License No.\nCF-0010928, State of Delaware)",
+    "independentAssessmentIncluded": "Yes",
+    "mappingToFedRampRules": "This SOC 2 Type II examination was performed by CertPro CPA LLC under\nAICPA attestation standards (AT-C) for the period April 1, 2025 – March 31,\n2026, against the 2017 Trust Services Criteria (with 2022 revised points of\nfocus) for Security, Availability, and Confidentiality. It covered the Common\nCriteria (CC1–CC9: control environment, communication and information,\nrisk assessment, monitoring, control activities, logical and physical access,\nsystem operations, change management, and risk mitigation) plus the\nAvailability (A1) and Confidentiality (C1) criteria. These map to core\nFedRAMP/NIST SP 800-53 control families — Access Control (AC),\nIdentification & Authentication (IA), Audit & Accountability (AU),\nConfiguration Management (CM), Contingency Planning (CP), Incident\nResponse (IR), Risk Assessment (RA), System & Communications\nProtection (SC), and System & Information Integrity (SI). The auditor issued\nan unqualified opinion: controls were suitably designed and operated\neffectively throughout the period with no exceptions noted, and no material\nincidents or availability breaches occurred. Independent web-application and\nthick-client penetration testing was performed by BDO India LLP\n(CREST-accredited) in January 2026, with all findings remediated and\nverified closed by February 10, 2026.",
+    "documentation": [
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Complete report",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Bridge or gap letter",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Verified audit engagement documentation",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Supplemental compliance evidence",
+        "location": "Please see Trust Center"
+      }
+    ]
+  },
+  "thirdPartyInformationResources": {
+    "nonCertified": [
+      {
+        "name": "Vultr Holdings Corporation",
+        "provider": "Vultr",
+        "website": "https://www.vultr.com",
+        "useCase": "Cloud Infrastructure-as-a-Service (IaaS) hosting all production infrastructure\n— servers, databases, and storage — across US East, US West,\nEurope-Frankfurt, Europe-London, and Australia-Sydney regions."
+      },
+      {
+        "name": "Cloudflare, Inc.",
+        "provider": "Cloudflare",
+        "website": "https://www.cloudflare.com",
+        "useCase": "Edge security, DNS resolution, CDN, DDoS mitigation, Web Application\nFirewall (WAF), and TLS/SSL termination for ConnectSecure web\nresources."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2633734912",
+  "id_matches_expected": false
+}

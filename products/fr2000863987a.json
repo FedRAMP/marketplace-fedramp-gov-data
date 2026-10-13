@@ -1,0 +1,349 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2000863987A",
+    "ueiNumber": "JV9YXS9MLA48",
+    "providerName": "Cloudflare, Inc.",
+    "serviceName": "Cloudflare for Government",
+    "serviceAcronym": "CFG",
+    "serviceDescription": "Cloudflare operates a global network that delivers security, performance, and reliability from a single platform. Cloudflare for Government provides this same platform to U.S. Government agencies as one homogeneous stack. This Marketplace listing consolidates both of Cloudflare for Government's FedRAMP Certifications — Class C (previously FedRAMP Moderate) and Class D (previously FedRAMP High) — into a single product entry. The certified services span:\n\n- **SASE / Zero Trust** — Zero Trust network access, secure web gateway, CASB, browser isolation, data loss prevention, email security, and cloud-delivered WAN.\n- **Security** — web application firewall (WAF), DDoS protection, API security, bot management, rate limiting, and client-side security.\n- **Network & Content Delivery** — CDN, authoritative DNS, load balancing, smart routing, and network interconnect.\n- **Compute** — serverless functions, containers, durable objects, and workflow orchestration.\n- **Storage** — object storage, SQL and key-value databases, and queues.\n\nFederal agencies use Cloudflare to protect public-facing websites and APIs, secure workforce access to internal applications, replace legacy remote-access VPN and MPLS connectivity, and build cloud-native applications entirely within the FedRAMP-certified boundary.\n\nThe two Certifications are delivered from separate environments with separate control planes. Class C is accessed at dash.cloudflare.com and api.cloudflare.com; Class D is accessed at dash.fed.cloudflare.com and api.fed.cloudflare.com. Federal customers select the environment that matches the FedRAMP Certification required for their workload.\n\nThis offering is FedRAMP Class C and Class D Certified. The scope of the two Certifications differs by a small number of services; per-service class is denoted in the Certified Services list as follows: services with no notation are Certified at both Class C and Class D, services marked with an asterisk (*) are Certified at Class C only (not within the Class D boundary), and services marked with a dagger (†) are Certified at Class D only (not within the Class C boundary). Learn more at https://www.cloudflare.com/public-sector/",
+    "certificationType": "Rev5",
+    "website": "https://www.cloudflare.com/public-sector/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cloudflare%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Cybersecurity & Risk Management",
+      "Data Management",
+      "Development Tools",
+      "Media",
+      "Network Management",
+      "Operations Management",
+      "Storage",
+      "System Administration",
+      "Virtual Private Network (VPN)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.cloudflare.com/trust-hub/",
+      "repositoryDescription": "Cloudflare Trust Hub — centralized compliance posture, certifications, sub-processor list, and security artifact requests.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guide"
+      ],
+      "url": "https://developers.cloudflare.com/",
+      "repositoryDescription": "Cloudflare Developer Documentation — product configuration guidance, security hardening, and integration references.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Public documentation. For FedRAMP-specific secure configuration guidance, contact fedramp-team@cloudflare.com."
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Cloudflare FedRAMP Team",
+      "contactEmail": "fedramp-team@cloudflare.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Cloudflare Public Sector Team",
+      "contactEmail": "publicsector@cloudflare.com"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Access",
+      "serviceDescription": "Zero Trust network access broker that enforces identity-based policies for internal applications, replacing legacy remote-access VPNs.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Analytics",
+      "serviceDescription": "HTTP, network, and security-event analytics for zones, accounts, and Workers deployments.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "API Shield",
+      "serviceDescription": "API-focused protection including schema validation, JWT validation, sequence analysis, and mTLS.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Argo Smart Routing",
+      "serviceDescription": "Traffic optimization that routes requests across Cloudflare's network via the fastest path.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Bots",
+      "serviceDescription": "Bot management with automatic classification and mitigation of automated traffic.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Browser Isolation",
+      "serviceDescription": "Remote browser isolation that executes web sessions in Cloudflare's cloud and streams draw output to endpoints.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Cache Reserve",
+      "serviceDescription": "Persistent object-storage caching layer that reduces origin fetches.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "CASB",
+      "serviceDescription": "Cloud access security broker for SaaS applications, providing configuration audits and DLP integration.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "CDN",
+      "serviceDescription": "Global content delivery network with caching, compression, and image optimization.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Client-Side Security",
+      "serviceDescription": "Client-side script and connection monitoring with policy enforcement (formerly Page Shield).",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Cloudflare for SaaS*",
+      "serviceDescription": "Multi-tenant SaaS delivery platform enabling custom hostname management, certificates, and edge configuration for a provider's own customers.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Cloudflare Images",
+      "serviceDescription": "Image storage, transformation, and delivery service.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Cloudflare Network Firewall",
+      "serviceDescription": "Layer 3/4 stateful firewall for network traffic (formerly Magic Firewall).",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Cloudflare Network Interconnect (CNI) 1.0",
+      "serviceDescription": "Private connectivity to Cloudflare via physical or virtual cross-connects.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Cloudflare One",
+      "serviceDescription": "Unified SASE platform combining Access, Gateway, CASB, DLP, Browser Isolation, and network connectivity.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Cloudflare One Client",
+      "serviceDescription": "Device agent (formerly WARP) that connects endpoints to Cloudflare One and enforces device posture.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Cloudflare Pages*",
+      "serviceDescription": "Static site and full-stack application hosting integrated with Cloudflare Workers.",
+      "dateAvailable": "2023-04-27"
+    },
+    {
+      "serviceName": "Cloudflare Queues",
+      "serviceDescription": "Message queue service with guaranteed delivery, retries, and dead-letter queues.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Cloudflare Tunnels & Mesh",
+      "serviceDescription": "Outbound-only encrypted tunnels connecting private origins to Cloudflare's network without opening inbound ports, with mesh connectivity between tunnel endpoints.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Cloudflare WAN",
+      "serviceDescription": "Cloud-delivered wide-area network combining site-to-site connectivity, routing, and firewall (formerly Magic WAN).",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Cloudflare Workers",
+      "serviceDescription": "Serverless compute platform executing JavaScript, TypeScript, WebAssembly, Python, and Rust at Cloudflare's edge.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Cloudflare Workers KV",
+      "serviceDescription": "Low-latency global key-value data store for Workers.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Cloudflare Workflows*",
+      "serviceDescription": "Durable workflow orchestration for multi-step, long-running Workers logic.",
+      "dateAvailable": "2023-04-27"
+    },
+    {
+      "serviceName": "Cloudflare Zero Trust",
+      "serviceDescription": "Zero Trust security suite combining Access, Gateway, and related services.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Containers†",
+      "serviceDescription": "Container runtime for executing OCI images alongside Cloudflare Workers.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Customer Metadata Boundary",
+      "serviceDescription": "Data-residency control that restricts where Cloudflare processes and stores customer metadata.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "D1*",
+      "serviceDescription": "Serverless SQL database (SQLite-compatible) integrated with Workers.",
+      "dateAvailable": "2023-04-27"
+    },
+    {
+      "serviceName": "Data Localization Suite",
+      "serviceDescription": "Suite of controls for regionally restricting data storage, encryption keys, and traffic flow.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Data Loss Prevention (DLP)",
+      "serviceDescription": "Content inspection and policy enforcement across HTTP and email traffic to detect sensitive data.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "DDoS Protection",
+      "serviceDescription": "Always-on Layer 3, 4, and 7 DDoS mitigation across Cloudflare's network.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "DNS",
+      "serviceDescription": "Authoritative DNS with DNSSEC and primary/secondary configurations.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Durable Objects",
+      "serviceDescription": "Strongly-consistent stateful compute primitives for Workers, backed by SQLite or key-value storage.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Email Security†",
+      "serviceDescription": "Cloud email security for phishing, business-email-compromise, and malware protection (formerly Area 1 / Cloud Email Security).",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Gateway",
+      "serviceDescription": "Secure web gateway with DNS filtering, HTTP/HTTPS inspection, and network policy enforcement.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Geo Key Manager",
+      "serviceDescription": "Regional control of TLS private-key access location.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Hyperdrive",
+      "serviceDescription": "Managed database connection pooling and query caching for Workers.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Keyless SSL",
+      "serviceDescription": "TLS termination on Cloudflare without disclosing customer private keys.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Load Balancing",
+      "serviceDescription": "Global HTTP, TCP, and UDP load balancing with health checks and traffic steering.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Logs",
+      "serviceDescription": "Real-time log delivery of HTTP, security, network, and audit events.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Magic Transit",
+      "serviceDescription": "IP-layer DDoS protection and traffic optimization delivered via BGP or GRE.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Network Flow",
+      "serviceDescription": "Network traffic analysis and flow-based visibility (formerly Magic Network Monitoring).",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "R2",
+      "serviceDescription": "S3-compatible object storage with no egress fees.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Rate Limiting",
+      "serviceDescription": "Configurable request-rate policies for HTTP endpoints.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Regional Services",
+      "serviceDescription": "Restricts TLS termination and traffic processing to specified regions or data centers.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Smart Shield",
+      "serviceDescription": "Dedicated egress IP addresses for outbound traffic to Cloudflare-protected origins (formerly Cloudflare Aegis).",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Spectrum",
+      "serviceDescription": "TCP/UDP proxy for non-HTTP services with DDoS mitigation.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "SSL/TLS",
+      "serviceDescription": "Managed TLS certificate issuance, validation, and lifecycle (includes Advanced Certificate Manager).",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "SSL/TLS for SaaS*",
+      "serviceDescription": "Custom-hostname TLS certificate management for multi-tenant SaaS providers.",
+      "dateAvailable": "2023-04-27"
+    },
+    {
+      "serviceName": "Stream",
+      "serviceDescription": "Video ingest, transcoding, storage, and adaptive delivery.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Tiered Cache",
+      "serviceDescription": "Multi-tier CDN caching that reduces origin fetches by routing through intermediate data centers.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Turnstile",
+      "serviceDescription": "Non-intrusive human verification alternative to CAPTCHAs.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "WAF",
+      "serviceDescription": "Web application firewall with managed rulesets, custom rules, and rate-limiting integration.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Waiting Room",
+      "serviceDescription": "Traffic surge management that queues excess visitors before they reach the origin.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Web Analytics",
+      "serviceDescription": "Privacy-focused website analytics that does not use cookies or fingerprints.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Workers Observability",
+      "serviceDescription": "Metrics, logs, and traces for Workers deployments.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Zero Trust Infrastructure Access",
+      "serviceDescription": "Granular access broker for infrastructure resources including servers, clusters, and databases (a.k.a. ZTIA / Access for Infrastructure).",
+      "dateAvailable": "2026-08-06"
+    }
+  ],
+  "ZD_frid_retro": "FR2000863987A",
+  "id_matches_expected": true
+}

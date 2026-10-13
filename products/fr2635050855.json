@@ -1,0 +1,104 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2635050855",
+    "providerName": "SuperGov, Inc",
+    "serviceName": "SuperFile",
+    "serviceAcronym": "SUPER-CSP",
+    "serviceDescription": "SuperFile: Stay in control after you share. SuperFile helps organizations protect and share sensitive files while retaining control over access. Users can see who has access, manage sharing permissions, and revoke access after a file has been shared. Security controls are built into each file. SuperFile combines dynamic key generation, layered encryption, and embedded access controls with trusted device verification and decryption in memory. Files synchronize across devices, giving authorized users access wherever they work. Encrypted sharing and configurable settings let organizations determine who can open and share their content.",
+    "certificationType": "20x",
+    "website": "https://Superfile.com",
+    "logo": "https://www.superfile.com/super.png",
+    "certificationClass": "A",
+    "certificationPath": "Program"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Collaboration",
+      "Cybersecurity & Risk Management",
+      "Data Management",
+      "Design & Multimedia",
+      "Finance",
+      "Governance, Risk, and Compliance (GRC)",
+      "Health & Wellness",
+      "Law Enforcement",
+      "Legal & Policy"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/superfile",
+      "repositoryDescription": "FedRAMP Trust Center for the Cloud Service Offering.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "",
+      "agencyAccessDenialProcess": "Agency Access Denial Process"
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.superfile.com/",
+      "repositoryDescription": "Secure Configuration Guidance for the Cloud Service Offering.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": ""
+    },
+    "ongoingCertificationReportLocation": "trust.paramify.com/superfile",
+    "nextOngoingCertificationReportDate": "2026-10-15",
+    "informationResources": {
+      "resources": [
+        {
+          "impactOnConfidentialityIntegrityAvailability": "☐ GovRAMP at any Impact Level"
+        }
+      ]
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "FedRAMP Security Inbox",
+      "contactEmail": "security@supergov.com"
+    },
+    {
+      "contactType": "Security",
+      "contactEmail": "security@supergov.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@superfile.com"
+    }
+  ],
+  "alternativeSecurityFramework": {
+    "impactLevelScope": "SuperFile system",
+    "dateCompleted": "2025-10-15",
+    "certifyingBody": "BARR Advisory",
+    "independentAssessmentIncluded": "Yes",
+    "documentation": [
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Complete report",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Bridge or gap letter",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Verified audit engagement documentation",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Supplemental compliance evidence",
+        "location": "Please see Trust Center"
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2635050855",
+  "id_matches_expected": true
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "Beam Up Ltd (Beam)",
+    "ueiNumber": "UNBBUA7AUBX6",
+    "providerName": "Beam Up Ltd",
+    "serviceName": "Beam",
+    "serviceAcronym": "Beam",
+    "serviceDescription": "Beam is a browser-based SaaS platform for human services agencies. Notes records staff conversations and produces an AI transcript and summary against customer-defined templates; a human reviews, edits, and copies the output into the customer's case management system; Reports, a function within Notes, summarizes uploaded documents, recordings, handwritten notes, video, or existing Notes into a report against a customer template. Talk is a conversational AI voice and chat agent that answers resident calls and chats, with SIP transfer to a human agent on triage need, safeguarding risk, or explicit request. Interpret provides real-time interpretation, combining speech-to-text, LLM interpretation, and text-to-speech, through a browser interface or over a telephone path. The US deployment is standalone: customer data is stored and processed entirely within the continental United States, in US data centers, with backups stored in US data centers.",
+    "certificationType": "20x",
+    "website": "https://beam.org/en-us",
+    "logo": "https://trust.beam.org/api/share/7d180d5f-4790-4944-b9e6-dfd6f1c8bf14/logo.png?version=6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.beam.org",
+      "repositoryDescription": "Beam's Trust Center: certifications and attestations (ISO 27001, SOC 2 Type II with HIPAA attestation, CSA STAR Level 1), security policies, penetration test attestation, sub-processor list, and knowledge base.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "The landing page at https://trust.beam.org is publicly accessible. Document access requires an access request via the Get Access link; requests are reviewed by Beam's Trust & Safety team. The SOC 2 Type II report is released under NDA to a named reviewer."
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Stuart Murray, Data Protection Officer",
+      "contactEmail": "trust@beam.org"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Davide Bertone, Team Manager, US Sales Team",
+      "contactEmail": "davide@beam.org"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Notes",
+      "serviceDescription": "Browser-based recording of staff conversations with AI transcription and AI summarization against customer-defined templates. A human reviews and edits all output before it enters the customer's system of record. Includes Reports, a function within Notes that summarizes uploaded documents, recordings, handwritten notes, video, or existing Notes into a report against a customer template.",
+      "dateAvailable": "2026-07-01"
+    },
+    {
+      "serviceName": "Talk",
+      "serviceDescription": "Conversational AI voice and chat agent answering resident calls and chats, with SIP transfer to a human agent on triage need, safeguarding risk, or explicit request.",
+      "dateAvailable": "2026-07-01"
+    },
+    {
+      "serviceName": "Interpret",
+      "serviceDescription": "Real-time interpretation combining speech-to-text, LLM interpretation, and text-to-speech, delivered through a browser interface or over a telephone path in which a call is set up between two phone numbers and a recorded consent message is played in the client's language.",
+      "dateAvailable": "2026-07-01"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2533155773",
+        "useCase": "OpenAI API Platform: primary summarization (GPT-4o / GPT-4.1) via the dedicated gov.api.openai.com endpoint."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Google Cloud Platform (US regions): primary application hosting on Cloud Run, Cloud SQL PostgreSQL database (us-central1), object storage, and Redis cache; Gemini models via Google Cloud (us-central1) for summarization."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "AWS US East/West: fallback summarization via AWS Bedrock (us-west-2) and supporting services in US regions."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
+        "useCase": "Microsoft Azure Commercial (US regions), fallback only: Azure-hosted OpenAI models on US endpoints for transcription fallback, and Azure Speech (Central US) as the final transcription fallback for Talk."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "ElevenLabs",
+        "provider": "ElevenLabs, Inc.",
+        "website": "https://elevenlabs.io",
+        "useCase": "Primary audio transcription (Scribe); live-call speech-to-text, agent orchestration, and text-to-speech for Talk, in ElevenLabs' US workspace."
+      },
+      {
+        "name": "Deepgram",
+        "provider": "Deepgram, Inc.",
+        "website": "https://deepgram.com",
+        "useCase": "Fallback audio transcription via Deepgram's managed US endpoint."
+      },
+      {
+        "name": "Twilio",
+        "provider": "Twilio Inc.",
+        "website": "https://www.twilio.com",
+        "useCase": "SMS and call handling for Talk (US1 region routing); telephone-path call setup and handling for Interpret."
+      },
+      {
+        "name": "Kinde",
+        "provider": "Kinde",
+        "website": "https://kinde.com",
+        "useCase": "Authentication, including SSO federation to the customer's identity provider."
+      },
+      {
+        "name": "Fastly",
+        "provider": "Fastly, Inc.",
+        "website": "https://www.fastly.com",
+        "useCase": "CDN, Layer 7 DDoS mitigation, and WAF at the service edge."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2632054530",
+  "id_matches_expected": false
+}

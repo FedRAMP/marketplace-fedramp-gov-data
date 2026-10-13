@@ -1,0 +1,38 @@
+{
+  "serviceIdentification": {
+    "providerName": "TrackVia, Inc.",
+    "serviceName": "TrackVia Government",
+    "serviceAcronym": "TVG",
+    "serviceDescription": "TrackVia is an AI ready Operational Intelligence Platform that helps government agencies and organizations turn complex, mission critical operations into structured data, automated workflows, real time intelligence, and measurable outcomes.\n\nRather than relying on spreadsheets, disconnected point solutions, or lengthy custom software development, organizations use TrackVia to rapidly configure and deploy operational applications around their unique mission and business requirements. TrackVia brings workflows, data, automation, mobile capabilities, integrations, and AI together in a secure, governed platform.\n\nTrackVia supports use cases including field operations, inspections, workforce and mission readiness, asset and equipment management, safety and compliance, program operations, contractor and vendor management, and other mission critical workflows.\n\nTrackVia Government provides federal agencies and government contractors a secure path to modernize operational processes while meeting stringent federal security and compliance requirements.",
+    "certificationType": "Rev5",
+    "fedRampPackageId": "FR2619646960",
+    "website": "https://www.trackvia.com",
+    "logo": "https://raw.githubusercontent.com/Trackvia/TrackVia-FedRAMP/main/controls/MKT-CSO-PML/images/TrackVia_Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Operations Management",
+      "Construction"
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Elaine Atkinson",
+      "contactEmail": "privacy@trackvia.com",
+      "contactPhone": "800-673-3302"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Erin Edwards",
+      "contactEmail": "sales@trackvia.com",
+      "contactPhone": "800-673-3302"
+    }
+  ],
+  "ZD_frid_retro": "FR2619646960",
+  "id_matches_expected": true
+}

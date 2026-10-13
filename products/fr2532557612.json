@@ -1,0 +1,91 @@
+{
+  "serviceIdentification": {
+    "providerName": "A-LIGN",
+    "serviceName": "A-SCEND",
+    "serviceAcronym": "A-SCEND",
+    "serviceDescription": "A-SCEND is an AI-powered audit management platform supported by certified practitioners with over 20 years of experience. The platform is designed to automate and streamline the audit and compliance process.",
+    "certificationType": "20x",
+    "fedRampPackageId": "FR2532557612",
+    "ueiNumber": "Q76FLNZDM992",
+    "website": "https://www.a-lign.com/a-scend",
+    "logo": "https://github.com/A-SCEND/FedRAMPx20/blob/main/img/a-scend.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Collaboration",
+      "Customer Service",
+      "Cybersecurity & Risk Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.a-lign.com",
+      "repositoryDescription": "Public URL to A-LIGN's Trust Center",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://github.com/A-SCEND/FedRAMPx20/blob/main/secure_configuration.md",
+      "repositoryDescription": "Public URL to A-SCEND Secure Configuration Guidance",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactEmail": "Sales@a-lign.com"
+    },
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMPaccreditation@a-lign.com"
+    }
+  ],
+  "assessor": {
+    "name": "RISCPoint",
+    "assessorID": "201825"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "A-SCEND",
+      "serviceDescription": "A-SCEND is an AI-powered audit management platform supported by certified practitioners with over 20 years of experience. The platform is designed to automate and streamline the audit and compliance process.",
+      "dateAvailable": "2025-09-17"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Production authorization boundary and SIEM (Google Services / GCP)"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "MSO365MT",
+        "useCase": "Change Authorization Record, incident records, compliance artifacts (Microsoft 365 GCC)"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2000863987A",
+        "useCase": "WAF and sole network ingress point (Cloudflare for Government)"
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Microsoft Entra ID",
+        "provider": "Microsoft",
+        "useCase": "Workforce identity and account provisioning"
+      },
+      {
+        "name": "Google Workspace",
+        "provider": "Google",
+        "useCase": "Workforce identity and account provisioning"
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2532557612",
+  "id_matches_expected": true
+}

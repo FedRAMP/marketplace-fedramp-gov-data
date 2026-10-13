@@ -1,0 +1,38 @@
+{
+  "serviceIdentification": {
+    "providerName": "MaintainX",
+    "serviceName": "MaintainX for Government",
+    "serviceAcronym": "CSP",
+    "serviceDescription": "MaintainX is a mobile and cloud based Computerized Maintenance Management System (CMMS) deployed in a FedRAMP Moderate-authorized environment dedicated for U.S. government use. The system provides work order management, preventive maintenance scheduling, asset tracking, standardized procedure management, realtime team communication, and reporting/analytics. All services are delivered through a secure SaaS platform hosted in AWS GovCloud, with backend microservices orchestrated on Amazon EKS. Security measures include container hardening (CIS/STIG baselines), end to end TLS 1.2+ encryption, role based access via a dedicated fed only identity provider with CAC/PIV support, continuous monitoring and anomaly detection, malware scanning for uploaded files, configuration drift detection, and vulnerability scanning. The authorization boundary includes all production services, storage, monitoring and logging pipelines. This deployment is available exclusively to members of the U.S. government community, including federal, state, local, and tribal agencies, as well as authorized federal contractors.",
+    "certificationType": "20x",
+    "fedRampPackageId": "MaintainX for Government CSP",
+    "website": "https://www.getmaintainx.com",
+    "logo": "https://mx-gov-public-init.s3.us-gov-west-1.amazonaws.com/default-org-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Andrew Krumel",
+      "contactEmail": "andrew.krumel@getmaintainx.com",
+      "contactPhone": "415-429-5456"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Sonny Hashmi",
+      "contactEmail": "sonny.hashmi@getmaintainx.com",
+      "contactPhone": "415-429-5456"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  },
+  "ZD_frid_retro": "FR2630354492",
+  "id_matches_expected": false
+}

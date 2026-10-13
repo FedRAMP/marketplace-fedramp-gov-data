@@ -1,0 +1,226 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "Linear (LINEAR)",
+    "providerName": "Linear Orbit, Inc.",
+    "serviceName": "Linear",
+    "serviceAcronym": "LINEAR",
+    "serviceDescription": "Linear is the product development system for teams and agents, purpose-built for planning and building software products. It is a multi-tenant SaaS offering that provides issue tracking, project and cycle planning, roadmaps and initiatives, product intelligence, and agent workflows, delivered through web, desktop, and mobile clients and a public GraphQL API.\n\nLinear is currently listed in the **Initial Implementation** phase and is pursuing a FedRAMP 20x certification for its existing commercial offering, starting with a Class A submission and progressing toward Class C. Linear does not operate a separate government-only environment; the certification scope is the production Linear service hosted on Google Cloud Platform with Cloudflare at the network edge.\n\nProgress toward certification is published at least quarterly in Linear’s Trust Center (https://trust.linear.app).",
+    "certificationType": "20x",
+    "website": "https://linear.app",
+    "logo": "https://linear.app/static/brand/wordmark-dark.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Operations Management",
+      "Development Tools",
+      "Collaboration",
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "FedRAMP Certification Data"
+      ],
+      "url": "https://trust.linear.app",
+      "repositoryDescription": "Linear’s Trust Center is available at trust.linear.app and hosts all our latest security and compliance resources.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "The Trust Center landing page and public documents are available without authentication. Restricted documents (e.g., SOC 2 Type II report, penetration test summaries, FedRAMP Certification Data marked non-public) can be requested via the **Request access** button on [https://trust.linear.app](https://trust.linear.app)."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Documentation",
+          "Policies"
+        ],
+        "url": "https://linear.app/docs",
+        "repositoryDescription": "Linear product documentation, including administration, security, and integration guides.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Vulnerability Disclosure"
+        ],
+        "url": "https://linear.app/security/vulnerability",
+        "repositoryDescription": "Linear’s vulnerability disclosure and reporting policy for external security researchers.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Legal",
+          "Privacy"
+        ],
+        "url": "https://linear.app/dpa",
+        "repositoryDescription": "Linear Data Processing Agreement, including subprocessor commitments and data handling terms.",
+        "authenticationRequired": false
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Linear Security",
+      "contactEmail": "security@linear.app"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Linear Sales",
+      "contactEmail": "sales@linear.app"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Linear",
+      "serviceDescription": "Linear provides cloud hosted issue tracking and project management software for teams building software products and services. The app allows teams to triage and track bugs, plan project roadmaps, and continuously monitor progress through software development cycles. Linear is a common space for teams to work on their projects and interact with other teams through work assignments.\n\nLinear integrates with other tools such as GitHub (code version control), Figma (design) and Zendesk (customer support) to streamline workflows. New bugs and tasks can be created from the application, or other integrated services such as Slack.\n\nLinear is provided as a web service at [https://linear.app](https://linear.app). Users are also able to download desktop and mobile versions of the application."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Primary hosting infrastructure: compute, databases, storage, networking, logging, and AI model inference."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+        "useCase": "Employee identity and single sign-on for administrative access to production systems."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Cloud services and AI model inference for Linear AI features."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2533155773",
+        "useCase": "AI model inference for Linear AI features."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1823447014",
+        "useCase": "Internal collaboration and customer support channels."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1809360201",
+        "useCase": "Data warehouse for product analytics and operational reporting."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Cloudflare",
+        "provider": "Cloudflare, Inc.",
+        "website": "https://www.cloudflare.com",
+        "useCase": "Network edge: DNS, CDN, TLS termination, DDoS protection, and web application firewall."
+      },
+      {
+        "name": "Datadog",
+        "provider": "Datadog, Inc.",
+        "website": "https://www.datadoghq.com",
+        "useCase": "Logging, metrics, and monitoring for the production environment."
+      },
+      {
+        "name": "Sentry",
+        "provider": "Functional Software, Inc.",
+        "website": "https://sentry.io",
+        "useCase": "Application error tracking and performance monitoring."
+      },
+      {
+        "name": "PlanetScale",
+        "provider": "PlanetScale, Inc.",
+        "website": "https://planetscale.com",
+        "useCase": "Managed database services."
+      },
+      {
+        "name": "turbopuffer",
+        "provider": "turbopuffer, Inc.",
+        "website": "https://turbopuffer.com",
+        "useCase": "Vector search for semantic search and AI features."
+      },
+      {
+        "name": "Anthropic API (Claude)",
+        "provider": "Anthropic, PBC",
+        "website": "https://www.anthropic.com",
+        "useCase": "AI model inference for Linear AI and agent features."
+      },
+      {
+        "name": "Fireworks AI",
+        "provider": "Fireworks AI, Inc.",
+        "website": "https://fireworks.ai",
+        "useCase": "AI model inference for Linear AI features."
+      },
+      {
+        "name": "Modal",
+        "provider": "Modal Labs, Inc.",
+        "website": "https://modal.com",
+        "useCase": "Serverless compute for AI and batch workloads."
+      },
+      {
+        "name": "Pierre",
+        "provider": "The Pierre Computer Company, Inc.",
+        "website": "https://pierre.co",
+        "useCase": "Code storage and processing for agent and code features."
+      },
+      {
+        "name": "Cohere",
+        "provider": "Cohere Inc.",
+        "website": "https://cohere.com",
+        "useCase": "Embedding and reranking models for search and AI features."
+      },
+      {
+        "name": "Braintrust",
+        "provider": "Braintrust Data Inc.",
+        "website": "https://www.braintrust.dev",
+        "useCase": "Evaluation and monitoring of Linear AI features."
+      },
+      {
+        "name": "Retool",
+        "provider": "Retool Inc.",
+        "website": "https://retool.com",
+        "useCase": "Internal administrative and support tools for Linear staff."
+      },
+      {
+        "name": "Intercom",
+        "provider": "Intercom, Inc.",
+        "website": "https://www.intercom.com",
+        "useCase": "In-app and email customer support."
+      },
+      {
+        "name": "Pylon",
+        "provider": "Pylon Labs, Inc.",
+        "website": "https://usepylon.com",
+        "useCase": "Customer support ticketing."
+      },
+      {
+        "name": "Enterpret",
+        "provider": "Enterpret Inc.",
+        "website": "https://www.enterpret.com",
+        "useCase": "Analysis of customer feedback and support conversations."
+      },
+      {
+        "name": "Fivetran",
+        "provider": "Fivetran Inc.",
+        "website": "https://www.fivetran.com",
+        "useCase": "Data pipeline into the analytics warehouse."
+      },
+      {
+        "name": "Hevo Data",
+        "provider": "Hevo Data, Inc.",
+        "website": "https://hevodata.com",
+        "useCase": "Data pipeline into the analytics warehouse."
+      },
+      {
+        "name": "Hex",
+        "provider": "Hex Technologies Inc.",
+        "website": "https://hex.tech",
+        "useCase": "Analytics notebooks on the analytics warehouse."
+      },
+      {
+        "name": "Postmark",
+        "provider": "AC PM, LLC",
+        "website": "https://postmarkapp.com",
+        "useCase": "Transactional and notification email delivery."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2700555844",
+  "id_matches_expected": false
+}

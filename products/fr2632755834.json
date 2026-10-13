@@ -1,0 +1,77 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2632755834",
+    "providerName": "Armada",
+    "serviceName": "Armada Platform",
+    "serviceAcronym": "AP",
+    "serviceDescription": "Armada Platform (\"AP\") is a cloud-based Software-as-a-Service (SaaS) platform for federal agency customers that provides centralized connectivity provisioning and remote management of satellite communications terminals and associated connected assets through a unified management console. Core capabilities include fleet mapping and geospatial awareness, asset and asset-group management, Starlink/Starshield service-line, terminal and data-pool provisioning and management, network statistics and usage reporting, configurable alerting, incident lifecycle management, and audit logging. With Bridge, AP allows for orchestration of GPU hardware to enable sovereign AI factories.",
+    "certificationType": "Rev5",
+    "website": "https://www.armada.ai/",
+    "logo": "https://res.cloudinary.com/armada-ai/image/upload/c_fill,g_center,w_auto,f_webp/ARMADA_LOGO_BLACK_SM_253bcee6fe.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "businessCategory": [
+      "Fleet Management",
+      "Network Management",
+      "Operations Management"
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Prenston Gale",
+      "contactEmail": "pgale@armada.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Shweta Agnihotri",
+      "contactEmail": "shweta.agnihotri@armada.ai"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603087869",
+        "useCase": "Azure Government provides the FedRAMP-authorized cloud infrastructure and platform services supporting Armada Platform, including AKS, Blob Storage, Container Registry, Firewall, Key Vault, Microsoft Entra ID/PIM, Sentinel, and related Azure services."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2000863987",
+        "useCase": "Cloudflare for Government provides external network and web application boundary protection."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1807853629A",
+        "useCase": "CrowdStrike Falcon Platform for Government provides endpoint detection and response and network security monitoring."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
+        "useCase": "GitHub Enterprise Cloud is used for source code management and version control."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2428769635XL",
+        "useCase": "Paramify SaaS is used for FedRAMP compliance documentation and internal security control assessment support."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2230451369",
+        "useCase": "Snyk for Government is used for security and vulnerability scanning of source code."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2308034636A",
+        "useCase": "Wiz for U.S. Government is used for cloud infrastructure, container, database, virtual machine, firewall, configuration, and vulnerability monitoring."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1821856903",
+        "useCase": "Zendesk Customer Support and Help Desk Platform is used for customer support and help desk functions."
+      }
+    ]
+  },
+  "assessor": {
+    "name": "FITS",
+    "assessorID": "137801"
+  },
+  "ZD_frid_retro": "FR2632755834",
+  "id_matches_expected": true
+}

@@ -1,0 +1,146 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "packageMetadata": {
+    "cloudServiceOffering": "Canopy",
+    "provider": "Ripcord",
+    "preparedDate": "2026-08-17",
+    "version": "2026.09.2",
+    "lastUpdated": "2026-09-03",
+    "sourceOfUpdate": "Updated from the Ripcord Canopy FedRAMP SSP, the current FedRAMP Certification Package Overview schema, Ripcord provider confirmation received 2026-08-17, and the FedRAMP Marketplace verification that The Armory (FR2513256853) became FedRAMP Certified on 2026-08-21. The package was reviewed on 2026-09-03 following PMO FRC-CSO-PKG feedback.",
+    "sourceDocuments": [
+      {
+        "path": "authorization-package/ssp/canopy_ssp/ripcord-canopy-fedramp-ssp.md",
+        "description": "Authoritative source for Canopy service identification, architecture, contacts, authorization context, deployment model, digital identity level, operational date, and third-party resources."
+      },
+      {
+        "path": "https://www.ripcord.com/platform",
+        "description": "Official Ripcord platform page used only for the schema-required public product website URL."
+      },
+      {
+        "path": "https://blog.ripcord.com/hubfs/Press%20Releases/Ripcord%20Standard%20PR%20Image.png",
+        "description": "Ripcord-provided approved logo image used for the schema-required logo URL."
+      },
+      {
+        "path": "https://www.fedramp.gov/marketplace/products/FR2612446381/",
+        "description": "FedRAMP Marketplace product profile confirming that Canopy is Agency Authorization in Process."
+      },
+      {
+        "path": "https://www.fedramp.gov/marketplace/assessors/137046/",
+        "description": "Official FedRAMP Marketplace assessor profile used for the independent assessor name and ID."
+      },
+      {
+        "path": "https://www.fedramp.gov/marketplace/products/FR2513256853/",
+        "description": "FedRAMP Marketplace product profile confirming that The Armory is FedRAMP Certified, Rev5 Agency Class D, as of 2026-08-21."
+      },
+      {
+        "path": "Ripcord provider confirmation received 2026-08-17",
+        "description": "Source for the approved logo, multi-tenant deployment characterization, contact information, Trust Center details, scope confirmation, and current authorization context."
+      }
+    ],
+    "dataQualityNotes": [
+      "Secure configuration guidance is not applicable because Canopy does not currently have end-agency users. A next Ongoing Certification Report date is not yet known because Canopy is awaiting Agency Authorization.",
+      "Canopy is Agency Authorization in Process and does not have a certification date. The certifiedServices.dateAvailable value is the SSP's fully operational date, 2025-12-15, not a certification date.",
+      "The schema requires assessor.id while defining assessorID as the named property. This package includes both properties with the same FedRAMP Marketplace assessor ID.",
+      "Ripcord confirmed Canopy is a multi-tenant, Government-Only offering."
+    ],
+    "artifactVersion": "2026.09.2",
+    "lastReviewedAt": "2026-09-03",
+    "cdsReviewMonth": "2026-09"
+  },
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2612446381",
+    "ueiNumber": "ZL1AZGNUURR8",
+    "providerName": "Ripcord",
+    "serviceName": "Canopy",
+    "serviceAcronym": "Canopy",
+    "serviceDescription": "Canopy is Ripcord's multi-tenant, Government-Only Software-as-a-Service offering for Federal Government Agencies that require Digitization-as-a-Service capabilities. It is a document intelligence platform that uses secure orchestration and workflow processing, robotics, OCR/ICR and image analysis, Google Gemini large language models, custom machine-learning models, business rules, and agent-in-the-loop quality assurance to digitize, classify, extract, validate, and deliver data from structured and unstructured documents. Canopy is deployed as a managed application tenant on stackArmor's The Armory General Support System.",
+    "certificationType": "Rev5",
+    "website": "https://www.ripcord.com/platform",
+    "logo": "https://blog.ripcord.com/hubfs/Press%20Releases/Ripcord%20Standard%20PR%20Image.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "digitalIdentityLevel": "IAL3/FAL3/AAL3",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Content Management System (CMS)",
+      "Data Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Authorization Package",
+        "Assessment Reports",
+        "Continuous Monitoring"
+      ],
+      "url": "https://info.ripcord.com/hubfs/fedramp-certification-overview-package-canopy.json",
+      "repositoryDescription": "Direct public shared-file download endpoint for the machine-readable Canopy FedRAMP Certification Overview Package JSON.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "The URL is publicly available without authentication, approval workflows, or access justification and resolves to the Canopy Certification Overview Package JSON."
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Primary",
+      "contactName": "Ahson Ahmad",
+      "contactEmail": "aahmad@ripcord.com",
+      "contactPhone": "925-695-8849"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Rene-Claude Tshiteya",
+      "contactEmail": "rctshiteya@stackarmor.com",
+      "contactPhone": "703-582-4948"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Ron Sorisho and Gina O'Keefe",
+      "contactEmail": "sales@vastec.com",
+      "contactPhone": "813-222-3228"
+    }
+  ],
+  "assessor": {
+    "name": "Emagine IT",
+    "id": "137046",
+    "assessorID": "137046"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Canopy",
+      "serviceDescription": "Ripcord's multi-tenant, Government-Only SaaS document intelligence and Digitization-as-a-Service offering for Federal Government Agencies. Canopy processes structured and unstructured documents through secure orchestration, document digitization, OCR/ICR and image analysis, AI-supported extraction, validation, and quality-assurance workflows. Canopy is Agency Authorization in Process.",
+      "dateAvailable": "2025-12-15"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Google Services provides the High-impact FedRAMP-authorized IaaS/PaaS foundation and underlying infrastructure used by Canopy."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2131856836",
+        "useCase": "Okta IDaaS Government High Cloud provides Universal Directory, API integration, the Sign-In Widget, logging, administration, adaptive multi-factor authentication, single sign-on, and Okta Verify for privileged infrastructure users."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2230252267",
+        "useCase": "GovSlack provides messaging services for operational notifications and alerts used by privileged infrastructure users."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2513256853",
+        "useCase": "The Armory General Support System provides the FedRAMP Certified Rev5 Agency Class D (High) foundation, managed application-tenant environment, and underlying security services used by Canopy."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Ripcord on-premise digitization facility",
+        "provider": "Ripcord",
+        "useCase": "The facility provides secure on-premise scanning stations, network links, and interfaces to IRS repositories. It connects to Canopy through a site-to-site Fortinet VPN and is authorized under the IRS 4812 High baseline."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2612446381",
+  "id_matches_expected": true
+}

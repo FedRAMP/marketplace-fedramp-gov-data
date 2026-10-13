@@ -1,0 +1,50 @@
+{
+  "serviceIdentification": {
+    "providerName": "Continuum GRC, Inc.",
+    "serviceName": "ITAM",
+    "serviceAcronym": "ITAM",
+    "serviceDescription": "Continuum GRC delivers AI-powered governance, risk, and compliance through A.ITAM (AI Audit Machine) and its integrated AI auditor, AITAMBot. Serving federal agencies and government contractors, A.ITAM supports more than 100 compliance frameworks, including FedRAMP, NIST, CJIS, and CMMC, while automating evidence collection, control mapping, risk detection, and reporting. Additional capabilities include policy management, continuous monitoring, real-time dashboards, third-party risk management, AI governance, and regulatory change tracking, helping organizations strengthen cybersecurity oversight and maintain audit readiness.",
+    "certificationType": "Rev5",
+    "fedRampPackageId": "FR1915750265",
+    "website": "https://continuumgrc.com",
+    "logo": "https://continuumgrc.auditmachine.com/fedramp-trust/e5c1f3d3-0c2a-40f5-bc4c-de76f1be83a1/logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://continuumgrc.auditmachine.com/fedramp-trust/e5c1f3d3-0c2a-40f5-bc4c-de76f1be83a1/",
+      "repositoryDescription": "Public certification package overview for this cloud service offering.",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Anna Dickerson",
+      "contactEmail": "anna.dickerson@continuumgrc.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Michael Peters",
+      "contactEmail": "michael.peters@continuumgrc.com"
+    }
+  ],
+  "itAuditMachine": {
+    "generator": "Fedramp20xPmoPackageBuilder",
+    "schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+    "documentUri": "https://continuumgrc.auditmachine.com/fedramp-trust/e5c1f3d3-0c2a-40f5-bc4c-de76f1be83a1/certification-package-overview.json",
+    "unrecorded": []
+  },
+  "assessor": {
+    "name": "AARC-360",
+    "assessorID": "203060"
+  },
+  "ZD_frid_retro": "FR1915750265",
+  "id_matches_expected": true
+}

@@ -1,0 +1,146 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631054533",
+    "ueiNumber": "J383UFKBFXA6",
+    "providerName": "Portal26, Inc.",
+    "serviceName": "AI Security, Governance, & Telemetry Platform",
+    "serviceAcronym": "P26",
+    "certificationType": "20x",
+    "serviceDescription": "Portal26 is an AI visibility, security, governance, and adoption management\nplatform. Portal26 provides a SaaS application for Agentic, Generative and Embedded\nAI governance and adoption, together with AI network gateways for\nreal-time traffic routing and analysis.\n\nThe platform gives agencies detailed visibility into AI\ndeployment, usage, risk, cost, business value, compliance, and overall impact — enabling \na rich understanding where and how AI is used, ensure its security, assess its contribution,\nand ensure alignment with mission objectives, regulations, and policy.\n\nThe FedRAMP offering is deployed in AWS GovCloud (US) for direct use by\nfederal agency customers handling Controlled Unclassified Information\n(CUI). Federal customer data is encrypted in transit and at rest, and\npersonally identifiable information is additionally encrypted at the field\nlevel under a key specific to each customer.",
+    "website": "https://www.portal26.ai",
+    "logo": "https://portal26.ai/wp-content/uploads/2023/06/portal26_logo_art-300x67.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Cybersecurity & Risk Management",
+      "Governance, Risk, and Compliance (GRC)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.portal26.ai/",
+      "repositoryDescription": "Portal26 Trust Center: public security documentation, current compliance certifications, FedRAMP progress and milestones, and instructions for federal agencies requesting access to controlled certification data.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guide"
+      ],
+      "url": "https://docs.portal26.ai/trail/planning_guide/secure_configuration.html",
+      "repositoryDescription": "Portal26 Secure Configuration Guide: instructions for securely configuring the Portal26 AI Security, Governance, & Telemetry Platform offering.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Assessment Reports",
+          "Policies and Procedures"
+        ],
+        "url": "https://trust.portal26.ai/#documents",
+        "repositoryDescription": "SOC 2 Type II report (period 2025-03-01 to 2026-02-28, issued 2026-06-03 by Johanson Group LLP), bridge letter, and the Portal26 information security policies and procedures.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Federal agency customers may request access via the Portal26 Trust Center request form or by emailing the security contact listed here. Requests are acknowledged within one business day."
+      },
+      {
+        "repositoryType": [
+          "Security Decision Record"
+        ],
+        "url": "https://trust1.portal26.ai/fedramp/20x-class-c/index.html",
+        "repositoryDescription": "Security Decision Record for the Class C Certification Package (JSON: https://trust1.portal26.ai/fedramp/20x-class-c/sdr.json). Records, per FedRAMP rule and Key Security Indicator, the implementation and the independent assessment, including information resources (MAS-CSO-IIR), information flows and security categories (MAS-CSO-FLO), third-party information resources (MAS-CSO-TPR), cryptographic modules (CMU-CSO-CMD) and independent assessment results (IVV-CSO-ICP).",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Policies and Procedures Reference"
+        ],
+        "url": "https://trust1.portal26.ai/fedramp/listing/policy-reference.html",
+        "repositoryDescription": "Reference to each information security policy and procedure: name, summary, current version, date of last update and related FedRAMP practices (JSON: https://trust1.portal26.ai/fedramp/listing/policy-reference.json).",
+        "authenticationRequired": false
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2026-12-01"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Portal26 Security Team",
+      "contactEmail": "security@portal26.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Portal26 Federal Sales",
+      "contactEmail": "federal@portal26.ai"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Generative AI Governance & Adoption Platform",
+      "serviceDescription": "SaaS application providing visibility into Generative AI and Agentic AI deployment, usage, cost, and business impact, with governance policy management and reporting. Security category: Moderate.",
+      "dateAvailable": "2026-08-15"
+    },
+    {
+      "serviceName": "Generative AI Network Gateway",
+      "serviceDescription": "Real-time traffic routing and analysis for Generative AI network traffic, supporting inline visibility and policy enforcement. Security category: Moderate.",
+      "dateAvailable": "2026-08-15"
+    },
+    {
+      "serviceName": "Risk Detection & Policy Engine",
+      "serviceDescription": "Pattern, exact-match, and composite detectors that evaluate AI interactions against configured risk policies and generate mitigation events and audit records. Security category: Moderate.",
+      "dateAvailable": "2026-08-15"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "AWS GovCloud (US): infrastructure for the entire offering, including Amazon Bedrock, the sole AI inference destination."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2023864279A",
+        "useCase": "Datadog for Government: operational and audit telemetry, pushed from within the boundary; no prompt or response content."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2428769635XL",
+        "useCase": "Paramify Cloud: control implementation records and evidence for the FedRAMP Certification Package; no federal customer data."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
+        "useCase": "GitHub Enterprise Cloud: source control, build and deployment of provider software; no federal customer data."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+        "useCase": "Google Workspace: corporate email, including the FedRAMP Security Inbox; no federal customer data."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "JumpCloud",
+        "provider": "JumpCloud, Inc.",
+        "website": "https://jumpcloud.com",
+        "useCase": "Corporate identity provider for single sign-on to corporate systems, including GitHub Enterprise Cloud. Not federated to any production AWS account; no federal customer data."
+      }
+    ]
+  },
+  "packageMetadata": {
+    "responsibleOfficial": {
+      "name": "Karthikeyan Mariappan",
+      "title": "Chief Information Security Officer",
+      "email": "karthik@portal26.ai"
+    },
+    "version": "2026-10-12",
+    "lastUpdated": "2026-10-12T17:05:51Z",
+    "sourceOfUpdate": "https://github.com/titaniam/corp-fedramp/commit/3298ea5092bbc087096ef7ad7c225c2ca5b12d17"
+  },
+  "ZD_frid_retro": "FR2631054533",
+  "id_matches_expected": true
+}

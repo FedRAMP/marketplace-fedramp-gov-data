@@ -1,0 +1,141 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "TBD",
+    "ueiNumber": "X8D9AX45NVG6",
+    "providerName": "HealthEdge Software, Inc.",
+    "serviceName": "HealthEdge Integrated Solution Suite",
+    "serviceAcronym": "HE-CSP",
+    "serviceDescription": "The HealthEdge Integrated Solution Suite provides payers\nand agencies with an agentic platform of operational\ninfrastructure designed to guarantee an enduring financial\nedge.",
+    "certificationType": "20x",
+    "website": "https://healthedge.com/",
+    "logo": "https://paramify-gov-prod-trust-s3.s3-fips.us-gov-west-1.amazonaws.com/be55a92f-110e-4162-bf20-5e29875cbe49/PrimaryLogoLockup_RGB_Blue.png",
+    "certificationClass": "A",
+    "certificationPath": "Program"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "businessCategory": [
+      "Health & Wellness",
+      "Operations Management",
+      "System Administration"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/healthedge",
+      "repositoryDescription": "FedRAMP Trust Center for the Cloud Service Offering.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Submit access request via “request access”",
+      "agencyAccessDenialProcess": "If your trust center access request is denied, please reach out to\nfedramp@healthedge.com."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.paramify.com/healthedge",
+      "repositoryDescription": "Secure Configuration Guidance for the Cloud Service Offering.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": ""
+    },
+    "ongoingCertificationReportLocation": "https://trust.paramify.com/healthedge",
+    "nextOngoingCertificationReportDate": "2027-07-01",
+    "informationResources": {
+      "resources": [
+        {
+          "name": "HealthEdge Integrated Solution Suite",
+          "type": "Machine-based",
+          "descriptionAndRole": "The HealthEdge Integrated Solution Suite provides payers\nand agencies with an agentic platform of operational\ninfrastructure designed to guarantee an enduring financial\nedge.",
+          "handlesFederalCustomerData": true
+        }
+      ]
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "FedRAMP Security Inbox",
+      "contactEmail": "fedramp@healthedge.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Tristan Vonada",
+      "contactEmail": "tristan.vonada@healthedge.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Harlan Caride",
+      "contactEmail": "hcaride@healthedge.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Matthew Francis",
+      "contactEmail": "matthew.francis@healthedge.com"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665",
+    "independentAssessmentUsed": true,
+    "assessmentSummary": {
+      "overallSummary": "This assessment is to provide assurances that the HealthEdge Integrated\nSolution Suite is aligned and operating according to FedRAMP\nspecifications.",
+      "assessmentFailures": "None",
+      "areasOfDispute": "None",
+      "fullResultsLocation": "https://trust.paramify.com/healthedge"
+    }
+  },
+  "alternativeSecurityFramework": {
+    "frameworkUsed": "SOC 2 Type II",
+    "impactLevelScope": "Security, availability, and confidentiality criteria",
+    "dateCompleted": "2026-01-13",
+    "certifyingBody": "Hogan Taylor, LLP",
+    "independentAssessmentIncluded": "Yes",
+    "mappingToFedRampRules": "Yes",
+    "documentation": [
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Complete report",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Bridge or gap letter",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Verified audit engagement documentation",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Supplemental compliance evidence",
+        "location": "Please see Trust Center"
+      }
+    ]
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "HealthEdge Integrated Solution Suite",
+      "serviceDescription": "The HealthEdge Integrated Solution Suite provides payers\nand agencies with an agentic platform of operational\ninfrastructure designed to guarantee an enduring financial\nedge.",
+      "dateAvailable": "2026-10-01"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "Cloud Infrastructure.",
+        "usageAndConfiguration": "Resource is deployed and configured according to FedRAMP specifications\nand related guidance.",
+        "justificationForUse": "Scalable Cloud Infrastructure.",
+        "mitigationMeasures": "Resource is deployed and configured according to FedRAMP specifications\nand related guidance.",
+        "compensatingControls": "Resource is deployed and configured according to FedRAMP specifications\nand related guidance.",
+        "securityCategory": "FedRAMP"
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2700137029",
+  "id_matches_expected": false
+}

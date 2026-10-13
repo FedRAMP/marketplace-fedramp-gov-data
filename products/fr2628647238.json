@@ -1,0 +1,107 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2628647238",
+    "ueiNumber": "SGN5YJ1W8418",
+    "providerName": "Eleven Labs Inc.",
+    "serviceName": "ElevenLabs Platform",
+    "serviceAcronym": "ElevenLabs",
+    "serviceDescription": "The ElevenLabs Platform is a cloud-based AI voice and audio service that enables organizations to generate, transform, and deploy AI-produced speech and audio at scale. The FedRAMP Class A certification scope of the offering comprises three services — Text to Speech, Speech to Text, and Agents — delivered via the ElevenLabs API and the ElevenAgents platform, and applies only when the services are operated in Zero Retention Mode (ZRM), in which customer inputs and outputs are not retained and only system and audit data is persisted. All services share a common identity and access management layer, workspace-based multi-tenancy, and a unified data plane, with capabilities accessible to enterprise workspace administrators and developers integrating via API.",
+    "certificationType": "20x",
+    "website": "https://elevenlabs.io",
+    "logo": "https://eleven-public-cdn.elevenlabs.io/payloadcms/elevenlabs-official-logo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "digitalIdentityLevel": "IAL1 / AAL2 / FAL2",
+    "businessCategory": [
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://compliance.elevenlabs.io",
+      "repositoryDescription": "The ElevenLabs Compliance Repository is a collection of documents that are used to demonstrate that the ElevenLabs Platform is compliant with a number of different requirements, including the requirements of the FedRAMP program.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://elevenlabs.io/docs/eleven-api/guides/how-to/best-practices/security",
+      "repositoryDescription": "Public secure configuration guidance for the ElevenLabs Platform, covering encryption in transit and at rest, cryptographic module validation, identity and access management (SSO and SCIM), API credential security, data protection (including Zero Retention Mode and data residency), monitoring and audit logging, webhook security, and recommended configuration for regulated workloads.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": []
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Security Team",
+      "contactEmail": "fedramp-security@elevenlabs.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Sales Team",
+      "contactEmail": "fedramp-sales@elevenlabs.io"
+    }
+  ],
+  "assessor": {
+    "name": "No assessor engaged, Class A self-attestation, independent assessment planned for the B/C/D track, and the ID is a schema-format placeholder",
+    "id": "000000",
+    "assessorID": "000000"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Text to Speech",
+      "securityCategory": "Low",
+      "serviceDescription": "AI speech synthesis via the ElevenLabs API, converting text to natural-sounding audio across 32–70+ languages depending on model, with Python and TypeScript SDKs. Included in the FedRAMP Class A certification scope only when operated in Zero Retention Mode (ZRM): customer inputs and outputs are processed but not retained.",
+      "dateAvailable": "2026-08-03"
+    },
+    {
+      "serviceName": "Speech to Text",
+      "securityCategory": "Low",
+      "serviceDescription": "AI transcription via the ElevenLabs API, with word-level timestamps, speaker diarization, and entity detection across 90+ languages. Included in the FedRAMP Class A certification scope only when operated in Zero Retention Mode (ZRM): customer inputs and outputs are processed but not retained.",
+      "dateAvailable": "2026-08-03"
+    },
+    {
+      "serviceName": "Agents",
+      "securityCategory": "Low",
+      "serviceDescription": "ElevenAgents: a platform for designing, deploying, and operating real-time conversational voice agents, accessible through the elevenlabs.io dashboard and programmatically via the ElevenLabs API, conducting low-latency bidirectional voice conversations over WebRTC or telephony channels. Included in the FedRAMP Class A certification scope only when operated in Zero Retention Mode (ZRM); optional customer-enabled external integrations (third-party LLM providers, telephony) are outside the certified configuration and disabled by default for federal use.",
+      "dateAvailable": "2026-08-03"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Underlying FedRAMP-certified (High) cloud infrastructure and platform services (GCP) hosting the entire ElevenLabs trust boundary; inherit IaaS/PaaS controls via the GCP CRM."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "FedRAMP-certified (Moderate) cloud infrastructure and platform services (AWS US East/West regions) supporting portions of the ElevenLabs trust boundary; inherit IaaS/PaaS controls via the AWS Customer Responsibility Matrix. Note: applies to the commercial AWS US East/West authorization (AGENCYAMAZONEW); AWS GovCloud (US) is a separate High package (F1603047866) not currently used."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "MongoDB Atlas (commercial)",
+        "provider": "MongoDB, Inc.",
+        "website": "https://www.mongodb.com",
+        "useCase": "Managed NoSQL document database supporting application and workspace data for the offering, deployed in US regions. The commercial MongoDB Atlas environment is not FedRAMP certified; MongoDB Atlas for Government (FR2122150307) is a separate, physically distinct authorized environment not used by this offering.",
+        "generalUsageAndConfiguration": "MongoDB Atlas clusters deployed on cloud infrastructure in US regions, storing application and workspace data. Under Zero Retention Mode — required for the certified configuration of this offering — customer inputs and outputs are not retained in any datastore, including Atlas.",
+        "justificationForUse": "Managed document-database capabilities supporting the platform’s application data needs.",
+        "mitigationMeasures": "All Atlas traffic is TLS-encrypted by default (supported by the OpenSSL FIPS Object Module) and all data is encrypted at rest with AES-256; deployment is restricted to US regions. Per MongoDB’s Technical and Organizational Security Measures §4.2, MongoDB personnel are not authorized to access customer clusters by default; only a small group of background-checked Privileged Users may access clusters in rare cases to restore critical services, via a gated process requiring a bastion host, multi-factor authentication, and MongoDB senior-management approval, limited to the minimum time and extent necessary.",
+        "compensatingControls": "Per MongoDB's Technical and Organizational Security Measures §4.2.3–4.2.4: Privileged User accounts are individually credentialed (no shared credentials) and used only for privileged activities; Privileged User authorizations are reviewed quarterly and revoked within 24 hours of role change or departure; all MongoDB personnel access to customer clusters is logged, with audit records retained for at least six years and subject to automated and human review. MongoDB Atlas is certified against ISO/IEC 27001:2022, ISO 27017, ISO 27018, and SOC 2 Type II. Reference: https://www.mongodb.com/legal/customer-service-agreement/technical-and-organizational-security-measures",
+        "fedRampStatus": "Not certified (commercial Atlas); Atlas for Government is a separate FedRAMP Moderate authorized environment",
+        "disposition": "Retained with documented mitigations;"
+      }
+    ]
+  },
+  "nextOngoingCertificationReportDate": "2026-11-10",
+  "ZD_frid_retro": "FR2628647238",
+  "id_matches_expected": true
+}

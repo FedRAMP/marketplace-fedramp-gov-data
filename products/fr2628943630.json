@@ -1,0 +1,128 @@
+{
+  "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "version": "1.0",
+  "lastUpdatedDateTime": "2026-08-26 14:30",
+  "source": "System Operations Team",
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2628943664",
+    "ueiNumber": "PL1GB2CMMCK5",
+    "providerName": "Xfinion Inc.",
+    "serviceName": "Continuously Aware Realtime Tracking Network (CARTN)",
+    "serviceAcronym": "CARTN",
+    "serviceDescription": "CARTN is a cloud-based real-time asset tracking and visibility platform designed to help organizations track, manage, and monitor physical assets across facilities. By combining RFID, NFC & Barcode technology, location tracking, and unified dashboards, CARTN gives teams complete visibility into asset movement, inventory, and operations. The service includes a web portal and mobile application for viewing and managing asset data, a backend service that receives data from multi-modal readers readers in the field, and a secure central data store. All components are hosted in a cloud environment with network-level controls that limit connectivity to authorized services only. Access to the portal and underlying infrastructure is protected by multi-factor authentication.",
+    "certificationType": "20x",
+    "website": "https://www.cartn.com",
+    "logo": "https://www.cartn.com/assets/cartn-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Operations Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/xfinion",
+      "repositoryDescription": "CARTN Trust Center — system security documentation, configuration guidance, and authorization artifacts.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "https://trust.paramify.com/xfinion/continuously-aware-realtime-tracking-network-cartn/deliverables"
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://www.cartn.com/admin-guide.html",
+      "repositoryDescription": "CARTN administrator guide covering secure configuration of the platform.",
+      "authenticationRequired": false
+    },
+    "nextOngoingCertificationReportDate": "2026-08-31"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "Vijay Goswami",
+      "contactEmail": "contact@xfinion.com",
+      "contactPhone": "301-801-4897"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Vijay Goswami",
+      "contactEmail": "security@xfinion.com",
+      "contactPhone": "301-801-4897"
+    }
+  ],
+  "assessor": {
+    "name": "A-Lign",
+    "assessorID": "138665"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "CARTN",
+      "securityCategory": "Low",
+      "serviceDescription": "CARTN is a cloud-based real-time asset tracking and visibility platform designed to help organizations track, manage, and monitor physical assets across facilities. By combining RFID, NFC & Barcode technology, location tracking, and unified dashboards, CARTN gives teams complete visibility into asset movement, inventory, and operations.",
+      "dateAvailable": "2026-03-14"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
+        "useCase": "The CARTN FedRAMP SaaS offering is hosted on Microsoft Azure Commercial, which serves as the Infrastructure-as-a-Service (IaaS) platform for the service. Azure provides the underlying compute, storage, and networking resources on which CARTN's web portal, backend data ingestion services, and central data store are deployed, with network-level controls that limit connectivity to authorized services only. CARTN uses Microsoft Entra for identity and access management of the Azure infrastructure and CARTN management plane. Microsoft Entra authenticates and authorizes administrative and privileged access, enforcing multi-factor authentication, conditional access policies, and role-based access controls so that only authorized personnel can access CARTN's cloud environment and supporting resources."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "The CARTN FedRAMP SaaS offering uses Amazon Web Services (AWS) for supporting infrastructure services. AWS Route 53 provides authoritative DNS resolution for CARTN's public-facing endpoints, routing user and reader traffic to the appropriate CARTN services. AWS CodeBuild, within its FedRAMP-authorized offering, serves as the DevOps build and continuous integration platform used to compile, test, and package CARTN application code as part of the secure software development and deployment pipeline."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1512167750",
+        "useCase": "The CARTN FedRAMP SaaS offering uses Okta Identity-as-a-Service (IDaaS) Regulated Cloud to provide user authentication and authorization for the CARTN web portal and mobile application. Okta manages end-user identities, enforces multi-factor authentication, and applies access policies that govern which users may access CARTN and the data and functions available to them, providing centralized and auditable identity management for the service."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Azure DevOps",
+        "provider": "Microsoft",
+        "website": "https://azure.microsoft.com/en-us/products/devops",
+        "useCase": "Azure DevOps is currently used as DevOps platform with planned retirement in favor of AWS Codebuild on 2026-07-24"
+      }
+    ]
+  },
+  "relevantPolicies": {
+    "url": "https://trust.paramify.com/xfinion",
+    "authenticationRequired": true,
+    "accessRequestInstructions": "https://trust.paramify.com/xfinion/continuously-aware-realtime-tracking-network-cartn/deliverables"
+  },
+  "identifiedInformationResources": {
+    "resourcesIdentified": false,
+    "statement": "No information resources within the CARTN CSO boundary process, store, or transmit federal data, CUI, or PII."
+  },
+  "informationFlows": {
+    "url": "https://trust.paramify.com/xfinion",
+    "authenticationRequired": true,
+    "accessRequestInstructions": "https://trust.paramify.com/xfinion/continuously-aware-realtime-tracking-network-cartn/deliverables"
+  },
+  "cryptographicModules": [
+    {
+      "moduleName": "Cryptographic Primitives Library",
+      "usedIn": "Microsoft Azure Storage Accounts, Azure SQL Server, Azure Key Vault, and Azure Blob Storage; Microsoft Entra ID (Entra IDaaS - CARTN IdP)",
+      "purpose": "Inherited from the FedRAMP-authorized Azure Commercial platform. Provides AES-256 encryption of data at rest and TLS 1.2 / 2048-bit RSA for data in transit (IoT-to-API and API-to-database) and identity operations.",
+      "nistCmvpValidated": true,
+      "certificateNumber": "4825",
+      "isUpdateStream": false
+    },
+    {
+      "moduleName": "Kernel Mode Cryptographic Primitives Library",
+      "usedIn": "Underlying Windows Server infrastructure supporting the Azure and Microsoft Entra ID services used by CARTN",
+      "purpose": "Inherited from the FedRAMP-authorized Azure Commercial platform. Provides kernel-mode AES-256, TLS 1.2, and 2048-bit RSA cryptographic operations for the same components.",
+      "nistCmvpValidated": true,
+      "certificateNumber": "4766",
+      "isUpdateStream": false
+    }
+  ],
+  "ZD_frid_retro": "FR2628943630",
+  "id_matches_expected": false
+}

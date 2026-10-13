@@ -1,0 +1,83 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2632436493",
+    "ueiNumber": "NYRPKZL34MZ4",
+    "providerName": "Rohirrim, Inc.",
+    "serviceName": "Unified Acquisition Platform",
+    "serviceAcronym": "UAP",
+    "serviceDescription": "Unified Acquisition Platform is Rohirrim's certified cloud infrastructure supporting two complementary offerings for the government solicitation lifecycle: UnifiedRespond, used by government contractors to research and draft responses to solicitations, and UnifiedAcquire, used by government agencies to write and issue those solicitations. Both offerings are software packages running inside the same authorization boundary, sharing the same retrieval-based AI platform, identity plane, data stores and monitoring.",
+    "certificationType": "20x",
+    "website": "https://rohirrim.ai",
+    "logo": "https://rohirrim.ai/wp-content/uploads/2026/08/Rohirrim-Logo-scaled.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Assessment Reports"
+      ],
+      "url": "https://app.vanta.com/c/rohirrim/trust-center/access/viewers",
+      "repositoryDescription": "Rohirrim's Trust Center, holding the Certification Package Overview, Security Decision Record, Ongoing Certification Report, sample incident reports, the twelve FedRAMP policies, the component inventory artifacts, and the external assessment materials supporting this certification. The sixteen FedRAMP procedures are approved but not published: they are scoped to Class C, and CDS-CSO-IRP applies from Class B.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Request viewer access using the link above. Requests are reviewed by Rohirrim's security team; approved requesters receive an email invitation to create an account and view shared compliance materials. Agency requests are granted on request per CDS-UTC-AGA."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Public Information"
+        ],
+        "url": "https://rohirrim.ai/fedramp/",
+        "repositoryDescription": "Public FedRAMP transparency page carrying the human-readable public information required by CDS-CSO-PUB and the Progress Toward Certification summary required by MKT-IIP-DCP.",
+        "authenticationRequired": false
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2026-11-24"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "Christian Meyer",
+      "contactEmail": "christian@rohirrim.ai"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Mike Papay, CISO",
+      "contactEmail": "mike.papay@rohirrim.ai"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "FedRAMP Security Inbox",
+      "contactEmail": "FedRAMP.Security@gov.rohirrim.ai"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "UnifiedRespond",
+      "serviceDescription": "Helps government contractors research and draft responses to government solicitations, using retrieval-based AI to surface relevant material from an organization's own archive of prior proposal content. Security category: Moderate (proposed, pending formal adoption by the Authorizing Official).",
+      "dateAvailable": "2026-08-20"
+    },
+    {
+      "serviceName": "UnifiedAcquire",
+      "serviceDescription": "Helps government agencies write and issue solicitations to contractors, using the same underlying platform to draft clear, complete acquisition documents. Security category: Moderate (proposed, pending formal adoption by the Authorizing Official).",
+      "dateAvailable": "2026-08-20"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Microsoft Azure Government",
+        "useCase": "Hosts the entire cloud service offering: compute, storage, identity, network, AI inference, secrets management, monitoring and physical infrastructure. Holds a FedRAMP High provisional authorization and is authorized for CUI under DFARS 252.204-7012. Physical, environmental and platform controls are inherited per Microsoft's published Customer Responsibility Matrix. Rohirrim operates a dedicated subscription isolated from any commercial Azure tenancy, with enclave-level segmentation, customer-managed secrets in Key Vault, encryption at rest and in transit, and independent monitoring through Microsoft Sentinel and Defender for Cloud."
+      }
+    ],
+    "nonCertified": []
+  },
+  "ZD_frid_retro": "FR2632436493",
+  "id_matches_expected": true
+}

@@ -1,0 +1,106 @@
+{
+  "serviceIdentification": {
+    "providerName": "Toonimo Inc.",
+    "serviceName": "Toonimo Digital Adoption Platform",
+    "serviceAcronym": "Toonimo-DAP",
+    "serviceDescription": "Toonimo is a cloud-native SaaS digital adoption platform that delivers in-application walkthroughs, AI chatbot and voicebot guidance, process intelligence, and analytics so organizations can help employees and constituents complete tasks in existing web applications. The FedRAMP authorization boundary is commercial Amazon Web Services only (containers on Kubernetes/EKS, managed database, object storage, CDN, WAF, KMS). Oracle Cloud Infrastructure is used for some commercial non-federal tenants and is outside this boundary.\n\nTarget certification: FedRAMP 20x Class C (Moderate) via Program Certification (no agency sponsor). Marketplace status: Initial Implementation. FedRAMP ID pending assignment.",
+    "certificationType": "20x",
+    "fedRampPackageId": "TOONIMO-DAP",
+    "ueiNumber": "",
+    "website": "https://www.toonimo.com",
+    "logo": "https://www.toonimo.com/images/logo_toonimo_g.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Customer Service",
+      "Education & Training",
+      "Artificial Intelligence (AI)",
+      "Analytics",
+      "Content Management System (CMS)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.toonimo.com/en/trust",
+      "repositoryDescription": "Public FedRAMP 20x Trust Center: offering overview, Initial Implementation progress, machine-readable listing JSON, and vulnerability disclosure.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://www.toonimo.com/en/trust#secure-configuration",
+      "repositoryDescription": "Public summary of customer-controlled security settings. Full Secure Configuration Guide is provided to agency customers and the 3PAO under NDA.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Vulnerability Disclosure Program"
+        ],
+        "url": "https://www.toonimo.com/en/security",
+        "repositoryDescription": "Public vulnerability disclosure policy and intake.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Machine-readable listing"
+        ],
+        "url": "https://www.toonimo.com/fedramp/frc-cso-pkg.json",
+        "repositoryDescription": "Certification Package Overview JSON (FRC-CSO-PKG / CDS-CSO-PUB).",
+        "authenticationRequired": false
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-01-15"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Security / FedRAMP Program",
+      "contactEmail": "security@toonimo.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Federal / Public Sector Sales",
+      "contactEmail": "sales@toonimo.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "In-application walkthroughs",
+      "serviceDescription": "Interactive, in-app guidance overlaid on customer web applications to complete tasks and reduce support load."
+    },
+    {
+      "serviceName": "AI chatbot and voicebot",
+      "serviceDescription": "Grounded conversational assistance with human handoff, used inside customer applications and contact-center flows."
+    },
+    {
+      "serviceName": "Process intelligence and analytics",
+      "serviceDescription": "Task completion, proficiency, and funnel analytics for authors and operators."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [],
+    "nonCertified": [
+      {
+        "name": "Amazon Web Services (commercial regions)",
+        "provider": "Amazon Web Services",
+        "website": "https://aws.amazon.com/",
+        "useCase": "Sole in-boundary cloud: compute and Kubernetes (EKS), managed database, object storage, CDN, DNS, WAF, KMS, and related edge services for the SaaS control plane and data plane."
+      },
+      {
+        "name": "GitHub",
+        "provider": "GitHub, Inc.",
+        "website": "https://github.com/",
+        "useCase": "Source control and CI/CD. Outside the authorization boundary; produces signed immutable artifacts pulled into the runtime boundary."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2635050850",
+  "id_matches_expected": false
+}

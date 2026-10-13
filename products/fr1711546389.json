@@ -1,0 +1,59 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "providerName": "Apply Government Solutions",
+    "serviceName": "FedHire",
+    "serviceAcronym": "FedHire",
+    "serviceDescription": "Apply Government Solutions provides FedHire, the FedRAMP Certified Class C cloud-based talent acquisition platform previously branded as Monster Hiring Management Enterprise (MHME) by Monster Government Solutions. FedHire delivers end-to-end support across the federal hiring and human capital lifecycle, from position classification and vacancy announcement to hiring management and new hire onboarding. As a FedRAMP Certified Class C solution, FedHire is FISMA moderate and built to meet FedRAMP Security Requirements. It meets OMB standards and complies with Section 508 requirements. FedHire is built to integrate across the federal hiring and human capital ecosystem, connecting with systems such as USAJOBS, eOPF, NFC, and IBC - as well as other agency and shared-service platforms - to enable seamless, end-to-end data exchange throughout the hiring lifecycle.<br><br>All components of **FedHire** are certified at the Class C (Moderate) impact level and available to all federal agencies:<br><br>    - **FedHire Hiring Management** is the core applicant tracking system component, integrated with USAJOBS. It supports the creation and posting of job opportunity announcements (JOAs), application management, applicant tracking, candidate referral, and communication among HR staff, hiring managers, and job applicants. It connects to all related FedHire components to support an end-to-end hiring workflow.<br><br>    - **FedHire Position Classification** uses guided builder wizards with intelligent tools for occupational series and grade-level recommendations to develop position descriptions, functional statements, cover sheets, and evaluation statements, and routes documents through review, approval, and storage workflows with version control and status dashboards. It provides a searchable, agency-specific classification library with document comparison and suggestions, and tracks classification data for reporting.<br><br>    - **FedHire Job Analysis** facilitates the collaboration between hiring managers and HR teams to document job-specific competencies and appropriate assessment strategies, and links job analysis results to Job Opportunity Announcements (JOAs), crediting plans, and the position description.<br><br>    - **FedHire Hiring Assessments** provides a framework for delivering external, integrated applicant assessments through third-party assessment providers. The framework is utilized to incorporate standardized, agency-specific, situational-judgment, technical skills, and other assessment methodologies into agency hiring workflows, with assessment results returned to the applicant record to support screening, ranking, and review by HR professionals and hiring managers.<br><br>    - **FedHire Collaborate** creates and assigns subject matter expert (SME) panels to review and score applicants, centralizing vacancy details, scoring parameters, and applicant materials in one location. It collects numerical ratings and narrative feedback from SMEs, averages or consensus-scores candidates, and combines with other assessments into a weighted cumulative score. HR can review, accept, or return SME ratings, and the module documents panel participants, dates, scores, and comments for audit purposes.<br><br>    - **FedHire Selecting Official** provides hiring managers (selecting officials) with tools to review job postings, select assessment criteria, review certificates of eligible applicants, submit annotated certificates to HR, and share certificates across their agency and with other agencies that are granted access.<br><br>    - **FedHire Onboarding / FedHire Onboarding+** (certified 9/25/2025) automates entrance-on-duty processing for new hires, populates onboarding forms from application data, coordinates provisioning across agency departments, and integrates with agency HRIS platforms. Onboarding+ includes and integrates with USAJOBSs’ agency-branded new hire portal and OPM's eOPF. It allows customized agency-branded documents and templates.<br><br>    - **FedHire Analytics** enables review of audit-enabled vacancies and associated documentation for compliance with HR procedures.<br><br>    - **FedHire Auditor** enables review of audit-enabled vacancies and associated documentation for compliance with HR procedures.<br><br>To learn more about the FedHire talent acquisition system (TAS), visit: https://www.applygovernmentsolutions.com/solutions/fedhire/",
+    "certificationType": "Rev5",
+    "fedRampPackageId": "FR1711546389",
+    "website": "https://www.applygovernmentsolutions.com",
+    "logo": "https://www.applygovernmentsolutions.com/wp-content/uploads/2025/09/ApplyGov-Logo.png",
+    "ueiNumber": "URJHSHPGN5Z5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Human Resources"
+    ],
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://community.connect.gov/download/attachments/2811792065/ApplyGov%20FedHire%20FR%20Rev%205%20Customer%20Security%20Guide_v1.1.pdf",
+      "repositoryDescription": "Our Secure Configuration Guide is available via our Trust Center on Connect.gov.",
+      "accessRequestInstructions": "Customers can request access to our package materials including this document by submitting a Package Access Request form, https://www.fedramp.gov/resources/documents/Agency_Package_Request_Form.pdf, to package-access@fedramp.gov.",
+      "authenticationRequired": true
+    },
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "repositoryDescription": "Our FedRAMP Package Documentation and Assessment Results are available for review on Connect.gov.",
+      "url": "https://community.connect.gov/spaces/FedRAMPExternal/pages/2285367423",
+      "accessRequestInstructions": "Customers and prospective customers can request access to our package materials including this document by submitting a Package Access Request form, https://www.fedramp.gov/resources/documents/Agency_Package_Request_Form.pdf, to package-access@fedramp.gov.",
+      "authenticationRequired": true
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "ApplyGov FedRAMP Team",
+      "contactEmail": "fedramp@applygovernment.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "ApplyGov Sales",
+      "contactEmail": "contact@applygovernment.com"
+    }
+  ],
+  "assessor": {
+    "name": "SecureIT",
+    "assessorID": "138819"
+  },
+  "ZD_frid_retro": "FR1711546389",
+  "id_matches_expected": true
+}

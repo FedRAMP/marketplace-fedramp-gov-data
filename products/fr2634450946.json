@@ -1,0 +1,79 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2634450946",
+    "providerName": "Pinecone Systems, Inc.",
+    "serviceName": "Pinecone",
+    "serviceAcronym": "PINECONE",
+    "serviceDescription": "Pinecone is a fully managed vector database for AI applications. It stores, indexes, and\nsearches high-dimensional vector embeddings to power retrieval for semantic search,\nrecommendation, and retrieval-augmented generation (RAG) workloads. Customers create\nindexes in a cloud region of their choosing and interact with the service through\ndocumented APIs and client SDKs. The service is operated by Pinecone on public cloud\ninfrastructure, with customer data encrypted at rest (AES-256, with a distinct data\nencryption key for every stored object, so no data key is shared between customers) and in\ntransit (TLS 1.2 minimum).",
+    "certificationType": "20x",
+    "website": "https://www.pinecone.io",
+    "logo": "https://www.pinecone.io/images/pinecone-logo.png",
+    "ueiNumber": "EHLZAJFML1J5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Data Management",
+      "Development Tools"
+    ],
+    "nextOngoingCertificationReportDate": "2026-12-31",
+    "trustCenter": {
+      "url": "https://trust.pinecone.io",
+      "repositoryType": [
+        "Trust Center",
+        "Assessment Reports"
+      ],
+      "repositoryDescription": "Pinecone Trust Center. Publishes the SOC 2 Type II report, ISO/IEC 27001 certificate, security policy set, subprocessor list, and current security posture.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Pinecone's trust center is hosted on Vanta at https://trust.pinecone.io. Agency personnel should: (1) open https://trust.pinecone.io; (2) complete the access request form with first name, last name, work email, company name and a reason (existing customer, prospective customer, or other); (3) select \"Request access\"; (4) once access is granted, return to the same page to view and download the access-controlled material. Someone who has been granted access before can restore it with \"Reclaim access\". Federal agency personnel who cannot obtain access this way should contact trust@pinecone.io."
+    },
+    "secureConfigurationGuidance": {
+      "url": "https://docs.pinecone.io/guides/production/security-overview",
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "repositoryDescription": "Pinecone's public product documentation, covering role-based access control, organization roles and single sign-on, API key and service account management, audit logging, and the production readiness checklist.",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Pinecone Security Team",
+      "contactEmail": "trust@pinecone.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Pinecone Sales",
+      "contactEmail": "sales@pinecone.io"
+    },
+    {
+      "contactType": "Primary",
+      "contactName": "Pinecone Support",
+      "contactEmail": "support@pinecone.io"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Pinecone Database",
+      "serviceDescription": "Managed vector database. Index creation and management, vector upsert and deletion, similarity search and metadata filtering, namespace isolation, and role-based access control via the Pinecone console and API.\n\n**Security categorization (FIPS 199):**\n\n- Confidentiality: Low\n- Integrity: Low\n- Availability: Low\n- Overall: Low",
+      "dateAvailable": "2021-10-01"
+    },
+    {
+      "serviceName": "Pinecone Inference",
+      "serviceDescription": "Managed embedding and reranking models, accessible through the Pinecone API, used to turn customer content into vector representations and to reorder search results by relevance.\n\n**Security categorization (FIPS 199):**\n\n- Confidentiality: Low\n- Integrity: Low\n- Availability: Low\n- Overall: Low",
+      "dateAvailable": "2026-03-18"
+    },
+    {
+      "serviceName": "Pinecone Assistant",
+      "serviceDescription": "A managed service that answers questions over a customer's own uploaded documents, combining retrieval over their data with a large language model to produce grounded responses.\n\n**Security categorization (FIPS 199):**\n\n- Confidentiality: Low\n- Integrity: Low\n- Availability: Low\n- Overall: Low",
+      "dateAvailable": "2025-01-22"
+    }
+  ],
+  "ZD_frid_retro": "FR2634450946",
+  "id_matches_expected": true
+}

@@ -1,0 +1,83 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2632054534",
+    "ueiNumber": "WYQBSZKWUMM5",
+    "providerName": "Thread AI, Inc.",
+    "serviceName": "Lemma (GovCloud)",
+    "serviceAcronym": "LEMMA",
+    "certificationType": "20x",
+    "website": "https://www.threadai.com",
+    "logo": "https://www.threadai.com/Thread-Wordmark.svg",
+    "serviceDescription": "Lemma is Thread AI's AI workflow orchestration platform, deployed in AWS GovCloud (US) for federal customers and the contractors that support them."
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Operations Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.threadai.com",
+      "repositoryDescription": "Thread AI trust center hosting security documentation and compliance reports. FedRAMP Certification Data is published separately at the certification package overview URI and needs no access request.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "FedRAMP Certification Data is public and requires no access request. Gated materials (the SOC 2 Type II report and the certification package) are available by submitting an access request on the trust center page; requests are reviewed and granted by the security team."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Assessment Reports",
+          "Certification Package"
+        ],
+        "url": "https://trust.threadai.com",
+        "repositoryDescription": "Certification package documents and the SOC 2 Type II report.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Submit an access request on the trust center page. Requests are reviewed and granted by the Thread AI security team."
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2026-11-30"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "FedRAMP Security Inbox (routes to Senior Security Official)",
+      "contactEmail": "fedramp-security@threadai.com"
+    },
+    {
+      "contactType": "Primary",
+      "contactName": "Compliance Lead",
+      "contactEmail": "fedramp-security@threadai.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Federal Sales",
+      "contactEmail": "sales@threadai.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Lemma",
+      "serviceDescription": "Lemma is offered as a single service comprising the orchestration runtime, workflow builder, SDK, API, and Lemma Workers; all are included and none is separately licensed or deployed.\n\nSecurity category: Low (FIPS 199).\n\nNot included: Thread AI's commercial service, which runs in a separate environment, and any deployment into customer-controlled infrastructure such as a customer VPC or an on-premises installation.",
+      "dateAvailable": "2026-09-15"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "AWS GovCloud (US) provides all infrastructure underneath the offering (compute, storage, networking, KMS, logging). Inherited controls per the AWS GovCloud Customer Responsibility Matrix."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1512167750",
+        "useCase": "Okta IDaaS Regulated Cloud is the workforce identity provider for the boundary; it federates administrative and operator access into AWS IAM Identity Center via SCIM."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2632054534",
+  "id_matches_expected": true
+}

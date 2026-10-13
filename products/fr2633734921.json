@@ -1,0 +1,57 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "Elvo",
+    "providerName": "Elvo",
+    "serviceName": "Elvo",
+    "serviceAcronym": "Elvo",
+    "serviceDescription": "Elvo is a clinician-directed platform that supports evidence-based at-home data collection and exercise programs between skilled therapy visits, during telehealth visits, or other use cases as deemed appropriate by clinicians. For example, clinicians create home exercise programs; the platform can then deliver them through a customized interface and records objective session metrics. Those metrics can for example combine quantitative performance data with standardized qualitative ratings. The platform is highly evidence-based. It operationalizes documented protocols rather than introducing new treatment methods.",
+    "certificationType": "20x",
+    "website": "https://www.elvohealth.com/",
+    "logo": "https://static.elvohealth.com/icons/elvohummingbird_bluegreen_logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Community Cloud",
+    "businessCategory": [
+      "Health & Wellness"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Assessment Reports",
+        "Policies and Procedures"
+      ],
+      "url": "https://elvoai-gov.haloitsm.com/portal",
+      "repositoryDescription": "Elvo FedRAMP Trust Center, operated on GRC-ITSM. Serves the same certification records two ways: a portal for people and a REST API for machines. Holds the published policy and procedure library, live continuous monitoring reports (public information, system information, system POCs, inventory, open and closed POA&M items, vulnerability details, accepted vulnerabilities, reportable incidents, and significant changes), and point-in-time certification documents including the FedRAMP-schema JSON artifacts and historical snapshots aligned to each Ongoing Certification Report.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "**Portal access.** Access is granted through a User Access Request (UAR). Your sponsor or point of contact submits the UAR from the Trust Center portal under Request Services; an approver reviews it and the request is tracked as an auditable ticket. Access is removed the same way. You may also self-register from the portal login page (Create New User Account) — a self-registered account is associated with your organization when your email domain matches — but UAR approval is still required before certification data is released. Accounts are role-based and scoped to this system; sensitive fields are excluded from shared reports.\n\n**Programmatic access.** There is no self-service token flow. Submit a service request under Request Services on the same UAR path. Elvo then issues a Client ID and Client Secret scoped to your organization and system, your base URL and tenant identifier, the report ids your organization may pull, and the document retrieval endpoints. Authentication is OAuth2 client_credentials.\n\n**Full instructions:** https://grcitsm.stratuscyber.com/trust-center-access-guide/"
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedrampsecurity@elvohealth.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@elvohealth.com"
+    }
+  ],
+  "assessor": {
+    "name": "DataLock Consulting Group",
+    "assessorID": "200883"
+  },
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2621445678",
+        "useCase": "Halo (Halo Service Solutions Ltd) is the service management platform underlying Stratus GRC-ITSM, which Elvo operates as its FedRAMP Trust Center at https://elvo-gov.haloitsm.com/portal. It stores and shares Elvo's FedRAMP Certification Data with agencies and other necessary parties through the portal and the REST API, and carries the governance records behind Elvo's certification: the policy and procedure library, continuous monitoring reports, POA&M and vulnerability records, user access requests, change records, and point-in-time certification documents. The tenant is configured and operated for Elvo by Stratus Cyber LLC. Elvo uses a FedRAMP Certified platform for certification data sharing rather than building and certifying its own. Halo is FedRAMP Certified under package ID FR2621445678 (Type 20x, Path Program, Class C (Moderate), certified 2026-05-06)."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2633734921",
+  "id_matches_expected": false
+}

@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "providerName": "Egnyte",
+    "serviceName": "EgnyteGov",
+    "serviceAcronym": "EgnyteGov",
+    "serviceDescription": "The EgnyteGov Software as a Service (SaaS) solution is a U.S. government-only offering of Egnyte, a cloud-based unified enterprise content collaboration and governance platform. EgnyteGov enables federal customers to securely store, share, and synchronize files while meeting government-sector compliance and data-protection requirements.\n\n**Collaboration:** EgnyteGov provides the collaboration and integration capabilities customers need to implement their individual business processes.\n\n**Governance:** EgnyteGov delivers FedRAMP Moderate level content governance capabilities that enable IT teams and security and compliance teams to analyze and classify content, mitigate risk, and protect an agency's information while complying with regulatory requirements. This includes unstructured data classification and customizable rules to protect the privacy of government personnel and the public, and to safeguard controlled unclassified information (CUI) and other sensitive agency data.",
+    "certificationType": "Rev5",
+    "fedRampPackageId": "FR2024952734",
+    "website": "https://www.egnyte.com/industries/public-sector",
+    "logo": "https://www.egnyte.com/sites/default/files/2026-10/EgnyteLogo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "businessCategory": [
+      "Collaboration",
+      "Content Management System (CMS)",
+      "Governance, Risk, and Compliance (GRC)",
+      "Data Management"
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactEmail": "Fedramp@egnyte.com"
+    },
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP_Security@Egnyte.com"
+    }
+  ],
+  "ZD_frid_retro": "FR2024952734",
+  "id_matches_expected": true
+}

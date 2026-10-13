@@ -1,0 +1,140 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2634659079",
+    "ueiNumber": "L5K1A4WHNJQ1",
+    "providerName": "ThinkTrends LLC",
+    "serviceName": "ThinkTrends AI Platform",
+    "serviceAcronym": "TT-PLATFORM",
+    "serviceDescription": "ThinkTrends AI Platform is a cloud-based, enterprise-grade\nAgentic AI platform developed by ThinkTrends LLC. It\nprovides federal agencies and commercial organizations with\na unified environment for deploying, managing, and operating\nAI-powered agents, knowledge bases, data pipelines, and\nintelligent workflows. Key capabilities include:\n- **AI Agent Studio**: Build and deploy conversational AI\nagents with RAG (Retrieval-Augmented Generation), memory,\nand tool integrations backed by Amazon foundation models.\n- **Knowledge Base Management**: Ingest, index, and query\nstructured and unstructured documents using vector\nembeddings for grounded, citation-based AI responses.\n- **Agent Flow Orchestration**: Design and execute visual\nnode-based AI workflows for automated, multi-step tasks.\n- **Data Pipelines**: Managed Agentic ETL-based pipelines\nfor data ingestion, transformation, and delivery.\n- **Guardrails & Safety**: Configurable content safety\nguardrails (HIPAA, PII, tone, compliance policies) applied at\nthe agent and platform level.\n- **File & Drive Integration**: Secure file management\nintegrated with Google Drive and native cloud storage.\n- **Enterprise Connectors**: Native integrations with Slack,\nJira, Google Workspace, Microsoft 365, and agency\nenterprise systems.\n- **Agentic Governance**: Ability to run automated evaluation\njobs, analyse agent responses against accuracy, relevance,\nand safety benchmarks, and iteratively improve prompts\nbased on those scores",
+    "certificationType": "20x",
+    "website": "https://thinktrends.co/",
+    "logo": "https://d16sn2heoxf1hd.cloudfront.net/images/logo/tt-logo.svg",
+    "certificationClass": "C",
+    "certificationPath": "Program"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Artificial Intelligence (AI)",
+      "Collaboration",
+      "Cybersecurity & Risk Management",
+      "Data Management",
+      "Development Tools",
+      "Governance, Risk, and Compliance (GRC)",
+      "Operations Management",
+      "Research"
+    ],
+    "trustCenter": {
+      "url": "https://trust.paramify.com/thinktrends",
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "repositoryDescription": "Thinktrends AI Platform Trust Center\nFedRAMP 20x Class C — Pursuing FedRAMP 20x\nAuthorization\nWelcome to the Thinktrends AI Platform Trust Center — your\nsource of truth for our security and compliance posture under\nthe FedRAMP 20x program.\nIn line with FedRAMP 20x's Authorization Data Sharing (ADS)\nrequirements, this Trust Center provides continuously\nupdated, machine-readable evidence of our security controls,\nrather than static point-in-time documentation. Here you'll\nfind:\nKey Security Indicators (KSIs): Live status of our validated\nsecurity controls, updated automatically as our environment\nchanges\nAuthorization Package: Access to our System Security Plan\n(SSP), OSCAL-formatted artifacts, and supporting\ndocumentation for Thinktrends Ai Platform.\nContinuous Monitoring: Real-time visibility into POA&Ms,\nSignificant Change Notifications (SCNs), and monthly\nConMon outputs\nService Scope: Description of the systems, boundaries, and\ncloud environments covered under this authorization\nTarget Timeline: Thinktrends AI Platform expects to complete\nFedRAMP 20x Class C authorization by Q4 2026.\nThinktrends AI Platform is committed to the FedRAMP 20x\nmodel of continuous, verifiable compliance — treating security\nas an ongoing engineering discipline rather than a periodic\npaperwork exercise. Federal agencies and prospective\ncustomers can reach out for more detail on our authorization\nroadmap or to request early access to available materials via\nfedramp-support@thinktrends.co.\nFor questions about our FedRAMP 20x authorization, reach\nout to fedramp-support@thinktrends.co.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access to ThinkTrends AI Platform is managed through AWS\nCognito, providing secure, cloud-native identity and access\nmanagement for all users. Multi-Factor Authentication (MFA)\nis enforced at login, and Role-Based Access Controls (RBAC)\nare applied at the platform level to ensure only authorized\npersonnel can access approved resources and workflows.",
+      "agencyAccessDenialProcess": "fedramp-support@thinktrends.co"
+    },
+    "secureConfigurationGuidance": {
+      "url": "https://trust.paramify.com/thinktrends",
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "repositoryDescription": "TBD",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Visit Trust Center URL."
+    },
+    "ongoingCertificationReportLocation": "Herndon VA",
+    "availabilityWebServiceUrl": "https://thinkstack.thinktrends.co/"
+  },
+  "contactInformation": [
+    {
+      "contactType": "FedRAMP Security Inbox",
+      "contactEmail": "fedramp@thinktrends.co"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Dikshyant Rai",
+      "contactEmail": "fedramp@thinktrends.co",
+      "contactPhone": "401-209-4354"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Richard Kuenzler",
+      "contactEmail": "fedramp-sales@thinktrends.co",
+      "contactPhone": "703-520-3763"
+    },
+    {
+      "contactType": "Primary",
+      "contactName": "Jyotiska Biswas",
+      "contactEmail": "fedramp-support@thinktrends.co",
+      "contactPhone": "202-906-9412"
+    }
+  ],
+  "assessor": {
+    "name": "Align",
+    "assessorID": "138665",
+    "assessmentCompletionDate": "2026-12-10",
+    "assessmentSummary": {
+      "overallSummary": "Initial Cert",
+      "assessmentFailures": "Awaiting Outcome.",
+      "areasOfDispute": "Awaiting Outcome.",
+      "fullResultsLocation": "Awaiting Outcome."
+    }
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "ThinkTrends AI Platform AI Agent Studio",
+      "serviceDescription": "A fully managed environment for building, deploying, and\noperating intelligent AI agents with Retrieval-Augmented\nGeneration (RAG), persistent memory, tool integrations, and\nconfigurable safety guardrails. Supports conversational,\ntask- based, and research-oriented agent configurations\npowered by Amazon foundation models including Anthropic\nClaude.",
+      "dateAvailable": "2026-01-01"
+    },
+    {
+      "serviceName": "ThinkTrends AI Platform Data & Knowledge Platform",
+      "serviceDescription": "An integrated data management suite comprising\nKnowledge Base Management (vector-embedded document\ningestion and semantic search), managed Airflow-based\nData Pipelines for ETL workflows, and a visual Flow Builder\nfor orchestrating multi-step AI and data processes. Enables\nagencies to securely ingest, index, query, and act on\nstructured and unstructured federal data at scale.",
+      "dateAvailable": "2026-01-01"
+    }
+  ],
+  "informationFlows": {
+    "securityCategoryOfTheOffering": "Moderate"
+  },
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Amazon Web Services (AWS) provides the underlying cloud\ninfrastructure for ThinkTrends AI Platform, including\ncompute (Amazon EC2/ECS), storage (Amazon S3),\nmanaged AI services, vector database (Amazon\nOpenSearch / S3 Vectors), AWS RDS, workflow\norchestration (Amazon MWAA / Airflow), and identity/access\nmanagement (AWS IAM). AWS holds FedRAMP Moderate\nauthorization."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "N/A",
+        "provider": "N/A",
+        "useCase": "N/A",
+        "usageAndConfiguration": "N/A",
+        "justificationForUse": "N/A",
+        "mitigationMeasures": "N/A",
+        "compensatingControls": "N/A"
+      }
+    ]
+  },
+  "policiesAndProcedures": [
+    {
+      "name": "Skip for now."
+    }
+  ],
+  "cryptographicModules": [
+    {
+      "servicesCovered": "Cloud services across the offering’s in-scope AWS accounts\nthat use AWS KMS for encryption key management and\nprotection.",
+      "moduleName": "AWS Key Management Service",
+      "moduleVersion": "Hardware Versions 3.0\nFirmware Versions1.8.104",
+      "cmvpCertificateNumber": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certifi\ncate/4884",
+      "cryptographicServicesProvided": "Protection of cryptographic key material and generation,\nencryption, and decryption of data keys supporting\nencryption at rest. The environment uses both\nAWS-managed and customer-managed KMS keys across\nits AWS accounts. AWS operates the underlying\ncryptographic infrastructure. Key policies and lifecycle\nsettings are administered according to the applicable key\nmanagement model.",
+      "cmvpValidated": "Active validation"
+    }
+  ],
+  "ZD_frid_retro": "FR2634659079",
+  "id_matches_expected": true
+}

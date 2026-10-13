@@ -1,0 +1,304 @@
+{
+  "reportMetadata": {
+    "reportType": "FedRAMP Certification Package Overview",
+    "generatedAt": "2026-09-16T11:09:36Z",
+    "pipelineExecutionId": "idVfXSH5RmOh2MUVIkcbkA",
+    "version": "2.0.1"
+  },
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631258132",
+    "ueiNumber": "",
+    "providerName": "Harness, Inc.",
+    "serviceName": "Harness for Government",
+    "serviceAcronym": "HARG",
+    "serviceDescription": "Harness.io Software-as-a-Service (SaaS) is a fully managed, cloud-native software delivery platform that provides continuous integration, continuous delivery, security testing, and related DevSecOps capabilities using a cloud computing environment.",
+    "certificationType": "20x",
+    "website": "https://www.harness.io",
+    "logo": "https://cdn.prod.websitefiles.com/6222ca42ea87e1bd1aa1d10c/6511d736f2e624696bd189cd_harness%20logo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategories": [
+      "Collaboration",
+      "Cybersecurity & Risk Management",
+      "Development Tools"
+    ],
+    "nextOngoingCertificationReportDate": "2026-10-01",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/harness/harness-for-government",
+      "repositoryDescription": "Harness Federal Trust Center",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "https://support.paramify.com/hc/en-us/articles/48690571994003-Trust-Center-Deliverables-in-Paramify-Cloud"
+    },
+    "secureConfigGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://developer.harness.io/",
+      "repositoryDescription": "Harness Platform",
+      "authenticationRequired": false,
+      "accessRequestInstructions": ""
+    }
+  },
+  "additionalRepositories": [
+    {
+      "repositoryType": [
+        "Commercial Assessment Reports and Documents"
+      ],
+      "url": "https://trust.harness.io/",
+      "repositoryDescription": "Commercial Trust Center",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "https://help.drata.com/en/articles/16153632-safebase-trust-center-access-levels-training-video"
+    }
+  ],
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Kevin Moy",
+      "contactEmail": "security@harnessgov.com",
+      "contactPhone": "310-775-7247"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "David Clark",
+      "contactEmail": "sales@harness.io",
+      "contactPhone": "000-000-0000"
+    },
+    {
+      "contactType": "Primary",
+      "contactName": "Kevin Moy",
+      "contactEmail": "kevin.moy@harness.io",
+      "contactPhone": "310-775-7247"
+    }
+  ],
+  "independentAssessor": {
+    "name": "N/A",
+    "assessorID": "000000"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Harness Platform",
+      "serviceDescription": "Software Delivery Platform",
+      "dateAvailable": "2026-08-03",
+      "securityCategory": "Class A"
+    },
+    {
+      "serviceName": "Harness CI (Continuous Integration)",
+      "serviceDescription": "Continuous Integration",
+      "dateAvailable": "2026-08-03",
+      "securityCategory": "Class A"
+    },
+    {
+      "serviceName": "Harness CD (Continuous Delivery)",
+      "serviceDescription": "Continuous Delivery & GitOps",
+      "dateAvailable": "2026-08-03",
+      "securityCategory": "Class A"
+    },
+    {
+      "serviceName": "Harness STO (Security Testing Orchestration)",
+      "serviceDescription": "Security Testing Orchestration",
+      "dateAvailable": "2026-08-03",
+      "securityCategory": "Class A"
+    },
+    {
+      "serviceName": "Harness IaCM (Infrastructure as Code Management)",
+      "serviceDescription": "Infrastructure as Code Management",
+      "dateAvailable": "2026-08-03",
+      "securityCategory": "Class A"
+    },
+    {
+      "serviceName": "Harness CODE (Code Repository)",
+      "serviceDescription": "Code Repository",
+      "dateAvailable": "2026-08-03",
+      "securityCategory": "Class A"
+    },
+    {
+      "serviceName": "Harness SCS (Supply Chain Security)",
+      "serviceDescription": "Supply Chain Security",
+      "dateAvailable": "2026-08-03",
+      "securityCategory": "Class A"
+    },
+    {
+      "serviceName": "Harness DB DevOps (DBD)",
+      "serviceDescription": "Database DevOps",
+      "dateAvailable": "2026-08-03",
+      "securityCategory": "Class A"
+    },
+    {
+      "serviceName": "Harness Resilience Testing",
+      "serviceDescription": "Resilience Testing",
+      "dateAvailable": "2026-08-03",
+      "securityCategory": "Class A"
+    }
+  ],
+  "informationResources": [
+    {
+      "securityCategory": "Category 1: Primary Customer Data & Storage Tier",
+      "informationResourcesIncluded": "AWS - RDS/Aurora/PostgreSQL (4 instances), AWS - S3 (57 buckets)",
+      "handledDataTypes": "Federal Customer Data, Controlled Unclassified Information (CUI), PII, application backups, analytical event logs",
+      "riskSensitivityClassification": "High Sensitivity — High Impact / Federal Customer Data Boundary"
+    },
+    {
+      "securityCategory": "Category 2: Core Workloads & In-Memory Compute",
+      "informationResourcesIncluded": "AWS - Elastic Kubernetes Service (EKS) (1 cluster), Virtual Machines EC2 (41 instances)",
+      "handledDataTypes": "Microservice execution state, in-flight transaction payloads, temporary user session caches",
+      "riskSensitivityClassification": "High / Moderate Sensitivity — Core Workload & Processing Boundary"
+    },
+    {
+      "securityCategory": "Category 3: Identity & Access Management (IAM)",
+      "informationResourcesIncluded": "AWS IAM (62 roles, 10 OIDC providers), Okta, AWS Secrets Manager (90 secrets)",
+      "handledDataTypes": "User credentials, SAML/OIDC assertions, MFA secrets, RBAC rules, administrative tokens",
+      "riskSensitivityClassification": "High Sensitivity — Privileged Management & Authentication Boundary"
+    },
+    {
+      "securityCategory": "Category 4: Network Perimeter & Ingress Defense",
+      "informationResourcesIncluded": "AWS - VPC (2), AWS - WAF, AWS - Elastic Load Balancing (2), AWS - Security Groups (13)",
+      "handledDataTypes": "Network routing tables, TLS-encrypted traffic, HTTP headers, public IP metadata, WAF inspection rules",
+      "riskSensitivityClassification": "Low to Moderate Sensitivity — Public Edge & Network Routing Boundary"
+    },
+    {
+      "securityCategory": "Category 5: Observability, Security & Audit Logging",
+      "informationResourcesIncluded": "AWS - SecurityHub / GuardDuty (1 detector), AWS - CloudTrail (2 trails) / CloudWatch (13 log groups), Google SecOps",
+      "handledDataTypes": "System API call audits, runtime security alerts, infrastructure metrics, security telemetry, dashboard configs",
+      "riskSensitivityClassification": "Moderate Sensitivity — System Management & Audit Boundary"
+    },
+    {
+      "securityCategory": "Category 6: External Enterprise & Support SaaS",
+      "informationResourcesIncluded": "Google Workspace, Zendesk",
+      "handledDataTypes": "Support tickets, customer communication logs, internal documentation",
+      "riskSensitivityClassification": "Low to Moderate Sensitivity — Third-Party SaaS Service Boundary"
+    }
+  ],
+  "thirdPartyResources": {
+    "fedRampCertified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AWS GovCloud",
+        "fedRampId": "FR1816285609",
+        "useCase": "IaaS provider for all cloud infrastructure resources; FedRAMP High certified"
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Google Workspace",
+        "provider": "Google LLC",
+        "website": "https://workspace.google.com",
+        "useCase": "Corporate email and internal collaboration"
+      },
+      {
+        "name": "Google SecOps",
+        "provider": "Google LLC",
+        "website": "https://cloud.google.com/security/products/security-operations",
+        "useCase": "SIEM for security monitoring and log telemetry"
+      },
+      {
+        "name": "Zendesk",
+        "provider": "Zendesk Inc.",
+        "website": "https://www.zendesk.com",
+        "useCase": "Customer support ticketing and request management"
+      },
+      {
+        "name": "Okta",
+        "provider": "Okta Inc.",
+        "website": "https://www.okta.com",
+        "useCase": "Identity Provider for SSO/MFA federated authentication"
+      }
+    ]
+  },
+  "cryptographicModules": [
+    {
+      "resource": "KMS Keys (6 keys)",
+      "resourceType": "AWS Key Management Service",
+      "cryptoModule": "AWS KMS HSM",
+      "cmvpCertNumber": "#4523",
+      "fipsStandard": "FIPS 140-3",
+      "securityLevel": "Level 3",
+      "sunsetDate": "2028-03-15",
+      "status": "Compliant"
+    },
+    {
+      "resource": "S3 Buckets (57 buckets)",
+      "resourceType": "AWS Simple Storage Service",
+      "cryptoModule": "AWS KMS HSM (SSE)",
+      "cmvpCertNumber": "#4523",
+      "fipsStandard": "FIPS 140-3",
+      "securityLevel": "Level 3",
+      "sunsetDate": "2028-03-15",
+      "status": "Compliant"
+    },
+    {
+      "resource": "RDS Instances (4 instances)",
+      "resourceType": "AWS Relational Database Service",
+      "cryptoModule": "AWS KMS HSM",
+      "cmvpCertNumber": "#4523",
+      "fipsStandard": "FIPS 140-3",
+      "securityLevel": "Level 3",
+      "sunsetDate": "2028-03-15",
+      "status": "Compliant"
+    },
+    {
+      "resource": "EBS Volumes (101 volumes)",
+      "resourceType": "AWS Elastic Block Store",
+      "cryptoModule": "AWS KMS HSM",
+      "cmvpCertNumber": "#4523",
+      "fipsStandard": "FIPS 140-3",
+      "securityLevel": "Level 3",
+      "sunsetDate": "2028-03-15",
+      "status": "Compliant"
+    },
+    {
+      "resource": "Secrets Manager (90 secrets)",
+      "resourceType": "AWS Secrets Manager",
+      "cryptoModule": "AWS KMS HSM",
+      "cmvpCertNumber": "#4523",
+      "fipsStandard": "FIPS 140-3",
+      "securityLevel": "Level 3",
+      "sunsetDate": "2028-03-15",
+      "status": "Compliant"
+    },
+    {
+      "resource": "Load Balancers (2 — ALB + NLB)",
+      "resourceType": "AWS Elastic Load Balancing",
+      "cryptoModule": "AWS-LC Cryptographic Module (TLS)",
+      "cmvpCertNumber": "#4631",
+      "fipsStandard": "FIPS 140-3",
+      "securityLevel": "Level 1",
+      "sunsetDate": "2028-06-20",
+      "status": "Compliant"
+    },
+    {
+      "resource": "EC2 / EKS Nodes (41 EC2 + 1 EKS cluster)",
+      "resourceType": "AWS EC2 / EKS Compute",
+      "cryptoModule": "AWS Nitro Enclaves",
+      "cmvpCertNumber": "#4704",
+      "fipsStandard": "FIPS 140-3",
+      "securityLevel": "Level 1",
+      "sunsetDate": "2028-09-10",
+      "status": "Compliant"
+    }
+  ],
+  "metadata": {
+    "schemaFilename": "fedramp-20x-cpo-schema.json",
+    "schemaVersion": "v1.0",
+    "pointOfContact": {
+      "name": "Kevin Moy",
+      "title": "Director, GRC",
+      "contactInformation": "kevin.moy@harness.io",
+      "role": "Responsible and accountable for the FedRAMP Certification Package"
+    },
+    "versionHistory": [
+      {
+        "version": "3",
+        "dateTime": "2026-10-03=7T00:00:00Z",
+        "source": "Manual"
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2631258132",
+  "id_matches_expected": true
+}

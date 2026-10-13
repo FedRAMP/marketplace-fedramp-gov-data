@@ -1,0 +1,877 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "AGENCYAMAZONEW",
+    "ueiNumber": "NQEWN6C1LSU5",
+    "providerName": "Amazon Web Services, Inc.",
+    "serviceName": "AWS US East/West",
+    "serviceAcronym": "AWS US East/West",
+    "serviceDescription": "The AWS US East/West Regions are delivered as a multiple service layer cloud architecture model offering using a multi-tenant Public cloud computing environment. It is available to both government and non-government customers. Federal agencies interested in collaborative continuous monitoring with AWS should reach out to: aws-collaborative-conmon@amazon.com.",
+    "certificationType": "Rev5",
+    "website": "https://aws.amazon.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Amazon%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS",
+      "PaaS",
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Analytics",
+      "Cybersecurity & Risk Management",
+      "Data Management",
+      "Development Tools",
+      "Storage",
+      "Network Management",
+      "System Administration",
+      "Finance",
+      "Operations Management"
+    ],
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.aws.amazon.com/fedramp/latest/userguide/introduction.html",
+      "repositoryDescription": "FedRAMP Secure Configuration Guidance",
+      "authenticationRequired": false
+    },
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://secure.caplinked.com/workspaces/aws-workspace/",
+      "repositoryDescription": "Trust center repository providing agency customers access to the AWS FedRAMP certification package documentation.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "To obtain access, please:\n1. Complete the form located here: https://www.fedramp.gov/resources/documents/Agency_Package_Request_Form.pdf, then print and sign.\n2. Distribute to your Government Supervisor for review and signature.\n3. Please email your signed Request Form to package-access@fedramp.gov\n\nThe following information can be used to complete the form:\nPackage Request ID:\nGovCloud: F1603047866\nEast/West: AGENCYAMAZONEW\n\nOnce the request form has been submitted to FedRAMP and approved, they will reach out to AWS for processing. The team cannot process the request until the form is received from the PMO."
+    },
+    "nextOngoingCertificationReportDate": "2026-10-26",
+    "securityCategorization": "Moderate (FedRAMP Certification Level Class C)"
+  },
+  "cpoMetadata": {
+    "version": "2026.08.26",
+    "lastUpdated": "2026-08-26T18:21:46.492Z",
+    "updateSource": "FedRAMP GRC Tool",
+    "accountableOfficial": {
+      "contactTitle": "Head of US Government Assurance",
+      "contactEmail": "aws-compliance-fedramp@amazon.com"
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "AWS Compliance FedRAMP",
+      "contactEmail": "aws-compliance-fedramp@amazon.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "AWS Sales",
+      "contactEmail": "scaglobal@amazon.com"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Amazon API Gateway",
+      "serviceDescription": "Amazon Application Programming Interface (API) Gateway is a fully managed service that enables creation of RESTful APIs and WebSocket APIs that enable real-time two-way communication applications. API Gateway supports containerized and serverless workloads, as well as web applications.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon AppFlow",
+      "serviceDescription": "Amazon AppFlow is a fully managed integration and bi-directional data transfer service that enables customers to securely transfer data between Software-as-a-Service (SaaS) applications and AWS services .",
+      "dateAvailable": "2024-07-10"
+    },
+    {
+      "serviceName": "Amazon Athena",
+      "serviceDescription": "Amazon Athena is an interactive query service that enables analyzation of data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and customers pay only for the queries that are run.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "Amazon Aurora DSQL",
+      "serviceDescription": "Amazon Aurora DSQL is a serverless distributed SQL database with virtually unlimited scale, high availability, and zero infrastructure management. Aurora DSQL offers fast distributed SQL reads and writes with optimal price performance. Customers can use Aurora DSQL to scale to meet any workload demand without database sharding or instance upgrades. With its active-active distributed architecture, Aurora DSQL ensures strong data consistency designed for 99.99% single-Region and 99.999% multi-Region availability. The serverless design removes the operational burden of patching, upgrades, and maintenance downtime. Aurora DSQL is PostgreSQL compatible and provides an easy-to-use developer experience.",
+      "dateAvailable": "2026-07-13"
+    },
+    {
+      "serviceName": "Amazon Aurora MySQL",
+      "serviceDescription": "Amazon Aurora MySQL provides built-in security, continuous backups, serverless compute, read replicas, automated multi-Region replication, and integrations with other AWS services.",
+      "dateAvailable": "2019-05-12"
+    },
+    {
+      "serviceName": "Amazon Aurora PostgreSQL",
+      "serviceDescription": "Amazon Aurora PostgreSQL is an open source relational database that enables set up, operation, and scale of PostgreSQL deployments on the cloud.",
+      "dateAvailable": "2019-05-12"
+    },
+    {
+      "serviceName": "Amazon Bedrock",
+      "serviceDescription": "Amazon Bedrock is a fully managed service that makes foundation models (FMs) from Amazon and leading artificial intelligence (AI) startups available through an API, so various FMs can be chosen that best suited for use cases.",
+      "dateAvailable": "2024-05-14"
+    },
+    {
+      "serviceName": "Amazon Bedrock Agentcore",
+      "serviceDescription": "Amazon Bedrock AgentCore is the platform to build, connect, and optimize AI agents at scale. Customers can build with any open-source framework and any model. AgentCore enables customers to connect agents to their tools and data with authentication and access controls built in. Customers can monitor and improve agents in production with tracing and evaluation. AgentCore handles the infrastructure so customers can focus on agent logic, not backend plumbing, and provides enterprise-grade security and reliability without giving up open-source flexibility.",
+      "dateAvailable": "2026-07-13"
+    },
+    {
+      "serviceName": "Amazon Chime SDK",
+      "serviceDescription": "Amazon Chime SDK is a set of real-time communications components that developers can use to add messaging, audio, video, screen sharing and telephony capabilities to their applications.",
+      "dateAvailable": "2024-02-20"
+    },
+    {
+      "serviceName": "Amazon Cloud Directory",
+      "serviceDescription": "Amazon Cloud Directory enables the build of flexible cloud-native directories for organizing hierarchies of data along multiple dimensions.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon CloudFront [excludes content delivery through Amazon CloudFront Embedded Point of Presences]",
+      "serviceDescription": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs globally with low latency, high transfer speeds, within a developer-friendly environment. CloudFront is integrated with AWS both physical locations that are directly connected to the AWS global infrastructure, as well as other AWS services.",
+      "dateAvailable": "2019-09-04"
+    },
+    {
+      "serviceName": "Amazon Cloudwatch",
+      "serviceDescription": "Amazon CloudWatch is a monitoring and observability service that provides data and actionable insights to monitor applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health. CloudWatch collects monitoring and operational data in the form of logs, metrics, and events, providing a unified view of AWS resources, applications, and services that run on AWS and on-premises servers.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "Amazon Cloudwatch Logs",
+      "serviceDescription": "CloudWatch Logs enables centralization of logs from all systems, applications, and AWS services in use, in a single, highly scalable service. The logs are viewable, regardless of their source, as a single and consistent flow of events ordered by time, are able to be queried and sorted based on other dimensions, grouped by specific fields, custom computations and visualization dashboards enabled.",
+      "dateAvailable": "2019-04-19"
+    },
+    {
+      "serviceName": "Amazon Cognito",
+      "serviceDescription": "Amazon Cognito enables the addition of user sign-up, sign-in, and access control to web and mobile apps.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon Comprehend",
+      "serviceDescription": "Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text. The service identifies the language of the text; extracts key phrases, places, people, brands, or events; understands how positive or negative the text is; analyzes text using tokenization and parts of speech; and automatically organizes a collection of text files by topic.",
+      "dateAvailable": "2019-12-23"
+    },
+    {
+      "serviceName": "Amazon Comprehend Medical",
+      "serviceDescription": "Amazon Comprehend Medical is a natural language processing service that uses machine learning to extract relevant medical information from unstructured text. Amazon Comprehend Medical uses advanced machine learning models to accurately and quickly identify medical information, such as medical conditions and medications, and determines their relationship to each other.",
+      "dateAvailable": "2021-05-17"
+    },
+    {
+      "serviceName": "Amazon Connect",
+      "serviceDescription": "Amazon Connect is an omnichannel cloud contact center that helps provide customer service across voice and chat for customers and agents. This includes one set of tools for skills-based routing, real-time and historical analytics, and intuitive management tools.",
+      "dateAvailable": "2020-07-09"
+    },
+    {
+      "serviceName": "Amazon Data Firehose",
+      "serviceDescription": "Amazon Data Firehose reliably loads streaming data into data lakes, data stores, and analytics services. It is a fully managed service that automatically scales to match the throughput of data and requires no ongoing administration. It can also batch, compress, transform, and encrypt data streams before loading, minimizing the amount of storage used and increasing security.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "Amazon DataZone",
+      "serviceDescription": "Amazon DataZone is a data management service within AWS, streamlining cataloging, discovery, governance, and data sharing across AWS, on-premises, and third-party sources. It includes automated data cataloging and discovery powered by machine learning, fine-grained data governance and access control, and enhances collaboration through shared data and analytics tools. Amazon DataZone integrates seamlessly with AWS services, supporting data analysis via tools like Amazon Athena and Amazon Redshift, and offers various access methods including a management console, a browser-based data portal, and an HTTPS API for direct service interaction.",
+      "dateAvailable": "2025-01-23"
+    },
+    {
+      "serviceName": "Amazon Detective",
+      "serviceDescription": "Amazon Detective automatically collects log data from AWS resources and uses machine learning, statistical analysis, and graph theory to build a linked set of data that enables the conduction of security investigations.",
+      "dateAvailable": "2021-12-08"
+    },
+    {
+      "serviceName": "Amazon DevOps Guru",
+      "serviceDescription": "Amazon DevOps Guru is a fully managed operations service that enables developers and operators to improve the performance and availability of their applications through the offload the administrative tasks associated with identifying operational issues.",
+      "dateAvailable": "2023-06-12"
+    },
+    {
+      "serviceName": "Amazon DocumentDB (with MongoDB compatibility)",
+      "serviceDescription": "Amazon DocumentDB (with MongoDB compatibility) is a fully managed, enterprise-ready, database service that is purpose-built for JSON data management at scale.",
+      "dateAvailable": "2024-07-10"
+    },
+    {
+      "serviceName": "Amazon DynamoDB",
+      "serviceDescription": "Amazon DynamoDB is a fully managed, multiregion, multimaster, durable database with built-in security, backup and restore, and in-memory caching for internet-scale applications.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon EC2 Image Builder",
+      "serviceDescription": "Amazon Elastic Cloud Compute (EC2) Image Builder simplifies the building, testing, and deployment of Virtual Machine and container images for use on AWS or on-premises by providing a graphical interface, built-in automation, and AWS-provided security settings.",
+      "dateAvailable": "2022-04-05"
+    },
+    {
+      "serviceName": "Amazon Elastic Block Store (EBS)",
+      "serviceDescription": "Amazon Elastic Block Store (EBS) enables creation of storage volumes and attaches them to Amazon EC2 instances, creating a file system on top of these volumes, run a database, or use them like block storage. Amazon EBS volumes are placed in a specific Availability Zone, where they are automatically replicated to protect from the failure of a single component.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon Elastic Compute Cloud (EC2)",
+      "serviceDescription": "Amazon Elastic Compute Cloud (Amazon EC2) offers a compute platform, with over 1000 instances and choice of processor, storage, networking, operating system, and purchase model to help customers match workload needs.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon Elastic Container Registry (ECR)",
+      "serviceDescription": "Amazon Elastic Container Registry (ECR) is a fully-managed Docker container registry that enables developers to store, manage, and deploy Docker container images.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "Amazon Elastic Container Service (ECS)",
+      "serviceDescription": "Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service. AWS Fargate is a serverless compute engine for containers that works with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS).",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "Amazon Elastic File System (EFS)",
+      "serviceDescription": "Amazon Elastic File System (Amazon EFS) is a fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources. Amazon EFS is a regional service storing data within and across multiple Availability Zones (AZs) for high availability and durability. Amazon EC2 instances can access file systems across AZs, regions, and VPCs, while on-premises servers can access using AWS Direct Connect or AWS VPN.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "Amazon Elastic Kubernetes Service (EKS)",
+      "serviceDescription": "Amazon Elastic Kubernetes Service (Amazon EKS) is a fully managed service that enables the build, run, and scale of production-ready Kubernetes applications across environments.",
+      "dateAvailable": "2020-10-14"
+    },
+    {
+      "serviceName": "Amazon Elastic MapReduce (EMR)",
+      "serviceDescription": "Amazon EMR is a cloud big data platform for processing vast amounts of data using open source tools.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon ElastiCache",
+      "serviceDescription": "Amazon ElastiCache is an in-memory data store that provides sub-millisecond latency to power internet-scale real-time applications. Built on open-source Redis and compatible with the Redis APIs, ElastiCache works with Redis clients and uses the open Redis data format to store data.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon EventBridge",
+      "serviceDescription": "Amazon EventBridge is a serverless event bus that enables building of event-driven applications at scale using events generated from applications, integrated Software-as-a-Service (SaaS) applications, and AWS services.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "Amazon FinSpace",
+      "serviceDescription": "Amazon FinSpace is a data management and analytics service purpose-built for the financial services industry (FSI).",
+      "dateAvailable": "2022-05-10"
+    },
+    {
+      "serviceName": "Amazon Forecast",
+      "serviceDescription": "Amazon Forecast enables the forecast of business outcomes using machine learning.",
+      "dateAvailable": "2022-04-20"
+    },
+    {
+      "serviceName": "Amazon FSx",
+      "serviceDescription": "Amazon FSx is a fully-managed service that supports workloads, enabling the launch, run, and scale of high-performance file systems in the cloud.",
+      "dateAvailable": "2022-01-26"
+    },
+    {
+      "serviceName": "Amazon GuardDuty",
+      "serviceDescription": "Amazon GuardDuty is a threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect AWS accounts, workloads, and data stored in Amazon S3.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "Amazon Inspector",
+      "serviceDescription": "Amazon Inspector is a vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure. Amazon Inspector automatically discovers running Amazon Elastic Compute Cloud (EC2) instances and container images residing in Amazon Elastic Container Registry (ECR), at any scale, and immediately starts assessing them for known vulnerabilities.",
+      "dateAvailable": "2023-10-13"
+    },
+    {
+      "serviceName": "Amazon Inspector Classic",
+      "serviceDescription": "Amazon Inspector Classic tests the network accessibility of Amazon EC2 instances and the security state of applications that run on those instances. Amazon Inspector Classic assesses applications for exposure, vulnerabilities, and deviations from best practices. After performing an assessment, Amazon Inspector Classic produces a detailed list of security findings that is organized by level of severity.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon Kendra",
+      "serviceDescription": "Amazon Kendra is a fully managed, intelligent search service powered by machine learning (ML).",
+      "dateAvailable": "2021-12-08"
+    },
+    {
+      "serviceName": "Amazon KeySpaces (for Apache Cassandra)",
+      "serviceDescription": "Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra compatible database service. Data is encrypted by default and Amazon Keyspaces enabling back-up of table data continuously using point-in-time recovery.",
+      "dateAvailable": "2021-12-08"
+    },
+    {
+      "serviceName": "Amazon Kinesis Data Streams",
+      "serviceDescription": "Amazon Kinesis Data Streams (KDS) is a scalable and durable real-time data streaming service that can continuously capture gigabytes of data per second from hundreds of thousands of sources such as website clickstreams, database event streams, financial transactions, social media feeds, IT logs, and location-tracking events. The data enables real-time analytics use cases such as real-time dashboards, real-time anomaly detection, and dynamic pricing.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon Lex",
+      "serviceDescription": "Amazon Lex is a service for building conversational interfaces into any application using voice and text. Amazon Lex provides the advanced deep learning functionalities of automatic speech recognition (ASR) for converting speech to text, and natural language understanding (NLU) to recognize the intent of the text, enabling the build of applications with highly engaging user experiences and lifelike conversational interactions.",
+      "dateAvailable": "2021-12-08"
+    },
+    {
+      "serviceName": "Amazon Macie",
+      "serviceDescription": "Amazon Macie is a fully managed data security and data privacy service that uses machine learning and pattern matching to discover and protect sensitive data in AWS.",
+      "dateAvailable": "2021-12-08"
+    },
+    {
+      "serviceName": "Amazon Managed Service for Apache Flink",
+      "serviceDescription": "Amazon Managed Service for Apache Flink transforms and analyzes streaming data in real time. Apache Flink is an open source framework and engine for processing data streams.",
+      "dateAvailable": "2022-04-07"
+    },
+    {
+      "serviceName": "Amazon Managed Service for Prometheus",
+      "serviceDescription": "Amazon Managed Service for Prometheus is a fully managed, multi-cloud, cross-project solution for Prometheus, enabling managed monitoring and alerting that provides data and actionable insights for container environments deployed at scale. Amazon Managed Service for Prometheus is fully compatible with the popular open-source Cloud Native Computing Foundation (CNCF) Prometheus project. As an AWS managed service, Amazon Managed Service for Prometheus simplifies the provisioning and setup of Prometheus, automates much of the ongoing operations and maintenance, and automatically adjusts as container workloads scale up and down.",
+      "dateAvailable": "2026-07-13"
+    },
+    {
+      "serviceName": "Amazon Managed Streaming for Apache Kafka (Amazon MSK)",
+      "serviceDescription": "Amazon MSK is a fully managed, open-source platform for building real-time streaming data pipelines and applications that enables population of data lakes, streams changes to and from databases, and powers machine learning and analytics applications.",
+      "dateAvailable": "2022-05-10"
+    },
+    {
+      "serviceName": "Amazon MemoryDB",
+      "serviceDescription": "Amazon MemoryDB is a Redis-compatible, durable, in-memory database service is compatible with Redis, enabling the build of applications using the same flexible and friendly Redis data structures, APIs, and commands that they already use today.",
+      "dateAvailable": "2023-06-12"
+    },
+    {
+      "serviceName": "Amazon MQ",
+      "serviceDescription": "Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ that enables easy to set up and operate message brokers on AWS. Amazon MQ reduces operational responsibilities by managing the provisioning, setup, and maintenance of message brokers.",
+      "dateAvailable": "2021-12-08"
+    },
+    {
+      "serviceName": "Amazon Neptune",
+      "serviceDescription": "Amazon Neptune is a fully managed graph database service that enables the build and run of applications that work with highly connected datasets. The core of Neptune is a purpose-built, high-performance graph database engine optimized for storing billions of relationships and querying the graph with milliseconds latency.",
+      "dateAvailable": "2022-05-10"
+    },
+    {
+      "serviceName": "Amazon OpenSearch Service",
+      "serviceDescription": "Amazon OpenSearch Service is a fully-managed service that delivers APIs and real-time analytics capabilities enabling  availability, scalability, and security for production workloads.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "Amazon Pinpoint and End User Messaging",
+      "serviceDescription": "Amazon Pinpoint and End User Messaging is a flexible and scalable outbound and inbound marketing communications service.",
+      "dateAvailable": "2020-07-09"
+    },
+    {
+      "serviceName": "Amazon Polly",
+      "serviceDescription": "Amazon Polly is a service that turns text into lifelike speech, the creation of applications that talk, and the build of entirely new categories of speech-enabled products. Polly&apos;s Text-to-Speech (TTS) service uses advanced deep learning technologies to synthesize natural sounding human speech.",
+      "dateAvailable": "2019-09-04"
+    },
+    {
+      "serviceName": "Amazon Q Business",
+      "serviceDescription": "Amazon Q Business is a generative AI-powered application that allows user interaction with enterprise content, data, systems for enhancing employee productivity. It uses a conversational interface that generates comprehensive answers and dialog, analyzes and summarizes company-specific information, and takes actions, all within a company’s connected data repositories.",
+      "dateAvailable": "2025-02-28"
+    },
+    {
+      "serviceName": "Amazon Q Developer in chat applications [formerly AWS Chatbot]",
+      "serviceDescription": "Amazon Q Developer enables ChatOps for AWS. ChatOps speeds software development and operations by enabling DevOps teams to use chat clients and chatbots to communicate and execute tasks. Amazon Q Developer notifies chat users about events in their AWS services, so teams can collaboratively monitor and resolve issues in real time, instead of addressing emails from their SNS topics. Amazon Q Developer also allows customers to format incident metrics from Amazon CloudWatch as charts for viewing in chat notifications.",
+      "dateAvailable": "2022-04-20"
+    },
+    {
+      "serviceName": "Amazon Quick [formerly Amazon Quick Suite]",
+      "serviceDescription": "Amazon Quick Suite is a fully managed, cloud-powered business intelligence service that answers questions and turns those answers into actions using agentic teammates for research, business insights, and automation.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon RDS for Db2",
+      "serviceDescription": "Amazon RDS manages complex database administrative tasks, such as provisioning, patching, backups, recovery, failure detection, and repair. With Amazon RDS for Db2, users can choose bring-your-own-license model to move on-premises Db2 databases to the cloud with existing IBM Db2 licenses.",
+      "dateAvailable": "2025-09-29"
+    },
+    {
+      "serviceName": "Amazon RDS for MariaDB",
+      "serviceDescription": "Amazon RDS (MariaDB) is an open source relational database created by the original developers of MySQL. Amazon RDS enables set up, operation, and scale of MariaDB server deployments in the cloud.",
+      "dateAvailable": "2019-04-19"
+    },
+    {
+      "serviceName": "Amazon RDS for MySQL",
+      "serviceDescription": "Amazon RDS for MySQL is an open source relational database to enable set up, operation, and scale of MySQL deployments in the cloud.",
+      "dateAvailable": "2019-04-19"
+    },
+    {
+      "serviceName": "Amazon RDS for Oracle",
+      "serviceDescription": "Amazon RDS for Oracle is a fully managed commercial database to enable set up, operation, and scale Oracle deployments in the cloud.",
+      "dateAvailable": "2019-04-19"
+    },
+    {
+      "serviceName": "Amazon RDS for Postgres",
+      "serviceDescription": "Amazon RDS for Postgres is an open source relational database to enable set up, operation, and scale of Postgres deployments in the cloud.",
+      "dateAvailable": "2019-04-19"
+    },
+    {
+      "serviceName": "Amazon RDS for SQL Server",
+      "serviceDescription": "Amazon RDS for SQL multi-AZ deployments provide enhanced availability and durability for RDS database (DB) instances.",
+      "dateAvailable": "2019-04-19"
+    },
+    {
+      "serviceName": "Amazon Redshift",
+      "serviceDescription": "Amazon Redshift is a managed data warehousing and analytics service that automates the administrative tasks associated with provisioning, configuring, and monitoring a data warehouse.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon Rekognition",
+      "serviceDescription": "Amazon Rekognition enables the addition of image and video analysis to applications using proven, highly scalable, deep learning technology to identify objects, people, text, scenes, and activities in images and videos, as well as detect any inappropriate content.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "Amazon Resource Explorer",
+      "serviceDescription": "AWS Resource Explorer is a resource search and discovery service. With Resource Explorer, customers can explore their resources, such as Amazon Elastic Compute Cloud instances, Amazon Kinesis streams, or Amazon DynamoDB tables, using an internet search engine-like experience. Resource Explorer allows customers to easily search for their resources using resource metadata like names, tags, and IDs, and displays additional resource details from other AWS services, such as AWS Config and AWS Cloud Control. Customers can add resource metadata using tags, and collectively manage resources in an application. Resource Explorer works across AWS Regions in a customer's account to simplify cross-Region workloads.",
+      "dateAvailable": "2026-08-06"
+    },
+    {
+      "serviceName": "Amazon Route 53",
+      "serviceDescription": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service designed to provide a way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon S3 Glacier",
+      "serviceDescription": "Amazon S3 Glacier and S3 Glacier Deep Archive are secure, durable Amazon S3 cloud storage classes for data archiving and long-term backup. They are designed to deliver 99.999999999% durability, and provide comprehensive security and compliance capabilities that can help meet the most stringent regulatory requirements.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon SageMaker AI",
+      "serviceDescription": "Amazon SageMaker AI is a fully managed service that provides developers and data scientists with the ability to build, train, and deploy machine learning (ML) models quickly. SageMaker AI supports governance requirements with simplified access control and transparency over ML projects. In addition, users can build foundation models (FMs), large models that were trained on massive datasets, with purpose-built tools to fine-tune, experiment, retrain, and deploy FMs.",
+      "dateAvailable": "2020-02-27"
+    },
+    {
+      "serviceName": "Amazon Security Lake",
+      "serviceDescription": "Amazon Security Lake is a service that automates the sourcing, aggregation, normalization, and data management of security data across the organization into a security data lake stored in the customers account. A security data lake helps make the organizations security data broadly accessible to their preferred security analytics solutions to power use cases such as threat detection, investigation, and incident response.",
+      "dateAvailable": "2025-03-02"
+    },
+    {
+      "serviceName": "Amazon Simple Email Service (SES)",
+      "serviceDescription": "Amazon Simple Email Service (SES) is a flexible and scalable email service that enables developers to send mail from within any application.",
+      "dateAvailable": "2020-07-20"
+    },
+    {
+      "serviceName": "Amazon Simple Notification Service (SNS)",
+      "serviceDescription": "Amazon Simple Notification Service (SNS) is a fully managed messaging service for both system-to-system and app-to-person (A2P) communication enabling communication between systems through publish/subscribe (pub/sub) patterns that enable messaging between decoupled microservice applications or to communicate directly to users via SMS, mobile push and email.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon Simple Queue Service (SQS)",
+      "serviceDescription": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables decoupling and scale of microservices, distributed systems, and serverless applications.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon Simple Storage Service (S3)",
+      "serviceDescription": "Amazon Simple Storage Service (Amazon S3) is storage for the internet, that is highly scalable, durable, and available distributed object store designed for mission-critical and primary data storage. S3 stores objects redundantly on multiple devices across multiple facilities and is designed to protect data and allow access, even in the case of a failure of a data center.",
+      "dateAvailable": "2019-04-19"
+    },
+    {
+      "serviceName": "Amazon Simple Workflow Service (SWF)",
+      "serviceDescription": "Amazon SWF helps developers build, run, and scale background jobs that have parallel or sequential steps.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon Textract",
+      "serviceDescription": "Amazon Textract is a fully managed machine learning service that automatically extracts text and data from scanned documents that goes beyond simple optical character recognition (OCR) to identify, understand, and extract data from forms and tables.",
+      "dateAvailable": "2021-03-29"
+    },
+    {
+      "serviceName": "Amazon Timestream",
+      "serviceDescription": "Amazon Timestream for LiveAnalytics enables lifecycle management of time-series data by keeping recent data in memory and moving historical data to a cost-optimized storage tier based on user-defined policies.",
+      "dateAvailable": "2022-04-20"
+    },
+    {
+      "serviceName": "Amazon Transcribe",
+      "serviceDescription": "Amazon Transcribe uses a deep learning process called automatic speech recognition (ASR) to convert speech to text quickly and accurately. Amazon Transcribe can be used to transcribe customer service calls, to automate closed captioning and subtitling, and to generate metadata for media assets to create a fully searchable archive.",
+      "dateAvailable": "2019-12-23"
+    },
+    {
+      "serviceName": "Amazon Translate",
+      "serviceDescription": "Amazon Translate is a neural machine translation service that delivers language translation. Neural machine translation is a form of language translation automation that uses deep learning models to deliver more accurate and more natural sounding translation than traditional statistical and rule-based translation algorithms.",
+      "dateAvailable": "2019-12-23"
+    },
+    {
+      "serviceName": "Amazon Verified Permissions",
+      "serviceDescription": "Amazon Verified Permissions is a fully managed authorization service that uses the provably correct Cedar policy language, enabling users to build secure applications. With Verified Permissions, users can build applications by externalizing authorization and centralizing policy management as well as aligning authorization within the application with Zero Trust principles. Amazon Verified Permissions also enables Security and audit teams to analyze and audit who has access to what within applications.",
+      "dateAvailable": "2025-06-03"
+    },
+    {
+      "serviceName": "Amazon Virtual Private Cloud (VPC)",
+      "serviceDescription": "Amazon Virtual Private Cloud (Amazon VPC) enables the provisioning of a logically isolated section of the AWS Cloud to launch AWS resources in a virtual network that custom defined.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "Amazon WorkSpaces",
+      "serviceDescription": "Amazon WorkSpaces is a fully managed, secure Desktop-as-a-Service (DaaS) solution, which runs on AWS.",
+      "dateAvailable": "2019-09-04"
+    },
+    {
+      "serviceName": "Amazon WorkSpaces Applications [formerly Amazon AppStream 2.0]",
+      "serviceDescription": "Amazon WorkSpaces Applications is a fully managed solution to deliver software-as-a-service (SaaS) and web-based applications, and transform desktop applications into cloud-based services without code changes. It enables global scalability without infrastructure management and supports multi-session capabilities, optimizing resource use and costs across various user types.",
+      "dateAvailable": "2020-07-09"
+    },
+    {
+      "serviceName": "Amazon WorkSpaces Secure Browser",
+      "serviceDescription": "Amazon WorkSpaces Secure Browser (WorkSpaces Web) is an on-demand, fully managed, Linux-based service designed to facilitate secure browser access to internal websites and software-as-a-service (SaaS) applications.\n\nNote: Amazon Workspaces Web is a separate product offering under the WorkSpaces brand. It has a completely separate console, API, RIP service name, and shares no underlaying architecture with WorkSpaces.",
+      "dateAvailable": "2024-02-26"
+    },
+    {
+      "serviceName": "AWS App Mesh",
+      "serviceDescription": "AWS App Mesh is a service mesh that provides application-level networking to make it easy for services to communicate with each other across multiple types of compute infrastructure. App Mesh gives end-to-end visibility and high-availability for customer applications.",
+      "dateAvailable": "2022-03-31"
+    },
+    {
+      "serviceName": "AWS Application Migration Service (MGN)",
+      "serviceDescription": "AWS Application Migration Service (AWS MGN) minimizes time-intensive, error-prone manual processes by automatically converting customer source servers from physical, virtual, or cloud infrastructure to run natively on AWS. AWS Application Migration Service is the primary migration service recommended for lift-and-shift migrations to AWS.",
+      "dateAvailable": "2023-06-12"
+    },
+    {
+      "serviceName": "AWS Audit Manager",
+      "serviceDescription": "AWS Audit Manager automates evidence collection to reduce the all hands on deck manual effort that often happens for audits and enables scaling audit capability in the cloud as business grows.",
+      "dateAvailable": "2022-03-31"
+    },
+    {
+      "serviceName": "AWS Backup",
+      "serviceDescription": "AWS Backup is a fully managed backup service that centralizes and automates the backup of data across AWS services.",
+      "dateAvailable": "2021-03-29"
+    },
+    {
+      "serviceName": "AWS Batch",
+      "serviceDescription": "AWS Batch enables developers, scientists, and engineers to run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted.",
+      "dateAvailable": "2019-12-23"
+    },
+    {
+      "serviceName": "AWS Certificate Manager (ACM)",
+      "serviceDescription": "AWS Certificate Manager (ACM) is a service provisions, manages, and deploys public and private Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services and internal connected resources. SSL/TLS certificates are used to secure network communications and establish the identity of websites over the Internet as well as resources on private networks.",
+      "dateAvailable": "2020-09-21"
+    },
+    {
+      "serviceName": "AWS Clean Rooms",
+      "serviceDescription": "AWS Clean Rooms is a service that enables users to collaborate with partners by combining data and performing analyses on joint data sets without revealing underlying sensitive information about users.",
+      "dateAvailable": "2025-06-03"
+    },
+    {
+      "serviceName": "AWS Cloud Map",
+      "serviceDescription": "AWS Cloud Map is a cloud resource discovery service.",
+      "dateAvailable": "2021-12-08"
+    },
+    {
+      "serviceName": "AWS Cloud9",
+      "serviceDescription": "AWS Cloud9 is a cloud-based integrated development environment (IDE) that enables the write, run, and debug of code with a browser.",
+      "dateAvailable": "2022-04-20"
+    },
+    {
+      "serviceName": "AWS CloudFormation",
+      "serviceDescription": "AWS CloudFormation provides a common language to model and provision AWS and third-party application resources in the cloud environment.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "AWS CloudHSM",
+      "serviceDescription": "AWS CloudHSM is a cloud-based hardware security module (HSM) that enables generation and use of encryption keys on the AWS Cloud.",
+      "dateAvailable": "2021-12-08"
+    },
+    {
+      "serviceName": "AWS CloudShell",
+      "serviceDescription": "AWS CloudShell is a browser-based shell that is pre-authenticated with the customers console credentials. Common development and operations tools are pre-installed, that enables the run of scripts with the AWS Command Line Interface (AWS CLI), experiment with AWS service APIs using the AWS SDKs, or use a range of other tools.",
+      "dateAvailable": "2023-02-22"
+    },
+    {
+      "serviceName": "AWS CloudTrail",
+      "serviceDescription": "AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of AWS accounts through the ability to log, continuously monitor, and retain account activity related to actions across AWS infrastructure.",
+      "dateAvailable": "2019-04-19"
+    },
+    {
+      "serviceName": "AWS CodeBuild",
+      "serviceDescription": "AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "AWS CodeCommit",
+      "serviceDescription": "AWS CodeCommit is a fully-managed source control service that hosts secure Git-based repositories to enable teams to collaborate on code in a secure and scalable ecosystem.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "AWS CodeDeploy",
+      "serviceDescription": "AWS CodeDeploy is a fully managed deployment service that automates software deployments to a variety of compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and on-premises servers.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "AWS CodePipeline",
+      "serviceDescription": "AWS CodePipeline is a fully managed continuous delivery service that automates release pipelines for application and infrastructure updates.",
+      "dateAvailable": "2021-03-29"
+    },
+    {
+      "serviceName": "AWS Config",
+      "serviceDescription": "AWS Config is a service that enables the assessment, audit, and evaluation of the configurations of AWS resources. Config continuously monitors and records AWS resource configurations and allows the automation and evaluation of recorded configurations against desired configurations.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "AWS Control Tower",
+      "serviceDescription": "AWS Control Tower is a service that is intended for organizations with multiple accounts and teams who are looking to set up their new multi-account AWS environment and govern at scale. Using AWS Control Tower, cloud administrators can set up an automated landing zone that employs best-practices blueprints such as configuring multi-account structure using AWS Organizations, managing user identities and federated access with AWS Single Sign-on, enabling account provisioning through AWS Service Catalog, and creating a centralized log archive using AWS CloudTrail and AWS Config.",
+      "dateAvailable": "2020-09-21"
+    },
+    {
+      "serviceName": "AWS Database Migration Service (DMS)",
+      "serviceDescription": "AWS Database Migration Service helps migrate databases to AWS, minimizing downtime to applications that rely on the database.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "AWS DataSync",
+      "serviceDescription": "AWS DataSync is a service that helps move large amounts of data online between on-premises storage and Amazon S3, Amazon Elastic File System (Amazon EFS), or Amazon FSx for Windows File Server.",
+      "dateAvailable": "2019-12-23"
+    },
+    {
+      "serviceName": "AWS Direct Connect",
+      "serviceDescription": "AWS Direct Connect is a cloud service solution that enables the establishment of a dedicated network connection from premises to AWS.",
+      "dateAvailable": "2019-09-04"
+    },
+    {
+      "serviceName": "AWS Directory Service",
+      "serviceDescription": "AWS Directory Service enables directory-aware workloads and AWS resources to use managed Active Directory in the AWS Cloud. It currently provides three directory types: 1) AD Connector: Gateway technology that enables customers to easily connect their on-premises Active Directory to the AWS Cloud. 2) Simple AD: For customers that do not have an on-premises Microsoft Active Directory but are looking to operate Microsoft Windows applications in the AWS Cloud, Simple AD enables them to quickly bring up a resizable Active Directory compatible directory in the AWS cloud to simplify deployment and management of Windows based workloads. 3) Microsoft AD: A managed Microsoft Active Directory Domain that is based on Microsoft Active Directory in Windows Server 2012 R2. This directory type supports directory-dependent workloads like Microsoft SQL Server and custom .NET applications and the ability to set up a trust relationship to a users existing AD domain to enable single sign-on (SS0) for existing users to a users directory dependent workloads in AWS.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "AWS Elastic Beanstalk",
+      "serviceDescription": "AWS Elastic Beanstalk is a service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "AWS Elastic Disaster Recovery (AWS DRS)",
+      "serviceDescription": "AWS Elastic Disaster Recovery (AWS DRS) enables customers to set up AWS DRS on their source servers to initiate secure data replication, recovery of on-premises and cloud-based applications using storage, minimal compute, and point-in- time recovery.",
+      "dateAvailable": "2023-06-30"
+    },
+    {
+      "serviceName": "AWS Elemental MediaConvert",
+      "serviceDescription": "AWS Elemental MediaConvert is a file-based video transcoding service with broadcast-grade capabilities that enables the creation of video-on-demand (VOD) content for broadcast and multiscreen delivery at scale.",
+      "dateAvailable": "2020-05-08"
+    },
+    {
+      "serviceName": "AWS Entity Resolution",
+      "serviceDescription": "AWS Entity Resolution helps customers match, link, and enhance related customer, product, business, or healthcare records stored across multiple applications, channels, and data stores using flexible and configurable rules, machine learning, or data service provider matching techniques.",
+      "dateAvailable": "2024-10-17"
+    },
+    {
+      "serviceName": "AWS Fault Injection Service",
+      "serviceDescription": "AWS Fault Injection Simulator, a part of AWS Resilience Hub, is a fully managed service for running fault injection experiments to improve an applications performance, observability, and resilience.",
+      "dateAvailable": "2023-10-13"
+    },
+    {
+      "serviceName": "AWS Firewall Manager",
+      "serviceDescription": "AWS Firewall Manager is a security management service that allows for the central configuration and management of firewall rules across accounts and applications in AWS Organizations.",
+      "dateAvailable": "2022-03-15"
+    },
+    {
+      "serviceName": "AWS Global Accelerator",
+      "serviceDescription": "AWS Global Accelerator is a service that is designed to improve the availability, security, and performance of internet-facing applications. Global Accelerator provides static IP addresses that act as fixed entry endpoints for application resources in one or more AWS Regions, such as Application Load Balancers, Network Load Balancers, Amazon EC2 instances, or Elastic IPs. Additionally, Global Accelerator continually monitors the health of application endpoints and offers deterministic failover for multi-Region workloads without any DNS dependencies.",
+      "dateAvailable": "2025-06-03"
+    },
+    {
+      "serviceName": "AWS Glue",
+      "serviceDescription": "AWS Glue is a fully managed extract, transform, and load (ETL) service that enables the preparation and load of data for analytics.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "AWS Glue DataBrew",
+      "serviceDescription": "AWS Glue DataBrew is a new visual data preparation tool that enables the clean and normalize of data to prepare it for analytics and machine learning.",
+      "dateAvailable": "2021-12-08"
+    },
+    {
+      "serviceName": "AWS Ground Station",
+      "serviceDescription": "AWS Ground Station is a fully managed service that enables the control of satellite communications, process data, and scale operations without building or managing ground station infrastructure. Satellites are used for a wide variety of use cases, including weather forecasting, surface imaging, communications, and video broadcasts.",
+      "dateAvailable": "2021-06-29"
+    },
+    {
+      "serviceName": "AWS Health Dashboard",
+      "serviceDescription": "AWS Health Dashboard provides alerts and remediation guidance when AWS is experiencing events that may impact customers.",
+      "dateAvailable": "2021-05-17"
+    },
+    {
+      "serviceName": "AWS HealthImaging",
+      "serviceDescription": "AWS HealthImaging allows providers the capability to run their medical imaging applications from a single, authoritative copy of patient imaging data in the cloud. AWS HealthImaging enables access to medical imaging data with sub-second image retrieval latencies at scale powered by cloud-native APIs and applications from AWS partners.",
+      "dateAvailable": "2025-06-03"
+    },
+    {
+      "serviceName": "AWS HealthLake",
+      "serviceDescription": "AWS HealthLake (AHL) is a HIPAA-eligible service offering a complete view of individual and patient population health data using FHIR (Fast Healthcare Interoperable Resources) API based transactions to securely store and transform data into a queryable format at petabyte scale, and further analyze this data using machine learning (ML) models.",
+      "dateAvailable": "2024-02-20"
+    },
+    {
+      "serviceName": "AWS HealthOmics",
+      "serviceDescription": "AWS HealthOmics is a fully managed service for genome analysis that eliminates the need to setup and maintain specialized tools, workflows, and infrastructure needed for genome analysis.",
+      "dateAvailable": "2023-06-30"
+    },
+    {
+      "serviceName": "AWS IAM Identity Center",
+      "serviceDescription": "AWS IAM Identity Center is the AWS solution for connecting workforce users to AWS managed applications such as Amazon Q Developer and Amazon Quick Suite, and other AWS resources. Existing identity provider can be connected to synchronize users and groups from directories, or to create and manage users directly in IAM Identity Center. IAM Identity Center can then be used for user access to applications and/or user access to AWS accounts.",
+      "dateAvailable": "2026-07-13"
+    },
+    {
+      "serviceName": "AWS Identity and Access Management (IAM)",
+      "serviceDescription": "AWS Identity and Access Management (IAM) is a web service that enables Amazon Web Services (AWS) customers to manage users and user permissions in AWS. AWS IAM enables centralized management of users, security credentials such as access keys, and permissions that control which AWS resources users can access.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "AWS IoT Core",
+      "serviceDescription": "AWS Internet of Things (IoT) Core is a managed cloud service that lets connected devices securely interact with cloud applications and other devices.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "AWS IoT Device Defender",
+      "serviceDescription": "AWS Internet of Things (IoT) Device Defender is a fully managed service for auditing and monitoring devices connected to AWS IoT.",
+      "dateAvailable": "2024-02-26"
+    },
+    {
+      "serviceName": "AWS IoT Device Management",
+      "serviceDescription": "AWS Internet of Things (IoT) Device Management enables registering, monitoring, and the remote management of IoT devices at scale.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "AWS IoT Events",
+      "serviceDescription": "AWS Internet of Things (IoT) Events is a fully managed service the detection of and response to events from IoT sensors and applications.",
+      "dateAvailable": "2023-06-12"
+    },
+    {
+      "serviceName": "AWS IoT Greengrass",
+      "serviceDescription": "AWS Internet of Things (IoT) Greengrass seamlessly extends AWS to edge devices so they can act locally on the data they generate, while still using the cloud for management, analytics, and durable storage. With AWS IoT Greengrass, connected devices can run AWS Lambda functions, Docker containers, or both, execute predictions based on machine learning models, keep device data in sync, and communicate with other devices securely even when not connected to the Internet.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "AWS Key Management Service (KMS)",
+      "serviceDescription": "AWS Key Management Service (KMS) the creation and management of cryptographic keys and controls use across a wide range of AWS services and in applications using hardware security modules that have been validated under FIPS 140-2, or are in the process of being validated, to protect keys.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "AWS Lambda",
+      "serviceDescription": "AWS Lambda enables the running of code without provisioning or managing servers.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "AWS License Manager",
+      "serviceDescription": "AWS License Manager enables administrators create customized licensing rules that emulate the terms of their licensing agreements, and then enforces these rules when an instance of EC2 gets launched to help prevent licensing violations, such as using more licenses than an agreement stipulates.",
+      "dateAvailable": "2019-12-23"
+    },
+    {
+      "serviceName": "AWS Mainframe Modernization",
+      "serviceDescription": "AWS Mainframe Modernization service is a platform that allows migration and modernization of on-premises mainframe applications to a cloud native fully-managed runtime environment on AWS.",
+      "dateAvailable": "2024-02-20"
+    },
+    {
+      "serviceName": "AWS Managed Services (AMS)",
+      "serviceDescription": "AWS Managed Services (AMS) automates common activities, such as change requests, monitoring, patch management, security, and backup services, and provides full-lifecycle services to provision, run, and support infrastructure.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "AWS Network Firewall",
+      "serviceDescription": "AWS Network Firewall is a managed service that allows and enables deployment of essential network protections for Amazon Virtual Private Clouds (VPCs).",
+      "dateAvailable": "2022-03-31"
+    },
+    {
+      "serviceName": "AWS Network Manager",
+      "serviceDescription": "AWS Network Manager is a service that enables visualization of transit gateway (TGW) networks. AWS Network Manager provides centralized network monitoring on both AWS resources and on-premise networks, a single global view of private networks in a topology diagram and geographical map, and utilization metrics, such as bytes in/out, packets in/out, packets dropped, and alerts for changes in the topology, routing, and up/down connection status.",
+      "dateAvailable": "2024-07-10"
+    },
+    {
+      "serviceName": "AWS Organizations",
+      "serviceDescription": "AWS Organizations helps to centrally govern environments as customers grow and scale workloads on AWS. AWS Organizations enables automation of account creation, creation of groups of accounts to reflect business needs, and application of policies for these groups for governance",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "AWS Outposts (Software)",
+      "serviceDescription": "AWS Outposts is a family of fully managed solutions delivering AWS infrastructure and services to virtually any on-premises or edge location for a truly consistent hybrid experience. Outposts allows the extend and run of native AWS services on premises, and is available in a variety of form factors, from 1U and 2U Outposts servers to 42U Outposts racks, and multiple rack deployments.",
+      "dateAvailable": "2021-12-10"
+    },
+    {
+      "serviceName": "AWS Parallel Computing Service",
+      "serviceDescription": "AWS Parallel Computing Service (AWS PCS) is a managed service that makes it easier to run and scale high performance computing (HPC) workloads, and build scientific and engineering models on AWS using Slurm. Customers use AWS PCS to build compute clusters that integrate best in class AWS compute, storage, networking, and visualization. Customers can run simulations or build scientific and engineering models while streamlining and simplifying cluster operations using built-in management and observability capabilities. AWS PCS empowers users to focus on research and innovation by enabling them to run their applications and jobs in a familiar environment.",
+      "dateAvailable": "2026-08-13"
+    },
+    {
+      "serviceName": "AWS Private Certificate Authority",
+      "serviceDescription": "AWS Private Certificate Authority (PCA) is a private certificate authority (CA) service that extends AWS Certificate Managers (ACM) certificate management capabilities to both public and private certificates. AWS Private CA allows developers to be more agile by providing APIs to create and deploy private certificates programmatically. Private certificates can be created for applications that require custom certificate lifetimes or resource names as well as managed for connected resources.",
+      "dateAvailable": "2024-07-10"
+    },
+    {
+      "serviceName": "AWS Resource Access Manager (AWS RAM)",
+      "serviceDescription": "AWS Resource Access Manager (AWS RAM) helps securely share resources across AWS accounts, within the organization or organizational units (OUs) in AWS Organizations, and with IAM roles and IAM users for supported resource types. AWS RAM can be used to share transit gateways, subnets, AWS License Manager license configurations, Amazon Route 53 Resolver rules, and more resource types.",
+      "dateAvailable": "2022-03-31"
+    },
+    {
+      "serviceName": "AWS Resource Groups",
+      "serviceDescription": "AWS Resource groups enables organization of AWS resources. Tasks that can be performed on a resource vary based on the AWS service used. 1) Resource Groups: In AWS, a resource is an entity that customers can work with. Examples include an Amazon EC2 instance, an AWS CloudFormation stack, or an Amazon S3 bucket. A resource group is a collection of AWS resources that are all in the same AWS region, and that match criteria provided in a query. 2) AWS Resource Groups and Permissions: Resource Groups permissions are at the account level. As long as users who are sharing the account have the correct IAM permissions, they can work with resource groups that have been created. 3) AWS Resource Groups Resources: In Resource Groups, the only available resource is a group. Groups have unique Amazon Resource Names (ARNs) associated with them.",
+      "dateAvailable": "2021-05-17"
+    },
+    {
+      "serviceName": "AWS Secrets Manager",
+      "serviceDescription": "AWS Secrets Manager helps with the protection of secrets needed to access applications, services, and IT resources through the enablement of management and retrieval of database credentials, API keys, and other secrets throughout their lifecycle.",
+      "dateAvailable": "2019-08-08"
+    },
+    {
+      "serviceName": "AWS Security Hub CSPM",
+      "serviceDescription": "AWS Security Hub assists with providing a comprehensive view of high-priority security alerts and security posture across AWS accounts. Security Hub provides a single place that aggregates, organizes, and prioritizes security alerts, or findings, from multiple AWS services, such as Amazon GuardDuty, Amazon Inspector, Amazon Macie, AWS Identity and Access Management (IAM) Access Analyzer, and AWS Firewall Manager, as well as from AWS Partner solutions.",
+      "dateAvailable": "2020-09-21"
+    },
+    {
+      "serviceName": "AWS Security Incident Response",
+      "serviceDescription": "AWS Security Incident Response is a managed security service that monitors customer AWS environments for threats, triages security findings on the customer's behalf, and engages the customer only when action is required. When a genuine security incident occurs, the Security Incident Response Engineering team investigates, helps contain the threat, and provides guidance toward recovery.\n\nAWS Security Incident Response covers the full incident lifecycle: detection, triage, investigation, containment, and recovery guidance. The service aligns with the NIST 800-61 Computer Security Incident Handling Guide, providing a consistent approach to security event management grounded in industry best practices. It works alongside other AWS Detection and Response services and integrates with existing customer tools through Amazon EventBridge.",
+      "dateAvailable": "2026-07-13"
+    },
+    {
+      "serviceName": "AWS Serverless Application Repository",
+      "serviceDescription": "The AWS Serverless Application Repository is a managed repository for serverless applications that enables teams, organizations, and individual developers to store and share reusable applications, and assemble and deploy serverless architectures.",
+      "dateAvailable": "2020-05-08"
+    },
+    {
+      "serviceName": "AWS Service Catalog",
+      "serviceDescription": "AWS Service Catalog enables the creation and management of catalogs of IT services that are approved for use on AWS. AWS Service Catalog allows the central management of commonly deployed IT services to help achieve consistent governance and meet compliance requirements, while enabling deployment of only the approved IT services needed.",
+      "dateAvailable": "2019-09-04"
+    },
+    {
+      "serviceName": "AWS Shield (Standard and Advanced)",
+      "serviceDescription": "AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. AWS Shield provides always-on detection and automatic inline mitigations that minimize application downtime and latency. There are two tiers of AWS Shield - Standard and Advanced. AWS Shield Standard defends against most common, frequently occurring network and transport layer DDoS attacks that target web site or applications. AWS Shield Advanced provides additional detection and mitigation against large and sophisticated DDoS attacks, near real-time visibility into attacks, and integration with AWS WAF, a web application firewall.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "AWS Signer",
+      "serviceDescription": "AWS Signer is a fully managed code-signing service to ensure the trust and integrity of customer code. Organizations validate code against a digital signature to confirm that the code is unaltered and from a trusted publisher.",
+      "dateAvailable": "2023-06-30"
+    },
+    {
+      "serviceName": "AWS Snowball Edge",
+      "serviceDescription": "AWS Snowball Edge is a service that accelerates transferring large amounts of data into and out of AWS using physical storage appliances, bypassing the internet. AWS Snowball Edge is a 100 TB data transfer device with on-board storage and compute power for select AWS capabilities. In addition to transferring data to AWS, Snowball Edge can undertake local processing and edge-computing workloads.",
+      "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "AWS Step Functions",
+      "serviceDescription": "AWS Step Functions is a serverless function orchestrator that enables the sequence of AWS Lambda functions and multiple AWS services into business-critical applications.",
+      "dateAvailable": "2019-11-25"
+    },
+    {
+      "serviceName": "AWS Storage Gateway",
+      "serviceDescription": "AWS Storage Gateway is a hybrid cloud storage service that provides on-premises access to virtually unlimited cloud storage.",
+      "dateAvailable": "2021-03-29"
+    },
+    {
+      "serviceName": "AWS Systems Manager",
+      "serviceDescription": "AWS Systems Manager provides visibility and control of infrastructure on AWS through a unified user interface to view operational data from multiple AWS services and through the automation of operational tasks across AWS resources.",
+      "dateAvailable": "2019-04-19"
+    },
+    {
+      "serviceName": "AWS Transfer Family",
+      "serviceDescription": "The AWS Transfer Family provides fully managed support for file transfers directly into and out of Amazon S3 or Amazon EFS. With support for Secure File Transfer Protocol (SFTP), File Transfer Protocol over SSL (FTPS), and File Transfer Protocol (FTP), the AWS Transfer Family helps to migrate file transfer workflows to AWS by integrating with existing authentication systems, and providing DNS routing with Amazon Route 53.",
+      "dateAvailable": "2021-12-08"
+    },
+    {
+      "serviceName": "AWS Trusted Advisor",
+      "serviceDescription": "AWS Trusted Advisor is an online tool that provides real time guidance to help provision resources following AWS best practices. Trusted Advisor checks help optimize AWS infrastructure, increase security and performance, reduce overall costs, and monitor service limits.",
+      "dateAvailable": "2019-12-23"
+    },
+    {
+      "serviceName": "AWS Verified Access (AVA)",
+      "serviceDescription": "AWS Verified Access (AVA) allows enterprises to enable secure access for corporate applications without requiring a VPN. Using AVA, IT administrators can configure fine-grained access for applications, ensuring that application access is granted only when users meet the specified security requirements (e.g., user identity, device security status, real-time data such as geolocation, etc.).",
+      "dateAvailable": "2025-03-02"
+    },
+    {
+      "serviceName": "AWS Web Application Firewall (WAF)",
+      "serviceDescription": "AWS Web Application Firewall (WAF) enables user to create security rules that control bot traffic and block common attack patterns such as SQL injection or cross-site scripting (XSS). Additionally, AWS WAF enables users to monitor, block, or rate-limit bots; reduce security configuration steps; centralize and action visibility; and strengthen security posture.",
+      "dateAvailable": "2023-02-22"
+    },
+    {
+      "serviceName": "AWS Web Application Firewall Classic (WAF Classic)",
+      "serviceDescription": "AWS WAF Classic is a web application firewall that helps protect customer web applications or APIs against common web exploits that may affect availability, compromise security, or consume excessive resources.",
+      "dateAvailable": "2023-03-31"
+    },
+    {
+      "serviceName": "AWS Well-Architected Tool",
+      "serviceDescription": "AWS Well-Architected Tool provides a framework to evaluate cloud architecture and implement designs that will scale over time.",
+      "dateAvailable": "2023-10-13"
+    },
+    {
+      "serviceName": "AWS Wickr",
+      "serviceDescription": "AWS Wickr is a security-focused unified communications and enterprise collaboration service. It includes Internet-based end-to-end encrypted and ephemeral messaging with voice and video conferencing and file sharing capabilities, supporting client applications on all major mobile and desktop computing platforms.",
+      "dateAvailable": "2023-10-13"
+    },
+    {
+      "serviceName": "AWS X-Ray",
+      "serviceDescription": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture to help provide an understanding of how the application and its underlying services are performing to identify and troubleshoot the root cause of performance issues and errors.",
+      "dateAvailable": "2021-05-07"
+    }
+  ],
+  "certifiedServicesNote": "The date available for each service represents the date the service was included in the AWS US East/West FedRAMP certification boundary based on available assessment records. Actual inclusion dates as reflected in FedRAMP PMO records may vary. AWS has maintained continuous FedRAMP certification for US East/West (Class C) since 2013, and all listed services are subject to ongoing annual independent assessment regardless of their inclusion date.",
+  "ZD_frid_retro": "AGENCYAMAZONEW",
+  "id_matches_expected": true
+}

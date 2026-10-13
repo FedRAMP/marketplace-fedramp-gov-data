@@ -1,0 +1,131 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2632731472",
+    "providerName": "Transmittr, Inc.",
+    "serviceName": "Casco for Government",
+    "serviceAcronym": "CASCO",
+    "serviceDescription": "Casco is an agentic system that provides autonomous, 24/7 security testing and vulnerability assessments for web applications, APIs, cloud infrastructure, and AI systems. Casco was founded in February 2025 with the objective of making artificial intelligence-powered services production-grade, and Casco is delivered to customers across the United States, United Kingdom, and Europe in the cloud service provider, artificial intelligence, cybersecurity, and SaaS industries.",
+    "certificationType": "20x",
+    "website": "https://casco.com/",
+    "logo": "https://static-assets.mycroft.io/production/org_logos/ac58d658-f3d7-4434-9394-d1b5810c3cc7.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.mycroft.io/casco",
+      "repositoryDescription": "Casco's public Trust Center, hosting system authorization documentation, policies, and assessment reports.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request Access' button on the top right of the Trust Center."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.mycroft.io/casco",
+      "repositoryDescription": "Secure configuration guidance for Casco, hosted on the Casco Trust Center.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request Access' button on the top right of the Trust Center."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Availability Status"
+        ],
+        "url": "https://status.casco.com/",
+        "repositoryDescription": "Casco availability status page, presenting current and historical availability and availability incidents for Casco for Government. Hosted independently of the offering so that it remains reachable if the service is unavailable.",
+        "authenticationRequired": false
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2026-12-15"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "René Brandel, CEO / Co-founder",
+      "contactEmail": "security@casco.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Chris Womack",
+      "contactEmail": "government@casco.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Casco for Government",
+      "serviceDescription": "Autonomous, 24/7 security testing and vulnerability assessments for web applications, APIs, cloud infrastructure, and AI systems.",
+      "dateAvailable": "2025-04-15"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Primary cloud infrastructure subservice organization providing the networking, compute, storage, and database components underlying Casco, including AWS Lambda (compute), Amazon Aurora (database), AWS WAF, AWS CloudFront (CDN), AWS Certificate Manager, AWS KMS (key management), AWS CloudTrail, AWS CloudWatch, AWS GuardDuty, and AWS Inspector."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
+        "useCase": "Source code repository and version control, CI/CD pipeline (GitHub Actions), and vulnerability scanning (GitHub Dependabot) for the Casco codebase."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+        "useCase": "Google Workspace. Suite of enterprise productivity, collaboration, and communication tools, and the workforce identity and access management provider supplying single sign-on to in-scope systems."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2631054539",
+        "useCase": "Mycroft GRC Platform (Mycroft Technologies Inc). Compliance automation software used to support the design, implementation, operation, monitoring, and documentation of internal controls via API-based integrations."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "1Password",
+        "provider": "1Password (AgileBits Inc.)",
+        "website": "https://1password.com",
+        "useCase": "Enterprise password manager used to store authentication secrets and strengthen credential security."
+      },
+      {
+        "name": "Rippling",
+        "provider": "Rippling",
+        "website": "https://www.rippling.com",
+        "useCase": "Mobile device management (MDM) software used to track and manage security policies on employee workstations, and human resources information system used to manage employee onboarding/offboarding."
+      },
+      {
+        "name": "Linear",
+        "provider": "Linear",
+        "website": "https://linear.app",
+        "useCase": "Ticketing software used to log events and requirements supporting the internal change management process."
+      },
+      {
+        "name": "WorkOS",
+        "provider": "WorkOS, Inc.",
+        "website": "https://workos.com",
+        "useCase": "WorkOS is a developer platform that provides APIs and SDKs to help software companies quickly add enterprise-grade identity and access management features to their applications."
+      },
+      {
+        "name": "Blaxel",
+        "provider": "Blaxel",
+        "website": "https://blaxel.ai",
+        "useCase": "Blaxel is an agentic compute platform providing cloud infrastructure for building, deploying, and scaling autonomous AI agents with serverless computing and specialized agent tooling."
+      },
+      {
+        "name": "Daytona",
+        "provider": "Daytona",
+        "website": "https://www.daytona.io",
+        "useCase": "Daytona is an agentic compute platform providing secure, elastic sandbox infrastructure for running AI-generated code and giving AI agents isolated, on-demand compute environments."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2632731472",
+  "id_matches_expected": true
+}

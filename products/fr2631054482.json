@@ -1,0 +1,268 @@
+{
+  "publicDisclosure": {
+    "version": "1.5",
+    "lastUpdated": "2026-09-14",
+    "lastReviewed": "2026-09-14",
+    "nextScheduledReview": "2026-12-15",
+    "documentOwner": "Concourse Security Team",
+    "maintainedBy": "Concourse GRC Team",
+    "assessmentScope": "This disclosure applies only to the Concourse Platform cloud service offering identified on this page."
+  },
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631054482",
+    "ueiNumber": "R1XGH5JT24M1",
+    "providerName": "Concourse Tech Inc.",
+    "serviceName": "Concourse Platform",
+    "serviceAcronym": "CONCOURSE",
+    "serviceDescription": "The Concourse platform is a cloud-based, configurable software platform that enables government agencies, educational institutions, and other public-sector organizations to digitize, manage, and automate their operational workflows. The platform is modular in design, allowing customers to adopt capabilities individually or in combination based on their specific requirements. Concourse delivers its services to federal, state, and local government agencies; K–12 and higher education institutions; public utilities; transit authorities; and similar public-sector organizations.\n\nThe capability categories that make up the platform are listed individually below.",
+    "certificationType": "20x",
+    "website": "https://www.concoursetech.com",
+    "logo": "https://www.concoursetech.com/images/concourse-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Operations Management",
+      "Finance",
+      "Legal & Policy",
+      "Customer Service",
+      "Content Management System (CMS)",
+      "Data Management",
+      "Grant Management",
+      "Human Resources",
+      "Law Enforcement",
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.concoursetech.com/",
+      "repositoryDescription": "Concourse Trust Center — the SOC 2 Type I and Type II reports and fifteen security policies, including access control, cryptography, incident response, risk management, secure development, and third-party management.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Open https://trust.concoursetech.com/ and use the access request form on that page. Requests from federal, state, local, and education customers and prospective customers are reviewed by the Concourse security team; documents under NDA are released once the request is approved. Agencies evaluating Concourse for a FedRAMP Certification should note that in the request so it can be routed accordingly. Questions: security@concoursetech.com."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://www.concoursetech.com/fedramp/secure-configuration",
+      "repositoryDescription": "",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Vulnerability Disclosure"
+        ],
+        "url": "https://www.concoursetech.com/bugbounty",
+        "repositoryDescription": "",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Terms and Policies"
+        ],
+        "url": "https://www.concoursetech.com/terms",
+        "repositoryDescription": "",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Terms and Policies"
+        ],
+        "url": "https://www.concoursetech.com/privacy",
+        "repositoryDescription": "",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Terms and Policies"
+        ],
+        "url": "https://www.concoursetech.com/service-terms",
+        "repositoryDescription": "",
+        "authenticationRequired": false
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Concourse Security Team",
+      "contactEmail": "security@concoursetech.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Concourse Public Sector Sales",
+      "contactEmail": "sales@concoursetech.com"
+    }
+  ],
+  "missionSolutions": [
+    {
+      "solutionName": "Permitting & Licensing",
+      "assessmentCoverage": "In scope — covered at Moderate via the assessed capability categories",
+      "assessedUnit": false
+    },
+    {
+      "solutionName": "Legislative & Public Meetings",
+      "assessmentCoverage": "In scope — covered at Moderate via the assessed capability categories",
+      "assessedUnit": false
+    },
+    {
+      "solutionName": "Utility Billing & Payments",
+      "assessmentCoverage": "In scope — covered at Moderate via the assessed capability categories",
+      "assessedUnit": false
+    },
+    {
+      "solutionName": "Community Engagement",
+      "assessmentCoverage": "In scope — covered at Moderate via the assessed capability categories",
+      "assessedUnit": false
+    },
+    {
+      "solutionName": "Workforce & Labor Programs",
+      "assessmentCoverage": "In scope — covered at Moderate via the assessed capability categories",
+      "assessedUnit": false
+    },
+    {
+      "solutionName": "Courts, Safety & Justice",
+      "assessmentCoverage": "In scope — covered at Moderate via the assessed capability categories",
+      "assessedUnit": false
+    },
+    {
+      "solutionName": "Clerk and Public Records",
+      "assessmentCoverage": "In scope — covered at Moderate via the assessed capability categories",
+      "assessedUnit": false
+    },
+    {
+      "solutionName": "Parks & Recreation",
+      "assessmentCoverage": "In scope — covered at Moderate via the assessed capability categories",
+      "assessedUnit": false
+    },
+    {
+      "solutionName": "Contracts & Procurement",
+      "assessmentCoverage": "In scope — covered at Moderate via the assessed capability categories",
+      "assessedUnit": false
+    },
+    {
+      "solutionName": "Grants & Financial Aid",
+      "assessmentCoverage": "In scope — covered at Moderate via the assessed capability categories",
+      "assessedUnit": false
+    },
+    {
+      "solutionName": "Asset & Facilities Management",
+      "assessmentCoverage": "In scope — covered at Moderate via the assessed capability categories",
+      "assessedUnit": false
+    },
+    {
+      "solutionName": "Data & Integrations",
+      "assessmentCoverage": "In scope — covered at Moderate via the assessed capability categories",
+      "assessedUnit": false
+    }
+  ],
+  "policiesAndProcedures": [
+    {
+      "name": "Secure Configuration Guidance",
+      "document": "https://www.concoursetech.com/fedramp/secure-configuration",
+      "summary": "Configuration responsibilities for agency administrators: identity and access, portals, workflows, records, integration credentials, AI, and logging.",
+      "wordCount": 769,
+      "version": "1.0",
+      "lastUpdated": "2026-08-10"
+    },
+    {
+      "name": "Vulnerability Disclosure Policy",
+      "document": "https://www.concoursetech.com/bugbounty",
+      "summary": "Coordinated vulnerability disclosure: scope, reporting channel, and safe-harbor terms for security researchers.",
+      "wordCount": 802,
+      "version": "1.0",
+      "lastUpdated": "2025-11-13"
+    },
+    {
+      "name": "Terms of Service",
+      "document": "https://www.concoursetech.com/terms",
+      "summary": "Terms governing use of Concourse products and websites.",
+      "wordCount": 6908,
+      "version": "1.0",
+      "lastUpdated": "2025-06-15"
+    },
+    {
+      "name": "Privacy Policy",
+      "document": "https://www.concoursetech.com/privacy",
+      "summary": "What information Concourse collects, how it is used and disclosed, and user rights and controls.",
+      "wordCount": 2114,
+      "version": "1.0",
+      "lastUpdated": "2026-08-10"
+    },
+    {
+      "name": "Concourse Platform Services Agreement",
+      "document": "https://www.concoursetech.com/service-terms",
+      "summary": "Service terms for the Concourse Platform: data ownership, AI provisions, security, indemnities, and government-entity terms.",
+      "wordCount": 2072,
+      "version": "2.0",
+      "lastUpdated": "2026-08-10"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Data Management and Search",
+      "serviceDescription": "Centralized storage, search, and retrieval of structured and unstructured records.",
+      "securityCategory": "Moderate",
+      "dateAvailable": "2025-09-01"
+    },
+    {
+      "serviceName": "Workflow Automation",
+      "serviceDescription": "Configurable multi-step approval workflows, task routing, and automated notifications.",
+      "securityCategory": "Moderate",
+      "dateAvailable": "2025-09-01"
+    },
+    {
+      "serviceName": "Reporting and Analytics",
+      "serviceDescription": "Dashboards, KPI tracking, compliance reporting, and data visualization.",
+      "securityCategory": "Moderate",
+      "dateAvailable": "2025-09-01"
+    },
+    {
+      "serviceName": "Citizen and Public-Facing Portals",
+      "serviceDescription": "Self-service portals for public engagement, applications, service requests, and transparency.",
+      "securityCategory": "Moderate",
+      "dateAvailable": "2025-09-01"
+    },
+    {
+      "serviceName": "Document and Records Management",
+      "serviceDescription": "Upload, storage, indexing, version control, and retrieval of documents and records.",
+      "securityCategory": "Moderate",
+      "dateAvailable": "2025-09-01"
+    },
+    {
+      "serviceName": "Integration Services",
+      "serviceDescription": "APIs and data connectors enabling interoperability with third-party systems.",
+      "securityCategory": "Moderate",
+      "dateAvailable": "2025-09-01"
+    },
+    {
+      "serviceName": "AI-Assisted Capabilities",
+      "serviceDescription": "AI-powered search, content generation, and decision support tools.",
+      "securityCategory": "Moderate",
+      "dateAvailable": "2025-09-01"
+    },
+    {
+      "serviceName": "User and Role Management",
+      "serviceDescription": "Multi-tenant, role-based access control for internal and external users.",
+      "securityCategory": "Moderate",
+      "dateAvailable": "2025-09-01"
+    }
+  ],
+  "unresolvedDisclosures": [
+    {
+      "item": 15,
+      "label": "Next Ongoing Certification Report date",
+      "rule": "CCM-OCR-NRD",
+      "state": "Unresolved",
+      "reason": "Set after an initial certification is granted."
+    }
+  ],
+  "ZD_frid_retro": "FR2631054482",
+  "id_matches_expected": true
+}

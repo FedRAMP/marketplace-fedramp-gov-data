@@ -1,0 +1,128 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1311222650",
+    "ueiNumber": "XGTZMLVEG7R9",
+    "providerName": "MIS Sciences Corporation",
+    "serviceName": "GovPoint Cloud Services",
+    "serviceAcronym": "GCS",
+    "serviceDescription": "GCS is a FedRAMP Moderate (previously JAB P-ATO authorized) IaaS/PaaS/SaaS platform offering scalable compute, private cloud, and SaaS solutions to federal agencies. Customers may deploy on shared infrastructure, provision a dedicated private cloud, or co-locate their own hardware within the GCS authorization boundary.\n\nOverview of Authorized Services\n\nCompute (IaaS)\nConfigurable virtual machines balancing CPU, RAM, and high-I/O flash storage; available as pre-hardened images or custom builds.\n\nPrivate FedRAMP Cloud (IaaS)\nDedicated, tenant-isolated compute, networking, and storage fully within the GCS boundary for agencies requiring resource segregation.\n\nBring Your Own Hardware\nCustomer-owned hardware co-located within the GCS boundary, leveraging inherited GCS controls for specialized appliances and equipment.\n\nVirtual Desktop Services (DaaS)\nBrowser-accessible virtual desktops hosted within the GCS boundary, providing agency users with secure, managed access to applications and data from any endpoint without local installation requirements.\n\nAuthorization as a Service (AaaS)\nEnables SaaS providers to inherit GCS controls and deliver FedRAMP-authorized products under the GCS P-ATO.\n\nCalabrio Workforce Engagement Management (SaaS)\nContact center workforce optimization suite covering scheduling, agent performance analytics, and business intelligence.\n\nSharetru Federal (SaaS)\nManaged File Transfer as a Service (MFTaaS) supporting CMMC, ITAR, HIPAA, and PCI-DSS regulated data exchange.\n\nSayari Risk Intelligence (SaaS)\nSupply chain and counterparty risk platform aggregating corporate ownership and trade data from 250+ jurisdictions.\n\nGRID20/20 ATI (SaaS/IoT)\nCloud-based distribution grid and environmental monitoring platform covering wildfire detection, auto-alerting, and AI-enhanced analytics. Field sensor devices operate outside the authorization boundary and feed data into the GCS-hosted ATI application, which is fully within scope.\n\nIGS Bridge (SaaS)\nSecure, platform-agnostic integration suite connecting enterprise and legacy systems (Bridge Connect), coordinating clinical decision support (Bridge Care), standardizing data relationships (Bridge Map), and delivering real-time operational analytics (Bridge Monitor).\n\nAutomated Background Investigation System (ABIS)\nABIS is a personnel security case management system that tracks background investigations for Federal Employees, Contractors, Volunteers, and Interns from initiation through final adjudication. The system allows cases to be checked for transfer of trust, eApp initiation, and to conduct all pre-hire checks, and to make pre-hire and final adjudication determinations. The system also processes security clearances, SEAD-3 self-reporting, Detailee cases, and other types of cases. Interfaces with DCSA's eDelivery, CVS, OF79a Adjudications, and other interfaces are included in the system. The system fully implements Continuous Vetting (CV) and RapBack enrollment/unenrollment and processing of alerts received from CV/Rapback\n\nNXXUS Unified Imaging Intelligence Platform\nNXXUS is a federated enterprise imaging, clinical data, workflow, and AI orchestration platform. With NXXUS, healthcare organizations no longer need to replace their existing infrastructure or undertake a massive data migration; NXXUS creates a unified access and intelligence layer across those systems.\n",
+    "certificationType": "Rev5",
+    "website": "http://www.mis-sciences.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/MIS%20Sciences%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS",
+      "PaaS",
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Data Management",
+      "Development Tools",
+      "Storage",
+      "Virtual Private Network (VPN)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://missc.sharepoint.com/sites/GovPointTrustCenter",
+      "repositoryDescription": "GovPoint Documents, Compliance Scans, SSP, etc",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "For access: email security@mis-sciences.com\nThis will allow user access going forward without re-requesting access\n"
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://missc.sharepoint.com/:f:/s/GovPoint/IgCY9x0kBCzmSakZE-m9uOnFAULJ0WAwfd-58fjFC-pqDIY?e=83FRab",
+      "repositoryDescription": "Recommended Secure Configuratiuon Guides",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "For access: email security@mis-sciences.com\n"
+    },
+    "nextOngoingCertificationReportDate": "2027-04-21"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Jeff Willis",
+      "contactEmail": "security@mis-sciences.com",
+      "contactPhone": "818-847-0213"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Jamie DeLa Torre",
+      "contactEmail": "sales@mis-sciences.com",
+      "contactPhone": "818-847-0213"
+    }
+  ],
+  "assessor": {
+    "name": "First Information Technology Services, Inc.",
+    "assessorID": "137801"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "IGS Bridge Care",
+      "serviceDescription": "Coordinates clinical decision support as part of the IGS Bridge integration suite. TODO: confirm/expand description.",
+      "dateAvailable": "2026-07-01"
+    },
+    {
+      "serviceName": "IGS Bridge Connect",
+      "serviceDescription": "Connects enterprise and legacy systems as part of the IGS Bridge integration suite. TODO: confirm/expand description.",
+      "dateAvailable": "2026-07-01"
+    },
+    {
+      "serviceName": "Calabrio Workforce Engagement Management",
+      "serviceDescription": "Contact center workforce optimization suite covering scheduling, agent performance analytics, and business intelligence.",
+      "dateAvailable": "2024-09-10"
+    },
+    {
+      "serviceName": "GRID20/20 - Advanced Transformer Infrastructure (ATI) - Sensor Devices",
+      "serviceDescription": "TODO: confirm description — how should the sensor device component specifically be scoped/described for the certification package.",
+      "dateAvailable": "2026-03-03"
+    },
+    {
+      "serviceName": "IGS Bridge Map",
+      "serviceDescription": "Standardizes data relationships as part of the IGS Bridge integration suite. TODO: confirm/expand description.",
+      "dateAvailable": "2026-07-01"
+    },
+    {
+      "serviceName": "IGS Bridge Monitor",
+      "serviceDescription": "Delivers real-time operational analytics as part of the IGS Bridge integration suite. TODO: confirm/expand description.",
+      "dateAvailable": "2026-07-01"
+    },
+    {
+      "serviceName": "Private FedRAMP Cloud",
+      "serviceDescription": "Dedicated, tenant-isolated compute, networking, and storage fully within the GCS boundary for agencies requiring resource segregation.",
+      "dateAvailable": "2025-01-01"
+    },
+    {
+      "serviceName": "Sayari Counterparty and Supply Chain Risk Intelligence",
+      "serviceDescription": "Supply chain and counterparty risk platform aggregating corporate ownership and trade data from 250+ jurisdictions.",
+      "dateAvailable": "2025-06-03"
+    },
+    {
+      "serviceName": "Sharetru Federal",
+      "serviceDescription": "Managed File Transfer as a Service (MFTaaS) supporting CMMC, ITAR, HIPAA, and PCI-DSS regulated data exchange.",
+      "dateAvailable": "2026-03-01"
+    },
+    {
+      "serviceName": "Virtual Desktop Services",
+      "serviceDescription": "Browser-accessible virtual desktops hosted within the GCS boundary, providing agency users with secure, managed access to applications and data from any endpoint without local installation requirements.",
+      "dateAvailable": "2025-01-01"
+    },
+    {
+      "serviceName": "Automated Background Investigation System (ABIS)",
+      "serviceDescription": "ABIS is a personnel security case management system that tracks background investigations for Federal Employees, Contractors, Volunteers, and Interns from initiation through final adjudication.",
+      "dateAvailable": "2026-04-01"
+    },
+    {
+      "serviceName": "NXXUS Unified Imaging Intelligence Platform",
+      "serviceDescription": "NXXUS as a federated enterprise imaging, clinical data, workflow, and AI orchestration platform.",
+      "dateAvailable": "2026-09-22"
+    }
+  ],
+  "ZD_frid_retro": "F1311222650",
+  "id_matches_expected": true
+}

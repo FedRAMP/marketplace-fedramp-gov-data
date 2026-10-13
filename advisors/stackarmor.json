@@ -1,0 +1,40 @@
+{
+  "$schema": "https://www.fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
+  "advisorName": "stackArmor",
+  "logo": "https://stackarmor.com/wp-content/uploads/2023/11/stackArmor-QS-Logo-Lockups-Full-colors-1024x574.png",
+  "serviceDescription": "stackArmor is a cloud security engineering and FedRAMP Certification advisory company that helps cloud service providers design, build, certify, operate, and continuously improve secure cloud services for the U.S. Government. stackArmor supports customers across the full FedRAMP Certification lifecycle, including strategy, readiness planning, implementation, certification package development, agency adoption, ongoing certification activities, continuous monitoring, and operational security. stackArmor's approach is practical and engineering-led, helping organizations implement secure cloud architectures, operational security capabilities, and objective security evidence that support successful FedRAMP Certifications. stackArmor can support traditional and machine-readable security artifacts, including OSCAL where appropriate, without requiring customers to adopt a single artifact format, platform, or compliance tooling ecosystem.",
+  "contactInformation": [
+    "stackArmor, Inc.",
+    "Website: https://stackarmor.com",
+    "Contact: https://stackarmor.com/about-us/contact-us/",
+    "Email: solutions@stackarmor.com"
+  ],
+  "servicesOffered": [
+    {
+      "serviceName": "FedRAMP Certification Advisory",
+      "serviceDescription": "stackArmor provides advisory and implementation support for cloud service providers pursuing or maintaining FedRAMP Certification across FedRAMP Classes A-D. Services include FedRAMP Certification strategy and readiness assessments, certification boundary definition, agency adoption planning, certification package planning and development, NIST SP 800-53 Rev. 5 implementation guidance, security documentation and implementation evidence development, traditional and machine-readable security artifacts, Collaborative Continuous Monitoring support, Vulnerability Detection and Response implementation, Routine, Adaptive, and Transformative change planning, and ongoing certification support."
+    },
+    {
+      "serviceName": "Cloud Security Engineering",
+      "serviceDescription": "stackArmor helps customers design and implement secure cloud environments that can be operated, monitored, assessed, and improved over time. Services include secure cloud architecture reviews, cloud landing zone design, Identity and Access Management, Zero Trust architecture, network security architecture, cloud workload protection, Infrastructure-as-Code security, security monitoring and logging, incident response readiness, and vulnerability management."
+    },
+    {
+      "serviceName": "Security Engineering and Compliance Automation",
+      "serviceDescription": "stackArmor helps customers use automation to reduce manual compliance effort, improve evidence quality, and support ongoing certification activities. Services include compliance automation, automated evidence collection, AI-assisted compliance workflows, documentation automation, continuous compliance monitoring, machine-readable security artifacts where appropriate, FedRAMP 20x implementation support, security-as-code and policy automation support, and integration of compliance evidence across cloud-native tooling, security platforms, and customer-selected reporting formats."
+    },
+    {
+      "serviceName": "Operational Security Support",
+      "serviceDescription": "stackArmor supports post-certification and operational security activities that help cloud service providers maintain secure and compliant environments over time. Services include security operations advisory, cloud security operations, continuous vulnerability management, incident response support, secure cloud operations, security monitoring and reporting, and operational readiness support for ongoing certification activities."
+    },
+    {
+      "serviceName": "Related Cybersecurity and Compliance Advisory",
+      "serviceDescription": "stackArmor supports related cybersecurity and compliance programs, including NIST Risk Management Framework, FISMA, DoD Cloud Computing Security Requirements Guide, CMMC, GovRAMP, CJIS, HIPAA, and state and local government cloud security programs."
+    }
+  ],
+  "customerReferences": [
+    "Representative customer success stories, partnerships, and technical capabilities are available on the stackArmor website.",
+    "Additional customer references may be provided upon request, subject to customer approval."
+  ],
+  "ZD_assessor_advisor_name": "stackArmor",
+  "fedramp_listing_timestamp": "2026-10-02T20:17:02.951Z"
+}

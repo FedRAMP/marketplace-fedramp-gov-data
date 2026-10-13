@@ -1,0 +1,90 @@
+{
+  "packageMetadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-08-20",
+    "sourceOfUpdate": "Initial Implementation submission for InEight Document US Government",
+    "responsibleOfficial": {
+      "name": "Jeff Hoge",
+      "title": "Director, Federal Compliance",
+      "email": "jeff.hoge@ineight.com"
+    }
+  },
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2520254824",
+    "providerName": "InEight, Inc.",
+    "serviceName": "InEight Document US Government",
+    "serviceAcronym": "InEight Document USG",
+    "serviceDescription": "InEight Document is construction document control software that is uniquely suited to the demands of complex construction due to its configurability and tracking capabilities. This SaaS offering for the US Government uses a multi-tenant Government-Only cloud computing environment. It is available to public, federal, state, local, and tribal governments, as well as research institutions, federal contractors, and government contractors.",
+    "certificationType": "Rev5",
+    "website": "https://ineight.com/products/ineight-document/",
+    "logo": "https://in8usgstdstorage.z3.web.core.usgovcloudapi.net/ineight_logo_200-02.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Collaboration",
+      "Communication",
+      "Construction",
+      "Data Management",
+      "Operations Management",
+      "Storage"
+    ],
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://learn.ineight.com/Document_Enhanced/Content/Categories/CategorySnippets/Supplemental/Secure_Configuration_Guide.pdf",
+      "repositoryDescription": "Secure Configuration Guide for InEight Document US Government.",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "InEight FedRAMP Security",
+      "contactEmail": "fedramp@ineight.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "InEight Sales",
+      "contactEmail": "sales@ineight.com"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "InEight Document US Government",
+      "serviceDescription": "InEight Document US Government provides construction document control, collaboration, communication, data management, operations management, and storage capabilities within the FedRAMP Moderate assessment boundary.",
+      "dateAvailable": "2025-06-26"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603087869",
+        "useCase": "Microsoft Azure Government provides the underlying cloud infrastructure, platform services, identity services, and hosting environment supporting InEight Document US Government."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1824057433",
+        "useCase": "Microsoft 365 Government Community Cloud-High provides authorized collaboration and support services supporting InEight Document US Government."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2116544598A",
+        "useCase": "Keeper Security Government Cloud Password Manager and Privileged Access Manager provides secure storage and management of system-level secrets, passwords, and privileged credentials supporting InEight Document US Government."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1814276801",
+        "useCase": "Tenable Government Solutions provides vulnerability scanning, vulnerability management, and associated system security data used to assess and protect InEight Document US Government."
+      }
+    ],
+    "nonCertified": []
+  },
+  "ZD_frid_retro": "FR2520254824",
+  "id_matches_expected": true
+}

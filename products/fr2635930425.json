@@ -1,0 +1,153 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2615952421",
+    "ueiNumber": "TSC8H3ARS934",
+    "providerName": "CodeSignal, Inc.",
+    "serviceName": "CodeSignal",
+    "serviceAcronym": "TBD",
+    "serviceDescription": "CodeSignal is a multi-tenant SaaS platform for technical and non-technical skills evaluation and development. It provides pre-hire assessments delivered in a browser-based IDE, live collaborative technical interviews, AI-conducted screening interviews, behavioral and cognitive assessments, assessment proctoring and integrity services, experiential technical learning, and the integration, administration, reporting, identity, and API services that support them.\n\nThe offering is hosted on Amazon Web Services in the United States. Tenant data is logically segregated.\n\nCustomer data handled includes candidate, learner, and user PII (name, email address, IP address), assessment and learning content, submitted work, results, and, for the proctoring and integrity services, government-issued identity documents and session video. The offering does not process protected health information or cardholder data.\n\nSeveral services use third-party foundation model subprocessors.",
+    "certificationType": "20x",
+    "website": "https://codesignal.com",
+    "logo": "https://codesignal.com/wp-content/uploads/2025/01/codesignal-logo-small.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Human Resources",
+      "Talent Management",
+      "Talent Development",
+      "Education & Training",
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.codesignal.com",
+      "repositoryDescription": "CodeSignal Trust Center. Hosts security and compliance artifacts including the SOC 2 Type II report, penetration test summaries, the subprocessor list, the Data Processing Addendum, and the privacy policy.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "The Trust Center landing page is publicly viewable. Downloading reports and other controlled artifacts requires requesting access through the Trust Center. Access is granted automatically on a matching corporate email domain, or after execution of a non-disclosure agreement."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Product Documentation"
+        ],
+        "url": "https://support.codesignal.com/hc/en-us",
+        "repositoryDescription": "CodeSignal Help Center. Product, administration, and integration guides for platform users and organization administrators, including SSO and SAML setup, SCIM provisioning, session and password policy, IP restriction, and organization security settings.",
+        "authenticationRequired": false
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Kyle Ma",
+      "contactEmail": "fedramp@codesignal.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Brian Green",
+      "contactEmail": "brian.green@ext.codesignal.com",
+      "contactPhone": "202-262-0242"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Technical Assessments (Pre-Screen and Certify)",
+      "serviceDescription": "Certified and customizable coding assessments delivered in a browser-based IDE, including the General Coding Assessment, the Industry Coding Framework, and customer-authored assessments. Handles candidate PII (name, email address, IP address), submitted code, scores, and proprietary assessment content."
+    },
+    {
+      "serviceName": "Live Technical Interviews (CodeSignal Interview)",
+      "serviceDescription": "Real-time collaborative coding interviews with a shared IDE, video, audio, chat, whiteboard, session recordings, and scorecards. Handles candidate PII and audio/video session recordings."
+    },
+    {
+      "serviceName": "AI Interviewer",
+      "serviceDescription": "AI-conducted automated screening interviews with scoring and human-in-the-loop review. Handles candidate PII, interview transcripts, and scores. Uses third-party foundation model subprocessors."
+    },
+    {
+      "serviceName": "Cosmo (AI assistant in Hire)",
+      "serviceDescription": "AI assistant and copilot embedded in the hiring product for assessment authoring, insights, and workflow support. Uses third-party foundation model subprocessors."
+    },
+    {
+      "serviceName": "Non-Technical and Soft-Skills Assessments",
+      "serviceDescription": "Role-play and simulation assessments for sales, customer success, marketing, human resources, product, and leadership roles. Handles candidate PII and submitted responses."
+    },
+    {
+      "serviceName": "Behavioral Profile Assessment (BPA)",
+      "serviceDescription": "Five-Factor-Model behavioral assessment. Handles candidate PII and psychometric responses."
+    },
+    {
+      "serviceName": "Cognitive Reasoning Assessment (CRA)",
+      "serviceDescription": "Numerical, verbal, and abstract reasoning assessment. Handles candidate PII and submitted responses."
+    },
+    {
+      "serviceName": "Proctoring and Integrity (add-on)",
+      "serviceDescription": "AI and human proctoring covering government-issued ID verification, photo and video capture, browser lockdown, plagiarism and similarity detection, suspicion scoring, session recording, and Leak Sweep content monitoring. Handles government-issued identity documents and candidate video."
+    },
+    {
+      "serviceName": "CodeSignal Learn",
+      "serviceDescription": "Experiential technical learning platform with guided learning paths, hands-on coding labs, and practice simulations. Handles learner PII (name, email address, IP address), course progress, and submitted work."
+    },
+    {
+      "serviceName": "Cosmo AI Tutor",
+      "serviceDescription": "Personalized AI tutor available within the learning product. Handles learner PII, learning activity, and submitted work. Uses third-party foundation model subprocessors."
+    },
+    {
+      "serviceName": "Integrations (ATS, HRIS, and Scheduling)",
+      "serviceDescription": "Prebuilt integrations with applicant tracking systems, human resource information systems, and scheduling platforms. Transfers candidate PII and assessment results to customer systems."
+    },
+    {
+      "serviceName": "SSO (SAML) and SCIM Provisioning",
+      "serviceDescription": "SAML single sign-on with SCIM and just-in-time user provisioning. Handles customer identity and account data. Supporting service within the system boundary."
+    },
+    {
+      "serviceName": "Public API and Developer API",
+      "serviceDescription": "REST API for assessment creation and distribution, result retrieval, and organization administration. Supporting service within the system boundary."
+    },
+    {
+      "serviceName": "Admin Console and Reporting/Analytics",
+      "serviceDescription": "Organization administration, role-based access control, and reporting and analytics dashboards. Supporting administrative interface within the system boundary."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "nonCertified": [
+      {
+        "name": "OpenAI API",
+        "provider": "OpenAI",
+        "website": "https://openai.com",
+        "useCase": "Foundation model inference. Used by the AI-assisted features of the hiring product and by the AI tutor in the learning product. Candidate and learner prompt content, including submitted code, is transmitted to the provider's commercial API."
+      },
+      {
+        "name": "Anthropic API",
+        "provider": "Anthropic",
+        "website": "https://www.anthropic.com",
+        "useCase": "Foundation model inference. Used by the AI-assisted features of the hiring product and by the AI tutor in the learning product. Candidate and learner prompt content, including submitted code, is transmitted to the provider's commercial API."
+      },
+      {
+        "name": "Google Gemini API",
+        "provider": "Google LLC",
+        "website": "https://ai.google.dev",
+        "useCase": "Foundation model inference. Used by the AI-assisted features of the hiring product and by the AI tutor in the learning product. Candidate and learner prompt content is transmitted to the provider's commercial API."
+      },
+      {
+        "name": "xAI Grok API",
+        "provider": "xAI",
+        "website": "https://x.ai",
+        "useCase": "Foundation model inference. Available as a selectable model category for AI-assisted features in the hiring product."
+      },
+      {
+        "name": "Octavus",
+        "provider": "Octavus",
+        "website": "https://octavus.ai",
+        "useCase": "Third-party agentic platform providing AI agent sessions embedded in the hiring product. Session content and associated candidate context are processed by the provider."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2635930425",
+  "id_matches_expected": false
+}

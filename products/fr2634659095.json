@@ -1,0 +1,125 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2634659095",
+    "providerName": "Cisco Systems, Inc.",
+    "serviceName": "Cisco Cloud Control with AgenticOps",
+    "serviceAcronym": "Cisco Cloud Control",
+    "serviceDescription": "Cisco Cloud Control with AgenticOps\nCisco Cloud Control with AgenticOps serves as the autonomous control\nplane for hybrid cloud environments. By integrating \"AgenticOps\"—a\nframework of specialized, task-oriented AI agents—the system moves\nbeyond traditional automation into autonomous remediation and lifecycle\nmanagement. It is designed to handle complex compliance requirements by\nenabling agents to autonomously detect drift, perform vulnerability\nremediation, and ensure that infrastructure state remains continuously\naligned with defined security policies.\nCisco Cloud Control is the unified management and orchestration platform\nfor hybrid and multi-cloud environments. It acts as the central plane for\ngoverning, securing, and operating distributed infrastructure, providing\nconsistent policy enforcement and lifecycle automation across disparate\ncloud services and data centers. By centralizing management, it eliminates\noperational silos, streamlines compliance, and ensures that infrastructure\nremains performant and secure at scale.\nThe Rich Suite of Offers\nTo support the autonomous capabilities of Cloud Control, the following\nproducts integrate into a cohesive operational ecosystem:\n1. AI Canvas\n● Description: The design and orchestration workbench for the\nAgenticOps ecosystem. AI Canvas provides a visual interface for\nengineering teams to design, model, and deploy autonomous agents.\nIt allows for the mapping of complex operational workflows into\nexecutable logic, ensuring that agents are constrained by well-defined\noperational boundaries before they are deployed to manage\nproduction environments.\n2. AI Assistant\n● Description: The natural language operational interface for the suite.\nAI Assistant bridges the gap between human intent and machine\nexecution. It enables engineers to query system status, request\ncomplex remediation tasks, or gain insights into compliance posture\nthrough conversational interactions. It serves as the primary gateway\nfor users to interface with the autonomous agents created in AI\nCanvas.\n3. Cisco IQ\n● Description: The centralized intelligence and observability engine.\nCisco IQ processes massive streams of telemetry data from across the\ncloud infrastructure to provide actionable insights. It serves as the\n\"brain\" for the agents, providing the contextual data required for\ninformed decision-making, trend analysis, and predictive modeling,\nensuring that operational actions are grounded in current, real-time\ndata.\n4. AI Defense\n● Description: The dedicated security layer for the AI model pipeline\nand agentic infrastructure. AI Defense provides the necessary\nguardrails to protect AI models from adversarial manipulation, data\nleakage, and unauthorized access. In high-compliance environments,\nit ensures that the models driving the agents are hardened, verifiable,\nand protected against vulnerabilities that could compromise the\nintegrity of the automated security remediation processes.",
+    "certificationType": "20x",
+    "website": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/agentic-ops/cisco-cloud-control/index.html",
+    "logo": "https://brand-assets.security.cisco.com/cisco-light.svg",
+    "certificationClass": "Class A",
+    "certificationPath": "Program"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Cybersecurity & Risk Management",
+      "Network Management",
+      "System Administration"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/ciscoaidefense",
+      "repositoryDescription": "FedRAMP Trust Center for the Cloud Service Offering.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "",
+      "agencyAccessDenialProcess": "Agency can send email to cisco-fedramp@cisco.com for help with any\nproblems related to access to the Trust Center."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://securitydocs.cisco.com/docs/ai-def/user/97360.ditamap",
+      "repositoryDescription": "Secure Configuration Guidance for the Cloud Service Offering.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": ""
+    },
+    "ongoingCertificationReportLocation": "San Jose, California",
+    "nextOngoingCertificationReportDate": "2026-12-05"
+  },
+  "contactInformation": [
+    {
+      "contactType": "FedRAMP Security Inbox",
+      "contactEmail": "cisco-fedramp@cisco.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "aidefense-partner@cisco.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Omar Sheikh",
+      "contactEmail": "cisco-fedramp@cisco.com"
+    }
+  ],
+  "alternativeSecurityFramework": {
+    "frameworkUsed": "SOC 2 Type II",
+    "impactLevelScope": "N/A, SOC 2 Type II",
+    "dateCompleted": "2025-12-05",
+    "certifyingBody": "AICPA/BDO",
+    "independentAssessmentIncluded": "Yes",
+    "mappingToFedRampRules": "Executive Summary\nThis report provides a mapping of the existing control activities documented in\nthe Cisco AI Defense SOC 2 Type 2 Report (July 1, 2025 – September 30, 2025,\nAuditor Report issued Dec. 5, 2025) against the FedRAMP 2026 Consolidated\nRules for Class A certification. This analysis is intended to support your Level of Effort\n(LOE) estimate for FedRAMP 20x Class A certification.\nMapping Summary: SOC 2 Controls to FedRAMP 20x Class A Requirements\nFedRAMP SOC 2 Compliance Status\nRule Control\nMapping\nFRC-CSO- CCF-CCC- Package developed for FedRAMP Class a Submission\nPKG 01.01\nFRC-CSO- FR Mapping existing artifacts to FedRAMP JSON schema\nJSN Requirement completed with FedRAMP Submission.\nFRC-CSO- FR Internal choice to select Program path, 20x, Class A\nPOP Requirement\nMAS-CSO- CCF-DSP- Annual asset reconciliation proven in SOC 2.\nIIR 01.02\nCDS-CSO- FR Package developed for FedRAMP Class a Submission\nPUB Requirement\nCDS-CSO- FR Establish FedRAMP-compatible Trust Center in\nUTC Requirement Paramify\nCDS-UTC- FR Pending: Specific notification procedure for access\nAAD Requirement denial. Users to notify Cisco via our security email cisco-\nfedramp@cisco.com\nAFC-CSO- New Requires dedicated Security Inbox (FSI) cisco-\nINB Requirement fedramp@cisco.com\nAFC-CSO- CCF-SEF- Incident response channel exists; update for FSI.\nRCV 01.01\nAFC-CSO- CCF-SEF- Incident response timeline management exists.\nCRA 01.01\nIEC-CSO- CCF-SEF- Incident evaluation metrics proven in SOC 2.\nEFR 02.01\nIEC-CSO- CCF-SEF- Incident resolution/reporting exists.\nFIR 02.01\nVDR-CSO- CCF-TVM- Daily vulnerability scanning in place.\nDET 02.01\nCCM-OCR- FR Package vulnerability reports into OCR format.\nAVL Requirement\nCCM-OCR- FR December 2026\nNRD Requirement\nIVV-CSX- CCF-TVM- Annual penetration testing is in place.\nAIA 02.02\nKSI-CMT- KSI-CMT- Existing change logging is robust.\nLMC LMC (SOC)\nKSI-CNA- KSI-CNA- AWS security groups/firewall logic proven.\nRNT RNT (SOC)\nKSI-CED- KSI-CED- Training/Education exists in SOC 2.\nRAT RAT (SOC)\nKSI-IAM- KSI-IAM- Automation via HRMS/Active Directory proven.\nAAM AAM (SOC)\nKSI-IAM- CCF-IAM- MFA/SSO usage validated.\nAPM 02.02\nKSI-INR- KSI-INR- Annual IR tabletop exercises proven.\nRIR RIR (SOC)\nKSI-SVC- KSI-SVC- TLS/Encryption at rest proven.\nSIN SIN (SOC)\nKSI-IAM- KSI-INR- Past incident review process exists.\nINR RPI (SOC)\nDetails Analysis/ Evidence of Automation (KSI Focus)\nThe FedRAMP 20x rules heavily emphasize Persistent and Automated activities.\n• Strengths: AI Defense SOC 2 report confirms the use of Datadog for\navailability monitoring (CCF-STA-03.02) and Jenkins/ArgoCD for automated\nCI/CD pipeline validation (CCF-CCC-04.02).\n• FedRAMP 20x Class A requires the JSON schema output for these\nactivities. AI Defense SOC 2 proves the existence of the control; AI Defense\nwill ensure these tools output to the specific FedRAMP JSON schema\n.\nrequired by FRC-CSO-JSN\nPenetration Testing Requirements\n• Rule: FRC-CLA-MFR mandates annual penetration testing (CCF-TVM-\n02.02 in your SOC 2).\n• AI Defense SOC 2 report confirms annual pen testing was performed.\nData Flow and Scope\n• Rule: MAS-CSO-IIR requires a machine-readable inventory of all information\nresources.\n• AI Defense have CCF-DSP-01.02 (Inventory maintenance) and CCF-DSP-\n02.02 (Data flow documentation). Since these already exist in Defense SOC 2\ndescription, the LOE for this requirement is primarily formatting (mapping current\ninventory artifacts into the FedRAMP JSON/OSCAL structure) which is done at\ntime of submission to FedRAMP.\nAdditional Notes on Implementations\n• JSON Schema Mapping (FRC-CSO-JSN & CDS-CSO-PUB): Defense SOC 2\nreport contains rich control evidence. The biggest lift for Class A is moving\nfrom documentary evidence (PDFs) to structured data (JSON/OSCAL). Defense\nCompliance team will export existing audit logs from Splunk and AWS CloudTrail\ndirectly into the FedRAMP JSON schema format defined in the ruleset.\n• Addressing \"New\" Requirements: Rules like AFC-CSO-INB (Security Inbox)\nand CDS-CSO-UTC (Trust Center) are not typically found in SOC 2 reports.\nThese are operational requirements. Since Cisco AI Defense already has an\nestablished Incident Response and Communication procedure (CCF-SEF-01.01),\nAI Defense leverages existing communication protocols and use\nthe fedramp_security@cisco.com alias to satisfy this rule.\n• Refining \"Persistent\" Indicators: Several rules require \"persistent\" verification\n(e.g., KSI-CNA-MAT, KSI-CNA-RNT). AI Defense’s SOC 2 audit tested these on\nan annual or quarterly basis. To satisfy 20x, cadence is persistently (e.g.,\nautomated weekly check) and ensure Datadog or AWS Security Hub configuration\nsnapshots document this frequency.\nAgency Use Case: MKT-IIP-AGU. SOC 2 confirms the AI Defense System is\ndesigned to identify and manage AI model risks across distributed environments. This\nis AI Defense’s \"Direct Use\" case justification for the FedRAMP marketplace listing.",
+    "documentation": [
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Complete report",
+        "location": "Yes. Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Bridge or gap letter",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Verified audit engagement documentation",
+        "location": "Yes. Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Estimated schedule for upcoming report",
+        "location": "Next report is due to Cisco AI Defense December 5, 2026"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Supplemental compliance evidence",
+        "location": "Please see Trust Center"
+      }
+    ]
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Cisco Cloud Control.",
+      "serviceDescription": "Security Cloud Control is Cisco’s unified, cloud-native security management\ninterface for the Cisco Security Cloud. It simplifies and strengthens\ndefenses by centralizing security solutions into a single, cohesive interface.\nThis approach eliminates silos, reduces complexity, and provides end-to-\nend visibility, empowering organizations to proactively address security",
+      "dateAvailable": "2026-08-25"
+    },
+    {
+      "serviceName": "Cisco AI Defense",
+      "serviceDescription": "Cisco AI Defense is a comprehensive AI security solution designed to\nsecure AI models, applications, and agents throughout their lifecycle. It\nprovides continuous discovery of AI assets such as models, agents, and\ndatasets across cloud environments including AWS. The service detects\nvulnerabilities through automated model validation, supply chain scanning,\nand algorithmic red teaming. It protects AI workloads at runtime with\nguardrails that block harmful inputs and outputs, preventing threats like\nprompt injection, data leakage, and unsafe agent behavior.",
+      "dateAvailable": "2025-03-30"
+    },
+    {
+      "serviceName": "Cisco AI Canvas",
+      "serviceDescription": "AI Canvas is a shared operational workspace where people and AI agents\nwork together to investigate and resolve IT issues.\nAn investigation in AI Canvas can bring together information from Cisco\nproducts and integrated third-party systems—such as monitoring, incident-\nmanagement, security, automation, and knowledge-management tools—\nalong with uploaded files, organizational knowledge, and specialized AI\nagents."
+    },
+    {
+      "serviceName": "Cisco IQ",
+      "serviceDescription": "Cisco IQ is a suite of AI-powered applications designed to enhance the\ncustomer experience by delivering real-time insights, assessments,\ntroubleshooting, learning, automation, and agent-driven guidance\nthroughout the entire customer lifecycle. It connects the entire customer\njourney with Cisco Services, helping customers plan, deploy, manage,\nsecure, and optimize their IT environments. Cisco IQ provides a unified,\ninteractive digital experience available via SaaS, with upcoming On-\nPremises and API deployment options.",
+      "dateAvailable": "2026-04-24"
+    },
+    {
+      "serviceName": "Cisco AI Assistant",
+      "serviceDescription": "Cisco AI Assistant is an intelligent, conversational AI tool integrated into\nCisco network management platforms such as the Meraki dashboard and\nCisco Catalyst Center. It enables IT teams to expedite routine tasks, gain\nreal-time network insights, and optimize network performance using natural\nlanguage prompts. The assistant leverages Cisco’s Deep Network Model\nand global expertise to provide context-aware insights, automate routine\nworkflows, and accelerate troubleshooting with step-by-step guidance and\ndocumentation summaries. It helps simplify network management by\ndelivering real-time health information, identifying root causes of issues,\nand enabling automated configuration changes through conversational\ncommands. Cisco AI Assistant is designed to reduce manual errors,\nincrease efficiency, and empower IT teams to operate with greater\nconfidence and productivity across their networks",
+      "dateAvailable": "2025-12-01"
+    }
+  ],
+  "ZD_frid_retro": "FR2634659095",
+  "id_matches_expected": true
+}

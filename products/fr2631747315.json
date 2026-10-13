@@ -1,0 +1,81 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631747315",
+    "ueiNumber": "FYX9J759QPE4",
+    "providerName": "Sustainment Technologies Inc.",
+    "serviceName": "Sustainment Digital Manufacturing Hub",
+    "serviceAcronym": "DMH",
+    "serviceDescription": "Sustainment Digital Manufacturing Hub (DMH) is a cloud-based supplier discovery and market research platform that helps government agencies identify, evaluate, and connect with qualified U.S. manufacturing suppliers. DMH provides AI-driven supplier intelligence, including capabilities data, certifications, machine and process information, and past performance context. Our platform enables acquisition teams, program offices, and sourcing specialists to conduct market research and strengthen the defense industrial base. DMH is the government enclave of the Sustainment platform, purpose-built for federal security and compliance requirements.",
+    "certificationType": "20x",
+    "website": "https://sustainment.com",
+    "logo": "https://fedramp.sustainment.com/ST_Horizontal_Logo_RGB_Blk.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "businessCategory": [
+      "Operations Management",
+      "Collaboration",
+      "Analytics",
+      "Artificial Intelligence (AI)",
+      "Data Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trustcenter.sustainment.com/",
+      "repositoryDescription": "Sustainment Technologies Inc. public facing trust center.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Access to the full Trust Center is currently controlled, contact security@sustainment.com for access."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://fedramp-20x-2d57df.gitlab.io/scg.html",
+      "repositoryDescription": "Sustainment Technologies Inc. private trust center which currently houses the Secure Configuration Guidance for Sustainment Digital Manufacturing Hub (DMH).",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access to Secure Configuration Guidance is currently controlled, contact security@sustainment.com for access."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Security Decision Record"
+        ],
+        "url": "https://fedramp-20x-2d57df.gitlab.io/sdr.html",
+        "repositoryDescription": "Security Decision Record for Sustainment Digital Manufacturing Hub (DMH), published in human-readable form alongside its machine-readable counterpart at /security_decision_record.json.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Access to the Security Decision Record is currently controlled, contact security@sustainment.com for access."
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Zachary Tschirhart",
+      "contactEmail": "zachary.tschirhart@sustainment.com",
+      "contactPhone": "833-412-1962"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Chris Hill",
+      "contactEmail": "sales@sustainment.com",
+      "contactPhone": "833-412-1962"
+    }
+  ],
+  "assessor": {
+    "name": "Prescient Security",
+    "assessorID": "202040"
+  },
+  "certifiedServices": [],
+  "thirdPartyInformationResources": {
+    "certified": [],
+    "nonCertified": []
+  },
+  "ZD_frid_retro": "FR2631747315",
+  "id_matches_expected": true
+}

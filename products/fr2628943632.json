@@ -1,0 +1,93 @@
+{
+  "serviceIdentification": {
+    "providerName": "Pryme Infil, Inc.",
+    "serviceName": "Pryme Infil",
+    "serviceAcronym": "PRYME",
+    "serviceDescription": "Cloud-based command-and-control platform for public safety operations, providing operational planning, real-time team coordination, encrypted messaging, GPS mapping, risk assessments, and after-action documentation for law enforcement and public safety agencies.",
+    "certificationType": "20x",
+    "fedRampPackageId": "FR2628943632",
+    "ueiNumber": "Z363L7GPL7P9",
+    "website": "https://www.prymeinfil.com/",
+    "logo": "https://cdn.prod.website-files.com/698cfd876cf33430c0e79e6b/69e90cda3b41e585b3212654_pryme%20infil%20logo%20small-01.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "businessCategory": [
+      "Law Enforcement",
+      "Operations Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://app.vanta.com/prymeinfil/trust/7tlcmt81p2x555bymou4kr",
+      "repositoryDescription": "Pryme Infil Trust Center — security and compliance documentation for agencies evaluating the offering.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Visit the Trust Center and select the document you wish to review. You will be presented with a request form; submit it to request access. Pryme Infil reviews each request and grants access to the requested documents once approved."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://app.vanta.com/prymeinfil/trust/7tlcmt81p2x555bymou4kr/resources?s=329nbsfnmtgsp5fldc4awl&name=secure-configuration-guide",
+      "repositoryDescription": "Secure Configuration Guide for agency administrators — how to securely access, configure, operate, and decommission privileged accounts, and the security implication of each administrative setting.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access the guide through the Pryme Infil Trust Center: select the document and submit the request form. Pryme Infil reviews each request and grants access once approved."
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "Jarred Pereira",
+      "contactEmail": "sales@prymeinfil.com",
+      "contactPhone": "707-505-5004"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Mike Cowgill",
+      "contactEmail": "security@prymeinfil.com",
+      "contactPhone": "707-505-5004"
+    }
+  ],
+  "assessor": {
+    "name": "Insight Assurance",
+    "assessorID": "203355"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Operational Planning & Coordination",
+      "serviceDescription": "Tactical operation and event planning (SMEAC, course of action, breach and energetic-breach plans, contingencies, deconfliction, control points, briefings, negotiations), structured risk assessment, real-time operational messaging and channels, live and historical GPS mapping of personnel and assets, and in-app, email, and push notifications.",
+      "dateAvailable": "2023-03-10"
+    },
+    {
+      "serviceName": "After-Action & Incident Reporting",
+      "serviceDescription": "After-action reports, use-of-force and injury reporting, property damage, medical aid, and evidentiary finds.",
+      "dateAvailable": "2023-03-10"
+    },
+    {
+      "serviceName": "Training & Readiness",
+      "serviceDescription": "Training events, training matrices, qualification tracking and compliance results, and K9 program management (certifications, health records, deployments, training logs).",
+      "dateAvailable": "2023-03-10"
+    },
+    {
+      "serviceName": "Personnel & Resource Management",
+      "serviceDescription": "Teams, rosters, personnel and applicant profiles, emergency contacts, personas and permissions, and inventory and assignment of equipment and assets (drones, chemical agents, body-worn cameras, firearms, less-lethal weapons, radios, vehicles, GPS devices).",
+      "dateAvailable": "2023-03-10"
+    },
+    {
+      "serviceName": "Records, Forms & Document Management",
+      "serviceDescription": "Upload, storage, and organization of operational documents, images, and media in per-tenant encrypted storage; custom form templates, captured form data, and agency-configurable data dictionary fields.",
+      "dateAvailable": "2026-04-06"
+    },
+    {
+      "serviceName": "Dashboards & Analytics",
+      "serviceDescription": "Configurable dashboards and widgets with an analytics layer over tenant operational data.",
+      "dateAvailable": "2025-07-08"
+    }
+  ],
+  "ZD_frid_retro": "FR2628943632",
+  "id_matches_expected": true
+}

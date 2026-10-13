@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "$schemaVersion": "0.1.2",
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2630354511",
+    "ueiNumber": "SZUJPFHV8JA3",
+    "providerName": "VisualVault LLC",
+    "serviceName": "VisualVault Cloud",
+    "serviceAcronym": "VisualVault Cloud",
+    "serviceDescription": "VisualVault is a secure, scalable platform that helps government agencies automate constituent-facing processes that require Compliance and Enforcement — from licensing and permitting to case management and general compliance enforcement. It enables agencies to configure workflows and adapt to evolving requirements.",
+    "certificationType": "20x",
+    "website": "https://www.visualvault.com",
+    "logo": "https://www.visualvault.com/static/c53c7cdcf1ab9d0f01e5719462cd1b2d/vvlogo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Governance, Risk, and Compliance (GRC)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/visualvault/visualvault",
+      "repositoryDescription": "VisualVault Cloud FedRAMP Trust Center. Publishes compliance programs, controls, third-party interconnections, and package deliverables.",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "VisualVault FedRAMP Team",
+      "contactEmail": "fedramp-security@visualvault.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "VisualVault Federal Sales",
+      "contactEmail": "fedramp-sales@visualvault.com"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  },
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "AWS GovCloud (US) hosts VisualVault Cloud's infrastructure for the government-exclusive offering."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603087869",
+        "useCase": "Microsoft Entra ID (via Azure Government) provides internal corporate single sign-on for personnel accessing VisualVault Cloud."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1807853629A",
+        "useCase": "CrowdStrike Falcon Platform for Government provides endpoint detection and response across VisualVault's corporate AWS and AWS GovCloud infrastructure, via separate subscriptions for each environment."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2201340492",
+        "useCase": "KnowBe4 Platform provides security awareness training for VisualVault personnel."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2630354484",
+  "id_matches_expected": false
+}

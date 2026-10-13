@@ -1,0 +1,56 @@
+{
+  "serviceIdentification": {
+    "providerName": "International Vending Management, Inc.",
+    "serviceName": "SmartHub",
+    "serviceAcronym": "SH",
+    "serviceDescription": "IVM SmartHub is an intelligent, centralized access and asset management solution designed to streamline how organizations control, track, and manage access to IVM Smart Solutions. Built for modern workplaces, government agencies, IT teams, and distributed operations, SmartHub provides secure self-service access to connected IVM solutions while maintaining full accountability through automated tracking and chain-of-custody workflows.\n \nWith SmartHub, organizations can reduce manual administrative tasks, improve operational visibility, and provide 24/7 controlled access to IVM Smart Solutions without requiring constant onsite support. The system helps teams manage users, permissions, access activity, inventory visibility, and asset workflows in real time, improving audit readiness and ensuring the right users have access to the right solutions when they need them.\n \nWhether supporting IT service delivery, field operations, onboarding, break/fix replacement, or controlled equipment distribution, IVM SmartHub delivers a smarter, more secure, and more efficient way to manage access across the IVM Smart Solutions ecosystem.",
+    "certificationType": "20x",
+    "fedRampPackageId": "FR2628943629",
+    "website": "https://www.ivminc.com",
+    "logo": "https://trustcenter.gov.ivminc.com/img/ivm-logo.webp",
+    "ueiNumber": "X7PFXJTGKKC4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Operations Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trustcenter.gov.ivminc.com/",
+      "repositoryDescription": "IVM FedRAMP Trust Center — Certification Data landing page and access instructions.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Documentation"
+        ],
+        "url": "https://trustcenter.gov.ivminc.com/",
+        "repositoryDescription": "The provider delivers a complete, structurally validated compliance documentation package for the IVM Cloud Service Offering (CSO) built on Microsoft Azure. This package establishes the Class C (No CUI) security boundary, outlines control responsibilities, and provides the framework for continuous machine-readable telemetry.The provided documentation suite consists of the following core artifacts:System Security Plan (SSP) & System Boundary Diagram: A comprehensive implementation guide detailing how the SaaS application inherits physical and environmental controls from the FedRAMP-authorized Azure platform, manages its public-facing (unauthenticated) ingestion boundary via Azure Front Door/WAF, and strictly enforces IAL2/AAL2 phishing-resistant identity controls for all internal administrative staff.Corporate Security Policies and Procedures Reference Index: A cross-referenced directory mapping internal operational policies (including Access Control, Incident Response, and Configuration Management) to specific FedRAMP Class C Practices, complete with document IDs, revision dates, and operational scope summaries.Customer-Facing Secure Configuration Guide: A deployment manual provided to federal consumers detailing consumer-side responsibilities, secure data ingestion parameters, and integration best practices for interacting with the public endpoints.Continuous Monitoring (ConMon) Strategy & KSI Framework: A technical blueprint detailing the automation of Key Security Indicators (KSIs) using Azure Policy and Log Analytics to stream continuous, machine-readable system health and security telemetry.Independent Assessment Report (IAR) Template & Plan: Prepared documentation frameworks for the Third-Party Assessment Organization (3PAO) to validate the system boundary, penetration testing rules of engagement for public endpoints, and Class C control implementation.All artifacts are maintained in human-readable formats for reviewer analysis and are indexed with corresponding cryptographic hashes and metadata to support conversion into machine-readable OSCAL JSON formats.",
+        "authenticationRequired": false
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactEmail": "bruceg@ivminc.com"
+    },
+    {
+      "contactType": "Security",
+      "contactEmail": "security@ivminc.com"
+    }
+  ],
+  "assessor": {
+    "name": "Kompleye",
+    "assessorID": "201591"
+  },
+  "ZD_frid_retro": "FR2628943629",
+  "id_matches_expected": true
+}

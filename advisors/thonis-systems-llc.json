@@ -1,0 +1,22 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
+  "advisorName": "THONIS SYSTEMS LLC",
+  "logo": "https://thonissystems.com/decks/media/thonis-lockup-color.png",
+  "serviceDescription": "THONIS SYSTEMS LLC provides scoped advisory services that connect security claims, vulnerability decisions and reporting handoffs to their supporting evidence, applicable service boundary and accountable owner. Engagements begin with a written fit review and an agreed scope. THONIS prepares decision and response materials for customer review; independent assessment, FedRAMP certification and agency authorization decisions remain with the responsible organizations.",
+  "contactInformation": [
+    "THONIS SYSTEMS LLC — john.mawad@thonissystems.com",
+    "https://thonissystems.com/advisory"
+  ],
+  "servicesOffered": [
+    {
+      "serviceName": "Cloud Vulnerability Decision & Reporting Sprint",
+      "serviceDescription": "Advisory review of one cloud service's vulnerability workflow against its applicable, versioned FedRAMP requirements. Deliverables may include an applicability and gap matrix, source-linked decision records, assigned owners and evidence needs, and a bounded reporting and correction plan. Scope, inputs, fee and acceptance criteria are agreed before work begins."
+    },
+    {
+      "serviceName": "Security Posture Evidence Package",
+      "serviceDescription": "A bounded engagement for a software or cloud supplier that must evidence its security posture to a buyer. THONIS assembles the supplier's existing artefacts — attestations and certificates, test and scan results, policies, threat models, and architecture and data-flow descriptions — into one governed package, each item source-linked to what supports it and carrying its scope and currency. Deliverables include an evidence register with named owners, an exception register for what is missing or does not apply, and a response package prepared for the customer's own accountable approver. The approver is always the customer's named reviewer. This engagement excludes testing and remediation, and THONIS does not decide materiality on the customer's behalf. Scope, inputs, fee and acceptance criteria are agreed before work begins. Independent assessment and certification decisions remain with the responsible organizations."
+    }
+  ],
+  "ZD_assessor_advisor_name": "THONIS SYSTEMS LLC",
+  "fedramp_listing_timestamp": "2026-10-02T20:17:02.951Z"
+}

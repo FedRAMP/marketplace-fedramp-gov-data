@@ -1,0 +1,149 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "$comment": "Draft FRC-CSO-PKG for Boltline Marketplace submission. Schema URL matches the live FedRAMP schemas index as of 2026-07-10. digitalIdentityLevel set from implemented Cognito posture (IAL1/AAL1/FAL2). Confirm interim SCG URL with GRC before submission.",
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2630447318",
+    "ueiNumber": "QDQ6V2X12WF1",
+    "providerName": "Stoke Space Technologies, Inc.",
+    "serviceName": "Boltline",
+    "serviceAcronym": "BL",
+    "serviceDescription": "Boltline is a multi-tenant manufacturing execution and operations SaaS platform. Federal customers use Boltline to manage engineering-to-production workflows, including parts, bills of materials, inventory, work plans, orders, integrations, attachments, and auditable workflow activity.\n\nBoltline may store, process, or transmit federal customer data including user and organization records, technical product metadata, part and BOM data, work instructions, inventory and order records, files and attachments, connector payloads, integration metadata, security events, and audit logs. Depending on customer use, this data may include controlled unclassified information. Boltline is not intended to store classified information.\n\nThe primary FedRAMP assessment boundary is the Stoke-operated Boltline SaaS production environment in AWS GovCloud (`prod-govcloud`).",
+    "certificationType": "20x",
+    "website": "https://www.boltline.com",
+    "logo": "https://boltline.com/wp-content/themes/boltline/public/favicons/android-chrome-512x512.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "digitalIdentityLevel": "IAL1/AAL1/FAL2",
+    "businessCategory": [
+      "Operations Management",
+      "Data Management",
+      "Development Tools",
+      "Collaboration"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/stoke/boltline",
+      "repositoryDescription": "Boltline Trust Center on Paramify. Public compliance program summary, controls, interconnections, and deliverables. Restricted authorization package access for agency and FedRAMP reviewers after approval.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Visit https://trust.paramify.com/stoke/boltline and select **Request Access**. Include agency or organization name, requested materials, business justification, and FedRAMP Package ID FR2630447318. Stoke reviews access requests within five business days and grants named trust center accounts where appropriate. For urgent FedRAMP communications, email boltline-fedramp@stokespace.com."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://help.boltline.com/boltline/Organization/Preferences",
+      "repositoryDescription": "Interim customer configuration guidance for organization session timeouts, access restrictions, and admin settings. Full FedRAMP Secure Configuration Guide pending publication.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Assessment Reports",
+          "Policies and Procedures"
+        ],
+        "url": "https://trust.paramify.com/stoke/boltline",
+        "repositoryDescription": "Restricted authorization package deliverables in the Boltline Trust Center, including assessment reports, policies, procedures, and supporting evidence for assessors, FedRAMP, and authorized agency reviewers.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Use the same **Request Access** process as the Boltline Trust Center at https://trust.paramify.com/stoke/boltline. Restricted deliverables are available after Stoke approves named access."
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Lowell Young",
+      "contactEmail": "boltline-fedramp@stokespace.com",
+      "contactPhone": "425-299-2370"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Anshul Garg",
+      "contactEmail": "marketing@boltline.com",
+      "contactPhone": "253-220-4600"
+    },
+    {
+      "contactType": "Primary",
+      "contactName": "Brent Bradbury",
+      "contactEmail": "marketing@boltline.com"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "id": "138514",
+    "assessorID": "138514"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Boltline Web UI",
+      "serviceDescription": "Customer-facing web application for manufacturing operations, workflows, inventory, orders, and attachments.",
+      "dateAvailable": "2025-08-14"
+    },
+    {
+      "serviceName": "Boltline API",
+      "serviceDescription": "GraphQL and REST API, authentication flows, and customer integration endpoints included in the FedRAMP boundary.",
+      "dateAvailable": "2025-08-14"
+    },
+    {
+      "serviceName": "Organization and user management",
+      "serviceDescription": "Tenant provisioning, user lifecycle, roles, groups, and organization preferences.",
+      "dateAvailable": "2025-08-14"
+    },
+    {
+      "serviceName": "Parts, BOMs, inventory, work plans, and orders",
+      "serviceDescription": "Core manufacturing execution data and workflow records.",
+      "dateAvailable": "2025-08-14"
+    },
+    {
+      "serviceName": "Integrations and connector processing",
+      "serviceDescription": "Customer-authorized PLM, ERP, and connector workflows included in the federal boundary.",
+      "dateAvailable": "2025-08-14"
+    },
+    {
+      "serviceName": "Supporting AWS GovCloud runtime services",
+      "serviceDescription": "Production runtime and platform services in scope for `prod-govcloud`, including ECS, RDS PostgreSQL, S3, Redis, Temporal, Topaz, Cognito, KMS, Secrets Manager, SSM, ALB, WAF, CloudWatch, and related network services.",
+      "dateAvailable": "2025-08-14"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "AWS GovCloud hosts the Boltline production environment, including compute, storage, database, identity, networking, encryption, logging, and email services inherited into the authorization boundary."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Datadog Gov",
+        "provider": "Datadog, Inc.",
+        "website": "https://www.datadoghq.com/",
+        "useCase": "Central logging, metrics, traces, monitoring, and alerting for production operations."
+      },
+      {
+        "name": "GitHub Enterprise",
+        "provider": "GitHub, Inc.",
+        "website": "https://github.com/",
+        "useCase": "Source control, CI/CD, deployment automation, and SDLC evidence for production changes."
+      },
+      {
+        "name": "PagerDuty",
+        "provider": "PagerDuty, Inc.",
+        "website": "https://www.pagerduty.com/",
+        "useCase": "Incident routing and on-call escalation."
+      },
+      {
+        "name": "JFrog Artifactory",
+        "provider": "JFrog Ltd.",
+        "website": "https://jfrog.com/",
+        "useCase": "Artifact and container image storage and promotion in the deployment path."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2630447318",
+  "id_matches_expected": true
+}

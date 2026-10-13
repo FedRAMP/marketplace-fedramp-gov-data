@@ -1,0 +1,76 @@
+{
+  "serviceIdentification": {
+    "providerName": "NavigatorCRE",
+    "serviceName": "NavigatorCRE",
+    "serviceAcronym": "NCRE",
+    "serviceDescription": "NavigatorCRE is a commercial real estate (CRE) technology platform that provides a centralized, cloud-based system for portfolio, property, and workplace management. The platform aggregates real estate data from disparate sources into a single interface, enabling organizations to manage lease administration, space planning, facilities operations, and portfolio analytics.",
+    "certificationType": "20x",
+    "fedRampPackageId": "NavigatorCRE",
+    "ueiNumber": "YT26Z67BZZA4",
+    "website": "https://www.navigatorcre.com",
+    "logo": "https://static.wixstatic.com/media/e0dad3_14b39557cfaf497d93fdc53f95b164b0~mv2.png/v1/fill/w_252,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/NaviLogo_Base_White.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Data Management",
+      "Analytics"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://navigatorcre.secureframetrust.com/",
+      "repositoryDescription": "Subprocessors, Availability, Confidentiality, Incident Response, and Change Management documentation.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [],
+    "nextOngoingCertificationReportDate": "2027-07-26"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Ian Beebe",
+      "contactEmail": "Ian@NavigatorCRE.com",
+      "contactPhone": "866-449-6284"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Taylor Odegard",
+      "contactEmail": "Sales@navigatorcre.com",
+      "contactPhone": "866-449-6284"
+    }
+  ],
+  "assessor": {
+    "name": "Insight Assurance",
+    "assessorID": "203355"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "NavigatorCRE",
+      "serviceDescription": "NavigatorCRE platform, built for Real Estate Technology",
+      "dateAvailable": "2017-01-01"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
+        "useCase": "We use this resource to host our application and data"
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Google Maps",
+        "provider": "Google",
+        "website": "https://mapsplatform.google.com",
+        "useCase": "Used for map display"
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2634659083",
+  "id_matches_expected": false
+}

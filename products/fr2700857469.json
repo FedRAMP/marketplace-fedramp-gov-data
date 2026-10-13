@@ -1,0 +1,254 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "Pending. Assigned by FedRAMP at Marketplace listing\n(MKT-CSO-PML).",
+    "ueiNumber": "WRKSELF1SZR4 (CAGE 9FYK6)",
+    "providerName": "Zeta Global Corp.",
+    "serviceName": "Zeta Marketing Platform for Government",
+    "serviceAcronym": "ZMP-GOV",
+    "serviceDescription": "Zeta Marketing Platform for Government (ZMP-GOV) is a\nmulti-tenant SaaS marketing platform for federal agencies.\nThe certified offering covers outbound email: audience\nsegmentation, campaign authoring, scheduling, delivery,\nsuppression management, and engagement reporting.\nAgencies load their own contact lists and content. ZMP-GOV\nsends the email and reports on delivery and engagement.\nThe service is hosted in AWS US East/West.",
+    "certificationType": "20x",
+    "website": "https://zetaglobal.com",
+    "logo": "https://go.zetaglobal.com/rs/549-DKD-559/images/zeta_logoPrimary%201.svg",
+    "certificationClass": "A",
+    "certificationPath": "Program"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Artificial Intelligence (AI)",
+      "Communication",
+      "Data Management",
+      "Marketing & Sales"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/zetaglobal/zeta-global",
+      "repositoryDescription": "FedRAMP Trust Center for the Cloud Service Offering.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Not applicable. The FedRAMP trust center is public and\nneeds no login.\nAccess-controlled documents (the SOC 2 Type II report and\naudit engagement documentation) are requested at\nhttps://trust.zetaglobal.com using \"Get access\". Requests\nfrom .gov and .mil addresses are reviewed by Zeta's security\nteam.",
+      "agencyAccessDenialProcess": "1. Agencies request FedRAMP Certification Data through\nthe trust center at https://trust.paramify.com/zetaglobal/zeta-\nglobal. Public certification data (this overview, the service\nlist, the External Framework Mapping, and Ongoing\nCertification Reports) is available without a request.\n2. Access-controlled materials are released to requesters\nwith a verified .gov or .mil email address, or to agency-\ndesignated contractors on written confirmation from the\nagency, on acceptance of Zeta's terms of use.\n3. Zeta expects to grant all agency requests. If Zeta denies a\nrequest (for example, the requester cannot be verified as\nacting for an agency), Zeta records the reason, tells the\nrequester, and notifies FedRAMP through the CSP Agency\nAccess Denial form at help.fedramp.gov within 5 business\ndays of the denial (CDS-UTC-AAD).\n4. Denials and the FedRAMP notification are logged by the\nSecurity contact and summarized in the next Ongoing\nCertification Report."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.paramify.com/zetaglobal/zeta-global",
+      "repositoryDescription": "Secure Configuration Guidance for the Cloud Service Offering.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": ""
+    },
+    "additionalRepositoryNotes": [
+      "1. SOC 2 Type II report (access-controlled): https://trust.zetaglobal.com/?product=zmp&itemUid=fa950d02-cbb3-4010-b917-7137a7c2a982",
+      "2. External Framework Mapping, SOC 2 to FedRAMP Class A rules (required in the Class A package): https://trust.paramify.com/zetaglobal/zeta-global/controls/73974d0d-ddfc-4992-b32d-2699e0f4ec8d",
+      "3. Certification Package Overview, human-readable and JSON: https://trust.paramify.com/zetaglobal/zeta-global",
+      "4. Security Decision Record and Ongoing Certification Reports, human-readable and JSON: https://trust.paramify.com/zetaglobal/zeta-global"
+    ],
+    "ongoingCertificationReportLocation": "https://trust.paramify.com/zetaglobal/zeta-global (Ongoing\nCertification Reports section, human-readable and JSON,\nper CCM-OCR-AVL)",
+    "nextOngoingCertificationReportDate": "2027-02-01",
+    "informationResources": {
+      "summary": "ZMP-GOV is the set of information resources that handle\nfederal customer data (agency contact lists, message\ncontent, and the delivery and engagement records tied to\nthose contacts) or that can affect its confidentiality, integrity,\nor availability (MAS-CSO-IIR).\nThe set is: (1) the ZMP-GOV application services that run\nthe email channel; (2) the data stores behind them; (3) the\nID lookup service that converts customer identifiers to ZID\ntokens; (4) the email delivery infrastructure; (5) the build,\nlogging, and monitoring systems that operate the platform;\nand (6) the Zeta personnel, policies, and procedures that run\nit. All machine-based resources are hosted in AWS US\nEast/West.\nThird-party information resources are listed in Section 8.\nFederal customer data leaves the certified set only as ZID-\ntokenized engagement records sent to the reporting\nwarehouse (Section 8, Non-Certified Resource 2).",
+      "explicitExclusions": "1. Zeta Data Cloud and the Identity Supergraph. ZMP-GOV\nreaches Data Cloud only through ZID tokens produced by\nthe in-scope ID lookup service. Raw federal customer\nidentifiers are not sent to Data Cloud.\n2. ZMP channels other than email (SMS, push, web, and\nprogrammatic advertising) and other Zeta products (Cheetah\nDigital and Loyalty, Sailthru, LiveClicker, Selligent).\n3. Zeta on-premise (VMware) infrastructure. None of it\nserves ZMP-GOV.\n4. Zeta corporate business systems, including the\nSalesforce sales CRM. Contact data about agency staff held\nfor sales purposes is not federal customer data placed in\nZMP-GOV.\n5. Agency-side resources: agency workstations, browsers,\nidentity providers, and the mail systems that receive ZMP-\nGOV email.\n6. No software is delivered for installation on agency\nsystems (see fedramp.gov/scope). The offering is used\nthrough the ZMP-GOV web application and APIs.",
+      "resources": [
+        {
+          "name": "ZMP-GOV application services",
+          "type": "Machine-based",
+          "descriptionAndRole": "Containerized microservices on Amazon EKS that provide\nthe email channel: web application and APIs, audience\nsegmentation, campaign authoring and template\nmanagement, scheduling, send orchestration, suppression\nand preference management, bounce and complaint\nhandling, and engagement reporting. Multi-tenant; federal\ntenants are logically separated by tenant identifier.",
+          "handlesFederalCustomerData": true,
+          "impactOnConfidentialityIntegrityAvailability": "Confidentiality, integrity, and availability."
+        },
+        {
+          "name": "ZMP-GOV data stores",
+          "type": "Machine-based",
+          "descriptionAndRole": "Operational data stores for the application services:\nAerospike and ScyllaDB (profile and campaign state),\nAmazon Aurora (relational configuration and metadata),\nKafka with ZooKeeper (event streaming), Elasticsearch\n(search and reporting indexes), Amazon EMR (batch\nprocessing), and Amazon S3 (object storage for lists,\ncontent assets, and exports). Encrypted at rest with AWS\nKMS keys.",
+          "handlesFederalCustomerData": true,
+          "impactOnConfidentialityIntegrityAvailability": "Confidentiality, integrity, and availability."
+        },
+        {
+          "name": "ID lookup service (Maui / IDaaS)",
+          "type": "Machine-based",
+          "descriptionAndRole": "Converts agency-supplied customer identifiers (such as\nemail addresses) into Zeta ID (ZID) tokens. Runs inside the\ncertified set. ZIDs let ZMP-GOV exchange data with\nsystems outside the certified set (the reporting warehouse\nand Zeta Data Cloud) without sending raw federal customer\nidentifiers. This is the tokenization boundary for the offering.",
+          "handlesFederalCustomerData": true,
+          "impactOnConfidentialityIntegrityAvailability": "Confidentiality and integrity."
+        },
+        {
+          "name": "Email delivery infrastructure",
+          "type": "Machine-based",
+          "descriptionAndRole": "Mail transfer agents and sending IP pools that deliver\ncampaign email to recipient mail systems, receive bounces\nand feedback-loop complaints, and record delivery events.\nOutbound mail uses TLS to recipient servers that support it.\nDKIM signing and SPF and DMARC alignment are\nconfigured per sending domain.",
+          "handlesFederalCustomerData": true,
+          "impactOnConfidentialityIntegrityAvailability": "Confidentiality, integrity, and availability."
+        },
+        {
+          "name": "Build and deployment tooling",
+          "type": "Machine-based",
+          "descriptionAndRole": "GitLab source control and CI/CD pipelines, container\nregistry, infrastructure-as-code, secrets management, and\nfeature configuration used to build and deploy ZMP-GOV.\nThese systems hold no federal customer data but control\nwhat code and configuration run in production.",
+          "handlesFederalCustomerData": false,
+          "impactOnConfidentialityIntegrityAvailability": "Integrity and availability. A compromised pipeline could\ndeploy unauthorized code or configuration. Changes are\nlogged (KSI-CMT-LMC), peer-reviewed, and reach\nproduction only through the pipeline."
+        },
+        {
+          "name": "Logging, monitoring, and vulnerability detection",
+          "type": "Machine-based",
+          "descriptionAndRole": "Centralized application and infrastructure logs (AWS\nCloudTrail, CloudWatch, and the platform log store), metrics\nand alerting, and vulnerability scanning of hosts, containers,\nand dependencies (AWS Inspector and CIS Level 1\nbenchmark checks). Logs may contain metadata about\nfederal customer data (tenant, campaign, and message\nidentifiers, and event timestamps) and are in scope under\nMAS-CSO-MDI.",
+          "handlesFederalCustomerData": "Yes (metadata only)",
+          "impactOnConfidentialityIntegrityAvailability": "Confidentiality (log metadata), integrity, and availability\n(detection and audit evidence)."
+        },
+        {
+          "name": "Zeta operations, security, and support personnel",
+          "type": "Non-machine-based",
+          "descriptionAndRole": "Zeta engineering, site reliability, security operations, and\ncustomer support staff with administrative access to ZMP-\nGOV, and the policies and procedures they follow: access\ncontrol, change management, incident response,\nvulnerability management, and security training. Access is\ngranted by role through Okta with phishing-resistant\npasswordless authentication, reviewed quarterly, and\nremoved automatically on termination. Privileged sessions\nare logged.",
+          "handlesFederalCustomerData": "Yes (privileged access)",
+          "impactOnConfidentialityIntegrityAvailability": "Confidentiality, integrity, and availability."
+        }
+      ]
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "FedRAMP Security Inbox",
+      "contactEmail": "fedramp@zetaglobal.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Kurt Baumgarten",
+      "contactEmail": "fedramp@zetaglobal.com",
+      "contactPhone": "212-967-5055"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Daniel Barone, Senior Vice President, Federal Sales",
+      "contactEmail": "dbarone@zetaglobal.com",
+      "contactPhone": "703-582-1512"
+    },
+    {
+      "contactType": "Technical",
+      "contactName": "Manoj Agarwal, Chief Architect and SVP Engineering",
+      "contactEmail": "magarwal@zetaglobal.com",
+      "contactPhone": "503-567-9394"
+    }
+  ],
+  "alternativeSecurityFramework": {
+    "frameworkUsed": "SOC 2 Type II",
+    "impactLevelScope": "SOC 2 Type II for the Zeta Marketing Platform (ZMP): the\nproduction environment, its supporting AWS infrastructure,\nand the engineering, security, and operations processes that\nrun it.\nTrust Services Criteria in scope: Security, Availability, and\nConfidentiality.",
+    "dateCompleted": "2025-10-30",
+    "certifyingBody": "Baker Tilly",
+    "independentAssessmentIncluded": "Yes",
+    "mappingToFedRampRules": "Zeta maps the SOC 2 Type II report to the 23 mandatory\nClass A rules (FRC-CLA-MFR) in the External Framework\nMapping on the trust center\n(https://trust.paramify.com/zetaglobal/zeta-\nglobal/controls/73974d0d-ddfc-4992-b32d-2699e0f4ec8d).\nSummary:\n1. Identity and access (KSI-IAM-AAM, KSI-IAM-APM). SOC\n2 CC6.1 to CC6.3 cover provisioning, deprovisioning, and\naccess reviews. Automated account lifecycle and phishing-\nresistant passwordless authentication for privileged users\nare implemented through Okta and evidenced separately,\nsince SOC 2 does not require passwordless.\n2. Network restriction (KSI-CNA-RNT). CC6.6 and CC6.7\ncover boundary protection and transmission security.\nEvidence: VPC security groups, deny-by-default network\npolicies, TLS 1.2 or higher.\n3. Change logging (KSI-CMT-LMC). CC8.1 covers change\nmanagement. Evidence: pipeline and infrastructure change\nlogs tied to reviewed changes.\n4. Training review (KSI-CED-RAT). CC1.4 and CC2.2 cover\nsecurity awareness training. Annual review of training\ncontent is tracked separately.\n5. Incident response (KSI-INR-RIR, IEC-CSO-EFR, IEC-\nCSO-FIR). CC7.3 to CC7.5 cover incident detection,\nresponse, and recovery. FedRAMP reportability evaluation,\nPAIN rating, and the 3-business-day Final Incident Report\nare FedRAMP-specific additions to the incident response\nplan.\n6. Securing information (KSI-SVC-SIN). CC6.1, CC6.7, and\nC1.1 cover encryption at rest and in transit and\nconfidentiality of customer data.\n7. Vulnerability detection (VDR-CSO-DET). CC7.1 and\nCC7.2 cover vulnerability scanning and monitoring.\nEvidence: AWS Inspector, dependency and container\nscanning, annual penetration testing, and the Bugcrowd\nvulnerability disclosure program.\n8. Scope and third parties (MAS-CSO-IIR). CC9.2 covers\nvendor risk management. The resource inventory in\nSections 6 and 8 is FedRAMP-specific.\n9. Rules with no SOC 2 counterpart, implemented as new\nFedRAMP processes: FRC-CSO-PKG, FRC-CSO-JSN,\nFRC-CSO-POP, CDS-CSO-PUB, CDS-CSO-UTC, CDS-\nUTC-AAD, AFC-CSO-INB, AFC-CSO-RCV, AFC-CSO-CRA,\nCCM-OCR-AVL, CCM-OCR-NRD. These are met through\nthe Paramify trust center, the FedRAMP Security Inbox, and\nthe quarterly Ongoing Certification Report.\n10. Annual assessment (IVV-CSX-AIA). The annual SOC 2\nType II audit is the persistent independent assessment for\nClass A.",
+    "documentation": [
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Complete report",
+        "location": "Please see Trust Center:\nhttps://trust.zetaglobal.com/?product=zmp&itemUid=fa950d0\n2-cbb3-4010-b917-7137a7c2a982 (access-controlled)"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Bridge or gap letter",
+        "location": "Please see Trust Center. A bridge letter covering the period\nsince the last report is available on request."
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Verified audit engagement documentation",
+        "location": "Please see Trust Center (engagement letter and auditor\nconfirmation, access-controlled)."
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Estimated schedule for upcoming report",
+        "location": "Period Ending 2026-06-30, report expected 2026-11"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Supplemental compliance evidence",
+        "location": "Please see Trust Center: ISO/IEC 27001 and ISO/IEC\n27701 certificates, annual penetration test summary, and the\nExternal Framework Mapping at\nhttps://trust.paramify.com/zetaglobal/zeta-\nglobal/controls/73974d0d-ddfc-4992-b32d-2699e0f4ec8d"
+      },
+      {
+        "framework": "FedRAMP Ready",
+        "documentType": "Readiness Assessment Report",
+        "location": "Not applicable"
+      },
+      {
+        "framework": "FedRAMP Ready",
+        "documentType": "Security Assessment Plan",
+        "location": "Not applicable"
+      },
+      {
+        "framework": "FedRAMP Ready",
+        "documentType": "Other materials required by FedRAMP",
+        "location": "Not applicable"
+      },
+      {
+        "framework": "GovRAMP",
+        "documentType": "Readiness Assessment Report",
+        "location": "Not applicable"
+      },
+      {
+        "framework": "GovRAMP",
+        "documentType": "Security Assessment Plan",
+        "location": "Not applicable"
+      },
+      {
+        "framework": "GovRAMP",
+        "documentType": "Other materials required by GovRAMP",
+        "location": "Not applicable"
+      }
+    ]
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Email Marketing",
+      "serviceDescription": "Outbound email campaign management for federal\nagencies. Includes audience segmentation, campaign\nauthoring, template management, scheduling, delivery,\nsuppression and preference management, bounce and\ncomplaint handling, and engagement reporting.",
+      "dateAvailable": "2026-11-01",
+      "securityCategory": "Moderate"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "metadataIncludedInScope": "Yes. Metadata about federal customer data is included in\nthe Minimum Assessment Scope (MAS-CSO-MDI):\n1. Campaign and message metadata: campaign and\ntemplate identifiers, send schedules and timestamps,\nsending domain.\n2. Delivery and engagement events keyed to recipient\nidentifiers: sent, delivered, bounced, opened, clicked,\nunsubscribed, complained.\n3. Suppression and preference list entries, audience\nsegment definitions, and segment counts.\n4. Tenant configuration, user accounts, and audit and\naccess logs that reference federal customer records.\nEngagement metadata exported to the reporting warehouse\nis keyed by ZID token, not by raw recipient identifier.",
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW (AWS US East/West, FedRAMP\nCertified Class C (Moderate), Rev5, JAB path)",
+        "useCase": "Sole IaaS provider for the ZMP-GOV certified set. No on-\npremise or alternate cloud infrastructure is used.",
+        "usageAndConfiguration": "Compute (Amazon EKS and EC2), object and block storage\n(S3 and EBS), managed databases (Aurora), batch\nprocessing (EMR), networking (VPC, load balancers), key\nmanagement (KMS), and logging (CloudTrail and\nCloudWatch).\nDeployed in AWS US East/West commercial regions within\nZeta's AWS Organization. Federal tenants run in the same\naccount structure as Zeta commercial production, with\nlogical separation by tenant identifier.",
+        "justificationForUse": "Required to operate the offering. AWS US East/West holds\nFedRAMP Certified Class C (Moderate), so the physical,\nenvironmental, and hypervisor controls inherited from AWS\nare covered by that certification. The AWS services used for\nZMP-GOV are within the AWS US East/West FedRAMP\nscope.",
+        "mitigationMeasures": "FIPS-validated service endpoints. Encryption at rest with\ncustomer-managed KMS keys and in transit with TLS 1.2 or\nhigher. CIS Level 1 hardening on instances and container\nimages. Deny-by-default security groups and Kubernetes\nnetwork policies.",
+        "compensatingControls": "Administrative access to AWS is through Okta SSO with\nphishing-resistant passwordless authentication and role-\nbased IAM. Privileged sessions use AWS Systems Manager\nSession Manager with session logging. CloudTrail and\nCloudWatch logs are retained centrally and reviewed. AWS\nInspector scans hosts and images. Tenant data is separated\nat the application and data-store layers.",
+        "securityCategory": "Moderate"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2428769635XL (Paramify Cloud, FedRAMP Certified\n20x, Moderate)",
+        "useCase": "Compliance documentation platform and FedRAMP-\ncompatible trust center.",
+        "usageAndConfiguration": "SaaS. Holds the Certification Package Overview, the\nSecurity Decision Record, the External Framework Mapping,\nand evidence metadata; produces the machine-readable\n(JSON) package; hosts the trust center at\nhttps://trust.paramify.com/zetaglobal/zeta-global. Zeta\ncompliance staff sign in through SSO with MFA.",
+        "justificationForUse": "Required to produce and publish certification data in human-\nreadable and JSON formats (FRC-CSO-PKG, FRC-CSO-\nJSN) and to meet the trust center rule (CDS-CSO-UTC).",
+        "mitigationMeasures": "No federal customer data is sent to Paramify. Content is\nlimited to security documentation, control narratives, and\nevidence metadata.",
+        "compensatingControls": "Zeta keeps responsibility for the accuracy of all published\ninformation (FRC-CSO-MRA). Publication requires review by\nthe Security contact. Evidence integrations use least-\nprivilege, read-only credentials.",
+        "securityCategory": "Low (handles no federal customer data)"
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Okta IDaaS",
+        "provider": "Okta, Inc.",
+        "website": "https://www.okta.com",
+        "useCase": "Workforce identity for privileged and administrative access\nto the certified set.",
+        "usageAndConfiguration": "SSO, MFA, and phishing-resistant passwordless\nauthentication for Zeta staff accessing AWS, Kubernetes,\nand ZMP-GOV administrative interfaces. Device posture and\nsession policies are applied.",
+        "justificationForUse": "Satisfies KSI-IAM-APM (passwordless), which is mandatory\nat Class A. No alternate identity provider is in the certified\nset.",
+        "mitigationMeasures": "Passwordless enrollment is required for all privileged roles.\nOkta holds Zeta workforce identities only; no federal\ncustomer data. Quarterly access reviews.",
+        "compensatingControls": "Account creation and removal are automated (KSI-IAM-\nAAM), so departed staff lose access on termination.\nAuthentication and administrative events are sent to Zeta's\ncentral log store and reviewed."
+      },
+      {
+        "name": "Snowflake (commercial regions)",
+        "provider": "Snowflake Inc.",
+        "website": "https://www.snowflake.com",
+        "useCase": "Cloud data warehouse for campaign performance and\nengagement analytics supporting the certified Email\nMarketing service.",
+        "usageAndConfiguration": "Deployed in Snowflake commercial regions on AWS. Access\nrestricted to named service accounts through SSO with\nMFA. No public endpoint. Data flow is one-directional:\nSnowflake is a reporting sink and does not write back into\ncampaign targeting or suppression logic.",
+        "justificationForUse": "Snowflake is the reporting warehouse for ZMP. Engagement\nreporting for federal tenants uses the same warehouse.",
+        "mitigationMeasures": "Engagement records are keyed by ZID token; raw recipient\nidentifiers (such as email addresses) do not leave the\ncertified set. Federal tenant rows are separated by tenant\nidentifier under row access policies. Transport uses TLS 1.2\nor higher.",
+        "compensatingControls": "Warehouse access is logged and reviewed. Service account\ncredentials are held in secrets management. Snowflake's\nSOC 2 Type II report is reviewed under Zeta's vendor risk\nprocess."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2700857469",
+  "id_matches_expected": false
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2700137041",
+    "ueiNumber": "TJBRVXCUT2M3",
+    "providerName": "Dossier",
+    "serviceName": "Dossier for Government",
+    "serviceAcronym": "DFG",
+    "serviceDescription": "Dossier for Government is a cloud-based competency and training management solution for federal agencies. It replaces paper competency folders with a single system of record for defining the competencies each role requires, assessing staff against those requirements on recurring cycles, delivering the training that closes the gaps, and producing current competency status on demand at the team, facility, or department level.\n\nThe service is built for federal workforces with recurring, externally driven competency obligations — including clinical and nursing education staff, and healthcare technology management personnel responsible for maintaining and repairing medical equipment. Assessment schedules, advance notifications, and overdue flags are tracked by the system rather than depending on manual review of paper files.\n\n**Services included**\n\n- **Dossier Profile** — the core competency management service. Role-based competency definitions and assigned core tasks, assessments with assessor sign-off and proficiency ratings, configurable reassessment cycles, supporting attachments, automated notification of upcoming and overdue assessments, dashboards and reporting, role-based access control, and audit logging.\n- **Dossier Learn** — an integrated learning management system. Course and training assignment, delivery, and completion tracking, linked to the competency requirements held in Dossier Profile.\n- **Dossier Development Program** — structured career development supporting clinical ladder programs. Defined advancement levels and criteria, evidence submission against those criteria, and review and progression tracking.\n\n**Security category.** Each included service is categorized Low under FIPS 199 for confidentiality, integrity, and availability.\n\n**Information handled.** Dossier for Government holds employee competency, training, and development records: employee name, work email address, job title and role, facility and organizational unit, assigned core tasks, competency ratings, assessment and due dates, assessor identity, training and course completion records, development program submissions, supporting attachments such as checklists and certifications, account role assignment, and audit logs of user activity.\n\nThe service is not intended to hold protected health information, patient or beneficiary records, clinical or treatment data, controlled unclassified information, Social Security numbers, or financial or payment data. Permitted use is defined in the terms of service and in the Secure Configuration Guide.\n\nDossier for Government is delivered as multi-tenant SaaS.",
+    "certificationType": "20x",
+    "website": "https://dossier.com",
+    "logo": "https://info.dossier.com/hubfs/FedRAMP/Dossier-logo-complete-withclaim-navi-72dpi.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Education & Training",
+      "Human Resources",
+      "Learning Management",
+      "Talent Development",
+      "Talent Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.dossier.com",
+      "repositoryDescription": "Dossier FedRAMP-compatible Trust Center, hosted by Vanta. Provides federal agencies and FedRAMP with access to FedRAMP Certification Data for Dossier for Government.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Visit https://trust.dossier.com and submit an access request. As part of the request process, the requester completes and accepts a non-disclosure agreement. Access requests are approved within one business day. Once approved, the requester is granted access to FedRAMP Certification Data; access remains active and does not require a new approval for each subsequent retrieval. Federal agencies and FedRAMP may also contact fedramp@dossier.com with access questions."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://info.dossier.com/hubfs/FedRAMP/Dossier-for-Government-Secure-Configuration-Guide.pdf",
+      "repositoryDescription": "Secure Configuration Guide for Dossier for Government. Published as a PDF, publicly available at the URL above with no authentication or access request required. Agency administrators should read it during implementation, before the first Department Admin is assigned, and review it again at each Ongoing Certification Report or whenever Dossier publishes a revision. It covers secure access, configuration, operation and decommissioning of the top-level administrative account, the security settings available to agency roles, and permitted use of free-form content fields.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Public Information",
+          "Certified Services"
+        ],
+        "url": "https://info.dossier.com/hubfs/FedRAMP/dossier-for-government-fedramp.html",
+        "repositoryDescription": "Publicly available FedRAMP certification information for Dossier for Government, published in both human-readable and machine-readable formats. Includes the Certification Package Overview, the detailed list of certified services, and the security categorization of each service. No authentication or access request is required.",
+        "authenticationRequired": false
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2026-12-31"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Dossier FedRAMP Security Inbox",
+      "contactEmail": "fedramp@dossier.com",
+      "contactPhone": "650-999-3258"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Dossier Government Sales",
+      "contactEmail": "sales@dossier.com",
+      "contactPhone": "650-999-3258"
+    }
+  ],
+  "assessor": {
+    "name": "Prescient Security LLC",
+    "assessorID": "202040"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Dossier Profile",
+      "serviceDescription": "The core competency management service. Defines the competencies and core tasks required for each role, records assessments with assessor sign-off and proficiency ratings, manages recurring reassessment cycles with advance and overdue notification, and provides dashboards, reporting, and audit logs of user activity.\n\nSecurity category: Low."
+    },
+    {
+      "serviceName": "Dossier Learn",
+      "serviceDescription": "An integrated learning management system. Assigns, delivers, and tracks completion of courses and training, linked to the competency requirements held in Dossier Profile so that identified gaps route to the training that closes them.\n\nSecurity category: Low."
+    },
+    {
+      "serviceName": "Dossier Development Program",
+      "serviceDescription": "Structured career development supporting clinical ladder programs. Defines advancement levels and their criteria, accepts evidence submitted against those criteria, and tracks review and progression decisions.\n\nSecurity category: Low."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Amazon Web Services provides the cloud infrastructure on which Dossier for Government is hosted, including compute, storage, networking, and database services within the Minimum Assessment Scope. Dossier for Government runs in AWS US regions on the same multi-tenant environment as Dossier's commercial service."
+      }
+    ],
+    "nonCertified": []
+  },
+  "ZD_frid_retro": "FR2700137041",
+  "id_matches_expected": true
+}
