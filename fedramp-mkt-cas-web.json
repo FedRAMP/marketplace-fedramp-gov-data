@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-02T20:17:17.645Z",
+    "export_timestamp": "2026-10-13T23:17:55.051Z",
     "total_entries": 15,
     "description": "FedRAMP data MKT-CAS-WEB export from GSA system"
   },
@@ -43,7 +43,7 @@
         ],
         "ZD_assessor_advisor_name": "Fortinetics LLC",
         "fedramp_listing_timestamp": "2026-08-27T16:29:43Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:12Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:50Z"
       },
       {
         "advisorName": "Verdict Technologies Inc.",
@@ -68,7 +68,7 @@
         ],
         "ZD_assessor_advisor_name": "Verdict Technologies Inc.",
         "fedramp_listing_timestamp": "2026-08-27T16:29:41Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:12Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:50Z"
       },
       {
         "advisorName": "Elevate Consult",
@@ -107,7 +107,7 @@
         ],
         "ZD_assessor_advisor_name": "Elevate Consult",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:13Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:50Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
@@ -141,17 +141,19 @@
         ],
         "ZD_assessor_advisor_name": "Steel Patriot Partners",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:13Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:51Z"
       },
       {
         "advisorName": "SunStone Secure",
         "logo": "https://sunstone-secure-llc.github.io/artemisadvisory/sunstone-logo.svg",
         "serviceDescription": "SunStone Secure has been providing FedRAMP and other regulated security and compliance advisory services, including CISO-as-a-Service and ConMon-as-a-Service offerings since 2019.",
-        "contactInformation": [
-          "Mats Nahlinder|info@sunstonesecure.com",
-          "Security Team|security@sunstonesecure.com",
-          "General|(650)508-1796"
-        ],
+        "contactInformation": {
+          "pointOfContactName": "Mats Nahlinder",
+          "jobTitle": "Sales",
+          "email": "info@sunstonesecure.com",
+          "phone": "(650) 508-1796",
+          "companyWebsite": "https://www.sunstonesecure.com"
+        },
         "servicesOffered": [
           {
             "serviceName": "20x",
@@ -167,7 +169,7 @@
         ],
         "ZD_assessor_advisor_name": "SunStone Secure",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:13Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:51Z"
       },
       {
         "advisorName": "Skirret Consulting, LLC",
@@ -197,7 +199,7 @@
         ],
         "ZD_assessor_advisor_name": "Skirret Consulting, LLC",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:14Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:51Z"
       },
       {
         "advisorName": "38North Security",
@@ -241,7 +243,7 @@
         ],
         "ZD_assessor_advisor_name": "38North Security",
         "fedramp_listing_timestamp": "2026-09-16T13:39:40.901Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:14Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:51Z"
       },
       {
         "advisorName": "InfusionPoints",
@@ -303,7 +305,7 @@
         ],
         "ZD_assessor_advisor_name": "InfusionPoints",
         "fedramp_listing_timestamp": "2026-09-21T19:18:04.483Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:15Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:53Z"
       },
       {
         "advisorName": "Workstreet",
@@ -347,7 +349,7 @@
         ],
         "ZD_assessor_advisor_name": "Workstreet",
         "fedramp_listing_timestamp": "2026-09-21T19:18:04.483Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:15Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:52Z"
       },
       {
         "$comment": "Conforms to FedRAMP Advisor Information Schema (MKT-CAS-WEB), version 2.0.0, https://www.fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json.",
@@ -394,7 +396,7 @@
         ],
         "ZD_assessor_advisor_name": "Emagine IT, Inc.",
         "fedramp_listing_timestamp": "2026-09-21T19:18:04.483Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:15Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:52Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
@@ -435,7 +437,7 @@
         ],
         "ZD_assessor_advisor_name": "stackArmor",
         "fedramp_listing_timestamp": "2026-10-02T20:17:02.951Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:16Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:52Z"
       },
       {
         "advisorName": "bladestack.io",
@@ -521,16 +523,16 @@
         "a2laId": "202696",
         "ZD_assessor_advisor_name": "bladestack.io",
         "fedramp_listing_timestamp": "2026-10-02T20:17:02.951Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:16Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:52Z"
       },
       {
         "advisorName": "YGI Solutions",
-        "logo": "https://www.ygi.so/ygicrm/static/image/mark-mark-ygi-banner-drk.svg",
+        "logo": "https://www.ygi.so/ygicrm/static/images/logos/mark-ygi-banner-drk.svg",
         "serviceDescription": "YGI Solutions is a compliance and cybersecurity consulting firm serving organizations in highly regulated industries, including defense, aerospace, financial services, and healthcare. YGI helps cloud service providers prepare for, achieve, and maintain FedRAMP authorization through readiness assessments, program design, documentation, GRC platform implementation, and ongoing continuous monitoring support. YGI also supports adjacent federal and state frameworks, including CMMC, GovRAMP, CJIS, and NIST SP 800-171.",
         "contactInformation": {
           "pointOfContactName": "William Yeack",
-          "jobTitle": "CEO",
-          "phone": "+1 (212) 913-9390",
+          "jobTitle": "",
+          "phone": "",
           "email": "fedramp@ygi.so",
           "companyWebsite": "https://www.ygi.so"
         },
@@ -566,7 +568,7 @@
         ],
         "ZD_assessor_advisor_name": "YGI Solutions",
         "fedramp_listing_timestamp": "2026-10-02T20:17:02.951Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:16Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:53Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
@@ -589,7 +591,7 @@
         ],
         "ZD_assessor_advisor_name": "THONIS SYSTEMS LLC",
         "fedramp_listing_timestamp": "2026-10-02T20:17:02.951Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:17Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:54Z"
       },
       {
         "advisorName": "SecureIT",
@@ -648,7 +650,7 @@
         ],
         "ZD_assessor_advisor_name": "SecureIT",
         "fedramp_listing_timestamp": "2026-10-02T20:17:02.951Z",
-        "last_fetched_timestamp": "2026-10-02T20:17:17Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:55Z"
       }
     ]
   }

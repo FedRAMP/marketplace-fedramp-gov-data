@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-13T19:54:54.006Z",
-    "total_entries": 127,
+    "export_timestamp": "2026-10-13T23:17:49.705Z",
+    "total_entries": 128,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
@@ -83,10 +83,11 @@
           ],
           "nextOngoingCertificationReportDate": "2027-01-06",
           "nextQuarterlyReview": {
-            "date": "2026-10-13",
-            "startTime": "15:00:00-04:00",
+            "date": "2027-01-13",
+            "startTime": "15:00:00-05:00",
             "registrationUrl": "mailto:security@tarly.co?subject=Tarly%20Cowork%20Q4%202026%20FedRAMP%20Quarterly%20Review%20registration",
-            "calendarUrl": "https://gov.tarly.co/trust/quarterly-review-2026-q4.ics"
+            "calendarUrl": "https://gov.tarly.co/trust/quarterly-review-2027-q1.ics",
+            "reportingQuarter": "2026-Q4"
           },
           "ongoingCertificationReportFeedbackUrl": "mailto:security@tarly.co?subject=Tarly%20Cowork%20Ongoing%20Certification%20Report%20feedback"
         },
@@ -378,10 +379,12 @@
               "PDF",
               "JSON"
             ],
-            "availability": "Authenticated Trust Center access for authorized necessary parties; initial report published October 12, 2026, covering July 17 through October 12. Next regular target: January 6, 2027.",
+            "availability": "Authenticated Trust Center access for authorized necessary parties; initial Q3 2026 report published October 12, 2026, covering July 17 through October 12. Next Q4 2026 report target: January 6, 2027.",
             "url": "https://gov.tarly.co/trust/package.html?rule=CCM-OCR-AVL",
             "machineReadableUrl": "https://gov.tarly.co/api/trust/controlled/files/rule-and-ksi-packages/CCM-OCR-AVL/evidence/ocr/2026-Q4/report.json",
-            "isExample": false
+            "isExample": false,
+            "reportingQuarter": "2026-Q3",
+            "nextReportingQuarter": "2026-Q4"
           },
           {
             "name": "Authorization boundary, data flows, policies, procedures, assessment evidence, and continuous-compliance results",
@@ -462,7 +465,7 @@
         ],
         "ZD_frid_retro": "FR2628650874",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:33Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:04Z"
       },
       {
         "certifiedServices": [
@@ -548,7 +551,7 @@
         },
         "ZD_frid_retro": "FR2628647233",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:36Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:07Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -656,7 +659,7 @@
         "nextOngoingCertificationReportDate": "2026-11-10",
         "ZD_frid_retro": "FR2628647238",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:36Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:07Z"
       },
       {
         "serviceIdentification": {
@@ -1354,7 +1357,7 @@
         },
         "ZD_frid_retro": "FR2628647242",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:37Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:08Z"
       },
       {
         "assessor": {
@@ -2277,7 +2280,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:37Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:08Z"
       },
       {
         "serviceIdentification": {
@@ -2334,7 +2337,7 @@
         },
         "ZD_frid_retro": "FR2628943629",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:39Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:10Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2463,7 +2466,7 @@
         ],
         "ZD_frid_retro": "FR2628943630",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:40Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:11Z"
       },
       {
         "serviceIdentification": {
@@ -2557,7 +2560,7 @@
         ],
         "ZD_frid_retro": "FR2628943632",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:40Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:11Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2698,7 +2701,7 @@
         },
         "ZD_frid_retro": "FR2628943633",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:41Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:12Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -2869,7 +2872,7 @@
         "missingInformationRequested": [],
         "ZD_frid_retro": "FR2629068830",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:41Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:12Z"
       },
       {
         "serviceIdentification": {
@@ -2933,7 +2936,7 @@
         },
         "ZD_frid_retro": "FR2629068832",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:42Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:12Z"
       },
       {
         "serviceIdentification": {
@@ -2992,7 +2995,7 @@
         },
         "ZD_frid_retro": "FR2629068833",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:43Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:13Z"
       },
       {
         "assessor": {
@@ -3045,7 +3048,7 @@
         },
         "ZD_frid_retro": "FR2630354482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:44Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:14Z"
       },
       {
         "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -3117,7 +3120,7 @@
         },
         "ZD_frid_retro": "FR2630354484",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:45Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:15Z"
       },
       {
         "serviceIdentification": {
@@ -3201,7 +3204,7 @@
         ],
         "ZD_frid_retro": "FR2630354485",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:45Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:15Z"
       },
       {
         "serviceIdentification": {
@@ -3289,7 +3292,7 @@
         ],
         "ZD_frid_retro": "FR2630354487",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:45Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:15Z"
       },
       {
         "serviceIdentification": {
@@ -3377,7 +3380,7 @@
         },
         "ZD_frid_retro": "FR2630354491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:46Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:15Z"
       },
       {
         "serviceIdentification": {
@@ -3416,7 +3419,7 @@
         },
         "ZD_frid_retro": "FR2630354492",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:48Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:17Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3601,7 +3604,7 @@
         },
         "ZD_frid_retro": "FR2630354494",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:47Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:17Z"
       },
       {
         "serviceIdentification": {
@@ -3665,7 +3668,7 @@
         ],
         "ZD_frid_retro": "FR2630354495",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:48Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:17Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -3815,7 +3818,7 @@
         },
         "ZD_frid_retro": "FR2630447318",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:49Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:18Z"
       },
       {
         "serviceIdentification": {
@@ -3962,7 +3965,7 @@
         },
         "ZD_frid_retro": "FR2631054533",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:50Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:18Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4103,7 +4106,7 @@
         },
         "ZD_frid_retro": "FR2631054539",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:49Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:18Z"
       },
       {
         "publicDisclosure": {
@@ -4372,7 +4375,7 @@
         ],
         "ZD_frid_retro": "FR2631054482",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:50Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:18Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -4695,7 +4698,7 @@
         },
         "ZD_frid_retro": "FR2631054484",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:50Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:19Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5215,7 +5218,7 @@
         },
         "ZD_frid_retro": "FR2631154499",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:50Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:19Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -5312,7 +5315,7 @@
         },
         "ZD_frid_retro": "FR2631258113",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:51Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:19Z"
       },
       {
         "serviceIdentification": {
@@ -5509,7 +5512,7 @@
         ],
         "ZD_frid_retro": "F1206111371",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:52Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:19Z"
       },
       {
         "serviceIdentification": {
@@ -5702,7 +5705,7 @@
         ],
         "ZD_frid_retro": "FR2631258125",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:54Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:21Z"
       },
       {
         "serviceIdentification": {
@@ -5779,7 +5782,7 @@
         },
         "ZD_frid_retro": "FR2631258127",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:53Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:20Z"
       },
       {
         "reportMetadata": {
@@ -6084,7 +6087,7 @@
         },
         "ZD_frid_retro": "FR2631258132",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:55Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:21Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -6936,7 +6939,7 @@
         ],
         "ZD_frid_retro": "FR2631258135",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:54Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:20Z"
       },
       {
         "serviceIdentification": {
@@ -7065,7 +7068,7 @@
         ],
         "ZD_frid_retro": "F1311222650",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:55Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:21Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7193,7 +7196,7 @@
         },
         "ZD_frid_retro": "FR2631654537",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:56Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:22Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -7275,7 +7278,7 @@
         },
         "ZD_frid_retro": "FR2631747315",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:57Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:23Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8127,7 +8130,7 @@
         ],
         "ZD_frid_retro": "FR2631747321",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:57Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:22Z"
       },
       {
         "serviceIdentification": {
@@ -8179,7 +8182,7 @@
         ],
         "ZD_frid_retro": "FR2631747327",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:57Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:22Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8292,7 +8295,7 @@
         ],
         "ZD_frid_retro": "FR2300457485",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:58Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:22Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8328,7 +8331,7 @@
         ],
         "ZD_frid_retro": "FR2632054516",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:58Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:23Z"
       },
       {
         "serviceIdentification": {
@@ -8433,7 +8436,7 @@
         ],
         "ZD_frid_retro": "FR2632054521",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:58Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:23Z"
       },
       {
         "packageMetadata": {
@@ -8524,7 +8527,7 @@
         },
         "ZD_frid_retro": "FR2520254824",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:53:58Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:23Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -8640,7 +8643,7 @@
         },
         "ZD_frid_retro": "FR2632054530",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:53:59Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:23Z"
       },
       {
         "serviceIdentification": {
@@ -8724,7 +8727,7 @@
         },
         "ZD_frid_retro": "FR2632054534",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:00Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:24Z"
       },
       {
         "serviceIdentification": {
@@ -8836,7 +8839,7 @@
         },
         "ZD_frid_retro": "FR2632054491",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:00Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:24Z"
       },
       {
         "serviceIdentification": {
@@ -8926,7 +8929,7 @@
         },
         "ZD_frid_retro": "FR2632054495",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:00Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:24Z"
       },
       {
         "serviceIdentification": {
@@ -9010,7 +9013,7 @@
         },
         "ZD_frid_retro": "FR2632436493",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:01Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:24Z"
       },
       {
         "serviceIdentification": {
@@ -9048,7 +9051,7 @@
         ],
         "ZD_frid_retro": "FR2632558735",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:01Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:25Z"
       },
       {
         "serviceIdentification": {
@@ -9086,7 +9089,7 @@
         ],
         "ZD_frid_retro": "FR2632558740",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:01Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:26Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -9168,7 +9171,7 @@
         },
         "ZD_frid_retro": "FR2632558748",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:02Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:25Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -9300,7 +9303,7 @@
         },
         "ZD_frid_retro": "FR2632731472",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:03Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:25Z"
       },
       {
         "serviceIdentification": {
@@ -9378,7 +9381,7 @@
         },
         "ZD_frid_retro": "FR2632755834",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:03Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:26Z"
       },
       {
         "serviceIdentification": {
@@ -9445,7 +9448,7 @@
         },
         "ZD_frid_retro": "FR2633058235",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:04Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:26Z"
       },
       {
         "$comment": "Ultra Security FedRAMP 20x Certification Package Overview — conformant to fedramp-certification-package-overview-schema-2026-06-24.json (FRC-CSO-PKG). Machine-readable identification package for the CSO. This is the schema-conformant CPO; the narrative CPO (metadata/publicInformation/... index) is a separate human-readable companion.",
@@ -9552,7 +9555,7 @@
         },
         "ZD_frid_retro": "FR2633058240",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:04Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:27Z"
       },
       {
         "serviceIdentification": {
@@ -9646,7 +9649,7 @@
         },
         "ZD_frid_retro": "FR2633053629",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:05Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:27Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -9746,7 +9749,7 @@
         },
         "ZD_frid_retro": "FR2633053633",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:05Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:27Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -9823,7 +9826,7 @@
         ],
         "ZD_frid_retro": "FR2633153272",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:05Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:27Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -9872,7 +9875,7 @@
         ],
         "ZD_frid_retro": "FR2633153276",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:06Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:27Z"
       },
       {
         "serviceIdentification": {
@@ -9964,7 +9967,7 @@
         },
         "ZD_frid_retro": "FR2532557612",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:06Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:28Z"
       },
       {
         "serviceIdentification": {
@@ -9997,7 +10000,7 @@
         ],
         "ZD_frid_retro": "FR2633734906",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:06Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:28Z"
       },
       {
         "serviceIdentification": {
@@ -10446,7 +10449,7 @@
         ],
         "ZD_frid_retro": "FR2633734932",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:09Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:29Z"
       },
       {
         "serviceIdentification": {
@@ -10486,7 +10489,7 @@
         ],
         "ZD_frid_retro": "FR2626164349",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:10Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:29Z"
       },
       {
         "serviceIdentification": {
@@ -11111,7 +11114,7 @@
         },
         "ZD_frid_retro": "FR2633841585",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:10Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:30Z"
       },
       {
         "serviceIdentification": {
@@ -11276,7 +11279,7 @@
         ],
         "ZD_frid_retro": "FR2528033654",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:11Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:30Z"
       },
       {
         "serviceIdentification": {
@@ -11394,7 +11397,7 @@
         ],
         "ZD_frid_retro": "FR2410866384",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:11Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:30Z"
       },
       {
         "serviceIdentification": {
@@ -11515,7 +11518,7 @@
         },
         "ZD_frid_retro": "FR2633957417",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:12Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:30Z"
       },
       {
         "serviceIdentification": {
@@ -11630,7 +11633,7 @@
         ],
         "ZD_frid_retro": "FR2633957422",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:14Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:33Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -12042,7 +12045,7 @@
         ],
         "ZD_frid_retro": "FR2527234065",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:15Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:33Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -12091,7 +12094,7 @@
         },
         "ZD_frid_retro": "FR2634357692",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:26Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:32Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -12238,7 +12241,7 @@
         },
         "ZD_frid_retro": "FR2612446381",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:27Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:33Z"
       },
       {
         "serviceIdentification": {
@@ -12377,7 +12380,7 @@
         },
         "ZD_frid_retro": "FR2619254906",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:27Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:34Z"
       },
       {
         "serviceIdentification": {
@@ -12416,7 +12419,7 @@
         ],
         "ZD_frid_retro": "FR2619646960",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:28Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:33Z"
       },
       {
         "serviceIdentification": {
@@ -12530,7 +12533,7 @@
         },
         "ZD_frid_retro": "FR2634436150",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:28Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:34Z"
       },
       {
         "serviceIdentification": {
@@ -12880,7 +12883,7 @@
         ],
         "ZD_frid_retro": "FR2000863987A",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:28Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:34Z"
       },
       {
         "serviceIdentification": {
@@ -12942,7 +12945,7 @@
         ],
         "ZD_frid_retro": "FR2206159758",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:30Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:35Z"
       },
       {
         "serviceIdentification": {
@@ -13064,7 +13067,7 @@
         ],
         "ZD_frid_retro": "FR2634450946",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:30Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:34Z"
       },
       {
         "serviceIdentification": {
@@ -13205,7 +13208,7 @@
         ],
         "ZD_frid_retro": "FR2634659079",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:31Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:36Z"
       },
       {
         "serviceIdentification": {
@@ -13282,7 +13285,7 @@
         },
         "ZD_frid_retro": "FR2634659083",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:30Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:34Z"
       },
       {
         "serviceIdentification": {
@@ -13324,7 +13327,7 @@
         ],
         "ZD_frid_retro": "FR2634659087",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:31Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:35Z"
       },
       {
         "serviceIdentification": {
@@ -13363,7 +13366,7 @@
         ],
         "ZD_frid_retro": "FR2634659091",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:31Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:35Z"
       },
       {
         "serviceIdentification": {
@@ -13489,7 +13492,7 @@
         ],
         "ZD_frid_retro": "FR2634659095",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:33Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:37Z"
       },
       {
         "serviceIdentification": {
@@ -13588,7 +13591,7 @@
         },
         "ZD_frid_retro": "FR1907847653",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:33Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:37Z"
       },
       {
         "serviceIdentification": {
@@ -13692,7 +13695,7 @@
         },
         "ZD_frid_retro": "FR2635050845",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:34Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:37Z"
       },
       {
         "serviceIdentification": {
@@ -13904,7 +13907,7 @@
         },
         "ZD_frid_retro": "FR2635050855",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:35Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:38Z"
       },
       {
         "fedramp_id": "FR2635050861",
@@ -14523,7 +14526,7 @@
           "statement": "VirtualDojo is pursuing FedRAMP 20x Certification Class C for VirtualDojo AI CRM by the Program path. Progress below is measured against dated milestones and refreshed at least quarterly. Milestones that are not yet met say so.",
           "review_cadence": "quarterly",
           "next_review_date": "2026-12-01",
-          "last_updated": "2026-10-13T16:13:28Z",
+          "last_updated": "2026-10-13T20:13:17Z",
           "goals": [
             {
               "id": "G1",
@@ -15800,7 +15803,7 @@
         "live_monitoring": {
           "controls_monitored": 46,
           "controls_passing": 39,
-          "last_validated": "2026-10-13T16:08:46.876426Z"
+          "last_validated": "2026-10-13T20:09:03.679661Z"
         },
         "metadata": {
           "responsibleOfficial": {
@@ -15809,7 +15812,7 @@
             "email": "security@virtualdojo.com"
           },
           "version": "1.1",
-          "lastUpdated": "2026-10-13T16:13:39.594296+00:00",
+          "lastUpdated": "2026-10-13T20:13:18.605993+00:00",
           "updateSource": "Generated by fedramp-ksi-validator export.certification_package from package.yaml and the automated KSI/FRR validation results."
         },
         "serviceIdentification": {
@@ -15924,7 +15927,7 @@
         ],
         "ZD_frid_retro": "FR2635050861",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:35Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:38Z"
       },
       {
         "serviceIdentification": {
@@ -16045,7 +16048,7 @@
         ],
         "ZD_frid_retro": "FR2635447609",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:37Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:39Z"
       },
       {
         "serviceIdentification": {
@@ -16099,7 +16102,7 @@
         ],
         "ZD_frid_retro": "FR2635930421",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:36Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:37Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -16253,7 +16256,7 @@
         },
         "ZD_frid_retro": "FR2635930425",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:38Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:39Z"
       },
       {
         "assessor": {
@@ -17176,7 +17179,7 @@
         },
         "ZD_frid_retro": "FR2635930439",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:37Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:39Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -17296,7 +17299,7 @@
         ],
         "ZD_frid_retro": "F1403283529A",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:38Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:39Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -17385,7 +17388,7 @@
         },
         "ZD_frid_retro": "FR2618738935",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:38Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:39Z"
       },
       {
         "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -17775,7 +17778,7 @@
         ],
         "ZD_frid_retro": "FR2635930482",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:39Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:40Z"
       },
       {
         "serviceIdentification": {
@@ -17917,7 +17920,7 @@
         },
         "ZD_frid_retro": "FR2700137029",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:41Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:41Z"
       },
       {
         "serviceIdentification": {
@@ -18010,7 +18013,7 @@
         },
         "ZD_frid_retro": "FR2700137035",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:40Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:41Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -18110,7 +18113,7 @@
         },
         "ZD_frid_retro": "FR2700137041",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:41Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:41Z"
       },
       {
         "serviceIdentification": {
@@ -18274,7 +18277,7 @@
         },
         "ZD_frid_retro": "FR2700137045",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:42Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:42Z"
       },
       {
         "serviceIdentification": {
@@ -18325,7 +18328,7 @@
         },
         "ZD_frid_retro": "FR1915750265",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:42Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:42Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -18385,7 +18388,7 @@
         },
         "ZD_frid_retro": "FR1711546389",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:43Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:42Z"
       },
       {
         "serviceIdentification": {
@@ -19183,7 +19186,7 @@
         "certifiedServicesNote": "The date available for each service represents the date the service was included in the AWS GovCloud FedRAMP certification boundary based on available assessment records. Actual inclusion dates as reflected in FedRAMP PMO records may vary. AWS has maintained continuous FedRAMP certification for GovCloud (Class D) since 2016, and all listed services are subject to ongoing annual independent assessment regardless of their inclusion date.",
         "ZD_frid_retro": "F1603047866",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:43Z"
+        "last_fetched_timestamp": "2026-10-13T23:13:38Z"
       },
       {
         "serviceIdentification": {
@@ -20061,7 +20064,7 @@
         "certifiedServicesNote": "The date available for each service represents the date the service was included in the AWS US East/West FedRAMP certification boundary based on available assessment records. Actual inclusion dates as reflected in FedRAMP PMO records may vary. AWS has maintained continuous FedRAMP certification for US East/West (Class C) since 2013, and all listed services are subject to ongoing annual independent assessment regardless of their inclusion date.",
         "ZD_frid_retro": "AGENCYAMAZONEW",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:44Z"
+        "last_fetched_timestamp": "2026-10-13T23:13:38Z"
       },
       {
         "serviceIdentification": {
@@ -20137,7 +20140,7 @@
         ],
         "ZD_frid_retro": "FR2700429895",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:45Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:43Z"
       },
       {
         "serviceIdentification": {
@@ -20364,7 +20367,7 @@
         },
         "ZD_frid_retro": "FR2700555844",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:45Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:43Z"
       },
       {
         "serviceIdentification": {
@@ -20399,7 +20402,7 @@
         ],
         "ZD_frid_retro": "FR2700555848",
         "id_matches_expected": null,
-        "last_fetched_timestamp": "2026-10-13T19:54:46Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:44Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -20506,7 +20509,7 @@
         },
         "ZD_frid_retro": "FR2113346550",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:46Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:44Z"
       },
       {
         "serviceIdentification": {
@@ -20593,7 +20596,7 @@
         },
         "ZD_frid_retro": "FR2522249893",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:46Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:43Z"
       },
       {
         "serviceIdentification": {
@@ -20653,7 +20656,7 @@
         ],
         "ZD_frid_retro": "FR2700754078",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:47Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:45Z"
       },
       {
         "metadata": {
@@ -20867,7 +20870,7 @@
         },
         "ZD_frid_retro": "FR2700754082",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:47Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:45Z"
       },
       {
         "serviceIdentification": {
@@ -20903,7 +20906,7 @@
         },
         "ZD_frid_retro": "FR2516140413",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:48Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:45Z"
       },
       {
         "serviceIdentification": {
@@ -20941,7 +20944,7 @@
         },
         "ZD_frid_retro": "FR1817874315",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:49Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:46Z"
       },
       {
         "serviceIdentification": {
@@ -21065,7 +21068,7 @@
         },
         "ZD_frid_retro": "FR2700857464",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:50Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:47Z"
       },
       {
         "serviceIdentification": {
@@ -21320,7 +21323,7 @@
         },
         "ZD_frid_retro": "FR2700857469",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:51Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:47Z"
       },
       {
         "metadata": {
@@ -21589,7 +21592,7 @@
         "x-assessmentSummary": "A-LIGN (FedRAMP assessor ID 138665) is performing the independent assessment under SOW CON-011035. The 20x Class C assessment window is 2027-01-15 to 2027-02-12. The overall assessment summary will be added when A-LIGN issues it.",
         "ZD_frid_retro": "FR2700857472",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:50Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:47Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -21959,7 +21962,7 @@
         ],
         "ZD_frid_retro": "FR2315464863",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:51Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:47Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -22036,7 +22039,7 @@
         ],
         "ZD_frid_retro": "FR2700857493",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:51Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:47Z"
       },
       {
         "serviceIdentification": {
@@ -22073,7 +22076,7 @@
         ],
         "ZD_frid_retro": "FR2024952734",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:51Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:47Z"
       },
       {
         "serviceIdentification": {
@@ -22144,7 +22147,7 @@
         ],
         "ZD_frid_retro": "FR2701247925",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:52Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:47Z"
       },
       {
         "serviceIdentification": {
@@ -22197,7 +22200,7 @@
         },
         "ZD_frid_retro": "FR2701247929",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:52Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:48Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -22322,7 +22325,7 @@
         },
         "ZD_frid_retro": "FR2701247935",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-13T19:54:53Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:48Z"
       },
       {
         "serviceIdentification": {
@@ -22578,7 +22581,174 @@
         ],
         "ZD_frid_retro": "FR2003061248",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-13T19:54:53Z"
+        "last_fetched_timestamp": "2026-10-13T23:17:49Z"
+      },
+      {
+        "serviceIdentification": {
+          "fedRampPackageId": "Fulcrum FUL",
+          "providerName": "Fulcrum",
+          "serviceName": "Fulcrum",
+          "serviceAcronym": "FUL",
+          "serviceDescription": "Fulcrum is a cloud manufacturing operations system for small and mid-sized discrete manufacturers, including CNC machine shops, sheet metal fabricators, and aerospace and defense suppliers. It combines ERP, MRP and manufacturing execution in one web application, from quoting and planning through scheduling, shop-floor tracking, quality, shipping and invoicing.\n\nArchie, the AI built into Fulcrum, answers questions about a customer's live shop data, takes actions on it, and builds custom pages and tools. Customers can also connect their own AI assistants to the same data tools through the Fulcrum MCP server, within each user's permissions. Archie's AI models are hosted in Microsoft Azure Government with the rest of the offering, so prompts to Archie and the shop data it reads stay in Azure Government; a customer's own assistant runs wherever the customer chooses.\n\nCustomers reach the service through a web browser, a REST API and MCP.",
+          "certificationType": "20x",
+          "website": "https://www.fulcrumpro.com",
+          "logo": "https://fedramp.fulcrumpro.us/fulcrum-logo.png"
+        },
+        "serviceProperties": {
+          "serviceType": [
+            "SaaS"
+          ],
+          "deploymentModel": "Government Community Cloud",
+          "businessCategory": [
+            "Artificial Intelligence (AI)",
+            "Operations Management",
+            "Finance",
+            "Marketing & Sales",
+            "Analytics"
+          ],
+          "trustCenter": {
+            "repositoryType": [
+              "Trust Center"
+            ],
+            "url": "https://trust.fulcrumpro.us",
+            "repositoryDescription": "Fulcrum's FedRAMP certification data: a program overview, and Fulcrum's published positions on the FedRAMP rules and Key Security Indicators that apply to the offering.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Go to https://trust.fulcrumpro.us and choose \"Government agencies and assessors\". Enter your work email address and sign in with the one-time passcode sent to it. Some organizations are given access when their members first sign in. For any other address, the sign-in is recorded as a request for access: Fulcrum responds to requests from government addresses within 5 business days, and contacts other requesters about their request. Fulcrum staff choose \"Fulcrum staff\"."
+          },
+          "secureConfigurationGuidance": {
+            "repositoryType": [
+              "Secure Configuration Guidance"
+            ],
+            "url": "https://trust.fulcrumpro.us",
+            "repositoryDescription": "The Secure Configuration Guide for the offering. It is not published and is not stored in the Trust Center; it is sent by email on request.",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "The guide is supplied on request to agencies, assessors and customers. Sign in to the Fulcrum Trust Center as described above, then email fedramp-security@fulcrumpro.com naming your organization. Fulcrum answers requests from government addresses within 5 business days."
+          },
+          "nextOngoingCertificationReportDate": "2027-03-02"
+        },
+        "contactInformation": [
+          {
+            "contactType": "Security",
+            "contactName": "Fulcrum FedRAMP Security",
+            "contactEmail": "fedramp-security@fulcrumpro.com"
+          },
+          {
+            "contactType": "Sales",
+            "contactName": "Fulcrum Sales",
+            "contactEmail": "sales@fulcrumpro.com",
+            "contactPhone": "612-502-0050"
+          }
+        ],
+        "assessor": {
+          "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+          "assessorID": "138665"
+        },
+        "certifiedServices": [
+          {
+            "serviceName": "Archie",
+            "serviceDescription": "The AI built into Fulcrum. It answers questions about live shop data, takes actions on it, and builds custom pages and tools.",
+            "securityCategory": "Moderate"
+          },
+          {
+            "serviceName": "MCP & API",
+            "serviceDescription": "The Fulcrum MCP server, which connects a customer's own AI assistant to Archie's data tools within the user's permissions, and the Fulcrum REST API.",
+            "securityCategory": "Moderate"
+          },
+          {
+            "serviceName": "Control",
+            "serviceDescription": "Quality management for AS9100D and ISO 9001 shops: drawing bubbling, in-process inspection, nonconformances, corrective actions and calibration.",
+            "securityCategory": "Moderate"
+          },
+          {
+            "serviceName": "Grouped Work & Nesting",
+            "serviceDescription": "Nests generated from DXF files on quotes, nest planning across orders, and grouping of operations across jobs into shared work.",
+            "securityCategory": "Moderate"
+          },
+          {
+            "serviceName": "Quoting & Sales Orders",
+            "serviceDescription": "Quotes with material and labor pricing and capacity-based lead times, converted into sales orders.",
+            "securityCategory": "Moderate"
+          },
+          {
+            "serviceName": "BOM & Routing",
+            "serviceDescription": "Multi-level bills of materials and operation routings for every made part.",
+            "securityCategory": "Moderate"
+          },
+          {
+            "serviceName": "Demand & Purchase Planning",
+            "serviceDescription": "Material requirements from open demand, with draft purchase orders grouped by vendor.",
+            "securityCategory": "Moderate"
+          },
+          {
+            "serviceName": "Autoschedule",
+            "serviceDescription": "Automated production scheduling across machines and labor, re-optimized as priorities change.",
+            "securityCategory": "Moderate"
+          },
+          {
+            "serviceName": "Job Tracking",
+            "serviceDescription": "Shop-floor kiosks where operators clock labor, pick material and record progress on each operation.",
+            "securityCategory": "Moderate"
+          },
+          {
+            "serviceName": "Materials & Inventory",
+            "serviceDescription": "Live inventory by location, with lot and certification tracking.",
+            "securityCategory": "Moderate"
+          },
+          {
+            "serviceName": "Shipping & Receiving",
+            "serviceDescription": "Receiving against purchase orders, shipments against sales orders, and packing documents.",
+            "securityCategory": "Moderate"
+          },
+          {
+            "serviceName": "Jobs & Costing",
+            "serviceDescription": "Live job costs from actual labor, machine time and material, compared with estimates.",
+            "securityCategory": "Moderate"
+          },
+          {
+            "serviceName": "Finance",
+            "serviceDescription": "Invoicing and receivables aging.",
+            "securityCategory": "Moderate"
+          },
+          {
+            "serviceName": "Live Reports",
+            "serviceDescription": "Live production, inventory, quality and shop-floor reports.",
+            "securityCategory": "Moderate"
+          }
+        ],
+        "excludedServices": [
+          {
+            "serviceName": "Integrations",
+            "serviceDescription": "Connections to accounting, shipping and other outside systems, including webhooks and chat alerts."
+          },
+          {
+            "serviceName": "Customer Portal",
+            "serviceDescription": "A portal where a manufacturer's own customers view orders and documents."
+          },
+          {
+            "serviceName": "Custom Report Builder",
+            "serviceDescription": "Drag-and-drop custom reports, scheduled report exports and the executive dashboard."
+          },
+          {
+            "serviceName": "Outlook Add-in",
+            "serviceDescription": "Fulcrum actions from inside Microsoft Outlook."
+          },
+          {
+            "serviceName": "CAD file translation",
+            "serviceDescription": "Conversion of native CAD formats for in-browser viewing through a third-party service."
+          },
+          {
+            "serviceName": "AI document import",
+            "serviceDescription": "Creating bills of materials, parts and nests from uploaded drawings, PDFs and nest sheets with AI."
+          },
+          {
+            "serviceName": "Some features of included services",
+            "serviceDescription": "Automatic drawing bubbling in Control; Archie web search, help-article search and code execution; the inspection, inventory continuity, job log and work-in-progress report downloads and grid column export; and these REST API operations: purchase order PDF, calibration certificate and scrap report downloads, single nonconformance and corrective action reads, item can-make and purchase history reads, item customer, item tag and material vendor changes, department, equipment and work center changes, in-process tracking lists, completing an item-to-make operation, and material lookup."
+          }
+        ],
+        "documentationOverview": "Fulcrum keeps its FedRAMP certification data in the Fulcrum Trust Center, which government agencies and assessors can sign in to as described below. The Secure Configuration Guide, which explains how customers configure the offering securely, is supplied on request.",
+        "ZD_frid_retro": "FR2701256060",
+        "id_matches_expected": false,
+        "last_fetched_timestamp": "2026-10-13T23:17:48Z"
       }
     ]
   }
