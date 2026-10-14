@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2403936773",
+    "providerName": "Telos Corporation",
+    "serviceName": "Xacta SaaS",
+    "serviceAcronym": "Xacta SaaS",
+    "serviceDescription": "Xacta® is a cyber GRC automation platform that supports assessment and authorization, remediation, and continuous monitoring. Xacta.ai builds on the platform with advanced AI capabilities that accelerate decision-making, reduce manual effort, and increase operational efficiency. Designed for IT risk and security compliance teams, Xacta operationalizes key security indicators (KSIs) across risk and compliance frameworks.\r\n\r\n \r\n\r\nThe FedRAMP Class D (High) Certificated SaaS platform of Xacta includes Xacta 360™ with the Propagation Utility (PU) and, optionally, Xacta.io™ and Xacta.ai™. Together, Xacta 360, Xacta.io, and Xacta.ai form a complementary suite of solutions that supports compliance and authorization for a variety of frameworks including, but not limited to, FISMA, NIST RMF, CNSSI 1253, NIST 800-53, NIST CSF, FedRAMP, COBIT 5, PCI-DSS, and ISO. The platform draws on a knowledgebase of over 5,000 security requirements and associated test procedures, cross-referenced across more than 100 security policies and standards, and produces artifacts in both human-readable office documents and machine-readable digital formats such as the Open Security Controls Assessment Language (OSCAL).\r\n\r\nIn addition to FedRAMP Class D (High) Certification, the SaaS version of Xacta is authorized at GovRAMP High, CMMC Level 2, CUI, and ISO 27001.\r\n\r\n \r\n\r\nXacta 360 streamlines security, risk, and compliance programs using a project-based workflow. It features out-of-the-box cyber risk management templates, customizable in a no-code/low-code UI, and automated workflows with prerequisites, role-based approvals, and intelligent capabilities. Users can conduct asset inventory and risk assessments, generate required compliance documentation and audit artifacts in real time, and automate compliance for over 100 regulations and policies.\r\n\r\n \r\n\r\nAdditionally, the Xacta 360 Propagation Utility allows administrators to easily update multiple active projects with changes from an assessment project workflow template.\r\n\r\nXacta.io correlates results from multiple security products across your organization into a single view, and maps them to the relevant controls for security and risk management. IT risk and security compliance teams can then use these results to create reports for analysis and to understand trending security issues in their environment.\r\n\r\n \r\n\r\nIncluded with Xacta.io is Xacta MetriX™, which offers additional powerful, modular reporting capabilities that allow compliance teams to easily build and edit custom widgets and dashboards.\r\n\r\n \r\n\r\nXacta.ai™ is the artificial intelligence capability at the core of the Xacta platform, empowering IT risk and security compliance teams to work more efficiently and make informed decisions. Xacta.ai can be customized by integrating your organization’s data to enable faster, more informed decisions and accelerate your GRC initiatives. Use Xacta.ai to draft control implementation statements and automatically check them for accuracy, generate targeted test procedures aligned to your environment, run queries on project artifacts, and more.\r\n\r\n \r\n\r\nDeployment options include Public SaaS up to FedRAMP Class D (High) and user provided infrastructure. In AWS environments, Xacta 360 can inherit common security controls from the underlying platform to reduce duplication of effort and accelerate authorization.",
+    "certificationType": "Rev5",
+    "website": "https://www.telos.com/offerings/xacta/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Telos%20Logo.png",
+    "ueiNumber": "JLW7WAKPEKD4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FRSI@telos.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@telos.com"
+    }
+  ],
+  "assessor": {
+    "name": "138819",
+    "assessorID": "138819"
+  }
+}

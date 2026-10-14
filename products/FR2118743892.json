@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2118743892",
+    "providerName": "Digital.ai",
+    "serviceName": "Digital.ai Government Cloud",
+    "serviceAcronym": "Digital.ai Government Cloud",
+    "serviceDescription": "Digital.ai Government Cloud an AI-Powered DevOps Platform that empowers US Government agencies to unify, secure and generate predictive insights across the software lifecycle, increasing business value with integrated software delivery, and driving down technical debt through enterprise connections. Additional information is available at https://digital.ai/government. The following Digital.ai Government Cloud services are FedRAMP authorized: Digital.ai Agility",
+    "certificationType": "Rev5",
+    "website": "https://digital.ai/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Digital.ai.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-info@digital.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "trey.doescher@digital.ai"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

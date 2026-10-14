@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2122150307",
+    "providerName": "MongoDB",
+    "serviceName": "MongoDB Atlas for Government",
+    "serviceAcronym": "MongoDB Atlas for Government",
+    "serviceDescription": "MongoDB Atlas for Government is a fully-managed multi-cloud developer data platform authorized at FedRAMP® Moderate. Building on MongoDB’s document data model and query API, Atlas for Government automates operational and administrative tasks and offers advanced data distribution capabilities.\r\n\r\n\r\nDesigned to be secure by default, it runs in a FedRAMP Moderate Authorized, dedicated environment tailored for U.S. government needs, including Criminal Justice Information Solutions (CJIS) applications. Encryption is supported for data at rest, in transit, and in use, including encryption capabilities such as Queryable Encryption and Client-Side Field-Level Encryption. \r\n\r\n\r\nAtlas for Government is available in AWS GovCloud regions, AWS FedRAMP Moderate regions (US East/West), and GCP Assured Workload US regions.",
+    "certificationType": "Rev5",
+    "website": "https://www.mongodb.com/products/platform/atlas-for-government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/MongoDB%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@mongodb.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@mongodb.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

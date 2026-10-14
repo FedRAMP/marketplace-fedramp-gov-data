@@ -1,0 +1,34 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1503096502",
+    "providerName": "ORock Technologies",
+    "serviceName": "ORockCloud",
+    "serviceAcronym": "ORockCloud",
+    "serviceDescription": "Per FedRAMP's Provision for Authorized Service Offerings that Lose Their Only ATO on File - ORockCloud Technology will remain FedRAMP Ready as of 10/20/2023 as long as the steps outlined in the provision are followed.\n\nORockCloud is the first and only OpenStack-based cloud to achieve a FedRAMP Moderate authorization for IaaS and PaaS. This secure, open-source cloud provides a highly scalable, nationally resilient environment with elastic, on-demand access to computing, storage, virtualization, networking, performance monitoring, and applications in ORock’s service catalog. As a Red Hat Premier Certified Cloud and Service Provider (CCSP), ORock Technologies offers a full suite of open-source solutions for enhanced flexibility, interoperability, security, and control, including Red Hat Enterprise Linux; Red Hat OpenShift, Red Hat Virtualization; Red Hat Ceph Storage; Red Hat Ansible Tower; and all associated cloud APIs. ORockCloud also offers advanced functionality and simplicity to support your CI/CD, AI, ML and analytics requirements. ORock’s private, carrier-grade, fiber optic backbone network with dedicated connectivity between all points of presence and no upstream cloud service provider (CSP) to maximize security, autonomy, and performance. Managed services are provided entirely by U.S. citizens in a U.S.-based NOC and SOC. ORock is a public CSP serving enterprise customers in defense, government, and highly regulated industries, among others. ORock’s secure cloud solutions enable a range of hosting, storage (primary/backup), AI/ML, migration, and connectivity initiatives while supporting FedRAMP authorization and lowering total cost of ownership for government and commercial enterprises. Additional information is available at http://orocktech.com.",
+    "certificationType": "Rev5",
+    "website": "https://orocktech.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/ORock%20Technologies%20Logo.png",
+    "ueiNumber": "M19EB2JPM8E8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "soc@orocktech.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "salesteam@orocktech.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

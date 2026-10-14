@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2700857472",
+    "providerName": "CLEATUS, Inc.",
+    "serviceName": "CLEATUS",
+    "serviceAcronym": "CLEATUS",
+    "serviceDescription": "CLEATUS is a cloud-based Software-as-a-Service (SaaS) platform that provides AI-powered government contracting business development and proposal support. Users discover and evaluate federal contracting opportunities, manage capture and pipeline activities, generate and refine proposal content, and automate recurring business development workflows. The system is hosted in AWS GovCloud (US), with us-gov-west-1 as the primary region and us-gov-east-1 as a warm standby, and it processes, stores, and transmits Controlled Unclassified Information (CUI) for organizations that support the Department of Defense. The system does not process classified information.",
+    "certificationType": "Rev5",
+    "website": "https://www.cleat.ai",
+    "logo": "https://www.cleat.ai/images/logo/logo-cleatus-small-500.png",
+    "ueiNumber": "L6FVP55CMYA6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/cleatus",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@cleat.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@cleat.ai"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

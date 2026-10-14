@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2625525331",
+    "providerName": "Clearview AI, Inc.",
+    "serviceName": "Clearview GovCloud",
+    "serviceAcronym": "Clearview GovCloud",
+    "serviceDescription": "Clearview GovCloud is delivered as a SaaS offering using a multi-tenant Government-Only Cloud computing environment. It is available to federal, state, local, and tribal governments to investigate crimes, enhance public safety, secure our communities and provide justice to victims.\n \nClearview AI offers  a revolutionary, web-based investigative platform for government agencies to use as a tool to help generate high-quality investigative leads. The user-friendly interface offers advanced administrative tools for oversight, reporting and compliance. To get started, a probe image is uploaded and a required intake form is completed for the agency’s oversight. A vector is created from the probe image and searched against image sources collected from the public internet or agency managed custom galleries. Potential facial image match results are returned with a source URL to the public image. The end user, as part of the human in- the-loop process, verifies and supports returned results with further investigative steps.\n \nClearview AI’s platform searches against a proprietary database of 60+ billion facial images sourced from public-only web sources, including news media, mugshot websites, public social media, and other open sources. Clearview AI’s algorithm is trained on a large, diverse, custom-built dataset of millions of facial images and is tested by NIST, achieving over 99% accuracy across all demographics.",
+    "certificationType": "Rev5",
+    "website": "https://www.clearview.ai/gov",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Clearview%20Logo.png",
+    "ueiNumber": "E5BEYXDQYJS6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-security@clearviewai.us"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-sales@clearviewai.us"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2531434700",
+    "providerName": "Spectro Cloud",
+    "serviceName": "Palette VerteX",
+    "serviceAcronym": "Palette VerteX",
+    "serviceDescription": "Spectro Cloud Palette VerteX automates the provisioning of Kubernetes clusters across on-premise, Edge, and cloud systems allowing for easy development and deployment. Spectro Cloud has simplified the path to provisioning a functional Kubernetes cluster across multiple backend systems including but not limited to AWS, Google Cloud Platform (GCP), and Azure. \n\nThe system incorporates the provisioning of pre-hardened Amazon Machine Image (AMI) and container images as well as the ability to simplify deployments to pre-defined blueprints. Spectro Cloud delivers a simplified pipeline to customer management and deployment of Kubernetes at scale with the ability to support thousands of clusters. \n\nPalette VerteX allows users to construct flexible stacks from operating system (OS), Kubernetes, container network interfaces (CNI), and container storage interfaces (CSI) to additional add-on application services; therefore, the entire stack of Kubernetes is deployed, updated, and managed as one unit, without split responsibility from virtual machines, base OS, Kubernetes infrastructure, and add-ons.",
+    "certificationType": "Rev5",
+    "website": "https://www.spectrocloud.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Spectro%20Logo.png",
+    "ueiNumber": "EYBQRENSLSN5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "privacy@spectrocloud.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "contact@spectrocloud.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "AGENCYAMAZONEW",
+    "providerName": "Amazon Web Services, Inc.",
+    "serviceName": "AWS US East/West",
+    "serviceAcronym": "AWS US East/West",
+    "serviceDescription": "The AWS US East/West Regions are delivered as a multiple service layer cloud architecture model offering using a multi-tenant Public cloud computing environment. It is available to both government and non-government customers. Federal agencies interested in collaborative continuous monitoring with AWS should reach out to: aws-collaborative-conmon@amazon.com.",
+    "certificationType": "Rev5",
+    "website": "https://aws.amazon.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Amazon%20Logo.png",
+    "ueiNumber": "NQEWN6C1LSU5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS",
+      "PaaS",
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://secure.caplinked.com/workspaces/aws-workspace/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "aws-compliance-fedramp@amazon.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "scaglobal@amazon.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

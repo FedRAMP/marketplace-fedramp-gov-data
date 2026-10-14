@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2531047207",
+    "providerName": "Unanet",
+    "serviceName": "Unanet FedRAMP Moderate Cloud",
+    "serviceAcronym": "Unanet FedRAMP Moderate Cloud",
+    "serviceDescription": "Unanet GovCon ERP is a SaaS solution delivered in a multi-tenant, Government-Only cloud environment that supports government contractors with project management, accounting, timekeeping, labor and expense management, procurement, and business intelligence capabilities.\nContractors can securely manage contract information and maintain compliance with DFARS, DCAA, DCMA, and CMMC requirements.\nIt is available to the public, federal, state, local, and tribal governments, as well as research institutions, federal contractors, government contractors.",
+    "certificationType": "Rev5",
+    "website": "https://unanet.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Unanet%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@unanet.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedrampsales@unanet.com"
+    }
+  ],
+  "assessor": {
+    "name": "200562",
+    "assessorID": "200562"
+  }
+}

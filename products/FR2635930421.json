@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2635930421",
+    "providerName": "SOFware LLC",
+    "serviceName": "FORGE",
+    "serviceAcronym": "FORGE",
+    "serviceDescription": "FORGE is a software-as-a-service platform deployed in AWS GovCloud (US) that supports workforce assessment, talent development, and organizational decision-making for U.S. government customers.",
+    "certificationType": "Rev5",
+    "website": "https://sofwarellc.com/forge.html",
+    "logo": "https://trust.sofwarellc.com/fedramp/forge/forge-logo/forge.png",
+    "ueiNumber": "LEBYGUQX4297"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.sofwarellc.com/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@sofwarellc.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@sofwarellc.com"
+    }
+  ]
+}

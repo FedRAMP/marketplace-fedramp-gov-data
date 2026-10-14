@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2235154356",
+    "providerName": "Lastwall Corp",
+    "serviceName": "IDCommand",
+    "serviceAcronym": "IDCommand",
+    "serviceDescription": "IDCommand™ by Lastwall is a mission-ready Identity Platform purpose-built for the unique demands of U.S. government and defense environments.\r\nAt its core, IDCommand delivers secure, seamless access enabling a Zero Trust architecture - allowing agencies to modernize their authentication without compromising on compliance, control, or security posture.\r\n\r\nIDCommand supports the identity standards federal agencies trust - including SAML 2.0, OIDC, PIV/CAC, and FIDO2/WebAuthn - for strong, passwordless login experiences that eliminate credential vulnerabilities and streamline secure access. Whether you're operating in government, national security, or critical infrastructure, IDCommand makes it easy to implement Public Key Infrastructure (PKI) by design - so secure identity can be deployed quickly and confidently at scale.\r\n\r\nOur adaptive access engine continuously assesses risk in real time - factoring in device posture, patch levels, geographic context, and other environmental signals to deliver intelligent, policy-driven access decisions. These capabilities support alignment with key federal frameworks such as NIST SP 800-53 Rev.5 (Security and Privacy Controls for Information Systems and Organizations), NIST SP 800-63 (Digital Identity) and NIST SP 800-207 (Zero Trust architecture).\r\n\r\nEngineered for high-security domains, IDCommand integrates seamlessly into existing architectures - empowering federal teams to deploy modern identity controls that prioritize mission continuity, not complexity.",
+    "certificationType": "Rev5",
+    "website": "https://www.lastwall.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Lastwall%20Logo2.png",
+    "ueiNumber": "DGLNFE65EYH3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@lastwall.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@lastwall.com"
+    }
+  ],
+  "assessor": {
+    "name": "137801",
+    "assessorID": "137801"
+  }
+}

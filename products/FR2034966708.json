@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2034966708",
+    "providerName": "End To End Computing",
+    "serviceName": "Singularity",
+    "serviceAcronym": "Singularity",
+    "serviceDescription": "End To End Computing's (EEC) Singularity is a SaaS-based Managed Security Service platform providing customers with MSSP services such as CISO\\ISSO support, Security Operation Centers (SOC), and DevSecOps. The Singularity platform consists of two modules, Continuous Monitoring (CM) and DevSecOps. Both modules can also be leveraged to provide shared cybersecurity services across organizations and departments.\n\nSingularity CM - The Continuous Monitoring module provides 24/7 SOC support enabling organizations with the visibility required to effectively manage risk. EEC managed SOC utilizes the module to conduct incident response, Managed Detection Response(MDR), Managed SIEM and vulnerability management services. Additionally, the executive dashboard provides agencies with the ability to manage Plan of Action Milestones (POAMs) with ease. \n\nSingularity DevSecOps - This is a Comprehensive CI\\CD pipeline to enable organizations to deliver holistic, all-in-one solutions that protect applications from the inside while simplifying implementation across a range of environments. Organizations can leverage the capabilities of the platform to protect applications from the beginning of the application development process to solve the root causes of risks, as well as after the applications are placed in production. This is done by providing organizations with access to Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), Runtime Application Self Protection (RASP), and Interactive Application Security Testing (IAST) capabilities to protect applications from cyber threats.",
+    "certificationType": "Rev5",
+    "website": "https://eecomputing.com/singularity/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/ETE%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@eecomputing.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@eecomputing.com"
+    }
+  ],
+  "assessor": {
+    "name": "140531",
+    "assessorID": "140531"
+  }
+}

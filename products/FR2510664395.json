@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2510664395",
+    "providerName": "ExtraHop Networks",
+    "serviceName": "ExtraHop RevealX Federal",
+    "serviceAcronym": "ExtraHop RevealX Federal",
+    "serviceDescription": "ExtraHop RevealX Federal is delivered as a SaaS offering using a multi-tenant public cloud computing environment tailored specifically to meet the stringent government FedRAMP compliance requirements. It is available to federal, state, local, and tribal governments, research institutions, and government contractors as well as commercial and non-government organizations. This special environment resides in the FedRAMP-authorized Amazon Web Services (AWS) US-East regions.\n\nRevealX Federal is an enterprise-class network detection and response (NDR) solution that helps you detect malicious behaviors and focus investigations into the highest risk threats. RevealX Federal leverages cloud-scale artificial intelligence (AI) and machine learning (ML) to deliver real-time threat detection and network performance analytics, and can automatically gather and contextualize related information.\nExtraHop RevealX Federal production environment includes applications, containerized microservices, operating systems, and AWS resources and services that support the delivery of ExtraHop RevealX Federal cloud services.\n\nExtraHop RevealX Federal production environment includes applications, containerized microservices, operating systems, and AWS resources and services that support the delivery of ExtraHop RevealX Federal cloud services.",
+    "certificationType": "Rev5",
+    "website": "https://www.extrahop.com/solutions/industry/public-sector",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/EH%20Logo.png",
+    "ueiNumber": "HVDJKNC19AN5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-pmo@extrahop.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal-info@extrahop.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

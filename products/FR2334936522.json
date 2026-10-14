@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2334936522",
+    "providerName": "Socure, Inc.",
+    "serviceName": "Socure for Government (SocureGov)",
+    "serviceAcronym": "Socure for Government (SocureGov)",
+    "serviceDescription": "Socure for Government (SocureGov) is delivered as a SaaS offering using a multi-tenant Public Cloud computing environment. SocureGov is available to, and provides digital identity proofing and fraud prevention capabilities for, customers who want to enable a simple, seamless, and secure verification process for consumers. The platform applies artificial intelligence and machine learning techniques with trusted online/offline data intelligence from physical government-issued documents as well as email, phone, address, IP, device, velocity, date of birth, SSN, and the broader internet to verify identities in real time. It is the only solution that analyzes and correlates every facet of an individual’s digital identity to accurately verify individual identities while simultaneously detecting fraud. The platform is fully compliant with FedRAMP Moderate security controls and has been certified by the Kantara Initiative to meet NIST SP 800-63 Identity Assurance Level 2. SocureGov provides several important capabilities listed below:\n\n- Socure Verify uses a triangulated data approach and leverages artificial intelligence and machine learning to verify an identity across 400+ trusted sources, and then correlates thousands of identity data points—online and offline—to resolve to a single best-matched entity. \n\n- Sigma Identity Fraud provides high-assurance trust and detects digital identity fraud across the customer lifecycle. \n\n- Sigma Synthetic applies the Federal Reserve’s definition of synthetic identity fraud which focuses on “manipulated” and “fabricated” types to support customers in determining the optimal follow-on treatment — without adding unnecessary friction.\n\n- Email Risk Score leverages machine learning models and feedback loops to analyze over 56 email fraud predictors, assessing risk throughout the customer lifecycle.\n\n- Phone Risk Score leverages adaptive machine learning and continuous feedback data to verify phone number risk and ownership, while ensuring a seamless user experience for legitimate customers.\n\n- Address Risk Score establishes address-level risk and its correlation to a holistic identity profile, empowering businesses to deflect identity fraud attacks without adding friction to legitimate customers. \n\n- Global Watchlist Screening and Monitoring screens, monitors, and dispositions users in real time against sanctions, enforcement lists, politically exposed persons databases, adverse media information, and custom lists\n\n- Digital Intelligence continuously monitors and assesses user interactions, helps detect anomalies, and enhances identity proofing, to provide a secure and trustworthy environment for both organizations and their users. \n\n- Predictive Document Verification (DocV) verifies ID, biometrics, PII, barcode, and device and behavior intelligence in a single platform to accurately detect and prevent deepfakes, fake IDs, and stolen and fabricated identities from entering the digital economy, in under 2 seconds.  \n\n- Image Alert List is a live monitoring service that checks documents to identify individuals who previously attempted a transaction under different identities.\n\n- Decision Module provides a seamless method to orchestrate the breadth of Socure’s products, enabling a customer to set risk thresholds and help automate decisions to accept, reject, review, resubmit, or refer individuals in an identity verification flow",
+    "certificationType": "Rev5",
+    "website": "https://www.socure.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Socure%20Logo.png",
+    "ueiNumber": "HMULLC9YKLC4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-sensitive@socure.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@socure.com"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

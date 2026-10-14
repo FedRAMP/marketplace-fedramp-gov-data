@@ -1,0 +1,40 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2315464863",
+    "providerName": "Palantir Technologies",
+    "serviceName": "Palantir Federal Cloud Service – Supporting Services (PFCS-SS)",
+    "serviceAcronym": "Palantir Federal Cloud Service – Supporting Services (PFCS-SS)",
+    "serviceDescription": "PFCS-SS is a dedicated environment for the purpose of delivering best-of-breed commercial software to federal government customers as a secure cloud service at the FedRAMP High baseline. The software deployed to PFCS-SS is commercially available software configured to run on PFCS' Kubernetes infrastructure and leverage PFCS' management plane services.",
+    "certificationType": "Rev5",
+    "website": "https://www.palantir.com/offerings/fedstart/",
+    "logo": "https://raw.githubusercontent.com/palantir/conjure/master/docs/media/palantir-logo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://pfcsdocs.palantirgov.com/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-isso@palantir.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "PFCS-SS@palantir.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

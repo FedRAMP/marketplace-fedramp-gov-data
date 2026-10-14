@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631654537",
+    "providerName": "Wisedocs USA Inc.",
+    "serviceName": "Wisedocs for Government",
+    "serviceAcronym": "Wisedocs for Government",
+    "serviceDescription": "The Wisedocs Platform is a cloud-based, AI-powered document processing system designed to help insurance companies, independent medical evaluation firms, and legal entities process medical claims. The Platform uses optical character recognition to process unstructured medical documents such as handwritten clinician notes, medical briefs and records, and discharge summaries, and creates fully searchable records. It organizes, indexes, and identifies duplicate documents to streamline the review, documentation, and management of the medical record life cycle, with embedded machine learning supporting document processing workflows via foundational model providers including AWS Bedrock, Google Cloud Vertex AI, and Azure OpenAI Service. The Platform is hosted on AWS cloud infrastructure and made available to customers through a web application format.",
+    "certificationType": "Rev5",
+    "website": "https://wisedocs.ai",
+    "logo": "https://static-assets.mycroft.io/production/org_logos/e918d50f-f8ea-4f2c-a4d6-c1fad5a7222f.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.mycroft.io/wisedocs",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@wisedocs.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@wisedocs.com"
+    }
+  ]
+}

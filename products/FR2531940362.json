@@ -1,0 +1,34 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2531940362",
+    "providerName": "Sand Solutions Limited Co.",
+    "serviceName": "Sand Solutions Government Cloud (SGC2)",
+    "serviceAcronym": "Sand Solutions Government Cloud (SGC2)",
+    "serviceDescription": "SGC2 delivers Infrastructure-as-a-Service (IaaS) and Platform-as-a-Service (PaaS) through dedicated Virtual Private Clouds (VPCs) provisioned for each agency customer. These VPCs allow agencies to host multiple application workloads side-by-side on Virtual Machines (VMs) while ensuring strict segmentation of both performance and data.\n\nEach VPC is designed with a comprehensive suite of managed services—including system, networking, security, application, database, business continuity planning, and continuous monitoring.  By embedding managed services, SGC2 reduces IT overhead, enhances application performance, and enables agencies and contractors to run regulated workloads without the complexity of managing the platform and application patching, or technical deployment tasks.  We can also provision bare-metal servers in our colocation racks for licensing and more intense workloads.\n\nSGC2 operates exclusively from U.S. colocation data centers that hold their own FedRAMP Authorization. In addition, SGC2 has been independently assessed by a 3PAO and designated FedRAMP Moderate Equivalent with a completed Security Assessment Report (SAR) and an active Continuous Monitoring (ConMon) program. This full assessment provides the assurance of a validated FedRAMP Moderate Equivalent platform, enabling customers to inherit controls and streamline their own DIBCAC compliance while allowing agencies to accelerate sponsorship and shorten the path to ATOs for hosted workloads.",
+    "certificationType": "Rev5",
+    "website": "https://www.sandsolutionslimited.com/trust/fedramp/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Sand%20Logo.png",
+    "ueiNumber": "EEMLJA8GSL75"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@sgc2.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@sgc2.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

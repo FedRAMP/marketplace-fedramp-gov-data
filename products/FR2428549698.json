@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2428549698",
+    "providerName": "Siemens",
+    "serviceName": "EVGateway Digital Environment (EDE)",
+    "serviceAcronym": "EVGateway Digital Environment (EDE)",
+    "serviceDescription": "The EVGateway Digital Environment is delivered as a SaaS offering using a multi-tenant Government-Only cloud computing environment. It is available to federal & state government, local government, tribal government, research institutions, federal contractors, or government contractors for EV charging",
+    "certificationType": "Rev5",
+    "website": "https://evgateway.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/EvGateway%20Logo.png",
+    "ueiNumber": "FVMBWZHY6MD7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "ispoc@evgateway.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@heliox-energy.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

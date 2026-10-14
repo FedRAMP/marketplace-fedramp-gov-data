@@ -1,0 +1,40 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2633053629",
+    "providerName": "TGuardAI Inc.",
+    "serviceName": "TrustGuard AI Compliance Platform",
+    "serviceAcronym": "TrustGuard AI Compliance Platform",
+    "serviceDescription": "TrustGuard AI is a comprehensive, AI-native Governance, Risk, and Compliance (GRC) platform that unifies internal compliance automation and external threat monitoring in a single system of record. Inside the organization, TrustGuard AI continuously collects evidence, maps it to recognized control frameworks — including FedRAMP, SOC 2, ISO 27001, NIST 800-53, NIST CSF, HIPAA, PCI DSS, and CMMC — and uses retrieval-augmented AI to assess controls, surface gaps, draft remediations, and generate audit-ready, machine-readable findings and reports. Looking outward, it delivers continuous third-party and supply-chain risk monitoring, scoring vendors and partners against real-world security signals so teams can quantify exposure, prioritize outreach, and track remediation across their entire ecosystem. By combining automated internal compliance with external security ratings and attack-surface intelligence, TrustGuard AI gives security, risk, and compliance leaders one continuously-updated view of their posture — from their own controls to every vendor they depend on. The platform is offered as SaaS. The provider maintains a SOC 2 Type 2 program and is undergoing a FedRAMP 20x Moderate (Class C) assessment; the FedRAMP-assessed instance operates in production within AWS GovCloud (US).",
+    "certificationType": "Rev5",
+    "website": "https://app-gov.trustguardai.com",
+    "logo": "https://app-gov.trustguardai.com/logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://app-gov.trustguardai.com/trust-center/tguard-ai",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "contact@trustguardai.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "contact@trustguardai.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

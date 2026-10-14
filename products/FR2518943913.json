@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2518943913",
+    "providerName": "SentiLink Corp",
+    "serviceName": "SentiLink",
+    "serviceAcronym": "SentiLink",
+    "serviceDescription": "SentiLink is delivered as a SaaS offering using a multi-tenant public cloud computing environment. It is available to financial institutions and fintech companies, federal, state, local, and tribal governments, as well as research institutions, federal contractors, and government contractors.\n\nSentiLink Corp. is a software-as-a-service financial technology company headquartered in San Francisco, California. It provides fraud detection and prevention services to financial institutions in the\nUnited States.\nSynthetic Fraud Scores\nSentiLink’s Synthetic Fraud Scores solution helps entities stop hard-to-detect synthetic identities in real-time.\n\nThe Synthetic Fraud Scores product scores applications from 0 (low risk) to 999 (high risk). Three scores are provided on every identity: a composite score, a first-party synthetic score, and a third-party synthetic score. These scores are defined as follows:\nFirst-party synthetic score: the likelihood that the identity is first-party synthetic fraud\nThird-party synthetic score: the likelihood that the identity is third-party synthetic fraud\nAbuse score: the likelihood that the identity is associated with synthetic fraud or other related fraud risks\nID Theft Scores\nSentiLink’s ID Theft Scores solution determines the likelihood that someone is using stolen credentials to open an account. The solution provides a score between 0 and 999. The higher the score, the higher the likelihood of ID theft. ID Theft Scores are provided via an application programming interface (API) or a user dashboard, and a single API call can be used for both ID Theft Scores and Synthetic Fraud Scores.\nFirst-Party Fraud Flags\nThe First-Party Fraud Flags solution allows customers to determine whether an applicant possesses characteristics indicative of identity-related fraud. The model incorporates geographic and fraud alert data related to applicants and other consumers.\nManifest\nManifest allows customers to identify duplicate data sets in their data portfolios. Customers provide SentiLink with consumer personally identifiable information (PII), and SentiLink assigns each set of PII a unique ID. Customers send SentiLink consumer PII, such as consumer names, dates of birth, Social Security numbers (SSNs), addresses, phone numbers, and email. SentiLink compares the PII to the established unique IDs to identify matches.\nInsights\nThe Insights solution is a Know Your Customer (KYC) product designed to satisfy Customer Identification Program (CIP) obligations. Insights allow customers to uncover additional intelligence regarding PII and the risks associated with that PII, which facilitates investigation and remediation.\nDashboard\nThe Dashboard facilitates customer analysis of applicant information and SentiLink-licensed associated information to determine whether an applicant’s identity is legitimate. It allows customers to access SentiLink’s proprietary user interface to conduct further analysis and request further information regarding specific applications for fraud detection.\neCBSV\nAs part of the electronic Consent Based Social Security Number Verification (eCBSV) subscription, SentiLink submits eCBSV requests on behalf of permitted entities. eCBSV subscription services are provided via API or through a user interface.\nID Complete\nID Complete is designed to resolve missing or incomplete identity fields, such as dates of birth or SSNs, and suggest alternative information where applicable. Data suggestions are derived from customer data and SentiLink supplied data through SentiLink’s proprietary matching logic. The organization accepts data files from Experian.\nKYC Watchlist Checks\nThe KYC Watchlist Checks service allows customers to compare applicants to various government sanctions lists including, but not limited to, the Office of Foreign Assets Control (OFAC), Politically Exposed Persons (PEPs), United Nations Security Council, and the US Department of State watchlists.  SentiLink Corp.’s (SentiLink’s) technology helps its customers combat fraud, a crime in which fake identities are created and used to defraud financial institutions and government agencies. SentiLink equips users with the tools needed to visualize and prevent fraud in any domain, whether money laundering, contractor fraud, synthetic identities, first-party fraud, or classic third-party stolen identities. The organization offers the solutions below that help banks, lenders, credit unions, financial technology entities, insurance companies, and telecommunication companies prevent fraud.",
+    "certificationType": "Rev5",
+    "website": "https://www.sentilink.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SentiLink%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@sentilink.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@sentilink.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

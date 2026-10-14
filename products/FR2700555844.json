@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2700555844",
+    "providerName": "Linear Orbit, Inc.",
+    "serviceName": "Linear",
+    "serviceAcronym": "Linear",
+    "serviceDescription": "Linear is the product development system for teams and agents, purpose-built for planning and building software products. It is a multi-tenant SaaS offering that provides issue tracking, project and cycle planning, roadmaps and initiatives, product intelligence, and agent workflows, delivered through web, desktop, and mobile clients and a public GraphQL API.\n\nLinear is currently listed in the **Initial Implementation** phase and is pursuing a FedRAMP 20x certification for its existing commercial offering, starting with a Class A submission and progressing toward Class C. Linear does not operate a separate government-only environment; the certification scope is the production Linear service hosted on Google Cloud Platform with Cloudflare at the network edge.\n\nProgress toward certification is published at least quarterly in Linear’s Trust Center (https://trust.linear.app).",
+    "certificationType": "Rev5",
+    "website": "https://linear.app",
+    "logo": "https://linear.app/static/brand/wordmark-dark.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.linear.app",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@linear.app"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@linear.app"
+    }
+  ]
+}

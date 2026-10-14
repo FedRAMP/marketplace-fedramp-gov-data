@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2432218524",
+    "providerName": "Power Settlements Consulting and Software, LLC (PSCS), a subsidiary of Yes Energy, LLC",
+    "serviceName": "PowerCore™ (PC-GOV)",
+    "serviceAcronym": "PowerCore™ (PC-GOV)",
+    "serviceDescription": "PowerCore™ is delivered as a SaaS offering using a multi-tenant Government Only Community cloud computing environment. It is available to federal, state, local, and tribal governments, as well as research institutions, federal contractors, and government contractors. The system is a browser-based application with no components that need to be installed on the customer site and no mobile app.\n\nThe PowerCore system is modular based, with four primary solutions that can be enabled:\n\n-        PowerCore ISO/RTO enables market participants to perform scheduling, automated data downloading, shadow settlements and statement validation, allocations, and reporting. \n\n-        PowerCore Visual Analytics provides a visual dashboard for Generators to analyze ISO/RTO and internal data including schedules, real-time dispatch, meter, pricing, position management, and estimated profits and losses in a single graphical interface. \n\n-        PowerCore Contract Billing is used to help automate the settlement of complex power purchase agreements, tolling agreements, or other power contracts. \n\n- PowerCore ETRM (Energy Trading and Risk Management) is an integrated solution for automating front-office, mid-office, and back-office business processes related to the deal capture of power and natural gas deals with counterparties.",
+    "certificationType": "Rev5",
+    "website": "https://powersettlements.com/solutions/overview/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/PS%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securitycompliance@projecthosts.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@yesenergy.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2600545894",
+    "providerName": "Butterfly Network Inc.",
+    "serviceName": "Butterfly Network Ultrasound",
+    "serviceAcronym": "Butterfly Network Ultrasound",
+    "serviceDescription": "Butterfly Network’s Inc.’s Butterfly iQ+ / iQ3 Ultrasound System/ Compass AI (aka Butterfly Ultrasound Probe System) enables universal access to superior medical imaging, making high quality ultrasound easy-to-use, globally accessible, and intelligently connected.\n\nButterfly Ultrasound Probe System is the only ultrasound transducer that can perform “whole-body imaging” with a single handheld probe using semiconductor technology. Connected to a mobile phone or tablet, it is powered by Butterfly’s proprietary Ultrasound-on-Chip™ technology and harnesses the advantages of AI to deliver advanced imaging that is easy-to-use and improves patient outcomes.\n\nThe primary function of the Butterfly App is general-purpose diagnostic imaging, for use by qualified and trained healthcare professionals to enable the visualization and measurement of anatomical structures within the human body. The app is a free download from the Apple App Store or Google Play Store. The app and a vetted Butterfly account are required to use the Butterfly Ultrasound Probe System.\n\nThe Butterfly Cloud is hosted by Amazon Web Services (AWS) in multi availability zone fashion with cross-region data replication.\n\nThe development environment is where the initial software creation and code revision occurs. It's an area for developers to freely work on new updates without affecting the live application.\n\nThe staging environment, also known as the Quality Assurance (QA) environment, is the intermediary step where the software is tested in conditions that closely mirror the production environment. This is where thorough checks are conducted before any release.\n\nThe production environment is the live setting where the software is fully deployed for use by the end-users. It is the final and most stable environment, designed for uptime and reliability.\n\nButterfly Ultrasound Probe System offers two primary services: Public Cloud and Private or Enterprise Cloud:\n\nPublic Cloud: Designed for small groups, such as a team using the Butterfly web application, this service allows for the creation of an organization within the cloud. Team members can invite colleagues to join their organization. This multi-tenant approach enables different organizations, like those from various hospitals, to coexist simultaneously within the same public cloud infrastructure.\n\nPrivate Cloud: An upgrade from the public cloud, this service provides a unique domain tailored for specific institutions, such as hospitals, which may establish separate organizations for each department. Additionally, Enterprise Cloud offers enhanced features like Single Sign-On (SSO), allowing users to access the cloud services with their existing institutional credentials. Like the public cloud, multi-tenant approach enables different organizations, like those from various hospitals, to coexist simultaneously within the same private cloud infrastructure.\n\nThe Butterfly Ultrasound Probe System uses industry standard third-party interconnections to provide robust and up to date security tools to protect the integrity of the Butterfly Ultrasound Probe System and related information.",
+    "certificationType": "Rev5",
+    "website": "https://www.butterflynetwork.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Butterfly%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@butterflynetinc.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "salesops@butterflynetinc.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

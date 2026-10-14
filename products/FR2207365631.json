@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2207365631",
+    "providerName": "Consensus Cloud Solutions",
+    "serviceName": "Enterprise Cloud Fax Government (ECFax)",
+    "serviceAcronym": "Enterprise Cloud Fax Government (ECFax)",
+    "serviceDescription": "ECFax® is a unified, secure, cloud-based managed service solution that modernizes manual or semi-automated faxing processes and eliminates the need for multiple faxing solutions. \r\n\r\nBuilt with a human-centered design approach, ECFax® simplifies fax services, improves the user experience, provides secure data transfer for PHI/PII, and reduces administrative costs. The solution gives agencies more control over their fax data transfer processes, eliminates the need to manage multiple vendors, and offers 24/7 state-of-the-art faxing capability and help desk support.\r\nECFax® delivers faxes digitally across multiple endpoints, including multifunction devices, shared folders, distribution lists, and inboxes: yielding operational efficiencies and reducing the need for standalone hardware.\r\nThe solution is:\r\n●\tScalable: Hosted on Amazon Web Services GovCloud, ECFax® scales on- demand to hundreds of millions of pages per month through auto-scaling and elastic load balancing.\r\n●\tTransparent: Performance dashboards provide visibility into service usage and operational status, which allows for near real-time production metrics.\r\n●\tSecure: ECFax and add on components are FedRAMP High certified and meet the most important security and quality assurance protocols for data protection—including FIPS 140-2.   \r\n\r\nECFax® Services was developed specifically for the cloud, government agencies benefit from rapid scaling, efficiency and speed.\r\nECFax® is:\r\n●\tAccessible via AWS GovCloud;\r\n●\tSection 508 Compliant\r\n●\tDesigned to meet the highest security standards required by government agencies \r\nIn addition, the solution:\r\n●\tIntegrates with other applications via Restful API\r\n●\tSupports IDP-initiated SSO for authentication \r\n●\tFacilitates standardization across multiple locations",
+    "certificationType": "Rev5",
+    "website": "https://www.consensus.com/products/ecfax/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/ECFax%20Logo.png",
+    "ueiNumber": "C47BNA8GM833"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "ecfaxsecurity@consensus.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "ecfax@consensus.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

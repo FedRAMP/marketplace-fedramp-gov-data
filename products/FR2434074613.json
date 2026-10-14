@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2434074613",
+    "providerName": "NormShield, Inc. DBA Black Kite",
+    "serviceName": "Third-Party Risk Intelligence System (TRIS)'s",
+    "serviceAcronym": "Third-Party Risk Intelligence System (TRIS)'s",
+    "serviceDescription": "Black Kite is delivered as a SaaS offering using a multi-tenant public cloud computing environment. It is available to the public, federal, state, local, and tribal governments, as well as research institutions, federal contractors, government contractors etc. Black Kite offers a separate configuration for federal/public sector customers to maintain the highest possible level of information security. Black Kite provides a defensive platform that spans the entirety of the third-party risk management life cycle for cyber risk professionals looking to quantify and maintain visibility of their risk exposure.\nBlack Kite’s core application, is a multi-user, transaction-based application suite that gives a three-dimensional risk picture of a company and its vendors through:\n• A cyber risk technical assessment.\n• A factor analysis of information risk (FAIR) analysis (the probable financial impact of a breach caused by a vendor).\n• An external estimate of compliance (assessing that vendors have appropriate policies and processes in place).\n• Executives get an easy-to-understand “Cyber Risk Report” with letter grade scores.\n• IT security teams can drill down to the technical details behind each risk category.\n• Risks/vulnerabilities are prioritized by severity so that security engineers can quickly identify critical issues and mitigate them.\n• Industry benchmarks and comparisons are provided to help identify trends and pinpoint areas for improvement.\n• Grading is based on industry standards and best practices (NIST, MITRE CVSS, FAIR, etc.)",
+    "certificationType": "Rev5",
+    "website": "https://gov.blackkitetech.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/TRIS%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@blackkite.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "marketing@blackkite.com"
+    }
+  ],
+  "assessor": {
+    "name": "140531",
+    "assessorID": "140531"
+  }
+}

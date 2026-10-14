@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1303221956",
+    "providerName": "IT-CNP",
+    "serviceName": "GovDataHosting Cloud Platform",
+    "serviceAcronym": "GovDataHosting Cloud Platform",
+    "serviceDescription": "IT-CNP’s FedRAMP Class D (High) certified GovDataHosting Cloud Platform is delivered as a fully managed, FISMA-compliant Platform-as-a-Service (PaaS) offering using multi-tenant Federal Government cloud and private cloud computing environment deployment models. The GovDataHosting Cloud Platform is deployed over both our own purpose-built GovDataHosting IaaS and AWS GovCloud IaaS, giving customers a choice of underlying infrastructure under one identical, fully managed PaaS authorization. The GovDataHosting Cloud Platform supports the full range of federal mission needs — low, moderate, and high impact information systems — under a single high-baseline authorization. Rather than selling raw infrastructure and leaving security and compliance to the customer, our platform bundles fully managed infrastructure, platform runtime, security operations, and compliance documentation into one predictable subscription — eliminating the multi-vendor cost and complexity of assembling a compliant environment from raw Infrastructure-as-a-Service (IaaS) components. Certified support personnel manage every layer beneath the customer application: physical datacenter security, redundant power/cooling, network, storage, hypervisor servers, operating systems, databases, web and application runtimes, patching, backup, disaster recovery, identity and access management, continuous monitoring, and the underlying NIST SP 800-53 control set. This fully managed security and compliance model maximizes control inheritance, so customers inherit the heavy lifting of FedRAMP High compliance and remain responsible only for application-layer controls — letting program teams focus on their system mission and software application delivery instead of infrastructure and platform compliance. 100% of our datacenters and 24/7/365 mission-critical support are provided from the continental United States by U.S. persons, and the platform is available exclusively to U.S. Federal, state, and local government entities and their respective authorized contractors. The GovDataHosting Cloud Platform enables government customers to quickly and cost effectively deploy FedRAMP and NIST SP 800-53 compliant information systems while leveraging elastic compute, memory, disk, and network resources that scale up or down to accommodate periodic spikes in processing demand — available under flexible fixed monthly subscription or consumption-based billing models to match each program’s budget and procurement preferences.",
+    "certificationType": "Rev5",
+    "website": "http://www.govdatahosting.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/IT-CNP%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@govdatahosting.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@govdatahosting.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

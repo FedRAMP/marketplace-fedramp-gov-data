@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2504154395XL",
+    "providerName": "Persona Identities, LLC",
+    "serviceName": "Persona for Government",
+    "serviceAcronym": "Persona for Government",
+    "serviceDescription": "The Persona Platform is a cloud-native comprehensive identity verification platform tool hosted on Google Cloud Platform (GCP) that is designed to help federal agencies verify their users' identities. The core capabilities of the Persona Platform are as follows:\n\nIdentity Verification: Persona offers multiple verification methods including government ID verification (supporting over 200 countries and territories), selfie verification with biometric liveness detection, database verification, and NFC verification\n\nFraud Prevention: The platform employs device signals, passive signals (IP address, geolocation, device fingerprinting), and advanced algorithms to detect fraud attempts like deepfakes and spoofing\n\nCompliance Solutions: Persona helps agencies meet global compliance requirements, including KYC (Know Your Customer), KYB (Know Your Business), and AML (Anti-Money Laundering)\n\nCustomizable Workflows: agencies can create tailored verification journeys with drag-and-drop tools and custom rules",
+    "certificationType": "Rev5",
+    "website": "https://withpersona.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Persona%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@withpersona.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@withpersona.com"
+    }
+  ],
+  "assessor": {
+    "name": "137801",
+    "assessorID": "137801"
+  }
+}

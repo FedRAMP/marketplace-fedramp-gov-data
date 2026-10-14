@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2433446013",
+    "providerName": "Lifebit Biotech",
+    "serviceName": "Lifebit Platform",
+    "serviceAcronym": "Lifebit Platform",
+    "serviceDescription": "The Lifebit Cloud Service Offering (CSO) is a cloud-hosted software-as-a-service platform that enables authorized users to ingest, store, manage, and analyze biomedical and genomic datasets. The CSO provides web-based and API-based access to workflow orchestration, job execution, and results visualization capabilities. The CSO supports execution of containerized and workflow-based analytical pipelines on cloud infrastructure resources within the authorization boundary.\n\nThe CSO includes components for user authentication and role-based access control, audit logging, secure data transfer, encryption of data at rest and in transit, workflow execution management, and administrative monitoring. The CSO is deployed within a logically isolated cloud environment and integrates with supporting services for logging, monitoring, vulnerability management, and configuration management as defined within the system authorization boundary.",
+    "certificationType": "Rev5",
+    "website": "https://lifebit.ai/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Lifebit%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@lifebit.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@lifebit.ai"
+    }
+  ],
+  "assessor": {
+    "name": "201722",
+    "assessorID": "201722"
+  }
+}

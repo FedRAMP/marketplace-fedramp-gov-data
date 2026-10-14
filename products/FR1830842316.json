@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1830842316",
+    "providerName": "Leidos Digital Solutions, Inc.",
+    "serviceName": "IQ FedCloud",
+    "serviceAcronym": "IQ FedCloud",
+    "serviceDescription": "IQ FedCloud is delivered as a SaaS offering using a multi-tenant Government-Only Cloud computing environment. It is available to federal, state, local, and tribal governments.\r\n\r\nIntranet Quorum (IQ) and the FedRAMP authorized implementation, IQ FedCloud, is a SaaS application offering Customer Relationship Management (CRM), correspondence management, Casework, business process management (BPM) and workflow. IQ is commonly used to support both constituent and agency needs ranging from simple task management to complex Freedom of Information (FOIA) requests. IQ’s core modules include Contacts, Messages, Outreach, Services, Library, and Events which combine to help agencies and elected officials to keep a complete history of their communications and manage their suspense tracking needs. IQ streamlines document management processes including approval for electronic signature and resolution. Robust reporting capabilities enhance data analytics for executive awareness and review. IQ lets users securely exchange record data with other agencies with the unique IQ2IQ capability. IQ addresses a wide range of executive management needs including grants, investigations, Boards and Commissions, communications, and records management and retention.  A no code solution, IQ is fully configurable without custom development.",
+    "certificationType": "Rev5",
+    "website": "https://leidosiq.com/federal-government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Leidos%20Logo.png",
+    "ueiNumber": "R8DWHMDFAFF1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "IQFedramp_IR@Leidos.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "R_DSI-Fedramp@leidos.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

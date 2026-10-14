@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2112152882",
+    "providerName": "Datavant",
+    "serviceName": "Datavant Cloud",
+    "serviceAcronym": "Datavant Cloud",
+    "serviceDescription": "Datavant Cloud enables privacy-preserving health data connectivity for federal government customers, stakeholders, and collaborators. Our privacy-preserving record linkage (PPRL) solution links person-level data across data silos using universal patient keys without exposing personally identifiable information (PII) or protected health information (PHI). Data governance controls are built-in to Datavant’s unique PPRL deployment model, providing assurance to data originators and data stewards that their data can only be processed by the right entity, for the right purpose, under the right conditions. \n\nDatavant features include:\n- Governance controls that enable an array of data-sharing models including data collaboratives, registries, repositories, project-specific data-sharing, and single vs. bi-directional data linkages. \n- Trust frameworks that provide linkage honest broker, zero trust, and peer-to-peer models, providing data originators and data recipients with flexibility to connect data using their desired trust models.\n- De-identified cohort discovery with Datavant’s extensive ecosystem of interoperable real world datapartners to discover shared cohorts and populations without needing to share underlying data.\n\nDatavant services include:\n- Datavant DeID+Link\n- Datavant Match\n- Datavant Desktop\n- Datavant Web Portal features:\n- Overlaps, Overlaps API\n- Explore\n\nDatavant solutions can be deployed on-premise, in virtualized environments, in cloud, and integrated locally within your native systems via our API.",
+    "certificationType": "Rev5",
+    "website": "https://datavant.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Datavant%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@datavant.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal@datavant.com"
+    }
+  ],
+  "assessor": {
+    "name": "140531",
+    "assessorID": "140531"
+  }
+}

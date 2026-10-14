@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2132958724",
+    "providerName": "UiPath",
+    "serviceName": "Automation Cloud Public Sector",
+    "serviceAcronym": "Automation Cloud Public Sector",
+    "serviceDescription": "UiPath Automation Cloud Public Sector is a FedRAMP-authorized SaaS delivery of the UiPath Business Automation Platform, designed for US public sector organizations. The UiPath Business Automation Platform offers comprehensive, integrated AI-powered automation capabilities, including: UI + API Automation, Process Orchestration, Document Understanding/IDP, Process and Task Mining, Low-code Application Development, Testing, Digital Assistants, and more. It implements governance and management tools across these capabilities, and delivers an open architecture with connectors to optimize and automate processes across any technology. By using self-hosted Robot and Studio components, organizations also have the option to work with data in-place, without moving it to Automation Cloud.",
+    "certificationType": "Rev5",
+    "website": "https://www.uipath.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/UiPath%20Logo.png",
+    "ueiNumber": "DF48TL3JJDF3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@uipath.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@uipath.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

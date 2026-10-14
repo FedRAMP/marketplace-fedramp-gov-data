@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2621445678",
+    "providerName": "Halo",
+    "serviceName": "Halo",
+    "serviceAcronym": "Halo",
+    "serviceDescription": "Halo is a multi-tenant cloud platform that provides a unified operating environment for service management, workflow automation, reporting, and compliance operations. The platform is designed to support organizations in managing operational processes, security workflows, and regulated service delivery from a single, integrated system.\n\nFor Governance, Risk, and Compliance (GRC), Halo supports FedRAMP, CMMC, and DoD compliance programs by enabling compliance activities to be managed as part of day-to-day operations rather than as a separate workstream. Halo's GRC module provides functionality for vulnerability and risk management, Plan of Action and Milestones (POA&M) tracking, asset inventory, deviation management, OSCAL-based system documentation, and cross-framework control mapping. It also supports continuous monitoring packages, Key Security Indicator validation, and Ongoing Authorization deliverables in both human-readable and machine-readable formats.\n\nIn addition to GRC, the Halo platform supports broader enterprise service management capabilities, including IT Service Management (ITSM), Enterprise Service Management (ESM), Configuration Management (CMDB), and Service Level Management (SLM). These include core ITIL practices such as change management, incident management, user access management, self-service portals, automated task assignment and escalation, SLA tracking, and executive dashboards.",
+    "certificationType": "Rev5",
+    "website": "https://usehalo.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Halo%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-security@usehalo.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@imaginehalo.com"
+    }
+  ],
+  "assessor": {
+    "name": "200883",
+    "assessorID": "200883"
+  }
+}

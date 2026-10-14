@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2614247985",
+    "providerName": "Ironclad Inc.",
+    "serviceName": "Ironclad CLM",
+    "serviceAcronym": "Ironclad CLM",
+    "serviceDescription": "An authorization boundary provides a diagrammatic illustration of a CSO’s internal services,\ncomponents, and other devices, along with connections to external services and systems.\nPlease note that external services include external cloud services that are not FedRAMP\nAuthorized, corporate shared services, and the external entities to which the system must\nconnect to receive updates for products installed within the system boundary.\n\nAn authorization boundary accounts for all federal information, data, and metadata that flow\nthrough a CSO. If the CSO has strong configuration management and change management\nbuilt into the system development life cycle, the development environment can be outside the CSO boundary. This means that there is a 3PAO validated, reproducible and effective way to make service changes without impacting the production environment.\n\nThe authorization boundary diagram displays all in-scope system components for the Ironclad FedRAMP environment and is depicted with a prominent red border. All components outside of the authorization boundary are shown externally to the red border. The authorization boundary encompasses the Ironclad application and supporting infrastructure hosted entirely within GCP in the us-central1 region. All components depicted within the boundary directly support the operation, security, monitoring, and administration of the CLM system.\n\nWithin the authorization boundary, the FedRAMP environment consists of customer-facing\napplication services, internal application services, and data storage components deployed on GCP. Application components communicate with one another using Google-managed\nnetworking services and all internal data flows are encrypted in transit using TLS 1.2 or higher. Data at rest within the authorization boundary is encrypted using customer-specific encryption keys and uses FIPS 140-2-validated cryptographic modules or higher where available.\n\nIngress and egress to the authorization boundary are controlled through a load balancer and\nWAF that provide a single logical entry point for external connections. The WAF is configured to restrict and allow traffic based on approved ports, protocols, and services defined in the PPSM list. Network traffic entering or leaving the environment traverses these boundary protection mechanisms, and all external communications are encrypted in transit using TLS 1.2 or higher.\n\nDevelopment and test environments are depicted and logically separated from the production environment. Access to development and test environments is restricted to authorized Ironclad personnel. Backup storage is provided through Google-managed backup services within the authorized environment and is depicted on the diagram. Backup data is encrypted at rest and in transit using FIPS-validated cryptographic modules.",
+    "certificationType": "Rev5",
+    "website": "https://ironcladapp.com/request-demo",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Ironclad%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@ironcladhq.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales-strategic@ironcladhq.com"
+    }
+  ],
+  "assessor": {
+    "name": "200492",
+    "assessorID": "200492"
+  }
+}

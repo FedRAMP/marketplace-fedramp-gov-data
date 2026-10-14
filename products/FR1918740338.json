@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1918740338",
+    "providerName": "Sumo Logic",
+    "serviceName": "Sumo Logic",
+    "serviceAcronym": "Sumo Logic",
+    "serviceDescription": "Sumo Logic is a cloud-native SaaS log analytics platform helping customers enable application reliability, secure and protect against modern threats, gain insights into cloud infrastructures, and obtain comprehensive visibility across their threat landscape. Sumo Logic provides the following solutions within our FedRAMP Moderate product offering:\n\nCloud Security Incident and Event Management (SIEM) - Full-featured SIEM automates alert triage, correlation, and threat detection at scale to speed investigation and response times while reducing analyst alert fatigue. Community analytics delivers machine learning (ML) predicted true positive Global Confidence scores, along with global threat benchmarking.\n\nCloud Security Monitoring & Analytics - Sumo Logic supports the entire spectrum of security use cases - from centrally logging compliance data to monitoring and securing public and hybrid clouds, to delivering market-leading DevSecOps capabilities.\n\nApplication Modernization and Observability - Reduce downtime by finding, investigating, and resolving customer-impacting issues faster with real-time alerting and dashboards for all data - logs, metrics, and traces.\n\nInfrastructure Monitoring - On-call teams can reduce mean-time-to-resolution (MTTR) by simplifying the work required to validate issues, identify suspects, and quickly remediate. Reduce downtime and solve customer-impacting issues faster with an integrated observability platform for all application data.\n\nCompliance Monitoring - Security and configuration analytics provide the data monitoring, dashboards, analyses, and reporting capabilities necessary to achieve rapid, cost-effective continuous compliance readiness for many industry leading cybersecurity frameworks and programs - NIST 800-53, FISMA, FedRAMP, PCI, SOC2, ISO, HIPAA and more.\n\nMulti-cloud support - Unify and monitor logs, metrics, and traces from multi-cloud or hybrid cloud environments. Sumo Logic enables real-time visibility into AWS, Azure, and GCP cloud applications and infrastructure. Moreover, 150 apps and native integrations give out-of-the-box visibility into the technologies that power your applications.\n\nService Maps - The Sumo Logic service visualizes all service dependencies to give you insights into end-to-end execution of your mission critical transactions with open standard compatible distributed tracing data. Application and service dashboards break down latency, load, and errors to identify services contributing to application slowdowns\n\nAdvanced Alert Analytics - Advanced analytics are applied across a unified repository of telemetry data to surface noteworthy insights that guide on-call teams to the root cause.",
+    "certificationType": "Rev5",
+    "website": "https://www.sumologic.com/public-sector/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Sumo%20Logic%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "compliance@sumologic.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@sumologic.com"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

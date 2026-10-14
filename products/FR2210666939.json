@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2210666939",
+    "providerName": "Melissa",
+    "serviceName": "Melissa GovCloud Address Suite",
+    "serviceAcronym": "Melissa GovCloud Address Suite",
+    "serviceDescription": "Web Service leveraging postal authorities (USPS, Canada Post, Royal Mail, EIRCODE) to Verify, Standardize, and Correct mailing addresses. Additional functions for move update for US residents and businesses are available within the service leveraging USPS® NCOALink.",
+    "certificationType": "Rev5",
+    "website": "https://www.melissa.com/govcloud-address-suite",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Melissa%20Logo.png",
+    "ueiNumber": "SEE8CF1DJHA4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "Support@melissagovcloud.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Sales@melissagovcloud.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2530646153",
+    "providerName": "QuestionPro, Inc.",
+    "serviceName": "QuestionPro Research GovCloud",
+    "serviceAcronym": "QuestionPro Research GovCloud",
+    "serviceDescription": "QuestionPro is a Software-as-a-Service (SaaS) platform that provides online survey and research capabilities for market research, employee engagement, and customer experience applications. The service enables users to design, distribute, collect, and analyze surveys through a secure, cloud-based environment. The platform operates within the AWS GovCloud (US) environment and supports federal security and compliance requirements. The authorization boundary encompasses the application, supporting infrastructure, and associated data handling, storage, and transmission components within this environment.",
+    "certificationType": "Rev5",
+    "website": "https://www.questionpro.com/govcloud",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/QuestionPro%20Logo.png",
+    "ueiNumber": "RP9LYBJV7958"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "arti.pullins@questionpro.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "gov-sales@questionpro.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

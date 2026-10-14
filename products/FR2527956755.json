@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2527956755",
+    "providerName": "Meridian Knowledge Solutions, LLC",
+    "serviceName": "Meridian LMS",
+    "serviceAcronym": "Meridian LMS",
+    "serviceDescription": "Meridian LMS is a SaaS learning management system designed for government and regulated organizations with complex training, compliance, certification, and reporting requirements. Hosted in AWS and delivered in a dedicated environment created specifically for FedRAMP customers, Meridian is ideal for federal, state, local, and tribal agencies, their contractors, and related entities. Fully Section 508 and WCAG compliant, Meridian helps organizations strengthen oversight, streamline administration, and maintain audit-ready training operations. In addition to its FedRAMP SaaS offering, Meridian LMS can also be deployed on-premises or in a customer’s private cloud to meet diverse security and infrastructure requirements.\r\n\r\nLearn more in the Meridian Trust Center: https://meridian-knowledge-solutions.github.io/fedramp-trust-center/",
+    "certificationType": "Rev5",
+    "website": "https://www.meridianks.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Meridian%20Logo.png",
+    "ueiNumber": "MM9LQ3WBY5V7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@meridianks.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@meridianks.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

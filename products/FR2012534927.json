@@ -1,0 +1,34 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2012534927",
+    "providerName": "Cisco Systems, Inc.",
+    "serviceName": "Cisco Catalyst SD-WAN for Government (SDWAN-G)",
+    "serviceAcronym": "Cisco Catalyst SD-WAN for Government (SDWAN-G)",
+    "serviceDescription": "Cisco Catalyst SD-WAN for Government (SDWAN-G), powered by Cisco Viptela/IOS XE, is a highly secure, cloud-scale architecture that is open, programmable, and scalable. All vetted and monitored through the rigorous FedRAMP authorization process.  Use it to connect data centers, branches, campuses, and colocation facilities to improve network speed, security, and efficiency. Cisco Catalyst SDWAN-G is a cloud-delivered overlay WAN architecture connecting branches to data centers and multi-cloud environments through a single fabric and single pane of glass. Cisco Catalyst SDWAN-G helps ensure a predictable user experience for applications optimized for SaaS, IaaS, and PaaS connections. Comprehensive on-premises and cloud-based security protect against cyberthreats while enabling IT teams to accelerate the transition to a Secure Access Service Edge (SASE) architecture where and when it is needed.\n \nCisco Catalyst SD-WAN Government (SDWAN-G) is owned, operated, and supported directly by Cisco for use in government offerings, providing the following capabilities:\n \n - Enhanced Visibility: Extend your network visibility and observability with our core government self-service portal. You'll gain actionable insights to help you transform network operations from reactive to highly proactive model.\n \n - Right Security, Right Place: On-premises or cloud-based security with secure SDWAN-G helps to accelerate the transition to a secure access service edge (SASE) architecture where and when it's needed.\n \n - Operational Simplicity: With a highly visualized interface and intuitive user experience for simplified configuration, management, operation, and monitoring across the Cisco Catalyst SDWAN-G fabric. The Cisco Catalyst SDWAN-G solution comes with pre-configured templates to automate and expedite the deployment of most common use cases. Guided step-by-step configuration designed to intelligently expedite onboarding of new devices, and full integration of unified communication, and security into Cisco Catalyst SDWAN-G.\n  \nThe Cisco Catalyst SDWAN-G solution is segregated into four planes with four key components: \n \nManager\n \n- In the management plane, the Cisco Catalyst SD-WAN Manager is the centralized network management system and represents the user interface of the solution. Network administrators and operators can configure, provision, troubleshoot, and manage the entire overlay network from a simple graphical dashboard.\n \nValidator\n \n- In the orchestration plane, the Cisco Catalyst SD-WAN Validator automatically orchestrates connectivity between edge devices and Controllers. The Validator is largely responsible for the provisioning process as well as first-line authentication, control/management information distribution, and facilitating Network Address Translation (NAT) traversal.\n \nController\n \n- In the control plane, the Cisco Catalyst SD-WAN Controller is the component responsible for enforcing policies centrally. When branches come online, their routing information is exchanged with the Controller and not directly with other branches. The Controller works with the Validator to authenticate edge devices as they join the network and to orchestrate connectivity among the edge devices.\n  \nEdge Devices\n \n- In the data plane, the Edge devices are responsible for establishing the network fabric and handle the transmission of data traffic. Edge devices come in multiple forms, virtual and physical, and are selected based on the connectivity, throughput, and functional needs of the site. The operating system of the Edge devices is securely developed and tested as part of Cisco’s Secure Development Lifecycle (CSDL) prior to releasing a version for the customer to deploy. In-boundary scanning of the operating system deployed with Edge devices for Cisco Catalyst SDWAN-G are scanned as part of Cisco’s continuous monitoring strategy.\n\nCollectively, the architecture of the Cisco Catalyst SDWAN-G fabric simplifies IT operations with automated provisioning, unified policies, streamlined management to help ensure rapid updates and resolutions, advanced network functionality, resiliency, and security. From a single pane of glass, Cisco Catalyst SDWAN-G helps organizations avoid complex configurations and frequent policy changes that lead to uneven user experiences, thereby increasing overall network efficiency and reliability.\n  \nLink to Secure Configuration Guidance:\nhttps://sec.cloudapps.cisco.com/security/center/resources/Cisco-Catalyst-SD-WAN-HardeningGuide\nhttps://www.cisco.com/c/en/us/td/docs/routers/sdwan/configuration/security/ios-xe-17/security-book-xe.html\n\nOverview of documentation supplied by provider: https://www.cisco.com/c/en/us/td/docs/routers/sdwan/configuration/sdwan-xe-gs-book/system-overview.html\n\nTrust Center landing page with access instructions: In process\n\nNext Ongoing Certification Report Date: Feb 22nd, 2027\n\nPublic JSON format aligned to FedRAMP schema: TBD\n\nAutomation ensuring human-readable & JSON consistency: In process",
+    "certificationType": "Rev5",
+    "website": "https://www.cisco.com/go/sdwan",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cisco%20Logo.png",
+    "ueiNumber": "LQJKCX84CJB4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "sdwan_g_fedops@cisco.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sdwan-usgov@cisco.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

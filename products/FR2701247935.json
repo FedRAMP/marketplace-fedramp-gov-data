@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2701247935",
+    "providerName": "Tansi Software Inc.",
+    "serviceName": "Tansi",
+    "serviceAcronym": "Tansi",
+    "serviceDescription": "Tansi is a cloud-based operational ERP and operations execution platform that works alongside an organization's existing ERP to manage field execution, workforce readiness, asset operations, and compliance in one configurable system. The platform supports workforce management and onboarding, learning management and certification tracking, mobile forms and approval workflows with offline data capture, asset, inventory, and maintenance tracking, contractor compliance, incident reporting and corrective actions, and operational communications and reporting. The platform is hosted on Microsoft Azure and is made available to customers through web and mobile applications.",
+    "certificationType": "Rev5",
+    "website": "https://tansi.io",
+    "logo": "https://static-assets.mycroft.io/production/org_logos/d7531713-88f5-4009-a1fc-294a48380dbb.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.mycroft.io/tansi",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "wmahowich@tansi.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@tansi.io"
+    }
+  ]
+}

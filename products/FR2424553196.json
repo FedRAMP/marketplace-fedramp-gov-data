@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2424553196",
+    "providerName": "BLINK CHARGING",
+    "serviceName": "BLINK GOV",
+    "serviceAcronym": "BLINK GOV",
+    "serviceDescription": "Blink Network provides a comprehensive solution for electric vehicle (EV) charging, employing a container-based, microservices architecture to allow for the management of charging stations, as well as a wide array of host and driver services.\nCharger Services\nThe core of the Blink Network revolves around its charger services, which include:\nAccess Control and Billing: Users are authenticated and billed based on their usage. The system supports detailed billing that can differentiate between driver pricing and other billing factors.\nCharging Session History: Each charging session is\n logged, capturing details such as duration, energy consumed, and cost, enabling precise tracking and management.\nCharging Station Configuration: Administrators can configure charging stations remotely, setting parameters such as maximum output and scheduling.\nCustomer Services\nTo enhance the EV driver experience, Blink Network offers several customer-oriented services:\nStation Locator: Drivers can find available public charging stations via the network, ensuring they can charge their vehicles conveniently.\nSession Management: Drivers can start and pay for charging sessions directly through the platform, supported by a seamless payment gateway.\nNotification Alerts: Users receive notifications about their charging status and other relevant alerts, enhancing communication and user engagement.\nStation Management\nStation management is critical for operational efficiency and includes:\nPricing Policy Management: Administrators can set and adjust pricing based on duration or kWh used, allowing for flexible and dynamic pricing strategies.\nAccess Policy Settings: Stations can be configured for public, private, or mixed use. Public stations can be integrated with popular mapping services like Google and Apple Maps for easy accessibility.\nReporting: Comprehensive reports are available, detailing transactions, energy usage, revenue, station utilization, and environmental impact metrics.\nReal-time Monitoring: Continuous monitoring of station status with alerts ensures high uptime and prompt response to issues.\nDriver Mobile App\nThe driver-facing component of the Blink Network includes:\nAccount Management: Drivers can manage their profiles, set notification preferences, and enter payment information for automated billing.\nCharging Management: The app provides functionalities to find stations, check availability, initiate, and pay for charging sessions, all in real-time.\nAPI Integration\nAPI capabilities are central to the system, facilitating:\nCharging Operations (OCPI): Supports authentication and control of charging sessions.\nCharger Information (OCPI): Delivers real-time data on charger status, tariffs, and locations.\nCDR and Reports (OCPI): Provides detailed reports on energy consumption, parking duration, and costs for effective management.\nData Security\nData integrity and security are prioritized with stringent measures for data at rest and in transit, including:\nHost Information: Only essential details are stored, ensuring privacy and compliance.\nDriver Information: Sensitive information such as credit card details are tokenized; actual card numbers are never stored.\nCharging Station and Session Details: Comprehensive logging includes all transactional data without compromising user privacy.",
+    "certificationType": "Rev5",
+    "website": "http://www.blinkcharging.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Blink%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@blinkcharging.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-sales@blinkcharging.com"
+    }
+  ],
+  "assessor": {
+    "name": "137046",
+    "assessorID": "137046"
+  }
+}

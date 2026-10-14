@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2431264500",
+    "providerName": "AppOmni",
+    "serviceName": "AppOmni SaaS Security for Government",
+    "serviceAcronym": "AppOmni SaaS Security for Government",
+    "serviceDescription": "AppOmni SaaS Security for Government is a SaaS security platform designed to protect SaaS applications with posture management, threat detection and response, and identity security capabilities. The AppOmni Platform uses an application programming interface (API) connector to scan customer SaaS instances to discover, protect, and continuously monitor SaaS applications and data. AppOmni can discover misconfigurations that can lead to SaaS data exposures, find out who has access to what data and what might be at risk, and identify unsanctioned third-party applications connected to the SaaS estate. AppOmni can protect data against unauthorized access, apply security best practices, and notify when anomalous activity occurs. Continuous monitoring provides security teams with visibility, providing data protection and supporting privacy and compliance standards. AppOmni helps organizations to enjoy the productivity benefits of SaaS and safeguard their applications and data.",
+    "certificationType": "Rev5",
+    "website": "https://appomni.com/industry-solutions/public-sector/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/AppOmni%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@appomni.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "support@appomni.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

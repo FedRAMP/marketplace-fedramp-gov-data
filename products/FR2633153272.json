@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2633153272",
+    "providerName": "Samsara Inc.",
+    "serviceName": "Samsara Connected Operations Cloud",
+    "serviceAcronym": "Samsara Connected Operations Cloud",
+    "serviceDescription": "The Samsara Connected Operations Cloud is a software-as-a-service platform that connects vehicles, equipment, sites, and workers to provide real-time operational visibility. Samsara IoT devices, including vehicle gateways, dash cameras, and environmental sensors, transmit data to the cloud platform, where customers use applications for fleet telematics, video-based safety, equipment monitoring, driver workflows, and regulatory compliance. The platform provides dashboards, alerting, reporting, and open APIs for integration with customer systems.",
+    "certificationType": "Rev5",
+    "website": "https://www.samsara.com/resources/connected-operations",
+    "logo": "https://raw.githubusercontent.com/samsarahq/samsara-fr-info/main/samsara-logo.jpg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://security.samsara.com/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@samsara.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@samsara.com"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2023864279A",
+    "providerName": "Datadog, Inc.",
+    "serviceName": "Datadog for Government",
+    "serviceAcronym": "Datadog for Government",
+    "serviceDescription": "Datadog is an AI-powered observability and security platform that unifies metrics, traces, logs, security signals, and more across your stack into a single pane of glass. Observe any stack at any scale, secure applications from code to cloud, and act faster with automated workflows all in Datadog. Streamline collaboration between Development, Operations, and Security teams with AI-powered insights and automated remediation for faster troubleshooting and improved system health and security.\n\nDatadog for Government extends these capabilities to U.S. government agencies, educational institutions, and the organizations that support them. Hosted on AWS GovCloud, it supports hybrid, multi-cloud, and on-prem environments. Federal, state, and local teams can accelerate IT modernization, strengthen security posture, and support initiatives like Zero Trust and cloud migration—delivering secure, reliable digital services with confidence.\n\nThe services in scope for Datadog for Government are:\n\nInfrastructure Metrics – Observe, analyze, and alert on metrics across hosts, containers, and cloud environments.\n\nCloud Network Monitoring – Provide multi-cloud visibility into network flows in granular detail and enable users to aggregate and monitor that data.\n\nNetwork Device Monitoring – Monitor the health and performance of network devices such as routers, switches, and firewalls.\n\nCloud Cost Management – Analyze and optimize cloud spend with visibility into resource usage and cost drivers.\n\nApplication Performance Monitoring (APM) – Collect, search, and analyze traces across fully distributed architectures.\n\nContinuous Profiler – Continuously analyze code-level performance to identify resource bottlenecks and optimize application efficiency.\n\nServerless Monitoring – Monitor the performance and execution of serverless functions across cloud environments.\n\nDatabase Monitoring – Provide visibility into database performance, query activity, and resource utilization.\n\nLog Management – Collect, enrich, monitor, and analyze logs from all systems for troubleshooting, auditing, visualization, and alerting.\n\nError Tracking – Capture, visualize, and browse errors reported by services.\n\nSensitive Data Scanner – Identify and monitor sensitive data within logs to support compliance and data protection requirements.\n\nAudit Trail – Track user activity and configuration changes for auditing and compliance purposes.\n\nArchive Search – Enable long-term retention and search of log data for compliance and forensic analysis.\n\nCloud Security Monitoring – Enable real time threat detection and investigate security alerts across infrastructure metrics, distributed traces, and logs. This capability encompasses Cloud SIEM, Cloud Workload Security, Cloud Security Platform Monitoring, and Cloud Security Vulnerability Management.\n\nReal User Monitoring (RUM) – Collect user actions (e.g., button clicks) to understand user activity within a page.\n\nSession Replay – Reconstruct user sessions to visually analyze user behavior and troubleshoot issues.\n\nSynthetic Monitoring – Monitor applications and API endpoints via simulated user requests and browser rendering.\n\nIncident Management – Detect, manage, and respond to incidents with workflows for alerting, collaboration, and resolution.\n\nMobile Application – Access the Datadog platform from mobile devices.",
+    "certificationType": "Rev5",
+    "website": "https://www.datadoghq.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/DataDog%20Logo.png",
+    "ueiNumber": "L8UFWSCC3JF5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@datadoghq.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fed@datadoghq.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

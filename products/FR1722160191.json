@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1722160191",
+    "providerName": "CORAS",
+    "serviceName": "CORAS Federal",
+    "serviceAcronym": "CORAS Federal",
+    "serviceDescription": "CORAS® is an agentic-AI decision intelligence platform developed to meet the operational needs of federal agencies, including the Department of Defense. It provides a secure environment for analyzing complex data, modeling scenarios, and executing workflows within structured decision frameworks. The platform is designed for use in environments that require high accountability, traceability, and compliance.\r\n\r\nAt the center of the platform is Gary, a secure, LLM-powered orchestrator that understands mission context, executes real-time scenarios, and activates purpose-built AI agents to generate insights, automate workflows, and accelerate outcomes. Whether you're navigating budget tradeoffs, forecasting readiness, or aligning performance across programs, Gary turns plain-English questions into mission-aligned action — instantly.\r\n\r\nKey Capabilities:\r\n\r\n·         Live “what-if” modeling using real data and driver logic\r\n\r\n·         Auto-generated documents, briefings, and charts with traceable sources\r\n\r\n·         Conversational access to complex decision structures — no dashboards required\r\n\r\n·         Fully compliant with DoD IL5 and FedRAMP High standards\r\n\r\n·         Embedded agents for data validation, workflow automation, SmartBoard execution, and more\r\n\r\nBuilt for structure, not just search. CORAS reasons over driver trees, KPIs, and operational dependencies — making it the go-to platform for decision intelligence in federal environments.",
+    "certificationType": "Rev5",
+    "website": "https://company.coras.ai/fedramp",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/CORAS%20Logo.png",
+    "ueiNumber": "N2D4L65472N5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "Fedramp@CORAS.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Fedramp@CORAS.ai"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

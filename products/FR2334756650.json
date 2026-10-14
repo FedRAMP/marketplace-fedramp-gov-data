@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2334756650",
+    "providerName": "Chainalysis",
+    "serviceName": "Reactor",
+    "serviceAcronym": "Reactor",
+    "serviceDescription": "Reactor is a cryptocurrency investigation tool for tracing the flow of funds, which helps investigators as they identify and track bad actors who use cryptocurrencies for illicit activity. Reactor combines an intuitive interface with flexible visualization capabilities to map blockchain transactions into real-world entities, enabling users to combat criminal activity on the blockchain. Reactor is used by law enforcement, compliance officers, financial institutions, and governments around the world for criminal investigations.",
+    "certificationType": "Rev5",
+    "website": "https://www.chainalysis.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Reactor%20Logo.png",
+    "ueiNumber": "KCJLLAYLT1B9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@chainalysis.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "cgs@chainalysis-gov.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

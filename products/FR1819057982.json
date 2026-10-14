@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1819057982",
+    "providerName": "The Coleridge Initiative, Inc.",
+    "serviceName": "Administrative Data Research Facility (ADRF)",
+    "serviceAcronym": "Administrative Data Research Facility (ADRF)",
+    "serviceDescription": "The ADRF system is designed to promote access to and use of government administrative records across agency lines. It provides access to collaborative tools and rich documentation so that knowledge and analysis can be shared and reused. It hosts confidential data for a range of agencies at the federal, state and local levels, and serves multiple domains - including criminal justice, welfare, labor, education, health, housing and transportation.",
+    "certificationType": "Rev5",
+    "website": "https://coleridgeinitiative.org/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Coleridge%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@coleridge.us"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@coleridgeinitiative.org"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

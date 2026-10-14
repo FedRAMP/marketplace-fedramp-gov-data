@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2128235497",
+    "providerName": "Bamboo Health, Inc.",
+    "serviceName": "PMP Government-Gateway",
+    "serviceAcronym": "PMP Government-Gateway",
+    "serviceDescription": "The PMP Government-Gateway, offered by Bamboo Health, is a Software as a Service (SaaS) solution designed for healthcare agencies and providers. This service allows for the query and report visualization of prescription dispensation information directly within the Electronic Health Records (EHR) system, ensuring that healthcare professionals can access a patient's comprehensive controlled substance prescription history without leaving their workflow.",
+    "certificationType": "Rev5",
+    "website": "https://bamboohealth.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Bamboo%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-security@bamboohealth.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "growthopportunities@bamboohealth.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

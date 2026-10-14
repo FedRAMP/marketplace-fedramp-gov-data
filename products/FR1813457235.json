@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1813457235",
+    "providerName": "NeoSystems LLC",
+    "serviceName": "NeoSystems.Cloud",
+    "serviceAcronym": "NeoSystems.Cloud",
+    "serviceDescription": "For Agencies:  The NeoSystems.Cloud is a moderate IaaS system that can be used to host COTS or Custom applications with public and/or private facing networks when combined with the NeoSystems Managed Hosting services.  Government contractors that are hosting applications for agencies can also use these managed hosting services to outsource the infrastructure, its operations, and management of the platform and application(s).\n\nFor Government Contractors: The NeoSystems.Cloud is not only FedRAMP Ready, but also provides compliance with the FAR and DFARS Cybersecurity Clauses, ITAR and CMMC Maturity Level 2.  Contractors needing to host applications with sensitive unclassified data (e.g., FCI, CUI, ITAR/EAR) can use these managed hosting services to outsource the infrastructure, its operations, and management of the platform and application(s).  Additionally, the NeoSystems.Cloud can be leveraged as part of a Managed Enclave solution to address the cost-effective segregation and control of sensitive unclassified data.",
+    "certificationType": "Rev5",
+    "website": "https://www.neosystems.cloud",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/NSC%20Logo2.png",
+    "ueiNumber": "K5S3DCMK6SJ4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "support@neosystemscorp.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "growahead@neosystemscorp.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

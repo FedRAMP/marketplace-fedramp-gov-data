@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631054487",
+    "providerName": "Nastro Technologies, Inc.",
+    "serviceName": "BitRip",
+    "serviceAcronym": "BitRip",
+    "serviceDescription": "BitRip is a cloud-based asset tracking and inventory management platform that uses smart labels to bridge cloud-based data with physical assets in the field. These smart labels provide instant access to critical asset data while remaining dynamic and rugged, and they drive decision-making through enhanced, learning-based analytics. BitRip supports the Defense Logistics Agency's logistics operations under Phase 2 of R&D BAA0001-23.",
+    "certificationType": "Rev5",
+    "website": "https://www.bitrip.com",
+    "logo": "https://bitrip.com/fedramp/logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.bitrip.com/trust/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "heath@bitrip.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "nick@bitrip.com"
+    }
+  ]
+}

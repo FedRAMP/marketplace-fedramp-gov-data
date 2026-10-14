@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2628647239",
+    "providerName": "Advent Business Company Inc.",
+    "serviceName": "Enablement®",
+    "serviceAcronym": "Enablement®",
+    "serviceDescription": "**Enablement®: Own your compliance. Send nothing out. Need no experts, no AI.**\n\nMost compliance platforms make you hire specialists, wire in third-party services, and increasingly hand your data to AI you cannot audit. Enablement flips that. It is a self-contained, deterministic, zero-trust platform where your teams build and run everything visually, and nothing ever leaves your boundary.\n\n1. **No-code process building. No developers, no AI, no token bills.** Business users design complete workflows (BPMN) visually and get web and mobile interfaces generated automatically. No coding, no integration team, no consultants. The engine is deterministic rather than generative: it never hallucinates, never invents an answer, and costs nothing per token. What you design is exactly what runs, the same way every time, fully auditable.\n2. **Deploy anywhere. True portability.** Run Enablement in any commercial cloud, any government cloud, your own data center, or as a fully self-contained appliance. No cloud lock-in, no vendor-specific dependency. Move it, mirror it, or air-gap it.\n3. **Rapid CMMC Level 2 compliance, with continuous monitoring built in.** CMMC Level 2 readiness comes out of the box, backed by native, always-on continuous monitoring. No separate scanning products to buy, license, or integrate. Assess, monitor, and produce authorization evidence from day one, on a single system.\n4. **A genuine zero-trust boundary. Your data never touches a third party.** Your source code lives in its own repository. No data is sent to any outside service for authentication, code analysis, container scanning, file scanning, or continuous monitoring. Nothing is shipped to a SaaS, a scanning vendor, or an AI provider. What happens in your boundary stays in your boundary.\n5. **Access control and document marking that remove human error.** Fine-grained role-based and attribute-based access control (RBAC and ABAC) governs exactly who can see and do what. Documents are marked automatically to federal standards (DoW and NARA). No manual labeling, no inconsistent tags, no mislabeled files. The platform does the marking so people cannot get it wrong.\n6. **Stop data leaks before they happen.** Human error is the number one cause of data spillage. Enablement checks every share and warns before a document reaches unauthorized personnel, catching the mistake at the moment of sharing rather than after a breach. A potential disclosure, and the liability that follows, becomes a blocked action.\n7. **Every authentication method, and your password never reaches the server.** Passkeys, single sign-on (SSO), authenticator apps, email, and more. The password is proven with a challenge-response, so the secret never leaves the user's device; the server stores only a verifier and salt, never the password or any recoverable form of it. Strong, flexible, phishing-resistant sign-in without ever transmitting the credential.\n8. **One control set, three frameworks.** Policies and controls are written once and mapped to FedRAMP 20x Key Security Indicators, CMMC Level 2 practices, and SOC 2 Trust Services Criteria. A Section 508 Accessibility Conformance Report (VPAT 2.5) is available on request. Built by CMMI-appraised, ISO-certified Advent.\n\n**Intended agency use.** Enablement is intended for both FedRAMP use cases: direct use by agency customers, and indirect use as a third-party information resource inside other cloud service offerings that agencies use directly.\n\nLive evidence: [FedRAMP Trust Center](https://enablement.cc/ml/20x/trust) · [Secure Configuration Guide](https://enablement.cc/ml/20x/scg) · [enablement.company](https://enablement.company)",
+    "certificationType": "Rev5",
+    "website": "https://enablement.company",
+    "logo": "https://enablement.cc/assets/enablement/logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://enablement.cc/ml/20x/trust",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-security@adventbusiness.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@adventbusiness.com"
+    }
+  ],
+  "assessor": {
+    "name": "203203",
+    "assessorID": "203203"
+  }
+}

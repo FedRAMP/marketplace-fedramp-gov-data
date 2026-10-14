@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2308034636A",
+    "providerName": "Wiz, Inc.",
+    "serviceName": "Wiz for U.S. Government",
+    "serviceAcronym": "Wiz for U.S. Government",
+    "serviceDescription": "Wiz for U.S. Government\r\n\r\nWiz for U.S. Government (“Wiz for Gov”) is a cloud-native environment and product line that delivers a unified view of risk across a customer’s full cloud environment, from code to production. Wiz for Gov helps public sector agencies meet FedRAMP and FISMA compliance needs by focusing on the issues that matter most. The Wiz for Gov unified product line has three different components to secure your stack:\r\n\r\n\r\nWiz Cloud for Gov\r\n\r\nWiz Cloud focuses on assessing and prioritizing risk by analyzing vulnerabilities, misconfigurations, malware, identities, network paths, data, and AI risks. At its core is the Wiz Security Graph, which maps relationships between cloud resources to find \"toxic combinations\" that represent real risk. This approach automates risk assessments in alignment with OMB A-130's definition of risk as a function of the magnitude of harm and the likelihood of occurrence. It prioritizes these risks and routes them to relevant teams, providing a clear view of the attack path, blast radius, and recommended remediation steps.\r\n\r\n\r\nWiz Code for Gov\r\n\r\nWiz Code extends visibility into the development lifecycle to help enforce secure-by-design practices. By connecting directly to code repositories, Wiz provides full traceability from production issues back to the corresponding source code and owner. Wiz also integrates with CI/CD pipelines to enforce policies during image scanning and Infrastructure as Code (IaC) reviews, helping to identify risks earlier and accelerate time to production readiness. This shared view helps security and development teams collaborate, ensuring accountability and reducing mean time to remediation (MTTR).\r\n\r\n\r\nWiz Defend for Gov\r\n\r\nWiz Defend modernizes cloud threat detection and response by reducing alert fatigue and surfacing the root cause of issues faster. It leverages a cloud native runtime sensor, logs, and threat intelligence to identify malicious activity and enrich detected events with cloud context, providing SOC analysts with the information needed to assess threat impact and blast radius. This enhances active cyber defense across the full environment—including identity, workload runtime, network, data, and control plane components—and helps teams align response actions with the MITRE ATT&CK framework.",
+    "certificationType": "Rev5",
+    "website": "https://www.wiz.io/",
+    "logo": "https://fedramp.gov/assets/img/logos/CSP_logos/Wiz%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedops@wiz.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedsales@wiz.io"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

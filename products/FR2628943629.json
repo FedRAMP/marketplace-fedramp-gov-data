@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2628943629",
+    "providerName": "International Vending Management, Inc.",
+    "serviceName": "SmartHub",
+    "serviceAcronym": "SmartHub",
+    "serviceDescription": "IVM SmartHub is an intelligent, centralized access and asset management solution designed to streamline how organizations control, track, and manage access to IVM Smart Solutions. Built for modern workplaces, government agencies, IT teams, and distributed operations, SmartHub provides secure self-service access to connected IVM solutions while maintaining full accountability through automated tracking and chain-of-custody workflows.\n \nWith SmartHub, organizations can reduce manual administrative tasks, improve operational visibility, and provide 24/7 controlled access to IVM Smart Solutions without requiring constant onsite support. The system helps teams manage users, permissions, access activity, inventory visibility, and asset workflows in real time, improving audit readiness and ensuring the right users have access to the right solutions when they need them.\n \nWhether supporting IT service delivery, field operations, onboarding, break/fix replacement, or controlled equipment distribution, IVM SmartHub delivers a smarter, more secure, and more efficient way to manage access across the IVM Smart Solutions ecosystem.",
+    "certificationType": "Rev5",
+    "website": "https://www.ivminc.com",
+    "logo": "https://trustcenter.gov.ivminc.com/img/ivm-logo.webp",
+    "ueiNumber": "X7PFXJTGKKC4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trustcenter.gov.ivminc.com/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@ivminc.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "bruceg@ivminc.com"
+    }
+  ],
+  "assessor": {
+    "name": "201591",
+    "assessorID": "201591"
+  }
+}

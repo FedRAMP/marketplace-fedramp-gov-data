@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2432940371",
+    "providerName": "Docebo",
+    "serviceName": "Docebo Learning Platform for Gov (DCBO-GOV)",
+    "serviceAcronym": "Docebo Learning Platform for Gov (DCBO-GOV)",
+    "serviceDescription": "DCBO-GOV is delivered as a Learning Management System (LMS) SaaS offering that empowers the organization, deployment, and reporting of training and learning opportunities using a multi-tenant Government-Only Cloud computing environment hosted within AWS GovCloud. It is available to federate, state, local, and tribal governments, their agencies, and associated contractors as well as federally funded research centers (FFRDCs) or lab entities.",
+    "certificationType": "Rev5",
+    "website": "https://www.docebo.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Docebo%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedrampsecurity@docebogov.org"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedrampsales@docebo.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

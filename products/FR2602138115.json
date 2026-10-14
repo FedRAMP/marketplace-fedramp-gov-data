@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2602138115",
+    "providerName": "Nozomi Networks Inc.",
+    "serviceName": "Vantage for Government",
+    "serviceAcronym": "Vantage for Government",
+    "serviceDescription": "Vantage for Government is an AI-powered OT/IoT cyber-resilience platform specifically designed to meet the security needs of federal agencies and critical infrastructure operators. It delivers unified asset visibility, threat detection and response, and risk management capabilities for OT, IoT and IT environments. \r\n \r\n1. Asset Visibility \r\n1.a. Asset Inventory: The platform combines passive, active and host-based data collection with AI-driven analysis and enrichment. This provides visibility across wired, wireless, and endpoint environments. Integrations with third-party systems and external files consolidate asset data into a single platform. \r\n1.b. Vulnerability and Exposure Management: The platform provides non-intrusive OT/IoT vulnerability detection with prioritized remediation recommendations based on exploitability and operational impact. \r\n \r\n2. Threat Detection and Response  \r\n2.a. Threat Detection: The platform continuously monitors network and endpoint activity using built-in detection rules and OT/IoT-specific threat intelligence to detect ransomware, state-sponsored activity and hacktivist campaigns. AI-driven correlation reduces alert fatigue by delivering actionable, prioritized alerts. \r\n2.b. Process Anomaly Detection: The platform extracts commands and process telemetry through deep packet inspection of OT/IoT protocols. It establishes baselines and detects anomalies (including unknown threats) in process telemetry, control commands and device behavior. \r\n2.c. AI-Driven Remediation Recommendations: The AI engine correlates alerts and recommends mitigation actions based on operational context and defined workflows. \r\n2.d. Response Actions: The platform can automate response actions, such as enforcing network rules and isolating hosts, through integrations with SIEM, SOAR, firewalls and other SOC tools, or directly at the endpoint. \r\n2.e. Customizable Playbooks: User-defined playbooks and workflows standardize manual incident response across security and operations teams. They help teams share context and maintain timely communication. \r\n \r\n3. Risk Management & Compliance \r\n3.a. Measurable Risk: The platform provides customizable, multifactor risk scoring at the asset, zone, site and enterprise levels. Risk scores are assessed using asset inventory, network mapping, vulnerability detection, threat intelligence, and operational significance. \r\n3.b. Risk Mitigation: The platform supports risk mitigation through prioritized remediation recommendations based on operational impact and asset criticality. \r\n3.c. Compliance & Risk Monitoring: Dashboards with real-time risk trends, site-level accountability, industry benchmarks and compliance controls help teams communicate risk across the organization.",
+    "certificationType": "Rev5",
+    "website": "https://www.nozominetworks.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Nozomi%20Logo.png",
+    "ueiNumber": "GVLPML92XBQ3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@nozominetworks.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "bill.aubin@nozominetworks.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2135730387",
+    "providerName": "IBM",
+    "serviceName": "IBM Federal HR Cloud",
+    "serviceAcronym": "IBM Federal HR Cloud",
+    "serviceDescription": "IBM’s Federal HR Cloud solution for federal government offers a configurable human capital management SaaS solution. As part of this solution, IBM delivers functionality for the complete suite of core HR processing including personnel action processing, compensation management, benefits administration, performance management, time and leave management, payroll services, employee and manager self-service, intelligent automation, and cognitive decision support to allow HR leaders enable cognitive HR enterprise.",
+    "certificationType": "Rev5",
+    "website": "https://www.ibm.com/services/talent-management/hr-transformation",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/IBM%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "federal_hrcloud@wwpdl.vnet.ibm.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "surafel.belew@ibm.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

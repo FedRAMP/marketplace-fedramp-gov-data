@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2633053633",
+    "providerName": "Anthropic",
+    "serviceName": "Claude",
+    "serviceAcronym": "Claude",
+    "serviceDescription": "Claude is Anthropic's AI assistant, delivered as a cloud service and accessed through multiple interfaces that share the same underlying platform, models, and security controls: the Claude application on web, desktop, and mobile; Claude Code for agentic software development; Claude Cowork for delegating multi-step knowledge work; and the Claude API and Developer Platform for programmatic access to Claude models and agent-building capabilities. Users interact with Claude in natural language to draft and analyze documents, reason over uploaded files, search connected data sources, write and run code, and automate multi-step work. Organization administrators manage identity, access, data retention, and audit controls across all interfaces from a single deployment. Customer content is not used to train Anthropic's models by default.",
+    "certificationType": "Rev5",
+    "website": "https://claude.com/product/overview",
+    "logo": "https://assets.claude.ai/brand/logos/anthropic-logo.svg",
+    "ueiNumber": "SPQZL8XDKGK7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@anthropic.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "pubsec@anthropic.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

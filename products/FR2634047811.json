@@ -1,0 +1,40 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2634047811",
+    "providerName": "86Borders LLC",
+    "serviceName": "86Borders ConnectAllCare",
+    "serviceAcronym": "86Borders ConnectAllCare",
+    "serviceDescription": "86Borders is the trusted partner for health plans seeking measurable outcomes and quality improvement through human-first member engagement. By pairing local Care Coordinators with our ConnectAllCare (CAC) platform, we help payers and other risk-bearing entities reach hard-to-engage members, overcome social and behavioral barriers, and translate genuine connection into improved outcomes, higher quality scores, and healthier communities. 86Borders ConnectAllCare is a cloud-based healthcare coordination platform managing patient engagement and social care, deployed on AWS Commercial infrastructure.\n\n### Certification Package Metadata [CPO-CSO-MTD]\n- **Accountable Official:** Dan McDonald, Chief Executive Officer (CEO) (dmcdonald@86borders.com)\n- **Version:** 1.0.2\n- **Date and Time of Last Update:** 2026-10-06T10:27:00Z\n- **Source of Update:** Manual",
+    "certificationType": "Rev5",
+    "website": "https://www.86borders.com",
+    "logo": "https://www.86borders.com/wp-content/uploads/2026/07/86Borders-Logo-scaled-2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/86borders/connectallcare/deliverables",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-infosec@86borders.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@86borders.com"
+    }
+  ],
+  "assessor": {
+    "name": "100123",
+    "assessorID": "100123"
+  }
+}

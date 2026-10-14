@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2406651384",
+    "providerName": "Precisely Software",
+    "serviceName": "Data Integrity Suite for Government",
+    "serviceAcronym": "Data Integrity Suite for Government",
+    "serviceDescription": "The Precisely Data Integrity Suite for Government is a cloud-native solution that provides capabilities for managing and governing data within federal agencies and other regulated environments. The cloud services of the Data Integrity Suite help organizations deliver accurate, consistent, and contextualized data across operational and analytical systems. \n\nData Integrity Suite for Government enables users to discover and catalog data assets, manage metadata and lineage, and apply configurable governance workflows and stewardship processes to support collaboration between technical and business users. Automated metadata discovery, flexible data models, and machine learning-assisted classification support the organization and management of critical data at scale. The Data Integrity Suite can also verify, geocode, and autocomplete addresses, helping ensure the accuracy and reliability of critical address data.\n\nBy cataloging data from across cloud and on-prem data sources, the Data Integrity Suite for Government supports consistent management and use of trusted data across public sector agencies and adjacent regulated industries.",
+    "certificationType": "Rev5",
+    "website": "https://www.precisely.com/solution/data-integrity-suite-for-government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Precisely%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedrampsecurity@precisely.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "john.guedel@precisely.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

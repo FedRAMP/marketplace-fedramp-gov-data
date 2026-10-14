@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2504062150",
+    "providerName": "IBM",
+    "serviceName": "IBM Federal ATOM",
+    "serviceAcronym": "IBM Federal ATOM",
+    "serviceDescription": "IBM Federal ATOM is a cloud-based service tailored for federal clients. It’s delivered as a SaaS solution in an AWS government-only cloud, allowing agencies to adopt shared services with artificial intelligence, automation, data tools & technologies for designing, building, and scaling business processes. IBM Federal ATOM leverages AI, data, and automation technologies such as business process management, integration services, business rules, robotic process automation, data pipelines, Lakehouse, business intelligence, advanced analytics, natural language processing, machine learning and generative AI. The core offering includes intelligent document processing, pension claims processing, healthcare and disability claims processing, Freedom of Information Act (FOIA) request processing, medical records sourcing, fraud detection & investigative case management, and Generative AI assistants & autonomous agents.",
+    "certificationType": "Rev5",
+    "website": "https://ibm-atom.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/IBM%20Logo.png",
+    "ueiNumber": "HQE7ENQ5K9K4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "ibmatom@servicenowservices.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "iaatom@ibm.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

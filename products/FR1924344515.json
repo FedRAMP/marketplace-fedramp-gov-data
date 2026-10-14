@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1924344515",
+    "providerName": "Wellspring Worldwide, Inc.",
+    "serviceName": "Wellspring Tech Transfer and IP Management Suite (WTIMS)",
+    "serviceAcronym": "Wellspring Tech Transfer and IP Management Suite (WTIMS)",
+    "serviceDescription": "The Wellspring Tech Transfer and IP Management Suite is delivered as a SaaS offering using a multi-tenant Government Community cloud computing environment. It is available to federal, state, local, and tribal governments, as well as research institutions, federal contractors, government contractors.\n\nWellspring Sophia is a browser based application used to manage all of the initiatives and activities required in the technology transfer field. Sophia provides over 30 modules, plug-ins, and integrations that include IP management, contract management, reporting, disclosure and project submissions, and more. With more than 15 years in the tech transfer industry and more than 250 institutions using our solutions, Wellspring provides the most complete technology transfer management software available with unparalleled functionality, flexibility, and support staff to professionals in the technology transfer field worldwide.\n\nEvolve is Wellspring's next-generation software platform that streamlines technology transfer and IP management from invention disclosure through licensing and commercialization, with intuitive workflows, and seamless data integrations. The Evolve application runs inside Salesforce Gov Cloud and relies on Sophia hosted services for capabilities that extend beyond native Salesforce functionality along with functionality to migrate Sophia users to evolve to leverage more modernized components.\n\nAll four components are hosted within the FedRAMP environment and communicate with Salesforce Gov Cloud over HTTPS and provided the following functionality:\n\n- Evolve DocGen: Generates PDFs from Salesforce record data and document templates\n- Evolve DocSign: Manages electronic signature workflows with a signer-facing hosted UI\n- Evolve iEdison API: Pushes invention disclosure, patent, and utilization data from Salesforce to the NIST iEdison API\n- Evolve Migration Worker: Prefect-based worker that authenticates directly to Salesforce Gov Cloud and performs bulk data loads, file operations, and schema changes during the Sophia-to-Evolve migration.",
+    "certificationType": "Rev5",
+    "website": "https://www.wellspring.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Wellspring%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securitycompliance@projecthosts.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "rich.barndt@wellspring.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2401047002",
+    "providerName": "Axonius Federal Systems",
+    "serviceName": "Axonius Asset Cloud",
+    "serviceAcronym": "Axonius Asset Cloud",
+    "serviceDescription": "Axonius Asset Cloud is a SaaS offering using a single-tenant Public Cloud computing environment to provide customers with a comprehensive solution for managing their assets, both on-premises and in the cloud, optimizing their IT operations, and ensuring the security and compliance of their assets.\r\n \r\nWith Axonius Asset Cloud, organizations can discover and track their hardware and software assets, including servers, laptops, desktops, mobile devices, cloud-based applications, and identities and accounts. The software automatically collects data from a variety of sources, including network devices, operating systems, and third-party applications, and presents it in an easy-to-use dashboard. In addition to asset management, the solution offers SaaS management capabilities, allowing organizations to monitor and control their cloud-based applications and services. With Axonius Asset Cloud, organizations can gain insights into their SaaS usage, track license compliance, and optimize their cloud spend. Moreover, the solution provides advanced security features, including continuous monitoring and compliance checks, to ensure that assets are secure and compliant and provides a unified view of risk across the customer IT environment. It also integrates with existing security tools and workflows, making it easy to manage and remediate security issues. This solution enables organizations to gain extensive visibility into their assets, both on-premises and in the cloud, and manage them effectively.",
+    "certificationType": "Rev5",
+    "website": "https://www.axoniusfed.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Axonius%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cyber@axoniusfed.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@axoniusfed.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

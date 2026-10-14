@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2115384377",
+    "providerName": "Commvault Systems, Inc.",
+    "serviceName": "Commvault Cloud for Government",
+    "serviceAcronym": "Commvault Cloud for Government",
+    "serviceDescription": "Commvault Cloud for Government delivers a fully automated cyber resilient SaaS data backup and recovery solution, with automated deployment, reduced overhead, automated patching and upgrades, continuous security monitoring, and requiring no Agency maintenance. Fully differentiated storage enables the move to cloud by providing the option to leverage cloud or on-premises storage within the web console for hybrid cloud workloads that require synchronization to sustain operational readiness and mission delivery.\r\n\r\nCommvault Cloud for Government capabilities include the following workloads:\r\n\r\n-Microsoft 365 - For Exchange, Teams, SharePoint, and OneDrive\r\n-Dynamics 365 - For CE applications + Power Platform\r\n-Salesforce - For Salesforce\r\n-Active Directory - For Entra ID and Active Directory\r\n-VM & Kubernetes – Azure VM, Kubernetes, Microsoft Hyper-V, VMWare, AWC EC2, VMWare Cloud\r\n-Endpoint – For Laptops and Desktops\r\n-File & Object – For Windows Server, Azure Blob & Files, OCI Object Storage, Amazon S3, Linux/Unix\r\n-File & Object Archive – For compliance ready archiving\r\n-Database – For Microsoft SQL, Oracle, SAP HANA\r\n-Air Gap Protection (AGP) – secure and scalable cloud storage from Azure in minutes, delivering against your organization’s hybrid cloud strategy is available for Commvault Complete™ and HyperScale™ X deployments.\r\nThe web-based console, called Command Center, provides a holistic customer data platform with both default and customizable configurations, -automated procedures for critical data protection and recovery tasks. Command Center delivers fully automated alerts on pre-set data anomalies, integrated audit reports, key word search (e.g., identifying PII or potential data spillages) and the ability remediate data issues at the granular level (e.g., file, specific email) using integrated indexing and metadata tags designed to protect data at IL4 & IL 5.",
+    "certificationType": "Rev5",
+    "website": "https://www.commvault.com/news/introducing-commvault-cloud-powered-by-metallic-ai",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Metallic%20Logo5.png",
+    "ueiNumber": "XAXKNJGAZ4H2"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP_Security@commvault.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "ccarter@commvault.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

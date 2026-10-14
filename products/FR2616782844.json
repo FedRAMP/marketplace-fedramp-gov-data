@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2616782844",
+    "providerName": "Alclear Healthcare LLC (d/b/a CLEAR)",
+    "serviceName": "CLEAR1 Gov",
+    "serviceAcronym": "CLEAR1 Gov",
+    "serviceDescription": "CLEAR1 is CLEAR’s secure identity platform used to perform remote identity proofing for federal agencies and highly regulated environments. Identity is confirmed by correlating biometric signals, government-issued credentials, device attributes, and authoritative and credible evidence sources in real time.\r\n\r\nCLEAR1 protects high-stakes workflows such as onboarding, account creation and recovery, and sensitive data access. The platform is policy-driven and aligned to the NIST Digital Identity Guidelines, including IAL2 and AAL2, and is approved by the Kantara Initiative as meeting these standards. Our comprehensive security program meets high standards for data protection and privacy, and is built to protect personal information and keep users in control. By verifying the person — not just the documents — CLEAR1 helps federal programs advance trust and protect their users at scale.",
+    "certificationType": "Rev5",
+    "website": "http://identity.clearme.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Clear1%20Logo.png",
+    "ueiNumber": "S6ERTJZD1CP3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fed-ramp-security@clearme.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "CLEAR1Gov@clearme.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

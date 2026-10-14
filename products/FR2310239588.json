@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2310239588",
+    "providerName": "Riverbed Technology",
+    "serviceName": "Riverbed Platform for Government (RP4G)",
+    "serviceAcronym": "Riverbed Platform for Government (RP4G)",
+    "serviceDescription": "Riverbed Platform for Government (RP4G) is delivered as a Software as a Service (SaaS) offering within a secure, multi-tenant, government-only cloud environment and is designed to provide visibility into network performance, application behavior, and end-user experience across on-premises, cloud, and hybrid infrastructures.\n\nThe platform integrates network performance monitoring, application observability, and digital experience monitoring capabilities into a unified architecture. The platform specializes in collecting and analyzing telemetry from network devices, applications, endpoints, servers, and cloud resources to support centralized dashboards, reporting, and intelligent analytics. It enables IT operations teams to identify performance degradation, investigate service disruptions, and conduct root-cause analysis, supporting reduced mean time to detection and resolution.\n\nThe SaaS environment incorporates role-based access controls, data segregation, encryption in transit and at rest, and audit logging to align with government security and compliance requirements, while supporting scalable data ingestion, analysis, and operational oversight for distributed environments.",
+    "certificationType": "Rev5",
+    "website": "https://www.riverbed.com/solutions/platform-for-government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Riverbed%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "InfoSec@riverbed.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales.admin@riverbed.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

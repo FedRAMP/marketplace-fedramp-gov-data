@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2630354484",
+    "providerName": "VisualVault LLC",
+    "serviceName": "VisualVault Cloud",
+    "serviceAcronym": "VisualVault Cloud",
+    "serviceDescription": "VisualVault is a secure, scalable platform that helps government agencies automate constituent-facing processes that require Compliance and Enforcement — from licensing and permitting to case management and general compliance enforcement. It enables agencies to configure workflows and adapt to evolving requirements.",
+    "certificationType": "Rev5",
+    "website": "https://www.visualvault.com",
+    "logo": "https://www.visualvault.com/static/c53c7cdcf1ab9d0f01e5719462cd1b2d/vvlogo.svg",
+    "ueiNumber": "SZUJPFHV8JA3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/visualvault/visualvault",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-security@visualvault.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-sales@visualvault.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

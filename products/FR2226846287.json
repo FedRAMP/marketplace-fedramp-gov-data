@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2226846287",
+    "providerName": "National Institute of Building Sciences (NIBS)",
+    "serviceName": "ProjNet™",
+    "serviceAcronym": "ProjNet™",
+    "serviceDescription": "ProjNet™ is delivered as a SaaS offering using a multi-tenant Government Only cloud computing environment. It is available to federal, state, local, and tribal governments, as well as research institutions, federal contractors and other government contractors supporting them. \nProjNet™ is an internet-based suite of construction design, communication and database tools that enable owners to better manage design review through improved document exchange and examination, inquiry, comment, record storage and issue resolution among all authorized project business partners. No components need installed locally to leverage this CSO.",
+    "certificationType": "Rev5",
+    "website": "http://www.projnet.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/NIBS%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securitycompliance@projecthosts.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "ProjNet@nibs.org"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

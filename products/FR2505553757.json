@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2505553757",
+    "providerName": "Turning Point Global Solutions, L.L.C",
+    "serviceName": "Network Inventory and Optimization Solution (NiOS®)",
+    "serviceAcronym": "Network Inventory and Optimization Solution (NiOS®)",
+    "serviceDescription": "TurningPoint’s Network Inventory and Optimization Solution (NiOS®) is a comprehensive Telecommunication Expense Management (TEM) and Managed Mobility (MM) system that facilitates enterprise-wide management and automation of telecom ordering, inventory management, bill validation, financial management, and reporting.  NiOS® provides US federal, state, and local governments with a single-pane window for telecom lifecycle management. The following are the high-level functional characteristics of NiOS®:\n\n•\tA built-in, customizable workflow enables customers to manage service orders, including move/add/change/disconnect (MACD), port, suspend, and restore requests.\n•\tIt offers customers a unified view of inventory data, covering all telecom services, such as wireline, mobility, and future technologies.\n•\tAssists customers in reconciling and verifying telecom bills against agency contracts, orders, quotes, and inventory; initiates and tracks disputes through resolution.\n•\tProvides visibility into budgets, obligated, spent, and available values with projections; and associated system alerts to proactively manage budget and internal customer chargebacks\n•\tAllows customers to generate various reports, providing access to accurate, comprehensive insights on spending, enhancing governance, and ensuring cost control.\n\nNiOS® is a software-as-a-service (SaaS) application hosted on Amazon Web Services (AWS) GOVCLOUD (US) using a secure, high-availability, multi-availability zones, multi-tenant architecture. The authorization boundary comprises a secure web-based portal, processing modules for data integration, analytics, Application Processing Interfaces (APIs), and supporting databases.",
+    "certificationType": "Rev5",
+    "website": "https://www.tpgsi.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/TP%20Logo.png",
+    "ueiNumber": "V4P1WQNT1FZ5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "infosec@tpgsi.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@tpgsi.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

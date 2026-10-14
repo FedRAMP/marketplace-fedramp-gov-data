@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631054482",
+    "providerName": "Concourse Tech Inc.",
+    "serviceName": "Concourse Platform",
+    "serviceAcronym": "Concourse Platform",
+    "serviceDescription": "The Concourse platform is a cloud-based, configurable software platform that enables government agencies, educational institutions, and other public-sector organizations to digitize, manage, and automate their operational workflows. The platform is modular in design, allowing customers to adopt capabilities individually or in combination based on their specific requirements. Concourse delivers its services to federal, state, and local government agencies; K–12 and higher education institutions; public utilities; transit authorities; and similar public-sector organizations.\n\nThe capability categories that make up the platform are listed individually below.",
+    "certificationType": "Rev5",
+    "website": "https://www.concoursetech.com",
+    "logo": "https://www.concoursetech.com/images/concourse-logo.png",
+    "ueiNumber": "R1XGH5JT24M1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.concoursetech.com/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@concoursetech.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@concoursetech.com"
+    }
+  ]
+}

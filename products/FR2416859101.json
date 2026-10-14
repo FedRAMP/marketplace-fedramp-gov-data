@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2416859101",
+    "providerName": "Verkada Inc",
+    "serviceName": "Verkada Command Platform",
+    "serviceAcronym": "Verkada Command Platform",
+    "serviceDescription": "The Verkada Command Platform is Verkada’s government-grade offering designed to help government organizations and their partners take a proactive, simple, and scalable approach to physical security, alongside numerous security enhancements that are critical for certain government users.\n\nThe system consists of the following key features: \n* Command in AWS GovCloud \n* Verkada Command, Pass, and Guest Mobile Applications\n* Cellular Gateway\n* FIPS-validated Devices including Video Security, Physical Access Control, Air Quality Sensors, Guest Management, and Command Connector",
+    "certificationType": "Rev5",
+    "website": "https://verkada.com/government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Verkada%20Logo.png",
+    "ueiNumber": "UFN8CLHC7NP3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "government@verkada.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "government@verkada.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

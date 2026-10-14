@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2635050845",
+    "providerName": "DigiCert, Inc.",
+    "serviceName": "DigiCert for Government",
+    "serviceAcronym": "DigiCert for Government",
+    "serviceDescription": "DigiCert ONE is a unified digital trust platform that\ndelivers certificate lifecycle management, code signing\nsecurity, private PKI, and centralized access\ngovernance for enterprise and government customers.\nThe platform is offered as a SaaS-based suite of four\nintegrated services:\nDigiCert® Trust Lifecycle Manager (TLM) - CA-agnostic\ncertificate lifecycle management (CLM) providing discovery,\ninventory, automated issuance and renewal, private CA\nmanagement, and integrations with ITSM and DevOps\ntoolchains across cloud, hybrid, and on-premises\nenvironments.\nDigiCert® Software Trust Manager (STM) - Code signing\nand software supply chain security platform providing\ncentralized, policy-driven key and certificate management,\nHSM-backed private key protection (FIPS 140-2 Level 3),\nCI/CD pipeline integrations, multi-person approval\nworkflows, and tamperproof audit logging to support\ncompliance with EO 14028 and NIST SP 800-218.\nDigiCert® Private CA - Private certificate authority platform\nenabling organizations to create, manage, and operate\nprivately trusted root and intermediate CAs for issuing\ncertificates to internal users, devices, servers, and\nworkloads. Supports cloud-hosted, on-premises, and hybrid\ndeployment models with HSM-backed key protection and\npost-quantum cryptography readiness.\nDigiCert® Account Manager - Administrative and identity\ngovernance layer of the DigiCert ONE platform providing\ncentralized user management, role-based access control\n(RBAC), SSO/SAML configuration, API credential\nmanagement, organization management, and audit logging\nacross all DigiCert ONE services.",
+    "certificationType": "Rev5",
+    "website": "https://www.digicert.com",
+    "logo": "https://www.digicert.com/content/dam/dcg/logos/digicert-logo-no-mark.svg",
+    "ueiNumber": "XW8XSKM51JJ4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedrampsecurity@digicert.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "tiphany.zellers@digicert.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

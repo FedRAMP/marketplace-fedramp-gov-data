@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2422240916",
+    "providerName": "Rapid7",
+    "serviceName": "InsightGovCloud",
+    "serviceAcronym": "InsightGovCloud",
+    "serviceDescription": "The Rapid7 InsightGovCloud is a suite of cloud-based SaaS applications that provides agencies with the tools and clarity they need to assess their attack surface, detect suspicious behavior, and respond and remediate quickly with intelligent automation. Features are enabled/disabled in near real time within a central web user interface (UI) with additional application programming interface (API) features. This suite of applications includes the following Rapid7 SaaS products: InsightPlatform, InsightVM, InsightCloudSec, and InsightConnect.",
+    "certificationType": "Rev5",
+    "website": "https://www.rapid7.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Rapid7%20Logo.png",
+    "ueiNumber": "MTXQGJKU6256"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@rapid7.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@rapid7.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

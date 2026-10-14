@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2628650874",
+    "providerName": "Pincus Technologies Inc",
+    "serviceName": "Tarly Cowork",
+    "serviceAcronym": "Tarly Cowork",
+    "serviceDescription": "AI-powered procurement workspace intended for direct use by federal agency acquisition teams within agency-authorized federal information systems. Tarly Cowork helps contracting professionals run market research, draft acquisition documents (IGCEs, solicitations, evaluation materials), and manage procurement files with grounded citations to authoritative federal data sources (SAM.gov, USAspending, the FAR and agency supplements). Each agency authorizes its use through the agency's Authorization to Operate (ATO) process.",
+    "certificationType": "Rev5",
+    "website": "https://gov.tarly.co",
+    "logo": "https://gov.tarly.co/tarly-logo.png",
+    "ueiNumber": "RKCYVMCNUK45"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://gov.tarly.co/trust/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@tarly.co"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "cary@tarly.co"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2425960757",
+    "providerName": "Abnormal AI",
+    "serviceName": "Abnormal AI for Government",
+    "serviceAcronym": "Abnormal AI for Government",
+    "serviceDescription": "Abnormal AI for Government (Abnormal Gov) is a cloud-native, API-based offering that provides holistic email security for cloud email platforms – Microsoft365 and Google Workspace, against the full spectrum of email attacks including advanced phishing, fraud, account compromise, supply chain compromise, user-reporting phishing, and more.\r\nThe platform connects via API to analyze thousands of signals from multiple data sets and precisely baseline known behavior of every employee within an organization and every vendor within the supply chain. Autonomous AI models enable Abnormal Gov to detect anomalous activity and stop never-before-seen attacks quickly and accurately. The platform also serves as an AI Security Co-worker by fully automating the triage and remediation of user-reported emails. AI models judge user-reported emails as safe, spam, or malicious and automatically remediate malicious emails across all affected users using AI, eliminating any manual intervention by security analysts. Additionally, AI models automatically learn the behavioral preferences of every employee through their folder movements of graymail and autonomously declutter inboxes from unwanted mail thereby boosting employee productivity.\r\n\r\nAbnormal Gov’s cloud email security product suite includes Inbound Email Security, Email Account Takeover Protection, AI Security Mailbox, Email Security Posture Management, and Email Productivity. The platform leverages a multi-tenant government cloud computing environment and is available for public, federal, state, local, and tribal governments.",
+    "certificationType": "Rev5",
+    "website": "https://abnormal.ai/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Abnormal%20Logo.png",
+    "ueiNumber": "C1MPKNUNE761"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "govsecurity@abnormal.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "govsales@abnormal.ai"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

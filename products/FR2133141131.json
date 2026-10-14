@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2133141131",
+    "providerName": "Nintex",
+    "serviceName": "Nintex Automation GE Platform",
+    "serviceAcronym": "Nintex Automation GE Platform",
+    "serviceDescription": "Nintex Automation GE Platform (Nintex GE) is delivered as SaaS offering using a multi-tenant Government Only cloud computing environment. It is available to the DoD, federal, state, local and tribal government communities as well as their respective contractors.\r\nThe Nintex Automation GE Platform (Nintex GE) solution is a suite of SaaS products available that allows government entities to automate both simple and sophisticated business processes, such as approving and signing documents, or hiring and onboarding employees.\r\nWith a simple drag-and-drop, no-code interface, users can design workflows, forms, and tasks, and integrate third-party platforms such as Salesforce, Microsoft Office, Zendesk and more, and create a seamless experience that minimizes manual touchpoints and streamlines efficiency.\r\nThrough Workflow Connections, organizations control which third-party services they connect their workflows to, and know their data is secure and compliant throughout the process.\r\nThe Nintex GE system via DocGen further provides agencies leveraging Salesforce the ability to generate precise and accurate documents for sophisticated business functions like recruiting documents, contracts, or work orders, all without leaving their Salesforce environment or the need for code. This allows users to create, manage and generate document packages within Salesforce in both Lightning or Classic, without losing the benefits of an easy-to-use and familiar user experience. Users can output data to a variety of endpoints and know their document data is secure and compliant throughout the process.",
+    "certificationType": "Rev5",
+    "website": "https://www.nintex.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Nintex%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securitycompliance@projecthosts.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@nintex.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

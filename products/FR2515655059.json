@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2515655059",
+    "providerName": "Omnissa",
+    "serviceName": "Omnissa Government Services",
+    "serviceAcronym": "Omnissa Government Services",
+    "serviceDescription": "Workspace ONE (WS1) is delivered as a SaaS offering using a multi-tenant Hybrid cloud computing environment.  \n\nWS1 provides industry-leading management for desktops, servers, mobile devices, email, applications, content, and browsers, allowing organizations to easily deploy, configure, secure, and manage endpoint devices across multiple operating systems, user populations, geographies, and deployment profiles.",
+    "certificationType": "Rev5",
+    "website": "https://www.omnissa.com/trust-center/compliance/#Public_Sector",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Omnissa%20Logo.png",
+    "ueiNumber": "JM62X762KDG1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "ogs_fedramp_security@omnissa.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "OmnissaFederal@omnissa.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

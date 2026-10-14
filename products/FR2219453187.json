@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2219453187",
+    "providerName": "Siemens Government Technologies",
+    "serviceName": "Siemens Defense Cloud",
+    "serviceAcronym": "Siemens Defense Cloud",
+    "serviceDescription": "Siemens Defense Cloud (SDC) is a SaaS solution pursuing the Agency Authorization path that provides customers with the Siemens Teamcenter Product Lifecycle Management (PLM) services application suite.  Teamcenter PLM is a digital thread management system that provides full product lifecycle data management services and integrated digital environment (IDE) capabilities for customer-authored end items, including requirements, products, and processes. \n\nIt enables customer teams across functional silos to better connect with each other on relevant data encompassing the end-to-end product lifecycle to include ideation, design, modeling, simulation, acquisition, supply chain, manufacturing, verification, quality, asset management, sustainment, compliance, and end of life dispositioning. Managed data can include 3D designs, electronics, digital twins, changes, embedded software, documentation, and bill of materials (BOM).\n\nSDC’s application suite consists of 185 features, but only the services purchased by the Agency customer will be activated for their instance of the SDC application.",
+    "certificationType": "Rev5",
+    "website": "https://www.siemensgovt.com/solutions/siemens-defense-cloud",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Siemens%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@siemensgovt.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@siemensgovt.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

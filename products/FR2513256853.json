@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2513256853",
+    "providerName": "StackArmor",
+    "serviceName": "The Armory",
+    "serviceAcronym": "The Armory",
+    "serviceDescription": "The Armory is a purpose-built General Support System (GSS) cloud service offering (CSO) that delivers security and compliance services aligned to the FedRAMP High risk categorization baseline. The Armory accelerates the ability for Independent Software Vendors (ISVs) and Enterprises to meet complex regulatory requirements on the Google Cloud Platform (GCP). The Armory delivers and continuously monitors FedRAMP compliant, risk-mitigated cloud solutions to government agencies and their partners through either a hosted or managed delivery model by: \n•        providing full compliance architecture, engineering, documentation and audit support,\n•        reducing the burden to both agencies and SaaS providers, and - expanding the catalog of mission-critical cloud solutions available to agencies. \nThe Armory is built on the FedRAMP authorized Assured Workloads Google Cloud Platform and includes configuration managed Google resources such as VPCs (Virtual Private Clouds), networking components, security controls, identity and access management (IAM) policies, and logging and monitoring mechanisms. The system also provides access to in-boundary tools for automation, configuration management, and account management. Each of these mechanisms has been configured to meet specific regulatory requirements such as International Traffic in Arms Regulations (ITAR), FedRAMP High, and Department of Defense (DoD) Impact Levels 4/5 (IL 4/5). \nThe Armory provides ISVs, Enterprises and Agencies with access to pre-production staging environments and Google “Landing Zones”. These are securely architected environments that enable quick and compliant deployments, and a scalable foundation for their regulated cloud workloads. This secure standardized approach to creating and managing deployments allows government agencies and customers to easily deploy and manage their workloads while maintaining security, governance, and compliance. \nISV Partners:\nQanapi - As our inaugural ISV Partner, Qanapi’s FIPS-validated API service delivers state-of-the-art encryption and protection at the data level. Designed to safeguard sensitive, industry-regulated, and mission-critical data, Qanapi’s API seamlessly integrates into any software, device, or network. Built on a zero-trust architecture, it ensures robust security across organizations of all sizes, in both the public and commercial sectors. With Qanapi, organizations can achieve the highest level of data protection and compliance, regardless of their environment. Discover more at qanapi.com\nMxDR for Government – Accenture Federal Services' MxDR for Government is a managed security service designed specifically for federal agencies. Powered by Google SecOps, it offers 24/7 continuous threat detection, automated response, and threat-centric case management to help agencies rapidly neutralize cyber threats while maintaining strict regulatory compliance. Discover more at: https://www.accenture.com/us-en/industries/accenture-federal-services/cybersecurity/mxdr-government",
+    "certificationType": "Rev5",
+    "website": "https://stackarmor.com/armory/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Armory%20Logo.png",
+    "ueiNumber": "Z553Q1FPWYK5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "gcp-organization-admins@stackarmor.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "thearmory@stackarmor.com"
+    }
+  ],
+  "assessor": {
+    "name": "137046",
+    "assessorID": "137046"
+  }
+}

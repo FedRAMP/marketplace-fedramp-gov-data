@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2226322745",
+    "providerName": "Autodesk",
+    "serviceName": "Autodesk for Government",
+    "serviceAcronym": "Autodesk for Government",
+    "serviceDescription": "Autodesk for Government is a SaaS offering hosted in a multi-tenant cloud computing environment. It includes two specialized solutions for Architecture, Engineering, and Construction (AEC) projects: Autodesk Docs for Government and Autodesk BIM Collaborate Pro for Government. These solutions are available to federal, state, local, and tribal governments, government contractors, U.S. Public Education, Federally Funded Research Development Centers, and Department of Homeland Security PPD-21 Critical Infrastructure entities, addressing shared concerns about compliance and security. \r\n\r\nAutodesk Docs for Government is built on top of Autodesk Platform Services (APS) and provides document storage, management, and file sharing; model viewing; and communication among and across teams. Autodesk Docs for Government simplifies collaboration and data management from design to construction and streamlines document review and approval workflows. Access to APS APIs is also available with this offering. \r\n\r\nAutodesk BIM Collaborate Pro for Government includes Autodesk Docs for Government capabilities, except for API access, in addition to powerful co-authoring and design collaboration tools through two key modules: Revit Cloud Worksharing (RCW) and Design Collaboration. Teams can co-author cloud models, centralize all project design data, and improve collaboration. The Design Collaboration module includes issues tracking, design timelines, and design packages.",
+    "certificationType": "Rev5",
+    "website": "https://www.autodesk.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Autodesk%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp.incident.response@autodesk.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "ADSKFedRAMP@autodesk.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

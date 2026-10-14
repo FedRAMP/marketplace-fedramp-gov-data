@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2628647233",
+    "providerName": "Dispel, LLC",
+    "serviceName": "Dispel Zero Trust Engine (DZTE) For Government",
+    "serviceAcronym": "Dispel Zero Trust Engine (DZTE) For Government",
+    "serviceDescription": "DZTE is a Government-only cloud computing SaaS that provides secure remote access to critical systems, enabling customers to implement compensating controls for operational technology and legacy technology environments.",
+    "certificationType": "Rev5",
+    "website": "https://www.dispel.com",
+    "logo": "https://dzte-gov.dispeltrust.com/assets/dispel-logo.png",
+    "ueiNumber": "CWVGPF8X5X76"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://dzte-gov.dispeltrust.com/api/trust-center/public/system/dzte-fedramp-high-001/landing",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@dispel-federal.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@dispel-federal.com"
+    }
+  ]
+}

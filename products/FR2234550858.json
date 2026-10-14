@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2234550858",
+    "providerName": "Concur Technologies, Inc.",
+    "serviceName": "Concur Cloud for Public Sector",
+    "serviceAcronym": "Concur Cloud for Public Sector",
+    "serviceDescription": "Concur Cloud for Public Sector (CCPS) is a Government-Only Community Cloud environment that hosts SAP Concur’s extensive suite of travel and expense cloud solutions, hosted on AWS GovCloud Infrastructure. CCPS is designed for the U.S. Public Sector, managed by SAP Concur personnel on U.S. soil, and ensures data security, confidentiality, and availability without compromising usability standards of travel and spend management solutions. SAP Concur U.S. soil requirements do not necessarily extend to external services leveraged by CCPS. Customers can be federal, state, local, tribal, territorial, federally funded research centers (FFRDCs), contractors working on behalf of the government, or lab entities. Concur Cloud for Public Sector provides a comprehensive environment that accommodates the complex processes of government travel and expense. Users are able to access the Federal Travel Regulation (FTR)- and Joint Travel Regulation (JTR)-compliant Concur Cloud applications via standard web browsers or on a smartphone with our SAP Concur mobile app. CCPS brings commercial functionality and scalability to government agencies while still meeting government-mandated security and regulatory needs. \n\nConcur Travel and Expense (CTE): Includes a web application portal to communicate with system users and provide access to all services. The web application gives users the ability to facilitate travel booking services, change travel reservations, and authorize travel. From vouchering services to documenting trip approvals and expense reimbursements, the web application provides accurate accounting information to government systems in compliance with the Federal Travel Regulation (FTR) and the Joint Travel Regulation (JTR). Users access applications within CCPS by using standard web browsers via a URL or by using SAP Concur mobile applications for supported smart phone and tablet computer platforms. All data collected by Concur applications is made available to customers via reporting enabled by the Cognos reporting tool that provides reports and the ability to create and/or manage new reports.\n\nConcurGov: SAP Concur's travel and expense solution provided to U.S. Federal Civilian customers under the ETS2 contract. ConcurGov includes services that are not included with CTE, such as GovPay, within the CCPS CSO.\n\nGlobal Distribution Systems (GDSs): Travel content aggregators that sell content on behalf of airlines, hotels, rail, and rental car companies. Many organizations that provide travel services sell their content only through one or more GDS.\n\nDirect Connect Providers: Travel providers (airlines, hotels, rail, and rental car companies) that do not use GDSs but instead sell their travel content directly.\n\nTravel Management Companies (TMCs): Travel management companies that book travel on behalf of agency users, provide reservation fulfillment, reporting, and mid- and back-office systems as part of the entire end-to-end travel reservation process.\nE-Receipt Providers: Travel providers (airlines, hotels, rail, and rental car companies) that electronically transmit electronic receipts to SAP Concur for inclusion in travel voucher requests.\n\nThe following SAP Concur products and services are available in CCPS: \n•        Advanced Care\n•        Budget\n•        Central Reconciliation\n•        Client Web Services\n•        Company Bill Statements\n•        Consultative Intelligence\n•        Custom Connector – Expense\n•        Data Delivery Services (DDS)\n•        Detect by Oversight\n•        Concur Travel & Expense\n•        Concur Travel only (Direct)\n•        ConcurGov\n•        Concur Expense only\n•        Data Extract Service\n•        Essential Care\n•        ExpenseIt\n•        Extract Services\n•        Intelligent Audit\n•        Intelligence\n•        Production Sandbox Environment\n•        Concur Request\n•        SAP Integration\n•        Select Care\n•        TripLink\n•        User Support Desk for Public Sector\n•        Verify",
+    "certificationType": "Rev5",
+    "website": "https://www.concur.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Concur%20Logo2.png",
+    "ueiNumber": "WYWDHGHWCQ54"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "SAP_Concur_CCPS_FedRAMP_Security_Inbox@sap.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "tony.rollins@sap.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

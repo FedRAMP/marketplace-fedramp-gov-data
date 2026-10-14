@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1606087903A",
+    "providerName": "Deltek - Replicon",
+    "serviceName": "Replicon Cloud Platform (Enterprise Time Tracking Platform)",
+    "serviceAcronym": "Replicon Cloud Platform (Enterprise Time Tracking Platform)",
+    "serviceDescription": "The Replicon Cloud Platform (RCP) is a Software as a Service (SaaS) solution providing cloud-based time tracking, expense management, and resource scheduling capabilities. The platform enables organizations to capture and manage employee time, project costs, expense reports, and resource allocation. RCP delivers workforce management analytics, project cost controls, and operational reporting through a secure, multi-tenant cloud infrastructure.",
+    "certificationType": "Rev5",
+    "website": "https://www.deltek.com/en/time-tracking/replicon",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Deltek%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "RepliconFedRAMP@deltek.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedrampsales@hello.deltek.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

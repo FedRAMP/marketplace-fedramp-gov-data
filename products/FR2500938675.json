@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2500938675",
+    "providerName": "Steel Patriot Partners",
+    "serviceName": "Federal ZenGRC",
+    "serviceAcronym": "Federal ZenGRC",
+    "serviceDescription": "Federal ZenGRC is delivered as a software-as-a-service (SaaS) offering using multi-tenant Amazon Web Services (AWS) cloud computing, leveraging isolated accounts per environment. It is available to public companies, federal, state, local, and tribal governments, research institutions, federal contractors, and government contractors that demonstrate requirements for governance, risk, and compliance services.\n\nFederal ZenGRC is a tool for creating, implementing, and managing a Governance, Risk, and Compliance (GRC) program. It facilitates effective and efficient GRC functions, such as document management, program control management, security and compliance framework alignment, approval, internal audit, external assessment, risk assessment, vendor risk assessment, and continuous monitoring. It leverages an object-based approach allowing full mapping across object types ensuring a holistic view of the program structure and cohesiveness. It securely stores evidence for all object types and enables reuse across multiple frameworks and audits. Management and evidence-collection tasks can be automated, and workflows assigned to guide proper execution by organizational personnel.",
+    "certificationType": "Rev5",
+    "website": "https://www.federalzengrc.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SteelPatriot%20Logo.png",
+    "ueiNumber": "GV91FN3G6WC6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security-alerts@steelpatriotpartners.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@steelpatriotpartners.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

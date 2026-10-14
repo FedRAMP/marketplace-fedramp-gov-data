@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2533155773",
+    "providerName": "OpenAI",
+    "serviceName": "ChatGPT Enterprise and API Platform",
+    "serviceAcronym": "ChatGPT Enterprise and API Platform",
+    "serviceDescription": "OpenAI's ChatGPT services allow users to interact with OpenAI's models through a conversational interface.  Users can request the models to analyze or generate text.  OpenAI's API Platform enables developers to integrate the capabilities of our models into their own applications.  The API can be utilized for a wide range of tasks involving the understanding or generation of natural language, code, and other content.  Business services include robust security controls such as SAML SSO, enhanced administrative controls, and priority support.",
+    "certificationType": "Rev5",
+    "website": "https://openai.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/OpenAI%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@openai.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fmillon@openai.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

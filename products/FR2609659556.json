@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2609659556",
+    "providerName": "Kaseware, Inc",
+    "serviceName": "Kaseware Investigative Case Management System",
+    "serviceAcronym": "Kaseware Investigative Case Management System",
+    "serviceDescription": "Kaseware for U.S. Government is delivered as a Software-as-a-Service (SaaS) offering using a multi-tenant hybrid cloud computing environment. The service is available to U.S. defense and federal civilian agencies, as well as state, local, and tribal government organizations. Kaseware is a cloud-based investigative and case management system designed to support the collection, management, analysis, and secure sharing of investigative, incident, and intelligence-related information. Kaseware provides authorized users with a configurable platform to create, manage, store, search, and analyze structured and unstructured data associated with cases, investigations, incidents, evidence, tasks, and related entities. Kaseware is deployed using a cloud-native, microservices-based architecture hosted within a Federal Risk and Authorization Management Program (FedRAMP) compliant cloud environment. The system supports both multi-tenant and single-tenant deployment models, depending on customer requirements, and includes logical separation of tenant data enforced through access controls and configuration.",
+    "certificationType": "Rev5",
+    "website": "https://www.kaseware.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Kaseware%20Logo.png",
+    "ueiNumber": "DAE5L844FFB3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "joeben.slivka@kaseware.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "philip.mcginty@kaseware.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

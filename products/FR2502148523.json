@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2502148523",
+    "providerName": "Thomson Reuters",
+    "serviceName": "Thomson Reuters Legal Research (TR LR)",
+    "serviceAcronym": "Thomson Reuters Legal Research (TR LR)",
+    "serviceDescription": "The Thomson Reuters Legal Research (TR LR) is a legal research solution, for legal professionals in the United States Federal, State, Local and Tribal Agency’s.  TR LR offers customers enhanced security, availability, compliance, and support to help deliver a mission-critical edge in a secure cloud environment.  \n The TR LR suite is designed to facilitate efficient legal research by providing users with powerful search tools, document management features, and secure access controls. The TR LR suite consists of:\nWestlaw US:\n•        Westlaw is an online legal research platform that provides legal professionals in the federal government access to a searchable collection of primary and secondary legal resources, such as statutes, case law, regulations, and legal commentary. The platform includes editorial features, such as the West Key Number System and KeyCite, to help users find, validate, and understand legal information.\n \nPractical Law US:\n•        Overview: Practical Law US is an online legal resource platform integrated with Westlaw, providing practical guidance and resources developed by expert lawyers to assist legal professionals in their work.\n•        Features: Offers expert-written summaries and explanations of legal topics, standard documents, clauses, and precedent documents with integrated drafting notes. These resources are designed to be adaptable, saving time and reducing errors in legal documentation.",
+    "certificationType": "Rev5",
+    "website": "https://legal.thomsonreuters.com/en/westlaw",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Thomson%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMPsecurity@tr.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "govfedramp@tr.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

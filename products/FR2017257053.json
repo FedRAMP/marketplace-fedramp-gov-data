@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2017257053",
+    "providerName": "Infoblox",
+    "serviceName": "Infoblox Government Cloud",
+    "serviceAcronym": "Infoblox Government Cloud",
+    "serviceDescription": "Infoblox Government Cloud is a FedRAMP-authorized cloud-native SaaS offering in AWS GovCloud (US) that provides centralized management of DNS, DHCP, and IP address management (DDI), and network-centric asset visibility across hybrid and multi-cloud environments through Universal DDI, Universal Asset Insights, and the Threat Defense component services TIDE and Dossier.\n \n\nThrough a single portal, APIs, and role-based access controls, the service helps agencies enforce DDI policy, maintain an authoritative asset inventory, identify IP conflicts and non-compliant or orphaned assets, and accelerate threat investigation and response with curated intelligence and analyst research tools.",
+    "certificationType": "Rev5",
+    "website": "https://www.infoblox.com/products/universal-ddi-management/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Infoblox%20Logo2.png",
+    "ueiNumber": "UMGCATUGKJ79"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@infoblox.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@infobloxfederal.com"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

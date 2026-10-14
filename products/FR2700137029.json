@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2700137029",
+    "providerName": "HealthEdge Software, Inc.",
+    "serviceName": "HealthEdge Integrated Solution Suite",
+    "serviceAcronym": "HealthEdge Integrated Solution Suite",
+    "serviceDescription": "The HealthEdge Integrated Solution Suite provides payers\nand agencies with an agentic platform of operational\ninfrastructure designed to guarantee an enduring financial\nedge.",
+    "certificationType": "Rev5",
+    "website": "https://healthedge.com/",
+    "logo": "https://paramify-gov-prod-trust-s3.s3-fips.us-gov-west-1.amazonaws.com/be55a92f-110e-4162-bf20-5e29875cbe49/PrimaryLogoLockup_RGB_Blue.png",
+    "ueiNumber": "X8D9AX45NVG6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/healthedge",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "tristan.vonada@healthedge.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "matthew.francis@healthedge.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

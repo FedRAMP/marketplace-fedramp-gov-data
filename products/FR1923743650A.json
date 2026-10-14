@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1923743650A",
+    "providerName": "Automattic, Inc.",
+    "serviceName": "WordPress VIP",
+    "serviceAcronym": "WordPress VIP",
+    "serviceDescription": "Built on WordPress, the Content Management System (CMS) that powers 43% of the web, WordPress VIP provides a secure, compliant platform for management for government entities. \n\nWith industry-leading security protocols, expert support, flexible architectures, plus 99.99% SLA, hourly backups, and reliable uptime, WordPress VIP takes the heavy lifting out of digitizing citizen services and modernizing legacy infrastructure. \n\nWordPress VIP is built on top of WordPress, an intuitive, easy-to-use CMS that many government employees already know.  By adopting WordPress VIP, IT and technical staff can reduce the amount of support and training required to support their agency.\n\nBut maintaining WordPress and ensuring the security of a WordPress setup can be challenging, and many solutions built on WordPress do not meet the exacting requirements of federal agencies.  Security is WordPress VIP's chief priority. Our data security best practices include end-to-end encryption from edge to origin, resource and data isolation, and encrypted offsite backups. We address physical security through an independently owned and operated network of industry-certified global data centers. Every origin server meets the International Organization of Standardization (ISO), International Electrotechnical Commission (IEC) 27001 certification, Standards for Attestation Engagements (SSAE) No. 18 (SOC1) and SOC2 Type 2, and includes ongoing surveillance reviews. At the application level, every instance is protected with Single Sign-On, SSL/HTTPS/HSTS, required 2FA, and logging and auditing at the application, web server, load balancing, database, and operating system layers. WordPress VIP also fully manages updates and version and responds to any potential security issues immediately, easing the burden of ongoing security and maintenance and lowering total cost of ownership.\n\nWhile our stringent security protocols protect sensitive information, our intuitive and easy-to-use content management workflows make it easy to provide citizens with up-to-date, accessible, and accurate information. Even those with little technical knowledge can successfully navigate WordPress VIP's editing interface with minimal training.",
+    "certificationType": "Rev5",
+    "website": "https://wpvip.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/WP%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "compliance@wpvip.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@wpvip.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

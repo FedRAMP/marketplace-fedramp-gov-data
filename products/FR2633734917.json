@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2633734917",
+    "providerName": "Simuhealth Technologies Inc.",
+    "serviceName": "Simuhealth",
+    "serviceAcronym": "Simuhealth",
+    "serviceDescription": "Simuhealth is a cloud-based operations platform for healthcare simulation training programs. It provides the digital infrastructure that powers simulation programs and centers, including scheduling and resource coordination, equipment and inventory lifecycle management, scenario and curriculum management, learner and instructor workflows, competency tracking, utilization analytics, and accreditation evidence management. Simuhealth is delivered as a multi-tenant SaaS offering hosted on Amazon Web Services.",
+    "certificationType": "Rev5",
+    "website": "https://simu.health",
+    "logo": "https://simu.health/logo.png",
+    "ueiNumber": "QVRMA38A9DK9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://simu.health/trust",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@simu.health"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "inquiry@simu.health"
+    }
+  ]
+}

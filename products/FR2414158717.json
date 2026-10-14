@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2414158717",
+    "providerName": "RegScale",
+    "serviceName": "RegScale CCM",
+    "serviceAcronym": "RegScale CCM",
+    "serviceDescription": "The RegScale Continuous Controls Monitoring (CCM) Platform is delivered as a Software-as-a-Service (SaaS) offering, hosted in a multi-tenant public cloud computing environment. Built on Microsoft Azure, RegScale provides next-generation Governance, Risk, and Compliance (GRC) capabilities that allow organizations to automate and accelerate the management of cybersecurity programs such as FISMA, FedRAMP, CMMC, PCI, HIPAA, and others.\n\nRegScale helps organizations address their most difficult compliance challenges by enabling customers—via robust API integrations—to manage controls, upload evidence documentation, perform system assessments, and maintain certifications and authorizations. This is all centralized within a single platform, offering a “single pane of glass” experience. Automation ensures that data and compliance posture are updated in near real-time.\n\nRegScale ensures that security and privacy-related controls are properly identified, implemented, and maintained throughout the System Development Lifecycle (SDLC) for systems, applications, services, processes, and related initiatives. The platform enables customers to establish and maintain an information assurance capability, including Control Validation Testing, to verify that appropriate controls are operational and risks are managed prior to production deployment.\n\nWhile RegScale may be designated a major application for many large organizations, it is not typically classified as mission-critical. RegScale is a modern, cloud-native application, designed to scale using Docker containers, which are micro-segmented and orchestrated using Microsoft Azure services. The system is designed to be hosted in any environment, with security-focused runtime configuration through environmental variable injection.",
+    "certificationType": "Rev5",
+    "website": "https://www.regscale.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/RegScale%20Logo.png",
+    "ueiNumber": "LYMKBNFHJXH7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@regscale.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@regscale.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

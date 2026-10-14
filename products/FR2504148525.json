@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2504148525",
+    "providerName": "Booz Allen Hamilton",
+    "serviceName": "Footprint",
+    "serviceAcronym": "Footprint",
+    "serviceDescription": "Footprint provides a secure and compliant foundation to accelerate launching solutions by leveraging existing baseline platform, business, and customer functions increasing speed to delivery while reducing cost. The modular structure and scalability of Footprint, which serves as the e-commerce platform powering solutions like Recreation.gov, allows for services and features to be quickly built on top of existing components and configured to meet specific customer use cases. Footprint enables real-time integrations with both Government and commercial systems.\n\nCloud Platform:  Footprint is cloud-native software as a service (SaaS) solution built on AWS cloud, is API-driven, and is mobile first. Footprint achieves high reliability and availability through its distributed architectures, integration of the latest technology, infrastructure monitoring rapid infrastructure scaling, and the implementation of agile, microservices, Continuous Integration and Continuous Development (CI/CD), and DevSecOps.  Combined these enable Footprint to achieve no system downtime for upgrades and maintenance.\n\nSecure: Compliant with NIST SP 800-53 Rev. 5 Control Baseline-Moderate, PCI DSS v4.0.1, FISMA-Moderate, fully implements FedRAMP Moderate, and uses strict security processes for access to protected data (e.g., Personally Identifiable Information (PII)).\n\nBusiness Driven: Footprint reduces time to market bringing core business functions such as account management, internal business management tools, multi-channel user communications and customer engagement, secure payment processing, financial transaction management, content management, cart and checkout, integratedanalytics, and real-time reporting and dashboards, and customer service management. These functions are configured to support specific client needs and are designed for self-service.\n\nCustomer Focused: The modern modular Web Content Accessibility Guidelines (WCAG) 2.2 Guideline and Section 508 compliant design driven by user-informed development and experience provides a consistent experience, reduces friction, supports complex workflows, and enables adaptation to client needs and look and feel.  The system is designed as self-service and offers direct integration with help documentation, feedback channels, and customer support.\n\nMobile Application: Customer and management services are also delivered through fully mobile responsive user experience and native mobile applications for iOS and Android. The mobile app includes mobile-specific functions like ApplePay, Google Pay, QR code scanning, and the use of geolocation.",
+    "certificationType": "Rev5",
+    "website": "https://www.boozallen.com/expertise/products/footprint.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Footprint%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "footprint-security@bah.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "footprint@bah.com"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

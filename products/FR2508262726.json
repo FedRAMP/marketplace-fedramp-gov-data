@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2508262726",
+    "providerName": "Dexcom Inc.",
+    "serviceName": "Dexcom Clarity for Government",
+    "serviceAcronym": "Dexcom Clarity for Government",
+    "serviceDescription": "Dexcom Clarity for Government online software is an important part of the Dexcom Continuous Glucose Monitoring (CGM) system. It provides a holistic and retrospective view of CGM User diabetes management by highlighting glucose patterns, trends, and statistics to help providers make diabetes management decisions.\nCGM Users can connect their Dexcom Clarity data to the clinic account using a secure code. During visits, providers can upload CGM User receiver data to the clinic account directly. \nDexcom has deployed a separate Google Cloud organization for the federal system in Google Cloud Central US region with multiple zones for redundancy.\nDexcom Clarity for Government includes a subset of the services and features available in the commercial system and leverages cloud-native and cloud-managed services wherever possible.\nDexcom Clarity for Government includes Dexcom Clarity for Government, applications and their associated services and utilities and uses private Google Kubernetes Engine (GKE) clusters with the Autopilot feature for their compute.",
+    "certificationType": "Rev5",
+    "website": "https://clarity.dexcom.us/professional/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Dexcom%20Logo.png",
+    "ueiNumber": "RV5DCZ7N11J3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMPSecurityInbox@dexcom.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "jose.sanchez@dexcom.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2632054530",
+    "providerName": "Beam Up Ltd",
+    "serviceName": "Beam",
+    "serviceAcronym": "Beam",
+    "serviceDescription": "Beam is a browser-based SaaS platform for human services agencies. Notes records staff conversations and produces an AI transcript and summary against customer-defined templates; a human reviews, edits, and copies the output into the customer's case management system; Reports, a function within Notes, summarizes uploaded documents, recordings, handwritten notes, video, or existing Notes into a report against a customer template. Talk is a conversational AI voice and chat agent that answers resident calls and chats, with SIP transfer to a human agent on triage need, safeguarding risk, or explicit request. Interpret provides real-time interpretation, combining speech-to-text, LLM interpretation, and text-to-speech, through a browser interface or over a telephone path. The US deployment is standalone: customer data is stored and processed entirely within the continental United States, in US data centers, with backups stored in US data centers.",
+    "certificationType": "Rev5",
+    "website": "https://beam.org/en-us",
+    "logo": "https://trust.beam.org/api/share/7d180d5f-4790-4944-b9e6-dfd6f1c8bf14/logo.png?version=6",
+    "ueiNumber": "UNBBUA7AUBX6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.beam.org",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "trust@beam.org"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "davide@beam.org"
+    }
+  ]
+}

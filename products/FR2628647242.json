@@ -1,0 +1,40 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2628647242",
+    "providerName": "Bland AI",
+    "serviceName": "Bland",
+    "serviceAcronym": "Bland",
+    "serviceDescription": "Bland is an enterprise voice AI platform for building, deploying, and operating AI phone agents at scale. Bland runs its own speech and language models, so customer calls are not sent to third-party frontier model providers. Speech-to-text, reasoning, and text-to-speech all run on Bland’s own models within Bland’s boundary.",
+    "certificationType": "Rev5",
+    "website": "https://www.bland.ai",
+    "logo": "https://www.bland.ai/images/bland-logo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.bland-gov.com/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@bland.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@bland.ai"
+    }
+  ],
+  "assessor": {
+    "name": "202040",
+    "assessorID": "202040"
+  }
+}

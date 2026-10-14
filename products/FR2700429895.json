@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2700429895",
+    "providerName": "Ardoq Inc",
+    "serviceName": "Ardoq",
+    "serviceAcronym": "Ardoq",
+    "serviceDescription": "Ardoq is a cloud-based software-as-a-service enterprise architecture platform that gives organizations a single, connected model of their IT and business landscape, covering applications, infrastructure, processes, data, and strategic initiatives. Built on a proprietary graph-based data model, Ardoq ingests and continuously updates information from an organization's existing systems, replacing static documentation with a live, queryable view of how technology and business capabilities connect. It has built-in AI capabilities, visualization, and dashboards that help expedite access to and transformation of architecture into consumable insights for non-technical stakeholders.\n\nAgencies use Ardoq to gain visibility into AI deployment and current-state architecture, plan and track technology transformation and modernization initiatives, and maintain ongoing oversight of technical risk, dependencies, and change across the enterprise. The platform supports IT portfolio management, application rationalization, cloud migration planning, risk and compliance reporting, strategic planning and execution, and tracking of AI adoption across the technology estate.",
+    "certificationType": "Rev5",
+    "website": "https://www.ardoq.com",
+    "logo": "https://www.ardoq.com/hubfs/00_Visuals%20(covers%2c%20logos%2c%20illustrations%2c%20etc)/Logos/Ardoq/RGB_Ardoq_Logo_Primary_Purple.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.ardoq.com/trust-center",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@ardoq.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@ardoq.com"
+    }
+  ]
+}

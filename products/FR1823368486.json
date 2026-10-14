@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1823368486",
+    "providerName": "Cisco AppDynamics",
+    "serviceName": "AppDynamics GovAPM",
+    "serviceAcronym": "AppDynamics GovAPM",
+    "serviceDescription": "AppDynamics GovAPM is a software-as-a-service (SaaS) application performance monitoring (APM) solution. AppDynamics GovAPM provides end-to-end visibility into the performance of applications. AppDynamics application performance monitoring and business intelligence solutions provide organizations real-time visibility into application environments and strategic insights that drive business outcomes. By utilizing industry-leading monitoring and analytics features, IT departments can automatically identify performance anomalies and resolve issues before they impact customers or revenue streams. Our unique combination of application performance and business metrics gives enterprises the power to deliver reliable performance and a flawless customer experience.",
+    "certificationType": "Rev5",
+    "website": "https://www.appdynamics.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/AppDynamics%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "splunk-fedramp@cisco.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedrampsales@appdynamics.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

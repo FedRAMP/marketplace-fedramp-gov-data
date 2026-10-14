@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631258113",
+    "providerName": "TRM Labs, Inc.",
+    "serviceName": "TRM Labs on GovCloud",
+    "serviceAcronym": "TRM Labs on GovCloud",
+    "serviceDescription": "TRM Labs provides blockchain intelligence and all-source AI investigation software that helps law enforcement, national security agencies, financial institutions, and cryptocurrency businesses detect, investigate, and disrupt fraud and financial crime. Delivered as multi-tenant Software as a Service from AWS GovCloud under the cloud service offering TRM Labs on GovCloud, the platform combines on-chain investigation with all-source intelligence. Investigators can trace cryptocurrency flows across over 66 blockchains and more than 1.9 billion assets in a single multi-chain graph with glass-box attribution, and resolve a lead - a name, an account, an address - across connected sources including corporate registries, sanctions data, and the dark web. All capabilities share a common identity and access management layer, workspace-based multi-tenancy, and a unified data plane within the GovCloud authorization boundary.",
+    "certificationType": "Rev5",
+    "website": "https://www.trmlabs.com",
+    "logo": "https://trmlabs.com/trm-logo.png",
+    "ueiNumber": "EW97MHKPD1P8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.trmlabs.com/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-security@trmlabs.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-sales@trmlabs.com"
+    }
+  ]
+}

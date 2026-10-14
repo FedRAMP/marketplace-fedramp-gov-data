@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2607643783",
+    "providerName": "PSI Services LLC",
+    "serviceName": "Gov Secure Cloud",
+    "serviceAcronym": "Gov Secure Cloud",
+    "serviceDescription": "Gov Cloud Secure is PSI’s secure platform for the registration, scheduling, delivery, administration, and reporting of computer-based assessments for federal agencies and other government organizations. The system supports assessment programs used for licensure, certification, workforce selection, and credentialing.\n \nThe Gov Cloud Secure FedRAMP authorization boundary includes candidate registration and scheduling components; secure assessment delivery applications; test session administration components; data storage and processing services; and reporting capabilities accessible to authorized agency users. The system is hosted within a government-authorized cloud infrastructure environment.",
+    "certificationType": "Rev5",
+    "website": "https://www.psiexams.com/certification/government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/PSI%20Logo.png",
+    "ueiNumber": "NDWDJKDL8RA4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "ITSecurity@psigov.us"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "brett@psionline.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

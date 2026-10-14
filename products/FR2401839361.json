@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2401839361",
+    "providerName": "Ask Sage, Inc.",
+    "serviceName": "Ask Sage",
+    "serviceAcronym": "Ask Sage",
+    "serviceDescription": "Ask Sage is a Multi-modal Generative AI platform designed specifically to enable secure access to Generative AI models for both government teams. Ask Sage is built on Generative AI technologies such as Azure OpenAI (GPT 3.5, GPT 4, GPT 4o etc.), AWS Bedrock Gov (LLMA3, Titan etc.), Google Vertex AI (Google Gemini Pro 1.5 etc.), and various open-source LLMs.\n\nAsk Sage also supports OpenAI Whisper, enabling Speech to Text capabilities on videos and audio files and DALL-E enabling image generation.\n\nThe platform's data ingest and training are model-agnostic, ensuring secure training of proprietary data without ingesting it into the models. This approach allows Ask Sage to implement data-centric security and label data on a per-user basis, sharing labels with team members as needed and preventing data spillage while enabling zero-trust security.\n\nAsk Sage can ingest custom data (up to CUI/FOUO), connect to APIs, and access data lakes for real-time insights, delivering human-like responses to assist teams with labor-intensive tasks and enabling them to focus on strategic initiatives. The platform can be fully automated by GPT agents, decision trees and plugin integrations to access data lakes, knowledge bases, and APIs.",
+    "certificationType": "Rev5",
+    "website": "https://www.asksage.ai",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/AskSage%20Logo.png",
+    "ueiNumber": "W9X4EWLUBAW1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@asksage.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@asksage.ai"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

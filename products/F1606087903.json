@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1606087903",
+    "providerName": "Deltek - Replicon",
+    "serviceName": "Replicon Cloud Platform (Enterprise Time Tracking Platform)",
+    "serviceAcronym": "Replicon Cloud Platform (Enterprise Time Tracking Platform)",
+    "serviceDescription": "Replicon Inc. provides cloud time tracking applications including timesheet and expense management software, using SaaS, for automating employee time tracking, project time tracking, expense tracking and resource scheduling.",
+    "certificationType": "Rev5",
+    "website": "https://www.deltek.com/en/time-tracking/replicon",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Deltek%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "RepliconFedRAMP@deltek.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedrampsales@hello.deltek.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

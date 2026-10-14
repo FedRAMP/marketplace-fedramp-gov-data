@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2335153827",
+    "providerName": "MasterControl",
+    "serviceName": "Quality Excellence Gov (Qx Gov)",
+    "serviceAcronym": "Quality Excellence Gov (Qx Gov)",
+    "serviceDescription": "The MasterControl Qx Gov platform helps government organizations digitize, automate, and connect all aspects of their quality management system or QMS.  Qx Gov is a closed-loop QMS that includes the following capabilities:\n•        Portal\n•        Documents \n•        Training\n•        Audit\n•        Risk \n•        FBS Forms-\no        CAPA \no        Issue Review\no        Deviations\no        Management of Change \no        Events\no        Nonconformance.\n\nQx Gov offers all the benefits of a secure and tightly controlled cloud environment. Adding to the inheritable control set from AWS, Qx Gov provides segregated federal customer environments, OS, and file level FIPS 140-2 encryption, authorized only admin access with MFA and SSO authentication, and continuous threat, incident, and vulnerability monitoring.",
+    "certificationType": "Rev5",
+    "website": "https://www.mastercontrol.com/qxgov",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/MC%20Logo.png",
+    "ueiNumber": "PQTMKNMMJFW3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@mastercontrol.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "government@mastercontrol.com"
+    }
+  ],
+  "assessor": {
+    "name": "138883",
+    "assessorID": "138883"
+  }
+}

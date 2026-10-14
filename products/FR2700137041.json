@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2700137041",
+    "providerName": "Dossier",
+    "serviceName": "Dossier for Government",
+    "serviceAcronym": "Dossier for Government",
+    "serviceDescription": "Dossier for Government is a cloud-based competency and training management solution for federal agencies. It replaces paper competency folders with a single system of record for defining the competencies each role requires, assessing staff against those requirements on recurring cycles, delivering the training that closes the gaps, and producing current competency status on demand at the team, facility, or department level.\n\nThe service is built for federal workforces with recurring, externally driven competency obligations — including clinical and nursing education staff, and healthcare technology management personnel responsible for maintaining and repairing medical equipment. Assessment schedules, advance notifications, and overdue flags are tracked by the system rather than depending on manual review of paper files.\n\n**Services included**\n\n- **Dossier Profile** — the core competency management service. Role-based competency definitions and assigned core tasks, assessments with assessor sign-off and proficiency ratings, configurable reassessment cycles, supporting attachments, automated notification of upcoming and overdue assessments, dashboards and reporting, role-based access control, and audit logging.\n- **Dossier Learn** — an integrated learning management system. Course and training assignment, delivery, and completion tracking, linked to the competency requirements held in Dossier Profile.\n- **Dossier Development Program** — structured career development supporting clinical ladder programs. Defined advancement levels and criteria, evidence submission against those criteria, and review and progression tracking.\n\n**Security category.** Each included service is categorized Low under FIPS 199 for confidentiality, integrity, and availability.\n\n**Information handled.** Dossier for Government holds employee competency, training, and development records: employee name, work email address, job title and role, facility and organizational unit, assigned core tasks, competency ratings, assessment and due dates, assessor identity, training and course completion records, development program submissions, supporting attachments such as checklists and certifications, account role assignment, and audit logs of user activity.\n\nThe service is not intended to hold protected health information, patient or beneficiary records, clinical or treatment data, controlled unclassified information, Social Security numbers, or financial or payment data. Permitted use is defined in the terms of service and in the Secure Configuration Guide.\n\nDossier for Government is delivered as multi-tenant SaaS.",
+    "certificationType": "Rev5",
+    "website": "https://dossier.com",
+    "logo": "https://info.dossier.com/hubfs/FedRAMP/Dossier-logo-complete-withclaim-navi-72dpi.png",
+    "ueiNumber": "TJBRVXCUT2M3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.dossier.com",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@dossier.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@dossier.com"
+    }
+  ],
+  "assessor": {
+    "name": "202040",
+    "assessorID": "202040"
+  }
+}

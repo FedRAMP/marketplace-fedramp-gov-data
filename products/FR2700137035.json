@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2700137035",
+    "providerName": "Caldera AI Inc.",
+    "serviceName": "Mesa",
+    "serviceAcronym": "Mesa",
+    "serviceDescription": "Mesa is an AI platform for government agencies, used by federal, state, and local government staff. It has two workspaces: Research, for researching statutes, regulations, case law, and an agency’s own documents with cited answers, and Public Records, for handling public records requests from intake through review, redaction, and release. Mesa is a multi-tenant software-as-a-service application hosted on Google Cloud in the United States.",
+    "certificationType": "Rev5",
+    "website": "https://www.calderapbc.com/platform",
+    "logo": "https://www.calderapbc.com/mesa-wordmark.svg",
+    "ueiNumber": "S1MQJW75T2X6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.calderapbc.com",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@calderapbc.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "contact@calderapbc.com"
+    }
+  ]
+}

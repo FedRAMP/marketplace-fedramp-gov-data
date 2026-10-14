@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2427818523",
+    "providerName": "Feith Sytems and Software, Inc.",
+    "serviceName": "RMA iQ™",
+    "serviceAcronym": "RMA iQ™",
+    "serviceDescription": "RMA iQ™ is delivered as SaaS offering using a multi-tenant Government Only cloud computing environment. It is available to the DoD, federal, state, local and tribal government communities as well as their respective contractors.\r\n\r\nFeith RMA iQ is a SaaS platform designed to support federal agencies in managing records efficiently. It helps Records Managers address challenges such as large volumes of records, complex retention schedules, and compliance with federal records regulations.\r\n\r\nKey Features\r\n\r\n-Automated Classification and Retention: Employs artificial intelligence to classify records and apply GRS and RCS retention schedules, reducing manual effort and improving accuracy.\r\n-Efficient Record Retrieval: Offers advanced search tools to help users locate records quickly, supporting timely responses to internal and external inquiries.\r\n-Seamless Integration: Integrates with various agency information systems, including M365, allowing staff to work within familiar platforms and minimizing training requirements.\r\n-Security and Compliance: Enforces role-based controls to safeguard CUI and PII, ensuring adherence to federal security standards.\r\n\r\nOptional Add-Ons\r\n\r\n-FOIA Workbench: Facilitates compliance with Freedom of Information Act requirements through tools for review, tracking requests, and redacting sensitive information.\r\n-Declassification Module: Streamlines declassification workflows, identifies sensitive content, and provides audit trails to maintain compliance.\r\n-Case Management: Centralizes case records, supports customizable workflows, and enables secure collaboration.\r\n-Document and Workflow Management: Enhances document handling with version control, metadata tagging, content sharing, workflow automation, and analytics.\r\n-RMA iQ supports federal agencies in securely and effectively managing records. By automating processes, integrating with existing systems, and offering optional tools for specialized Federal missions, the platform helps improve productivity, ensures compliance with regulations, and strengthens knowledge management across agencies.\r\n\r\nThe system is a browser-based application with an optional client-side component (Feith Sync) that can be installed locally within the agency network to synchronize local file shares.",
+    "certificationType": "Rev5",
+    "website": "https://www.feith.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Feith%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securitycompliance@projecthosts.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "more-info@feith.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

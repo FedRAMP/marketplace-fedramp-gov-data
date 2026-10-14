@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2520040378",
+    "providerName": "Infotek Consulting LLC",
+    "serviceName": "Infotek Online Services for US Government",
+    "serviceAcronym": "Infotek Online Services for US Government",
+    "serviceDescription": "Infotek Online Services for US Government is a secure, multi-tenant cloud service offering (CSO) that provides Infrastructure-as-a-Service (IaaS) and Software-as-a-Service (SaaS) capabilities within a FedRAMP Moderate impact boundary. The CSO supports U.S. government agencies by delivering hosted application environments, centralized logging, encrypted data storage, and secure networking components that are managed within an Azure Government environment.\n\nThe service includes:\n\nVirtualized compute instances and managed storage resources\n\nWeb application hosting and backend API services\n\nSecure access via Azure Front Door, load balancing, and private link configurations\n\nRole-based access control (RBAC) and identity federation with Entra ID\n\nCentralized log collection, analytics, and incident alerting via Microsoft Sentinel\n\nVulnerability scanning and patch management integration with Qualys\n\nManaged database services (Azure SQL) with Always Encrypted and CMK integration\n\nSystem backup and disaster recovery via Azure Backup and Site Recovery\n\nEndpoint protection with Microsoft Defender for Endpoint\n\nFull audit logging, data encryption in transit and at rest, and customer-managed key support\n\nAll components within the boundary are continuously monitored, operated, and maintained in compliance with FedRAMP Moderate controls as documented in the System Security Plan (SSP).",
+    "certificationType": "Rev5",
+    "website": "https://www.infotekconsulting.net/fedramp-hosting/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Infotek%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@infotekconsulting.net"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@infotekconsulting.net"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

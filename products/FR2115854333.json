@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2115854333",
+    "providerName": "Conga",
+    "serviceName": "Conga Contract Lifecycle Management (CLM)",
+    "serviceAcronym": "Conga Contract Lifecycle Management (CLM)",
+    "serviceDescription": "Conga CLM runs on the Salesforce platform with the backend processing systems residing on Project Hosts Federal Private Cloud and all the contract data is stored in Salesforce. Conga CLM data-handling practices are the same for Conga CLM as they are for any Salesforce implementation: cross-border data exchange, data transmission methods, data storage and encryption, and logical and physical separation of data. As an administrator, you can design the user interface of Conga CLM by creating page layouts, customizing agreement actions, adding custom links, and customizing the action panel. Conga CLM lets you manage user profiles by configuring user permissions and secure the agreement documents by implementing document protection. With X-Author for Contracts, you can create agreement templates and agreement clauses and use Conga CLM to manage them. You can design workflows and agreement lifecycles in Conga CLM. You can track agreement versions and secure agreement documents. Conga CLM allows you to schedule jobs to automate recurring tasks, such as refreshing agreement data, setting the expiration date for the links used to download multiple agreements, extracting intelligent data, and generating reports.",
+    "certificationType": "Rev5",
+    "website": "https://conga.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Conga%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP-Security@conga.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "FedRAMP@conga.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

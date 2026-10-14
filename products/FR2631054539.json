@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631054539",
+    "providerName": "Mycroft Technologies Inc",
+    "serviceName": "Mycroft GRC Platform",
+    "serviceAcronym": "Mycroft GRC Platform",
+    "serviceDescription": "The Mycroft Platform is a compliance and security management solution designed to help customers build, maintain, and demonstrate compliance with various security frameworks. Key capabilities include: Compliance Automation: task management dashboards and templates for policy documentation, vendor and risk management, and IT asset management. Continuous Monitoring: automated evidence collection and control monitoring. Vulnerability and Threat Monitoring: centralized tracking via integrations with third-party tools and cloud security posture management. Mycroft Agent: installed on customer-employee workstations to provide device management, control monitoring, and Endpoint Detection and Response (EDR). AI Integration: leverages generative AI (large language models) for conversational troubleshooting, adaptive remediation, and context-specific guidance, which requires customer review prior to implementation.",
+    "certificationType": "Rev5",
+    "website": "https://mycroft.io",
+    "logo": "https://static-assets.mycroft.io/production/org_logos/0b3d4e12-16c0-44d6-b1a9-9b2b86fcbd11.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.mycroft.io",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@mycroft.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@mycroft.io"
+    }
+  ]
+}

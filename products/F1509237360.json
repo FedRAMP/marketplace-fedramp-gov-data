@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1509237360",
+    "providerName": "Veracode",
+    "serviceName": "Veracode Online Security Platform for Government",
+    "serviceAcronym": "Veracode Online Security Platform for Government",
+    "serviceDescription": "Veracode's unified platform helps Government developers and application security teams assess and improve the security of applications from inception through production. With a combination of automation, process, and speed, Veracode integrates application security into the software lifecycle, effectively eliminating vulnerabilities during the development/deployment chain. This solution is widely used by enterprises to secure web, mobile, legacy, and third-party enterprise applications, with a simpler and more scalable way to help reduce software security risk across software infrastructure. Through its FedRAMP offering, Veracode offers the ability to test all the code for your applications, including code you write yourself (with Static Application Security Testing or SAST), open-source libraries (with Software Composition Analysis or SCA), and web-based applications (with Dynamic Application Security Testing or DAST). We also provide eLearning for training in secure software development practices, helping developers learn to fix security issues and avoid introducing new ones. Veracode's cloud-based model helps scale software security for both small teams and large agencies, without requiring the cost, up front setup, and maintenance of on premise offerings. Additionally, Veracode provides all the security expertise, program planning, education, and remediation guidance that security and development teams need to build a robust application security program.",
+    "certificationType": "Rev5",
+    "website": "https://www.veracode.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Veracode%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-security@veracode.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@veracode.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

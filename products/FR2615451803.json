@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2615451803",
+    "providerName": "Aeroplicity Inc.",
+    "serviceName": "Aeroplicity",
+    "serviceAcronym": "Aeroplicity",
+    "serviceDescription": "Aeroplicity is a cloud-based software platform that supports CMMC-related compliance workflows and provides an enclave-oriented environment for handling controlled data, together with enterprise resource planning (ERP), maintenance and repair operations (MRO), governance, risk, and compliance (GRC) workflows, secure collaboration, secure file storage and sharing, document traceability, and operational recordkeeping.\r\nThe service supports organizations operating under CMMC, NIST 800-171, DFARS, ITAR, EAR, and related regulatory or contractual requirements by providing compliance workflow management, control evidence collection, audit support, record retention, and traceability for operational and compliance-related activities. Aeroplicity Compliance provides governance, risk, and compliance functions including compliance task management, supporting documentation, control evidence management, and audit-ready records.\r\nAeroplicity also provides ERP and operational workflow capabilities for procurement, inventory management, logistics, sales order processing, planning, maintenance execution, labor time tracking, training records, and related business processes. The platform supports traceability of documents, parts, materials, and operational activities, including QR code-based workflows connecting physical processes to digital records.\r\nThe service includes secure email and messaging, browser-based application access, shared workflow interfaces, file storage and sharing, audit logging, and workflow-based access to operational data across users and teams. Aeroplicity Browser provides browser-based, single-application virtual desktop access to platform functions and data, supporting controlled access workflows in which user interaction occurs within the service environment rather than through local endpoint processing or storage.\r\nApplications and functional components of the service include:\r\n- Aeroplicity Intelligence — AI-assisted analysis and decision-support tools\r\n- Browser — browser-based, single-application virtual desktop access\r\n- Compliance — governance, risk, and compliance workflows, control evidence management, and audit support\r\n- Email — secure email and messaging\r\n- File Share — secure file storage and file sharing\r\n- Interface — shared data access and workflow execution across users and teams\r\n- Inventory — inventory, stock, locations, lot control, and picking workflows\r\n- Logistics — shipping, receiving, and material movement workflows\r\n- Logs — audit logs, record retention, and activity history\r\n- Maintenance — work orders, task cards, and MRO execution\r\n- Marketplace — marketplace workflows\r\n- Planning — demand planning, scheduling, and resource preparation\r\n- Procurement — suppliers, RFQs, and purchase orders\r\n- Sales — quotes, sales orders, and related workflows\r\n- Times — labor time tracking and time recording\r\n- Traceability — digital traceability, document linkage, QR code workflows, and part-level records\r\n- Training — training records, qualifications, tracking, and related workflows",
+    "certificationType": "Rev5",
+    "website": "https://aeroplicity.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Aeroplicity%20Logo.png",
+    "ueiNumber": "U9J5MT67H8B5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@aeroplicity.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@aeroplicity.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

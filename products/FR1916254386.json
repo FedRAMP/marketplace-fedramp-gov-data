@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1916254386",
+    "providerName": "Boomi",
+    "serviceName": "Boomi Enterprise Platform",
+    "serviceAcronym": "Boomi Enterprise Platform",
+    "serviceDescription": "Boomi Enterprise Platform is a cloud-native integration Platform-as-a-Service (iPaaS) technology that lets you connect everyone to everything. As a SaaS - based technology it is faster, easier to use, less costly, and more flexible than legacy integration tools and techniques. The Boomi iPaaS Enterprise Platform has been solving the needs of government customers with end-to-end capabilities by integrating applications, systems, and connecting people.\n\nBoomi delivers in three key areas for our customers:\n\n - Modernization and Digital Transformation: Boomi is a key part of any modern IT foundation and enables the transformation of operations, ensuring proper connectivity and smooth data exchange when applications and infrastructure are migrated and consolidated.\n\n - Accelerating Cloud Smart Adoption: Speeding up cloud adoption to boost operational efficiency and implement shared services to foster collaboration and increase engagement.\n\n - Improving Constituents' Experience: Bringing together workforce processes and workflows from across organizations for a streamlined approach to customer experience and serve employees, partners, contractors, and citizens better.\n\nCovered by our FedRAMP Authorization are the following cloud products:\n\n - Integration: Overcome IT complexity and break down data silos by integrating on-premises and cloud application, various data sources and devices with Boomi Integration. Create a fabric of connectivity to unlock productivity and thrive within your digital technology foundation. Boomi Integration accelerates time to value leveraging a drag and drop UI, data mapping tools, and a comprehensive library of connectors, coupled with support for various integration patterns enable you to build any integrations with exceptional speed.\n\n - Master Data Hub (MDH): Boomi Master Data Hub is a cloud-native master data management (MDM) solution that sits at the center of the various data silos within your organization - including your existing MDM solution, to provide you an easy to implement, scalable, flexible, and secure master data management hub as a service.\n\n - API Management (APIM): Boomi API Management supports the full lifecycle of APIs in a hybrid environment. Configure APIs and expose real-time integrations effortlessly. Centrally test and deploy APIs and enforce contracts and policies with an API gateway. Monitor the health of APIs with usage dashboards and engage API developers using the catalog and developer portal.\n\n - B2B/EDI Management: Effectively integrate with your vendors, suppliers, distributors, partners, and marketplaces to simplify processes and trade smarter. Built-in support for a wide variety of traditional and modern EDI standards including XML, X12, EDIFACT, HC7, RosettaNet, Tradacoms, as well as the ability to define custom standards. \n\n - Flow: The drag-and-drop interface simplifies how agencies connect data across systems, replace manual processes, and collaborate cross-functionally. Flow allows you to build applications at scale, easily connect your data and flexibly deploy apps anywhere they are needed.\n\n - Boomi Managed Cloud Services (MCS) leverages the Boomi Public Cloud solution and provides further isolation and ancillary services in support of a Boomi Private Cloud. The service has been engineered to address security at three distinct points: network, application, and data; this three-tiered security approach is designed to protect data from unauthorized parties, keep it safe in transit and at rest, and allow customer access as needed. Boomi manages all aspects of MCS runtime instances, sparing MCS customers any work involved in configuring, monitoring, and managing hardware and software for Boomi processes.\n\n- Boomi AI Agents: Boomi AI Agents are a comprehensive suite of AI-powered developer accelerators built by Boomi that take actions for and with developers to achieve specific goals. These agents have helped teams autonomously design integrations, enhance data privacy and monitoring, create documentation in record time, and more. Boomi AI Agents are ready-to-use upon purchase and seamlessly work to accelerate your development processes.\r\n\r\n- Boomi Event Streams: A fully managed, cloud-native event streaming service that enables real-time data movement across systems, applications, and services. Event Streams supports common enterprise messaging patterns like Publish-Subscribe (pub/sub) and queuing with guaranteed message delivery, ordering, and availability. When used in combination with Boomi Integration, it provides a highly scalable and reliable backbone for an “event driven integration” approach to building integrations.",
+    "certificationType": "Rev5",
+    "website": "https://boomi.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Boomi%20Logo3.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "federal-security@boomi.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal.sales@boomi.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

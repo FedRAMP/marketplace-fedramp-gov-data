@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2335047392",
+    "providerName": "3rd Eye Technologies LLC.",
+    "serviceName": "Mystic Message Archival",
+    "serviceAcronym": "Mystic Message Archival",
+    "serviceDescription": "Mystic Message Archival provides capture and archiving of SMS/MMS data through encrypted channels receiving data directly from cellular carriers. The data is stored on behalf of the agency it is being collected for in an encrypted content and data storage for retention based on each agencies policies. APIs make it possible to retrieve this data for later usage. All data is only accessibly by authorized personnel of each agency. Data is also exportable through a user interface which requires authentication through an identity management system vetted by each agency. Data is not accessible by anyone beyond the agencies scope and access is protected through whitelisting of IP addresses and firewalls at a network level. The authorization boundary is what dictates the realm of what is accessible in our platform.",
+    "certificationType": "Rev5",
+    "website": "https://3rdeyetechinc.com/mystic-message-archival/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/3rdEye%20Logo.png",
+    "ueiNumber": "UZYNJMEQGAY4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "support@t3rdeyetech.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@t3rdeyetech.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2413540464",
+    "providerName": "Everfox",
+    "serviceName": "Everfox ULTRA",
+    "serviceAcronym": "Everfox ULTRA",
+    "serviceDescription": "Everfox ULTRA is a cloud-delivered, Hardsec-enforced service offering using a multi-tenant cloud computing environment to deliver a secure web browsing service designed to meet stringent security standards, including FedRAMP compliance. It provides a verifiably secure and isolated web browsing experience that prevents web threats, including zero-day attacks, zero-click exploits, and AI-accelerated phishing. Everfox ULTRA uses trusted Garrison Isolation Appliances (GIAs) and Garrison Transfer Appliances (GTAs) located in several global datacenters to isolate end users from potentially harmful websites, transforming risky web content into safe, interactive video streams. This approach ensures a high-assurance, performant user experience without compromising security. Additionally, the Everfox ULTRA Cloud Platform ensures that users' internet data is preserved between browsing sessions, allowing for a seamless and continuous browsing experience.\n \nThe GIA is engineered in line with the National Cross Domain Strategy & Management Office (NCDSMO) \"\"Raise the Bar\"\" (RTB) guidelines, ensuring it meets the high-security standards required for cross domain solutions. Everfox is committed to strict adherence to worldwide mandates, including FedRAMP, ensuring that the ULTRA Cloud Platform meets the necessary compliance requirements for federal agencies.",
+    "certificationType": "Rev5",
+    "website": "https://www.everfox.com/products/threat-protection-solutions/remote-browser-isolation",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Everfox%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@everfox.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "ULTRA.fedsales@everfox.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

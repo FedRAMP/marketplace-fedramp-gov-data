@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2535161278",
+    "providerName": "Akamai",
+    "serviceName": "Akamai Cloud",
+    "serviceAcronym": "Akamai Cloud",
+    "serviceDescription": "Akamai Cloud offers customer facing services enabled by the underlying Akamai Platform and Backbone.  All Akamai services are centrally managed offering one of the world’s largest interconnected cloud platforms.\nAkamai Cloud allows users to leverage multiple cloud delivery models from IaaS to SaaS with individual services accredited at differing levels.  The Akamai Platform and Backbone provides a common delivery fabric for all of Akamai’s customer facing services and common controls that can be leveraged for all these services.\nEach service is capable of running diverse workloads, the Defense Edge initiative focuses on the accreditation of these services at the FRH and DoD IL5 levels.  Delivery solutions can be accomplished across different security levels by offering secure workload guidance and configurations that are enforced at multiple infrastructure points within the underlying Platform and Backbone with the eventual goal of having each service capable of operating at the higher security attestation levels through these configuration options.\nServices offered to customer through the Akamai Cloud are grouped into three main categories:\n\nBuild, Secure, and Deliver\nThese categories cover cloud infrastructure and deployment tooling, workforce and API protection, as well as global delivery and performance enhancing utilities.\nSpecific services appropriate for High Availability are:\nAkamai Guardicore Segmentation\nApp & API Protector\nEnterprise Application Access\n\nEdge DNS\nGlobal Traffic Management\nIon\nmPulse\nProlexic",
+    "certificationType": "Rev5",
+    "website": "https://www.akamai.com/resources/solution-brief/akamai-defense-edge",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Akamai%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp_info@akamai.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "dl-PubSecSales@akamai.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

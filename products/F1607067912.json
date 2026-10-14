@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1607067912",
+    "providerName": "18F - 18F Cloud.gov",
+    "serviceName": "CG-TTS - Cloud.Gov",
+    "serviceAcronym": "CG-TTS - Cloud.Gov",
+    "serviceDescription": "Cloud.gov is designed and operated by US government workers, for US government work. Cloud.gov reduces the barriers to rapid, incremental, compliant, secure, and scalable delivery of government services by all government agencies, leveraging best-of-breed modern practices. Cloud.gov provides a Platform-as-a-Service (PaaS) based on Cloud Foundry, enabling instant provisioning of services and environments, easy deployment of applications, and rapid scaling to match demand. Cloud.gov includes tools to quickly incorporate 800-53 NIST control documentation into easily-prepared and comprehensive System Security Plans (SSPs) for evaluation by local agency information security organizations or FedRAMP, reducing the time it takes for teams to gain Authority To Operate (ATO).",
+    "certificationType": "Rev5",
+    "website": "https://www.cloud.gov",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cloud.gov%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "support@cloud.gov"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "inquiries@cloud.gov"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

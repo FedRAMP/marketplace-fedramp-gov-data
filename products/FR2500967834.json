@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2500967834",
+    "providerName": "Peniel Solutions, LLC",
+    "serviceName": "TransAccess GovCloud Records (GCR)",
+    "serviceAcronym": "TransAccess GovCloud Records (GCR)",
+    "serviceDescription": "FOIA Module Integration with TransAccess GovCloud Records (GCR): The FOIA Module represents a significant expansion of GCR's capabilities, adding specialized tools for federal agencies managing Freedom of Information Act (FOIA) requests and redaction workflows. GCR now includes a FOIA automation module for enterprise use that transforms how federal agencies handle FOIA requests and mandatory redactions. The FOIA Module combines AI-powered entity detection with compliance-driven redaction workflows, enabling agencies to process complex multi-document FOIA requests 60-70% faster while maintaining rigorous audit trails and Section 508 compliance. The module is based on NIST 800-53 and has moderate baseline security controls (3PAO Assessed, March 2026). It supports redaction of documents, videos, and audio, and provides exemption-specific guidance based on landmark case law.\n\r\nTransAccess GovCloud Records (GCR) is a safe, cloud-based software service created and managed by Peniel Solutions LLC to help federal, state, local, and educational agencies manage their electronic records effectively. Hosted within a FedRAMP-authorized cloud infrastructure—which may include environments such as Microsoft Azure Government, Google Cloud Platform, or other compliant providers—GCR is designed to meet stringent federal requirements, including those from NARA and OMB.\n\nAI-Enhanced Records Management\nGCR integrates AI-driven capabilities to streamline records classification, automate metadata tagging, support intelligent redaction, and enable predictive compliance alerts. These features help agencies reduce manual workload, improve accuracy, and stay ahead of regulatory requirements. This service description reflects only the features and components that have been tested and accredited as part of the FedRAMP authorization boundary.\nGCR helps agencies handle records safely and effectively, using innovative AI tools that improve automation, sorting, hiding sensitive information, and checking for compliance.\n\nKey Features and Capabilities within the FedRAMP Authorization Boundary:\na. User Access and Identity Management\nGCR enforces robust role-based access control (RBAC), multi-factor authentication (MFA), session timeout policies, and account lockout mechanisms. Identity management is integrated with cloud-native security services and internal governance policies.\nb. Data Protection\nAll data is encrypted both at rest and in transit using FIPS 140-2 validated cryptographic modules. Key management is handled through secure, cloud-native key management services.\nc. Audit and Logging\nComprehensive audit logging captures user activity, system events, and security-relevant actions. Logs are retained in accordance with OMB M-21-31 and are accessible for compliance reporting and forensic analysis.\nd. System Monitoring and Incident Response\nGCR is continuously monitored using advanced cloud-native security tools. An incident response plan aligned with NIST SP 800-61 ensures rapid detection, containment, and recovery from security events.\ne. Configuration and Change Management\nConfiguration baselines are maintained using integrated cloud management tools and version-controlled repositories. All changes undergo formal review, impact analysis, and rollback procedures.\nf. Contingency Planning\nAutomated backups and geographically distributed recovery sites ensure continuity of operations. Recovery time objectives (RTOs) and recovery point objectives (RPOs) are defined to meet mission-critical needs.\ng. Security Training and Awareness\nAll personnel receive annual security awareness and role-based training. Training records are maintained and reviewed to ensure compliance and readiness.\nh. Boundary Definition\nThe FedRAMP authorization boundary includes all components hosted within the secure cloud environment—such as virtual machines, object storage, managed databases, and associated networking and security services. No external systems or unauthorized users are permitted access.",
+    "certificationType": "Rev5",
+    "website": "https://www.tagovcloud.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/PSL%20Logo.png",
+    "ueiNumber": "RL1GEPFF8NW5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "info@penielsolutions.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@penielsolutions.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

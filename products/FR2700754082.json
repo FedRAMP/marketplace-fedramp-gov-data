@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2700754082",
+    "providerName": "PlatformOne Group Inc",
+    "serviceName": "ComplianceONE",
+    "serviceAcronym": "ComplianceONE",
+    "serviceDescription": "ComplianceONE is a multi-tenant governance, risk and compliance (GRC) platform that federal agencies, their contractors and commercial organizations use to manage FedRAMP, NIST SP 800-53, NIST SP 800-171/CMMC, GovRAMP, DoD Impact Level, TX-RAMP, ITAR and AS9100 programs. It holds control implementation records, policies, procedures, evidence files, POA&Ms, risks, incidents and assessment results; generates certification documents; reads security posture from customer-authorized integrations; and offers AI drafting assistance whose output a person reviews.",
+    "certificationType": "Rev5",
+    "website": "https://www.complianceone.ai",
+    "logo": "https://www.complianceone.ai/assets/images/logo/logo-purple.png",
+    "ueiNumber": "DR83PCJ11966"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.complianceone.ai/trust",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@platformoneinc.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "solutions@platformoneinc.com"
+    }
+  ],
+  "assessor": {
+    "name": "200883",
+    "assessorID": "200883"
+  }
+}

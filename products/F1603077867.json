@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1603077867",
+    "providerName": "SMX (Formerly Smartronix)",
+    "serviceName": "Elevate Intelligent Automation Platform (IAP)",
+    "serviceAcronym": "Elevate Intelligent Automation Platform (IAP)",
+    "serviceDescription": "SMX Elevate Intelligent Automation Platform (IAP) is a FedRAMP-certified PaaS that accelerates secure cloud adoption for commercial and government organizations—even in the most regulated environments. Elevate IAP integrates provisioning, monitoring, security, and lifecycle management to streamline operations, minimize complexity, and mitigate risks.\n\nWhat sets Elevate IAP apart:\n\nBuilt-in compliance at scale: Native controls and automations to support CMMC, HIPAA, HITECH, CJIS, PCI, SOC 1/2, FedRAMP, and DoD ILx baselines. Integrated authorization and governance: Platform-level authorization plus policy-driven guardrails simplify multi-tenant and cross-domain operations. ISV ecosystem on day one: Rapidly deploy leading solutions through the platform and partnerships — Beyond Identity, C3 AI, ColorTokens, eShare, Versa — augmented by embedded capabilities like Dynatrace, Tenable Nessus SC and Trend Micro. Additional accredited IAP platforms deliver Appian and Juvare.\n\nMission-ready accelerators: Pre-built SMX solutions run natively on IAP to jumpstart outcomes:\n\nElevate AI: Secure Generative AI for sensitive missions\n\nElevate ATO Fast Track: Accelerated FedRAMP, CMMC, and DoD authorizations\n\nElevate FM: Financial Management\n\nElevate ISR: Intelligence, Surveillance, and Reconnaissance\n\nElevate NetEdge: Global resilient networking\n\nElevate Sensing: Space Domain Awareness\n\nBeyond Identity offers an authentication and access solution that maximizes phishing resistance, eliminates verifier impersonation risks, and leverages advanced cryptography to support enterprise environments seamlessly.\n\nC3 AI enables organizations to design, develop, deploy, and operate big data, predictive analytics, AI/ML, and Internet of Things (IoT) software applications. By combining state-of-the-art foundational large language models (LLMs), deep learning retrieval models, and the C3 AI Platform, C3 Generative AI serves as a deep domain knowledge source to support information retrieval across disparate datasets and improve decision-making.\n\nColorTokens Xshield is a Zero Trust micro segmentation solution engineered to halt lateral movement of malware, ransomware, and other threats across cloud workloads, on premises servers, endpoints, Kubernetes containers, OT/IoT devices, and legacy systems.\n\neShare enables organizations to share files and collaborate using link-based access—with dynamic access controls, watermarking, and persistent policy enforcement that travel with the data even after sharing. eShare ensures regulatory compliance and governance while boosting productivity, reducing IT overhead, and maintaining full data sovereignty.\n\nVersa Unified SASE for Government provides integrated networking and security capabilities, including:\r\n\r\nVersa Secure SD-WAN\r\nVersa Secure Private Access / Zero-Trust Network Access (ZTNA) / Security Services Edge (SSE)\r\nVersa Secure Internet Access / Next-Gen Firewall as a Service (NG-FWaaS), Next-Gen Secure Web Gateway (NG-SWG)\r\nVersa Secure Fabric / Secure Private & Internet Access (combines ZTNA and NG-SWG)\r\nInline Cloud Access Security Broker (CASB)\r\nNetwork Data Loss Prevention (DLP)\r\nDigital Experience Monitoring (DEM)\r\nCentralized management and orchestration across cloud-delivered and on-premises Versa Operating System (VOS) gateways\r\nSupport for shared or dedicated deployment models",
+    "certificationType": "Rev5",
+    "website": "https://www.smxtech.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SMX%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@smxtech.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "ATO@smxtech.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

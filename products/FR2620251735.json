@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2620251735",
+    "providerName": "Ground Control Software Inc.",
+    "serviceName": "GroundControl",
+    "serviceAcronym": "GroundControl",
+    "serviceDescription": "Ground Control Software Inc. is a San Jose-based technology\ncompany that provides a cloud-based SaaS platform called\nGroundControl, designed specifically for the manufacturing sector.\nThe platform focuses on quality control documentation workflows,\noffering secure storage, transmission, and interactive processing\ncapabilities while integrating large language models and neural\nnetwork technologies to accelerate AI adoption in an industry that has\nbeen slow to embrace such tools. The company maintains strict\nsecurity and compliance standards, including ITAR (International\nTraffic in Arms Regulations) registration with the U.S. Department of\nDefense and self-attestation to NIST 800-171. Its infrastructure is\nhosted on FedRAMP-authorized services, including AWS\nGovernment, at a High security impact level.",
+    "certificationType": "Rev5",
+    "website": "https://gndctl.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/GroundControl%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "itsec@gndctl.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@gndctl.com"
+    }
+  ],
+  "assessor": {
+    "name": "201722",
+    "assessorID": "201722"
+  }
+}

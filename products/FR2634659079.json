@@ -1,0 +1,42 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2634659079",
+    "providerName": "ThinkTrends LLC",
+    "serviceName": "ThinkTrends AI Platform",
+    "serviceAcronym": "ThinkTrends AI Platform",
+    "serviceDescription": "ThinkTrends AI Platform is a cloud-based, enterprise-grade\nAgentic AI platform developed by ThinkTrends LLC. It\nprovides federal agencies and commercial organizations with\na unified environment for deploying, managing, and operating\nAI-powered agents, knowledge bases, data pipelines, and\nintelligent workflows. Key capabilities include:\n- **AI Agent Studio**: Build and deploy conversational AI\nagents with RAG (Retrieval-Augmented Generation), memory,\nand tool integrations backed by Amazon foundation models.\n- **Knowledge Base Management**: Ingest, index, and query\nstructured and unstructured documents using vector\nembeddings for grounded, citation-based AI responses.\n- **Agent Flow Orchestration**: Design and execute visual\nnode-based AI workflows for automated, multi-step tasks.\n- **Data Pipelines**: Managed Agentic ETL-based pipelines\nfor data ingestion, transformation, and delivery.\n- **Guardrails & Safety**: Configurable content safety\nguardrails (HIPAA, PII, tone, compliance policies) applied at\nthe agent and platform level.\n- **File & Drive Integration**: Secure file management\nintegrated with Google Drive and native cloud storage.\n- **Enterprise Connectors**: Native integrations with Slack,\nJira, Google Workspace, Microsoft 365, and agency\nenterprise systems.\n- **Agentic Governance**: Ability to run automated evaluation\njobs, analyse agent responses against accuracy, relevance,\nand safety benchmarks, and iteratively improve prompts\nbased on those scores",
+    "certificationType": "Rev5",
+    "website": "https://thinktrends.co/",
+    "logo": "https://d16sn2heoxf1hd.cloudfront.net/images/logo/tt-logo.svg",
+    "ueiNumber": "L5K1A4WHNJQ1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/thinktrends",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-support@thinktrends.co"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-sales@thinktrends.co"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

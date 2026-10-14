@@ -1,0 +1,29 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2404453515",
+    "providerName": "Embrava USA, Inc.",
+    "serviceName": "Embrava Device Management System (DMS)",
+    "serviceAcronym": "Embrava Device Management System (DMS)",
+    "serviceDescription": "The Embrava Desk Sign is an all-in-one workspace solution for digital name plating, employee check-ins, instant booking, and availability display.\n\nA federal employee can book a workspace (cubicle, office) in advance, and upon arrival in the office, tap their badge at the reserved workspace to check-in. The device displays the workspace name, employee name, reservation time, and color-coded status of the reservation.​\n\nIf the employee hasn’t booked in advance, they can tap their badge upon arrival at a free workspace, which automatically creates a reservation for the day. The employee can tap their badge when they are leaving to free up the space for the next employee.",
+    "certificationType": "Rev5",
+    "website": "https://embrava.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Embrava%20Logo.png",
+    "ueiNumber": "M1FEX9525BZ5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cybersec@embrava.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@embrava.com"
+    }
+  ]
+}

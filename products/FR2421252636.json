@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2421252636",
+    "providerName": "Varonis",
+    "serviceName": "Varonis Data Security Platform",
+    "serviceAcronym": "Varonis Data Security Platform",
+    "serviceDescription": "The Varonis Data Security Platform is a cloud-hosted data security platform for protecting and governing enterprise data. Varonis DSP protects the most used data stores by enforcing least privilege, fixing misconfigurations, inventorying and labeling critical data sets, and stopping insider threats.\n\nWith the Varonis DSP agencies can meet EO 14028 requirements to establish zero trust by inventorying and protecting their most sensitive data. OMB 22-09 data pillar and identity requirements can be fulfilled automatically with Varonis’ powerful automation suite. The Varonis DSP tracks all user activity around cloud platforms and aggregates these logs in a single source. Varonis’ advanced user and entity behavior analytics helps to identify compromises by understanding anomalous behavior at the file level, easily fulfilling OMB 21-31 up to EL-3. Automated dashboards track various Federal regulations (i.e. NIST 800-53) for easy compliance reporting.\n\nVaronis integrates with agencies most used data stores like M365, NAS devices, Unix/Linux, and other cloud collaboration tools to give customers a holistic view of their data. Varonis can be used to address these important use cases and more: \nDetecting insider threats and cyberattacks: Varonis provides behavior-based threat detection that uses machine learning to alert on abnormal user or device behavior. Additionally, Varonis provides a live-updating library of pre-built threat models based on attack techniques and vulnerabilities used by real-world adversaries.\nPinpointing data exposure: Varonis automatically classifies sensitive data, highlights where information is exposed externally or internally, and automatically removes unnecessary access to enforce least privilege.\n\nLimiting the blast radius of an attack: Varonis safely automates permissions changes to eliminate unnecessary access and drastically reduces the damage from insider threats and cyberattacks.\n\nTracking Email Abuses : Varonis scans inside of emails/attachments and captures all user email activity while alerting on abuses, tracking spillage, and mapping the exact flow of sensitive data through email platforms. \n\nAchieving compliance: Varonis’ vast library of classification rules can discover sensitive data related to GDPR, CCPA, HIPAA, PCI, CUI, FTI, CJIS, Secret, Top Secret and more. The permissions analysis and continual monitoring Varonis provides gives auditors a real-time pulse on compliance and helps customers achieve compliance with NIST 800-53, NIST 800-171, RMF, CMMC, IRS Pub 1075 and more.",
+    "certificationType": "Rev5",
+    "website": "https://www.varonis.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Varonis%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "soc@varonis.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "gpomeroy@varonis.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

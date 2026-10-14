@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2326238680",
+    "providerName": "Uptake Technologies Inc.",
+    "serviceName": "Uptake Federal",
+    "serviceAcronym": "Uptake Federal",
+    "serviceDescription": "The Uptake Federal Product provides industrial artificial intelligence (AI) and Internet of things (IoT) applications to manage and analyze operational data from industrial systems. Uptake has developed advanced data analytics techniques that enable clients to view actionable insights that can be used to help plan maintenance initiatives, optimize production, and reduce costs. Uptake provides clients with dashboards and reports with information intended to help make informed decisions about their assets.\n\nSince Uptake Federal’s newly built environment utilizes higher standards for security and compliance, this system has well-defined boundaries and controlled data ingress and egress patterns. A new AWS GovCloud environment designed from the ground up was built to meet FedRAMP High and DoD IL5 requirements. This new environment achieves two (2) main objectives:\n\n- Establish a strict authorization boundary to minimize the Uptake Federal compliance footprint.\n- Streamline adherence to security, operational, and compliance controls stipulated by FedRAMP.",
+    "certificationType": "Rev5",
+    "website": "https://www.uptake.com/products/federal",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Uptake%20Logo2.png",
+    "ueiNumber": "YXGDM5CK5GW7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@uptake.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federalsales@uptake.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

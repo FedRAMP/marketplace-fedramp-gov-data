@@ -1,0 +1,34 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2324740262",
+    "providerName": "Databricks, Inc.",
+    "serviceName": "Databricks on AWS GovCloud",
+    "serviceAcronym": "Databricks on AWS GovCloud",
+    "serviceDescription": "The Databricks Data Intelligence Platform is a unified, AI-powered platform built on a lakehouse architecture to provide an open, unified foundation for all data and governance, and is powered by a Data Intelligence Engine & Apache Spark™ that understands the uniqueness of your data. It enables organizations to process, govern, and extract actionable insights from all their data using both Machine Learning (ML) and generative Artificial Intelligence (AI) including Large Language Models (LLMs). It unifies data engineering, analytics (SQL), and AI workloads, simplifying data management and accelerating analytics with features like automated ETL, advanced query optimization, and AI-driven data cataloging. The platform’s Data Intelligence Engine understands the unique semantics and usage patterns of an organization’s data, offering natural language access, tailored recommendations, and robust governance and privacy controls.",
+    "certificationType": "Rev5",
+    "website": "https://www.databricks.com/solutions/industries/federal-government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Databricks%20Logo.png",
+    "ueiNumber": "JJZCW7PZP8Q4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "federal-compliance@databricks.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal-compliance@databricks.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

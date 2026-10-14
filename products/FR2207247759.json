@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2207247759",
+    "providerName": "Deloitte GPS OpenCloud",
+    "serviceName": "Deloitte GPS OpenCloud",
+    "serviceAcronym": "Deloitte GPS OpenCloud",
+    "serviceDescription": "Deloitte’s Government and Public Services (GPS) OpenCloud Cloud Managed Platform is an enterprise managed, multi-cloud Platform-as-a-Service (PaaS) that offers government enterprises and customers supporting U.S. government organizations with complex compliance requirements the ability to host their applications on their cloud platform of choice and leverage a range of pre-assessed security controls and operational benefits (e.g., automation, redundancy, auto-remediation) from the platform. The platform provides FedRAMP Moderate Impact Level security services for customers to consume, such as boundary and network protection, operating system and device hardening, vulnerability management, trusted patch repositories, malware detection, auto-remediation for policy enforcement, and 24x7 security information and event management (SIEM). The platform also offers a customer self-service portal in ServiceNow allowing customers to interact with platform engineers, architects and operators and submit general service requests.  Additionally, operating system changes are monitored to confirm compliance with pertinent security policies.  \r\n\r\nThe platform provides the following additional benefits to our clients:\r\n•        Accelerates time to complete Agency and FedRAMP ATOs for client workloads by leveraging a FedRAMP compliant security platform\r\n•        Provides a mature security solution to meet federal security monitoring standards and guidelines (i.e., EO 14028, OMB M-14-03, OMB M-21-31, NIST SP 800-137)\r\n•        Leverages FedRAMP JAB compliant cloud hosting platforms (i.e., AWS GovCloud, AWS US East/West, and Google Cloud Platform Assured Workloads)\r\n\r\nThe platform includes the following key features:\r\n•        Identity and access management to include account onboarding, offboarding and auditing\r\n•        Network management to include secure remote access / VPN management, Network Access Control List / Network Security Group configuration and maintenance, Firewall Management with IDS / IPS and DDOS protection\r\n•        Operating System support to include provisioning of hardened images, configuration management and provisioning of trusted patch repositories\r\n•        Security Services to include OS vulnerability scanning, STIG / CIS benchmark scanning, endpoint security and logging / continuous monitoring\r\n•        Certificate / secrets management for platform resources\r\n•        Support for Common Access Card (CAC) / Personal Identity Verification (PIV) integration (upon customer request).",
+    "certificationType": "Rev5",
+    "website": "https://www2.deloitte.com/us/en.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Deloitte%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "gpscmshelpdesk@deloitte.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federalcms@deloitte.com"
+    }
+  ],
+  "assessor": {
+    "name": "137801",
+    "assessorID": "137801"
+  }
+}

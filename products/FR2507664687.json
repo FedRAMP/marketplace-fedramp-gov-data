@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2507664687",
+    "providerName": "BlackLine Systems, Inc.",
+    "serviceName": "BlackLine Government Solution",
+    "serviceAcronym": "BlackLine Government Solution",
+    "serviceDescription": "BlackLine Government Solution is a SaaS application designed to help customers with the financial close process.",
+    "certificationType": "Rev5",
+    "website": "https://www.blackline.com/products/financial-close/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/BlackLine%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@blackline.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "mark.kershaw@blackline.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2626461720",
+    "providerName": "Optum Serve",
+    "serviceName": "Optum Serve Federal Platform",
+    "serviceAcronym": "Optum Serve Federal Platform",
+    "serviceDescription": "The Optum Serve Federal Platform (OSFP) Management Plane is a centralized, multi-cloud management and security services layer that provides governance, security, and operational control across Azure Government and AWS GovCloud environments. It delivers shared services—including identity and access governance, logging and monitoring, security analytics, configuration and compliance management, and vulnerability management—to support and standardize operations for all connected systems within the enclave.",
+    "certificationType": "Rev5",
+    "website": "https://business.optum.com/en/federal-government.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Optum%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "optumserve_fedramp_security@optum.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "optumserve_fedramp_product@optum.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

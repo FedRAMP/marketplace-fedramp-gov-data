@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2532557612",
+    "providerName": "A-LIGN",
+    "serviceName": "A-SCEND",
+    "serviceAcronym": "A-SCEND",
+    "serviceDescription": "A-SCEND is an AI-powered audit management platform supported by certified practitioners with over 20 years of experience. The platform is designed to automate and streamline the audit and compliance process.",
+    "certificationType": "Rev5",
+    "website": "https://www.a-lign.com/a-scend",
+    "logo": "https://github.com/A-SCEND/FedRAMPx20/blob/main/img/a-scend.svg",
+    "ueiNumber": "Q76FLNZDM992"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.a-lign.com",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMPaccreditation@a-lign.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Sales@a-lign.com"
+    }
+  ],
+  "assessor": {
+    "name": "201825",
+    "assessorID": "201825"
+  }
+}

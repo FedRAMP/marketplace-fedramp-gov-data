@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1824038232",
+    "providerName": "Nutanix",
+    "serviceName": "Nutanix Government Cloud Services",
+    "serviceAcronym": "Nutanix Government Cloud Services",
+    "serviceDescription": "Nutanix Cloud Clusters (NC2) delivers Nutanix Cloud Platform (NCP) running on bare metal servers in public clouds. Organizations can quickly move workloads across private and public clouds while managing their entire infrastructure as a single cloud to improve cloud simplicity and increase cloud efficiency. With NC2, NCP users can seamlessly move VM-encapsulated applications to the public cloud without retooling, code changes or new skill sets. Moreover, NC2 provides the same level of resilience, intelligent operations, lifecycle management, and security that Nutanix is known for.\n\nAs an extension of NCP in the public cloud NC2 provides a true hybrid cloud architecture, on-demand elasticity, seamless application migration, cloud-native integration and business continuity and disaster recovery. NC2 is natively integrated with leading public cloud hyperscale services and the differences and complexities of these platforms are hidden from IT operators by an abstraction layer. This layer makes viewing and managing a mix of Nutanix public and private clouds appear as a single, unified cloud, while giving IT administrators control over where applications are deployed.\n\nNC2 delivers a common user interface (UI), operations, and automation for virtual machines (VMs) and containers, along with unified networking and security across all cloud environments. \nVia NC2 Portal, users can deploy an NC2 cluster in AWS Govcloud. It provides the capability to quickly scale up or down the capacity by utilizing readily available bare metal instances in the public cloud. The solution allows for hibernating the cluster when not in use to reduce the total cost of ownership (TCO).\n\nNC2 is comprised of componentized ‘cloud services’ of which some are ‘managed’ by Nutanix (such as the NC2 Portal) and some by the customer (the clusters, nodes, VIPs, IP space, etc…) and some by the hyperscalers (Infra, network, hardware (IaaS)). Thus, the NC2 solution in totality is not wholly managed by Nutanix. Nutanix owns and manages MCM, a native cloud service, which is the backend SaaS component behind the NC2 Portal responsible for cluster creation, expansion, shrinking, licensing, hibernating & resuming in a customer’s AWS subscription.",
+    "certificationType": "Rev5",
+    "website": "https://www.nutanix.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Nutanix%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "product_compliance@nutanix.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fed-civ-sales@nutanix.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

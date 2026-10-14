@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2525557617",
+    "providerName": "InfusionPoints",
+    "serviceName": "XBU40",
+    "serviceAcronym": "XBU40",
+    "serviceDescription": "XBU40 Enclave Platform\r\n\r\n\r\n\r\nXBU40 Enclave Platform-as-a-Service     is InfusionPoints’ secure cloud platform designed to support organizations pursuing and maintaining FedRAMP 20x authorization. Built on AWS GovCloud, it delivers a secure-by-design environment with automated compliance\r\n validation, continuous monitoring, and authorization readiness. The platform is operated through Command Center and powered by AuditShield for automated evidence validation and KSI monitoring.\r\n\r\n\r\nPlatform Management – Command Center\r\n\r\n\r\nCommand Center is the platform management interface used to operate and monitor XBU40 Enclave environments. It provides centralized visibility into infrastructure security, vulnerability posture, Key Security Indicators\r\n (KSIs), and compliance evidence. Through Command Center, organizations maintain a real-time view of operational and compliance status across their environment.\r\n\r\n\r\nCore Service Capabilities\r\n\r\n\r\nXBU40 Enclave Platform combines secure infrastructure with integrated compliance automation to support\r\nFedRAMP 20x authorization and continuous monitoring. The service includes secure hosting in AWS GovCloud, platform management through Command Center, vulnerability lifecycle management, and automated KSI validation\r\n through AuditShield. These capabilities allow organizations to maintain continuous authorization readiness.\r\n\r\n\r\nSecure Hosting Environment\r\n\r\n\r\nXBU40 provides a secure-by-design hosting architecture engineered to support FedRAMP 20x Moderate environments. The platform includes identity and access controls, network protection, encryption, and centralized logging\r\n aligned with government cloud security practices. Environments are supported by InfusionPoints Cloud Operations and Security Operations teams.\r\n\r\n\r\nVulnerability and Exposure Management\r\n\r\nXBU40 provides continuous vulnerability scanning, prioritization, and remediation tracking across hosted environments. Findings are managed through integrated workflows that support remediation and validation. This ensures systems maintain a\r\ncontinuously monitored vulnerability posture aligned with FedRAMP 20x KSIs.\r\n\r\n\r\nTrust Center\r\n\r\n\r\nThe Trust Center provides a centralized view of system compliance posture and Key Security Indicators. It allows stakeholders to access evidence artifacts, compliance documentation, and monitoring dashboards in real time. This transparency enables assessors\r\n and agencies to validate security posture through live operational evidence.\r\n\r\n\r\nAuditShield – Automated Evidence and KSI Validation\r\n\r\n\r\nAuditShield is the automation engine within the XBU40 Enclave Platform that continuously validates compliance posture. It collects and verifies evidence through APIs, serverless validation functions, and infrastructure\r\n telemetry. Each validation maps directly to a \r\nFedRAMP 20x KSI, preserving artifacts and timestamps for assessor review.\r\n\r\n\r\n\r\nContinuous Authorization Monitoring\r\n\r\n\r\nXBU40 supports continuous authorization readiness through automated monitoring and validation of system security posture. The platform evaluates infrastructure configuration, vulnerability lifecycle status, security telemetry, and KSI validation results. All\r\n evidence and compliance artifacts are maintained within Command Center to ensure environments remain\r\ncontinuously audit-ready.",
+    "certificationType": "Rev5",
+    "website": "https://xbu40.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/IP%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "InfPtsFedRAMP@InfusionPoints.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Sales@InfusionPoints.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

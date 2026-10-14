@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2634450946",
+    "providerName": "Pinecone Systems, Inc.",
+    "serviceName": "Pinecone",
+    "serviceAcronym": "Pinecone",
+    "serviceDescription": "Pinecone is a fully managed vector database for AI applications. It stores, indexes, and\nsearches high-dimensional vector embeddings to power retrieval for semantic search,\nrecommendation, and retrieval-augmented generation (RAG) workloads. Customers create\nindexes in a cloud region of their choosing and interact with the service through\ndocumented APIs and client SDKs. The service is operated by Pinecone on public cloud\ninfrastructure, with customer data encrypted at rest (AES-256, with a distinct data\nencryption key for every stored object, so no data key is shared between customers) and in\ntransit (TLS 1.2 minimum).",
+    "certificationType": "Rev5",
+    "website": "https://www.pinecone.io",
+    "logo": "https://www.pinecone.io/images/pinecone-logo.png",
+    "ueiNumber": "EHLZAJFML1J5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.pinecone.io",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "trust@pinecone.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@pinecone.io"
+    }
+  ]
+}

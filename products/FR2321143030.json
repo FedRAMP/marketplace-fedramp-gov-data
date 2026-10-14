@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2321143030",
+    "providerName": "Information First, Inc.",
+    "serviceName": "Content Manager Records Management Application (RMA) Cloud Service Offering (CSO)",
+    "serviceAcronym": "Content Manager Records Management Application (RMA) Cloud Service Offering (CSO)",
+    "serviceDescription": "Information First’s Content Manager Records Management Application (RMA) Cloud Service Offering (CSO) is a secure, scalable, DoD 5015.02-certified Records Management Application (RMA) providing Enterprise Content Management (ECM), NARA-compliant Electronic Document and Records Management (EDRM), and workflows for Freedom of Information Act (FOIA), Privacy Act, and case management.\r\n\r\nLeveraging Commercial-off-the-Shelf (COTS) software from OpenText, the Content Manager RMA CSO can be accessed from either a desktop client or a web browser interface providing agency customers with simple, straightforward records management features that can support virtually any file type and be tailored to meet the needs of any organization.\r\nThe Content Manager RMA CSO is fully configurable, with features such as check-in/check-out and versioning, redaction and renditions, file plans and disposition workflows, metadata management, OCR, search and query functions, dashboards and role-based access control, allowing agency customers to have full control over their records management processes at every stage of a record's lifecycle.\r\n\r\nThe Content Manager RMA CSO facilitates compliance with NARA’s Universal Electronic Records Management requirements, DoD 8180.01, OMB M-19-21 and M-23-07.  The RMA CSO also meets NIST SP 800-145 essential characteristics for cloud computing, including on-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service while also incorporating AI and machine learning for advanced search and auto-categorization.\r\n\r\nThe Content Manager RMA is delivered as a SaaS offering using a multi-tenant Government Community Cloud computing environment, available to federal, state, local, tribal, territorial, federally funded research centers (FFRDCs), contractors working on behalf of the government, or lab entities.",
+    "certificationType": "Rev5",
+    "website": "https://www.info-first.com/content-manager-msaas.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/IF%20Logo.png",
+    "ueiNumber": "L4YRB111WR81"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@info-first.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@info-first.com"
+    }
+  ],
+  "assessor": {
+    "name": "137801",
+    "assessorID": "137801"
+  }
+}

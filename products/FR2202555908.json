@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2202555908",
+    "providerName": "Pexip Inc.",
+    "serviceName": "Pexip Government Cloud (PGC)",
+    "serviceAcronym": "Pexip Government Cloud (PGC)",
+    "serviceDescription": "Pexip Government Cloud is a SaaS-based video teleconferencing (VTC) solution for U.S. federal, state, and local government organizations. With Pexip, government customers can augment their existing on-premise VTC infrastructure with a subscription-based service model while retaining ownership of their specific endpoint dial plan and call control routing rules. By migrating to a SaaS or hybrid service model, government organizations maintain operational control of their endpoints and systems without incurring the long-term costs of developing and maintaining additional infrastructure.\nPexip Government Cloud’s secure VTC platform brings the modernized meeting experience to the government user base in the following ways:\n•        Microsoft-certified Cloud Video Interoperability (CVI) for Microsoft Teams – Helps agencies securely collaborate on Microsoft Teams in their hybrid workplace. With Pexip Government Cloud, employees can join Microsoft Teams calls from their existing standards-based meeting room video systems as well as enterprise-class standards-based soft clients.\n•        Bi-Directional SIP Dialing for Windows-Based Microsoft Teams Rooms (MTRw) – Expanding on Pexip’s CVI capability, this feature enables SIP-based video conferencing endpoints to call directly into Microsoft Teams Rooms (MTR) running on Windows, and vice versa. This allows government agencies to integrate MTRw into their broader VTC ecosystem, ensuring seamless cross-platform collaboration. \n•        Google Meet Interoperability – Enables agencies to seamlessly connect standards-based VTC systems directly into Google Meet meetings using native SIP dialing. This allows government users to leverage existing room-based video conferencing hardware to join Google Meet sessions without additional plugins or workarounds, ensuring a secure, seamless, and familiar meeting experience.\n•        Standards-Based Virtual Meeting Rooms (VMRs) – Supports customer VTC endpoint devices and clients, featuring Pexip’s native CMVP-validated FIPS 140-3 encryption suite, ensuring secure and compliant video communications.\n•        Self-Hosted Platform Integration – Enables hybrid VTC deployments where Pexip Government Cloud extends the customer’s existing self-hosted platform. This integration allows VTC systems to seamlessly connect with enterprise third-party applications, support calendaring integrations for simplified end-user join flows, and align with global policy frameworks such as Zero Trust Architecture (ZTA) and Secure Access Service Edge (SASE).",
+    "certificationType": "Rev5",
+    "website": "https://www.pexip.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Pexip%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "pgc-security@pexgov.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@pexgov.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2628943632",
+    "providerName": "Pryme Infil, Inc.",
+    "serviceName": "Pryme Infil",
+    "serviceAcronym": "Pryme Infil",
+    "serviceDescription": "Cloud-based command-and-control platform for public safety operations, providing operational planning, real-time team coordination, encrypted messaging, GPS mapping, risk assessments, and after-action documentation for law enforcement and public safety agencies.",
+    "certificationType": "Rev5",
+    "website": "https://www.prymeinfil.com/",
+    "logo": "https://cdn.prod.website-files.com/698cfd876cf33430c0e79e6b/69e90cda3b41e585b3212654_pryme%20infil%20logo%20small-01.svg",
+    "ueiNumber": "Z363L7GPL7P9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://app.vanta.com/prymeinfil/trust/7tlcmt81p2x555bymou4kr",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@prymeinfil.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@prymeinfil.com"
+    }
+  ],
+  "assessor": {
+    "name": "203355",
+    "assessorID": "203355"
+  }
+}

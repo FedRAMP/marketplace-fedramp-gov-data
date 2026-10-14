@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2534547429",
+    "providerName": "Versa Networks, Inc.",
+    "serviceName": "Versa Unified SASE for Government",
+    "serviceAcronym": "Versa Unified SASE for Government",
+    "serviceDescription": "Versa Unified SASE for Government includes the following capabilities:\r\n- Versa Secure SD-WAN\r\n- Versa Secure Private Access / Zero-Trust Network Access (ZTNA) / Security Services Edge (SSE)\r\n- Versa Secure Internet Access / Next-Gen Firewall as a Service (NG-FWaaS), Next-Gen Secure Web Gateway (NG-SWG)\r\n- Versa Secure Fabric / Secure Private & Internet Access (combines ZTNA and NG-SWG)\r\n- Inline Cloud Access Security Broker (CASB)\r\n- Network Data Loss Prevention (DLP)\r\n- Digital Experience Monitoring (DEM)\r\n- Hybrid management & orchestration of both cloud-delivered and on-premise Versa Operating System (VOS) gateways\r\n- Shared or dedicated private instances\r\n\r\nVersa Unified SASE for Government is hosted within the AWS GovCloud environment. To support high availability, geographic redundancy, and secure isolation, the architecture leverages multiple availability zones (AZs) and virtual private clouds (VPCs). These configurations ensure separation between customer environments and the Versa Networks, Inc. (Versa)'s management infrastructure.\r\n\r\nThe Versa management infrastructure is hosted on Amazon Elastic Compute Cloud (Amazon EC2) instances with all associated components, including customer VPCs and instances, which are regularly backed up in AWS. This ensures continuity of operations and recoverability in the event of a disruption.\r\n\r\nServices within the system boundary are organized into three logical tiers: Access Tier 1 (SMX Elevate Intelligent Automation Platform (IAP), Tier 2 (Versa), and Tier 3 (Customer). Each tier is logically isolated using the Amazon VPC service to maintain strong separation of duties, security boundaries, and operational control.",
+    "certificationType": "Rev5",
+    "website": "https://www.versa-networks.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Versa%20Logo.png",
+    "ueiNumber": "CFMAAA6AULN3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-support@versa-networks.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-sales@versa-networks.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

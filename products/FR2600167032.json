@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2600167032",
+    "providerName": "Drata",
+    "serviceName": "Drata Trust Management Platform",
+    "serviceAcronym": "Drata Trust Management Platform",
+    "serviceDescription": "The Drata Trust Management Platform automates and centralizes governance, risk, compliance (GRC) and trust management for over 8,000 organizations worldwide, from emerging startups to large enterprises across technology, government, financial services, and healthcare. The platform supports the following capabilities: automated compliance monitoring and evidence collection for 26+ frameworks including FedRAMP 20x KSIs; policy management and automated policy distribution and acknowledgement; risk management, providing end-to-end automation and visibility for risk identification, assessment, treatment, and monitoring; Vendor Risk Management (VRM) including centralized vendor onboarding, monitoring, risk scoring, and reporting; cross-mapping of controls across multiple frameworks and Drata’s Control Framework (DCF); Audit Hub to consolidate auditor communication and facilitate real-time audit feedback from a 3PAO; open API for integrations, custom workflows, and support for custom GRC engineering; compliance-as-code (CaC); User Access Reviews (UAR); dashboards for compliance and risk metrics; available integrations with 300+ major SaaS, cloud, and productivity tools to monitor controls compliance; enterprise Trust Center providing public/private portals for sharing security and compliance posture with customers and prospects, and a modern GRC (Governance, Risk, Compliance) platform with scalable enterprise features supporting public- and private-sector needs. The company was founded in 2020 and is headquartered in San Diego, CA.",
+    "certificationType": "Rev5",
+    "website": "https://drata.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Drata%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@drata.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal@drata.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

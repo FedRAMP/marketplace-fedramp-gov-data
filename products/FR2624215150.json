@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2624215150",
+    "providerName": "TeamViewer",
+    "serviceName": "TeamViewer DEX Platform",
+    "serviceAcronym": "TeamViewer DEX Platform",
+    "serviceDescription": "TeamViewer helps IT teams deliver frictionless IT for employees and seamless IT operations for IT teams, transforming IT from a cost center into a strategic enabler. As a leader in the Digital Employee Experience (DEX) market, we provide a powerful end-user computing automation platform that enables organizations to lower service desk costs, maintain compliance, prevent user frustration, and improve the experience employees have with their devices and IT services. \n\nThe platform is built on a client-server architecture hosted on Microsoft Azure Government. The Client service creates a secure, persistent connection with the DEX Platform service, enabling immediate outbound communication and real-time, device-generated, event-driven data delivery. A secondary communication channel, also initiated by the Client service, is used for large file transfers or non-urgent events such as inventory changes. \n \nKey Capabilities \nExperience Analytics \nVisualize and measure the end-user experience with continuous, real-time metrics across: \n•        Stability – Frequency of OS and application crashes, hangs, and service failures, often unreported but highly disruptive. Events are captured in real-time and can be linked directly to ITSM tickets. \n•        Responsiveness – Performance during normal operation, from OS startup speed to synthetic tests of system resources such as process creation, file operations, and registry access. \n•        Performance – Weighted load and throughput scores for CPU, memory, and disk resources. \n\nEmployee Sentiment \nCapture real-time employee feedback on device performance, stability, and responsiveness through contextual surveys. Trigger follow-up actions when satisfaction scores are low. Send targeted notifications to employees about outages, maintenance windows, or important events. \n\nEndpoint Troubleshooting \nRemotely investigate and remediate device issues in real time—whether for a single device, a group, or the entire environment—reducing mean time to resolution (MTTR). \n\nInstruction Scheduling \nExtend Endpoint Troubleshooting by scheduling recurring instructions for ongoing maintenance or monitoring. \n\nEndpoint Automation \nLeverage real-time OS events to maintain baseline configurations, ensure critical services are always running, and prevent configuration drift. \n\nContent Distribution \nOptimize Microsoft Configuration Manager (ConfigMgr) software delivery and updates through peer-to-peer file sharing, reducing the need for on-premises Distribution Point servers and improving delivery speed. \n\nInventory Insights \nTrack hardware and software changes in real time. All events are normalized against a software catalog, giving IT a consolidated view of the environment and the ability to reduce software sprawl. \n\nApplication Experience Management (AXM) \nProactively monitor application performance at the endpoint. Real-time events provide visibility into application-level issues and version performance differences, enabling application owners to act quickly. \n\nPatch Insights \nStreamline patching cycles by identifying problematic devices or failed updates. Initiate patch deployment directly via ConfigMgr, WSUS, or Microsoft Update by triggering the Windows Update Agent. \n\nAPI Access \nExtend the DEX Platform with custom workflows and integrations into third-party systems such as ServiceNow to fit seamlessly into existing IT ecosystems.",
+    "certificationType": "Rev5",
+    "website": "https://www.teamviewer.com/en-us/products/dex/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/TMV%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securitycompliance@projecthosts.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@teamviewer.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

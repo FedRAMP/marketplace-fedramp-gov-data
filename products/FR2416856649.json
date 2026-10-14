@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2416856649",
+    "providerName": "Creative Veteran Productions",
+    "serviceName": "Federal Immersive Learning Management System (FED-ILMS)",
+    "serviceAcronym": "Federal Immersive Learning Management System (FED-ILMS)",
+    "serviceDescription": "The Federal Immersive Learning Management System (FED ILMS) is an Immersive Learning Management System (ILMS) which allows for training to occur in multiple modalities. Includes:\n-        Live Meeting (Webinar Capabilities)\n-        eLearning (SCORM, xAPI, CMI5, etc.)\n-        On-Demand Video content\n-        Documents\n-        Immersive Learning (3D based serious gaming, in multi-player or single player mode)\n\nUser interactions are tracked for the purposes of determining when the user has met requirements of various courses. \n\nIn addition, the application has the following features:\nAccreditation System: Application has a complete accreditation system, which allows for the tracking of certificate requirements for any content in the system and puts the user through a number of requirements in order to achieve certification. This includes pre/post tests, evaluations, confirmation of acceptance, etc.\n\nEvent Registration System: System has a complete registration system to manage Live Webinar registration as well as course registration. \n\nExhibit Hall Capabilities: Create the ability to create templated “Spaces” or content areas that can be edited by “space editors” which includes a complete capability for the delegation of editing content in the space to the right department or person that manages that space. Spaces create an area where the “exhibitor” can share documents, live chat, provide contact information, display videos, and have “Ad-Hoc” live meetings.\n\nOpen AI: Application will, through the use of Cognitive Search, index the content in the application tagging it to a particular space, exhibit space, webinar, eLearning course, etc. This indexed content is then integrated with Open AI using the RAG pattern to feed the LLM to have a conversation within the content, which is context based (within a space, related to a course, etc.)\n\nGame API: External immersive learning experiences (serious Games) use the Game API to manage the user’s session, which includes the ability to set and get user progress, mark objectives as met, etc. In addition, the Game API allows for the management of VoIP in the case of multi-player games, and also for the real-time communications using Sockets over https for presence management and other real-time multi-player communication needs.\n\nSearch Capabilities: Application has a comprehensive search feature which allows users to search the system across all content types and one click open the content from the search results, whether this content is a Webinar, an Exhibit Space, a Serious Game, or a Document.\n\nRating and Favorites: System has the ability for the user to rate (providing this is enabled), and mark any content or space in the system as favorite, and this shows up in the user’s favorites as well “My Office” \n\nMy Office: This is the space within the application where the user sees all of the training they have done, can print certificates, finish any certificate requirements they have not completed on any of the course or content they have consumed, access their favorites, edit their profiles, etc.\n\nSocial Features: Application has real-time group chat and real-time one-on-one chat available throughout the application for real-time chat scenarios. This is useful within the context of spaces, live webinars, etc. The application also has a simple moderated Forums capability to allow the user to participate in forums which can be scoped to a space, content, or general in nature.\n\nCMS: The application has an administrative interface, called the “CMS” which allows the client administrator to manage all aspects of the platform. Access can be granularly assigned to only the features required, through which elevated access can be made available to manage system settings which are sensitive in nature.",
+    "certificationType": "Rev5",
+    "website": "https://www.creativevet.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/CVP%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securitycompliance@projecthosts.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@creativevet.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

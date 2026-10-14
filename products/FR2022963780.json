@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2022963780",
+    "providerName": "Icertis Inc.",
+    "serviceName": "Icertis Contract Intelligence (ICI) for Government",
+    "serviceAcronym": "Icertis Contract Intelligence (ICI) for Government",
+    "serviceDescription": "ICI is delivered as a SaaS offering using a multi-tenant Government Only Community cloud computing environment. It is available to federal, state, local, and tribal governments, as well as research institutions, federal contractors, government contractors etc.\n\nThe Icertis Contract Intelligence (ICI) for Government system is a contract lifecycle management service that is configurable and adaptable to business needs through the use of templates, AI-powered clause management, smart contract workflows, Role-based access controls, proposal management, and obligation management. In addition, it includes reporting and dashboards for assessment data as well as integration features to authorized external systems (DocuSign Federal) for secure digital contract signing.",
+    "certificationType": "Rev5",
+    "website": "https://www.icertis.com/solutions/industry/public-sector/government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Icertis%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@icertis.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Fedramp@icertis.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

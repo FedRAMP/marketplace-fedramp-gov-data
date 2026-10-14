@@ -1,0 +1,40 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2633734921",
+    "providerName": "Elvo",
+    "serviceName": "Elvo",
+    "serviceAcronym": "Elvo",
+    "serviceDescription": "Elvo is a clinician-directed platform that supports evidence-based at-home data collection and exercise programs between skilled therapy visits, during telehealth visits, or other use cases as deemed appropriate by clinicians. For example, clinicians create home exercise programs; the platform can then deliver them through a customized interface and records objective session metrics. Those metrics can for example combine quantitative performance data with standardized qualitative ratings. The platform is highly evidence-based. It operationalizes documented protocols rather than introducing new treatment methods.",
+    "certificationType": "Rev5",
+    "website": "https://www.elvohealth.com/",
+    "logo": "https://static.elvohealth.com/icons/elvohummingbird_bluegreen_logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Community Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://elvoai-gov.haloitsm.com/portal",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedrampsecurity@elvohealth.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@elvohealth.com"
+    }
+  ],
+  "assessor": {
+    "name": "200883",
+    "assessorID": "200883"
+  }
+}

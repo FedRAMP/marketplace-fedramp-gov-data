@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2201340492",
+    "providerName": "KnowBe4, Inc.",
+    "serviceName": "KnowBe4 Platform",
+    "serviceAcronym": "KnowBe4 Platform",
+    "serviceDescription": "The KnowBe4 Platform includes the following in-scope: KSAT Learning Management System and all included training content (ModStore, Compliance Plus), KSAT Simulated Phishing Platform, PhishER / PhishER Plus, Phish Alert Button, SecurityCoach (SCH) and AI Defense Agents (AIDA) (excluding AIDA Deepfakes).\r\n\r\nKnowBe4 products currently excluded from scope: Free Tools (SecondChance, RanSim, Password Exposure Test, Weak Password Test, Breached Password Test, Browser Password Inspector), AIDA Deepfakes, KCES (KnowBe4 Cloud Email Security of Defend / Prevent), Protect, Workspace and Webform.\r\n\r\nKSAT (KnowBe4 Security Awareness Training), which includes security awareness training and simulated phishing, is designed to provide users with an interactive platform to better manage IT security problems of social engineering, spear-phishing, and ransomware attacks. The ModStore and Compliance Plus are libraries of available training modules that can be used within the KSAT platform or in external learning management systems.\r\n\r\nPhishER (and its add-on PhishER Plus) is a Security Orchestration, Automation, and Response (SOAR) platform that can be used to manage emails that KSAT users report as suspicious or malicious. The purpose of this platform is to provide an organization with a way to evaluate suspicious emails making it through to the inbox of users.\r\n\r\nSecurityCoach (SCH) helps strengthen your organization’s security culture by delivering immediate feedback to your users at the moment risky behavior occurs.\r\n\r\nAI Defense Agents (AIDA) is a suite of AI Agents for human risk management that continuously automates administration and content personalization so security teams can focus on strategic risk decisions rather than operational tasks. Each included AIDA Agent is optional to enable.\r\n\r\nThe Phish Alert Button (PAB) is an optional component placed in the inbox of a customer end user. This allows end users to report a suspected phishing simulation and any suspicious email message to their security team. The PAB integrates with KSAT and PhishER / PhishER Plus.\r\n\r\nKnowBe4 products share a central configuration and authentication settings area located within the KnowBe4 Platform. This is included in scope and is used throughout the KnowBe4 suite of products.",
+    "certificationType": "Rev5",
+    "website": "https://www.knowbe4.com/federal",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/KB4%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "infosec@knowbe4.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal@knowbe4.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2023601671",
+    "providerName": "eGain Corporation",
+    "serviceName": "eGain Suite",
+    "serviceAcronym": "eGain Suite",
+    "serviceDescription": "eGain Suite is delivered as a SaaS offering using a multi-tenant Government\r\nOnly cloud computing environment. It is available to federal, state, local, and\r\ntribal governments, as well as research institutions, federal contractors,\r\ngovernment contractors.\r\n\r\nThe eGain Suite includes the following applications:\r\n\r\n•           eGain Chat is a real-time chat assistance to website visitors.\r\n\r\n•           eGain Cobrowse allows agents to provide real-time assistance to customers. Agent can share and co-navigate HTML and JavaScript content via web browser with a customer to provide support.\r\n\r\n•           eGain CallTrack is a case management solution for the resolution of customer issues with call taking, logging, and tracking capability.\r\n\r\n•           eGain Mail+Social handles large volumes of email, webform, and social inquiries with automated routing, workflows.  Letter and fax interactions are also handled in this service, with PDF-based output.\r\n\r\n•           eGain Secure Messaging is a secure email messaging system that authenticates the customer before allowing the viewing of confidential information.\r\n\r\n•           eGain Knowledge+AI is a knowledge management software including AI that provides agents and other users answers from a common knowledge base using AI technologies including generative AI.\r\n\r\n•           eGain SelfService+AI provides self-service experiences that enable customer self-service and enables context-aware escalations to live customer service agents if required by the customer.  This service also uses eGain Knowledge+AI for delivery of article information.\r\n\r\n•           eGain Virtual Assistant is a virtual agent providing a way for users to get answers and assistance on an organization’s website.  A user chats with the virtual assistant (also called virtual agent or chatbot).  The chatbot provides answers to any queries input within the chatbot.\r\n\r\n•           eGain AI Agent is an interactive generative AI tool using chatbot capability.  It will provide answers (on approved knowledge sources) and present them inside the chatbot to the user/agent.  It will ask clarification questions to ensure it provides the right answers and context to the user/agent.\r\n\r\n•           eGain Notify, enables outbound notification messages to customers.\r\n\r\n•           eGain Offers uses browsing behavior and other attributes, to proactively serve a targeted offer to website visitors.\r\n\r\n•           eGain Contact Center Analytics is an analytics tool to measure, manage, interactions within contact centers with customers.\r\n\r\n•           eGain Advisor Desktop is a desktop for contact center agents.",
+    "certificationType": "Rev5",
+    "website": "https://www.egain.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/eGain%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedrampinfosec@egain.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "marketingteam@egain.com"
+    }
+  ],
+  "assessor": {
+    "name": "137046",
+    "assessorID": "137046"
+  }
+}

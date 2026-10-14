@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2526240411",
+    "providerName": "Koniag Government Services",
+    "serviceName": "Koniag Government Services Electronic Health Record System (KGS EHRS)",
+    "serviceAcronym": "Koniag Government Services Electronic Health Record System (KGS EHRS)",
+    "serviceDescription": "The Koniag Government Services Electronic Health Record System (KGS EHRS) is a Software as a Service (SaaS) solution that provides an electronic health record system for occupational health and medical records. This system centralizes and digitizes patient medical records, enabling healthcare professionals and agency stakeholders to efficiently access, retrieve, and share patient data.",
+    "certificationType": "Rev5",
+    "website": "https://www.koniag-gs.com/health/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/KGS%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "kgsehrs-security@koniag-gs.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "kgsehrs-sales@koniag-gs.com"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

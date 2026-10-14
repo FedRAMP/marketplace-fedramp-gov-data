@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2415334644",
+    "providerName": "United States Department of Agriculture",
+    "serviceName": "AgCloud Managed Platform Services (AMPS)",
+    "serviceAcronym": "AgCloud Managed Platform Services (AMPS)",
+    "serviceDescription": "The AMPS system boundary is a General Support System (GSS) that is made up of operating systems (OS) and services designed to run on third-party cloud hosting platforms.  The purpose of this system is to allow USDA customers to leverage the robust capabilities of a FedRAMP cloud service provider (CSP) hosting environment for application delivery while DISC maintains the full management of the OS and services required to meet DISC controls at the High baseline level.  The FedRAMP’ed CSPs are outside of the security boundary and AMPS inherits controls from the CSP. \n\nThe AMPS system is a major part of DISC’s cloud service offering for applications external to DISC. The system enables applications running in the cloud environment to take advantage of CSP virtualization of their computing environments. CSP virtualization alongside the Highly Available (HA) network that AMPS runs on, provides applications leveraging this environment with many advantages over a typical physical computing environment including, but not limited to, faster processing, greater up-time, and redundancy.   \n\nThe AMPS system is not publicly accessible. This system is only available to organizations who contract with DISC. No entity outside of the USDA (external users) has access to this system.",
+    "certificationType": "Rev5",
+    "website": "https://www.usda.gov/disc/service-catalog#cloud-solutions",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/USDA%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "USDA-OCIO-FedRAMP_Support@USDA.GOV"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "DISC.Marketing@usda.gov"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2108360349",
+    "providerName": "Adobe",
+    "serviceName": "Adobe Acrobat Sign for Government",
+    "serviceAcronym": "Adobe Acrobat Sign for Government",
+    "serviceDescription": "Adobe Acrobat Sign for Government is a security-enhanced instance of Adobe's industry-leading Software as a Service (SaaS) application that lets agencies rapidly replace manual, paper-based approval and signature processes with automated, all-digital workflows. Adobe Acrobat Sign for Government makes employees more productive in the office or working remotely by letting them sign documents, request signatures, and track processes from web and mobile devices - as well as inside applications they use every day. Signers can sign on desktop or mobile devices with no downloads or signups required. Adobe Acrobat Sign for Government capabilities include webforms, batch signing, automated workflows and document templates, multifactor signer authentication, and support for both citizen e-signatures and employee digital signatures (using PIV or CAC cards) in a single process. Adobe Acrobat Sign for Government is purely a web browser application with no mobile application required for use by customers. Additionally, customers can also leverage Adobe Acrobat Sign for Government's APIs for integration with their systems or 3rd-party services to expand their digital signing experiences. Integrations to Adobe Acrobat Sign carried out by an agency, for other Adobe products and 3rd-party cloud services, are considered customer responsibility and not a part of the Adobe Acrobat Sign authorization. Adobe Acrobat Sign for Government is designated for the sole use of U.S. federal, state, local, tribal, and territorial government customers, and U.S. government contractors and partners. Adobe Acrobat Sign is used by the majority of Fortune 100 companies. And, it's Microsoft's preferred e-signature solution. Learn more here. https://www.adobe.com/documentcloud/industries/government.html",
+    "certificationType": "Rev5",
+    "website": "https://www.adobe.com/documentcloud/industries/government.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Adobe%20Logo.png",
+    "ueiNumber": "V6QLDTQZ7ZF7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@adobe.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "government@adobe.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

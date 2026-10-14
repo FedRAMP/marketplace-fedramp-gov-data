@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2308034636",
+    "providerName": "Wiz, Inc.",
+    "serviceName": "Wiz Moderate for U.S. Government",
+    "serviceAcronym": "Wiz Moderate for U.S. Government",
+    "serviceDescription": "Wiz Moderate for U.S. Government (Wiz Mod) is an agentless vulnerability scanning tool that uses an application programming interface (API) connector to scan customer environments in AWS GovCloud. Wiz Mod Gov scans various cloud architectures including virtual machines (VMs), containers, serverless, and PaaS solutions. Integrations with the continuous integration/continuous deployment (CI/CD) pipeline allow Wiz Inc. customers to define scanning policies for images and Infrastructure as Code (IaC) prior to deploying into production. Wiz Mod inventories the technologies discovered in the environment to provide insight into all assets, including third-party access to the environment and code libraries detected on workloads. In addition to scanning for vulnerabilities and configuration standards and uses a threat intelligence feed to scan cloud workloads, detect malicious code, and provide information regarding the severity of the threat, and can give insight into all the privileged role assignments in the environment.",
+    "certificationType": "Rev5",
+    "website": "https://www.wiz.io/",
+    "logo": "https://fedramp.gov/assets/img/logos/CSP_logos/Wiz%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedops@wiz.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedsales@wiz.io"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2521554684",
+    "providerName": "H2O.AI for Government",
+    "serviceName": "H2O.AI",
+    "serviceAcronym": "H2O.AI",
+    "serviceDescription": "H2O.ai Cloud for Government (H2O-GOV) is the unified AI platform that delivers the convergence of predictive, generative, agentic, and AI observability & governance for federal agencies. Hosted on AWS GovCloud and fully deployed and managed by H2O.ai, H2O.ai Cloud for Government provides agencies with a secure, mission-ready AI technology stack with dedicated tenancy and full sovereignty over agency data, prompts, and models, without the operational burden of standing up and maintaining the underlying infrastructure. \n\nOverview \n• H2O-GOV accelerates federal AI adoption with a single sovereign AI enterprise-grade control plane, and a platform purpose-built for secure government workloads. This platform reduces the time and resources needed for AI model development, fine-tuning, and evaluation by simplifying workflows; minimizing manual coding and fine-tuning; and automating data preprocessing, including imputation, encoding, standardization, feature engineering, and performance assessment. It also improves the reliability, safety, and effectiveness of RAG and LLM-based applications. Agency data is AI-ready from the start.  The platform is LLM and machine learning model-agnostic, enabling you to connect a wide range of LLMs. It is fully scalable, includes guardrails, summarization, cost controls, telemetry for chargeback, and customization options. \n \n• The platform supports critical federal mission areas, including cybersecurity threat detection, mission analytics, fraud and anomaly detection, predictive maintenance, document triage and extraction, and secure generative AI assistants grounded in agency knowledge. Backed by FedRAMP High authorization, encryption at rest and in transit, dedicated-tenant isolation, and federated SSO integration with agency identity providers, H2O-GOV enables agencies to deploy AI confidently across regulated and sensitive workloads. \n \n• A built-in management layer streamlines user provisioning enforces granular role-based access control (RBAC), and delivers workload and usage monitoring, giving federal program managers the visibility, observability, and governance required to operate AI responsibly at mission scale. H2O.ai's operations team handles provisioning, scaling, patching, software updates, and 24/7 platform support under the FedRAMP-authorized boundary. \n\nPlease note: H2O.ai Cloud for Government is delivered as a product platform. H2O.ai additionally offers professional services and expert guidance to accelerate deployment and, where required, tailored modeling.",
+    "certificationType": "Rev5",
+    "website": "https://h2o.ai/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/H2O%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securitycompliance@projecthosts.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@h2o.ai"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

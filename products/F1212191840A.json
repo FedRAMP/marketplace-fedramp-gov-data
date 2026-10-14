@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1212191840A",
+    "providerName": "Box Inc.",
+    "serviceName": "Box Enterprise Cloud Content Collaboration Platform",
+    "serviceAcronym": "Box Enterprise Cloud Content Collaboration Platform",
+    "serviceDescription": "Box is a FedRAMP High, FedRAMP Moderate and DoD IL4 Authorized secure cloud content management, collaboration, and intelligent automation platform that enables federal agencies and the Department of Defense to securely manage, share, and analyze mission-critical content in the cloud.\n\nBuilt to support the rigorous compliance, security, and operational demands of U.S. federal and defense environments, Box provides a unified content platform where agencies can collaborate in real time, manage the full lifecycle of Controlled Unclassified Information (CUI), automate workflows, and maintain full control over sensitive data—whether in civilian, DoD, or Intelligence Community settings.\n\nBox delivers enterprise-grade security with end-to-end encryption, granular access controls, detailed audit trails, and native data governance capabilities—all managed in U.S.-based data centers by U.S. Persons. The platform integrates seamlessly with existing identity providers, zero trust architectures, and endpoint security solutions, supporting CAC/PIV authentication and aligning with NIST 800-53 Rev5, FedRAMP High, and DoD SRG IL4 control baselines.\n\nBoxAI, a secure, built-in suite of enterprise-grade artificial intelligence tools, enhances the power of content by enabling federal teams to summarize documents, extract insights, automate repetitive tasks, and make faster, smarter decisions—without compromising compliance. BoxAI operates entirely within the FedRAMP High boundary, ensuring that government data remains private, is never used to train AI models, and is governed according to strict federal standards.\n\nBox is committed to supporting agencies as they modernize IT operations, drive digital transformation, and accelerate mission outcomes—securely, intelligently, and at scale. With Box for Government and BoxAI, agencies gain the trusted content layer they need to operate with speed, agility, and confidence in today’s dynamic threat landscape.",
+    "certificationType": "Rev5",
+    "website": "https://www.box.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Box%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "compliance@box.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedteam@box.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

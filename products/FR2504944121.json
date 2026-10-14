@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2504944121",
+    "providerName": "Verizon",
+    "serviceName": "Verizon Managed SD WAN",
+    "serviceAcronym": "Verizon Managed SD WAN",
+    "serviceDescription": "Verizon Managed Software Defined  Wide Area Network (SD WAN)\n\nDescription:\n\nVerizon offers a FedRAMP High Ready SD WAN managed solution designed to help optimize network performance, enhance security, and simplify operations for our federal government clients.\n\nKey Features\n\n - Dynamic Path Selection: Intelligent routing based on real-time network conditions to help  optimize application performance.\n  \n - Application-Aware Routing: Prioritization of your critical applications to help ensure performance even during peak congestion.\n   \n - Secure Connectivity: Built-in security features, including Zone-Based Firewall (ZBFW) and FIPS 140-2/3 encryption certified equipment, for robust threat protection.\n\n - Transport Agnostic: Supports various transport options including Verizon Private IP (PIP/MPLS), Verizon Internet, and third-party transport.\n \n- Centralized Management:  Centralized dashboard for easy network configuration, monitoring, and management of your entire network\n\nBenefits\n\nProvides a complete solution with a simplified experience that seamlessly integrates with the Verizon Government Cloud and Verizon network infrastructure.   \n\n - Improved Efficiency:   Save time and reduce operational complexity  with streamlined, automated deployment and orchestration.\n\n - Network Modernization:  Simplify and modernize network operations, freeing up valuable IT resources, with centralized management and automation capabilities.\n\n - Reduced Costs: Minimize reliance on expensive specialized expertise and leverage cost-effective transport options through application-aware routing.\n\n - Enhanced Security: Protect your network and data with a multi-layered security approach.\n\n - Agile Connectivity:  Choose flexible and scalable network connectivity adaptable to your changing needs.\n\n - Service Capabilities: Manage your network through our customer portal providing access to your inventory, incidents, network performance reporting, and more self-service capabilities.",
+    "certificationType": "Rev5",
+    "website": "https://www.verizongov.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Verizon%20Logo.png",
+    "ueiNumber": "GEYFS4D96R55"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "verizongovtcloud-cso@verizon.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "govinfo@verizon.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2419149007",
+    "providerName": "GovStrive, LLC",
+    "serviceName": "FedSuite",
+    "serviceAcronym": "FedSuite",
+    "serviceDescription": "FedSuite is offered as a Software-as-a-Service (SaaS) solution within a multi-tenant, government-exclusive community computing environment, available to federal customers. This suite of web-based applications delivers agency-specific insights by analyzing employee and workforce data. The intuitive interfaces of FedSuite tools enable agencies to gain actionable insights and a comprehensive understanding of their workforces from various perspectives. FedSuite includes the following applications: FedChart, FedLens, and FedViews.\n\nFedChart (fedchart.com) is a workforce planning tool that automates the creation, maintenance, and updating of organizational charts, adhering to agency-specific business rules and requirements. Utilizing federal HR data, FedChart visualizes an agency’s structure, positions, and workforce. The process begins with building the agency’s framework using organizational levels and work units. Next, positions and their descriptions are added to this framework. Finally, employee data is mapped to positions to depict the current workforce. Agencies can use FedChart to request new positions, reallocate positions between organizations, and initiate hiring actions for new or vacant positions. Agency HR administrators can review and approve or reject changes to positions, hiring requests, and work unit modifications in accordance with agency protocols and objectives. \n\nFedLens (fedlens.com) is a research-based tool designed to enhance data-driven workforce management and planning through automated reports, trend analysis, and predictive analytics. It comprises three modules: Diagnostics, Snapshots, and Predictions.\n\nFedLens Diagnostics leverages current workforce data to identify risks in areas such as capacity, diversity, skills, performance, and workforce engagement. This data is benchmarked against standards from the Office of Personnel Management (OPM) and other agencies to assess organizational health.\n\nFedLens Snapshots automates the generation of HR reports commonly required by leadership, offering detailed insights into the onboard workforce.\n\nFedLens Predictions aids agencies in proactive preparation and planning.\n\nFedViews (fedviews.com) is an automated tool for Federal Employee Viewpoint Survey (FEVS) reporting, trend analysis, and workforce planning. It assists federal agencies in generating FEVS reports in compliance with Office of Personnel Management (OPM) requirements. FedViews enables federal HR leaders to compare viewpoint data over time, identify trends, and benchmark scores across departments and within agencies. Utilizing FEVs results, FedViews allows for the development, implementation, and tracking of action plans to improve the work environment.",
+    "certificationType": "Rev5",
+    "website": "https://govstrive.com/our-focus/workforce-solutions/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/GovStrive%20Logo2.png",
+    "ueiNumber": "UKXQJYEKUN34"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "itadmin@govstrive.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "khsen@govstrive.com"
+    }
+  ],
+  "assessor": {
+    "name": "201825",
+    "assessorID": "201825"
+  }
+}

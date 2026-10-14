@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2231070252",
+    "providerName": "BeyondTrust",
+    "serviceName": "BeyondTrust Identity Security For Government",
+    "serviceAcronym": "BeyondTrust Identity Security For Government",
+    "serviceDescription": "BeyondTrust delivers identity security solutions designed for U.S. government agencies through a unified ecosystem that consolidates controls, shares intelligence, and enforces Zero Trust across human, machine, and AI identities. All solutions are FedRAMP-authorized and hosted in a secure government cloud, supporting federal, state, local, and tribal organizations.\r\n-Zero Trust Privileged Access Management for Government: The solution enforces zero trust principles by providing essential identity security and control over remote connections, eliminating the need for traditional VPNs, and protecting common Paths to Privilege that attackers exploit. Provides secure, just-in-time access across cloud, on-premises, and OT environments. Enforces identity verification and privilege control, replacing VPNs while reducing common attack paths.\r\n-Remote Support for Government: Enables secure, auditable access for IT teams. Eliminates the need for traditional VPNs and standing privileges, ensuring access is granted only when necessary and under strict monitoring. With session logging including full video, audit reports contain granular details and metadata to ensure compliance is met.\r\n-Identity Security Insights for Government: Continuously assess and maps human, machine, and AI identities, detects privilege risks, and provides prescriptive recommendations to reduce risk. Aligns findings to MITRE ATT&CK and integrates with incident response workflows.\r\nPathfinder Platform\r\nPathfinder integrates these solutions, delivering shared visibility, coordinated response, and continuous Zero Trust enforcement.\r\nMission Benefits\r\nAgencies can enforce least privilege and just-in-time access, eliminate unnecessary escalation paths, reduce exposure from over-privileged accounts, and meet Zero Trust and FedRAMP compliance requirements while securing mission-critical operations.",
+    "certificationType": "Rev5",
+    "website": "https://www.beyondtrust.com/solutions/compliance/fedramp",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/BeyondTrust%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "secure@beyondtrust.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@beyondtrust.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2221161553",
+    "providerName": "SecurityScorecard, LLC",
+    "serviceName": "SecurityScorecard Security Ratings",
+    "serviceAcronym": "SecurityScorecard Security Ratings",
+    "serviceDescription": "SecurityScorecard Security Ratings monitors the security posture of millions of companies by calculating a risk score derived from publicly available data. Companies are assigned A-F ratings across risk factors including domain name system (DNS) health, internet protocol (IP) reputation, web application security, network security, leaked information, hacker chatter, endpoint security, and patching cadence. This data is provided to customers via the Security Ratings web application.\nCustomers use the Security Ratings web application to review security ratings and detailed security reports. Users access Security Ratings through a standard web browser and leverage identity federation for authentication. Within the application, users search for companies of interest and review security reports developed by SecurityScorecard. These ratings and reports allow customers to evaluate the cybersecurity risk for companies of interest using data-driven, objective, and continuously evolving metrics that provide visibility into information security control weaknesses as well as potential vulnerabilities throughout the supply chain ecosystem. Users can also create \"portfolios\" to group together companies of interest and easily compare vendors to help make procurement decisions, evaluate acquisition targets, conduct industry benchmarking, and more.\nAdditional capabilities and data points (collected from publicly available data sources) in the Security Ratings web application include:\n•\tIP attribution to company domain(s)\n•\tSecurity vulnerability monitoring by company and security factors\n•\tSecurity risk benchmarking and scoring by company and industry\n•\tAlerts for changes in risk scores\n•\tExecutive and detailed company scorecard reports\n•\tWorkflow for collaboration and remediation with monitored suppliers",
+    "certificationType": "Rev5",
+    "website": "https://www.securityscorecard.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SecurityScorecard%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@securityscorecard.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@securityscorecard.io"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

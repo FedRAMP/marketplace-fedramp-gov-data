@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2633153276",
+    "providerName": "Anyreach, Inc.",
+    "serviceName": "Anyreach App Software Application",
+    "serviceAcronym": "Anyreach App Software Application",
+    "serviceDescription": "Anyreach App is a cloud-hosted SaaS offering for building, deploying, and operating omnichannel conversational AI agents. Anyreach is preparing the offering for direct use by federal agencies in constituent-service and contact-center workflows. An adopting agency will make its own risk decision and issue the applicable authorization for integration into its federal information system.",
+    "certificationType": "Rev5",
+    "website": "https://anyreach.ai/",
+    "logo": "https://anyreach-public.s3.us-west-1.amazonaws.com/anyreach-logos/lockup-light.png",
+    "ueiNumber": "YC3XHN5M75X6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://anyreach.trust.site/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@anyreach.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@anyreach.ai"
+    }
+  ]
+}

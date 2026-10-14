@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631258135",
+    "providerName": "Specset",
+    "serviceName": "Specset Cloud Platform",
+    "serviceAcronym": "Specset Cloud Platform",
+    "serviceDescription": "The Specset Cloud Platform is an AI platform for construction document review. It automates technical review across project manuals, drawing sheets and shop drawings: submittal review against project specifications, UFGS (Unified Facilities Guide Specifications) compliance checking, design review automation, asset management logic, and search and question answering across a project's documents. The platform flags potential issues and returns cited answers drawn from the customer's own project documents. Specset is the trade name of Spot.xyz Corporation, formerly Specbook. The SOC 2 Type II report supporting this package is issued to Spot.xyz Corporation DBA Specset, and the Unique Entity Identifier above is registered to that entity. FedRAMP ID FR2631258135 is the sole active Marketplace listing for this offering; a duplicate listing created at intake, FR2631747321, is pending retirement, requested 2026-08-31.",
+    "certificationType": "Rev5",
+    "website": "https://specset.com",
+    "logo": "https://specset.com/fedramp/specset-logo.png",
+    "ueiNumber": "S7RZBSZXNBD5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.specset.com",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@specset.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@specset.com"
+    }
+  ],
+  "assessor": {
+    "name": "202040",
+    "assessorID": "202040"
+  }
+}

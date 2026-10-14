@@ -1,0 +1,28 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2414718666",
+    "providerName": "Digital Science UK Limited",
+    "serviceName": "Overleaf",
+    "serviceAcronym": "Overleaf",
+    "serviceDescription": "Overleaf is delivered as a SaaS offering using a multi-tenant Public Cloud cloud computing environment. Overleaf is an online collaborative writing and publishing tool that makes the whole process of writing, editing and publishing scientific and technical documents much quicker and easier. Overleaf provides the convenience of an easy-to-use LaTeX editor with real-time collaboration and the fully compiled output produced automatically.",
+    "certificationType": "Rev5",
+    "website": "https://www.overleaf.com/for/government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Overleaf%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@overleaf.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal@overleaf.com"
+    }
+  ]
+}

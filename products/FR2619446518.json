@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2619446518",
+    "providerName": "Moodle US LLC",
+    "serviceName": "Moodle for Government",
+    "serviceAcronym": "Moodle for Government",
+    "serviceDescription": "Moodle for Government is a FedRAMP® Ready SaaS Learning Management System (LMS) powered by Moodle Workplace, specifically engineered to meet the mission-critical training and compliance requirements of U.S. public sector agencies including federal, state, and local. Built on a foundation of \"security by design,\" Moodle for Government provides a secure, scalable, and highly customizable environment for mandatory compliance training, workforce development, onboarding, and large-scale government training initiatives that evolves with your agency.\nAs our dedicated public sector solution built around Moodle’s enterprise learning platform, Moodle for Government enables agencies to modernize their learning ecosystems while maintaining the highest standards of control and accountability. This solution includes a wide variety of additional plugins to extend enterprise capabilities even further, and it is deployed in AWS GovCloud through our own proprietary hosting tool, which orchestrates our curated set of infrastructure components. Our solution is designed to optimize performance, reliability, and security while also offering a high level of autonomy, with dedicated per-client resources and client control of major-release upgrade scheduling.\nMoodle for Government is committed to accessibility and meeting federal mandates. The platform is 508 and WCAG 2.2 AA compliant and supports over 20 languages, ensuring all personnel can access training regardless of location or ability. In addition to its FedRAMP Ready status, Moodle services in the U.S. are SOC 2 Type 2 compliant.\nWith robust functionality, Moodle for Government empowers teams to:\n-Utilize rule-based automation to track certifications, manage renewals, and generate audit-ready reports.\n-Deliver role-based learning paths tailored to specific job functions or mission requirements.\n-Gain real-time visibility into training progress and skills gaps through customizable reporting dashboards.",
+    "certificationType": "Rev5",
+    "website": "https://moodle.com/us/solutions/government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Moodle%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "maxine.henry@moodle.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "jim.mezzanotte@moodle.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

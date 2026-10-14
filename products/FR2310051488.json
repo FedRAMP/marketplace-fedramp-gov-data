@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2310051488",
+    "providerName": "Standard Technology Inc.",
+    "serviceName": "Contract Management Planning and Surveillance System",
+    "serviceAcronym": "Contract Management Planning and Surveillance System",
+    "serviceDescription": "COMPASS is a contract execution management system designed for the Department of Defense (DoD) customers to manage contract lifecycles from award to completion. The system is categorized as Moderate (M) under the Federal Information Security Modernization Act (FISMA) security categorization, aligning with the FedRAMP Moderate baseline for cloud services. COMPASS is hosted on Microsoft Azure Government, a platform-as-a-service (PaaS) environment, which holds a FedRAMP High Provisional Authority to Operate (P-ATO) from the Joint Authorization Board (JAB).\r\n\r\nSystem Overview\r\nCOMPASS provides DoD customers with tools to track, document, and store contract files throughout the contract execution phase. Users can generate customizable reports on contract statuses and activities, with the option to receive automated email notifications based on a configurable schedule.\r\n\r\nThe application is accessed via a web interface secured with Transport Layer Security (TLS) 1.2 or higher. DoD Common Access Card (CAC) authentication, utilizing X.509 certificates, ensures secure access for users. The back-end administrative access is protected through Remote Desktop Protocol (RDP) and Duo Federal multi-factor authentication (MFA) using FIPS 140-2 validated hard token YubiKeys.\r\n\r\nInfrastructure and Hosting\r\nCOMPASS is hosted on the Microsoft Azure Government cloud infrastructure, inheriting numerous FedRAMP security controls from the platform. Microsoft Azure Government manages all underlying infrastructure, ensuring compliance with stringent security requirements. The scope of inherited and partially inherited controls is outlined in Microsoft's documentation on Azure services’ audit scopes for FedRAMP and DoD Cloud Computing Security Requirements Guide (SRG).\r\n\r\nSecurity and Compliance\r\nCOMPASS implements robust security features, including logical separation of customer data within unique databases, ensuring that customers and vendors are isolated from each other’s data. Standard Technology, Inc. enforces role-based access control (RBAC) policies for both administrative staff and customer users. Azure DevOps is integrated with a commercial Azure subscription for managing the system's development, with code changes being deployed into the Azure Government environment.\r\n\r\nThe system utilizes a variety of external services for security and functionality:\r\n\r\nTenable Nessus Pro: Vulnerability and compliance scanning.\r\nMicrosoft Updates: OS and antivirus updates for COMPASS servers.\r\nHCL AppScan: Dynamic code analysis.\r\nSecurity Content Automation Protocol (SCAP): Configuration compliance scanning.\r\nMicrosoft DevOps: Logic Apps service for creating work items triggered by security alerts.\r\nSMTPS: Email notifications during outages and security alerts.\r\nNaval Observatory Server: Time synchronization.\r\nDuo Federal MFA: Provides multi-factor authentication.\r\nGoogle DNSSEC: Ensures Domain Name System Security Extensions (DNSSEC).\r\nAzure Managed Services\r\nCOMPASS leverages several managed services within Azure to enhance operational efficiency and security, including:\r\n\r\nAzure SQL Managed Instances\r\nMicrosoft Power BI\r\nAzure Web Apps\r\nMicrosoft Sentinel\r\nAzure Web Application Firewall (WAF)\r\nMicrosoft Defender for Cloud\r\nCOMPASS meets the requirements of the FedRAMP Moderate baseline and leverages the security capabilities of the Azure Government PaaS to provide DoD customers with a secure, reliable contract management platform.",
+    "certificationType": "Rev5",
+    "website": "https://www.stic2.com/services/advisory-and-assistance/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/STI%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "morrillm@stic2.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "jenkinsk@stic2.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

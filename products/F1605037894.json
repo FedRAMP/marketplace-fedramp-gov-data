@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1605037894",
+    "providerName": "Virtru",
+    "serviceName": "Virtru Data Security Platform",
+    "serviceAcronym": "Virtru Data Security Platform",
+    "serviceDescription": "The Virtru Data Protection Platform is a FedRAMP-Authorized (MODERATE) SaaS application that provides multiple secure communications services, such as email and file transfer, that are E2E-encrypted and can be policy-controlled by the sender, along with tools that site administrators can use for management tasks and platform analytics.",
+    "certificationType": "Rev5",
+    "website": "https://virtru.com/fedramp",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Virtru%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@virtru.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@virtru.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

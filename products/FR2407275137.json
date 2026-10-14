@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2407275137",
+    "providerName": "Coralogix Inc.",
+    "serviceName": "Coralogix U.S. GovOps",
+    "serviceAcronym": "Coralogix U.S. GovOps",
+    "serviceDescription": "Coralogix US GovOps is a Software as a Service (SaaS) cloud analytics platform for customer’s observability data including logs, metrics, traces and security data using a real-time streaming pipeline. This solution provides monitoring, visualization, and alerting capabilities by enabling users to define different data pipelines per use case. Customers are able to analyze and monitor all system data in a single, centralized platform where any data can be connected in any format, from any source, to visualize and query together using any syntax for extensive event correlation and streamlined troubleshooting.",
+    "certificationType": "Rev5",
+    "website": "http://coralogix.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Coralogix%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@coralogix.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "ariel@coralogix.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

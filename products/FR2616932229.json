@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2616932229",
+    "providerName": "Glytec, LLC",
+    "serviceName": "Glucommander",
+    "serviceAcronym": "Glucommander",
+    "serviceDescription": "Glytec’s Glucommander® is an FDA-cleared software-as-a-medical-device (SaMD), utilized for diabetes management and automated insulin titration. Glucommander is purpose-built to improve patient safety and clinical outcomes. Glucommander provides clinicians, hospitalists, and medical facilities with constant, data-driven dosing recommendations that stabilize blood glucose levels and decrease the incidences of hypoglycemia, length of stays and readmissions.",
+    "certificationType": "Rev5",
+    "website": "https://glytec.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Glytec%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedrampsecurity@glytec.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "government@glytec.com"
+    }
+  ],
+  "assessor": {
+    "name": "202040",
+    "assessorID": "202040"
+  }
+}

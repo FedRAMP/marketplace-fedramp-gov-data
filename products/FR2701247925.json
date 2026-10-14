@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2701247925",
+    "providerName": "Litmas, Inc.",
+    "serviceName": "Litmas AI",
+    "serviceAcronym": "Litmas AI",
+    "serviceDescription": "Litmas AI is a legal AI platform for litigation teams, hosted on AWS in the United States. At its core is an agentic associate that takes a litigator's request and calls the platform's tools to complete it: evidence mapping, legal research, citation validation and drafting. Every fact is traced to its source page and line, and drafts of motions, pleadings and responses are tied to that mapped record.",
+    "certificationType": "Rev5",
+    "website": "https://litmas.ai",
+    "logo": "https://litmas.ai/logo/litmas-logo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://litmas.ai/trust",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "sriram@litmas.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "tyler@litmas.ai"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2428039108",
+    "providerName": "Siemens AG",
+    "serviceName": "DepotFinity",
+    "serviceAcronym": "DepotFinity",
+    "serviceDescription": "DepotFinity is an advanced charge management software designed by Siemens to optimize the operation and maintenance of electric vehicle (EV) charging infrastructure. The system supports centralized control, remote monitoring, smart scheduling, and load management. It integrates with various charging stations, ensuring interoperability and scalability. DepotFinity's authorization boundary includes features for real-time data analytics, security protocols, and compliance with regulatory standards, including FedRAMP. This service enables efficient management of EV charging networks, reducing operational costs and enhancing reliability.",
+    "certificationType": "Rev5",
+    "website": "https://www.siemens.com/us/en/products/energy/topics/transportation-electrification/depot-cloud-services.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Depot%20Logo.png",
+    "ueiNumber": "J6QDW5H5CWB8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cert@siemens.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@heliox-energy.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

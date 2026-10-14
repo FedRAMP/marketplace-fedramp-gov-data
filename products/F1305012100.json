@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1305012100",
+    "providerName": "Leidos Digital Solutions, Inc.",
+    "serviceName": "in3sight",
+    "serviceAcronym": "in3sight",
+    "serviceDescription": "The Leidos Software as a Service (SaaS) Government Community Cloud, In3Sight provides customers monitoring and management of their IT infrastructure. The personnel supporting In3Sight, and its customers are physically located in the United States, and the In3Sight SaaS offering is hosted within geographically disperse data centers that comply with stringent security & compliance requirements. The In3Sight SaaS offering supports customer's voice, email, storage, network, and other critical applications on an “as a Service” basis.",
+    "certificationType": "Rev5",
+    "website": "https://www.leidos.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Leidos%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "in3sight-security@leidos.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "in3sight-fedramp@leidos.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

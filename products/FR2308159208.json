@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2308159208",
+    "providerName": "Snowflake Inc.",
+    "serviceName": "The Data Cloud on AWS GovCloud (High)",
+    "serviceAcronym": "The Data Cloud on AWS GovCloud (High)",
+    "serviceDescription": "Snowflake is the only data warehouse built for the cloud, enabling the data-driven enterprise with instant elasticity, secure data sharing and per-second pricing, across multiple clouds. Snowflake combines the power of data warehousing, the flexibility of big data platforms and the elasticity of the cloud at a fraction of the cost of traditional solutions. Find out more at https://www.snowflake.com/.\r\n\r\nSnowflake also provides connectors available for customers to use for connecting to Snowflake. Additional Snowflake Connector information can be found at the following location: https://docs.snowflake.com/en/developer-guide/drivers.",
+    "certificationType": "Rev5",
+    "website": "https://www.snowflake.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Snowflake%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@snowflake.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "FedRAMP@snowflake.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

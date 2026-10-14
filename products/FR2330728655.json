@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2330728655",
+    "providerName": "Chronus LLC",
+    "serviceName": "Chronus for Government",
+    "serviceAcronym": "Chronus for Government",
+    "serviceDescription": "Chronus for Government (CSO) is a SaaS based employee development solution that allows customers to automate and scale their mentoring and ERG programs. Chronus provides cloud-based talent development software that runs multiple enterprise mentoring, onboarding, executive coaching, and ERG programs from a single platform. Each program has the ability to have its own admin with access rights to their program only, and each program can have a unique configuration for matching methods, profile information, reporting, content, engagement plans, etc. Users will have a single global profile, and can participate in multiple programs.",
+    "certificationType": "Rev5",
+    "website": "https://chronus.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Chronus%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "techsupport@chronusgov.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@chronus.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

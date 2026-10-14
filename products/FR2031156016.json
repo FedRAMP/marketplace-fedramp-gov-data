@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2031156016",
+    "providerName": "FormAssembly, Inc.",
+    "serviceName": "FormAssembly Gov Cloud",
+    "serviceAcronym": "FormAssembly Gov Cloud",
+    "serviceDescription": "FormAssembly Government Cloud provides federal clients with the ability to build, design, and manage web forms and surveys from a SaaS. FormAssembly Government Cloud is a Software-as-a-Service (SaaS) Cloud Service Offering (CSO) that provides federal clients with the ability to build, design, and manage web forms and surveys. FormAssembly Government Cloud supports PIV/CAC for authentication. A FormAssembly dashboard provides client administrators to add additional internal users and the ability to create forms. Clients can also collect data and eliminate manual data entry through smart integrations using FormAssembly Government Cloud. FormAssembly resides in the Amazon Web Services (AWS) US East/West, which maintains FedRAMP Moderate authorization. FormAssembly is responsible for managing all code and infrastructure - clients do not have access to the database servers and are not responsible for patching and management of the infrastructure.",
+    "certificationType": "Rev5",
+    "website": "https://formassembly.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/FormAssembly%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@formassembly.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@formassembly.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

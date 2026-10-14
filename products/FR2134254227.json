@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2134254227",
+    "providerName": "Devo",
+    "serviceName": "Devo.Gov-US",
+    "serviceAcronym": "Devo.Gov-US",
+    "serviceDescription": "Devo is a cloud-native logging and security analytics platform. Devo ingests logs at cloud scale, stores all logs in their native format, and allows the customer to query the data immediately upon initial ingesting. Devo provides multiple applications on the platform including the Devo Intelligent SIEM, SOAR, Security Operations, MITRE ATT&CK Advisor, Relay, Collectors, and the Devo Exchange allowing the customer’s SOC and IT Operations teams to leverage and collaborate on the same data. Our newly added capabilities include, the Devo User and Entity Behavior Analytics (UEBA), Devo ThreatLink, and Devo Data Orchestrator capabilities as well as the Devo Endpoint Agent, powered by Snare Solutions - a centralized security log collection and management platform. Additionally, in partnership with one of our Managed Security Service Providers (MSSP), we’re happy to offer Managed Detection and Response (MDR) Services.",
+    "certificationType": "Rev5",
+    "website": "https://www.devo.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Devo%20Logo.png",
+    "ueiNumber": "NG6UMNWMXVW5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "soc@devo.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@devo.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

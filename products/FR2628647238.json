@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2628647238",
+    "providerName": "Eleven Labs Inc.",
+    "serviceName": "ElevenLabs Platform",
+    "serviceAcronym": "ElevenLabs Platform",
+    "serviceDescription": "The ElevenLabs Platform is a cloud-based AI voice and audio service that enables organizations to generate, transform, and deploy AI-produced speech and audio at scale. The FedRAMP Class A certification scope of the offering comprises three services — Text to Speech, Speech to Text, and Agents — delivered via the ElevenLabs API and the ElevenAgents platform, and applies only when the services are operated in Zero Retention Mode (ZRM), in which customer inputs and outputs are not retained and only system and audit data is persisted. All services share a common identity and access management layer, workspace-based multi-tenancy, and a unified data plane, with capabilities accessible to enterprise workspace administrators and developers integrating via API.",
+    "certificationType": "Rev5",
+    "website": "https://elevenlabs.io",
+    "logo": "https://eleven-public-cdn.elevenlabs.io/payloadcms/elevenlabs-official-logo.svg",
+    "ueiNumber": "SGN5YJ1W8418"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://compliance.elevenlabs.io",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-security@elevenlabs.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-sales@elevenlabs.io"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2421252644",
+    "providerName": "Varonis",
+    "serviceName": "Varonis DatAdvantage Cloud",
+    "serviceAcronym": "Varonis DatAdvantage Cloud",
+    "serviceDescription": "Varonis DatAdvantage Cloud is a cloud-hosted data security platform for protecting and governing enterprise data. Varonis DatAdvantage Cloud protects data wherever it lives by reducing unnecessary access, fixing misconfigurations, inventorying and labeling critical data sets, and stopping insider threats.\n\nWith Varonis DatAdvantage Cloud agencies can meet EO 14028 requirements to establish zero trust by inventorying and protecting their most sensitive data. OMB 22-09 data pillar and identity requirements can be fulfilled automatically with DatAdvantage Cloud's powerful automation suite. DatAdvantage Cloud tracks all user activity around cloud platforms and aggregates these logs in a single source. Varonis’ advanced user and entity behavior analytics helps to identify compromises by understanding anomalous behavior at the file/object level, easily fulfilling OMB 21-31 up to EL-3. Automated dashboards track various Federal regulations (i.e. NIST 800-53) for easy compliance reporting.\n\nVaronis DatAdvantage cloud integrates with a wide array of data repositories, SaaS applications, and cloud infrastructure to give customers a holistic view of their data. Varonis can be used to address these important use cases and more:\nDetecting insider threats and cyberattacks: Varonis DatAdvantage Cloud detects threats to data, including insider threats and external cyberattacks with a live-updating library of pre-built threat models based on attack techniques and vulnerabilities used by real-world adversaries.\n\nLimiting the blast radius of an attack: Varonis DatAdvantage Cloud analyzes where there is unnecessary access to data and can eliminate excessive access at scale, drastically reducing the damage from insider threats and cyberattacks.  \nPreventing data exposure: Varonis DatAdvantage Cloud’s DSPM capabilities help teams automatically classify sensitive data, find where information is exposed externally or internally, and helps teams continually prioritize remediation efforts to improve security posture. \n\nFixing misconfigurations: Varonis DatAdvantage Cloud provides SSPM capabilities to analyze and fix misconfigured Software as a Service (SaaS) applications, discover shadow instances, and spot vulnerabilities that could put data at risk. \nAchieving compliance: Varonis’ vast library of classification policies can discover sensitive data related to GDPR, CCPA, HIPAA, PCI, FTI, CUI, CJIS, Secret, Top Secret and more. The permissions analysis and continual monitoring Varonis provides gives auditors a real-time pulse on compliance and helps customers achieve compliance with NIST 800-53, NIST 800-171, RMF, CMMC, IRS Pub 1075 and more.",
+    "certificationType": "Rev5",
+    "website": "https://www.varonis.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Varonis%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "soc@varonis.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "gpomeroy@varonis.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

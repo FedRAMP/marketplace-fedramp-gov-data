@@ -1,0 +1,29 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2604643715",
+    "providerName": "Perplexity AI",
+    "serviceName": "Perplexity Enterprise and API Platform",
+    "serviceAcronym": "Perplexity Enterprise and API Platform",
+    "serviceDescription": "Perplexity's Enterprise platform provides agency users with access to leading frontier AI models (including OpenAI GPT, Anthropic Claude, Google Gemini, Perplexity Sonar, and more). The platform supports research and analysis across internal agency data and public sources through an intuitive conversational interface. Built on Perplexity's exabyte-scale proprietary knowledge index, responses are grounded in verifiable sources, providing trustworthy, transparent, and reliable information to users.\r\nThrough Perplexity's Search API, developers may also access Perplexity's exabyte-scale knowledge index to provide web-grounded answers in real time. The index tracks over 300bn unique URLs and processes hundreds of millions of pages per day, providing agencies a durable foundation for real time web retrieval.\r\nPerplexity's features include robust security and compliance measures such as SAML SSO, customizable access controls and data retention, comprehensive administrative management, audit logs, and dedicated priority support. Perplexity Enterprise minimizes the risks inherent in single-model solutions, with Perplexity’s model-agnostic architecture providing greater uptime and empowering IT administrators to enable and disable specific models to enforce policy compliance.",
+    "certificationType": "Rev5",
+    "website": "https://www.perplexity.ai/enterprise",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Perplexity%20Logo.png",
+    "ueiNumber": "P9N9FFAUBLQ4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@perplexity.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "usgov@perplexity.ai"
+    }
+  ]
+}

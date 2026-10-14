@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2409863458XL",
+    "providerName": "Confluent",
+    "serviceName": "Confluent Cloud for Government (CCG)",
+    "serviceAcronym": "Confluent Cloud for Government (CCG)",
+    "serviceDescription": "Confluent Cloud for Government (CCG) Software-as-a-Service\n(SaaS) is a fully managed, cloud-native Kafka service for connecting\nand processing data using a cloud computing environment. It enables\nits customers to focus on business needs instead of managing the\nunderlying infrastructure supporting their Kafka instances(s). It is\navailable to public, federal, state, local and tribal governments, as well\nas research institutions, federal contractors, government contractors,\netc.\n\nThe CCG offering is comprised of two components – the Cloud\nControl Plane and Data Plane (Kafka clusters). The Cloud Control\nPlane is hosted in Amazon Web Services (AWS) GovCloud and\nGoogle Cloud Platform (GCP) and is used by customers to select and\ndeploy their managed Kafka resources to a Satellite Cluster. The\nSatellite Cluster consists of one or many Kubernetes nodes running\nKafka, with the one or many availability zones (AZs) deployed based\non options selected by the customer. A customer can choose to\ndeploy a Satellite Cluster to AWS GovCloud. The Control Plane is\nused to manage resources in Satellite Clusters using the Control\nPipeline. All customer data is retained in Satellite Clusters and no\ncustomer data from the Satellite Clusters is sent to the Control Plane.",
+    "certificationType": "Rev5",
+    "website": "https://www.confluent.io/industry-solutions/public-sector/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Confluent%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securitycompliance@confluentgov.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "FedRAMP@confluent.io"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

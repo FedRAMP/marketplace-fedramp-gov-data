@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2218359666",
+    "providerName": "Haivision Systems, Inc.",
+    "serviceName": "Haivision Hub for Government (HUB-GOV)",
+    "serviceAcronym": "Haivision Hub for Government (HUB-GOV)",
+    "serviceDescription": "Haivision Hub for Government (HUB-GOV) is an easy-to-use video network service for securely and reliably transporting live streaming video from agency networks to other inter- and intra-agency destinations or for connecting live streams between agency networks and commercial cloud destinations. Hub Gov accomplishes this routing while adding minimal latency and providing AES-256 encryption of live streams.\n\nOffering start-up, integrated device control, stream optimization, and status & monitoring, all from a single browser window, Haivision Hub is ideal for any government organization needing an on-demand low latency video contribution network for any public affairs, citizen-facing communications, or cross-agency collaboration with live video.",
+    "certificationType": "Rev5",
+    "website": "https://www.haivision.com/products/haivision-hub/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Haivision%20Logo2.png",
+    "ueiNumber": "YR26K4JHBJC7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securityhubgov@haivision.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "govsales@haivision.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

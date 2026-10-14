@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2212912561",
+    "providerName": "Itamar Medical",
+    "serviceName": "Itamar Dispatcher Cloud (IDC)",
+    "serviceAcronym": "Itamar Dispatcher Cloud (IDC)",
+    "serviceDescription": "The Zoll-Itamar Dispatcher Cloud (IDC) supports health care providers conducting home sleep apnea tests utilizing the WatchPAT device. The provider integrates the IDC APIs into supported patient management systems to initialize WatchPAT devices and collect test results. The patients take the sleep study using the device and a proprietary Mobile application that communicates and transfers sleep study data to IDC in a secure manner.",
+    "certificationType": "Rev5",
+    "website": "https://www.itamar-medical.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Itamar%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@itamar-medical.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@itamar-medical.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

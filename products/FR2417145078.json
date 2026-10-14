@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2417145078",
+    "providerName": "Veritas Technologies, LLC",
+    "serviceName": "Alta SaaS Protection (ASP)",
+    "serviceAcronym": "Alta SaaS Protection (ASP)",
+    "serviceDescription": "Veritas Alta SaaS Protection is a cloud-based enterprise data protection and management solution for government entities to centrally protect, analyze, search, and manage all types of SaaS application data at any scale. The solution consists of a cloud-native backbone that runs in Microsoft Azure data centers as a software-as a service (SaaS) deployment. It provides granular data management, enterprise-grade security, high performance, and scalability. Veritas Alta SaaS Protection uses the SaaS providers’ native APIs to seamlessly work to enable backup, archive, migration, tiering, and recovery of data stored on the providers’ platform. The solution acts as a shield against evolving ransomware threats, ensuring data resilience and recoverability even during attacks. Veritas Alta SaaS Protection also provides the ability to make a true secondary copy of your Veritas Alta SaaS Protection Azure Blob Storage account(s) through an add-on service called Extra Data Backup.",
+    "certificationType": "Rev5",
+    "website": "https://www.veritas.com/alta/saas-protection",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Veritas%20Logo.png",
+    "ueiNumber": "GUZ5TX7GGMN6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "DL-VTAS-Fedramp@veritas.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "DL-VTAS-Sales-FedRAMP@veritas.com"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

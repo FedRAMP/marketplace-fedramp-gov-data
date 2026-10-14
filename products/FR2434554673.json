@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2434554673",
+    "providerName": "Palantir Technologies Inc.",
+    "serviceName": "Palantir Federal Cloud Service",
+    "serviceAcronym": "Palantir Federal Cloud Service",
+    "serviceDescription": "The Palantir Federal Cloud Service (PFCS) is a dedicated environment for the purpose of delivering Palantir software to federal government customers as a cloud service. Palantir software, including Foundry, AIP, Gotham, Apollo, and supporting products utilizing the same infrastructure, enables a multitude of collaborative and operational workflows for end government users. Palantir enables organizations to take advantage of best-in-class Artificial Intelligence, Machine Learning, Data Integration, Data Storage, Data Processing, Analytics, Visualization, Operations, Cybersecurity, and Software Deployment capabilities. The PFCS allows customers to acquire Palantir to quickly deliver value against their hardest problems.\r\n\r\n \r\n\r\nPFCS includes deployments on the following IaaS providers\r\n\r\nAWS GovCloud\r\n\r\nAzure Government\r\n\r\nAzure Commercial\r\n\r\nGoogle Cloud Platform (GCP)\r\n\r\nAWS US East/West*\r\n\r\n \r\n\r\nNote* PFCS deployments on AWS US East/West are limited to Moderate workloads as AWS US East/West holds only a FedRAMP Moderate authorization.\r\n\r\nPFCS combines the formerly separated PFCS High (FR2434554673) and PFCS Moderate (FR1912671248) packages",
+    "certificationType": "Rev5",
+    "website": "https://www.palantir.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Palantir%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-isso@palantir.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@palantir.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

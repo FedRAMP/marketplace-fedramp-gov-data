@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1707156421",
+    "providerName": "Envisage Technologies LLC",
+    "serviceName": "Acadis Readiness Suite",
+    "serviceAcronym": "Acadis Readiness Suite",
+    "serviceDescription": "Acadis Readiness Suite is a Software-as-a-Service (SaaS) training and readiness management platform operated by Envisage Technologies LLC. The service is deployed in AWS GovCloud (US) and authorized at the FedRAMP Moderate baseline. Acadis supports federal, public safety, and government training organizations in managing compliance-driven and high-risk training operations. The platform provides capabilities for training program management, certification tracking, scheduling, and operational reporting across distributed organizations.",
+    "certificationType": "Rev5",
+    "website": "https://www.acadis.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Acadis%20Logo2.png",
+    "ueiNumber": "N8MAWLN45HN5SAM"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@acadis.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal-sales@acadis.com"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

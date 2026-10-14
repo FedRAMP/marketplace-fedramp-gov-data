@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2224739070",
+    "providerName": "National Resident Matching Program",
+    "serviceName": "iMatch",
+    "serviceAcronym": "iMatch",
+    "serviceDescription": "Building on 70+ years of physician matching, the NRMP partners with U.S. government agencies to offer simple, equitable, and effective solutions for matching applicants to posts, stations, and government offices around the globe to effectively address recruitment and selection needs and drive outcomes for success.  Using our software-as-a-service application called iMatch, administrators can invite participants to take part in a “match” where we leverage our proprietary mathematical matching algorithm to prioritize the selection preferences of participants, placing them in the most preferred positions possible on their rank lists. Participants have access to real time Match information and obtain their Match results in the iMatch system. Additional Match Outcome Reports can inform workforce trends and guide growth and development.\n\nNRMP’s iMatch system and matching services simplify selection processes, reduce bias, and encourage stable outcomes based on the principles of market design and the following pillars :\n\n**Accuracy:** NRMP’s proprietary mathematical matching algorithm places participants based on preferences and creates the best possible outcome. Research on the algorithm was the basis for awarding the 2012 Nobel Prize in Economic Sciences.\n**Reliability:** NRMP creates a Match schedule to ensure on-time delivery of services with well published and communicated deadlines throughout the matching process. Our iMatch technology is state-of-the-art, highly secure, and confidential allowing Match participants to create their location selection preferences with piece-of-mind.\n**Integrity:** NRMP Matches foster a spirit of fairness because our services and matching processes are transparent, and all Match participants must adhere to the same rules and deadlines.\nAccepts and electronically verifies Personal Identity Verification (PIV) credentials\nRanking information submitted by a Match participant is visible only to individuals connected with the Match\nProvides a standardized process based on 70 years of matching expertise\nMatch outcome reports and statistics displayed at the conclusion of each matchFIPS 199 System Categorization - Moderate ​\nService Model - SaaS ​\nDeployment Model - Community ​\nCloud Stack / Leveraged Systems​ - AWS GovCloud\nA system customizable to each Match sponsor’s particular process:\n* Specific data fields displayed during participant registration\n* Branding with Agency logo alongside iMatch logo\n* Roles and responsibilities of users can be granted or removed specific to their job duties\n* Multi-tiered levels of access\n* Email reminders and confirmations with content relevant and detailed to each Match and Agency",
+    "certificationType": "Rev5",
+    "website": "https://www.nrmp.org/imatch/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/iMatch%20Logo.png",
+    "ueiNumber": "M21HNSMADLE5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "Security@imatchfederal.org"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "FedRAMP@imatchfederal.org"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

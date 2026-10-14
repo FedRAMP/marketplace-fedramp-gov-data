@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1912051231",
+    "providerName": "TechTrend, Inc.",
+    "serviceName": "Federal GovCloud (FGC) DevSecOps",
+    "serviceAcronym": "Federal GovCloud (FGC) DevSecOps",
+    "serviceDescription": "Federal GovCloud DevSecOps (FGC DSO) combines an array of tools, integrates them together under the FedRAMP umbrella and provides a complete software-as-a-service solution to include hosting, patching and help desk support. FGC DSO enables U.S. federal government agencies to easily adopt practices to enhance software supply chain with a solution to automate development, security, and operations (DevSecOps) practices through every phase of the software development life cycle. FGC DSO SaaS enables rapid adoption of a continuous integration and continuous deployment (CI/CD) pipeline to deliver high quality citizen and public applications through its integrated security validation tools as a managed service. It resides on a FedRAMP authorized government cloud infrastructure and is provisioned as a dedicated suite of tools leveraging a suite of tools and technologies that provide the foundation to implement DevSecOps. Landing zones for applications are cloud vendor agnostic and the FGC DSO platform supports application deployments and secure management of infrastructure on Azure, Amazon Web Services, Google Cloud, low-code platforms (e.g., Power Platform), and on-premises or hybrid environments. \n\nFGC DSO has an integrated software factory capability which provides a managed hosting environment for PaaS services as part of the FGC DSO security authorization boundary that allow agencies to obtain application landing zone cloud hosting while meeting zero trust requirements. With FGC DSO, Federal agencies can focus on developing repeatable, modern, and secure applications to support their missions by utilizing a turnkey platform that help to meet federal security mandates. Leveraging FGC DSO will speed up agile application development, security compliance, integration testing, deployment and secure operational monitoring.",
+    "certificationType": "Rev5",
+    "website": "https://techtrend.us/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/TechTrend%20Logo.png",
+    "ueiNumber": "U3QWA5LCAJ97"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@techtrend.us"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@techtrend.us"
+    }
+  ],
+  "assessor": {
+    "name": "137046",
+    "assessorID": "137046"
+  }
+}

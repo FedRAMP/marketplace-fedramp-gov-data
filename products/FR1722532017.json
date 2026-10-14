@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1722532017",
+    "providerName": "stackArmor",
+    "serviceName": "Clarity",
+    "serviceAcronym": "Clarity",
+    "serviceDescription": "Clarity, hosted by stackArmor, offers U.S. government agencies a secure and scalable Strategic Portfolio Management (SPM) solution to make critical decisions with confidence. Part of Broadcom's ValueOps platform and hosted by stackArmor, Clarity allows agencies to customize organizational hierarchies, investment objects, roadmaps and much more in order to run projects and programs their way.\r\n\r\nThe solution provides modern project and portfolio management tools to prioritize requirements, maximize resources, and optimize work with ease.\r\n- One platform. Collect, prioritize, assess, and deliver projects, portfolios, and products, and empower people enterprise-wide, with a single system of record.\r\n- Flexible solution. Manage your entire innovation lifecycle the way you work, including project and portfolio management, demands and resources, and financials and time tracking.\r\n- Persona-based user experience. Modules are specifically designed for project managers, resources managers, and project coordinators to support anything from ad hoc work to complex programs.\r\n- Team collaboration. New tools let team members collaborate within the context of their current work, such as resource or financial management. At the portfolio level, the quality of planning and execution increases significantly when employees can crowdsource ideas and decisions.\r\nClarity is hosted in The Armory by stackArmor which is a dedicated environment for the purpose of delivering software to government customers as a FedRAMP service within Google’s Public Sector Cloud. Clarity is distributed and supported by Carahsoft.",
+    "certificationType": "Rev5",
+    "website": "https://www.stackarmor.com/solutions/clarity",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Clarity%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-armory@stackarmor.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-clarity@stackarmor.com"
+    }
+  ],
+  "assessor": {
+    "name": "137046",
+    "assessorID": "137046"
+  }
+}

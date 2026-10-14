@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631258122",
+    "providerName": "Cahill Swift, LLC",
+    "serviceName": "Cahill Swift Compliance Management Platform",
+    "serviceAcronym": "Cahill Swift Compliance Management Platform",
+    "serviceDescription": "The Cahill Swift Compliance Management Platform is a cloud-based offering supporting federal transportation safety compliance programs. The platform operates within a single FedRAMP 20x Class C certification boundary with a unified continuous-monitoring and automated evidence program. The initial service, Rallidocs, will be used by Federal Railroad Administration personnel to review and approve railroad industry drug and alcohol testing policies under 49 CFR Part 219, with structured review workflows and tamper-evident approval records. Additional compliance management services will be added to the offering through the FedRAMP change management process as they become production-ready, and will appear on the public service list when included in the Minimum Assessment Scope.",
+    "certificationType": "Rev5",
+    "website": "https://cahillswift.com",
+    "logo": "https://static.wixstatic.com/media/d20771_5c36cb323cfe4adc98a74712d918dfc2.gif",
+    "ueiNumber": "R5K8SX8G5JE7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://cahillswift.com/trust",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@cahillswift.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "jlofgren@cahillswift.com"
+    }
+  ]
+}

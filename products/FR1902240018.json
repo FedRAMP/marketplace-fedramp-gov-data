@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1902240018",
+    "providerName": "MDRC",
+    "serviceName": "SPROUT",
+    "serviceAcronym": "SPROUT",
+    "serviceDescription": "MDRC SPROUT provides compartmented cloud spaces for evidence-based social policy research and operations. SPROUT handles the randomization of samples or clusters, secure data collection of participant information, participant monitoring, data processing, and analytics. SPROUT integrates operational, administrative, and research aspects of policy programs for better planning insights and improved evidence-based policymaking.\nMDRC SPROUT is a cloud-based gov-tech solution that provides secure tools and services to agencies and contractors in alignment with the Evidence Act. \n\nFor additional information about evidence-based policymaking, see https://evaluation.gov .\n\nFor additional information about MDRC capabilities, see https://mdrc.org . \nUEI: ULJSBXBHRM15\nCAGE: 3JSR9\nGSA/MAS: GS-10F-0245N",
+    "certificationType": "Rev5",
+    "website": "https://www.mdrc.org/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Sprout%20Logo.png",
+    "ueiNumber": "ULJSBXBHRM15"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@mdrc.org"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sprout@mdrc.org"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

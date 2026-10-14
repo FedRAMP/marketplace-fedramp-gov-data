@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2630354485",
+    "providerName": "ComplianceAid INC.",
+    "serviceName": "ComplianceAide Government Cloud",
+    "serviceAcronym": "ComplianceAide Government Cloud",
+    "serviceDescription": "ComplianceAide is an evidence-cited, human-approved SaaS compliance copilot for cybersecurity and regulatory readiness. The service connects to customer-approved evidence in governed repositories such as SharePoint; evaluates evidence clarity, recency, traceability, and sufficiency; maps evidence to applicable controls and framework requirements; identifies unsupported, partial, stale, missing, or conflicting evidence; and produces source-linked, review-ready assessments, reports, policies, control narratives, System Security Plan (SSP) support, Security Assessment Report (SAR) support, Plan of Action and Milestones (POA&M) entries, validation matrices, and executive readiness briefs. A named human reviewer approves, revises, rejects, or requests additional evidence before work product is accepted. ComplianceAide supports FedRAMP and NIST SP 800-53 readiness and package-preparation workflows; it does not replace an independent assessor or Authorizing Official, make authorization decisions, or currently represent a FedRAMP-authorized cloud service offering.",
+    "certificationType": "Rev5",
+    "website": "https://www.thecomplianceaide.com/",
+    "logo": "https://github.com/TheComplianceAide.png",
+    "ueiNumber": "NWX6B48RJVM4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.thecomplianceaide.com/trust.html",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "randyb@thecomplianceaide.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "JoeC@thecomplianceaide.com"
+    }
+  ]
+}

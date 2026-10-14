@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2628943633",
+    "providerName": "Boundera",
+    "serviceName": "Boundera SaaS",
+    "serviceAcronym": "Boundera SaaS",
+    "serviceDescription": "Boundera automates FedRAMP 20x compliance from continuous evidence collection to certification package. The platform connects to a provider's cloud accounts and code repositories, collects evidence on an automatic schedule, and persistently validates every Key Security Indicator against the FedRAMP 2026 Consolidated Rules. Every result carries evidence lineage, and every run records score history, so providers can show a trend over time instead of a point-in-time snapshot.\n\nVulnerability Detection and Response (VDR) is built in. Scanner findings and failed KSI assertions become tracked vulnerability records with due dates, dispositions, and remediation clocks aligned to FedRAMP timelines. For technical findings, Boundera's AI agent drafts code and infrastructure fixes as pull requests that engineers review before anything merges.\n\nProviders publish current posture through a branded Trust Center and grant assessors controlled access to KSIs, rules, evidence, vulnerabilities, SDR and other packages. Exports validate against the official FedRAMP 2026 JSON schemas.\n\nBoundera is available as a SaaS service or as a self-deployed installation that runs entirely within a customer's cloud environment. Boundera uses the same production platform internally to pursue its own FedRAMP 20x Class C certification.",
+    "certificationType": "Rev5",
+    "website": "https://boundera.io",
+    "logo": "https://boundera.io/logo-icon-navy.svg",
+    "ueiNumber": "Z7P7R1CJQB56"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://boundera.io/tc/fedramp-trust-center",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@boundera.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@boundera.io"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

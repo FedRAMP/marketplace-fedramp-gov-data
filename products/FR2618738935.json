@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2618738935",
+    "providerName": "ATX Defense",
+    "serviceName": "CMMC Space",
+    "serviceAcronym": "CMMC Space",
+    "serviceDescription": "CMMC Space is a multi-tenant SaaS virtual desktop service hosted in Google Cloud’s FedRAMP High environment for defense contractors and other organizations that handle Controlled Unclassified Information (CUI). It gives those customers a VDI environment for processing CUI and for access to FedRAMP-authorized services, so they can handle that CUI in line with NIST SP 800-171 and CMMC Level 2.\n\nUsers sign in using the Google Identity Platform into a session ATX Defense builds and hardens: a locked-down Chrome browser or a mission-specific virtual environment, streamed over HTML5. Each customer is a separate tenant with its own users, groups, and workspace images. The underlying virtual infrastructure is operated and patched by ATX Defense, so contractors do not stand up and maintain the environment themselves.\n\nThe CUI in scope is what customers process, store, or transmit inside the virtual desktops and the collaboration services reached from them. The user's own device runs only a browser and stays outside that boundary.",
+    "certificationType": "Rev5",
+    "website": "https://atxdefense.com/capabilities/cmmc-compliance/",
+    "logo": "https://raw.githubusercontent.com/atx-defense/cmmc-space-marketplace/refs/heads/main/img/logo.png",
+    "ueiNumber": "H6YBMH9MN3D3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://community.connect.gov/spaces/FedRAMPExternal/pages/2889032052/ATX+Defense",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@atxdefense.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@atxdefense.com"
+    }
+  ],
+  "assessor": {
+    "name": "201722",
+    "assessorID": "201722"
+  }
+}

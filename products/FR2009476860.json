@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2009476860",
+    "providerName": "Casepoint LLC",
+    "serviceName": "Casepoint Government",
+    "serviceAcronym": "Casepoint Government",
+    "serviceDescription": "Casepoint is a data discovery platform for legal, investigatory, compliance, and IT teams who struggle to get actionable insights for data-centric business processes like eDiscovery, investigations, and information requests. Casepoint empowers leading corporations and government organizations to reduce costs, lower risk, and improve time-to-insight. Casepoint’s easy-to-use AI-powered platform is purpose-built for organizations that require the highest level of security and scalability to meet the evolving demands of the modern data landscape.\r\n\r\nCasepoint Government is delivered as a SaaS offering using a multi-tenant government-only cloud computing environment and is used by government agencies to meet their complex needs, including:\r\nLegal Holds\r\nRegulatory Enforcement / Investigations\r\nLitigation (eDiscovery)\r\nFOIA / PRR\r\nCongressional Inquiries\r\nLegal Data Storage\r\nTask / Case Strategy and Management\r\nThe Casepoint Government platform includes Casepoint Legal Hold, Casepoint eDiscovery, Casepoint FOIA, Casepoint Filestore, APIs for cloud collections, task management, and an app builder. Casepoint Government provides agencies with the capabilities needed to manage large volumes of data in litigation, investigations, congressional inquiries, and FOIA requests, including cloud-based collections, processing, culling, review, and highly customizable productions. It also offers built-in artificial intelligence and analytics with advanced tools for predictive analysis, search, and data visualization.",
+    "certificationType": "Rev5",
+    "website": "https://platform.casepointgov.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Casepoint%20Logo.png",
+    "ueiNumber": "NNBKLLXPY4L6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "IScompliance@casepoint.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "government@casepoint.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

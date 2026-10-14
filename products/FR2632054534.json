@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2632054534",
+    "providerName": "Thread AI, Inc.",
+    "serviceName": "Lemma (GovCloud)",
+    "serviceAcronym": "Lemma (GovCloud)",
+    "serviceDescription": "Lemma is Thread AI's AI workflow orchestration platform, deployed in AWS GovCloud (US) for federal customers and the contractors that support them.",
+    "certificationType": "Rev5",
+    "website": "https://www.threadai.com",
+    "logo": "https://www.threadai.com/Thread-Wordmark.svg",
+    "ueiNumber": "WYQBSZKWUMM5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.threadai.com",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-security@threadai.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@threadai.com"
+    }
+  ]
+}

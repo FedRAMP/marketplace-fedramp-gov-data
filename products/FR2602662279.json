@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2602662279",
+    "providerName": "Coretsu Inc.",
+    "serviceName": "Coretsu Government Suite",
+    "serviceAcronym": "Coretsu Government Suite",
+    "serviceDescription": "Coretsu Government Suite is a SaaS service that consists of a platform aimed towards providing the Federal Government and commercial users access to public government information that is enhanced using AI. \n\nData flows through the system from user inputs which are then processed by AI to make requests to public databases via API calls. Data is then returned and further processed by AI to provide the user with information relevant to their queries.",
+    "certificationType": "Rev5",
+    "website": "https://www.coretsu.us",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Coretsu%20Logo.png",
+    "ueiNumber": "U77VUFCUNLJ3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@coretsu.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@coretsu.com"
+    }
+  ],
+  "assessor": {
+    "name": "201722",
+    "assessorID": "201722"
+  }
+}
