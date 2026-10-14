@@ -1,41 +1,111 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2632054491",
+    "fedRampPackageId": "OpenClinica LLC (OC)",
+    "ueiNumber": "VJWGYQDM2X28",
     "providerName": "OpenClinica LLC",
-    "serviceName": "OpenClinica4 (OC4)",
-    "serviceAcronym": "OpenClinica4 (OC4)",
+    "serviceAcronym": "OC4",
     "serviceDescription": "OpenClinica is a Software-as-a-Service (SaaS) eClinical platform that centralizes clinical trial technology for electronic data capture (EDC), eConsent, eCOA (electronic clinical outcome assessments), and reporting and analytics. OpenClinica is hosted on AWS US East/West as a Public Cloud deployment. The platform serves academic institutions, pharmaceutical, biotech and medtech sponsors, and contract research organizations (CROs) running clinical trials, including federally funded research studies.",
-    "certificationType": "Rev5",
     "website": "https://www.openclinica.com/fedramp",
     "logo": "https://www.openclinica.com/wp-content/uploads/2026/08/OC-new-logo_horiz-color-RGB-7-scaled.png",
-    "ueiNumber": "VJWGYQDM2X28"
+    "certificationType": "20x",
+    "serviceName": "OpenClinica4 (OC4)"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Health & Wellness",
+      "Research",
+      "Data Management",
+      "Analytics"
+    ],
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
       "url": "https://trust.openclinica.com",
-      "repositoryDescription": "FedRAMP Trust Center",
-      "authenticationRequired": false
+      "repositoryDescription": "Security, compliance, and data protection practices. No account or login is required to browse. Certifications including SOC 2 Type II, ISO 27001, and NHS DSPT, plus general policy overviews, are publicly viewable and downloadable. Documents marked private, such as detailed audit and penetration test reports, are released on request.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "No login is required to view the Trust Center. For documents marked private, select Get access on the page and submit name, work email, and company. Access is granted once the email is verified. Questions about the security program or trouble accessing a document go to trust@openclinica.com."
+    },
+    "secureConfigurationGuidance": {
+      "url": "https://trust.openclinica.com/product/openclinica/fedramp-secure-configuration-guidance",
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "authenticationRequired": false,
+      "repositoryDescription": "Guidance on securely configuring and operating the OpenClinica platform."
     }
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "Privacy@OpenClinica.com"
+      "contactType": "Sales",
+      "contactName": "Daniel Johnson",
+      "contactEmail": "djohnson@openclinica.com",
+      "contactPhone": "617-729-2650"
     },
     {
-      "contactType": "Sales",
-      "contactEmail": "djohnson@openclinica.com"
+      "contactType": "Security",
+      "contactName": "Ted Gilbert",
+      "contactEmail": "Privacy@OpenClinica.com"
     }
   ],
   "assessor": {
-    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "name": "A-LIGN",
     "assessorID": "138665"
-  }
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Electronic Data Capture (EDC)",
+      "serviceDescription": "Core study build and data collection: drag-and-drop form design, real-time edit checks, role-based permissions, and audit trails.",
+      "dateAvailable": "2027-03-01"
+    },
+    {
+      "serviceName": "eConsent",
+      "serviceDescription": "Electronic informed consent workflows supporting remote, in-person, and hybrid enrollment with secure e-signatures.",
+      "dateAvailable": "2027-03-01"
+    },
+    {
+      "serviceName": "eCOA",
+      "serviceDescription": "Mobile patient-reported outcomes and symptom tracking with automated participant reminders.",
+      "dateAvailable": "2027-03-01"
+    },
+    {
+      "serviceName": "Reporting & Analytics",
+      "serviceDescription": "Real-time dashboards and exportable, submission-ready data with complete audit trails.",
+      "dateAvailable": "2027-03-01"
+    },
+    {
+      "serviceName": "API Access (REST/SOAP)",
+      "serviceDescription": "Programmatic access to study metadata, subject data, and event data for integration with external systems.",
+      "dateAvailable": "2027-03-01"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Hosting for the cloud service offering in AWS US East and US West."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+        "useCase": "Email, calendar, and internal document collaboration for OpenClinica staff."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
+        "useCase": "Source code hosting and version control for OpenClinica software development."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Rippling",
+        "provider": "Rippling People Center Inc.",
+        "useCase": "Endpoint device management."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2632054491",
+  "id_matches_expected": false
 }

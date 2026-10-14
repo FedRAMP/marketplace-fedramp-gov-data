@@ -1,41 +1,87 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2630354491",
+    "fedRampPackageId": "FWGOV",
+    "ueiNumber": "G7ZZLNUUUXV2",
     "providerName": "Freshworks",
     "serviceName": "Freshworks for Government",
-    "serviceAcronym": "Freshworks for Government",
-    "serviceDescription": "Freshservice, by Freshworks for Government, is the AI-powered, unified service operations platform that is fast to deploy, intuitive to use, and enables every employee to be more productive. Freshservice offers powerful governance and scale, without the operational drag of legacy platforms. This is a critical requirement for federal agencies navigating ever-changing and demanding missions.\nSome highlights of the Freshservice solution include but are not limited to:\nFreshservice ITSM – A comprehensive IT Service Management solution built on ITIL best practices, unifying incident, problem, change, and request management on a single platform\nFreshservice ITOM – IT Operations Management with dependency mapping and signal correlation across systems, enabling proactive incident coordination before employees feel the impact\nFreshservice ITAM – Continuous, agentless hybrid IT discovery, inventory, and dependency mapping delivers instant visibility into hardware, software, and services across data centers, hybrid, and multi-cloud environments, with insights to optimize infrastructure and applications\nFreshservice ESM – Extends service delivery beyond IT to HR, Finance, and other business teams on a common data and workflow model\nFreddy AI – Domain-specialized AI for IT service operations, powering a continually increasing portfolio of AI service workflows built on a decade of experience, workflow, and service domain context across tens of thousands of customers. By unifying agentic and assistive AI, Freddy AI enables zero-touch resolutions, proactive operations, and service intelligence to anticipate and solve problems at the source\nMajor Incident Management, extended with FireHydrant – An end-to-end incident management platform bringing on-call and alerting, chat-native response, and retrospectives into a single workflow, powered by AI and automation to help teams respond more effectively and resolve incidents faster\nFreshservice empowers organizations to:\nDeliver service, operations, and asset management from a single AI-powered platform\nResolve employee requests instantly, routing issues to the right team and context\nCoordinate onboarding and access across IT, HR, and Finance for a smoother employee experience\nGet ahead of major incidents by connecting signals and mapping dependencies across systems\nMaintain accurate asset records through continuous, automated discovery\nDeploy rapidly through no-code setup, intuitive configuration, and built-in best practices, without extensive consulting or custom development\nReduce costs and increase efficiencies with transparent pricing and built-in security, compliance, and governance controls",
-    "certificationType": "Rev5",
+    "serviceAcronym": "FWGOV",
+    "serviceDescription": "Freshservice, by Freshworks for Government, is the AI-powered, unified service operations platform that is fast to deploy, intuitive to use, and enables every employee to be more productive. Freshservice offers powerful governance and scale, without the operational drag of legacy platforms. This is a critical requirement for federal agencies navigating ever-changing and demanding missions.\nSome highlights of the Freshservice solution include but are not limited to:\nFreshservice ITSM – A comprehensive IT Service Management solution built on ITIL best practices, unifying incident, problem, change, and request management on a single platform\nFreshservice ITOM – IT Operations Management with dependency mapping and signal correlation across systems, enabling proactive incident coordination before employees feel the impact\nFreshservice ITAM – Continuous, agentless hybrid IT discovery, inventory, and dependency mapping delivers instant visibility into hardware, software, and services across data centers, hybrid, and multi-cloud environments, with insights to optimize infrastructure and applications\nFreshservice ESM – Extends service delivery beyond IT to HR, Finance, and other business teams on a common data and workflow model\nFreddy AI – Domain-specialized AI for IT service operations, powering a continually increasing portfolio of AI service workflows built on a decade of experience, workflow, and service domain context across tens of thousands of customers. By unifying agentic and assistive AI, Freddy AI enables zero-touch resolutions, proactive operations, and service intelligence to anticipate and solve problems at the source\nMajor Incident Management, extended with FireHydrant – An end-to-end incident management platform bringing on-call and alerting, chat-native response, and retrospectives into a single workflow, powered by AI and automation to help teams respond more effectively and resolve incidents faster\nFreshservice empowers organizations to:\nDeliver service, operations, and asset management from a single AI-powered platform\nResolve employee requests instantly, routing issues to the right team and context\nCoordinate onboarding and access across IT, HR, and Finance for a smoother employee experience\nGet ahead of major incidents by connecting signals and mapping dependencies across systems\nMaintain accurate asset records through continuous, automated discovery\nDeploy rapidly through no-code setup, intuitive configuration, and built-in best practices, without extensive consulting or custom development\nReduce costs and increase efficiencies with transparent pricing and built-in security, compliance, and governance controls\n\n",
+    "certificationType": "20x",
     "website": "https://freshworks.com",
-    "logo": "https://dam.freshworks.com/asset/4a736cb7-c1d8-4fba-8e1a-e4aa65d5ba5e/Freshworks-Logo.webp",
-    "ueiNumber": "G7ZZLNUUUXV2"
+    "logo": "https://dam.freshworks.com/asset/4a736cb7-c1d8-4fba-8e1a-e4aa65d5ba5e/Freshworks-Logo.webp"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
     "deploymentModel": "Government-Only Cloud",
+    "businessCategory": [
+      "Operations Management",
+      "Artificial Intelligence (AI)",
+      "System Administration"
+    ],
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
       "url": "https://trust.freshworks.com/product/freshservice/fedramp-certification-package-overview",
-      "repositoryDescription": "FedRAMP Trust Center",
-      "authenticationRequired": false
-    }
+      "repositoryDescription": "This portal provides access to information and documentation related to Freshworks’ security, privacy, and compliance practices. Here you can review certifications, third-party attestations, compliance reports, and other materials commonly requested during vendor security and risk assessments.\n\nFreshworks is committed to protecting customer data and maintaining transparency around our security and compliance posture. The resources available in this Trust Center are intended to support your due diligence process and help you better understand the controls and practices that underpin our services.\n\nDocumentation in this portal is reviewed periodically and updated as appropriate. If you require additional information or have questions regarding Freshworks’ security or compliance programs, please contact our security team for assistance.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": ""
+    },
+    "nextOngoingCertificationReportDate": "2026-10-01"
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Freshworks FedRAMP",
       "contactEmail": "fedramp@freshworks.com"
     },
     {
       "contactType": "Sales",
+      "contactName": "Freshworks FedRAMP",
       "contactEmail": "fedsales@freshworks.com"
     }
   ],
   "assessor": {
-    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "name": "A-LIGN",
     "assessorID": "138665"
-  }
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "ITSM",
+      "serviceDescription": "– A comprehensive IT Service Management solution built on ITIL best practices, unifying incident, problem, change, and request management on a single platform",
+      "dateAvailable": "2027-06-01"
+    },
+    {
+      "serviceName": "ITOM",
+      "serviceDescription": "– IT Operations Management with dependency mapping and signal correlation across systems, enabling proactive incident coordination before employees feel the impact",
+      "dateAvailable": "2027-06-01"
+    },
+    {
+      "serviceName": " ITAM ",
+      "serviceDescription": "Continuous, agentless hybrid IT discovery, inventory, and dependency mapping delivers instant visibility into hardware, software, and services across data centers, hybrid, and multi-cloud environments, with insights to optimize infrastructure and applications",
+      "dateAvailable": "2027-06-01"
+    },
+    {
+      "serviceName": "ESM",
+      "serviceDescription": "Extends service delivery beyond IT to HR, Finance, and other business teams on a common data and workflow model",
+      "dateAvailable": "2027-06-01"
+    },
+    {
+      "serviceName": "Freddy AI ",
+      "serviceDescription": " Domain-specialized AI for IT service operations, powering a continually increasing portfolio of AI service workflows built on a decade of experience, workflow, and service domain context across tens of thousands of customers. By unifying agentic and assistive AI, Freddy AI enables zero-touch resolutions, proactive operations, and service intelligence to anticipate and solve problems at the source",
+      "dateAvailable": "2027-06-01"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "Used to host the solutions"
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2630354491",
+  "id_matches_expected": false
 }

@@ -1,41 +1,52 @@
 {
-  "serviceIdentification": {
-    "fedRampPackageId": "FR2630354482",
-    "providerName": "Dispel LLC",
-    "serviceName": "Dispel Zero Trust Engine",
-    "serviceAcronym": "Dispel Zero Trust Engine",
-    "serviceDescription": "Dispel Zero Trust Engine (DZTE) is a cloud-hosted zero trust remote access and privileged access management platform that provides secure, isolated, identity-federated connectivity to operational technology and enterprise environments. It delivers moving-target-defense networking, brokered remote sessions, and least-privilege access for federal and critical-infrastructure customers.",
-    "certificationType": "Rev5",
-    "website": "https://www.dispel.com",
-    "logo": "https://api.dispeltrust.com/api/trust-center/public/system/ebaac73a-1660-4e94-a0f5-3fc9e4f05f47/logo.png",
-    "ueiNumber": "CWVGPF8X5X76"
-  },
-  "serviceProperties": {
-    "serviceType": [
-      "SaaS"
-    ],
-    "deploymentModel": "Public Cloud",
-    "trustCenter": {
-      "repositoryType": [
-        "Trust Center"
-      ],
-      "url": "https://dzte-gov.dispeltrust.com/api/trust-center/public/system/ebaac73a-1660-4e94-a0f5-3fc9e4f05f47/landing",
-      "repositoryDescription": "FedRAMP Trust Center",
-      "authenticationRequired": false
-    }
+  "assessor": {
+    "assessorID": "200765",
+    "id": "200765",
+    "name": "MegaPlanIT"
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "dean.macris@dispel.com"
+      "contactEmail": "ben@dispel.com",
+      "contactName": "Ben Burke",
+      "contactType": "Sales"
     },
     {
-      "contactType": "Sales",
-      "contactEmail": "ben@dispel.com"
+      "contactEmail": "dean.macris@dispel.com",
+      "contactName": "Dean Macris",
+      "contactType": "Security"
     }
   ],
-  "assessor": {
-    "name": "MegaplanIT Holdings, LLC",
-    "assessorID": "200765"
-  }
+  "serviceIdentification": {
+    "certificationType": "20x",
+    "fedRampPackageId": "Dispel LLC (DZTE)",
+    "logo": "https://api.dispeltrust.com/api/trust-center/public/system/ebaac73a-1660-4e94-a0f5-3fc9e4f05f47/logo.png",
+    "providerName": "Dispel LLC",
+    "serviceAcronym": "DZTE",
+    "serviceDescription": "Dispel Zero Trust Engine (DZTE) is a cloud-hosted zero trust remote access and privileged access management platform that provides secure, isolated, identity-federated connectivity to operational technology and enterprise environments. It delivers moving-target-defense networking, brokered remote sessions, and least-privilege access for federal and critical-infrastructure customers.",
+    "serviceName": "Dispel Zero Trust Engine",
+    "ueiNumber": "CWVGPF8X5X76",
+    "website": "https://www.dispel.com"
+  },
+  "serviceProperties": {
+    "additionalRepositories": [],
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Virtual Private Network (VPN)"
+    ],
+    "deploymentModel": "Public Cloud",
+    "digitalIdentityLevel": "IAL2/AAL2/FAL2",
+    "serviceType": [
+      "SaaS"
+    ],
+    "trustCenter": {
+      "authenticationRequired": false,
+      "repositoryDescription": "FedRAMP 20x Trust Center",
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://dzte-gov.dispeltrust.com/api/trust-center/public/system/ebaac73a-1660-4e94-a0f5-3fc9e4f05f47/landing"
+    }
+  },
+  "ZD_frid_retro": "FR2630354482",
+  "id_matches_expected": false
 }

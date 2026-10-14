@@ -1,37 +1,519 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
     "fedRampPackageId": "FR2631154499",
+    "ueiNumber": "TB1XW4HNNUG9",
     "providerName": "IronWiFi, LLC",
     "serviceName": "IronWiFi Cloud RADIUS and Wi-Fi Authentication Platform",
-    "serviceAcronym": "IronWiFi Cloud RADIUS and Wi-Fi Authentication Platform",
+    "serviceAcronym": "IronWiFi",
     "serviceDescription": "**IronWiFi is the vendor-neutral authentication layer for agency Wi-Fi and wired networks: cloud RADIUS, 802.1X with EAP-TLS, cloud PKI with SCEP enrollment, captive portals, and Wi-Fi identity threat detection (ITDR), delivered as SaaS on Google Cloud with US regions available.**\n\n**Keep the network you have.** IronWiFi works with any access point, switch or controller that speaks RADIUS and 802.1X, so an agency adds certificate-based authentication and policy without replacing hardware or running RADIUS and NPS servers on premises.\n\n**Use the identities you already manage.** Users and devices authenticate against Microsoft Entra ID (commercial and GCC High), Google Workspace, Okta, and LDAP or Active Directory. Device certificates are issued and renewed by the built-in cloud PKI over SCEP, including for MDM-managed fleets.\n\n**See who and what is on the network.** Every authentication is logged per user and device; the ITDR service flags credential misuse, rogue devices and anomalous access on Wi-Fi and reports through the console, API and webhooks.\n\n**Guest, visitor and roaming access** through branded captive portals, vouchers, sponsored access and OpenRoaming, on the same platform.\n\n**Assurance on record.** SOC 2 Type II (Johanson Group LLP, report issued 7 May 2026) held in the IronWiFi Trust Center. FIPS 199 impact categorization Moderate (this is not a FedRAMP Moderate Authorization). IronWiFi-prepared 20x Class A package documents were published 13 September 2026 and the 20x Class A Certification application (FRC-APP-AFC) was submitted to FedRAMP the same day; FedRAMP's decision is pending. Marketplace status is Not yet certified and Certification Class is Unknown until FedRAMP records it. IronWiFi is in the Initial Implementation Phase and is not FedRAMP Certified today.\n\n**Agency use cases:** direct use as the authentication, policy and monitoring layer inside an agency information system; indirect use as a third-party information resource inside integrator and managed-service offerings delivered to agencies. Documentation, a REST API and a self-service console let an agency pilot the service on its existing network.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
     "website": "https://www.ironwifi.com/",
-    "logo": "https://www.ironwifi.com/ironwifi.png",
-    "ueiNumber": "TB1XW4HNNUG9"
+    "logo": "https://www.ironwifi.com/ironwifi.png"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Network Management"
+    ],
     "trustCenter": {
       "repositoryType": [
-        "Trust Center"
+        "Trust Center",
+        "Assessment Reports"
       ],
       "url": "https://trust.ironwifi.com/",
-      "repositoryDescription": "FedRAMP Trust Center",
+      "repositoryDescription": "IronWiFi Trust Center hosting SOC 2 Type II / SOC 3 reports, security control and subprocessor listings, and FedRAMP Certification Data for this offering.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "The Trust Center landing page and its Controls and Subprocessors sections are open, no account required. Under Resources, the SOC 3 report, Data Processing Agreement and Terms of Service open directly. The FedRAMP Documentation category holds the certification package: the FedRAMP Public Information link opens directly, and the complete package bundle (every package file plus its SHA-256 manifest, as one zip) is downloadable without an account from the website URL listed under documentationOverview. The individual package documents in that category (Security Decision Record in PDF and JSON, Certification Package Overview PDF, Key Security Indicator Summary PDF, example Ongoing Certification Report in PDF and JSON, component inventory with its method and script, and the manifest) are released on request: select Request access on the resource; requests are reviewed and access is granted to the requesting email address. The SOC 2 Type II report is released the same way under a non-disclosure agreement. Questions about a request, or requests from federal agencies that need a different route, go to security@ironwifi.com."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Product Documentation"
+        ],
+        "url": "https://help.ironwifi.com/",
+        "repositoryDescription": "IronWiFi Help Center: administrator and end-user documentation covering tenant setup, identity provider integration, RADIUS and certificate configuration, captive portal design, per-vendor wireless hardware setup guides, and troubleshooting.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Product Documentation",
+          "API Documentation"
+        ],
+        "url": "https://www.ironwifi.com/api/",
+        "repositoryDescription": "IronWiFi REST API and webhook reference for automating tenant, network, user, certificate, and reporting operations.",
+        "authenticationRequired": false
+      }
+    ],
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://www.ironwifi.com/fedramp/secure-configuration/",
+      "repositoryDescription": "Secure Configuration Guide for federal deployments of IronWiFi (version 1.1, 2026-09-13): the tenant owner and privileged accounts, secure access, configuration, operation and decommissioning, secure defaults at provisioning, and the recommended tenant configuration (operator identity and SSO enforcement, RADIUS and EAP method selection, RadSec, certificate lifecycle, logging and ITDR alerting). Machine-readable form at https://www.ironwifi.com/fedramp/secure-configuration/secure-configuration.json.",
       "authenticationRequired": false
-    }
+    },
+    "nextOngoingCertificationReportDate": "2026-12-15"
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "security@ironwifi.com"
+      "contactType": "Sales",
+      "contactName": "IronWiFi Sales",
+      "contactEmail": "sales@ironwifi.com",
+      "contactPhone": "800-963-6221"
     },
     {
-      "contactType": "Sales",
-      "contactEmail": "sales@ironwifi.com"
+      "contactType": "Security",
+      "contactName": "IronWiFi Security Team",
+      "contactEmail": "security@ironwifi.com"
     }
-  ]
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Platform Overview",
+      "serviceDescription": "The administrative console for the offering: tenants, networks, users, certificates, reports and role-based access.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "Cloud RADIUS",
+      "serviceDescription": "Multi-region RADIUS and RadSec authenticating users and devices with EAP-TLS, PEAP/MSCHAPv2, EAP-TTLS and MAC-based methods against Entra ID (commercial and GCC High Graph sync), Google Workspace, Okta and LDAP/Active Directory; per-network policy, VLAN and attribute assignment.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "Captive Portal",
+      "serviceDescription": "Branded captive portals with self-registration, vouchers, sponsored guest access, social and enterprise identity sign-in, terms acceptance and session control.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "WPA-Enterprise",
+      "serviceDescription": "802.1X WPA-Enterprise authentication using the Cloud RADIUS service, including certificate-based EAP-TLS.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "Cloud PKI",
+      "serviceDescription": "Built-in certificate authority issuing and renewing device and user certificates for EAP-TLS.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "Enrollment Portal",
+      "serviceDescription": "End-user and device enrollment into the tenant certificate authority.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "Device Portal",
+      "serviceDescription": "Self-service device certificate and identity management for end users.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "SCEP",
+      "serviceDescription": "SCEP enrollment of device certificates through mobile device management.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "IoT Authentication",
+      "serviceDescription": "Certificate or MAC-based authentication for IoT and non-user devices.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "Passpoint",
+      "serviceDescription": "Passpoint / Hotspot 2.0 profiles so managed devices join participating networks automatically.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "OpenRoaming RADIUS",
+      "serviceDescription": "OpenRoaming federation RADIUS so managed devices authenticate on participating networks.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "WiFi Calling",
+      "serviceDescription": "Wi-Fi calling authentication offload through the Cloud RADIUS service.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "Network Intelligence",
+      "serviceDescription": "Authentication and session analytics in the administrative console.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "AI Center",
+      "serviceDescription": "Operator-facing analytics and assistance in the administrative console; does not change the authentication boundary.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "Webhooks & API",
+      "serviceDescription": "REST API and webhooks for automating tenants, networks, users, certificates and reports.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "Conditional Access",
+      "serviceDescription": "Per-network policy that decides whether a user or device is admitted and which VLAN or attributes apply.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "Identity Provisioning",
+      "serviceDescription": "Directory and SCIM provisioning of users into the offering.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "WiFi ITDR",
+      "serviceDescription": "Detection of credential misuse, rogue and anomalous devices and abnormal access patterns, with alerts to the console, API and webhooks.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "Terraform",
+      "serviceDescription": "Terraform provider for automating tenant, network and policy configuration through the REST API.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    },
+    {
+      "serviceName": "Roaming Analytics",
+      "serviceDescription": "Analytics for OpenRoaming and Passpoint federation sessions.",
+      "securityCategory": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low",
+        "overall": "Moderate"
+      }
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "name": "Google Services (Google Cloud Platform Products and underlying Infrastructure)",
+        "provider": "Google LLC",
+        "website": "https://cloud.google.com/",
+        "certificationClass": "Rev5, JAB path, Class D (High); FedRAMP Certified, listed since 2019-12-04",
+        "certificationStatusSource": "FedRAMP Marketplace listing FR1805751477, checked 2026-09-12",
+        "useCase": "Hosting for every service: Cloud Spanner, Cloud Run, Compute Engine, App Engine, BigQuery, Cloud Logging.",
+        "inheritance": "Not claimed. The offering does not run in an Assured Workloads environment, so FedRAMP-authorized regions and controls are not enforced at the project level; Google Cloud is recorded here as the certified third-party resource that hosts the offering, and the justification, mitigations and compensating controls are in the Certification Package Overview."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Stripe",
+        "provider": "Stripe, Inc.",
+        "website": "https://stripe.com/",
+        "useCase": "Subscription billing for operator accounts (console services only)."
+      },
+      {
+        "name": "SendGrid",
+        "provider": "Twilio Inc.",
+        "website": "https://sendgrid.com/",
+        "useCase": "Transactional email: operator alerts and account mail; scheduled reports are delivered as GCS signed links, with an attachment fallback only when the upload fails."
+      },
+      {
+        "name": "Twilio",
+        "provider": "Twilio Inc.",
+        "website": "https://www.twilio.com/",
+        "useCase": "SMS verification for guest network access. The destination number is sent to Twilio as the SMS recipient and is retained on the IronWiFi user record (captive-portal services only)."
+      },
+      {
+        "name": "Bugsnag",
+        "provider": "SmartBear Software",
+        "website": "https://www.bugsnag.com/",
+        "useCase": "Error tracking on five captive-portal services with tenancy identifiers redacted, plus a browser client still present on live console pages; removal in progress as of 2026-09-13."
+      },
+      {
+        "name": "Have I Been Pwned",
+        "provider": "Superlative Enterprises Pty Ltd",
+        "website": "https://haveibeenpwned.com/",
+        "useCase": "Breached-password check on password set and reset using k-anonymity; no identifier leaves the platform."
+      },
+      {
+        "name": "Cloudflare",
+        "provider": "Cloudflare, Inc.",
+        "website": "https://www.cloudflare.com/",
+        "useCase": "Performance and DDoS protection for the public marketing website only; no customer data transits Cloudflare."
+      },
+      {
+        "name": "GitHub",
+        "provider": "GitHub, Inc.",
+        "website": "https://github.com/",
+        "useCase": "Source control and CI; no customer data, in scope for deployment integrity."
+      },
+      {
+        "name": "HubSpot",
+        "provider": "HubSpot, Inc.",
+        "website": "https://www.hubspot.com/",
+        "useCase": "Customer-enabled captive-portal lead capture. Guest contacts are sent to the tenant's own HubSpot account under a token the tenant supplies; IronWiFi holds no HubSpot credential. Not an IronWiFi subprocessor."
+      },
+      {
+        "name": "Mailchimp",
+        "provider": "Intuit Inc.",
+        "website": "https://mailchimp.com/",
+        "useCase": "Customer-enabled captive-portal list sync. Guest contacts are sent to the tenant's own Mailchimp audience under a token the tenant supplies; IronWiFi holds no Mailchimp credential. Not an IronWiFi subprocessor."
+      }
+    ]
+  },
+  "excludedFromMinimumAssessmentScope": [
+    {
+      "resourceName": "Marketing website",
+      "url": "https://www.ironwifi.com",
+      "exclusionRationale": "Fronted by Cloudflare, separate from the platform; handles no customer data of the offering and does not affect the confidentiality, integrity or availability of data the offering handles."
+    },
+    {
+      "resourceName": "Help Center (product documentation)",
+      "url": "https://help.ironwifi.com/",
+      "exclusionRationale": "Hosted documentation; handles no customer data of the offering."
+    },
+    {
+      "resourceName": "Service availability reporting (status page)",
+      "url": "https://status.ironwifi.com",
+      "exclusionRationale": "Reports on the offering rather than being used by it. Hosted by UptimeRobot, deliberately outside the boundary so availability information stays reachable during a disruption."
+    },
+    {
+      "resourceName": "Trust Center",
+      "url": "https://trust.ironwifi.com/",
+      "exclusionRationale": "Hosted by Vanta; publishes certification data and audit reports and records access requests, but handles no customer data of the offering."
+    }
+  ],
+  "alternativeSecurityFramework": {
+    "note": "IronWiFi applied on 2026-09-13 for FedRAMP 20x Class A using an alternative security framework (FRC-CLA-ASF) rather than a FedRAMP independent assessment. No FedRAMP Recognized assessor is engaged, as none is required at Class A, so the schema's assessor property is omitted; the decision on engaging one for a higher class is due by the third quarter of 2027 (see Certification progress on the public page). Marketplace Certification Class remains Unknown until FedRAMP decides the application and records a class.",
+    "framework": "SOC 2 Type II",
+    "auditor": "Johanson Group LLP",
+    "trustServicesCriteria": "Security and Availability",
+    "auditPeriodFrom": "2025-12-01",
+    "auditPeriodTo": "2026-03-09",
+    "finalReportIssued": "2026-05-07",
+    "opinion": "Unqualified",
+    "nextAuditPeriodFrom": "2026-03-10",
+    "nextAuditPeriodTo": "2027-02-28",
+    "nextReportExpected": "Six to eight weeks after 2027-02-28, targeted before 2027-05-07 so that a current report is always within 12 months of the last; Statement of Work executed 2026-09-07."
+  },
+  "informationFlows": {
+    "summary": "Operators, end users, network devices and API clients reach the offering over the public internet through TLS 1.2 or higher terminated at the Google edge. The console API and single-page application run on Cloud Run in eleven regions and talk to Cloud Spanner (a global database for operator accounts, OAuth clients and settings; regional databases, selected by hostname, for end users, networks, devices and RADIUS secrets), Redis for sessions and rate limiting, and BigQuery for request logs and usage metrics. RADIUS, RadSec, captive portal, PKI and SCEP services receive authentication and enrolment requests from network and end-user devices, consult the tenant's identity provider (Entra ID, Google Workspace, Okta or LDAP) where configured, and return results to the network; the identity threat detection pipeline is derived from those authentication and accounting events. Scheduled reports, connector syncs and cleanup run as internal task workers. Tenant data is stored in the region the tenant selects; all data at rest is encrypted with Google-managed AES-256 and all transit is TLS.",
+    "securityCategories": "All twenty services in this offering are categorized under FIPS 199 as Confidentiality Moderate, Integrity Moderate, Availability Low, overall Moderate (approved by the accountable official 2026-08-24). FIPS 199 Moderate is an impact categorization; it is not a FedRAMP Moderate Authorization and it is not a 20x Class C certification. No information resource within the Minimum Assessment Scope carries a different categorization; the resources under excludedFromMinimumAssessmentScope carry none because they handle no customer data of the offering. Device Trust is marketed as Coming Soon and is not one of the twenty services.",
+    "publicReferences": [
+      "https://www.ironwifi.com/fedramp/",
+      "https://www.ironwifi.com/fedramp/secure-configuration/"
+    ],
+    "detailedDiagrams": "The information flow and categorization document (information-flows-and-categories.md, built from the platform data flow diagram) and the machine-readable component inventory are part of the certification package; the inventory is released on request through the Trust Center and is in the public package bundle, and the flow document is supplied to federal agencies and FedRAMP on request to security@ironwifi.com."
+  },
+  "documentationOverview": {
+    "description": "Documentation supplied by IronWiFi for the offering, as CDS-CSO-PUB item 13 requires. The Certification Package Overview (this JSON and its page), the public FedRAMP page, the secure configuration guidance and the complete package bundle are readable without an account; the individual package documents and the SOC 2 Type II report are released on request through the Trust Center.",
+    "documents": [
+      {
+        "name": "Certification Package Overview",
+        "formats": [
+          "JSON at a stable URL",
+          "Web page",
+          "PDF"
+        ],
+        "access": "Public (JSON and page); PDF in the Trust Center on request",
+        "summary": "This document and its human-readable page; the PDF in the Trust Center carries the sections the schema has no field for."
+      },
+      {
+        "name": "Certification package bundle",
+        "formats": [
+          "ZIP at a stable URL"
+        ],
+        "access": "Public",
+        "url": "https://www.ironwifi.com/fedramp/IronWiFi-FedRAMP-20x-ClassA-Package.zip",
+        "summary": "IronWiFi-prepared 20x Class A package documents (overview JSON and PDF, Security Decision Record PDF and JSON, example Ongoing Certification Report PDF and JSON, component inventory JSON, method PDF and script, Key Security Indicator Summary PDF, Secure Configuration Guide PDF and JSON, policy register Markdown and JSON) with MANIFEST.json, the SHA-256 and size of each file, the ruleset version and the build verification verdict. These files are provider materials, not a FedRAMP Certification. Stable URL; the ZIP snapshot version and assembly time are inside MANIFEST.json (1.4, 2026-09-13). The live public JSON on this site is version 1.5."
+      },
+      {
+        "name": "Security Decision Record",
+        "formats": [
+          "PDF",
+          "JSON"
+        ],
+        "access": "Trust Center, request access; also in the public bundle",
+        "summary": "The implementation, validation and assessment position for every FedRAMP rule and Key Security Indicator this certification addresses, with the senior official's acceptance where a rule is not fully implemented."
+      },
+      {
+        "name": "Key Security Indicator Summary",
+        "formats": [
+          "PDF"
+        ],
+        "access": "Trust Center, request access; also in the public bundle",
+        "summary": "Standalone summary of the seven Key Security Indicators FedRAMP mandates at Class A (FRC-CLA-MFR items 17 to 23), rendered from the Security Decision Record JSON, with the SOC 2 Type II control, PDF page and auditor result cited for each."
+      },
+      {
+        "name": "Ongoing Certification Report (example)",
+        "formats": [
+          "PDF",
+          "JSON"
+        ],
+        "access": "Trust Center, request access; also in the public bundle",
+        "summary": "The format of the quarterly report required by CCM-OCR-AVL; the first real report is due 2026-12-15."
+      },
+      {
+        "name": "Component inventory",
+        "formats": [
+          "JSON",
+          "PDF (method)",
+          "Script"
+        ],
+        "access": "Trust Center, request access; also in the public bundle",
+        "summary": "The machine-readable inventory of the Minimum Assessment Scope, how it is derived, and the read-only script that generates it."
+      },
+      {
+        "name": "SOC 2 Type II report",
+        "formats": [
+          "PDF"
+        ],
+        "access": "Trust Center, request access under NDA",
+        "summary": "Johanson Group LLP, observation period 2025-12-01 to 2026-03-09, dated 2026-05-07; the alternative security framework assessment for this certification."
+      },
+      {
+        "name": "SOC 3 report",
+        "formats": [
+          "PDF"
+        ],
+        "access": "Public",
+        "summary": "The general-use summary of the SOC 2 examination, 2026-05-11."
+      },
+      {
+        "name": "Data Processing Agreement and Terms of Service",
+        "formats": [
+          "Web page",
+          "PDF"
+        ],
+        "access": "Public",
+        "summary": "The contractual terms, subprocessor commitments and data handling obligations."
+      },
+      {
+        "name": "Secure Configuration Guide",
+        "formats": [
+          "Web page",
+          "JSON at a stable URL",
+          "PDF"
+        ],
+        "access": "Public",
+        "summary": "SCG-CSO-RSC: the tenant owner and privileged accounts, their secure access, configuration, operation and decommissioning, secure defaults at provisioning, and the recommended tenant configuration for agency deployments; JSON twin at secure-configuration.json, PDF in the package bundle. Version 1.1, effective 2026-09-13.",
+        "url": "https://www.ironwifi.com/fedramp/secure-configuration/"
+      },
+      {
+        "name": "Help Center",
+        "formats": [
+          "Web pages"
+        ],
+        "access": "Public",
+        "summary": "Administrator and end-user documentation for the platform."
+      },
+      {
+        "name": "Policy register",
+        "formats": [
+          "JSON",
+          "Markdown"
+        ],
+        "access": "Public bundle",
+        "summary": "CDS-CSO-IRP register of 28 policies and procedures with name, file, summary, word count, version, date and related FedRAMP practices."
+      }
+    ]
+  },
+  "packageMetadata": {
+    "accountableOfficial": {
+      "name": "Martin Benuska",
+      "title": "Chief Executive Officer",
+      "email": "security@ironwifi.com",
+      "phone": "800-963-6221",
+      "note": "security@ironwifi.com is a monitored role mailbox reaching the accountable official; FedRAMP communications go to the FedRAMP Security Inbox. A role address is published so that communications keep reaching an accountable owner across personnel changes."
+    },
+    "version": "1.6",
+    "dateAndTimeOfLastUpdate": "2026-09-18T18:00:00Z",
+    "sourceOfUpdate": "IronWiFi, LLC, accountable official Martin Benuska (CEO); version 1.6: FRC-APP-AFC submitted 2026-09-13 with FedRAMP's decision pending; listing status Not yet certified, Certification Class Unknown, FIPS 199 Moderate distinguished from FedRAMP Moderate and from Class C, Google Cloud High inheritance not claimed, OCR date not applicable until certification.",
+    "schemaNote": "CPO-CSO-MTD requires this metadata in the Certification Package Overview. The published schema (fedramp-certification-package-overview-schema-2026-06-24) defines no property for it, so it is carried here as a declared object; extra fields do not fail FedRAMP schema validation. The accountable official's role address is also recorded under contactInformation."
+  },
+  "ZD_frid_retro": "FR2631154499",
+  "id_matches_expected": true
 }

@@ -1,11 +1,11 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2306445868",
     "providerName": "Cohesity",
     "serviceName": "Cohesity Cloud Services for Government",
-    "serviceAcronym": "Cohesity Cloud Services for Government",
+    "serviceAcronym": "CCSGov",
     "serviceDescription": "Cohesity helps public sector agencies strengthen cyber resilience through a compliance-focused portfolio of cloud data protection and recovery services. Cohesity Cloud Services for Government brings together secure backup, rapid recovery, centralized management, and cyber vaulting in a streamlined service experience, helping agencies reduce operational complexity, protect mission-critical data, and recover with confidence from ransomware and other disruptive events. The portfolio includes Cohesity DataProtect and Helios for Government capabilities, as well as FortKnox SaaS vaults for DataProtect. FortKnox provides Cohesity-managed cyber vaulting that helps isolate backup data from production environments, with cold- and warm-tier vaulting options, anomaly-detection reporting, and flexible recovery capabilities. Together, these offerings give public sector agencies a scalable way to modernize data protection, improve resilience, and support mission continuity.",
     "certificationType": "Rev5",
+    "fedRampPackageId": "FR2306445868",
     "website": "https://www.cohesity.com/solutions/federal-government/",
     "logo": "https://www.cohesity.com/content/dam/cohesity/live/cohesity-logo-black-green.svg"
   },
@@ -13,7 +13,14 @@
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Government Community Cloud"
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Data Management",
+      "Operations Management",
+      "Storage",
+      "System Administration"
+    ]
   },
   "contactInformation": [
     {
@@ -28,5 +35,7 @@
   "assessor": {
     "name": "Schellman Compliance, LLC",
     "assessorID": "136571"
-  }
+  },
+  "ZD_frid_retro": "FR2306445868",
+  "id_matches_expected": true
 }

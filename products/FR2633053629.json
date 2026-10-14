@@ -1,11 +1,11 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2633053629",
+    "fedRampPackageId": "TGuardAI Inc. (TGAI)",
     "providerName": "TGuardAI Inc.",
     "serviceName": "TrustGuard AI Compliance Platform",
-    "serviceAcronym": "TrustGuard AI Compliance Platform",
+    "serviceAcronym": "TGAI",
     "serviceDescription": "TrustGuard AI is a comprehensive, AI-native Governance, Risk, and Compliance (GRC) platform that unifies internal compliance automation and external threat monitoring in a single system of record. Inside the organization, TrustGuard AI continuously collects evidence, maps it to recognized control frameworks — including FedRAMP, SOC 2, ISO 27001, NIST 800-53, NIST CSF, HIPAA, PCI DSS, and CMMC — and uses retrieval-augmented AI to assess controls, surface gaps, draft remediations, and generate audit-ready, machine-readable findings and reports. Looking outward, it delivers continuous third-party and supply-chain risk monitoring, scoring vendors and partners against real-world security signals so teams can quantify exposure, prioritize outreach, and track remediation across their entire ecosystem. By combining automated internal compliance with external security ratings and attack-surface intelligence, TrustGuard AI gives security, risk, and compliance leaders one continuously-updated view of their posture — from their own controls to every vendor they depend on. The platform is offered as SaaS. The provider maintains a SOC 2 Type 2 program and is undergoing a FedRAMP 20x Moderate (Class C) assessment; the FedRAMP-assessed instance operates in production within AWS GovCloud (US).",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
     "website": "https://app-gov.trustguardai.com",
     "logo": "https://app-gov.trustguardai.com/logo.png"
   },
@@ -14,27 +14,80 @@
       "SaaS"
     ],
     "deploymentModel": "Government-Only Cloud",
+    "digitalIdentityLevel": "IAL2 / AAL2 / FAL2 (NIST SP 800-63-3). Privileged operators: IAL2 identity proofing tied to HR onboarding; AAL2 phishing-resistant FIDO2/WebAuthn enforced via AWS IAM Identity Center (no password-only path); FAL2 signed SAML assertions. Customer/agency end users: proofed by their sponsoring agency (IAL2), authenticate to the app with password + TOTP MFA (RFC 6238, app/utils/totp.py) or federated agency SAML via BoxyHQ (FAL2), short-lived JWTs. Full determination and justification: program/02_nist_800_63_identity.md (signed 2026-07-04).",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Governance, Risk, and Compliance (GRC)",
+      "Artificial Intelligence (AI)"
+    ],
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
       "url": "https://app-gov.trustguardai.com/trust-center/tguard-ai",
-      "repositoryDescription": "FedRAMP Trust Center",
+      "repositoryDescription": "FedRAMP Trust Center for the TrustGuard AI Compliance Platform. PUBLISHED LIVE: public tier open unauthenticated; reviewer tier request-only behind a server-side NDA gate with .gov/.mil auto-approve and access logging.",
       "authenticationRequired": false
     }
   },
   "contactInformation": [
     {
       "contactType": "Security",
-      "contactEmail": "contact@trustguardai.com"
+      "contactName": "TrustGuard AI Security",
+      "contactEmail": "contact@trustguardai.com",
+      "contactPhone": "646-462-8750"
     },
     {
       "contactType": "Sales",
+      "contactName": "TrustGuard AI Sales",
+      "contactEmail": "contact@trustguardai.com"
+    },
+    {
+      "contactType": "Primary",
+      "contactName": "TrustGuard AI",
       "contactEmail": "contact@trustguardai.com"
     }
   ],
   "assessor": {
-    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "name": "A-LIGN (A-LIGN Compliance and Security, Inc.) — FedRAMP-Recognized 3PAO engaged by the provider to perform the independent verification and validation for the initial FedRAMP 20x Moderate / Class C assessment",
+    "id": "138665",
     "assessorID": "138665"
-  }
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "TrustGuard AI Compliance Platform",
+      "serviceDescription": "SaaS for automated security and compliance assessment using retrieval-augmented AI pipelines over recognized control frameworks. The FedRAMP-assessed instance is hosted in AWS GovCloud (US).",
+      "dateAvailable": "2026-07-06"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "nonCertified": [
+      {
+        "name": "Nango",
+        "provider": "Nango",
+        "useCase": "OAuth/integration connector platform used to broker third-party evidence-source integrations."
+      },
+      {
+        "name": "BoxyHQ Jackson",
+        "provider": "BoxyHQ",
+        "useCase": "SAML/SSO and enterprise identity federation gateway."
+      },
+      {
+        "name": "Langfuse",
+        "provider": "Langfuse",
+        "useCase": "LLM observability and prompt/trace management for the AI assessment pipeline (self-hosted in-partition for GovCloud)."
+      },
+      {
+        "name": "PagerDuty",
+        "provider": "PagerDuty",
+        "useCase": "On-call alerting and incident notification routing."
+      },
+      {
+        "name": "Amazon SES",
+        "provider": "Amazon Web Services",
+        "useCase": "Transactional email delivery for notifications."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2633053629",
+  "id_matches_expected": false
 }

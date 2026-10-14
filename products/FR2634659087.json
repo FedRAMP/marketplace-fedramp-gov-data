@@ -1,6 +1,6 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2634659087",
+    "fedRampPackageId": "Signifi - SignifiVISION",
     "providerName": "Signifi Solutions Inc.",
     "serviceName": "SignifiVISION",
     "serviceAcronym": "SignifiVISION",
@@ -13,16 +13,29 @@
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Government-Only Cloud"
+    "deploymentModel": "Government-Only Cloud",
+    "businessCategory": [
+      "Operations Management"
+    ]
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Razvan Anghelidi",
       "contactEmail": "ranghelidi@signifi.com"
     },
     {
       "contactType": "Sales",
+      "contactName": "Michael Harrison",
       "contactEmail": "mharrison@signifi.com"
     }
-  ]
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "SignifiVISION",
+      "serviceDescription": "Cloud-based software platform for centralized management, monitoring, configuration, and support of Signifi self-service solutions."
+    }
+  ],
+  "ZD_frid_retro": "FR2634659087",
+  "id_matches_expected": false
 }

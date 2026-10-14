@@ -1,40 +1,114 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2633957422",
+    "fedRampPackageId": "TBD",
     "providerName": "MediaLab Solutions LLC",
     "serviceName": "Vastian (MediaLab by Vastian)",
-    "serviceAcronym": "Vastian (MediaLab by Vastian)",
+    "serviceAcronym": "VSTN-CSP",
     "serviceDescription": "Vastian (MediaLab by Vastian) is a web-based Software-as-\na-Service (SaaS) platform that helps healthcare\norganizations and other regulated entities manage quality,\ncompliance, workforce readiness, and operational\nworkflows. The platform provides integrated capabilities for\ndocument management, inspection and survey readiness,\ncompetency and personnel management, continuing\neducation and training, event and incident management,\nperformance improvement, workflow automation, and\nreporting. Configurable workflows, role-based access\ncontrols, and centralized data management help\norganizations standardize processes, maintain compliance,\nimprove operational efficiency, and support readiness\nacross clinical, laboratory, and enterprise operations.\nImplementation, training, and technical support services are\navailable as part of the offering.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
     "website": "https://vastian.com",
-    "logo": "https://vastian-my.sharepoint.com/:i:/r/personal/chelsea_lovgren_medialab_com/Documents/Desktop/Brand/Screenshots/Vastian_RGB_Brandmark_Horizontal_Plum_300%20(1).png?d=w11cf3b7de1c746fbb08c49dfa9734036&csf=1&web=1&e=8ww5nZ"
+    "logo": "https://vastian-my.sharepoint.com/:i:/r/personal/chelsea_lovgren_medialab_com/Documents/Desktop/Brand/Screenshots/Vastian_RGB_Brandmark_Horizontal_Plum_300%20(1).png?d=w11cf3b7de1c746fbb08c49dfa9734036&csf=1&web=1&e=8ww5nZ",
+    "certificationClass": "Class A",
+    "certificationPath": "Program"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Content Management System (CMS)",
+      "Cybersecurity & Risk Management",
+      "Data Management",
+      "Education & Training",
+      "Governance, Risk, and Compliance (GRC)",
+      "Learning Management",
+      "Operations Management",
+      "Storage"
+    ],
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
       "url": "https://trust.paramify.com/vastian",
-      "repositoryDescription": "FedRAMP Trust Center",
-      "authenticationRequired": false
+      "repositoryDescription": "FedRAMP Trust Center for the Cloud Service Offering.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "SSO (SAML 2.0)",
+      "agencyAccessDenialProcess": "If an agency’s access is denied, FedRAMP is notified within 5 days via the\nAgency Access Denial form (Submit a request – fedramp-help). ."
+    },
+    "informationResources": {
+      "resources": [
+        {
+          "name": "Microsoft Azure Commercial Cloud",
+          "type": "Machine-based",
+          "descriptionAndRole": "App Services – Application Hosting\nSQL Hosting – Database Hosting\nVNet, NSG, Front Door, WAF, DNS – Networking\nComponents\nBlob Storage, Redis – Storage Components\nEntraID – Authentication\nSentinel, Monitor, InTune, Defender for Cloud, Endpoint,\nO365, and Identity – Security Components",
+          "handlesFederalCustomerData": true
+        }
+      ]
     }
   },
   "contactInformation": [
     {
+      "contactType": "FedRAMP Security Inbox",
+      "contactEmail": "fedrampsecurity@medialab.com"
+    },
+    {
       "contactType": "Security",
+      "contactName": "Vastian’s Security & Compliance Team",
       "contactEmail": "security@vastian.com"
     },
     {
       "contactType": "Sales",
+      "contactName": "Client Success",
       "contactEmail": "service@medialab.com"
     }
   ],
   "assessor": {
-    "name": "First Information Technology Services, Inc.",
-    "assessorID": "137801"
-  }
+    "name": "FITS",
+    "assessorID": "137801",
+    "independentAssessmentUsed": true
+  },
+  "alternativeSecurityFramework": {
+    "frameworkUsed": "SOC 2 Type II",
+    "impactLevelScope": "Security, Confidentiality, Availability, and HIPAA\nattestation",
+    "dateCompleted": "2025-12-12",
+    "certifyingBody": "BARR Advisory",
+    "independentAssessmentIncluded": "Yes",
+    "mappingToFedRampRules": "Yes",
+    "documentation": [
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Complete report",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Bridge or gap letter",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Verified audit engagement documentation",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Estimated schedule for upcoming report",
+        "location": "December 2026 Issuance Date"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Supplemental compliance evidence",
+        "location": "Please see Trust Center"
+      }
+    ]
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Vastian (MediaLab by Vastian)",
+      "serviceDescription": "Vastian (MediaLab by Vastian) is a web-based Software-as-a-Service\n(SaaS) platform that helps healthcare organizations and other regulated\nentities manage quality, compliance, workforce readiness, and operational\nworkflows. The platform provides integrated capabilities for document\nmanagement, inspection and survey readiness, competency and personnel\nmanagement, continuing education and training, event and incident\nmanagement, performance improvement, workflow automation, and\nreporting. Configurable workflows, role-based access controls, and\ncentralized data management help organizations standardize processes,\nmaintain compliance, improve operational efficiency, and support readiness\nacross clinical, laboratory, and enterprise operations. Implementation,\ntraining, and technical support services are available as part of the offering."
+    }
+  ],
+  "ZD_frid_retro": "FR2633957422",
+  "id_matches_expected": false
 }

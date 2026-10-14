@@ -1,11 +1,11 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2700754078",
+    "fedRampPackageId": "CloudFit Software, LLC - CFP",
     "providerName": "CloudFit Software, LLC",
     "serviceName": "CloudFit Federal Platform",
-    "serviceAcronym": "CloudFit Federal Platform",
+    "serviceAcronym": "CFP",
     "serviceDescription": "CloudFit Federal Platform (CFP) is a CloudFit-operated cloud service offering hosted within Microsoft Azure Government. CFP provides a managed federal cloud environment for hosting customer SaaS applications and cloud workloads. The platform delivers security, governance, compliance, monitoring, identity management, operational support, platform services, and application hosting capabilities within a standardized CloudFit-managed service boundary. CFP is designed to support regulated workloads requiring alignment with federal cybersecurity and compliance frameworks, including FedRAMP, NIST 800-53, RMF, CMMC, and related requirements. The platform enables CloudFit to onboard, operate, monitor, and support customer applications while maintaining a consistent security and compliance posture across hosted services.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
     "website": "https://cloudfitsoftware.com",
     "logo": "https://cloudfitsoftware.com/wp-content/uploads/2025/02/CloudFit_Logo.png"
   },
@@ -15,23 +15,45 @@
       "PaaS"
     ],
     "deploymentModel": "Government-Only Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Governance, Risk, and Compliance (GRC)",
+      "System Administration",
+      "Data Management",
+      "Development Tools",
+      "Analytics",
+      "Artificial Intelligence (AI)",
+      "Network Management"
+    ],
     "trustCenter": {
       "repositoryType": [
-        "Trust Center"
+        "Trust Center",
+        "Assessment Reports",
+        "Certification Package"
       ],
       "url": "https://trust.cloudfitsoftware.com",
-      "repositoryDescription": "FedRAMP Trust Center",
-      "authenticationRequired": false
+      "repositoryDescription": "CloudFit Federal Platform Trust Center containing FedRAMP certification package materials, assessment reports, compliance documentation, security documentation, authorization artifacts, supporting evidence, and related customer-facing trust resources.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access to protected content may be requested by contacting fedramp@cloudfitsoftware.com."
     }
   },
   "contactInformation": [
     {
+      "contactType": "Primary",
+      "contactName": "CloudFit FedRAMP Program Office",
+      "contactEmail": "fedramp@cloudfitsoftware.com"
+    },
+    {
       "contactType": "Security",
+      "contactName": "CloudFit Security Team",
       "contactEmail": "fedramp@cloudfitsoftware.com"
     },
     {
       "contactType": "Sales",
+      "contactName": "CloudFit Business Development",
       "contactEmail": "getfit@cloudfitsoftware.com"
     }
-  ]
+  ],
+  "ZD_frid_retro": "FR2700754078",
+  "id_matches_expected": false
 }

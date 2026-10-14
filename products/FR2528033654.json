@@ -3,7 +3,7 @@
     "fedRampPackageId": "FR2528033654",
     "providerName": "Knox Systems, Inc.",
     "serviceName": "Knox Systems FedRAMP High Managed Platform",
-    "serviceAcronym": "Knox Systems FedRAMP High Managed Platform",
+    "serviceAcronym": "KSI",
     "serviceDescription": "Knox Systems provides a multi-tenant cloud platform for delivering commercial software to federal government customers. Customer applications deploy on Knox's managed infrastructure across AWS, Azure, and Google Cloud Platform using Kubernetes containers, serverless functions, or virtual machines. Knox provides 24/7 Security Operations Center and Network Operations Center management, continuous security monitoring, vulnerability scanning, patch management, and incident response for all customer workloads. This includes:\n\nAdobe Connect is designed for immersive synchronous online meeting experiences for training, large-scale webinars, and virtual classroom meetings for a distributed workforce.\n\nBackupta is a Resilience Platform for Okta that ensures uninterrupted identity and access management. It delivers secure backup, disaster recovery, and rapid restoration of tenants or objects. Tenant cloning and failover strengthen business continuity, while proactive monitoring and audit logs enhance security.\n\nPeregrine enables public safety and government agencies to integrate, model, and access data from agency and authorized partner systems within a unified platform, allowing information about people, places, and events to be understood in context across systems. Peregrine supports workflows such as search, analysis, reporting, alerting, relationship mapping, and operational monitoring by providing a secure, continuously updated, permission-aware view of agency data for authorized users.\n\nSift is a SaaS platform for time-series telemetry ingestion, storage, visualization, and rule-based monitoring of mission-critical hardware systems. It serves mission operators, test engineers, and data analysts across federal agencies and their defense and aerospace contractors, providing interactive dashboards and programmatic query access to machine telemetry and associated operational metadata.\n\nAltana Product Network (APN) is a SaaS offering in AWS GovCloud that uses artificial intelligence to create a single source of truth for the global supply chain. It integrates customer and external datasets to map suppliers, shipments, compliance, and risk, and is used by customer administrators and end users through a web portal with SAML 2.0 federation. The boundary is supported by EKS-based microservices, Databricks data pipelines, and core AWS services such as RDS, S3, OpenSearch, and ElastiCache.\n\nSierra is a multi-tenant SaaS Cloud Service Offering (CSO) that enables Federal agencies to build, deploy, and operate conversational AI agents that interact with the agency's constituents and employees across chat, voice, email, and other channels primarily to handle customer support, case intake, benefits inquiries, and similar service workflows autonomously so agencies can resolve high-volume citizen interactions at scale economically.\n\nThe Acsense IAM Resilience Platform is a cloud-based SaaS solution that serves as an Identity Control Plane, providing unified backup & recovery, disaster recovery on a separate remote tenant, configuration management, and compliance assurance capabilities for enterprise identity and access management (IAM) environments. The platform is IDP-agnostic by design, primarily supporting both Okta (Workforce and CIAM) and Microsoft Entra ID deployments.The system enables authorized administrators to back up enterprise identity infrastructure (including human and non-human identities/machine identities), track and compare configuration changes with full role attribution, map dependencies, detect configuration drift in approximately 10 minutes, and leverage Continuous Resilience Validation to ensure a tested ~10-minute Recovery Time Objective (RTO) during operational incidents, ransomware attacks, or outages. The authorization boundary includes the Acsense SaaS application, supporting management services, application APIs, data processing services, and storage components operated in cloud infrastructure environments. The platform is used by enterprise and government administrators, security teams, and IT operations personnel to process identity-related business data and limited personally identifiable information (PII) associated with IAM objects and user accounts. The service is delivered as a multi-tenant SaaS platform with customer-isolated data storage (or as a single, separated tenant) and relies on external identity provider APIs and cloud infrastructure services to perform authorized backup, synchronization, monitoring, and recovery operations.\n\nSwimlane's Turbine is a multi-tenant SaaS agentic AI security automation platform which uses low-code technology to unify disparate cybersecurity tools into a centralized system of action. By utilizing agentic AI (Hero AI) alongside a visual, drag-and-drop playbook builder, the platform automates complex Security Operations Center (SOC) workflows, vulnerability management, and incident triage without requiring extensive custom coding. This comprehensive AI SOC orchestration eliminates alert fatigue for security teams, tracks compliance, and provides real-time ROI reporting to accelerate threat responses and protect large organizations globally.\n\nDeterminate is an SDLC collaboration and deployment automation platform. It specifically caters to the Nix ecosystem for reproducible and declarative software projects. Determinate processes and delivers software source code (FlakeHub, a source artifact repository) and compiled artifacts (FlakeHub Cache, a binary artifact repository) to end users as multi-tenant SaaS. Users publish their software via the customer's coding forge, like GitHub or GitLab.\n\nThe Vannevar platform supports government agencies and other authorized government users by running guided, agent-assisted workflows across disparate datasets and proprietary data to reduce the time required to turn raw information into investigative outputs. Within the platform, users can ingest and analyze digital artifacts and other government-provided data, correlate and search across those sources, and leverage agents to generate consistent work products. These workflows enable digital forensic sensemaking, investigative development and enrichment, and the production of shareable products for downstream action.\n\nTractian is an asset health monitoring platform that gives government agencies the intelligence to keep critical physical assets running in support of mission readiness, with security and compliance built for U.S. federal requirements. Wireless sensors and AI analytics support the whole asset health lifecycle, detecting developing failures, tracking how they progress, and guiding teams through to resolution before an issue becomes downtime or a safety event. The platform is deployed within Knox's FedRAMP High Authorized environment on AWS GovCloud, and it helps agencies and contractors get more output and reliability from the equipment they already have, without adding headcount, capital expense, or new risk.\n\nMissionML Studio is a platform used to build, prototype, and productionize AI-enabled government workflow applications and securely host and monitor them. It is deployed as a secure, fully managed, single-tenant cloud platform where government program managers build and prototype custom AI workflow applications tailored to their mission needs and process operational, analytical, and mission data, while ensuring isolation for each customer environment.\n\nVectra AI delivers AI-native security and observability that helps federal security teams build and demonstrate resilience against modern cyber threats. The platform provides unified observability across on-premises networks, identity, cloud, SaaS, IoT/OT, edge, and AI infrastructure to identify active threats, prioritize investigation and response, and help agencies proactively reduce cyber risk and strengthen security posture. Federal security analysts, incident responders, administrators, and security leaders use the platform to monitor activity, investigate suspicious behavior, hunt for threats, contain compromised identities or devices, and assess gaps in security coverage. The platform provides contextual investigation, natural-language assistance, attack-path visualization, operational reporting, and evidence that supports continuous monitoring, compliance, and SOC optimization. More than 2,000 organizations use Vectra AI, which was named a Leader in the 2025 and 2026 Gartner® Magic Quadrant™ for Network Detection and Response.\n\nUpwind Security is a SaaS cloud security platform that enables authorized users to identify and manage cloud vulnerabilities, security misconfigurations, runtime threats, and cloud asset inventory within cloud environments. The authorization boundary includes the Upwind application and supporting services necessary to provide these capabilities, processes cloud infrastructure metadata and security telemetry, and relies on AWS GovCloud (US) infrastructure and authorized external service dependencies to deliver the service.\n\nSimpliGov is a cloud-based, multi-tenant Software-as-a-Service application that provides a government operations platform used by state and local agencies to design, run, and improve how their programs operate: digital forms that capture program data, and automation that moves applications, approvals, documents, signatures, and payments across teams and systems. The platform is used by more than 100 agencies and is sold only to U.S. public-sector customers.\n\nThe interos.ai Resilience Platform is a cloud-based, multi-tenant SaaS platform that delivers AI-powered supply chain risk intelligence to federal agencies, defense contractors, and commercial enterprises by ingesting, analyzing, and presenting supplier and business relationship data across six risk domains (Financial, Restrictions, Catastrophic, Geopolitical, ESG, and Cyber). Authorized users (procurement teams, risk managers, compliance officers) identify and monitor supply chain risks through web and API interfaces, configure custom risk rules and alert thresholds, and access risk intelligence.\n\nTranquility's TimePilot and HelioTrace are multi-tenant, SaaS-based platforms that support complex investigative and operational workflows across federal agencies. The platforms enable authorized personnel to securely ingest, organize, analyze, and synthesize large volumes of operational data using Super Intelligence-assisted natural language search, pattern recognition, automated work product generation, and standardized reporting to support informed decision-making. The services are hosted within a FedRAMP-authorized cloud environment and integrate with agency-provisioned data sources and approved operational systems.\n\nBigID provides an automated foundation for data security, privacy, and governance across the federal enterprise. Delivered as SaaS on Amazon EKS in AWS GovCloud (US-East), the platform proactively discovers, classifies, and inventories sensitive data and AI assets across agency environments, including multi-cloud, on-premises data centers, and data pipelines, using a combination of techniques, including pattern matching and machine learning, to identify PII, PHI, and CUI. Agency administrators, privacy officers, security analysts, and data stewards use this visibility to mitigate risk, identify over-exposed data, revoke excessive access, and ensure regulatory compliance, with the resulting metadata, classifications, and catalog records stored in an in-cluster MongoDB database and Elastic Cloud.",
     "certificationType": "Rev5",
     "website": "https://www.knoxsystems.com",
@@ -14,7 +14,27 @@
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Government Community Cloud"
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Collaboration",
+      "Communication",
+      "Content Management System (CMS)",
+      "Cybersecurity & Risk Management",
+      "Education & Training",
+      "Operations Management",
+      "System Administration"
+    ],
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guide"
+      ],
+      "url": "https://knoxsystems.com/secure-configuration-guides",
+      "repositoryDescription": "Knox Systems Secure Configuration Guides for agency customers",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [],
+    "nextOngoingCertificationReportDate": "2027-03-09"
   },
   "contactInformation": [
     {
@@ -29,5 +49,116 @@
   "assessor": {
     "name": "Coalfire Systems, Inc.",
     "assessorID": "138514"
-  }
+  },
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AWS US East/West",
+        "useCase": "Underlying IaaS for customer workloads."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Azure Government",
+        "useCase": "Underlying IaaS for customer workloads."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Google Cloud Platform",
+        "useCase": "Underlying IaaS for customer workloads."
+      }
+    ],
+    "nonCertified": []
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Adobe Connect",
+      "serviceDescription": "Adobe Connect is designed for immersive synchronous online meeting experiences for training, large-scale webinars, and virtual classroom meetings for a distributed workforce.",
+      "dateAvailable": "2026-03-30"
+    },
+    {
+      "serviceName": "Backupta",
+      "serviceDescription": "Backupta is a Resilience Platform for Okta that ensures uninterrupted identity and access management. It delivers secure backup, disaster recovery, and rapid restoration of tenants or objects. Tenant cloning and failover strengthen business continuity, while proactive monitoring and audit logs enhance security.",
+      "dateAvailable": "2026-03-30"
+    },
+    {
+      "serviceName": "Peregrine",
+      "serviceDescription": "Peregrine enables public safety and government agencies to integrate, model, and access data from agency and authorized partner systems within a unified platform, allowing information about people, places, and events to be understood in context across systems. Peregrine supports workflows such as search, analysis, reporting, alerting, relationship mapping, and operational monitoring by providing a secure, continuously updated, permission-aware view of agency data for authorized users.",
+      "dateAvailable": "2026-03-30"
+    },
+    {
+      "serviceName": "Sift",
+      "serviceDescription": "Sift is a SaaS platform for time-series telemetry ingestion, storage, visualization, and rule-based monitoring of mission-critical hardware systems. It serves mission operators, test engineers, and data analysts across federal agencies and their defense and aerospace contractors, providing interactive dashboards and programmatic query access to machine telemetry and associated operational metadata.",
+      "dateAvailable": "2026-03-30"
+    },
+    {
+      "serviceName": "Altana Product Network (APN)",
+      "serviceDescription": "Altana Product Network (APN) is a SaaS offering in AWS GovCloud that uses artificial intelligence to create a single source of truth for the global supply chain. It integrates customer and external datasets to map suppliers, shipments, compliance, and risk, and is used by customer administrators and end users through a web portal with SAML 2.0 federation. The boundary is supported by EKS-based microservices, Databricks data pipelines, and core AWS services such as RDS, S3, OpenSearch, and ElastiCache.",
+      "dateAvailable": "2026-03-30"
+    },
+    {
+      "serviceName": "Sierra",
+      "serviceDescription": "Sierra is a multi-tenant SaaS Cloud Service Offering (CSO) that enables Federal agencies to build, deploy, and operate conversational AI agents that interact with the agency's constituents and employees across chat, voice, email, and other channels primarily to handle customer support, case intake, benefits inquiries, and similar service workflows autonomously so agencies can resolve high-volume citizen interactions at scale economically.",
+      "dateAvailable": "2026-03-30"
+    },
+    {
+      "serviceName": "Acsense IAM Resilience Platform",
+      "serviceDescription": "The Acsense IAM Resilience Platform is a cloud-based SaaS solution that serves as an Identity Control Plane, providing unified backup & recovery, disaster recovery on a separate remote tenant, configuration management, and compliance assurance capabilities for enterprise identity and access management (IAM) environments. The platform is IDP-agnostic by design, primarily supporting both Okta (Workforce and CIAM) and Microsoft Entra ID deployments.The system enables authorized administrators to back up enterprise identity infrastructure (including human and non-human identities/machine identities), track and compare configuration changes with full role attribution, map dependencies, detect configuration drift in approximately 10 minutes, and leverage Continuous Resilience Validation to ensure a tested ~10-minute Recovery Time Objective (RTO) during operational incidents, ransomware attacks, or outages. The authorization boundary includes the Acsense SaaS application, supporting management services, application APIs, data processing services, and storage components operated in cloud infrastructure environments. The platform is used by enterprise and government administrators, security teams, and IT operations personnel to process identity-related business data and limited personally identifiable information (PII) associated with IAM objects and user accounts. The service is delivered as a multi-tenant SaaS platform with customer-isolated data storage (or as a single, separated tenant) and relies on external identity provider APIs and cloud infrastructure services to perform authorized backup, synchronization, monitoring, and recovery operations.",
+      "dateAvailable": "2026-03-30"
+    },
+    {
+      "serviceName": "Swimlane Turbine",
+      "serviceDescription": "Swimlane's Turbine is a multi-tenant SaaS agentic AI security automation platform which uses low-code technology to unify disparate cybersecurity tools into a centralized system of action. By utilizing agentic AI (Hero AI) alongside a visual, drag-and-drop playbook builder, the platform automates complex Security Operations Center (SOC) workflows, vulnerability management, and incident triage without requiring extensive custom coding. This comprehensive AI SOC orchestration eliminates alert fatigue for security teams, tracks compliance, and provides real-time ROI reporting to accelerate threat responses and protect large organizations globally.",
+      "dateAvailable": "2026-03-30"
+    },
+    {
+      "serviceName": "Determinate",
+      "serviceDescription": "Determinate is an SDLC collaboration and deployment automation platform. It specifically caters to the Nix ecosystem for reproducible and declarative software projects. Determinate processes and delivers software source code (FlakeHub, a source artifact repository) and compiled artifacts (FlakeHub Cache, a binary artifact repository) to end users as multi-tenant SaaS. Users publish their software via the customer's coding forge, like GitHub or GitLab.",
+      "dateAvailable": "2026-03-30"
+    },
+    {
+      "serviceName": "Vannevar",
+      "serviceDescription": "The Vannevar platform supports government agencies and other authorized government users by running guided, agent-assisted workflows across disparate datasets and proprietary data to reduce the time required to turn raw information into investigative outputs. Within the platform, users can ingest and analyze digital artifacts and other government-provided data, correlate and search across those sources, and leverage agents to generate consistent work products. These workflows enable digital forensic sensemaking, investigative development and enrichment, and the production of shareable products for downstream action.",
+      "dateAvailable": "2026-03-30"
+    },
+    {
+      "serviceName": "Tractian",
+      "serviceDescription": "Tractian is an asset health monitoring platform that gives government agencies the intelligence to keep critical physical assets running in support of mission readiness, with security and compliance built for U.S. federal requirements. Wireless sensors and AI analytics support the whole asset health lifecycle, detecting developing failures, tracking how they progress, and guiding teams through to resolution before an issue becomes downtime or a safety event. The platform is deployed within Knox's FedRAMP High Authorized environment on AWS GovCloud, and it helps agencies and contractors get more output and reliability from the equipment they already have, without adding headcount, capital expense, or new risk.",
+      "dateAvailable": "2026-03-30"
+    },
+    {
+      "serviceName": "MissionML Studio",
+      "serviceDescription": "MissionML Studio is a platform used to build, prototype, and productionize AI-enabled government workflow applications and securely host and monitor them. It is deployed as a secure, fully managed, single-tenant cloud platform where government program managers build and prototype custom AI workflow applications tailored to their mission needs and process operational, analytical, and mission data, while ensuring isolation for each customer environment.",
+      "dateAvailable": "2026-03-30"
+    },
+    {
+      "serviceName": "Vectra AI",
+      "serviceDescription": "Vectra AI delivers AI-native security and observability that helps federal security teams build and demonstrate resilience against modern cyber threats. The platform provides unified observability across on-premises networks, identity, cloud, SaaS, IoT/OT, edge, and AI infrastructure to identify active threats, prioritize investigation and response, and help agencies proactively reduce cyber risk and strengthen security posture. Federal security analysts, incident responders, administrators, and security leaders use the platform to monitor activity, investigate suspicious behavior, hunt for threats, contain compromised identities or devices, and assess gaps in security coverage. The platform provides contextual investigation, natural-language assistance, attack-path visualization, operational reporting, and evidence that supports continuous monitoring, compliance, and SOC optimization. More than 2,000 organizations use Vectra AI, which was named a Leader in the 2025 and 2026 Gartner® Magic Quadrant™ for Network Detection and Response.",
+      "dateAvailable": "2026-03-30"
+    },
+    {
+      "serviceName": "Upwind Security",
+      "serviceDescription": "Upwind Security is a SaaS cloud security platform that enables authorized users to identify and manage cloud vulnerabilities, security misconfigurations, runtime threats, and cloud asset inventory within cloud environments. The authorization boundary includes the Upwind application and supporting services necessary to provide these capabilities, processes cloud infrastructure metadata and security telemetry, and relies on AWS GovCloud (US) infrastructure and authorized external service dependencies to deliver the service.",
+      "dateAvailable": "2026-09-04"
+    },
+    {
+      "serviceName": "SimpliGov",
+      "serviceDescription": "SimpliGov is a cloud-based, multi-tenant Software-as-a-Service application that provides a government operations platform used by state and local agencies to design, run, and improve how their programs operate: digital forms that capture program data, and automation that moves applications, approvals, documents, signatures, and payments across teams and systems. The platform is used by more than 100 agencies and is sold only to U.S. public-sector customers.",
+      "dateAvailable": "2026-09-11"
+    },
+    {
+      "serviceName": "Interos.ai for Government",
+      "serviceDescription": "The interos.ai Resilience Platform is a cloud-based, multi-tenant SaaS platform that delivers AI-powered supply chain risk intelligence to federal agencies, defense contractors, and commercial enterprises by ingesting, analyzing, and presenting supplier and business relationship data across six risk domains (Financial, Restrictions, Catastrophic, Geopolitical, ESG, and Cyber). Authorized users (procurement teams, risk managers, compliance officers) identify and monitor supply chain risks through web and API interfaces, configure custom risk rules and alert thresholds, and access risk intelligence.",
+      "dateAvailable": "2026-09-29"
+    },
+    {
+      "serviceName": "TimePilot for Government",
+      "serviceDescription": "Tranquility's TimePilot and HelioTrace are multi-tenant, SaaS-based platforms that support complex investigative and operational workflows across federal agencies. The platforms enable authorized personnel to securely ingest, organize, analyze, and synthesize large volumes of operational data using Super Intelligence-assisted natural language search, pattern recognition, automated work product generation, and standardized reporting to support informed decision-making. The services are hosted within a FedRAMP-authorized cloud environment and integrate with agency-provisioned data sources and approved operational systems.",
+      "dateAvailable": "2026-09-30"
+    },
+    {
+      "serviceName": "BigID",
+      "serviceDescription": "BigID provides an automated foundation for data security, privacy, and governance across the federal enterprise. Delivered as SaaS on Amazon EKS in AWS GovCloud (US-East), the platform proactively discovers, classifies, and inventories sensitive data and AI assets across agency environments, including multi-cloud, on-premises data centers, and data pipelines, using a combination of techniques, including pattern matching and machine learning, to identify PII, PHI, and CUI. Agency administrators, privacy officers, security analysts, and data stewards use this visibility to mitigate risk, identify over-exposed data, revoke excessive access, and ensure regulatory compliance, with the resulting metadata, classifications, and catalog records stored in an in-cluster MongoDB database and Elastic Cloud.",
+      "dateAvailable": "2026-10-06"
+    }
+  ],
+  "ZD_frid_retro": "FR2528033654",
+  "id_matches_expected": true
 }

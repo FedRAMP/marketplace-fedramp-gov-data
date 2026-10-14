@@ -1,41 +1,106 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
     "fedRampPackageId": "FR2113346550",
+    "ueiNumber": "CV2NM2K89UL9",
     "providerName": "OpenWater Software LLC",
     "serviceName": "OpenWater",
-    "serviceAcronym": "OpenWater",
+    "serviceAcronym": "OW",
     "serviceDescription": "OpenWater is a multi-tenant SaaS application and review platform that organizations use to run awards, abstracts and call-for-papers, grants, scholarships, fellowships, accreditation, and competition programs.\n\nProgram administrators build custom online submission forms and assign submissions to reviewers and judges for scoring and feedback.\n\nThe FedRAMP certification covers OpenWater's Submission Management and Review & Evaluation services only. Other OpenWater capabilities, including automated communications, reporting, program website builder, galleries, conference session scheduling, payments, and third-party integrations, are not included in the FedRAMP Minimum Assessment Scope.",
     "certificationType": "Rev5",
     "website": "https://openwater.com/",
-    "logo": "https://openwater.com/hs-fs/hubfs/About%20TopClass_OpenWater.png?width=600&height=116&name=About%20TopClass_OpenWater.png",
-    "ueiNumber": "CV2NM2K89UL9"
+    "logo": "https://openwater.com/hs-fs/hubfs/About%20TopClass_OpenWater.png?width=600&height=116&name=About%20TopClass_OpenWater.png"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Operations Management"
+    ],
     "trustCenter": {
       "repositoryType": [
-        "Trust Center"
+        "Trust Center",
+        "Assessment Reports",
+        "Policies and Procedures"
       ],
       "url": "https://help.getopenwater.com/en/articles/2631349-security-and-privacy-compliance-documentation",
-      "repositoryDescription": "FedRAMP Trust Center",
+      "repositoryDescription": "OpenWater Trust Center: FedRAMP certification materials, security policies and procedures, and assessment reports for OpenWater.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Sign in to OpenWater to view OpenWater's FedRAMP certification materials, security policies and procedures, and assessment reports. No NDA is required. For help with access, contact help@getopenwater.com."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://help.getopenwater.com/en/articles/2400252-enable-captcha-and-password-strength-requirements-with-high-security-mode",
+      "repositoryDescription": "OpenWater secure configuration guidance: enabling High Security Mode, including CAPTCHA on login and password strength requirements.",
       "authenticationRequired": false
-    }
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Product Documentation"
+        ],
+        "url": "https://help.getopenwater.com/",
+        "repositoryDescription": "OpenWater Help Center: administrator and end-user product documentation.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "API Documentation"
+        ],
+        "url": "https://help.getopenwater.com/en/collections/59217-api-and-developer-documentation",
+        "repositoryDescription": "OpenWater API and developer documentation.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Privacy and Legal"
+        ],
+        "url": "https://advsol.com/legal",
+        "repositoryDescription": "ASI privacy policy, terms of use, and other legal agreements.",
+        "authenticationRequired": false
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2026-12-31"
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "help@getopenwater.com"
+      "contactType": "Sales",
+      "contactName": "OpenWater Sales",
+      "contactEmail": "info@getopenwater.com",
+      "contactPhone": "703-718-5358"
     },
     {
-      "contactType": "Sales",
-      "contactEmail": "info@getopenwater.com"
+      "contactType": "Security",
+      "contactName": "OpenWater Security",
+      "contactEmail": "help@getopenwater.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Submission Management",
+      "serviceDescription": "Configurable online forms through which applicants submit applications, nominations, and abstracts, including file uploads."
+    },
+    {
+      "serviceName": "Review & Evaluation",
+      "serviceDescription": "Reviewer and judge assignment, scoring rubrics, multi-round review, and reviewer feedback."
     }
   ],
   "assessor": {
     "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
     "assessorID": "138665"
-  }
+  },
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
+        "useCase": "Microsoft Azure (Azure Commercial Cloud) provides the infrastructure and platform services that host OpenWater, including compute, storage, databases, and networking."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2113346550",
+  "id_matches_expected": true
 }

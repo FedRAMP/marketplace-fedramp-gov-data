@@ -1,37 +1,57 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
     "fedRampPackageId": "FR2633734917",
+    "ueiNumber": "QVRMA38A9DK9",
     "providerName": "Simuhealth Technologies Inc.",
     "serviceName": "Simuhealth",
-    "serviceAcronym": "Simuhealth",
+    "serviceAcronym": "SIMU",
     "serviceDescription": "Simuhealth is a cloud-based operations platform for healthcare simulation training programs. It provides the digital infrastructure that powers simulation programs and centers, including scheduling and resource coordination, equipment and inventory lifecycle management, scenario and curriculum management, learner and instructor workflows, competency tracking, utilization analytics, and accreditation evidence management. Simuhealth is delivered as a multi-tenant SaaS offering hosted on Amazon Web Services.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
     "website": "https://simu.health",
-    "logo": "https://simu.health/logo.png",
-    "ueiNumber": "QVRMA38A9DK9"
+    "logo": "https://simu.health/logo.png"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Operations Management",
+      "Education & Training",
+      "Learning Management"
+    ],
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
       "url": "https://simu.health/trust",
-      "repositoryDescription": "FedRAMP Trust Center",
+      "repositoryDescription": "Simuhealth Trust Center: FedRAMP progress milestones and quarterly updates, security documentation overview, and instructions for requesting access to non-public materials.",
       "authenticationRequired": false
     }
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "security@simu.health"
+      "contactType": "Sales",
+      "contactName": "Simuhealth Sales",
+      "contactEmail": "inquiry@simu.health",
+      "contactPhone": "604-340-1843"
     },
     {
-      "contactType": "Sales",
-      "contactEmail": "inquiry@simu.health"
+      "contactType": "Security",
+      "contactName": "Simuhealth Security",
+      "contactEmail": "security@simu.health",
+      "contactPhone": "604-340-1843"
     }
-  ]
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Simuhealth",
+      "serviceDescription": "The Simuhealth operations platform, including scheduling, equipment and inventory management, scenario libraries, learner and instructor management, competency tracking, logistics management, analytics, and accreditation reporting.",
+      "dateAvailable": "2025-08-14"
+    }
+  ],
+  "ZD_frid_retro": "FR2633734917",
+  "id_matches_expected": true
 }

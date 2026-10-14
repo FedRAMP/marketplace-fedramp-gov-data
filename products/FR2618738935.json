@@ -1,41 +1,88 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
     "fedRampPackageId": "FR2618738935",
+    "ueiNumber": "H6YBMH9MN3D3",
     "providerName": "ATX Defense",
     "serviceName": "CMMC Space",
     "serviceAcronym": "CMMC Space",
     "serviceDescription": "CMMC Space is a multi-tenant SaaS virtual desktop service hosted in Google Cloud’s FedRAMP High environment for defense contractors and other organizations that handle Controlled Unclassified Information (CUI). It gives those customers a VDI environment for processing CUI and for access to FedRAMP-authorized services, so they can handle that CUI in line with NIST SP 800-171 and CMMC Level 2.\n\nUsers sign in using the Google Identity Platform into a session ATX Defense builds and hardens: a locked-down Chrome browser or a mission-specific virtual environment, streamed over HTML5. Each customer is a separate tenant with its own users, groups, and workspace images. The underlying virtual infrastructure is operated and patched by ATX Defense, so contractors do not stand up and maintain the environment themselves.\n\nThe CUI in scope is what customers process, store, or transmit inside the virtual desktops and the collaboration services reached from them. The user's own device runs only a browser and stays outside that boundary.",
     "certificationType": "Rev5",
     "website": "https://atxdefense.com/capabilities/cmmc-compliance/",
-    "logo": "https://raw.githubusercontent.com/atx-defense/cmmc-space-marketplace/refs/heads/main/img/logo.png",
-    "ueiNumber": "H6YBMH9MN3D3"
+    "logo": "https://raw.githubusercontent.com/atx-defense/cmmc-space-marketplace/refs/heads/main/img/logo.png"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Governance, Risk, and Compliance (GRC)"
+    ],
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
       "url": "https://community.connect.gov/spaces/FedRAMPExternal/pages/2889032052/ATX+Defense",
-      "repositoryDescription": "FedRAMP Trust Center",
-      "authenticationRequired": false
-    }
+      "repositoryDescription": "MAX / USDA Connect location for CMMC Space FedRAMP Trust Center materials.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Request a MAX / USDA Connect account at https://login.max.gov/, then request access to the CMMC Space FedRAMP documentation."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://community.connect.gov/spaces/FedRAMPExternal/pages/2889032052/ATX+Defense",
+      "repositoryDescription": "MAX / USDA Connect location for CMMC Space secure configuration guidance.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Request a MAX / USDA Connect account at https://login.max.gov/, then request access to the CMMC Space FedRAMP documentation."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Assessment Reports",
+          "Policies"
+        ],
+        "url": "https://community.connect.gov/spaces/FedRAMPExternal/pages/2889032052/ATX+Defense",
+        "repositoryDescription": "MAX / USDA Connect location for CMMC Space assessment reports, policies, and related authorization documentation.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Request a MAX / USDA Connect account at https://login.max.gov/, then request access to the CMMC Space FedRAMP documentation."
+      }
+    ]
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "FedRAMP@atxdefense.com"
-    },
-    {
       "contactType": "Sales",
       "contactEmail": "sales@atxdefense.com"
+    },
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@atxdefense.com"
     }
   ],
   "assessor": {
     "name": "Ignyte Platform Inc.",
     "assessorID": "201722"
-  }
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "CMMC Space VDI",
+      "serviceDescription": "Multi-tenant hardened virtual desktop (locked-down Chrome and/or mission-specific environment) streamed over HTML5. Users sign in with their Google identity. ATX Defense operates and patches the underlying virtual infrastructure."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Google Cloud (Google Services / GCP products and underlying infrastructure) hosts the CMMC Space VDI."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+        "useCase": "Google Workspace provides the internal documentation repository for ATX Defense CMMC Space developers and administrators."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2618738935",
+  "id_matches_expected": true
 }

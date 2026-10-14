@@ -1,11 +1,12 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2628647242",
     "providerName": "Bland AI",
     "serviceName": "Bland",
     "serviceAcronym": "Bland",
     "serviceDescription": "Bland is an enterprise voice AI platform for building, deploying, and operating AI phone agents at scale. Bland runs its own speech and language models, so customer calls are not sent to third-party frontier model providers. Speech-to-text, reasoning, and text-to-speech all run on Bland’s own models within Bland’s boundary.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
+    "fedRampPackageId": "FR2628647242",
+    "ueiNumber": "",
     "website": "https://www.bland.ai",
     "logo": "https://www.bland.ai/images/bland-logo.svg"
   },
@@ -14,27 +15,617 @@
       "PaaS"
     ],
     "deploymentModel": "Government-Only Cloud",
+    "digitalIdentityLevel": "IAL: customer/agency-managed or not performed by Bland; AAL2 for Bland-managed administrative authentication where MFA is enforced; FAL2 where federated SSO is configured",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Contact Center"
+    ],
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
       "url": "https://trust.bland-gov.com/",
-      "repositoryDescription": "FedRAMP Trust Center",
+      "repositoryDescription": "Bland FedRAMP Trust Center. FedRAMP package and security documentation for federal agencies and recognized assessors.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.bland-gov.com/resources?s=8udmre29tx8im63a7l6bhw&name=bland-ai-secure-configuration-guide.pdf",
+      "repositoryDescription": "Bland AI secure configuration guide: hardening and configuration guidance for operating Bland securely (SCG-CSO-RSC).",
       "authenticationRequired": false
-    }
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Documentation Catalog"
+        ],
+        "url": "https://trust.bland-gov.com/",
+        "repositoryDescription": "Catalog of all policies and procedures (name, version, date updated, summary). Available on the Trust Center in human-readable and machine-readable format.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+      },
+      {
+        "repositoryType": [
+          "Quarterly Certification Progress Report"
+        ],
+        "url": "https://trust.bland-gov.com/",
+        "repositoryDescription": "Detailed quarterly roadmap: completed milestones, current work, upcoming work, and assessment timeline.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+      },
+      {
+        "repositoryType": [
+          "Assessment Deadline"
+        ],
+        "url": "https://trust.bland-gov.com/",
+        "repositoryDescription": "Official statement of work from Prescient Security documenting Bland’s commitment to a Class C assessment within the next 24 months.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+      },
+      {
+        "repositoryType": [
+          "Vulnerability Reporting"
+        ],
+        "url": "https://trust.bland-gov.com/",
+        "repositoryDescription": "Vulnerability detection and response reporting published as FedRAMP Certification Data: the monthly human-readable report required by VER-TFR-MHR and its machine-readable companions for VER-RPT-VDT and VER-RPT-AVI. Governed by the Bland Vulnerability Management Plan and the Bland VDR Reporting Procedure.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+      },
+      {
+        "repositoryType": [
+          "Historical Vulnerability Activity"
+        ],
+        "url": "https://trust.bland-gov.com/",
+        "repositoryDescription": "Machine-readable historical vulnerability evaluation and reporting activity for automated retrieval (VER-TFR-MRH), with the retrieval design, access model, and schedule set out in the Bland Historical Vulnerability Activity Retrieval Statement. Partially implemented; published as a periodic snapshot pending the authenticated retrieval endpoint.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+      },
+      {
+        "repositoryType": [
+          "Incident Reporting"
+        ],
+        "url": "https://trust.bland-gov.com/",
+        "repositoryDescription": "Where Bland publishes Initial, Ongoing, and Final Incident Reports for FedRAMP Reportable Incidents (IEC-CSO-IIR, IEC-CSO-OIR, IEC-CSO-FIR) in human-readable and machine-readable form.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+      },
+      {
+        "repositoryType": [
+          "Significant Change Notifications"
+        ],
+        "url": "https://trust.bland-gov.com/",
+        "repositoryDescription": "Where Bland publishes Significant Change Notifications and related audit records (SCN-CSO-INF, SCN-CSO-HRM) in human-readable and machine-readable form.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+      },
+      {
+        "repositoryType": [
+          "Independent Assessment Results"
+        ],
+        "url": "https://trust.bland-gov.com/",
+        "repositoryDescription": "Results of the Prescient Security FedRAMP 20x Class C independent assessment supplied without inappropriate modification per IVV-CSO-ICP: assessment report, master assessment workbook, machine-readable assessment results, assessor acceptance and completion register, provider responses and assessor dispositions, metrics mechanism inventory, evidence index, supporting artifact date register, and release gate register.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Use the \"Request access\" button on the Trust Center; access can be reclaimed with \"Reclaim access\". Questions: fedramp@bland.ai."
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2026-10-30"
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Bland FedRAMP",
       "contactEmail": "fedramp@bland.ai"
     },
     {
       "contactType": "Sales",
+      "contactName": "Bland Federal Sales",
       "contactEmail": "sales@bland.ai"
     }
   ],
   "assessor": {
     "name": "Prescient Security, LLC.",
     "assessorID": "202040"
-  }
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Voice agents",
+      "serviceDescription": "AI phone agents that answer inbound calls and place outbound calls, hold natural spoken conversations, and act on what the caller needs. Each agent follows a configurable conversation pathway, a decision tree that interprets the caller’s intent and then routes the call or takes an action such as scheduling, sending follow-ups, taking payments, answering questions from an approved knowledge base, or escalating to a person. Speech-to-text, reasoning, and text-to-speech all run on Bland’s own models inside Bland’s boundary.",
+      "dateAvailable": "2026-07-13"
+    },
+    {
+      "serviceName": "SMS",
+      "serviceDescription": "Programmatic two-way text messaging driven by the same pathway logic as voice agents. Agents send and respond to messages for notifications, reminders, status updates, and structured question-and-answer flows, triggering the same actions as a voice agent, such as scheduling, follow-ups, and record updates, over text rather than a call.",
+      "dateAvailable": "2026-07-13"
+    },
+    {
+      "serviceName": "Chat",
+      "serviceDescription": "Web and in-app chat agents that run on the same conversation pathways and actions as voice and SMS, embedded in an agency’s web properties for self-service. Chat shares the rule sets, knowledge, and integrations of the other channels, so a constituent gets the same answers and outcomes no matter how they reach out.",
+      "dateAvailable": "2026-07-13"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "name": "AWS GovCloud",
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "Cloud infrastructure hosting the Bland service."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Okta",
+        "provider": "Okta",
+        "website": "https://www.okta.com",
+        "useCase": "Identity provider for Bland-managed administrative authentication."
+      },
+      {
+        "name": "Twilio",
+        "provider": "Twilio",
+        "website": "https://www.twilio.com",
+        "useCase": "Telephony carrier connectivity (PSTN) for voice calls."
+      }
+    ]
+  },
+  "x-bland": {
+    "note": "CPO-CSO-MTD requires the responsible official, version, date and time of last update, and source of update in the Certification Package Overview, and CPO-CSO-OSA requires the overall summary of the independent assessment. The official FedRAMP Certification Package Overview schema has no property for any of these, so Bland carries them here. The schema does not set additionalProperties to false, so this validates. Re-check on each schema release.",
+    "certificationPackageOverviewMetadata": {
+      "responsibleOfficial": {
+        "name": "Juan Riojas",
+        "title": "Chief Information Officer",
+        "email": "fedramp@bland.ai"
+      },
+      "version": "1.4",
+      "lastUpdated": "2026-09-08T00:00:00Z",
+      "sourceOfUpdate": "Incorporated the overall summary of assessment required by CPO-CSO-OSA from the final assessment supplied by Prescient Security, LLC. under IVV-IAS-OSA: the Class C Assessment Report issued 2026-09-08, the machine-readable assessment results, the assessor acceptance and completion register, the provider responses and assessor dispositions register, the metrics mechanism inventory, the supporting artifact date register, and the release gate register (delivery edition Bland-C-Final-Delivery-20260908-v2). Recorded the assessment timeline (completion 2026-09-03, reconciliation 2026-09-04, corrections 2026-09-05, independent quality assurance 2026-09-07 across all 204 records), determinations for 46 Key Security Indicators and 158 provider rules, the FRC-CSX-VVK continuous validation method counts, the 20 retained findings, the areas of dispute and matters requiring disposition or interpretation, the assessor-stated limitations, and the release gates. Recorded Bland's own notes that the assessment does not acknowledge Security Decision Record v2.4 published 2026-09-04, and that no met or not-met determinations were delivered. Recorded Bland's adoption of Security Decision Record v2.4 as the Class C release and the submission of Bland's 20x Class C application on 2026-09-08. Added the assessor record to the machine-readable overview and a Trust Center repository for independent assessment results, and updated the certification status and the Independent Verification and Validation section for a completed Class C assessment pending provider adoption, findings dispositions, and submission."
+    },
+    "overallSummaryOfAssessment": {
+      "note": "CPO-CSO-OSA requires providers seeking Class C Certification to include the overall summary of their FedRAMP independent assessment, supplied by the assessor per IVV-IAS-OSA, in the Certification Package Overview. The official FedRAMP Certification Package Overview schema (2026-06-24) has no property for this summary, so Bland carries it here. Structure and presentation have been adapted to Bland's package; determinations, counts, findings and their meaning are as supplied by the assessor (IVV-CSO-ICP). Re-check on each schema release.",
+      "suppliedBy": {
+        "name": "Prescient Security, LLC.",
+        "assessorID": "202040",
+        "fedRampRecognized": true,
+        "sourceDocuments": [
+          "Class C Assessment Report, issued 2026-09-08",
+          "Machine-readable assessment results (final independently reviewed assessment results, generated 2026-09-08)",
+          "Assessor acceptance and completion register (204 records)",
+          "Provider responses and assessor dispositions register (101 records, 2026-09-04)",
+          "Metrics mechanism inventory (46 Key Security Indicators)",
+          "Supporting artifact date register",
+          "Release gate register"
+        ],
+        "deliveryEdition": "Bland-C-Final-Delivery-20260908-v2",
+        "packageState": "FINAL ASSESSMENT - INDEPENDENT QA COMPLETED"
+      },
+      "scope": {
+        "description": "FedRAMP 20x Class C at the Moderate security category; all 46 Key Security Indicators and all 158 applicable provider rules (IVV-CSX-AIA). A further 11 rules are carried as out-of-scope context and receive no determination.",
+        "keySecurityIndicatorsAssessed": 46,
+        "providerRulesAssessed": 158,
+        "contextOnlyRules": 11,
+        "rulesSource": {
+          "version": "2026.07.14.01",
+          "lastUpdated": "2026-07-14",
+          "changedSinceSpecifiedBaseline": false,
+          "source": "00-manifest/official-sources/fedramp-consolidated-rules.json"
+        },
+        "methods": "Completed source examinations, automated validation results, offline evidence reviews, interviews, demonstrations and walkthroughs, recorded as 45 Key Security Indicator discussion notes and 121 provider-rule discussion notes. Rule and KSI determinations are final; implementation status reconciliation is complete."
+      },
+      "timeline": {
+        "assessmentStartDate": "2026-09-01",
+        "assessmentCompletionDate": "2026-09-03",
+        "responseReconciliationDate": "2026-09-04",
+        "correctionsDate": "2026-09-05",
+        "correctionsApplied": [
+          "KSI-MLA-OSM",
+          "KSI-MLA-RVL"
+        ],
+        "qualificationsAndIndependenceCompleted": "2026-09-05",
+        "independentQaCompletionDate": "2026-09-07",
+        "finalAssessmentIssued": "2026-09-08"
+      },
+      "completionAttribution": {
+        "decision": "Completed historical IV&V",
+        "attributedTo": "Prescient Security Assessment Team (IV&V)",
+        "recordsCompleted": 204,
+        "namedAssessorSignoffsComplete": 0,
+        "individualSignature": "No named individual assessor sign-off is recorded; completion is attributed to the assessment team as an organization.",
+        "scopeConfirmed": {
+          "automated_results": true,
+          "offline_evidence_reviews": true,
+          "interviews": true,
+          "demonstrations": true,
+          "walkthroughs": true,
+          "rule_determinations_final": true,
+          "ksi_determinations_final": true,
+          "implementation_status_reconciliation_complete": true
+        }
+      },
+      "independentQa": {
+        "status": "Completed",
+        "completionDate": "2026-09-07",
+        "reviewer": "Lynette Shelton, Senior Assessor",
+        "recordsReviewed": 204,
+        "recordSource": "05-evidence/qa-source/QA-Completed-Master-Assessment-20260907.xlsx",
+        "sourceSha256": "1ae586d73130234f160477a2ae1425261c475a1317b56207294e7051a456fc63",
+        "signatureTreatment": "Reviewer name and date are recorded on every acceptance row of the supplied workbook; no signature image or signing time is recorded.",
+        "determinationsChangedInQa": 0
+      },
+      "results": {
+        "keySecurityIndicators": {
+          "total": 46,
+          "statusCounts": {
+            "Supported with Conditions": 38,
+            "Partial": 8
+          },
+          "note": "The assessor reports Key Security Indicator outcomes as Supported with Conditions or Partial; the KSI category set contains no unconditional pass."
+        },
+        "providerRules": {
+          "total": 158,
+          "statusCounts": {
+            "Supported with Conditions": 88,
+            "Satisfied": 54,
+            "Optional / Non-Adverse": 5,
+            "Pending Application / Submission Gate": 4,
+            "Partial": 6,
+            "Not Applicable / Not Exercised": 1
+          }
+        },
+        "continuousValidationMethodCount": {
+          "rule": "FRC-CSX-VVK",
+          "meetsTwoMethodCount": 33,
+          "belowTwoMethods": 12,
+          "unresolvedSecondMethod": 1,
+          "unresolvedRecord": "KSI-CED-RAT",
+          "determination": "Partial",
+          "note": "Arithmetic pairing is not technical qualification: actual evaluated conditions, identities and configuration, population, outputs and recurring execution must be recorded for each method. Same-tool methods may qualify; duplicate presentations of a single evaluation do not."
+        }
+      },
+      "retainedFindings": {
+        "count": 20,
+        "dispositionAuthority": "Accountable assessor evaluates; provider/FedRAMP acceptance where applicable; no silent waiver of MUST",
+        "perPracticeDetail": "Carried in the Bland Security Decision Record per IVV-IAS-SUM and in the assessor's Class C Assessment Report.",
+        "records": [
+          {
+            "recordId": "KSI-CED-RAT",
+            "name": "Reviewing All Training",
+            "force": "KSI outcome",
+            "determination": "Supported with Conditions"
+          },
+          {
+            "recordId": "KSI-CNA-EIS",
+            "name": "Enforcing Intended State",
+            "force": "KSI outcome",
+            "determination": "Partial"
+          },
+          {
+            "recordId": "KSI-IAM-AAM",
+            "name": "Automating Account Management",
+            "force": "KSI outcome",
+            "determination": "Partial"
+          },
+          {
+            "recordId": "KSI-IAM-JIT",
+            "name": "Authorizing Just-in-Time",
+            "force": "KSI outcome",
+            "determination": "Partial"
+          },
+          {
+            "recordId": "KSI-MLA-ALA",
+            "name": "Authorizing Log Access",
+            "force": "KSI outcome",
+            "determination": "Partial"
+          },
+          {
+            "recordId": "KSI-MLA-OSM",
+            "name": "Operating SIEM Capability",
+            "force": "KSI outcome",
+            "determination": "Partial"
+          },
+          {
+            "recordId": "KSI-MLA-RVL",
+            "name": "Reviewing Logs",
+            "force": "KSI outcome",
+            "determination": "Partial"
+          },
+          {
+            "recordId": "KSI-PIY-RES",
+            "name": "Reviewing Executive Support",
+            "force": "KSI outcome",
+            "determination": "Supported with Conditions"
+          },
+          {
+            "recordId": "KSI-PIY-RIS",
+            "name": "Reviewing Investments in Security",
+            "force": "KSI outcome",
+            "determination": "Supported with Conditions"
+          },
+          {
+            "recordId": "KSI-RPL-TRC",
+            "name": "Testing Recovery Capabilities",
+            "force": "KSI outcome",
+            "determination": "Partial"
+          },
+          {
+            "recordId": "KSI-SVC-ASM",
+            "name": "Automating Secret Management",
+            "force": "KSI outcome",
+            "determination": "Partial"
+          },
+          {
+            "recordId": "FRC-CSO-FCP",
+            "name": "FedRAMP Certification Profile",
+            "force": "MUST",
+            "determination": "Satisfied"
+          },
+          {
+            "recordId": "FRC-CSO-JSN",
+            "name": "FedRAMP JSON Schemas",
+            "force": "MUST",
+            "determination": "Partial"
+          },
+          {
+            "recordId": "FRC-CSX-MOT",
+            "name": "Metrics Over Time for Key Security Indicators",
+            "force": "MUST",
+            "determination": "Partial"
+          },
+          {
+            "recordId": "FRC-CSX-VVK",
+            "name": "Automated Verification and Validation of Key Security Indicators",
+            "force": "MUST",
+            "determination": "Partial"
+          },
+          {
+            "recordId": "FRC-CSX-VVR",
+            "name": "Automated Verification and Validation of FedRAMP Rules",
+            "force": "SHOULD",
+            "determination": "Partial"
+          },
+          {
+            "recordId": "IEC-CSO-AIR",
+            "name": "Automated Incident Reporting",
+            "force": "SHOULD",
+            "determination": "Partial"
+          },
+          {
+            "recordId": "MKT-CSO-MLR",
+            "name": "Marketplace Listing Requirements",
+            "force": "MUST",
+            "determination": "Satisfied"
+          },
+          {
+            "recordId": "MKT-CSO-PML",
+            "name": "Provider Marketplace Listing Requests",
+            "force": "MUST",
+            "determination": "Pending Application / Submission Gate"
+          },
+          {
+            "recordId": "SDR-CSX-KMT",
+            "name": "Key Security Indicator Metrics",
+            "force": "MUST",
+            "determination": "Partial"
+          }
+        ]
+      },
+      "providerResponsesAndDispositions": {
+        "responseDate": "2026-09-04",
+        "recordsResponded": 101,
+        "adverseDeterminationsOrGapsWithdrawn": 53,
+        "assessorRecordCorrections": 8,
+        "priorStatusRetainedWithConcurrence": 4,
+        "respondedRecordsCurrentlyPartial": 13,
+        "postReconciliationRevisions": [
+          {
+            "recordId": "KSI-MLA-RVL",
+            "determinationOn20260904": "Supported with Conditions",
+            "currentDetermination": "Partial"
+          },
+          {
+            "recordId": "KSI-MLA-OSM",
+            "determinationOn20260904": "Supported with Conditions",
+            "currentDetermination": "Partial"
+          }
+        ],
+        "interpretation": "The dated exchange is preserved. The QA-completed current determination controls where later reconciliation changed the result.",
+        "register": "06-independent-assessment/provider-responses-and-dispositions.json"
+      },
+      "areasOfDisputeAndMattersRequiringDisposition": {
+        "note": "Supplied under IVV-IAS-OSA, which requires the overall summary to include any resulting failures or areas of dispute.",
+        "items": [
+          {
+            "records": [
+              "KSI-IAM-JIT",
+              "KSI-MLA-ALA"
+            ],
+            "subject": "Just-in-time authorization",
+            "matter": "Privileged and log-access grants remain standing entitlements with no approval-gated, time-bound elevation workflow. Closure requires an implemented JIT mechanism or a FedRAMP-approved alternative interpretation."
+          },
+          {
+            "records": [
+              "KSI-SVC-ASM"
+            ],
+            "subject": "Secret and certificate management",
+            "matter": "An explicit contradiction between two sections of the provider's own source about whether two static edge TLS certificates are auto-renewed must be resolved. No provider exception is represented as assessor accepted."
+          },
+          {
+            "records": [
+              "FRC-CSX-VVK",
+              "KSI-CED-RAT"
+            ],
+            "subject": "Two-method qualification",
+            "matter": "Qualification of the second automated method for KSI-CED-RAT is unresolved pending test identity, in-scope population and execution outputs; training-specific tests operating in the commercial Vanta workspace returned no result in the CR26 export. Reconciliation of training populations and dates is outstanding."
+          },
+          {
+            "records": [
+              "FRC-CSX-MOT",
+              "SDR-CSX-KMT"
+            ],
+            "subject": "Metric history",
+            "matter": "Elapsed artifact date spans do not establish a complete six-calendar-month KSI metric history or the required 30-day metric summaries and daily series. Initial-certification treatment requires operating mechanisms and documented agreement where historical metrics are unavailable; that agreement is not yet recorded."
+          },
+          {
+            "records": [
+              "FRC-CSO-JSN"
+            ],
+            "subject": "Security Decision Record adoption",
+            "matter": "The original v2.3 Security Decision Record carries an invalid implementation enum on a Rev5-only context row. The prepared Class C derivative excludes all 11 out-of-scope context rules without changing the 158 applicable provider implementation fields. The determination stays Partial until Bland approves or adopts the corrected release and all required formats pass final validation."
+          },
+          {
+            "records": [
+              "MKT-CSO-PML"
+            ],
+            "subject": "Marketplace listing evidence",
+            "matter": "Missing listing transaction evidence is recorded as an explicit substantive limitation and the rule is held at the application and submission gate."
+          },
+          {
+            "records": [
+              "FRC-CSX-VVR",
+              "IEC-CSO-AIR"
+            ],
+            "subject": "Recommendations retained at SHOULD strength",
+            "matter": "The unresolved validation-review and incident-reporting automation items are recorded at their official SHOULD strength and are not additional mandates; the absence of a specific scheduler, automatic external-send design or fully automated external communication is not disqualifying. The accountable assessor records any justified alternative and residual risk."
+          },
+          {
+            "records": [
+              "KSI-RPL-TRC"
+            ],
+            "subject": "Recovery testing",
+            "matter": "Full-path service re-point and recovery were explicitly untested; Partial is retained until an in-scope end-to-end recovery test and an actual objective comparison are documented."
+          },
+          {
+            "records": [],
+            "subject": "Sign-off attribution",
+            "matter": "Completion of the assessment is attributed to the assessment team as an organization on all 204 records and no named individual assessor sign-off is recorded. Independent quality assurance is attributed to a named senior assessor."
+          }
+        ]
+      },
+      "providerNotesOnTheAssessment": {
+        "note": "Recorded by Bland; not part of the summary supplied by the assessor.",
+        "items": [
+          {
+            "subject": "Security Decision Record version not acknowledged",
+            "records": [
+              "FRC-CSO-JSN"
+            ],
+            "note": "Bland published Security Decision Record v2.4 on 2026-09-04, which passes JSON schema validation, and supplied it to Prescient Security the same day. The final assessment addresses the original v2.3 record and the Class C derivative prepared from it; it does not acknowledge or evaluate v2.4. The FRC-CSO-JSN Partial determination is therefore premised on v2.3. Bland has adopted v2.4 as the Class C release and closed the provider Security Decision Record adoption gate on its own record."
+          },
+          {
+            "subject": "Met / not-met determinations were not delivered",
+            "records": [],
+            "note": "Bland asked Prescient Security to state each outcome as met or not met against the corresponding FedRAMP Practice. The overall summary of assessment supplied by the assessor reports only its own six determination categories - Satisfied, Supported with Conditions, Partial, Optional / Non-Adverse, Pending Application / Submission Gate, and Not Applicable / Not Exercised. No met or not-met determination was delivered."
+          }
+        ]
+      },
+      "assessorStatedLimitations": [
+        "Historical IV&V completion is September 3, 2026; September 4 reconciliations and September 5 corrections are retained.",
+        "Independent QA was completed September 7, 2026. Existing findings and provider/application release gates remain recorded.",
+        "Finalization reconciles the supplied QA workbook and does not represent a new technical test execution.",
+        "ArtifactDateSpanDays = latest - earliest + 1. It is elapsed calendar span, not continuous history days demonstrated. A dated sample, policy age or a query window does not alone establish 30-day KSI metrics or six-calendar-month history. Available longer evidence is retained. Current assessment determinations are preserved.",
+        "Independent QA completed September 7, 2026. Date enrichment prepared September 8, 2026 from retained sources; no new assessor signature, test execution or independent QA execution is asserted.",
+        "Screenshots and passing governance-tool counters alone do not establish effectiveness. Separate Security Assessment Plan and Security Assessment Report documents are not required for 20x, and the per-record acceptance layout used in this delivery is not represented as a mandated FedRAMP template."
+      ],
+      "releaseGates": [
+        {
+          "gate": "Historical assessor procedures",
+          "owner": "Prescient engagement lead",
+          "status": "Completed 2026-09-03",
+          "closure": "Completed assessment work and September 4 reconciliations carried forward across all 204 records. Current package corrections remain available for revision review."
+        },
+        {
+          "gate": "Qualifications and independence",
+          "owner": "Prescient engagement lead",
+          "status": "Completed 2026-09-05",
+          "closure": "Historical workpapers record organizational independence confirmation. Carry forward the engagement QMS/qualification references under normal release documentation; no individual signature was synthesized."
+        },
+        {
+          "gate": "Provider SDR adoption",
+          "owner": "Bland responsible official",
+          "status": "Pending",
+          "closure": "Approve the Class C derivative or provide corrected release; preserve original and context exclusions."
+        },
+        {
+          "gate": "Independent QA",
+          "owner": "Lynette Shelton - Senior Assessor",
+          "status": "Completed 2026-09-07",
+          "closure": "Independent QA completed for all 204 records in the supplied master workbook. Reviewer and date are recorded in Assessor Acceptance."
+        },
+        {
+          "gate": "Application freshness and findings",
+          "owner": "Bland responsible official / Prescient engagement lead",
+          "status": "Pending",
+          "closure": "Resolve or obtain authorized dispositions for substantive MUST findings; distinguish SHOULD recommendations. Verify package within seven days of application and independent assessment completion within three months."
+        },
+        {
+          "gate": "Publication and submission",
+          "owner": "Bland responsible official",
+          "status": "Pending",
+          "closure": "Reconcile listing transaction evidence, publish matching current formats and provider submits directly. No submission has been sent."
+        }
+      ],
+      "providerClosureRecord": {
+        "note": "Recorded by Bland; the release gate statuses above are as issued by the assessor on 2026-09-08 and are unchanged by these provider actions.",
+        "asOf": "2026-09-08",
+        "securityDecisionRecordAdoption": "Closed on Bland's record. Bland adopted Security Decision Record v2.4 as the Class C release; v2.4 passes JSON schema validation and preserves the original record and the out-of-scope context exclusions.",
+        "applicationSubmitted": "Bland verified the Certification Package and submitted its FedRAMP 20x Class C application on 2026-09-08, five days after assessment completion, satisfying the application freshness conditions.",
+        "remainingOpen": [
+          "Authorized dispositions for the substantive MUST findings, which require the assessor.",
+          "Reconciliation of FedRAMP Marketplace listing transaction evidence (MKT-CSO-PML)."
+        ]
+      },
+      "artifacts": {
+        "referenceNote": "References are file paths within the Prescient Security final delivery package (edition Bland-C-Final-Delivery-20260908-v2), not public URLs. The documents themselves are supplied to federal agencies and FedRAMP Recognized assessors through the Trust Center under Independent Assessment Results.",
+        "items": [
+          {
+            "name": "Class C Assessment Report",
+            "reference": "06-independent-assessment/Bland-Class-C-Assessment-Report.pdf"
+          },
+          {
+            "name": "Master assessment workbook (controls the assessment results)",
+            "reference": "06-independent-assessment/Bland-Class-C-Master-Assessment.xlsx"
+          },
+          {
+            "name": "Machine-readable assessment results",
+            "reference": "06-independent-assessment/assessment-results.json"
+          },
+          {
+            "name": "Assessor acceptance and completion register",
+            "reference": "06-independent-assessment/assessor-acceptance-register.json"
+          },
+          {
+            "name": "Provider responses and assessor dispositions",
+            "reference": "06-independent-assessment/provider-responses-and-dispositions.json"
+          },
+          {
+            "name": "Metrics mechanism inventory",
+            "reference": "06-independent-assessment/metrics-mechanism-inventory.json"
+          },
+          {
+            "name": "Supporting artifact date register",
+            "reference": "06-independent-assessment/artifact-date-register.json and .html"
+          },
+          {
+            "name": "Release gate register",
+            "reference": "06-independent-assessment/application-gates.json"
+          },
+          {
+            "name": "QA-completed master assessment workbook",
+            "reference": "05-evidence/qa-source/QA-Completed-Master-Assessment-20260907.xlsx",
+            "sha256": "1ae586d73130234f160477a2ae1425261c475a1317b56207294e7051a456fc63"
+          },
+          {
+            "name": "Evidence index",
+            "reference": "05-evidence/evidence-index.json and .html"
+          },
+          {
+            "name": "Pinned FedRAMP rules source",
+            "reference": "00-manifest/official-sources/fedramp-consolidated-rules.json"
+          }
+        ]
+      }
+    }
+  },
+  "ZD_frid_retro": "FR2628647242",
+  "id_matches_expected": true
 }

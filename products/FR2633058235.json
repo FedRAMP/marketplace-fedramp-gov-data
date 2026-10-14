@@ -1,37 +1,66 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2633058235",
+    "fedRampPackageId": "Emburse Ent",
+    "ueiNumber": "LVF6SRG7MUY4",
     "providerName": "Emburse",
     "serviceName": "Emburse Enterprise",
-    "serviceAcronym": "Emburse Enterprise",
+    "serviceAcronym": "EE",
     "serviceDescription": "Emburse Enterprise is a cloud-based SaaS solution that enables organizations to manage employee expense reporting, approval, and reimbursement workflows. For federal agency use, the solution is designed to enable authorized users to submit, review, approve, and administer business expenses in accordance with applicable organizational travel and expense policies. Potential users within a federal agency may include employees, expense approvers, finance and administrative personnel, and authorized system administrators.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
     "website": "https://www.emburse.com/",
-    "logo": "https://www.emburse.com/images/emburse-logo-dark.svg",
-    "ueiNumber": "LVF6SRG7MUY4"
+    "logo": "https://www.emburse.com/images/emburse-logo-dark.svg"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Finance",
+      "Travel Management"
+    ],
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
       "url": "https://trust.emburse.com/",
-      "repositoryDescription": "FedRAMP Trust Center",
-      "authenticationRequired": false
+      "repositoryDescription": "Security and compliance documentation for Emburse Enterprise, including the SOC 2 Type II report, SOC 1 Type II report, ISO/IEC 27001, ISO/IEC 27701 and ISO/IEC 42001 certificates, and PCI DSS attestation.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Request access at trust.emburse.com using a work email address. The Emburse security team reviews federal agency and independent assessor requests; please include your agency or organization name and the documents you require. Access is normally granted within 3 business days."
     }
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Emburse Security Team",
       "contactEmail": "fedramp-security@emburse.com"
     },
     {
       "contactType": "Sales",
+      "contactName": "Public Sector Sales",
       "contactEmail": "publicsector@emburse.com"
+    },
+    {
+      "contactType": "Billing",
+      "contactName": "Billing Team",
+      "contactEmail": "billing@emburse.com"
     }
-  ]
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Emburse Enterprise",
+      "serviceDescription": "Expense report creation and submission, receipt capture and management, policy-based approval workflows, expense categorization, reporting, and administrative configuration. Previously marketed as Chrome River.",
+      "dateAvailable": "2008-01-01"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Underlying cloud infrastructure hosting the offering."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2633058235",
+  "id_matches_expected": false
 }
