@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2215045786",
+    "providerName": "Tenable",
+    "serviceName": "Tenable Cloud Security for US Government - Ermetic",
+    "serviceAcronym": "Tenable Cloud Security for US Government - Ermetic",
+    "serviceDescription": "Tenable Cloud Security is the actionable solution to cloud risk, rapidly exposing and closing priority security gaps caused by cloud misconfigurations, risky entitlements for users and services, vulnerabilities and overly-permissive access to confidential data. Tenable Cloud Security is a Cloud Native Application Protection Platform (CNAPP) solution that isolates and minimizes these risks at scale across infrastructure, workloads, identities and data in the cloud.",
+    "certificationType": "Rev5",
+    "website": "https://www.tenable.com/products/tenable-cloud-security",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Tenable%20Logo2.png",
+    "ueiNumber": "NDBFBWCL82D3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "compliance@tenable.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "publicsector@tenable.com"
+    }
+  ],
+  "assessor": {
+    "name": "137046",
+    "assessorID": "137046"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1819254092A",
+    "providerName": "Citrix Systems, Inc.",
+    "serviceName": "Citrix for Government - High",
+    "serviceAcronym": "Citrix for Government - High",
+    "serviceDescription": "Citrix for Government (Citrix Cloud Government) is a sovereign cloud environment that is isolated from and operates independently of Citrix Cloud. These services enable U.S. government agencies and other customers in support of Public Sector to use Citrix Cloud Government in accordance with applicable regulatory and compliance requirements. Citrix Cloud Government operates within defined geographic boundaries and stores and replicates services and data to deliver Citrix cloud services. Citrix uses multiple public or private cloud environments located in one or more U.S. states to provide these services. \n\nCitrix for Government consists of the following components: \n\nThe Citrix Cloud platform provides centralized administration for Citrix services. It enables customers to create, manage, and deploy workspaces—including applications and data—to end users from a single console, while connecting to customer resources across any cloud or infrastructure of their choice. \n\nCitrix DaaS (Desktop as a Service) provides virtualization capabilities that support the management of virtual machines, desktops, applications, and security controls, while enabling users to access resources from any location and on a wide range of devices. This hybrid cloud solution provides secure access to virtual applications, desktops, and data across cloud and on-premises infrastructure.",
+    "certificationType": "Rev5",
+    "website": "https://www.citrix.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Citrix%20Logo.png",
+    "ueiNumber": "LGZ7VZW7G724"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@cloud.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "David.smith@citrix.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

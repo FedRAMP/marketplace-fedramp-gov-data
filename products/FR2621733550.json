@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2621733550",
+    "providerName": "Wallarm, Inc.",
+    "serviceName": "Wallarm Federal Cloud",
+    "serviceAcronym": "Wallarm Federal Cloud",
+    "serviceDescription": "The Wallarm Federal Cloud (WFC) is a Software as a Service (SaaS) application programming interface (API) security platform that provides real-time traffic inspection and Web Application Firewall (WAF) capabilities for federal agencies. It is deployed in a single-tenant, Government-Only Cloud architecture on Google Cloud Platform (GCP).\n\nFunctionality and Use Case:\nThe system is designed to analyze incoming network traffic, mitigate malicious requests, and upload security metrics. The Wallarm Federal Cloud component processes this filtering node data, compiles custom security rules, builds API structure models, and provides the Wallarm Console user interface (UI) for configuration and security event investigation.1\n\nType of Federal Data:\nThe system is categorized at the Moderate security impact level. The federal data and information stored, processed, or transmitted includes:\n- Full HTTP/HTTPS request and response bodies and headers for WAF analysis, which may contain customer API data.\n- Security events, WAF rules, user profile and session data, and audit logs.\nThe system does not process, store, or transmit information requiring special protective measures beyond the standard FedRAMP Moderate baseline, such as Sensitive Compartmented Information (SCI).",
+    "certificationType": "Rev5",
+    "website": "https://wallarm.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Wallarm%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-support@wallarm.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-support@wallarm.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

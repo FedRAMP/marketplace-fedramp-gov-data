@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2412746128",
+    "providerName": "Rebellion Defense",
+    "serviceName": "Rebellion Defense Nova SaaS",
+    "serviceAcronym": "Rebellion Defense Nova SaaS",
+    "serviceDescription": "Nova tests defenses at scale using adversary automation to discover a mission’s exposure to global cyber threats. It emulates the adversary tactics, techniques and procedures (TTPs) used by advanced persistent threats (APTs) to compromise U.S. government systems to uncover the security issues that pose the greatest threat for defense and national security missions. \r\nNova delivers on-demand testing for enterprise networks, software applications and development environments. It is an agentless, cloud-based application that can be deployed onto enterprise networks and into software development environments via physical or virtual sensors.",
+    "certificationType": "Rev5",
+    "website": "https://rebelliondefense.com/products/nova",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Rebellion%20Logo2.png",
+    "ueiNumber": "KV99RGJA8NK3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@rebelliondefense.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "FedRAMP@rebelliondefense.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

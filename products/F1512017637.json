@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1512017637",
+    "providerName": "Trellix",
+    "serviceName": "Trellix Email Security GovCloud",
+    "serviceAcronym": "Trellix Email Security GovCloud",
+    "serviceDescription": "The Trellix ESC GovCloud is a SaaS offering that provides advanced protections against modern sophisticated email attacks. ESC GovCloud consolidates advanced threat prevention with traditional Email Anti-Spam and Anti-Virus security to optimize spending, reduce false positives, and enable operational efficiencies through consolidation. ESC GovCloud can be deployed in line to analyze emails and quarantine threats for active protection, or as a passive monitor for 'bcc' type review of each email.\n\nWith no hardware or software to install, the ESC GovCloud is a particularly good fit for organizations seeking to move their infrastructure into the cloud. This eliminates the complexity of procuring, installing, and managing a physical infrastructure. ESC GovCloud provides organizations several unique capabilities, such as:\n\n- Identifying previous targets of spear-phishing, impersonation, virus and spam emails\n- Locating copies of the malicious email in target inboxes\n- Finding out if the message is being forwarded to new targets\n- Detection of advanced malicious URL threats\n- The ESC Portal shows region- and industry-based malware trends, has customizable security policies, RBAC, and audit logging.\n\nOrganizations face an ever-increasing number of threats from email-based spam, viruses, and advanced threats. ESC GovCloud uses the signature-less Trellix Multi-vector Virtual Execution™ (MVX) engine to analyze every attachment and URL within emails to detect threats and stop advanced attacks in real-time. Today's advanced attacks use email as a primary delivery mechanism for malicious content. While some attacks use an attachment with embedded malicious code, it is common for cybercriminals to use a malicious link thereby blending attack tactics in the hopes of bypassing today's traditional defense silos. ESC GovCloud uses the cloud-based MVX engine to detonate email attachments against a cross-matrix of operating systems and applications, including multiple Web browsers and plug-ins like Adobe Reader and Flash. To block spear-phishing emails, ESC GovCloud analyzes every attachment using the MVX engine to accurately identify today's advanced attacks.\n\nESC GovCloud includes anti-virus and anti-spam engines and may also be paired with an organization's existing anti-virus and anti-spam email gateways.",
+    "certificationType": "Rev5",
+    "website": "https://www.trellix.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Trellix%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-support@trellix.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-sales@trellix.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

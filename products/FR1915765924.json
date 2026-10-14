@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1915765924",
+    "providerName": "Repario",
+    "serviceName": "Repario Government Solutions (RGS)",
+    "serviceAcronym": "Repario Government Solutions (RGS)",
+    "serviceDescription": "The Repario Government Solutions (RGS) system is of the type “software as a service (SaaS)”. The system is located in the Amazon Web Services, FedRAMP High authorized Gov cloud. The environment consists of windows virtual servers, serving as web, database application, continuous monitoring and encrypted storage servers with Linux virtual servers providing secure gateway, RADIUS and vulnerability scanning. The RGS system also leverages multiple FedRamp Authorized AWS services.\r\n\r\nThe system offers government agencies the ability to securely upload eDiscovery data via two FedRAMP authorized services: AWS Snowball, for large data uploads and AWS Transfer Family for small to medium data uploads. .  Once uploaded, the system provides an encrypted web-based interface and secured by multi-factor authentication, which gives the agency representative access to eDiscovery tools provided by Relativity to securely manage and process their data.\r\n\r\nRGS is delivered as a Software as a Service offering using a multi-tenant Government-only cloud computing environment. It is available to federal, state, local, and tribal governments.",
+    "certificationType": "Rev5",
+    "website": "https://repariodata.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Repario%20Logo.png",
+    "ueiNumber": "KC7YXS1GY7F4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "ReparioPrivacyandSecurity@repariodata.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "salessupport@repariodata.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

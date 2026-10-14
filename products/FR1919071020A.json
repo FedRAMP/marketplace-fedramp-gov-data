@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1919071020A",
+    "providerName": "SentinelOne",
+    "serviceName": "SentinelOne Singularity Platform High",
+    "serviceAcronym": "SentinelOne Singularity Platform High",
+    "serviceDescription": "The SentinelOne Singularity platform is a unified, cloud-delivered security platform that provides customers with automation, endpoint detection and response and security information and event management (SIEM) capabilities integrated with a unified data lake to ingest and centralize structured and unstructured data. SentinelOne leverages advanced machine learning algorithms and behavioral AI to analyze and automatically contextualize endpoint data collected across Windows, macOS, Linux, and Cloud Workloads. Data is contextualized and correlated into our patented Storylines technology, which accelerates triage and reduces mean time to detect/respond. Data is organized into a cohesive threat narrative which allows analysts to easily identify threat-related events as well as pivot and hunt to scope threat tactics, techniques, and impact. This gives our customers the ability to quickly stop ransomware and cyber attacks at machine speed with 1-click automated remediation and rollback of malicious activities and changes. Additionally, SentinelOne offers world-class managed detection and response (MDR), digital forensics and incident response (DFIR), and threat hunting services. Our MDR service not only augments security teams by triaging active or suspicious alerts and mitigating and blocking threats as needed, but also keeps them informed and protected from global advanced persistent threat (APT) campaigns, novel attacker techniques, and emerging trends in cybercrime with included threat hunting services. Customers can also call on SentinelOne’s integrated DFIR team for deeper forensic analysis of an event and assistance with incident response.\r\n\r\nSingularity Cloud Native Security (CNS) is an agentless CNAPP capability for protecting cloud environments and assets. Combined with our agent-based Cloud Workload Security capabilities, agencies have a comprehensive build-time to run-time security solution for their cloud infrastructure. CNS leverages a unique offensive security engine to prioritize vulnerabilities and misconfigurations that are truly exploitable to save time for SOC analysts in triage and investigation efforts CNS includes full capabilities covering CSPM, CIEM, KSPM, IAC Scanning, Secrets Scanning, CDR, and CWP use cases and security requirements.\r\n\r\nSingularity Hyperautomation is a powerful no-code automation solution for streamlining security operations, accelerating threat response, and boosting operational efficiency for security operations teams. Hyperautomation offers analysts the ability to build multi-step automation playbooks taking advantage of unified workflows, pre-built integrations, out-of-the-box templates, and flexible customizations for simplifying delivery of SOAR capabilities from within the unified Singularity platform.\r\n\r\nPurple AI is an agentic-AI powered capability to enable security analysts to detect earlier, respond faster, and stay ahead of modern attacks and threat actors. Integrating innovative LLM, Generative AI, and Natural Language processing technologies, Purple AI is a force multiplier for analysts by reducing manual triage and investigation and, with informed reasoning and decision making, unlocking the ability to take action with human oversight and governance. Purple AI simplifies the complex, amplifies every analyst, and delivers autonomous responses to accelerate security operations.    \r\n\r\nThe following SentinelOne Singularity Platform services are FedRAMP High Authorized:\r\n\r\n-Cloud Funnel\r\n-Cloud Workload Protection (CWP)\r\n-Digital Forensics & Incident Response (DFIR) services\r\n-Endpoint Detection and Response (EDR)\r\n-Endpoint Protection Platform (EPP)\r\n-Extended Detection and Response (XDR)\r\n-Purple AI Foundations for Public Sector\r\n-RemoteOps and RemoteOps Forensics\r\n-SentineOne Agent (Windows, macOS, Linux, and cloud-native Kubernetes)\r\n-SentinelOne Management Console\r\n-Singularity Cloud Native Security (CNS)\r\n-Singularity Data Lake\r\n-Singularity Hyperautomation \r\n-Singularity Marketplace\r\n-Singularity Network Discovery\r\n-Singularity Operations Center (OpsCenter)\r\n-Singularity Threat Intelligence\r\n-Singularity Vulnerability Management\r\n-Vigilance Managed Detection and Response (MDR) services\r\n-WatchTower and WatchTower Pro Threat Hunting services",
+    "certificationType": "Rev5",
+    "website": "https://www.sentinelone.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/S1%20Logo.png",
+    "ueiNumber": "YMGMFUPM1XR9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@sentinelone.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "S1-Fed-Sales@sentinelone.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

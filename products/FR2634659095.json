@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2634659095",
+    "providerName": "Cisco Systems, Inc.",
+    "serviceName": "Cisco Cloud Control with AgenticOps",
+    "serviceAcronym": "Cisco Cloud Control with AgenticOps",
+    "serviceDescription": "Cisco Cloud Control with AgenticOps\nCisco Cloud Control with AgenticOps serves as the autonomous control\nplane for hybrid cloud environments. By integrating \"AgenticOps\"—a\nframework of specialized, task-oriented AI agents—the system moves\nbeyond traditional automation into autonomous remediation and lifecycle\nmanagement. It is designed to handle complex compliance requirements by\nenabling agents to autonomously detect drift, perform vulnerability\nremediation, and ensure that infrastructure state remains continuously\naligned with defined security policies.\nCisco Cloud Control is the unified management and orchestration platform\nfor hybrid and multi-cloud environments. It acts as the central plane for\ngoverning, securing, and operating distributed infrastructure, providing\nconsistent policy enforcement and lifecycle automation across disparate\ncloud services and data centers. By centralizing management, it eliminates\noperational silos, streamlines compliance, and ensures that infrastructure\nremains performant and secure at scale.\nThe Rich Suite of Offers\nTo support the autonomous capabilities of Cloud Control, the following\nproducts integrate into a cohesive operational ecosystem:\n1. AI Canvas\n● Description: The design and orchestration workbench for the\nAgenticOps ecosystem. AI Canvas provides a visual interface for\nengineering teams to design, model, and deploy autonomous agents.\nIt allows for the mapping of complex operational workflows into\nexecutable logic, ensuring that agents are constrained by well-defined\noperational boundaries before they are deployed to manage\nproduction environments.\n2. AI Assistant\n● Description: The natural language operational interface for the suite.\nAI Assistant bridges the gap between human intent and machine\nexecution. It enables engineers to query system status, request\ncomplex remediation tasks, or gain insights into compliance posture\nthrough conversational interactions. It serves as the primary gateway\nfor users to interface with the autonomous agents created in AI\nCanvas.\n3. Cisco IQ\n● Description: The centralized intelligence and observability engine.\nCisco IQ processes massive streams of telemetry data from across the\ncloud infrastructure to provide actionable insights. It serves as the\n\"brain\" for the agents, providing the contextual data required for\ninformed decision-making, trend analysis, and predictive modeling,\nensuring that operational actions are grounded in current, real-time\ndata.\n4. AI Defense\n● Description: The dedicated security layer for the AI model pipeline\nand agentic infrastructure. AI Defense provides the necessary\nguardrails to protect AI models from adversarial manipulation, data\nleakage, and unauthorized access. In high-compliance environments,\nit ensures that the models driving the agents are hardened, verifiable,\nand protected against vulnerabilities that could compromise the\nintegrity of the automated security remediation processes.",
+    "certificationType": "Rev5",
+    "website": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/agentic-ops/cisco-cloud-control/index.html",
+    "logo": "https://brand-assets.security.cisco.com/cisco-light.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/ciscoaidefense",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cisco-fedramp@cisco.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "aidefense-partner@cisco.com"
+    }
+  ]
+}

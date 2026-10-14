@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2531062517",
+    "providerName": "F5, Inc.",
+    "serviceName": "F5 Distributed Cloud",
+    "serviceAcronym": "F5 Distributed Cloud",
+    "serviceDescription": "F5 Distributed Cloud Services is a security and networking platform that provides PaaS-delivered application services and deployable edge-based software components. The platform includes Web Application Firewall (WAF), API security, L7 DDoS mitigation, DNS, secure multi-cloud networking, and observability. Services are delivered via US-based points of presence and can also be deployed on deployable customer edge (CE) software nodes to support hybrid and on-premises environments. For FedRAMP-authorized use, F5 enforces strict controls to ensure that system logs and customer data are processed and stored exclusively within U.S. regions.",
+    "certificationType": "Rev5",
+    "website": "https://www.f5.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/F5%20Logo.png",
+    "ueiNumber": "LPH1U4GHAVY9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "F5FedRAMPModerateSec@f5.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "f5fedramp1@f5.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

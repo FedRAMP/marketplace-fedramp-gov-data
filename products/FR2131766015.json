@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2131766015",
+    "providerName": "Genesys",
+    "serviceName": "Genesys Cloud CX",
+    "serviceAcronym": "Genesys Cloud CX",
+    "serviceDescription": "Genesys Cloud™ is an AI-powered experience orchestration platform with a full suite of omnichannel contact center capabilities, built-in workforce engagement management (WEM) and artificial intelligence (AI). It is available to the public, federal, state, local, and tribal governments, as well as research institutions, federal contractors and government contractors. \n\nFeatures and capabilities include: \n\nAll-in-One open platform - Genesys Cloud is a multi-tenant SaaS offering with a comprehensive set of native Contact Center-as-a-Service (CCaaS) product capabilities built on a single platform — running on Amazon Web Services (AWS). \n\nNative AI - Genesys Cloud has built-in conversational and predictive AI capabilities. It utilizes technologies such as predictive analytics, machine learning, and natural language understanding to automate, route and personalize interactions.\n\n Omnichannel routing - Genesys Cloud supports calls, email, web, text and social messages. A single routing engine leverages a variety of routing algorithms, evaluation and scoring methods to determine the next best action while maintaining context, intent, and desired outcome.\n\n Speech-enabled IVR & self-service – Genesys Cloud offers multilingual speech-enabled IVR with natural language understanding (NLU) technology.  Automated bot assistants provide continuous support for routine queries.\n\n Workforce Engagement Management - A native suite of AI-powered WEM capabilities supports employee onboarding and includes workforce schedule management (WFM), coaching, speech & text analytics, quality management, performance management and gamification.\n\n Outbound campaigns – Genesys Cloud supports outbound dialing and digital campaigns for sending proactive notifications or contacting contact lists of people in accordance with programmable rules.\n\n Analytics and reporting – Genesys Cloud provides real-time dashboards and analytics for contact center management, with customizable reporting and drill-down capabilities for performance analysis.\n\nIntegrations - The platform includes a rich set of open APIs, integration methods and an ecosystem of 600+ pre-built solutions and applications available via the AppFoundry® Marketplace.",
+    "certificationType": "Rev5",
+    "website": "https://www.genesys.com/fedramp/genesys-cloud-cx",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Genesys%20Logo3.png",
+    "ueiNumber": "DD9KMGMUZM47"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMPGCCX@genesys.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "PublicSectorSales@genesys.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2629068832",
+    "providerName": "Open Access Technology International, Inc.",
+    "serviceName": "OATI Marketplace",
+    "serviceAcronym": "OATI Marketplace",
+    "serviceDescription": "OATI services focus on data / transaction management, warehousing, and retrieval in real-time. These services are delivered via OATI managed Data Centers that are equipped with multiple redundant systems and networks and provide a secure production application environment, with multiple redundant systems and networks.\nOATI provides services to over 700 energy industry organizations in North America. Over 90% of the wholesale power entities in North America use OATI services in their operations. OATI, as a provider of SaaS, reduces the burden and expense for energy industry participants who must deploy mission-critical software that complies with industry regulations and Sarbanes-Oxley requirements (SOX).",
+    "certificationType": "Rev5",
+    "website": "https://www.oati.com/",
+    "logo": "https://www.oati.com/assets/logo.png",
+    "ueiNumber": "HAL1AXFK8ZB3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.oati.com/fedramp/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@oati.net"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Sales@oati.net"
+    }
+  ]
+}

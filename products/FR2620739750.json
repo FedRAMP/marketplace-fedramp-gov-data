@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2620739750",
+    "providerName": "VisibleThread",
+    "serviceName": "VisibleThread",
+    "serviceAcronym": "VisibleThread",
+    "serviceDescription": "VisibleThread is a Software-as-a-Service (SaaS) application that provides automated document and language analysis for United States government contracting teams across the opportunity, capture, proposal, and contract phases of the acquisition lifecycle.\n\nThe service combines deterministic text analysis and pattern matching with generative AI functions to search, extract, draft, score, and compare document content. Analytical outputs reference the source text from which they are derived, providing traceability from each result back to the originating document.\n\nFunctional capabilities include opportunity search and bid or no-bid scoring, competitive and technical alignment analysis, compliance matrix generation and document comparison, acronym and readability analysis, terminology and tone consistency checks, AI-assisted drafting that references prior submitted content and past performance material, and contract risk and redline analysis.\n\nWork within the service is organized into Workspaces. A Workspace is a logical container that partitions a team's content and configuration, allowing an organization to separate work by line of business, program, customer, or security boundary. Each Workspace maintains its own independent set of:\n\n- Collections of curated reference content\n- Prompt Library\n- Search Dictionaries and Watchword Lists\n- Contracts and reference contract sets\n- Sales, capture, and proposal lifecycle stages\n\nAccess to each Workspace is controlled independently, so that content and configuration in one Workspace are not exposed to users of another. The service integrates with Microsoft SharePoint, allowing documents to be synchronized from customer-managed SharePoint locations into a Workspace's Collections for analysis.",
+    "certificationType": "Rev5",
+    "website": "https://www.visiblethread.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Visiblethread%20Logo.png",
+    "ueiNumber": "MJWYNX1KNQW8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@visiblethread.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@visiblethread.com"
+    }
+  ],
+  "assessor": {
+    "name": "201722",
+    "assessorID": "201722"
+  }
+}

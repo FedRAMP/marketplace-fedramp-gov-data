@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2616957286",
+    "providerName": "Adaptive Protocols, Inc. (Adaptiva)",
+    "serviceName": "Adaptiva Onesite Platform",
+    "serviceAcronym": "Adaptiva Onesite Platform",
+    "serviceDescription": "The Adaptiva OneSite Platform enables its customers to autonomously manage the distribution of software and patches to endpoints across a customer’s enterprise, within the customer network, or across the Internet. The OneSite Platform consists of four primary components:\n1)        A customer on-premises server operated and managed by customers that hosts an Adaptiva-developed OneSite application used to manage software distribution to the customer’s endpoints.\n2)        A content delivery network (CDN) that enables customers to place software in the cloud for retrieval by managed customer endpoints across the Internet.\n3)        Adaptiva Cloud Services Relay Servers that receive messages from a customer’s on-premises server and managed clients on the Internet. The relay servers facilitate communication between the customer server and the Internet-facing devices. \n4)        An Operations Manager (OpsMgr) server that is used by Adaptiva to manage OneSite cloud functionality and customer OneSite installation information.\nThe customer on-premises server provides functionality for the customer to manage the distribution of software to their endpoints. The server is owned and operated by the customer. Adaptiva support personnel do not have the ability to access or manage it. Software updates from Adaptiva are installed by the customer.\nThe Adaptiva OneSite Platform CDN is provided by Akamai, a FedRAMP-authorized Infrastructure-as-a-Service (IaaS) solution. The customer on-premises server running the OneSite application communicates with the CDN to upload the customer’s software that is in-turn accessed by the customer’s endpoints through commands conveyed by the relay server.\nThe relay server conveys command messages from a customer on-premises server to customer end points to direct the end points to download and install software. The relay server processes thousands of messages from on-premises servers to tens of thousands of customer endpoints. This server is hosted by DataBank, a FedRAMP-authorized IaaS and Platform-as-a-Service (PaaS) provider.\nAn OpsMgr server is used for activating customer servers to be allowed to use relays for internet clients to obtain metadata and keys. The OpsMgr also receives and stores the messaging statistics for customer server and end points from relay servers. This OpsMgr server is hosted by DataBank.",
+    "certificationType": "Rev5",
+    "website": "https://adaptiva.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Adaptiva%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "vern.leblanc@adaptiva.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "nick.healey@adaptiva.com"
+    }
+  ],
+  "assessor": {
+    "name": "202040",
+    "assessorID": "202040"
+  }
+}

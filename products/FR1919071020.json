@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1919071020",
+    "providerName": "SentinelOne",
+    "serviceName": "SentinelOne Singularity Platform Moderate",
+    "serviceAcronym": "SentinelOne Singularity Platform Moderate",
+    "serviceDescription": "The SentinelOne Singularity platform is a unified, cloud-delivered security platform that provides customers with automation, endpoint detection and response and security information and event management (SIEM) capabilities integrated with a unified data lake to ingest and centralize structured and unstructured data. SentinelOne leverages advanced machine learning algorithms and behavioral AI to analyze and automatically contextualize endpoint data collected across Windows, macOS, Linux, and Cloud Workloads. Data is contextualized and correlated into our patented Storylines technology, which accelerates triage and reduces mean time to detect/respond. Data is organized into a cohesive threat narrative which allows analysts to easily identify threat-related events as well as pivot and hunt to scope threat tactics, techniques, and impact. This gives our customers the ability to quickly stop ransomware and cyber attacks at machine speed with 1-click automated remediation and rollback of malicious activities and changes. Additionally, SentinelOne offers world-class managed detection and response (MDR), digital forensics and incident response (DFIR), and threat hunting services. Our MDR service not only augments security teams by triaging active or suspicious alerts and mitigating and blocking threats as needed, but also keeps them informed and protected from global advanced persistent threat (APT) campaigns, novel attacker techniques, and emerging trends in cybercrime with included threat hunting services. Customers can also call on SentinelOne’s integrated DFIR team for deeper forensic analysis of an event and assistance with incident response. \n\nThe following SentinelOne Singularity Platform services are FedRAMP High Authorized: \n\n-Cloud Funnel\n-Cloud Workload Protection (CWP)\n-Digital Forensics & Incident Response (DFIR) services\n-Endpoint Detection and Response (EDR)\n-Extended Detection and Response (XDR)\n-Singularity Network Discovery,\n-RemoteOps and RemoteOps Forensics\n-SentineOnel Agent (Windows, macOS, Linux, and cloud-native Kubernetes)\n-SentinelOne Collector Agent\n-SentinelOne Management Console\n-Singularity Data Lake\n-Singularity Marketplace\n-Singularity Vulnerability Management\n-Vigilance Managed Detection and Response (MDR) services\n-WatchTower and WatchTower Pro Threat Hunting services",
+    "certificationType": "Rev5",
+    "website": "https://www.sentinelone.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Sentinel%20One%20Logo.png",
+    "ueiNumber": "YMGMFUPM1XR9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@sentinelone.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "S1-Fed-Sales@sentinelone.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

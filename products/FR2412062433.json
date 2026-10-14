@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2412062433",
+    "providerName": "Atlassian",
+    "serviceName": "Atlassian Government Cloud",
+    "serviceAcronym": "Atlassian Government Cloud",
+    "serviceDescription": "Atlassian Government Cloud is a Software as a Service (SaaS) offering that helps teams collaborate, track work, manage IT service delivery, support their DevOps practices and more - all with the security and control that agencies need. Available products include:\n\n- Jira for project management across business and software teams\n\n- Confluence for knowledge management and documentation\n\n- Jira Service Management for IT service management, including support, IT operations, customer service, and more\n\nFederal agencies interested in collaborative continuous monitoring with Atlassian Government Cloud should reach out to: agc-conmon-collab@atlassian.com",
+    "certificationType": "Rev5",
+    "website": "https://www.atlassian.com/government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Atlassion%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@atlassian.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "government@atlassian.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

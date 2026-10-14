@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2406760385",
+    "providerName": "Clarivate Analytics US LLC",
+    "serviceName": "Clarivate Intellectual Property AI & Image Search Platform (CIPAI-ISP)",
+    "serviceAcronym": "Clarivate Intellectual Property AI & Image Search Platform (CIPAI-ISP)",
+    "serviceDescription": "The Clarivate Intellectual Property AI & Image Search Platform (CIPAI-ISP) is a search engine of Clarivate’s intellectual property datasets (such as designs, patents, trademarks). Users can search by uploading an image or text as query into the web search interface. Matched results are returned and displayed in the user interface for users to analyze and generate reports. \r\n\r\nCIPAI-ISP is delivered via SaaS. It is hosted in AWS GovCloud. It is available to federal, state, local, and tribal governments, as well as federal contractors, government contractors.",
+    "certificationType": "Rev5",
+    "website": "https://clarivate.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Clarivate%20Logo.png",
+    "ueiNumber": "KCEFDML72122"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "HEP.security.officer@clarivate.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "government_support@clarivate.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

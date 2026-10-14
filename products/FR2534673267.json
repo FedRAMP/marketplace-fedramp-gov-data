@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2534673267",
+    "providerName": "Oracle Corporation",
+    "serviceName": "Oracle Primavera Cloud for Government",
+    "serviceAcronym": "Oracle Primavera Cloud for Government",
+    "serviceDescription": "Oracle Primavera Cloud is a cloud-based SaaS service that provides comprehensive project, program, and portfolio management solutions. OPC integrates project planning, scheduling, risk management, resource allocation, and cost control.  OPC is used for large and small projects across industries like construction, energy, and IT. OPC connects office and field teams, synchronizes project data, and offers powerful dashboards for real-time visibility to help users make informed decisions throughout the project lifecycle.\nCapabilities include:\n- Ideas & Capital Planning\n- Portfolio Management\n- Planning & Scheduling\n- Budgeting & Forecasting\n- Resource Management\n- Progress Capture\n- Workflow Management\n- Cost Control\n- Risks & Issues\n- Deliverables Management\n- Analysis & Reporting\n- Mobile, Email & APIs",
+    "certificationType": "Rev5",
+    "website": "https://www.oracle.com/construction-engineering/public-agencies/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Oracle%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "giu_govsec_us_grp@oracle.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "giu_pubsec_us_grp@oracle.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

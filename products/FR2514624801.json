@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2514624801",
+    "providerName": "Checkmarx",
+    "serviceName": "Checkmarx One for Government (CXG)",
+    "serviceAcronym": "Checkmarx One for Government (CXG)",
+    "serviceDescription": "Checkmarx One for Government (CXG) is a cutting-edge, cloud-native application security platform designed specifically for U.S. government agencies. Hosted in AWS GovCloud, CXG provides a secure, single-tenant environment that supports the most stringent compliance standards, enabling government entities to safely develop, deploy, and monitor applications in a highly secure manner.\n\nCXG offers a comprehensive suite of security modules, including Static Application Security Testing (SAST), Software Composition Analysis (SCA), and Application Security Posture Management (ASPM). Additionally, CXG provides advanced add-ons for Malicious Package Detection, Container Security, and Infrastructure as Code (IaC) Security, all of which enable government agencies to secure applications from code to cloud and across the entire software development lifecycle (SDLC).\n\nSeamlessly integrating into developer workflows through IDE plugins (such as VSCode), CLI, API, and a web-based UI, CXG empowers developers to identify and fix vulnerabilities early in the SDLC. The platform provides actionable remediation guidance and risk-based prioritization, ensuring that vulnerabilities are addressed before they can impact mission-critical systems.\n\nCXG continuously scans proprietary code, open-source dependencies, containers, and IaC templates using Checkmarx Threat Intelligence to proactively detect exploitable risks. Its developer-first experience allows secure software development without disruption, and its compliance features ensure alignment with industry standard benchmarks for security and risk management. Hosted in AWS GovCloud and built to meet the highest U.S. government security standards, CXG automates security across DevSecOps pipelines.\n\nCXG also ensures continuous monitoring of security controls, providing real-time insights into the security posture of your applications and infrastructure. It is purpose-built to meet the unique security and compliance needs of U.S. government agencies, enabling a secure and resilient software development process in today’s complex cybersecurity landscape.",
+    "certificationType": "Rev5",
+    "website": "https://checkmarx.com/product/application-security-platform/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Checkmarx%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "infosec@checkmarx.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@checkmarx.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

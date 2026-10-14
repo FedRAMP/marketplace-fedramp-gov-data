@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2531142081",
+    "providerName": "ArcSuite AI (Formerly ArcProcure)",
+    "serviceName": "ArcSuite AI",
+    "serviceAcronym": "ArcSuite AI",
+    "serviceDescription": "ArcSuite AI (formerly ArcProcure) is delivered as a Software-as-a-Service (SaaS) offering using a multi-tenant, government-only community cloud environment hosted in AWS GovCloud (US). It is available to U.S. federal agencies, state and local governments, tribal entities, and government contractors authorized to operate within AWS GovCloud (US).\nThe authorized service provides capabilities for procurement Workflow to include AI assisted document analysis and generation, document review, approval workflows, and source selection. The authorization boundary includes the web application, backend microservices, workflow engine, API services, encrypted data storage, audit logging functions, and the associated network and security infrastructure hosted in AWS GovCloud (US).",
+    "certificationType": "Rev5",
+    "website": "https://www.aframesolutions.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Arcsuite%20Logo.png",
+    "ueiNumber": "JR1NGCDN8AF9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "support@arcprocure.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Jason.Zick@arcprocure.com"
+    }
+  ],
+  "assessor": {
+    "name": "137046",
+    "assessorID": "137046"
+  }
+}

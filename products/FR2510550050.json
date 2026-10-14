@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2510550050",
+    "providerName": "Bugcrowd Inc.",
+    "serviceName": "Bugcrowd for Government (BCGOV)",
+    "serviceAcronym": "Bugcrowd for Government (BCGOV)",
+    "serviceDescription": "Bugcrowd for Government (BCGOV) is a Software-as-a-Service (SaaS) platform providing on-demand offensive security testing capabilities delivered through a vetted community of security researchers. The platform enables customers to establish and manage structured security programs, including Vulnerability Disclosure Programs (VDP), Bug Bounties, and Penetration Testing. BCGOV includes a centralized management portal for scope definition, asset management, and researcher engagement, a triage pipeline for vulnerability validation and severity rating, and APIs for integrating validated findings into customer remediation workflows.",
+    "certificationType": "Rev5",
+    "website": "https://www.bugcrowd.com/solutions/government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Bugcrowd%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@bugcrowd.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "publicsector@bugcrowd.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2700137045",
+    "providerName": "RegScale, Inc.",
+    "serviceName": "RegScale Trust Center 20x (Class C)",
+    "serviceAcronym": "RegScale Trust Center 20x (Class C)",
+    "serviceDescription": "The RegScale Trust Center is an automated Governance, Risk, and Compliance (GRC) offering built for FedRAMP 20x and CR26. It delivers continuous controls monitoring and publishes a FedRAMP-compatible trust center that meets every FedRAMP 20x provider rule, generating schema-valid, machine-readable evidence directly from live security posture and republishing automatically on change.",
+    "certificationType": "Rev5",
+    "website": "https://regscale.com",
+    "logo": "https://regscale.com/wp-content/uploads/2023/01/RegScale_logo_main.svg",
+    "ueiNumber": "LYMKBNFHJXH7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.regscale.com/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "chenrickson@regscale.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "dfish@regscale.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

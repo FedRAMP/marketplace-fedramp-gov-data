@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2335051964",
+    "providerName": "Keyfactor",
+    "serviceName": "Keyfactor for Government",
+    "serviceAcronym": "Keyfactor for Government",
+    "serviceDescription": "Keyfactor for Government is delivered as a SaaS offering using a multi-tenant Government Community cloud computing environment. The Keyfactor for Government cloud service offering provides a Certificate Lifecycle Automation and Management (CLAaaS) solution for US Federal Departments and Agencies to manage digital certificate lifecycle across their enterprise. \n\nKeyfactor for Government enables Certificate Lifecycle Automation and Management through our Keyfactor Command web-based console, which simplifies and organizes certificate inventory, alerting and reporting, issuance, and automation. Our solution provides visibility and management of all public and private certificates in use across the customer’s on-premise and cloud environments and enables workflow automations to prevent outages due to expired certificates. \n\nKeyfactor for Government allows you to: \n - Securely connect to your on-premise Microsoft or EJBCA Certificate Authority and/or to public CAs from Entrust, DigiCert, or Sectigo. \n - Inventory certificates across your enterprise and/or cloud environments. \n - Automate the issuance and deployment of certificates",
+    "certificationType": "Rev5",
+    "website": "https://www.keyfactor.com/resources/content/keyfactor-for-federal-government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Keyfactor%20Logo2.png",
+    "ueiNumber": "PD9UTGRAF852"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "infosec@keyfactorfederal.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal-sales@keyfactor.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

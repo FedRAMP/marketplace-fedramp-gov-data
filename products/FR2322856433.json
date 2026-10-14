@@ -1,0 +1,34 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2322856433",
+    "providerName": "FedCloudIA",
+    "serviceName": "FedCloudIA",
+    "serviceAcronym": "FedCloudIA",
+    "serviceDescription": "FedCloudIA provides cloud-based video surveillance systems, access control systems, video storage, body worn cameras, and intrusion detection systems (IDS) to agencies.\r\n\r\nFedCloudIA is delivered as a Platform as a Service (PaaS) hybrid solution, or as a Software as a Service (SaaS) offering with agency managed on-site equipment and FedCloudIA managed cloud infrastructure in a multi-tenant Government Only cloud computing environment. It is available to federal, state, local, and tribal governments as well the defense industrial base (DIB). Agency-site equipment is supported by management infrastructure maintained by FedCloudIA and hosted in the Azure Gov Cloud.\r\n\r\nFedCloudIA’ s PaaS offering allows agencies the flexibility to distribute resources between cloud and local systems. As a physical security environment, FedCloudIA simplifies the ATO process of multiple commercial off the shelf (COTS) manufacturers such as Milestone Systems, Identiv, and others.",
+    "certificationType": "Rev5",
+    "website": "https://www.fedcloudia.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/FedCloudIA%20Logo.png",
+    "ueiNumber": "YL9JYSHNLKP1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cyber@fedcloudia.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@fedcloudia.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

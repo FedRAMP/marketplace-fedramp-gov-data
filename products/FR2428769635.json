@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2428769635",
+    "providerName": "Paramify",
+    "serviceName": "Paramify Cloud",
+    "serviceAcronym": "Paramify Cloud",
+    "serviceDescription": "The Paramify Cloud (Paramify) is a software platform that automates risk management processes—including compliance planning, solution implementation, gap assessments, and documentation—for cloud service providers, government agencies, and members of the Defense Industrial Base (DIB).\n\nParamify supports adherence to control catalog requirements including NIST 800-53 (FedRAMP, FISMA, GovRAMP, TX-RAMP), NIST 800-171 (CMMC), and standards such as SOC 2, HIPAA, and ISO 27001, with support for additional catalogs and profiles continually expanding.\n\nSSP and ATO Package Management\n\n  ∙ Fast and Easy Setup: Upload previous SSPs or use the intake process to identify your system’s elements and security capabilities. Paramify then generates a roadmap to support your risk management and compliance objectives.\n\n  ∙ Streamlined Control Implementation & Optimization: Visualize progress and manage security program capabilities through a unified dashboard that tracks system elements and responsibilities.\n\n  ∙ ATO Package Generation: Produce accurate SSP documentation in both digital (OSCAL) and human-readable formats, with flexible export options that support various file types, including but not limited to OSCAL, PDF, Word, and Excel.\n\n  ∙ Incorporate Changes Efficiently: As your risk management approach evolves, maintaining stack profiles in Paramify reduces manual update errors across documentation. Paramify automatically synchronizes updates to your SSP, CRM, CIS, policies, procedures, and other records to support compliance with evolving data protection requirements.\n\nContinuous Monitoring and Issue Management\n\n  ∙ Automated POA&M Documentation: Automatically manage and update POA&M documentation via a centralized task-priority view, eliminating the need to manage from multiple spreadsheets or scan files.\n\n  ∙ Vulnerability Management with Duplicate Detection: Automatically close resolved vulnerabilities and employ duplicate detection to ensure accurate issue tracking.\n\n  ∙ Automated Risk Adjustment: Apply risk adjustments across multiple issues automatically to support consistent prioritization of remediation efforts.\n\n  ∙ Automated Inventory Reconciliation: Configure and maintain inventory reconciliation rules to generate accurate workbooks automatically, without manual review of scan files—including those for ephemeral virtual hosts.\n\nIntegration with Your Organization’s Processes\n\n  ∙ Workflow Management: Integrate with issue management tools (e.g., Jira, ServiceNow, GitLab) to facilitate collaboration between DevOps and security teams for timely issue remediation.\n\n  ∙ Evidence Management: Unified evidence approach that minimizes or eliminates duplicate collection efforts.\n\n  ∙ API Integrations: Paramify’s open API supports custom integrations with system components to facilitate connectivity and interoperability.\n\nAvailable in SaaS and self-hosted implementations.",
+    "certificationType": "Rev5",
+    "website": "https://www.paramify.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Paramify%20Logo.png",
+    "ueiNumber": "FWWNSFKDWPJ8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@paramify.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal@paramify.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

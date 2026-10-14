@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1511167634",
+    "providerName": "Kiteworks USA, LLC",
+    "serviceName": "Kiteworks Federal Cloud",
+    "serviceAcronym": "Kiteworks Federal Cloud",
+    "serviceDescription": "The Kiteworks Private Data Network is a FedRAMP Authorized service at the Moderate Impact Level that provides data security, governance, and compliance capabilities. The service consists of the following core components and functions:\r\n\r\nSystem Components\r\n\r\n- Virtual private cloud (VPC) environment with dedicated servers for each customer\r\n- Encrypted file storage system\r\n- Data transfer protocols including SFTP, HTTPS, and SMTP\r\n- Authentication and authorization services\r\n- Audit logging and monitoring systems\r\n- Security scanning and threat detection services\r\n\r\nCore Functions\r\n\r\n- File transfer and sharing capabilities via web interface, email, SFTP, MFT, and APIs\r\n- Role- and attribute-based access control and user authentication\r\n- File encryption at rest and in transit using FIPS 140-3 validated cryptographic modules\r\n- Audit logging of all system and user activities\r\n- Integration with customer directory services (LDAP/Active Directory, etc., see below)\r\n- Multi-factor authentication support\r\n- DLP integration\r\n- Embedded antivirus\r\n\r\nPossessionless Editing (SafeEDIT) System Components and Functions\r\n\r\n- File streaming service for secure remote data access and collaboration\r\n- Data rendering system for file type conversion\r\n- Audit logging system for data interactions\r\n- Versioning system for file changes\r\n- Authorization validation service\r\n- File integrity verification system\r\n- Session management service\r\n- Access revocation controls\r\n- Activity monitoring system\r\n\r\nSecurity Features\r\n\r\n- Customer-managed encryption keys\r\n- Single-tenant deployment providing data isolation between customers\r\n- Continuous security monitoring and scanning\r\n- File-level role- and attributed-based access controls\r\n- Remote device management capabilities\r\n- Security event logging and reporting\r\n- Integration with customer SIEM systems\r\n\r\nCompliance Capabilities\r\n\r\n- Audit log generation and retention\r\n- Policy enforcement mechanisms\r\n- Compliance reporting tools\r\n- Data locality controls\r\n- Access tracking and monitoring\r\n- Chain of custody documentation\r\n\r\nIntegration Interfaces\r\n\r\n- REST APIs for system integration and SCIM authentication support\r\n- SMTP interface for email services\r\n- SFTP/FTPS/CIFS/SMB interfaces for file transfer\r\n- LDAP/AD, SAML 2.0, Kerberos, PIV/CAC, time-based one-time password (TOTP) authenticators, SMS, and SFTP certificate connectors for authentication\r\n- SIEM integration for security monitoring\r\n- DLP and CDR system integrations\r\n- The system operates within a defined authorization boundary and undergoes continuous monitoring and regular security assessments in accordance with FedRAMP requirements.\r\n\r\nTo learn more about what Kiteworks can do for government agencies, please visit: https://www.kiteworks.com/solutions/government/",
+    "certificationType": "Rev5",
+    "website": "https://www.kiteworks.com/solutions/government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Kiteworks%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "frank.balonis@kiteworks.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@kiteworks.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

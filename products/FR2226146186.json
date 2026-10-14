@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2226146186",
+    "providerName": "Agile Fleet",
+    "serviceName": "FleetCommander",
+    "serviceAcronym": "FleetCommander",
+    "serviceDescription": "FleetCommander is a robust, customizable Fleet Management Information System (FMIS). \nThe platform offers seamless vehicle reservation capabilities, along with tools to analyze and forecast fleet demand and capacity. It also streamlines data collection for odometer readings, driver credentials, check-in and check-out activity, and more. With intuitive reporting and analytics features, FleetCommander provides the visibility and control needed to optimize fleet utilization, enhance compliance, and support data-driven decision-making.",
+    "certificationType": "Rev5",
+    "website": "https://www.agilefleet.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/AFL%20Logo.png",
+    "ueiNumber": "ED1SN56ALLZ5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fcsysadmin@agilefleet.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@agilefleet.com"
+    }
+  ],
+  "assessor": {
+    "name": "200865",
+    "assessorID": "200865"
+  }
+}

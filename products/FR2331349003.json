@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2331349003",
+    "providerName": "Zeva Incorporated",
+    "serviceName": "ZevaCrypt",
+    "serviceAcronym": "ZevaCrypt",
+    "serviceDescription": "ZevaCrypt is an end-to-end email encryption solution utilizing government PIV/CAC cards and the Public Key Infrastructure in a way that makes end-to-end encryption intuitive. ZevaCrypt works with Outlook as a plug-in that allows for the discovery of the recipient’s public key through a SaaS-enabled eDirectory and uses policies and validations to manage the ability to send and received emails from authorized Agencies. ZevaCrypt was designed to support inter-department encryption communication using the existing infrastructure.",
+    "certificationType": "Rev5",
+    "website": "https://zevacrypt.zevainc.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Zeva%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "zcryptsupport@zeva.us"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Zeva-sales@Zeva.us"
+    }
+  ],
+  "assessor": {
+    "name": "200719",
+    "assessorID": "200719"
+  }
+}

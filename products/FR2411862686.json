@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2411862686",
+    "providerName": "Alation",
+    "serviceName": "Alation Cloud Service",
+    "serviceAcronym": "Alation Cloud Service",
+    "serviceDescription": "Alation Cloud Service (ACS) is delivered as a software as a service (SaaS) offering using a multi-tenant Public Cloud computing environment. It is available to federal, state, local, and tribal government agency customers, federally funded research and development centers (FFRDCs), suppliers working with government agencies, suppliers regulated by regulations such as ITAR, and federal government contractors.\n\nAlation Cloud Service (ACS) is a data and AI management platform that enables organizations to catalog, govern, and operationalize their data assets and AI agents. ACS data layer provides a centralized repository of organizational data that includes Catalog, curated data elements, lineage and data quality. ACS context layer provides business context and semantic definitions on top of cataloged data. This layer includes data products, data products marketplace, and ontologies. ACS Agent layer includes Agent Studio that provides prebuilt agents as well as ability to create custom agents that operate on governed data and context layers. The ACS Governance layer provides policies and workflows to govern data, context and agent layers to support organizational compliance and audit requirements.",
+    "certificationType": "Rev5",
+    "website": "https://www.alation.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Alation%20Logo.png",
+    "ueiNumber": "LNKPHZJJFU89"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cloud-security@alation.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "contactsales@alation.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

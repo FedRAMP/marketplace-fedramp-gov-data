@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2614439182",
+    "providerName": "Island",
+    "serviceName": "Island Enterprise Platform",
+    "serviceAcronym": "Island Enterprise Platform",
+    "serviceDescription": "Island Enterprise Browser is a Government-Community cloud environment that resides in the AWS GovCloud West (Oregon) region. Island leverages the UberEther IAM Advantage (IAMA) PaaS for implementation, management, and monitoring of the AWS GovCloud infrastructure housing Island Enterprise components and inherits FedRAMP High control environments from both AWS and UberEther IAMA.\nIsland Enterprise Browser has been implemented on Amazon Elastic Kubernetes Services (EKS) to provide a microservices-based architecture. The production environment includes applications, operating systems, and AWS FedRAMP-authorized resources and services that support this architecture. The major components include:\nWeb services for access control as well as compute nodes on UberEther-managed instances managed by EKS\nAccess control for customer users to the front end through HTTPS (TLSv1.2 at a minimum)\nAccess control for internal Island Enterprise Browser users to the back end through privileged AWS Identity and Access Management (IAM) user access from AWS Workspaces instances\n\nDatabases/Storage:\nMySQL databases through Amazon Relational Database Service (RDS) as the primary data store  \nAmazon Simple Storage Service (S3) for static content and object storage \nAWS CloudFront for managed caching  \n\nNetworking:\nVirtual Private Cloud (VPC) with public and private subnets \nRoute tables for traffic flow between subnets  \nAWS Firewall and Security groups, acting as virtual firewalls and access control lists \nAmazon EKS and application load balancers (ALBs) \nAmazon Route53 for external and internal DNS \nAWS Certification Manager for public certificates \nAWS Workspaces for remote internal access to the environment \nAWS Internet Gateway and NAT Gateway for access between VPCs \n\nUberEther-Provided AWS Services for monitoring, management, logging, authentication, and support of the system environment and components",
+    "certificationType": "Rev5",
+    "website": "https://www.island.io",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Island%20Logo.png",
+    "ueiNumber": "MAC6N2DUZG11"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "micah.hedges@island.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "monty@island.io"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2234256499",
+    "providerName": "Rubrik",
+    "serviceName": "Rubrik Security Cloud - Government (RSC-G)",
+    "serviceAcronym": "Rubrik Security Cloud - Government (RSC-G)",
+    "serviceDescription": "Rubrik Security Cloud Government (RSC-G) is a cyber resilience and data security platform designed for federal, state, and local governments, and educational institutions to secure data across enterprise, cloud, and SaaS applications. The service is hosted in a dedicated, U.S. based sovereign cloud instance and is built on Zero Trust Data Security principles. The platform utilizes a purpose built file system that is inherently immutable, safeguarding data integrity and availability through air gapped and access controlled backups.\n\nThe platform integrates data protection with advanced cybersecurity capabilities, allowing agencies to proactively reduce risk by identifying sensitive data exposure and detecting anomalous activity via machine learning engines. RSC-G provides centralized management for data residing in on premises data centers, cloud environments, and SaaS applications through automated discovery and policy driven protection.\n\nIn the event of a cyberattack, RSC-G enables rapid mission continuity by providing automated threat containment and surgical recovery of affected applications and data. These capabilities are designed to eliminate the risk of malware reinfection during the restoration process. The service includes specialized tools to protect large scale unstructured data sets and the restoration of identity provider objects, ensuring the integrity of the identity control plane and overall operational continuity.\n\n\nAvailable services as part of Rubrik Security Cloud - Government\nData Protection & Backup Services\n●        Virtualization: VMware vSphere, VMware Cloud Director (VCD), Microsoft Hyper-V, Nutanix AHV, Proxmox\n●        Containers: K8s / KubeVirt, OpenShift / OpenShift Virtualization\n●        Databases: Microsoft SQL Server, Oracle Database, SAP HANA, PostgreSQL, MySQL, MongoDB, IBM DB2\n●        Operating Systems: Linux (RHEL, CentOS, Ubuntu), Microsoft Windows Server\n●        Unstructured Data: NAS (NFS/SMB), Managed File Shares\nData Security & Recovery Operations\n●        Threat Monitoring: Anomaly Detection and Ransomware Investigation\n●        Sensitive Data Discovery: Data Classification and Exposure Analysis\n●        Orchestrated Recovery: Blueprint based recovery for complex application stacks\nCloud and SaaS Resilience Services\n●        Cloud Native Workloads: Amazon EC2, Amazon EBS, Amazon RDS, Amazon S3, Azure VM, Azure SQL, Azure Blob, GCP VM & Volumes\n●        SaaS Platforms: Data protection for Salesforce and Microsoft 365 (Exchange, OneDrive, SharePoint, Teams)\nEnhanced Resilience and Archival Services\n●        Rubrik Cloud Vault: Provides a managed, isolated cloud repository for offsite data storage and logical air gapping.\n●        Identity Recovery: Provides backup and point in time restoration for Microsoft Active Directory and Microsoft EntraID objects to maintain the integrity of identity and access management systems.",
+    "certificationType": "Rev5",
+    "website": "https://www.rubrik.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Rubrik%20Logo.png",
+    "ueiNumber": "HHKMMMELQG55"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "rscgsoc@rubrik.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "rscgsales@rubrik.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

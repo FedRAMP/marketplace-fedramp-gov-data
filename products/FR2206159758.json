@@ -1,0 +1,28 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2206159758",
+    "providerName": "Merlin International",
+    "serviceName": "Constellation GovCloud (CGC)",
+    "serviceAcronym": "Constellation GovCloud (CGC)",
+    "serviceDescription": "Constellation GovCloud (CGC) is an information system that provides the necessary Platform as a Service (PaaS) architecture layers to support Merlin-operated Software as a Service (SaaS) applications. These Merlin SaaS applications will be hosted and provided to U.S. federal agencies, including local and state governments and tribal organizations. The CGC is part of a managed service that is designed to accelerate FedRAMP authorizations allowing Merlin SaaS companies to achieve a FedRAMP Authority to Operate (ATO) more quickly and cost-effectively.\n\n**Services undergoing approval for use — not authorized.** The following services are hosted on CGC but are **not** authorized services and are **not** included in this certification. They are undergoing approval for use and are recorded here for transparency only; neither is covered by this package, and each moves into the certified service list only on completion of that approval.\n\n- **Torq AI SOC Platform** — Torq combines agentic insights and automation so that federal agencies and public sector organizations can triage, investigate, and respond to actual risks, faster. Torq streamlines every step from alert through resolution, expanding capacity and throughput. First, Torq ingests and normalizes telemetry from across your security stack, preparing the data for agentic reasoning at scale. Auto Triage filters out noise and prioritizes actual threats. Next, cases are automatically opened and assigned to highly specialized AI agents designed for investigation and response. Using tools and actions you specify, they gather evidence, assemble timelines, and transparently record decisions and authorized actions. Your team is in complete control. With Torq, your SOC delivers more results, more efficiently, from triage through remediation.\n\n- **QIZ** — QIZ delivers a cloud-based cryptography posture management platform for government agencies and regulated organizations to manage cryptographic risk. The system provides centralized capabilities for cryptographic discovery and inventory, correlation of findings to affected systems and owners, policy definition, risk-based triage, root cause analysis, and remediation planning. QIZ collects cryptographic data from network traffic, system and application configurations, source code, binaries, and cloud infrastructure. Cryptographic standards are defined within the platform, and the system evaluates the environment against those standards to report current posture and identify policy violations. QIZ produces a contextualized cryptographic bill of materials (CBOM), exportable in standard formats, and a policy driven transition plan prioritized by risk and business context, giving agencies a sequenced and repeatable path toward post-quantum readiness.",
+    "certificationType": "Rev5",
+    "website": "https://cgc.cloud/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Merlin%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@cgc.cloud"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@cgc.cloud"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2333538201",
+    "providerName": "Hypori, Inc.",
+    "serviceName": "Hypori Government Cloud",
+    "serviceAcronym": "Hypori Government Cloud",
+    "serviceDescription": "Hypori Government Cloud provides Virtual Mobility Infrastructure (VMI), a solution that hosts a mobile operating system on a centralized server in a data center that is accessed by thin clients on the user’s end point. Hypori Government Cloud creates a Zero Trust architecture to provide secure access to Controlled Unclassified Information (CUI) and customer data and resources. In the Hypori environment, the user’s device effectively becomes a “window” into a virtualized mobile workspace that is operating in the Amazon GovCloud and delivered via a Software as a Service (SaaS) model. Hypori uses a thin client application to create a virtual image of the user’s unique virtual mobile workspace. The client captures touch and sensor data from the end user physical device and routes it back to the Virtual Workspace through a secure and encrypted TLS tunnel.\r\n\r\nThe Hypori Client has been tested by multiple Red Teams to ensure it meets the most rigorous security posture. It is Common Criteria Certified by the National Information Assurance Partnership (NIAP) for Android, and iOS platforms. NIAP ensures that all certified products “demonstrate exact compliance to the applicable technology protection profile.” This certification verifies that the “Hypori Client is a thin client that communicates only with a Hypori Virtual Workspace on a Hypori Server and not with other servers or applications.” It validates the cryptographic elements of communication with the Hypori environment, that no data is at rest on the user device and no PII is transmitted or stored on the physical end user device. Additionally, the Hypori Client does not trust the mobile device host. It uses application shielding and cryptographic key protection capabilities to defend against compromised end points. It also has limited runtime OS attestation checks before it will launch. If it detects tampering of the client components, it will not connect to the environment. The data on the client is limited to the trust key chain. The mutual Transport Layer Security (TLS) tunnel certificate is stored with the operating system (OS) protected key store on the device, but no other data is on the end user mobile device.\r\n\r\nThe backend environment consists of a series of subnets which form a cluster. Each cluster is designed to support numerous virtual workspace instances. To the user, the experience is virtually identical to when the application and data was on the user’s mobile device. Private keys within the Virtual Workspace are protected using the Android keystore in combination with the Cloud Service Provider key protection system. The Private keys are encrypted in accordance with Hypori’s National Institute of Standards and Technology (NIST) Federal Information Processing Standard (FIPS) 140-2.",
+    "certificationType": "Rev5",
+    "website": "https://www.hypori.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Hypori%20Logo2.png",
+    "ueiNumber": "TR1XHJJ6N1Q3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp_compliance@hyporifederal.us"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@hypori.com"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2604952026",
+    "providerName": "Google",
+    "serviceName": "Gemini for Government",
+    "serviceAcronym": "Gemini for Government",
+    "serviceDescription": "Gemini for Government is delivered as a Public Cloud offering utilizing a multi-tenant Artificial Intelligence (AI) and Machine Learning (ML) cloud computing environment, spanning both Platform as a Service (PaaS) and Software as a Service (SaaS) models.\nIt is available to the federal, state, local, and tribal governments, as well as research institutions, federal contractors, and government contractors, to enable secure and responsible application of generative AI for public sector missions.",
+    "certificationType": "Rev5",
+    "website": "https://cloud.google.com/blog/topics/public-sector/introducing-gemini-for-government-supporting-the-us-governments-transformation-with-ai/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Google%20Logo.png",
+    "ueiNumber": "NQV3T7DDKNT6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp+gemini@google.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "geminiforgov@google.com"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1814276801",
+    "providerName": "Tenable Public Sector (TPS)",
+    "serviceName": "Tenable Government Solutions",
+    "serviceAcronym": "Tenable Government Solutions",
+    "serviceDescription": "Tenable One for Government is a SaaS platform that protects customers from advanced attacks by providing visibility into and assessment of the entire attack surface spanning IT, cloud, identities, hybrid apps, OT, IoT and unseen assets. The platform includes vulnerability management and enumeration, compliance management, cyber risk analysis and inventory capabilities. Included in this platform are Tenable Vulnerability Management FedRAMP, Tenable Web App Scanning FedRAMP, Tenable Identity Exposure (on-prem), Tenable Cloud Security FedRAMP (in process), Tenable OT Security (on-prem), Asset Inventory FedRAMP and Lumin Exposure View FedRAMP. These Tenable solutions can be licensed as part of Tenable One for Government, or individually to meet customers' unique requirements.",
+    "certificationType": "Rev5",
+    "website": "https://www.tenable.com/solutions/government/us-fed",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Tenable%20Logo2.png",
+    "ueiNumber": "TEF5FKYHVKV9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "compliance@tenable.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "publicsector@tenable.com"
+    }
+  ],
+  "assessor": {
+    "name": "137046",
+    "assessorID": "137046"
+  }
+}

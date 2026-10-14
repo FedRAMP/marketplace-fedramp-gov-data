@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631258125",
+    "providerName": "Certivo, Inc.",
+    "serviceName": "Certivo Compliance Platform",
+    "serviceAcronym": "Certivo Compliance Platform",
+    "serviceDescription": "Certivo is an AI-powered product and supply chain compliance platform for manufacturers and regulated industries. It replaces manual, spreadsheet-driven compliance work with a continuously maintained evidence base that links every supplier document to the parts, products, and requirements it supports.",
+    "certificationType": "Rev5",
+    "website": "https://www.certivo.com/",
+    "logo": "https://framerusercontent.com/images/S9sGny65rueqYeyz6Z5NwHE26M.png?width=3840&height=696",
+    "ueiNumber": "E457B1U8K8P5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust-gov.certivo.com/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@certivo.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@certivo.com"
+    }
+  ]
+}

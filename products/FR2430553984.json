@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2430553984",
+    "providerName": "Verizon",
+    "serviceName": "Verizon Government Cloud",
+    "serviceAcronym": "Verizon Government Cloud",
+    "serviceDescription": "Verizon Government Cloud is a secure and flexible Government Community Cloud (GCC) platform-as-a-service (PaaS) that allows agencies to use cloud services such as Software-as-a-Service (SaaS) in a FedRAMP High compliant environment. Verizon Government Cloud is a multi-tenant hosting platform that provides managed solutions including orchestration, configuration, management, patching, monitoring, scanning, backup, and support of Agency environments. The Verizon Government Cloud environment handles the complexities of infrastructure and service management, enabling an agency to focus more attention on their mission.",
+    "certificationType": "Rev5",
+    "website": "https://www.verizongov.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Verizon%20Logo.png",
+    "ueiNumber": "GEYFS4D96R55"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "verizongovtcloud-cso@verizon.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "govinfo@verizon.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

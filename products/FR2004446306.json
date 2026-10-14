@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2004446306",
+    "providerName": "Elastic",
+    "serviceName": "Elastic Cloud",
+    "serviceAcronym": "Elastic Cloud",
+    "serviceDescription": "Elastic Cloud is a family of software-as-a-service (SaaS) products that includes the Elasticsearch Service (ESS).  ESS is a service in which Elastic hosts and manages Elastic Stack components, including Elasticsearch and Kibana, on infrastructure from multiple public cloud providers including Amazon Web Services (AWS). ESS offerings include advanced Elastic Stack features such as security, alerting, monitoring, reporting, machine learning, and graphing capabilities. ESS deployments allow customers to launch with use-case-configured templates, including hot-warm-cold architecture, CPU-optimized workloads, I/O optimized workloads, and memory optimized workloads. ESS also includes enhanced security features such as default encryption at rest and Security Assertion Markup Language (SAML) and native authentication for hosted deployments.",
+    "certificationType": "Rev5",
+    "website": "https://www.elastic.co/industries/public-sector/fedramp",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Elastic%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@elastic.co"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@elastic.co"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

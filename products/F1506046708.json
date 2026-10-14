@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1506046708",
+    "providerName": "Avaya Federal Solutions, Inc.",
+    "serviceName": "Avaya Government Cloud",
+    "serviceAcronym": "Avaya Government Cloud",
+    "serviceDescription": "Avaya Government Cloud™ is a FedRAMP Certified, Class C Moderate, Rev. 5 secure government cloud communications environment for public-sector agencies that need unified communications, contact center operations, emergency response support, and citizen engagement within a government-ready architecture. The service also supports higher-level public-sector security requirements, including IL4 High Provisional Authorization for CUI-level voice and contact center communications, secure DISA BCAP and NIPRnet connectivity for Department of War missions, and 100% U.S. citizen-based support. \n\n \n\nAvaya Government Cloud provides a dedicated unified communications and contact center environment, with each agency supported by its own software stack and instance on a virtual platform. This approach helps agencies tailor the environment to mission requirements while supporting reliability, security, and operational control. Avaya Government Cloud is monitored and managed 24x7x365 and supports public-sector validation needs, including CMMC Level 2. \n\n \n\nAvaya Government Cloud supports secure unified communications for government operations, including enterprise voice, messaging, mobility, presence, collaboration, and communications support for headquarters, remote offices, secure facilities, field locations, and distributed teams. \n\n \n\nFor contact center environments, the platform supports citizen and agency service workflows across voice, self-service, and agent-assisted interactions.  Supported functions include skills-based routing, reporting and management, call recording, quality monitoring, workforce management, proactive outbound communications, callback assistance, speech analytics, real-time transcription, agent guidance, advanced analytics, citizen self-service, and intelligent agent desktop capabilities as agency requirements and governance allow. \n\n \n\nAvaya Government Cloud supports emergency communications requirements through optional emergency calling capabilities designed to support Kari’s Law and RAY BAUM’S Act compliance. NG911 and 911inform integration can help provide real-time caller location data, emergency notifications to designated on-site teams, and situational awareness for first responders when a 911 call is made from supported endpoints. \n\n \n\nAvaya offers a single transition contract with zero contract overlap, designed to coordinate cloud, on-premises subscription, and maintenance needs under one path. This approach helps agencies simplify acquisition, avoid dual-contract costs, reduce redundant resources, and manage the financial impact of modernization as requirements evolve.",
+    "certificationType": "Rev5",
+    "website": "https://www.avaya.com/govcloud",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Avaya%20Logo.png",
+    "ueiNumber": "NML3JFNVEAW6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@avaya.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "FedRAMP@avaya.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

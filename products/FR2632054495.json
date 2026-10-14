@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2632054495",
+    "providerName": "JupiterOne, Inc.",
+    "serviceName": "JupiterOne GovCloud",
+    "serviceAcronym": "JupiterOne GovCloud",
+    "serviceDescription": "JupiterOne is a cloud-based cyber asset attack surface management (CAASM) platform that gives security teams visibility into an organization's digital assets, the relationships between those assets, and the risks and compliance gaps affecting them. The platform integrates with an organization's existing cloud providers, identity and access management tools, code repositories, endpoint management, vulnerability scanners, and ticketing systems to automatically build and continuously update an asset inventory, map asset relationships in a graph model, and let users query that inventory in natural language. Built-in compliance dashboards map assets and controls to supported compliance frameworks and surface the evidence needed to demonstrate adherence, while configurable rules and alerts monitor for vulnerabilities, policy violations, and risk changes over time.",
+    "certificationType": "Rev5",
+    "website": "https://www.jupiterone.com",
+    "logo": "https://mma.prnewswire.com/media/1492212/JupiterOne_Logo.jpg?w=200",
+    "ueiNumber": "WV2CAEYKZHY9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.jupiterone.com/legal-and-security-hub",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "christopher.doyle@jupiterone.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "ron.antinori@jupiterone.com"
+    }
+  ]
+}

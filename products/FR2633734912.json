@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2633734912",
+    "providerName": "ConnectSecure LLC",
+    "serviceName": "ConnectSecure Vulnerability and Compliance Manager",
+    "serviceAcronym": "ConnectSecure Vulnerability and Compliance Manager",
+    "serviceDescription": "ConnectSecure Vulnerability and Compliance Manager is a\ncloud-hosted Software-as-a-Service (SaaS) application\npurpose-built for the Managed Service Provider (MSP)\ncommunity. It empowers small and medium-sized\nbusinesses to protect their IT assets from security threats\nthrough comprehensive, affordable vulnerability and\ncompliance management.",
+    "certificationType": "Rev5",
+    "website": "https://Connectsecure.com",
+    "logo": "https://connectsecure.com/hubfs/ConnectSecure_Standard%20(Two%20Tone).png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/connectsecure",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "brian@connectsecure.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "peter@connectsecure.com"
+    }
+  ]
+}

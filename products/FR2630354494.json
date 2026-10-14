@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2630354494",
+    "providerName": "NextgenID, Inc.",
+    "serviceName": "NextgenID User Interface as a Service (UIaaS)",
+    "serviceAcronym": "NextgenID User Interface as a Service (UIaaS)",
+    "serviceDescription": "The NextgenID UIaaS is a SaaS offering that resides in the AWS East/West Infrastructure as a Service (IaaS) cloud environment. NextgenID UIaaS provides identity & credential management services utilizing Supervised Remote Identity Proofing (SRIP) services. NextgenID UIaaS provides clients with an identity-proofing solution meeting digital Identity Assurance Level 3 (IAL3), and lower, requirements. Applicants that have a requirement to provide evidence of their identity utilize the NextgenID UIaaS Identity Station and Identity as a Service software to self-enroll while being remotely supervised by a SRIP Agent so that the requirements for IAL3 are met. The NextgenID UIaaS Identity Station captures the applicant's biometrics and identity documentation, including biometrics (fingerprints and photo), documents (driver's license, passport, etc.), and other biographic information to verify the identity of the applicant. After the SRIP Agent has verified the applicant's identity, the NextgenID UIaaS transmits the package to the adjudicating agency.",
+    "certificationType": "Rev5",
+    "website": "https://www.nextgenid.com/",
+    "logo": "https://www.nextgenid.com/wp-content/themes/nextgenid/public/nextgen-logo.svg",
+    "ueiNumber": "MG92A8AJK343"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.nextgenid.com/trust-center/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "mhayel@nextgenid.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@nextgenid.com"
+    }
+  ]
+}

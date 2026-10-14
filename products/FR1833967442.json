@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1833967442",
+    "providerName": "Contegix",
+    "serviceName": "Valiantys Federal (Formerly Contegix)",
+    "serviceAcronym": "Valiantys Federal (Formerly Contegix)",
+    "serviceDescription": "SecureCloud is provided by Valiantys Federal as a FedRAMP moderate Platform as a Service (PaaS) offering.  The solution offers a multi-tenant, cloud-based, environment, with the option for deployment of single-tenant environments if required.  Valiantys Federal solutions are designed to provide end-to-end managed hosting that empowers customers to retain complete control over the application environment, while dramatically reducing the time and cost associated with in-house administration. SecureCloud supports and deploys a variety of technologies based on tenant requirements.  Valiantys also offers a cadre of US-based personnel specializing in deployment, configuration, and management of Atlassian tools, as well as optimizing DevSecOps workflows.\r\nManaged hosting services include performance monitoring and troubleshooting, Operating System management and patching, managed backups, and managed firewalls.  Valiantys Federal also manages system owner approved configuration changes supporting the tenant’s environment.\r\nProviding a secure operating environment is at the forefront of SecureCloud and with that focus, Valiantys Federal provides a variety of services to meet tenant requirements for NIST, CMMC, and 800-171 requirements including audit capabilities, disaster recovery, and incident response support.   These services include DoD STIG hardened servers, vulnerability scanning, a dedicated SIEM server, and the option for Disaster Recovery as a Service to meet agency specific RTO/RPOs for mission critical applications.",
+    "certificationType": "Rev5",
+    "website": "https://www.valiantysfederal.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/VAS%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "Security@valiantysfederal.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@valiantysfederal.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

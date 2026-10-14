@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2001462460",
+    "providerName": "Nintex",
+    "serviceName": "Nintex Drawloop DocGen",
+    "serviceAcronym": "Nintex Drawloop DocGen",
+    "serviceDescription": "Nintex Drawloop DocGen equips government organizations to generate precise and accurate documents. With just a few clicks users can instantly transform data from any standard or custom object in Salesforce into documents such as contracts, work orders, or recruitment documents. Nintex Drawloop DocGen allows users to create, manage and generate document packages in both Lightning or Classic, without losing the benefits of an easy-to-use and familiar user experience. Users can output data to a variety of endpoints and know their document data is secure and compliant throughout the process.\n\nMore information about Nintex Drawloop DocGen can be found at https://www.nintex.com/docgen.",
+    "certificationType": "Rev5",
+    "website": "https://www.nintex.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Nintex%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "NintexFedramp@nintex.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@nintex.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

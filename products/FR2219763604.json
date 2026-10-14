@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2219763604",
+    "providerName": "Zscaler, Inc.",
+    "serviceName": "Zscaler Private Access - Government (Zero Trust Exchange - VPN Replacement)",
+    "serviceAcronym": "Zscaler Private Access - Government (Zero Trust Exchange - VPN Replacement)",
+    "serviceDescription": "Zscaler Private AccessGov, part of the Zscaler Zero Trust Exchange, enables fast, secure connections and allows your employees to work from anywhere using the internet as the corporate network. Based on the zero-trust principle of least-privileged access, it provides comprehensive security using context-based identity and policy enforcement. Zero Trust Exchange helps agencies achieve the target goals of the Executive Order 14028 and resulting OMB mandates, CISA guidance and directives.\n\nZPA Gov security products are currently utilized by over 100 federal agencies and federal systems integrators today in Zscaler's US-based FedRAMP Moderate and FedRAMP JAB High approved boundaries in support of the Cybersecurity and Infrastructure Security Agency (CISA) Trusted Internet Connection (TIC) 3.0 use case model for FedRAMP approved Policy Enforcement Point (PEP) capabilities. \n\nTIC 3.0 Use Case Examples (Branch Office, Remote Users, and Cloud)\n\nZero-trust VPN alternative: Legacy VPNs fail to deliver the security, visibility, and user experience today's distributed workforce requires. ZPA delivers fast, direct access to private apps by eliminating VPN traffic backhauling which creates latency, resulting in lost productivity. \n\nSecure Hybrid Workforce:  Users require the ability to move fluidly between their homes, remote locations, branch offices, and headquarters. ZPA enables seamless and secure access to private apps from wherever they need to work, on any device. Local users benefit from an identical experience through an on-prem broker that replicate the policies and controls of the cloud. \n\nThird-party Agentless Access: Third-party agencies, contractors, and vendors require secure, direct access to business applications and OT systems from unmanaged devices. ZPA provides secure, direct connectivity from authorized users to named applications without putting third parties on the network. With integrated agentless access, users can access applications from any browser, on any device, without the need to install a client or log into a VPN.\n\nVDI alternative: Traditional VDIs are often slow, unresponsive, and introduce significant costs with racks of servers needed in the data center to support remote access needs. ZPA provides secure, direct connectivity to apps over RDP and SSH, enabling a faster, more secure experience for users. With built-in agentless access through the browser employees and third-party users get seamless secure connectivity from any device without complicated desktop provisioning processes.\n\nSecure workload-to-workload connectivity: Agencies require fast, secure workload-to-workload connectivity across hybrid and multi-cloud environments. ZPA for Workloads reduces operational complexity and cost by eliminating the need for virtual DMZs and VPN meshes with least-privileged access-based connectivity across clouds. In addition, because workloads are hidden behind ZPA, they are invisible to the internet and impossible to attack.\n\nZscaler will also provide our Zero Trust Exchange services at the FedRAMP Moderate level not only for federal agencies and service integrators, but state, local, education, and critical infrastructure as a fully authorized StateRAMP solution. \n\n\nZscaler, a Leader in the Gartner Magic Quadrant for Security Service Edge.",
+    "certificationType": "Rev5",
+    "website": "https://www.zscaler.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/ZScaler%20Logo3.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@zscaler.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@zscaler.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

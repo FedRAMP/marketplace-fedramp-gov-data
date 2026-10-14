@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2621342703",
+    "providerName": "Corelight",
+    "serviceName": "Corelight Open NDR Platform",
+    "serviceAcronym": "Corelight Open NDR Platform",
+    "serviceDescription": "Corelight Open NDR is delivered as a SaaS offering using a multi-\ntenant SaaS cloud computing environment. It is an open, evidence-\nbased Network Detection and Response platform built on community-\ndriven open-source technologies like Zeek and Suricata, designed to\nprovide comprehensive network visibility, detect advanced threats\nusing multi-layered analytics (AI/ML, behavioral, signatures), and\naccelerate incident response by generating enriched, forensic-grade\nnetwork telemetry.\n\nOpen NDR focuses on providing open core and open data for\nflexibility, customization, and seamless integration with existing\nsecurity tools like SIEM, EDR, and XDR. It is available to federal\ngovernment agencies, as well as government contractors etc.).",
+    "certificationType": "Rev5",
+    "website": "https://corelight.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Corelight%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security-fedramp@corelight.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "aj.laforty@corelight.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

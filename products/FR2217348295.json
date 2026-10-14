@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2217348295",
+    "providerName": "NetApp",
+    "serviceName": "Cloud Insights",
+    "serviceAcronym": "Cloud Insights",
+    "serviceDescription": "Cloud Insights is a SaaS observability platform for on-premises, hybrid cloud and multi-cloud resources, for full-stack visibility across organizations’ IT ecosystems. Cloud Insights provides organizations a consolidated view of their entire infrastructure for capacity management and optimization, monitoring, advanced reporting and and performance/configuration troubleshooting.\n\nCloud Insights is used by organizations at all levels of scale and across a variety of different industries to deliver the following use cases:\n- Visualizing performance and capacity across heterogeneous resources and infrastructure through customizable dashboards\n- Optimization and waste reduction for storage and compute resources on-prem and in the cloud\n- A consistent UI and operational workflows for organizations with workloads split between cloud on on-prem locations, and throughout cloud migrations\n- In-depth observability for Kubernetes platform administrators with Pod-to-Storage mapping, a visual cluster explorer and correlation of metrics to logs \n- Suite of features for managing NetApp ONTAP storage \n- Intelligent insights to automatically identify potential performance issues and risks of capacity exhaustion and provide remedial actions to prevent outage or degradation\n- Customizable BI reporting and data warehouse for chargeback, showback and capacity planning",
+    "certificationType": "Rev5",
+    "website": "https://www.netapp.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/NetApp%20Logo.png",
+    "ueiNumber": "NZAJBE12ACR9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "ng-FedRAMP@netapp.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "ng-fedramp-sales@netapp.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

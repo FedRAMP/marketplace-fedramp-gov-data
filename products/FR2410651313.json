@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2410651313",
+    "providerName": "Dewberry",
+    "serviceName": "DimensionalView®",
+    "serviceAcronym": "DimensionalView®",
+    "serviceDescription": "DimensionalView® is a secure, reliable cloud-based Platform as a Service (PaaS) hosted in Azure. It allows government users to capture, store, analyze, and visualize spatial and non-spatial data and create custom low-code-no-code applications and workflow management solutions in a collaborative workspace.\n\nThe system provides the following capabilities:\n\n·         Identity and access-controlled data and document collaboration\n\n·         Custom mapping, dashboarding, and reporting\n\n·         Field inspections and data collection on mobile devices\n\n·         No-code, low-code or full custom-coded applications depending on need\n\n·         Secure and reliable data\n\n·         Monitoring, logging, and reporting consistent with FedRAMP Moderate standards and guidelines",
+    "certificationType": "Rev5",
+    "website": "https://www.dewberry.com/services/technology/dimensionalview",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Dewberry%20Logo.png",
+    "ueiNumber": "K3WDSCEDY1V5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "msherman@dewberry.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "pdean@dewberry.com"
+    }
+  ],
+  "assessor": {
+    "name": "137046",
+    "assessorID": "137046"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2527245282",
+    "providerName": "Mimic Networks, Inc.",
+    "serviceName": "Mimic Enterprise Ransomware Defense Platform (ERDP)",
+    "serviceAcronym": "Mimic Enterprise Ransomware Defense Platform (ERDP)",
+    "serviceDescription": "The Mimic platform delivers a high-assurance ransomware resilience layer that operates at runtime to stop damage and maintain operational continuity. Built for speed, deception, and recovery, Mimic protects critical applications before ransomware can encrypt or exfiltrate data. Unlike traditional tools, Mimic deploys in the kernel, enabling rapid deflection, application immutability, and lifeboat-based recovery. The platform includes the following core components:\r\n\r\nAutomated Deflection and Runtime Resilience\r\nEarly and Deterministic Response: Mimic continuously monitors application behavior at the kernel level across Windows and Linux systems. At the first sign of ransomware or unauthorized change, protection is triggered in real time—without reliance on manual SOC involvement.\r\n\r\nAutomated Deflection Measures: Mimic acts faster than ransomware can execute, deploying the following capabilities automatically:\r\nApplication Immutability: Critical applications are instantly locked into a protected state, preventing any changes from being made. This protects both against malicious encryption and violations of internal change policies.\r\nAI-Driven Deception: When an attack is detected, Mimic fabricates decoy data that mirrors real applications and critical assets. These AI-generated lures convince attackers they have succeeded—slowing them down and buying time for response and forensics.\r\nAdversary Containment: By operating inside the application’s runtime environment, Mimic halts ransomware progression deterministically, even in cases of zero-days or evasive techniques.\r\n\r\nRecovery Through the Lifeboat Approach\r\nIsolated Recovery in Minutes: Mimic’s recovery workflows leverage the Lifeboat—an isolated, clean environment where compromised applications are relaunched safely. This ensures continued operation while the primary environment is investigated and remediated.\r\nResilient Recovery Process: The platform enables a secure and controlled recovery that includes:\r\nSpinning up trusted application instances in a separate environment,\r\nEnforcing authentication controls to prevent attacker reentry, and\r\nReintegrating recovered systems in a compliant, structured manner.\r\n\r\nTesting and Assurance Tools\r\nContinuous Validation with Customers: Mimic supports ongoing evaluation of its controls in collaboration with the customer’s security team through built-in testing features.\r\nArena: A secure sandbox that mirrors production environments, enabling customers to simulate attacks and observe platform behavior in controlled conditions.\r\nSignal Generator: A ransomware simulation engine that replicates real-world adversary tactics—allowing validation of deflection and recovery mechanisms without risking operational harm.\r\n\r\nBy integrating ultra-fast response, deception-based defense, and secure recovery, the Mimic platform delivers a last line of defense against ransomware. These automated controls are designed to support internal security frameworks and compliance with standards such as GDPR, SOC 2, FedRAMP, and IL 4—ensuring that even when ransomware breaches initial defenses, operations continue without compromise.",
+    "certificationType": "Rev5",
+    "website": "https://mimic.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Mimic%20Logo.png",
+    "ueiNumber": "JCF4W6MB34P7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@mimic.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@mimic.com"
+    }
+  ],
+  "assessor": {
+    "name": "140531",
+    "assessorID": "140531"
+  }
+}

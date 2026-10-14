@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2504771625",
+    "providerName": "ZL Technologies, Inc.",
+    "serviceName": "ZL Unified Archive (ZL UA)",
+    "serviceAcronym": "ZL Unified Archive (ZL UA)",
+    "serviceDescription": "ZL Unified Archive's massively scalable architecture consolidates managing all unstructured content on one platform. Data can be managed in-place and via archiving, for requirements in records management, FOIA, eDiscovery, compliance, privacy, and information governance, while enabling agencies to extract intelligence for analytics and AI training.\n\nZL Unified Archive (ZL UA) offers a comprehensive electronic records management system designed to centralize and automate records capture, storage, retention, and disposition for all federal agencies. This system is tailored to meet the statutory and regulatory requirements set forth by the Federal Records Act, the National Archives and Records Administration (NARA), and the Code of Federal Regulations (36 CFR Chapter XII, Subchapter B), ensuring compliance across all types of records, including temporary, permanent, and essential documents. The platform enables compliance with all NARA Universal Electronic Records Management (UERM), DoDM 8180.01 guidelines, and DoD 5015.2 classified records handling.\n\nData is stored in an encrypted content and data storage system for retention per the agency's policies for which it is being collected. APIs enable the retrieval of this data for future use. Access to all data is restricted to authorized personnel of each agency. Additionally, data can be exported through a user interface that necessitates authentication through an identity management system approved by each agency. Data is safeguarded by allowing IP addresses and firewalls to be listed at the network level, ensuring it is not accessible to individuals outside the agency's scope. The authorization boundary determines the realm of what is accessible in our platform.\n\nKey functionalities of the platform include:\n- In-place management of data, enabling the extraction of intelligence from documents without creating copies\n- Defensible deletion and cleanup of files\n- The capability to channel governed, relevant data into analytics and AI applications\n- Capture of records from a variety of electronic sources\n- Manual and automated classification of records\n- Global search, including sorting by relevance, for eDiscovery, investigations, and FOIA requests\n- Custom retention periods with time-, event-, and metadata-based triggers\n-Retention of records by agency-specific and General Retention Schedules\n- A complete audit log details all actions taken on documents for defensible records management and document deletion\n- A unified system for records management, compliance, eDiscovery, and FOIA requests, so that actions taken on documents are applied universally",
+    "certificationType": "Rev5",
+    "website": "https://www.zlti.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/ZL%20Logo.png",
+    "ueiNumber": "NLN1DLNLXDQ1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedrampsecurity@zlti.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federalsales@zlti.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

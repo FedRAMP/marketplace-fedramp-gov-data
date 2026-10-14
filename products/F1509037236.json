@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1509037236",
+    "providerName": "Adobe",
+    "serviceName": "Adobe Connect Managed Services (ACMS-GC)",
+    "serviceAcronym": "Adobe Connect Managed Services (ACMS-GC)",
+    "serviceDescription": "Adobe Connect is a FedRAMP Moderate Software as a Service (SaaS) running on International Traffic and Arms Regulations (ITAR) compliant IT infrastructure, offering immersive online meeting experiences for real-time collaboration, large-scale webinars, and virtual classrooms in a secure environment. Go beyond screen sharing and web conferencing with customizable pods and layouts, polls, quizzes, drawing boards, simulations, breakout rooms, live video, screen sharing, chat, gamification, telephony integration, and persistent virtual rooms with strong access authentication. Section 508 accessibility, Health Insurance Portability, and Accountability Act of 1996 (HIPAA), Family Educational Rights and Privacy Act (FERPA), and Gramm-Leach Bliley Act (GLBA) compliance make it stand out as a secure and accessible platform adopted by the most regulated industries. Adobe Connect supports both a browser-centric experience and installable applications on desktops and mobile devices with bandwidth management settings to provide the best experience. For real-time situational awareness and common operating picture applications, Adobe Connect delivers a persistent virtual command center environment to scale across federal virtual operation briefings, citizen outreach, and emergency preparedness. Learn more here. https://www.adobe.com/products/adobeconnect.html",
+    "certificationType": "Rev5",
+    "website": "https://business.adobe.com/solutions/industries/government.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Adobe%20Logo.png",
+    "ueiNumber": "V6QLDTQZ7ZF7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@adobe.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "government@adobe.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

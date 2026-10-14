@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631054533",
+    "providerName": "Portal26, Inc.",
+    "serviceName": "AI Security, Governance, & Telemetry Platform",
+    "serviceAcronym": "AI Security, Governance, & Telemetry Platform",
+    "serviceDescription": "Portal26 is an AI visibility, security, governance, and adoption management\nplatform. Portal26 provides a SaaS application for Agentic, Generative and Embedded\nAI governance and adoption, together with AI network gateways for\nreal-time traffic routing and analysis.\n\nThe platform gives agencies detailed visibility into AI\ndeployment, usage, risk, cost, business value, compliance, and overall impact — enabling \na rich understanding where and how AI is used, ensure its security, assess its contribution,\nand ensure alignment with mission objectives, regulations, and policy.\n\nThe FedRAMP offering is deployed in AWS GovCloud (US) for direct use by\nfederal agency customers handling Controlled Unclassified Information\n(CUI). Federal customer data is encrypted in transit and at rest, and\npersonally identifiable information is additionally encrypted at the field\nlevel under a key specific to each customer.",
+    "certificationType": "Rev5",
+    "website": "https://www.portal26.ai",
+    "logo": "https://portal26.ai/wp-content/uploads/2023/06/portal26_logo_art-300x67.png",
+    "ueiNumber": "J383UFKBFXA6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.portal26.ai/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@portal26.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal@portal26.ai"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

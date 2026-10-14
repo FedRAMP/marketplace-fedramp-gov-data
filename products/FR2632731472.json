@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2632731472",
+    "providerName": "Transmittr, Inc.",
+    "serviceName": "Casco for Government",
+    "serviceAcronym": "Casco for Government",
+    "serviceDescription": "Casco is an agentic system that provides autonomous, 24/7 security testing and vulnerability assessments for web applications, APIs, cloud infrastructure, and AI systems. Casco was founded in February 2025 with the objective of making artificial intelligence-powered services production-grade, and Casco is delivered to customers across the United States, United Kingdom, and Europe in the cloud service provider, artificial intelligence, cybersecurity, and SaaS industries.",
+    "certificationType": "Rev5",
+    "website": "https://casco.com/",
+    "logo": "https://static-assets.mycroft.io/production/org_logos/ac58d658-f3d7-4434-9394-d1b5810c3cc7.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.mycroft.io/casco",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@casco.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "government@casco.com"
+    }
+  ]
+}

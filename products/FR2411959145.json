@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2411959145",
+    "providerName": "GitLab",
+    "serviceName": "GitLab Dedicated for Government",
+    "serviceAcronym": "GitLab Dedicated for Government",
+    "serviceDescription": "Adopt modern and efficient cloud-based technologies while safeguarding the security of federal information with GitLab Dedicated for Government. GitLab offers the most comprehensive, developer-preferred, customizable DevSecOps Platform as a single-tenant SaaS deployment. Delivered as a dedicated, isolated environment for each customer, this solution features data residency controls, advanced search capabilities, secure private networking, enterprise encryption, and integration with identity providers (IDPs).\n\nGitLab Dedicated for Government strategically consolidates development tools, delivering measurable improvements in deployment velocity while maintaining strict security compliance. The solution streamlines workflows through integrated automation, configurable security controls, and end-to-end visibility across the entire software lifecycle. With GitLab, government agencies can accelerate innovation while ensuring their supply chain remains secure from code to cloud.",
+    "certificationType": "Rev5",
+    "website": "https://about.gitlab.com/solutions/public-sector/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Gitlab%20Logo.png",
+    "ueiNumber": "N2E6J5DFLSP3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP-Security@gitlab.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales-pubsec@gitlab.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

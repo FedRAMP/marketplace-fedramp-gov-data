@@ -1,0 +1,40 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2635447609",
+    "providerName": "MyEvaluations.com Inc.",
+    "serviceName": "MyEvaluations",
+    "serviceAcronym": "MyEvaluations",
+    "serviceDescription": "MyEvaluations is an integrated SaaS platform for medical education\nmanagement, supporting assessments and competency management,\ncurriculum, scheduling and clinical hours, procedure and patient logs,\nonboarding and credentialing, accreditation workflows, institutional\nreporting, analytics, and continuous educational improvement.",
+    "certificationType": "Rev5",
+    "website": "https://www.myevaluations.com/",
+    "logo": "https://site-assets.plasmic.app/e0d717efc79e1714572b0ff755fc9dba.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/myevaluations/myevaluations",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@myevaluations.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@myevaluations.com"
+    }
+  ],
+  "assessor": {
+    "name": "202040",
+    "assessorID": "202040"
+  }
+}

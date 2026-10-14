@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2632436493",
+    "providerName": "Rohirrim, Inc.",
+    "serviceName": "Unified Acquisition Platform",
+    "serviceAcronym": "Unified Acquisition Platform",
+    "serviceDescription": "Unified Acquisition Platform is Rohirrim's certified cloud infrastructure supporting two complementary offerings for the government solicitation lifecycle: UnifiedRespond, used by government contractors to research and draft responses to solicitations, and UnifiedAcquire, used by government agencies to write and issue those solicitations. Both offerings are software packages running inside the same authorization boundary, sharing the same retrieval-based AI platform, identity plane, data stores and monitoring.",
+    "certificationType": "Rev5",
+    "website": "https://rohirrim.ai",
+    "logo": "https://rohirrim.ai/wp-content/uploads/2026/08/Rohirrim-Logo-scaled.png",
+    "ueiNumber": "NYRPKZL34MZ4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://app.vanta.com/c/rohirrim/trust-center/access/viewers",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "mike.papay@rohirrim.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "christian@rohirrim.ai"
+    }
+  ]
+}

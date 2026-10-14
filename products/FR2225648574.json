@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2225648574",
+    "providerName": "Mathematica Inc.",
+    "serviceName": "Mathematica Cloud Support System",
+    "serviceAcronym": "Mathematica Cloud Support System",
+    "serviceDescription": "The Mathematica Cloud Support System (MCSS) is a general support system (GSS) that provides Mathematica with a centralized place to scale enterprise features and enforce policy across projects that require IT presence in the cloud. The MCSS is a management and compliance console and does not produce, store, or transmit federal information. The centralized and preconfigured services offered by the MCSS include authorization, network connectivity, common security services, usage information, and governance/compliance functions. These services are ingested by application teams instantiating their information system and related components outside of the MCSS authorization boundary, leveraging the management and compliance support services from the MCSS.",
+    "certificationType": "Rev5",
+    "website": "https://www.mathematica.org/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Mathematica%20Logo.jpg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "mcss@mathematica-mpr.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "mcss@mathematica-mpr.com"
+    }
+  ],
+  "assessor": {
+    "name": "137046",
+    "assessorID": "137046"
+  }
+}

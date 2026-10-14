@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2116544598",
+    "providerName": "Keeper Security",
+    "serviceName": "Keeper Security Government Cloud Password Manager and Privileged Access Manager",
+    "serviceAcronym": "Keeper Security Government Cloud Password Manager and Privileged Access Manager",
+    "serviceDescription": "Keeper Security Government Cloud (KSGC) transforms the way government organizations protect their operations against password-related data breaches and cyberthreats including ransomware and phishing attacks. KSGC provides IT administrators with visibility, management and control over their organization's password security, monitoring and reporting. The KSGC cybersecurity platform utilizes a zero-trust framework and zero-knowledge security architecture and integrates with on-premise, cloud and hybrid-cloud environments. KSGC utilizes granular, role-based administrative controls including delegated administration. IT Administrators can enforce critical internal control policies including password complexity, IP white listing, two-factor authentication and Data Loss Prevention (DLP). KSGC's modern provisioning tools allow organizations to rapidly deploy cybersecurity protection to thousands of users, on all their devices, and can integrate with any identity stack including AD, LDAP, SSO (SAML), SCIM and APIs. The cybersecurity platform includes robust event logging, reporting and auditing capabilities with seamless integration with Security Information and Event Management (SIEM) systems.",
+    "certificationType": "Rev5",
+    "website": "https://www.keepersecurity.com/industries/public-sector.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Keeper%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@keepersecurity.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@keepersecurity.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

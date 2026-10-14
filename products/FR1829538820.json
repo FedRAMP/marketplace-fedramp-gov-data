@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1829538820",
+    "providerName": "General Services Administration",
+    "serviceName": "Login.gov",
+    "serviceAcronym": "Login.gov",
+    "serviceDescription": "Login.gov offers the public secure and private online access to participating government programs. With one login.gov account, users can sign in to multiple government agencies. Our goal is to make managing federal benefits, services and applications easier and more secure.",
+    "certificationType": "Rev5",
+    "website": "https://www.login.gov/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Login.gov%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@login.gov"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "partners@login.gov"
+    }
+  ],
+  "assessor": {
+    "name": "200719",
+    "assessorID": "200719"
+  }
+}

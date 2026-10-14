@@ -1,0 +1,43 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1603047866",
+    "providerName": "Amazon Web Services, Inc.",
+    "serviceName": "AWS GovCloud",
+    "serviceAcronym": "AWS GovCloud",
+    "serviceDescription": "AWS GovCloud (US) is an AWS Region designed to allow US government agencies and customers supporting the US government to move more sensitive workloads into the cloud. In addition to complying with FedRAMP requirements, the AWS GovCloud (US) framework adheres to U.S. International Traffic in Arms Regulations (ITAR) regulations. Additional information is available at http://aws.amazon.com/govcloud-us/. AWS GovCloud (US-East) and (US-West) Regions are operated by employees who are U.S. citizens on U.S. soil. AWS GovCloud (US) is only accessible to U.S. entities and root account holders who pass a screening process. The AWS GovCloud (US) network consists of AWS’s internal data center facilities, servers, networking equipment, and host software systems that are within AWS’s reasonable control, which are used to provide AWS services in the AWS GovCloud (US) Regions. Federal agencies interested in collaborative continuous monitoring with AWS should reach out to: aws-collaborative-conmon@amazon.com.",
+    "certificationType": "Rev5",
+    "website": "https://aws.amazon.com/govcloud-us/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Amazon%20Logo.png",
+    "ueiNumber": "NQEWN6C1LSU5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS",
+      "PaaS",
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://secure.caplinked.com/workspaces/aws-workspace/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "aws-compliance-fedramp@amazon.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "scaglobal@amazon.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

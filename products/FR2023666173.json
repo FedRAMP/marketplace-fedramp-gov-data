@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2023666173",
+    "providerName": "Scale AI, Inc",
+    "serviceName": "Scale AI Data Platform",
+    "serviceAcronym": "Scale AI Data Platform",
+    "serviceDescription": "The ScaleGov mission is to accelerate the development and deployment of artificial intelligence (AI) solutions within the government space. Scale's comprehensive AI Data Platform goes beyond data labeling, now offering a fully-managed, API-driven solution for the test, evaluation, and development of AI-enabled enterprise applications. This includes Scale's Generative AI Platform (SGP), which empowers organizations to rapidly iterate and scale their AI models across various use cases with robust tooling for enterprise-level testing, evaluation, and operationalization.\r\n\r\nIn addition, Scale's platform now integrates Donovan, a powerful enterprise chat solution built on SGP. Donovan provides real-time, AI-driven insights and collaboration capabilities, augmenting human workflows with intelligent assistance and context-aware responses to enhance decision-making and productivity.\r\n\r\nScale continues to offer best-in-class tools and processes for creating high volumes of training data. The managed labeler network uses automated quality assurance, training, matching, and incentive systems to accurately label more than one hundred million annotations monthly. Scale's advanced quality pipeline incorporates active tooling and pre-labeling techniques, driving worker efficiency and accelerating customer workflows. Through Scale's customer management platform, clients can receive data in real-time, monitor task progress, audit results, and provide feedback across a broader range of AI-driven initiatives.",
+    "certificationType": "Rev5",
+    "website": "https://scale.com/federal",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Scale%20Logo.png",
+    "ueiNumber": "HU2LMKSDQD9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@scale.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@scale.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

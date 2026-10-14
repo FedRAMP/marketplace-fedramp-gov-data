@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2224752400",
+    "providerName": "Privoro LLC",
+    "serviceName": "Privoro Fulcrum Cloud",
+    "serviceAcronym": "Privoro Fulcrum Cloud",
+    "serviceDescription": "The Privoro Fulcrum Cloud (PFC) supports the use of and enhances the security of mobile devices in the Federal Government. Specifically, the PFC provides management and monitoring services for Privoro SafeCases (SC), which are out of boundary mobile security products that communicate to the PFC via the in boundary Privoro Mobile App (Privoro App) available for both iOS and Android. PFC and SafeCases support use cases such as mobile phone usage in Secure Spaces, mobile Signature Management and mobile Secure Comms.",
+    "certificationType": "Rev5",
+    "website": "https://www.privoro.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Privoro%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "Compliance@Privoro.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "blake.kotiza@privoro.com"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2632054491",
+    "providerName": "OpenClinica LLC",
+    "serviceName": "OpenClinica4 (OC4)",
+    "serviceAcronym": "OpenClinica4 (OC4)",
+    "serviceDescription": "OpenClinica is a Software-as-a-Service (SaaS) eClinical platform that centralizes clinical trial technology for electronic data capture (EDC), eConsent, eCOA (electronic clinical outcome assessments), and reporting and analytics. OpenClinica is hosted on AWS US East/West as a Public Cloud deployment. The platform serves academic institutions, pharmaceutical, biotech and medtech sponsors, and contract research organizations (CROs) running clinical trials, including federally funded research studies.",
+    "certificationType": "Rev5",
+    "website": "https://www.openclinica.com/fedramp",
+    "logo": "https://www.openclinica.com/wp-content/uploads/2026/08/OC-new-logo_horiz-color-RGB-7-scaled.png",
+    "ueiNumber": "VJWGYQDM2X28"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.openclinica.com",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "Privacy@OpenClinica.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "djohnson@openclinica.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

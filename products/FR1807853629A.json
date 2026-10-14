@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1807853629A",
+    "providerName": "CrowdStrike, Inc.",
+    "serviceName": "CrowdStrike Falcon Platform for Government",
+    "serviceAcronym": "CrowdStrike Falcon Platform for Government",
+    "serviceDescription": "The primary purpose of the CrowdStrike Falcon Platform is to provide organizations with a comprehensive cybersecurity solution that encompasses the following system functions:\r\n\r\n \r\n\r\nEndpoint Security - Advanced endpoint security capabilities to protect laptops, desktops, servers, and virtual machines from various cyber threats.\r\n\r\nThreat Intelligence - Cloud-based intelligence engine to collect and analyze threat data from millions of endpoints worldwide.\r\n\r\nManaged Security - Managed security services with a team of security experts actively monitoring and responding to security events.\r\n\r\nCloud Security - Cloud security capabilities to protect organizations' cloud environments.\r\n\r\nSecurity and IT Operations - Integration of security and IT operations for a unified view of security posture.\r\n\r\nIdentity Protection - Identity protection capabilities to safeguard user identities and prevent unauthorized access.\r\n\r\nNext-Gen SIEM - Logging and analysis capabilities to collect, correlate, and analyze security events and logs.\r\n\r\nCharlotte AI - Delivers automated triage analysis for endpoint, identity and cloud detections and enables security teams to activate LLM inferencing within Falcon Fusion SOAR workflows.",
+    "certificationType": "Rev5",
+    "website": "https://www.crowdstrike.com/solutions/falcon-on-govcloud/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/CrowdStrike%20Logo.png",
+    "ueiNumber": "JXV5KPM56S34"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@crowdstrike.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@crowdstrike.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2214150164",
+    "providerName": "Quzara, LLC.",
+    "serviceName": "Quzara Cybertorch (SOC-as-a-Service)",
+    "serviceAcronym": "Quzara Cybertorch (SOC-as-a-Service)",
+    "serviceDescription": "Cybertorch™ is a FedRAMP High Authorized, cloud-native security platform specializing in Sovereign Security Operations and Incident Response for the federal mission. Built and operated by U.S.-based cleared personnel, Cybertorch combines telemetry from Microsoft security, vulnerability management, and infrastructure logs with AI-assisted analytics to unify threat detection, response, and continuous compliance support for mission-critical workloads across cloud, hybrid, and on-premises environments.\r\n\r\nCore Service Components\r\n\r\nManaged Security Services\r\n\r\n1.        Managed Extended Detection & Response (MXDR)\r\nProvides 24x7x365 monitoring, investigation, and response across cloud, hybrid, and on-premises workloads. MXDR is operated by cleared U.S. analysts and uses correlation, behavioral analytics, and AI-assisted triage to link Endpoint Detection and Response (EDR), identity, email, and cloud telemetry and rapidly identify and contain advanced threats.\r\n2.        Managed Microsoft Security Services\r\nEnd-to-end deployment, configuration, and 24x7 management of Microsoft security capabilities, including EDR and XDR, across Commercial, GCC, and GCC High tenants. Services include tuning, alert triage, incident handling support, and alignment with agency-specific security and compliance requirements, with AI-informed detections and policies incorporated where appropriate.\r\n3.        Managed Vulnerability Management\r\nExpert-driven vulnerability management services leveraging FedRAMP-authorized Tenable solutions. Cybertorch delivers Tenable-based high managed services, including scan strategy design, continuous assessments, AI-assisted risk scoring and prioritization, remediation guidance, and integration of vulnerability data into SOC workflows and executive reporting.\r\n4.        Curated Threat Intelligence\r\nActionable, curated threat intelligence sourced from government, commercial, and internal hunting activities. SOC analysts incorporate this intelligence into detections, investigations, and proactive threat hunting, using AI-supported enrichment and pattern analysis to track evolving campaigns, techniques, and sector-relevant threats.\r\nContinuous Assurance Module\r\n1.        The Continuous Assurance Module helps agencies maintain an ongoing picture of how security controls are performing in practice. It correlates alerts, vulnerability data, and configuration baselines with NIST-based control frameworks used for FISMA, FedRAMP, and CMMC. The AI-enabled module provides workflows to assist with updating RMF documentation, assembling supporting evidence, and tracking changes in residual risk over time. Its AI-assisted analysis approach, informed by our NISTcompliance.ai platform, is used to highlight trends, gaps, and control drift, adding automation and consistency while preserving existing governance, review, and approval processes.",
+    "certificationType": "Rev5",
+    "website": "https://quzara.com/solutions/cybertorch/mxdr",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Quzara%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cybertorch@quzara.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@quzara.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1404304159",
+    "providerName": "DataBank Holdings",
+    "serviceName": "FedRAMP Compliant CloudPlus",
+    "serviceAcronym": "FedRAMP Compliant CloudPlus",
+    "serviceDescription": "DataBank’s CloudPlus transforms traditional enterprise applications delivering secure FedRAMP compliant 100% uptime cloud hosting solutions. Focused on public, dedicated private, and hybrid Cloud computing platforms designed to meet a wide range regulatory requirements including FISMA, FedRAMP, HIPAA and PCI.\n\nSaaS providers, federal agencies and System Integrators who require FedRAMP can significantly lower operating costs, eliminate capital expenditures and drastically improve service delivery at a predictable monthly cost. By combining the latest scalable Cloud technology DataBank can help you reduce the time it takes to adopt new cloud IT capabilities. CloudPlus delivers highly available and secured cloud hosting, which includes monitoring, backups and recovery and 24x7x365 technical support. CloudPlus includes all of the hardware infrastructure, software licenses, bandwidth, load balancers, clustering infrastructure, storage, security software and tools along with the experts responsible for installing, configuring and maintaining global scale application platforms with support for the majority of Windows and Linux application stacks and database platforms. Partnered with a number of purchasing vehicles to make cloud procurement easy.",
+    "certificationType": "Rev5",
+    "website": "https://www.databank.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Databank%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "Compliance@DataBank.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@databank.com"
+    }
+  ],
+  "assessor": {
+    "name": "202896",
+    "assessorID": "202896"
+  }
+}

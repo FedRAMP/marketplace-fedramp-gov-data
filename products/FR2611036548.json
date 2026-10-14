@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2611036548",
+    "providerName": "LexisNexis Risk Solutions",
+    "serviceName": "LexisNexis Risk Enterprise Platform",
+    "serviceAcronym": "LexisNexis Risk Enterprise Platform",
+    "serviceDescription": "The LexisNexis Risk Enterprise (LNEP) Platform is utilized to deliver a suite of solutions provided by LexisNexis Risk Solutions to support agencies with identity validation, investigative research, and delivery of XML services.  LNEP provides agencies with mission critical products and solutions, utilizing public records and proprietary identity technology to deliver advanced analytics to help agencies improve decisions and reduce risk.  Through established secure cloud infrastructure, identity assurance, fraud mitigation, and risk intelligence capabilities, LNEP supports agencies’ evolving needs while maintaining alignment with federal cybersecurity mandates and compliance expectations.",
+    "certificationType": "Rev5",
+    "website": "https://risk.lexisnexis.com/government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/LexisNexis%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMPSecurity@lexisnexis.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "FedRAMPInfo@lexisnexisrisk.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

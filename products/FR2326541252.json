@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2326541252",
+    "providerName": "Cisco Systems Inc.",
+    "serviceName": "Cisco Defense Orchestrator (CDO) for Government",
+    "serviceAcronym": "Cisco Defense Orchestrator (CDO) for Government",
+    "serviceDescription": "Cisco Defense Orchestrator (CDO) for Government is an integrated cloud management solution to streamline and elevate the effectiveness of policy management across a diverse array of security solutions for government organizations grappling with the surge in cyberattacks. By providing centralized management of security policies for ASA and FTD firewalls, it enhances visibility across diverse network environments. Its capabilities enable rapid response to coordinated attacks, mitigating threat sophistication. With streamlined policy enforcement and adherence to regulatory compliance frameworks, it fortifies operational security resilience, minimizing financial impacts and safeguarding against penalties and data loss.\n\nCDO for Government provides agencies with the following capabilities: \n\n* Improved security posture – CDO effectively manages security policies and configurations to enhance security, reduce vulnerabilities, and attack surfaces.\n* Efficient policy management – Control policies and share objects across various firewall form factors, providing a fully unified experience between on-premises and cloud-based management. This efficiency aligns with FedRAMP’s goal of ensuring secure and compliant operations. providing a fully unified experience between on-premises and cloud-based Firewall management. This efficiency aligns with FedRAMP’s goal of ensuring secure and compliant operations.\n* Centralized visibility – With CDO, federal agencies have real-time insight into network traffic and security events, enabling faster threat detection and mitigation by Federal security teams. This visibility is crucial for maintaining compliance with FedRAMP requirements. Plus, CDO’s advanced analytics give your insight into remote user traffic, including visibility and geographic distribution, helping you better manage security.\n* Automation and orchestration – CDO enable automation of security policy changes and orchestration of security workflows. This saves you time and effort while making sure security policies are consistently enforced. It also provides robust automation and orchestration capabilities, automating routine tasks like Object updates and device onboarding.\n* Audit and compliance reporting – CDO offers robust reporting capabilities, helping organizations track and document security policy changes. These reports and their detailed information are valuable for demonstrating compliance with FedRAMP standards.\n* Real-time threat intelligence - Cisco’s threat intelligence feeds are integrated with CDO, providing real-time information on emerging threats. This helps federal agencies stay proactive in their security posture, which is essential for FedRAMP compliance.\n* Scalable security from the cloud – Being a Software-as-a-Service (SaaS) solution, CDO can scale to meet the evolving needs of federal agencies, making it suitable for organizations of various sizes. This scalability aligns with FedRAMP’s goal of supporting the growth and changing requirements of government entities.",
+    "certificationType": "Rev5",
+    "website": "https://www.cisco.com/site/us/en/products/security/defense-orchestrator/index.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cisco%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "omarshei@cisco.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "cdo-gov@cisco.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

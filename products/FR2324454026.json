@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2324454026",
+    "providerName": "FM:Systems",
+    "serviceName": "OpenBlue Workplace",
+    "serviceAcronym": "OpenBlue Workplace",
+    "serviceDescription": "OpenBlue Workplace is an Integrated Workplace Management Solution (IWMS) designed for space management and optimization, asset management, move management, facility maintenance, strategic real estate planning, and facility project management. \r\n\r\nThe core system consists of Space + Asset Management with Strategic Planning. Additionally, optional modules may be licensed for the core system for move management, facility maintenance, real estate and lease management and project management as part of the Integrated Workplace Management System. \r\n\r\nThis web-based solution enables organizations to manage, analyze and report on facilities and real estate operation and maintenance (O&M) information. With objective facility data and digital automation, customers gain insight into how their real estate portfolio is performing, identify opportunities to reduce costs, create efficiencies across workplace management processes and deliver exceptional workplace experiences to their employees. The system is a web-based application requiring only a browser for the client. \r\n\r\nCAD and BIM technicians may leverage an entirely optional AutoCAD™ or Revit™ client side plug-in that communicates to  OpenBlue Workplace via web services. This bi-directional system’s integration simplifies the floorplan management process for technicians as it keeps both systems in sync when changes are made. The AutoCAD and Revit plug-ins add the ability to edit digital floorplan files within OpenBlue Workplace but are not a required component for the system. There is also an optional HR Data Feed available to import customer users into the system. OpenBlue Workplace is hosted as a single tenant server in the AWS GovCloud FedRAMP environment. \r\n\r\nOpenBlue Workplace uses a self-described data model—the OpenBlue Workplace Data Dictionary—that lets system administrators configure the system to add, modify or remove fields, tables, data views, data forms, notification rules, reports, and business logic. The Data Dictionary is unique to the individual client database, allowing each organization to design and configure the system according to their unique business requirements.\r\n\r\nThe OpenBlue Workplace Management Suite and associated modules allow facility and real estate professionals to use a common database and system to address a wide range of business requirements and to share facility information enterprise wide.",
+    "certificationType": "Rev5",
+    "website": "https://fmsystems.com/industries/government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/FM%20Logo.png",
+    "ueiNumber": "CYC1K9AT5SZ1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRamp@fmsgov.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "FedRAMPsales@fmsgov.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

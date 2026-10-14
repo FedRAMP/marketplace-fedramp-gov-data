@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1916163735",
+    "providerName": "VMware, Inc.",
+    "serviceName": "VMware Government Services (VGS)",
+    "serviceAcronym": "VMware Government Services (VGS)",
+    "serviceDescription": "VMware Government Services (VGS) is a set of cloud service offerings designed to allow US government agencies and customers supporting the US government to migrate, manage, and operate more sensitive workloads in the cloud. The VGS authorization boundary provides Software-as-a-Service (SaaS) and Infrastructure-as-a-Service (IaaS) capabilities to deliver modern applications at the speed the US government demands and operate across the data center, the edge, and the cloud. VGS provides the following FedRAMP-authorized services at the High baseline: VMware Cloud on AWS GovCloud (US) (VMC), Hybrid Cloud Extension (HCX), Carbon Black Cloud (CBC), Software Defined WAN (SD-WAN), and Workspace ONE. More information on the VGS public sector roadmap can be found on the VMware Trust Center https://www.vmware.com/products/trust-center/certificate.html?family=FedRAMP.",
+    "certificationType": "Rev5",
+    "website": "https://www.vmware.com/cloud-solutions.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/VMWare%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "vgs-fedramp-authorization-access.pdl@broadcom.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "govt-services-team@omnissa.com"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

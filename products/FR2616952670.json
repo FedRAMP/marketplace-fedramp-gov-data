@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2616952670",
+    "providerName": "Verily Health",
+    "serviceName": "Verily Pre",
+    "serviceAcronym": "Verily Pre",
+    "serviceDescription": "Verily Pre is an AI-native data platform purpose-built for precision health. Pre enables federal agencies, academic institutions, and commercial organizations to harmonize, govern, discover, explore, and analyze complex multimodal biomedical data – and to build and deploy AI models and agents directly into care and research workflows.\n\nThe platform includes  three integrated capabilities:\n-  Refinery, a FHIR-native data curation engine that ingests and enriches siloed clinical and biomedical data into research- and AI-ready assets\n- Exchange, a secure marketplace for discovering and sharing AI-ready datasets, models, and agents\n- Workbench, a collaborative research environment with advanced cohort building, visualization, interactive analysis, batch workflow, and governance tooling.\n\nThe platform is built on infrastructure from multiple FedRAMP-authorized cloud providers and supports HIPAA compliance, role-based access controls, audit logging, and data use agreement enforcement.",
+    "certificationType": "Rev5",
+    "website": "https://www.verily.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Verily%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "verily-fedramp@verily.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "dpvoros@verily.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

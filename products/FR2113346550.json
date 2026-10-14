@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2113346550",
+    "providerName": "OpenWater Software LLC",
+    "serviceName": "OpenWater",
+    "serviceAcronym": "OpenWater",
+    "serviceDescription": "OpenWater is a multi-tenant SaaS application and review platform that organizations use to run awards, abstracts and call-for-papers, grants, scholarships, fellowships, accreditation, and competition programs.\n\nProgram administrators build custom online submission forms and assign submissions to reviewers and judges for scoring and feedback.\n\nThe FedRAMP certification covers OpenWater's Submission Management and Review & Evaluation services only. Other OpenWater capabilities, including automated communications, reporting, program website builder, galleries, conference session scheduling, payments, and third-party integrations, are not included in the FedRAMP Minimum Assessment Scope.",
+    "certificationType": "Rev5",
+    "website": "https://openwater.com/",
+    "logo": "https://openwater.com/hs-fs/hubfs/About%20TopClass_OpenWater.png?width=600&height=116&name=About%20TopClass_OpenWater.png",
+    "ueiNumber": "CV2NM2K89UL9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://help.getopenwater.com/en/articles/2631349-security-and-privacy-compliance-documentation",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "help@getopenwater.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@getopenwater.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

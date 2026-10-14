@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2630354487",
+    "providerName": "Globality Inc",
+    "serviceName": "Globality Platform",
+    "serviceAcronym": "Globality Platform",
+    "serviceDescription": "Globality's core application, the Globality Platform, is a software as a service ('SaaS') application that is accessible to end users through their web browser. The application can intelligently guide users in creating project briefs ('RFPs / Request for Proposals') or proposals, by leveraging AI and ML to suggest answers, automatically scope projects, analyze user input, and match clients with suitable providers and support the approval process. The Globality Platform enables processing of the following tasks related to the procurement process:\n - Capturing data from clients and providers to automatically build out comprehensive project briefs and proposals\n - Intelligently analyzing user input to identify key components and match clients with providers\n - Providing secure communication channels between clients and matched providers, as well as with Globality support personnel\n - Providing learning systems to help users become self-sufficient on the platform\n - Enabling clients to rate providers using common criteria\n - Authenticating and authorizing users to ensure access is strictly controlled\n - Supporting configurable workflows to streamline procurement processes and make it specific to each client use case\n - Providing approval flows to users, include ways to require nondisclosure agreements ('NDAs') prior to submissions\n - Providing data reporting to end users through a variety of formats\n - Integrating with external systems, including SAP and Oracle\n Projects are tracked throughout the procurement cycle, from initial brief creation to the final awarding of a provider proposal. Access is managed through the web browser, and all user data is encrypted at rest, in transit, and fully protected throughout its data lifecycle.",
+    "certificationType": "Rev5",
+    "website": "https://www.globality.com",
+    "logo": "https://www.globality.com/wp-content/uploads/2026/07/Globality-Logo.png",
+    "ueiNumber": "FLDZQLWX4L33"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.globality.com/security-trust/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "infosec@globality.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "publicsector@globality.com"
+    }
+  ]
+}

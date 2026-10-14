@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2222167230",
+    "providerName": "OwnBackup",
+    "serviceName": "Own Government Cloud",
+    "serviceAcronym": "Own Government Cloud",
+    "serviceDescription": "Own from Salesforce solutions help manage and protect mission-critical data in Salesforce. FedRAMP authorized products include:\r\n\r\n\r\n- Backup and Recover - Protect data and metadata with comprehensive, automated backups and rapid, stress-free recovery. \r\n\r\n\r\n- Data Mask and Seed - Propagate data to sandboxes for faster innovation and ideal environments to safely develop, test, and train. \r\n\r\n\r\n- Archive - Preserve data in archives with customizable retention policies and simplified compliance and reporting.\r\n\r\n\r\nBackup and Recover as well as Seed capabilities of Data Mask and Seed are available through the Own from Salesforce application. Archive functions occur through the Salesforce UI.",
+    "certificationType": "Rev5",
+    "website": "http://www.owndata.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/OwnBackup%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "public.sector.compliance@salesforce.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@owndata.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

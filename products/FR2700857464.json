@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2700857464",
+    "providerName": "Securin, Inc.",
+    "serviceName": "Securin Preemptive Exposure Management Platform",
+    "serviceAcronym": "Securin Preemptive Exposure Management Platform",
+    "serviceDescription": "Securin Platform is an AI-native Preemptive Exposure\nManagement Platform. It shows which risks are exploitable,\nwhat to fix first, and how to act before attackers do. Through\nOffensive Exposure Validation, Securin uses attacker\ntechniques not scanner signatures to validate exploitability,\nprioritize remediation, and prove fixes worked. It unifies\nexternal attack surface discovery, vulnerability and threat\nintelligence, risk-based prioritization, and validation into one\ncontinuous CTEM workflow: Discover, Validate, Prioritize,\nMobilize.",
+    "certificationType": "Rev5",
+    "website": "https://securin.io",
+    "logo": "https://www.securin.io/assets/securin-logo-CFy8L0ue.png",
+    "ueiNumber": "HZAXKKL3ZTP1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/securin/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "kiranc@securin.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@securin.io"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2322741394",
+    "providerName": "AgileRank",
+    "serviceName": "Agile RTLS Suite (A-RTLS)",
+    "serviceAcronym": "Agile RTLS Suite (A-RTLS)",
+    "serviceDescription": "Agile Real Time Location System (A-RTLS) Suite is delivered as a Li-SaaS offering using a multi-tenant Government-only cloud computing environment. It is available to federal, state, local, and tribal governments. The Agile RTLS Suite (A-RTLS) solution utilizes the RTLS technicians’ phones/scanner, the asset’s barcode and the asset tag are scanned to capture the association RTLS needs to support asset tracking and inventory. The tagging application sends the association to the customer’s Real Time Location System. The mobile application also supports removing a tag to stop tracking an asset, battery status, and testing.",
+    "certificationType": "Rev5",
+    "website": "https://www.agilerank.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/AgileRank%20Logo.png",
+    "ueiNumber": "Y5PTNH8M5GA1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@agilerank.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@agilerank.com"
+    }
+  ],
+  "assessor": {
+    "name": "200562",
+    "assessorID": "200562"
+  }
+}

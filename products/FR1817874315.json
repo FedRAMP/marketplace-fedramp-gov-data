@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1817874315",
+    "providerName": "Valimail",
+    "serviceName": "Valimail Enforce Platform",
+    "serviceAcronym": "Valimail Enforce Platform",
+    "serviceDescription": "Valimail Inc.'s (Valimail’s) Enforce Platform is built to support the global standard Domain-based Message Authentication, Reporting & Conformance (DMARC). The platform gives Valimail’s customers control and visibility over who can send email on behalf of their domain. Specifically, the platform provides insight into all services (entities), both internal and external, sending email as their domain. As a result of this visibility, our customers can authorize/deauthorize services, thus, preventing exact domain impersonation and phishing attacks.",
+    "certificationType": "Rev5",
+    "website": "https://www.valimail.com/",
+    "logo": "https://hosted-packages.s3.us-west-1.amazonaws.com/valimail-digicert-company.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@valimail.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@valimail.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1208031461",
+    "providerName": "IBM",
+    "serviceName": "IBM Platform Services for Government",
+    "serviceAcronym": "IBM Platform Services for Government",
+    "serviceDescription": "IBM Platform Services provides core services for managing devices, applications, content, identity & access management, end-to-end visibility, dynamic resource allocation, and improved operational risk and resiliency. These services work together to modernize device management, IAM, observability, application resource monitoring, and providing clients with AI-driven recommendations and tips that are prioritized and customized for your applications. \r\n\r\nIBM MaaS360 for Government is a comprehensive, cloud-based unified endpoint management and security platform for devices, applications and content built on a secure multi-tenant architecture. Government agencies use MaaS360 to protect data and optimize productivity, enabling employees to work anytime and anywhere through trusted mobile interactions. MaaS360 offers device management and security without the added costs and complexities of deploying hardware and software, dealing with intricate configurations, and dedicating additional resources to support the solution on an ongoing basis. MaaS360 allows administrators to manage and enable security on smartphones, tablets and laptops and increase end users’ productivity by enabling secure access to their enterprise data on their endpoint devices. \r\n\r\nIBM Verify for Government is an Identity-as-a-Service (IDaaS) platform enabling organizations to secure and modernize experiences for workforce and citizens. IBM Verify provides modern Single-sign-on (SSO) using standard protocols (SAML, OIDC, OAuth, etc.), supports legacy protocols and access to thousands of popular cloud service applications, and in-house applications, with hundreds of pre-built templates for faster integration. IBM Verify manages the lifecycle of users and groups through a scalable and elastic directory, provides granular, attribute-based policies, and supports multi-factor authentication. Government agencies can provide a digital first experience for secure and frictionless authentication for citizens. \r\n\r\nIBM Instana for Government is a leading full-stack observability tool that automatically and continuously delivers the highest-fidelity data in one-second granularity, with end-to-end distributed tracing of every call or request, and provides a graphing model with dynamic maps to show you how everything is related. IBM Instana for Government allows you to see the exact data you want in the context you need to quickly determine the cause of an issue and take immediate action to fix it. Government agencies can monitor their entire stack with end-to-end visibility across shared services and gain real-time contextual understanding to find and fix problems faster.\r\n\r\nIBM Turbonomic for Government is the leading Application Resource Management (ARM) solution that dynamically allocates resources in real-time boosting efficiency, minimizing cloud expense, and preventing downtime. IBM Turbonomic for Government delivers continuously optimized application resource performance across hybrid multi-cloud environments providing intelligence automation and proactive resource management that scales existing resources efficiently; preemptive analytics to help maximize resource utilization; dynamic resource allocation; and seamless integration across on premises, public, private, hybrid and multiple cloud domains.\r\n\r\nIBM Concert for Government is the connective tissue that harmonizes data from disparate tools and environments, transforming it into actionable knowledge aimed at improving operational risk and resiliency and freeing up teams to focus more on innovation. IBM Concert for Government provides AI-driven recommendations and tips that are prioritized and customized for your applications. Get automated data analysis from disparate systems and tools, identify operational issues before they escalate, increase efficiency with Concert’s recommendations and automation of repetitive tasks. Government agencies can uncover crucial insights about their operations and get application-specific recommendations for improvement.",
+    "certificationType": "Rev5",
+    "website": "https://www.ibm.com/products/maas360",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/IBM%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "SaaS-4Gov-SecurityAdmin@wwpdl.vnet.ibm.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "SaaS-4Gov-Sales@wwpdl.vnet.ibm.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

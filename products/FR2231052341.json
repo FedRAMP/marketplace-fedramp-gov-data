@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2231052341",
+    "providerName": "Qualys, Inc.",
+    "serviceName": "Qualys Government Platform",
+    "serviceAcronym": "Qualys Government Platform",
+    "serviceDescription": "Qualys Government Platform (QGP) consists of a suite of Information Technology (IT) security and compliance solutions delivered via a SaaS deployment model that leverages a highly scalable multi-tenant cloud infrastructure. The below services are part of the QGP platform - Vulnerability Management, Detection, and Response (VMDR) service enables customers to discover, assess, prioritize, and patch critical vulnerabilities and misconfigurations in near real-time and across your global hybrid-IT landscape all-in-one subscription. Policy Compliance (PC) service provides the ability to run compliance scans and create compliance reports on hosts (IP addresses) that have been added to the Policy Compliance account. File Integrity Monitoring (FIM) service enables monitoring critical files, directories, and registry paths for changes in near real-time, and helps adhere to compliance mandates such as FedRAMP. Container Security (CS) service provides discovery, tracking, and continuously protecting container environments. Addresses vulnerability management for images and containers in their DevOps pipeline and deployments across cloud and on-premises environments. Certificate View (CertView) service provides a comprehensive view of all the SSL/TLS certificates across the enterprise and cloud-hosted assets. CyberSecurity Asset Management (CSAM) service continuously gathers information on all assets, listing systems and hardware details, running services, open ports, installed software and user accounts. Asset discovery and inventory collection is done through a combination of Qualys Sensors, which together can collect comprehensive data from across on-premises or cloud infrastructure as well as remote endpoints. Web Application Scanning (WAS) service enables organisation's to assess, track and remediate web application vulnerabilities to keep their web applications secure. Patch Management (PM) service is used to patch and apply post-patch configuration changes to operating systems, mobile devices, and 3rd-party applications from a large variety of vendors, all from a central dashboard.",
+    "certificationType": "Rev5",
+    "website": "https://www.qualys.com/subscriptions/government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Qualys%20Logo3.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@qualys.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal@qualys.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

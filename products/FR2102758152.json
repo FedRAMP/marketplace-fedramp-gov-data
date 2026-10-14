@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2102758152",
+    "providerName": "Juniper Networks",
+    "serviceName": "Juniper Mist",
+    "serviceAcronym": "Juniper Mist",
+    "serviceDescription": "Juniper Mist Government Cloud uses a combination of artificial intelligence, machine learning, and data science techniques to optimize user experiences and simplify operations across the wireless, wired, and SD-WAN branch and campus environments. Data is ingested from numerous sources, including Juniper Mist Access Points, Switches, Session Smart Routers (SSR), and Firewalls (SRX) for end-to-end insight into user experiences. These devices work in concert with Mist AI to optimize user experiences from client to cloud, including automated event correlation, root cause identification, Self-Driving Network™ operations, network assurance, proactive anomaly detection, and more. Juniper also leverages Mist AI for next-generation customer support. For example, it is the foundational element behind Marvis, the industry’s first AI-driven Virtual Network Assistant, providing extensive insight and guidance to IT staff via a natural language conversational interface. As a result, Mist AI saves operators time and money with faster problem resolution and fewer onsite visits. In addition, users benefit from a network infrastructure that is more predictable, reliable, and measurable. \n \nMarvis Virtual Network Assistant is the first virtual network assistant (VNA) purpose-built with Mist AI for enterprise WLANs, LANs, and WANs. It transforms network operations from reactive troubleshooting to proactive remediation through self-driving actions. \n \nJuniper Wi-Fi Assurance service is based on machine learning and driven by Mist AI. It replaces manual troubleshooting tasks with automated wireless operations to make Wi-Fi predictable, reliable, and measurable, providing unique visibility into user service levels. \n \nJuniper Mist Wired Assurance service brings Mist AI to switching. It sets a new network management standard with AI-driven operations and automation, improving the experiences of devices connected to resources through Juniper EX/QFX Series Ethernet Switches for branch and campus deployments. \n \nJuniper Mist WAN Assurance service simplifies operations and improves visibility into end-user experiences while shortening the time to repair wired and wireless devices. \n \nPremium Analytics offers network visibility and business intelligence to drive your digital transformation journey.",
+    "certificationType": "Rev5",
+    "website": "https://www.juniper.net/us/en/products/mist-ai.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Juniper%20Logo.jpg",
+    "ueiNumber": "GYF8MBJ5CH61"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "mist-security@juniper.net"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "mist-govcloud-sales@juniper.net"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

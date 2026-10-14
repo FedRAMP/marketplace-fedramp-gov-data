@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1508207205",
+    "providerName": "Qualys",
+    "serviceName": "Qualys Cloud Platform",
+    "serviceAcronym": "Qualys Cloud Platform",
+    "serviceDescription": "The Qualys Cloud Platform (QCP) is a multi-tenant shared cloud service environment. Its unique computing power is capable of continuously analyzing and correlating information, to assist IT management with identifying and homing-in on threats and eliminating vulnerabilities. With its Qualys sensors, a core service of the Qualys Cloud Platform, make it easy to extend your security throughout your global enterprise. These sensors, which can be in the form of appliances or lightweight agents, are remotely deployable, centrally managed and self-updating. They collect data automatically and seamlessly sending it to the Qualys Cloud Platform. Subscribers simply use the Qualys software without the burden of licensing, maintenance and costs for owning the software itself.",
+    "certificationType": "Rev5",
+    "website": "https://www.qualys.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Qualys%20Logo3.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@qualys.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@qualys.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

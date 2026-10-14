@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2330939028",
+    "providerName": "Aqua Security Software Inc.",
+    "serviceName": "Aqua Platform for Government",
+    "serviceAcronym": "Aqua Platform for Government",
+    "serviceDescription": "The Aqua Platform for Government is a Cloud Native Application Protection Platform (CNAPP) comprised of fully integrated security and compliance capabilities that visualize, prioritize, and eliminate risk in minutes across the full software development lifecycle. Automated policies for shift-left prevention and runtime detection and response reduce your attack surface and mitigate active attacks—before damaging losses can occur. Aqua empowers customers to unleash the full potential of their digital transformation and accelerate innovation with the confidence that their cloud native applications are secured from start to finish, at any scale. \n  \nThe Aqua Platform is a full-suite cloud service offering that provides customers with the capability to scan, monitor, and manage applications, containers, virtual machines, and workloads, as well as to validate applicable compliance controls and regulations. The Aqua Platform comprises six different service modules, listed below, that provide various scanning and monitoring functionalities: \n\nSupply Chain: The Supply Chain module allows customers to perform container image and registry scanning, as well as to scan customer code, images and artifacts as a part of their build pipeline. \n\nWorkload Protection: Deploys sensors and agents within a customer’s cloud environment to provide protection on customer-defined components via Enforcer functionality. \n\nCyberCenter: The CyberCenter service monitors scans and uses comparison against a database aggregated from multiple threat intelligence sources to identify vulnerabilities and malware within container images.  \n\nCloud Security Posture Management (CSPM): The CSPM module provides customers the ability to integrate with one or more cloud infrastructure accounts to scan the entire account, correlate events across the account, provide account-wide remediation, and monitor and write compliance controls across the account. From these scans, Aqua Platform for Federal provides customers with an overall score based on identified vulnerabilities and compliance with defined configuration policies. The CSPAAS service acts to allow interfacing between the USE and CSPM services within Aqua Platform for Government.",
+    "certificationType": "Rev5",
+    "website": "https://www.aquasec.com/solutions/federal/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Aquasec%20Logo.png",
+    "ueiNumber": "UT1CMKQJZG78"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@aquasec.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal@aquasec.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

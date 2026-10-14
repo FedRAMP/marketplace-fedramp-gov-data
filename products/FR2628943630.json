@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2628943630",
+    "providerName": "Xfinion Inc.",
+    "serviceName": "Continuously Aware Realtime Tracking Network (CARTN)",
+    "serviceAcronym": "Continuously Aware Realtime Tracking Network (CARTN)",
+    "serviceDescription": "CARTN is a cloud-based real-time asset tracking and visibility platform designed to help organizations track, manage, and monitor physical assets across facilities. By combining RFID, NFC & Barcode technology, location tracking, and unified dashboards, CARTN gives teams complete visibility into asset movement, inventory, and operations. The service includes a web portal and mobile application for viewing and managing asset data, a backend service that receives data from multi-modal readers readers in the field, and a secure central data store. All components are hosted in a cloud environment with network-level controls that limit connectivity to authorized services only. Access to the portal and underlying infrastructure is protected by multi-factor authentication.",
+    "certificationType": "Rev5",
+    "website": "https://www.cartn.com",
+    "logo": "https://www.cartn.com/assets/cartn-logo.png",
+    "ueiNumber": "PL1GB2CMMCK5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/xfinion",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@xfinion.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "contact@xfinion.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

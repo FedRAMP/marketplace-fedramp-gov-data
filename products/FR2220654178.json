@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2220654178",
+    "providerName": "Tyler Federal, LLC",
+    "serviceName": "Tyler Federal Cloud Platform (TFCP)",
+    "serviceAcronym": "Tyler Federal Cloud Platform (TFCP)",
+    "serviceDescription": "Tyler Federal Cloud Platform is delivered as an PaaS/SaaS offering using a multi-tenant Government-Only cloud computing environment. It is available to federal, state, local, and tribal governments.\n\nTyler Federal Cloud Platform consists of the Tyler App Platform, referred to as “the Platform” (Powered by Entellitrak) software. The Platform is an enterprise level COTS (Commercial Off-The-Shelf) that provides unified BPM software by using an open architecture approach that focuses on the core technologies that streamline work for rapid application development on business processes. The Platform provides all the functionality required to collect, track, manage, process, and report on information regarding a business process. Business processes such as but not limited to “Turnkey” products, EEO complaints (EEO), Labor Relations (LR/ER), Reasonable Accommodations (RA), Veteran Benefits (VB/VBA), Background investigations (BI), Inspector General (IG), Anti-harassment (AH), Justice and Law Enforcement, and general case/record management. The Platform utilizes AWS GovCloud as its FedRAMP Authorized IaaS provider.",
+    "certificationType": "Rev5",
+    "website": "https://www.tylertech.com/products/application-platform",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/TF%20Logo.png",
+    "ueiNumber": "M23WHK6U2RJ3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FD-infosec@tylertech.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@tylertech.com"
+    }
+  ],
+  "assessor": {
+    "name": "137046",
+    "assessorID": "137046"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2619254906",
+    "providerName": "Vulcan Technologies, Inc.",
+    "serviceName": "VulcanGov (Justinian for Government)",
+    "serviceAcronym": "VulcanGov (Justinian for Government)",
+    "serviceDescription": "VulcanGov (Justinian for Government) is a SaaS AI platform for government: an AI agent workspace grounded in a curated, continuously updated library of federal and state statutes, regulations, guidance and housing datasets, with full-text and semantic search, secure single-use agent sandboxes for code execution and document generation, and an administration console for agency user management, session audit visibility and usage export. It is delivered from a government-only environment in AWS GovCloud (US) (us-gov-east-1) on a containerized microservices architecture: AWS ECS Fargate, Aurora PostgreSQL, S3 object storage, OpenSearch and ElastiCache. Federal customer data is stored and processed in AWS GovCloud (US); large language model inference is provided by Amazon Bedrock through a documented transport bridge, and every cross-boundary resource, including any temporary deviation, is disclosed in the published third-party information resources and service-scope lists rather than omitted. Data is encrypted at rest (AWS KMS, AES-256) and in transit (TLS 1.2/1.3) with FIPS 140-validated cryptographic modules; identity and access are federated through Okta for Government with enforced multi-factor authentication; security monitoring uses Datadog for Government, Wiz for Government and native AWS security services. Available to federal, state and local governments and to organizations working on their behalf. Public offering information, the secure configuration guide and live availability status are published on the Trust Center at https://trust.vulcangov.app; FedRAMP Certification Data is available to federal reviewers through its gated portal.",
+    "certificationType": "Rev5",
+    "website": "https://vulcan.ai/fedramp",
+    "logo": "https://trust.vulcangov.app/assets/logo.svg",
+    "ueiNumber": "K6R1PJDRE6P8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.vulcangov.app",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@vulcan.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@vulcan.ai"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

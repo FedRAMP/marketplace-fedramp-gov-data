@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2419559532",
+    "providerName": "USDA DISC",
+    "serviceName": "Connect.gov",
+    "serviceAcronym": "Connect.gov",
+    "serviceDescription": "Connect.Gov is delivered as a Software as a Service (SaaS) offering using a multi-tenant “Government-Only Cloud” cloud computing environment. It is available to federal government departments and agencies employees and contractors.",
+    "certificationType": "Rev5",
+    "website": "https://www.connect.gov/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/USDA%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "USDA-OCIO-FedRAMP_Support@USDA.GOV"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Outreach@Connect.gov"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

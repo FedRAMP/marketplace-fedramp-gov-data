@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2627211780",
+    "providerName": "Cognition USG, Inc.",
+    "serviceName": "Cognition Platform",
+    "serviceAcronym": "Cognition Platform",
+    "serviceDescription": "The Cognition Platform (known as Devin) and accompanying suite of AI tools provide capabilities to support the software development lifecycle for U.S. federal agencies and contractors. Devin is a model‑agnostic platform that uses machine learning models and AI techniques to perform deep codebase analysis and system interpretation, as well as automated code generation, testing, review, and deployment. Granular sandboxing and enterprise controls manage AI‑generated changes and allow organizations to balance performance and cost while maintaining security and compliance requirements. The platform supports engineering and security teams in protecting their codebases, modernizing legacy languages (including COBOL and Fortran), increasing developer throughput, and accelerating migrations and application modernization activities for mission‑critical federal systems.",
+    "certificationType": "Rev5",
+    "website": "https://cognition.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cognition%20Logo.png",
+    "ueiNumber": "SM1QTNRZK8U4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@cognition.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "public.sector@cognition.ai"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

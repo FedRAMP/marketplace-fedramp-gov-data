@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2311952621",
+    "providerName": "Ernst & Young LLP",
+    "serviceName": "EY Grants Accelerator",
+    "serviceAcronym": "EY Grants Accelerator",
+    "serviceDescription": "EY Grants Accelerator (EYGA) is a cloud-native solution designed to streamline the entire grant lifecycle for grantmaking organizations. EYGA offers an external-facing portal that allows applicants to explore grant opportunities, submit and manage applications, access post award reports, receive secure messages, and maintain their account and profile information. This portal can be customized to align with agency branding guidelines and is a responsive website accessible through any modern web browser, adapting based on the device being used. The administrator workspace equips staff to efficiently manage the entire grant process from pre-award through closeout. It includes features such as system notifications, communication tools, internal notes, views, configurable workflows, form design, document management, e-signature, and reporting.  EYGA is hosted within EY Government and Public Sector Azure Government platform, which provides support including but not limited to flexible deployment, identity management, security operations and governance for the EYGA application.",
+    "certificationType": "Rev5",
+    "website": "https://www.ey.com/en_us/alliances/ey-grants-accelerator",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/EY%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "gps.tech.enclave.infosec.gov@ey.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "EYGASupport@ey.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2332984245",
+    "providerName": "ChargePoint, Inc.",
+    "serviceName": "CP Fed Cloud",
+    "serviceAcronym": "CP Fed Cloud",
+    "serviceDescription": "The information system manages the use of and processes the transactions/ sessions for electric vehicle charging for stations sold to US federal and associated customers. The cloud information system communicates with charging stations located at client sites, facilitating interactions between public and government users and the charging infrastructure, establishes/ initiates charging sessions, and accepts payments and/or account authorization for station use. The system stores customer/ organizational information to provide services to the end user/ customer/ organization. The system identifies and validates authorized users of the charging infrastructure and updates user/ organizational account with usage statistics.",
+    "certificationType": "Rev5",
+    "website": "https://www.chargepoint.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/ChargePoint%20Logo.png",
+    "ueiNumber": "E3Y8C7CU9RD8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "infosec@chargepoint.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@chargepoint.com"
+    }
+  ],
+  "assessor": {
+    "name": "137801",
+    "assessorID": "137801"
+  }
+}

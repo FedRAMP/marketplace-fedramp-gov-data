@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1206061353",
+    "providerName": "Akamai",
+    "serviceName": "Content Delivery Services",
+    "serviceAcronym": "Content Delivery Services",
+    "serviceDescription": "The Akamai Content Delivery Network provides an 100% available platform to improve the performance and customer experience of your web content while providing robust security protections for your infrastructure – all at the edge of the internet and at an unmatched global scale.  Akamai’s solutions are configured through the Akamai Control Center customer portal or via APIs to automate your workflows. Akamai Intelligent Platform infrastructure solutions included in the JAB authorized boundary are:\nSecurity - WAAP, WAF, WEP Web Application and API protections powered by an adaptive security engine (ASE) help protect from a wide range of network and application-layer threats with less effort and overhead. This solution is built on our Intelligent Edge Platform and comes prebuilt with performance capabilities that are designed to ensure your websites, web applications, and APIs perform their very best. Cloud-based web application firewall (WAF) — which harnesses visibility across the platform to stop the most sophisticated denial-of-service (DoS), web application, and API-based attacks.\nSecure Content Delivery Network - for HTTP and HTTPS for delivering secure, high performing and highly available web applications and APIs at scale.  \nEdge enterprise DNS Protection (with DNSSEC) and Global Traffic Management - designed so that Internet users can more reliably get to your websites or any other IP application. It applies an Internet-centric approach to global load balancing to provide high site availability and responsiveness to online user requests. \nNetStorage - Cloud Storage, cloud-based service designed to meet storage requirements while offering customers cost reduction and a simplified management effort. Globally distributed cloud-based storage that maximizes delivery and performance.\nMedia Services Live - Media streaming services - enabling agencies to stream and provide content to their viewers. Providing a consistent, high-quality viewing experience across the broad variety of network types — fixed or mobile — at varying connection speeds, globally.\r\n\r\nAkamai Enterprise Application Access (EAA) is a Zero Trust Network Access (ZTNA) solution that provides secure, identity-aware access to private applications without the need for a VPN. By closing all inbound firewall ports and integrating with existing identity providers, EAA ensures that only authorized users can access specific applications, significantly reducing the attack surface.",
+    "certificationType": "Rev5",
+    "website": "https://www.akamai.com/legal/compliance#fedramp",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Akamai%20Logo2.png",
+    "ueiNumber": "MN5ENSRLDVK5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp_info@akamai.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "dl-PubSecSales@akamai.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2632755834",
+    "providerName": "Armada",
+    "serviceName": "Armada Platform",
+    "serviceAcronym": "Armada Platform",
+    "serviceDescription": "Armada Platform (\"AP\") is a cloud-based Software-as-a-Service (SaaS) platform for federal agency customers that provides centralized connectivity provisioning and remote management of satellite communications terminals and associated connected assets through a unified management console. Core capabilities include fleet mapping and geospatial awareness, asset and asset-group management, Starlink/Starshield service-line, terminal and data-pool provisioning and management, network statistics and usage reporting, configurable alerting, incident lifecycle management, and audit logging. With Bridge, AP allows for orchestration of GPU hardware to enable sovereign AI factories.",
+    "certificationType": "Rev5",
+    "website": "https://www.armada.ai/",
+    "logo": "https://res.cloudinary.com/armada-ai/image/upload/c_fill,g_center,w_auto,f_webp/ARMADA_LOGO_BLACK_SM_253bcee6fe.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "pgale@armada.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "shweta.agnihotri@armada.ai"
+    }
+  ],
+  "assessor": {
+    "name": "137801",
+    "assessorID": "137801"
+  }
+}

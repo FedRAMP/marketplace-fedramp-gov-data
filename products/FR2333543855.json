@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2333543855",
+    "providerName": "Thomson Reuters",
+    "serviceName": "Thomson Reuters Risk & Fraud (TR R&F)",
+    "serviceAcronym": "Thomson Reuters Risk & Fraud (TR R&F)",
+    "serviceDescription": "The Thomson Reuters Risk and Fraud (TR R&F) is a suite of solutions and are designed to identify risk and streamline investigations for Government agencies in the United States Federal, State, Local, and Tribal Agencies.\nTR R&F offers customers enhanced security, availability, compliance, and support to help deliver a mission-critical edge in a secure cloud environment.  \n The TR R&F suite currently consists of: Thomson Reuters CLEAR\n•        Thomson Reuters CLEAR is software designed to streamline data analysis and reporting by providing a single interface to access and connect critical data sources, including public and proprietary records. The platform's customizable dashboards and detailed reporting capabilities allow users to stay informed and make data-driven decisions.",
+    "certificationType": "Rev5",
+    "website": "https://legal.thomsonreuters.com/en/products/clear",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Thomson%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMPsecurity@tr.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "govfedramp@tr.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

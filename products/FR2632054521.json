@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2632054521",
+    "providerName": "Leadership Connect, Inc.",
+    "serviceName": "Leadership Connect",
+    "serviceAcronym": "Leadership Connect",
+    "serviceDescription": "Leadership Connect is a software-as-a-service platform for federal market and policy intelligence. It provides a continuously maintained directory of decision-makers and organizations across the U.S. Congress, the federal executive branch, state and local government, and the private sector, together with federal contract award and subaward analysis, federal and state legislative tracking, congressional hearing coverage, and relationship-graph analytics.\n\nFederal agency personnel use Leadership Connect to carry out assigned mission functions: identifying and contacting counterparts across government for interagency and intergovernmental coordination, preparing for congressional hearings and legislative engagement, researching vendors and prior contract activity in support of acquisition planning and market research, and monitoring personnel, policy, and spending changes relevant to their program responsibilities.\n\nIn the course of that work, the offering creates, collects, processes, stores, and maintains information supplied by or generated on behalf of agency customers. This includes agency user account and profile records, authentication and session data, single sign-on identity assertions where an agency has configured federated access, agency-created saved lists of tracked people and organizations, saved searches and alert configurations, records of lists and views shared among users within an agency account, entity-tracking selections, uploaded contact records where an agency imports its own data, and usage and audit records associated with individual agency users. Some of this information reflects an agency's areas of interest, coordination activity, or acquisition research and is treated accordingly.",
+    "certificationType": "Rev5",
+    "website": "https://www.leadershipconnect.io",
+    "logo": "https://resources.leadershipconnect.io/hubfs/leadership-connect-logos/leadership-connect-logo-dark-blue-stacked.png",
+    "ueiNumber": "YMUDLKMEEC65"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.leadershipconnect.io/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@leadershipconnect.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "jmckenna@leadershipconnect.io"
+    }
+  ]
+}

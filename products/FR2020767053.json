@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2020767053",
+    "providerName": "Level Access",
+    "serviceName": "Accessibility Management Platform (AMP)",
+    "serviceAcronym": "Accessibility Management Platform (AMP)",
+    "serviceDescription": "AMP is an accessibility management platform that provides organizations everything they need to effectively manage Section 508 compliance and address digital accessibility across the organization and development lifecycle. With AMP, organizations have everything they need to efficiently build, test, and maintain accessible software and user experiences. This includes the most advanced accessibility test engine available via a smooth workflow, intelligent reporting, convenient and contextual best practices, as well as an extensive training course library.",
+    "certificationType": "Rev5",
+    "website": "https://www.levelaccess.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/LA%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "infosec@levelaccess.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@levelaccess.com"
+    }
+  ],
+  "assessor": {
+    "name": "138819",
+    "assessorID": "138819"
+  }
+}

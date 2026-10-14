@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2522249893",
+    "providerName": "Bridge Intelligence LLC. dba AssetIntel",
+    "serviceName": "Asset Management Suite (AMS)",
+    "serviceAcronym": "Asset Management Suite (AMS)",
+    "serviceDescription": "Asset Management Suite (AMS) is a Software-as-a-Service offering hosted in Microsoft Azure Government for transportation asset inspection, lifecycle management, emergency response, and capital planning. The FedRAMP authorization boundary includes inspectX, emergencyX, and manageX; SNBIX is provided within inspectX. AMS uses Azure Government services for compute, networking, database, storage, messaging, identity, secrets and key management, and supporting platform operations. Audit and performance logs are forwarded to Datadog for Government for continuous monitoring.",
+    "certificationType": "Rev5",
+    "website": "https://www.assetintel.co/",
+    "logo": "https://ixpcommon.blob.core.windows.net/fedramp/AssetIntel_Logo.png",
+    "ueiNumber": "SWTMU6PL3VJ8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@assetintel.co"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@assetintel.co"
+    }
+  ],
+  "assessor": {
+    "name": "202040",
+    "assessorID": "202040"
+  }
+}

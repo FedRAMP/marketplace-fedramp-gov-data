@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2630447318",
+    "providerName": "Stoke Space Technologies, Inc.",
+    "serviceName": "Boltline",
+    "serviceAcronym": "Boltline",
+    "serviceDescription": "Boltline is a multi-tenant manufacturing execution and operations SaaS platform. Federal customers use Boltline to manage engineering-to-production workflows, including parts, bills of materials, inventory, work plans, orders, integrations, attachments, and auditable workflow activity.\n\nBoltline may store, process, or transmit federal customer data including user and organization records, technical product metadata, part and BOM data, work instructions, inventory and order records, files and attachments, connector payloads, integration metadata, security events, and audit logs. Depending on customer use, this data may include controlled unclassified information. Boltline is not intended to store classified information.\n\nThe primary FedRAMP assessment boundary is the Stoke-operated Boltline SaaS production environment in AWS GovCloud (`prod-govcloud`).",
+    "certificationType": "Rev5",
+    "website": "https://www.boltline.com",
+    "logo": "https://boltline.com/wp-content/themes/boltline/public/favicons/android-chrome-512x512.png",
+    "ueiNumber": "QDQ6V2X12WF1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/stoke/boltline",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "boltline-fedramp@stokespace.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "marketing@boltline.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

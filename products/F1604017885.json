@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1604017885",
+    "providerName": "Cisco Systems Inc.",
+    "serviceName": "Cisco Unified Communications Manager Cloud for Government (Cisco UCM Cloud for Government)",
+    "serviceAcronym": "Cisco Unified Communications Manager Cloud for Government (Cisco UCM Cloud for Government)",
+    "serviceDescription": "Cisco Unified Communications Manager Cloud for Government (Cisco UCM Cloud for Government) is a complete unified communications service from the Cisco Cloud. It is built to provide government-level security so that organizations can collaborate with anyone, anywhere, on any device. The service is hosted by Cisco, sold by Cisco Powered partners. Cisco UCM Cloud for Government provides these core services: \n\nVoice and Video Calling:Simplify with industry-leading voice and video as a service. Cisco UCM Cloud for Government provides voice and video call control and supports Cisco's newest voice and video endpoints ranging from desktop phones, immersive video rooms and mobile and desktop clients.\n \nVoicemail and Integrated Messaging:Access messages the way you prefer from your desk phone, mobile phone, or desktop client. \n\nInstant Messaging and Presence:Cisco Jabber lets you find the right people, see if and how they are available, and collaborate using your preferred method. Use Cisco Jabber for presence, instant messaging (IM), voice and video calling, voice messaging, desktop sharing, and conferencing. \n\nSingle App Experience:Webex for Government and Webex App allows customers to call, meet, and message on any device with a single unified application from Webex. Webex App brings together Cisco UCM Cloud for Government call control along with market leading Webex Meetings technology and advanced team collaboration capabilities including persistent messaging and file sharing.\n\nConferencing:Use Cisco conferencing solutions to meet and manage meetings and projects in real time, to present, share, or collaborate from anywhere, anytime, on any device. \n\nMobility:Cisco UCM Cloud for Government gives your mobile and remote users the freedom to be productive from anywhere, on any device. Give users one number to dial, redirect incoming calls to designated phones, move calls between a Cisco desktop and mobile phones, create personalized access lists, and give access to all your corporate collaboration features from mobile phones using Webex App or Cisco Jabber.",
+    "certificationType": "Rev5",
+    "website": "https://www.webex.com/industries/government.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cisco%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "collab-usgov-security@cisco.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "collab-usgov@cisco.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

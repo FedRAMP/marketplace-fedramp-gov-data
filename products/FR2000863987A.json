@@ -1,0 +1,42 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2000863987A",
+    "providerName": "Cloudflare, Inc.",
+    "serviceName": "Cloudflare for Government",
+    "serviceAcronym": "Cloudflare for Government",
+    "serviceDescription": "Cloudflare operates a global network that delivers security, performance, and reliability from a single platform. Cloudflare for Government provides this same platform to U.S. Government agencies as one homogeneous stack. This Marketplace listing consolidates both of Cloudflare for Government's FedRAMP Certifications — Class C (previously FedRAMP Moderate) and Class D (previously FedRAMP High) — into a single product entry. The certified services span:\n\n- **SASE / Zero Trust** — Zero Trust network access, secure web gateway, CASB, browser isolation, data loss prevention, email security, and cloud-delivered WAN.\n- **Security** — web application firewall (WAF), DDoS protection, API security, bot management, rate limiting, and client-side security.\n- **Network & Content Delivery** — CDN, authoritative DNS, load balancing, smart routing, and network interconnect.\n- **Compute** — serverless functions, containers, durable objects, and workflow orchestration.\n- **Storage** — object storage, SQL and key-value databases, and queues.\n\nFederal agencies use Cloudflare to protect public-facing websites and APIs, secure workforce access to internal applications, replace legacy remote-access VPN and MPLS connectivity, and build cloud-native applications entirely within the FedRAMP-certified boundary.\n\nThe two Certifications are delivered from separate environments with separate control planes. Class C is accessed at dash.cloudflare.com and api.cloudflare.com; Class D is accessed at dash.fed.cloudflare.com and api.fed.cloudflare.com. Federal customers select the environment that matches the FedRAMP Certification required for their workload.\n\nThis offering is FedRAMP Class C and Class D Certified. The scope of the two Certifications differs by a small number of services; per-service class is denoted in the Certified Services list as follows: services with no notation are Certified at both Class C and Class D, services marked with an asterisk (*) are Certified at Class C only (not within the Class D boundary), and services marked with a dagger (†) are Certified at Class D only (not within the Class C boundary). Learn more at https://www.cloudflare.com/public-sector/",
+    "certificationType": "Rev5",
+    "website": "https://www.cloudflare.com/public-sector/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cloudflare%20Logo.png",
+    "ueiNumber": "JV9YXS9MLA48"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.cloudflare.com/trust-hub/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-team@cloudflare.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "publicsector@cloudflare.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

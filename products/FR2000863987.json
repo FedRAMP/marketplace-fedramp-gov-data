@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2000863987",
+    "providerName": "Cloudflare",
+    "serviceName": "Cloudflare for Government",
+    "serviceAcronym": "Cloudflare for Government",
+    "serviceDescription": "Cloudflare is a global network, designed to help agencies enhance the security, performance and reliability for any Internet-connected service.  Our FedRAMP offering protects entire agency networks, helps agencies build Internet-scale applications efficiently, accelerates any website or Internet application, wards off DDoS attacks, keeps hackers at bay, and helps agencies in their journey to Zero Trust. Learn more at https://www.cloudflare.com/public-sector/",
+    "certificationType": "Rev5",
+    "website": "https://www.cloudflare.com/cloudflare-for-government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cloudflare%20Logo.png",
+    "ueiNumber": "JV9YXS9MLA48"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-team@cloudflare.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "publicsector@cloudflare.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2633957417",
+    "providerName": "Dayforce",
+    "serviceName": "Dayforce HCM, Public Sector",
+    "serviceAcronym": "Dayforce HCM, Public Sector",
+    "serviceDescription": "Dayforce HCM, Public Sector (Dayforce Pub Sec) is a Software as a Service (SaaS) Human Capital Management (HCM) cloud service offering deployed in a public cloud environment for use by U.S. Federal Government agencies. The service provides integrated capabilities for human resources, payroll, workforce management, benefits administration, document management, employee communications, analytics, reporting, and secure application integration through a single logical application platform.\n\nThe FedRAMP authorization boundary includes the Dayforce Pub Sec application services, management services, identity and access management services, document management services, integration services, messaging services, analytics services, and supporting cloud platform components required to deliver the service. Only those services, features, and components included within the authorization boundary have been independently assessed as part of the FedRAMP Moderate authorization.\n\nThe service supports federated identity using customer-managed identity providers and implements Digital Identity Level 2 (IAL2/AAL2) requirements, including multifactor authentication and identity federation, as applicable. The service employs role-based access control, privileged access management, centralized audit logging, continuous monitoring, vulnerability management, incident response, and FIPS 140-3 validated cryptographic modules to protect federal information in transit and at rest.\n\nDayforce Pub Sec is designed to process, store, and transmit Federal Moderate impact information, including Controlled Unclassified Information (CUI), in accordance with FIPS PUB 199 Moderate security requirements. Security responsibilities are shared between Dayforce and customer agencies as defined in the Customer Responsibility Matrix, with customer organizations responsible for agency-managed identity governance, endpoint security, and organization-specific security controls.",
+    "certificationType": "Rev5",
+    "website": "https://www.dayforce.com/who-we-serve/US-Federal-Government-Payroll-Workforce-Management-Software",
+    "logo": "https://wwwadm.dayforce.com/Ceridian/media/websitemedia/logos/dayforce/Dayforce_logo.png",
+    "ueiNumber": "QGPGFM9BFXC9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/dayforce/dayforce-pubsec-hcm",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "James.Guerin@dayforce.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Brett.Topham@dayforce.com"
+    }
+  ],
+  "assessor": {
+    "name": "139960",
+    "assessorID": "139960"
+  }
+}

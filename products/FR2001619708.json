@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2001619708",
+    "providerName": "Palo Alto Networks, Inc.",
+    "serviceName": "Idira Endpoint Privilege Manager for Government",
+    "serviceAcronym": "Idira Endpoint Privilege Manager for Government",
+    "serviceDescription": "With Idira™ Endpoint Privilege Manager by Palo Alto Networks, government organizations can confidently defend against attacks by automatically removing local admin rights, enforcing least privilege, enabling policy-based comprehensive conditional application control, maintaining application catalog, and protecting the entire endpoint security stack from tampering – in line with a number of recent CISA alerts, advisories and recommendations, and starting day one.\r\n\r\nThe Idira Endpoint Privilege Manager secure and flexible SaaS management console allows for centralized policy-based and role-based management to ensure automated, robust and differentiated application of policies based on the user’s role. Automatic elevation of known good programs requiring elevation, including those legacy and not-UAC-aware, significantly cuts down on the IT Service Desk requests, while optional automatic access restriction (for example, network connectivity restriction) for unknown applications significantly reduces the area of attack and helps break ransomware kill chain.\r\n\r\nOut-of-the-box anti-ransomware policy allows to add additional layer of security around sensitive data and prevent data corruption even in the event of successful asset compromise and ransomware execution.\r\n\r\nAdditional critical capabilities include blocking credentials, private keys, secrets, passwords, hashes, cookies and other sensitive information from memory, browsers, operating system and credential stores, effectively blocking most attacks based on credential compromise.\r\n\r\nIdira Endpoint Privilege Manager helps with audit and compliance by addressing specific regulation requirements and creating audit trail for identity and privilege events on the endpoints.\r\n\r\nThe following customer side components are authorized as part of the Idira Endpoint Privilege Manager for Government offering: Idira Endpoint Privilege Manager Windows Agent, Idira Endpoint Privilege Manager macOS Agent, Idira Endpoint Privilege Manager Linux Agent.",
+    "certificationType": "Rev5",
+    "website": "https://www.cyberark.com/products/endpoint-privilege-manager/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Idira%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cybr-federalsecurity@paloaltonetworks.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "cybr-federal@paloaltonetworks.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

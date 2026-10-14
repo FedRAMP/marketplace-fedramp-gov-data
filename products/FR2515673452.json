@@ -1,0 +1,34 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2515673452",
+    "providerName": "Beryllium InfoSec, Inc.",
+    "serviceName": "Cuick Trac Managed Enclave (CTME)",
+    "serviceAcronym": "Cuick Trac Managed Enclave (CTME)",
+    "serviceDescription": "Cuick Trac Managed Enclave (CTME) is a managed Virtual Desktop as a Service. CTME is delivered as a SaaS offering hosted on a shared-tenant that provides a virtual desktop with office 365 integration within a government community cloud computing environment. It is available to (1) qualified government entities, including US federal, state, local, tribal, and territorial government entities, and (2) other entities (subject to validation of eligibility) who handle data subject to government regulations and requirements for the protection of Controlled Unclassified Information (CUI).",
+    "certificationType": "Rev5",
+    "website": "https://www.cuicktrac.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/CT%20Logo.png",
+    "ueiNumber": "MH2QU1K9AK48"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@cuicktrac.us"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@berylliuminfosec.com"
+    }
+  ],
+  "assessor": {
+    "name": "200749",
+    "assessorID": "200749"
+  }
+}

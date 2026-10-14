@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2604952842",
+    "providerName": "MapLarge Inc.",
+    "serviceName": "MapLarge",
+    "serviceAcronym": "MapLarge",
+    "serviceDescription": "MapLarge provides software for location intelligence analysis that runs on servers either in the cloud or on premise. MapLarge user interfaces accessed by users in web browsers or native applications on any desktop of mobile device. Customers are typically large enterprises that build their own custom solutions on top of MapLarge in a wide variety of use cases ranging from visualizing business trends, to planning flight paths, to global situational awareness for large security teams.\n\nMapLarge supports data import, editing, visualization and alerting based on a wide variety of data sources including both flat files, real time streaming connections and numerous other industry specific like ArcGIS data connectors.\n\nMapLarge processes customer data that may take any form supported by the product but typically has one or more location intelligence attributes like latitude and longitude or street address. Customer data can be visualized in a wide variety of ways including as maps, charts, lists, or exported as Portable Document Formats (PDFs), images or data files.",
+    "certificationType": "Rev5",
+    "website": "https://maplarge.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Maplarge%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@maplarge.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@maplarge.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

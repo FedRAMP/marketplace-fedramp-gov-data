@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2601536221",
+    "providerName": "Get A-Head",
+    "serviceName": "Get A-Head (Keel Mind)",
+    "serviceAcronym": "Get A-Head (Keel Mind)",
+    "serviceDescription": "The Get A-Head Platform is delivered as a Software-as-a-Service (SaaS) offering using a multi-tenant SAAS cloud computing environment. A cloud-based SaaS platform deployed in AWS GovCloud that enables secure real-time audio communication and content delivery for behavioral health and training use cases. It is available to federal, state, local, and tribal governments, as well as research institutions and federal contractors.\n\nTo simplify the tracking, delivery, and administration of clinical training Get A-Head provides institutions with a digital ecosystem that centralizes and optimizes the interactions between supervisors, counseling trainees, and those seeking mental health support. \n\nDeveloped through the lens of both those seeking and providing mental health care, Get A-Head supports efficient communication between supervisor, trainee, and client, facilitate access to notes, and recorded sessions, across all devices (i.e., smartphones, laptops, desktops, and tablets) in a secure HIPAA & PIPEDA compliant environment.\n\nThe service includes authentication, user access management, secure media distribution, and activity logging through AWS native services, Keycloak, and internal microservices. All components are containerized and orchestrated using AWS services, and encryption is applied end-to-end using FIPS 140-3 validated cryptographic modules. The authorization boundary includes the application services, identity and access management, storage, logging, monitoring, and backup components required to operate the platform in AWS GovCloud.",
+    "certificationType": "Rev5",
+    "website": "https://www.keelmind.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Getahead%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedrampsecurity@keel.digital"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedrampsales@keel.digital"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

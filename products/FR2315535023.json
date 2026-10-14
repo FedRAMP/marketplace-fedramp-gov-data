@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2315535023",
+    "providerName": "Cisco Systems Inc.",
+    "serviceName": "Cisco Meraki US Government Region",
+    "serviceAcronym": "Cisco Meraki US Government Region",
+    "serviceDescription": "Cisco Meraki for Government provides a secure and efficient way to support your networking transformation within budget. Our cloud-managed platform simplifies networking to make it easier to deploy, manage, and optimize networks – driving IT modernization and enabling hybrid work. Meraki helps future proof networks and allows agencies to stay ahead of changing citizen and regulatory demands while improving employee productivity.​\n\nMeraki has developed the most sophisticated platform in the industry based on cloud-first operations, network intelligence (AI), and open APIs to better integrate and automate processes, while providing a way to customize the monitoring and management of a network. The Meraki platform is built with a modern cloud-managed architecture that is able to quickly scale to meet the needs of customers worldwide. ​\n\nWe have taken that knowledge and technical sophistication to create a tailored solution for the U.S. Government. Our solution gives government agencies the ability to quickly deploy, scale and manage cloud networks anywhere in the world in an effort to help meet their cloud-first initiatives. Security is a high priority of our solution, which is why we created a separate platform that stores data on U.S. soil and includes FIPS to further protect government telemetry data from device to cloud. ​Meraki will offer certain MS (Switching), MR (Wireless) and MX (Security and SD-WAN) devices as part of the offering.",
+    "certificationType": "Rev5",
+    "website": "https://meraki.cisco.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Meraki%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cisco-fedramp@cisco.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "merakifederal@cisco.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

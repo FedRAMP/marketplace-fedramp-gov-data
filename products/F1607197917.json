@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1607197917",
+    "providerName": "Splunk",
+    "serviceName": "Splunk Cloud Platform for FedRAMP Moderate",
+    "serviceAcronym": "Splunk Cloud Platform for FedRAMP Moderate",
+    "serviceDescription": "Splunk Cloud provides operational intelligence capabilities to organizations around the world. It provides an easy and fast way to analyze the massive streams of machine-generated data coming from IT systems and applications, wherever they are deployed-on-premises, in virtualized environments or in the cloud.\n\r\nSplunk Cloud delivers the Splunk Enterprise software in a cloud environment where the setup and management of the support infrastructure is performed by Splunk Cloud Operations. Splunk Enterprise is a software platform to search, analyze, and visualize the machine-generated data gathered from the websites, applications, sensors, devices, and so on, that comprise your IT infrastructure or business.\n\r\nAfter you define the data source, Splunk Cloud indexes the data stream and parses it into a series of individual events that you can view and search. Organizations may use the search processing language or the interactive pivot feature to create reports and visualizations.",
+    "certificationType": "Rev5",
+    "website": "https://www.splunk.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Splunk%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "splunk-fedramp@cisco.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "splunkcloudmoderatesales@external.cisco.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

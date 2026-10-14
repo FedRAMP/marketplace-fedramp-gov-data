@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2116544598A",
+    "providerName": "Keeper Security",
+    "serviceName": "Keeper ICAM & Identity Security Platform for Government",
+    "serviceAcronym": "Keeper ICAM & Identity Security Platform for Government",
+    "serviceDescription": "Keeper ICAM & Identity Security Platform for Government is a cloud-native platform built on zero-trust and zero-knowledge principles that secures access for human and non-person entities across servers, web applications and databases. It unifies password and credential management, secrets management, privileged access management, secure remote access, session monitoring and recording, and remote browser isolation in one platform, delivering the credential, privileged access, secrets, and non-person-entity pillars of ICAM. Authorized at the FedRAMP High baseline, Keeper ICAM & Identity Security Platform for Government continuously verifies every access request regardless of location or device, and simplifies compliance with delegated administration, enforcement policies, event tracking and customizable audit logs.",
+    "certificationType": "Rev5",
+    "website": "https://www.keepersecurity.com/industries/public-sector.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Keeper%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@keepersecurity.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@keepersecurity.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

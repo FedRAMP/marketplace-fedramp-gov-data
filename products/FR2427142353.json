@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2427142353",
+    "providerName": "AutoRABIT Holding, Inc.",
+    "serviceName": "AutoRABIT for Public Sector - CodeScan, Guard, & ARMOR",
+    "serviceAcronym": "AutoRABIT for Public Sector - CodeScan, Guard, & ARMOR",
+    "serviceDescription": "CodeScan is a static code analysis tool that seamlessly integrates with the development and deployment processes of Salesforce and scans for code vulnerability and quality checks along the process. Besides that, to improve and enforce code standardization, it also allows you to define the quality profiles and the quality gates, which gives you the ability to enforce standards and use this tool to educate your developers.\n\nCodeScan is a company-built application and developed using Amazon RDS for PostgreSQL and has capabilities to integrate with external systems.\nCodeScan offers more than 700 built-in rules for security and quality along with the provision to define your own rules.\n\nGuard provides enterprises with an automated, proactive approach to Salesforce security. Instead of relying on manual reviews and reactive fixes, Guard continuously monitors for security gaps, enforces policies at scale, and automatically remediates issues before they become critical threats. With AutoRABIT Guard, enterprises can transform their Salesforce environments from a security liability into a well-governed, compliant, and resilient system without slowing down innovation or burdening teams with manual processes. By making security seamless, AutoRABIT Guard ensures that organizations can confidently scale their Salesforce investment while meeting the highest security and compliance.\n\nARMOR is a centralized DevSecOps and Release Management platform for Salesforce that unifies CI/CD, environment management, and data migration into a secure pipeline. It enforces governance through policy-driven automation, pre-deployment security analysis, and immutable audit trails, ensuring strict configuration control and metadata integrity across the software development lifecycle.",
+    "certificationType": "Rev5",
+    "website": "https://www.autorabit.com/solutions/public-sector/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Autorabit%20Logo.png",
+    "ueiNumber": "WGNBES7Y1ZT8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@autorabit.us"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@autorabit.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

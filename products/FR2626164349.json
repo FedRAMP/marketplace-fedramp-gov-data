@@ -1,0 +1,28 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2626164349",
+    "providerName": "Ericsson",
+    "serviceName": "NetCloud Federal",
+    "serviceAcronym": "NetCloud Federal",
+    "serviceDescription": "NetCloud Federal is a cloud-based SaaS platform that enables federal IT and operations teams to centrally onboard, configure, monitor, and manage Ericsson Cradlepoint FIPS 140-3 mTLS compliant routers across distributed vehicles, fixed and temporary sites, and IoT deployments. Purpose-built for federal environments, NetCloud Federal provides a single cloud-delivered control plane to help agencies maintain reliable, compliant connectivity for mission-critical operations.\n\nIntegrated analytics and continuous monitoring provide visibility into cellular, application, and network performance, and usage. These capabilities help agencies troubleshoot issues, support maintenance activities, enforce policies, and make faster, safer mission decisions.\n\nBy combining branch, IoT and hardened edge devices with cloud-based management, NetCloud Federal helps federal agencies maintain resilient connectivity, protect sensitive data in transit and at the edge, and support operational continuity across widely distributed mission environments.",
+    "certificationType": "Rev5",
+    "website": "https://cradlepoint.ericsson.com/products/netcloud/",
+    "logo": "https://images.contentstack.io/v3/assets/blt2588e757607604a2/blt4b84f5accdaf174d/6a99be3ce1500a0dfc017f57/ERI_vertical_RGB.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp.isso@ericsson.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "FedRAMP@ericsson.com"
+    }
+  ]
+}

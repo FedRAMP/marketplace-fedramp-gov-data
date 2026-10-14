@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1825232355",
+    "providerName": "WellHive Holdings, LLC",
+    "serviceName": "WellHive",
+    "serviceAcronym": "WellHive",
+    "serviceDescription": "WellHive is a SaaS solution built to help enterprise healthcare systems navigate their patients’ care across federal and commercial boundaries. WellHive connects and unifies care and benefits management activities across various systems and organizations through integrations with Electronic Health Records (EHRs) and practice management systems, provider networks, and over 700 insurance carriers. \n\nWellHive capabilities delivered leveraging these connections include Integrated Scheduling, and Insurance Verification and Discovery. WellHive is hosted on AWS GovCloud and utilizes AWS services to provide both the availability and scalability required to meet our customer’s needs. In addition to a FedRAMP Moderate authorization, WellHive is also compliant with HIPAA and NIST 800-53 Appendix J Privacy Controls.",
+    "certificationType": "Rev5",
+    "website": "https://www.wellhive.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/WellHive%20Logo2.png",
+    "ueiNumber": "Q6CUNK9QHSC8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@wellhive.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "simplify@wellhive.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

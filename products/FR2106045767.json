@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2106045767",
+    "providerName": "WingSwept",
+    "serviceName": "Case Management & Tracking System (CMTS)",
+    "serviceAcronym": "Case Management & Tracking System (CMTS)",
+    "serviceDescription": "WingSwept has provided case management solutions to investigators at government agencies for more than a decade. WingSwept converted its Case Management & Tracking System (CMTS) into a Commercial Off-The-Shelf (COTS) service offering in 2010. Built with both security and flexibility in mind, CMTS provides for the secure storage, retrieval, and reporting of case management data for investigative offices at all levels of government. The CMTS design is neither static nor monolithic. Intentionally flexible, CMTS provides government agencies with the ability to establish unique naming conventions, tailor agency-specific workflows, and to support a wide range of other user-preferred configurations. An idle-case tracking function also includes both time and activity-based notifications in order to establish and maintain a seamless agency workflow. \n\nAs an added layer of security, each CMTS customer operates in a secure environment with data separated by customer. Hosted on Amazon Web Services (AWS), CMTS is a web-based, browser-accessible application that requires no device-specific software for implementation. Highly customizable dashboards, combined with specialized labels and entry fields provide investigators with the ability to compile and display comprehensive case metrics in a simplified, user-friendly format. CMTS can display ad-hoc and pre-defined reports in minutes, drastically reducing processing times and increasing staff efficiency. This flexible design allows agencies to tailor workflows in order to match existing processes and to provide for continuity in ongoing investigations. As a result, CMTS may be readily adapted to serve investigative offices of any size. Many of the CMTS customers leverage our optional Online Intake Service (OIS) which allows customers to host or leverage OIS hosted internet facing forms which can collect case intakes to be later securely picked up by the agency CMTS server for potential ingestion as a case.",
+    "certificationType": "Rev5",
+    "website": "https://securecasemanagement.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/WingSwept%20Logo.png",
+    "ueiNumber": "M3RYEADSETP7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@wingswept.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "cmtssales@wingswept.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

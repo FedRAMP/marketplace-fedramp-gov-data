@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2120962552",
+    "providerName": "LaunchDarkly",
+    "serviceName": "LaunchDarkly",
+    "serviceAcronym": "LaunchDarkly",
+    "serviceDescription": "LaunchDarkly is the feature management platform that teams use to safely deliver and control software through feature flags. By separating code deployments from feature releases, feature management enables organizations to deploy faster, reduce risk, and iterate continuously. Government agencies use feature management to control new feature rollouts, quickly resolve incidents, and increase productivity of development teams while using fewer resources. They are improving their DevSecOps processes, facilitating Continuous Integration/Continuous Delivery (CI/CD), and shipping more code safer than ever. LaunchDarkly enables: \n\n- Resolution of incidents in less than 200 milliseconds, without costly rollbacks that threaten other features.\n- Powerful targeting capabilities that provide complete control over which users or microservices can see new features.\n- Safe testing in production—empowering teams with real-world QA testing in place of costly pre-production environments.\n- CI/CD development processes that improve developer productivity and new feature release times.\n- Hypothesis driven development, including experimentation and percentage rollouts. \n\nLaunchDarkly provides developers and business stakeholders with a central location to manage the rollout of new features. At the same time, it can enforce change management policies through scheduling, approval workflows, and custom role-based access control down to the feature level. Agencies can implement their own policies around the use of personally identifiable information (PII) and can take full advantage of targeting without needing to store user PII within the LaunchDarkly Federal SaaS environment. Additional hosting options and an offline mode are available for organizations with more restrictive policies.",
+    "certificationType": "Rev5",
+    "website": "https://launchdarkly.com/solutions/federal-government-solutions/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/LaunchDarkly%20Logo.png",
+    "ueiNumber": "HZSZKVJU9TH3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@launchdarkly.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "usgovernment@launchdarkly.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

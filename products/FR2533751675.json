@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2533751675",
+    "providerName": "LSPedia",
+    "serviceName": "OneScan",
+    "serviceAcronym": "OneScan",
+    "serviceDescription": "OneScan receives, validates, and retains the Transaction Information and Transaction Statement in GS1 standard EPCIS data format from Suppliers who ship Prescription Pharmaceutical Drugs.",
+    "certificationType": "Rev5",
+    "website": "https://lspedia.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/LSPedia%20Logo.png",
+    "ueiNumber": "JVBBFWVDC2P1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@lspedia.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@lspedia.com"
+    }
+  ],
+  "assessor": {
+    "name": "202040",
+    "assessorID": "202040"
+  }
+}

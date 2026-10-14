@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2135637226",
+    "providerName": "Pearson VUE",
+    "serviceName": "Pearson Federal Cloud System",
+    "serviceAcronym": "Pearson Federal Cloud System",
+    "serviceDescription": "Pearson VUEs Pearson Federal Cloud System securely delivers assessments to registered testing candidates for over 450 assessment programs. Agencies and other government organizations can use the Pearson Federal Cloud System to administer high stakes assessments\n to potential job candidates. The system is built on Microsoft’s Azure Commercial Cloud infrastructure-as-a-service (IaaS)\n\n\nPearson VUE’s FedRAMP boundary includes candidate registration and scheduling systems; candidate testing on Athena Browser Edition (A-BE) or Athena Desktop (A-DE) test drivers; the OnVUE online proctoring platform; and reporting systems, including IntelliVUE.",
+    "certificationType": "Rev5",
+    "website": "https://home.pearsonvue.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/PearsonVUE%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@pearson.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "deanna.hudella@pearson.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

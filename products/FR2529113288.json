@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2529113288",
+    "providerName": "Archive360 platform",
+    "serviceName": "Archive360 Platform",
+    "serviceAcronym": "Archive360 Platform",
+    "serviceDescription": "Archive360 provides a modern archive and governance platform to address the challenge of a growing number of digital communications channels, legal and regulatory record retention, data privacy and security requirements. Compliantly collecting, retaining, and managing growing volumes of data from multiple channels in a timely manner is increasingly important to department and agency missions, and difficult without the proper tools. Archive360’s platform helps manage data consistent with digital record keeping requirements, such as the Federal Records Act, NARA Records Management Rules, and OMB directives on transition to electronic records.  \nArchive360’s solutions enable adoption of the federal government’s Cloud First mandates, Executive Orders as to cloud optimization, and OMB’s directives including M-23-07.  Archive360’s solutions have been successfully deployed and trusted by public sector agencies globally in the U.S., U.K., Canada, and Australia, including numerous components of U.S. security, civilian intelligence, educational, veterans’ agencies as well as individual US States.\nArchive360’s digital communications governance and archiving solution brings together data from common channels and legacy archives into a petabyte-scale platform that: \n•        Ensures that digital communications are captured, governed, and readily accessible to authorized stakeholders\n•        Provides extensive retention and disposition capabilities supporting government and agency records management requirements\n•        Enables data classification across communication and data channels for granular governance controls\n•        Supports file and data archiving use cases\n•        Provides secure, scalable eDiscovery and FOIA-search capabilities through an intuitive user interface\n•        Provides case management, tagging and annotation capabilities for investigations and review and production of data \n•        Delivers cross-system visibility and control over data processing, retention, disposition and legal holds \n•        Ensures data authenticity and chain of custody with a complete audit trail for actions (system and user) within the platform \n•        Cloud-native platform that provides high-levels of data durability, resiliency, and immutability where required\n•        Zero trust security model, which requires specific entitlement grants to access any data. The platform incorporates an entitlement engine, which allows for granular access controls, including restrictions based on role, class of data, functionality\n•        Encryption of all data in motion and at rest, with the option for agency managed encryption keys\n\nSecurity and scalability are paramount for government departments and agencies to achieve their data governance mission.  Archive360 deploys each agency in a dedicated SaaS environment, deployed to their own tenant. As a result, each department, agency or organizational unit has completely segregated data, administrative access, entitlements, and the ability to integrate into their security protocols. \n\nArchive360 is deployed as a cloud-native, microservices architecture. Archive360 can tailor the deployment to specific mission workloads and requirements. This deployment model mitigates data migration or exit risk at the end of a term, since the tenant can be turned over to the department or agency with the resident data.\n\nThroughout the platform, Archive360 maintains an extensive event audit history, supporting a complete chain of custody. This includes data processing, access, changes to configurations and controls, search, disposition, or export, all at an object level. This provides rapid traceability for audit and response purposes, and defensibility of authorized activities. \nSupported digital communication channels include:\n•        SMTP and Journal Based Email\n•        Microsoft M365 and Exchange\n•        Microsoft Teams\n•        Google Workspace\n•        SMS and Mobile Data\n•        FileShare Data\n•        Legacy Email Archives",
+    "certificationType": "Rev5",
+    "website": "https://www.archive360.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Archive360%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securitycompliance@projecthosts.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@archive360.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631054484",
+    "providerName": "Anysphere, Inc.",
+    "serviceName": "Cursor",
+    "serviceAcronym": "Cursor",
+    "serviceDescription": "Cursor is an AI-powered software development platform that helps developers and organizations understand, generate, review, and maintain software. The offering includes the Cursor editor, AI-assisted development workflows, and related cloud services. Anysphere, Inc. is pursuing FedRAMP 20x Class C certification for the Cursor platform, and A-LIGN is performing the independent assessment. Certification has not yet been granted. Anysphere's FedRAMP 20x Class A application is under FedRAMP review. Origin, Cursor's Git hosting product, is not part of this offering and is not offered to FedRAMP customers; service capabilities that operate on Origin repositories are outside the assessed scope.",
+    "certificationType": "Rev5",
+    "website": "https://cursor.com",
+    "logo": "https://cursor.com/marketing-static/favicon.svg",
+    "ueiNumber": "YK4LNCE1L847"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/cursor/cursor",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@cursor.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "pubsec@cursor.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

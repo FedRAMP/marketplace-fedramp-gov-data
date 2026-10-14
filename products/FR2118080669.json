@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2118080669",
+    "providerName": "Knightscope, Inc.",
+    "serviceName": "Knightscope Autonomous Security Robot (Knightscope ASR)",
+    "serviceAcronym": "Knightscope Autonomous Security Robot (Knightscope ASR)",
+    "serviceDescription": "The Knightscope Autonomous Security Robot (ASR) is a fully autonomous security robot equipped with four (4) cameras, microphones, and speakers, for 360-degree video and audio. The ASRs navigate the area(s) of operation autonomously and stream live video back to the user via a web browser. The ASRs run 24/7 on its own including autonomously recharging itself without any human intervention have the following capabilities:\n- People Detection – The ASR can detect people by time and location.\n- License Plate Recognition – The ASR can identify and detect license\nplates.\n- Thermal Imaging – Equipped with a FLIR thermal camera, the ASR can\nmonitor for heat anomalies above a pre-determined temperature.\n- Audio – The ASR can be used to broadcast pre-recorded or custom audio\nmessages and initiate a live intercom call.\n\nThe core platform of Knightscope ASR is the Knightscope Security Operations Center (KSOC), a fully functional, browser-based user interface included with every subscription which allows customers to access ASR fleet information around the clock. Customers can use the KSOC interface to:\n- View current ASR locations\n- Access live (or recorded) video and audio from an ASR\n- Select pre-determined patrol routes (for mobile ASRs)\n- Broadcast pre-recorded or custom audio messages through an ASR,\nusing an intercom chat function or a phone call over a live channel, or sound an alarm\n- View alerts\n\nAlerts can be configured to trigger based on pre-defined criteria, such as detection of any person or identification of a specific license plate. In the event of an alert, KSOC can send email messages, text messages, or voice messages to\nnotify designated people about the event. The notifications contain limited information informing the user that an event has been detected by the ASR. Any forensic data related to the event, including a snapshot, date and time, and\nlocation must be viewed within KSOC.",
+    "certificationType": "Rev5",
+    "website": "http://www.knightscope.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Knightscope%20Logo.png",
+    "ueiNumber": "JAJTVBGY2K53"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "MSL@Knightscope.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "JMG@knightscope.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

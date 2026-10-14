@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631154499",
+    "providerName": "IronWiFi, LLC",
+    "serviceName": "IronWiFi Cloud RADIUS and Wi-Fi Authentication Platform",
+    "serviceAcronym": "IronWiFi Cloud RADIUS and Wi-Fi Authentication Platform",
+    "serviceDescription": "**IronWiFi is the vendor-neutral authentication layer for agency Wi-Fi and wired networks: cloud RADIUS, 802.1X with EAP-TLS, cloud PKI with SCEP enrollment, captive portals, and Wi-Fi identity threat detection (ITDR), delivered as SaaS on Google Cloud with US regions available.**\n\n**Keep the network you have.** IronWiFi works with any access point, switch or controller that speaks RADIUS and 802.1X, so an agency adds certificate-based authentication and policy without replacing hardware or running RADIUS and NPS servers on premises.\n\n**Use the identities you already manage.** Users and devices authenticate against Microsoft Entra ID (commercial and GCC High), Google Workspace, Okta, and LDAP or Active Directory. Device certificates are issued and renewed by the built-in cloud PKI over SCEP, including for MDM-managed fleets.\n\n**See who and what is on the network.** Every authentication is logged per user and device; the ITDR service flags credential misuse, rogue devices and anomalous access on Wi-Fi and reports through the console, API and webhooks.\n\n**Guest, visitor and roaming access** through branded captive portals, vouchers, sponsored access and OpenRoaming, on the same platform.\n\n**Assurance on record.** SOC 2 Type II (Johanson Group LLP, report issued 7 May 2026) held in the IronWiFi Trust Center. FIPS 199 impact categorization Moderate (this is not a FedRAMP Moderate Authorization). IronWiFi-prepared 20x Class A package documents were published 13 September 2026 and the 20x Class A Certification application (FRC-APP-AFC) was submitted to FedRAMP the same day; FedRAMP's decision is pending. Marketplace status is Not yet certified and Certification Class is Unknown until FedRAMP records it. IronWiFi is in the Initial Implementation Phase and is not FedRAMP Certified today.\n\n**Agency use cases:** direct use as the authentication, policy and monitoring layer inside an agency information system; indirect use as a third-party information resource inside integrator and managed-service offerings delivered to agencies. Documentation, a REST API and a self-service console let an agency pilot the service on its existing network.",
+    "certificationType": "Rev5",
+    "website": "https://www.ironwifi.com/",
+    "logo": "https://www.ironwifi.com/ironwifi.png",
+    "ueiNumber": "TB1XW4HNNUG9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.ironwifi.com/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@ironwifi.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@ironwifi.com"
+    }
+  ]
+}

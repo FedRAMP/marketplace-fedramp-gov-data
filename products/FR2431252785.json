@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2431252785",
+    "providerName": "Splunk LLC",
+    "serviceName": "Splunk Observability Cloud for FedRAMP Moderate",
+    "serviceAcronym": "Splunk Observability Cloud for FedRAMP Moderate",
+    "serviceDescription": "Splunk Observability Cloud delivers a suite of observability products including Application Performance Monitoring, Infrastructure Monitoring, Real User Monitoring, Log Observer Connect (LoC), and Synthetic Monitoring to support government and commercial customers handling controlled unclassified information (CUI). Splunk Observability Cloud is a multi-tenant software as a service (SaaS) cloud service offering (CSO) hosted in Amazon Web Services’ (AWS) GovCloud regions.\r\n\r\nApplication Performance Monitoring - Full visibility into all the data from every system dependency and at any scale helps you troubleshoot complex environments significantly faster.\r\n\r\nInfrastructure Monitoring - Real-time monitoring and analytics at scale for any environment. Streaming architecture and a custom metrics platform deliver near-instant visibility and faster troubleshooting for hybrid and multi-cloud.\r\n\r\nReal User Monitoring - Full transaction analysis for your web and mobile experience. Pinpoint user-facing issues anywhere in your stack — from web browsers and native mobile apps to backend services.\r\n\r\nLog Observer Connect (LoC) - Search, filter and analyze log data at scale via industry-leading log management and analytics\r\n\r\nSynthetic Monitoring (Private Runners Only) - Find, fix and prevent web performance issues from impacting your customers via simulated user behavior",
+    "certificationType": "Rev5",
+    "website": "https://www.splunk.com/en_us/products/observability-cloud.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Splunk%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "splunk-fedramp@cisco.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "ssg-o11y-FedRAMP-Sales@splunk.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

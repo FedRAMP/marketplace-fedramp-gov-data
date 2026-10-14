@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2312063708",
+    "providerName": "Wasabi Technologies",
+    "serviceName": "Wasabi GovCloud (WGC)",
+    "serviceAcronym": "Wasabi GovCloud (WGC)",
+    "serviceDescription": "Wasabi GovCloud is a dedicated cloud object storage solution specifically designed for Federal, State, and Local Government agencies. It addresses the unique needs of government workloads by providing secure and compliant storage for critical data, including backups, disaster recovery, and long-term archives. \n\nWasabi GovCloud provides on-demand access to a scalable and reliable cloud object storage platform, empowering government agencies to modernize their data storage infrastructure, improve data security and compliance, and optimize their IT budgets while accelerating digital transformation initiatives. \n\nKey features include: \n\nEnhanced Security: Built with robust security measures to meet stringent government compliance and security requirements. \n\nPredictable Pricing: Offers transparent and competitive pricing with no egress fees, making it cost-effective for government budgets. \n\nS3 Compatibility: Seamlessly integrates with existing applications and workflows utilizing the industry-standard S3 protocol. \n\nScalability and Flexibility: Provides the ability to easily scale storage capacity up or down based on changing data volumes and agency needs. \n\nImproved Efficiency: Streamlines data management and enhances operational efficiency through features like granular user access controls and flexible permission management. \n\nWasabi GovCloud is authorized in compliance with HIPAA, GDPR, UK GDPR, CJIS, FINRA/SEC, and TPN requirements to ensure the security, durability, availability, immutability, and interoperability required for sensitive government data. Wasabi GovCloud is only accessible to U.S. entities, all vetted with a rigorous screening process.",
+    "certificationType": "Rev5",
+    "website": "http://www.wasabi.com/govcloud",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Wasabi%20Logo.png",
+    "ueiNumber": "PRAZNNSNN4T8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@wasabi.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "govcloudsales@wasabi.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

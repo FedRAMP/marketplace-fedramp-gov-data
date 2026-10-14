@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR260215856",
+    "providerName": "SandboxAQ",
+    "serviceName": "AQtive Guard",
+    "serviceAcronym": "AQtive Guard",
+    "serviceDescription": "AQtive Guard is a cryptography management and inventory tool that is delivered as SaaS offering using a multi-tenant Government-Only cloud computing environment. It is available to federal, state, local, and tribal governments, as well as federal contractors and government contractors with a documented need to utilize FedRAMP authorized solutions to host US federal data.",
+    "certificationType": "Rev5",
+    "website": "https://aqtiveguard.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Sandbox%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@sandboxaq.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@sandboxaq.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

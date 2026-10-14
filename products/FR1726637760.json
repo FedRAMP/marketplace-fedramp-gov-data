@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1726637760",
+    "providerName": "American Heart Association, Inc.",
+    "serviceName": "American Heart Association Precision Medicine Platform(AHA-PMP)",
+    "serviceAcronym": "American Heart Association Precision Medicine Platform(AHA-PMP)",
+    "serviceDescription": "The AHA's Precision Medicine Platform is a cloud-based data resource that revolutionizes how the research community accelerates solutions for cardiovascular diseases. It provides unprecedented, open access to cardiovascular data sets, cutting-edge tools and cloud-based workspaces for collaboration. Researchers can search, filter, and unlock the data that matters most to their work - allowing them to find new solutions for big health improvements faster than ever before. The Precision Medicine Platform is powered by Amazon Web Services and is a strategic initiative of the American Heart Association.",
+    "certificationType": "Rev5",
+    "website": "https://pmp.heart.org/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/REAN%20PMP%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@heart.org"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "pmp@heart.org"
+    }
+  ],
+  "assessor": {
+    "name": "140544",
+    "assessorID": "140544"
+  }
+}

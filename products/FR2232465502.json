@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2232465502",
+    "providerName": "Broadcom",
+    "serviceName": "Symantec Gov Cloud Security (GCS)",
+    "serviceAcronym": "Symantec Gov Cloud Security (GCS)",
+    "serviceDescription": "Symantec Gov Cloud Security (GCS) is designed to provide security to U.S. government agencies’ networks and protection for their information. It leverages common foundational components that support several individual Symantec cloud services in a single boundary. \n\n\nThe following Symantec solution(s) are FedRAMP authorized: \n\n- Symantec Gov Cloud – Web Protection \n\n\nSymantec Gov Cloud – Web Protection, which includes the Symantec Cloud Secure Web Gateway (Cloud SWG), allows federal agencies to apply network security policies across web and cloud applications. It helps protect users with web and cloud security services that connect all devices to a FedRAMP-authorized intelligent control point for high-performance, cloud-based threat protection services. Configure and enforce web and cloud application access-control policies that streamline security operations and reduce operational and maintenance costs, while also improving user productivity. \n\n\n- Deliver the foundation for a complete Security Service Edge (SSE) solution through a single SKU. \n\n- Authenticate users and enforce user, group, and location-based security controls, regardless of their location or device. \n\n- Simplify the user experience through a single agent that orchestrates inspection through multiple layers of security.\n\n- Control employee access to Shadow IT cloud apps (unsanctioned cloud applications) to reduce the attack footprint, and ensure security, while maintaining productivity. \n\n- Deliver a proxy-based architecture that delivers Secure Web Gateway and Advanced Threat Protection that terminates, inspects, and controls high volumes of web and cloud traffic, even when it is SSL/TLS encrypted. \n\n- Set policies based on website content-based classifications and threat risk levels for consistent and acceptable use and prevent users from accessing known and unknown malicious sites. \n\n- Classify URLs in 80+ categories covering more than 50 languages for comprehensive analysis and threat detection. \n\n- Enable application-level point-to-point connectivity, cloaking all resources from the end-user devices and the internet. \n\n- Block high-risk and advanced threats with multilayer file inspection to prevent the download of malicious files that will compromise the agency’s security. \n\n- Threat Risk Levels – Set web access policies based on a URL’s relative level of threat risk.\n\nSymantec Gov Cloud – Web Protection delivers an added layer of protection that actively safeguards an agency’s digital assets.\r\n\r\nUser-based licensing of Symantec Gov Cloud – Web Protection provides the option to also deploy any number of on-premises appliances (physical or virtual), depending on an agency’s use case for either a full cloud, on-premises Edge SWS, or hybrid solutio",
+    "certificationType": "Rev5",
+    "website": "https://www.broadcom.com/products/cybersecurity/network",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Broadcom%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "team-saas-fedramp-ops-infosec.pdl@broadcom.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-gcs-contact@broadcom.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2629068830",
+    "providerName": "SunStone Secure, LLC",
+    "serviceName": "SunStone Artemis Platform",
+    "serviceAcronym": "SunStone Artemis Platform",
+    "serviceDescription": "SunStone Artemis Platform is SunStone's Federal Platform running on AWS GovCloud and Commercial AWS. The Apollo Digital Twin Engine can ingest and process OSCAL 1.1.3 models, prototype and extension models, markdown, and other document content to support agency AO and ISSO analysis workflows for CSO inventory, data flows, POA&Ms, incidents, threat models, testing exercises, change artifacts, impact assessments, deviation requests, and NIST 800-53 documentation.",
+    "certificationType": "Rev5",
+    "website": "https://sunstonesecure.com/platform",
+    "logo": "https://sunstonesecure.com/assets/sunstone-logo-dark-DlKpnxzK.svg",
+    "ueiNumber": "KLL2SDMGF7W9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://github.com/SunStone-Secure-LLC/artemis-fedramp20x",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@sunstonesecure.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@sunstonesecure.com"
+    }
+  ]
+}

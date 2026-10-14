@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2230451369",
+    "providerName": "Snyk",
+    "serviceName": "Snyk for Government",
+    "serviceAcronym": "Snyk for Government",
+    "serviceDescription": "Snyk for Government (https://app.snykgov.io/) is a cloud driven, developer security platform that  scans code early in the software development lifecycle, providing developers with vulnerability information about their projects directly in the IDE and PR Checks, as well as providing actionable fix advice. Powered by an industry-leading security intelligence database, Snyk for Government analyzes code, open-source dependencies, containers, and IaC (Infrastructure as Code) to find, prioritize, and automatically fix vulnerabilities in projects. Snyk users can interact with the service via the Snyk for Government Web UI, the Snyk CLI, in the IDE, or with an API.\nSnyk for Government is hosted within AWS US East as the Cloud Service Provider (CSP) which assures product lines are maintained in a secure and trusted environment. Snyk for Government boundary includes the Production environment consisting of virtual compute, storage, databases, and internal management web applications.\nThe Snyk for Government environment is designed and operated based on security compliance and operations best practice by automating the build and operational processes as much as possible using Infrastructure as Code (IaC), CIS benchmarks, vulnerability scanning, continuous monitoring of critical security controls and a managed system development process to obtain initial and continuous FedRAMP Moderate Approval to Operate (ATO).",
+    "certificationType": "Rev5",
+    "website": "https://snyk.io/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Snyk%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@snyk.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@snyk.io"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2209555576",
+    "providerName": "RingMD USA Inc.",
+    "serviceName": "RingMD Telemedicine",
+    "serviceAcronym": "RingMD Telemedicine",
+    "serviceDescription": "RingMD Telemedicine delivers a secure, cloud-based telehealth platform designed for federal use cases. The system enables video consultations between providers and patients, as well as provider-to-provider communications, with integrated screen sharing, secure in-app messaging, and file exchange capabilities. The platform supports integration with electronic prescribing (eRx) systems, electronic health records (EHR), electronic medical records (EMR), and laboratory information systems (LIS). It can be configured to align with agency-specific clinical workflows and branding requirements.\r\n\r\nRingMD includes built-in analytics and reporting capabilities to support operational oversight, utilization tracking, and performance evaluation. Optional AI-enhanced modules are available, including screening tools and clinical decision support features, developed in accordance with federal privacy and security standards.",
+    "certificationType": "Rev5",
+    "website": "https://www.ring.md/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/RingMD%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@ring.md"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@ring.md"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2128562231",
+    "providerName": "Collabware",
+    "serviceName": "Collabspace",
+    "serviceAcronym": "Collabspace",
+    "serviceDescription": "Collabspace is a highly scalable, cloud-based records and information management solution. Collabspace enables organizations to stream content from multiple repositories into a data lake for the purposes of managing content lifecycle for NARA compliance, and to facilitate faster execution of FOIA requests processes. Collabspace employs advanced enterprise search and records management capabilities such as OCR and audio/video transcription to help categorize and analyze records for proper retention and disposition.",
+    "certificationType": "Rev5",
+    "website": "https://collabware.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Collabware%20Logo.png",
+    "ueiNumber": "W53NBJ3KYAM7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@collabware.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@collabware.com"
+    }
+  ],
+  "assessor": {
+    "name": "137801",
+    "assessorID": "137801"
+  }
+}

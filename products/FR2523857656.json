@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2523857656",
+    "providerName": "Forescout Technologies, Inc.",
+    "serviceName": "Forescout for Government",
+    "serviceAcronym": "Forescout for Government",
+    "serviceDescription": "Forescout Technologies is a cybersecurity company that helps organizations gain complete situational awareness of their cyber-physical and digital environments. With a focus on IT, OT, and IoT, Forescout delivers comprehensive visibility and automated control, using AI to secure the enterprise across increasingly complex and distributed networks.\n\nForescout Cloud, part of the Forescout 4D Platform, is designed to provide continuous monitoring, asset intelligence, and policy enforcement. Built to support hybrid environments, the platform helps agencies manage security risk, strengthen compliance, and operationalize zero trust principles.\n\nComplete discovery and classification of all IT, OT, and IoT assets provide real-time visibility into all connected assets—managed, unmanaged, virtual, and physical. The platform delivers device taxonomy, identity, and AI-powered context augmentation to maintain an up-to-date inventory that informs security decisions and eliminates blind spots in critical infrastructure protection.\n\nZero Trust security architectures are enabled through policy-based access controls that support dynamic segmentation and enforcement. Device trust is continuously evaluated based on contextual insights and AI modeling, ensuring that only compliant and authorized devices can access network resources.\n\nRegulatory and compliance requirements are met by continuously monitoring device posture against security policies. The platform provides detailed reporting and integrates with governance and risk management tools to support audit readiness, AI-based recommendations, and risk mitigation to drive operational efficiency.\n\nNetwork activity and attacks are monitored to detect anomalies and indicators of compromise. The platform enables automated or guided response actions through integrations with broader security operations tools, helping reduce dwell time, minimize lateral movement, and contain threats.\n\nForescout Cloud is purpose-built to provide federal agencies with the visibility, control, and automation needed to protect modern, heterogeneous environments. It helps reduce risk, ensure compliance, and enable secure operations aligned with federal cybersecurity priorities.",
+    "certificationType": "Rev5",
+    "website": "https://www.forescout.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Forescout%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp_comms@forescout.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fscloud-fedramp@forescout.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

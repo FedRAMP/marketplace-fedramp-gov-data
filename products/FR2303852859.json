@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2303852859",
+    "providerName": "Cocoon Data",
+    "serviceName": "SafeShare (SFS)",
+    "serviceAcronym": "SafeShare (SFS)",
+    "serviceDescription": "System Functionality: SFS is a zero-trust data security, sharing, and collaboration web platform that uses Cocoon Data-patented technology called Secure Objects to apply the principles of least privilege to the document level. SFS is a system similar to services such as Google Drive or Box. It enables the customer to securely share files and collaborate on them within the SFS web app. The difference is in how SFS implements encryption and the concept of zero-trust security with these files by encapsulating them in Cocoon Data-patented technology called Secure Objects. Each file has a unique encryption key tied to identity and access controls attributes such as clearance and classification.\r\n\r\nThe SFS SaaS solution allows customers to securely store, share, and control access to encrypted files and folders within the customer’s organization, outside the authorization boundary, and from mobile devices through a self-contained unit called an “organization.” An organization (deployed customer tenant) is self-contained, meaning that the sharing and manipulation of content is handled solely within the scope of the organization itself; therefore, any SFS user’s ownership of content (including permissions to access the customer’s content/data) is specific to each organization.\r\n\r\nThrough the implementation of Secure Objects, the identity of the user is validated through the identity provider (Lightweight Directory Access Protocol [LDAP], Personal Identity Verification [PIV], etc.) that ties the identity of the data owner to its associated encryption keys. Secure Objects must be associated with a key (for encryption) and an originator (data owner). Customers have the option to designate collaborators, metadata, and apply extensive access controls to their data.\r\n\r\n\r\nSFS is available to customers with two options for tenancy:\r\nCustomers may use the shared tenancy option where they receive their own Organization within the SFS application. This option logically separates customers within the SFS application but each file is encrypted using Cocoon Data’s proprietary Secure Objects technology and the Cocoon Data Content Crypto Service cryptographic module (CMVP# 4307). \r\nCustomers may opt for the private tenancy option where they receive their own instances of the SFS Application. The customer would have their own custom URL for logging into the system and their own dedicated infrastructure. This option allows the customer to set up multiple Organizations as they see fit to further control which of their users can access what files they’ve uploaded to SFS.\r\nThe private tenancy option is the recommended option for Federal Agencies as it offers the strongest separation measures from other customers.\r\n\r\n\r\nThe services/functions provided to the customer by SFS are delivered via containerized services. Containerization is used across multiple availability zones for redundancy. The containers that run the service are the Content Service, Access Service, GeoFence Service, Notification Service, Web Service, Office Server Service, API Server, etcd, Controller and Scheduler.\r\n\r\nContent Service\r\nThe Content Service contains the FIPS validated Cocoon Data Content Crypto Service (Certificate #4307). This service is responsible for handling the encryption keys, content encryption, version control, integrity checks and overall management of the data.\r\n\r\n\r\nAccess Service \r\nThe Access Service  contains the Cocoon Data Access Service. This service is responsible for the access control to the Cocoon Data system, internal authentication, external LDAP authorizations, and SAML 2.0 authentications. It is also responsible for determining if a user has access to files or not based on a multitude of factors including but not limited to; clearances and classification, geographic location of the user and geofencing, user security roles, and security permissions. The scope of access to documents can also be further restricted so that users with access will only be able to perform specific actions on the file. An example would be giving a user view, but not download permissions.",
+    "certificationType": "Rev5",
+    "website": "https://cocoondata.com/file-sharing",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cocoon%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "secops@federal.cocoondata.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@federal.cocoondata.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

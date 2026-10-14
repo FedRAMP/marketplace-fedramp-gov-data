@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2523143582",
+    "providerName": "ETHERFAX",
+    "serviceName": "ETHERFAX GovCloud",
+    "serviceAcronym": "ETHERFAX GovCloud",
+    "serviceDescription": "ETHERFAX GovCloud is a secure, scalable, and compliant cloud-based fax solution designed to modernize enterprise faxing while offering the flexibility to leverage existing investments. Built with a security-first posture, our US government community cloud-based fax solution has been engineered to meet the federal government’s rigorous FedRAMP HIGH security standards. Hosted in AWS' FedRAMP HIGH GovCloud environment that utilizes FIPS-140-3 certified cryptographic algorithms, our data exchange solutions ensure the highest levels of data protection and encryption for government workflows. Leveraging the power of AWS GovCloud and supported by a dedicated US-based team, GovCloud delivers high availability, resiliency, and seamless integrations for government and regulated industries.\n\nKey Features:\n\nIntegrations\n•        GovCloud Microsoft Teams: Seamlessly integrates with Microsoft Teams in GovCloud for streamlined communication workflows.\n•        GovCloud Office 365: Supports Office 365 in GovCloud environments, enabling secure collaboration and faxing.\n•        Google Workspace: Integrates with Google Workspace for enhanced productivity and interoperability.\n•        GovCloud API: Provides a robust API for custom integrations, allowing organizations to tailor ETHERFAX to their specific needs.\n\nHigh Availability and Resiliency\n•        AWS GovCloud East and West: Deployed across AWS GovCloud (US-East and US-West) regions, AWS GovCloud ensures high availability and resiliency through geographically distributed data centers, supporting mission-critical workloads.\n•        Elastic Cloud Computing: Dynamically scale resources to meet demand, delivering consistent performance during peak usage.\n\nScalability and Data Security\n•        Containerization: Utilizes containerized architecture to enable on-demand scaling, providing flexibility and efficiency for fluctuating workloads.\n•        Segregated S3 Buckets: Employs isolated Amazon S3 buckets to segregate data, ensuring data separation and enhancing security and compliance.\n\nCompliance\n•        FedRAMP High IL5: Meets stringent FedRAMP High and DoD Impact Level 5 (IL5) requirements, suitable for sensitive and regulated workloads.\n•        Section 508: Ensures accessibility compliance for users with disabilities, adhering to federal standards.\n•        HITRUST and PCI Level 4 Certified: Certified to meet rigorous healthcare and payment card industry security standards, ensuring robust data protection.\n\nSeamless Integration with Existing Systems \n•        RightFax or Biscom: Transition to a more secure cloud platform with the option to integrate with RightFax or Biscom, enabling continued use of your current fax infrastructure without a costly rip-and-replace approach.\n•        Leverage Existing Investments: Choose to maintain your existing workflows and configurations while upgrading to a modern, cloud-based solution.\n\nDedicated Support\n•        US-Based Support Team: ETHERFAX offers a dedicated, US-based support team available to assist with implementation, troubleshooting, and ongoing maintenance, ensuring reliable service for all customers.\n\nETHERFAX GovCloud combines the flexibility of cloud technology with the security and compliance required for government and regulated industries. By leveraging AWS GovCloud’s isolated infrastructure, containerized scalability, and segregated data storage, ETHERFAX provides a future-proof fax solution with the option to integrate seamlessly with existing systems and modern collaboration tools. With a commitment to compliance and a US-based support team, ETHERFAX GovCloud empowers organizations to modernize faxing while maintaining security, reliability, and operational efficiency.",
+    "certificationType": "Rev5",
+    "website": "https://etherfax.net/government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Etherfax%20Logo.png",
+    "ueiNumber": "XDQFEKBVGHP6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "esturniolo@etherfax.net"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "GovSales@etherfax.net"
+    }
+  ],
+  "assessor": {
+    "name": "200749",
+    "assessorID": "200749"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2620235600",
+    "providerName": "Anecdotes",
+    "serviceName": "Anecdotes",
+    "serviceAcronym": "Anecdotes",
+    "serviceDescription": "Anecdotes is an Agentic GRC platform that delivers continuous compliance for enterprises managing GRC at scale. Built on an audit-grade data foundation, it automates evidence collection, maps controls across 60+ industry frameworks and custom policies, and gives teams real-time visibility into their risk and compliance posture. Where traditional tools automate workflows, Anecdotes agents execute them end to end, replacing point-in-time assessments with continuous monitoring. \nAnecdotes is the first agentic GRC platform to achieve FedRAMP 20x Class C (Moderate) Certification, bringing Continuous Control Monitoring to organizations operating under federal cloud security standards.",
+    "certificationType": "Rev5",
+    "website": "https://www.anecdotes.ai/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Anecdotes%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@anecdotes.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "hello@anecdotes.ai"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

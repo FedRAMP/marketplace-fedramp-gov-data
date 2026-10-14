@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2606141075",
+    "providerName": "Entratus",
+    "serviceName": "Entratus Conversational AI Platform",
+    "serviceAcronym": "Entratus Conversational AI Platform",
+    "serviceDescription": "Our cloud-based platform enables organizations to build and deploy intelligent virtual assistants capable of:\n\nMulti-Channel Engagement: Natural language conversations via voice, web, and SMS channels with seamless handoff capabilities.\nFlexible API Integration: Connect to various data sources and third-party systems for real-time information retrieval and processing.\nCompliance-First Architecture: Built-in audit trails, conversation recording transcript generation, and comprehensive logging for regulatory requirements.\nScalable Multi-Tenant Infrastructure: Supporting enterprise, government agencies, and commercial applications.\n\nSecurity & Compliance Features\n\nEnd-to-end encryption for all data in transit and at rest.\nComprehensive audit logging of all system interactions and decision chains.\nRole-based access control with multi-factor authentication.\nAutomated quality assurance through scorecard systems.\nHuman-in-the-loop oversight capabilities.\n\nPlatform Capabilities\n\nCustom AI agent development for specific business processes.\nIntegration with public APIs (e.g., insurance quoting).\nWorkflow automation and intelligent routing.\nReal-time transcription and analytics.\nBias monitoring and performance evaluation tools.\n\nOur platform provides organizations with the tools to create transparent, auditable, and efficient AI-powered customer interactions while maintaining strict security and compliance standards required for sensitive data handling.",
+    "certificationType": "Rev5",
+    "website": "https://www.entratus.us/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Entratus%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "GRC@entratus.us"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@entratus.us"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

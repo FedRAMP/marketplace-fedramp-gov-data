@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1935245314A",
+    "providerName": "Trellix",
+    "serviceName": "Trellix GovCloud Security Platform",
+    "serviceAcronym": "Trellix GovCloud Security Platform",
+    "serviceDescription": "Trellix GovCloud Security Platform (formerly known as Trellix XDR GovCloud) is a SaaS offering that is deployed on AWS GovCloud IaaS. The SaaS offering is made up of a suite of solutions developed by Trellix. Trellix GovCloud Security Platform enables customers to centrally manage security for their organization while leveraging real-time monitoring and protection of the environment. Machine learning, artificial intelligence, and behavioral analysis are used to detect and respond to suspicious activity based on comparing observed activity to real-world adversarial attack techniques.\n\n- Trellix ePolicy Orchestrator (ePO) is a SaaS-based centralized management console for using Trellix's Endpoint solution with enhanced native security controls without the complexity of on-premises infrastructure. The client-side component of Trellix ePO provides secure communication between Trellix ePO and managed products. In addition to downloading and enforcing policies, Trellix Agent performs client-side tasks such as deploying and updating endpoint products. In order to manage an endpoint with Trellix ePO, Trellix Agent must be installed on each system in your network. As an optional deployment method, Trellix also offers the ePO On-prem platform that can be installed on the customer’s premises, as well as in air-gapped environments.\n- Trellix Endpoint Detection and Response (EDR) provides continuous data collection and advanced analytics that helps you detect suspicious behavior on your endpoints. Using alert ranking and data visualization, you can quickly understand the threat and take immediate action. \nTrellix ML Protect (formerly known as Trellix Real Protect) is a machine learning cloud which enhances our Endpoints pre-execution machine learning with post-execution to detect dynamic behavior based on machine learning algorithms derived from over a billion sensors and over 30 years of experience.\n- Trellix Global Threat Intelligence (GTI) is based on activity from millions of sensors world-wide and an extensive research team, Trellix publishes timely, relevant threat activity via GTI. This always-on, cloud-based threat intelligence service enables accurate protection against known and fast-emerging threats by providing threat determination and contextual reputation metrics. GTI integrates directly with our security products, instantly protecting against emerging threats to reduce operational efforts and time between detection and containment.\n- Trellix Threat Intelligence Exchange (TIE) acts as a reputation broker that combines threat intelligence from imported global sources, such as Trellix Global Threat Intelligence (GTI) and third-party threat information (such as VirusTotal) with intelligence from local sources, including endpoints, gateways, and advanced analysis solutions. Using Trellix Data Exchange Layer (DXL), it instantly shares this collective intelligence across the security ecosystem, allowing security solutions to operate as one to enhance protection throughout the organization.\n- Trellix Insights is an industry-first proactive security solution that changes the cyber security paradigm with the capability to stop threats before the attack. It provides actionable and preemptive threat intelligence by leveraging Trellix's cutting-edge threat research, augmented with sophisticated AI applied to real-time threat telemetry streamed from over 1 billion sensors. This global insight is applied to assess an organization's environment and its security posture to predict and prioritize actions for the Security Operations Team.\n- Trellix Helix Connect integrates data from security tools (Trellix native controls and 490+ third parties) to tell you the complete story of an attack. Data is ingested from multiple sources, then correlated by pre-built analytics and rules to create multi-vector, multi-vendor detections.Trellix GovCloud Security Platform (formerly known as Trellix XDR GovCloud) is a SaaS offering that is deployed on AWS GovCloud IaaS. The SaaS offering is made up of a suite of solutions developed by Trellix. Trellix GovCloud Security Platform enables customers to centrally manage security for their organization while leveraging real-time monitoring and protection of the environment. Machine learning, artificial intelligence, and behavioral analysis are used to detect and respond to suspicious activity based on comparing observed activity to real-world adversarial attack techniques.",
+    "certificationType": "Rev5",
+    "website": "https://www.trellix.com/products/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Trellix%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-support@trellix.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-sales@trellix.com"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

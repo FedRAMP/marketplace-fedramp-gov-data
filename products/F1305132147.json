@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1305132147",
+    "providerName": "Ex Libris",
+    "serviceName": "Higher-Ed Platform (Alma, Primo, Leganto, Esploro)",
+    "serviceAcronym": "Higher-Ed Platform (Alma, Primo, Leganto, Esploro)",
+    "serviceDescription": "Ex Libris Higher-Ed Platform, consisting of Alma, Primo, Leganto, Esploro and Rialto, is an open platform that provides common cross-product services while ensuring reliability, security, and ease of integration with 3rd-party products and tools.",
+    "certificationType": "Rev5",
+    "website": "https://exlibrisgroup.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/ExLibris%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "HEP.security.officer@clarivate.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "dave.hemingway-turner@clarivate.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

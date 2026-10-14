@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2628647241",
+    "providerName": "Partos Inc.",
+    "serviceName": "Partos for Government",
+    "serviceAcronym": "Partos for Government",
+    "serviceDescription": "Partos is an AI-native operating system for the U.S. aerospace and defense supply chain, unifying prime contractors, suppliers, and sub-tier vendors in a single Government Community Cloud environment on AWS GovCloud (US). Partos accelerates supplier onboarding and vetting with continuous KYB, KYC, AML, and OFAC screening and compliance monitoring across ITAR, EAR export controls, and DFARS. It delivers end-to-end, multi-tier supply chain risk visibility and active risk management, and orchestrates domestic and international supplier payments—ACH, RTP, and wires—with compliance tracing preserved throughout. The platform leverages export control regulatory frameworks (including ITAR, EAR, and CUI) to automatically enforce data access boundaries. Access is dynamically controlled based on variables like nationality and geographic location, ensuring continuous compliance at every layer. A unified data ontology and pipeline layer powers Partos AI, a multi-agent, multimodal system in which specialized agents collaborate to answer questions and act across the entire supply chain. Partos AI works both reactively and proactively—agents operate as an extension of your team, monitoring, surfacing risks, and advancing work 24/7 rather than only responding on request. Partos AI is model-agnostic (open-source and proprietary), extensible via a no-code workflow builder and REST, WebSocket, SSE, and MCP interfaces, and embeddable in any enterprise application. It supports multi- and single-tenancy, multiple IdPs and SSO, SCIM provisioning, and granular role-, group-, and permission-based access. Customers retain full ownership and exportability of their data and the AI's memory.",
+    "certificationType": "Rev5",
+    "website": "https://partos.ai",
+    "logo": "https://cdn.partos.ai/fedramp/logo.png",
+    "ueiNumber": "DCXZNU8JTTM9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.partos.ai",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@partos.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal@partos.ai"
+    }
+  ],
+  "assessor": {
+    "name": "202040",
+    "assessorID": "202040"
+  }
+}

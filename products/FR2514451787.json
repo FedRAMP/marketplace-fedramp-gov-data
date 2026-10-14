@@ -1,0 +1,34 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2514451787",
+    "providerName": "Teradata Corporation",
+    "serviceName": "VantageCloud Lake",
+    "serviceAcronym": "VantageCloud Lake",
+    "serviceDescription": "The Teradata VantageCloud Lake (VCL) is a cloud-native analytics and data platform that enables customers to meet their increasingly diverse analytics and data needs. Teradata VCL enables users to uniquely execute all workload types at scale, including AI/ML, decision support, data science, data engineering, transactional, and reporting. VCL can run independent elastic workloads using an object store-centric design. This means every part of a business can run analytics projects on demand—all while sharing data in cost-effective object storage.",
+    "certificationType": "Rev5",
+    "website": "https://www.teradata.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Teradata%20Logo.png",
+    "ueiNumber": "Y1S2U4JBNLR3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "kimberly.ebright@teradata.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "john.weathersby@teradata.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

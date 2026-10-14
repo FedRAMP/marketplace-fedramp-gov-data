@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2516072131",
+    "providerName": "Ramp",
+    "serviceName": "Ramp for Government (RampGov)",
+    "serviceAcronym": "Ramp for Government (RampGov)",
+    "serviceDescription": "Ramp provides a unified platform for charge cards, expense management, and bill payments, designed to maximize visibility, enforce policy controls, and drive operational efficiency at scale. Our customers rely on Ramp to manage their financial operations, drive efficiency, and stop wasteful spending.",
+    "certificationType": "Rev5",
+    "website": "https://ramp.com/government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Ramp%20Logo.png",
+    "ueiNumber": "MMC6R2DML8L4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@ramp.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "govteam@ramp.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

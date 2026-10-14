@@ -1,0 +1,40 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631258127",
+    "providerName": "NEXGEN Asset Management",
+    "serviceName": "NEXGEN Asset Management",
+    "serviceAcronym": "NEXGEN Asset Management",
+    "serviceDescription": "NEXGEN Asset Management (NEXGEN AM) is a cloud-hosted Enterprise Asset Management (EAM) and Computerized Maintenance Management System (CMMS) delivered as Software as a Service (SaaS). It provides real-time inventory tracking, asset lifecycle management, predictive maintenance workflows, analytics and reporting, and secure mobile field access for technicians through integrated web and mobile interfaces. Federal agencies use NEXGEN AM to manage government-owned physical assets, facilities, vehicles, equipment, and critical infrastructure. Key capabilities support shifting from reactive to predictive maintenance, minimizing downtime, optimizing resource allocation and capital planning, reducing costs, and enabling data-driven decisions.",
+    "certificationType": "Rev5",
+    "website": "https://www.nexgenam.com",
+    "logo": "https://www.nexgenam.com/wp-content/uploads/2021/05/NEXGEN_Brandmark_Horizontal_SteelGrey.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.nexgenam.com/fedrampcert/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "gnaik@nexgenam.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "jklegseth@nexgenam.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

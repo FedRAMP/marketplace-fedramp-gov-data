@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1721059275A",
+    "providerName": "OneStream Software",
+    "serviceName": "OneStream Cloud - High",
+    "serviceAcronym": "OneStream Cloud - High",
+    "serviceDescription": "OneStream is a Corporate Performance Management (CPM) platform designed to support financial consolidation, reporting, planning, budgeting, and forecasting. Delivered as a SaaS offering, the OneStream Government Community Cloud is hosted via Microsoft Azure Government and tailored to meet the needs of federal, state, local, and tribal governments as well as research institutions and government contractors. The platform is built on a fault-tolerant, 64-bit architecture, ensuring high availability and scalability through multiple web and application servers.\n\nThe OneStream App for Windows is deployed using Microsoft ClickOnce Infrastructure or manual installation via an installation package provided by OneStream (OneStream Desktop). OneStream integrates with Microsoft Office through an Excel add-in, allowing users to interact with data and workflows directly within spreadsheets. The platform also supports data integration from multiple ERP and financial systems, enabling streamlined financial reporting and analysis.\n \nOneStream also offers customers the option to extend their application to address frequently faced business challenges through pre-packaged CPM solutions via the OneStream Solution Exchange. Customers who leverage Solution Exchange to install applications developed by OneStream or a third party are responsible for determining if the solution meets customer requirements prior to installation.",
+    "certificationType": "Rev5",
+    "website": "https://www.onestream.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Onestream%20Logo2.png",
+    "ueiNumber": "XG8MWFAKB4J5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "compliance@onestream.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@onestream.com"
+    }
+  ],
+  "assessor": {
+    "name": "137801",
+    "assessorID": "137801"
+  }
+}

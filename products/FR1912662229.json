@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1912662229",
+    "providerName": "KnowBe4, Inc.",
+    "serviceName": "KnowBe4 Security Awareness Training",
+    "serviceAcronym": "KnowBe4 Security Awareness Training",
+    "serviceDescription": "KnowBe4 is the world's most popular integrated Security Awareness Training and Simulated Phishing platform with thousands of active enterprise accounts. You finally have a platform to better manage the urgent IT security problems of social engineering, phishing and ransomware attacks. KnowBe4 gives you self-service enrollment, and both pre-and post-training phishing security tests that show you the percentage of end-users that are Phish-prone. Our highly effective, frequent, \"double-random\" Phishing Security Tests provide several remedial options in case an employee falls for a simulated phishing attack.\n\nKnowBe4 provides you with the world's largest library of 800+ security awareness training content, including interactive modules, videos, games, posters and newsletters. You can schedule regular Phishing Security Tests from our large library of over 2,500 \"known-to-work\" templates or you can also create your own custom phishing templates. And with our powerful Smart Groups feature, you can use each employees' behavior and user attributes to tailor phishing campaigns, training assignments, remedial learning and reporting. Your enterprise can get the KnowBe4 platform quickly deployed into production. Our Customer Success team gets you going in no time, without the need for consulting hours. And our Active Directory Integration (ADI) allows you to easily sync user data and saves you time by eliminating the need to manually manage user changes. Once the ADI is configured, users will be added, changed and archived in sync with changes made within AD automatically.\n\nWe use FedRAMP compliant Amazon Web Services East (AWS US East), which is maintained in an ISO certified facility. There is no unauthorized external access to data, we only store just enough information to accomplish the services we are set to provide, which minimally are email addresses with recorded clicks. All email addresses are encrypted and kept private. And KnowBe4 has been PCI compliant from day one. KnowBe4 courses are SCORM compliant, so we can deliver courseware for your in-house LMS if needed. However, KnowBe4 does have its own LMS that lives in the cloud, and we can report back to you about all enrolled employees, their status, completion, and many other parameters.",
+    "certificationType": "Rev5",
+    "website": "https://www.knowbe4.com/federal",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/KnowBe4%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "infosec@knowbe4.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal@knowbe4.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

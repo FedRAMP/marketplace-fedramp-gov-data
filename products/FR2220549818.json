@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2220549818",
+    "providerName": "CirrusMD",
+    "serviceName": "CirrusMD Virtual Health Chat for Government",
+    "serviceAcronym": "CirrusMD Virtual Health Chat for Government",
+    "serviceDescription": "CirrusMD Virtual Health Chat for Government increases access to Agency Care and is delivered as a SaaS offering using a multi-tenant Government Only Community cloud computing environment. The CirrusMD system provides a SaaS cloud-based service offering that is architected using best-of-breed security solutions, utilizing the government community deployment model, allowing for repeatable, secure, and elastic delivery of application services to the government user community. The system enables the government to meet its goals of agile computing, generating fiscal savings, and increasing utilization of federal IT platforms. The CirrusMD system is a government cloud-based service offering that is fully secure and complies with HIPAA and GDPR.\r\n\r\nCirrusMD owns and operates the CirrusMD Virtual Health Chat for Government information system within the SaaS cloud deployment model. The collection of events is within the trusted path of the environment and tailored for the Federal customer environment. The Federal customer does not manage or control the underlying SaaS cloud environment, including network, server, operating system, storage, or individual application capabilities, except for the connectivity between environments, which is all supported by the provider.",
+    "certificationType": "Rev5",
+    "website": "https://www.cirrusmd.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/CirrusMD%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@CirrusMD.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@cirrusmd.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

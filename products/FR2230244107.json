@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2230244107",
+    "providerName": "Illumio, Inc.",
+    "serviceName": "Illumio Government Cloud",
+    "serviceAcronym": "Illumio Government Cloud",
+    "serviceDescription": "Illumio Government Cloud delivers Zero Trust Segmentation, including microsegmentation, across multi-cloud and data center workloads and endpoints for government agencies and departments. This offering includes Illumio Core and Illumio Endpoint.  \n\nIllumio Core provides Zero Trust Segmentation for cloud and data center workloads. Illumio Core stops ransomware and cyberattacks from spreading by delivering intelligent visibility, radically simple label-based policy creation,\n and automated segmentation and enforcement. \n\nKey features: \n\n- Gain real-time visibility into traffic flows, application dependencies, and connectivity across all agent and agentless workloads, including containers, IoT, and virtual machines. \n- Simplify policy generation and automate enforcement to support Zero Trust initiatives with segmentation in minutes. \n- Stop the spread of ransomware and contain cyberattacks by preventing lateral movement — regardless of architecture, size, or complexity. \n \n\nIllumio Endpoint extends Zero Trust Segmentation to endpoint devices. Illumio Endpoint is flexible enough to handle dynamic work-from-home settings without impacting endpoint performance. It also prevents unnecessary communication from end-user devices to other endpoints or the data center to further reduce your attack surface. \n\nKey features:  \n\n- Apply dynamic segmentation policies based on context, automatically changing if the device moves from the corporate environment to being on the go or at home. \n- Prevent the spread of ransomware between endpoints by blocking all but necessary communication among laptops, VDIs and workstations. \n- Gain complete visibility and control of both endpoints and server workloads in one single map. \n\n\nIllumio Government Cloud is an easy, fast, and proven Zero Trust Segmentation solution that uses a lightweight agent known as the Virtual Enforcement Node (VEN). The VEN is a local component of Illumio Government Cloud and is installed on each workload within a customer’s environment. It provides workload information and enforces policy rules by managing Linux iptables or Windows Filtering Platform (WFP) policies. The VEN is included in the Illumio Government Cloud FedRAMP package.",
+    "certificationType": "Rev5",
+    "website": "https://www.illumio.com/solutions/government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Illumio%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@illumio.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federalsales@illumio.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

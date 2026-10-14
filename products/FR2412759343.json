@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2412759343",
+    "providerName": "Cisco Systems Inc.",
+    "serviceName": "Cisco Federal Operational Stack (Fed Ops Stack)",
+    "serviceAcronym": "Cisco Federal Operational Stack (Fed Ops Stack)",
+    "serviceDescription": "The Cisco Federal Operational Security Stack (Fed Ops Stack) is Cisco's management plane as-a-service for use exclusively by Cisco’s Federal Cloud Service Offerings. Fed Ops Stack, hosted within AWS GovCloud, provides a FedRAMP-compliant standardized set of security and management tools and processes including vulnerability management, identity and access management, incident monitoring, configuration drift monitoring, and continuous monitoring (ConMon).\n\nThese core tools and services provide secure, foundational capabilities covering a large portion of the FedRAMP Moderate level required security controls from the following domains:\n•\tAccess Control (AC)\n•\tIdentification and Authentication (IA)\n•\tAudit and Accountability (AU)\n•\tConfiguration Management (CM)\n•\tRisk Assessment (RA)\n•\tSystems and Communication Protection (SC)\n•\tSystem and Information Integrity (SI)\n\nCisco’s FedRAMP cloud service offers are able to utilize Fed Ops Stack as a shared service and inherit the capabilities and controls providing increased security compliance and operational efficiencies.",
+    "certificationType": "Rev5",
+    "website": "https://www.cisco.com/c/en/us/solutions/industries/government/federal-government-solutions.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cisco%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cbelloli@cisco.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "cbelloli@cisco.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

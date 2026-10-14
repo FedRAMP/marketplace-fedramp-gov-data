@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2502963317",
+    "providerName": "HP Inc.",
+    "serviceName": "HP Managed Services for Government",
+    "serviceAcronym": "HP Managed Services for Government",
+    "serviceDescription": "HP Managed Services for Government delivers a flexible SaaS solution that integrates a suite of services, hardware, and supplies to deliver a comprehensive, end-to-end Print and PC managed solution. The cloud-based centralized service management approach for devices enables agencies to securely share information and data across teams, tasks, and workplaces, while HP fully manages the technology stack to ensure the confidentiality, integrity, and availability of agency data throughout the HP Managed Services platform.\n\nThe HP Managed Print Services (MPS) solution provides agencies with a centralized service to support their fleet of printers including capability to:  request, manage and dispatch service requests; provide continual maintenance including firmware updates; automate consumable print supply provisioning, and view the fleet for usage, security, and optimization characteristics.\n\nThe HP Managed Device Services (MDS) solution provides agencies Asset Management support of their PC fleet and accessories as a total device management solution across locations with a holistic view of PC asset information in the cloud.\nThe HP Federal Services portal offers the ability to manage service requests throughout the request life cycle.",
+    "certificationType": "Rev5",
+    "website": "https://reinvent.hp.com/us_gov-sales-specialist",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/HP%20Logo.png",
+    "ueiNumber": "SMLNZ8X9SHE7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedrampsecurity@hp.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@hp.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

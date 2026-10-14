@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2134635186",
+    "providerName": "Synack",
+    "serviceName": "On-Demand Security Testing Platform",
+    "serviceAcronym": "On-Demand Security Testing Platform",
+    "serviceDescription": "The Synack Platform is a multi-tenant SaaS that delivers continuous security testing, vulnerability management and a managed Vulnerability Disclosure Program (VDP) supported by a network of vetted security researchers. Synack's security testing products include on-demand penetration testing of web, host, cloud, APIs, LLM (AI) and mobile assets – covering both internal and external assets for most federal use cases. \n\nSynack Platform users are able to identify the total amount of vulnerabilities found, get analysis on which are most severe, review stats from testing performed and receive patch efficacy data - providing observability data that can then be correlated with SOC workflows. Synack enables efficient remediation, helping security leaders identify the root cause of vulnerabilities so they can prioritize and eliminate them. Synack combines human and automated test findings with compliance checklists to enhance security posture and provide audit-ready reports that can help meet compliance, including FISMA/NIST 800-53 and BOD 20-01. Synack365, a popular offering on the Synack platform, provides around-the-clock security testing 365 days a year.",
+    "certificationType": "Rev5",
+    "website": "https://www.synack.com/platform/fedramp/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Synack%20Logo.png",
+    "ueiNumber": "EDRWE6PRKL85"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@synack.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@synack.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

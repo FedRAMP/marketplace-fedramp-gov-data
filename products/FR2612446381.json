@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2612446381",
+    "providerName": "Ripcord",
+    "serviceName": "Canopy",
+    "serviceAcronym": "Canopy",
+    "serviceDescription": "Canopy is Ripcord's multi-tenant, Government-Only Software-as-a-Service offering for Federal Government Agencies that require Digitization-as-a-Service capabilities. It is a document intelligence platform that uses secure orchestration and workflow processing, robotics, OCR/ICR and image analysis, Google Gemini large language models, custom machine-learning models, business rules, and agent-in-the-loop quality assurance to digitize, classify, extract, validate, and deliver data from structured and unstructured documents. Canopy is deployed as a managed application tenant on stackArmor's The Armory General Support System.",
+    "certificationType": "Rev5",
+    "website": "https://www.ripcord.com/platform",
+    "logo": "https://blog.ripcord.com/hubfs/Press%20Releases/Ripcord%20Standard%20PR%20Image.png",
+    "ueiNumber": "ZL1AZGNUURR8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://info.ripcord.com/hubfs/fedramp-certification-overview-package-canopy.json",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "rctshiteya@stackarmor.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@vastec.com"
+    }
+  ],
+  "assessor": {
+    "name": "137046",
+    "assessorID": "137046"
+  }
+}

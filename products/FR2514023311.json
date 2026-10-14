@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2514023311",
+    "providerName": "Trenchant Analytics",
+    "serviceName": "AI for Federal Acquisitions (ACQBOT)",
+    "serviceAcronym": "AI for Federal Acquisitions (ACQBOT)",
+    "serviceDescription": "ACQBOT is delivered as a SaaS offering using a multi-tenant Government Only Community cloud computing environment. It is available to DoD, federal, state, local, and tribal governments, as well as research institutions, federal contractors, and other government contractors. The system is a browser-based application with no components that need to be installed on the customer site and no mobile app. ACQBOT uses the latest Large Language Model (LLM) generative capabilities paired with intuitive workflows and Robotic Process Automation (RPA) to connect a government AI-Powered acquisition system with an industry AI-Powered proposal platform. The coupled capabilities enhance the extensive user requirement development, market research, Sources Sought, RFI, determination of set-aside, solicitation, award, and contracting processes and shorten them to days or hours.",
+    "certificationType": "Rev5",
+    "website": "https://acqbot.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/ACQBOT%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securitycompliance@tacgov.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "apps@tacgov.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2633058240",
+    "providerName": "Ultra Security, Inc.",
+    "serviceName": "Ultra Agentic Security Platform",
+    "serviceAcronym": "Ultra Agentic Security Platform",
+    "serviceDescription": "Ultra is an agentic security platform that secures AI agents and their tool use at runtime. A customer-deployed enforcement point sits inline — authenticating, proxying, and governing every agent and Model Context Protocol (MCP) tool call — while Ultra Hub delivers centralized identity, policy, guardrails, and observability across the agent runtime. Together they give organizations autonomous-runtime security: real-time visibility and control over what AI agents can access and do, so agentic AI can be deployed and scaled safely.",
+    "certificationType": "Rev5",
+    "website": "https://ultra.security",
+    "logo": "https://ultra.security/images/ultra-logo-lockup-dark.svg",
+    "ueiNumber": "CSF7MCSGCEA7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.ultra.security",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@ultra.security"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "support@ultra.security"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

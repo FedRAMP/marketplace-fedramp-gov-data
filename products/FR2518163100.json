@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2518163100",
+    "providerName": "Cisco",
+    "serviceName": "Spaces for Government",
+    "serviceAcronym": "Spaces for Government",
+    "serviceDescription": "Cisco Spaces for Government (formerly DNA Spaces) uses MAC address-based location data to gain insights into the behavior of end user devices and network connected objects in any place with wireless connectivity, allowing customers to make informed business decisions, optimize operations, and improve experiences. Spaces brings together multiple location-based service capabilities in a unified platform and user interface (the service). Cisco Spaces for Government enterprises operating in the physical world have limited to no visibility into the behavior of people and connected assets within their buildings. Cisco Spaces for Government solves this physical blind spot problem by sensing location intelligence from all underlying Cisco wireless network and translating it into business ready insights.",
+    "certificationType": "Rev5",
+    "website": "https://www.cisco.com/c/en/us/solutions/enterprise-networks/dna-spaces/index.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Spaces%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cisco-fedramp@cisco.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "cisco-fedramp@cisco.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

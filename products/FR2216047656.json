@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2216047656",
+    "providerName": "Rapid7",
+    "serviceName": "InsightCloudSec for Government",
+    "serviceAcronym": "InsightCloudSec for Government",
+    "serviceDescription": "The Rapid7 InsightCloudSec for Government has capabilities to assess customers’ cloud environments for security misconfigurations, vulnerabilities and identity risk while providing accelerated methods to remediate and response by interacting with customer environments and cloud service providers.\n\nInsightCloudSec for Government is a cloud risk & compliance management platform that enables you to securely accelerate cloud adoption while maintaining compliance and zero trust best practices throughout the entire software development lifecycle.\n\nInsightCloudSec for Government helps teams protect even the most complex multi-cloud and container environments from misconfigurations, policy violations, threats, and identity and access management (IAM) challenges. The solution features automated, real-time remediation in order to help customers more quickly respond to security or compliance risks.",
+    "certificationType": "Rev5",
+    "website": "https://www.rapid7.com/products/insightcloudsec/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Rapid7%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "Security@Rapid7.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "FedRAMP@rapid7.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

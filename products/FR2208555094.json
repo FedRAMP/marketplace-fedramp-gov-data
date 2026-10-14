@@ -1,0 +1,34 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2208555094",
+    "providerName": "UberEther",
+    "serviceName": "IAM Advantage",
+    "serviceAcronym": "IAM Advantage",
+    "serviceDescription": "UberEther Advantage\n\nThe UberEther Advantage platform offers a highly secure and easy-to-deploy boundary platform with FedRAMP High and DoD IL5 authorizations based on NIST 800-53 Revision 5 security control requirements. The platform includes two main solutions within the authorization boundary:\n•        ATO Advantage: An empty boundary platform designed to accelerate FedRAMP and DoD authorization for agency solutions and third-party software products.\n•        IAM Advantage: A comprehensive identity and access management (IAM) solution equipped with pre-installed, configured, and optimized IAM tools.\n\nATO Advantage\nATO Advantage provides a Platform as a Service approach to satisfy over 355 of the required 425+ technical controls out-of-the-box, which are then inherited by third-party applications when deployed on the platform. This includes the preparation of required documentation and artifacts such as the System Security Plan (SSP) and automated POA&M reports. The platform can help agencies and software vendors deliver their solutions securely at the speed of need.\n\nIAM Advantage\nIAM Advantage delivers an end-to-end identity management solution integrating leading identity and access management products. This includes support for seamless single sign-on (SSO), multiple NIST 800-63 multi-factor authentication options, privileged user management, and separation of duties enforcement. The platform ensures compliance with Continuous Diagnostics and Mitigation (CDM) and EO 14028 requirements.\n\nServices:\n•        AppGate Software Defined Perimeter\n•        CyberArk Central Policy Manager\n•        CyberArk Digital Vault\n•        CyberArk OnDemand Privileged Manager\n•        CyberArk Password Vault Web Access\n•        CyberArk Privileged Access Management\n•        CyberArk Privileged Session Manager\n•        CyberArk Privileged Threat Analytics\n•         Ping Identity PingAM (formerly ForgeRock Access Management)\n•         Ping Identity PingDS (formerly ForgeRock Directory Services)\n•         Ping Identity PingGateway (formerly ForgeRock Identity Gateway)\n•        Ping Identity Ping IDM (formerly ForgeRock Identity Management)\n•        Nok Nok - Phishing Resistant S3 Authentication Suite\n•        OpenSearch & Dashboards (SIEM & User Behavior Analytics)\n•        Ping Identity Ping Government Identity Cloud\n•       Ping Identity  PingAccess\n•        Ping Identity PingAuthorize\n•        Ping Identity PingCentral\n•        Ping Identity PingDirectory\n•        Ping Identity PingFederate\n•        Ping Identity Ping MFA for Government\n•        Radiant Logic RadiantOne Data Management\n•        Sailpoint IdentityIQ (IIQ)\n•        Tenable Enclave Security\n•        Tenable Cloud Security\n•        Delinea Secret Server",
+    "certificationType": "Rev5",
+    "website": "https://uberether.com/iam-advantage/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/UberEther%20Logo.png",
+    "ueiNumber": "TBQ8EKVY9CG4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-security@uberether.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@uberether.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

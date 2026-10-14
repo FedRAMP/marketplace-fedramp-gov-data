@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2633058235",
+    "providerName": "Emburse",
+    "serviceName": "Emburse Enterprise",
+    "serviceAcronym": "Emburse Enterprise",
+    "serviceDescription": "Emburse Enterprise is a cloud-based SaaS solution that enables organizations to manage employee expense reporting, approval, and reimbursement workflows. For federal agency use, the solution is designed to enable authorized users to submit, review, approve, and administer business expenses in accordance with applicable organizational travel and expense policies. Potential users within a federal agency may include employees, expense approvers, finance and administrative personnel, and authorized system administrators.",
+    "certificationType": "Rev5",
+    "website": "https://www.emburse.com/",
+    "logo": "https://www.emburse.com/images/emburse-logo-dark.svg",
+    "ueiNumber": "LVF6SRG7MUY4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.emburse.com/",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-security@emburse.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "publicsector@emburse.com"
+    }
+  ]
+}

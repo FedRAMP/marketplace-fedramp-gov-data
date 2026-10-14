@@ -1,0 +1,40 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2633841585",
+    "providerName": "Silkline.ai",
+    "serviceName": "Silkline",
+    "serviceAcronym": "Silkline",
+    "serviceDescription": "Silkline is a supply chain and procurement platform that enables collaboration on quotes, orders, parts management, and production workflows.",
+    "certificationType": "Rev5",
+    "website": "https://silkline.ai",
+    "logo": "https://app.silkline.ai/silkline_logo_full_navy.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/silkline/silkline-ai",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@silkline.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "growth@silkline.ai"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

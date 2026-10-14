@@ -1,0 +1,34 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1306282198A",
+    "providerName": "Pegasystems",
+    "serviceName": "Pega Cloud for Government",
+    "serviceAcronym": "Pega Cloud for Government",
+    "serviceDescription": "Pega Cloud for Government is a fully managed cloud designed specifically for US Government Agencies. It provides the tools, environments, and operational support necessary to enable applications to scale with consistent performance while meeting strict FedRAMP security standards. Pega Government Platform (PGP) is a no-code application development solution, allowing Government users to collaboratively build applications together with model-based design, ensuring the final solution meets end-user needs. The agile, secure, unified solution gives agencies a tool for transformation without having to “rip and replace” existing systems. Pega Cloud for Government (PCFG) is an authorized FedRAMP High cloud service provider utilizing AWS GovCloud as an IaaS.",
+    "certificationType": "Rev5",
+    "website": "https://www.pega.com/industries/government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/PEGA%20Logo.png",
+    "ueiNumber": "ZLJNJG6DRZJ5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "PCFGSecurity@pega.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "pcfginfo@pega.com"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

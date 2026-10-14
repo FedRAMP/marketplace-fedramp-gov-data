@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2301844932",
+    "providerName": "Orca Security",
+    "serviceName": "Orca Cloud Security Platform",
+    "serviceAcronym": "Orca Cloud Security Platform",
+    "serviceDescription": "Orca Security provides an agentless Cloud Security Platform that discovers all cloud assets, and identifies, prioritizes, and remediates risks and compliance issues across your cloud environments in AWS GovCloud, AWS US East/West and Azure Government. The platform detects cloud risks, including vulnerabilities, malware, misconfigurations, API risks, lateral movement risks, weak and leaked passwords, and overly permissive identities. Orca deploys in minutes, provides visibility into all your assets, and automatically includes new assets as they are added. The Orca Platform helps federal agencies and contractors achieve regulatory compliance with over 65 out-of-the-box frameworks, CIS Benchmarks, and custom compliance checks. Leveraging a Unified Data Model, Orca performs contextual analysis of all the risks in your cloud estate, uncovering potential attack paths (with references to the MITRE ATT&CK framework), enabling rapid identification of which risks present the highest danger to mission data and security objectives.",
+    "certificationType": "Rev5",
+    "website": "https://app.orcasecurity-gov.io",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Orca%20Logo.png",
+    "ueiNumber": "DY2ZFKCSRFY6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@orca.security"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedrampsales@orca.security"
+    }
+  ],
+  "assessor": {
+    "name": "201664",
+    "assessorID": "201664"
+  }
+}

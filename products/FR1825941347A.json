@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1825941347A",
+    "providerName": "Zoom Video Communications, LLC",
+    "serviceName": "Zoom for Government",
+    "serviceAcronym": "Zoom for Government",
+    "serviceDescription": "The Zoom for Government Platform is a Zoom product offering for the US Federal, and US Department of Defense communities. The Zoom for Government Platform is an all-in-one collaboration platform that makes connecting easier, more immersive, and more dynamic for people and businesses. \n Zoom for Government FedRAMP JAB authorized products include:\n- Zoom Cloud Video Conferencing - a cloud-based collaboration service which includes video, audio, content sharing webinars and collaboration.\n-Zoom Events - is a versatile platform that allows customers to create a variety of engaging virtual experiences for attendees. Events allow for users to manage their own branded event hub, track ticketing and registration, control user access from one dashboard, and allow networking during Zoom Events.\n- Zoom Rooms - software-based group video conferencing for conference and huddle rooms that run off-the-shelf hardware including a dedicated MAC or PC, camera, and speaker with an iPad controller.\n- Zoom Whiteboard - provides customers with a set of easy-to-use tools to collaborate together to capture ideas, processes, and concepts. With features focused on fostering innovation, Zoom Whiteboard makes it simple for hybrid teams to interact in new ways for seamless collaboration.\n- Workspace Reservation - is a solution that enables customers to reserve flexible workspaces ahead of time or when they arrive at the office.  Feature is enabled by the customer admin via the Zoom administrative portal and available workspaces are managed in the Room Management service.\n- Zoom Mesh - is a native client-based Mesh (eCDN) solution for Zoom Webinars and Events, that allows organizations to better manage how their users receive Webinar and Event media streams. It is all built within the existing Zoom for Government Client, subscribing to Zoom Mesh activates the ability of the Zoom for Government client to allow Mesh through customer designated client for meetings and Webinars. No transport or encryption is changed in the Mesh client communication with the Zoom for Government security boundary.\n- Continuous Meeting Chat allows meeting participants to communicate before, during, and after a meeting by creating a dedicated group chat in Zoom Team Chat for all meeting participants. When enabled, in-meeting chats will show up in that group chat as they are sent in the meeting, allowing meeting conversations to continue after a meeting ends. Schedule a recurring meeting and have a group chat that follows the group for the entire project, in and out of meetings.\n- AI Companion for ZfG, Zoom for Government’s generative AI assistant, empowers individuals by helping them be more productive, connect and collaborate with teammates, and improve their skills. AI Companion for ZfG is a set of generative AI features that can be enabled within the Zoom for Government platform.\n- Zoom Team Chat - send chat messages in public or private channels organized by projects, teams, or topics with the ability to share files, emojis, screenshots, and more.\n- Zoom Phone - a cloud-based phone system with traditional PBX features, integrated PSTN connectivity, enhanced emergency services, and support for calling from mobile apps, desktop apps, and legacy desk phone devices.\n- Zoom Contact Center (ZCC) - is an omnichannel contact center that's optimized for video and integrated into the same Zoom experience. Zoom Contact Center brings unified communications together with contact center capabilities. ZCC builds off the FedRAMP Authorized service Zoom Phone. ZCC is administered in the Zoom for Government administrative portal.\n- Zoom API - provides the ability for developers to easily add Video, Voice and Screen Sharing to your application. Our API is a server-side implementation designed around REST. The Zoom API helps manage the pre-meeting experience such as creating, editing, and deleting resources like users, meetings, and webinars.\n- The Zoom Meeting SDK - lets you display the familiar Zoom meeting and webinar experience in your app or website. The Meeting SDK interface resembles the Zoom client, except that it lives inside your own app or website.\n- Zoom Client - a local client that allows users to start/join a meeting, employ in-meeting controls for participants, hosts, and co-hosts, webinar controls, manage participants, share screen controls, chat, establish channels, add contacts, and modify settings.\n- The Zoom for Chrome PWA - allows customers to use FedRAMP authorized services Chat and Phone- , currently available on the desktop client or mobile app, within the Chrome web browser. \n- QSS - enables enterprise organizations to identify, troubleshoot, and resolve network and service disruptions in near real time for every user, host, and participant across Zoom Meetings, Webinars, & Phone (all FedRAMP authorized services) within their enterprise subscription. The change introduces a new Webhook API to the boundary to transfer this information over TLS 1.2 to customer owned tooling.",
+    "certificationType": "Rev5",
+    "website": "https://www.zoomgov.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Zoom%20Logo.png",
+    "ueiNumber": "N111LGYXDUM7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "zfgcompliance@zoom.us"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@zoom.us"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2215946050",
+    "providerName": "OpenText",
+    "serviceName": "ITMX Platform featuring Service & Asset Management, Universal Discovery, CMDB and Project & Portfolio Management",
+    "serviceAcronym": "ITMX Platform featuring Service & Asset Management, Universal Discovery, CMDB and Project & Portfolio Management",
+    "serviceDescription": "OpenText provides the most complete and integrated Information Management platform, allowing companies to organize, integrate and protect data and content as it flows through business processes inside and outside the organization. The OpenText IT Management Platform (ITMX) offers Service & Asset Management (ITSM, ITAM), Universal Discovery & CMDB, and Project & Portfolio Management (PPM) in AWS GovCloud.\n\n- ITSM – Empower users with a modern self-service experience and boost IT efficiency with codeless configurations, built-in AI, and advanced automation.\n\n- ITAM – Govern your IT assets across their lifecycles. Procurement, financial, vendor, and contract management processes are included in one centralized platform.\n- Discovery and CMDB – Discover, map, and manage your hybrid IT configurations—on cloud or off. Service dependency mapping and proactive impact analysis improve your IT visibility and reduce service disruptions.\n\n- PPM – Drive business value through comprehensive strategic portfolio management and investment optimization, while ensuring projects are on time, in budget and satisfy goals. A strong workflow engine and what-if analysis scenario planning power this strategic portfolio and project management tool.\n\nHosted in the FedRAMP compliant Amazon Web Services (AWS) cloud, these services are fully configurable and scalable, and the service include integrations, and updates to the latest release.",
+    "certificationType": "Rev5",
+    "website": "https://www.opentext.com/products/observability-service-management-cloud",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/OpenText%20Logo2.jpg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@opentext.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "uspublicsectorsales@opentext.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

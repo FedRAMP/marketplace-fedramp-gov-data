@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2621650811",
+    "providerName": "Consus Industries, Inc.",
+    "serviceName": "Consus Gateway",
+    "serviceAcronym": "Consus Gateway",
+    "serviceDescription": "Consus Gateway is delivered as a Software as a Service (SaaS) offering using a multi-tenant Government-Only Community Cloud computing environment. It is available to federal contractors and other organizations eligible to consume services hosted in AWS GovCloud (US), GCP Assured Workloads, and Azure Government. The CSO is an OpenAI-compatible AI model routing service: customer applications submit requests to a single API endpoint, and the gateway routes each request to the appropriate large-language-model (LLM) provider hosted within a FedRAMP-authorized cloud environment (AWS Bedrock, GCP Vertex AI, or Azure OpenAI Service). The system is designed with a zero-persistence architecture: prompt and response content are processed entirely in ephemeral AWS Lambda memory and are never written to disk, logged, or stored in any persistent data store. The only persistent records are operational metadata (request identifier, API key identifier, timestamp, model name, token counts, latency, source IP) used for billing, accountability, and continuous monitoring. The intended user base is United States federal agencies and US-person contractor organizations supporting federal missions.",
+    "certificationType": "Rev5",
+    "website": "https://consus.io",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Consus%20Logo2.png",
+    "ueiNumber": "MWP8JNZA4BR9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@consusindustries.co"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@consusindustries.co"
+    }
+  ],
+  "assessor": {
+    "name": "201722",
+    "assessorID": "201722"
+  }
+}

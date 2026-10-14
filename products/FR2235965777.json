@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2235965777",
+    "providerName": "Mark43, Inc.",
+    "serviceName": "Mark43 Public Safety Platform (PSP)",
+    "serviceAcronym": "Mark43 Public Safety Platform (PSP)",
+    "serviceDescription": "Mark43 provides a cloud-native public safety operations platform that supports end-to-end law enforcement and emergency response workflows, from call intake and dispatch through reporting, investigation, and operational analysis. The platform delivers integrated Computer-Aided Dispatch (CAD), Records Management System (RMS), mobile, analytics, and supporting services through a unified, web-based and mobile-accessible environment. \r\nThe Mark43 platform enables agencies to operate efficiently across desktop, mobile data terminals (MDT), and mobile devices, providing real-time access to operational data and workflows. The system is designed to be scalable and maintenance-free, supporting secure information sharing and collaboration across public safety teams. \r\nMark43 RMS is a law enforcement Records Management System supporting incident and field reporting, arrests, records management, property and evidence tracking, and case management. It enables officers to complete reports from any location using intuitive workflows, real-time data access, and built-in support for standardized reporting requirements, including NIBRS. \r\nMark43 CAD is a cloud-native, multi-discipline Computer-Aided Dispatch system supporting law enforcement, fire, and EMS operations. It unifies call intake, dispatch recommendations, and unit coordination, and provides desktop, MDT, and mobile interfaces for dispatchers and responders. The system incorporates predictive analysis, automated response planning, and human-in-the-loop automation to support consistent execution and reduce operational errors. \r\nMark43 OnScene (Mobile) is a mobile application available on Android and iOS devices that enables responders to remain connected to dispatch teams while in the field. It provides situational awareness, officer-based GPS tracking, and mobile reporting capabilities to support rapid response, officer safety, and continued field presence. \r\nMark43 Insights & Data Lake provide analytics and reporting capabilities that enable agencies to analyze operational and historical data. The Data Lake is a secure, cloud-based replicated database that supports advanced analytics and integration with agency business intelligence tools. \r\nMark43 ReportAI is an AI-assisted report drafting capability embedded within Mark43 RMS. It uses structured report data, officer notes, and optional Body-Worn Camera (BWC) transcriptions to generate draft narrative content, supporting faster and more consistent report completion while maintaining officer review and control. \r\nMark43 BriefAI provides AI-assisted summarization of reports and case data, enabling users to quickly generate standardized summaries to support case assignment and investigation workflows. \r\nMark43 eCitations is a mobile-first citation solution that enables officers to capture, issue, print, and submit citations from a single application. It supports license and VIN scanning, DMV and NCIC queries, and offline operation when network connectivity is unavailable. \r\nMark43 Fortified provides security and compliance monitoring capabilities, including real-time detection of security, compliance, and data misuse risks, prioritized alerts, and guided remediation workflows, enabling agencies to maintain visibility into their security posture. \r\nMark43 Universal Search enables users to search across data within the Mark43 platform and supported external databases through a single unified interface, returning consolidated results without leaving the system.",
+    "certificationType": "Rev5",
+    "website": "https://mark43.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Mark43%20Logo3.png",
+    "ueiNumber": "YLDGC3H3GW43"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security-helpdesk@mark43.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Federal@Mark43.com"
+    }
+  ],
+  "assessor": {
+    "name": "137255",
+    "assessorID": "137255"
+  }
+}

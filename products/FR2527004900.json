@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2527004900",
+    "providerName": "RChilli Inc.",
+    "serviceName": "RChilli Resume Parser (RRP)",
+    "serviceAcronym": "RChilli Resume Parser (RRP)",
+    "serviceDescription": "RChilli's Resume Parser (RRP) is a PaaS offering a multi-tenant \ncloud computing environment that streamlines and enhances \nrecruitment processes by providing detailed analysis of resumes, \nJDs, etc. This tool extracts and organizes key information, enabling \nenterprises to improve their operations and engagement strategies to \nrun the recruitment processes cost efficiently and effectively.",
+    "certificationType": "Rev5",
+    "website": "https://www.rchilli.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/RChilli%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "jitender@rchilli.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "vinay@rchilli.com"
+    }
+  ],
+  "assessor": {
+    "name": "201591",
+    "assessorID": "201591"
+  }
+}

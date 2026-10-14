@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2310956122",
+    "providerName": "Cyware Labs, Inc.",
+    "serviceName": "Cyware Cyber Fusion Center (CFC)",
+    "serviceAcronym": "Cyware Cyber Fusion Center (CFC)",
+    "serviceDescription": "Cyware Labs, Inc. (Cyware) Cyber Fusion Center (CFC) is an offering of full-stack Cyber\r\nsecurity solutions for strategic, tactical, and operational intelligence sharing and threat\r\nresponse automation as well as orchestration services. Cyware Labs, Inc, Cyber Fusion Center (CFC) - Modules are -\r\n\r\n1. CFC Threat Intel Exchange (CTIX) includes Threat Intelligence Platform (TIP)\r\n2. CFC Collaborate (CSAP)\r\n3. CFC Respond (CFTR)\r\n4. CFC Orchestrate (CO)\r\n\r\nCFC Collaborate (CSAP): A mobile-enabled automated alert aggregation, dissemination, and strategic threat intelligence sharing platform for real-time situational awareness and enhanced collaboration between an organization’s security teams. Features include machine-to-machine orchestration, machine-to-human, orchestration, human-to-machine orchestration, role, location, and business alignment-based alerting, Cyware alerts, mobile-enabled intel sharing, macro intel ingestion, and crisis notifications.\r\n\r\nCFC Threat Intel Exchange (CTIX): A smart, client-server threat intelligence\r\nplatform (TIP) for ingestion, enrichment, analysis, and bi-directional sharing of threat data\r\nwithin an organization’s trusted network. Features include any-to-any threat feed\r\norchestration, micro threat intel ingestion, a hub & spoke sharing model, enrichment,\r\ncorrelation, and analysis of data, internal intel ingestion, automated intel actioning, and a\r\nmulti-level intel view.\r\n\r\nCFC Respond (CFTR): A threat response automation platform that combines cyber fusion, advanced orchestration, and automation to stay ahead of increasingly sophisticated cyber threats affecting organizations in real-time. Features include malware management, a connect-the-dots threat analysis, incident response & management, triage management, threat actor tracking engine, vulnerability management, custom dashboards and reports, and a case management workflow.\r\n\r\nCFC Orchestrate (CO): A universal, security orchestration gateway for executing on-demand or event-triggered tasks across deployment environments. Features include flexible API, system playbooks, powerful customization, audit playbook extensions, the ability to export and import logic, nested playbooks, and granular access control.",
+    "certificationType": "Rev5",
+    "website": "https://www.cyware.com/products/government-agencies-public-sector",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cyware%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "grc@cyware.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@cyware.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

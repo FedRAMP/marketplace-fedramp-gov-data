@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2316433331",
+    "providerName": "USU Solutions Inc.",
+    "serviceName": "USU IT Asset Management",
+    "serviceAcronym": "USU IT Asset Management",
+    "serviceDescription": "USU IT Asset Management (CCITAMS) is an IT asset management tool. The solution supports both hardware and software, virtual or physical assets, on-premises or in the cloud. For each asset, CC IT Asset Management System contains business information such as product, item, procurement and maintenance contracts and costs; technical data such as type of asset, inventory number, and tickets relating to the incident, problem, or change management; and organizational data including the people responsible for each asset or who use the asset.\r\n\r\nIn addition, CCITAMS system leverages IT-CNP, Inc GovDataHosting Cloud Platform (GCP) Network infrastructure and support services. CCITAMS inherits and shares controls from the hosting FedRAMP certified Cloud Service Provider, IT-CNP GovDataHosting Cloud Platform (GCP). IT-CNP’s GCP CSP offering has been FedRAMP Authorized since 4/3/2019, Package ID F1303221956.  \r\n\r\nIT-CNP’s GCP certified support personnel manage the underlying components of cloud datacenter infrastructure (physical security, redundant power/cooling, network, storage, physical  hypervisor servers, access/authentication, operating system, backup, disaster recovery and security compliance). \r\n\r\nIT-CNP personnel manage the security and continuous monitoring infrastructure software components on each CCITAMS virtual server, including antivirus/anti-malware and Log Aggregation agents. In addition to technical tasking, for CCITAMS, IT-CNP manages all security compliance related tasking on behalf of CCITAMS, including system hardening, system security compliance documentation, periodic tasking activities and disaster recovery services in support of CCITAMS Authorization to Operate (ATO).",
+    "certificationType": "Rev5",
+    "website": "https://www.usu.com/en/it-asset-management/itam-for-government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/USU%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@usu.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "infous@usu.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

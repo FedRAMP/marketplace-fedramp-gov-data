@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2203732438",
+    "providerName": "OpenText",
+    "serviceName": "OpenText Cloud for Government",
+    "serviceAcronym": "OpenText Cloud for Government",
+    "serviceDescription": "OpenText Cloud for Government is a secure, scalable, cloud environment designed for the unique requirements of FedRAMP compliance. US federal agencies and entities requiring FedRAMP certification can use OpenText Cloud for Government to enable their digital transformation and cloud first initiatives as they move Information Management workloads to the cloud. The following OpenText applications are delivered as a service designed with a FedRAMP moderate level security control framework:\n\n - OpenText™ Content Management (Extended ECM) for Government - Enterprise Content Services that link the digital workplace and applications that power ERP, HCM, BPM and CRM business processes to drive operational excellence and govern unstructured content.\n\n - OpenText™ Process Automation for Government - Low-code development platform for building engaging process automation and dynamic case management applications. Fully integrated with OpenText™ Content Management (Extended ECM) for Government, OpenText™ Process Automation for Government helps re-engineer business processes around customer, employee and partner needs to deliver seamless digital experiences and adapt to changing market expectations while improving efficiency and managing risk.",
+    "certificationType": "Rev5",
+    "website": "https://www.opentext.com/products/content-management-for-government#services-section",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/OpenText%20Logo2.jpg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@opentext.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "uspublicsectorsales@opentext.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2631258132",
+    "providerName": "Harness, Inc.",
+    "serviceName": "Harness for Government",
+    "serviceAcronym": "Harness for Government",
+    "serviceDescription": "Harness.io Software-as-a-Service (SaaS) is a fully managed, cloud-native software delivery platform that provides continuous integration, continuous delivery, security testing, and related DevSecOps capabilities using a cloud computing environment. It enables its customers to focus on building and shipping software instead of managing the underlying infrastructure supporting their delivery pipelines. It is available to public, federal, state, local and tribal governments, as well as research institutions, federal contractors, and government contractors. The Harness offering is comprised of two components - the SaaS Control Plane and the customer-deployed Harness Agents. The Control Plane is hosted in Amazon Web Services (AWS) GovCloud on Amazon Elastic Kubernetes Service, and is used by customers to configure, orchestrate, and monitor their pipelines and workloads. Customers deploy one or more Agents inside their own environment - such as their AWS GovCloud tenancy - to execute pipeline operations. The Agents initiate a single outbound HTTPS connection to the Harness Control Plane to receive task instructions; no inbound connection from the Control Plane into the customer's environment is required. All customer source code (unless using Harness Code), artifacts, and workload data remain within the customer's environment where the Agents operate, and no such customer data is transmitted to or retained in the Control Plane.",
+    "certificationType": "Rev5",
+    "website": "https://www.harness.io",
+    "logo": "https://cdn.prod.website-files.com/69e786e187c925d08ee02b90/69e786e187c925d08ee02bda_6222d7526cc398da63a4f639_nav-logo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/harness/harness-for-government",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@harnessgov.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@harness.io"
+    }
+  ]
+}

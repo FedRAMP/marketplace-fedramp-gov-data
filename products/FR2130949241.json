@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2130949241",
+    "providerName": "StackArmor",
+    "serviceName": "Rally",
+    "serviceAcronym": "Rally",
+    "serviceDescription": "Rally, hosted by stackArmor, helps US government agencies plan, manage, track their work with a focus on continuous improvement. It offers complete traceability from initial investment decisions to delivery. Developed by Broadcom, Rally provides unparalleled speed and scale to the largest enterprises, connecting deliverables with strategic roadmaps and financial plans. Rally helps align your teams to your Agency's strategic goals, providing executive visibility and the ability to deliver on a predictable cadence.\r\n\n\nRally provides the following capabilities:\n- Business Steering\n- Portfolio Planning and Execution\n- Cross-Team Planning and Execution\n- Team Planning and Execution\n- Continuous Improvement\n\nRally is hosted by stackArmor and distributed and supported by Carahsoft.",
+    "certificationType": "Rev5",
+    "website": "https://www.stackarmor.com/solutions/rally",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Rally%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-armory@stackarmor.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-rally@stackarmor.com"
+    }
+  ],
+  "assessor": {
+    "name": "137046",
+    "assessorID": "137046"
+  }
+}

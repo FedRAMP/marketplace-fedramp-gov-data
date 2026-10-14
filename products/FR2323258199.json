@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2323258199",
+    "providerName": "Cornerstone OnDemand, Inc.",
+    "serviceName": "Cornerstone Unified Talent Management Suite (CUTMS) – GovCloud",
+    "serviceAcronym": "Cornerstone Unified Talent Management Suite (CUTMS) – GovCloud",
+    "serviceDescription": "Cornerstone Unified Talent Management Suite is delivered as a SaaS offering using a multi-tenant Government-Only Cloud computing environment.  Cornerstone’s offering is designed to allow U.S. Federal, state, and local government customers, as well as U.S. government contractors to modernize learning and development, deliver relevant training content, and capture and develop skills to accelerate talent and career mobility for their people.  Cornerstone provides the following FedRAMP authorized services at the Moderate baseline: Learning Management, Performance Management and core HR (Compensation, Succession Planning and Reporting).",
+    "certificationType": "Rev5",
+    "website": "https://www.cornerstoneondemand.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cornerstone%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "itsecinfo@csod.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sdobberowsky@csod.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

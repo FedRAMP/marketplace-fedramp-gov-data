@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2633734932",
+    "providerName": "Skyward IT Solutions",
+    "serviceName": "Alira",
+    "serviceAcronym": "Alira",
+    "serviceDescription": "Alira is an AI-powered case management platform purpose-built for Freedom of Information Act (FOIA) processing and records disclosure workflows in federal agencies. Alira replaces manual, spreadsheet- and email-driven FOIA intake and processing with a single system of record that helps agency FOIA offices meet statutory response deadlines, apply exemptions consistently, and produce defensible, auditable release packages. Alira combines purpose-built case management with AI assistance for the most time-consuming parts of the FOIA lifecycle. Alira is designed for direct use by federal agency FOIA offices and their analysts, requesters, and program office contacts, and supports the full request lifecycle from intake through release.",
+    "certificationType": "Rev5",
+    "website": "https://alira.tech",
+    "logo": "https://trust.skywarditsolutions.com/alira.svg",
+    "ueiNumber": "JHH5NXX58DM4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.skywarditsolutions.com",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@alira.tech"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "foia@alira.tech"
+    }
+  ]
+}

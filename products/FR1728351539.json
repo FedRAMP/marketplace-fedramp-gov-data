@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1728351539",
+    "providerName": "MAXIMUS Inc.",
+    "serviceName": "Maximus Intelligent Virtual Assistant (MIVA) (formerly MIA)",
+    "serviceAcronym": "Maximus Intelligent Virtual Assistant (MIVA) (formerly MIA)",
+    "serviceDescription": "The Maximus Intelligent Virtual Assistant (MIVA) is a turn-key FedRAMP-authorized SaaS solution that replaces traditional touchtone and directed dialog speech IVRs at the front-end of contact centers. MIVA uses a combination of artificial intelligence (AI) and human understanding to interact conversationally with callers.\r\n\r\n \r\n\r\nMIVA applications are built to support government-specific requirements, including status updates for applications and accounts, call routing, and FAQs.  Callers can receive self-service information via voice, email, and text messages. MIVA integrates will all major call routing and telephony systems, and major carrier networks.",
+    "certificationType": "Rev5",
+    "website": "https://maximus.com/customer-experience/intelligent-virtual-assistant",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Maximus%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "MIVAInfoSec@maximus.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "MIVAInfoSec@maximus.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

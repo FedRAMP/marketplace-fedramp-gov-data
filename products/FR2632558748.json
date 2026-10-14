@@ -1,0 +1,36 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2632558748",
+    "providerName": "Baseten Labs, Inc.",
+    "serviceName": "Baseten Inference Platform",
+    "serviceAcronym": "Baseten Inference Platform",
+    "serviceDescription": "A cloud-based AI inference platform that provides managed model deployment, autoscaling, and serving infrastructure for production machine learning workloads.",
+    "certificationType": "Rev5",
+    "website": "https://www.baseten.co",
+    "logo": "https://www.baseten.co/brand/svg/Baseten_Logotype-9.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.baseten.co",
+      "repositoryDescription": "FedRAMP Trust Center",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@baseten.co"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-sales@baseten.co"
+    }
+  ]
+}

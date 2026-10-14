@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2405153785",
+    "providerName": "Google LLC",
+    "serviceName": "Google Cloud VMware Engine (GCVE)",
+    "serviceAcronym": "Google Cloud VMware Engine (GCVE)",
+    "serviceDescription": "Google Cloud VMware Engine (GCVE) is a managed VMware-as-a-Service offering purpose-built-for-VMware workloads which runs on Google Cloud Platform (GCP) and bare metal server deployments. GCVE enables enterprise customers to run VMware virtual machines natively in a dedicated, private software-defined data center (SDDC) within Google Cloud. The GCVE solution allows users to move their on-premises VMware components into a cloud environment without having to majorly disrupt workflows. The primary customer benefit is being able to use existing VMware workflows without having to worry about infrastructure or hiring VMware-adept personnel.\n\nGCVE deploys an entire customer VMware suite stack on Google Cloud Extension hardware. Google Cloud Extensions are colocation centers (COLOs) housing Google production spaces (GPSs) containing Google-owned hardware running GCVE services. This environment includes ESXi (hypervisor), vCenter (management), vSAN (software-defined storage platform), NSX Data Center (network virtualization and system security), and HCC (application migration and workload rebalancing).",
+    "certificationType": "Rev5",
+    "website": "https://cloud.google.com/vmware-engine",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Google%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp+gcve@google.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@google.com"
+    }
+  ],
+  "assessor": {
+    "name": "138514",
+    "assessorID": "138514"
+  }
+}

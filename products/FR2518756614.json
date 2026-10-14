@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2518756614",
+    "providerName": "Exostar",
+    "serviceName": "Managed Access Gateway with Managed Microsoft 365",
+    "serviceAcronym": "Managed Access Gateway with Managed Microsoft 365",
+    "serviceDescription": "Exostar's Managed Access Gateway (MAG) with Managed M365 (MM365) service (“MAG + MM365”) is comprised of two main services with additional service add-ons detailed below:\r\n\r\n \r\n\r\nMAG is Exostar’s comprehensive portal solution for registration, account management, and authentication as a means of providing controlled access to Exostar hosted applications and applications located within other enterprise domains. MAG allows enterprises to enable controlled access to information and applications. A standard deployment approach ensures that a single sign-on (SSO) federation infrastructure can be seamlessly extended to support integration with Exostar. \r\n\r\nThe MAG solution provides the following capabilities:\r\n\r\nOrganization Registration Workflows, including:\r\nOrganization account established with administrative assignments.\r\n“Subscription” based access to the customer’s (Service Provider) application(s).\r\nUser Registration Workflows, including:\r\nUser account enrollment with role assignment.\r\nDelegated approval\r\nAccount attributes management (account lifecycle).\r\nProvisioning Workflows, including:\r\nProvisioning of new organization and user account attributes to Service Provider (applications).\r\nPropagation of organization and user account changes to Service Provider (account lifecycle).\r\n \r\n\r\nManaged M365 (MM365) provides customer with a Microsoft Office 365 GCC High Teams subscription hosting Teams, Exchange, SharePoint, and OneDrive, with Exostar performing the administrative and authentication controls. The customer retains control of their user lists, adding and removing personnel as needed, while Exostar handles security monitoring and common account monitoring duties. Exostar also provides the basic management and monitoring functions for the subscription. Customers may engage services for single-tenant or multi-tenant services.\r\n\r\n \r\n\r\nAdditional services customers may subscribe to:\r\n\r\n \r\n\r\nExostar Managed Secure Desktop (EMSD) - EMSD provides an in-boundary, pre-hardened virtual desktop instance to allow customers to view and work with federal customer data in a compliant manner. Customers may engage services for single-tenant or multi-tenant services.\r\n\r\n \r\n\r\nCustomers of MAG can review user guides, including guides for the Organization Administrator which outline the secure configuration of the system, here: https://www.myexostar.com/knowledge-base/mag-training-resources/",
+    "certificationType": "Rev5",
+    "website": "https://www.exostar.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Exostar%20Logo.png",
+    "ueiNumber": "VA34K8JHV226"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "SecurityOffice@exostar.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Sales@exostar.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2207643307",
+    "providerName": "Wolters Kluwer",
+    "serviceName": "TeamMate FedRAMP",
+    "serviceAcronym": "TeamMate FedRAMP",
+    "serviceDescription": "TeamMate Audit and TeamMate Controls are two integrated solutions that support government agencies in managing audits and internal controls within a secure cloud environment. TeamMate Audit enables end-to-end audit planning, execution, issue tracking, and reporting, while TeamMate Controls supports the documentation, testing, and monitoring of internal controls and remediation activities. Together, they provide a centralized approach to audit and control management, helping agencies improve oversight, consistency, and risk management.",
+    "certificationType": "Rev5",
+    "website": "https://www.wolterskluwer.com/en/solutions/teammate/teammate-us-public-sector",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/WK%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "Security@teamcloudgov.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "TeamMate-FedRAMP@wolterskluwer.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

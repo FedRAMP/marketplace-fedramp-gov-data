@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2135040486",
+    "providerName": "HealthVerity",
+    "serviceName": "Privacy Preserving Records Linkage (PPRL)",
+    "serviceAcronym": "Privacy Preserving Records Linkage (PPRL)",
+    "serviceDescription": "The HealthVerity Privacy Preserving Record Linkage identity management solution is the leading SaaS solution that de-identifies and matches individuals at scale in a privacy-protecting fashion across multiple datasets with the highest level of accuracy. It acts as an honest broker service that permits centralized de-identified linkage of individual person-level records across systems, organizations, and settings over time. HealthVerity technology supports key applications that require the ability to create a unique anonymized identifier that can unify data across source systems while meeting privacy standards such as HIPAA. The solution can be implemented using either batch processing or real-time API-enabled record linkage to support multi-party data integration needs for applications and analytics.",
+    "certificationType": "Rev5",
+    "website": "https://healthverity.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/HealthVerity%20Logo.png",
+    "ueiNumber": "PGF2LY9481C7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@healthverity.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "GovCompliance@healthverity.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

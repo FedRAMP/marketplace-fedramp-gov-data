@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2611539908",
+    "providerName": "RegDOX Solutions",
+    "serviceName": "RegDOX Cloud Security Solutions",
+    "serviceAcronym": "RegDOX Cloud Security Solutions",
+    "serviceDescription": "RegDOX Cloud is delivered as a SaaS offering using a multi-tenant, \nAWS GovCloud hosted computing environment. It is available to \nfederal contractors, government contractors and subcontractors, and \nU.S.-based companies for compliance with ITAR and federal \nprocurement cyber-security regulations. \nRegDOX Cloud provides a secure collaboration platform designed \nspecifically for regulatory compliance and document management \nwithin the authorization boundary of this Cloud Service Offering. \n(CSO). The service is tailored to meet the needs of regulated \nindustries by facilitating secure document exchange and storage.\nServices included within the authorization boundary of RegDOX\nCloud:\n• Secure Document Management: RegDOX offers robust \ndocument storage and management capabilities, ensuring \ncompliance with regulatory requirements such as FedRAMP \nModerate.\n• Collaboration Tools: Users can securely collaborate on \ndocuments within a controlled environment, with features for \nversion control and audit trails.\n• Access Control: Granular access controls and permissions \nmanagement ensure only authorized personnel can view and \nmodify sensitive documents.\n• Encryption: Data is encrypted both in transit and at rest, \nproviding a secure environment for sensitive information.\n• Compliance Assurance: The platform supports compliance \nwith regulatory standards and frameworks, including \nFedRAMP requirements.\nIntended User Base: The RegDOX Cloud is designed for hybrid \nenvironments and Government-only community cloud environments. \nIt serves government agencies, contractors, and organizations \nrequiring robust document management and collaboration. security \nmeasures",
+    "certificationType": "Rev5",
+    "website": "https://www.regdox.com/regdox-cloud-products/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Regdox%20Logo.png",
+    "ueiNumber": "EEURWD6KXLE1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securityincident@gov.regdox.net"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Sales@regdox.com"
+    }
+  ],
+  "assessor": {
+    "name": "138665",
+    "assessorID": "138665"
+  }
+}

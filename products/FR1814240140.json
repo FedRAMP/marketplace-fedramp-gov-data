@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1814240140",
+    "providerName": "CircleCI",
+    "serviceName": "CircleCI Cloud",
+    "serviceAcronym": "CircleCI Cloud",
+    "serviceDescription": "CircleCI is a highly configurable and powerful continuous integration and delivery platform that helps software teams confidently and securely release code by automating the build, test, and deploy process. Our cloud offering removes operational overhead as we oversee the setup, security, and maintenance of your continuous integration instances. With easy setup and configuration-as-code, CircleCI removes bottlenecks, allowing teams to focus on building great things, instead of waiting for great things to build. By enabling shorter iteration cycles and immediate feedback, innovation happens faster. The platform helps developers and QA find bugs and get fixes out quickly. Operations teams use CircleCI to simplify their tool chains without having to manage additional plugins and services. Scale is where https://circleci.com really shines. We're proud to support our customers, from small startups to the largest enterprises and government agencies on earth.",
+    "certificationType": "Rev5",
+    "website": "https://circleci.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/CircleCi%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "compliance@circleci.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@circleci.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

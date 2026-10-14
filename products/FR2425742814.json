@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2425742814",
+    "providerName": "San Luis Aviation, Inc.",
+    "serviceName": "ESChat",
+    "serviceAcronym": "ESChat",
+    "serviceDescription": "ESChat for Government is a hardened version of the ESChat broadband communication, collaboration, and interoperability platform. ESChat is a Secure Broadband Push-to-Talk (PTT) communication system that facilitates secure inter-agency PTT communication, multimedia messaging, and a Common Operating Picture (COP) within and between agencies for mutual-aid or tactical purposes. ESChat for Government also supports external interfaces including Land Mobile Radio (LMR), dispatch consoles, and logging recorders\r\n\r\nThere are three main components that make up this offering:\r\n\r\n- The ESChat portal is a browser-based application which allows customers to manage all aspects of their network including managing accounts, devices, groups, integrations,live and historical location display, etc.\r\n- The ESChat clients are mobile applications (Android, iOS, Linux), Land Mobile Radio (LMR) gateways, and PC Client applications that communicate using the ESChat protocol. The ESChat clients are the functional endpoints that the users of the system interact with to perform Push-to-Talk voice and multimedia messaging communications with one another.\r\n- The ESChat back-end services provide ESChat users with inter-carrier, inter-agency, inter-system, and inter-vendor interoperability all managed and controlled within the authorization boundary, ensuring ESChat is the only solution needed to provide reliable, secure, and interoperable communications.",
+    "certificationType": "Rev5",
+    "website": "https://eschat.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/ESChat%20Logo.png",
+    "ueiNumber": "PNR2MPVHKL13"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "securitycompliance@projecthosts.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@eschat.com"
+    }
+  ],
+  "assessor": {
+    "name": "137004",
+    "assessorID": "137004"
+  }
+}

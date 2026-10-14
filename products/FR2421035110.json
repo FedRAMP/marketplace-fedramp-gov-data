@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2421035110",
+    "providerName": "Cellebrite",
+    "serviceName": "Cellebrite Government Cloud (CGC)",
+    "serviceAcronym": "Cellebrite Government Cloud (CGC)",
+    "serviceDescription": "The Cellebrite Government Cloud (CGC) is a SaaS solution that is operational within Amazon Web Services (AWS) GovCloud. \n\nThe CGC enables customers to extract and analyze digital forensic evidence from mobile devices, such as phones and tablets. Using Cellebrite’s Digital Forensics Suite and\nInvestigative Suite, customers can leverage features such as device unlocking, data extraction, data analysis, information sharing, and reporting without compromising the integrity or chain of custody of the mobile device.",
+    "certificationType": "Rev5",
+    "website": "https://www.cellebritefsi.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cellebrite%20Logo.png",
+    "ueiNumber": "MBBKMVW4UQN"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "CGC.Security@cellebrite.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "FederalSales@cellebrite.com"
+    }
+  ],
+  "assessor": {
+    "name": "136571",
+    "assessorID": "136571"
+  }
+}

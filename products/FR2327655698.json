@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2327655698",
+    "providerName": "Gallery Systems",
+    "serviceName": "TMS Gov Cloud Suite",
+    "serviceAcronym": "TMS Gov Cloud Suite",
+    "serviceDescription": "TMS Gov Cloud Suite is delivered as a SaaS offering using a multi-tenant Government Only cloud computing environment. It is available to federal government customers. The TMS Gov Cloud Suite application enables collection managers, museum conservators, and curators to efficiently and effectively perform physical and digital asset management. This federal offering of the system is provided by Gallery Systems and hosted on the AWS Cloud, to offer increased security to federal customers. The system is a 3-tiered web application (web front-end, business logic layer, and data layer) that implements a defense-in-depth security posture.",
+    "certificationType": "Rev5",
+    "website": "https://www.gallerysystems.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/GallerySystems%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "systems@gallerysystems.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@gallerysystems.com"
+    }
+  ],
+  "assessor": {
+    "name": "201591",
+    "assessorID": "201591"
+  }
+}
