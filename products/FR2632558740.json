@@ -1,11 +1,11 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2632558740",
     "providerName": "Cornerstone Information Systems",
     "serviceName": "Upstream Gov",
-    "serviceAcronym": "Upstream Gov",
+    "serviceAcronym": "UG",
     "serviceDescription": "Aggregation of travel data to support comprehensive reporting and analysis.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
+    "fedRampPackageId": "Cornerstone Information Systems UG",
     "website": "https://www.ciswired.com",
     "logo": "https://www.ciswired.com/wp-content/uploads/2024/04/logo.svg"
   },
@@ -13,16 +13,25 @@
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Government Community Cloud"
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Travel Management",
+      "Accounting",
+      "Analytics"
+    ]
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Security",
       "contactEmail": "security@ciswired.com"
     },
     {
       "contactType": "Sales",
+      "contactName": "Sales",
       "contactEmail": "sales@ciswired.com"
     }
-  ]
+  ],
+  "ZD_frid_retro": "FR2632558740",
+  "id_matches_expected": false
 }

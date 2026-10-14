@@ -1,29 +1,35 @@
 {
   "serviceIdentification": {
     "fedRampPackageId": "FR2516140413",
+    "ueiNumber": "F6FDTGCVN3U4",
     "providerName": "TransUnion LLC",
     "serviceName": "TransUnion TruValidate",
-    "serviceAcronym": "TransUnion TruValidate",
-    "serviceDescription": "TransUnion TruValidate™ for Government leverages one of the world’s most robust identity platforms to deliver accurate matching of personally identifiable information (PII). Identity Verification for Government not only validates the accuracy of consumer-provided information against our curated datasets, including financial institution data, public records data and telecommunications carrier data, it also enables increased fraud capture while enforcing privacy principles. This allows agencies to make informed decisions with full context to help expose risk and establish trust by verifying consumer identities. Thousands of data sources provides for a robust supply chain to reduce risks to agencies. TransUnion TruValidate for Government can solve for many fraud prevention use cases, including account origination, transaction risk and password reset. The solution is FedRAMP and NIST SP800-63 conformant for unsupervised or supervised identity proofing and available via a robust and secure application interface (API). Data retention is configurable for timeframes between 0 and 36 months.",
+    "serviceAcronym": "TVIS",
+    "serviceDescription": "TransUnion TruValidate™ for Government leverages one of the world’s most robust identity platforms to deliver accurate matching of personally identifiable information (PII). Identity Verification for Government not only validates the accuracy of consumer-provided information against our curated datasets, including financial institution data, public records data and telecommunications carrier data, it also enables increased fraud capture while enforcing privacy principles. This allows agencies to make informed decisions with full context to help expose risk and establish trust by verifying consumer identities. Thousands of data sources provides for a robust supply chain to reduce risks to agencies. TransUnion TruValidate for Government can solve for many fraud prevention use cases, including account origination, transaction risk and password reset. The solution is FedRAMP and NIST SP800-63 conformant for unsupervised or supervised identity proofing and available via a robust and secure application interface (API). Data retention is configurable for timeframes between 0 and 36 months. ",
     "certificationType": "Rev5",
     "website": "https://www.transunion.com",
-    "logo": "https://www.transunion.com/content/dam/transunion/global/common/logos/logo.svg",
-    "ueiNumber": "F6FDTGCVN3U4"
+    "logo": "https://www.transunion.com/content/dam/transunion/global/common/logos/logo.svg"
   },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "Stuart Levy",
+      "contactEmail": "stuart.levy@transunion.com",
+      "contactPhone": "703-969-8580"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Travis McLaughlin",
+      "contactEmail": "PDLUSFedRAMPPlatformSec@transunion.com",
+      "contactPhone": "269-500-1787"
+    }
+  ],
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
     "deploymentModel": "Public Cloud"
   },
-  "contactInformation": [
-    {
-      "contactType": "Security",
-      "contactEmail": "PDLUSFedRAMPPlatformSec@transunion.com"
-    },
-    {
-      "contactType": "Sales",
-      "contactEmail": "stuart.levy@transunion.com"
-    }
-  ]
+  "ZD_frid_retro": "FR2516140413",
+  "id_matches_expected": true
 }

@@ -1,11 +1,12 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
     "fedRampPackageId": "FR2631054539",
     "providerName": "Mycroft Technologies Inc",
     "serviceName": "Mycroft GRC Platform",
-    "serviceAcronym": "Mycroft GRC Platform",
+    "serviceAcronym": "MYC",
     "serviceDescription": "The Mycroft Platform is a compliance and security management solution designed to help customers build, maintain, and demonstrate compliance with various security frameworks. Key capabilities include: Compliance Automation: task management dashboards and templates for policy documentation, vendor and risk management, and IT asset management. Continuous Monitoring: automated evidence collection and control monitoring. Vulnerability and Threat Monitoring: centralized tracking via integrations with third-party tools and cloud security posture management. Mycroft Agent: installed on customer-employee workstations to provide device management, control monitoring, and Endpoint Detection and Response (EDR). AI Integration: leverages generative AI (large language models) for conversational troubleshooting, adaptive remediation, and context-specific guidance, which requires customer review prior to implementation.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
     "website": "https://mycroft.io",
     "logo": "https://static-assets.mycroft.io/production/org_logos/0b3d4e12-16c0-44d6-b1a9-9b2b86fcbd11.png"
   },
@@ -14,23 +15,126 @@
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Governance, Risk, and Compliance (GRC)",
+      "Mobile Device Management (MDM)"
+    ],
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
       "url": "https://trust.mycroft.io",
-      "repositoryDescription": "FedRAMP Trust Center",
-      "authenticationRequired": false
-    }
+      "repositoryDescription": "Trust Center containing all the necessary documentation for FedRAMP Certification submission package.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request FedRAMP Access' button on the top right of the Trust Center."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.mycroft.io",
+      "repositoryDescription": "Secure Configuration Guidance is currently stored within the Mycroft Trust Center.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request FedRAMP Access' button on the top right of the Trust Center."
+    },
+    "nextOngoingCertificationReportDate": "2026-08-31"
   },
   "contactInformation": [
     {
       "contactType": "Security",
-      "contactEmail": "security@mycroft.io"
+      "contactName": "Mike Kim, Co-founder / CEO",
+      "contactEmail": "security@mycroft.io",
+      "contactPhone": "778-558-6952"
     },
     {
       "contactType": "Sales",
+      "contactName": "Eric Yanofsky, Head of GTM",
       "contactEmail": "sales@mycroft.io"
     }
-  ]
+  ],
+  "overallSummaryOfAssessment": "Insight Assurance LLC (FedRAMP Assessor ID 203355) performed an independent, documentation-level review of this FedRAMP 20x Class A certification package for completeness and accuracy against FedRAMP 20x Class A requirements, completed 2026-09-02. This review examined the Certification Package Overview, Security Decision Record, and Ongoing Certification Report for internal consistency, completeness of required content, and accuracy of citations to supporting evidence; it did not independently test or validate the underlying security controls. No significant findings were identified. This engagement is general due diligence supplementary to the package and is not claimed as satisfying any specific optional independent-assessment rule (e.g., IVV-CSO-FIA); the mandatory independent verification and validation requirement (IVV-CSX-AIA) is satisfied by Mycroft's annual SOC 2 Type 2 examination (MJD Advisors, LLC), described in the Security Decision Record.",
+  "certifiedServices": [
+    {
+      "serviceName": "Mycroft GRC Platform",
+      "serviceDescription": "Compliance and security management platform providing compliance automation, continuous monitoring, vulnerability and threat monitoring, endpoint management via the Mycroft Agent, and AI-assisted guidance.",
+      "dateAvailable": "2024-06-04"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Google Cloud Platform (High Impact, JAB authorized). Primary cloud infrastructure provider hosting the Mycroft GRC Platform."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+        "useCase": "Google Workspace (High, JAB authorized). Corporate productivity, email, and collaboration suite."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2000863987A",
+        "useCase": "Cloudflare for Government (High, Agency authorized). Content delivery network, DNS, and web application security."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
+        "useCase": "GitHub Enterprise Cloud (Low, Agency authorized). Source code management and CI/CD for platform development."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1823447014",
+        "useCase": "Slack (Moderate, Agency authorized). Internal team communication and collaboration."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "1Password",
+        "provider": "1Password",
+        "website": "https://1password.com",
+        "useCase": "Password manager."
+      },
+      {
+        "name": "Linear",
+        "provider": "Linear",
+        "website": "https://linear.app",
+        "useCase": "Project management software."
+      },
+      {
+        "name": "Resend",
+        "provider": "Resend",
+        "website": "https://resend.com",
+        "useCase": "Transactional email provider."
+      },
+      {
+        "name": "Twilio SendGrid",
+        "provider": "Twilio",
+        "website": "https://sendgrid.com",
+        "useCase": "Transactional email provider."
+      },
+      {
+        "name": "PropelAuth",
+        "provider": "PropelAuth",
+        "website": "https://propelauth.com",
+        "useCase": "Authentication gateway."
+      },
+      {
+        "name": "PostHog",
+        "provider": "PostHog",
+        "website": "https://posthog.com",
+        "useCase": "Product analytics."
+      },
+      {
+        "name": "Mycroft",
+        "provider": "Mycroft Technologies Inc",
+        "website": "https://mycroft.io",
+        "useCase": "Compliance automation and technology stack."
+      },
+      {
+        "name": "Pylon",
+        "provider": "Pylon",
+        "website": "https://usepylon.com",
+        "useCase": "Customer support ticket management."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2631054539",
+  "id_matches_expected": true
 }

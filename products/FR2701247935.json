@@ -1,11 +1,12 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
-    "fedRampPackageId": "FR2701247935",
+    "fedRampPackageId": "Tansi Software Inc. (TANSI)",
     "providerName": "Tansi Software Inc.",
     "serviceName": "Tansi",
-    "serviceAcronym": "Tansi",
+    "serviceAcronym": "TANSI",
     "serviceDescription": "Tansi is a cloud-based operational ERP and operations execution platform that works alongside an organization's existing ERP to manage field execution, workforce readiness, asset operations, and compliance in one configurable system. The platform supports workforce management and onboarding, learning management and certification tracking, mobile forms and approval workflows with offline data capture, asset, inventory, and maintenance tracking, contractor compliance, incident reporting and corrective actions, and operational communications and reporting. The platform is hosted on Microsoft Azure and is made available to customers through web and mobile applications.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
     "website": "https://tansi.io",
     "logo": "https://static-assets.mycroft.io/production/org_logos/d7531713-88f5-4009-a1fc-294a48380dbb.png"
   },
@@ -14,23 +15,110 @@
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Operations Management",
+      "Human Resources",
+      "Talent Management",
+      "Learning Management",
+      "Governance, Risk, and Compliance (GRC)",
+      "Construction",
+      "Communication"
+    ],
     "trustCenter": {
       "repositoryType": [
-        "Trust Center"
+        "Trust Center",
+        "Assessment Reports"
       ],
       "url": "https://trust.mycroft.io/tansi",
-      "repositoryDescription": "FedRAMP Trust Center",
-      "authenticationRequired": false
+      "repositoryDescription": "Trust Center containing all the necessary documentation for FedRAMP Certification submission package.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request FedRAMP access' button on the top right of the Trust Center."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.mycroft.io/tansi",
+      "repositoryDescription": "Secure configuration guidance for Tansi, currently hosted within the Tansi Trust Center.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request FedRAMP access' button on the top right of the Trust Center."
     }
   },
+  "overallSummaryOfAssessment": "GreenHat Assurance LLC (Kalispell, Montana; Firm License No. PAC-FIRM-LIC-58382) performed a SOC 2 Type II examination of the Tansi system for the period November 3, 2025 to April 3, 2026, covering the Security, Availability, Confidentiality, and Privacy Trust Services Criteria. The examination resulted in an unqualified opinion with no exceptions noted; one control (confidential data deletion upon request) was not tested due to no requests occurring during the period. Microsoft Azure, SendGrid, and Twilio were presented as subservice organizations under the carve-out method. Independent verification and validation of Tansi's security controls (per FRC-CLA-MFR/IVV-CSX-AIA) is satisfied through Tansi's annual SOC 2 Type II examination.",
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Wade Mahowich, CEO",
       "contactEmail": "wmahowich@tansi.io"
     },
     {
       "contactType": "Sales",
+      "contactName": "Daniel Sanabria, Senior Development Manager",
       "contactEmail": "sales@tansi.io"
     }
-  ]
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Tansi",
+      "serviceDescription": "Tansi is a cloud-based operational ERP and operations execution platform that works alongside an organization's existing ERP to manage field execution, workforce readiness, asset operations, and compliance in one configurable system. The platform supports workforce management and onboarding, learning management and certification tracking, mobile forms and approval workflows with offline data capture, asset, inventory, and maintenance tracking, contractor compliance, incident reporting and corrective actions, and operational communications and reporting. The platform is hosted on Microsoft Azure and is made available to customers through web and mobile applications."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
+        "useCase": "Microsoft Azure. Primary cloud infrastructure provider hosting the Tansi platform (compute, storage, networking)."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2631054539",
+        "useCase": "Mycroft GRC Platform (Mycroft Technologies Inc). Compliance automation software used by Tansi to support the design, implementation, operation, monitoring, and documentation of internal controls."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "OpenAI API",
+        "provider": "OpenAI",
+        "website": "https://openai.com",
+        "useCase": "Large language model API (direct OpenAI API) used by AI-assisted platform features: document analysis, ticket suggestions, and source-of-truth validation. Processes only content that users explicitly submit to these features."
+      },
+      {
+        "name": "Twilio",
+        "provider": "Twilio Inc.",
+        "website": "https://www.twilio.com",
+        "useCase": "SMS delivery for mass workforce notifications."
+      },
+      {
+        "name": "SendGrid",
+        "provider": "Twilio Inc.",
+        "website": "https://sendgrid.com",
+        "useCase": "Transactional and outreach email delivery."
+      },
+      {
+        "name": "Photon Geocoding (public API)",
+        "provider": "komoot GmbH",
+        "website": "https://photon.komoot.io",
+        "useCase": "Address search and geocoding for platform mapping and compliance workflows; receives address lookup queries entered by users."
+      },
+      {
+        "name": "Bitbucket",
+        "provider": "Atlassian",
+        "website": "https://bitbucket.org",
+        "useCase": "Source code repository and CI/CD."
+      },
+      {
+        "name": "Jira",
+        "provider": "Atlassian",
+        "website": "https://www.atlassian.com/software/jira",
+        "useCase": "Project management and issue tracking, including tracking of security deficiencies and remediation."
+      },
+      {
+        "name": "Codex (ChatGPT Business)",
+        "provider": "OpenAI",
+        "website": "https://openai.com/codex",
+        "useCase": "AI coding assistant used by the development team."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2701247935",
+  "id_matches_expected": false
 }

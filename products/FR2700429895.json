@@ -5,7 +5,7 @@
     "serviceName": "Ardoq",
     "serviceAcronym": "Ardoq",
     "serviceDescription": "Ardoq is a cloud-based software-as-a-service enterprise architecture platform that gives organizations a single, connected model of their IT and business landscape, covering applications, infrastructure, processes, data, and strategic initiatives. Built on a proprietary graph-based data model, Ardoq ingests and continuously updates information from an organization's existing systems, replacing static documentation with a live, queryable view of how technology and business capabilities connect. It has built-in AI capabilities, visualization, and dashboards that help expedite access to and transformation of architecture into consumable insights for non-technical stakeholders.\n\nAgencies use Ardoq to gain visibility into AI deployment and current-state architecture, plan and track technology transformation and modernization initiatives, and maintain ongoing oversight of technical risk, dependencies, and change across the enterprise. The platform supports IT portfolio management, application rationalization, cloud migration planning, risk and compliance reporting, strategic planning and execution, and tracking of AI adoption across the technology estate.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
     "website": "https://www.ardoq.com",
     "logo": "https://www.ardoq.com/hubfs/00_Visuals%20(covers%2c%20logos%2c%20illustrations%2c%20etc)/Logos/Ardoq/RGB_Ardoq_Logo_Primary_Purple.svg"
   },
@@ -14,23 +14,62 @@
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Data Management",
+      "Artificial Intelligence (AI)",
+      "Analytics",
+      "Operations Management",
+      "Governance, Risk, and Compliance (GRC)"
+    ],
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
       "url": "https://www.ardoq.com/trust-center",
-      "repositoryDescription": "FedRAMP Trust Center",
+      "repositoryDescription": "Ardoq's FedRAMP Trust Center landing page and the Certification Package Overview (this record, available in both human-readable and JSON form) are public. Incident Reports related to FedRAMP Reportable Incidents are shared with affected parties as applicable.",
       "authenticationRequired": false
-    }
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Assessment Reports",
+          "Policies and Procedures",
+          "Certifications"
+        ],
+        "url": "https://www.ardoq.com/trust-center",
+        "repositoryDescription": "Ardoq's SOC 2 Type II report and supporting documentation, information security, privacy, and data protection policy documents, and the ISO/IEC 27001:2022 certificate (LC-516-07, Linford & Company, valid through February 2028), available to federal agencies and FedRAMP on request.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "To request Ardoq's SOC 2 Type II report, supporting documentation, policy documents, and ISO/IEC 27001:2022 certificate, email fedramp@ardoq.com from a federal agency or FedRAMP address and state the purpose of the request."
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-01-29"
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Ardoq FedRAMP Security",
       "contactEmail": "fedramp@ardoq.com"
     },
     {
       "contactType": "Sales",
+      "contactName": "Ardoq Sales",
       "contactEmail": "sales@ardoq.com"
     }
-  ]
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Business & IT Optimization Suite",
+      "serviceDescription": "Ardoq platform capabilities for IT portfolio management, application rationalization, and cloud migration planning, built on Ardoq's connected model of applications, infrastructure, processes, and data."
+    },
+    {
+      "serviceName": "Strategic Planning Suite",
+      "serviceDescription": "Ardoq platform capabilities for strategic planning and execution, including planning and tracking of technology transformation and modernization initiatives."
+    },
+    {
+      "serviceName": "Governance, Risk & Compliance Suite",
+      "serviceDescription": "Ardoq platform capabilities for risk and compliance reporting and for ongoing oversight of technical risk, dependencies, and change across the enterprise."
+    }
+  ],
+  "ZD_frid_retro": "FR2700429895",
+  "id_matches_expected": true
 }

@@ -1,37 +1,104 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2632054521",
     "providerName": "Leadership Connect, Inc.",
     "serviceName": "Leadership Connect",
-    "serviceAcronym": "Leadership Connect",
+    "serviceAcronym": "LC",
     "serviceDescription": "Leadership Connect is a software-as-a-service platform for federal market and policy intelligence. It provides a continuously maintained directory of decision-makers and organizations across the U.S. Congress, the federal executive branch, state and local government, and the private sector, together with federal contract award and subaward analysis, federal and state legislative tracking, congressional hearing coverage, and relationship-graph analytics.\n\nFederal agency personnel use Leadership Connect to carry out assigned mission functions: identifying and contacting counterparts across government for interagency and intergovernmental coordination, preparing for congressional hearings and legislative engagement, researching vendors and prior contract activity in support of acquisition planning and market research, and monitoring personnel, policy, and spending changes relevant to their program responsibilities.\n\nIn the course of that work, the offering creates, collects, processes, stores, and maintains information supplied by or generated on behalf of agency customers. This includes agency user account and profile records, authentication and session data, single sign-on identity assertions where an agency has configured federated access, agency-created saved lists of tracked people and organizations, saved searches and alert configurations, records of lists and views shared among users within an agency account, entity-tracking selections, uploaded contact records where an agency imports its own data, and usage and audit records associated with individual agency users. Some of this information reflects an agency's areas of interest, coordination activity, or acquisition research and is treated accordingly.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
+    "fedRampPackageId": "Leadership Connect, Inc. (LC)",
+    "ueiNumber": "YMUDLKMEEC65",
     "website": "https://www.leadershipconnect.io",
-    "logo": "https://resources.leadershipconnect.io/hubfs/leadership-connect-logos/leadership-connect-logo-dark-blue-stacked.png",
-    "ueiNumber": "YMUDLKMEEC65"
+    "logo": "https://resources.leadershipconnect.io/hubfs/leadership-connect-logos/leadership-connect-logo-dark-blue-stacked.png"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Artificial Intelligence (AI)",
+      "Collaboration",
+      "Customer Relations Management (CRM)",
+      "Customer Service",
+      "Data Management",
+      "Legal & Policy",
+      "Marketing & Sales",
+      "Operations Management",
+      "Research"
+    ],
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
       "url": "https://trust.leadershipconnect.io/",
-      "repositoryDescription": "FedRAMP Trust Center",
-      "authenticationRequired": false
+      "repositoryDescription": "Security and compliance documentation for Leadership Connect, organized by domain. Publicly visible sections cover corporate security, product security (cloud, data, and application security), privacy and data protection including the privacy statement and cookie policy, continuous monitoring, incident response, network security, security awareness training, and terms and conditions. Access-controlled documents include the SOC 2 Type 2 report and the most recent third-party penetration test report. An AI section documents AI features in the platform and Leadership Connect's responsible-use position.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Federal agency personnel may request access by submitting a government email address; access is provisioned automatically on submission. For bulk or programmatic access, contact security@leadershipconnect.io."
     }
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Leadership Connect Security Team",
       "contactEmail": "security@leadershipconnect.io"
     },
     {
       "contactType": "Sales",
-      "contactEmail": "jmckenna@leadershipconnect.io"
+      "contactName": "James McKenna",
+      "contactEmail": "jmckenna@leadershipconnect.io",
+      "contactPhone": "212-433-1416"
+    },
+    {
+      "contactType": "Primary",
+      "contactName": "Zachary Berenson",
+      "contactEmail": "zachary.berenson@leadershipconnect.io",
+      "contactPhone": "202-552-3430"
+    },
+    {
+      "contactType": "Primary",
+      "contactName": "Dave Marmon",
+      "contactEmail": "dmarmon@leadershipconnect.io",
+      "contactPhone": "202-436-6809"
     }
-  ]
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Leadership Connect",
+      "serviceDescription": "Core platform providing searchable profiles of individuals and organizations across federal, state, and local government and the private sector, including reporting structures, dynamic organizational charts, and relationship data. Includes user-created lists and alerts covering personnel changes, legislation, and contract activity, with in-app notifications and scheduled email digests. Accessible via web browser, mobile applications, an Outlook add-in, and a data API.",
+      "dateAvailable": "2019-05-24"
+    },
+    {
+      "serviceName": "Federal Awards & Opportunities (FedSpend)",
+      "serviceDescription": "Analysis of federal contract awards and upcoming solicitations, filterable by NAICS code, awarding and funding agency, date range, spend type, and keyword. Includes contract expiration and recompete listings, contractor and competitor views, dashboard summaries, and place-of-performance analysis by congressional district. Supports tracking lists and daily alerts on award and opportunity activity.",
+      "dateAvailable": "2020-09-13"
+    },
+    {
+      "serviceName": "Legislation Tracking (Policy Connect)",
+      "serviceDescription": "Federal and state legislative monitoring covering bill status through introduction, committee action, and floor consideration, linked to the legislative staff associated with each measure. Includes bill summaries and policy classification derived in part from Congressional Research Service material, plus tracking lists and daily alerts on legislative activity.",
+      "dateAvailable": "2020-12-21"
+    },
+    {
+      "serviceName": "Stakeholder Mapping",
+      "serviceDescription": "Relationship analysis identifying connection paths between individuals and organizations, including shared prior employment, educational affiliations, association membership, and family relationships. Renders relationship maps showing how a customer's organization or contacts connect to a target individual or organization, for use in identifying appropriate points of contact.",
+      "dateAvailable": "2019-05-24"
+    },
+    {
+      "serviceName": "Congressional Hearings (Policy Connect)",
+      "serviceDescription": "Congressional hearing records including scheduled and past hearings, witness lists, committee and subcommittee coverage, full transcripts, and generated summaries. Hearing records are linked to member, staff, and witness profiles elsewhere in the platform.",
+      "dateAvailable": "2025-05-08"
+    },
+    {
+      "serviceName": "Tribal Data",
+      "serviceDescription": "Directory of Tribal Nation governments and affiliated organizations, including leadership positions, governing bodies, administrative contacts, and organizational structure, presented in the same profile and list format as other government coverage.",
+      "dateAvailable": "2023-11-08"
+    },
+    {
+      "serviceName": "Salesforce Integration",
+      "serviceDescription": "Outbound integration that creates and updates Contact and Lead records in a customer's Salesforce instance from Leadership Connect profile data, with customer-controlled mapping of records to Salesforce Accounts. Operates on customer-authorized credentials and writes only to the customer's own Salesforce environment.",
+      "dateAvailable": "2020-06-05"
+    }
+  ],
+  "ZD_frid_retro": "FR2632054521",
+  "id_matches_expected": false
 }

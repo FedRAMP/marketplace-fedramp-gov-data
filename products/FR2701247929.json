@@ -1,41 +1,52 @@
 {
   "serviceIdentification": {
     "fedRampPackageId": "FR2701247929",
+    "ueiNumber": "XNL9Q2AZ3M47",
     "providerName": "Trimble Inc.",
     "serviceName": "Trimble for Government",
-    "serviceAcronym": "Trimble for Government",
-    "serviceDescription": "Trimble is delivering a Software as a Service (SaaS) cloud computing environment built within a secure Government Community Cloud. Designed specifically for U.S. Federal Government departments, agencies, and defense/civilian contractors, Trimble Connect for Government provides a unified, highly secure ecosystem for managing infrastructure, spatial data, capital projects, permitting, and facility assets across their entire lifecycle. By establishing a FedRAMP Moderate baseline, Trimble enables federal agencies and DoD contractors to comply with federal security mandates (including CMMC alignment for defense projects) while modernizing digital engineering, field operations, and spatial asset management. \\nKey Modular Packages Included in Scope\\n1. Trimble Field Collaboration\\nTarget Audience: Federal agencies requiring highly secure, air-gapped capable spatial data management.\\nCore Functionality: Provides foundational spatial database infrastructure and GIS integration to support field operations, mapping, and mission-critical asset location tracking in high-security environments.\\n2. Trimble Project Management\\nTarget Audience: Contractors and agencies needing precision field data layout and project management for high-compliance defense and civil construction builds.\\nCore Functionality: Connects design-to-build workflows in the field, facilitating high-accuracy layout, project tracking, collaboration, and quality assurance across DoD and federal civil construction sites.\\n3. Trimble Asset Management \\nTarget Audience: Federal agencies managing extensive facility networks, military bases, and transportation infrastructure (e.g., runway distributions, airfield facilities, roads and utilities).\\nCore Functionality: Serves as a centralized facilities data core to map asset distribution, track condition assessments, streamline maintenance workflows, and optimize lifecycle capital planning.\\n4. Trimble Permit Management \\nTarget Audience: Public lands, defense, and civilian agencies managing land use, licensing, and infrastructure rights-of-way.\\nCore Functionality: Streamlines the end-to-end management of permitting, licensing, land use applications, and right-of-way approvals in a compliant, audit-ready cloud environment.",
+    "serviceAcronym": "T4G",
+    "serviceDescription": "**Trimble** is delivering a Software as a Service (SaaS) cloud computing environment built within a secure Government Community Cloud. Designed specifically for U.S. Federal Government departments, agencies, and defense/civilian contractors, Trimble Connect for Government provides a unified, highly secure ecosystem for managing infrastructure, spatial data, capital projects, permitting, and facility assets across their entire lifecycle.\n\nBy establishing a FedRAMP Moderate baseline, Trimble enables federal agencies and DoD contractors to comply with federal security mandates (including CMMC alignment for defense projects) while modernizing digital engineering, field operations, and spatial asset management.\n\n### Key Modular Packages Included in Scope\n\n1. **Trimble Field Collaboration**\n   * **Target Audience:** Federal agencies requiring highly secure, air-gapped capable spatial data management.\n   * **Core Functionality:** Provides foundational spatial database infrastructure and GIS integration to support field operations, mapping, and mission-critical asset location tracking in high-security environments.\n\n2. **Trimble Project Management**\n   * **Target Audience:** Contractors and agencies needing precision field data layout and project management for high-compliance defense and civil construction builds.\n   * **Core Functionality:** Connects design-to-build workflows in the field, facilitating high-accuracy layout, project tracking, collaboration, and quality assurance across DoD and federal civil construction sites.\n\n3. **Trimble Asset Management**\n   * **Target Audience:** Federal agencies managing extensive facility networks, military bases, and transportation infrastructure (e.g., runway distributions, airfield facilities, roads and utilities).\n   * **Core Functionality:** Serves as a centralized facilities data core to map asset distribution, track condition assessments, streamline maintenance workflows, and optimize lifecycle capital planning.\n\n4. **Trimble Permit Management**\n   * **Target Audience:** Public lands, defense, and civilian agencies managing land use, licensing, and infrastructure rights-of-way.\n   * **Core Functionality:** Streamlines the end-to-end management of permitting, licensing, land use applications, and right-of-way approvals in a compliant, audit-ready cloud environment.",
     "certificationType": "Rev5",
     "website": "https://www.trimble.com/en/industries/government",
-    "logo": "https://www.trimble.com/.well-known/trimble_fedramp_logo.png",
-    "ueiNumber": "XNL9Q2AZ3M47"
+    "logo": "https://www.trimble.com/.well-known/trimble_fedramp_logo.png"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
     "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Construction",
+      "Collaboration",
+      "Analytics"
+    ],
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
       "url": "https://trust.trimble.com/",
-      "repositoryDescription": "FedRAMP Trust Center",
-      "authenticationRequired": false
-    }
+      "repositoryDescription": "Trimble Trust Center",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Visit https://trust.trimble.com and request a free account by clicking 'Get Access'"
+    },
+    "nextOngoingCertificationReportDate": "2027-06-30"
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Trimble FedRAMP Security",
       "contactEmail": "fedramp-security@trimble.com"
     },
     {
       "contactType": "Sales",
+      "contactName": "Trimble FedRAMP Sales",
       "contactEmail": "fedramp-sales@trimble.com"
     }
   ],
   "assessor": {
-    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "name": "A-LIGN",
     "assessorID": "138665"
-  }
+  },
+  "ZD_frid_retro": "FR2701247929",
+  "id_matches_expected": true
 }

@@ -3,7 +3,7 @@
     "fedRampPackageId": "FR1817874315",
     "providerName": "Valimail",
     "serviceName": "Valimail Enforce Platform",
-    "serviceAcronym": "Valimail Enforce Platform",
+    "serviceAcronym": "VEP",
     "serviceDescription": "Valimail Inc.'s (Valimail’s) Enforce Platform is built to support the global standard Domain-based Message Authentication, Reporting & Conformance (DMARC). The platform gives Valimail’s customers control and visibility over who can send email on behalf of their domain. Specifically, the platform provides insight into all services (entities), both internal and external, sending email as their domain. As a result of this visibility, our customers can authorize/deauthorize services, thus, preventing exact domain impersonation and phishing attacks.",
     "certificationType": "Rev5",
     "website": "https://www.valimail.com/",
@@ -13,20 +13,25 @@
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Public Cloud"
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management"
+    ]
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "security@valimail.com"
-    },
-    {
       "contactType": "Sales",
       "contactEmail": "sales@valimail.com"
+    },
+    {
+      "contactType": "Security",
+      "contactEmail": "security@valimail.com"
     }
   ],
   "assessor": {
-    "name": "Coalfire Systems, Inc.",
+    "name": "Coalfire",
     "assessorID": "138514"
-  }
+  },
+  "ZD_frid_retro": "FR1817874315",
+  "id_matches_expected": true
 }

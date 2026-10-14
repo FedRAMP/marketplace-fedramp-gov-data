@@ -1,11 +1,11 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2631258122",
     "providerName": "Cahill Swift, LLC",
     "serviceName": "Cahill Swift Compliance Management Platform",
-    "serviceAcronym": "Cahill Swift Compliance Management Platform",
+    "serviceAcronym": "CSCMP",
     "serviceDescription": "The Cahill Swift Compliance Management Platform is a cloud-based offering supporting federal transportation safety compliance programs. The platform operates within a single FedRAMP 20x Class C certification boundary with a unified continuous-monitoring and automated evidence program. The initial service, Rallidocs, will be used by Federal Railroad Administration personnel to review and approve railroad industry drug and alcohol testing policies under 49 CFR Part 219, with structured review workflows and tamper-evident approval records. Additional compliance management services will be added to the offering through the FedRAMP change management process as they become production-ready, and will appear on the public service list when included in the Minimum Assessment Scope.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
+    "fedRampPackageId": "CAHILLSWIFT-CSCMP",
     "website": "https://cahillswift.com",
     "logo": "https://static.wixstatic.com/media/d20771_5c36cb323cfe4adc98a74712d918dfc2.gif",
     "ueiNumber": "R5K8SX8G5JE7"
@@ -15,23 +15,97 @@
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Governance, Risk, and Compliance (GRC)"
+    ],
+    "certificationClass": "Class C",
+    "certificationStatus": "Initial Implementation Phase",
+    "plannedApplication": "2026-08-31",
+    "plannedAssessment": "2026-Q3/Q4",
+    "intendedUse": "Direct Use",
     "trustCenter": {
+      "url": "https://cahillswift.com/trust",
       "repositoryType": [
         "Trust Center"
       ],
-      "url": "https://cahillswift.com/trust",
-      "repositoryDescription": "FedRAMP Trust Center",
-      "authenticationRequired": false
+      "repositoryDescription": "Trust center landing page providing access to FedRAMP certification data, KSI validation reports, security policies, and quarterly Initial Implementation Phase progress updates.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Public information is available directly at the URL. Access to non-public FedRAMP Certification Data may be requested by contacting security@cahillswift.com; agency requests are provisioned without interruption."
+    },
+    "secureConfigurationGuidance": {
+      "url": "https://cahillswift.com/trust/configuration",
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "repositoryDescription": "Secure configuration guidance for the Cahill Swift Compliance Management Platform, including administrative account setup, operation, and decommissioning.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Publicly available at the URL; no access request required."
     }
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "security@cahillswift.com"
+      "contactType": "Sales",
+      "contactName": "Joseph Lofgren",
+      "contactEmail": "jlofgren@cahillswift.com",
+      "contactPhone": "617-314-9208"
     },
     {
-      "contactType": "Sales",
-      "contactEmail": "jlofgren@cahillswift.com"
+      "contactType": "Security",
+      "contactName": "Joseph Lofgren",
+      "contactEmail": "security@cahillswift.com",
+      "contactPhone": "617-314-9208"
     }
-  ]
+  ],
+  "serviceList": [
+    {
+      "service": "Rallidocs — Policy Submission Portal",
+      "description": "Intake of industry drug & alcohol testing policy documents for FRA review",
+      "securityCategory": "Low confidentiality / Low integrity / Low availability (no PII)",
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "service": "Rallidocs — Review & Approval Workflow",
+      "description": "Structured FRA reviewer workflow with tamper-evident approval records",
+      "securityCategory": "Low confidentiality / Low integrity / Low availability (no PII)",
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "service": "Rallidocs — Document Repository",
+      "description": "Encrypted storage of policy documents and approval history",
+      "securityCategory": "Low confidentiality / Low integrity / Low availability (no PII)",
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "service": "CAMS (Compliance Auditing Management System)",
+      "description": "Planned service — drug & alcohol program compliance management. Will join the offering via FedRAMP change management when production-ready; NOT currently in the Minimum Assessment Scope.",
+      "securityCategory": "To be published upon inclusion in scope",
+      "inMinimumAssessmentScope": false
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Rallidocs — Policy Submission Portal",
+      "serviceDescription": "Intake of industry drug & alcohol testing policy documents for FRA review. Security category: Low confidentiality / Low integrity / Low availability (no PII).",
+      "dateAvailable": "2026-08-31"
+    },
+    {
+      "serviceName": "Rallidocs — Review & Approval Workflow",
+      "serviceDescription": "Structured FRA reviewer workflow with tamper-evident approval records. Security category: Low confidentiality / Low integrity / Low availability (no PII).",
+      "dateAvailable": "2026-08-31"
+    },
+    {
+      "serviceName": "Rallidocs — Document Repository",
+      "serviceDescription": "Encrypted storage of policy documents and approval history. Security category: Low confidentiality / Low integrity / Low availability (no PII).",
+      "dateAvailable": "2026-08-31"
+    }
+  ],
+  "documentationOverview": "Cahill Swift maintains a FedRAMP-compatible trust center providing: the Minimum Assessment Scope and boundary documentation, Key Security Indicator (KSI) validation reports produced by continuous automated evidence collection, security policies and procedures with a machine-readable policy index (CDS-CSO-IRP), and quarterly Initial Implementation Phase progress updates (MKT-IIP-DCP).",
+  "ongoingCertification": {
+    "nextOcrDate": "Not yet applicable — pre-certification (Initial Implementation Phase)",
+    "independentAssessmentService": "Prescient Security"
+  },
+  "humanReadableVersion": "https://cahillswift.com/trust",
+  "lastUpdated": "2026-08-11",
+  "ZD_frid_retro": "FR2631258122",
+  "id_matches_expected": false
 }

@@ -1,11 +1,1920 @@
 {
+  "fedramp_id": "FR2635050861",
+  "cso_name": "VirtualDojo AI CRM",
+  "service_model": "SaaS",
+  "deployment_model": "Public Cloud",
+  "impact_level": "Moderate",
+  "business_category": "Customer Relationship Management",
+  "certification_status": "FedRAMP 20x Class C, Initial Implementation Phase",
+  "certification_path": "Program (no agency sponsor)",
+  "agency_use_case": "Direct Use",
+  "agency_use_case_detail": "VirtualDojo AI CRM targets two federal markets and is intended for direct\nuse by federal agencies (MKT-IIP-AGU Direct Use).\n\nFederal agencies: the platform is designed for direct agency adoption to\nmanage customer-relationship, procurement, and contract workflows and the\nControlled Unclassified Information (CUI) involved integrated into a federal\ninformation system under 44 U.S.C. 3506 and receiving an agency Authorization\nto Operate once FedRAMP Certification is achieved.\n\nFederal contractors: contractors performing on federal contract vehicles\n(e.g., GSA Schedules, NASA SEWP VI, Army ITES) must, under DFARS 252.204-7012\nand CMMC, host the CUI generated in contract performance in a cloud service\nmeeting the FedRAMP Moderate baseline. VirtualDojo AI CRM is built to satisfy\nthat requirement, maintaining federal CUI generated on behalf of those\nagencies through their contractors.\n\nStatus: VirtualDojo is pursuing FedRAMP 20x Certification (Class C, Program\npath) at the Moderate impact level and is in the Initial Implementation\nPhase. It has not completed a FedRAMP assessment and holds no agency ATO yet;\nthis listing will be updated as agency adoption is confirmed.",
+  "provider": {
+    "name": "VirtualDojo, Inc.",
+    "uei": "JZCAH18DEDC8",
+    "cage_code": "142E1",
+    "website": "https://virtualdojo.com"
+  },
+  "description": "VirtualDojo AI CRM is a cloud-based customer relationship management\nplatform with AI-powered proposal generation, contact management,\npipeline forecasting, and document automation. The platform is designed\nfor government contractors and federal agencies managing procurement\nworkflows, storing Controlled Unclassified Information (CUI) including\ngovernment contract data, customer PII, proposal documents, and\nfinancial/pricing data.",
+  "services": [
+    {
+      "name": "Contact & Account Management",
+      "description": "CRM contact records, account hierarchies, activity tracking",
+      "security_objectives": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Moderate"
+      },
+      "in_fedramp_scope": true
+    },
+    {
+      "name": "AI Proposal Generation",
+      "description": "AI-powered proposal drafting using Google Vertex AI",
+      "security_objectives": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low"
+      },
+      "in_fedramp_scope": true
+    },
+    {
+      "name": "Pipeline & Forecasting",
+      "description": "Sales pipeline management, revenue forecasting, analytics",
+      "security_objectives": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low"
+      },
+      "in_fedramp_scope": true
+    },
+    {
+      "name": "Document Management",
+      "description": "Proposal documents, quotes, attachments stored in GCS",
+      "security_objectives": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Moderate"
+      },
+      "in_fedramp_scope": true
+    },
+    {
+      "name": "Tenant Administration",
+      "description": "Multi-tenant provisioning, user management, RBAC",
+      "security_objectives": {
+        "confidentiality": "Moderate",
+        "integrity": "High",
+        "availability": "Moderate"
+      },
+      "in_fedramp_scope": true
+    },
+    {
+      "name": "Customer Support Portal (support.virtualdojo.com)",
+      "description": "Salesforce Experience Cloud site, fronted by Cloudflare, holding product documentation and customer support requests. It is NOT part of the FedRAMP Minimum Assessment Scope, runs outside the Assured Workloads perimeter, and is NOT authorized for Controlled Unclassified Information or federal customer data. Content reaches it only when a person submits a support request. Submitting CUI or federal customer data through it is prohibited by the VirtualDojo Rules of Behavior; this is an administrative control, not a technical one. Use of this portal is optional and is not required to use VirtualDojo AI CRM.",
+      "security_objectives": {
+        "confidentiality": null,
+        "integrity": null,
+        "availability": null
+      },
+      "in_fedramp_scope": false
+    },
+    {
+      "name": "Corporate Website (virtualdojo.com, www.virtualdojo.com)",
+      "description": "Public marketing and product information website, hosted on Wix. It is NOT part of the FedRAMP Minimum Assessment Scope. It handles no federal customer data and provides no access to the CRM.",
+      "security_objectives": {
+        "confidentiality": null,
+        "integrity": null,
+        "availability": null
+      },
+      "in_fedramp_scope": false
+    },
+    {
+      "name": "Development Environment (dev.virtualdojo.com, portal.virtualdojo.com)",
+      "description": "Non-production development deployment of the platform. portal.virtualdojo.com is a historical DNS alias (CNAME) for this environment and is not a separate system or a customer portal. Neither name is part of the FedRAMP Minimum Assessment Scope, neither is offered to customers, and neither stores, processes or transmits federal customer production data.",
+      "security_objectives": {
+        "confidentiality": null,
+        "integrity": null,
+        "availability": null
+      },
+      "in_fedramp_scope": false
+    }
+  ],
+  "scope_statement": "The services marked in scope above constitute the FedRAMP Minimum Assessment Scope for VirtualDojo AI CRM. The production service is delivered exclusively at app.virtualdojo.com. The surfaces marked out of scope are the only other customer-reachable services VirtualDojo operates; they are not FedRAMP Certified and must not be used to handle federal customer data. Anything not listed above is not part of this cloud service offering.",
+  "assessment_conducted": true,
+  "assessment_date": "2026-10-02",
+  "assessment_state": "conducted",
+  "contacts": {
+    "security": {
+      "name": "Devin Henderson",
+      "role": "ISSO / CEO",
+      "email": "security@virtualdojo.com"
+    },
+    "sales": {
+      "name": "Cyrus Calloway",
+      "role": "VP of Sales",
+      "email": "cyrus@virtualdojo.com"
+    },
+    "assessor": {
+      "name": "Anthony Timbers LLC",
+      "role": "FedRAMP-recognized 3PAO",
+      "assessor_id": "203181"
+    }
+  },
+  "leveraged_authorizations": [
+    {
+      "provider": "Google Cloud Platform",
+      "service": "GCP Assured Workloads, including Vertex AI in-boundary (us-central1 for interactive inference; us multi-region via US REP endpoint for CUI-classifier batch jobs; org policy denies global)",
+      "fedramp_id": "FR1805580474",
+      "impact_level": "Moderate",
+      "authorization_type": "JAB P-ATO"
+    },
+    {
+      "provider": "Microsoft",
+      "service": "Microsoft 365 GCC",
+      "fedramp_id": "MSO365MT",
+      "impact_level": "Moderate",
+      "authorization_type": "Agency ATO"
+    },
+    {
+      "provider": "Microsoft",
+      "service": "Azure Commercial Cloud (EMS for GCC)",
+      "fedramp_id": "F1209051525",
+      "impact_level": "High",
+      "authorization_type": "JAB P-ATO"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "FedRAMP 20x Certification (Class C)",
+      "status": "In Progress",
+      "detail": "Program path; Consolidated Rules for 2026"
+    },
+    {
+      "name": "SOC 2 (Security / Common Criteria)",
+      "status": "In Progress",
+      "detail": "Type II, Security scope; independent CPA examination"
+    }
+  ],
+  "subprocessors": [
+    {
+      "name": "Google Cloud Platform",
+      "purpose": "Application hosting, storage, database, AI/ML (Vertex AI)",
+      "data_handled": "In-boundary CUI (contract data, PII, documents)",
+      "location": "US us-central1 (Assured Workloads)"
+    },
+    {
+      "name": "Microsoft",
+      "purpose": "Identity (Entra ID), endpoint management (Intune), productivity (M365)",
+      "data_handled": "Administrator identities and device posture",
+      "location": "US M365 GCC / Azure"
+    },
+    {
+      "name": "SendGrid (Twilio)",
+      "purpose": "Transactional email delivery",
+      "data_handled": "System notifications only no CUI",
+      "location": "US"
+    },
+    {
+      "name": "Stripe",
+      "purpose": "Subscription payment processing",
+      "data_handled": "Billing metadata only (plan, tenant ID) no CUI/PII",
+      "location": "US"
+    },
+    {
+      "name": "GitHub",
+      "purpose": "Source code management and CI/CD",
+      "data_handled": "Source code no customer data",
+      "location": "US"
+    }
+  ],
+  "documents": [
+    {
+      "title": "Secure Configuration Guide",
+      "access": "public",
+      "delivery": "portal",
+      "url": "https://trust.virtualdojo.com/secure-configuration-guide",
+      "summary": "How to securely configure and operate the service",
+      "metadata": {
+        "file": "VDJ-Secure-Configuration-Guide.md",
+        "related_practices": [
+          "SCG",
+          "KSI-PIY"
+        ],
+        "version": "1.2",
+        "word_count": 5528,
+        "word_count_source": "generated PDF",
+        "last_updated": "2026-09-08"
+      }
+    },
+    {
+      "title": "Data Retention Schedule",
+      "access": "agency",
+      "delivery": "portal",
+      "summary": "Retention periods by data type",
+      "metadata": {
+        "file": "VDJ-Data-Retention-Schedule.md",
+        "related_practices": [
+          "KSI-RPL",
+          "SI-12"
+        ],
+        "version": "1.0",
+        "word_count": 2498,
+        "word_count_source": "generated PDF",
+        "last_updated": "2026-08-27"
+      }
+    },
+    {
+      "title": "Contingency & Disaster Recovery Procedures",
+      "access": "agency",
+      "delivery": "portal",
+      "summary": "Backup, recovery, and contingency testing",
+      "metadata": {
+        "file": "VDJ-Contingency-Testing-Procedures.md",
+        "related_practices": [
+          "KSI-RPL",
+          "CP-2",
+          "CP-4",
+          "CP-9",
+          "CP-10"
+        ],
+        "version": "1.0",
+        "word_count": 11490,
+        "word_count_source": "generated PDF",
+        "last_updated": "2026-08-27"
+      }
+    },
+    {
+      "title": "Operational Security Procedures",
+      "access": "agency",
+      "delivery": "portal",
+      "summary": "Detection, response, and operational controls",
+      "metadata": {
+        "file": "VDJ-Operational-Security-Procedures.md",
+        "related_practices": [
+          "KSI-INR",
+          "KSI-MLA",
+          "IR-4",
+          "SI-4"
+        ],
+        "version": "1.2",
+        "word_count": 13355,
+        "word_count_source": "generated PDF",
+        "last_updated": "2026-09-08"
+      }
+    },
+    {
+      "title": "Personnel Security Procedures",
+      "access": "agency",
+      "delivery": "portal",
+      "summary": "Screening, onboarding, and access management",
+      "metadata": {
+        "file": "VDJ-Personnel-Security-Procedures.md",
+        "related_practices": [
+          "KSI-PIY",
+          "PS-2",
+          "PS-3",
+          "PS-8"
+        ],
+        "version": "1.1",
+        "word_count": 10615,
+        "word_count_source": "generated PDF",
+        "last_updated": "2026-08-29"
+      }
+    },
+    {
+      "title": "Supply Chain Risk Management Plan",
+      "access": "agency",
+      "delivery": "portal",
+      "summary": "Third-party and supply-chain risk controls",
+      "metadata": {
+        "file": "VDJ-Supply-Chain-Risk-Management-Plan.md",
+        "related_practices": [
+          "KSI-TPR",
+          "SR-1",
+          "SR-5",
+          "SR-6"
+        ],
+        "version": "1.0",
+        "word_count": 11780,
+        "word_count_source": "generated PDF",
+        "last_updated": "2026-08-27"
+      }
+    },
+    {
+      "title": "Incident Response Procedures",
+      "access": "agency",
+      "delivery": "direct",
+      "summary": "Incident detection, response, and reporting (dissemination controls preclude portal delivery; supplied directly to agencies)",
+      "metadata": {
+        "file": "VDJ-Risk-Response-Procedures.md",
+        "related_practices": [
+          "KSI-INR",
+          "VDR",
+          "IR-4",
+          "IR-6",
+          "RA-5(11)"
+        ],
+        "version": "1.1",
+        "word_count": 10205,
+        "word_count_source": "generated PDF",
+        "last_updated": "2026-08-31"
+      }
+    },
+    {
+      "title": "Privacy Impact Assessment",
+      "access": "agency",
+      "delivery": "direct",
+      "summary": "Privacy analysis of data handling (dissemination controls preclude portal delivery; supplied directly to agencies)",
+      "metadata": {
+        "file": "VDJ-Privacy-Impact-Assessment.md",
+        "related_practices": [
+          "KSI-PIY",
+          "PT-1",
+          "RA-8"
+        ],
+        "version": "1.0",
+        "word_count": 7378,
+        "word_count_source": "generated PDF",
+        "last_updated": "2026-08-31"
+      }
+    },
+    {
+      "title": "Risk & Vulnerability Management Procedures",
+      "access": "agency",
+      "delivery": "direct",
+      "summary": "Vulnerability detection, evaluation, and remediation SLAs (dissemination controls preclude portal delivery)",
+      "metadata": {
+        "file": "VDJ-Risk-Vulnerability-Management-Procedures.md",
+        "related_practices": [
+          "VDR",
+          "VER",
+          "RA-5",
+          "SI-2"
+        ],
+        "version": "1.0",
+        "word_count": 15656,
+        "word_count_source": "generated PDF",
+        "last_updated": "2026-08-31"
+      }
+    },
+    {
+      "title": "Continuous Monitoring SOP",
+      "access": "agency",
+      "delivery": "direct",
+      "summary": "Ongoing security-monitoring program (CUI marking review in progress; supplied directly to agencies meanwhile)",
+      "metadata": {
+        "file": "VDJ-Continuous-Monitoring-SOP.md",
+        "related_practices": [
+          "CCM",
+          "CA-7"
+        ],
+        "version": "1.0",
+        "word_count": 9513,
+        "word_count_source": "generated PDF",
+        "last_updated": "2026-09-01"
+      }
+    },
+    {
+      "title": "FedRAMP Certification Package (CPO · SDR · OCR)",
+      "access": "agency",
+      "delivery": "portal",
+      "summary": "Full authorization package (human-readable + machine-readable JSON at /reports)"
+    }
+  ],
+  "documentation_overview": "Public documents are readable by everyone below. Documents marked 'agency' are FedRAMP Certification Data: portal-delivered items are retrievable as signed PDFs, marked Proprietary and Confidential, through the authenticated trust center (/documents); direct-delivery items carry dissemination controls that preclude portal delivery and are supplied to agencies through a direct controlled channel on request. Per CDS-CSO-IRP, the metadata published machine-readably here for every document is: file name, version, word count, last update and related FedRAMP practices. 1 of the 11 entries below is a composite artifact with no single source document and carries no per-document metadata.",
+  "faq": [
+    {
+      "q": "Where is my data stored?",
+      "a": "All customer data is stored and processed within the United States in Google Cloud under Assured Workloads (DATA_BOUNDARY_FOR_FEDRAMP_MODERATE). The primary region is us-central1 and disaster-recovery backups are replicated to us-east4; both are inside the same FedRAMP Moderate Assured Workloads enclave, so data never leaves the US boundary. All copies are encrypted with customer-managed keys (CMEK)."
+    },
+    {
+      "q": "How is data encrypted?",
+      "a": "Data is encrypted at rest with customer-managed encryption keys (CMEK) in Google Cloud KMS, and in transit with TLS 1.2+. Cryptography uses FIPS 140-validated modules."
+    },
+    {
+      "q": "What compliance frameworks do you follow?",
+      "a": "VirtualDojo is pursuing FedRAMP 20x Certification (Class C) and a SOC 2 (Security) examination. The service is built on Google Cloud and Microsoft services that hold FedRAMP authorizations. Current status is shown on this page."
+    },
+    {
+      "q": "Is VirtualDojo FedRAMP High or Moderate?",
+      "a": "VirtualDojo AI CRM is assessed to the FedRAMP Moderate baseline via FedRAMP 20x Certification Class C, which matches the Controlled Unclassified Information the service handles. It runs inside Google Cloud's Assured Workloads FedRAMP Moderate boundary and inherits Google's Moderate infrastructure authorization. The application's own certification is in progress."
+    },
+    {
+      "q": "Who are your subprocessors?",
+      "a": "Google Cloud, Microsoft, SendGrid, Stripe, and GitHub. Each subprocessor, its purpose, the data it handles, and its location are listed in the Subprocessors section above."
+    },
+    {
+      "q": "How do you control access?",
+      "a": "Access requires multi-factor authentication and Conditional Access via Microsoft Entra ID, enforces role-based access control and least privilege, and is continuously monitored by the automated KSI validator."
+    },
+    {
+      "q": "How do you handle security incidents?",
+      "a": "VirtualDojo maintains documented incident-response procedures with continuous monitoring and defined notification timelines. Suspected incidents can be reported to security@virtualdojo.com."
+    },
+    {
+      "q": "How is availability monitored?",
+      "a": "Service availability is measured by a Google Cloud uptime check on app.virtualdojo.com, and 46 Key Security Indicators are validated nightly in-boundary. A rolling availability percentage publishes on this page as monitoring history accrues."
+    },
+    {
+      "q": "What data does the service handle?",
+      "a": "The service handles Controlled Unclassified Information (CUI) including government contract data, customer PII, proposal documents, and pricing data, at the FedRAMP Moderate impact level."
+    },
+    {
+      "q": "How can a federal agency access the full certification package?",
+      "a": "The Certification Package (Certification Package Overview, Security Decision Record, and Ongoing Certification Reports) is available through authenticated self-service access at trust.virtualdojo.com/request-access federal (.gov/.mil) requesters are granted access automatically; other requests are reviewed under NDA. After signing in, human-readable report pages and the machine-readable JSON are both available under /reports."
+    }
+  ],
+  "data_residency": "* All customer data is stored and processed only in the United States, on Google\nCloud under Assured Workloads (policy DATA_BOUNDARY_FOR_FEDRAMP_MODERATE, which\nGoogle enforces so resources cannot be created outside the FedRAMP Moderate US\nregion set; the policy denies non-US and global locations). Compute and most AI\ninference run in us-central1 (Iowa); the CUI-classifier batch jobs run on Vertex\nAI in the US multi-region; durable object storage uses the US multi-region; and\ndisaster-recovery backups replicate to us-east4 (Virginia). All of these are US\nlocations inside the same FedRAMP Moderate Assured Workloads enclave, so data\nnever leaves the US authorization boundary. Every copy is encrypted with\ncustomer-managed keys (CMEK) that VirtualDojo controls.",
+  "data_residency_regions": [
+    {
+      "name": "us-central1",
+      "location": "Iowa",
+      "role": "Primary region",
+      "contents": "Cloud Run compute, most Vertex AI inference, the AlloyDB primary, Memorystore Redis, Secret Manager, and the primary application services. All encrypted with customer-managed keys (CMEK)."
+    },
+    {
+      "name": "us (multi-region)",
+      "location": "United States",
+      "role": "Storage and batch AI",
+      "contents": "Durable object storage (Cloud Storage US multi-region) and the CUI-classifier batch jobs on Vertex AI via the US REP endpoint. Location is enforced by the Assured Workloads DATA_BOUNDARY_FOR_FEDRAMP_MODERATE regime; the inherited gcp.resourceLocations organization policy additionally denies global and asia-east2 locations. CMEK encrypted."
+    },
+    {
+      "name": "us-east4",
+      "location": "Virginia",
+      "role": "Disaster recovery",
+      "contents": "AlloyDB cross-region CMEK backups (every 4 hours, 35-day retention) and Cloud Storage file replication. Recovery objectives RTO 12h / RPO 4h."
+    }
+  ],
+  "service_availability": {
+    "monitoring": "Google Cloud uptime checks (5-minute interval) on app.virtualdojo.com",
+    "monitoring_since": "2026-07-04",
+    "measured": {
+      "rolling_percent": 99.981,
+      "window_days": 30,
+      "daily_history": [
+        {
+          "date": "2026-09-14",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-15",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-16",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-17",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-18",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-19",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-20",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-21",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-22",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-23",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-24",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-25",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-26",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-27",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-28",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-29",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-09-30",
+          "availability_percent": 99.942
+        },
+        {
+          "date": "2026-10-01",
+          "availability_percent": 99.826
+        },
+        {
+          "date": "2026-10-02",
+          "availability_percent": 99.942
+        },
+        {
+          "date": "2026-10-03",
+          "availability_percent": 99.942
+        },
+        {
+          "date": "2026-10-04",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-10-05",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-10-06",
+          "availability_percent": 99.942
+        },
+        {
+          "date": "2026-10-07",
+          "availability_percent": 99.942
+        },
+        {
+          "date": "2026-10-08",
+          "availability_percent": 99.884
+        },
+        {
+          "date": "2026-10-09",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-10-10",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-10-11",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-10-12",
+          "availability_percent": 100
+        },
+        {
+          "date": "2026-10-13",
+          "availability_percent": 100
+        }
+      ]
+    },
+    "incidents": [],
+    "incident_criterion": "An availability incident is recorded when more than 2 of the 6 uptime probe locations report failure for at least 300 seconds, the same threshold that triggers the alert policy. Shorter single-probe failures appear in the daily history but are not incidents."
+  },
+  "links": {
+    "product_website": "https://virtualdojo.com",
+    "marketplace": "https://fedramp.gov/marketplace/products/FR2635050861",
+    "secure_configuration_guide": "https://trust.virtualdojo.com/secure-configuration-guide",
+    "privacy_policy": "https://www.virtualdojo.com/privacy-policy",
+    "trust_center": "https://trust.virtualdojo.com",
+    "continuous_progress": "https://trust.virtualdojo.com/progress",
+    "quarterly_reviews": "https://trust.virtualdojo.com/quarterly-reviews",
+    "logo": "https://trust.virtualdojo.com/static/logo.png"
+  },
+  "quarterly_reviews": {
+    "next_date": "2026-10-09",
+    "registration_url": "https://trust.virtualdojo.com/quarterly-reviews",
+    "calendar_file_url": null,
+    "feedback_mechanism": "security@virtualdojo.com",
+    "meetings": [
+      {
+        "date": "2026-10-09",
+        "time_local": "11:00",
+        "timezone": "America/New_York",
+        "starts_at_utc": "2026-10-09T15:00:00Z",
+        "join_url": "https://teams.microsoft.com/meet/229894863813595?p=3AaW2HDBIUWm85OG5T",
+        "platform": "Microsoft Teams"
+      },
+      {
+        "date": "2026-12-01",
+        "time_local": "14:00",
+        "timezone": "America/New_York",
+        "starts_at_utc": "2026-12-01T19:00:00Z",
+        "join_url": "https://teams.microsoft.com/meet/298395501401406?p=HERVnLUSLrogOkIjfd",
+        "platform": "Microsoft Teams"
+      }
+    ]
+  },
+  "next_certification_report_date": "2026-10-02",
+  "continuous_progress": {
+    "statement": "VirtualDojo is pursuing FedRAMP 20x Certification Class C for VirtualDojo AI CRM by the Program path. Progress below is measured against dated milestones and refreshed at least quarterly. Milestones that are not yet met say so.",
+    "review_cadence": "quarterly",
+    "next_review_date": "2026-12-01",
+    "last_updated": "2026-10-14T20:13:06Z",
+    "goals": [
+      {
+        "id": "G1",
+        "title": "Continuous, automated validation of all Key Security Indicators",
+        "detail": "Every applicable Key Security Indicator is verified and validated by an automated, scheduled process with retained per-day evidence, meeting the Class C floor of at least two automated methods per indicator.\n"
+      },
+      {
+        "id": "G2",
+        "title": "Complete, machine-readable certification data published openly",
+        "detail": "Certification data is published as valid JSON against the FedRAMP schemas, retrievable without negotiation, and kept current.\n"
+      },
+      {
+        "id": "G3",
+        "title": "Independent assessment and Program certification",
+        "detail": "An independent assessment by a FedRAMP Recognized assessment service, followed by application for Certification.\n"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "M1",
+        "goal": "G1",
+        "title": "Scheduled, non-interactive KSI validation operating daily",
+        "status": "met",
+        "date_met": "2026-07-04",
+        "detail": "Cloud Scheduler triggers a Cloud Run job daily at 04:00 UTC under a dedicated service account. The first scheduled firing was 2026-07-04 at 04:00 UTC; per-indicator results are retained for every day since. The job was created on 2026-07-03 and the runs that day were started by hand, so 2026-07-03 is reported as manual and is not counted as persistent validation.\n",
+        "measure": "consecutive_days_of_validation",
+        "measured": {
+          "value": 43,
+          "unit": "days",
+          "window": {
+            "from": "2026-09-02",
+            "to": "2026-10-14"
+          },
+          "source": "retained per-day validation results",
+          "target": 183,
+          "percent_complete": 23
+        }
+      },
+      {
+        "id": "M2",
+        "goal": "G1",
+        "title": "Two or more automated validation methods for every indicator",
+        "status": "in_progress",
+        "target_date": "2026-12-15",
+        "detail": "Class C requires at least two automated methods per indicator (FRC-CSX-VVK). Method independence and outcome-based validation evidence are being strengthened indicator by indicator.\n",
+        "measure": "ksis_with_2plus_methods",
+        "measured": {
+          "value": 46,
+          "of": 46,
+          "unit": "indicators",
+          "source": "latest validation run (indicators with 2+ PASSING automated methods)"
+        }
+      },
+      {
+        "id": "M3",
+        "goal": "G1",
+        "title": "Six months of continuous validation history",
+        "status": "in_progress",
+        "target_date": "2027-01-03",
+        "target_value": 183,
+        "detail": "FRC-CSX-MOT requires six months of historical metrics from persistent validation at Class C. The mechanism is in place and accumulating; the six-month point is reached on 2027-01-03.\n",
+        "measure": "consecutive_days_of_validation",
+        "measured": {
+          "value": 43,
+          "unit": "days",
+          "window": {
+            "from": "2026-09-02",
+            "to": "2026-10-14"
+          },
+          "source": "retained per-day validation results",
+          "target": 183,
+          "percent_complete": 23
+        }
+      },
+      {
+        "id": "M4",
+        "goal": "G2",
+        "title": "Public certification data published and schema-valid",
+        "status": "met",
+        "date_met": "2026-08-26",
+        "detail": "Certification data is published at https://trust.virtualdojo.com and validated against the FedRAMP Certification Package Overview schema.\n",
+        "measure": "manual"
+      },
+      {
+        "id": "M5",
+        "goal": "G2",
+        "title": "FedRAMP Marketplace listing obtained",
+        "status": "met",
+        "target_date": "2026-09-01",
+        "detail": "Marketplace Provider Listing Request submitted 2026-09-17 (ticket #67687); package validated and approved by FedRAMP 2026-09-21 and listed in the Initial Implementation Phase on 2026-09-22 as FR2635050861. Listing is a prerequisite to applying for Certification (FRC-APP-MLF).\n",
+        "measure": "manual"
+      },
+      {
+        "id": "M6",
+        "goal": "G3",
+        "title": "Independent assessment conducted",
+        "status": "met",
+        "target_date": "2026-09-30",
+        "detail": "Independent assessment by a FedRAMP Recognized assessment service (Anthony Timbers LLC, Marketplace assessor id 203181). Assessment date 2026-10-02 as supplied by the assessor; KSI examination report dated 2026-10-05 and received 2026-10-06, which completes the assessment (38 of 46 indicators met, 8 partially met, remediation in progress). The assessment must be less than three months old at application (FRC-APP-FIA), so the application window runs to 2027-01-02.\n",
+        "measure": "manual"
+      },
+      {
+        "id": "M7",
+        "goal": "G3",
+        "title": "Application for FedRAMP Certification submitted",
+        "status": "in_progress",
+        "target_date": "2026-10-16",
+        "detail": "Both prerequisites are met: the Marketplace listing (2026-09-22, FRC-APP-MLF) and the independent assessment (assessment date 2026-10-02, assessor report received 2026-10-06, FRC-APP-FIA). The Certification Package is being submitted to the FedRAMP office the week of 2026-10-12. The package must be verified and validated within the 7 days before submission (FRC-APP-FCP), so the final regeneration happens in that week.\n",
+        "measure": "manual"
+      }
+    ],
+    "summary": {
+      "milestones_total": 7,
+      "milestones_met": 4,
+      "milestones_in_progress": 3,
+      "milestones_not_started": 0
+    }
+  },
+  "evidence_history": {
+    "days": [
+      {
+        "date": "2026-01-13",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-14",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-15",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-16",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-17",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-18",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-19",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-20",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-21",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-22",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-23",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-24",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-25",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-26",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-27",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-28",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-29",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-30",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-01-31",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-01",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-02",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-03",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-04",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-05",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-06",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-07",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-08",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-09",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-10",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-11",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-12",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-13",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-14",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-15",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-16",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-17",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-18",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-19",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-20",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-21",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-22",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-23",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-24",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-25",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-26",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-27",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-02-28",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-01",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-02",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-03",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-04",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-05",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-06",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-07",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-08",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-09",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-10",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-11",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-12",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-13",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-14",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-15",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-16",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-17",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-18",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-19",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-20",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-21",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-22",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-23",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-24",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-25",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-26",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-27",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-28",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-29",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-30",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-03-31",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-01",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-02",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-03",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-04",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-05",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-06",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-07",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-08",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-09",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-10",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-11",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-12",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-13",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-14",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-15",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-16",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-17",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-18",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-19",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-20",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-21",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-22",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-23",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-24",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-25",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-26",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-27",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-28",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-29",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-04-30",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-01",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-02",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-03",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-04",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-05",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-06",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-07",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-08",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-09",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-10",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-11",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-12",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-13",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-14",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-15",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-16",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-17",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-18",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-19",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-20",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-21",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-22",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-23",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-24",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-25",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-26",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-27",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-28",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-29",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-30",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-05-31",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-01",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-02",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-03",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-04",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-05",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-06",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-07",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-08",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-09",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-10",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-11",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-12",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-13",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-14",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-15",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-16",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-17",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-18",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-19",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-20",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-21",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-22",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-23",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-24",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-25",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-26",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-27",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-28",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-29",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-06-30",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-07-01",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-07-02",
+        "class": "reconstructed"
+      },
+      {
+        "date": "2026-07-03",
+        "class": "manual"
+      },
+      {
+        "date": "2026-07-04",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-05",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-06",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-07",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-08",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-09",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-10",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-11",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-12",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-13",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-14",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-15",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-16",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-17",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-18",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-19",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-20",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-21",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-22",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-23",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-24",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-25",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-26",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-27",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-28",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-29",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-30",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-07-31",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-01",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-02",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-03",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-04",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-05",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-06",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-07",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-08",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-09",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-10",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-11",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-12",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-13",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-14",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-15",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-16",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-17",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-18",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-19",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-20",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-21",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-22",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-23",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-24",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-25",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-26",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-27",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-28",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-29",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-30",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-08-31",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-01",
+        "class": "none"
+      },
+      {
+        "date": "2026-09-02",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-03",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-04",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-05",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-06",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-07",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-08",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-09",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-10",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-11",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-12",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-13",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-14",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-15",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-16",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-17",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-18",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-19",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-20",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-21",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-22",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-23",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-24",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-25",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-26",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-27",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-28",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-29",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-09-30",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-01",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-02",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-03",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-04",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-05",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-06",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-07",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-08",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-09",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-10",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-11",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-12",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-13",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-10-14",
+        "class": "scheduled"
+      }
+    ],
+    "scheduled": {
+      "days": 102,
+      "from": "2026-07-04",
+      "to": "2026-10-14",
+      "meaning": "The scheduled validation job ran unattended on this date at its documented 04:00 UTC cycle and produced per-indicator results. This is the only class that counts as persistent validation."
+    },
+    "manual": {
+      "days": 1,
+      "from": "2026-07-03",
+      "to": "2026-07-03",
+      "meaning": "Validation ran on this date but was started by hand, outside the scheduled cycle. Not counted as persistent validation."
+    },
+    "reconstructed": {
+      "days": 171,
+      "from": "2026-01-13",
+      "to": "2026-07-02",
+      "meaning": "Status derived after the fact from retained audit evidence. Not the output of validation performed on this date."
+    },
+    "total_days_with_evidence": 274,
+    "gaps": 1
+  },
+  "certification_data_access": {
+    "agency_inventory": "CDS-TRC-AAI. The inventory of federal agency users and systems holding\naccess to FedRAMP Certification Data is the membership of the Microsoft\nEntra group VDJ-TrustCenter-Agencies, which is the group the self-service\nprovisioning flow grants into. The history of that access is retained\nseparately from current membership: every grant, denial and access event\nis written to Cloud Logging with the principal, the resource and the\noutcome, on buckets whose 400-day retention is locked, so a record\nsurvives the removal of a user from the group.\n\nFedRAMP may obtain either by emailing security@virtualdojo.com. The\ncurrent inventory is supplied as a group membership export and the\nhistory as the corresponding access records for the requested period,\nwithin 5 business days of the request.",
+    "historical_snapshots": "CDS-CSO-HAD. Snapshots of FedRAMP Certification Data are aligned to\nOngoing Certification Reports and retained for the duration of the\ncertification. Each Ongoing Certification Report is published with the\nCertification Package as it stood at that report, reachable through the\nauthenticated trust center under /reports and programmatically under\n/api/certification-package, and the underlying validation run for each\nreport is retained in the append-only evidence bucket.\n\nAll necessary parties obtain a snapshot by selecting the corresponding\nreport in the trust center, or by requesting a specific period from\nsecurity@virtualdojo.com.\n\nNo Ongoing Certification Report has been issued yet: this offering is not\nyet certified and its first report is due 2026-10-02. Per the note on\nCDS-CSO-HAD, snapshots are not reconstructed for periods before the first\nOngoing Certification Report, so none is outstanding. The retention\nmechanism above is in place ahead of that first report."
+  },
+  "secure_configuration_release_history": {
+    "current_version": "1.2",
+    "document_id": "VDJ-SCG-001",
+    "public_url": "https://trust.virtualdojo.com/secure-configuration-guide",
+    "versions": [
+      {
+        "version": "1.0",
+        "date": "2026-07-01",
+        "author": "Devin Henderson, CEO / ISSO",
+        "approver": "Devin Henderson, CEO / ISSO",
+        "default_settings_changed": true,
+        "summary": "Initial release of the Secure Configuration Guide. Established the recommended secure-defaults baseline for top-level administrative (superadmin) and privileged (admin) accounts and satisfied SCG-CSO-RSC, SCG-CSO-AUP, SCG-CSO-PUB, and SCG-CSO-SDF for the FedRAMP 20x Certification Package."
+      },
+      {
+        "version": "1.1",
+        "date": "2026-08-31",
+        "author": "Devin Henderson, CEO / ISSO",
+        "approver": "Devin Henderson, CEO / ISSO",
+        "default_settings_changed": true,
+        "summary": "Corrected a recommended secure default (the application inactivity timeout) and extended the guide to own the complete Secure Configuration Guidance (SCG) family at Class C, adding the Section 1.4 family coverage and decision register across all 9 applicable SCG rules."
+      },
+      {
+        "version": "1.2",
+        "date": "2026-09-01",
+        "author": "Devin Henderson, CEO / ISSO",
+        "approver": "Devin Henderson, CEO / ISSO",
+        "default_settings_changed": false,
+        "summary": "Implemented SCG-ENH-VRH. Introduced this purpose-built, queryable release-history register for the Secure Configuration Guide and updated the guide's Section 1.4 decision register and Section 9 to record the control as implemented rather than a documented deviation. No recommended secure defaults changed."
+      }
+    ]
+  },
+  "live_monitoring": {
+    "controls_monitored": 46,
+    "controls_passing": 39,
+    "last_validated": "2026-10-14T20:08:23.503256Z"
+  },
+  "metadata": {
+    "responsibleOfficial": {
+      "name": "Devin Henderson",
+      "title": "ISSO / CEO",
+      "email": "security@virtualdojo.com"
+    },
+    "version": "1.1",
+    "lastUpdated": "2026-10-14T20:13:08.000026+00:00",
+    "updateSource": "Generated by fedramp-ksi-validator export.certification_package from package.yaml and the automated KSI/FRR validation results."
+  },
   "serviceIdentification": {
-    "fedRampPackageId": "FR2635050861",
     "providerName": "VirtualDojo, Inc.",
     "serviceName": "VirtualDojo AI CRM",
-    "serviceAcronym": "VirtualDojo AI CRM",
+    "serviceAcronym": "VAC",
     "serviceDescription": "VirtualDojo AI CRM is a cloud-based customer relationship management\nplatform with AI-powered proposal generation, contact management,\npipeline forecasting, and document automation. The platform is designed\nfor government contractors and federal agencies managing procurement\nworkflows, storing Controlled Unclassified Information (CUI) including\ngovernment contract data, customer PII, proposal documents, and\nfinancial/pricing data.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
+    "fedRampPackageId": "FR2635050861",
     "website": "https://virtualdojo.com",
     "logo": "https://trust.virtualdojo.com/static/torii-logo.svg",
     "ueiNumber": "JZCAH18DEDC8"
@@ -15,27 +1924,100 @@
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
+    "digitalIdentityLevel": "",
+    "businessCategory": [
+      "Customer Relations Management (CRM)"
+    ],
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
       "url": "https://trust.virtualdojo.com",
-      "repositoryDescription": "FedRAMP Trust Center",
+      "repositoryDescription": "Request access self-service at https://trust.virtualdojo.com/request-access.\nFederal agency and FedRAMP personnel with a .gov or .mil email are granted\naccess automatically (just-in-time) accept the emailed invitation, then\nsign in with your work email. Customers and prospective customers are\nreviewed by the security team (a non-disclosure or customer agreement must\nbe on file; typically within 2 business days). Signed-in users can view\nvalidation reports and the certification package at\nhttps://trust.virtualdojo.com/reports, with the machine-readable JSON for\nevery document linked alongside (or via the authenticated API under\n/api/). For automated/programmatic integrations, contact\nsecurity@virtualdojo.com to be issued machine credentials.\n",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "The trust center landing page at https://trust.virtualdojo.com, the public\nFedRAMP certification data feed, and the Secure Configuration Guide are\navailable to anyone with no account and no request required.\n\nAccess to the full Certification Package (Certification Package Overview,\nSecurity Decision Record, and Ongoing Certification Reports) and to the\ndetailed validation reports under https://trust.virtualdojo.com/reports is\ngranted on request at https://trust.virtualdojo.com/request-access.\nRequesters with a .gov or .mil email address are provisioned automatically\n(just in time): submit the address, then accept the emailed invitation and\nsign in with that work email. Requests from all other addresses are\nreviewed by the VirtualDojo security team and require a non-disclosure or\ncustomer agreement on file, typically completed within 2 business days.\n\nEvery document is available in both human-readable and machine-readable\nform, with the JSON linked alongside each report and also reachable through\nthe authenticated API under /api/. For automated or programmatic\nintegrations, contact security@virtualdojo.com to be issued machine\ncredentials.\n\nAccess to FedRAMP Certification Data is logged. Each record identifies the\nrequesting principal, the resource reached and the outcome, and the records\nare retained for 400 days, which exceeds the six months CDS-TRC-ACL\nrequires. An agency, assessor or customer may request a summary of its own\naccess by emailing security@virtualdojo.com from an address already\nprovisioned for trust center access; the summary covers that party's own\nactivity only and is supplied within 5 business days."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.virtualdojo.com/secure-configuration-guide",
+      "repositoryDescription": "Secure Configuration Guide for federal agency customers.",
       "authenticationRequired": false
-    }
+    },
+    "nextOngoingCertificationReportDate": "2026-10-02"
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Devin Henderson",
       "contactEmail": "security@virtualdojo.com"
     },
     {
       "contactType": "Sales",
+      "contactName": "Cyrus Calloway",
       "contactEmail": "cyrus@virtualdojo.com"
     }
   ],
   "assessor": {
     "name": "Anthony Timbers LLC",
-    "assessorID": "203181"
-  }
+    "assessorID": "203181",
+    "id": "203181",
+    "assessmentStatus": "CONDUCTED - assessor results not yet transcribed",
+    "assessmentTiming": "Independent assessment conducted on 2026-10-02 by Anthony Timbers LLC (FedRAMP Marketplace assessor id 203181). Assessor examination report dated 2026-10-05. The assessor's per-indicator results have not yet been transcribed into this document's assessment arrays."
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Contact & Account Management",
+      "serviceDescription": "CRM contact records, account hierarchies, activity tracking",
+      "securityObjectives": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Moderate"
+      },
+      "inFedRampScope": true
+    },
+    {
+      "serviceName": "AI Proposal Generation",
+      "serviceDescription": "AI-powered proposal drafting using Google Vertex AI",
+      "securityObjectives": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low"
+      },
+      "inFedRampScope": true
+    },
+    {
+      "serviceName": "Pipeline & Forecasting",
+      "serviceDescription": "Sales pipeline management, revenue forecasting, analytics",
+      "securityObjectives": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Low"
+      },
+      "inFedRampScope": true
+    },
+    {
+      "serviceName": "Document Management",
+      "serviceDescription": "Proposal documents, quotes, attachments stored in GCS",
+      "securityObjectives": {
+        "confidentiality": "Moderate",
+        "integrity": "Moderate",
+        "availability": "Moderate"
+      },
+      "inFedRampScope": true
+    },
+    {
+      "serviceName": "Tenant Administration",
+      "serviceDescription": "Multi-tenant provisioning, user management, RBAC",
+      "securityObjectives": {
+        "confidentiality": "Moderate",
+        "integrity": "High",
+        "availability": "Moderate"
+      },
+      "inFedRampScope": true
+    }
+  ],
+  "ZD_frid_retro": "FR2635050861",
+  "id_matches_expected": true
 }

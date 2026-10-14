@@ -1,33 +1,99 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
-    "fedRampPackageId": "FR2633053633",
+    "fedRampPackageId": "Anthropic-Claude",
+    "ueiNumber": "SPQZL8XDKGK7",
     "providerName": "Anthropic",
     "serviceName": "Claude",
     "serviceAcronym": "Claude",
     "serviceDescription": "Claude is Anthropic's AI assistant, delivered as a cloud service and accessed through multiple interfaces that share the same underlying platform, models, and security controls: the Claude application on web, desktop, and mobile; Claude Code for agentic software development; Claude Cowork for delegating multi-step knowledge work; and the Claude API and Developer Platform for programmatic access to Claude models and agent-building capabilities. Users interact with Claude in natural language to draft and analyze documents, reason over uploaded files, search connected data sources, write and run code, and automate multi-step work. Organization administrators manage identity, access, data retention, and audit controls across all interfaces from a single deployment. Customer content is not used to train Anthropic's models by default.",
-    "certificationType": "Rev5",
+    "certificationType": "20x",
     "website": "https://claude.com/product/overview",
-    "logo": "https://assets.claude.ai/brand/logos/anthropic-logo.svg",
-    "ueiNumber": "SPQZL8XDKGK7"
+    "logo": "https://assets.claude.ai/brand/logos/anthropic-logo.svg"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Public Cloud"
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)"
+    ]
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Anthropic FedRAMP Security Contact",
       "contactEmail": "fedramp@anthropic.com"
     },
     {
       "contactType": "Sales",
+      "contactName": "Anthropic Public Sector Sales",
       "contactEmail": "pubsec@anthropic.com"
+    },
+    {
+      "contactType": "Primary",
+      "contactName": "Taylor Trigger, Security Governance, Risk, and Compliance (GRC)",
+      "contactEmail": "fedramp@anthropic.com"
     }
   ],
   "assessor": {
-    "name": "Schellman Compliance, LLC",
+    "name": "Schellman & Company, LLC",
     "assessorID": "136571"
-  }
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Claude",
+      "serviceDescription": "Claude is Anthropic's AI assistant, delivered as a single cloud service and accessed through multiple interfaces that share the same underlying platform, models, and security controls. This certification covers all Claude services offered to enterprise and government customers, including: the Claude application on web, desktop, and mobile; Claude Code, for agentic software development from the terminal, IDE, desktop, or mobile; Claude Cowork, for delegating multi-step knowledge work; and the Claude API and Developer Platform, for programmatic access to Claude models and agent-building capabilities. Organization administrators manage identity, access, data retention, and audit controls across all interfaces from a single enterprise deployment.",
+      "dateAvailable": "2023-03-14"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Google Cloud Platform (Vertex AI) serves model inference for FedRAMP customers; GCP also hosts production data stores (AlloyDB)."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Cloudflare",
+        "provider": "Cloudflare, Inc.",
+        "website": "https://www.cloudflare.com",
+        "useCase": "Edge ingress operating in proxy mode: DNS, TLS termination, WAF, and rate limiting for all customer traffic before forwarding to Anthropic load balancers."
+      },
+      {
+        "name": "WorkOS",
+        "provider": "WorkOS, Inc.",
+        "website": "https://workos.com",
+        "useCase": "Enterprise single sign-on broker. Hosts customer organization SSO configuration, domain verification, and identity-provider connections; issues SP-initiated authorization URLs."
+      },
+      {
+        "name": "Datadog",
+        "provider": "Datadog, Inc.",
+        "website": "https://www.datadoghq.com",
+        "useCase": "Logging and monitoring for production services. Contains log data that could affect the security of customer data."
+      },
+      {
+        "name": "Wiz",
+        "provider": "Wiz, Inc.",
+        "website": "https://www.wiz.io",
+        "useCase": "Cloud security posture and vulnerability scanning of the production environment."
+      },
+      {
+        "name": "Brave Search",
+        "provider": "Brave Software, Inc.",
+        "website": "https://brave.com",
+        "useCase": "Web search backend. When a user invokes web search, query content is transmitted to Brave and results are returned to the product service."
+      },
+      {
+        "name": "ElevenLabs",
+        "provider": "ElevenLabs, Inc.",
+        "website": "https://elevenlabs.io",
+        "useCase": "Text-to-speech service for voice output features; processes customer content passed for synthesis."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2633053633",
+  "id_matches_expected": false
 }

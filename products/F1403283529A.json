@@ -1,34 +1,119 @@
 {
+  "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "id": "2477376f-f003-42e5-afb2-ae4ed6fbcbb8",
+  "schemaVersion": "2026-06-24",
   "serviceIdentification": {
     "fedRampPackageId": "F1403283529A",
+    "ueiNumber": "FQLLNM449KF1",
     "providerName": "Project Hosts Inc.",
     "serviceName": "GSS One Azure",
-    "serviceAcronym": "GSS One Azure",
+    "serviceAcronym": "GSS1-AZ",
     "serviceDescription": "**Service Description**\n\nThe GSSOne Azure is a General Support System (GSS) operated by Project Hosts and deployed within Azure Government. The platform is designed as a secure, multi-tenant PaaS/SaaS environment that enables federal, DoD, state, local, and tribal agencies, as well as government contractors, members of the DIB and the public to deploy and operate applications in compliance with federal security requirements.\n\nThe GSSOne Azure Core provides a standardized set of centrally managed services that support secure application deployment and operations, including access control, authentication, auditing, monitoring, scanning, patching, configuration management, malware prevention, intrusion prevention, incident response, backup, and disaster recovery.\n\nThese capabilities are implemented and managed by Project Hosts and are leveraged by applications deployed on the platform to meet security and compliance requirements.\n\nThe GSSOne Azure supports two primary application deployment models:\n\n**1. Applications Included Within the GSS One Authorization Boundary**\n\nCertain SaaS applications are incorporated directly into the GSSOne Azure authorization boundary and are assessed and certified as part of the GSSOne Azure system.\n\nThe following SaaS applications are currently included within the GSSOne Azure authorization boundary:\n\n1. **GSSOne User Portal/Admin Page**\n1. **GSSOne Command Center (GSSOCC)**\n1. **GSS One Azure Support Center**\n1. **Quest Security Management Platform (Quest-SMP)**\n1. **OnePlan**\n\nMore information on each of these along with other certified GSSOne Core/ consumable services can be found in the certified services section below.\n\n**2. Applications Supported on the Platform**\n\nGSSOne Azure also supports customer and Independent Software Vendor (ISV) applications that are deployed on the platform but maintain their own authorization boundary (e.g., agency ATO or ISV-owned system).\n\nIn this model, Project Hosts provides the underlying infrastructure, security services, and operational support, while the application owner maintains responsibility for their system authorization and application-specific controls.\n\nThis flexible deployment model allows agencies to either leverage existing SaaS capabilities or deploy their own applications within a secure, FedRAMP-authorized environment.\n\nEach of the systems below have been vetted and meets the FedRAMP requirements and are ready to pursue FedRAMP certification or have been certified under their own listing and are viewable under the dependent product list.\n\nExamples of supported applications include:\n\n    - Archive360 (Archive360 Platform)\n    - AudioCodes (AudioCodes Live Platform)\n    - AvePoint (AvePoint Online Services for US Government)\n    - Aztec (Aztec Learning System)\n    - Bingli (Bingli)\n    - Blue Prism (Blue Prism)\n    - BrightWork (BrightWork SharePoint-based Project Management)\n    - C3 AI (C3 AI Suite)\n    - CTERA Networks (CTERA Edge Filer, CTERA Drive, CTERA Portal)\n    - Conga (Contract Lifecycle Management, X-Author and Conga Approvals)\n    - Creative Veteran Productions (Fed ILMS)\n    - CyberSTAR Software (CyberSTAR™)\n    - Distributed Solutions Inc. (AEON)\n    - Drupal (Drupal CMS)\n    - Feith Systems and Software Inc. (RMA iQ™)\n    - FlowVU (FlowVU Collaboration)\n    - Idea Entity (RhyBus Platform)\n    - Image Trend (Elite, Report Writer (RW), Continuum (CT), Licensure, Slate)\n    - Invoke (UiPath Orchestrator and RPA)\n    - Ivanti (MDM, Access, Neurons)\n    - LMI (ATLAS by LMI)\n    - Librestream Technology (Onsight Now)\n    - Microsoft (Office, Dynamics, Power BI Server, Project Server, SharePoint, SSRS)\n    - NIBS/ OM Group Inc. (ProjNet™)\n    - Nintex (K2 Five, Workflow Cloud, DocGen)\n    - Nintex (Nintex Automation GE Platform)\n    - Nuance (Dragon Suite, DAX CoPilot)\n    - OnePlan.ai (OnePlan)\n    - OneSpan (OneSpan Sign)\n    - Orbus Software (OrbusINFINITY)\n    - Permuta (Defense Ready)\n    - Power Settlements Consulting and Software, LLC (PowerCore™)\n    - ProSymmetry\n    - Relocation Management Worldwide (Virtual Employee Network)\n    - Synergist Technology, LLC (AFFIRM Solution for AI Compliance, SAS® VIYA®)\n    - Teamviewer (TeamViewer Digital Employee Experience (TMV DEX) for Government)\n    - UMT360 (SharePoint-based Enterprise Portfolio Management)\n    - Unison Software (Program Management Suite (PMSuite)\n    - Wellspring (Accolade Enterprise Innovation Management, Sophia, Evolve)\n    - WordPress (WordPress CMS)\n    - WordPress As a Service (WPaaS)\n\nFor each of these applications, Project Hosts provides deployment, security, and operational support services for these applications, enabling customers to leverage the GSSOne Azure platform while maintaining flexibility in how their systems are authorized and managed. Performing these functions on the partner’s behalf allows the software vendors to focus on their core business model in delivering a secure, highly functional application to the agency while Project Hosts handles the security/ compliance requirements.\n\n**Additional Services**\n\nFor customers not deployed on the GSS One Azure, Project Hosts offers dedicated continuous monitoring services leveraging the GSS One Azure Command Center and scanners operated by Project Hosts engineers to configure, scan and provide continuous monitoring services to those external customers and their respective agencies to meet FedRAMP requirements.\n\n**Certified Services**\n\nThe following services are included as Certified Services within the GSSOne Azure certification. Unless otherwise noted, each service operates within the GSSOne Azure authorization boundary at the **High** security impact level and under **Certification Class D**.\n\n**GSSOne Azure Core**\n\n    - **Date Available:** March 11, 2016\n    - **Security Impact Level:** High\n    - **Certification Class:** D\n\nThe GSSOne Azure Core provides a standardized set of centrally managed services that support secure application deployment and operations, including access control, authentication, auditing, monitoring, scanning, patching, configuration management, malware prevention, intrusion prevention, incident response, backup, and disaster recovery.\n\n**GSSOne Command Center**\n\n    - **Date Available:** May 5, 2025\n    - **Security Impact Level:** High\n    - **Certification Class:** D\n\nThe GSS One Command Center is a centralized compliance and operations platform that gives agencies and CSP partners real-time visibility into system security, risk, and authorization status. Designed to meet FedRAMP Rev. 5 BIRs and aligned with the direction of FedRAMP 20x, the GSSOCC supports a shift toward continuous, evidence-driven validation rather than static, point-in-time assessments.\n\nIt serves as a single pane of glass for managing the full lifecycle of authorization and operations, bringing together system documentation, vulnerability data, incident tracking, change control, and monitoring into one integrated experience. By linking controls directly to supporting evidence and operational data, the GSSOCC reduces the overhead of maintaining compliance and enables faster, more transparent ATO decisions for agencies.\n\n**GSSOne Support Center**\n\n    - **Date Available:** May 5, 2025\n    - **Security Impact Level:** High\n    - **Certification Class:** D\n\nProject Hosts has configured a customer-facing support portal for creating and managing support tickets powered by Atlassian Jira. This allows customers to view all of their relevant tickets, create tickets, submit change control requests, upload screenshots, review knowledgebases and communicate with PH staff through a secure channel.\n\n**GSSOne Admin/User Portal**\n\n    - **Date Available:** March 11, 2016\n    - **Security Impact Level:** High\n    - **Certification Class:** D\n\nGSSOne Admin/User Portal provides a centralized interface for customer onboarding, account provisioning, access management, billing visibility, and authorized administrative activities. Administrative actions are governed through role-based access controls and documented approval workflows.\n\n**GSSOne SMTP Service**\n\n    - **Date Available:** March 11, 2016\n    - **Security Impact Level:** High\n    - **Certification Class:** D\n\nProvides centrally managed email relay and routing services for applications operating within the authorization boundary. The service supports controlled delivery, encryption, authentication, logging, and monitoring of system-generated email.\n\n**GSSOne Certificate Authority**\n\n    - **Date Available:** March 11, 2016\n    - **Security Impact Level:** High\n    - **Certification Class:** D\n\nProvides centralized certificate issuance, validation, renewal, revocation, and lifecycle management for system components. It supports trusted encrypted communications and consistent certificate governance across the environment.\n\n**GSSOne CertForge**\n\n    - **Date Available:** March 11, 2016\n    - **Security Impact Level:** High\n    - **Certification Class:** D\n\nAutomates the generation, deployment, renewal, and tracking of TLS certificates used by authorized applications and infrastructure. Automation reduces expired-certificate risk while supporting approved cryptographic and certificate-management requirements.\n\n**GSSOne Illumination/Inventory**\n\n    - **Date Available:** May 5, 2025\n    - **Security Impact Level:** High\n    - **Certification Class:** D\n\nProvides automated discovery and inventory of cloud resources, configurations, and security-relevant attributes within the environment. The service supports continuous compliance validation, evidence generation, configuration-drift identification, and centralized reporting.\n\n**Quest Security Management Platform**\n\n    - **Date Available:** June 24, 2026\n    - **Security Impact Level:** High\n    - **Certification Class:** D\n\nThe Quest-SMP is a browser-based application with different agents that can be deployed on the agency devices/systems based on their individual use case.\n\nThe Quest-SMP contains two major components:\n\n    - **Quest Identity Recovery for Entra ID: **Quest Identity Recovery for Entra ID is a SaaS-based backup and recovery solution for Microsoft Entra ID and Microsoft 365 that extends protection beyond native Microsoft tools. It enables fast, secure restoration of users, groups, attributes, and memberships from a single cloud interface. Administrators can compare backups, view changes, and recover only what’s needed—reducing manual errors and downtime. All recovery actions are logged and auditable to support compliance requirements. Hybrid Active Directory and Entra ID recovery is also supported through built-in integration with on-premises Quest Recovery Manager for Active Directory. Delivered as a secure, high-availability cloud service, Quest Identity Recovery for Entra ID helps federal agencies simplify directory recovery, maintain continuity, and meet governance standards without the need for on-premises infrastructure.\n    - **Quest Identity Defense**: Quest Identity Defense is a hybrid Active Directory and Microsoft Entra ID security and audit platform that helps federal agencies strengthen identity threat detection, containment, and response while reducing risk of exposure and downtime. It identifies Tier Zero and other privileged objects across Active Directory and Entra ID to pinpoint where the greatest risks reside. The platform continually assesses identity environments for problematic configurations and drift from best-practice baselines, helping maintain compliance and operational integrity. Quest Identity Defense provides enhanced threat detection and observability for directory changes and protects Tier Zero assets from malicious in-memory modification—supporting zero trust and mission continuity across hybrid identity systems.\n\n**OnePlan**\n\n    - **Date Available:** September 21, 2026\n    - **Security Impact Level:** High\n    - **Certification Class:** D\n\nOnePlan is a strategic portfolio and work management platform that helps federal agencies plan, prioritize, and execute mission-critical initiatives. It enables Program Management Offices (PMOs) to align projects, resources, and budgets to mission priorities, with centralized, audit-ready visibility across projects, programs, and portfolios.\n\nBuilt for Microsoft, OnePlan integrates with various Microsoft SaaS products enabling agencies to work within their existing Microsoft ecosystem while maintaining centralized governance across portfolio and work data. By consolidating portfolio, project, and resource management in a single platform, OnePlan gives agency leaders the visibility and control needed to align investments to mission outcomes.\n\n**Agency Authorization and Reuse Relationships**\n\nGSSOne Azure maintains an Agency certification path associated with the **Defense Information Systems Agency.**\n\nThe FedRAMP Marketplace metadata associated with the certification:\n\n    - **Agency Authorizations:** 6\n    - **Dependent Product / Reuse Relationships:** 13 Certified Dependent Products / 41 Reuses\n    - **Certification Path:** Agency\n    - **Original FedRAMP Moderate Authorization:** March 11, 2016\n    - **FedRAMP High Uplift Completed:** March 16, 2026\n    - **Certification Class:** Class D (High)\n\nGSSOne Azure also serves as an underlying authorized platform for applications and cloud service offerings that leverage GSSOne Azure security, infrastructure, and operational capabilities. Depending on the application deployment and authorization model, these relationships may be represented as included Certified Services, dependent products, reuse relationships, or separately authorized customer systems.\n\nThe information in this section is included to preserve visibility into the certification and authorization relationships associated with GSSOne Azure where corresponding structured Marketplace fields are not currently displayed.",
     "certificationType": "Rev5",
     "website": "https://projecthosts.com/",
-    "logo": "https://projecthosts.com/wp-content/uploads/2024/12/Vector_ProjectHosts_logo.png",
-    "ueiNumber": "FQLLNM449KF1"
+    "logo": "https://projecthosts.com/wp-content/uploads/2024/12/Vector_ProjectHosts_logo.png"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS",
       "PaaS"
     ],
-    "deploymentModel": "Hybrid Cloud"
+    "deploymentModel": "Hybrid Cloud",
+    "digitalIdentityLevel": "AAL/IAL3",
+    "businessCategory": [
+      "Collaboration",
+      "Communication",
+      "Content Management System (CMS)",
+      "Customer Service",
+      "Cybersecurity & Risk Management",
+      "Data Management"
+    ],
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "FedRAMP Marketplace"
+        ],
+        "url": "https://marketplace.fedramp.gov/products/F1403283529A",
+        "repositoryDescription": "FedRAMP Marketplace listing for the cloud service offering.",
+        "authenticationRequired": false
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2026-12-21"
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "GSSOne Azure Security Contact",
       "contactEmail": "securitycompliance@projecthosts.com"
     },
     {
+      "contactType": "Security",
+      "contactName": "Joshua Krueger",
+      "contactEmail": "josh.krueger@us.projecthosts.com",
+      "contactPhone": "814-282-8341"
+    },
+    {
       "contactType": "Sales",
+      "contactName": "GSSOne Azure Sales Contact",
       "contactEmail": "sales@projecthosts.com"
     }
   ],
   "assessor": {
-    "name": "Lunarline, Inc.",
+    "name": "Lunarline Inc.",
     "assessorID": "137004"
-  }
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "GSSOne Command Center (GSSOCC)",
+      "serviceDescription": "The GSS One Command Center is a centralized compliance and operations platform that gives agencies and CSP partners real-time visibility into system security, risk, and authorization status. Designed to meet FedRAMP Rev. 5 BIRs and aligned with the direction of FedRAMP 20x, the GSSOCC supports a shift toward continuous, evidence-driven validation rather than static, point-in-time assessments.\n\nIt serves as a single pane of glass for managing the full lifecycle of authorization and operations, bringing together system documentation, vulnerability data, incident tracking, change control, and monitoring into one integrated experience. By linking controls directly to supporting evidence and operational data, the GSSOCC reduces the overhead of maintaining compliance and enables faster, more transparent ATO decisions for agencies.",
+      "dateAvailable": "2025-05-05"
+    },
+    {
+      "serviceName": "GSSOne Support Center",
+      "serviceDescription": "Project Hosts has configured a customer-facing support portal for creating and managing support tickets powered by Atlassian Jira. This allows customers to view all of their relevant tickets, create tickets, submit change control requests, upload screenshots, review knowledgebases and communicate with PH staff through a secure channel.",
+      "dateAvailable": "2025-05-05"
+    },
+    {
+      "serviceName": "GSSOne Azure Admin/ User Portal",
+      "serviceDescription": "GSSOne Admin/User Portal provides a centralized interface for customer onboarding, account provisioning, access management, billing visibility, and authorized administrative activities. Administrative actions are governed through role-based access controls and documented approval workflows.",
+      "dateAvailable": "2016-03-11"
+    },
+    {
+      "serviceName": "GSSOne Azure Core",
+      "serviceDescription": "The GSSOne Azure Core provides a standardized set of centrally managed services that support secure application deployment and operations, including access control, authentication, auditing, monitoring, scanning, patching, configuration management, malware prevention, intrusion prevention, incident response, backup, and disaster recovery.",
+      "dateAvailable": "2016-03-11"
+    },
+    {
+      "serviceName": "GSSOne Cert Forge",
+      "serviceDescription": "Automates the generation, deployment, renewal, and tracking of TLS certificates used by authorized applications and infrastructure. Automation reduces expired-certificate risk while supporting approved cryptographic and certificate-management requirements.",
+      "dateAvailable": "2016-03-11"
+    },
+    {
+      "serviceName": "GSSOne Certificate Authority",
+      "serviceDescription": "Provides centralized certificate issuance, validation, renewal, revocation, and lifecycle management for system components. It supports trusted encrypted communications and consistent certificate governance across the environment.",
+      "dateAvailable": "2016-03-11"
+    },
+    {
+      "serviceName": "GSSOne Illumination/ Inventory",
+      "serviceDescription": "Provides automated discovery and inventory of cloud resources, configurations, and security-relevant attributes within the environment. The service supports continuous compliance validation, evidence generation, configuration-drift identification, and centralized reporting.",
+      "dateAvailable": "2025-05-05"
+    },
+    {
+      "serviceName": "GSSOne SMTP Service",
+      "serviceDescription": "Provides centrally managed email relay and routing services for applications operating within the authorization boundary. The service supports controlled delivery, encryption, authentication, logging, and monitoring of system-generated email.",
+      "dateAvailable": "2016-03-11"
+    },
+    {
+      "serviceName": "Quest Security Management Platform (Quest-SMP)",
+      "serviceDescription": "The Quest-SMP is a browser-based application with different agents that can be deployed on the agency devices/systems based on their individual use case.\n\nThe Quest-SMP contains two major components:\nQuest Identity Recovery for Entra ID: Quest Identity Recovery for Entra ID is a SaaS-based backup and recovery solution for Microsoft Entra ID and Microsoft 365 that extends protection beyond native Microsoft tools. It enables fast, secure restoration of users, groups, attributes, and memberships from a single cloud interface. Administrators can compare backups, view changes, and recover only what’s needed—reducing manual errors and downtime. All recovery actions are logged and auditable to support compliance requirements. Hybrid Active Directory and Entra ID recovery is also supported through built-in integration with on-premises Quest Recovery Manager for Active Directory. Delivered as a secure, high-availability cloud service, Quest Identity Recovery for Entra ID helps federal agencies simplify directory recovery, maintain continuity, and meet governance standards without the need for on-premises infrastructure.\n\nQuest Identity Defense: Quest Identity Defense is a hybrid Active Directory and Microsoft Entra ID security and audit platform that helps federal agencies strengthen identity threat detection, containment, and response while reducing risk of exposure and downtime. It identifies Tier Zero and other privileged objects across Active Directory and Entra ID to pinpoint where the greatest risks reside. The platform continually assesses identity environments for problematic configurations and drift from best-practice baselines, helping maintain compliance and operational integrity. Quest Identity Defense provides enhanced threat detection and observability for directory changes and protects Tier Zero assets from malicious in-memory modification—supporting zero trust and mission continuity across hybrid identity systems.",
+      "dateAvailable": "2026-06-24"
+    },
+    {
+      "serviceName": "OnePlan",
+      "serviceDescription": "OnePlan is a strategic portfolio and work management platform that helps federal agencies plan, prioritize, and execute mission-critical initiatives.\nIt enables Program Management Offices (PMOs) to align projects, resources, and budgets to mission priorities, with centralized, audit-ready visibility across projects, programs, and portfolios.\nBuilt for Microsoft, OnePlan integrates with various Microsoft SaaS products enabling agencies to work within their existing Microsoft ecosystem while maintaining centralized governance across portfolio and work data.\nBy consolidating portfolio, project, and resource management in a single platform, OnePlan gives agency leaders the visibility and control needed to align investments to mission outcomes.",
+      "dateAvailable": "2026-09-21"
+    }
+  ],
+  "ZD_frid_retro": "F1403283529A",
+  "id_matches_expected": true
 }
