@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "version": "1.0.1",
+    "lastUpdated": "2026-10-12T00:00:00.000Z",
+    "updateSource": null,
+    "responsibleOfficial": {
+      "name": "Nick Holt",
+      "title": "Information System Management Point of Contact",
+      "email": "nick.holt@pdq.com"
+    }
+  },
+  "serviceIdentification": {
+    "fedRampPackageId": "TBD",
+    "ueiNumber": "ULKXVE4KBJ13",
+    "providerName": "PDQ",
+    "serviceName": "PDQ for Government",
+    "serviceAcronym": "PDQ-GOV",
+    "serviceDescription": "PDQ is an endpoint management platform designed for IT administrators and sysadmins. Manage, secure, and automate Windows and macOS endpoints across remote, hybrid, and on-site environments from a central platform.\nPDQ is designed to make the grind of everyday IT workflows seamless and the thorny why-the-hell-isn’t-this-working issues easier to diagnose.\nCore capabilities include patch management, vulnerability remediation, software deployment, remote desktop access and monitoring, and IT automation. In short, the stuff you actually tell us to build. Just look at our Discord.\nVulnerability remediation: Vulnerabilities are continuously detected and prioritized using real-world exploit activity in addition to CVSS, enabling remediation based on real, not theoretical, business risk.\nPatch management: Patch Windows OS and more than 1,000 Windows and macOS packages from a hand-built library sourced directly from publishers, virus-scanned, stripped of nonsense, and typically updated within hours of a new release.\nSoftware deployment and automation: PDQ's prebuilt workflows and automations can be running within minutes of onboarding. From there, sysadmins can combine custom multistep packages, advanced PowerShell Scanners, dynamic device groups, vulnerability automations, and a community-shared script library to create an end-to-end system tailor-built for their environment, reducing what was once days into minutes.\nRemote desktop and diagnostics: For when all else fails, PDQ ships with native device-level diagnostics and a remote desktop tool that fires up quickly to help you diagnose, fix, and move on, whether you’re dealing with an x64 Lenovo or an ARM MacBook Pro.\nMultitenant management: Multitenant support allows IT teams managing multiple environments to operate from a single console.\nReal-time automation: Event-driven automation allows IT teams to execute workflows based on device state and predefined conditions. Deployments trigger the moment a condition is met without waiting for a scheduled window.\nOffline device deployment: Offline device deployment queuing ensures no device is skipped, regardless of connectivity at the time a deployment runs.\nWhere compliance, regulatory, or org policy requires it, PDQ’s core deployment and patching capabilities can also be deployed as an on-premises, agentless solution.\nPDQ is SOC 2 certified and includes security features such as MFA, role-based access controls, encryption, and audit logging to support compliance requirements.\nPricing is publicly available and supports self-service purchasing without requiring a sales call. A 14-day free trial is available with no credit card required.",
+    "certificationType": "20x",
+    "website": "https://www.pdq.com/",
+    "logo": "https://images.ctfassets.net/xwxknivhjv1b/6pBrCvIkDXgasOQ3laYFuy/7642d71e947f32478e51c499401e1aaa/PDQLogo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Mobile Device Management (MDM)",
+      "System Administration"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/pdq",
+      "repositoryDescription": "Trust center for information related to our FedRAMP 20x program",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Click request access. Once approved, an email will be sent with a link to access the trust center."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://www.pdq.com/security/pdq-connect/",
+      "repositoryDescription": "PDQ Connect Product Security Guide covering authentication (SSO and enforced MFA), administrator access and account recovery, role-based access control and least-privilege permissions, and data protection. Related: PDQ Connect Role-Based Access Control article, https://connect.pdq.com/hc/en-us/articles/21753919812891-Role-Based-Access-Control",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "N/A. The guide is publicly available at the URL above and requires no access request."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Secure Configuration Guidance"
+        ],
+        "url": "https://connect.pdq.com/hc/en-us/articles/21753919812891-Role-Based-Access-Control",
+        "repositoryDescription": "Built-in and custom roles and the full list of RBAC permissions.",
+        "authenticationRequired": false
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Prepared By",
+      "contactName": "Nick Holt",
+      "contactEmail": "nick.holt@pdq.com"
+    },
+    {
+      "contactType": "Content Approver",
+      "contactName": "Josh Mackelprang",
+      "contactEmail": "josh.mackelprang@pdq.com"
+    },
+    {
+      "contactType": "System Point of Contact - Management",
+      "contactName": "Nick Holt",
+      "contactEmail": "nick.holt@pdq.com"
+    },
+    {
+      "contactType": "Privacy Point of Contact",
+      "contactName": "Nick Holt",
+      "contactEmail": "nick.holt@pdq.com"
+    },
+    {
+      "contactType": "System Point of Contact - Technical"
+    },
+    {
+      "contactType": "Authorizing Official Point of Contact"
+    },
+    {
+      "contactType": "Information System Security Officer",
+      "contactName": "Rachel Haymaker",
+      "contactEmail": "rachel.haymaker@pdq.com"
+    },
+    {
+      "contactType": "System Owner",
+      "contactName": "Josh Mackelprang",
+      "contactEmail": "josh.mackelprang@pdq.com"
+    },
+    {
+      "contactType": "Authorizing Official",
+      "contactName": "Federal Risk and Authorization Management Program Program Management Office"
+    },
+    {
+      "contactType": "Prepared For"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Mitch Beck",
+      "contactEmail": "sales@pdq.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Security Team",
+      "contactEmail": "security@pdq.com"
+    }
+  ],
+  "ZD_frid_retro": "FR2701457585",
+  "id_matches_expected": false
+}

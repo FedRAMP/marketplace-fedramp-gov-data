@@ -1,33 +1,471 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "packageMetadata": {
+    "cloudServiceOffering": "The Armory",
+    "provider": "stackArmor",
+    "preparedDate": "2026-10-12",
+    "version": "2026.10.5",
+    "lastUpdated": "2026-10-12",
+    "sourceOfUpdate": "CDS monthly artifact refresh for the 2026-10 review cycle, ISSM-reviewed source documents, and configured public CPO endpoint maintenance.",
+    "accountableOfficial": {
+      "name": "Johann Dettweiler",
+      "title": "Information System Security Manager (ISSM)",
+      "email": "jdettweiler@stackarmor.com"
+    },
+    "sourceDocuments": [
+      {
+        "path": "authorization-package/ssp/stackarmor-armory-fedramp-ssp.md",
+        "description": "Primary source for service identification, system description, contacts, leveraged services, DIL, deployment model, and authorization context."
+      },
+      {
+        "path": "authorization-package/ssp_appendices/stackArmor_armory_secure_configuration_guide.md",
+        "description": "Primary source for secure configuration guidance summary and local SCG artifact."
+      },
+      {
+        "path": "authorization-package/cr26/rev5/package/fedramp-certification-overview-package-armory-needed-information.md",
+        "description": "Provider-supplied source for public URLs, access instructions, sales contact, assessor, next OCR date, and certified service list confirmation."
+      },
+      {
+        "path": "https://stackarmor.app.box.com/file/2357919080591",
+        "description": "Assessor-supplied 2026 Armory Security Assessment Report, section Initial Assessment, used as the source for the overall summary of assessment required by CPO-CSO-OSA."
+      }
+    ],
+    "schemaNotes": [
+      "The 2026-06-24 schema requires serviceProperties.digitalIdentityLevel but does not define that property; this package includes it using the SSP value.",
+      "The 2026-06-24 schema requires assessor.id while defining assessorID as the named property; this package includes both id and assessorID with the same provider-supplied assessor ID.",
+      "The provider-supplied logo value pointed to the product page; the package uses the Armory logo image URL identified from the product page metadata to satisfy the schema image URL pattern."
+    ],
+    "artifactVersion": "2026.10.5",
+    "lastReviewedAt": "2026-10-12",
+    "cdsReviewMonth": "2026-10"
+  },
   "serviceIdentification": {
     "fedRampPackageId": "FR2513256853",
-    "providerName": "StackArmor",
+    "ueiNumber": "Z553Q1FPWYK5",
+    "providerName": "stackArmor",
     "serviceName": "The Armory",
-    "serviceAcronym": "The Armory",
-    "serviceDescription": "The Armory is a purpose-built General Support System (GSS) cloud service offering (CSO) that delivers security and compliance services aligned to the FedRAMP High risk categorization baseline. The Armory accelerates the ability for Independent Software Vendors (ISVs) and Enterprises to meet complex regulatory requirements on the Google Cloud Platform (GCP). The Armory delivers and continuously monitors FedRAMP compliant, risk-mitigated cloud solutions to government agencies and their partners through either a hosted or managed delivery model by: \n•        providing full compliance architecture, engineering, documentation and audit support,\n•        reducing the burden to both agencies and SaaS providers, and - expanding the catalog of mission-critical cloud solutions available to agencies. \nThe Armory is built on the FedRAMP authorized Assured Workloads Google Cloud Platform and includes configuration managed Google resources such as VPCs (Virtual Private Clouds), networking components, security controls, identity and access management (IAM) policies, and logging and monitoring mechanisms. The system also provides access to in-boundary tools for automation, configuration management, and account management. Each of these mechanisms has been configured to meet specific regulatory requirements such as International Traffic in Arms Regulations (ITAR), FedRAMP High, and Department of Defense (DoD) Impact Levels 4/5 (IL 4/5). \nThe Armory provides ISVs, Enterprises and Agencies with access to pre-production staging environments and Google “Landing Zones”. These are securely architected environments that enable quick and compliant deployments, and a scalable foundation for their regulated cloud workloads. This secure standardized approach to creating and managing deployments allows government agencies and customers to easily deploy and manage their workloads while maintaining security, governance, and compliance. \nISV Partners:\nQanapi - As our inaugural ISV Partner, Qanapi’s FIPS-validated API service delivers state-of-the-art encryption and protection at the data level. Designed to safeguard sensitive, industry-regulated, and mission-critical data, Qanapi’s API seamlessly integrates into any software, device, or network. Built on a zero-trust architecture, it ensures robust security across organizations of all sizes, in both the public and commercial sectors. With Qanapi, organizations can achieve the highest level of data protection and compliance, regardless of their environment. Discover more at qanapi.com\nMxDR for Government – Accenture Federal Services' MxDR for Government is a managed security service designed specifically for federal agencies. Powered by Google SecOps, it offers 24/7 continuous threat detection, automated response, and threat-centric case management to help agencies rapidly neutralize cyber threats while maintaining strict regulatory compliance. Discover more at: https://www.accenture.com/us-en/industries/accenture-federal-services/cybersecurity/mxdr-government",
+    "serviceAcronym": "Armory",
+    "serviceDescription": "The Armory is a purpose-built General Support System (GSS) cloud service offering (CSO) that delivers security and compliance services aligned to the FedRAMP Class D (High) Rev. 5 risk categorization baseline. The Armory accelerates the ability for Independent Software Vendors (ISVs) and Enterprises to meet complex regulatory requirements on the Google Cloud Platform (GCP). The Armory delivers and continuously monitors FedRAMP compliant, risk-mitigated cloud solutions to government agencies and their partners through either a hosted or managed delivery model by:\n\n- providing full compliance architecture, engineering, documentation and audit support,\n\n- reducing the burden to both agencies and SaaS providers,\n\n- expanding the catalog of mission-critical cloud solutions available to agencies.\n\nThe Armory is built on the FedRAMP authorized Assured Workloads Google Cloud Platform and includes configuration managed Google resources such as VPCs (Virtual Private Clouds), networking components, security controls, identity and access management (IAM) policies, and logging and monitoring mechanisms. The system also provides access to in-boundary tools for automation, configuration management, and account management. Each of these mechanisms has been configured to meet specific regulatory requirements such as International Traffic in Arms Regulations (ITAR), FedRAMP Class D (High) Rev. 5, and Department of Defense (DoD) Impact Levels 4/5 (IL 4/5).\n\nThe Armory provides ISVs, Enterprises and Agencies with access to pre-production staging environments and Google “Landing Zones”. These are securely architected environments that enable quick and compliant deployments, and a scalable foundation for their regulated cloud workloads. This secure standardized approach to creating and managing deployments allows government agencies and customers to easily deploy and manage their workloads while maintaining security, governance, and compliance.\n\n**ISV Partners:**\n\n- **Qanapi** - As our inaugural ISV Partner, Qanapi’s FIPS-validated API service delivers state-of-the-art encryption and protection at the data level. Designed to safeguard sensitive, industry-regulated, and mission-critical data, Qanapi’s API seamlessly integrates into any software, device, or network. Built on a zero-trust architecture, it ensures robust security across organizations of all sizes, in both the public and commercial sectors. With Qanapi, organizations can achieve the highest level of data protection and compliance, regardless of their environment. Discover more at Quantum-Safe Data Security Platform | Qanapi - https://www.qanapi.com/\n- **MxDR for Government** – Accenture Federal Services' MxDR for Government is a managed security service designed specifically for federal agencies. Powered by Google SecOps, it offers 24/7 continuous threat detection, automated response, and threat-centric case management to help agencies rapidly neutralize cyber threats while maintaining strict regulatory compliance. Discover more at: MxDR for Government | Accenture - https://www.accenture.com/us-en/industries/accenture-federal-services/cybersecurity/mxdr-government\n- **Armory SecOps** - provides Google SecOps capabilities, security monitoring, detection engineering, triage, investigation support, dashboarding, and response workflow support for federal workloads that consume security operations services through The Armory.\n\n### Certified Services\n\n**Service(s) added in the last 90 days**\n\n-\n\n**Other Service(s)**\n\n- Qanapi\n- MxDR for Government\n- Armory SecOps\n\n### Dependent Products\n\n- Canopy - https://www.fedramp.gov/marketplace/products/FR2612446381/\n- Clarity - https://www.fedramp.gov/marketplace/products/FR1722532017/\n- Patlytics AI Platform - https://www.fedramp.gov/marketplace/products/FR2620043771/\n- Rally - https://www.fedramp.gov/marketplace/products/FR2130949241/",
     "certificationType": "Rev5",
     "website": "https://stackarmor.com/armory/",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Armory%20Logo.png",
-    "ueiNumber": "Z553Q1FPWYK5"
+    "logo": "https://stackarmor.com/wp-content/uploads/2025/03/logo-armory-144dpi-long-full-color-transparent-300x88-1.png"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Government Community Cloud"
+    "deploymentModel": "Government-Only Cloud",
+    "digitalIdentityLevel": "IAL3/FAL3/AAL3",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Governance, Risk, and Compliance (GRC)",
+      "Development Tools",
+      "Operations Management",
+      "System Administration",
+      "Network Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Authorization Package",
+        "Assessment Reports",
+        "Continuous Monitoring"
+      ],
+      "url": "https://cpo.thearmory.cloud/definition.json",
+      "repositoryDescription": "Direct public JSON endpoint for The Armory FedRAMP Certification Overview Package.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "The URL is publicly available without authentication, approval workflows, or access justification and returns the machine-readable Certification Overview Package JSON."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://stackarmor.app.box.com/folder/393872115601",
+      "repositoryDescription": "Authenticated Box Trust Center location where The Armory Secure Configuration Guide Markdown and JSON artifacts are stored.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "The Secure Configuration Guide is stored in the Box Trust Center 01 Package Overview folder. Anyone who wants access should submit a formal package request through The Armory FedRAMP Marketplace listing request path or contact stackArmor through the established Trust Center access process. stackArmor reviews requests before sharing authenticated package materials."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Security Decision Record"
+        ],
+        "url": "https://stackarmor.app.box.com/folder/393869833398",
+        "repositoryDescription": "Authorization letters, cryptographic module inventory, minimum assessment scope inventories.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Submit a formal package request through The Armory FedRAMP Marketplace listing request path or contact stackArmor through the established Trust Center access process. stackArmor reviews requests before sharing authenticated package materials."
+      },
+      {
+        "repositoryType": [
+          "CR26 Package Overview"
+        ],
+        "url": "https://stackarmor.app.box.com/folder/393872115601",
+        "repositoryDescription": "Repository for The Armory CR26 Certification Package Overview materials.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Submit a formal package request through The Armory FedRAMP Marketplace listing request path or contact stackArmor through the established Trust Center access process. stackArmor reviews requests before sharing authenticated package materials."
+      },
+      {
+        "repositoryType": [
+          "Rev. 5 Authorization Documentation"
+        ],
+        "url": "https://stackarmor.app.box.com/folder/359668472908",
+        "repositoryDescription": "Repository for The Armory authorization package documentation meeting Rev. 5 documentation requirements.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Submit a formal package request through The Armory FedRAMP Marketplace listing request path or contact stackArmor through the established Trust Center access process. stackArmor reviews requests before sharing authenticated package materials."
+      },
+      {
+        "repositoryType": [
+          "Policy and Procedure Inventory"
+        ],
+        "url": "https://stackarmor.app.box.com/file/2311185942754",
+        "repositoryDescription": "Authenticated human-readable inventory of policies and procedures included in The Armory FedRAMP Certification Data.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Submit a formal package request through The Armory FedRAMP Marketplace listing request path or contact stackArmor through the established Trust Center access process. stackArmor reviews requests before sharing authenticated package materials."
+      },
+      {
+        "repositoryType": [
+          "MxDR Secure Configuration Guidance"
+        ],
+        "url": "https://stackarmor.app.box.com/file/2402302051062",
+        "repositoryDescription": "MxDR secure configuration guide in Markdown format.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Submit a formal package request through The Armory FedRAMP Marketplace listing request path or contact stackArmor through the established Trust Center access process. stackArmor reviews requests before sharing authenticated package materials."
+      },
+      {
+        "repositoryType": [
+          "Armory SecOps Secure Configuration Guidance"
+        ],
+        "url": "https://stackarmor.app.box.com/file/2402338269425",
+        "repositoryDescription": "Armory SecOps secure configuration guide in Markdown format.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Submit a formal package request through The Armory FedRAMP Marketplace listing request path or contact stackArmor through the established Trust Center access process. stackArmor reviews requests before sharing authenticated package materials."
+      },
+      {
+        "repositoryType": [
+          "Qanapi Secure Configuration Guidance"
+        ],
+        "url": "https://stackarmor.app.box.com/file/2402299280810",
+        "repositoryDescription": "Qanapi secure configuration guide in Markdown format.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Submit a formal package request through The Armory FedRAMP Marketplace listing request path or contact stackArmor through the established Trust Center access process. stackArmor reviews requests before sharing authenticated package materials."
+      },
+      {
+        "repositoryType": [
+          "Vulnerability and Incident Reporting"
+        ],
+        "url": "https://stackarmor.app.box.com/folder/393878948432",
+        "repositoryDescription": "CR26 compliant vulnerability and incident reports.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Submit a formal package request through The Armory FedRAMP Marketplace listing request path or contact stackArmor through the established Trust Center access process. stackArmor reviews requests before sharing authenticated package materials."
+      },
+      {
+        "repositoryType": [
+          "Ongoing Certification Reports"
+        ],
+        "url": "https://stackarmor.app.box.com/folder/393870141246",
+        "repositoryDescription": "Repository for ongoing certification reports, recording transcripts of previous OCR meetings, collaborative continuous monitoring charter, and ongoing certification meeting invite.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Submit a formal package request through The Armory FedRAMP Marketplace listing request path or contact stackArmor through the established Trust Center access process. stackArmor reviews requests before sharing authenticated package materials."
+      },
+      {
+        "repositoryType": [
+          "Collaborative Continuous Monitoring",
+          "OCR Feedback Mechanism"
+        ],
+        "url": "https://cpo.thearmory.cloud/index.html",
+        "repositoryDescription": "Public Armory Trust Center where users can find the Collaborative Continuous Monitoring / OCR Feedback Mechanism and submit questions or feedback about Ongoing Certification Reports via gcp-organization-admins@stackarmor.com.",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "No authentication is required. Open the public Armory Trust Center, find the Collaborative Continuous Monitoring / OCR Feedback Mechanism, and submit feedback via gcp-organization-admins@stackarmor.com."
+      },
+      {
+        "repositoryType": [
+          "Collaborative Continuous Monitoring",
+          "OCR Feedback Addenda"
+        ],
+        "url": "https://stackarmor.app.box.com/folder/369450812472",
+        "repositoryDescription": "Authenticated Trust Center location for anonymized and desensitized OCR feedback addenda.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Use the Trust Center access process or email gcp-organization-admins@stackarmor.com for access."
+      },
+      {
+        "repositoryType": [
+          "Significant Change Notification",
+          "SCN Audit Records",
+          "Customer Notifications"
+        ],
+        "url": "https://stackarmor.app.box.com/folder/393878862647",
+        "repositoryDescription": "Authenticated Trust Center location for Significant Change Notification Markdown and JSON artifacts, related SCN audit records, and approved SCN supporting materials.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Significant Change Notifications are stored in the authenticated Box Trust Center SCN folder. FedRAMP, AO representatives, and agency customers may request access through The Armory Trust Center access process, the FedRAMP Marketplace package request path, or the established stackArmor security contact. stackArmor notifies agency POCs with Trust Center access by direct email when new SCNs are published and includes a link to the applicable notification."
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2026-10-15",
+    "collaborativeContinuousMonitoring": {
+      "nextQuarterlyReviewDate": "2026-10-21",
+      "nextOngoingCertificationReportDate": "2026-10-15",
+      "ocrFeedbackMechanism": "mailto:gcp-organization-admins@stackarmor.com",
+      "ocrAddendumDelivery": "OCR feedback addenda are delivered through the authenticated Trust Center location and summarized in the quarterly CCM review package.",
+      "publicOcrSharing": "OCR reports, recordings, transcripts, and quarterly review materials are not publicly shared unless explicitly approved; the public-facing Certification Overview Package remains the public source for certification metadata."
+    },
+    "nextQuarterlyReviewDate": "2026-10-21"
   },
   "contactInformation": [
     {
       "contactType": "Security",
-      "contactEmail": "gcp-organization-admins@stackarmor.com"
+      "contactName": "Rene-Claude Tshiteya",
+      "contactEmail": "rctshiteya@stackarmor.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Johann Dettweiler",
+      "contactEmail": "jdettweiler@stackarmor.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Matt Venne",
+      "contactEmail": "mvenne@stackarmor.com"
     },
     {
       "contactType": "Sales",
-      "contactEmail": "thearmory@stackarmor.com"
+      "contactName": "Gaurav Pal",
+      "contactEmail": "gpal@stackarmor.com"
     }
   ],
   "assessor": {
-    "name": "Emagine IT",
+    "name": "EmagineIT",
+    "id": "137046",
     "assessorID": "137046"
-  }
+  },
+  "overallSummaryOfAssessment": {
+    "source": "EIT-Armory-2026-IA-FedRAMP-SAR-v2.0-Final.docx",
+    "sourceBoxFileId": "2357919080591",
+    "sourceSection": "Initial Assessment",
+    "assessor": "Emagine IT, Inc",
+    "reportDate": "2026-07-08",
+    "assessmentStartDate": "2026-01-05",
+    "assessmentEndDate": "2026-07-08",
+    "summary": "Emagine IT supplied the overall summary for the initial FedRAMP assessment of The Armory, a FedRAMP Class D (High) Rev. 5 baseline system. The assessment began on 2026-01-05 and ended on 2026-07-08. Emagine IT reported that 100% of the FedRAMP security controls in the system baseline were assessed, with assessed controls listed in Appendix A of the Security Assessment Plan. The assessor evaluated the associated control selections, reviewed and/or tested continuous monitoring activities as necessary, evaluated open POA&M items including vendor dependencies, validated POA&M closures, and confirmed the continued relevance and applicability of documented false positives, risk adjustments, and operational requirements. At the conclusion of the assessment, the SAR Appendix A Risk Exposure Table recorded 15 open risks: 0 high, 4 moderate, 1 moderate risk-adjusted to low, and 10 low.",
+    "riskSummary": {
+      "openRiskTotal": 15,
+      "high": 0,
+      "highRiskAdjustedToModerate": 0,
+      "moderate": 4,
+      "highRiskAdjustedToLow": 0,
+      "moderateRiskAdjustedToLow": 1,
+      "low": 10,
+      "operationalRequirements": 1,
+      "vendorDependencies": 0,
+      "srtmTestCases": 14,
+      "osScans": 1,
+      "webScans": 0,
+      "databaseScans": 0,
+      "containerScans": 0,
+      "penetrationTest": 0,
+      "cm6Findings": 1
+    }
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "The Armory General Support System",
+      "serviceDescription": "FedRAMP Class D (High) Rev. 5 GSS and SaaS platform that provides common security, compliance, networking, identity, vulnerability management, monitoring, incident response, compliance reporting, and secure landing zone capabilities for hosted and managed government workloads.",
+      "dateAvailable": "2025-01-28"
+    },
+    {
+      "serviceName": "Hosted Authorization Landing Zones",
+      "serviceDescription": "Dedicated landing zones for ISV SaaS offerings deployed within The Armory authorization boundary. Hosted services are operated by the Armory team, documented in the Armory SSP, configuration controlled, continuously monitored, and assessed through the authorization or significant change process as applicable.",
+      "dateAvailable": "2025-01-28"
+    },
+    {
+      "serviceName": "Managed Authorization Landing Zones",
+      "serviceDescription": "Secure Google Cloud landing zones for customers that maintain their own authorization boundary while leveraging Armory GSS instrumentation, deployment, and security services to support FedRAMP control implementation responsibilities.",
+      "dateAvailable": "2025-01-28"
+    },
+    {
+      "serviceName": "Qanapi - https://www.qanapi.com/",
+      "serviceDescription": "Qanapi is a hosted tenant service within The Armory boundary that runs a containerized Laravel application on Cloud Run with a MySQL Cloud SQL backend and tenant-specific supporting components.",
+      "dateAvailable": "2025-01-28"
+    },
+    {
+      "serviceName": "Armory SecOps - SOC-as-a-Service",
+      "serviceDescription": "Armory SecOps - SOC-as-a-Service is a hosted tenant service within The Armory boundary that supports SIEM reconciliation, inventory, and Bindplane management capabilities across documented Google Cloud regions.",
+      "dateAvailable": "2026-07-01"
+    },
+    {
+      "serviceName": "Accenture Federal Services MxDR - https://www.accenture.com/us-en/industries/accenture-federal-services/cybersecurity/mxdr-government",
+      "serviceDescription": "Accenture Federal Services MxDR is a hosted tenant service within The Armory boundary that operates MxDR management capabilities in the AFS-BAS production project.",
+      "dateAvailable": "2026-04-17"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Google Services provides the FedRAMP-authorized IaaS/PaaS foundation and underlying infrastructure for The Armory."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2131856836",
+        "useCase": "Okta IDaaS Government High Cloud provides SSO and adaptive MFA for privileged infrastructure users."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2230252267",
+        "useCase": "GovSlack provides operations notifications and alerts for privileged infrastructure users."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2000863987",
+        "useCase": "CloudFlare for Government provides 443 request forwarding and TLS proxy services for the Qanapi application."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "AWS GovCloud Simple Email Service provides transactional email for non-sensitive Qanapi account information."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1212191840A",
+        "useCase": "Box Enterprise Cloud Content Collaboration Platform supports authorization package collaboration and documentation access workflows."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1919071020A",
+        "useCase": "SentinelOne Singularity Platform High provides endpoint security telemetry, endpoint detection and response, and workload protection alerting."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "TSP® Tenable Updates",
+        "provider": "Tenable",
+        "website": "https://downloads.nessus.org",
+        "useCase": "TLS update source for in-boundary Tenable software; transports system updates for privileged infrastructure users."
+      },
+      {
+        "name": "TSP® Trend Micro Updates",
+        "provider": "Trend Micro",
+        "website": "https://iaus.activeupdate.trendmicro.com",
+        "useCase": "TLS update source for in-boundary Trend Micro software; transports system updates for privileged infrastructure users."
+      },
+      {
+        "name": "TSP® GitLab Updates",
+        "provider": "GitLab",
+        "website": "https://packages.gitlab.com",
+        "useCase": "TLS update source for in-boundary GitLab software; transports system updates for privileged infrastructure users."
+      },
+      {
+        "name": "Linux Updates",
+        "provider": "Linux operating system vendors",
+        "useCase": "TLS update source for in-boundary Linux software; transports system updates for privileged infrastructure users."
+      },
+      {
+        "name": "Panorama Updates",
+        "provider": "Palo Alto Networks",
+        "website": "https://updates.paloaltonetworks.com",
+        "useCase": "TLS update source for in-boundary Palo Alto Panorama software; transports system updates for privileged infrastructure users."
+      },
+      {
+        "name": "TSP® HashiCorp Packer Releases and Plugins",
+        "provider": "HashiCorp",
+        "website": "https://releases.hashicorp.com/packer/",
+        "useCase": "TLS update and plugin source for approved Packer releases, plugins, checksums, signatures, and update metadata used to create approved RHEL images; no Federal customer data is transmitted."
+      },
+      {
+        "name": "TSP® Aqua Security Trivy Database and Checks Updates",
+        "provider": "Aqua Security",
+        "website": "https://ghcr.io/aquasecurity/trivy-db",
+        "useCase": "TLS update source used during ThreatAlert Container Scanner runs for Trivy vulnerability databases, checks bundles, and update metadata; content is cached for scanning and no Federal customer data is transmitted."
+      },
+      {
+        "name": "TSP® Acunetix Updates",
+        "provider": "Acunetix",
+        "website": "https://updates.acunetix.com",
+        "useCase": "TLS update source for the in-boundary Acunetix web-application and API scanner engine, vulnerability-detection content, and update metadata; no Federal customer data is transmitted."
+      }
+    ]
+  },
+  "marketplaceListing": {
+    "marketplaceUrl": "https://www.fedramp.gov/marketplace/products/FR2513256853/",
+    "providerListingRequestFormUrl": "https://help.fedramp.gov/hc/en-us/requests/new?ticket_form_id=50939227168027",
+    "listingChangeProcedure": "playbooks/MKT-01-Change-Marketplace_Listing.md",
+    "agencyUseCases": [
+      {
+        "serviceName": "The Armory General Support System",
+        "useCaseType": "Direct and Indirect Use",
+        "agencyUseDescription": "Agencies can deploy workloads to The Armory to rapidly meet FedRAMP authorization requirements",
+        "intendedFederalUse": "Run any workload that has advanced regulatory/compliance requirements.",
+        "evidenceReferences": [
+          "authorization-package/cr26/rev5/package/fedramp-certification-overview-package-armory.json"
+        ],
+        "owner": "ISSM",
+        "lastReviewed": "2026-10-07",
+        "status": "FedRAMP Certified"
+      },
+      {
+        "serviceName": "Hosted Authorization Landing Zones",
+        "useCaseType": "Direct Use",
+        "agencyUseDescription": "Agencies can leverage Hosted Model deployments to become a part of the overall The Armory authorization.",
+        "intendedFederalUse": "Run any workload that has advanced regulatory/compliance requirements.",
+        "evidenceReferences": [
+          "authorization-package/cr26/rev5/package/fedramp-certification-overview-package-armory.json"
+        ],
+        "owner": "ISSM",
+        "lastReviewed": "2026-10-07",
+        "status": "FedRAMP Certified"
+      },
+      {
+        "serviceName": "Managed Authorization Landing Zones",
+        "useCaseType": "Indirect Use",
+        "agencyUseDescription": "Agencies can leverage Manage Model deployments to own their own system-level Authorizations.",
+        "intendedFederalUse": "Run any workload that has advanced regulatory/compliance requirements.",
+        "evidenceReferences": [
+          "authorization-package/cr26/rev5/package/fedramp-certification-overview-package-armory.json"
+        ],
+        "owner": "ISSM",
+        "lastReviewed": "2026-10-07",
+        "status": "FedRAMP Certified"
+      },
+      {
+        "serviceName": "Qanapi - https://www.qanapi.com/",
+        "useCaseType": "Direct Use",
+        "agencyUseDescription": "Agencies can leverage Qanapi for advanced quantum encryption needs.",
+        "intendedFederalUse": "Leverage APIs to encrypt specific data sets.",
+        "evidenceReferences": [
+          "authorization-package/cr26/rev5/package/fedramp-certification-overview-package-armory.json"
+        ],
+        "owner": "ISSM",
+        "lastReviewed": "2026-10-07",
+        "status": "FedRAMP Certified"
+      },
+      {
+        "serviceName": "Armory SecOps - SOC-as-a-Service",
+        "useCaseType": "Direct Use",
+        "agencyUseDescription": "Agencies can leverage Armory SecOps as an MSP to provide SOC-as-a-Service for systems that have advanced monitoring needs.",
+        "intendedFederalUse": "Implement advanced system monitoring and SOAR capabilities.",
+        "evidenceReferences": [
+          "authorization-package/cr26/rev5/package/fedramp-certification-overview-package-armory.json"
+        ],
+        "owner": "ISSM",
+        "lastReviewed": "2026-10-07",
+        "status": "FedRAMP Certified"
+      },
+      {
+        "serviceName": "Accenture Federal Services MxDR - https://www.accenture.com/us-en/industries/accenture-federal-services/cybersecurity/mxdr-government",
+        "useCaseType": "Direct Use",
+        "agencyUseDescription": "Agencies can leverage MxDR as an MSP to provide SOC-as-a-Service for systems that have advanced monitoring needs.",
+        "intendedFederalUse": "Implement advanced system monitoring and SOAR capabilities.",
+        "evidenceReferences": [
+          "authorization-package/cr26/rev5/package/fedramp-certification-overview-package-armory.json"
+        ],
+        "owner": "ISSM",
+        "lastReviewed": "2026-10-07",
+        "status": "FedRAMP Certified"
+      }
+    ],
+    "continuousProgress": {
+      "artifactAudience": "Public",
+      "sourceOfTruth": "Generated MKT quarterly continuous-progress artifacts approved through GitLab source review and post-MR Box publication.",
+      "updateCadence": "Quarterly",
+      "rolloutCoverageSource": "Latest Box-published supplemental rule coverage JSON files.",
+      "lastReviewed": "2026-10-06",
+      "status": "Phase: Ongoing Certification<br/>Status: FedRAMP Certified<br/>Authorizations: 2<br/>Certification Profile: Type: Rev 5, Path: Agency, Class: Class D (High)<br/>Certified Since: 8/21/2026",
+      "latestProgressMarkdown": "2026-Q4-Armory-mkt-continuous-progress.md",
+      "latestProgressJson": "2026-Q4-Armory-mkt-continuous-progress.json"
+    }
+  },
+  "ZD_frid_retro": "FR2513256853",
+  "id_matches_expected": true
 }

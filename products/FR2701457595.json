@@ -1,0 +1,67 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2701457595",
+    "providerName": "AtomAI Solutions Inc.",
+    "serviceName": "AtomAI Platform",
+    "serviceAcronym": "AAP",
+    "certificationType": "20x",
+    "website": "https://atom-ai.com",
+    "logo": "https://fedramp-trust.atom-ai.com/logo.png",
+    "serviceDescription": "The AtomAI Platform is a cloud-based SaaS platform that modernizes maintenance, asset management, and project coordination for public sector organizations, utilities, and infrastructure owners. It runs on Google Cloud Platform."
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Operations Management",
+      "Collaboration"
+    ],
+    "nextOngoingCertificationReportDate": "2026-12-15",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Assessment Reports",
+        "Policies",
+        "Certification Package"
+      ],
+      "url": "https://atom-ai.com/trust/",
+      "repositoryDescription": "AtomAI Trust Center with public FedRAMP information for the AtomAI Platform. Security policies, the SOC 2 Type II report, bridge letter, and the full FedRAMP Certification Package are available on request.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Open the AtomAI Trust Center and submit an access request using your agency email address. Requests are reviewed by the AtomAI security team, and approved requesters receive the documents by email. For questions, email fedramp-security@atom-ai.com."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://fedramp-trust.atom-ai.com/secure-configuration/",
+      "repositoryDescription": "Recommended security settings for agency administrators, including SSO, roles, and session configuration.",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "AtomAI Security Team",
+      "contactEmail": "fedramp-security@atom-ai.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "AtomAI Sales",
+      "contactEmail": "sales@atom-ai.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Atom",
+      "serviceDescription": "Computerized maintenance management and asset management: assets, work orders, inspections, budgeting, reporting, and GIS-based asset management, with mobile field access."
+    },
+    {
+      "serviceName": "Coordinate",
+      "serviceDescription": "Map-based coordination of citywide projects, events, and infrastructure work, with shared geospatial data across departments and agencies."
+    }
+  ],
+  "ZD_frid_retro": "FR2701457595",
+  "id_matches_expected": true
+}

@@ -1,11 +1,19 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "lastUpdate": {
+    "version": "3.0",
+    "lastUpdateDate": "2026-09-18",
+    "updateSource": "Aligned with the human-readable Certification Package Overview v3.0. Section 5.2 information flows now describe components by function rather than by internal service name; FL-09 data type populated; sales and security points of contact replaced with role-based aliases; assessor point of contact replaced with a role alias; typographical corrections. No change to assessment scope, data types, or security categorizations."
+  },
   "serviceIdentification": {
     "fedRampPackageId": "FR2525556241",
-    "providerName": "Vanta",
-    "serviceName": "Vanta Trust Management Platform",
-    "serviceAcronym": "Vanta Trust Management Platform",
-    "serviceDescription": "The Vanta Trust Management Platform provides customers with an end-to-end security and compliance automation suite that focuses on the following activities: continuous and automated governance, risk, and compliance (GRC), vendor risk management, questionnaire automation, and up-to-date security program description displayed on the customers’ Trust Center website. In addition, Vanta works closely with customers and selected audit partners to help streamline compliance against 30+ security compliance frameworks such as System and Organization Controls (SOC) 2, International Organization for Standardization (ISO) 27001, ISO 42001, National Institute of Standards and Technology Artificial Intelligence Risk Management Framework (NIST AI RMF), CIS CSC, NIST CSF, FedRAMP, and more. With over 10,000 customers and countless automations, Vanta serves as a continuous monitoring solution to ensure organizations reach and maintain a state of security.",
-    "certificationType": "Rev5",
+    "ueiNumber": "RF3QCBWCVJB4",
+    "providerName": "Vanta Inc.",
+    "serviceName": "Vanta - Trust Management Platform",
+    "serviceAcronym": "",
+    "serviceDescription": "The Vanta Trust Management Platform provides customers with an end-to-end security and compliance automation suite that focuses on the following activities: continuous and automated governance, risk, and compliance (GRC), vendor risk management, questionnaire automation, and up-to-date security program description displayed on the customers' Trust Center website. In addition, Vanta works closely with customers and selected audit partners to help streamline compliance against security compliance frameworks such as System and Organization Controls (SOC) 2, International Organization for Standardization (ISO) 27001, ISO 42001, National Institute of Standards and Technology Artificial Intelligence Risk Management Framework (NIST AI RMF), CIS CSC, NIST CSF, FedRAMP, and more. Vanta serves as a continuous monitoring solution to ensure organizations reach and maintain a state of security.",
+    "certificationType": "20x",
+    "certificationClass": "Class B (Low)",
     "website": "https://www.vanta.com/",
     "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Vanta%20Logo.png"
   },
@@ -13,20 +21,859 @@
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Public Cloud"
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Governance, Risk, and Compliance (GRC)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.vanta.com",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Public resources open. Federal agency users request non-public resources through the Trust Center by selecting the resource; Vanta reviews and approves. Domain-level pre-authorization may be granted where there is strong agency engagement.",
+      "repositoryDescription": "Primary FedRAMP-compatible trust center; certifications, audit reports, subprocessor list, security documentation, FedRAMP Certification Data, SCNs, and incident reports"
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "repositoryDescription": "Vanta's Secure Configuration Guide",
+      "url": "https://trust.vanta.com/resources?s=fqxxrf0ezdxk4rc9um8npx&name=vanta-secure-implementation-guidelines",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "No authentication is required for the Secure Implementation Guidelines (public resource). Other resources may be requested via the Vanta Trust Center access request process."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Certification Data (machine-readable)"
+        ],
+        "url": "https://trust.vanta.com/resources",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Via Trust Center access request",
+        "repositoryDescription": "3PAO validation workbooks and OSCAL-format assessment results, public and non-public versions"
+      },
+      {
+        "repositoryType": [
+          "Availability / Status"
+        ],
+        "url": "https://status.vanta.com",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Public. Machine-readable feeds at /history.atom and /history.rss; uptime history at /uptime",
+        "repositoryDescription": "Current and historical availability of core services, including incidents (CDS-CSO-AVR)"
+      },
+      {
+        "repositoryType": [
+          "Vulnerability Disclosure"
+        ],
+        "url": "https://www.vanta.com/legal/disclosure",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Public; report to security@vanta.com",
+        "repositoryDescription": "Responsible disclosure policy and safe-harbour terms; security.txt at /.well-known/security.txt"
+      },
+      {
+        "repositoryType": [
+          "Customer Documentation"
+        ],
+        "url": "https://help.vanta.com/",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Public",
+        "repositoryDescription": "Product help documentation, including FedRAMP-specific customer guidance"
+      },
+      {
+        "repositoryType": [
+          "API Documentation"
+        ],
+        "url": "https://developer.vanta.com/",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Public",
+        "repositoryDescription": "Vanta API reference for programmatic access (CDS-TRC-PAC)"
+      },
+      {
+        "repositoryType": [
+          "Subprocessor List"
+        ],
+        "url": "https://trust.vanta.com/subprocessors",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Referenced by Vanta's DPA and Information Security Addendum",
+        "repositoryDescription": "Current list of Vanta subprocessors"
+      },
+      {
+        "repositoryType": [
+          "Marketplace Listing"
+        ],
+        "url": "https://www.fedramp.gov/marketplace/products/FR2525556241",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Public",
+        "repositoryDescription": "FedRAMP Marketplace record for this offering"
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-01-31"
   },
   "contactInformation": [
     {
+      "contactType": "Primary",
+      "contactName": "Arpita Husain",
+      "contactTitle": "GRC Manager",
+      "contactEmail": "arpita.husain@vanta.com",
+      "contactPhone": "415-237-3244"
+    },
+    {
       "contactType": "Security",
-      "contactEmail": "fedramp@vanta.com"
+      "contactName": "Vanta FedRAMP Security Team",
+      "contactEmail": "fedramp@vanta.com",
+      "contactPhone": "415-237-3244"
     },
     {
       "contactType": "Sales",
-      "contactEmail": "federal@vanta.com"
+      "contactName": "Vanta Federal Sales",
+      "contactEmail": "federal@vanta.com",
+      "contactPhone": "415-237-3244"
     }
   ],
   "assessor": {
     "name": "Schellman Compliance, LLC",
     "assessorID": "136571"
-  }
+  },
+  "assessment": {
+    "assessmentDate": "2025-05-19",
+    "assessmentResult": "5 findings (reduced to 2, since 3 KSIs were retired)",
+    "assessmentSummary": "This artifact is located on the Vanta Trust Center (https://trust.vanta.com/).",
+    "assessmentReport": "This artifact is located on the Vanta Trust Center (https://trust.vanta.com/)."
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Automated Compliance",
+      "serviceDescription": "Get compliant quickly and painlessly with automation.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Continuous GRC",
+      "serviceDescription": "Join the modern way to GRC.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Personnel and Access",
+      "serviceDescription": "Easily control user access and permissions.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Access Reviews",
+      "serviceDescription": "Run and evidence periodic user access reviews.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Risk Management",
+      "serviceDescription": "Proactively manage risk to drive smarter decisions.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Third Party Risk Management",
+      "serviceDescription": "Manage vendor onboarding and security reviews in one place.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Questionnaire Automation",
+      "serviceDescription": "Automate security questionnaire responses.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Trust Center",
+      "serviceDescription": "Showcase your compliance status and documentation.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Audit Hub",
+      "serviceDescription": "Automate audit prep and evidence collection.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Customer Commitments",
+      "serviceDescription": "Centralize, track and act on every customer commitment.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "AI Governance",
+      "serviceDescription": "Govern AI as fast as you adopt it.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Vanta AI",
+      "serviceDescription": "Automate compliance and uncover insights with AI.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Integrations",
+      "serviceDescription": "Automatically pull data from 400+ tools.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Vanta API",
+      "serviceDescription": "Build custom integrations and workflows.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Vanta MCP Server",
+      "serviceDescription": "Programmatic model-context access to Vanta data.",
+      "securityCategorization": "Low",
+      "dateAvailable": "2025-07-25",
+      "inScope": "Yes"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Amazon Web Services (AWS) - AGENCYAMAZONEW",
+        "useCase": "Underlying IaaS. Vanta operates compute (ECS Fargate, Lambda, Batch), networking (VPC, ALB/NLB, CloudFront, WAF, API Gateway, PrivateLink, NAT Gateway, Route53), data services (Aurora, ElastiCache, S3), messaging (SQS, SNS, SES), key management (KMS), configuration (SSM Parameter Store), container registry (ECR), and monitoring (CloudWatch, GuardDuty).",
+        "justification": "AWS is FedRAMP authorized and is the primary infrastructure for the product.",
+        "mitigations": "Account-level separation between production and non-production; VPC and subnet segmentation; deny-all / permit-by-exception traffic policy; PrivateLink for datastore connectivity; encryption in transit and at rest; GuardDuty intrusion detection across all accounts and regions",
+        "compensatingControls": "None are required because inherited controls are covered by AWS's authorization."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Slack - FR1823447014",
+        "useCase": "FedRAMP Moderate offering used for internal communications",
+        "justification": "Corporate service tool for internal communications",
+        "mitigations": "",
+        "compensatingControls": ""
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "MongoDB Atlas",
+        "provider": "MongoDB, Inc.",
+        "website": "https://www.mongodb.com/atlas",
+        "useCase": "Primary application datastore, reached over AWS PrivateLink"
+      },
+      {
+        "name": "Confluent Cloud (Kafka)",
+        "provider": "Confluent, Inc.",
+        "website": "https://www.confluent.io",
+        "useCase": "Event streaming between platform services"
+      },
+      {
+        "name": "Cloudflare",
+        "provider": "Cloudflare, Inc.",
+        "website": "https://www.cloudflare.com",
+        "useCase": "DNS, Worker edge proxy, and Pages at the external network edge"
+      },
+      {
+        "name": "Datadog",
+        "provider": "Datadog, Inc.",
+        "website": "https://www.datadoghq.com",
+        "useCase": "Logs, metrics, traces, and agent-based observability"
+      },
+      {
+        "name": "Panther",
+        "provider": "Panther Labs, Inc.",
+        "website": "https://panther.com",
+        "useCase": "SIEM - centralised security event logging, detection, and alerting"
+      },
+      {
+        "name": "Okta",
+        "provider": "Okta, Inc.",
+        "website": "https://www.okta.com",
+        "useCase": "Workforce identity, SSO, and phishing-resistant MFA for administrative access"
+      },
+      {
+        "name": "GitHub",
+        "provider": "GitHub, Inc. (Microsoft)",
+        "website": "https://github.com",
+        "useCase": "Source code management, pull request review, and CI/CD via GitHub Actions"
+      },
+      {
+        "name": "Oso",
+        "provider": "Oso Security, Inc.",
+        "website": "https://www.osohq.com",
+        "useCase": "Authorization policy engine for platform services"
+      },
+      {
+        "name": "CrowdStrike Falcon",
+        "provider": "CrowdStrike, Inc.",
+        "website": "https://www.crowdstrike.com",
+        "useCase": "Endpoint detection and response on engineering workstations"
+      },
+      {
+        "name": "Courier",
+        "provider": "Courier (Trycourier, Inc.)",
+        "website": "https://www.courier.com",
+        "useCase": "Customer notification delivery API"
+      },
+      {
+        "name": "OpenAI",
+        "provider": "OpenAI, L.L.C.",
+        "website": "https://openai.com",
+        "useCase": "AI inference via API"
+      },
+      {
+        "name": "Anthropic",
+        "provider": "Anthropic PBC",
+        "website": "https://www.anthropic.com",
+        "useCase": "AI inference via API"
+      },
+      {
+        "name": "Reducto",
+        "provider": "Reducto AI",
+        "website": "https://reducto.ai",
+        "useCase": "Document parsing API"
+      },
+      {
+        "name": "OneSchema",
+        "provider": "OneSchema, Inc.",
+        "website": "https://www.oneschema.co",
+        "useCase": "Data import and validation API"
+      },
+      {
+        "name": "Snowflake",
+        "provider": "Snowflake Inc.",
+        "website": "https://www.snowflake.com",
+        "useCase": "Internal analytics"
+      },
+      {
+        "name": "Jira",
+        "provider": "Atlassian Corporation",
+        "website": "https://www.atlassian.com/software/jira",
+        "useCase": "Issue tracking (Vanta Corporate)"
+      }
+    ]
+  },
+  "informationResources": [
+    {
+      "name": "AWS (Commercial)",
+      "resourceType": "Infrastructure",
+      "resourceDescription": "Cloud Provider",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Cloudflare",
+      "resourceType": "External Network Edge",
+      "resourceDescription": "Hosting and content delivery",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Datadog",
+      "resourceType": "Logging",
+      "resourceDescription": "Application and infrastructure telemetry",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "MongoDB",
+      "resourceType": "Infrastructure",
+      "resourceDescription": "Database hosting",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "GitHub",
+      "resourceType": "Source Control / CI",
+      "resourceDescription": "Source code, pull request review, and CI/CD pipelines that update ECS/Lambda/Batch task definitions and push container images",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Google Workspace",
+      "resourceType": "Corporate service",
+      "resourceDescription": "Google Drive and Email for employees",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Okta",
+      "resourceType": "Identity Provider",
+      "resourceDescription": "Workforce identity, SSO, and phishing-resistant MFA for administrative access",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "CrowdStrike Falcon",
+      "resourceType": "Endpoint protection",
+      "resourceDescription": "Endpoint detection and response on engineering workstations",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Incident.io",
+      "resourceType": "Internal Incident tool",
+      "resourceDescription": "Incident Management tool",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Jira",
+      "resourceType": "Internal task management",
+      "resourceDescription": "Task management tool",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "No"
+    },
+    {
+      "name": "Panther",
+      "resourceType": "SIEM",
+      "resourceDescription": "Centralised, tamper-resistant event, activity, and change logging and alerting",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Semgrep",
+      "resourceType": "Vulnerability Management",
+      "resourceDescription": "Vulnerability tool for supply chain security",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "No"
+    },
+    {
+      "name": "Socket",
+      "resourceType": "Vulnerability Management",
+      "resourceDescription": "Vulnerability tool for supply chain security",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "No"
+    },
+    {
+      "name": "Tenable",
+      "resourceType": "Vulnerability Management",
+      "resourceDescription": "Vulnerability scanning tool",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "No"
+    },
+    {
+      "name": "OneSchema",
+      "resourceType": "Document upload",
+      "resourceDescription": "Customer tool for bulk data upload",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Microsoft Azure",
+      "resourceType": "AI service",
+      "resourceDescription": "OpenAI Model",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Orca",
+      "resourceType": "Vulnerability Management",
+      "resourceDescription": "Vulnerability scanning tool for containers",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "No"
+    }
+  ],
+  "informationFlow": {
+    "diagram": "Vanta Architecture Diagram (referenced in Section 5 of the Certification Package Overview; diagram file/URL not yet provided)",
+    "flowDetails": [
+      {
+        "flowId": "FL-01",
+        "flowSource": "Agency and customer web clients (Vanta web application and Trust Center)",
+        "flowDestination": "External network edge and CDN with WAF inspection, terminating at the load-balanced web tier",
+        "flowDescription": "Authenticated end-user access to the Vanta web application and Trust Center over TLS",
+        "flowDataTypes": "Federal customer data, credentials",
+        "flowDataSecurityCategorization": "Low"
+      },
+      {
+        "flowId": "FL-02",
+        "flowSource": "Vanta customers using the API / API clients",
+        "flowDestination": "External API gateway and load-balanced API tier",
+        "flowDescription": "Programmatic customer access to platform data",
+        "flowDataTypes": "Federal customer data, API credentials",
+        "flowDataSecurityCategorization": "Low"
+      },
+      {
+        "flowId": "FL-03",
+        "flowSource": "Third-party webhooks and customer integrations",
+        "flowDestination": "External network edge, then integration data ingestion services",
+        "flowDescription": "Inbound telemetry from customer-authorised integrations for continuous control testing",
+        "flowDataTypes": "Federal customer data (configuration and posture metadata)",
+        "flowDataSecurityCategorization": "Low"
+      },
+      {
+        "flowId": "FL-04",
+        "flowSource": "Platform services",
+        "flowDestination": "MongoDB Atlas (via PrivateLink), Aurora, ElastiCache, S3",
+        "flowDescription": "Read/write of customer compliance data, evidence, and artifacts; encrypted at rest",
+        "flowDataTypes": "Federal customer data",
+        "flowDataSecurityCategorization": "Low"
+      },
+      {
+        "flowId": "FL-05",
+        "flowSource": "Platform services",
+        "flowDestination": "Confluent Kafka, SQS, SNS",
+        "flowDescription": "Asynchronous event streaming and job queuing between services",
+        "flowDataTypes": "Federal customer data, metadata",
+        "flowDataSecurityCategorization": "Low"
+      },
+      {
+        "flowId": "FL-06",
+        "flowSource": "Platform services",
+        "flowDestination": "Oso",
+        "flowDescription": "Authorization policy decisions",
+        "flowDataTypes": "Authorization metadata",
+        "flowDataSecurityCategorization": "Low"
+      },
+      {
+        "flowId": "FL-07",
+        "flowSource": "Platform services",
+        "flowDestination": "Datadog, CloudWatch, Panther (SIEM)",
+        "flowDescription": "Application, access, and change event logging, metrics, and traces",
+        "flowDataTypes": "Log data, metadata",
+        "flowDataSecurityCategorization": "Low"
+      },
+      {
+        "flowId": "FL-08",
+        "flowSource": "Platform services",
+        "flowDestination": "Amazon SES; Courier Notifications API; Slack and Microsoft Teams",
+        "flowDescription": "Outbound transactional email and customer notification delivery",
+        "flowDataTypes": "Federal customer data (notification content)",
+        "flowDataSecurityCategorization": "Low"
+      },
+      {
+        "flowId": "FL-09",
+        "flowSource": "Platform services",
+        "flowDestination": "OpenAI API, Anthropic API, Reducto API, OneSchema API",
+        "flowDescription": "Outbound calls to third-party AI and data-processing services",
+        "flowDataTypes": "Customer data (dependent on what customer provides)",
+        "flowDataSecurityCategorization": "Low"
+      },
+      {
+        "flowId": "FL-10",
+        "flowSource": "Authorized Vanta administrative personnel",
+        "flowDestination": "Vanta production environment",
+        "flowDescription": "Authenticated, phishing-resistant-MFA administrative access",
+        "flowDataTypes": "Administrative credentials",
+        "flowDataSecurityCategorization": "Low"
+      },
+      {
+        "flowId": "FL-11",
+        "flowSource": "Automated CI/CD pipeline",
+        "flowDestination": "Production container registry and production compute service definitions",
+        "flowDescription": "CI/CD deployment: push container images and update task definitions",
+        "flowDataTypes": "Build artifacts, configuration",
+        "flowDataSecurityCategorization": "Low"
+      },
+      {
+        "flowId": "FL-12",
+        "flowSource": "Platform services",
+        "flowDestination": "Trust Center / Vanta API",
+        "flowDescription": "Outbound sharing of compliance status and Certification Data to authorised parties",
+        "flowDataTypes": "Federal customer data (as configured by the customer)",
+        "flowDataSecurityCategorization": "Low"
+      },
+      {
+        "flowId": "FL-13",
+        "flowSource": "Platform services",
+        "flowDestination": "Snowflake",
+        "flowDescription": "Internal analytics - out of scope, to be disabled or removed for the FedRAMP instance",
+        "flowDataTypes": "Internal analytics data",
+        "flowDataSecurityCategorization": "N/A"
+      }
+    ]
+  },
+  "policies": [
+    {
+      "policyName": "Information Security and Acceptable Use Policy",
+      "policyFileName": "Information Security and Acceptable Use Policy",
+      "policySummary": "Company-wide acceptable use rules covering security reporting, device and data handling, BYOD, prohibited apps, passwords, AI tools, and referenced policies.",
+      "policyWordCount": "1980",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-07-06",
+      "policyRelatedPractices": "PI, IAM"
+    },
+    {
+      "policyName": "Code of Conduct",
+      "policyFileName": "Code of Conduct",
+      "policySummary": "Ethical conduct standards covering legal compliance, conflicts of interest, insider trading, confidentiality, asset use, anti-corruption, and whistleblower reporting.",
+      "policyWordCount": "2450",
+      "policyVersion": "5.0",
+      "policyLastUpdated": "2026-07-06",
+      "policyRelatedPractices": "PI"
+    },
+    {
+      "policyName": "Business Continuity and Disaster Recovery Plan",
+      "policyFileName": "Business Continuity and Disaster Recovery Plan",
+      "policySummary": "Continuity and recovery approach for production and business services, including dependencies, escalation, roles, call tree testing, and annual business impact analysis.",
+      "policyWordCount": "1340",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-07-01",
+      "policyRelatedPractices": "CNA"
+    },
+    {
+      "policyName": "Data Management Policy",
+      "policyFileName": "Data Management Policy",
+      "policySummary": "Four-tier data classification with minimum handling, labeling, AI data restrictions, retention, secure disposal, and legal hold requirements.",
+      "policyWordCount": "1500",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-07-01",
+      "policyRelatedPractices": "PI, SC"
+    },
+    {
+      "policyName": "Human Resource Security Policy",
+      "policyFileName": "Human Resource Security Policy",
+      "policySummary": "Personnel security controls spanning background screening, competence assessment, employment terms, security awareness training, and termination offboarding.",
+      "policyWordCount": "950",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-07-01",
+      "policyRelatedPractices": "PI"
+    },
+    {
+      "policyName": "Asset Management Policy",
+      "policyFileName": "Asset Management Policy",
+      "policySummary": "Inventory, ownership, acceptable use, return, off-site handling, secure disposal, and baseline workstation security requirements for Vanta assets.",
+      "policyWordCount": "810",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-06-30",
+      "policyRelatedPractices": "PI"
+    },
+    {
+      "policyName": "Physical Security Policy",
+      "policyFileName": "Physical Security Policy",
+      "policySummary": "Physical protection of offices and facilities including perimeters, badge entry controls, environmental threats, visitor management, and third-party physical security.",
+      "policyWordCount": "750",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-06-30",
+      "policyRelatedPractices": "PI"
+    },
+    {
+      "policyName": "Enterprise Security Incident Response Policy",
+      "policyFileName": "Incident Response Policy",
+      "policySummary": "Defines security, privacy, and AI incident types, reporting channels, federal notification duties, response procedure stages, and incident response roles.",
+      "policyWordCount": "1060",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-06-30",
+      "policyRelatedPractices": "INR, MLA"
+    },
+    {
+      "policyName": "Information Security Roles and Responsibilities Policy",
+      "policyFileName": "Information Security Roles and Responsibilities Policy",
+      "policySummary": "Assigns information security duties across the board, executives, GRC, legal, people, security, engineering, corporate engineering, and all users.",
+      "policyWordCount": "1010",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-06-30",
+      "policyRelatedPractices": "PI"
+    },
+    {
+      "policyName": "People Operations Privacy Policy",
+      "policyFileName": "People Operations Privacy Policy",
+      "policySummary": "Explains how Vanta collects, uses, discloses, retains, and secures personnel data, plus DPF compliance, individual rights, and California privacy rights.",
+      "policyWordCount": "2130",
+      "policyVersion": "4.0",
+      "policyLastUpdated": "2026-06-30",
+      "policyRelatedPractices": "PI"
+    },
+    {
+      "policyName": "Third Party Management Policy",
+      "policyFileName": "Third Party Management Policy",
+      "policySummary": "Vendor due diligence, contractual security requirements, ongoing monitoring, risk assessment, and baseline security control expectations for third parties.",
+      "policyWordCount": "1150",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-06-30",
+      "policyRelatedPractices": "TPR"
+    },
+    {
+      "policyName": "Privacy Compliance Policy",
+      "policyFileName": "Privacy Compliance Policy",
+      "policySummary": "GDPR and CCPA compliance program covering PII definitions, DPO duties, data protection, breach notification timelines, subject access requests, and compelled disclosure.",
+      "policyWordCount": "2380",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-06-30",
+      "policyRelatedPractices": "PI"
+    },
+    {
+      "policyName": "Operations Security Policy",
+      "policyFileName": "Operations Security Policy",
+      "policySummary": "Secure operation of systems including hardening, anti-malware, backups, logging and monitoring, intrusion detection, and technical vulnerability management.",
+      "policyWordCount": "1150",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-06-30",
+      "policyRelatedPractices": "SC, MLA"
+    },
+    {
+      "policyName": "Secure Development Policy",
+      "policyFileName": "Secure Development Policy",
+      "policySummary": "Security in the SDLC covering change and capacity management, AI-assisted code, version control, environment segregation, security testing, and test data protection.",
+      "policyWordCount": "1080",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-06-30",
+      "policyRelatedPractices": "CM, PI"
+    },
+    {
+      "policyName": "Risk Management Policy",
+      "policyFileName": "Risk Management Policy",
+      "policySummary": "Risk methodology covering register maintenance, categories, likelihood and impact scoring, treatment options, ownership thresholds, and the 3x3 risk matrix.",
+      "policyWordCount": "1740",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-06-30",
+      "policyRelatedPractices": "PI"
+    },
+    {
+      "policyName": "Access Control Policy",
+      "policyFileName": "Access Control Policy",
+      "policySummary": "Least-privilege access management covering provisioning, deprovisioning within 24 hours, quarterly access reviews, privileged access, segregation of duties, and source code access.",
+      "policyWordCount": "1310",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-06-30",
+      "policyRelatedPractices": "IAM"
+    },
+    {
+      "policyName": "Cryptography Policy",
+      "policyFileName": "Cryptography Policy",
+      "policySummary": "Encryption requirements for restricted data at rest and in transit, approved algorithms, TLS minimums, and full cryptographic key lifecycle management.",
+      "policyWordCount": "900",
+      "policyVersion": "6.0",
+      "policyLastUpdated": "2026-06-30",
+      "policyRelatedPractices": "SC"
+    },
+    {
+      "policyName": "Vulnerability Management Standard",
+      "policyFileName": "Vulnerability Management Standard 2.3",
+      "policySummary": "Defines how Vanta identifies, scores, and remediates vulnerabilities, including scanning cadences, FedRAMP-aligned severity attributes, remediation SLAs, and validation requirements.",
+      "policyWordCount": "778",
+      "policyVersion": "2.3",
+      "policyLastUpdated": "2026-07-13",
+      "policyRelatedPractices": "MLA, VDR"
+    },
+    {
+      "policyName": "Log Management and Design Standard",
+      "policyFileName": "Log Management and Design Standard v2.0",
+      "policySummary": "Sets requirements for log storage, retention, logging design, prohibited data, SaaS log ingestion, alerting, and daily/quarterly log review.",
+      "policyWordCount": "1868",
+      "policyVersion": "2.1",
+      "policyLastUpdated": "2026-02-13",
+      "policyRelatedPractices": "MLA"
+    },
+    {
+      "policyName": "SDLC Standard",
+      "policyFileName": "SDLC Standard",
+      "policySummary": "Sets secure development lifecycle requirements across design, development, testing, code review, CI/CD, and production security testing.",
+      "policyWordCount": "510",
+      "policyVersion": "1.1",
+      "policyLastUpdated": "2024-01-30",
+      "policyRelatedPractices": "CM, PI"
+    },
+    {
+      "policyName": "Secrets Management Standard",
+      "policyFileName": "Secrets Management Standard",
+      "policySummary": "Requires production secrets encrypted at rest, keys managed in AWS KMS with rotation on compromise, and least-privilege access to secrets.",
+      "policyWordCount": "186",
+      "policyVersion": "2.0",
+      "policyLastUpdated": "2025-07-25 (effective 2025-08-01)",
+      "policyRelatedPractices": "SC, IAM"
+    },
+    {
+      "policyName": "Penetration Testing Standard",
+      "policyFileName": "Penetration Testing Standard",
+      "policySummary": "Requires an annual independent penetration test of the Vanta platform, remediation to SLA, retesting, and Trust Center publication of the retest report.",
+      "policyWordCount": "319",
+      "policyVersion": "2.0",
+      "policyLastUpdated": "2025-07-25 (effective 2025-08-01)",
+      "policyRelatedPractices": "MLA"
+    },
+    {
+      "policyName": "Intrusion Detection Standard",
+      "policyFileName": "Intrusion Detection Standard",
+      "policySummary": "Requires GuardDuty-based intrusion detection across all AWS accounts and regions with alerts routed to a SIEM for monitoring and response.",
+      "policyWordCount": "165",
+      "policyVersion": "2.0",
+      "policyLastUpdated": "2025-07-25 (effective 2025-08-01)",
+      "policyRelatedPractices": "MLA, CNA"
+    },
+    {
+      "policyName": "Patch Management Standard",
+      "policyFileName": "Patch Management Standard",
+      "policySummary": "Requires periodic, SLA-bound patching and review covering OS packages, containers, application dependencies, user applications, and software defects.",
+      "policyWordCount": "129",
+      "policyVersion": "2.0",
+      "policyLastUpdated": "2025-07-25 (effective 2025-08-01)",
+      "policyRelatedPractices": "SC, MLA"
+    },
+    {
+      "policyName": "Access Management Standard - Vanta App and Infrastructure",
+      "policyFileName": "Access Management Standard - Vanta App and Infrastructure",
+      "policySummary": "Governs ticketed, approved, MFA/SSO-protected access to the Vanta app and production infrastructure, plus quarterly reviews and 24-hour revocation.",
+      "policyWordCount": "708",
+      "policyVersion": "2.0",
+      "policyLastUpdated": "2025-07-25 (effective 2025-08-01)",
+      "policyRelatedPractices": "IAM"
+    },
+    {
+      "policyName": "Insider Risk Program Standard",
+      "policyFileName": "Insider Risk Program Standard",
+      "policySummary": "Establishes Vanta's insider risk program: governance, risk indicators, monitoring, investigations, response, privacy compliance, training, and roles.",
+      "policyWordCount": "1287",
+      "policyVersion": "1.0",
+      "policyLastUpdated": "2025-10-31",
+      "policyRelatedPractices": "PI, IAM"
+    }
+  ],
+  "cryptographicModules": [
+    {
+      "serviceName": "Customer Browsers",
+      "moduleName": "N/A - see usage",
+      "cmvpValidation": "N/A - see usage",
+      "moduleUsage": "We don't know what module is used for the customer's browser, though we can at least be sure that a suitable algorithm is being negotiated between the client and Cloudflare."
+    },
+    {
+      "serviceName": "MongoDB Atlas, AWS Aurora (MySQL), AWS ElastiCache (Redis), Amazon S3",
+      "moduleName": "AWS Key Management Service (KMS)",
+      "cmvpValidation": "Yes - Vanta's Information Security Addendum Section 8 states KMS uses FIPS 140-2 validated HSMs.",
+      "moduleUsage": "Federal customer data at rest (including backups)"
+    },
+    {
+      "serviceName": "AWS Systems Manager Parameter Store",
+      "moduleName": "AWS Key Management Service (KMS)",
+      "cmvpValidation": "Yes - Vanta's Information Security Addendum Section 8 states KMS uses FIPS 140-2 validated HSMs.",
+      "moduleUsage": "Production secrets, credentials, and API keys at rest"
+    },
+    {
+      "serviceName": "Inbound customer traffic: Cloudflare edge",
+      "moduleName": "Cloudflare w/ TLS 1.2/1.3",
+      "cmvpValidation": "No",
+      "moduleUsage": "Federal customer data in transit between agency users and the offering"
+    },
+    {
+      "serviceName": "AWS Load Balancers",
+      "moduleName": "AWS-LC Cryptographic Module",
+      "cmvpValidation": "Yes",
+      "moduleUsage": "Data in transit between Cloudflare and our platform, or between services in our platform"
+    },
+    {
+      "serviceName": "Platform services/applications",
+      "moduleName": "OpenSSL",
+      "cmvpValidation": "No",
+      "moduleUsage": "Federal customer data in transit to the primary datastore"
+    },
+    {
+      "serviceName": "Connections to AWS Services (S3, KMS, SSM, etc.)",
+      "moduleName": "AWS-LC Cryptographic Module",
+      "cmvpValidation": "No",
+      "moduleUsage": "Connections to AWS services that power our platform"
+    }
+  ],
+  "ZD_frid_retro": "FR2525556241",
+  "id_matches_expected": true
 }

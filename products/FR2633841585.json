@@ -35,7 +35,7 @@
       "url": "https://docs.silkline.ai/configuration/secure-configuration-guide",
       "repositoryDescription": "Customer administrator guidance for secure access, roles, sharing, integrations, notifications, exports, and provisioning defaults.",
       "authenticationRequired": false,
-      "accessRequestInstructions": "Open the guide URL without signing in. A Markdown version is available at https://docs.silkline.ai/configuration/secure-configuration-guide.md. Apply the administrator checklist during onboarding, administrative access changes, and periodic reviews. Compare actual settings with the recommended configuration, record exceptions, and contact support@silkline.ai for setup or recovery assistance."
+      "accessRequestInstructions": "Open the guide URL without signing in. A Markdown version is available at https://docs.silkline.ai/configuration/secure-configuration-guide.md, and its secure defaults as JSON at https://app.silkline.ai/.well-known/fedramp/secure-configuration-guide. Apply the administrator checklist during onboarding, administrative access changes, and periodic reviews. Compare actual settings with the recommended configuration, record exceptions, and contact support@silkline.ai for setup or recovery assistance."
     },
     "additionalRepositories": [
       {
@@ -46,6 +46,15 @@
         "repositoryDescription": "Inventory of the cryptographic modules each service uses to protect federal customer data, with CMVP validation status, update-stream basis, and documented departures.",
         "authenticationRequired": false,
         "accessRequestInstructions": "Open the URL without signing in. The same inventory is available as JSON at https://app.silkline.ai/.well-known/fedramp/cryptographic-modules."
+      },
+      {
+        "repositoryType": [
+          "Secure Configuration Guide, machine-readable (SCG-ENH-MRG)"
+        ],
+        "url": "https://app.silkline.ai/.well-known/fedramp/secure-configuration-guide",
+        "repositoryDescription": "The secure defaults from the Secure Configuration Guide as JSON, with the settings API query and the response field and expected value for each setting.",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Open the URL without signing in. Run its settingsQuery against the Silkline GraphQL API with an organization API key, and compare each check with the response."
       }
     ]
   },
@@ -389,6 +398,22 @@
         "potentialImpactToFederalCustomerData": "Generated code could introduce client-side security defects if accepted without review.",
         "mitigationMeasures": "Generated output is reviewed and tested before it is released.",
         "compensatingControls": "Committed output passes the same source review and CI controls as maintainer-authored code.",
+        "disposition": "keep",
+        "reviewOwner": "Vendor Risk Management Admin",
+        "reviewCadence": "Quarterly"
+      },
+      {
+        "name": "npm",
+        "provider": "GitHub",
+        "website": "https://www.npmjs.com/",
+        "useCase": "Publication and distribution of client SDK packages.",
+        "resourceCategory": "supporting-supply-chain",
+        "usageAndConfiguration": "SDK production repositories publish generated @silkline packages to the npm registry on release, and the application installs them from it.",
+        "justification": "Silkline uses npm to distribute its client SDKs as versioned packages.",
+        "federalCustomerDataReachable": false,
+        "potentialImpactToFederalCustomerData": "A compromised publishing account or package could ship malicious code to systems that install the SDKs.",
+        "mitigationMeasures": "Members join the @silkline npm organization only by manual invitation, and the organization enforces two-factor authentication for every member.",
+        "compensatingControls": "Packages publish through OIDC Trusted Publishing from release workflows, and the application pins SDK versions in its lockfile behind source review and CI.",
         "disposition": "keep",
         "reviewOwner": "Vendor Risk Management Admin",
         "reviewCadence": "Quarterly"
