@@ -1,5 +1,9 @@
 # marketplace-fedramp-gov-data
-A new repository under the FedRAMP org that performs functionally similar to GSA/marketplace-fedramp-gov-data. This will serve as the dumping ground for FedRAMP certification data and our new FedRAMP certification status changes data, decoupling FedRAMP certification package state from core information.
+This is the data store for FedRAMP certification data and FedRAMP certification status changes data.
+
+## Repository Contents
+For a description of each entity and its corresponding file location, see:
+- [Data Dictionary](docs/data-dictionary.md)
 
 ## Update frequency
 * Legacy FedRAMP certification data and associated agency and assessor mappings (`data.json`) will be uploaded between 2-3 AM ET daily.
@@ -7,4 +11,4 @@ A new repository under the FedRAMP org that performs functionally similar to GSA
 * `fedramp-frc-cso-pkg.json` (Products), `fedramp-mkt-cas-web.json` (Advisors), and `fedramp-mkt-ias-web.json` (Assessors) are updated as needed.
 
 ## JSON Schemas
-JSON Schemas related to the export artifacts are located on https://github.com/FedRAMP/schemas
+JSON Schemas related to the export artifacts are located on https://github.com/FedRAMP/schemas.
