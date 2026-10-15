@@ -1,0 +1,58 @@
+{
+  "advisorName": "SecureIT",
+  "logo": "https://secureit.com/wp-content/uploads/2024/11/SecureIT-HighRes-Logo400blue.png",
+  "a2laId": "138819",
+  "serviceDescription": "SecureIT is a FedRAMP Recognized Independent Assessor that also advises cloud service providers. We have performed FedRAMP assessments since 2013, so our advice is grounded in what an assessment actually requires. Our assessment and advisory practices operate under separate leadership and separate personnel.\n\n**Who actually does the work.** You get named senior advisors, not a bench of junior analysts supervised from a distance. The people who scope your engagement are the people who run it. We will tell you plainly where your program needs to improve, and we will do it without losing sight of the product you are trying to ship and the customers you are trying to serve.\n\n**Technical Depth.** We advise on the architecture you actually run: serverless, containers and Kubernetes, CI/CD pipelines, infrastructure as code, self-hosted and hybrid deployments, and multi-cloud across AWS, Azure, Google Cloud, and others. We work the questions that actually decide certifications rather than the ones that are easy to write about: how your FedRAMP Minimum Assessment Scope should be drawn and what that decision will cost you, which third-party information resources you have to account for, how your information flows, security categorizations, and tenant isolation will hold up under scrutiny, and where cryptographic module validation is going to bite. We have helped providers identify their information resources, define scope, write service descriptions, and build control sets. In addition, we review (or build) the code behind automated Key Security Indicator validations rather than simply telling you that you need them. If your engineers would rather talk to a technical SME than to a compliance analyst, that is how we staff.\n\n**Technology and ecosystem.** Advice alone does not get evidence out of your systems. We run SPARC360, our own compliance orchestration platform that can produce machine readable (JSON) and human readable outputs for CR26, assist with vulnerability evaluation and reporting, and analyze configurations and activity logs from AWS, Azure, Google Cloud, and other providers for control compliance or KSI metrics. Around SPARC360, we maintain partnerships across the GRC tooling ecosystem, and we are deliberately platform-agnostic. Whether you already run Vanta, Drata, Paramify, or nothing at all, our GRC engineering practice builds the last mile that turns tooling output into evidence an assessor will accept. You do not have to adopt our platform to work with us, and you are not stranded if you have already adopted someone else's.\n\n**Current and visible.** We can walk you through the reasoning behind the Consolidated Rules for 2026, what each Key Security Indicator is actually trying to establish, and how the CR26 rules change what is expected of an existing Rev5 package. We publish whitepapers regarding program changes, participate in FedRAMP community discussions, and attend FedRAMP conferences. If you want to judge how current we are before you call us, the record is public.\n\n**How we engage.** Most relationships start with a fixed-fee engagement, either a focused sprint against a specific need or a roadmap when you want an operating model rather than a deliverable. From there, clients move to a subscription relationship sized to how much of the compliance function they want us to carry, from periodic advisory through to running the compliance operating rhythm day to day. Billing is smoothed monthly rather than hourly, so heavier months and quieter ones even out and you are not deciding whether a question is worth a change order.",
+  "contactInformation": [
+    "Point of contact: David Trout",
+    "Email: fedramp@secureit.com",
+    "Address: 11911 Freedom Drive, Suite 630, Reston, VA 20190",
+    "Website: https://secureit.com"
+  ],
+  "servicesOffered": [
+    {
+      "serviceName": " * FedRAMP readiness and gap analysis, Certification Classes A through D"
+    },
+    {
+      "serviceName": " * Minimum Assessment Scope definition and information resource identification"
+    },
+    {
+      "serviceName": " * Certification Package development: Security Decision Record and Certification Package Overview"
+    },
+    {
+      "serviceName": " * Key Security Indicator implementation and automated validation engineering"
+    },
+    {
+      "serviceName": " * Rev5 to 20x transition planning"
+    },
+    {
+      "serviceName": " * Legacy Rev5 CR26 remediation"
+    },
+    {
+      "serviceName": " * GRC engineering and evidence pipeline automation"
+    },
+    {
+      "serviceName": " * Continuous compliance operations, from periodic advisory through embedded delivery"
+    },
+    {
+      "serviceName": " * Vulnerability evaluation and reporting assistance and other ongoing ConMon support"
+    },
+    {
+      "serviceName": " * Agency-side advisory on cloud security and FedRAMP review"
+    },
+    {
+      "serviceName": " * CMMC, GovRAMP, SOC 2, ISO 27001, ISO 42001, and NIST 800-53 framework readiness"
+    },
+    {
+      "serviceName": " * Penetration testing and security assessment"
+    },
+    {
+      "serviceName": " * FedRAMP Equivalency for the DoW"
+    }
+  ],
+  "customerReferences": [
+    "SecureIT has provided FedRAMP advisory services to over 100 CSPs. References are available upon request."
+  ],
+  "ZD_assessor_advisor_name": "SecureIT",
+  "fedramp_listing_timestamp": "2026-10-02T20:17:02.951Z"
+}
