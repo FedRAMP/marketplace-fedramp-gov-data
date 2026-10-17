@@ -111,6 +111,10 @@
       {
         "fedRampCertifiedThirdPartyInformationResource": "FR2023864279A",
         "useCase": "Datadog for Government (US1-FED) provides observability, security monitoring, incident investigation, and audit evidence."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2116544598A",
+        "useCase": "Keeper Security Government Cloud stores staff credentials and provides the one-time codes and passkeys staff use to sign in."
       }
     ],
     "nonCertified": [
@@ -156,8 +160,8 @@
         "justification": "Silkline uses Kernel to provide browser automation for desktop punchout.",
         "federalCustomerDataReachable": false,
         "potentialImpactToFederalCustomerData": "A session could expose purchasing content or supplier credentials if desktop punchout were enabled for a federal organization.",
-        "mitigationMeasures": "Kernel-backed desktop punchout is disabled for FedRAMP-enabled organizations.",
-        "compensatingControls": "The organization-level FedRAMP gate prevents federal sessions from starting in Kernel.",
+        "mitigationMeasures": "Kernel-backed punchout and supplier sign-in are disabled for FedRAMP-enabled and ITAR organizations.",
+        "compensatingControls": "One organization-level gate runs before every Kernel call and prevents federal sessions from starting in Kernel.",
         "disposition": "keep",
         "reviewOwner": "Vendor Risk Management Admin",
         "reviewCadence": "Quarterly"
@@ -510,22 +514,6 @@
         "potentialImpactToFederalCustomerData": "Authorization records can expose security architecture and affect the accuracy of risk decisions.",
         "mitigationMeasures": "Records are reviewed by assigned control owners and scoped to security and compliance evidence.",
         "compensatingControls": "Role-based access and human review govern changes to control evidence.",
-        "disposition": "keep",
-        "reviewOwner": "Vendor Risk Management Admin",
-        "reviewCadence": "Quarterly"
-      },
-      {
-        "name": "Keeper",
-        "provider": "Keeper Security",
-        "website": "https://www.keepersecurity.com/",
-        "useCase": "Staff credential and secret management.",
-        "resourceCategory": "supporting-supply-chain",
-        "usageAndConfiguration": "Keeper stores staff-managed credentials used to access operational and administrative systems.",
-        "justification": "Silkline uses Keeper to centralize protected credential storage and sharing.",
-        "federalCustomerDataReachable": false,
-        "potentialImpactToFederalCustomerData": "Compromised credentials could grant access to systems that handle federal customer data.",
-        "mitigationMeasures": "Credential access is limited by workforce role and periodically reviewed.",
-        "compensatingControls": "SSO, multifactor authentication, and access reviews protect privileged credentials.",
         "disposition": "keep",
         "reviewOwner": "Vendor Risk Management Admin",
         "reviewCadence": "Quarterly"

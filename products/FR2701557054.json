@@ -1,0 +1,47 @@
+{
+  "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "providerName": "Aequitas Cyber Labs",
+    "serviceName": "KineticCode",
+    "serviceAcronym": "KC",
+    "serviceDescription": "KineticCode is a multi-tenant SaaS CI/CD governance platform that wraps GitHub-based software delivery with auditable controls for organizations handling sensitive and controlled information.\n\n- **Pull-request gating:** required human approval, automated unit-test and coverage validation (including detection of empty or no-op tests), and automatic review.\n- **Sensitive-data detection:** CUI/FCI marking assistance and detection of secrets, tokens and credentials in checked-in code, plus detection of risky code patterns.\n- **Tamper evidence:** build checksums generated and re-verified at each environment promotion.\n- **Controlled promotion:** strict sequential Dev, Test, Stage, Prod promotion with notifications on mismatch or stalled promotions.\n- **Audit and evidence:** persistent audit trail of scans, approvals, merges and promotions, with a dashboard of pull requests, branches and environment status.\n- **Access governance:** business-unit and role-based views, with detection and flagging of access-policy violations for human remediation.",
+    "certificationType": "20x",
+    "fedRampPackageId": "Aequitas Cyber Labs - KC",
+    "ueiNumber": "",
+    "website": "https://kineticcode.aequitascyberlabs.com",
+    "logo": "https://kineticcode.aequitascyberlabs.com/assets/kineticcode-icon.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Development Tools",
+      "Governance, Risk, and Compliance (GRC)",
+      "Cybersecurity & Risk Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://kineticcode.aequitascyberlabs.com/fedramp",
+      "repositoryDescription": "KineticCode security, compliance, and FedRAMP certification information, including instructions for obtaining authorized certification materials.",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Laquitta DeMerchant",
+      "contactEmail": "laquitta@aequitascyberlabs.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Laquitta DeMerchant",
+      "contactEmail": "laquitta@aequitascyberlabs.com"
+    }
+  ],
+  "ZD_frid_retro": "FR2701557054",
+  "id_matches_expected": false
+}

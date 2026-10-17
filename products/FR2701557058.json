@@ -1,0 +1,129 @@
+{
+  "certifiedServices": [
+    {
+      "securityCategory": "Moderate",
+      "serviceDescription": "The public certification data surface. Publishes the signed certification package, this\noverview, the policy and procedure catalog and the recurring reports, with per-document\npublication controls and an access log.\n",
+      "serviceName": "Trust Center"
+    },
+    {
+      "securityCategory": "Moderate",
+      "serviceDescription": "The FedRAMP 20x Key Security Indicator (KSI) validation engine. Runs automated validators\nagainst the provider's live cloud environment across all ten indicator families and records\nthe evidence each indicator was graded on.\n",
+      "serviceName": "Compliance"
+    },
+    {
+      "securityCategory": "Moderate",
+      "serviceDescription": "Vulnerability detection and response. Ingests vulnerability findings, applies the provider's\nrisk model to prioritise them, and tracks remediation against the FedRAMP timeframe\nrequirements.\n",
+      "serviceName": "Vulnerabilities"
+    },
+    {
+      "securityCategory": "Moderate",
+      "serviceDescription": "Significant change notification (SCN). Records significant changes, runs the required\nevaluation, notifies as the rules require and keeps the twelve-month archive.\n",
+      "serviceName": "Changes"
+    },
+    {
+      "securityCategory": "Moderate",
+      "serviceDescription": "Assembles the reports FedRAMP 20x mandates from the other modules' data and publishes them as\nsigned, machine-readable artifacts.\n",
+      "serviceName": "Certification Data Service"
+    },
+    {
+      "securityCategory": "Moderate",
+      "serviceDescription": "The document library. Holds the policies, procedures and evidence records the FedRAMP rules\nrequire, with version history, an approval workflow, per-document publication control and\ntraining records.\n",
+      "serviceName": "Documents"
+    },
+    {
+      "securityCategory": "Moderate",
+      "serviceDescription": "Reporting. Generates and schedules the recurring reports a provider and its agencies need from\nthe compliance, vulnerability and change data, and keeps the run history.\n",
+      "serviceName": "Reports"
+    },
+    {
+      "securityCategory": "Moderate",
+      "serviceDescription": "In-product messaging. Lets a provider's team and its assessors discuss findings, changes and\ndocuments alongside the records they concern, and retains those messages.\n",
+      "serviceName": "Chat"
+    }
+  ],
+  "contactInformation": [
+    {
+      "contactEmail": "FedRAMPSecurity@38northsecurity.com",
+      "contactName": "Linda Morales, Executive VP & Chief Security Officer",
+      "contactType": "Security"
+    },
+    {
+      "contactEmail": "info@38northsecurity.com",
+      "contactName": "38North Security Sales",
+      "contactType": "Sales"
+    },
+    {
+      "contactEmail": "matt@38northsecurity.com",
+      "contactName": "Matthew Earley, President",
+      "contactType": "Responsible Official"
+    }
+  ],
+  "deferredItems": [
+    {
+      "itemId": "independent_assessor",
+      "reason": "No independent assessment service is engaged yet; CDS-CSO-PUB obliges this information only where it is available and applicable.",
+      "reviewBy": "2026-12-31"
+    },
+    {
+      "itemId": "overall_summary_of_assessment",
+      "reason": "The independent assessor supplies this summary per IVV-IAS-OSA after the assessment, so it does not exist yet.",
+      "reviewBy": "2026-12-31"
+    }
+  ],
+  "lastUpdated": "2026-10-06",
+  "serviceIdentification": {
+    "certificationType": "20x",
+    "fedRampPackageId": "38NorthSecurity-NW",
+    "logo": "https://dashboard.northwatch.io/images/northwatch-icon.png",
+    "providerName": "38North Security, LLC",
+    "serviceAcronym": "NW",
+    "serviceDescription": "Northwatch is a FedRAMP 20x trust center platform. It runs continuous automated validation of\nthe FedRAMP 20x Key Security Indicators against a provider's live cloud environment, normalizes\nthe output of disparate security scanners into one FedRAMP-aligned data model, and publishes the\nresulting certification data as signed, machine-readable artifacts on a public trust center.\n\nIt covers continuous indicator validation and evidence collection, the document and evidence\nlibrary, vulnerability detection and response, significant change notification, recurring\nreporting, in-product collaboration, and the certification data service that assembles and\npublishes the artifacts FedRAMP 20x requires. The certified services are listed below, each\nwith its security category.\n",
+    "serviceName": "Northwatch",
+    "ueiNumber": "DMVZSLQUHEK7",
+    "website": "https://38northsecurity.com/northwatch/"
+  },
+  "serviceProperties": {
+    "additionalRepositories": [
+      {
+        "accessRequestInstructions": "Email the security contact listed in this overview to request access to the document library.",
+        "authenticationRequired": true,
+        "repositoryDescription": "The Northwatch document library: the system authorization documentation, policies, procedures, plans and assessment reports for the offering, each held as a versioned, approved record.",
+        "repositoryType": [
+          "Authorization Documentation",
+          "Policies and Procedures",
+          "Assessment Reports"
+        ],
+        "url": "https://dashboard.northwatch.io/documents"
+      }
+    ],
+    "businessCategory": [
+      "Governance, Risk, and Compliance (GRC)"
+    ],
+    "deploymentModel": "Public Cloud",
+    "nextOngoingCertificationReportDate": "2026-12-31",
+    "secureConfigurationGuidance": {
+      "accessRequestInstructions": "Email the security contact listed in this overview to request access to the secure configuration guidance.",
+      "authenticationRequired": true,
+      "repositoryDescription": "Secure configuration guidance for the offering. Held in the authenticated document library rather than published publicly; agencies and assessors are granted access on request.",
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://dashboard.northwatch.io/documents"
+    },
+    "serviceType": [
+      "SaaS"
+    ],
+    "trustCenter": {
+      "authenticationRequired": false,
+      "repositoryDescription": "The public trust center: the signed certification package, this overview, the policy and procedure catalog and the recurring reports.",
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://dashboard.northwatch.io/trust/northwatch"
+    }
+  },
+  "updateSource": "First published version of the Certification Package Overview.",
+  "version": "1.0",
+  "ZD_frid_retro": "FR2701557058",
+  "id_matches_expected": false
+}
