@@ -70,10 +70,10 @@
       "reviewBy": "2026-12-31"
     }
   ],
-  "lastUpdated": "2026-10-06",
+  "lastUpdated": "2026-10-17",
   "serviceIdentification": {
     "certificationType": "20x",
-    "fedRampPackageId": "38NorthSecurity-NW",
+    "fedRampPackageId": "FR2701557058",
     "logo": "https://dashboard.northwatch.io/images/northwatch-icon.png",
     "providerName": "38North Security, LLC",
     "serviceAcronym": "NW",
@@ -122,8 +122,8 @@
       "url": "https://dashboard.northwatch.io/trust/northwatch"
     }
   },
-  "updateSource": "First published version of the Certification Package Overview.",
-  "version": "1.0",
+  "updateSource": "Version 1.1 corrects the FedRAMP ID to FR2701557058, the package ID FedRAMP approved for initial implementation on 2026-10-16; version 1.0 carried the placeholder 38NorthSecurity-NW.",
+  "version": "1.1",
   "ZD_frid_retro": "FR2701557058",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }

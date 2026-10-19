@@ -38,7 +38,7 @@
       "authenticationRequired": false
     },
     "securityCategoryNote": "The adopting federal agency determines the applicable FIPS 199 security category for its intended use of each service. This package does not assert a provider-wide Low, Moderate, or High impact level.",
-    "nextOngoingCertificationReportDate": "2026-10-19"
+    "nextOngoingCertificationReportDate": "2027-01-19"
   },
   "certifiedServices": [
     {
@@ -186,9 +186,9 @@
   ],
   "documentationOverview": {
     "status": "Initial Implementation Phase",
-    "version": "2026-10-16",
-    "lastUpdated": "2026-10-16T14:33:53Z",
-    "updateSource": "Anysphere Security owner Ethan Troy's October 16 scheduling decisions set the first complete operating Ongoing Certification Report target to October 19, 2026 and adopt a report cycle every three calendar months on the 19th of October, January, April, and July, with subsequent targets January 19, April 19, and July 19, 2027. The owner also commits to October 22, 2026 as the first Quarterly Review target and next progress-update target. The report remains in progress after the prior October 11 and October 15 targets, and the review remains planned. The actual reporting period, report release, review timing, access, registration, and notice to necessary parties remain outstanding. The following is retained provenance for prior revision 2026-10-15: Anysphere Security owner Ethan Troy's October 15 planning decision revises the first operating Ongoing Certification Report target from October 11 to October 15 and retains October 15 as the proposed Quarterly Review target. The report remains in progress and the review remains planned; review timing and notice to necessary parties remain to be finalized. The other statements are unchanged from revision 2026-10-12, which marked the first Ongoing Certification Report as in progress. The other statements in that revision were unchanged from revision 2026-10-10, which added the FedRAMP 20x Class C progress section and matching JSON data, removed the published Class C progress update from materials in development, and aligned the next Ongoing Certification Report date with the approved schedule. The other statements in that revision were unchanged from revision 2026-10-07, which added that Anysphere's FedRAMP 20x Class A application is under FedRAMP review, checked against the status of that application with FedRAMP. The other statements in that revision were unchanged from revision 2026-09-28, which named the FedRAMP 20x Class C certification being pursued and its independent assessor (A-LIGN, FedRAMP assessor ID 138665; assessment in progress since 2026-09-15), described access to controlled FedRAMP Trust Center deliverables as a one-time approval, stated that Origin is not part of this offering, and stopped listing published materials as in development.",
+    "version": "2026-10-18",
+    "lastUpdated": "2026-10-18T21:00:22Z",
+    "updateSource": "Anysphere Security owner Ethan Troy issued a qualified Cursor Class C Ongoing Certification Report for July 17–October 17, 2026 on October 18, 2026, ahead of the adopted October 19 target. Its exact JSON and readable copies were supplied confidentially to A-LIGN through the existing SOR and LSI assessment sections. The report retains its October 17, 2026 21:37:18 UTC operational cutoff, adverse findings and incomplete source/register coverage. Issuance does not establish complete Certification Data, public or agency release, access for all necessary parties, or certification. The previously adopted reporting cycle remains every three calendar months on the 19th of October, January, April, and July, with the next adopted report targets January 19, April 19, and July 19, 2027. The first Quarterly Review is booked for October 22, 2026 from noon to 12:30 p.m. America/New_York as an organizer-only calendar event; necessary-party registration, audience access and notice remain outstanding, and no review has been held. October 22 remains the next progress-update target. The following is retained provenance for prior revision 2026-10-15: Anysphere Security owner Ethan Troy's October 15 planning decision revises the first operating Ongoing Certification Report target from October 11 to October 15 and retains October 15 as the proposed Quarterly Review target. The report remains in progress and the review remains planned; review timing and notice to necessary parties remain to be finalized. The other statements are unchanged from revision 2026-10-12, which marked the first Ongoing Certification Report as in progress. The other statements in that revision were unchanged from revision 2026-10-10, which added the FedRAMP 20x Class C progress section and matching JSON data, removed the published Class C progress update from materials in development, and aligned the next Ongoing Certification Report date with the approved schedule. The other statements in that revision were unchanged from revision 2026-10-07, which added that Anysphere's FedRAMP 20x Class A application is under FedRAMP review, checked against the status of that application with FedRAMP. The other statements in that revision were unchanged from revision 2026-09-28, which named the FedRAMP 20x Class C certification being pursued and its independent assessor (A-LIGN, FedRAMP assessor ID 138665; assessment in progress since 2026-09-15), described access to controlled FedRAMP Trust Center deliverables as a one-time approval, stated that Origin is not part of this offering, and stopped listing published materials as in development.",
     "responsibleOfficial": {
       "name": "Ethan Troy",
       "title": "Senior Security Engineer",
@@ -247,7 +247,7 @@
     "assessorID": "138665"
   },
   "classCProgress": {
-    "lastUpdated": "2026-10-16",
+    "lastUpdated": "2026-10-18",
     "nextScheduledUpdate": "2026-10-22",
     "nextQuarterlyReviewTargetDate": "2026-10-22",
     "certificationStatus": "FedRAMP 20x Class C certification has not yet been granted. Anysphere's FedRAMP 20x Class A application is under FedRAMP review.",
@@ -303,17 +303,18 @@
       },
       {
         "id": "first-ongoing-certification-report",
-        "title": "First Ongoing Certification Report",
-        "status": "In progress",
+        "title": "Qualified operating Ongoing Certification Report",
+        "status": "Issued (qualified)",
         "targetDate": "2026-10-19",
-        "detail": "Revised owner-adopted target for Cursor's first complete operating Ongoing Certification Report, previously targeted for 2026-10-11 and 2026-10-15. The October 15 target was not met; preparation remains in progress, and the available sample report is not a released operating report. The adopted report cycle is every three calendar months on the 19th of October, January, April, and July. Subsequent report targets are 2027-01-19, 2027-04-19, and 2027-07-19, replacing the prior 2026-12-08 subsequent-report target. These are scheduling commitments. The actual reporting period remains to be finalized; the operating report has not been issued or supplied."
+        "detail": "On October 18, 2026, Ethan Troy issued a qualified Class C operating Ongoing Certification Report for July 17–October 17, 2026, ahead of the October 19 initial issuance target. Its exact JSON and readable copies were supplied confidentially to A-LIGN through the existing SOR and LSI assessment sections. The report retains its October 17, 2026 21:37:18 UTC operational cutoff, adverse findings and incomplete source/register coverage. This is not a verified first-ever report or a complete Certification Data snapshot; public or agency release, supply/access for all necessary parties, certification and assessor Pass are not established. The adopted report cycle remains every three calendar months on the 19th of October, January, April, and July. The next adopted report targets are January 19, April 19, and July 19, 2027.",
+        "date": "2026-10-18"
       },
       {
         "id": "first-quarterly-review",
         "title": "First Quarterly Review",
         "status": "Planned",
         "targetDate": "2026-10-22",
-        "detail": "Owner-adopted target for Cursor's first Quarterly Review, replacing the prior proposed 2026-10-15 target. October 22 is three business days after the planned October 19 report release. Validate the interval against the actual report release and applicable business-day calendar before scheduling. Meeting time, timezone, necessary-party registration, access, and notice remain to be finalized; no review has been held."
+        "detail": "An organizer-only calendar event is booked for Cursor's first Quarterly Review on October 22, 2026, from noon to 12:30 p.m. America/New_York (Eastern Time). Necessary-party registration, audience access and notice remain outstanding; no review has been held. The October 22 review date and next progress-update target remain unchanged."
       }
     ]
   },
