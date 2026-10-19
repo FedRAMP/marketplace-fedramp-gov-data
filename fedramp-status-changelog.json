@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-19T14:55:40.869Z",
-    "total_entries": 2196,
+    "export_timestamp": "2026-10-19T19:59:32.536Z",
+    "total_entries": 2198,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -21635,8 +21635,8 @@
       {
         "unique_id": "067f49c9-4292-4266-ba40-2938a64cf434",
         "product_id": "FR2628650874",
-        "cert_type": "Rev5",
-        "cert_path": "Agency",
+        "cert_type": "20x",
+        "cert_path": "Program",
         "cert_class": "Unknown",
         "from_status": "",
         "to_status": "Initial Implementation",
@@ -24158,9 +24158,31 @@
         "cert_path": "Agency",
         "cert_class": "Class C",
         "from_status": "FedRAMP Ready",
-        "to_status": "FedRAMP In Process",
+        "to_status": "Agency Authorization In Process",
         "transition_date": "2026-10-19T04:00:00.000Z",
         "recorded_date": "2026-10-19T12:50:47.000Z"
+      },
+      {
+        "unique_id": "e910545e",
+        "product_id": "MSO365MTA",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class D",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP In Process",
+        "transition_date": "2026-10-19T04:00:00.000Z",
+        "recorded_date": "2026-10-19T17:43:30.000Z"
+      },
+      {
+        "unique_id": "c1067648",
+        "product_id": "F1206061350",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Certified",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2026-10-19T04:00:00.000Z",
+        "recorded_date": "2026-10-19T19:23:24.000Z"
       }
     ]
   }
