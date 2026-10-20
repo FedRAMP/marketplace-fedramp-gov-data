@@ -23,7 +23,16 @@
       "repositoryDescription": "Elixium's FedRAMP certification package, control-status summary and Ongoing Certification Reports, with an API for scripted access.",
       "authenticationRequired": true,
       "accessRequestInstructions": "Sign in at https://elixium.ai/trust/ with a Google or Microsoft work account and submit the access request form. Requests from U.S. federal government accounts (.gov, .mil) are reviewed within one business day. FedRAMP and the independent assessor have standing access. Questions: security@indirecttek.com."
-    }
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://elixium.ai/fedramp/SCG-001-v1.0.pdf",
+      "repositoryDescription": "Elixium Secure Configuration Guide SCG-001 v1.0, with a machine-readable copy at https://elixium.ai/fedramp/scg-1.0.json.",
+      "authenticationRequired": false
+    },
+    "nextOngoingCertificationReportDate": "2026-10-22"
   },
   "contactInformation": [
     {

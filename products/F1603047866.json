@@ -16,7 +16,7 @@
       "PaaS",
       "SaaS"
     ],
-    "deploymentModel": "Government-Only Cloud",
+    "deploymentModel": "Government Community Cloud",
     "businessCategory": [
       "Finance",
       "Operations Management",
@@ -50,11 +50,12 @@
     "securityCategorization": "High (FedRAMP Certification Level Class D)"
   },
   "cpoMetadata": {
-    "version": "2026.08.26",
-    "lastUpdated": "2026-08-26T18:21:24.548Z",
-    "updateSource": "FedRAMP GRC Tool",
+    "version": "2026.10.16",
+    "lastUpdated": "2026-10-16T16:35:50.575Z",
+    "updateSource": "AWS FedRAMP GRC Tool (grc.complianceai.security.aws.dev)",
     "accountableOfficial": {
-      "contactTitle": "Head of US Government Assurance",
+      "contactName": "Chris Ruhl",
+      "contactTitle": "Director, AWS Compliance & Security Assurance",
       "contactEmail": "aws-compliance-fedramp@amazon.com"
     }
   },
@@ -79,6 +80,11 @@
       "serviceName": "Amazon API Gateway",
       "serviceDescription": "Amazon Application Programming Interface (API) Gateway is a fully managed service that enables creation of RESTful APIs and WebSocket APIs that enable real-time two-way communication applications. API Gateway supports containerized and serverless workloads, as well as web applications.",
       "dateAvailable": "2019-09-04"
+    },
+    {
+      "serviceName": "Amazon Application Recovery Controller",
+      "serviceDescription": "Amazon Application Recovery Controller (ARC) helps prepare for and complete recovery of applications running on AWS infrastructure. ARC provides multi-Availability Zone recovery through zonal shift and zonal autoshift, which temporarily move traffic for supported resources away from an impaired Availability Zone to healthy Availability Zones in the same AWS Region, and multi-Region recovery through routing control, which fails over DNS traffic between AWS Regions using highly reliable routing controls and customer-defined safety rules, and readiness check, which monitors application resources across Regions for recovery readiness.",
+      "dateAvailable": "2026-10-16"
     },
     {
       "serviceName": "Amazon Athena",
@@ -141,8 +147,8 @@
       "dateAvailable": "2021-05-17"
     },
     {
-      "serviceName": "Amazon Connect",
-      "serviceDescription": "Amazon Connect is an omnichannel cloud contact center that helps provide customer service across voice and chat for customers and agents. This includes one set of tools for skills-based routing, real-time and historical analytics, and intuitive management tools.",
+      "serviceName": "Amazon Connect Customer",
+      "serviceDescription": "Amazon Connect Customer utilized AI agents to reason, act, and drive interactions to resolution - with human agents ready to step in when needed. One intelligent system that learns from every conversation, making the next one better.",
       "dateAvailable": "2022-10-11"
     },
     {
@@ -231,11 +237,6 @@
       "dateAvailable": "2023-10-13"
     },
     {
-      "serviceName": "Amazon Inspector Classic",
-      "serviceDescription": "Amazon Inspector Classic tests the network accessibility of Amazon EC2 instances and the security state of applications that run on those instances. Amazon Inspector Classic assesses applications for exposure, vulnerabilities, and deviations from best practices. After performing an assessment, Amazon Inspector Classic produces a detailed list of security findings that is organized by level of severity.",
-      "dateAvailable": "2019-09-04"
-    },
-    {
       "serviceName": "Amazon Kendra",
       "serviceDescription": "Amazon Kendra is a fully managed, intelligent search service powered by machine learning (ML).",
       "dateAvailable": "2022-10-26"
@@ -312,7 +313,7 @@
     },
     {
       "serviceName": "Amazon Polly",
-      "serviceDescription": "Amazon Polly is a service that turns text into lifelike speech, the creation of applications that talk, and the build of entirely new categories of speech-enabled products. Polly&apos;s Text-to-Speech (TTS) service uses advanced deep learning technologies to synthesize natural sounding human speech.",
+      "serviceDescription": "Amazon Polly is a service that turns text into lifelike speech, the creation of applications that talk, and the build of entirely new categories of speech-enabled products. Polly's Text-to-Speech (TTS) service uses advanced deep learning technologies to synthesize natural sounding human speech.",
       "dateAvailable": "2019-09-04"
     },
     {
@@ -323,7 +324,7 @@
     {
       "serviceName": "Amazon RDS for Db2",
       "serviceDescription": "Amazon RDS manages complex database administrative tasks, such as provisioning, patching, backups, recovery, failure detection, and repair. With Amazon RDS for Db2, users can choose bring-your-own-license model to move on-premises Db2 databases to the cloud with existing IBM Db2 licenses.",
-      "dateAvailable": "2025-09-29"
+      "dateAvailable": "2025-08-06"
     },
     {
       "serviceName": "Amazon RDS for MariaDB",
@@ -616,11 +617,6 @@
       "dateAvailable": "2019-11-25"
     },
     {
-      "serviceName": "AWS IoT Events",
-      "serviceDescription": "AWS Internet of Things (IoT) Events is a fully managed service the detection of and response to events from IoT sensors and applications.",
-      "dateAvailable": "2023-06-12"
-    },
-    {
       "serviceName": "AWS IoT Greengrass",
       "serviceDescription": "AWS Internet of Things (IoT) Greengrass seamlessly extends AWS to edge devices so they can act locally on the data they generate, while still using the cloud for management, analytics, and durable storage. With AWS IoT Greengrass, connected devices can run AWS Lambda functions, Docker containers, or both, execute predictions based on machine learning models, keep device data in sync, and communicate with other devices securely even when not connected to the Internet.",
       "dateAvailable": "2019-12-23"
@@ -696,6 +692,11 @@
       "dateAvailable": "2022-03-11"
     },
     {
+      "serviceName": "AWS Resource Explorer",
+      "serviceDescription": "AWS Resource Explorer is a resource search and discovery service. With Resource Explorer, customers can explore their resources, such as Amazon Elastic Compute Cloud instances, Amazon Kinesis streams, or Amazon DynamoDB tables, using an internet search engine-like experience. Resource Explorer allows customers to easily search for their resources using resource metadata like names, tags, and IDs, and displays additional resource details from other AWS services, such as AWS Config and AWS Cloud Control. Customers can add resource metadata using tags, and collectively manage resources in an application. Resource Explorer works across AWS Regions in a customer's account to simplify cross-Region workloads.",
+      "dateAvailable": "2026-09-17"
+    },
+    {
       "serviceName": "AWS Resource Groups",
       "serviceDescription": "AWS Resource groups enables organization of AWS resources. Tasks that can be performed on a resource vary based on the AWS service used. 1) Resource Groups: In AWS, a resource is an entity that customers can work with. Examples include an Amazon EC2 instance, an AWS CloudFormation stack, or an Amazon S3 bucket. A resource group is a collection of AWS resources that are all in the same AWS region, and that match criteria provided in a query. 2) AWS Resource Groups and Permissions: Resource Groups permissions are at the account level. As long as users who are sharing the account have the correct IAM permissions, they can work with resource groups that have been created. 3) AWS Resource Groups Resources: In Resource Groups, the only available resource is a group. Groups have unique Amazon Resource Names (ARNs) associated with them.",
       "dateAvailable": "2021-12-08"
@@ -751,6 +752,11 @@
       "dateAvailable": "2021-12-08"
     },
     {
+      "serviceName": "AWS Transform",
+      "serviceDescription": "AWS Transform is a collaborative enterprise IT transformation workbench powered by expert agents that accelerates cloud migration, application modernization, and continuous tech debt reduction. It automates infrastructure migration for workloads across VMware, bare metal, and hybrid environments, modernizes applications including mainframe, Windows, and custom code transformations, and continuously analyzes and remediates tech debt across your entire portfolio, keeping your codebases current as AI accelerates the pace of change. Shared workspaces and natural language chat enable cross-functional teams to collaborate in real time and manage transformations from start to finish.",
+      "dateAvailable": "2026-09-29"
+    },
+    {
       "serviceName": "AWS Trusted Advisor",
       "serviceDescription": "AWS Trusted Advisor is an online tool that provides real time guidance to help provision resources following AWS best practices. Trusted Advisor checks help optimize AWS infrastructure, increase security and performance, reduce overall costs, and monitor service limits.",
       "dateAvailable": "2019-12-23"
@@ -764,11 +770,6 @@
       "serviceName": "AWS Web Application Firewall (WAF)",
       "serviceDescription": "AWS Web Application Firewall (WAF) enables user to create security rules that control bot traffic and block common attack patterns such as SQL injection or cross-site scripting (XSS). Additionally, AWS WAF enables users to monitor, block, or rate-limit bots; reduce security configuration steps; centralize and action visibility; and strengthen security posture.",
       "dateAvailable": "2023-02-22"
-    },
-    {
-      "serviceName": "AWS Web Application Firewall Classic (WAF Classic)",
-      "serviceDescription": "AWS Web Application Firewall Classic (WAF Classic) is a web application firewall that helps protect customer web applications or APIs against common web exploits that may affect availability, compromise security, or consume excessive resources.",
-      "dateAvailable": "2023-03-31"
     },
     {
       "serviceName": "AWS Well-Architected Tool",

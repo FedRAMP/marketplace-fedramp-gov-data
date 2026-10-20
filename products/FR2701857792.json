@@ -1,0 +1,115 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "TBD",
+    "providerName": "Liferay, Inc.",
+    "serviceName": "Liferay SaaS",
+    "serviceAcronym": "LR-SAAS",
+    "serviceDescription": "Liferay SaaS is a fully managed digital experience platform\n(DXP) for building and operating public websites,\nconstituent, customer and partner portals, employee\nintranets, and self-service applications on a single platform.\nLiferay hosts, monitors, patches, and upgrades the service;\ncustomers configure and extend it without managing\ninfrastructure or application servers.\nCore capabilities:\n- Content and site management: visual page builder with\nreusable fragments and templates, multi-site and\nmultilingual management, and editorial approval workflows\n- Documents and media: centralized storage, versioning,\nand permission-controlled access to documents and digital\nassets\n- Low-code applications: custom data models (Liferay\nObjects), forms, and configurable workflows for requests,\napplications, and approvals\n- Identity and access: single sign-on via SAML 2.0 and\nOpenID Connect, granular role-based permissions, and user\nsegmentation\n- Search and personalization: enterprise search and\naudience-targeted content\n- Integration: headless REST and GraphQL APIs, plus client\nextensions for custom front ends and integrations without\nmodifying the core platform\nLiferay SaaS runs on Google Cloud Platform (FedRAMP-\ncertified infrastructure) in U.S. regions and is operated under\nLiferay's SOC 2 Type II–audited security program.",
+    "certificationType": "20x",
+    "website": "https://www.liferay.com",
+    "logo": "https://www.liferay.com/documents/534024099/0/Liferay-Logo-FC-Digital.svg",
+    "certificationClass": "A",
+    "certificationPath": "Program"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Collaboration",
+      "Content Management System (CMS)",
+      "Customer Service",
+      "Development Tools",
+      "Marketing & Sales"
+    ],
+    "informationResources": {
+      "resources": [
+        {
+          "name": "Liferay SaaS",
+          "type": "Machine-based",
+          "descriptionAndRole": "Liferay SaaS is a fully managed digital experience platform\n(DXP) for building and operating public websites,\nconstituent, customer and partner portals, employee\nintranets, and self-service applications on a single platform.\nLiferay hosts, monitors, patches, and upgrades the service;\ncustomers configure and extend it without managing\ninfrastructure or application servers.\nCore capabilities:\n- Content and site management: visual page builder with\nreusable fragments and templates, multi-site and\nmultilingual management, and editorial approval workflows\n- Documents and media: centralized storage, versioning,\nand permission-controlled access to documents and digital\nassets\n- Low-code applications: custom data models (Liferay\nObjects), forms, and configurable workflows for requests,\napplications, and approvals\n- Identity and access: single sign-on via SAML 2.0 and\nOpenID Connect, granular role-based permissions, and user\nsegmentation\n- Search and personalization: enterprise search and\naudience-targeted content\n- Integration: headless REST and GraphQL APIs, plus client\nextensions for custom front ends and integrations without\nmodifying the core platform\nLiferay SaaS runs on Google Cloud Platform (FedRAMP-\ncertified infrastructure) in U.S. regions and is operated under\nLiferay's SOC 2 Type II–audited security program.",
+          "handlesFederalCustomerData": true
+        }
+      ]
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "FedRAMP Security Inbox",
+      "contactEmail": "security@liferay.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Zsolt Balogh",
+      "contactEmail": "zsolt.balogh@liferay.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactTypeAsEntered": "Sales/Partnerships",
+      "contactName": "Bernard Mc Closkey",
+      "contactEmail": "bernard.mccloskey@liferay.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Balazs Sinka",
+      "contactEmail": "balazs.sinka@liferay.com"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665",
+    "independentAssessmentUsed": true
+  },
+  "alternativeSecurityFramework": {
+    "frameworkUsed": "SOC 2 Type II",
+    "impactLevelScope": "Security (Common Criteria), Availability and Confidentiality\n— 2017 Trust Services Criteria (TSP section 100); the\nexamination is a Type 2 SOC 2 plus HIPAA and CSA STAR.\nSystem examined: Liferay Cloud Service Platforms System\nof Liferay, Inc., hosted on Google Cloud Platform\n(subservice organization, carve-out method). Examination\nperiod: 2025-06-01 to 2026-05-31.",
+    "dateCompleted": "2026-06-05",
+    "certifyingBody": "A-LIGN ASSURANCE",
+    "independentAssessmentIncluded": "Yes",
+    "documentation": [
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Complete report",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Bridge or gap letter",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Verified audit engagement documentation",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Estimated schedule for upcoming report",
+        "location": "Next examination period: 2026-06-01 to 2027-05-31 (A-\nLIGN ASSURANCE engagement confirmation letter dated\n2026-09-03). Report delivery date to be determined by the\nauditor."
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Supplemental compliance evidence",
+        "location": "Please see Trust Center"
+      }
+    ]
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Liferay SaaS",
+      "serviceDescription": "Liferay SaaS is a fully managed digital experience platform\n(DXP) for building and operating public websites,\nconstituent, customer and partner portals, employee\nintranets, and self-service applications on a single platform.\nLiferay hosts, monitors, patches, and upgrades the service;\ncustomers configure and extend it without managing\ninfrastructure or application servers.\nCore capabilities:\n- Content and site management: visual page builder with\nreusable fragments and templates, multi-site and\nmultilingual management, and editorial approval workflows\n- Documents and media: centralized storage, versioning,\nand permission-controlled access to documents and digital\nassets\n- Low-code applications: custom data models (Liferay\nObjects), forms, and configurable workflows for requests,\napplications, and approvals\n- Identity and access: single sign-on via SAML 2.0 and\nOpenID Connect, granular role-based permissions, and user\nsegmentation\n- Search and personalization: enterprise search and\naudience-targeted content\n- Integration: headless REST and GraphQL APIs, plus client\nextensions for custom front ends and integrations without\nmodifying the core platform\nLiferay SaaS runs on Google Cloud Platform (FedRAMP-\ncertified infrastructure) in U.S. regions and is operated under\nLiferay's SOC 2 Type II–audited security program.",
+      "dateAvailable": "2026-10-15"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Google Cloud Platform (GCP) is the underlying cloud\ninfrastructure used to host Liferay SaaS."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2701857792",
+  "id_matches_expected": false
+}

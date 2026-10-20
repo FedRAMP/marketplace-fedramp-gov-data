@@ -1,0 +1,93 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "Optimal Labs (NINELINE)",
+    "ueiNumber": "TYMSGKDF2K48",
+    "providerName": "Optimal Labs",
+    "serviceName": "NINELINE",
+    "serviceAcronym": "NINELINE",
+    "serviceDescription": "Software and AI supply-chain adjudication: a customer submits a repository or container image; NINELINE produces a CycloneDX SBOM, matches it against vulnerability data, and adjudicates each finding with a deterministic call-graph engine, returning a VEX document in which every statement carries its evidence.",
+    "certificationType": "20x",
+    "website": "https://gooptimal.io/nineline",
+    "logo": "https://gooptimal.io/optimal-logo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Artificial Intelligence (AI)",
+      "Development Tools"
+    ],
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Trust Center"
+        ],
+        "url": "https://gooptimal.io/trust/",
+        "repositoryDescription": "NINELINE trust center: public information, the status of every Key Security Indicator and progress toward certification for anyone; the FedRAMP Certification Package (CPO and SDR) for agency, FedRAMP and assessor users on request.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Email ryan@gooptimal.io from a government address with your agency and role; Optimal creates the account (MFA required) and records the grant."
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Primary",
+      "contactName": "Ryan Gutwein, Owner / Authorizing Official",
+      "contactEmail": "ryan@gooptimal.io"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Ryan Gutwein, ISSO",
+      "contactEmail": "ryan@gooptimal.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Ryan Gutwein",
+      "contactEmail": "ryan@gooptimal.io"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "Amazon Web Services / AWS GovCloud (US): ECS on Fargate, ECR, Elastic Load Balancing, WAF, Network Firewall, NAT Gateway, VPC, Route 53 (DNSSEC), Certificate Manager, RDS for PostgreSQL, EFS, S3, KMS, Secrets Manager, Cognito, IAM Identity Center, API Gateway, Lambda, EventBridge Scheduler, SQS, SNS, CloudTrail, CloudWatch, Config, Security Hub, GuardDuty, Inspector, IAM Access Analyzer, AWS Backup, Bedrock"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+        "useCase": "Google Workspace: Email for Optimal staff and for alert notification; not an identity provider to the boundary"
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "GitHub (not yet on the FedRAMP-certified offering FR1812058188)",
+        "provider": "GitHub, Inc.",
+        "useCase": "Source control; pull-request change control record; CI/CD pipeline; OIDC issuer for the AWS deploy role. Moving to GitHub Enterprise Cloud before certification."
+      },
+      {
+        "name": "OSV.dev (Open Source Vulnerabilities database)",
+        "provider": "Open Source Security Foundation project",
+        "useCase": "Vulnerability advisory data used to match SBOM components"
+      },
+      {
+        "name": "FIRST.org EPSS",
+        "provider": "FIRST.org",
+        "useCase": "Exploit Prediction Scoring System values used for prioritisation"
+      },
+      {
+        "name": "CISA Known Exploited Vulnerabilities catalog",
+        "provider": "CISA",
+        "useCase": "KEV catalog; drives the BOD 26-04 remediation due dates and overrides reachability arguments"
+      },
+      {
+        "name": "npm registry and PyPI",
+        "provider": "npm, Inc. / Python Software Foundation",
+        "useCase": "Dependency resolution for the analysis toolchain and for components under analysis"
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2701857797",
+  "id_matches_expected": false
+}

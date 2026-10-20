@@ -275,7 +275,7 @@
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
-        "useCase": "AWS US East/West — supporting services: Amazon SES (transactional email), Route 53 (DNS), S3 (CI build cache, CloudTrail audit logs, and a legacy database-backup bucket from the pre-2026 hosting platform), GuardDuty (threat detection), and Amazon Bedrock (Claude model inference entered in us-west-2 through United States inference profiles, except Claude Sonnet 5.5, whose global profile may process requests in any AWS commercial Region; for organizations not in CUI mode only; prompts may include customer document text)."
+        "useCase": "AWS US East/West — supporting services: Amazon SES (transactional email), Route 53 (DNS), S3 (CI build cache, CloudTrail audit logs, and a legacy database-backup bucket from the pre-2026 hosting platform), GuardDuty (threat detection), and Amazon Bedrock (Claude model inference entered in us-west-2 through global cross-Region inference profiles, which may process requests in any AWS commercial Region; for organizations not in CUI mode only; prompts may include customer document text)."
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
@@ -383,9 +383,9 @@
       "title": "CEO and Co-Founder",
       "email": "gordon@specset.com"
     },
-    "version": "2026.10.14",
-    "lastUpdated": "2026-10-14T17:27:00Z",
-    "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Version 2026.10.14, published with Security Decision Record v2026.09.14.11: the engineering assistants are described as acting with the operating founder's own access, under the rule that data of organizations in CUI mode must not reach them, and the exclusion of those organizations' rows from the read-only service account's database role is in place since 2026-10-10; the project-clone tool refuses organizations in CUI mode, and the Google Cloud entry corrects where it is built to copy to: the founder's local development environment, not the development project. Version 2026.10.08's plan to also record that rule in the production-access procedure is withdrawn, since the tool enforces it; the policy and procedure reference gives the republished Incident Response and Vulnerability Management Procedures, the Privileged access procedure (edition 2026-10-09) and Operations Security Policy 3.2. Earlier versions are in this repository's history."
+    "version": "2026.10.19",
+    "lastUpdated": "2026-10-19T22:42:00Z",
+    "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Version 2026.10.19, published with Security Decision Record v2026.09.14.12 and the information-resources inventory edition 2026-10-16: since 2026-10-16 Amazon Bedrock calls every model through a global cross-Region inference profile, which may process requests in any AWS commercial Region, and the AWS entry now says so; versions 2026.09.30 to 2026.10.14 said Bedrock used United States inference profiles for every model except Claude Sonnet 5.5, which held until 2026-10-16. Earlier versions are in this repository's history."
   },
   "documentation": [
     {
