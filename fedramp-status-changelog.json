@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-20T04:20:20.746Z",
-    "total_entries": 2234,
+    "export_timestamp": "2026-10-20T19:59:31.508Z",
+    "total_entries": 2237,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -24579,6 +24579,39 @@
         "to_status": "No Status Found (Delisted)",
         "transition_date": "2026-01-28T05:00:00.000Z",
         "recorded_date": "2026-10-19T22:14:23.000Z"
+      },
+      {
+        "unique_id": "cf67ce4d",
+        "product_id": "FR2524434194",
+        "cert_type": "Rev5",
+        "cert_path": "Program",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Ready",
+        "to_status": "Agency Authorization In Process",
+        "transition_date": "2026-09-22T04:00:00.000Z",
+        "recorded_date": "2026-10-20T16:47:59.000Z"
+      },
+      {
+        "unique_id": "04e92b2a",
+        "product_id": "FR2618046015",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class D",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-10-20T04:00:00.000Z",
+        "recorded_date": "2026-10-20T19:17:59.000Z"
+      },
+      {
+        "unique_id": "833b74fe",
+        "product_id": "FR2631654537",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Class A",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-10-20T04:00:00.000Z",
+        "recorded_date": "2026-10-20T16:19:56.000Z"
       }
     ]
   }
