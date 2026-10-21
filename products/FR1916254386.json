@@ -1,34 +1,81 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR1916254386",
-    "providerName": "Boomi",
+    "providerName": "Boomi, Inc.",
     "serviceName": "Boomi Enterprise Platform",
-    "serviceAcronym": "Boomi Enterprise Platform",
-    "serviceDescription": "Boomi Enterprise Platform is a cloud-native integration Platform-as-a-Service (iPaaS) technology that lets you connect everyone to everything. As a SaaS - based technology it is faster, easier to use, less costly, and more flexible than legacy integration tools and techniques. The Boomi iPaaS Enterprise Platform has been solving the needs of government customers with end-to-end capabilities by integrating applications, systems, and connecting people.\n\nBoomi delivers in three key areas for our customers:\n\n - Modernization and Digital Transformation: Boomi is a key part of any modern IT foundation and enables the transformation of operations, ensuring proper connectivity and smooth data exchange when applications and infrastructure are migrated and consolidated.\n\n - Accelerating Cloud Smart Adoption: Speeding up cloud adoption to boost operational efficiency and implement shared services to foster collaboration and increase engagement.\n\n - Improving Constituents' Experience: Bringing together workforce processes and workflows from across organizations for a streamlined approach to customer experience and serve employees, partners, contractors, and citizens better.\n\nCovered by our FedRAMP Authorization are the following cloud products:\n\n - Integration: Overcome IT complexity and break down data silos by integrating on-premises and cloud application, various data sources and devices with Boomi Integration. Create a fabric of connectivity to unlock productivity and thrive within your digital technology foundation. Boomi Integration accelerates time to value leveraging a drag and drop UI, data mapping tools, and a comprehensive library of connectors, coupled with support for various integration patterns enable you to build any integrations with exceptional speed.\n\n - Master Data Hub (MDH): Boomi Master Data Hub is a cloud-native master data management (MDM) solution that sits at the center of the various data silos within your organization - including your existing MDM solution, to provide you an easy to implement, scalable, flexible, and secure master data management hub as a service.\n\n - API Management (APIM): Boomi API Management supports the full lifecycle of APIs in a hybrid environment. Configure APIs and expose real-time integrations effortlessly. Centrally test and deploy APIs and enforce contracts and policies with an API gateway. Monitor the health of APIs with usage dashboards and engage API developers using the catalog and developer portal.\n\n - B2B/EDI Management: Effectively integrate with your vendors, suppliers, distributors, partners, and marketplaces to simplify processes and trade smarter. Built-in support for a wide variety of traditional and modern EDI standards including XML, X12, EDIFACT, HC7, RosettaNet, Tradacoms, as well as the ability to define custom standards. \n\n - Flow: The drag-and-drop interface simplifies how agencies connect data across systems, replace manual processes, and collaborate cross-functionally. Flow allows you to build applications at scale, easily connect your data and flexibly deploy apps anywhere they are needed.\n\n - Boomi Managed Cloud Services (MCS) leverages the Boomi Public Cloud solution and provides further isolation and ancillary services in support of a Boomi Private Cloud. The service has been engineered to address security at three distinct points: network, application, and data; this three-tiered security approach is designed to protect data from unauthorized parties, keep it safe in transit and at rest, and allow customer access as needed. Boomi manages all aspects of MCS runtime instances, sparing MCS customers any work involved in configuring, monitoring, and managing hardware and software for Boomi processes.\n\n- Boomi AI Agents: Boomi AI Agents are a comprehensive suite of AI-powered developer accelerators built by Boomi that take actions for and with developers to achieve specific goals. These agents have helped teams autonomously design integrations, enhance data privacy and monitoring, create documentation in record time, and more. Boomi AI Agents are ready-to-use upon purchase and seamlessly work to accelerate your development processes.\r\n\r\n- Boomi Event Streams: A fully managed, cloud-native event streaming service that enables real-time data movement across systems, applications, and services. Event Streams supports common enterprise messaging patterns like Publish-Subscribe (pub/sub) and queuing with guaranteed message delivery, ordering, and availability. When used in combination with Boomi Integration, it provides a highly scalable and reliable backbone for an “event driven integration” approach to building integrations.",
+    "serviceAcronym": "Boomi Platform",
+    "serviceDescription": "A unified, enterprise-grade cloud integration and automation platform designed to break down data silos, streamline IT complexity, and accelerate digital transformation across hybrid environments.",
     "certificationType": "Rev5",
-    "website": "https://boomi.com/",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Boomi%20Logo3.png"
+    "fedRampPackageId": "FR1916254386",
+    "website": "https://boomi.com",
+    "logo": "https://boomi.com/wp-content/uploads/2024/06/brand.svg"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Public Cloud"
+    "deploymentModel": "Hybrid Cloud",
+    "businessCategory": [
+      "Data Management",
+      "Artificial Intelligence (AI)",
+      "Governance, Risk, and Compliance (GRC)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://compliance.boomi.com",
+      "repositoryDescription": "Boomi Trust Center containing security, compliance, and regulatory documentation.",
+      "authenticationRequired": false
+    }
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "federal-security@boomi.com"
-    },
-    {
       "contactType": "Sales",
       "contactEmail": "federal.sales@boomi.com"
+    },
+    {
+      "contactType": "Security",
+      "contactEmail": "federal-security@boomi.com"
     }
   ],
-  "assessor": {
-    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
-    "assessorID": "138665"
-  },
+  "certifiedServices": [
+    {
+      "serviceName": "Integration",
+      "serviceDescription": "Overcome IT complexity and break down data silos by integrating on-premises and cloud application, various data sources and devices with Boomi Integration. Create a fabric of connectivity to unlock productivity and thrive within your digital technology foundation. Boomi Integration accelerates time to value leveraging a drag and drop UI, data mapping tools, and a comprehensive library of connectors, coupled with support for various integration patterns enable you to build any integrations with exceptional speed."
+    },
+    {
+      "serviceName": "Master Data Hub (MDH)",
+      "serviceDescription": "Cloud-native master data management (MDM) solution that sits at the center of the various data silos within your organization - including your existing MDM solution, to provide you an easy to implement, scalable, flexible, and secure master data management hub as a service"
+    },
+    {
+      "serviceName": "API Management (APIM)",
+      "serviceDescription": "Full lifecycle API management in hybrid environments to configure, expose, test, deploy, monitor, and enforce contracts/policies with an API gateway."
+    },
+    {
+      "serviceName": "B2B/EDI Management",
+      "serviceDescription": "Supports integration with vendors and partners using XML, X12, EDIFACT, HL7, RosettaNet, Tradacoms, and custom EDI standards."
+    },
+    {
+      "serviceName": "Flow",
+      "serviceDescription": "Drag-and-drop workflow and application builder to automate manual processes and enable cross-functional collaboration at scale."
+    },
+    {
+      "serviceName": "Boomi Event Streams",
+      "serviceDescription": "Fully managed, cloud-native event streaming supporting Pub/Sub and queuing with guaranteed message delivery and ordering."
+    },
+    {
+      "serviceName": "Boomi Managed Cloud Services (MCS)",
+      "serviceDescription": "Private cloud isolation featuring three-tiered security (network, application, data) at rest and in transit. Boomi manages all aspects of MCS runtime instances, sparing MCS customers any work involved in configuring, monitoring, and managing hardware and software for Boomi processes."
+    },
+    {
+      "serviceName": "Boomi Agentstudio",
+      "serviceDescription": "A full agent lifecycle management solution natively embedded within the Boomi platform that empowers organizations to securely build, govern, and orchestrate all AI agents at scale. By connecting agents directly to trusted enterprise data and leveraging a patented decoupled runtime architecture, Agentstudio eliminates hallucinations while keeping your workloads safely within your own network to ensure strict data sovereignty. Within Agentstudio, the Agent Control Tower provides centralized governance, audit-ready activity logs, and built-in observability across both Boomi-created and third-party agents to transform isolated tools into secure, compliant, and scalable intelligent workflows."
+    },
+    {
+      "serviceName": "Boomi Platform Agents",
+      "serviceDescription": "A comprehensive suite of AI-powered developer accelerators embedded in the platform to help fast-track building integrations and automations. These agents have helped teams autonomously design integrations, enhance data privacy and monitoring, create process documentation in record time, and more. Included in the Boomi Enterprise Platform at no additional cost, Boomi Platform Agents are ready-to-use upon purchase and seamlessly work to accelerate your development."
+    }
+  ],
   "ZD_frid_retro": "FR1916254386",
   "id_matches_expected": true
 }

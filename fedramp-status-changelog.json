@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-21T19:59:31.264Z",
-    "total_entries": 2284,
+    "export_timestamp": "2026-10-21T22:02:36.529Z",
+    "total_entries": 2285,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -21723,8 +21723,8 @@
       {
         "unique_id": "47ab36e6-3df9-44bf-acc7-68f98df82adc",
         "product_id": "FR2628943633",
-        "cert_type": "Rev5",
-        "cert_path": "Agency",
+        "cert_type": "20x",
+        "cert_path": "Program",
         "cert_class": "Unknown",
         "from_status": "",
         "to_status": "Initial Implementation",
@@ -25098,15 +25098,15 @@
         "recorded_date": "2026-10-20T21:07:59.000Z"
       },
       {
-        "unique_id": "4d32ba0b",
-        "product_id": "FR2628943633",
-        "cert_type": "20x",
-        "cert_path": "Program",
-        "cert_class": "Class C",
-        "from_status": "Initial Implementation",
-        "to_status": "Initial Implementation",
-        "transition_date": "2026-07-21T04:00:00.000Z",
-        "recorded_date": "2026-10-21T11:21:02.000Z"
+        "unique_id": "",
+        "product_id": "",
+        "cert_type": "",
+        "cert_path": "",
+        "cert_class": "",
+        "from_status": "",
+        "to_status": "",
+        "transition_date": "",
+        "recorded_date": ""
       },
       {
         "unique_id": "39f154b1",
@@ -25129,6 +25129,17 @@
         "to_status": "No Status Found (Delisted)",
         "transition_date": "2026-10-21T04:00:00.000Z",
         "recorded_date": "2026-10-21T16:26:37.000Z"
+      },
+      {
+        "unique_id": "0624f56e-56ee-4058-86a1-4ef53c28ba9e",
+        "product_id": "FR2702058502",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-21T21:15:00.000Z",
+        "recorded_date": "2026-10-21T21:15:27.995Z"
       }
     ]
   }

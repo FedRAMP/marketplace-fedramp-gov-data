@@ -1,0 +1,128 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "Ocient Inc. OAIQ",
+    "ueiNumber": "UMV2P2GRKND1",
+    "providerName": "Ocient Inc.",
+    "serviceName": "OcientAIQ",
+    "serviceAcronym": "OAIQ",
+    "serviceDescription": "OcientAIQ™ is Ocient's ecosystem for running AI on petabyte-scale data sets in production. It combines proven solutions, expert delivery, and a platform built for speed, trust, and cost control.\n\nAt its core is the **OcientAIQ Unified Data Platform**, a petabyte-scale data foundation that sits between an organization's AI ecosystem and its enterprise data. It unifies ingest, governance, query execution, and optimization, so AI agents, analysts, and applications get fast, governed access to massive, high-velocity data without moving, duplicating, or simplifying it first.\n\nOcientAIQ also includes:\n\n- **OcientAIQ Solutions:** outcome-focused solutions for data-intensive industries, including national security.\n- **OcientAIQ Solutions Delivery:** the people, processes, and AI-driven tools that tailor each solution to the customer's environment, from requirements through production support.\n\n**FedRAMP scope:** this certification covers OcientAIQ delivered through Ocient's cloud and managed cloud deployment model, in which Ocient operates and manages the service. Customer-operated on-premises, hybrid, sovereign, and air-gapped deployments are not part of this cloud service offering.",
+    "certificationType": "20x",
+    "website": "https://ocient.com",
+    "logo": "https://ocient.com/wp-content/uploads/2026/09/ocient-logo-26r1.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Artificial Intelligence (AI)",
+      "Data Management",
+      "Storage"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Policies",
+        "Assessment Reports"
+      ],
+      "url": "https://trust.ocient.com",
+      "repositoryDescription": "Ocient's FedRAMP-compatible trust center (hosted on Conveyor). It holds the OcientAIQ FedRAMP Certification Package (Certification Package Overview, Security Decision Record, Ongoing Certification Reports), Ocient's information security policies, the SOC 2 Type II report and other assessment materials.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Visit https://trust.ocient.com and select **Request Access**. Sign in with your agency email address. Federal agency users are approved for FedRAMP Certification Data without manual review. AI agents and tools can access the same materials programmatically through the trust center's documented API and MCP connector. For help, contact trust@ocient.com."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.ocient.com/ocient-security-guide",
+      "repositoryDescription": "The Ocient Security Guide: Ocient's public security baseline for hardening Ocient Systems. It covers SSO and MFA with OIDC identity providers, role-based access control, network security and firewall guidance with required ports and protocols, encryption at rest and in transit, operating system and application patching, key management, audit log management and SIEM forwarding, and privacy controls. For OcientCloud and Ocient Management Services, Ocient support personnel apply these settings according to the customer's requirements and service agreement.",
+      "authenticationRequired": false
+    },
+    "nextOngoingCertificationReportDate": "2027-02-28"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "OcientAIQ Unified Data Platform",
+      "serviceDescription": "The petabyte-scale data foundation of OcientAIQ, delivered as a cloud and managed cloud service that Ocient operates. It gives AI agents, applications, and analytical workflows fast, governed access to enterprise data, unifying ingest, governance, query execution, and optimization.\n\n**Not included in this certification:** customer-operated on-premises, hybrid, sovereign, and air-gapped deployments; OcientAIQ Solutions Delivery (professional services)."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "nonCertified": [
+      {
+        "name": "Okta Workforce Identity (commercial)",
+        "provider": "Okta, Inc.",
+        "website": "https://www.okta.com",
+        "useCase": "Identity provider for Ocient staff: SSO, phishing-resistant passwordless authentication, and automated role-based group management controlling administrative access to the offering. Does not store federal customer data."
+      },
+      {
+        "name": "Datadog (commercial)",
+        "provider": "Datadog, Inc.",
+        "website": "https://www.datadoghq.com",
+        "useCase": "Monitoring and alerting for change, audit, and system logs from the offering."
+      },
+      {
+        "name": "PagerDuty",
+        "provider": "PagerDuty, Inc.",
+        "website": "https://www.pagerduty.com",
+        "useCase": "On-call alerting and escalation for operational and security alerts."
+      },
+      {
+        "name": "Teleport",
+        "provider": "Gravitational, Inc. (Teleport)",
+        "website": "https://goteleport.com",
+        "useCase": "Access proxy for administrative access to production systems, with Okta SSO."
+      },
+      {
+        "name": "GitHub",
+        "provider": "GitHub, Inc.",
+        "website": "https://github.com",
+        "useCase": "Source code hosting, pull request review, and change history for the offering's software and infrastructure-as-code. Does not store federal customer data."
+      },
+      {
+        "name": "Tenable Nessus",
+        "provider": "Tenable, Inc.",
+        "website": "https://www.tenable.com",
+        "useCase": "Daily vulnerability scanning of the offering's infrastructure."
+      },
+      {
+        "name": "Conveyor Trust Center",
+        "provider": "Conveyor, Inc.",
+        "website": "https://www.conveyor.com",
+        "useCase": "Hosts the Ocient Trust Center, used to share FedRAMP Certification Data with agencies and FedRAMP. Does not store federal customer data."
+      }
+    ]
+  },
+  "metadata": {
+    "accountableOfficial": {
+      "name": "Brenton Edwards",
+      "title": "Security Engineering Manager",
+      "email": "trust@ocient.com",
+      "phone": "773-300-5891"
+    },
+    "version": "1.0.0",
+    "lastUpdated": "2026-10-16T00:00:00Z",
+    "updateSource": "Ocient Information Security Team"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Primary",
+      "contactName": "Brenton Edwards, Security Engineering Manager",
+      "contactEmail": "trust@ocient.com",
+      "contactPhone": "773-300-5891"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Brenton Edwards",
+      "contactEmail": "trust@ocient.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Ocient Government Sales",
+      "contactEmail": "governmentsales@ocient.com"
+    }
+  ],
+  "ZD_frid_retro": "FR2702058502",
+  "id_matches_expected": false
+}

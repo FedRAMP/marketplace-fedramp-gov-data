@@ -1,11 +1,11 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "Optimal Labs (NINELINE)",
+    "fedRampPackageId": "FR2701857797",
     "ueiNumber": "TYMSGKDF2K48",
     "providerName": "Optimal Labs",
-    "serviceName": "NINELINE",
-    "serviceAcronym": "NINELINE",
-    "serviceDescription": "Software and AI supply-chain adjudication: a customer submits a repository or container image; NINELINE produces a CycloneDX SBOM, matches it against vulnerability data, and adjudicates each finding with a deterministic call-graph engine, returning a VEX document in which every statement carries its evidence.",
+    "serviceName": "9line",
+    "serviceAcronym": "9line",
+    "serviceDescription": "Software and AI supply-chain adjudication: a customer submits a repository or container image; 9line produces a CycloneDX SBOM, matches it against vulnerability data, and adjudicates each finding with a deterministic call-graph engine, returning a VEX document in which every statement carries its evidence.",
     "certificationType": "20x",
     "website": "https://gooptimal.io/nineline",
     "logo": "https://gooptimal.io/optimal-logo.svg"
@@ -26,7 +26,7 @@
           "Trust Center"
         ],
         "url": "https://gooptimal.io/trust/",
-        "repositoryDescription": "NINELINE trust center: public information, the status of every Key Security Indicator and progress toward certification for anyone; the FedRAMP Certification Package (CPO and SDR) for agency, FedRAMP and assessor users on request.",
+        "repositoryDescription": "9line trust center: public information, the status of every Key Security Indicator and progress toward certification for anyone; the FedRAMP Certification Package (CPO and SDR) for agency, FedRAMP and assessor users on request.",
         "authenticationRequired": true,
         "accessRequestInstructions": "Email ryan@gooptimal.io from a government address with your agency and role; Optimal creates the account (MFA required) and records the grant."
       }
@@ -89,5 +89,5 @@
     ]
   },
   "ZD_frid_retro": "FR2701857797",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }
