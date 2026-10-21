@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-20T22:30:03.814Z",
-    "total_entries": 2276,
+    "export_timestamp": "2026-10-21T00:13:45.049Z",
+    "total_entries": 2282,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -15036,9 +15036,9 @@
         "unique_id": "1579c419-4f62-4aee-bc5a-121b6e4859ce",
         "product_id": "FR2108731521",
         "cert_type": "Rev5",
-        "cert_path": "JAB",
+        "cert_path": "Program",
         "cert_class": "Class D",
-        "from_status": "",
+        "from_status": "No Status Found (Delisted)",
         "to_status": "FedRAMP Ready",
         "transition_date": "2025-03-24T04:00:00.000Z",
         "recorded_date": "2026-04-22T18:26:43.637Z"
@@ -21077,21 +21077,21 @@
         "cert_type": "Rev5",
         "cert_path": "Agency",
         "cert_class": "Class C",
-        "from_status": "No Status Found",
+        "from_status": "FedRAMP Certified",
         "to_status": "No Status Found (Delisted)",
         "transition_date": "2026-05-07T04:00:00.000Z",
         "recorded_date": "2026-05-07T04:00:00.000Z"
       },
       {
-        "unique_id": "cc4ba364-12a7-4f5f-8264-c4f2aa8f88a1",
-        "product_id": "FR2621733550",
-        "cert_type": "Rev5",
-        "cert_path": "Agency",
-        "cert_class": "Class C",
+        "unique_id": "",
+        "product_id": "",
+        "cert_type": "",
+        "cert_path": "",
+        "cert_class": "",
         "from_status": "",
-        "to_status": "No Status Found",
-        "transition_date": "2026-05-13T22:12:54.450Z",
-        "recorded_date": "2026-05-13T22:12:54.450Z"
+        "to_status": "",
+        "transition_date": "",
+        "recorded_date": ""
       },
       {
         "unique_id": "4b80f8b1-02f5-4899-a9c6-9c3ed4aa2bc8",
@@ -21141,9 +21141,9 @@
         "unique_id": "02b026b0-b8a8-4413-82ba-0bf217a9882b",
         "product_id": "FR2108731521",
         "cert_type": "Rev5",
-        "cert_path": "JAB",
+        "cert_path": "Program",
         "cert_class": "Class D",
-        "from_status": "No Status Found",
+        "from_status": "No Status Found (Delisted)",
         "to_status": "FedRAMP Ready",
         "transition_date": "2026-05-12T04:00:00.000Z",
         "recorded_date": "2026-05-15T18:06:35.400Z"
@@ -21198,9 +21198,9 @@
         "cert_type": "Rev5",
         "cert_path": "Agency",
         "cert_class": "Class C",
-        "from_status": "No Status Found",
+        "from_status": "FedRAMP Ready",
         "to_status": "No Status Found (Delisted)",
-        "transition_date": "2026-05-15T04:00:00.000Z",
+        "transition_date": "2026-04-25T04:00:00.000Z",
         "recorded_date": "2026-05-15T04:00:00.000Z"
       },
       {
@@ -21297,7 +21297,7 @@
         "cert_type": "Rev5",
         "cert_path": "Agency",
         "cert_class": "Class C",
-        "from_status": "FedRAMP Ready",
+        "from_status": "",
         "to_status": "FedRAMP Ready",
         "transition_date": "2026-05-13T04:00:00.000Z",
         "recorded_date": "2026-05-20T04:00:00.000Z"
@@ -25041,6 +25041,72 @@
         "to_status": "No Status Found (Delisted)",
         "transition_date": "2026-03-20T04:00:00.000Z",
         "recorded_date": "2026-10-20T19:23:56.000Z"
+      },
+      {
+        "unique_id": "dad49cae",
+        "product_id": "F1301091856",
+        "cert_type": "Rev5",
+        "cert_path": "JAB",
+        "cert_class": "Class C",
+        "from_status": "JAB Review",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2015-02-19T05:00:00.000Z",
+        "recorded_date": "2026-10-20T20:47:35.000Z"
+      },
+      {
+        "unique_id": "13c92624",
+        "product_id": "FR1916163735",
+        "cert_type": "Rev5",
+        "cert_path": "JAB",
+        "cert_class": "Class C",
+        "from_status": "JAB Review",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2022-12-07T05:00:00.000Z",
+        "recorded_date": "2026-10-20T20:48:53.000Z"
+      },
+      {
+        "unique_id": "ca79b9f9",
+        "product_id": "FR2113748549",
+        "cert_type": "Rev5",
+        "cert_path": "JAB",
+        "cert_class": "Class C",
+        "from_status": "JAB Review",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2023-11-07T05:00:00.000Z",
+        "recorded_date": "2026-10-20T20:50:41.000Z"
+      },
+      {
+        "unique_id": "0ddc5002",
+        "product_id": "FR2108731521",
+        "cert_type": "Rev5",
+        "cert_path": "JAB",
+        "cert_class": "Class D",
+        "from_status": "",
+        "to_status": "FedRAMP Ready",
+        "transition_date": "2023-10-27T04:00:00.000Z",
+        "recorded_date": "2023-10-27T21:03:09.000Z"
+      },
+      {
+        "unique_id": "6e5fd62b",
+        "product_id": "FR2108731521",
+        "cert_type": "Rev5",
+        "cert_path": "JAB",
+        "cert_class": "Class D",
+        "from_status": "FedRAMP Ready",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2024-10-26T04:00:00.000Z",
+        "recorded_date": "2024-10-26T04:00:00.000Z"
+      },
+      {
+        "unique_id": "54f6d0eb",
+        "product_id": "FR2108731521",
+        "cert_type": "Rev5",
+        "cert_path": "Program",
+        "cert_class": "Class D",
+        "from_status": "FedRAMP Ready",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2026-03-24T04:00:00.000Z",
+        "recorded_date": "2026-10-20T21:07:59.000Z"
       }
     ]
   }
