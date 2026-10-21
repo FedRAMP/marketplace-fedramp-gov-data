@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-20T04:20:18.132Z",
-    "total_entries": 6040,
+    "export_timestamp": "2026-10-21T04:03:57.891Z",
+    "total_entries": 6041,
     "description": "FedRAMP data ATOs export from GSA system"
   },
   "data": {
@@ -72484,6 +72484,18 @@
         "ato_date": "2026-10-09T04:00:00.000Z",
         "exp_date": "",
         "log_date": "2026-10-19T04:00:00.000Z",
+        "log_reason": ""
+      },
+      {
+        "uuid": "d52f820d",
+        "product_id": "FR2410866384",
+        "agency_id": "22-036",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-10-02T04:00:00.000Z",
+        "exp_date": "2026-04-02T04:00:00.000Z",
+        "log_date": "2026-10-20T04:00:00.000Z",
         "log_reason": ""
       }
     ]

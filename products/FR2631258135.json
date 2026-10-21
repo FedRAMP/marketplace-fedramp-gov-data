@@ -279,7 +279,7 @@
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
-        "useCase": "Azure Commercial Cloud — Azure OpenAI (GPT model inference for organizations not in CUI mode; prompts may include customer document text) and Microsoft Entra ID application registrations for customer 'Sign in with Microsoft' single sign-on. No customer data is stored on Azure."
+        "useCase": "Azure Commercial Cloud — Azure OpenAI (GPT model inference for organizations not in CUI mode; prompts may include customer document text), Microsoft Entra ID application registrations for customer 'Sign in with Microsoft' single sign-on, and a Windows evaluation lab in the same subscription, whose runbook allows public or synthetic files only (not technically enforced)."
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
@@ -383,9 +383,9 @@
       "title": "CEO and Co-Founder",
       "email": "gordon@specset.com"
     },
-    "version": "2026.10.19",
-    "lastUpdated": "2026-10-19T22:42:00Z",
-    "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Version 2026.10.19, published with Security Decision Record v2026.09.14.12 and the information-resources inventory edition 2026-10-16: since 2026-10-16 Amazon Bedrock calls every model through a global cross-Region inference profile, which may process requests in any AWS commercial Region, and the AWS entry now says so; versions 2026.09.30 to 2026.10.14 said Bedrock used United States inference profiles for every model except Claude Sonnet 5.5, which held until 2026-10-16. Earlier versions are in this repository's history."
+    "version": "2026.10.20",
+    "lastUpdated": "2026-10-20T17:02:00Z",
+    "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Version 2026.10.20, published with Security Decision Record v2026.09.14.13 and the information-resources inventory edition 2026-10-19: the Azure entry names the Windows evaluation lab deployed in the commercial Azure subscription on 2026-10-16, whose runbook allows public or synthetic files only (not technically enforced), and no longer says, as earlier versions did, that no customer data is stored on Azure, which the lab's deployment left unsupported. The policy and procedure reference is regenerated: the Vulnerability Management Procedure and the recovery plan at edition 2026-10-20, and the significant change notification and representative-sample procedures at edition 2026-10-16. Earlier versions are in this repository's history."
   },
   "documentation": [
     {
@@ -516,9 +516,9 @@
       "type": "Procedure",
       "file": "vulnerability-management.pdf",
       "summary": "Persistent vulnerability detection, PAIN-based evaluation, response timeframes, exceptions and risk acceptance, and the monthly vulnerability activity report.",
-      "wordCount": 4385,
-      "currentVersion": "2026-10-14",
-      "lastUpdated": "2026-10-14",
+      "wordCount": 4775,
+      "currentVersion": "2026-10-20",
+      "lastUpdated": "2026-10-20",
       "relatedFedRampPractices": [
         "VDR (all rules)",
         "VER (all rules)"
@@ -530,9 +530,9 @@
       "type": "Plan",
       "file": "12-recovery-and-backup-configuration.pdf",
       "summary": "Service recovery objectives, backup configuration by datastore, recovery procedures and the recovery testing cadence.",
-      "wordCount": 1157,
-      "currentVersion": "2026-09-13",
-      "lastUpdated": "2026-09-13",
+      "wordCount": 1340,
+      "currentVersion": "2026-10-20",
+      "lastUpdated": "2026-10-20",
       "relatedFedRampPractices": [
         "KSI-RPL-ARP",
         "KSI-RPL-RRO",
@@ -595,9 +595,9 @@
       "type": "Procedure",
       "file": "significant-change-notification.md",
       "summary": "How each production change is evaluated for significance, confirmed by an operator, recorded and, when significant, notified.",
-      "wordCount": 3132,
-      "currentVersion": "edition 2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "wordCount": 3151,
+      "currentVersion": "edition 2026-10-16",
+      "lastUpdated": "2026-10-16",
       "relatedFedRampPractices": [
         "SCN (all rules)",
         "KSI-CMT-LMC"
@@ -609,9 +609,9 @@
       "type": "Procedure",
       "file": "use-of-representative-samples.md",
       "summary": "Every place where Specset's own verification and validation looks at a sample instead of a whole population, and why the sample stands for the rest.",
-      "wordCount": 476,
-      "currentVersion": "edition 2026-10-05",
-      "lastUpdated": "2026-10-05",
+      "wordCount": 489,
+      "currentVersion": "edition 2026-10-16",
+      "lastUpdated": "2026-10-16",
       "relatedFedRampPractices": [
         "IVV-CSO-USR",
         "IVV-CSO-DUS"

@@ -6,7 +6,7 @@
     "providerName": "86Borders LLC",
     "serviceName": "86Borders ConnectAllCare",
     "serviceAcronym": "86B-CAC",
-    "serviceDescription": "86Borders is the trusted partner for health plans seeking measurable outcomes and quality improvement through human-first member engagement. By pairing local Care Coordinators with our ConnectAllCare (CAC) platform, we help payers and other risk-bearing entities reach hard-to-engage members, overcome social and behavioral barriers, and translate genuine connection into improved outcomes, higher quality scores, and healthier communities. 86Borders ConnectAllCare is a cloud-based healthcare coordination platform managing patient engagement and social care, deployed on AWS Commercial infrastructure.\n\n### Certification Package Metadata [CPO-CSO-MTD]\n- **Accountable Official:** Dan McDonald, Chief Executive Officer (CEO) (dmcdonald@86borders.com)\n- **Version:** 1.0.2\n- **Date and Time of Last Update:** 2026-10-06T10:27:00Z\n- **Source of Update:** Manual",
+    "serviceDescription": "86Borders is the trusted partner for health plans seeking measurable outcomes and quality improvement through human-first member engagement. By pairing local Care Coordinators with our ConnectAllCare (CAC) platform, we help payers and other risk-bearing entities reach hard-to-engage members, overcome social and behavioral barriers, and translate genuine connection into improved outcomes, higher quality scores, and healthier communities. 86Borders ConnectAllCare is a cloud-based healthcare coordination platform managing patient engagement and social care, deployed on AWS Commercial infrastructure.\n\n### Certification Package Metadata [CPO-CSO-MTD]\n- **Accountable Official:** Dan McDonald, Chief Executive Officer (CEO) (dmcdonald@86borders.com)\n- **Version:** 1.0.3\n- **Date and Time of Last Update:** 2026-10-20T13:50:00.000Z\n- **Source of Update:** Manual",
     "certificationType": "20x",
     "website": "https://www.86borders.com",
     "logo": "https://www.86borders.com/wp-content/uploads/2026/07/86Borders-Logo-scaled-2.png"
@@ -23,18 +23,19 @@
       "repositoryType": [
         "Trust Center"
       ],
-      "url": "https://trust.paramify.com/86borders/connectallcare/deliverables",
-      "repositoryDescription": "Central Trust Center containing security posture data, continuous monitoring artifacts, and system architecture/information flow diagrams per [MAS-CSO-FLO] (Dataflow Diagram & Network Diagram).",
+      "url": "https://trust.paramify.com/86borders",
+      "repositoryDescription": "Central Trust Center containing security posture data, continuous monitoring artifacts, and system architecture/information flow diagrams per [MAS-CSO-FLO] (Dataflow Diagram and Network Diagram).",
       "authenticationRequired": true,
-      "accessRequestInstructions": "Select the 'Request Access' button on desired document to request access to a specific document. To gain access to all trust center documents, select the blue 'Request Access' button."
+      "accessRequestInstructions": "To gain access to all trust center documents, select the blue 'Request Access' button and follow the prompts. To request access to specific documents, select the 'Request Access' button on desired document and follow the prompts."
     },
     "secureConfigurationGuidance": {
       "repositoryType": [
         "Trust Center / Secure Configuration Guide"
       ],
       "url": "https://trust.paramify.com/86borders/connectallcare/deliverables",
-      "repositoryDescription": "86Borders Secure Configuration & Governance Guide. Select Download to access and view.",
-      "authenticationRequired": false
+      "repositoryDescription": "86Borders Secure Configuration & Governance Guide.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Access to the 86Borders Secure Configuration & Governance Guide is unrestricted, click on the 'Download' button to view."
     },
     "additionalRepositories": [
       {
@@ -49,12 +50,12 @@
       },
       {
         "repositoryType": [
-          "Assessment Reports, Security Decision Record (SDR)"
+          "Assessment Reports"
         ],
-        "url": "https://trust.paramify.com/86borders/connectallcare/deliverables",
-        "repositoryDescription": "FedRAMP Independent Assessment Results per [IVV-CSO-ICP] and [CPO-CSO-OSA]. Status: FedRAMP 20x Class C Assessment completed 2026-10-05. Results were uploaded to the 86Borders Trust Center immediately upon completion per [CPO-CSX-CPM] (bi-weekly maintenance rule).",
+        "url": "https://trust.paramify.com/86borders/connectallcare",
+        "repositoryDescription": "FedRAMP Independent Assessment Results per [IVV-CSO-ICP] and [CPO-CSO-OSA]. Status: FedRAMP 20x Class C Assessment currently in progress. Results will be uploaded immediately upon completion per [CPO-CSX-CPM] (bi-weekly maintenance rule).",
         "authenticationRequired": true,
-        "accessRequestInstructions": "Access restricted to Authorizing Officials (AOs) and FedRAMP PMO reviewers. Request Access by selecting the 'Request Access' button attached to the report(s)."
+        "accessRequestInstructions": "Access is restricted to Authorizing Officials (AOs) and FedRAMP PMO reviewers. If you are an AO or a FedRAMP PMO reviewer, select the 'Request Access' button on desired assessment report and follow the prompts."
       }
     ],
     "nextOngoingCertificationReportDate": "2027-01-15"
@@ -87,7 +88,7 @@
       "dateAvailable": "2026-08-26"
     },
     {
-      "serviceName": "A-LIGN (A-SCEND)",
+      "serviceName": "A-LIGN A-SCEND",
       "serviceDescription": "Cybersecurity compliance automation and audit portal; configured for evidence collection and continuous monitoring. (FIPS 199 Category: Moderate)",
       "dateAvailable": "2026-08-26"
     },
@@ -336,7 +337,7 @@
         "name": "Terraform",
         "provider": "HashiCorp, Inc.",
         "website": "https://www.terraform.io",
-        "useCase": "General Usage & Configuration: Infrastructure-as-Code (IaC) tool (CLI/Cloud) configured to manage cloud resource provisioning, utilizing remote state locking and encrypted backend storage.\nJustification for Use: Enables repeatable, version-controlled, and audited infrastructure deployments, reducing human configuration error.\nMitigation Measures: Encrypt state files at rest using KMS AES-256, restrict state file access strictly to CI/CD service accounts, scan code for secrets/misconfigurations prior to commit, and require peer code reviews.\nCompensating Controls: Separation of duties preventing developers from directly applying infrastructure changes; all executions must run through isolated, audited CI/CD pipelines."
+        "useCase": "General Usage & Configuration: Infrastructure-as-Code (IaC) tool configured to manage cloud resource provisioning, utilizing remote state locking and encrypted backend storage.\nJustification for Use: Enables repeatable, version-controlled, and audited infrastructure deployments, reducing human configuration error.\nMitigation Measures: Encrypt state files at rest using KMS AES-256, restrict state file access strictly to CI/CD service accounts, scan code for secrets/misconfigurations prior to commit, and require peer code reviews.\nCompensating Controls: Separation of duties preventing developers from directly applying infrastructure changes; all executions must run through isolated, audited CI/CD pipelines."
       },
       {
         "name": "Twilio",
