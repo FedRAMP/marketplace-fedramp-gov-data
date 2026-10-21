@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-21T18:04:05.538Z",
-    "total_entries": 2283,
+    "export_timestamp": "2026-10-21T19:59:31.264Z",
+    "total_entries": 2284,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -25118,6 +25118,17 @@
         "to_status": "FedRAMP Certified",
         "transition_date": "2026-10-21T04:00:00.000Z",
         "recorded_date": "2026-10-21T16:12:08.000Z"
+      },
+      {
+        "unique_id": "93dd2928",
+        "product_id": "FR2535435454",
+        "cert_type": "20x Pilot",
+        "cert_path": "Program",
+        "cert_class": "Class B",
+        "from_status": "FedRAMP Certified",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2026-10-21T04:00:00.000Z",
+        "recorded_date": "2026-10-21T16:26:37.000Z"
       }
     ]
   }
