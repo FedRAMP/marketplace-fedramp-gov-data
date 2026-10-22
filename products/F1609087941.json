@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1609087941",
+    "providerName": "CFI Group",
+    "serviceName": "Customer Feedback Management System (CFMS)",
+    "serviceAcronym": "Customer Feedback Management System (CFMS)",
+    "serviceDescription": "The CFMS solution provides the ability to collect survey data from citizens and/or federal employees. Survey programs analyze and statistically model the data using the patented methodology of the American Customer Satisfaction Index (ACSI) and then share the results back to our clients via a secure web portal. In addition, CFI Group provides in depth reports and presentations to further analyze and provide recommendations based on the information collected. CFMS is hosted on Amazon.",
+    "certificationType": "Rev5",
+    "website": "https://cfigroup.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/CFI%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "wbrant@cfigroup.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Information Technology Company, LLC",
+    "assessorID": "137644"
+  }
+}

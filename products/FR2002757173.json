@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2002757173",
+    "providerName": "Government Retirement & Benefits, Inc.",
+    "serviceName": "GRB Platform",
+    "serviceAcronym": "GRB Platform",
+    "serviceDescription": "The GRB Platform is a complete Software-as-a-Service (SaaS) cloud-based Federal Retirement and Benefits Administration solution that meets the goals and objectives of the HR Line of Business (HRLoB). Offered on a subscription basis for unlimited use and developed specifically for the Federal sector, the GRB Platform combines tools and capabilities for human resource specialists, managers, and employees into a common system. The GRB Platform contains a flexible bi-directional interface used to communicate with an Agency's payroll/HRIS system, third party benefits providers, and any outside parties as necessary.",
+    "certificationType": "Rev5",
+    "website": "https://www.grbinc.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/GRB%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@grbinc.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2102036897",
+    "providerName": "Nuance",
+    "serviceName": "Nuance Dragon",
+    "serviceAcronym": "Nuance Dragon",
+    "serviceDescription": "The Nuance Dragon Cloud portfolio of solutions (NU-DRG) includes Cloud based speech recognition software that provides a consistent and personalized documentation experience across solutions, platforms, and devices regardless of physical location. It allows Government agency users, including clinicians and law enforcement professionals, to use their voice to securely capture required narrative text more naturally and efficiently - anywhere, anytime. Designed for speed, accuracy, and flexibility, the Dragon Cloud solutions supports FedRAMP and HIPAA requirements for patient, PII and PHI security and confidentiality by employing secure encryption methods throughout the workflow. Dragon runs on geographically dispersed; active active data centers hosted on the Project Hosts' Federal Private Cloud which is in turn deployed on Microsoft Azure Government.",
+    "certificationType": "Rev5",
+    "website": "https://www.nuance.com/index.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Nuance%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "NU-FedRAMP@microsoft.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Lunarline, Inc.",
+    "assessorID": "137004"
+  }
+}

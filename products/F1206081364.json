@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1206081364",
+    "providerName": "Google",
+    "serviceName": "Google Workspace",
+    "serviceAcronym": "Google Workspace",
+    "serviceDescription": "Google Workspace (formerly G Suite) is comprised of Google’s multi-tenant public and hybrid cloud instances and leverages Google Services.\n\n** The entire authorized security boundary of Google Services is documented, assessed, and managed against the FedRAMP High baseline of security and privacy controls. Services that are denoted with an asterisk (*) do not meet the SA-9(5) requirement. Please review the JAB P-ATO letter for more information.",
+    "certificationType": "Rev5",
+    "website": "https://workspace.google.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Google%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp+workspace@google.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

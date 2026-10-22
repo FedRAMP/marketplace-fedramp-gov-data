@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1816364586",
+    "providerName": "Ivanti",
+    "serviceName": "Ivanti Neurons for ITSM (Formerly Service Manager)",
+    "serviceAcronym": "Ivanti Neurons for ITSM (Formerly Service Manager)",
+    "serviceDescription": "Ivanti Service Manager, powered by HEAT, helps IT teams meet today's government and user demands for effective service delivery and support. The solution, with workflow automation, mobile and integrated Voice support, enables IT teams to quickly deploy and configure a world-class service management solution. Cloud deployment is available from FedRAMP compliant AWS data centers in North America.\n\nService Manager is designed to be the central point of contact between users, employees and the IT organization. It offers first and second line support to users, where incidents, problems or inaccuracies in IT systems are reported. The solution can also be an important source of management information for reporting and auditing purposes.\n\nIvanti Service Manager fully supports Incident, Problem, Change and Release Management, Self-Service, 3rd party integration and more, and is Pink Verified on 13 ITIL processes, to improve IT support performance and efficiency.",
+    "certificationType": "Rev5",
+    "website": "https://www.ivanti.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Ivanti%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMPAuditandCompliance@ivanti.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Deloitte & Touche LLP",
+    "assessorID": "138883"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2618651192",
+    "providerName": "ZeroEyes Inc",
+    "serviceName": "ZEF",
+    "serviceAcronym": "ZEF",
+    "serviceDescription": "The ZeroEyes Federal (ZEF) threat detection solution is specifically engineered for federal agencies requiring strict adherence to security and data residency mandates. Utilizing advanced computer vision, the system provides continuous, real-time monitoring to identify visible firearms, including rifles and pistols, proactively alerting personnel before a shot is fired. Hosted within a FedRAMP Moderate Authorized environment",
+    "certificationType": "Rev5",
+    "website": "https://zeroeyes.com/",
+    "logo": "https://www.fedramp.gov/placeholder-128x128px.svg",
+    "ueiNumber": "GFSKJLKMCP47"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "paul@zeroeyes.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "dustinkisling@zeroeyes.com"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  }
+}

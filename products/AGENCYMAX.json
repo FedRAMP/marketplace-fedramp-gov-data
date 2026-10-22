@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "AGENCYMAX",
+    "providerName": "OMB",
+    "serviceName": "MAX.gov Shared Services",
+    "serviceAcronym": "MAX.gov Shared Services",
+    "serviceDescription": "MAX.gov Shared Services (https://MAX.gov) is a government-wide advanced collaboration, information sharing, data collection, publishing, and analytical capability for federal agencies and partners. MAX services include:\n- MAX Community - Collaboration, Content Management, and Knowledge\n- MAX Calendar - Scheduling, Calendar Sharing, and Meeting Coordination\n- MAX Shared Desktop - Online meetings with a Secure Virtual Desktop\n- MAX Collect - Basic and Advanced Data Collection, Publishing, and Workflows\n- MAX Survey - Basic and Advanced Data Collection\n- MAX Analytics - Business Intelligence with Data Cubes\n- MAX Authentication - Single Sign-On (SSO) and 2-Factor Authentication as a Service with HSPD-12 (CAC/PIV) integration \n\nMAX is built upon an integrated database that maintains the wide range of data necessary to meet multiple production and policy support demands. MAX is managed by the Budget Systems Branch (BSB), Budget Review Division (BRD), of the Office of Management and Budget (OMB), in conjunction with the Budget Formulation and Execution Line of Business (BFELoB) Program Management Office (PMO) at the Department of Education (ED).",
+    "certificationType": "Rev5",
+    "website": "https://portal.max.gov/portal/home",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/MAX%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "MAXSupport@max.gov"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Sera Brynn, LLC",
+    "assessorID": "140570"
+  }
+}

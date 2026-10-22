@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2110836406",
+    "providerName": "Trustwave Government Solutions",
+    "serviceName": "Trustwave Fusion",
+    "serviceAcronym": "Trustwave Fusion",
+    "serviceDescription": "Trustwave Government Fusion is the platform used for Trustwave's Managed Detection and Response (MDR) and Co-Managed SIEM/SOC (3SIEM) services designed for Federal agencies and other customers who require US Only based personnel in a government community cloud environment.  Our MDR and 3SIEM solutions provide monitoring, threat detection and remediation capabilities for our customers providing 24x7 real time monitoring, triage, threat hunting and intel, and SOAR functionality that integrates with existing customer security technologies.  Our platform provides scalability and easy onboarding for customers looking for augmentation or managed SOC services at a much lower cost than traditional on-premise SOC solutions.",
+    "certificationType": "Rev5",
+    "website": "https://www.trustwave.com/capabilities/by-industry/government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Trustwave%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "tgs_fedramp@trustwavegovt.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

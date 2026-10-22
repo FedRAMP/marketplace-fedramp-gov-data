@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1823447014",
+    "providerName": "Slack Technologies",
+    "serviceName": "Slack",
+    "serviceAcronym": "Slack",
+    "serviceDescription": "Slack has transformed business communication. It's the leading channels-based messaging platform, used by millions to align their teams, unify their systems, and drive their businesses forward. Only Slack offers a secure, enterprise-grade environment that can scale with the largest companies in the world. It is a new layer of the business technology stack where people can work together more effectively, connect all their other software tools and services, and find the information they need to do their best work. Slack is where work happens. Slack can support customers who are seeking both an Li-SaaS (FedRAMP low impact level) and FedRAMP Moderate impact level authorization or ATO. The Enterprise Grid plan is for customers who require compliance with FedRAMP Moderate. Enterprise Select is no longer offered as of 8/1/2025. Slack's Pro and Business+ plans are for customers who require compliance with FedRAMP Li-SaaS or Low.",
+    "certificationType": "Rev5",
+    "website": "https://slack.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Slack%20Logo3.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@slack-corp.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

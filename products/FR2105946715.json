@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2105946715",
+    "providerName": "Netskope, Inc.",
+    "serviceName": "Netskope NewEdge Government.",
+    "serviceAcronym": "Netskope NewEdge Government.",
+    "serviceDescription": "Netskope NewEdge Government (NNG) is a FedRAMP High-authorized Security Service Edge (SSE) platform, specifically engineered to secure the modern federal mission. Built upon Netskope NewEdge—the industry's largest private security cloud—NNG provides the high-capacity, low-latency infrastructure required for agencies to adopt a true Zero Trust architecture. By serving as a unified, risk-based Policy Enforcement Point (PEP), the platform streamlines the transition away from legacy VPNs and fragmented security stacks, directly supporting the mandates of Executive Order 14028, OMB M-21-31, OMB M-22-09, and the goals of the 2026 Presidential Cyber Strategy for America.\r\n\r\n\r\nNetskope NewEdge Government enables agencies to safely harness the power of Generative AI (GenAI) without compromising data integrity. The platform provides deep, context-aware visibility and control over \"Shadow AI.\" This enables agencies to meet the Minimum Risk Management Practices of OMB M-24-10 and aligns with NIST AI 600-1 to prevent sensitive government data and Controlled Unclassified Information (CUI) from being misused or used to train public Large Language Models (LLMs). \r\n\r\n\r\nNNG empowers a \"Mission-First\" AI strategy through:\r\n\r\n\r\n- Continuous AI Visibility: Automated discovery of sanctioned and unsanctioned AI applications, agents, and models across the agency\r\n landscape.\r\n\r\n\r\n- Contextual Data Protection: Real-time, granular controls based on user role, data sensitivity, and AI application risk.\r\n\r\n\r\n- Zero Trust for AI: Integration of AI-driven threat protection and UEBA to detect anomalies in AI-human interactions and mitigate prompt\r\n injection or model evasion risks.\r\n\r\n\r\n- Netskope NewEdge Government provides a unified path to enabling advanced operational zero trust capabilities and controls by 2027 across the CISA Zero Trust Maturity Model and the DoW Zero Trust Strategy and Roadmap. Delivered as a sovereign, carrier-neutral SaaS platform, NNG addresses advanced DoW use cases and facilitates seamless compliance with NIST 800-207 through:\r\n\r\n\r\n- Intelligent SSE Capabilities: Convergence of Next-Gen SWG, CASB, and ZTNA into a single-pass architecture that maintains performance while enforcing strict adaptive risk-based security baselines.\r\n\r\n\r\n- Advanced Data Loss Prevention (DLP): High-fidelity AI/ML classifiers for text and image data, ensuring sensitive assets remain protected across web, cloud, and private environments.\r\n\r\n\r\n- Adaptive User Coaching: Real-time, in-line guidance that upskills the federal workforce on secure AI and cloud behavior at the point of interaction extendable to all applications. \r\n\r\n\r\n- Open Security Ecosystem: Bi-directional risk and threat intelligence exchange via Open APIs, integrating GovCloud into the agency’s broader SOC and SIEM workflows\r\n\r\n\r\n- High-Performance Governance: Dedicated Egress IPs,  Performance monitoring and HVA (High Value Asset) risk reporting to ensure mission continuity and regulatory compliance",
+    "certificationType": "Rev5",
+    "website": "https://www.netskope.com/solutions/public-sector/govcloud",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Netskope%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@netskope.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

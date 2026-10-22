@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2430844572",
+    "providerName": "Oracle",
+    "serviceName": "Oracle Guided Learning (OGL)",
+    "serviceAcronym": "Oracle Guided Learning (OGL)",
+    "serviceDescription": "Oracle Guided Learning (OGL) is Oracle’s own best-in-class Digital Adoption Platform (DAP) helping customers adopt and adapt continually as their application, processes and policies change. Guided Learning enables learning, change and business process teams to digitize their learning and support assets, deliver these to users through in-application automation and provides data on application, module and user consumption to assist with business improvement and innovation. \n\nGuided Learning enables organizations to create learning materials using AI and automation features and display them in their application and webpage seamlessly without impacting the user experience. Guided Learning enables organizations to communicate change seamlessly with in-app messages, process guides, personalize guidance to their users depending on who they are or what they’ve done, enforce behaviors with validation and contextual smart tips and measure adoption through user analytics, surveys and feedback.\n\nCustomers who use Guided Learning experience a faster ROI, increased productivity and lower change management training and user support costs. Guided Learning can be integrated across any HTML/Web application, is hosted and secured on Oracle Cloud Infrastructure and is regularly updated with enhancements and new features every quarter. Customers who use Oracle Cloud Applications can benefit from a direct embedded experience minimizing setup, configuration and maintenance efforts.\n\nGuided Learning is available in the US Government Cloud (OC2 realm) and Federal Government Cloud (OC3 realms). A realm is a group of regions that share entities. The main difference between the realms is OC2 has FedRAMP High Joint Authorization Board Authorization whilst OC3 has DISA Impact Level 4/5 authorization. Customers in these two realms experience the identical system functionality from Oracle Guided Learning (OGL).",
+    "certificationType": "Rev5",
+    "website": "https://www.oracle.com/education/guided-learning",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Oracle%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "OGL_Fedramp_us_grp@oracle.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2035860874",
+    "providerName": "Global Telehealth Services, inc.",
+    "serviceName": "GTS VirtualHealth Platform (GTS-VP)",
+    "serviceAcronym": "GTS VirtualHealth Platform (GTS-VP)",
+    "serviceDescription": "The GTS-VP offers Customer Agencies a powerful, flexible and convenient solution to provide Remote Patient Monitoring (RPM), Real Time Telehealth visits, and Store and Forward Technology (labs, images, and clinical data) services. The GTS-VP connects healthcare providers, patients, and patient families to communicate healthcare information from remote patient monitoring tools and through video-teleconferencing. The GTS-VP integrates with RPM medical devices from most any manufacturer and can be readily configured to work across multiple disease types and chronic conditions. The GTS-VP is also designed to make use of existing agency workflows and business processes with the ability to expand to address conditions and incorporate devices and capabilities that have yet to be developed.",
+    "certificationType": "Rev5",
+    "website": "https://www.globaltelehealthservices.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/GTS%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@globaltelehealthservices.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "SecureIT",
+    "assessorID": "138819"
+  }
+}

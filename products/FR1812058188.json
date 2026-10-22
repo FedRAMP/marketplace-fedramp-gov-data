@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1812058188",
+    "providerName": "GitHub",
+    "serviceName": "GitHub Enterprise Cloud",
+    "serviceAcronym": "GitHub Enterprise Cloud",
+    "serviceDescription": "GitHub is a collaborative development platform inspired by the way you work. From open source (https://github.com/open-source) to business (https://github.com/business), you can plan, build, review, and ship software at work - all while tracking bugs and discussing ideas. You can securely develop your organization's software on GitHub, whether you work for a small startup or a large agency.",
+    "certificationType": "Rev5",
+    "website": "https://government.github.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/GitHub_Logo.png",
+    "ueiNumber": "WR2ZN519GFX4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@github.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

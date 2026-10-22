@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1206081363",
+    "providerName": "IBM",
+    "serviceName": "SmartCloud for Government",
+    "serviceAcronym": "SmartCloud for Government",
+    "serviceDescription": "IBM's SmartCloud for Government (SCG) is a secure multi-tenant Infrastructure as a Service (IaaS) cloud computing environment for U.S. Federal customers.\n\nSCG services include provisioning of compute, memory, network, OS, and storage resources to meet client production and development/test computing needs.\n\n\nSCG IaaS services can be bundled with enterprise class, fully managed, cloud hosting services, including:\n\nOS Provisioning and Administration\nEnterprise System Management\nSecurity Operation Center (SOC)\nStorage Management and Backup.\nIBM SCG required services\nStorage management\nFirewall and Network Administration (Boundary management services)\nService Desk\nAccess Management\nCloud Network\nIBM SCG rated services\nSCG Cloud-VM/CPU\nSCG Cloud-Memory\nSCG Cloud-Network\nSCG Load Balancer\nSOC-SOAR\nStandard Endpoint Protection Services\nSystem Vulnerability Scanning\nSecurity Governance and Compliance\n \n\nThese SCG IaaS capabilities can also be leveraged to support a broad range of IBM and 3rd party software offerings using a PaaS or SaaS delivery model.\n\nThe SCG solutions are delivered from IBM Federal Data Centers (FDC) that are expressly designed and managed to meet FISMA requirements.\n\nIBM SCG enables customers to choose cloud solutions and services that meet their workload requirements and helps Government agencies deliver business outcomes with faster time to value and a lower total cost of ownership",
+    "certificationType": "Rev5",
+    "website": "http://www-01.ibm.com/software/lotus/cloud/government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/IBM%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "ibm.scg.compliance@ibm.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

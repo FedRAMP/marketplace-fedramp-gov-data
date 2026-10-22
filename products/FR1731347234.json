@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1731347234",
+    "providerName": "Zimperium",
+    "serviceName": "Zimperium Mobile Endpoint Cyber Security",
+    "serviceAcronym": "Zimperium Mobile Endpoint Cyber Security",
+    "serviceDescription": "Zimperium Mobile Endpoint Cyber Security is a Cloud based application deployed on the AWS GovCloud infrastructure which, when combined with the Zimperium mobile application (zIPS), provides a comprehensive Mobile Threat Defense (MTD) solution. Zimperium's Amazon GovCloud based application provides security teams with visibility on the threats and vulnerabilities across all mobile devices in the organization to assess organization risk, identify security gaps and remediate. The zIPS on-device app incorporates machine learning techniques to detect anomalies to the mobile device's operating system's statistics, memory, CPU and other system parameters and accurately identify not only the specific type of malicious attack, but also the forensics associated with the who, what, where, when, and how of an attack occurrence.",
+    "certificationType": "Rev5",
+    "website": "https://www.zimperium.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Zimperium%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@zimperium.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

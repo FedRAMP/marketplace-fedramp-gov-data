@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1722462413",
+    "providerName": "Broadcom",
+    "serviceName": "General Support Systems (GSS)",
+    "serviceAcronym": "General Support Systems (GSS)",
+    "serviceDescription": "Broadcom General Support System (GSS) provides the foundational components that will support Broadcom cloud services. It is leveraged by multiple Broadcom SaaS services for common controls.",
+    "certificationType": "Rev5",
+    "website": "https://www.broadcom.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Broadcom%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-gss-contact@broadcom.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

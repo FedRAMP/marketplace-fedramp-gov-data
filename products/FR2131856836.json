@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2131856836",
+    "providerName": "Okta",
+    "serviceName": "Okta IDaaS Government High Cloud (GHC)",
+    "serviceAcronym": "Okta IDaaS Government High Cloud (GHC)",
+    "serviceDescription": "Okta for Government High service offering provides centralized identity and access management capabilities to customers who want to manage access across any application or device, whether they are on-premises in the customer’s office/data center or in the cloud. The Okta IDaaS platform is the primary application platform provided to customers. The IDaaS application provides several important features/capabilities, which are listed below.\n\n- Universal Directory: Okta Universal Directory provides a single view across all these groups with AD and LDAP directory integrations and out-of-the-box connections with HR systems, CSV files, and third-party IdPs.\nIntegration with Applications: Okta comes with pre-integrated applications that customers can select to allow their users to access them through the Okta Integration Network, either in their enterprise or in a cloud\n- Okta API Integration: Customers can also integrate their own applications with Okta API\n- Okta Sign-In Widget (SIW): SIW is the out of the box end user experience that our customers can deploy in an Okta hosted environment. SIW provides configurable user registration, sign in and recovery experience.\n- Okta Software Development Kit (SDKs): SDKs allow customers to build their own identity experience using Okta as a back end.\n- Okta Customer Organization Logging: Okta’s prebuilt monitoring, logging, and reporting tools make it easy to analyze security posture, user access events, lifecycle management transitions, security risks and other identity-related data.\n- Okta Admin Dashboard: Okta’s Admin Dashboard provides central administration and provisioning of users and the applications they can access.\n- Adaptive Multi-Factor Authentication (aMFA): Adaptive MFA provides an additional layer of security for access control, which gives Okta customers the ability to create contextual access policies that assess risk factors such as device, network, location, travel, IP, and other context at each step of the authentication process.\nSingle Sign-On (SSO): Okta SSO creates a seamless user experience by providing single sign-on to all the web and mobile applications users need to access.\n- Okta Verify: Okta Verify is Okta’s native desktop and mobile application that can be used for mobile client-based MFA authentication. Okta Verify supports the following authentication mechanisms against a customers’ organization: Time-based One-time Password (TOTP), Okta Push Challenge-Response, and Okta FastPass (signed once challenge)\n- Okta FastPass - NIST 800-63B AAL2/AAL3 authenticator",
+    "certificationType": "Rev5",
+    "website": "https://www.okta.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Okta%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@okta.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

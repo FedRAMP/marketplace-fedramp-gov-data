@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1304222071",
+    "providerName": "Proofpoint, Inc.",
+    "serviceName": "Proofpoint Email Archive",
+    "serviceAcronym": "Proofpoint Email Archive",
+    "serviceDescription": "The Federal Production Environment provides a complete message archiving solution that can protect an organization from legal liabilities and regulatory risks while improving email storage management and end-user productivity. Its web interface offers fully secure email archiving with robust search and discovery, supervision, and enforcement features. The solution securely stores electronic messages for a specified retention period, while keeping the messages fully searchable and retrievable in real-time or with a batch process. This allows archived messages to be easily viewed, retrieved to a user's email inbox or exported to an Outlook data file.\n\nThe Archiving Customer Premise Equipment (CPE) is software-based, a hardware-based version is also available, and is installed within the Microsoft Office 365 ITAR environment behind the firewall to provide the tight integration and security typically only afforded to internal systems. The CPE integrates with Microsoft Exchange to ensure reliable, native format message archiving. Its integration with Active Directory facilitates unified login and access control management. Since the CPE is the only holder of the encryption keys used with Proofpoint's DoubleBlind™ Encryption technology, any processing that involves encryption or decryption happens on the CPE.\n\nProofpoint's DoubleBlind™ Encryption technology guarantees the security of data, ensuring that no one outside the organization can access archived data. When a message reaches the CPE, it is encrypted before being sent outside the Microsoft Office 365 ITAR firewall over a secure connection to the Proofpoint Federal Production Environment. Messages are only decrypted when an authorized user on the customer network conducts a search from Outlook or from the CPE's web-based user interface. Data can never be viewed without access to both the archiving CPE within the Microsoft Office 365 ITAR environment and the Proofpoint Federal Production Environment.",
+    "certificationType": "Rev5",
+    "website": "http://www.proofpoint.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Proofpoint%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@proofpoint.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

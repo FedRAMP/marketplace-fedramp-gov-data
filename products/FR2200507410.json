@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2200507410",
+    "providerName": "Copado",
+    "serviceName": "Copado GovCloud",
+    "serviceAcronym": "Copado GovCloud",
+    "serviceDescription": "Copado GovCloud is a cloud DevOps platform designed to make Salesforce releases faster, more efficient, and scalable across hundreds of production and sandbox instances. Copado GovCloud integrates with all major Git solutions and ensures developers, administrators, and low-code Salesforce users can all commit changes to a central Git repository or seamlessly deploy from a QA environment to production. Copado is used by small organizations and large enterprises across a wide range of industries to accelerate time to market for Salesforce applications, enhance developer efficiency, increase security visibility, improve Salesforce testing capabilities and enable digital cloud transformations. The services in scope for Copado GovCloud are:\n\n- Deploying Salesforce metadata to production and sandbox instances, with Git integration for version control and branch management. \n- Change management including agile development processes, quality gates, and code scanning. \n- Continuous deployment and continuous integration, including visual pipeline configuration.\n- Compliance rules for Salesforce metadata, including rule creation, monitoring, and enforcement of policies across user stories, Git snapshots, and deployments. * Test data seeding across sandboxes ensuring accurate quality assurance prior to production deployments.",
+    "certificationType": "Rev5",
+    "website": "https://www.copado.com/industries/public-sector",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Copado%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@copado.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  }
+}

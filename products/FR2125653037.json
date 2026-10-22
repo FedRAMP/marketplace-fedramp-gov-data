@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2125653037",
+    "providerName": "Qlik Technologies Inc.",
+    "serviceName": "Qlik Cloud Government",
+    "serviceAcronym": "Qlik Cloud Government",
+    "serviceDescription": "Qlik Cloud Government is a SaaS platform purpose-built for delivering Qlik technology to U.S. public sector customers within a safe, FedRAMP-compliant cloud environment. Qlik empowers organizations with data and analytics technology that improves decision-making and solves their most challenging problems. Qlik Cloud Government simplifies data and analytics operations across an organization through a single platform that integrates data sources into an analytics environment where users of all levels can build analytics assets and collaborate with others to drive action.",
+    "certificationType": "Rev5",
+    "website": "https://www.qlik.com/us/solutions/industries/public-sector/us-public-sector",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Qlik%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@qlik.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

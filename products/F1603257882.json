@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1603257882",
+    "providerName": "Oracle",
+    "serviceName": "Fusion Cloud",
+    "serviceAcronym": "Fusion Cloud",
+    "serviceDescription": "Oracle Fusion Cloud is Oracle's Software as a Service (SaaS) suite of enterprise business applications comprised of Enterprise Resource Planning (ERP), Human Capital Management (HCM), Supply Chain Management (SCM), and CX Sales and Service (CRM). Customers can subscribe to some or all of the Fusion Applications which include: federal financials, procurement, project management, and risk management & compliance; human resources (HR), talent management, learning, recruiting, workforce management, time & labor, and payroll; supply chain planning, inventory management, manufacturing, maintenance, order management and product lifecycle management; CX sales, and CX B2B service. Oracle Fusion Cloud is a true SaaS offering, operated and maintained by Oracle within its secure Government Cloud facilities in the United States. Oracle Government Cloud is a community-cloud limited to federal, state and local agencies as well as select universities and federal contractors with a demonstrated need for FedRAMP authorization.\n\nOther cloud services can be leveraged to complement Oracle Fusion Applications including Oracle Cloud EPM (Oracle Enterprise Performance Management (EPM) - Moderate), Oracle Intelligent Advisor (Oracle Service Cloud), Oracle Digital Assistant, Oracle Integration Cloud and other PaaS (platform) services (Oracle Cloud Infrastructure-Government Cloud).",
+    "certificationType": "Rev5",
+    "website": "https://www.oracle.com/applications/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Oracle%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "saas_fedramp_us_grp@oracle.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

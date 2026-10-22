@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2031936863",
+    "providerName": "Armis Federal LLC",
+    "serviceName": "Armis FedRAMP Edition (AFE)",
+    "serviceAcronym": "Armis FedRAMP Edition (AFE)",
+    "serviceDescription": "Armis FedRAMP Edition (AFE) is an agentless, enterprise-class security platform built off of the Armis Centrix™ engine to help organizations discover and secure managed, unmanaged, and IoT devices, including medical devices and industrial control systems (ICS). Armis discovers every managed, unmanaged, and IoT device in any environment, analyzes device behavior to identify risks, vulnerabilities or attacks, and protects critical business information and systems. Armis easily integrates with existing security products. AFE passively monitors wired and wireless traffic in the environment to identify every device and to understand its behavior without disruption. AFE analyzes this data in the AFE Risk Engine which uses device profiles and characteristics from the AFE Device Knowledgebase to identify each device, assess its risks & vulnerabilities, detect threats, and recommend remediation actions.\n\nVisibility:\n\nAFE closes the Continuous Diagnostic and Mitigation Dashboard visibility gap with unmanaged and IoT devices. AFE discovers and classifies every managed, unmanaged, and IoT device in the environment including servers, laptops, smartphones, VoIP phones, smart TVs, IP cameras, printers, 5G, HVAC controls, medical devices, industrial controls, and more. AFE can even identify off-network devices using Wi-Fi, Bluetooth, and other protocols in any environment. The comprehensive device inventory that AFE generates includes critical information such as device manufacturer, model, serial number, location, username, operating system, installed applications, and connections made over time. In addition to discovering and classifying a device, AFE calculates its risk score based on factors such as vulnerabilities, known attack patterns, as well as the behaviors observed of each device in the environment. This risk score helps security teams understand their attack surface and meet compliance with regulatory frameworks that require identification and prioritization of vulnerabilities.\n\nInsights:\n\nThe AFE Risk Engine continuously monitors the behavior of every device in the environment for behavioral anomalies. Working with the AFE Device Knowledgebase, AFE compares the real-time behavior of each device with:\n●        Historical device behavior\n●        Behavior of similar devices in the Customer's environment\n●        Behavior of similar devices in other environments\n●        Common attack techniques\n●        Information from threat intelligence feeds\n\nActions:\n\nWith these types of critical device and behavioral insights, AFE is able to identify threats and attacks. When AFE detects a threat, it can alert security teams and trigger automated action to stop an attack. Through integrations with network infrastructure, as well as the Customer's existing security enforcement points like Cisco and Palo Alto Networks firewalls, and network access control (NAC) products such as Cisco ISE and Aruba ClearPass, AFE can restrict access or quarantine suspicious or malicious devices.\n\nEasy Integration:\n\nAFE requires no agents or additional hardware to deploy. AFE integrates with existing firewalls or NAC, security management systems such as SIEM, ticketing systems, and asset databases. These integrations allow AFE to leverage existing investments to achieve greater value and more automated response.\n\n\n\nVIPR Pro:\n\nArmis Centrix™ for VIPR Pro delivers a FedRAMP-authorized cyber exposure management solution that helps federal agencies bridge the gap between fragmented security data and actionable risk reduction. Built to solve extreme alert fatigue, VIPR Pro acts as a centralized aggregator that ingests, correlates, and de-duplicates static security findings; including traditional vulnerabilities, cloud misconfigurations, and application security flaws - from across an agency’s existing security stack. \n\nRather than hunting for active threats, the platform applies machine learning to consolidate disparate scan data, reducing finding volumes by up to 50-to-1. VIPR Pro contextualizes these findings by overlaying external threat intelligence, exploit likelihood, and agency-defined asset criticality to automatically prioritize the highest-impact exposures. Utilizing predictive AI to instantly determine asset ownership and initiate automated bulk-ticketing, the solution shortens manual assessment times by 80% and accelerates Mean Time to Remediation (MTTR) by up to 90%. Federal agencies can now operationalize their vulnerability management programs, orchestrate cross-departmental fixes, and maintain continuous compliance through a unified, fully auditable risk-resolution lifecycle.",
+    "certificationType": "Rev5",
+    "website": "https://www.armis.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Armis%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@armis.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

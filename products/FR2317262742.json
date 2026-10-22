@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2317262742",
+    "providerName": "Ceribell",
+    "serviceName": "Ceribell EEG",
+    "serviceAcronym": "Ceribell EEG",
+    "serviceDescription": "The Ceribell EEG System is an FDA cleared, AI-powered, neurodiagnostic platform that enables bedside diagnosis and real-time monitoring of suspected seizure patients. The SaaS EEG portal enables real-time streaming of Ceribell EEG data to allow physicians to securely review from anywhere. The cloud-hosted portal also powers continuous AI monitoring that provides a real-time Seizure Burden trendline and alerts indicating suspected status epilepticus.",
+    "certificationType": "Rev5",
+    "website": "https://ceribell.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Ceribell%20Logo.png",
+    "ueiNumber": "DTFEVJUKBV74"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@ceribell-federal.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

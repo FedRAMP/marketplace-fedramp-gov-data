@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "AGENCYSF",
+    "providerName": "Salesforce",
+    "serviceName": "Salesforce Government Cloud",
+    "serviceAcronym": "Salesforce Government Cloud",
+    "serviceDescription": "Salesforce Government Cloud is a partitioned instance of Salesforce's industry-leading Platform-as-a-Service (PaaS) and Software-as-a-Service (SaaS), multi-tenant community cloud infrastructure, specifically for use by U.S. federal, state, and local government customers, U.S. government contractors, and Federally Funded Research and Development Centers (FFRDCs).\r\n\r\nSalesforce Government Cloud is comprised of the following Salesforce services: Lightning Platform, Sales, Service, Communities, Analytics, and Industry Solutions. A list of current in-scope Salesforce products included in the authorization boundary is available at https://help.salesforce.com/s/articleView?id=000321821&type=1",
+    "certificationType": "Rev5",
+    "website": "https://www.salesforce.com/solutions/industries/government/overview/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Salesforce%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "public.sector.compliance@salesforce.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

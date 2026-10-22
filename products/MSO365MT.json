@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "MSO365MT",
+    "providerName": "Microsoft",
+    "serviceName": "Microsoft 365 Government Community Cloud & Supporting Services",
+    "serviceAcronym": "Microsoft 365 Government Community Cloud & Supporting Services",
+    "serviceDescription": "Microsoft 365 (M365) Government Community Cloud (GCC) is a suite of cloud-hosted messaging and collaboration services to meet the unique and evolving requirements of the United States Federal, State, Local, and Tribal governments, as well as contractors holding or processing data on behalf of the US Government. These cloud-based services are designed to provide organizations with streamlined communication, high availability, comprehensive security, and simplified information technology (IT) management. M365 GCC provides the interactivity of on-premises client and server applications with the flexibility and scalability of web-based services. M365 GCC leverages Azure Government as the IaaS/PaaS for the underlying infrastructure and hardware. Therefore, M365 GCC relies on Azure Government-inherited services. For more information on these Azure Government services, refer to the Azure Government ATO package.\nFederal agencies interested in collaborative continuous monitoring with Microsoft should reach out to: M365CollabConMon@microsoft.com",
+    "certificationType": "Rev5",
+    "website": "https://www.microsoft.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Microsoft%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "O365FedRAMP@microsoft.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

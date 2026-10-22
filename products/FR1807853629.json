@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1807853629",
+    "providerName": "CrowdStrike, Inc.",
+    "serviceName": "Falcon Platform",
+    "serviceAcronym": "Falcon Platform",
+    "serviceDescription": "The primary purpose of the CrowdStrike Falcon Platform is to provide organizations with a comprehensive cybersecurity solution that encompasses the following system functions:\n\nEndpoint Security - Advanced endpoint security capabilities to protect laptops, desktops, servers, and virtual machines from various cyber threats.\n\nThreat Intelligence - Cloud-based intelligence engine to collect and analyze threat data from millions of endpoints worldwide.\n\nManaged Security - Managed security services with a team of security experts actively monitoring and responding to security events.\n\nCloud Security - Cloud security capabilities to protect organizations' cloud environments.\n\nSecurity and IT Operations - Integration of security and IT operations for a unified view of security posture.\n\nIdentity Protection - Identity protection capabilities to safeguard user identities and prevent unauthorized access.\n\nNext-Gen SIEM - Logging and analysis capabilities to collect, correlate, and analyze security events and logs.\n\n\nThe CrowdStrike Falcon Platform includes the following services:\nCounter Adversary Operations\nCounter Adversary Elite\nDiscover IoT\nFalcon Cloud Security\nFalcon Cloud Security for Containers\nFalcon Cloud Security for Managed Containers\nFalcon Complete\nFalcon Data Protection\nFalcon Device Control\nFalcon Discover\nFalcon FileVantage\nFalcon Firewall Management\nFalcon For IT\nFalcon Forensics\nFalcon Foundry\nFalcon Fusion\nFalcon Identity Protection\nFalcon Insight XDR\nFalcon Adversary Intelligence\nFalcon Adversary Intelligence Premium\nFalcon Next-Gen SIEM\nFalcon Adversary OverWatch\nFalcon Prevent\nFalcon SIEM Connector\nFalcon Spotlight\nFalcon for Mobile",
+    "certificationType": "Rev5",
+    "website": "https://www.crowdstrike.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/CrowdStrike%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRamp@crowdstrike.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

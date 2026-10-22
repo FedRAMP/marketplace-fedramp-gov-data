@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1824057433",
+    "providerName": "Microsoft",
+    "serviceName": "Microsoft 365 Government Community Cloud-High",
+    "serviceAcronym": "Microsoft 365 Government Community Cloud-High",
+    "serviceDescription": "Microsoft 365 (M365) Government Community Cloud-High (GCC-H) is a product family of cloud-hosted messaging and collaboration services. These cloud-based services are designed to provide organizations with streamlined communication, high availability, comprehensive security, and simplified information technology (IT) management. M365 GCC-H provides the interactivity of on-premises client and server applications with the flexibility and scalability of web-based services. M365 leverages Azure as the IaaS/PaaS for the underlying infrastructure and hardware. Therefore, M365 relies on Azure-inherited services. For more information on these Azure services, refer to the Azure ATO package.\nFederal agencies interested in collaborative continuous monitoring with Microsoft should reach out to: M365CollabConMon@microsoft.com",
+    "certificationType": "Rev5",
+    "website": "https://www.microsoft.com/microsoft-365/government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Microsoft%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "O365FedRAMP@microsoft.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

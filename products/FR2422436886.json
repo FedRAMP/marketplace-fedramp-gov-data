@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2422436886",
+    "providerName": "Laerdal Labs D.C.",
+    "serviceName": "Laerdal -- SimCapture Cloud Government",
+    "serviceAcronym": "Laerdal -- SimCapture Cloud Government",
+    "serviceDescription": "SimCapture Cloud Government is delivered as a SaaS offering using a multi-tenant Government Only cloud computing environment. It is available to hospitals and healthcare education programs for the purpose of recording, debriefing, and tracking of healthcare simulation experiences.",
+    "certificationType": "Rev5",
+    "website": "https://laerdal.com/products/simulation-training/operate-assess-debrief/simcapture/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SimCapture%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "lldc_fedramp@laerdal.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  }
+}

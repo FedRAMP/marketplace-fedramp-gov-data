@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2000174962",
+    "providerName": "Abbott, Inc.",
+    "serviceName": "LibreView for US Government",
+    "serviceAcronym": "LibreView for US Government",
+    "serviceDescription": "LibreView is intended for use by patients, caregivers and healthcare professionals to assist people with diabetes and their healthcare professionals in the review, analysis and evaluation of historical glucose meter data to support effective diabetes management. LibreView is developed, distributed, and supported by Abbott, a major manufacturer of glucose monitoring devices. Trademarks are the property of their respective owners.",
+    "certificationType": "Rev5",
+    "website": "https://www.libreviewgov.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Newyu%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "adcsecops@abbott.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

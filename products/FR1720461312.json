@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1720461312",
+    "providerName": "Proofpoint, Inc.",
+    "serviceName": "Proofpoint Email and Information Protection Service",
+    "serviceAcronym": "Proofpoint Email and Information Protection Service",
+    "serviceDescription": "The Proofpoint Email and Information Protection Service is a powerful cloud email security service that integrates threat protection, virus protection, spam detection, data loss prevention (DLP), and digital asset protection technologies into an extensible message management platform. The service is designed to fit easily into existing messaging infrastructure, providing efficient performance, accurate message analysis, and a web-based interface for reporting, configuration, and management tasks.",
+    "certificationType": "Rev5",
+    "website": "https://www.proofpoint.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Proofpoint%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@proofpoint.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

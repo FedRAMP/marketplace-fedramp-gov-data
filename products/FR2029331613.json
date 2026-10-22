@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2029331613",
+    "providerName": "Informatica LLC",
+    "serviceName": "Informatica Intelligent Cloud Services (IICS)",
+    "serviceAcronym": "Informatica Intelligent Cloud Services (IICS)",
+    "serviceDescription": "IICS for FedRAMP is a microservices-based, cloud-native data management solution which leverages industry-leading metadata capabilities to accelerate and automate core data management and data governance functions. IICS includes support for both Cloud Data Integration and Cloud Application Integration: \n\nCloud Data Integration \n\nBuilt on a next-generation, microservices-driven software as a service (SaaS), Informatica Cloud Data Integration enables you to connect to industry-leading applications and data sources across on-premises and the cloud and allows you to integrate the data sources at scale. Optimize the performance of your development teams by employing a codeless UI; using drag-and-drop interfaces, and making complex integrations simple. \n\nCloud Application Integration \n\nInformatica Cloud Application Integration (CAI) service offers a single, trusted solution to support any integration pattern, data set, user-type, or endpoint to automate business processes, expedite transactions, and enable real-time analytics. It is based on a modular, microservices-based architecture for agile support of future business requirements. CAI supports multiple new and unique integration patterns, which include on-premises to cloud real-time data integration, real-time/B2B application integration, process orchestration, data synchronization, and more. Users can integrate multi-cloud and hybrid applications without writing a single line of code. \n\nEach of the above services leverages Informatica's Secure Agent, which runs all your Cloud Data Integration and Cloud Application Integration workloads inside the customer’s infrastructure, ensuring the highest levels of security and performance.",
+    "certificationType": "Rev5",
+    "website": "https://www.informatica.com/solutions/industry-solutions/public-sector.html",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Informatica%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "public.sector.compliance@salesforce.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

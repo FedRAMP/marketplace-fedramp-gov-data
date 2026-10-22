@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2332852130",
+    "providerName": "Medallia Inc.",
+    "serviceName": "Mindful by Medallia",
+    "serviceAcronym": "Mindful by Medallia",
+    "serviceDescription": "Mindful by Medallia allows a person to receive a callback at a later time and connect them with an available agency representative.\n\nAgency experience - Agencies will use Mindful Callback as part of their contact center experience when engaging externally with citizens or internally between organization groups.\n\nFederal Data - A phone number (at a minimum) is needed to complete a callback. Optionally, an agency can send us a contact center ID number with each callback. When we reconnect the citizen with the agency contact center, we can provide the ID back to them which allows the agency to look up data in their systems for the citizen interaction.",
+    "certificationType": "Rev5",
+    "website": "https://www.medallia.com/products/mindful/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Medallia%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "mgc_compliance@medallia.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

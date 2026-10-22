@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2607452240",
+    "providerName": "IBM",
+    "serviceName": "GO.gov",
+    "serviceAcronym": "GO.gov",
+    "serviceDescription": "The GO.gov system is a multi-component System of Systems (SoS) designed to provide an integrated suite of travel, expense, integration, notification, and reporting services in support of Federal agencies. GO.gov’s core purpose is to streamline and standardize federal travel and expense operations while maintaining compliance with federal security and privacy regulations. GO.gov integrates several commercial Software-as-a-Service (SaaS) and Platform-as-a-Service (PaaS) offerings with secure hosting environments within AWS GovCloud (US) and AWS East/West commercial regions to provide a unified, end-to-end business capability.",
+    "certificationType": "Rev5",
+    "website": "https://go.gov",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/IBM%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "ETSNext.Incident.Reporting@ibm.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

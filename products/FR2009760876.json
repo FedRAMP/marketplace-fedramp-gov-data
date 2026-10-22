@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2009760876",
+    "providerName": "ZibaSec, Inc.",
+    "serviceName": "PhishTACO",
+    "serviceAcronym": "PhishTACO",
+    "serviceDescription": "ZibaSec PhishTACO is a cloud-based SaaS solution that enables organizations of all sizes to accurately assess their risk levels using sophisticated email phishing campaigns. PhishTACO was designed from the outset to cater to the needs of the largest Federal agencies without sacrificing simple and accessible user experiences. Bad actors don't just try via email; a core goal of ZibaSec PhishTACO is to facilitate social engineering simulations across multiple attack vectors, not just email. Achieving a FedRAMP Moderate certification, ZibaSec PhishTACO will demonstrate its commitment to provide a secure software platform to our federal agency partners.\n\nMore about ZibaSec PhishTACO\nZibaSec PhishTACO is focused on what enterprise organizations need the most:\n\n- Understanding their organizational risk levels to sophisticated email phishing attacks.\n- Providing a secure and compliant platform that aligns with the regulatory standards our customers care about.\n- Helping their workforce become better equipped to detect and avoid multiple human-centric attack vectors.\nIn pursuit of meeting these needs, ZibaSec PhishTACO takes a research-centric approach in the features it provides:\nWith ZibaSec PhishTACO organizations can:\n- Pick from a large list of phishing domains (all with DKIM and SPF records to ensure maximum deliverability) that we are constantly rotating, with the option to bring their own domain.\n- Email ten to tens of thousands of emails in a single simulation.\n- Assess the performance of their workforce in any desired timespan to provide rich trending reports; detailed down to the individual.\n- Pick from multiple options for hosting landing pages or redirects to send users to after clicking an email link. Create a redirect or simply provide a document to host.\n- Easily create sub-organizations and create granular role-based access control groups to allow enterprises to delegate tactical control to different departments or groups while retaining enterprise-wide visibility into employee performance.",
+    "certificationType": "Rev5",
+    "website": "https://www.zibasec.io/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/ZibaSec%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@zibasec.io"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

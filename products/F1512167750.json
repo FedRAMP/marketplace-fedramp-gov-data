@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1512167750",
+    "providerName": "Okta",
+    "serviceName": "Okta IDaaS Regulated Cloud",
+    "serviceAcronym": "Okta IDaaS Regulated Cloud",
+    "serviceDescription": "The Okta IDaaS Regulated Cloud service offering provides centralized identity and access management capabilities to customers who want to manage access across any application or device, whether they are on-premise in the customer's office/data center or in the cloud. The Okta IDaaS Regulated Cloud service provides several important capabilities, including:\n- Okta Identity Engine (OIE)\n- Okta Multi-factor authentication (MFA)\n- Okta Adaptive MFA (AMFA)\n- Okta Single Sign-On (SSO)\n- Okta Verify\n- Okta API Integration\n- Okta FastPass - NIST 800-63B AAL2/AAL3 authenticator",
+    "certificationType": "Rev5",
+    "website": "https://www.okta.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Okta%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@okta.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

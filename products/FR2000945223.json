@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2000945223",
+    "providerName": "Software AG Government Solutions",
+    "serviceName": "ARIS Government Cloud",
+    "serviceAcronym": "ARIS Government Cloud",
+    "serviceDescription": "ARIS Government Cloud is a platform hosted on AWS GovCloud Kubernetes Infrastructure, offering both dedicated and multi-tenant environments for U.S. government users. Tailored to meet the strictest security standards, ARIS Government Cloud is managed and operated by only U.S. Persons, the solution ensures the highest levels of data security, confidentiality, and availability, empowering government operations to optimize and govern their business processes effectively.\n\n \n\nARIS provides a comprehensive platform to model, analyze, and optimize business processes across government operations. The solution supports all stages of business process management, from process discovery to design, analysis, and continuous improvement. With integrated reporting and data analytics capabilities, ARIS helps users identify inefficiencies, mitigate risks, and improve service delivery while ensuring full compliance with federal guidelines.\n\n \n\nKey Capabilities:\n\nBusiness Process Modeling (BPM): ARIS enables users to map, simulate, and refine processes, ensuring both operational efficiency and regulatory adherence at every step.\nGovernance, Risk, and Compliance (GRC): ARIS delivers a comprehensive framework for maintaining federal compliance, offering robust governance tools, audit trails, and risk management functionalities to safeguard data integrity.\nProcess Mining: The platform’s real-time analytics drive data-informed decision-making, helping users enhance accountability and continuously optimize operations.\n \n\nALFABET is the premier solution for Enterprise Architecture (EA), IT Planning, and Strategic Portfolio Management (SPM). Recognized as a leader in the Gartner EA Magic Quadrant for over 17 consecutive years, Alfabet stands out as the only top-tier solution featured in both the EA and SPM Magic Quadrants. It continues to maintain its FedRAMP authorization under the ARIS registration.",
+    "certificationType": "Rev5",
+    "website": "https://aris.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Aris%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "jonathan.strzalka@aris.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

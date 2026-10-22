@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1718334757",
+    "providerName": "ID.me",
+    "serviceName": "ID.me Identity Gateway",
+    "serviceAcronym": "ID.me Identity Gateway",
+    "serviceDescription": "ID.me's Identity Gateway is a shared service for citizen and employee facing authentication and consists of a NIST 800-63-3 Identity Assurance Level 1 and 2 and Authenticator Assurance Level 1 and 2 as well as a NIST 800-63-2 Level of Assurance 1, 2, and 3 certified Credential Service Provider, a Credential Broker, and an Attribute Exchange. ID.me is the only citizen facing Credential Service Provider with a Supervised Remote capability that enables all users, including individuals without credit history and who live overseas, to reach Identity Assurance Level 2 without needing to visit a location in-person. ID.me is capable of immediately upgrading any government Identity Provider or login system to NIST IAL2/AAL2 within the look and feel of the agency’s brand.\n\nAn Intelligent Policy Engine provides a dynamic orchestration capability that enables agencies to configure adaptive Risk-Based Authentication and Attribute Based Access Control by policy. Once configured, the Intelligent Policy Engine dynamically routes users through Identity Proofing and Multi-Factor Authentication based on their demographic need and preference. ID.me’s Identity Gateway integrates directly with applications or with all Identity and Access Management platforms via open protocols like SAML 2.0, OAuth 2.0, and OpenID Connect. ID.me’s Credential Service Provider certification is available at (https://www.idmanagement.gov/trust-services/#consumer-identity-credentials) and the Kantara Initiative Trust Registry (https://kantarainitiative.org/trust-registry/). Kantara is a GSA approved Trust Framework Solution provider. To learn more about ID.me, visit https://www.id.me/business/identity-gateway.",
+    "certificationType": "Rev5",
+    "website": "https://www.id.me/business/identity-gateway",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/ID.me%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP-compliance@id.me"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

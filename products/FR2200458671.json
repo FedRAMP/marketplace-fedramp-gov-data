@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2200458671",
+    "providerName": "3M",
+    "serviceName": "Grouper Plus Content Services (GPCS)",
+    "serviceAcronym": "Grouper Plus Content Services (GPCS)",
+    "serviceDescription": "3M Grouper Plus Content Services (3M GPCS) provides reliable and secure processing of patient claims and other coded data in the cloud. The web-based delivery system hosts a selection of classification and reimbursement content users need to group, edit and calculate reimbursement of claims.",
+    "certificationType": "Rev5",
+    "website": "https://www.3mhis.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/3M%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-his@mmm.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

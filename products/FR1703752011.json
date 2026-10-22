@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1703752011",
+    "providerName": "Axon",
+    "serviceName": "US Axon FedCloud - High",
+    "serviceAcronym": "US Axon FedCloud - High",
+    "serviceDescription": "US Axon FedCloud enables cloud-based workflows for digital evidence management, situational awareness, and records management to support the operational needs of agencies. The system operates as an isolated region of Axon Cloud Services that is dedicated to the US Federal community. US Axon FedCloud offerings include Axon Evidence, Axon Respond, and Axon Records while also acting as the core control center over Axon devices and client applications. These devices and client applications include in-car camera systems, body-worn cameras, TASER devices, Axon Interview Room, and Axon Upload XT.\n\nAxon Evidence acts as a central repository for customers' digital evidence and a central management console for Axon products and devices. With expansive ingest, smooth playback, and intuitive search, Axon Evidence makes it simple to connect and manage growing stores of data—video, photos, documents and more—in a single, secure system.\n\nAxon Respond is a real-time operations platform which integrates real-time situational awareness and unified communications within a modern incident management solution. Gathering data from sensors in the field, agencies are empowered to know when events occur before it's voiced through traditional contact methods and rapidly coordinate responses with a unified communications platform.\n\nAxon Records harnesses the power of automation to save countless hours in the report writing, submission, and review process, helping agencies get more efficiency by breaking down data silos. With direct access to body-worn camera, in-car and citizen-captured video footage, documents, images, and more, reports can be created faster. Critical evidence can be easily shared to remove the wall between digital evidence and reports.",
+    "certificationType": "Rev5",
+    "website": "https://www.axon.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Axon%20Logo.png",
+    "ueiNumber": "TBW7MGPYURM7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedsec@axon.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

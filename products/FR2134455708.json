@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2134455708",
+    "providerName": "Nucleus Security, Inc",
+    "serviceName": "Nucleus for Government (NucleusGov)",
+    "serviceAcronym": "Nucleus for Government (NucleusGov)",
+    "serviceDescription": "Nucleus for Government (NucleusGov) is a risk-based vulnerability management platform purpose-built to streamline vulnerability and risk management within government entities and cloud service providers. By consolidating vulnerability data from all scanning tools (Network scanners, CSPM, ASPM, SAST, DAST and more) Nucleus creates a unified repository for vulnerability and asset information across the entire enterprise. Its workflow engine automates dozens of manual, repetitive, and error-prone tasks such as vulnerability risk assessment, prioritization, ticketing, and reporting to speed up vulnerability remediation and minimize the level of effort required.  Nucleus's unique features for compliance reporting, access control and vulnerability intelligence address the government's compliance requirements, all while modernizing your organization’s vulnerability management program and reducing the risk of data breaches.",
+    "certificationType": "Rev5",
+    "website": "https://nucleussec.com/government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Nucleus%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@nucleussec.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Linford & Company",
+    "assessorID": "140531"
+  }
+}

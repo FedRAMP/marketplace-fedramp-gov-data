@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1507116930",
+    "providerName": "Ivanti",
+    "serviceName": "Ivanti Neurons for MDM (Formerly MobileIron)",
+    "serviceAcronym": "Ivanti Neurons for MDM (Formerly MobileIron)",
+    "serviceDescription": "MobileIron Government Cloud provides Government agencies with the foundation of the first mobile-centric, zero trust security platform to securely access and protect data across the digital workplace. MobileIron's zero trust approach validates the device, to ensure that only authorized users, devices, apps, and services can access business resources. With MobileIron, Government agencies can secure and manage data on any device across multiple operating systems such as iOS, Android, Windows 10, macOS, Zebra and Oculus. MobileIron technology automatically provisions enterprise settings such as Wi-Fi and VPN, secures corporate email and email attachments, applications and content delivery for both GSE and BYOD programs. With MobileIron, IT departments can deliver the right resources to authorized personnel while protecting sensitive government data, preserving the privacy of end-user data, and maintaining the seamless native device experience. MobileIron Government Cloud has been purpose built to provide a cloud-based, scalable architecture that enables rapid deployment and scales up to millions of users. The MobileIron Unified Endpoint Management (UEM) platform incorporates identity, context, and privacy enforcement to set the appropriate level of access to data and services while allowing IT departments to securely manage their global mobile workforce from a single console. . When user choice and end user experience matters, MobileIron Cloud provides the simplest onboarding and superior on device experience which improves user productivity.\n\nMobileIron Government Cloud offering now includes MobileIron Threat Defense (MTD). MTD builds upon MobileIron's mobile-centric, zero trust security framework by providing a single app that continually detects and remediates against known and unknown (zero-day) device, network and app-level threats on Android and iOS devices, with or without cellular or Wi-Fi connectivity. Deployment and activation of MTD on mobile devices is accomplished silently on managed and unmanaged devices in order to drive towards 100 percent user adoption. In addition to protecting federal data from mobile attacks, MTD helps federal agencies to comply with regulatory requirements, reduce total cost of ownership, and drive business innovation with secure mobile devices, apps, and cloud services.",
+    "certificationType": "Rev5",
+    "website": "https://www.ivanti.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Ivanti%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMPAuditandCompliance@ivanti.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Deloitte & Touche LLP",
+    "assessorID": "138883"
+  }
+}

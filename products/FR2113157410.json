@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2113157410",
+    "providerName": "Public Health Foundation",
+    "serviceName": "TRAIN Learning Network",
+    "serviceAcronym": "TRAIN Learning Network",
+    "serviceDescription": "The Public Health Foundation’s TRAIN Learning Network is a Learning Management System (LMS) powered by KMI Learning’s flexible, scalable LMS. It brings together best-in-class training in public health, population health, and emergency preparedness through its extensive network of government agencies, academic institutions, nonprofits, and professional associations. \n \nAs a secure, multi-tenant SaaS solution, TRAIN provides each agency or organization with a branded portal and the flexibility to restrict access to its training content internally or make it available across the entire TRAIN community. TRAIN administrators are able to create and post courses, link to external training, track and report on learner activity, manage continuing education, award certificates, and communicate directly with registered learners. \n \nThe system also offers a streamlined LMS experience for organizations outside of public health, and all organizations can take advantage of custom feature development and system integrations.",
+    "certificationType": "Rev5",
+    "website": "https://www.train.org/main/welcome",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/TRAIN%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "training@phf.org"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Ignyte Platform Inc.",
+    "assessorID": "201722"
+  }
+}

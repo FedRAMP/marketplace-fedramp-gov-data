@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2023864279",
+    "providerName": "Datadog",
+    "serviceName": "Datadog for Government",
+    "serviceAcronym": "Datadog for Government",
+    "serviceDescription": "Datadog is the monitoring and security platform for cloud applications. Our SaaS platform integrates and automates infrastructure monitoring, application performance monitoring and log management to provide unified, real-time observability of our customers' entire technology stack. Datadog is used by organizations of all sizes and across a wide range of industries to enable digital transformation and cloud migration, drive collaboration among development, operations, security and business teams, accelerate time to market for applications, reduce time to problem resolution, secure applications and infrastructure, understand user behavior and track key business metrics.\n\nThe services in scope for Datadog for Government are:\n\n- Infrastructure Metrics - Observe, analyze, and alert based on infrastructure metrics from hosts, containers and serverless.\n- Application Performance Monitoring - Collect, search, and analyze traces across fully distributed architectures.\n- Log Management - Collect, enrich, monitor, and analyze logs from all systems for troubleshooting, auditing, visualization, and alerting.\n- Real User Monitoring - Collect user actions (e.g., button clicks) to understand user activity within a page.\n- Network Performance Monitoring - Provide multi-cloud visibility into network flows in granular detail and enabling users to aggregate and monitor that data.\n- Synthetics - Monitor applications and API endpoints via simulated user requests and browser rendering.\n- Security Monitoring - Enable real time threat detection and investigate security alerts across infrastructure metrics, distributed traces, and logs.\n- Error Tracking - Capture, visualize, and browse errors reported by services.",
+    "certificationType": "Rev5",
+    "website": "https://www.datadoghq.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/DataDog%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@datadoghq.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2000951694",
+    "providerName": "DLH Corporation",
+    "serviceName": "DLH Infinibyte Cloud",
+    "serviceAcronym": "DLH Infinibyte Cloud",
+    "serviceDescription": "Infinibyte Cloud is a secure, flexible, and highly available public cloud platform-as-a-service (PaaS) that allows customers to host federal applications in a FedRAMP Moderate compliant environment. Infinibyte Cloud is a multi-tenant hosting platform that provides comprehensive managed solutions including the setup, configuration, security hardening, management, patching, monitoring, scanning, backup, and support of customer environments comprised of virtual machines, operating systems, and databases. The information security architecture leverages \"defense in depth\" concepts to provide multiple layers of security controls for customer systems. Infinibyte Cloud supports a number of operating systems, databases, services, and applications, including Microsoft Windows Server, Red Hat Enterprise Linux, AlmaLinux, Microsoft Active Directory, Microsoft SQL Server, Oracle Database, MySQL, MongoDB, Microsoft IIS, Apache HTTP Server.",
+    "certificationType": "Rev5",
+    "website": "https://www.dlhcorp.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/DLH%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@infinibytecloud.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

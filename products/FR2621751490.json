@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2621751490",
+    "providerName": "Red Rock Group Holdings",
+    "serviceName": "GetEKKO",
+    "serviceAcronym": "GetEKKO",
+    "serviceDescription": "GetEkko is delivered as a Software-as-a-Service (SaaS) offering using a multi-tenant public cloud computing provider that allows GetEkko to create dedicated customer environments for data isolation and segmentation. It is available to customers that require identity-proofing in conjunction with secure transmission of messages without the ability to read the payload in transit to users within groups, based upon schedules, or availability within the central platform.",
+    "certificationType": "Rev5",
+    "website": "https://getekko.io/",
+    "logo": "https://www.fedramp.gov/placeholder-128x128px.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@redrockholdings.us"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@getekko.io"
+    }
+  ],
+  "assessor": {
+    "name": "360 Advanced Compass Rose",
+    "assessorID": "202896"
+  }
+}

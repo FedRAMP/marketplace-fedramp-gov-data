@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1921944861",
+    "providerName": "BlackBerry",
+    "serviceName": "BlackBerry Government Mobility Suite",
+    "serviceAcronym": "BlackBerry Government Mobility Suite",
+    "serviceDescription": "BlackBerry Government Mobility Suite (BGMS) is a cloud-based endpoint management solution.\n\nBGMS provides customers the ability to utilize a single, integrated view of users, devices, applications, and policies within their IT environment. Customers can use BGMS to unify multi-OS endpoints across all ownership models while securing sensitive data. BGMS is deployed in Microsoft Azure FedRAMP approved Government cloud as a multi-tenant, government-only community cloud deployment model.\nThe BGMS architecture will serve as the baseline infrastructure for BlackBerry FedRAMP authorized productivity applications such as BlackBerry Work and BlackBerry Workspaces; these solutions will provide mobile access to key business tools like email, calendars, contacts, and tasks as well provide secure access to enterprise file repositories.",
+    "certificationType": "Rev5",
+    "website": "https://www.blackberry.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/BlackBerry%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "bbfedcompliance@blackberry.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

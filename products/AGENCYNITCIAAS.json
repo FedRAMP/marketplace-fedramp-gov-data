@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "AGENCYNITCIAAS",
+    "providerName": "United States Department of Agriculture",
+    "serviceName": "vGov",
+    "serviceAcronym": "vGov",
+    "serviceDescription": "The USDA's Digital Infrastructure Services Center (DISC) is a federally-owned Cloud Service Provider for systems that are owned by Federal, State, and Local governments. The USDA DISC offers both IaaS and PaaS services to its customers on Midrange and Mainframe infrastructure, with a variety of operating system platforms and database options to choose from in a fully virtualized hosting environment. Network services are provided for both IaaS and PaaS environments, and offer robust, secure and highly redundant connectivity to the USDA WAN and the Internet. Additional information about these services is available here (http://www.ocio.usda.gov/about-ocio/data-center-operations-dco).\n\nThe USDA DISC Service Catalog is available here (http://www.ocio.usda.gov/document/nitc-service-catalog)\n\nThe USDA DISC Infrastructure as a Service (IaaS) offering provides a virtual machine infrastructure which allows customers the option to maintain control of their operating and general support systems at the system level. Network, Facility and Operational Support Services are included with all IaaS offerings. Security monitoring and defense in depth for all IaaS servers is provided via periodic vulnerability scanning with best-in-class software. IaaS customers receive the benefit of fully managed standardized hardware, advanced server virtualization, strict standards, security and economies of scale from DISC.\n\nThe USDA DISC's Platform as a Service (PaaS) offerings build upon IaaS offerings and enable customers to select from secure, standardized Operating System images that are configured to meet actual processing requirements. The PaaS service offering provides fully managed Operating Systems that are maintained by USDA DISC. These hardened and virtualized operating systems leverage advanced server virtualization technologies, compliant security and build standards, and economies of scale. The PaaS offering enables rapid delivery of cost-effective, fully-managed operating platforms offering expanded controls to securely host customer's mission critical applications. This USDA DISC PaaS offering is currently available for multiple operating systems, including: RedHat Linux, Microsoft Windows, Oracle Solaris, IBM AIX, and zOS. The DISC PaaS Service offering also fully supports many database offerings, including: mySQL, MSSQL, Oracle and DB2.\n\nSecurity services offered by USDA DISC, as part of all standard service offerings, are implemented and monitored through Department of Homeland Security (DHS) Continuous Diagnostics and Mitigation (CDM) solutions.\nIn addition to the FedRAMP Moderate security control baseline, the USDA DISC has implemented FISMA High security controls for all service offerings and FedRAMP+ DoD Impact Level 4 (IL4) controls within the Midrange PaaS service offering.",
+    "certificationType": "Rev5",
+    "website": "http://www.ocio.usda.gov/about-ocio/data-center-operations/nitc-cloud-services",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/USDA%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "USDA-OCIO-FedRAMP_Support@USDA.GOV"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

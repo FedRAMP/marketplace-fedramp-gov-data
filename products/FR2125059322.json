@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2125059322",
+    "providerName": "Center for Translational Data Science (CTDS)",
+    "serviceName": "Gen3 Data Ecosystems Platform",
+    "serviceAcronym": "Gen3 Data Ecosystems Platform",
+    "serviceDescription": "The Gen3 Data Ecosystems Platform system has been determined to have a security categorization of Moderate (M). The Gen3 Data Ecosystems Platform (Gen3) is an open-source multi-tenant Software as a Service (SaaS) platform for developing, configuring, and operating cloud-based data commons, data ecosystems (also known as data meshes), and workspaces for managing, analyzing, and sharing both open access and controlled access data.",
+    "certificationType": "Rev5",
+    "website": "https://gen3.data-commons.org/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/UoC%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "Gen3platform@data-commons.org"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

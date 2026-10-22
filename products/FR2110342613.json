@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2110342613",
+    "providerName": "Tanium",
+    "serviceName": "Tanium Cloud for US Government (TC-USG)",
+    "serviceAcronym": "Tanium Cloud for US Government (TC-USG)",
+    "serviceDescription": "Tanium Cloud for US Government (TC-USG) delivers an agent-based endpoint management and security platform, managed and delivered as a cloud-hosted SaaS. The Tanium Core Platform and its services are automatically configured and maintained. For more information, please visit https://www.tanium.com.",
+    "certificationType": "Rev5",
+    "website": "https://www.tanium.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Tanium%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@tanium.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Lunarline, Inc.",
+    "assessorID": "137004"
+  }
+}

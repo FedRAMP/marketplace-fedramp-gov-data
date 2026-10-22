@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2131832443",
+    "providerName": "Datarobot",
+    "serviceName": "Datarobot Government Cloud (DGC)",
+    "serviceAcronym": "Datarobot Government Cloud (DGC)",
+    "serviceDescription": "DataRobot is a machine learning platform for automating, assuring, and accelerating predictive analytics, helping data scientists and analysts build and deploy accurate predictive models.  DataRobot provides a library of the latest algorithms and pre-built prototypes for feature extraction and data preparation. It also provides automated ensembling, allowing data scientists to select and combine multiple algorithms to produce predictive models.  DataRobot automates the selection of features, algorithms, and parameter values for building each model.",
+    "certificationType": "Rev5",
+    "website": "https://www.datarobot.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/DataRobot%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "dgc.federal@datarobot.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1311252651",
+    "providerName": "ESRI",
+    "serviceName": "Esri Managed Cloud Services Advanced Plus",
+    "serviceAcronym": "Esri Managed Cloud Services Advanced Plus",
+    "serviceDescription": "Esri is a leading provider of geographic information systems (GIS) with decades of experience hosting solutions for customers. Esri Managed Cloud Services provides organizations with ready-to-use instances of ArcGIS running in the cloud and includes the infrastructure (facilities, hardware, network, and security), the software (Esri and third party), application deployment, testing, ongoing data management (data updates, backup, and archive), technical support, monitoring, and supporting 24/7 Security Operations Center. The environment has been architected following FISMA, NIST, and CIS guidance to facilitate FedRAMP moderate geospatial Platform-as-a-Service (PaaS) and Software-as-a-Service (SaaS) authorizations of our customer environments. EMCS enables quickly sharing geospatial content and providing access to critical information while the organization maintains complete control over the access to their services and maps. EMCS leverages the Amazon Web Services East / West Regions FedRAMP moderate cloud infrastructure.",
+    "certificationType": "Rev5",
+    "website": "https://www.esri.com/en-us/arcgis/services/managed-cloud",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Esri%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "AES_Security@esri.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

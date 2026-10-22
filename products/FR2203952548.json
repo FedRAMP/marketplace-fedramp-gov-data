@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2203952548",
+    "providerName": "Equifax",
+    "serviceName": "Equifax Government Data Exchange (EGDE)",
+    "serviceAcronym": "Equifax Government Data Exchange (EGDE)",
+    "serviceDescription": "Equifax Government Data Exchange provides real-time income and employment verification service as well as HR management services to federal customers. These services are cloud-native and delivered using the Equifax Data Fabric enterprise data management platform to provide maximum availability, scalability, and security.",
+    "certificationType": "Rev5",
+    "website": "https://www.equifax.com/business/government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Equifax%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP.Security@equifax.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

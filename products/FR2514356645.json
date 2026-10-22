@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2514356645",
+    "providerName": "Iron Mountain",
+    "serviceName": "Iron Mountain Insight on AWS",
+    "serviceAcronym": "Iron Mountain Insight on AWS",
+    "serviceDescription": "The Iron Mountain Inc Insight-AWS platform provides evolved large scale document digitization services by providing structured data tagging, structure, and searchability of digitized document records. With the support of machine learning, the Insights platform provides structured data stores of agency-level document records that enable government customers to discover previously inaccessible analytics within digitized document repositories.\n\nBuilt on scalable Amazon Web Services infrastructure, and comprised of two major service sub-systems called Intelligent Document Processing (IDP) and Digital Experience Platform (DXP).",
+    "certificationType": "Rev5",
+    "website": "https://www.ironmountain.com/services/insight-digital-experience-platform",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/IM%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@ironmountain.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

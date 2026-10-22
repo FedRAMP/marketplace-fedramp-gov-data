@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1805751477",
+    "providerName": "Google",
+    "serviceName": "Google Services (Google Cloud Platform Products and underlying Infrastructure)",
+    "serviceAcronym": "Google Services (Google Cloud Platform Products and underlying Infrastructure)",
+    "serviceDescription": "The Google Services offering consists of two primary layers: Google Cloud Platform (GCP) and Google Common Infrastructure (GCI). The Google Cloud Platform is made up of customer facing services. The services within the Google Cloud Platform sit on top of Google Common Infrastructure, which is infrastructure private to Google that is responsible for the implementation of common controls for all Google service offerings. These two pieces work together to provide the Google Services offering.\n\nGCP is an extensive suite of products from Google-controlled development environments to customer-managed environments (e.g. Google Compute Engine) offering flexibility via fully customizable virtual machines and utilization of other services like: fully-managed databases and data analytics tools, networking services including virtual load balancing and virtual private cloud solutions, access management tools, Cloud project management tools, machine learning capabilities, and developer tools.\n\nAssured Workloads is a GCP feature which turns on specific project configurations per the target compliance regime for customers. Products discretely integrate with Assured Workloads and enforce the organization policies themselves.\n\n** The entire authorized security boundary of Google Services is documented, assessed, and managed against the FedRAMP High baseline of security and privacy controls. Services that are denoted with an asterisk (*) do not meet the SA-9(5) requirement. Please review the JAB P-ATO letter for more information.",
+    "certificationType": "Rev5",
+    "website": "https://cloud.google.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Google%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp+services@google.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

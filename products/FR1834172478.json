@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1834172478",
+    "providerName": "Diligent, Inc.",
+    "serviceName": "Diligent One Platform (D1P)",
+    "serviceAcronym": "Diligent One Platform (D1P)",
+    "serviceDescription": "Diligent’s D1P GRC platform is the only enterprise-grade solution purpose-built to manage the full lifecycle of FedRAMP, DOD/DISA IL and CMMC compliance—from initial SSP development to ongoing POA&M updates, ConMon, and audit readiness. Designed with automation at its core and trusted by federal agencies, integrators, and 3PAOs, Diligent eliminates spreadsheet chaos and empowers teams to focus on actual security—not documentation.\r\n\r\n \r\n\r\nPurpose-Built for Complex Cybersecurity Compliance\r\n\r\nDiligent delivers deep automation and pre-configured workflows for:\r\n\r\n- FedRAMP (Low, Moderate & High)\r\n- DOD / DISA Impact Levels (2, 4, 5)\r\n- CMMC (Level 1, 2 and beyond)\r\n- NIST 800-53, NIST 800-171, SOC 2, and ISO 27001 and other major compliance frameworks\r\n- Support for custom frameworks and policy libraries\r\n \r\n\r\nCore Capabilities\r\n\r\n- Live SSP and ATO Package Management\r\n- Automatically generates and maintains OSCAL and human-readable SSPs. Track versioning, delta changes, and live control status from a single system.\r\n- Automated POA&M Generation and Updates\r\n- POA&Ms are created directly from scan data, control testing, or manual input. Linked to owners, evidence, due dates, and tracked in real time with alerting.\r\n- Continuous Monitoring, ConMon & Risk Insights\r\n- Real-time dashboards ingest data from 130+ tools including vulnerability scanners, cloud providers, HR systems, and ticketing platforms. Evidence collection is automatic and centralized for audit readiness.\r\n-Control Inheritance and Framework Mapping\r\n-Cross-map and inherit controls across frameworks. “Write once, apply many” saves time and ensures consistency for multi-standard organizations.\r\n-Multi-Tenant Partner and Reseller Enablement\r\n-Native support for MSSPs, C3PAOs, and resellers. Role-based access, tenant-level data separation, and white-labeled deployments available.\r\n-API and Integration Ecosystem\r\n-With over 130 out-of-box integrations and a robust open API, Diligent connects seamlessly to your stack—cloud, on-prem, or hybrid.\r\n \r\n\r\nDeployment & Security\r\n\r\n- Hosted on AWS GovCloud with three available options: FedRAMP moderate (primarily SLED), FedRAMP moderate and DOD IL5 (primarily for - Federal and some DOD), and FedRAMP moderate and DOD IL for DOD only (requires DoDIN access).\r\n- Built with security-first architecture, supporting unique customer keys, data segregation, and FIPS 140-2 validated encryption.\r\n \r\n\r\nWhat Sets Diligent Apart\r\n\r\n- FedRAMP, DOD and CMMC are core, not bolt-ons—we’ve built workflows around these frameworks from the ground up.\r\n- Automation beyond templates—real-time evidence ingest, compliance task enforcement, and live control dashboards.\r\n- Used by regulators, 3PAOs, integrators, and contractors—proven across the full compliance ecosystem.\r\n-Designed to scale—whether you’re managing 1 ATO or 50, Diligent supports your growth.",
+    "certificationType": "Rev5",
+    "website": "https://www.diligent.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Diligent%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@diligent.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

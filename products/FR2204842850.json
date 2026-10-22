@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2204842850",
+    "providerName": "Rosalind, Inc.",
+    "serviceName": "ROSALIND",
+    "serviceAcronym": "ROSALIND",
+    "serviceDescription": "ROSALIND is a multi-tenant SaaS solution for bioinformatics analyses, COVID diagnostic monitoring, knowledge management, and scientific collaboration. As a cloud-based software platform, ROSALIND provides a web interface for scientists and researchers to securely analyze and interpret datasets. Rosalind provides two web-based solutions, ROSALIND DxM and ROSALIND Research. Both operate in a visual manner and do not require command-line programming, cloud infrastructure setup, or bioinformatics pipeline development.\n\n- ROSALIND DxM provides real-time SARS-CoV-2 variant surveillance and diagnostic monitoring incorporating international viral sequence data. DxM also includes a comprehensive BioBank of SARS-CoV-2 specimens with sample tracking and workflow management for test panel creation, panel blinding, and results submission across participating labs and organizations.\n- ROSALIND Research provides visual analysis, interpretation, and cloud-based data sharing of genomic datasets produced with Next Generation Sequencing (NGS), NanoString instruments, and other multi-omic methods. ROSALIND Research features analysis pipelines for gene expression and gene regulation studies, including Single-Cell RNA-seq, bulk RNA-seq, miRNA-seq, ATAC-seq, ChIP-seq, and Proteomics.\n\nRosalind uses knowledge graphs to securely store institutional data as searchable libraries while enabling permissions-based data sharing between authorized users and across institutions.",
+    "certificationType": "Rev5",
+    "website": "https://www.rosalind.bio/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Rosalind%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@rosalind.bio"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

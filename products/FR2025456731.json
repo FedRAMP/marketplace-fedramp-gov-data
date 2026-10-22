@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2025456731",
+    "providerName": "Vaultara, LLC",
+    "serviceName": "Vaultara Flare Services",
+    "serviceAcronym": "Vaultara Flare Services",
+    "serviceDescription": "Vaultara offers an enterprise-wide software-only solution that provides secure, bi-directional electronic transfer to any digital file using Vaultara's Hybrid/SaaS technology. Maximizing security, efficiency, and cost savings, Vaultara offers this solution for quick, secure, contact-less data sharing, drastically reducing the need for physical media. Vaultara is committed to the secure digital delivery of data in the public sector. By achieving FedRAMP authorization, the U.S. federal government will be able to deploy Vaultara software across various departments and agencies.",
+    "certificationType": "Rev5",
+    "website": "https://www.vaultara.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Vaultara%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@vaultara.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "First Information Technology Services, Inc.",
+    "assessorID": "137801"
+  }
+}

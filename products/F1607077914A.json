@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1607077914A",
+    "providerName": "Oracle",
+    "serviceName": "Oracle Enterprise Performance Management (EPM)",
+    "serviceAcronym": "Oracle Enterprise Performance Management (EPM)",
+    "serviceDescription": "Oracle Cloud Enterprise Performance Management (Oracle Cloud EPM) is a full suite of industry standard EPM business processes comprised of planning (strategy, financial, workforce, capital, projects), budget formulation and execution, consolidation and close, account reconciliation, profitability & cost management, tax reporting, narrative reporting, and enterprise data management. Customers can subscribe to some or all of the EPM Applications. Oracle Cloud EPM is a true SaaS offering, operated and maintained by Oracle within its secure Government Cloud facilities in the United States. Oracle Government Cloud is a community-cloud limited to federal, state and local agencies as well as select universities and federal contractors with a demonstrated need for FedRAMP authorization.\n\nOther cloud services can be leveraged to complement Oracle Fusion Applications including Oracle Fusion Cloud (Oracle - Fusion Cloud), Oracle Intelligent Advisor (Oracle Service Cloud), Oracle Digital Assistant, Oracle Integration Cloud and other PaaS (platform) services (Oracle Cloud Infrastructure-Government Cloud).",
+    "certificationType": "Rev5",
+    "website": "https://www.oracle.com/performance-management/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Oracle%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "saas_fedramp_us_grp@oracle.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}
