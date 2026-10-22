@@ -36,7 +36,7 @@
       "repositoryDescription": "Secure deployment and configuration requirements for customers using the Baseten Inference Platform.",
       "authenticationRequired": false
     },
-    "nextOngoingCertificationReportDate": "2026-11-03"
+    "nextOngoingCertificationReportDate": "2027-01-21"
   },
   "contactInformation": [
     {
@@ -75,6 +75,75 @@
       }
     ],
     "nonCertified": []
+  },
+  "approvedAlternativeSecurityFramework": {
+    "framework": "SOC 2 Type II",
+    "trustServicesCriteria": "Security",
+    "note": "Baseten's active SOC 2 Type II (Security) report is designated as the qualifying FRC-CLA-ASF Approved Alternative Security Framework for this Class A Certification. Per FRC-CLA-EAM, the complete SOC 2 Type II report, any applicable bridge or gap letter, verified audit engagement documentation, and the estimated schedule for the upcoming report should be supplied to all necessary parties alongside this package.",
+    "schemaNote": "FRC-CLA-ASF requires providers to identify their Approved Alternative Security Framework. The published Overview schema defines no property for it, so it is carried here as a declared object."
+  },
+  "packageMetadata": {
+    "programStatus": "No FedRAMP ID has been assigned and no submission has been made to FedRAMP or any agency. This offering has an active FedRAMP Marketplace listing (Package ID FR2632558748; Phase: Initial Implementation; Status: Not yet certified). The Security Decision Record covers all 40 FedRAMP rules applicable to Class A (mandatory, recommended, and relevant optional) per the FedRAMP 20x Class A Ruleset Reference, and includes sample Initial/Ongoing Incident Report artifacts plus a Final Incident Report template. The Security Decision Record and Ongoing Certification Report conform to the published FedRAMP JSON schemas, confirmed by structural validation against each schema's required fields, types, and enums. As of 2026-10-21: 31 of 40 items are Implemented, 3 are Partially Implemented, and 6 are Not Implemented (predominantly optional practices Baseten has deliberately not adopted). Baseten's SOC 2 Type II report is the designated FRC-CLA-ASF Approved Alternative Security Framework, serving as the independent assessment source wherever its scope covers an item. One open item remains outside the rule set itself: the Marketplace listing shows Class 'Unknown', which Baseten is reconciling with FedRAMP against this package's documented Class A path.",
+    "accountableOfficial": {
+      "name": "",
+      "title": "Security Team",
+      "email": "security@baseten.co",
+      "note": "Baseten's Security Team (security@baseten.co) serves as the accountable point of contact for the FedRAMP program."
+    },
+    "version": "1.0",
+    "dateAndTimeOfLastUpdate": "2026-10-21T00:00:00Z",
+    "sourceOfUpdate": "Assembled from Baseten's live Vanta FedRAMP 20x:2026 compliance program and SOC 2 Type II report (Sensiba LLP) by the Baseten Security and Compliance team.",
+    "schemaNote": "CPO-CSO-MTD requires this metadata in the Certification Package Overview. The published Overview schema defines no property for it, so it is carried here as a declared object, consistent with the approach used in comparable Class A packages."
+  },
+  "documentationOverview": {
+    "description": "Documentation assembled for this Certification Package, built from Baseten's live Vanta compliance data.",
+    "documents": [
+      {
+        "name": "Certification Package Overview",
+        "formats": [
+          "JSON",
+          "PDF"
+        ],
+        "access": "Internal",
+        "summary": "This document: service identification, service properties, trust center and secure configuration guidance repositories, contact information, certified services, the Approved Alternative Security Framework, third-party information resources, and package status."
+      },
+      {
+        "name": "Security Decision Record",
+        "formats": [
+          "JSON",
+          "PDF"
+        ],
+        "access": "Internal",
+        "summary": "Implementation, validation, and assessment status for all 40 FedRAMP rules applicable to Class A per the FedRAMP 20x Class A Ruleset Reference — the 23 mandatory FRC-CLA-MFR items (16 supporting FedRAMP requirements plus the 7 Key Security Indicators) plus all applicable Recommended and relevant Optional rules — drawn from live Vanta control and test data and Baseten's SOC 2 Type II report."
+      },
+      {
+        "name": "Ongoing Certification Report",
+        "formats": [
+          "JSON",
+          "PDF"
+        ],
+        "access": "Internal",
+        "summary": "Quarterly Ongoing Certification Report for this Certification Package, populated with Baseten's current compliance data."
+      },
+      {
+        "name": "SOC 2 Type II Report",
+        "formats": [
+          "PDF"
+        ],
+        "access": "Available via Trust Center to authenticated agency personnel",
+        "summary": "The Approved Alternative Security Framework assessment designated under FRC-CLA-ASF for this Class A Certification."
+      },
+      {
+        "name": "Incident Report Artifacts (Initial Sample, Ongoing Sample, Final Template)",
+        "formats": [
+          "JSON",
+          "PDF"
+        ],
+        "access": "Internal",
+        "summary": "Illustrative sample Initial and Ongoing Incident Reports, plus a blank Final Incident Report template, all conforming to the published FedRAMP Incident Report schema (fedramp-incident-report-schema-2026-06-24.json). No FedRAMP Reportable Incident has occurred for the Baseten Inference Platform; the Final Incident Report template will be completed if and when one does."
+      }
+    ],
+    "schemaNote": "CDS-CSO-PUB item 13 requires an overview of documentation supplied for the cloud service offering. The published Overview schema defines no property for it, so it is carried here as a declared object."
   },
   "ZD_frid_retro": "FR2632558748",
   "id_matches_expected": true
