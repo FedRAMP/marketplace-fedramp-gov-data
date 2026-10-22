@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-21T22:02:36.529Z",
-    "total_entries": 2285,
+    "export_timestamp": "2026-10-22T00:07:37.093Z",
+    "total_entries": 2287,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -25098,17 +25098,6 @@
         "recorded_date": "2026-10-20T21:07:59.000Z"
       },
       {
-        "unique_id": "",
-        "product_id": "",
-        "cert_type": "",
-        "cert_path": "",
-        "cert_class": "",
-        "from_status": "",
-        "to_status": "",
-        "transition_date": "",
-        "recorded_date": ""
-      },
-      {
         "unique_id": "39f154b1",
         "product_id": "FR2623840126",
         "cert_type": "Rev5",
@@ -25140,6 +25129,39 @@
         "to_status": "Initial Implementation",
         "transition_date": "2026-10-21T21:15:00.000Z",
         "recorded_date": "2026-10-21T21:15:27.995Z"
+      },
+      {
+        "unique_id": "ea1e887a",
+        "product_id": "AGENCYMAX",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "Agency Authorization In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2014-06-09T04:00:00.000Z",
+        "recorded_date": "2026-10-21T20:26:30.000Z"
+      },
+      {
+        "unique_id": "c9407a41",
+        "product_id": "AGENCYMAX",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Certified",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2024-03-25T04:00:00.000Z",
+        "recorded_date": "2026-10-21T20:29:11.000Z"
+      },
+      {
+        "unique_id": "1959c52a",
+        "product_id": "F1304012002",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "Agency Authorization In Process",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2015-08-14T04:00:00.000Z",
+        "recorded_date": "2026-10-21T20:37:42.000Z"
       }
     ]
   }
