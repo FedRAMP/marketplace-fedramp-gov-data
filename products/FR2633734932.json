@@ -29,9 +29,10 @@
       "repositoryType": [
         "Trust Center"
       ],
-      "repositoryDescription": "FedRAMP 20x Class A certification data for Alira: rule and control status, automated validation evidence, and the current Ongoing Certification Report.",
+      "repositoryDescription": "FedRAMP 20x Class A certification data for Alira: rule and control status, automated validation evidence, and the Ongoing Certification Report.",
       "accessRequestInstructions": "To request access to the gated portions of the Trust Center, email security@alira.tech with your name, organization, and the reason for your request. An administrator will provision an account and respond with login instructions."
-    }
+    },
+    "nextOngoingCertificationReportDate": "2026-12-15"
   },
   "contactInformation": [
     {
@@ -44,6 +45,12 @@
       "contactName": "Alira Sales",
       "contactEmail": "foia@alira.tech",
       "contactPhone": "410-449-3003"
+    },
+    {
+      "contactType": "Package Owner",
+      "contactName": "Greg Lewis",
+      "contactEmail": "glewis@skywarditsolutions.com",
+      "contactPhone": "443-870-0566"
     }
   ],
   "certifiedServices": [
@@ -60,7 +67,7 @@
     },
     {
       "serviceName": "Analyst Portal",
-      "serviceDescription": "Agency case management for FOIA processing: access to unredacted records, document ingestion, redaction tooling, workflow and disposition tracking. Agency SSO/IdP federation with PIV/CAC; not publicly routable.",
+      "serviceDescription": "Agency case management for FOIA processing: access to unredacted records, document ingestion, redaction tooling, workflow and disposition tracking; not publicly routable. Sign-in is password-based today; agency SSO/IdP federation with PIV/CAC and required MFA is built and infrastructure-ready, pending application cutover.",
       "dateAvailable": "2026-06-30",
       "securityCategory": {
         "confidentiality": "Moderate",
@@ -71,7 +78,7 @@
     },
     {
       "serviceName": "External Stakeholder Portal",
-      "serviceDescription": "Collaborative document review for authorized external parties such as consultants and inter-agency reviewers. Role-based access limits visibility to assigned matters only; MFA enforced.",
+      "serviceDescription": "Collaborative document review for authorized external parties such as consultants and inter-agency reviewers. Role-based access limits visibility to assigned matters only. Sign-in is password-based today; required MFA is built and infrastructure-ready, pending application cutover.",
       "dateAvailable": "2026-06-30",
       "securityCategory": {
         "confidentiality": "Moderate",
@@ -104,7 +111,7 @@
     },
     {
       "serviceName": "Authentication and Access Management",
-      "serviceDescription": "Federated authentication and role-based access control across all portals, including Login.gov IAL2, agency SSO/IdP, PIV/CAC and multi-factor authentication.",
+      "serviceDescription": "Role-based access control across all portals. The Requester Portal authenticates with Login.gov at IAL2 today. Staff (analyst and contributor) sign-in is password-based today; Cognito-based sign-in with agency SSO/IdP federation, PIV/CAC and required MFA is built and infrastructure-ready, pending application cutover.",
       "dateAvailable": "2026-06-30",
       "securityCategory": {
         "confidentiality": "High",

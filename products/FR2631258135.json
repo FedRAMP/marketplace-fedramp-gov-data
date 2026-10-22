@@ -125,7 +125,7 @@
     },
     {
       "serviceName": "Bid screening",
-      "serviceDescription": "Extracts opportunities from bid boards and notices and reads the invitation for damages, bonding, set-asides and schedule risks. Reading a public bid-portal page uses Firecrawl, listed under third-party information resources with its CUI-mode gap and plan.",
+      "serviceDescription": "Extracts opportunities from bid boards and notices and reads the invitation for damages, bonding, set-asides and schedule risks. Reading a public bid-portal page uses Firecrawl, listed under third-party information resources; organizations in CUI mode are not offered it.",
       "securityCategory": "Moderate",
       "minimumAssessmentScope": "Included"
     },
@@ -275,11 +275,11 @@
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
-        "useCase": "AWS US East/West — supporting services: Amazon SES (transactional email), Route 53 (DNS), S3 (CI build cache, CloudTrail audit logs, and a legacy database-backup bucket from the pre-2026 hosting platform), GuardDuty (threat detection), and Amazon Bedrock (Claude model inference entered in us-west-2 through United States inference profiles, except Claude Sonnet 5.5, whose global profile may process requests in any AWS commercial Region; for organizations not in CUI mode only; prompts may include customer document text)."
+        "useCase": "AWS US East/West — supporting services: Amazon SES (transactional email), Route 53 (DNS), S3 (CI build cache, CloudTrail audit logs, and a legacy database-backup bucket from the pre-2026 hosting platform), GuardDuty (threat detection), and Amazon Bedrock (Claude model inference entered in us-west-2 through global cross-Region inference profiles, which may process requests in any AWS commercial Region; for organizations not in CUI mode only; prompts may include customer document text)."
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
-        "useCase": "Azure Commercial Cloud — Azure OpenAI (GPT model inference for organizations not in CUI mode; prompts may include customer document text) and Microsoft Entra ID application registrations for customer 'Sign in with Microsoft' single sign-on. No customer data is stored on Azure."
+        "useCase": "Azure Commercial Cloud — Azure OpenAI (GPT model inference for organizations not in CUI mode; prompts may include customer document text), Microsoft Entra ID application registrations for customer 'Sign in with Microsoft' single sign-on, and a Windows evaluation lab in the same subscription, whose runbook allows public or synthetic files only (not technically enforced)."
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
@@ -366,7 +366,7 @@
       {
         "name": "Firecrawl",
         "provider": "Mendable Labs, Inc.",
-        "useCase": "Two dependencies on one vendor. The hosted scraper reads public bid-portal pages for specification research and receives the page URL together with the extraction instructions the assistant's model wrote, which may derive from a user's conversation; no document, embedding or database row is sent. The vendor's PDF parser is a pinned software dependency that runs inside the boundary on customer PDFs, so no customer document reaches the vendor through it. Gap: the scrape tool is not gated on CUI mode, so an organization in CUI mode can reach this non-certified vendor. Plan: apply the integration CUI gate to the tool and its workflow activity before the 2026-12-01 Ongoing Certification Report.",
+        "useCase": "Two dependencies on one vendor. The hosted scraper reads public bid-portal pages for specification research and receives the page URL together with the extraction instructions the assistant's model wrote, which may derive from a user's conversation; no document, embedding or database row is sent. The vendor's PDF parser is a pinned software dependency that runs inside the boundary on customer PDFs, so no customer document reaches the vendor through it. Since 2026-10-21 the hosted scraper refuses an organization in CUI mode; until then such an organization could reach it.",
         "website": "https://www.firecrawl.dev"
       },
       {
@@ -383,9 +383,9 @@
       "title": "CEO and Co-Founder",
       "email": "gordon@specset.com"
     },
-    "version": "2026.10.14",
-    "lastUpdated": "2026-10-14T17:27:00Z",
-    "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Version 2026.10.14, published with Security Decision Record v2026.09.14.11: the engineering assistants are described as acting with the operating founder's own access, under the rule that data of organizations in CUI mode must not reach them, and the exclusion of those organizations' rows from the read-only service account's database role is in place since 2026-10-10; the project-clone tool refuses organizations in CUI mode, and the Google Cloud entry corrects where it is built to copy to: the founder's local development environment, not the development project. Version 2026.10.08's plan to also record that rule in the production-access procedure is withdrawn, since the tool enforces it; the policy and procedure reference gives the republished Incident Response and Vulnerability Management Procedures, the Privileged access procedure (edition 2026-10-09) and Operations Security Policy 3.2. Earlier versions are in this repository's history."
+    "version": "2026.10.21",
+    "lastUpdated": "2026-10-21T19:30:00Z",
+    "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Version 2026.10.21, published with Security Decision Record v2026.09.14.14 and the information-resources inventory edition 2026-10-21: the bid-opportunity service and the Firecrawl entry no longer state a CUI-mode gap for the hosted scraper, which refuses an organization in CUI mode since 2026-10-21. The policy and procedure reference is regenerated: the Incident Response and Vulnerability Management procedures and the privileged access procedure at edition 2026-10-21, and the Secure Configuration Guide as updated on 2026-10-20. Earlier versions are in this repository's history."
   },
   "documentation": [
     {
@@ -485,9 +485,9 @@
       "type": "Procedure",
       "file": "incident-response.pdf",
       "summary": "Incident detection, triage, FedRAMP reportability evaluation, initial, ongoing and final incident reports, the FedRAMP Security Inbox procedure and the quarterly review.",
-      "wordCount": 3788,
-      "currentVersion": "2026-10-14",
-      "lastUpdated": "2026-10-14",
+      "wordCount": 3808,
+      "currentVersion": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "relatedFedRampPractices": [
         "IEC-CSO-EFR",
         "IEC-CSO-EFI",
@@ -516,9 +516,9 @@
       "type": "Procedure",
       "file": "vulnerability-management.pdf",
       "summary": "Persistent vulnerability detection, PAIN-based evaluation, response timeframes, exceptions and risk acceptance, and the monthly vulnerability activity report.",
-      "wordCount": 4385,
-      "currentVersion": "2026-10-14",
-      "lastUpdated": "2026-10-14",
+      "wordCount": 4859,
+      "currentVersion": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "relatedFedRampPractices": [
         "VDR (all rules)",
         "VER (all rules)"
@@ -530,9 +530,9 @@
       "type": "Plan",
       "file": "12-recovery-and-backup-configuration.pdf",
       "summary": "Service recovery objectives, backup configuration by datastore, recovery procedures and the recovery testing cadence.",
-      "wordCount": 1157,
-      "currentVersion": "2026-09-13",
-      "lastUpdated": "2026-09-13",
+      "wordCount": 1340,
+      "currentVersion": "2026-10-20",
+      "lastUpdated": "2026-10-20",
       "relatedFedRampPractices": [
         "KSI-RPL-ARP",
         "KSI-RPL-RRO",
@@ -546,9 +546,9 @@
       "type": "Procedure",
       "file": "https://docs.specset.com/docs/secure-configuration",
       "summary": "For the administrators of a customer organization: the accounts that control an organization, the recommended security settings for one holding federal information or CUI, and how account access is requested and recovered.",
-      "wordCount": 1288,
+      "wordCount": 1355,
       "currentVersion": "2026.09.18.2",
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-20",
       "relatedFedRampPractices": [
         "SCG-CSO-RSC",
         "SCG-CSO-PUB",
@@ -595,9 +595,9 @@
       "type": "Procedure",
       "file": "significant-change-notification.md",
       "summary": "How each production change is evaluated for significance, confirmed by an operator, recorded and, when significant, notified.",
-      "wordCount": 3132,
-      "currentVersion": "edition 2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "wordCount": 3151,
+      "currentVersion": "edition 2026-10-16",
+      "lastUpdated": "2026-10-16",
       "relatedFedRampPractices": [
         "SCN (all rules)",
         "KSI-CMT-LMC"
@@ -609,9 +609,9 @@
       "type": "Procedure",
       "file": "use-of-representative-samples.md",
       "summary": "Every place where Specset's own verification and validation looks at a sample instead of a whole population, and why the sample stands for the rest.",
-      "wordCount": 476,
-      "currentVersion": "edition 2026-10-05",
-      "lastUpdated": "2026-10-05",
+      "wordCount": 489,
+      "currentVersion": "edition 2026-10-16",
+      "lastUpdated": "2026-10-16",
       "relatedFedRampPractices": [
         "IVV-CSO-USR",
         "IVV-CSO-DUS"
@@ -623,9 +623,9 @@
       "type": "Procedure",
       "file": "privileged-access.md",
       "summary": "How the founders obtain administrative access to production per task, with a reason and for a limited time, through Privileged Access Manager, and the last-resort path.",
-      "wordCount": 2661,
-      "currentVersion": "edition 2026-10-09",
-      "lastUpdated": "2026-10-09",
+      "wordCount": 2694,
+      "currentVersion": "edition 2026-10-21",
+      "lastUpdated": "2026-10-21",
       "relatedFedRampPractices": [
         "KSI-IAM-JIT",
         "KSI-IAM-ELP"

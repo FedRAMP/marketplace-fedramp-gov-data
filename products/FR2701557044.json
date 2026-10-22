@@ -1,0 +1,86 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2701557044",
+    "providerName": "Business Integra Technology Solutions, Inc.",
+    "serviceName": "Moderniza",
+    "serviceAcronym": "MODZ",
+    "serviceDescription": "Moderniza converts legacy estates (COBOL, VB6, PHP, Java, .NET and others) into modern, tested, containerised applications through an evidence-driven pipeline of five steps: Blueprint, Contract, Code, Testing and Deploy. Every step leaves a ledger the customer can audit.",
+    "certificationType": "20x",
+    "website": "https://platform.gomoderniza.ai",
+    "logo": "https://platform.gomoderniza.ai/moderniza-logo.svg",
+    "ueiNumber": "NBELUNT3NMG3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Development Tools",
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://platform.gomoderniza.ai/trust-center",
+      "repositoryDescription": "FedRAMP Certification Data: offering profile, Key Security Indicators, historical snapshots, policies, vulnerability and ongoing certification reports.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Public certification data needs no account. Agency customers and assessors receive a read-only account with the compliance:read permission, which unlocks per-measurement evidence and historical snapshots through the same URLs."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://platform.gomoderniza.ai/docs/secure-configuration",
+      "repositoryDescription": "How to configure the offering securely.",
+      "authenticationRequired": false
+    },
+    "nextOngoingCertificationReportDate": "2026-12-15"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Prathiba Ramadoss",
+      "contactEmail": "Security@businessintegra.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Selva Jayaraman",
+      "contactEmail": "growth@businessintegra.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Blueprint",
+      "serviceDescription": "Scans the uploaded legacy source (inventory, reading plan, business-rule extraction; unsafe files are quarantined) and produces the target architecture, epics, user stories and screen designs. Code generation does not start until the Blueprint is approved."
+    },
+    {
+      "serviceName": "Contract",
+      "serviceDescription": "Defines the entities, APIs, business rules and screens the modern application must honor, built from the approved Blueprint and approved rules."
+    },
+    {
+      "serviceName": "Code",
+      "serviceDescription": "Splits the work into tasks and generates the application; accepted only after it builds, starts, answers API smoke tests, navigates correctly and passes its generated tests."
+    },
+    {
+      "serviceName": "Testing",
+      "serviceDescription": "Runs the generated application, records every defect in an issue ledger and repairs it (Run & Fix), then produces the fidelity, maintainability and security code report."
+    },
+    {
+      "serviceName": "Deploy",
+      "serviceDescription": "Deploys the delivery into the customer's containers after the pre-deploy gates pass."
+    },
+    {
+      "serviceName": "Business Rules & Drools Workbench",
+      "serviceDescription": "Review, editing and Drools export of the extracted business rules."
+    }
+  ],
+  "assessor": {
+    "name": "Kompleye",
+    "assessorID": "201591"
+  },
+  "ZD_frid_retro": "FR2701557044",
+  "id_matches_expected": true
+}

@@ -1,0 +1,365 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "TBD: assigned by FedRAMP",
+    "ueiNumber": "K6HZESJM3DX5",
+    "providerName": "Replit, Inc.",
+    "serviceName": "Replit for Government",
+    "serviceAcronym": "REPLIT-USG",
+    "serviceDescription": "Replit for Government is a cloud platform that lets\ngovernment organizations securely build, run and deploy\nsoftware with the help of AI. It combines , an AI agent that\nplans, builds, tests and changes applications from natural-\nlanguage prompts, with a Cloud Development Environment\nthat gives each user an isolated cloud workspace with a\npersistent filesystem, in-browser and SSH access, real-time\ncollaboration and AI coding assistance. Through Replit\nDeployments,\nUsers can deploy applications that are immediately\nshareable with your teams on a secure platform for mission\ncritical federal systems..",
+    "certificationType": "20x",
+    "website": "https://replit.com",
+    "logo": "https://replit-brand.replit.app/api/static/brand-assets/logos/svg/replit-wordmark.svg",
+    "certificationClass": "A",
+    "certificationPath": "Program"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Collaboration",
+      "Development Tools"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/replit/replit-for-government",
+      "repositoryDescription": "FedRAMP Trust Center for the Cloud Service Offering.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Agencies can request access by emailing **security@repl.it\nor security@replit.com**. Replit's GRC team reviews each\nrequest and grants access to the FedRAMP certification\ndata in the trust center.",
+      "agencyAccessDenialProcess": "Agencies send access requests to security@repl.it. GRC\nlogs and reviews each request. If GRC denies a request,\nGRC notifies FedRAMP within 5 business days through the\n\"[CSP] Agency Access Denial\" form, including the agency\nname, request date, denial date and reason. GRC also\nnotifies the requesting agency and keeps a record of each\nrequest, decision and notification."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.replit.com/teams/enterprise-privacy-settings",
+      "repositoryDescription": "Secure Configuration Guidance for the Cloud Service Offering.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": ""
+    },
+    "additionalRepositoryNotes": [
+      "https://trust.replit.com : Replit trust center (Vanta) with SOC 2 materials, available under NDA",
+      "https://replit.com/subprocessors : public list of Replit subprocessors",
+      "https://trust.paramify.com/replit/replit-for-government"
+    ],
+    "ongoingCertificationReportLocation": "https://trust.paramify.com/replit/replit-for-government",
+    "informationResources": {
+      "summary": "The offering matches the system boundary of Replit's SOC 2\nType II examination of its Cloud Services and Cloud\nDevelopment Environment. It runs on Google Cloud\nPlatform and includes the infrastructure, software, data,\npeople and procedures that directly support Replit Agent,\nthe Cloud Development Environment and Replit\nDeployments. Resources listed below are those likely to\nhandle federal customer data or to affect its confidentiality,\nintegrity or availability. Third-party services are described in\nSection 8.",
+      "explicitExclusions": "Replit mobile and desktop apps, which are software installed\non user devices and outside the scope of FedRAMP A. We\nwill plan to include this in scope as we move forward.\nInternal corporate systems that do not support delivery of\nthe service, such as HR, payroll and recruiting tools.",
+      "resources": [
+        {
+          "name": "Google Cloud production infrastructure",
+          "type": "Machine-based",
+          "descriptionAndRole": "Google Kubernetes Engine, Compute Engine, Cloud\nStorage, Cloud SQL and related Google Cloud services that\nhost all Replit services and store customer data.",
+          "handlesFederalCustomerData": true
+        },
+        {
+          "name": "Replit web application and API",
+          "type": "Machine-based",
+          "descriptionAndRole": "The replit.com web application and GraphQL API that users\nand administrators use to access the service.",
+          "handlesFederalCustomerData": true
+        },
+        {
+          "name": "Cloud Development Environment runtime",
+          "type": "Machine-based",
+          "descriptionAndRole": "Isolated per-user microVMs and the control plane that create\nand run cloud workspaces and store project files.",
+          "handlesFederalCustomerData": true
+        },
+        {
+          "name": "Replit Agent and AI model proxy",
+          "type": "Machine-based",
+          "descriptionAndRole": "Services that run Replit Agent and route prompts and\nworkspace content to AI model providers.",
+          "handlesFederalCustomerData": true
+        },
+        {
+          "name": "Replit Deployments hosting",
+          "type": "Machine-based",
+          "descriptionAndRole": "Infrastructure that builds and runs customer applications as\nReserved VM, Autoscale and Static deployments.",
+          "handlesFederalCustomerData": true
+        },
+        {
+          "name": "User authentication services",
+          "type": "Machine-based",
+          "descriptionAndRole": "Firebase (Google Identity Platform) for user sign-in and\nWorkOS for customer single sign-on.",
+          "handlesFederalCustomerData": true
+        },
+        {
+          "name": "Key and secrets management",
+          "type": "Machine-based",
+          "descriptionAndRole": "Google Cloud KMS, Google Secret Manager and HashiCorp\nVault, which hold encryption keys and service secrets.",
+          "handlesFederalCustomerData": false,
+          "impactOnConfidentialityIntegrityAvailability": "Protects the confidentiality and integrity of customer data by\ncontrolling the keys and secrets used to encrypt and access\nit."
+        },
+        {
+          "name": "Logging and monitoring",
+          "type": "Machine-based",
+          "descriptionAndRole": "Datadog, Sentry and Google Cloud logging, which collect\nsystem logs, metrics, traces and error reports. Logs may\ninclude customer data.",
+          "handlesFederalCustomerData": true
+        },
+        {
+          "name": "Source control and CI/CD",
+          "type": "Machine-based",
+          "descriptionAndRole": "GitHub, Semaphore, Harness and Argo CD, which store\nsource code and deploy changes to production.",
+          "handlesFederalCustomerData": false,
+          "impactOnConfidentialityIntegrityAvailability": "Affects integrity and availability because these systems build\nand deploy the code that runs the service."
+        },
+        {
+          "name": "Workforce identity and device management",
+          "type": "Machine-based",
+          "descriptionAndRole": "Okta for workforce single sign-on and MFA, plus endpoint\nmanagement for employee devices.",
+          "handlesFederalCustomerData": false,
+          "impactOnConfidentialityIntegrityAvailability": "Affects confidentiality and integrity because it controls which\nReplit personnel can access production systems."
+        },
+        {
+          "name": "Replit operations and support personnel",
+          "type": "Non-machine-based",
+          "descriptionAndRole": "Security, SRE, engineering and support staff who operate\nthe service and respond to incidents and customer requests.",
+          "handlesFederalCustomerData": true
+        }
+      ]
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "FedRAMP Security Inbox",
+      "contactEmail": "security@replit.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Manish Mehta",
+      "contactEmail": "security@replit.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Nick Co.",
+      "contactEmail": "federal@replit.com"
+    },
+    {
+      "contactType": "Technology",
+      "contactName": "Luis Hector Chavez",
+      "contactEmail": "luis@repl.it"
+    }
+  ],
+  "alternativeSecurityFramework": {
+    "frameworkUsed": "SOC 2 Type II",
+    "impactLevelScope": "SOC 2 Type II, Security Trust Services Criteria. System:\nReplit Cloud Services and Cloud Development Environment.\nExamination period: June 2, 2024 to October 31, 2025.",
+    "dateCompleted": "2026-03-12",
+    "certifyingBody": "Prescient Assurance LLC",
+    "independentAssessmentIncluded": "Yes",
+    "mappingToFedRampRules": "FRC-CSO-PKG and FRC-CSO-JSN: Replit is preparing this\npackage and the required JSON files with Paramify.\nFRC-CSO-POP: Replit has selected the FedRAMP 20x path\nand is not pursuing Rev5 for this offering.\nMAS-CSO-IIR: Scope matches the SOC 2 system boundary.\nSee Section 6.\nCDS-CSO-PUB and CDS-CSO-UTC: Public information and\ncertification data will be published through a FedRAMP-\ncompatible trust center on Paramify.\nCDS-UTC-AAD: GRC owns a documented procedure to\nnotify FedRAMP within 5 business days of denying an\nagency access request. See Section 2.\nAFC-CSO-INB, AFC-CSO-RCV and AFC-CSO-CRA:\nsecurity@repl.it is the FedRAMP Security Inbox. It is a\nshared inbox reviewed by the Security team, who will act on\nFedRAMP Emergency and Emergency Test messages\nwithin the stated timeframes.\nIEC-CSO-EFR and IEC-CSO-FIR: Replit follows its Incident\nResponse Plan (v1.3, effective September 11, 2026), using\nRootly to log, track and communicate incidents. The SOC 2\nauditor tested incident logging, tracking and communication\nwith no exceptions. Replit will add a step to evaluate\nwhether incidents affect federal customer data and will issue\nFinal Incident Reports within 3 business days of resolution.\nVDR-CSO-DET: Replit scans source code and\ndependencies, uses Wiz for cloud security and vulnerability\nscanning, scans external-facing systems at least quarterly,\nruns an annual third-party penetration test and operates a\nprivate bug bounty program. Datadog and Cloudflare\nprovide intrusion detection. The SOC 2 auditor noted\nexceptions in tracking critical and high findings to\nremediation and in patch timing.\nCCM-OCR-AVL and CCM-OCR-NRD: Replit will produce an\nOngoing Certification Report every 3 months and publish the\nnext report date.\nIVV-CSX-AIA: Replit maintains an annual SOC 2 Type II\nexamination with Prescient Assurance. The current\nexamination period runs from November 1, 2025 to October\n31, 2026.\nKSI-CMT-LMC: Changes go through tickets, testing,\napproval and version control, and CI/CD deployments are\nlogged and monitored with alerts. Tested by the SOC 2\nauditor with no exceptions (CC7.2, CC8.1).\nKSI-CNA-RNT: Production containers are firewalled and\nexternal traffic enters only through designated HTTPS\nfrontends. Firewall rules are reviewed at least annually.\nTested with no exceptions (CC6.6).\nKSI-CED-RAT: All employees complete security awareness\ntraining in KnowBe4 within 30 days of hire and annually.\nTested with no exceptions (CC1.4, CC2.2).\nKSI-IAM-AAM: Okta is the workforce identity provider, with\nautomated provisioning through SCIM for connected\napplications. Access is removed within 24 hours of\ntermination and reviewed periodically. Tested with no\nexceptions (CC6.2, CC6.3).\nKSI-IAM-APM: Okta enforces single sign-on and MFA for in-\nscope systems. Okta FastPass passwordless sign-in is\navailable. Tested with no exceptions (CC6.1, CC6.6).\nKSI-INR-RIR: The Incident Response Plan requires at least\nannual testing with lessons learned recorded. Annual\ntabletop exercises were tested with no exceptions (CC7.4,\nCC7.5).\nKSI-SVC-SIN: Data is encrypted in transit with TLS and at\nrest through Google Cloud encryption and Cloud KMS.\nBackups are encrypted, access is role-based with SSO and\nMFA, and customer data is deleted under a retention policy.\nTested with no exceptions (CC6.1 to CC6.6).",
+    "documentation": [
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Complete report",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Bridge or gap letter",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Verified audit engagement documentation",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Estimated schedule for upcoming report",
+        "location": "Current examination period: November 1, 2025 to October\n31, 2026. Report expected after the period closes; issuance\ndate TBD."
+      },
+      {
+        "framework": "SOC 2 Type II",
+        "documentType": "Supplemental compliance evidence",
+        "location": "Please see Trust Center"
+      },
+      {
+        "framework": "FedRAMP Ready",
+        "documentType": "Readiness Assessment Report",
+        "location": "Not applicable"
+      },
+      {
+        "framework": "FedRAMP Ready",
+        "documentType": "Security Assessment Plan",
+        "location": "Not applicable"
+      },
+      {
+        "framework": "FedRAMP Ready",
+        "documentType": "Other materials required by FedRAMP",
+        "location": "Not applicable"
+      },
+      {
+        "framework": "GovRAMP",
+        "documentType": "Readiness Assessment Report",
+        "location": "Not applicable"
+      },
+      {
+        "framework": "GovRAMP",
+        "documentType": "Security Assessment Plan",
+        "location": "Not applicable"
+      },
+      {
+        "framework": "GovRAMP",
+        "documentType": "Other materials required by GovRAMP",
+        "location": "Not applicable"
+      }
+    ]
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Replit Agent",
+      "serviceDescription": "AI agent that plans, builds, tests and changes applications\nfrom natural-language prompts inside the user's cloud\nworkspace."
+    },
+    {
+      "serviceName": "Cloud Development Environment",
+      "serviceDescription": "Isolated cloud workspaces with a persistent filesystem for\nwriting, running and testing code, with in-browser and SSH\naccess, real-time collaboration and AI coding assistance."
+    },
+    {
+      "serviceName": "Replit Deployments",
+      "serviceDescription": "Hosting for applications built on Replit, offered as Reserved\nVM, Autoscale and Static deployments, each with a build\nand deployment step."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "metadataIncludedInScope": "Yes. Metadata about federal customer data, such as\naccount, usage, audit log and system log metadata, is\nincluded in the scope of the offering.",
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477 (Google Services: Google Cloud Platform\nProducts and underlying Infrastructure)",
+        "useCase": "Hosts all Replit compute, storage, databases, key\nmanagement and Vertex AI model inference.",
+        "usageAndConfiguration": "Replit-managed Google Cloud projects running Google\nKubernetes Engine, Compute Engine, Cloud Storage, Cloud\nSQL, Cloud KMS, Secret Manager and Vertex AI.",
+        "justificationForUse": "Primary infrastructure provider for the offering, with an\nexisting FedRAMP certification.",
+        "mitigationMeasures": "Data is encrypted at rest with Google default encryption and\nCloud KMS and in transit with TLS. Access uses least-\nprivilege IAM roles and is logged.",
+        "compensatingControls": "Replit reviews Google's attestation reports at least annually\nand performs a risk analysis of Google Cloud Platform.",
+        "securityCategory": "High"
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Claude models",
+        "provider": "Anthropic",
+        "website": "https://www.anthropic.com",
+        "useCase": "AI model inference for Replit Agent and AI features. Models\ncan be enabled or disabled based on customer preferences",
+        "usageAndConfiguration": "Prompts and related workspace content are sent to\nAnthropic models through the Anthropic API and Google\nVertex AI, if chosen by the customer",
+        "justificationForUse": "Provides the AI models that power Replit Agent.",
+        "mitigationMeasures": "Customer data is encrypted in transit with TLS. Data shared\nis limited to what the service needs to function.",
+        "compensatingControls": "Replit manages this provider under its vendor management\nprogram, which includes contracts that define security\nresponsibilities, review of the provider's attestation reports\nand periodic discussions with the provider. Models can be\nenabled or disabled based on customer preferences."
+      },
+      {
+        "name": "OpenAI API",
+        "provider": "OpenAI",
+        "website": "https://openai.com",
+        "useCase": "AI model inference for AI features.",
+        "usageAndConfiguration": "Prompts and related workspace content are sent to OpenAI\nmodels through the OpenAI API. Models can be enabled or\ndisabled based on customer preferences",
+        "justificationForUse": "Provides AI models used by Replit AI features.",
+        "mitigationMeasures": "Customer data is encrypted in transit with TLS. Data shared\nis limited to what the service needs to function.",
+        "compensatingControls": "Replit manages this provider under its vendor management\nprogram, which includes contracts that define security\nresponsibilities, review of the provider's attestation reports\nand periodic discussions with the provider. Models can be\nenabled or disabled based on customer preferences."
+      },
+      {
+        "name": "Fireworks AI",
+        "provider": "Fireworks AI",
+        "website": "https://fireworks.ai",
+        "useCase": "AI model inference for AI features.",
+        "usageAndConfiguration": "Prompts and related content are sent to models hosted by\nFireworks AI through its API.",
+        "justificationForUse": "Provides hosted open models used by Replit AI features.",
+        "mitigationMeasures": "Customer data is encrypted in transit with TLS. Data shared\nis limited to what the service needs to function.",
+        "compensatingControls": "Replit manages this provider under its vendor management\nprogram, which includes contracts that define security\nresponsibilities, review of the provider's attestation reports\nand periodic discussions with the provider."
+      },
+      {
+        "name": "OpenRouter",
+        "provider": "OpenRouter",
+        "website": "https://openrouter.ai",
+        "useCase": "AI model routing for Replit AI Integrations.",
+        "usageAndConfiguration": "Requests from Replit AI Integrations are routed through\nOpenRouter to supported model providers.",
+        "justificationForUse": "Gives users access to a broad set of AI models.",
+        "mitigationMeasures": "Customer data is encrypted in transit with TLS. Data shared\nis limited to what the service needs to function.",
+        "compensatingControls": "Replit manages this provider under its vendor management\nprogram, which includes contracts that define security\nresponsibilities, review of the provider's attestation reports\nand periodic discussions with the provider."
+      },
+      {
+        "name": "Firecrawl",
+        "provider": "SideGuide Technologies, Inc.",
+        "website": "https://www.firecrawl.dev",
+        "useCase": "Web data extraction for AI features.",
+        "usageAndConfiguration": "Replit calls the Firecrawl API to retrieve web content used\nby AI features.",
+        "justificationForUse": "Provides web content retrieval for Replit Agent.",
+        "mitigationMeasures": "Customer data is encrypted in transit with TLS. Data shared\nis limited to what the service needs to function.",
+        "compensatingControls": "Replit manages this provider under its vendor management\nprogram, which includes contracts that define security\nresponsibilities, review of the provider's attestation reports\nand periodic discussions with the provider."
+      },
+      {
+        "name": "Neon",
+        "provider": "Neon",
+        "website": "https://neon.com",
+        "useCase": "Managed Postgres databases for customer applications.",
+        "usageAndConfiguration": "Customer application databases are created and stored in\nNeon on behalf of users.",
+        "justificationForUse": "Provides managed databases for applications built on Replit.",
+        "mitigationMeasures": "Customer data is encrypted in transit with TLS. Data shared\nis limited to what the service needs to function.",
+        "compensatingControls": "Replit manages this provider under its vendor management\nprogram, which includes contracts that define security\nresponsibilities, review of the provider's attestation reports\nand periodic discussions with the provider."
+      },
+      {
+        "name": "Cloudflare",
+        "provider": "Cloudflare, Inc.",
+        "website": "https://www.cloudflare.com",
+        "useCase": "CDN, DNS, DDoS protection and web application firewall.",
+        "usageAndConfiguration": "User and application traffic passes through Cloudflare's\nnetwork before reaching Replit services.",
+        "justificationForUse": "Protects the service from attacks and improves availability.",
+        "mitigationMeasures": "Customer data is encrypted in transit with TLS. Data shared\nis limited to what the service needs to function.",
+        "compensatingControls": "Replit manages this provider under its vendor management\nprogram, which includes contracts that define security\nresponsibilities, review of the provider's attestation reports\nand periodic discussions with the provider."
+      },
+      {
+        "name": "Firebase Authentication",
+        "provider": "Google",
+        "website": "https://firebase.google.com",
+        "useCase": "User sign-in for the Replit platform.",
+        "usageAndConfiguration": "Stores user identity information and issues sign-in tokens.",
+        "justificationForUse": "Provides user authentication for the platform.",
+        "mitigationMeasures": "Customer data is encrypted in transit with TLS. Data shared\nis limited to what the service needs to function.",
+        "compensatingControls": "Replit manages this provider under its vendor management\nprogram, which includes contracts that define security\nresponsibilities, review of the provider's attestation reports\nand periodic discussions with the provider."
+      },
+      {
+        "name": "WorkOS",
+        "provider": "WorkOS, Inc.",
+        "website": "https://workos.com",
+        "useCase": "Single sign-on and audit log integration for customer\norganizations.",
+        "usageAndConfiguration": "Connects enterprise customers' identity providers to Replit\nand streams organization audit logs.",
+        "justificationForUse": "Supports enterprise SSO and audit log export.",
+        "mitigationMeasures": "Customer data is encrypted in transit with TLS. Data shared\nis limited to what the service needs to function.",
+        "compensatingControls": "Replit manages this provider under its vendor management\nprogram, which includes contracts that define security\nresponsibilities, review of the provider's attestation reports\nand periodic discussions with the provider."
+      },
+      {
+        "name": "Datadog",
+        "provider": "Datadog, Inc.",
+        "website": "https://www.datadoghq.com",
+        "useCase": "Infrastructure and application monitoring and logging.",
+        "usageAndConfiguration": "Receives system logs, metrics and traces from Replit\nservices. Logs may contain customer data.",
+        "justificationForUse": "Supports monitoring, alerting and intrusion detection.",
+        "mitigationMeasures": "Customer data is encrypted in transit with TLS. Data shared\nis limited to what the service needs to function.",
+        "compensatingControls": "Replit manages this provider under its vendor management\nprogram, which includes contracts that define security\nresponsibilities, review of the provider's attestation reports\nand periodic discussions with the provider."
+      },
+      {
+        "name": "Temporal Cloud",
+        "provider": "Temporal Technologies, Inc.",
+        "website": "https://temporal.io",
+        "useCase": "Workflow orchestration for production services.",
+        "usageAndConfiguration": "Runs workflow state for Replit background jobs.",
+        "justificationForUse": "Provides reliable orchestration for production workflows.",
+        "mitigationMeasures": "Customer data is encrypted in transit with TLS. Data shared\nis limited to what the service needs to function.",
+        "compensatingControls": "Replit manages this provider under its vendor management\nprogram, which includes contracts that define security\nresponsibilities, review of the provider's attestation reports\nand periodic discussions with the provider."
+      },
+      {
+        "name": "Synadia Cloud (NATS)",
+        "provider": "Synadia Communications, Inc.",
+        "website": "https://www.synadia.com",
+        "useCase": "Managed messaging for production services.",
+        "usageAndConfiguration": "Carries messages between Replit services.",
+        "justificationForUse": "Provides reliable messaging between production services.",
+        "mitigationMeasures": "Customer data is encrypted in transit with TLS. Data shared\nis limited to what the service needs to function.",
+        "compensatingControls": "Replit manages this provider under its vendor management\nprogram, which includes contracts that define security\nresponsibilities, review of the provider's attestation reports\nand periodic discussions with the provider."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2701457579",
+  "id_matches_expected": false
+}

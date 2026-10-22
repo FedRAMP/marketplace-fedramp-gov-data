@@ -50,11 +50,12 @@
     "securityCategorization": "Moderate (FedRAMP Certification Level Class C)"
   },
   "cpoMetadata": {
-    "version": "2026.08.26",
-    "lastUpdated": "2026-08-26T18:21:46.492Z",
-    "updateSource": "FedRAMP GRC Tool",
+    "version": "2026.10.16",
+    "lastUpdated": "2026-10-16T16:35:24.326Z",
+    "updateSource": "AWS FedRAMP GRC Tool (grc.complianceai.security.aws.dev)",
     "accountableOfficial": {
-      "contactTitle": "Head of US Government Assurance",
+      "contactName": "Chris Ruhl",
+      "contactTitle": "Director, AWS Compliance & Security Assurance",
       "contactEmail": "aws-compliance-fedramp@amazon.com"
     }
   },
@@ -86,6 +87,11 @@
       "dateAvailable": "2024-07-10"
     },
     {
+      "serviceName": "Amazon Application Recovery Controller",
+      "serviceDescription": "Amazon Application Recovery Controller (ARC) helps prepare for and complete recovery of applications running on AWS infrastructure. ARC provides multi-Availability Zone recovery through zonal shift and zonal autoshift, which temporarily move traffic for supported resources away from an impaired Availability Zone to healthy Availability Zones in the same AWS Region, and multi-Region recovery through routing control, which fails over DNS traffic between AWS Regions using highly reliable routing controls and customer-defined safety rules, and readiness check, which monitors application resources across Regions for recovery readiness.",
+      "dateAvailable": "2026-10-15"
+    },
+    {
       "serviceName": "Amazon Athena",
       "serviceDescription": "Amazon Athena is an interactive query service that enables analyzation of data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and customers pay only for the queries that are run.",
       "dateAvailable": "2019-11-25"
@@ -114,6 +120,11 @@
       "serviceName": "Amazon Bedrock Agentcore",
       "serviceDescription": "Amazon Bedrock AgentCore is the platform to build, connect, and optimize AI agents at scale. Customers can build with any open-source framework and any model. AgentCore enables customers to connect agents to their tools and data with authentication and access controls built in. Customers can monitor and improve agents in production with tracing and evaluation. AgentCore handles the infrastructure so customers can focus on agent logic, not backend plumbing, and provides enterprise-grade security and reliability without giving up open-source flexibility.",
       "dateAvailable": "2026-07-13"
+    },
+    {
+      "serviceName": "Amazon Braket [excludes third-party quantum hardware provider job execution]",
+      "serviceDescription": "AWS Braket is a fully managed quantum computing service that provides access to quantum hardware from third-party Quantum Hardware Providers (QHPs). The AWS Braket certification boundary includes AWS-operated components only - AWS Braket API, SDK, orchestration layer, job management, and result storage (Amazon S3). Quantum job execution occurs on QHP infrastructure outside the AWS FedRAMP certification boundary. As such, AWS Braket FedRAMP Certification does not include QHP infrastructure.",
+      "dateAvailable": "2026-10-01"
     },
     {
       "serviceName": "Amazon Chime SDK",
@@ -156,8 +167,8 @@
       "dateAvailable": "2021-05-17"
     },
     {
-      "serviceName": "Amazon Connect",
-      "serviceDescription": "Amazon Connect is an omnichannel cloud contact center that helps provide customer service across voice and chat for customers and agents. This includes one set of tools for skills-based routing, real-time and historical analytics, and intuitive management tools.",
+      "serviceName": "Amazon Connect Customer",
+      "serviceDescription": "Amazon Connect Customer is a cloud-based contact center solution that enables organizations to build and manage customer communication experiences across multiple channels including voice, chat, and SMS. The service engages customers at every touchpoint through AI-powered capabilities, intelligent routing, and real-time performance tracking to connect customers with agents and facilitate issue resolution.",
       "dateAvailable": "2020-07-09"
     },
     {
@@ -231,6 +242,11 @@
       "dateAvailable": "2017-10-30"
     },
     {
+      "serviceName": "Amazon Elastic VMware Service",
+      "serviceDescription": "Run VMware Cloud Foundation (VCF) directly within your Amazon Virtual Private Cloud (Amazon VPC) with Amazon Elastic VMware Service (EVS). Experience the scale, resilience, and performance of AWS while keeping your familiar VCF software and skills — all without re-platforming or re-factoring. Whether you choose to self-manage or work with AWS Partners, Amazon EVS allows you to seamlessly extend and expand your VMware environment and unlock business agility and transformation.",
+      "dateAvailable": "2026-09-03"
+    },
+    {
       "serviceName": "Amazon ElastiCache",
       "serviceDescription": "Amazon ElastiCache is an in-memory data store that provides sub-millisecond latency to power internet-scale real-time applications. Built on open-source Redis and compatible with the Redis APIs, ElastiCache works with Redis clients and uses the open Redis data format to store data.",
       "dateAvailable": "2017-10-30"
@@ -239,11 +255,6 @@
       "serviceName": "Amazon EventBridge",
       "serviceDescription": "Amazon EventBridge is a serverless event bus that enables building of event-driven applications at scale using events generated from applications, integrated Software-as-a-Service (SaaS) applications, and AWS services.",
       "dateAvailable": "2019-11-25"
-    },
-    {
-      "serviceName": "Amazon FinSpace",
-      "serviceDescription": "Amazon FinSpace is a data management and analytics service purpose-built for the financial services industry (FSI).",
-      "dateAvailable": "2022-05-10"
     },
     {
       "serviceName": "Amazon Forecast",
@@ -264,11 +275,6 @@
       "serviceName": "Amazon Inspector",
       "serviceDescription": "Amazon Inspector is a vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure. Amazon Inspector automatically discovers running Amazon Elastic Compute Cloud (EC2) instances and container images residing in Amazon Elastic Container Registry (ECR), at any scale, and immediately starts assessing them for known vulnerabilities.",
       "dateAvailable": "2023-10-13"
-    },
-    {
-      "serviceName": "Amazon Inspector Classic",
-      "serviceDescription": "Amazon Inspector Classic tests the network accessibility of Amazon EC2 instances and the security state of applications that run on those instances. Amazon Inspector Classic assesses applications for exposure, vulnerabilities, and deviations from best practices. After performing an assessment, Amazon Inspector Classic produces a detailed list of security findings that is organized by level of severity.",
-      "dateAvailable": "2017-10-30"
     },
     {
       "serviceName": "Amazon Kendra",
@@ -396,11 +402,6 @@
       "dateAvailable": "2019-11-25"
     },
     {
-      "serviceName": "Amazon Resource Explorer",
-      "serviceDescription": "AWS Resource Explorer is a resource search and discovery service. With Resource Explorer, customers can explore their resources, such as Amazon Elastic Compute Cloud instances, Amazon Kinesis streams, or Amazon DynamoDB tables, using an internet search engine-like experience. Resource Explorer allows customers to easily search for their resources using resource metadata like names, tags, and IDs, and displays additional resource details from other AWS services, such as AWS Config and AWS Cloud Control. Customers can add resource metadata using tags, and collectively manage resources in an application. Resource Explorer works across AWS Regions in a customer's account to simplify cross-Region workloads.",
-      "dateAvailable": "2026-08-06"
-    },
-    {
       "serviceName": "Amazon Route 53",
       "serviceDescription": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service designed to provide a way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other.",
       "dateAvailable": "2017-10-30"
@@ -491,11 +492,6 @@
       "dateAvailable": "2024-02-26"
     },
     {
-      "serviceName": "AWS App Mesh",
-      "serviceDescription": "AWS App Mesh is a service mesh that provides application-level networking to make it easy for services to communicate with each other across multiple types of compute infrastructure. App Mesh gives end-to-end visibility and high-availability for customer applications.",
-      "dateAvailable": "2022-03-31"
-    },
-    {
       "serviceName": "AWS Application Migration Service (MGN)",
       "serviceDescription": "AWS Application Migration Service (AWS MGN) minimizes time-intensive, error-prone manual processes by automatically converting customer source servers from physical, virtual, or cloud infrastructure to run natively on AWS. AWS Application Migration Service is the primary migration service recommended for lift-and-shift migrations to AWS.",
       "dateAvailable": "2023-06-12"
@@ -579,6 +575,11 @@
       "serviceName": "AWS Config",
       "serviceDescription": "AWS Config is a service that enables the assessment, audit, and evaluation of the configurations of AWS resources. Config continuously monitors and records AWS resource configurations and allows the automation and evaluation of recorded configurations against desired configurations.",
       "dateAvailable": "2017-10-30"
+    },
+    {
+      "serviceName": "AWS Continuum",
+      "serviceDescription": "AWS Continuum discovers, prioritizes, validates, and remediates security risks across the software lifecycle, at machine speed and within defined guardrails. Before code ships, it helps with on-demand penetration testing and finding risks in designs and code. Once systems are running, AWS Continuum decides which risks matter business, proves which are exploitable, and drives toward a fix.",
+      "dateAvailable": "2026-10-05"
     },
     {
       "serviceName": "AWS Control Tower",
@@ -701,11 +702,6 @@
       "dateAvailable": "2019-11-25"
     },
     {
-      "serviceName": "AWS IoT Events",
-      "serviceDescription": "AWS Internet of Things (IoT) Events is a fully managed service the detection of and response to events from IoT sensors and applications.",
-      "dateAvailable": "2023-06-12"
-    },
-    {
       "serviceName": "AWS IoT Greengrass",
       "serviceDescription": "AWS Internet of Things (IoT) Greengrass seamlessly extends AWS to edge devices so they can act locally on the data they generate, while still using the cloud for management, analytics, and durable storage. With AWS IoT Greengrass, connected devices can run AWS Lambda functions, Docker containers, or both, execute predictions based on machine learning models, keep device data in sync, and communicate with other devices securely even when not connected to the Internet.",
       "dateAvailable": "2019-11-25"
@@ -769,6 +765,11 @@
       "serviceName": "AWS Resource Access Manager (AWS RAM)",
       "serviceDescription": "AWS Resource Access Manager (AWS RAM) helps securely share resources across AWS accounts, within the organization or organizational units (OUs) in AWS Organizations, and with IAM roles and IAM users for supported resource types. AWS RAM can be used to share transit gateways, subnets, AWS License Manager license configurations, Amazon Route 53 Resolver rules, and more resource types.",
       "dateAvailable": "2022-03-31"
+    },
+    {
+      "serviceName": "AWS Resource Explorer",
+      "serviceDescription": "AWS Resource Explorer is a resource search and discovery service. With Resource Explorer, customers can explore their resources, such as Amazon Elastic Compute Cloud instances, Amazon Kinesis streams, or Amazon DynamoDB tables, using an internet search engine-like experience. Resource Explorer allows customers to easily search for their resources using resource metadata like names, tags, and IDs, and displays additional resource details from other AWS services, such as AWS Config and AWS Cloud Control. Customers can add resource metadata using tags, and collectively manage resources in an application. Resource Explorer works across AWS Regions in a customer's account to simplify cross-Region workloads.",
+      "dateAvailable": "2026-08-06"
     },
     {
       "serviceName": "AWS Resource Groups",
@@ -836,6 +837,11 @@
       "dateAvailable": "2021-12-08"
     },
     {
+      "serviceName": "AWS Transform",
+      "serviceDescription": "AWS Transform is a collaborative enterprise IT transformation workbench powered by expert agents that accelerates cloud migration, application modernization, and continuous tech debt reduction. It automates infrastructure migration for workloads across VMware, bare metal, and hybrid environments, modernizes applications including mainframe, Windows, and custom code transformations, and continuously analyzes and remediates tech debt across your entire portfolio, keeping your codebases current as AI accelerates the pace of change. Shared workspaces and natural language chat enable cross-functional teams to collaborate in real time and manage transformations from start to finish.",
+      "dateAvailable": "2026-08-24"
+    },
+    {
       "serviceName": "AWS Trusted Advisor",
       "serviceDescription": "AWS Trusted Advisor is an online tool that provides real time guidance to help provision resources following AWS best practices. Trusted Advisor checks help optimize AWS infrastructure, increase security and performance, reduce overall costs, and monitor service limits.",
       "dateAvailable": "2019-12-23"
@@ -851,11 +857,6 @@
       "dateAvailable": "2023-02-22"
     },
     {
-      "serviceName": "AWS Web Application Firewall Classic (WAF Classic)",
-      "serviceDescription": "AWS WAF Classic is a web application firewall that helps protect customer web applications or APIs against common web exploits that may affect availability, compromise security, or consume excessive resources.",
-      "dateAvailable": "2023-03-31"
-    },
-    {
       "serviceName": "AWS Well-Architected Tool",
       "serviceDescription": "AWS Well-Architected Tool provides a framework to evaluate cloud architecture and implement designs that will scale over time.",
       "dateAvailable": "2023-10-13"
@@ -869,6 +870,11 @@
       "serviceName": "AWS X-Ray",
       "serviceDescription": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture to help provide an understanding of how the application and its underlying services are performing to identify and troubleshoot the root cause of performance issues and errors.",
       "dateAvailable": "2021-05-07"
+    },
+    {
+      "serviceName": "Kiro",
+      "serviceDescription": "Kiro is an agentic artificial intelligence (AI) with an integrated development environment (IDE) and command line interface (CLI) that enables developing of software from prototype to production using spec-driven development. From simple to complex tasks, Kiro works with developers to convert prompts into detailed specifications, then into working code, documentation, and tests. Kiro's agents assist in solving technical problems and automate tasks such as generating documentation and unit tests.",
+      "dateAvailable": "2026-10-08"
     }
   ],
   "certifiedServicesNote": "The date available for each service represents the date the service was included in the AWS US East/West FedRAMP certification boundary based on available assessment records. Actual inclusion dates as reflected in FedRAMP PMO records may vary. AWS has maintained continuous FedRAMP certification for US East/West (Class C) since 2013, and all listed services are subject to ongoing annual independent assessment regardless of their inclusion date.",

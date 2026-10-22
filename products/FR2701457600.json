@@ -1,0 +1,70 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2701457600",
+    "ueiNumber": "WHPENK95HC68",
+    "providerName": "IndirectTek LLC",
+    "serviceName": "Elixium",
+    "serviceAcronym": "Elixium",
+    "serviceDescription": "Elixium is a software delivery workspace for teams of people and AI agents: boards, stories, epics, decisions and test plans, where work an AI agent drafts stays a proposal until a person approves it. It includes a customer support platform: in-app chat, support tickets, support email and a support phone line.",
+    "certificationType": "20x",
+    "website": "https://elixium.ai",
+    "logo": "https://elixium.ai/icon.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://elixium.ai/trust/",
+      "repositoryDescription": "Elixium's FedRAMP certification package, control-status summary and Ongoing Certification Reports, with an API for scripted access.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Sign in at https://elixium.ai/trust/ with a Google or Microsoft work account and submit the access request form. Requests from U.S. federal government accounts (.gov, .mil) are reviewed within one business day. FedRAMP and the independent assessor have standing access. Questions: security@indirecttek.com."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://elixium.ai/trust/",
+      "repositoryDescription": "Elixium Secure Configuration Guide SCG-001 v1.0, with its machine-readable JSON copy, in the trust center.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Sign in at https://elixium.ai/trust/ with a Google or Microsoft work account and submit the access request form; the guide is part of the certification package. Elixium customers can also ask for it at security@indirecttek.com."
+    },
+    "nextOngoingCertificationReportDate": "2027-01-22"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "IndirectTek LLC security",
+      "contactEmail": "security@indirecttek.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Elixium sales",
+      "contactEmail": "sales@elixium.ai"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Elixium web application and API",
+      "serviceDescription": "Boards, stories, epics, decisions, test plans, attachments and the audit trail, used in the browser or through the API. FIPS 199 security category (confidentiality / integrity / availability): Moderate / Moderate / Moderate."
+    },
+    {
+      "serviceName": "Elixium MCP connector",
+      "serviceDescription": "The connection AI agents use to read and propose work in a workspace, signed in with OAuth. FIPS 199 security category (confidentiality / integrity / availability): Moderate / Moderate / Moderate."
+    },
+    {
+      "serviceName": "Elixium customer support platform",
+      "serviceDescription": "In-app support chat, support tickets, support email and the support phone line. FIPS 199 security category (confidentiality / integrity / availability): Moderate / Low / Low."
+    },
+    {
+      "serviceName": "Elixium status page",
+      "serviceDescription": "Public service health and uptime. FIPS 199 security category (confidentiality / integrity / availability): Low / Low / Low."
+    }
+  ],
+  "ZD_frid_retro": "FR2701457600",
+  "id_matches_expected": true
+}

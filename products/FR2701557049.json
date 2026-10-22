@@ -1,0 +1,109 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "providerName": "Sixtyfourai",
+    "serviceName": "Sixtyfour Identity Intelligence Platform",
+    "serviceAcronym": "SFAI",
+    "serviceDescription": "Sixtyfour provides AI-powered identity intelligence for government investigations, vetting and fraud detection. Its research platform and APIs investigate people and organizations across public records and online sources, resolving identities, examining backgrounds and uncovering relationships. Sixtyfour turns fragmented information into source-backed intelligence for individual cases, large-scale analysis and ongoing monitoring.",
+    "website": "https://placeholder.invalid",
+    "logo": "https://static-assets.mycroft.io/production/org_logos/056633ee-eae7-4af5-98be-04f8e50628e2.png",
+    "fedRampPackageId": "sixtyfourai",
+    "certificationType": "20x"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Marketing & Sales",
+      "Research"
+    ],
+    "trustCenter": {
+      "url": "https://trust.mycroft.io/sixtyfourai",
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "repositoryDescription": "Trust Center containing all the necessary documentation for FedRAMP Certification submission package.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request Access' button on the top right of the Trust Center."
+    },
+    "nextOngoingCertificationReportDate": "2026-10-30"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "SixtyFour AI Security",
+      "contactEmail": "security@sixtyfour.ai",
+      "contactPhone": "832-444-1653"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "SixtyFour AI  FedRAMP Sales",
+      "contactEmail": "government@sixtyfour.ai",
+      "contactPhone": "832-444-1653"
+    }
+  ],
+  "assessor": {
+    "name": "NA",
+    "assessorID": "000000"
+  },
+  "overallSummaryOfAssessment": "NA",
+  "certifiedServices": [
+    {
+      "serviceName": "Sixtyfour Identity Intelligence Platform",
+      "serviceDescription": "Sixtyfour provides AI-powered identity intelligence for government investigations, vetting and fraud detection. Its research platform and APIs investigate people and organizations across public records and online sources, resolving identities, examining backgrounds and uncovering relationships. Sixtyfour turns fragmented information into source-backed intelligence for individual cases, large-scale analysis and ongoing monitoring.",
+      "dateAvailable": "2025-03-01"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [],
+    "nonCertified": [
+      {
+        "name": "AWS",
+        "provider": "AWS",
+        "website": "https://aws.amazon.com/",
+        "useCase": "Cloud infrastructure and hosting for applications, databases, and services. Provides compute, storage, networking, and other foundational cloud services."
+      },
+      {
+        "name": "GitHub",
+        "provider": "GitHub",
+        "website": "https://github.com/",
+        "useCase": "Source code repository and version control platform. Stores proprietary code, development workflows, and technical documentation."
+      },
+      {
+        "name": "Google Workspace",
+        "provider": "Google Workspace",
+        "website": "https://workspace.google.com/",
+        "useCase": "Email, document collaboration, and productivity suite. Provides business email, file storage, calendaring, and office applications."
+      },
+      {
+        "name": "OpenAI",
+        "provider": "OpenAI",
+        "website": "https://openai.com/",
+        "useCase": "AI and language model API services. Provides access to GPT models for natural language processing and generation."
+      },
+      {
+        "name": "Rippling",
+        "provider": "Rippling",
+        "website": "https://www.rippling.com/",
+        "useCase": "HR and IT management platform. Manages payroll, benefits, device management, and employee lifecycle."
+      },
+      {
+        "name": "Supabase",
+        "provider": "Supabase",
+        "website": "https://supabase.com/",
+        "useCase": "Open-source backend-as-a-service platform. Provides database, authentication, storage, and real-time subscriptions."
+      },
+      {
+        "name": "Vercel",
+        "provider": "Vercel",
+        "website": "https://vercel.com/",
+        "useCase": "Web application hosting and deployment platform. Provides frontend hosting, serverless functions, and continuous deployment."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2701557049",
+  "id_matches_expected": false
+}
