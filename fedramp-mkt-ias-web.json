@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-15T23:26:47.096Z",
+    "export_timestamp": "2026-10-23T17:47:42.924Z",
     "total_entries": 49,
     "description": "FedRAMP data MKT-IAS-WEB export from GSA system"
   },
@@ -55,16 +55,20 @@
           }
         ],
         "fedramp_recognized_timestamp": "2026-09-11T17:50:51.141Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:37Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:29Z"
       },
       {
         "assessorName": "360 Advanced Compass Rose",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/360%20Logo.png",
         "a2laId": "202896",
         "a2laAccreditationDate": "2023-07-17",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "360 Advanced Compass Rose, Inc is an accredited Third-Party Assessment Organization (3PAO) authorized to perform FedRAMP assessments. With a dedicated team of senior advisors, Compass Rose helps organizations navigate the complexities of FedRAMP requirements, providing rigorous testing and validation of security controls to ensure compliance with federal standards. As a 3PAO, Compass Rose offers end-to-end support, from initial preparation and gap analysis to the final assessment, ensuring a smooth and efficient path to FedRAMP authorization.\n\nCompass Rose is well-equipped to support your government or federal compliance security needs, including FedRAMP, FISMA, NIST 800-171, StateRAMP, and the upcoming CMMC requirements. As a trusted assessor, 360 Advanced is also authorized to evaluate compliance across other critical frameworks such as ISO, PCI, SOC, and HITRUST.",
         "contactInformation": [
-          "fedramp@360advanced.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@360advanced.com",
+            "contactName": "Keith Frechette"
+          }
         ],
         "servicesOffered": [
           {
@@ -72,17 +76,30 @@
           }
         ],
         "foundedDate": "2004-01-01",
+        "cyberFrameworks": [
+          "ISO 27001",
+          "SOC 1 / SSAE1 16",
+          "SOC 2 / AT 101",
+          "PCI-DSS",
+          "HITRUST",
+          "HIPAA/HITECH",
+          "FISMA"
+        ],
         "fedramp_recognized_timestamp": "2024-08-21T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:37Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:29Z"
       },
       {
         "assessorName": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/ALIGN Logo.png",
         "a2laId": "138665",
         "a2laAccreditationDate": "2015-07-16",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "A-LIGN is proud to serve as one of the most trusted federal assessors in the market with years of government-specific assessment experience, backed by an end-to-end compliance solution designed to ease your organization through the complex federal reporting and authorization process. A-LIGN is committed to ensuring the defense industrial base and its federal and state partners are secure against an increasing number of cybersecurity threats. To do so, we leverage a vast network of resources, experience, and professional relationships to ensure your organization is ready and approved to support government agencies, minimize risk, keep their data safe, and advance national cybersecurity.\n\nAs an accredited FedRAMP 3PAO, A-LIGN is able to conduct FedRAMP pre-assessments and security assessments based on the published templates and testing guidance. A-LIGN’s security assessors and dedicated penetration testing team execute the FedRAMP assessment in accordance with FedRAMP requirements.\n \nA-LIGN is prepared to meet all your Government compliance and security needs including FedRAMP, FISMA, NIST 800-171, StateRAMP, and the upcoming CMMC requirements, in addition to multiple commercial compliance frameworks including SOC, ISO, PCI, and HITRUST.",
         "contactInformation": [
-          "FedRAMPaccreditation@a-lign.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "FedRAMPaccreditation@a-lign.com",
+            "contactName": "Petar Besalev"
+          }
         ],
         "servicesOffered": [
           {
@@ -90,17 +107,31 @@
           }
         ],
         "foundedDate": "2009-01-01",
+        "cyberFrameworks": [
+          "PCI DSS",
+          "ISO 27001",
+          "HITRUST",
+          "HIPAA/HITECH",
+          "FISMA",
+          "SOC 1/SSAE 16",
+          "SOC 2/AT 101",
+          "ISAE 3402"
+        ],
         "fedramp_recognized_timestamp": "2013-10-21T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:37Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:30Z"
       },
       {
         "assessorName": "AARC-360",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/AARC%20Logo.png",
         "a2laId": "203060",
         "a2laAccreditationDate": "2024-01-08",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "AARC-360 is a global, full-service firm specializing in IT Compliance and Cybersecurity services across all five continents.A PCAOB registered firm of Certified Public Accountants and Advisors, we combine deep insights gained across industries to provide Assurance, Advisory, Risk, and Compliance services. Our FedRAMP assessment team brings over 30 years of combined expertise with a specialty in cloud services. We are equipped to assist clients with a range of services, including Gap Assessments, Readiness Assessments, Initial and Annual Assessments, Significant Change Assessments, Red Team Exercises, Continuous Monitoring Support, Penetration Testing, and New Cloud Onboarding. \n\nThrough our \"test once, apply many\" approach, clients can utilize multiple reporting frameworks, saving both time and money.  AARC-360 looks forward to helping our clients with an audit approach that is effective yet efficient.",
         "contactInformation": [
-          "Neil.Gonsalves@AARC-360.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "Neil.Gonsalves@AARC-360.com",
+            "contactName": "Neil Gonsalves"
+          }
         ],
         "servicesOffered": [
           {
@@ -108,17 +139,38 @@
           }
         ],
         "foundedDate": "2014-01-01",
+        "cyberFrameworks": [
+          "SOC 1, 2 & 3",
+          "ISO/IEC  27001",
+          "ISO/IEC  27701",
+          "PCI DSS",
+          "HITRUST",
+          "HIPAA",
+          "NIST SP 800-53",
+          "NIST SP 800-171",
+          "FISMA",
+          "General Data Protection Regulation (GDPR)",
+          "California Consumer Privacy Act (CCPA)",
+          "Gramm-Leach-Bliley Act (GLBA)",
+          "Minimum Acceptable Risk Standards For Exchanges (MARS-E)",
+          "Publication 1075",
+          "StateRAMP"
+        ],
         "fedramp_recognized_timestamp": "2025-02-05T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:37Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:30Z"
       },
       {
         "assessorName": "Accenture Federal Services",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/AFS%20Logo2.png",
         "a2laId": "140508",
         "a2laAccreditationDate": "2019-03-29",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Accenture, as an accredited 3PAO organization, is authorized to provide the below services:\n\nStrategy & Risk Advisory\n\n* Journey to the Cloud Policy & Guidance\n* Strategy Enhancement & Implementation\n* Trusted Advisory Services\n* Technical Architecture Guidance\n* Governance (FISMA, ISSO Support, CSF, Security A&A)\n* Security Artifact Creation (FedRAMP and Agency approved artifacts)\n\nReadiness Assessment\n\n* Impact Assessment & Gap Analysis\n* Readiness Assessment\n\nFedRAMP Assessment\n\n* Full assessment based on FedRAMP controls\n* Provide assessment documentation (ex: Security Assessment Plan (SAP), Security Assessment Report (SAR), Plan of Action & Milestones)\n* Penetration Testing\n\nContinuous Monitoring Services\n\n* Required ongoing risk evaluation activities to maintain your FedRAMP ATO",
         "contactInformation": [
-          "AFS.FedRAMP@afs.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "AFS.FedRAMP@afs.com",
+            "contactName": "Warner Sterling"
+          }
         ],
         "servicesOffered": [
           {
@@ -127,16 +179,20 @@
         ],
         "foundedDate": "1989-01-01",
         "fedramp_recognized_timestamp": "2020-02-13T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:38Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:30Z"
       },
       {
         "assessorName": "Anthony Timbers LLC",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/AnthonyT%20Logo.png",
         "a2laId": "203181",
         "a2laAccreditationDate": "2024-05-06",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Anthony Timbers LLC is a FedRAMP-recognized Third-Party Assessment Organization (3PAO) and ISO/IEC 17020-accredited inspection body specializing in cybersecurity assessments for federal and commercial organizations. As an authorized 3PAO, we conduct independent FedRAMP security assessments using NIST SP 800-53 baselines, following FedRAMP’s official templates, testing procedures, and reporting standards.\n\nA renowned and trusted cybersecurity firm, Anthony Timbers LLC has served as a federal contractor and has conducted security assessments and advisory work for countless state, local, and education (SLED) entities. Our team of certified professionals brings deep technical expertise across the DoD, federal civilian, and critical infrastructure sectors. We support Cloud Service Providers (CSPs) throughout the entire FedRAMP lifecycle—from initial readiness reviews to full security assessments—helping them achieve and maintain their Authority to Operate (ATO) with efficiency and clarity.\n\nIn addition to FedRAMP, Anthony Timbers LLC is an authorized CMMC Third-Party Assessment Organization (C3PAO), a PCI DSS Qualified Security Assessor (QSA), and a leading provider of penetration testing and assessment services aligned with frameworks such as NIST SP 800-171, NIST Cybersecurity Framework (CSF), and HIPAA. Our mission is to empower secure, compliant cloud adoption through rigorous assessments and enduring partnerships.",
         "contactInformation": [
-          "fedramp@anthonytimbers.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@anthonytimbers.com",
+            "contactName": "Anthony Timbers"
+          }
         ],
         "servicesOffered": [
           {
@@ -144,17 +200,27 @@
           }
         ],
         "foundedDate": "2020-01-01",
+        "cyberFrameworks": [
+          "CMMC",
+          "NIST 800-171",
+          "NIST CSF",
+          "PCI DSS"
+        ],
         "fedramp_recognized_timestamp": "2025-05-09T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:38Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:30Z"
       },
       {
         "assessorName": "Aprio, LLP.",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Aprio%20Logo.png",
         "a2laId": "201573",
         "a2laAccreditationDate": "2021-02-16",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Aprio: Trusted Experts in Federal Cybersecurity Compliance\n\nAprio is a premier advisory and assurance firm specializing in U.S. government cybersecurity frameworks. As an accredited Third Party Assessment Organization (3PAO) for FedRAMP and an authorized CMMC Third Party Assessment Organization (C3PAO), Aprio empowers federal contractors and cloud service providers to achieve and maintain compliance with confidence.\n\nWe bring a unique advantage to every engagement: our team is composed of seasoned professionals with deep, hands-on experience implementing the very cybersecurity controls we assess. This practical expertise allows us to go beyond checklist audits—offering meaningful insights, pragmatic guidance, and real-world solutions.\n\nWhy Aprio is Different\n\n•                     Depth of Knowledge in Control Implementation\n\nOur assessors don’t just understand the frameworks—they’ve implemented them. This means we can quickly identify gaps, provide actionable recommendations, and help clients build sustainable security programs aligned with NIST RMF, NIST CSF, and other federal standards.\n\n•                     Senior-Heavy Team for Efficient Engagements\n\nWe prioritize efficiency and respect your time. Our senior-heavy team is equipped to ask the right questions from the start, minimizing disruption to your stakeholders and avoiding repeated data requests. We streamline the assessment process without compromising quality.\n\n•                     Cutting-Edge FedRAMP Expertise\n\nAprio stays ahead of the curve on evolving FedRAMP requirements, including automation initiatives, threat-based assessments, and OSCAL adoption. We help clients navigate the shifting landscape with clarity and confidence—whether pursuing initial authorization or managing continuous monitoring.\n\nComprehensive Federal Cybersecurity Services\n\n•                     FedRAMP & GovRAMP Readiness and Assessment\n\nFull lifecycle support from gap analysis to authorization and ongoing compliance.\n\n•                     CMMC Certification & Advisory Support\n\nOfficial assessments and strategic consulting for defense contractors.\n\n•                     NIST RMF & CSF Implementation or Assessments\n\nTailored control adoption and risk management aligned with federal expectations including Agency specific nuances.\n\n•                     FISMA Compliance & Specialized Assessments\n\nExpertise in nuanced federal requirements, including:\n\n•                     CMS assessments – you know, the ones due every June\n\n•                     IRS Publication 1075 for federal tax information protection\n\n•                     CJIS Security Policy for law enforcement data\n\nAprio delivers more than compliance—we deliver clarity, confidence, and results. Let us help you secure federal contracts, protect sensitive data, and build a resilient cybersecurity posture.",
         "contactInformation": [
-          "3PAO@aprio.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "3PAO@aprio.com",
+            "contactName": "Jennifer Hawks"
+          }
         ],
         "servicesOffered": [
           {
@@ -162,17 +228,36 @@
           }
         ],
         "foundedDate": "1952-01-01",
+        "cyberFrameworks": [
+          "DoD’s CMMC / NIST 800-171",
+          "NIST 800-53 / FISMA / RMF",
+          "CMS",
+          "NIST SSFD",
+          "SOC1/2/3",
+          "ISO 27001, 27002",
+          "PCI DSS",
+          "HISTRUST",
+          "HIPAA",
+          "GDPR",
+          "CIS Controls",
+          "COBIT",
+          "CSA STARS / CCM"
+        ],
         "fedramp_recognized_timestamp": "2023-04-13T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:38Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:30Z"
       },
       {
         "assessorName": "Baker Tilly",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/BT%20Logo.png",
         "a2laId": "139960",
         "a2laAccreditationDate": "2016-06-28",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Baker Tilly is a fully integrated professional services firm that provides accounting, tax, wealth management, and consulting services.  FedRAMP is one of several cyber security service lines (security frameworks) that Baker Tilly provides to cloud service providers (CSPs).\n\nAs a FedRAMP-accredited third-party assessment organization (3PAO), Baker Tilly FedRAMP assessment services includes the following:\n\n--Initial assessments\n--Annual assessments\n--Readiness Assessments (RAR)\n--Significant Change Requests (SCRs)\n--Penetration and Red Team Testing\n\nAdditionally, Baker Tilly provides coordinated assessments with other security standards/frameworks, such as SOC, PCI, HIPAA, and HITRUST, giving our clients a more streamlined audit experience.",
         "contactInformation": [
-          "fedramp@bakertilly.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@bakertilly.com",
+            "contactName": "Jonathan Smith"
+          }
         ],
         "servicesOffered": [
           {
@@ -180,17 +265,29 @@
           }
         ],
         "foundedDate": "1913-01-01",
+        "cyberFrameworks": [
+          "SOC 1/2/3",
+          "PCI DSS",
+          "PCI ASV",
+          "HIPAA",
+          "HITRUST",
+          "CSA STAR"
+        ],
         "fedramp_recognized_timestamp": "2024-09-26T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:38Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:31Z"
       },
       {
         "assessorName": "bladestack.io (Advisory Focused)",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Bladestack%20Logo.png",
         "a2laId": "202696",
         "a2laAccreditationDate": "2023-05-09",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Our technical focus does not make us lose sight of our clients' overarching goals. Whether it's business growth, cost optimization, or improved customer service, we ensure our technical advice aligns with these broader objectives.",
         "contactInformation": [
-          "fedramp@bladestack.io"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@bladestack.io",
+            "contactName": "Kris Martel"
+          }
         ],
         "servicesOffered": [
           {
@@ -198,17 +295,48 @@
           }
         ],
         "foundedDate": "2021-01-01",
+        "cyberFrameworks": [
+          "C5",
+          "CJIS",
+          "CMMC",
+          "CSA STAR",
+          "CMS/ARS 3.1/5.1 SAQ",
+          "CMS EDE",
+          "DEA EPCS",
+          "DFIR",
+          "DoD RMF",
+          "DoD+ Impact Levels",
+          "FFIEC",
+          "FISMA",
+          "HIPAA",
+          "HITRUST",
+          "IRS 1075",
+          "ISO",
+          "ITAR and EAR",
+          "IRAP",
+          "JISF",
+          "MARS-E",
+          "NIST 800-171",
+          "NIST 800-218/SSDF",
+          "NIST CSF",
+          "StateRAMP",
+          "VA SEC 525"
+        ],
         "fedramp_recognized_timestamp": "2024-06-05T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:38Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:31Z"
       },
       {
         "assessorName": "Booz Allen Hamilton",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/BAH%20logo2.png",
         "a2laId": "136849",
         "a2laAccreditationDate": "2014-07-21",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Booz Allen Hamilton, a leading strategy and technology consulting firm, is the first accredited 3PAO that is ISO/IEC 17020 compliant. We leverage our vast cybersecurity knowledge base and experience to streamline the security risk assessment process. We offer a comprehensive suite of 3PAO services to assist CSPs in successfully navigating through the FedRAMP certification process, which include: Readiness assessment, Security package development, Remediation services, 3PAO security assessment and 3PAO continuous monitoring services.",
         "contactInformation": [
-          "fedramp@bah.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@bah.com",
+            "contactName": "Darryl Arnold"
+          }
         ],
         "servicesOffered": [
           {
@@ -216,17 +344,30 @@
           }
         ],
         "foundedDate": "1914-01-01",
+        "cyberFrameworks": [
+          "ISO 9001:2008",
+          "ISO 20000",
+          "ISO 27001",
+          "AS9100C",
+          "CMMI DevMLS",
+          "CMMI SVC CL2",
+          "ISO 17020"
+        ],
         "fedramp_recognized_timestamp": "2014-07-21T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:39Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:31Z"
       },
       {
         "assessorName": "COACT, Inc.",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/COACT%20Logo.jpg",
         "a2laId": "136682",
         "a2laAccreditationDate": "2016-08-23",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "COACT, Inc. is a Service-Disabled Veteran-Owned Small Business (SDVOSB), founded in 1990, that supports commercial and government clients in understanding and fulfilling their risk management and compliance needs. COACT evolved into a leading provider of high-reliance Governance, Risk, and Compliance (GRC) services across multiple compliance frameworks. For over 30 years, COACT has provided consulting, Independent Verification & Validation (IV&V), and assessment services to both government and commercial clients. Our tiered service offerings range from focused efforts to address specific security objectives, to providing full information security programs for clients in the commercial, healthcare, regulatory, defense, and intelligence domains. With unrivaled ethics, COACT remains free from real or perceived conflicts of interest and does not engineer, manufacture, or resell any products.\n\n \n\nCOACT is able to perform FedRAMP consulting and assessment services to meet the needs of new and existing cloud service offerings. Our team of qualified assessors are available to assess cloud systems and continuously monitor the security posture of those systems in accordance with FedRAMP requirements. The output of our assessment services will provide the information needed to make critical risk-based decisions and demonstrate compliance with FedRAMP. COACT utilizes proven assessment methodologies and an accredited Quality Management System to ensure testing is targeted, effective, and produces actionable information for Authorizing Officials and other stakeholders.",
         "contactInformation": [
-          "info@coact.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "info@coact.com",
+            "contactName": "Brian McCoy"
+          }
         ],
         "servicesOffered": [
           {
@@ -234,17 +375,29 @@
           }
         ],
         "foundedDate": "1990-01-01",
+        "cyberFrameworks": [
+          "StateRAMP - Consulting and Assessments",
+          "FISMA - Consulting and Assessments",
+          "HIPAA (Covered Entities and Associates) - Consulting and Assessments",
+          "NIST SP 800-53 Compliance and Assessments",
+          "NIST SP 800-171 Compliance and Assessments",
+          "Limited Access Death Master File - Consulting and Assessments"
+        ],
         "fedramp_recognized_timestamp": "2016-09-09T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:39Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:31Z"
       },
       {
         "assessorName": "Coalfire Systems, Inc.",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Coalfire%20Logo2.png",
         "a2laId": "138514",
         "a2laAccreditationDate": "2014-10-21",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Coalfire delivers a full lifecycle of solutions through professional services, managed services, and technology platforms to help our clients solve their toughest cyber challenges. With more than 20 years of proven cybersecurity leadership, Coalfire combines extensive cloud expertise, industry knowledge, and innovative approaches to fuel success.\n\nOur FedRAMP assessment team is comprised of qualified assessors prepared to support CSPs of all sizes and complexity. We continuously support our clients with the following types of assessments: gap assessment, readiness assessment, initial assessment, annual assessment, significant change assessment and new cloud service onboarding. Many of our clients leverage Coalfire’s coordinated assessment services where FedRAMP is assessed in parallel with other cyber frameworks (e.g., HITRUST, PCI-DSS) to reduce efforts associated with overlapping security control requirements.",
         "contactInformation": [
-          "3pao@coalfire.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "3pao@coalfire.com",
+            "contactName": "Michael Caruso"
+          }
         ],
         "servicesOffered": [
           {
@@ -252,17 +405,50 @@
           }
         ],
         "foundedDate": "2001-01-01",
+        "cyberFrameworks": [
+          "C5",
+          "CJIS",
+          "CMMC",
+          "CSA STAR",
+          "CMS EDE",
+          "DEA EPCS",
+          "DFIR",
+          "DoD RMF",
+          "FFIEC",
+          "FISMA",
+          "HIPAA",
+          "HITRUST",
+          "IRS 1075",
+          "ISO",
+          "ITAR and EAR",
+          "JISF",
+          "MARS-E",
+          "NIST 800-171",
+          "NIST 800-218/SSDF",
+          "NIST CSF",
+          "PA-DSS/SSF",
+          "PCI 3DS",
+          "PCI DSS",
+          "PCI Forensic Investigator",
+          "SOC 1, 2 & 3",
+          "StateRAMP",
+          "VA SEC 525"
+        ],
         "fedramp_recognized_timestamp": "2015-07-17T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:39Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:32Z"
       },
       {
         "assessorName": "ControlCase",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/ControlCase.png",
         "a2laId": "200562",
         "a2laAccreditationDate": "2019-11-11",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "ControlCase is a provider of IT certifications and continuous compliance monitoring services.",
         "contactInformation": [
-          "contact@controlcase.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "contact@controlcase.com",
+            "contactName": "Erik Winkler"
+          }
         ],
         "servicesOffered": [
           {
@@ -270,17 +456,34 @@
           }
         ],
         "foundedDate": "2004-01-01",
+        "cyberFrameworks": [
+          "CSA Star",
+          "HITRUST",
+          "ISO 27001 & ISO 27002",
+          "PCI 3DS",
+          "PCI DSS",
+          "PCI P2PE",
+          "PCI PA DSS",
+          "PCI PIN",
+          "PCI SLC/SSF",
+          "SFG Shared Assessments",
+          "SWIFT CSP"
+        ],
         "fedramp_recognized_timestamp": "2020-08-27T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:39Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:32Z"
       },
       {
         "assessorName": "CyberQRT",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/CyberQRT%20Logo.png",
         "a2laId": "202200",
         "a2laAccreditationDate": "2023-10-26",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "CyberQRT is a FedRAMP-accredited Third Party Assessment Organization (3PAO), authorized to perform independent security assessments for Cloud Service Providers (CSPs) pursuing or maintaining FedRAMP Authorization. Our accreditation is issued under the FedRAMP 3PAO program and maintained through ongoing oversight and continuous accreditation by the American Association for Laboratory Accreditation (A2LA).\n\nAs a 3PAO, CyberQRT provides comprehensive, independent assessments in accordance with FedRAMP requirements and NIST SP 800-53 controls. Our services include readiness assessments, full security control assessments, annual assessments, significant change reviews, and continuous monitoring validation. We perform detailed testing of management, operational, and technical controls to evaluate implementation, effectiveness, and compliance.\n\nCyberQRT delivers objective, evidence-based findings and high-quality assessment documentation, including Security Assessment Plans (SAP), Security Assessment Reports (SAR), and associated test artifacts required for FedRAMP authorization packages. Our assessment methodology emphasizes rigor, transparency, and alignment with federal standards to support secure cloud adoption across government environments.\n\nWe maintain strict independence, technical integrity, and adherence to FedRAMP and A2LA accreditation requirements to ensure consistent, defensible, and high-confidence assessment results.",
         "contactInformation": [
-          "dmendes@cyberqrt.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "dmendes@cyberqrt.com",
+            "contactName": "Diana Mendes"
+          }
         ],
         "servicesOffered": [
           {
@@ -288,17 +491,27 @@
           }
         ],
         "foundedDate": "2016-01-01",
+        "cyberFrameworks": [
+          "FedRAMP 3PAO (Accredited; A2LA-recognized)",
+          "FISMA - NIST SP 800-53 Security Control Assessments (under FedRAMP 3PAO scope)",
+          "NIST Risk Management Framework (RMF) Assessments",
+          "DFARS 252.204 7012 - NIST 800-171"
+        ],
         "fedramp_recognized_timestamp": "2026-02-27T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:39Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:32Z"
       },
       {
         "assessorName": "Databrackets",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Databrackets%20Logo.png",
         "a2laId": "201639",
         "a2laAccreditationDate": "2021-01-11",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "As an accredited Third-Party Assessment Organization (3PAO), we are proud to be recognized as one of the most trusted cybersecurity and privacy assessors in the market. With years of hands-on assessment experience, our team brings a proven track record of helping organizations navigate the rigorous compliance landscape with confidence. We offer an end-to-end compliance solution designed to simplify and streamline the complex federal reporting and authorization process.\n We are deeply committed to supporting our clients across a wide range of industry segments, including—but not limited to—the Defense Industrial Base (DIB), federal and state agencies, healthcare, fintech, and SaaS. Our mission is to help organizations strengthen their security posture in the face of growing cybersecurity threats. We ensure our clients are fully prepared and authorized to support government operations, minimize risk, protect sensitive data, and contribute meaningfully to the advancement of national cybersecurity objectives.\nAs an accredited FedRAMP 3PAO, we are authorized to conduct FedRAMP pre-assessments and full security assessments in accordance with published templates and testing guidance. Our experienced security assessors and specialized penetration testing team execute assessments with diligence and consistency, ensuring full alignment with FedRAMP requirements and helping our clients achieve and maintain authorization efficiently and effectively. \nIn addition to our FedRAMP services, we provide independent cybersecurity and privacy assessment and audit services for a wide range of compliance standards including ISO/IEC 27001:2022, CMMC, SOC 2, HIPAA, GDPR, and NIST SP 800-171. Our comprehensive services are designed to meet the evolving needs of organizations across industries—ensuring compliance, reducing risk, and building trust with stakeholders.",
         "contactInformation": [
-          "srini@databrackets.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "srini@databrackets.com",
+            "contactName": "Srini Kolathur"
+          }
         ],
         "servicesOffered": [
           {
@@ -306,17 +519,27 @@
           }
         ],
         "foundedDate": "2005-01-01",
+        "cyberFrameworks": [
+          "ISO27001:2022",
+          "CMMC",
+          "HIPAA",
+          "GDPR"
+        ],
         "fedramp_recognized_timestamp": "2025-04-17T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:40Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:32Z"
       },
       {
         "assessorName": "DataLock Consulting Group",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/DataLock%20Logo.png",
         "a2laId": "200883",
         "a2laAccreditationDate": "2020-08-18",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "As an accredited 3PAO, DataLock Consulting Group provides Independent Assessment services for Cloud Service Providers (CSP), Third-party providers, and for Federal agencies. DataLock performs independent pre-assessments, readiness assessments, full FedRAMP security assessments and penetration testing. Several of our clients leverage our services to meet multiple compliance frameworks, making the process more efficient and less cumbersome on their organizational resources.\n\nOur team is comprised of industry thought leaders, including NIST 800 series consultants and named authors. Our Assessors undergo a rigorous training program and hold industry leading certifications to ensure our clients are working with experts who understand information security and can analyze their unique systems and implementations.",
         "contactInformation": [
-          "fedramp@datalockcg.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@datalockcg.com",
+            "contactName": "Zyad Nabbus"
+          }
         ],
         "servicesOffered": [
           {
@@ -324,17 +547,25 @@
           }
         ],
         "foundedDate": "2013-01-01",
+        "cyberFrameworks": [
+          "NIST 800-171",
+          "NIST RMF/FISMA"
+        ],
         "fedramp_recognized_timestamp": "2021-06-30T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:40Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:33Z"
       },
       {
         "assessorName": "Deloitte & Touche LLP",
         "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Deloitte%20Logo.png",
         "a2laId": "138883",
         "a2laAccreditationDate": "2017-03-21",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Leveraging cloud services to support core functions of a Federal agency’s extended enterprise plays a vital role in helping increase efficiency and drive performance. While the Cloud First Policy has evolved into a strategic initiative for Federal agencies, leveraging cloud service providers (CSPs) introduces new security risks and new challenges in maintaining compliance with FISMA requirements. Deloitte employs a risk-focused approach to support CSPs and Federal agencies in furthering the adoption of cloud services by:\n\n* Determining FedRAMP readiness\n* Helping to address FedRAMP compliance gaps\n* Preparing FedRAMP artifacts\n* Independently validating compliance with FedRAMP requirements",
         "contactInformation": [
-          "fedramp@deloitte.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@deloitte.com",
+            "contactName": "Matthew Bogusch"
+          }
         ],
         "servicesOffered": [
           {
@@ -342,17 +573,31 @@
           }
         ],
         "foundedDate": "1845-01-01",
+        "cyberFrameworks": [
+          "ISO 27001",
+          "COBIT",
+          "PCI",
+          "HIPAA/HITECH",
+          "SSAE 16 SOC1/2",
+          "FISMA/RMF",
+          "DIACAP",
+          "NSA Certified Incident Response Assistance Accreditation"
+        ],
         "fedramp_recognized_timestamp": "2017-04-27T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:40Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:33Z"
       },
       {
         "assessorName": "Department of Transportation (DOT) Enterprise Services Center (ESC)",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/DOT%20ESC%20Logo.png",
         "a2laId": "137102",
         "a2laAccreditationDate": "2014-12-22",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "ESC was the first federal organization accredited as a FedRAMP 3PAO. Our motto is security for Feds by Feds! The ESC's security teams have extensive work experience in IT, Federal Government and a variety of industries in the private sector. As a federal government agency, ESC is positioned & understands your needs. The ESC provides the opportunity for federal organizations that have a cloud service information system, to use our certified/accredited independent FedRAMP 3PAO services to validate and verify their security posture and IT implementation.",
         "contactInformation": [
-          "cyberservices@esc.gov"
+          {
+            "contactType": "Primary",
+            "contactEmail": "cyberservices@esc.gov",
+            "contactName": "Jerome Kemp"
+          }
         ],
         "servicesOffered": [
           {
@@ -360,17 +605,25 @@
           }
         ],
         "foundedDate": "2006-01-01",
+        "cyberFrameworks": [
+          "ISO 9001",
+          "ISO 17020"
+        ],
         "fedramp_recognized_timestamp": "2014-11-30T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:40Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:33Z"
       },
       {
         "assessorName": "Earthling Security, LLC",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Earthling%20Logo.jpg",
         "a2laId": "137339",
         "a2laAccreditationDate": "2015-04-14",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Earthling Security provides end-to-end cloud security, advisory and compliance services. Our services include FedRAMP Advisory Services, FedRAMP 3PAO Services, Cloud Strategy, Secure Cloud Migration Planning, Secure Cloud Architecture services, Managed Security Services, Managed Compliance Service, AWS Security consulting, Microsoft Azure Security consulting, Cloud Security Consulting Services, Managed ISSO Service and regulatory compliance consulting.",
         "contactInformation": [
-          "fedramp@earthlingsecurity.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@earthlingsecurity.com",
+            "contactName": "Yusuf Ahmed"
+          }
         ],
         "servicesOffered": [
           {
@@ -379,16 +632,20 @@
         ],
         "foundedDate": "2011-01-01",
         "fedramp_recognized_timestamp": "2012-08-20T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:40Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:33Z"
       },
       {
         "assessorName": "Emagine IT",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/EIT%20Logo.png",
         "a2laId": "137046",
         "a2laAccreditationDate": "2015-05-26",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Based in the Washington, DC metropolitan area, Emagine IT (EIT) provides tailored cybersecurity and enterprise IT services to improve risk postures and deliver digital transformation to its commercial and federal customer. EIT specializes in delivering cost conscious, innovative solutions to meet the evolving business requirements of the clients we serve. As a Type C FedRAMP accredited Third Party Assessment Organization (3PAO), EIT is authorized to conduct independent security risk assessments for Cloud Service Providers (CSP) and deliver FedRAMP consulting services. EIT’s 3PAO services provide multiple levels of security assessment for CSP’s looking to comply with FedRAMP and Department of Defense (DoD) requirements. While many CSP’s set out to and achieve an Authority To Operate (ATO), others simply want to be held to the highest standard. With over 1,000 federal assessments based on NIST controls, EIT is ready to support your needs. We offer Gap Assessments, FedRAMP Assessments, Readiness Assessments, Turn-key SSP Documentation and Consulting, Penetration Testing, and Threat Hunting.\n\n**FedRAMP Readiness Assessment / Readiness Assessment Report (RAR)**\n\nSome organizations may opt to pursue a FedRAMP Readiness Assessment to help market their platform and attract an agency sponsor. This step toward your eventual FedRAMP authorization does not require a full penetration test, but you must still demonstrate a level of maturity aligned with the FedRAMP security framework. EIT can quickly support this FedRAMP stage with a four-week assessment timeline that may lead to your “FedRAMP Ready” designation on the FedRAMP Marketplace.\n\n**FedRAMP Assessment & Attestation**\n\nAs a FedRAMP 3PAO, EIT has performed thousands of security assessments across the federal and commercial landscape. Because EIT has been on both sides of the process, we believe advisors make the best assessors. Our subject matter experts are not solely focused on checklists. They understand which findings are real, rather than false flags that disrupt and slow down the assessment process. Working with EIT means you are mitigating risk and maintaining the agreed-upon timelines. Through the FedRAMP assessment process, EIT will develop the required documentation, including a Security Assessment Plan (SAP), Security Requirements Traceability Matrix (SRTM) to document assessment results, Security Assessment Report (SAR), and recommendation for authorization.\n\n**FedRAMP Advisory & Remediation**\n\nAre you transitioning to a new FIPS-199 designation, requiring you to comply with more controls? Are you thinking about implementing a multi-cloud deployment strategy? Are you trying to find ways to leverage your current compliance and security investments to help you achieve your FedRAMP authorization? Working collaboratively with your teams, we will identify, understand, and help you overcome your unique FedRAMP compliance challenges as we walk you through your FedRAMP preparation. With the gap assessment in-hand, EIT will work with your team to map out and engineer the ideal system architecture and to document the necessary environment and security practices within your custom-tailored System Security Plan (SSP). Our advisory services can encompass various CSP systems and service models to ensure that timelines are defined and met, deficiencies in system architecture and policies are mended, understanding of FedRAMP controls and procedures is achieved, annual audits and ATO renewal process is smooth with dedicated continuous monitoring.\n\n**Gap Assessment**\n\nThe first step in the certification process is to determine your organization’s readiness. How confident are you that you can move forward with your FedRAMP goals? Do you meet the FedRAMP showstoppers and critical controls? EIT will work with your team to identify how FedRAMP requirements may impact your organization’s operations and security architecture. These discovery activities are led by EIT’s subject matter experts through hands-on workshops and interviews with key personnel in your organization, culminating in a final report that describes critical gaps and prescribes recommendations for remediation.\n\n**FedRAMP Continuous Monitoring (ConMonaaS)**\n\nMaintaining documentation and systems that are outmoded but still essential can command more resources than most organizations can sustain. FedRAMP is a continuous program, rather than just a project with a start and end date. The EIT team will establish and assist with the monthly, quarterly, and annual continuous monitoring activities and reports required to maintain your authority to operate. This offering can be integrated with your organization’s many compliance requirements, such as CMMC, FISMA, HITRUST, ISO, and more.",
         "contactInformation": [
-          "3pao@eit2.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "3pao@eit2.com",
+            "contactName": "Adam Chun"
+          }
         ],
         "servicesOffered": [
           {
@@ -396,17 +653,35 @@
           }
         ],
         "foundedDate": "2002-01-01",
+        "cyberFrameworks": [
+          "CMMC",
+          "DFARS",
+          "DoD-RMF",
+          "FISMA",
+          "HIPAA/HITECH",
+          "HITRUST",
+          "IMO Resolution MSC.428(98)(Maritime Cybersecurity)",
+          "ISO 27001",
+          "PCI DSS",
+          "RMF",
+          "NIST 800-171",
+          "SOC 2 Type 2"
+        ],
         "fedramp_recognized_timestamp": "2015-05-26T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:41Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:33Z"
       },
       {
         "assessorName": "Excentium, Inc.",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Excentium%20Logo.jpg",
         "a2laId": "138266",
         "a2laAccreditationDate": "2015-06-15",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "**Full - 3PAO Engagement**\n* Security Assessment Plan (SAP) development\n* Security Control Assessment (SCA)\n* Security Control interviews\n* Physical Security Assessment\n* Compliance testing\n* Penetration testing\n* Security Assessment Report (SAR) development\n* Security Assessment Package (SAP) submission",
         "contactInformation": [
-          "3pao@excentium.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "3pao@excentium.com",
+            "contactName": "Colin Corlett"
+          }
         ],
         "servicesOffered": [
           {
@@ -414,17 +689,26 @@
           }
         ],
         "foundedDate": "2006-01-01",
+        "cyberFrameworks": [
+          "CMMC",
+          "NIST",
+          "RMF"
+        ],
         "fedramp_recognized_timestamp": "2015-06-15T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:41Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:34Z"
       },
       {
         "assessorName": "First Information Technology Services, Inc.",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/FITS%20Logo.png",
         "a2laId": "137801",
         "a2laAccreditationDate": "2015-02-06",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "First Information Technology Services (FITS) has 20+ years of experience with federal and commercial cybersecurity and compliance engagements. Our small size allows us to be flexible and offer competitive pricing while outperforming our larger competitors. We are a minority and veteran owned small business dedicated to hiring a talented and diverse work force. \nAs part of our Assessment services, we provide:\n\n* SSP Review\n* Readiness Assessments\n* Assessments (FedRAMP/FedRAMP+)\n* Penetration Testing\n* Significant Change Request (SCR) Assessments\n* Continuous Monitoring Services\n* Annual Assessments",
         "contactInformation": [
-          "fedramp@firstinfotech.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@firstinfotech.com",
+            "contactName": "Keith Paige"
+          }
         ],
         "servicesOffered": [
           {
@@ -432,17 +716,28 @@
           }
         ],
         "foundedDate": "2000-01-01",
+        "cyberFrameworks": [
+          "CMMC",
+          "NIST Cybersecurity Framework (CSF)",
+          "NIST SP 800-53",
+          "NIST SP 800-171",
+          "NIST SP 800-161"
+        ],
         "fedramp_recognized_timestamp": "2016-08-01T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:41Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:34Z"
       },
       {
         "assessorName": "Fortreum, LLC",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Fortreum%20Logo.png",
         "a2laId": "201664",
         "a2laAccreditationDate": "2020-10-13",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Fortreum is a specialized compliance assessment organization that conducts security assessments in a fundamental manner that balances client availability and security review cycles. While maintaining our independence, we work closely with our customers to conduct our assessments to align with their other compliance frameworks. Controls are controls, so why not line up the assessment activity to ensure compliance personnel are not spinning their wheels and just gathering evidence for each individual audit? Re-use is key, and something we have adopted through our continuous audit approach. In support of FedRAMP, Fortreum provides the following 3PAO assessment support services:\n\n* FedRAMP Gap Assessment \n\n* FedRAMP Readiness Assessment \n\n* FedRAMP Full/Initial Assessment \n\n* FedRAMP Annual Assessment \n\n* FedRAMP Significant Change Assessment \n\n* FedRAMP Red Team Exercises\n\n* FedRAMP Continuous Monitoring Support (Assessment-focused)",
         "contactInformation": [
-          "compliance@fortreum.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "compliance@fortreum.com",
+            "contactName": "Michael Carter"
+          }
         ],
         "servicesOffered": [
           {
@@ -450,17 +745,40 @@
           }
         ],
         "foundedDate": "2020-01-01",
+        "cyberFrameworks": [
+          "C5",
+          "CJIS",
+          "CMMC C3PAO",
+          "FDA",
+          "FISMA",
+          "GovRAMP",
+          "HIPAA",
+          "PCI DSS",
+          "IRAP",
+          "IRS 1075",
+          "ITAR",
+          "ISO",
+          "NIST SP 800-171",
+          "NIST SP 800-218 SSDF",
+          "NIST CSF",
+          "SOC",
+          "VA SEC 525"
+        ],
         "fedramp_recognized_timestamp": "2021-07-01T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:41Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:34Z"
       },
       {
         "assessorName": "GMS Registrar Ltd",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/GMS%20logo.jpg",
         "a2laId": "137012",
         "a2laAccreditationDate": "2015-03-02",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "GMS Registrar is a Federal Risk Authorization and Management Program (FedRAMP) accredited Third Party Assessment Organization (3PAO) providing security assessments for Cloud Service Providers.",
         "contactInformation": [
-          "customerservice@gmsaudit.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "customerservice@gmsaudit.com",
+            "contactName": "Jennifer Plass"
+          }
         ],
         "servicesOffered": [
           {
@@ -468,17 +786,31 @@
           }
         ],
         "foundedDate": "2010-01-01",
+        "cyberFrameworks": [
+          "ISO 9001:2015",
+          "ISO 14001:2015",
+          "OHSAS 18001:2007",
+          "ISO 20000-1:2011",
+          "ISO 22001:2005",
+          "ISO 27001:2013",
+          "CMMI Services",
+          "CMMI Dev"
+        ],
         "fedramp_recognized_timestamp": "2015-03-02T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:41Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:34Z"
       },
       {
         "assessorName": "Ignyte Platform Inc.",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Ignyte%20Logo.png",
         "a2laId": "201722",
         "a2laAccreditationDate": "2021-04-27",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Ignyte an automation-based 3PAO that can natively conduct assessments using OSCAL templating leveraging its federally funded audit platform. While maintaining independence, Ignyte works closely with customers to automate and map with several other industry frameworks. Ignyte enables the organization to reuse much of the work performed on prior FedRAMP assessments for highly sensitive DoD customers requiring federal clearances. Ignyte as a 3PAO provides automation & audit support on the following key FedRAMP areas:\n\n* FedRAMP Controls Automation\n* FedRAMP POA&M Assessment\n* FedRAMP ConMON Assessment\n* Complete FedRAMP 3PAO Assessment",
         "contactInformation": [
-          "fedramp@ignyteplatform.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@ignyteplatform.com",
+            "contactName": "Max Aulakh"
+          }
         ],
         "servicesOffered": [
           {
@@ -486,17 +818,28 @@
           }
         ],
         "foundedDate": "2012-01-01",
+        "cyberFrameworks": [
+          "CNNSI 1253",
+          "FFIEC",
+          "NIST 800-171A",
+          "SOC2",
+          "USAF cATO"
+        ],
         "fedramp_recognized_timestamp": "2022-05-18T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:41Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:35Z"
       },
       {
         "assessorName": "Information Technology Company, LLC",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/ITC,%20LLC%20Logo.jpg",
         "a2laId": "137644",
         "a2laAccreditationDate": "2015-05-26",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "ITC, LLC is an 8(a), Small Disadvantaged Business with over two decades of progressive experience with large-scale enterprise computing environments supporting both commerical and Federal Government clients. We understand that a proactive approach and a proven methodology for identifying and measuring risk is necessary to fully protect an organization's information and infrastructure. The experience we have gained from our work with federal government agencies and commercial entities alike has enabled us to create a knowledgebase which provides our entire team with up-to-date information on regulations, best practices, templates, tools , and rapidly changing and evolving cyber threats and vulnerabilities. These resources allow our staff to provide invaluable and unparalleled services to our clients. Moreover, this increased value is the cornerstone of ITC's success in delivering innovative alternatives and solutions to customers.",
         "contactInformation": [
-          "fedramp@itconline.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@itconline.com",
+            "contactName": "Manny Mangilit"
+          }
         ],
         "servicesOffered": [
           {
@@ -504,17 +847,25 @@
           }
         ],
         "foundedDate": "1993-01-01",
+        "cyberFrameworks": [
+          "NIST RMF",
+          "ISO 17020"
+        ],
         "fedramp_recognized_timestamp": "2015-07-15T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:42Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:35Z"
       },
       {
         "assessorName": "InfusionPoints, LLC",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/InfusionPoints%20Logo.png",
         "a2laId": "200934",
         "a2laAccreditationDate": "2020-06-18",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "InfusionPoints is a leading FedRAMP consulting firm that has extensive FedRAMP experience.  With this experience and our FedRAMP 3PAO accreditation, we can conduct FedRAMP pre-assessments and security assessments based on published templates and testing guidance.  We leverage our vast FedRAMP knowledge base and experience to streamline the security risk assessment process. We offer a comprehensive suite of 3PAO services to assist CSPs in successfully navigating through the FedRAMP certification process which includes readiness assessment, security package development, remediation services, 3PAO security assessment, and 3PAO continuous monitoring services.",
         "contactInformation": [
-          "3pao@infusionpoints.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "3pao@infusionpoints.com",
+            "contactName": "Gary Daemer"
+          }
         ],
         "servicesOffered": [
           {
@@ -523,16 +874,20 @@
         ],
         "foundedDate": "2007-01-01",
         "fedramp_recognized_timestamp": "2021-08-31T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:42Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:36Z"
       },
       {
         "assessorName": "Insight Assurance",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Insight%20Logo.png",
         "a2laId": "203355",
         "a2laAccreditationDate": "2024-11-05",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "FedRAMP/GovRAMP/DoD initial assessments, readiness assessments, annual assessments, red team testing, independent security attestations",
         "contactInformation": [
-          "FedRAMP@insightassurance.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "FedRAMP@insightassurance.com",
+            "contactName": "Dillard Trapp"
+          }
         ],
         "servicesOffered": [
           {
@@ -540,17 +895,29 @@
           }
         ],
         "foundedDate": "2020-01-01",
+        "cyberFrameworks": [
+          "CMMC",
+          "NIST RMF",
+          "NIST CsF",
+          "DoD RMF",
+          "DoD SRG",
+          "GovRAMP"
+        ],
         "fedramp_recognized_timestamp": "2025-09-16T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:42Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:37Z"
       },
       {
         "assessorName": "Kompleye",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Kompleye%20Logo2.png",
         "a2laId": "201591",
         "a2laAccreditationDate": "2021-04-29",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Kompleye is a minority owned and recognized cybersecurity and compliance audit organization that offer a comprehensive solution for different industries. We have in-depth knowledge and extensive experience of Cybersecurity Frameworks.\n\nKompleye is authorized to provide the following services:\n**Readiness Assessment:**\n* Impact Assessment & Gap Analysis\n* Readiness Assessment\n**FedRAMP Assessment:**\n* Full Security Assessment based on FedRAMP baseline controls\n* Security Authorization Package including the System Security Plan review, Security Assessment Plan (SAP), Security Assessment Report (SAP)and  Plan of Action & Milestones.\n* Penetration Testing\n**Continuous Monitoring Post Authorization:**\n* Ongoing Continuous Monitoring activities required to maintain a FedRAMP ATO\n* Annual Assessment",
         "contactInformation": [
-          "gov@kompleye.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "gov@kompleye.com",
+            "contactName": "Patricio Garcia"
+          }
         ],
         "servicesOffered": [
           {
@@ -558,17 +925,27 @@
           }
         ],
         "foundedDate": "2019-01-01",
+        "cyberFrameworks": [
+          "SOC 2",
+          "ISO 27001",
+          "HITRUST",
+          "SOC for Cybersecurity"
+        ],
         "fedramp_recognized_timestamp": "2022-08-03T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:42Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:37Z"
       },
       {
         "assessorName": "KPMG, LLP",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/KPMG%20Logo.jpg",
         "a2laId": "138412",
         "a2laAccreditationDate": "2016-06-20",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "KPMG LLP provides 3PAO attestation services including FedRAMP Ready Gap Assessments and 3PAO security assessments.",
         "contactInformation": [
-          "us-dladvfedramp@kpmg.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "us-dladvfedramp@kpmg.com",
+            "contactName": "Vishi Bindra"
+          }
         ],
         "servicesOffered": [
           {
@@ -576,17 +953,24 @@
           }
         ],
         "foundedDate": "1897-01-01",
+        "cyberFrameworks": [
+          "SOC"
+        ],
         "fedramp_recognized_timestamp": "2016-06-20T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:42Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:37Z"
       },
       {
         "assessorName": "Kratos",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Kratos%20Logo.png",
         "a2laId": "137255",
         "a2laAccreditationDate": "2015-05-04",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Kratos has over 10 years of experience serving as a trusted independent FedRAMP 3PAO partner for Cloud Service Providers (CSPs) seeking to obtain or maintain FedRAMP Authorization for their cloud service offerings. Services include: \n\n•\tReadiness Assessment (33 completed as of August 2024)\n•\tInitial Assessment (71 completed as of August 2024)\n•\tAnnual Assessment (146 completed as of August 2024)\n•\tSignificant Change Request (SCR) validation and assessment \n•\tService Onboarding validation and assessment\n•\tFedRAMP Baseline and DoD Impact Level uplift assessment \n•\tGap Assessment \n•\tContinuous Monitoring Validation\n•\tPenetration Testing \n•\tRed Teaming\n•\tSecure Software Development Framework (SSDF) Attestation\n•\tMulti-framework Assessment and Attestation \n\nService Models supported: IaaS, PaaS, SaaS\n\nImpact Levels supported: FedRAMP Tailored Li-SaaS, Low, Moderate, and High; DoD Impact Levels 2, 4, 5, and 6 (Secret) \n\nAO Stakeholders supported: FedRAMP Board and PMO, DoD JVT and DSAWG, and over 30 civilian and DoD agency sponsors\n\nKratos delivers 3PAO assessment services, including readiness assessments, initial assessments, annual assessments, significant change request (SCR) assessments, penetration testing, red teaming, and continuous monitoring validation & attestation. Kratos provides full scope support from assessment planning, execution of testing, evaluating risk, and submission of a final report to accompany the complete Authority to Operate (ATO) package.",
         "contactInformation": [
-          "cybersales@kratosdefense.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "cybersales@kratosdefense.com",
+            "contactName": "Justin Padilla"
+          }
         ],
         "servicesOffered": [
           {
@@ -594,17 +978,31 @@
           }
         ],
         "foundedDate": "1994-01-01",
+        "cyberFrameworks": [
+          "CMMC / Joint Surveillance",
+          "DoD SRG",
+          "HITRUST",
+          "IA-Pre",
+          "StateRAMP",
+          "FedRAMP Equivalence",
+          "Commercial Solutions for Classified (CSfC)",
+          "Other Attestations: CJIS, DoD DIU, FedRAMP, FERPA, FISMA, HIPAA, IRS Publication 1075, MARS-E, NIST CSF, NIST SP 800-53, NIST SP 800-171, NIST SP 800-218, NNPI, SSDF"
+        ],
         "fedramp_recognized_timestamp": "2012-08-27T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:43Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:37Z"
       },
       {
         "assessorName": "Lazarus Alliance, Inc.",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Lazarus%20Alliance%20Logo.png",
         "a2laId": "137047",
         "a2laAccreditationDate": "2021-11-02",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Lazarus Alliance is a proud Service Veteran-Owned Small Business (VOSB) | CAGE Code: 4PHZ4 | NAICS Codes: 541211 & 541690 | GSA Multiple Award Schedule (MAS) MAS contract 47QRAA22D009A\n\nLazarus Alliance provides 3PAO assessment and consulting services to meet a variety of stringent government and commercial industry standards. Lazarus Alliance has worked with large and small CSPs assessing or consulting against most FedRAMP baselines and DOD Cloud Computing Security Requirements Guide (SRG) Impact Levels. Leveraging our experienced cybersecurity professionals, advanced OSCAL-ready automation support, and battle-tested process improvement techniques helps organizations achieve compliance requirements more effectively and efficiently. As an independent assessor or trusted advising consultant, Lazarus Alliance will help you meet FedRAMP requirements and shorten the authorization timeline.\n\nLazarus Alliance delivers 3PAO assessment services, including RAR, initial assessments, annual assessments, significant change request (SCR), penetration testing, and continuous monitoring validation and attestation. We provide full scope support from assessment planning, execution of testing, evaluating risk, and submission of a final report to accompany the complete ATO package. Lazarus Alliance guides organizations through a streamlined and cost-effective path to obtaining authorizations and provide an effective continuous monitoring program to maintain the authorization over time.",
         "contactInformation": [
-          "3pao@LazarusAlliance.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "3pao@LazarusAlliance.com",
+            "contactName": "Michael Peters"
+          }
         ],
         "servicesOffered": [
           {
@@ -612,17 +1010,67 @@
           }
         ],
         "foundedDate": "2000-01-01",
+        "cyberFrameworks": [
+          "ACAB LADMF",
+          "Benchmark testing",
+          "C5",
+          "CJIS",
+          "CMMC",
+          "DFARS NIST 800-171",
+          "Dynamic Code Analysis",
+          "FDA 21",
+          "GDPR",
+          "HIPAA NIST 800-66",
+          "IRS 1075",
+          "ISO 27001",
+          "ISO 27002",
+          "ISO 27005",
+          "ISO 27007",
+          "ISO 27017",
+          "ISO 27018",
+          "ISO 27701",
+          "ISO 31010",
+          "ISO 9001",
+          "ISO 90003",
+          "PCI DSS",
+          "NERC CIP",
+          "NFA",
+          "NIST 800-30",
+          "NIST 800-37",
+          "NIST 800-53",
+          "NIST 800-60",
+          "NIST 800-61",
+          "NIST 800-63",
+          "NIST 800-161",
+          "Penetration Testing",
+          "Phishing Testing",
+          "Physical Security Testing",
+          "Privacy impact assessment (PIA)",
+          "Sarbanes Oxley (SOX) 302 & 404",
+          "SCA-V",
+          "SOC 1",
+          "SOC 2",
+          "SOC 3",
+          "Social Engineering",
+          "StateRAMP",
+          "Static Code Analysis",
+          "Wireless Security Testing"
+        ],
         "fedramp_recognized_timestamp": "2022-09-14T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:43Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:38Z"
       },
       {
         "assessorName": "Linford & Company",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Linford%20Logo2.png",
         "a2laId": "140531",
         "a2laAccreditationDate": "2017-03-13",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Linford & Company performs FedRAMP compliance assessments for Cloud Service Providers (CSP) seeking an Agency or Joint Authorization Board (JAB) Authorization to Operate (ATO). Such activities include (but are not limited to) the following:\n\n- Pre-assessment/gap analysis of a CSP’s readiness for the FedRAMP process to include boundary definition review, documentation review and high-priority control implementation reviews\n- Assessment planning and development of the Security Assessment Plan (SAP)\n- Assessment/testing execution against the NIST 800-53 controls and FedRAMP control enhancements\n- Assessment reporting and development of the final package for submission to the FedRAMP Program Management Office (PMO)/Federal Agencies (as applicable)\n- Continuous monitoring of the system after achieving an ATO",
         "contactInformation": [
-          "fedramp@linfordco.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@linfordco.com",
+            "contactName": "Ray Dunham"
+          }
         ],
         "servicesOffered": [
           {
@@ -630,17 +1078,27 @@
           }
         ],
         "foundedDate": "2008-01-01",
+        "cyberFrameworks": [
+          "System and Organization Control (SOC) Audits",
+          "Health Insurance Portability and Accountability Act (HIPAA)",
+          "Health Information Trust Alliance (HITRUST)",
+          "Federal Information Security Management Act (FISMA)"
+        ],
         "fedramp_recognized_timestamp": "2017-03-31T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:43Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:38Z"
       },
       {
         "assessorName": "Lunarline, Inc.",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Lunarline%20Logo2.png",
         "a2laId": "137004",
         "a2laAccreditationDate": "2015-03-17",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "As one of the original FedRAMP-accredited 3PAOs, Lunarline is authorized to conduct assessments and report results to the FedRAMP PMO. Lunarline's team of expert assessors has conducted over 2,000 successful Security Assessments and Authorizations, using the same standards required by FedRAMP. No matter if the goal is an Agency ATO, FedRAMP Ready, or Continuous Monitoring, we have mastered every piece of the compliance puzzle.\n\n\nLunarline's approach is designed to make the assessment process as painless and fair as possible. All testing is backed by detailed test plans developed in coordination with your team, and all requirements are clearly communicated early in the process. We also take the time to understand your technical and business requirements, to give us the context we need to provide a fair assessment of security control implementation.",
         "contactInformation": [
-          "fedramp@lunarline.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@lunarline.com",
+            "contactName": "Lesley Hess"
+          }
         ],
         "servicesOffered": [
           {
@@ -648,17 +1106,34 @@
           }
         ],
         "foundedDate": "2004-01-01",
+        "cyberFrameworks": [
+          "Cybersecurity Maturity Model Certification (CMMC)",
+          "NIST 800-171",
+          "FISMA",
+          "RMF - DoD, DSS, Federal Civilian Agencies, and Intel Community",
+          "Governance Risk and Compliance (GRC) Framework",
+          "HIPAA",
+          "Insider Threat Vulnerability Assessment (ITVA)",
+          "NIST Cybersecurity Framework (CSF)",
+          "GDPR",
+          "Operationally Critical Threat, Asset, and Vulnerability Evaluation (OCTAVE)",
+          "CERT Resilience Management Model (CERT-RMM)"
+        ],
         "fedramp_recognized_timestamp": "2012-05-15T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:43Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:39Z"
       },
       {
         "assessorName": "MegaplanIT Holdings, LLC",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/MegaplanIT%20Logo.png",
         "a2laId": "200765",
         "a2laAccreditationDate": "2020-05-06",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "The MegaplanIT FedRAMP 3PAO provides comprehensive IT auditing and penetration testing services for customers interested in an independent, third-party FedRAMP assessment. We maintain a suite of 3PAO services to assist CSPs through their FedRAMP certification process, which include: Readiness assessment, Security package development, Remediation services, 3PAO security assessment, and 3PAO continuous monitoring services.",
         "contactInformation": [
-          "fedramp@megaplanit.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@megaplanit.com",
+            "contactName": "Dominick Vitolo"
+          }
         ],
         "servicesOffered": [
           {
@@ -666,17 +1141,36 @@
           }
         ],
         "foundedDate": "2011-01-01",
+        "cyberFrameworks": [
+          "Approved Scanning Vendor",
+          "GDPR",
+          "HIPAA/HITECH",
+          "HITRUST",
+          "NIST Cybersecurity Framework",
+          "NIST SP 800-53",
+          "NIST SP 800-171",
+          "PCI 3DS",
+          "PCI DSS",
+          "PCI PA-DSS",
+          "PCI P2PE",
+          "PCI PA-P2PE",
+          "PCI SSF"
+        ],
         "fedramp_recognized_timestamp": "2021-02-17T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:43Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:39Z"
       },
       {
         "assessorName": "MindPoint Group, A Tyto Athene Company",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Mindpoint%20Logo2.png",
         "a2laId": "137724",
         "a2laAccreditationDate": "2015-02-25",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "As part of Tyto Athene, MindPoint Group leverages extensive expertise to assess and guide clients through FedRAMP compliance efficiently.\n\n3PAO Pre-Assessment – For organizations that are ready to start the FedRAMP process and are going through the FedRAMP path this is the first step in that process. During this phase, our team conducts a thorough review of the System Security Plan (SSP) to identify any gaps or areas needing improvement. We provide tailored recommendations to ensure that the SSP meets all necessary requirements before moving forward. Additionally, our experts offer insights on best practices and common pitfalls to avoid, enhancing the likelihood of a successful assessment. This proactive approach helps streamline the compliance journey and fosters a stronger foundation for security and risk management.\n\n \n\n3PAO Assessment – Full, FedRAMP compliant assessment of your system: Your Launchpad\n\nThink of this assessment as the launchpad for your cloud service journey. It’s where you demonstrate that your service can withstand the tests of security and compliance.\nYou’ll work from a detailed security plan that outlines how your system meets FedRAMP’s security controls. It’s like having a treasure map that guides you through the maze of requirements! MindPoint Group will probe, test, and analyze your security measures to ensure they’re rock solid. This is where the fun really kicks in—showing off your security prowess! Once the assessment is complete, MindPoint Group will provide a comprehensive report highlighting your security posture. This report is your badge of honor, proving you’re ready for the next level of cloud service glory. After successfully passing the assessment, you’ll receive an ATO from a federal agency. This is your golden ticket—permission to operate in the federal space, opening doors to new opportunities! By undergoing the initial FedRAMP Security Assessment, you position your service as trustworthy and secure, attracting more customers.\n\n\n3PAO Continuous Monitoring – Welcome to the thrilling world of FedRAMP Continuous Monitoring Services! 🚀 As your trusted Third-Party Assessment Organization (3PAO), we’re here to guide you through an exhilarating journey of security, compliance, and peace of mind. Buckle up as we explore the key components of our services, including 800-53 Rev 5 Manual Control Testing, Penetration Testing, and Vulnerability and Compliance Scanning—all wrapped up in an exciting FedRAMP Annual Assessment Security Assessment Report!",
         "contactInformation": [
-          "fedramp@gotyto.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@gotyto.com",
+            "contactName": "Peter Davies"
+          }
         ],
         "servicesOffered": [
           {
@@ -684,17 +1178,31 @@
           }
         ],
         "foundedDate": "2009-01-01",
+        "cyberFrameworks": [
+          "Federal Information Security Management Act (FISMA)",
+          "Governance Risk and Compliance (GRC) Framework",
+          "Control Objectives for Information and Related Technology (COBIT)",
+          "International Organization for Standardization 27001 (ISO)",
+          "PCI",
+          "SOX",
+          "Cybersecurity Maturity Model Certification (CMMC)",
+          "Health Insurance Portability and Accountability Act (HIPAA)"
+        ],
         "fedramp_recognized_timestamp": "2015-02-25T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:44Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:39Z"
       },
       {
         "assessorName": "NCC Group Security Services, Inc.",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/NCC%20Group%20Logo.jpg",
         "a2laId": "140544",
         "a2laAccreditationDate": "2017-04-26",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "At NCC Group Security Service Inc, our team of seasoned FedRAMP experts, backed by extensive US Government experience, is dedicated to guiding your Cloud Service Offerings through the complexities of the FedRAMP assessment landscape. Whether it's a FedRAMP Readiness Assessment Report (RAR), a full FedRAMP assessment, an annual assessment, or managing significant changes, we ensure your compliance journey is smooth and efficient, adhering strictly to PMO rules and requirements.\nOur in-house specialists include top-tier Penetration Testers and Red Team experts, who bring unparalleled insights and precision to every assessment. We understand the nuances of PMO expectations and requirements, ensuring your services meet the highest standards.\nWhat sets us apart is our exceptional communication skills, making the entire process transparent and straightforward. Our people truly make the difference, providing the expertise you need to achieve your security goals.\nContact us today to discover how we can help you navigate the FedRAMP process with confidence and ease.",
         "contactInformation": [
-          "fedramp@nccgroup.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@nccgroup.com",
+            "contactName": "B. Cameron"
+          }
         ],
         "servicesOffered": [
           {
@@ -702,17 +1210,44 @@
           }
         ],
         "foundedDate": "1999-01-01",
+        "cyberFrameworks": [
+          "FISMA",
+          "State RAMP",
+          "DFARS 7012 / (CMMC)",
+          "CPCC",
+          "EO14028 / NIST 800-218",
+          "ISO 27001 Certification",
+          "ISO27001 Maturity",
+          "PCI DSS",
+          "HIPAA",
+          "HITRUST",
+          "CMS",
+          "DORA",
+          "GDPR",
+          "CCPA",
+          "CSC",
+          "CRV",
+          "NYCRR 500",
+          "New York Dept of Financial Services (NYDFS)",
+          "NYDH",
+          "TexRAMP",
+          "APEC/CBPR Accountability Agent"
+        ],
         "fedramp_recognized_timestamp": "2017-04-24T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:44Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:39Z"
       },
       {
         "assessorName": "Prescient Security, LLC.",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Prescient%20Logo2.png",
         "a2laId": "202040",
         "a2laAccreditationDate": "2022-11-30",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Welcome to Prescient Security, a renowned leader in multi-framework compliance audits and security assessments, trusted by over 3,000 SaaS and PaaS clients worldwide for the following reasons:\n\nWe have deep expertise in offensive security assessments and risk-based scoping of high-quality controls that meet your business and regulatory risks and constraints.\nOur unwavering commitment to independent, competent, quality evaluation is paired with frictionless customer service to ensure our assessments add significant efficiencies to your cybersecurity program in the long run. We focus on clear and concise communication throughout the engagement. \nWe pride ourselves on partnerships with the leading compliance automation platforms like Vanta and others. which enhances our service offerings with cutting-edge technologies and streamlined evidence collection process, saving our clients a significant amount of time and manual efforts.\nStartups and scale ups can access our services at an affordable cost.\nWe are a CREST Certified Penetration Tester, a testament to our capability in delivering thorough and reliable penetration testing services.\n\nPrescient Security's 3PAO Assessment Support Services:\n      •     FedRAMP Gap Assessment: Identifying and addressing compliance gaps for FedRAMP authorization.\n      •     FedRAMP Readiness Assessment: Preparing your organization for the FedRAMP assessment process.\n      •     FedRAMP Full/Initial Assessment: Comprehensive evaluation against all FedRAMP criteria.\n      •     FedRAMP Annual Assessment: Ensuring continuous compliance through regular assessments.\n      •     FedRAMP Significant Change Assessment: Assessing the impact of major changes on your FedRAMP status.\n      •     FedRAMP Red Team Exercises: Simulated cyber-attacks to test and strengthen defenses.\n      •     FedRAMP Continuous Monitoring Support: Ongoing assessment and support for sustained compliance.\n\nJoin the ranks of our satisfied SaaS clients and benefit from our partnerships, certifications, and seasoned expertise.\nDiscover our services on the FedRAMP Marketplace and take the first step towards secure, compliant, and dynamic cybersecurity operations.",
         "contactInformation": [
-          "fedramp@prescientsecurity.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@prescientsecurity.com",
+            "contactName": "Sammy Chowdhury & Matt Graham"
+          }
         ],
         "servicesOffered": [
           {
@@ -720,17 +1255,43 @@
           }
         ],
         "foundedDate": "2018-01-01",
+        "cyberFrameworks": [
+          "AICPA SOC1, SOC 2, SOC3, ISAE 3000/3402",
+          "ISO 27001:2022,ISO 27701:2019, ISO 9001:2015, ISO 22301:2019, ISO 42001:2023, ISO 27017/27018/27999",
+          "PCI DSS",
+          "HITRUST",
+          "CSA STAR",
+          "Google CASA & MASA",
+          "AWS Well Architected Review/ FTR",
+          "GDPR/ CCPA/ CPRA and other privacy laws",
+          "HIPAA/ HITECH",
+          "FISMA",
+          "GLBA",
+          "FTC Consent Order Data Security Assessments",
+          "NYDFS",
+          "Nacha ACH",
+          "Microsoft SSPA",
+          "ESG",
+          "AI RMF",
+          "NIST 800-171",
+          "NIST CSF",
+          "ITAR/ CJIS and more."
+        ],
         "fedramp_recognized_timestamp": "2024-01-10T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:44Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:40Z"
       },
       {
         "assessorName": "RISC Point",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/RISCPoint%20Logo.png",
         "a2laId": "201825",
         "a2laAccreditationDate": "2022-06-28",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "RISCPoint provides FedRAMP 3PAO Assessment Support Services for clients that require independent third-party assessments. While maintaining our independence, we work closely with our customers to conduct our assessments according to established cybersecurity standards. Our assessors are industry certified and experienced in all aspects of the FedRAMP program from Readiness Assessments to FedRAMP Authorization Assessments to Continuous Monitoring requirements. We are also well-versed in DoD FedRAMP+ assessments outlined in the Cloud Computing Security Requirements Guide.\n\n \n\nAs an accredited FedRAMP 3PAO, RISCPoint is authorized to conduct ready assessments (RAR) and security assessments (SAR) based on the published FedRAMP templates and guidance. We are committed to ensuring Federal vendors and their federal and state partners are secure. Our mission is to make sure our clients are ready and able to support government agencies and keep their data safe. RISCPoint can assist our client’s cybersecurity assessment across all NIST-based frameworks including, FedRAMP, FISMA/RMF, CMMC/NIST 800-171, StateRAMP, TX-RAMP, among others.",
         "contactInformation": [
-          "Jake.nix@riscpoint.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "Jake.nix@riscpoint.com",
+            "contactName": "Jacob Nix"
+          }
         ],
         "servicesOffered": [
           {
@@ -738,17 +1299,26 @@
           }
         ],
         "foundedDate": "2018-01-01",
+        "cyberFrameworks": [
+          "NIST 800-171",
+          "FISMA",
+          "HITRUST (Official Readiness Partner)"
+        ],
         "fedramp_recognized_timestamp": "2023-08-24T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:44Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:40Z"
       },
       {
         "assessorName": "RSM US, LLP",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/RSM%20Logo.jpg",
         "a2laId": "136762",
         "a2laAccreditationDate": "2015-12-15",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "RSM provides comprehensive FedRAMP 3PAO services and support for both federal government and commercial organizations. We leverage our extensive knowledge and experience with regulations to help you address any issues and develop a road map for your organization’s FedRAMP success. \nAttaining FedRAMP approval requires a potentially substantial investment of internal resources. Therefore, we begin with a preliminary gap analysis, providing your decision-makers with a clear picture of program costs, timelines, and internal resource demands to make an informed decision about whether to pursue FedRAMP operational authority. As an accredited 3PAO, our professionals provide assessment support services, including assessment planning, assessment and package testing (audit) and submission of the final assessment to the FedRAMP Program Management Office (PMO). In addition, our security analysts help educate your stakeholders about final assessment requirements, timelines and likely Authority to Operate (ATO) sponsor expectations (if applicable).",
         "contactInformation": [
-          "fedramp@rsmus.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@rsmus.com",
+            "contactName": "Charles Barley Jr."
+          }
         ],
         "servicesOffered": [
           {
@@ -756,8 +1326,27 @@
           }
         ],
         "foundedDate": "1926-01-01",
+        "cyberFrameworks": [
+          "CCPA",
+          "CJIS",
+          "CMMC 1.0 / 2.0",
+          "GDPR",
+          "FISMA / RMF",
+          "HIPAA / HITECH",
+          "HITRUST",
+          "ISO27001 / 701",
+          "ISO27017 / 18",
+          "MARS-E",
+          "NIST 800-171 (DFARS)",
+          "NIST CSF",
+          "PCI DSS",
+          "PCI PA-DSS",
+          "PCI P2PE",
+          "PCI PA-P2PE",
+          "SSAE 16 SOC1/2\""
+        ],
         "fedramp_recognized_timestamp": "2016-11-30T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:44Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:40Z"
       },
       {
         "assessorName": "Schellman",
@@ -837,16 +1426,20 @@
         ],
         "customerReferences": [],
         "fedramp_recognized_timestamp": "2012-07-27T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:45Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:40Z"
       },
       {
         "assessorName": "SecureIT",
         "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SecureIT%20Logo2.png",
         "a2laId": "138819",
         "a2laAccreditationDate": "2015-08-20",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "As one of the first accredited 3PAOs, SecureIT has deep roots in both advisory and independent 3PAO assessment.  We’ve performed 100+ FedRAMP engagements and have experience with both Agency and JAB assessments, as well as with all FedRAMP impact levels (Low/Tailored/Moderate/High).  SecureIT delivers full lifecycle FedRAMP solutions that are tailored for your specific cloud service offering (CSO), and for where you are in your FedRAMP journey. Our extensive experience with NIST and FISMA engagements means we know controls and control requirements, hurdles that organizations typically face with compliance, and how to leverage existing processes and artifacts to increase efficiency and lessen impact on key personnel.  Our seasoned team of assessors and penetration testers conduct thorough evaluations of your system, identifying vulnerabilities and ensuring compliance with FedRAMP requirements. We understand that you have a business to run, so our FedRAMP 3PAO assessment approach is thoughtful, efficient, flexible, and well-communicated.  Our 3PAO Assessment Offerings include:\n\n* FedRAMP Baseline Capability Assessments\n* FedRAMP Gap Assessments\n* FedRAMP Ready Assessments (RAR)\n* FedRAMP Initial Assessments (Agency/JAB/DOD IL4/5)\n* FedRAMP Significant Change Request (SCR) Assessments\n* FedRAMP Annual Assessments",
         "contactInformation": [
-          "fedramp@secureit.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@secureit.com",
+            "contactName": "David Trout"
+          }
         ],
         "servicesOffered": [
           {
@@ -854,17 +1447,37 @@
           }
         ],
         "foundedDate": "2001-01-01",
+        "cyberFrameworks": [
+          "StateRAMP",
+          "CMMC",
+          "NIST 800-53/FISMA",
+          "NIST 800-171",
+          "NIST CSF",
+          "SOC 2",
+          "HITRUST",
+          "HIPAA",
+          "ISO 27001",
+          "MARS-E",
+          "IRS 1075",
+          "CJIS",
+          "GDPR",
+          "ITAR"
+        ],
         "fedramp_recognized_timestamp": "2013-10-28T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:45Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:41Z"
       },
       {
         "assessorName": "Securisea, Inc.",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Securisea%20Logo.png",
         "a2laId": "200865",
         "a2laAccreditationDate": "2019-07-29",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "The Securisea 3PAO security practice leverages our deep expertise in assessing some of the most advanced and complex Cloud Service Providers (CSPs) in the world. Our 3PAO services include preparation of Readiness Assessment Report (RAR) in order to be listed as FedRAMP Ready, full 3APO assessments for both Agency and Provisional-ATOs, vulnerability scanning penetration testing, and continuous monitoring of services with existing ATOs.\n\nOur integrated compliance approach allows us to leverage our client’s existing security controls from other frameworks directly into each 3PAO assessment, reducing overhead and work duplication. As experts in a wide variety of security control frameworks, we can provide a comprehensive solution for all of your security assessments.",
         "contactInformation": [
-          "fedramp@securisea.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@securisea.com",
+            "contactName": "Josh Daymont"
+          }
         ],
         "servicesOffered": [
           {
@@ -872,17 +1485,31 @@
           }
         ],
         "foundedDate": "2006-01-01",
+        "cyberFrameworks": [
+          "FISMA",
+          "NIST 800-53",
+          "NIST 800-171",
+          "PCI 3DS",
+          "PCI DSS",
+          "PCI P2PE",
+          "PCI PIN",
+          "PCI SSF"
+        ],
         "fedramp_recognized_timestamp": "2020-04-09T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:45Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:41Z"
       },
       {
         "assessorName": "Sentar, Inc.",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Sentar%20Logo.png",
         "a2laId": "200749",
         "a2laAccreditationDate": "2019-11-22",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Sentar 3PAO has an extensive history providing assessment services, leveraging our collective experience in auditing, compliance, information technology and cloud computing to expand our scope to include FedRAMP in order to service Cloud Service Providers (CSP). Our talented personnel share six years of experience in assessing companies against FedRAMP requirements. \n  \nAssessment services include the following: \n\n* FedRAMP Ready Assessment and submission of Ready Assessment Report (RAR)\n* FedRAMP Gap Assessment and Client will receive a Gap Assessment Report (GAR)\n* FedRAMP Full Security Assessment and submission of Security Assessment Plan (SAP) and Security Assessment Report (SAR)\n* FedRAMP Annual Assessments",
         "contactInformation": [
-          "3PAO@sentar.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "3PAO@sentar.com",
+            "contactName": "Stephen Pratt"
+          }
         ],
         "servicesOffered": [
           {
@@ -890,8 +1517,12 @@
           }
         ],
         "foundedDate": "1990-01-01",
+        "cyberFrameworks": [
+          "NIST 800-53",
+          "NIST 800-171"
+        ],
         "fedramp_recognized_timestamp": "2020-10-30T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:45Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:41Z"
       },
       {
         "assessorName": "Sera Brynn, LLC",
@@ -918,16 +1549,20 @@
           }
         ],
         "fedramp_recognized_timestamp": "2017-07-18T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:46Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:42Z"
       },
       {
         "assessorName": "SteelToad",
         "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Steeltoad%20Logo.png",
         "a2laId": "203203",
         "a2laAccreditationDate": "2024-06-20",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "With 25 years of proven experience in cybersecurity across the Department of Defense (DoD), NSA and the Federal Government, our team brings deep cloud expertise and strategic security insight into every engagement.  Whether you are seeking an Authority to Operate (ATO) or want to demonstrate your commitment to the NIST standards for security and compliance – SteelToad can help. With experience performing federal assessments, our team is composed of highly skilled professionals ready to support Cloud Service Providers (CSPs) at any stage of their compliance journey. We provide full lifecycle assessment services, including:\n•        New Cloud Service Onboarding\n•        Gap Assessments\n•        Readiness Assessments\n•        Initial Assessments\n•        Annual Assessments\n•        Significant Change Assessments\n•        Red Teaming and Penetration Testing\n•        Documentation and Reporting\n•        Continuous Monitoring Support (Assessment-Focused)\nAt SteelToad, we are dedicated to helping clients overcome their most complex cybersecurity challenges with clarity, confidence, and compliance. Lock It Down.",
         "contactInformation": [
-          "fedramp@steeltoad.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@steeltoad.com",
+            "contactName": "Andy Cooper"
+          }
         ],
         "servicesOffered": [
           {
@@ -935,17 +1570,36 @@
           }
         ],
         "foundedDate": "2019-01-01",
+        "cyberFrameworks": [
+          "CJIS",
+          "CMMC C3PAO",
+          "FISMA",
+          "FedRAMP Equivalence",
+          "HIPAA",
+          "IRS 1075",
+          "ISO",
+          "NIST SP 800-53",
+          "NIST SP 800-160",
+          "NIST SP 800-161",
+          "NIST SP 800-171",
+          "NIST SP 800-218 SSDF",
+          "NIST CSF"
+        ],
         "fedramp_recognized_timestamp": "2025-06-18T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:46Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:42Z"
       },
       {
         "assessorName": "TalaTek, LLC",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/TalaTek%20Logo2.png",
         "a2laId": "136573",
         "a2laAccreditationDate": "2015-02-03",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "TalaTek helps partners make the FedRAMP process a stepping stone to success versus an obstacle that stands in your way. If you’re a CSP who feels ready to become an approved FedRAMP provider, TalaTek’s certified 3PAO services will help you conduct a fair and independent assessment of your systems so that you can seek an agency-sponsored ATO or JAB Provisional ATO. Our unparalleled expertise with the rigorous and unique requirements of the FedRAMP assessment process means we can provide a thorough and timely assessment that will identify any and all residual risk within an information system. We guide clients through the multiple layers of the submission process in order to obtain FedRAMP certification.",
         "contactInformation": [
-          "3PAO@talatek.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "3PAO@talatek.com",
+            "contactName": "Baan Alsinawi"
+          }
         ],
         "servicesOffered": [
           {
@@ -953,17 +1607,29 @@
           }
         ],
         "foundedDate": "2006-01-01",
+        "cyberFrameworks": [
+          "FedRAMP",
+          "ISO",
+          "PCI",
+          "SOC",
+          "FISMA",
+          "DIACAP"
+        ],
         "fedramp_recognized_timestamp": "2015-02-03T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:46Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:42Z"
       },
       {
         "assessorName": "Tevora Business Solutions, Inc.",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Tevora%20Logo.png",
         "a2laId": "200492",
         "a2laAccreditationDate": "2019-09-27",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Tevora’s Federal Services Team is an accredited FedRAMP 3PAO that offers a comprehensive collection of accredited 3PAO services which are tailored to support individual CSPs in maintaining cost effective strategic initiatives for compliance with FedRAMP, FISMA, Office of Management and Budget (OMB), and other Federal civilian and Department of Defense (DoD) mandates. Tevora provides meaningful feedback throughout each project to help CSPs efficiently navigate the FedRAMP assessment and authorization process in partnership with the FedRAMP PMO and Agency sponsor.\n\nTevora’s Federal Services include:\n* Strategy Roadmap Development\n* IT Governance including creation of IT Security Policies, Standards, and Procedures\n* Development of System Security Plans (SSP)\n* Gap and Readiness Assessment Report (RAR)\n* Remediation Services\n* Penetration Testing\n* Accredited 3PAO Security Assessment Reports (SAR)\n* Accredited 3PAO Continuous Monitoring Services",
         "contactInformation": [
-          "fedramp@tevora.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@tevora.com",
+            "contactName": "Jeremiah Sahlberg"
+          }
         ],
         "servicesOffered": [
           {
@@ -971,17 +1637,31 @@
           }
         ],
         "foundedDate": "2003-01-01",
+        "cyberFrameworks": [
+          "HIPAA",
+          "HITRUST",
+          "ISO 27001",
+          "New York State DFS CCR500",
+          "NIST 800-53 (FISMA), 800-171 (DFARS), CSF",
+          "PCI-DSS, PA-DSS",
+          "Penetration Testing Executation Standard, MITRE ATT&CK",
+          "SOC"
+        ],
         "fedramp_recognized_timestamp": "2020-08-27T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:46Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:42Z"
       },
       {
         "assessorName": "Vaultes",
         "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Vaultes%20Logo2.png",
         "a2laId": "200719",
         "a2laAccreditationDate": "2020-01-30",
-        "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+        "serviceDescription": "Vaultes applies our extensive technical knowledge and compliance framework expertise to assist CSPs prepare for, obtain, and maintain FedRAMP authorization by providing comprehensive security services including:\n\n* FedRAMP authorization strategy\n* Security control planning and implementation\n* FedRAMP readiness/gap assessment\n* Security documentation preperation\n* Vulnerabilty and penetration testing\n* Security Authorization Package submission\n* Continuous Monitoring",
         "contactInformation": [
-          "fedramp@vaultes.com"
+          {
+            "contactType": "Primary",
+            "contactEmail": "fedramp@vaultes.com",
+            "contactName": "David Nazario"
+          }
         ],
         "servicesOffered": [
           {
@@ -989,8 +1669,13 @@
           }
         ],
         "foundedDate": "2016-01-01",
+        "cyberFrameworks": [
+          "Cybersecurity Maturity Model Certification (CMMC)",
+          "NIST SP 800-171",
+          "NIST SP 800-53"
+        ],
         "fedramp_recognized_timestamp": "2020-11-16T00:00:00Z",
-        "last_fetched_timestamp": "2026-10-15T23:26:47Z"
+        "last_fetched_timestamp": "2026-10-23T17:47:42Z"
       }
     ]
   }

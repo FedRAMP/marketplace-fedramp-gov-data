@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "c86cfff05b",
-    "lastUpdated": "2026-10-22T16:53:31.000Z",
+    "version": "c9c83ceba6",
+    "lastUpdated": "2026-10-23T17:01:43.000Z",
     "updateSource": "Automated release pipeline",
     "responsibleOfficial": {
       "pointOfContactName": "Brent Shulman",
@@ -123,7 +123,7 @@
     },
     {
       "serviceName": "Procure",
-      "serviceDescription": "Automate PO generation and approvals. Includes Orders, Automated PO Creation, Supplier Defaults, Bulk Line Items, Order Activity Feed, Send Purchase Orders, Order Sync from ERP/MES, Approvals, Approvals Dashboard, Taxes, Budgets, Shop, Integrations, Integration Sync Health, and GraphQL API. In FedRAMP-enabled organizations: Shop runs only in the Silkline desktop app. Shopping in a cloud-hosted browser, saved supplier sign-in, and refilling a cart from a past order are unavailable. Email to suppliers, including purchase orders and issues, cannot carry PDF or file attachments. The Quantum integration is unavailable. Security category: Moderate (FedRAMP Class C)."
+      "serviceDescription": "Automate PO generation and approvals. Includes Orders, Automated PO Creation, Supplier Defaults, Bulk Line Items, Order Activity Feed, Send Purchase Orders, Order Sync from ERP/MES, Approvals, Approvals Dashboard, Taxes, Budgets, Shop, Integrations, Integration Sync Health, and GraphQL API. In FedRAMP-enabled organizations: Shop runs only in the Silkline desktop app. Shopping in a cloud-hosted browser, saved supplier sign-in, and refilling a cart from a past order are unavailable. Email to suppliers, including purchase orders and issues, cannot carry PDF or file attachments. The Quantum and HRIS integrations are unavailable. Security category: Moderate (FedRAMP Class C)."
     },
     {
       "serviceName": "Track",
@@ -189,10 +189,10 @@
         "provider": "Merge",
         "website": "https://www.merge.dev/",
         "useCase": "HRIS integration for employee and workforce data.",
-        "usageAndConfiguration": "Merge API and webhooks are limited to configured HRIS integrations and employee records.",
+        "usageAndConfiguration": "Organizations without FedRAMP enabled may connect an HRIS through Merge. Background tasks read employee names, email addresses, phone numbers, job titles, and reporting lines to provision users, and Merge sends webhooks when that data changes.",
         "justification": "Silkline uses Merge to normalize supported human-resources systems.",
-        "mitigationMeasures": "The integration is scoped to HRIS data and excluded from customer content workflows.",
-        "compensatingControls": "API and webhook processing enforce the HRIS-only integration boundary."
+        "mitigationMeasures": "The HRIS integration is not available to FedRAMP-enabled organizations: they cannot create, enable, connect, or sync it.",
+        "compensatingControls": "The refusal is enforced server-side. Database permissions reject an HRIS integration for a FedRAMP-enabled organization, and one organization-level gate runs before every sync and every Merge API call, including for an organization that enables FedRAMP after connecting."
       },
       {
         "name": "Tailscale",
@@ -219,7 +219,7 @@
         "provider": "Context Dev Inc.",
         "website": "https://www.context.dev/",
         "useCase": "Enrichment of supplier and contact records.",
-        "usageAndConfiguration": "Background tasks run for organizations without FedRAMP enabled, when a supplier or contact is created or its domain or email changes. Lookups send the contact email, or the contact name with the linked company name and domain, and the supplier domain, or the supplier name when no domain is set. They receive public brand and professional profile data.",
+        "usageAndConfiguration": "Background tasks run for organizations without FedRAMP enabled, when a supplier or contact is created or its domain or email changes. Lookups send the contact email, or the contact name with the linked company name and domain, and the supplier domain, or the supplier name when no domain is set. They receive public brand and professional profile data. Returned logos and profile photos are downloaded once and stored in Silkline storage, which the application serves them from.",
         "justification": "Silkline uses Context.dev to complete supplier brand and contact profiles without manual data entry.",
         "mitigationMeasures": "Supplier and contact enrichment is disabled for FedRAMP-enabled organizations. Lookups send business identifiers only: work email addresses are lookup keys, personal-domain addresses such as Gmail are not. Low-confidence matches are discarded, and results fill only empty fields.",
         "compensatingControls": "One organization-level gate runs before every Context.dev call. Requests use HTTPS and an API key held in Pulumi ESC."
