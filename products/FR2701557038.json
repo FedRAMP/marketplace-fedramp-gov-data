@@ -1,8 +1,8 @@
 {
   "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "metadata": {
-    "version": "1.0.0",
-    "lastUpdated": "2026-10-16T13:56:13Z",
+    "version": "1.1.0",
+    "lastUpdated": "2026-10-22T18:41:22Z",
     "sourceOfUpdate": "Facility Grid security team, generated from the fg-synapse repository",
     "responsibleAccountableOfficial": {
       "name": "Conor Barber",
@@ -11,7 +11,7 @@
     }
   },
   "serviceIdentification": {
-    "fedRampPackageId": "Facility Grid, LLC (FG)",
+    "fedRampPackageId": "FR2701557038",
     "ueiNumber": "QA8UHLZYKHX3",
     "providerName": "Facility Grid, LLC",
     "serviceName": "Facility Grid",
@@ -188,7 +188,7 @@
   },
   "certificationProgress": {
     "rule": "MKT-IIP-DCP",
-    "statementDate": "2026-10-16",
+    "statementDate": "2026-10-22",
     "nextUpdateDueBy": "2027-01-15",
     "updateCadence": "at least every 3 months",
     "target": "FedRAMP 20x Class A Certification for the existing commercial service, followed by FedRAMP 20x Class C (Moderate) Certification.",
@@ -208,20 +208,24 @@
       {
         "date": "2026-09-17",
         "milestone": "SOC 2 Type II examination opened with Insight Assurance for the period 30 June 2025 to 30 August 2026."
+      },
+      {
+        "date": "2026-10-16",
+        "milestone": "FedRAMP Marketplace listing approved at the Initial Implementation stage (FedRAMP ID FR2701557038)."
+      },
+      {
+        "date": "2026-10-17",
+        "milestone": "Network paths left from the June 2026 migration removed: the VPC peering connection to the former hosting network, its routes and the related database ingress rules."
+      },
+      {
+        "date": "2026-10-22",
+        "milestone": "Fixes from the October 2026 internal code review enforced in production: authorization checks on company-administration, privilege-escalation, project-copy and cross-scope functions, bcrypt password storage and a limit of 5 wrong sign-in code attempts."
       }
     ],
     "goals": [
       {
-        "goal": "Obtain a FedRAMP Marketplace listing at the Initial Implementation stage.",
-        "measuredBy": "Listing approved by FedRAMP."
-      },
-      {
         "goal": "Apply for FedRAMP 20x Class A Certification.",
         "measuredBy": "Application submitted with the Certification Package Overview, Security Decision Record and SOC 2 materials."
-      },
-      {
-        "goal": "Remove the residual network paths left from the June 2026 migration off the legacy hosting environment.",
-        "measuredBy": "The legacy peering connection, subnet router and related database ingress rules are deleted from the infrastructure repository and from AWS."
       },
       {
         "goal": "Move every Class A Key Security Indicator that is Partially Implemented to Implemented.",
@@ -234,5 +238,5 @@
     ]
   },
   "ZD_frid_retro": "FR2701557038",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }
