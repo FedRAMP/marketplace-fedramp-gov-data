@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Sentar%20Logo.png",
   "a2laId": "200749",
   "a2laAccreditationDate": "2019-11-22",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Sentar 3PAO has an extensive history providing assessment services, leveraging our collective experience in auditing, compliance, information technology and cloud computing to expand our scope to include FedRAMP in order to service Cloud Service Providers (CSP). Our talented personnel share six years of experience in assessing companies against FedRAMP requirements. \n  \nAssessment services include the following: \n\n* FedRAMP Ready Assessment and submission of Ready Assessment Report (RAR)\n* FedRAMP Gap Assessment and Client will receive a Gap Assessment Report (GAR)\n* FedRAMP Full Security Assessment and submission of Security Assessment Plan (SAP) and Security Assessment Report (SAR)\n* FedRAMP Annual Assessments",
   "contactInformation": [
-    "3PAO@sentar.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "3PAO@sentar.com",
+      "contactName": "Stephen Pratt"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,8 @@
     }
   ],
   "foundedDate": "1990-01-01",
-  "fedramp_recognized_timestamp": "2020-10-30T00:00:00Z"
+  "cyberFrameworks": [
+    "NIST 800-53",
+    "NIST 800-171"
+  ]
 }

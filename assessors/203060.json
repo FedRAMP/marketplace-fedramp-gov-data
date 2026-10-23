@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/AARC%20Logo.png",
   "a2laId": "203060",
   "a2laAccreditationDate": "2024-01-08",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "AARC-360 is a global, full-service firm specializing in IT Compliance and Cybersecurity services across all five continents.A PCAOB registered firm of Certified Public Accountants and Advisors, we combine deep insights gained across industries to provide Assurance, Advisory, Risk, and Compliance services. Our FedRAMP assessment team brings over 30 years of combined expertise with a specialty in cloud services. We are equipped to assist clients with a range of services, including Gap Assessments, Readiness Assessments, Initial and Annual Assessments, Significant Change Assessments, Red Team Exercises, Continuous Monitoring Support, Penetration Testing, and New Cloud Onboarding. \n\nThrough our \"test once, apply many\" approach, clients can utilize multiple reporting frameworks, saving both time and money.  AARC-360 looks forward to helping our clients with an audit approach that is effective yet efficient.",
   "contactInformation": [
-    "Neil.Gonsalves@AARC-360.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "Neil.Gonsalves@AARC-360.com",
+      "contactName": "Neil Gonsalves"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,21 @@
     }
   ],
   "foundedDate": "2014-01-01",
-  "fedramp_recognized_timestamp": "2025-02-05T00:00:00Z"
+  "cyberFrameworks": [
+    "SOC 1, 2 & 3",
+    "ISO/IEC  27001",
+    "ISO/IEC  27701",
+    "PCI DSS",
+    "HITRUST",
+    "HIPAA",
+    "NIST SP 800-53",
+    "NIST SP 800-171",
+    "FISMA",
+    "General Data Protection Regulation (GDPR)",
+    "California Consumer Privacy Act (CCPA)",
+    "Gramm-Leach-Bliley Act (GLBA)",
+    "Minimum Acceptable Risk Standards For Exchanges (MARS-E)",
+    "Publication 1075",
+    "StateRAMP"
+  ]
 }

@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/InfusionPoints%20Logo.png",
   "a2laId": "200934",
   "a2laAccreditationDate": "2020-06-18",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "InfusionPoints is a leading FedRAMP consulting firm that has extensive FedRAMP experience.  With this experience and our FedRAMP 3PAO accreditation, we can conduct FedRAMP pre-assessments and security assessments based on published templates and testing guidance.  We leverage our vast FedRAMP knowledge base and experience to streamline the security risk assessment process. We offer a comprehensive suite of 3PAO services to assist CSPs in successfully navigating through the FedRAMP certification process which includes readiness assessment, security package development, remediation services, 3PAO security assessment, and 3PAO continuous monitoring services.",
   "contactInformation": [
-    "3pao@infusionpoints.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "3pao@infusionpoints.com",
+      "contactName": "Gary Daemer"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "2007-01-01",
-  "fedramp_recognized_timestamp": "2021-08-31T00:00:00Z"
+  "foundedDate": "2007-01-01"
 }

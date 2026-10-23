@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Mindpoint%20Logo2.png",
   "a2laId": "137724",
   "a2laAccreditationDate": "2015-02-25",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "As part of Tyto Athene, MindPoint Group leverages extensive expertise to assess and guide clients through FedRAMP compliance efficiently.\n\n3PAO Pre-Assessment – For organizations that are ready to start the FedRAMP process and are going through the FedRAMP path this is the first step in that process. During this phase, our team conducts a thorough review of the System Security Plan (SSP) to identify any gaps or areas needing improvement. We provide tailored recommendations to ensure that the SSP meets all necessary requirements before moving forward. Additionally, our experts offer insights on best practices and common pitfalls to avoid, enhancing the likelihood of a successful assessment. This proactive approach helps streamline the compliance journey and fosters a stronger foundation for security and risk management.\n\n \n\n3PAO Assessment – Full, FedRAMP compliant assessment of your system: Your Launchpad\n\nThink of this assessment as the launchpad for your cloud service journey. It’s where you demonstrate that your service can withstand the tests of security and compliance.\nYou’ll work from a detailed security plan that outlines how your system meets FedRAMP’s security controls. It’s like having a treasure map that guides you through the maze of requirements! MindPoint Group will probe, test, and analyze your security measures to ensure they’re rock solid. This is where the fun really kicks in—showing off your security prowess! Once the assessment is complete, MindPoint Group will provide a comprehensive report highlighting your security posture. This report is your badge of honor, proving you’re ready for the next level of cloud service glory. After successfully passing the assessment, you’ll receive an ATO from a federal agency. This is your golden ticket—permission to operate in the federal space, opening doors to new opportunities! By undergoing the initial FedRAMP Security Assessment, you position your service as trustworthy and secure, attracting more customers.\n\n\n3PAO Continuous Monitoring – Welcome to the thrilling world of FedRAMP Continuous Monitoring Services! 🚀 As your trusted Third-Party Assessment Organization (3PAO), we’re here to guide you through an exhilarating journey of security, compliance, and peace of mind. Buckle up as we explore the key components of our services, including 800-53 Rev 5 Manual Control Testing, Penetration Testing, and Vulnerability and Compliance Scanning—all wrapped up in an exciting FedRAMP Annual Assessment Security Assessment Report!",
   "contactInformation": [
-    "fedramp@gotyto.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@gotyto.com",
+      "contactName": "Peter Davies"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,14 @@
     }
   ],
   "foundedDate": "2009-01-01",
-  "fedramp_recognized_timestamp": "2015-02-25T00:00:00Z"
+  "cyberFrameworks": [
+    "Federal Information Security Management Act (FISMA)",
+    "Governance Risk and Compliance (GRC) Framework",
+    "Control Objectives for Information and Related Technology (COBIT)",
+    "International Organization for Standardization 27001 (ISO)",
+    "PCI",
+    "SOX",
+    "Cybersecurity Maturity Model Certification (CMMC)",
+    "Health Insurance Portability and Accountability Act (HIPAA)"
+  ]
 }

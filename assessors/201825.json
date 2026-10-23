@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/RISCPoint%20Logo.png",
   "a2laId": "201825",
   "a2laAccreditationDate": "2022-06-28",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "RISCPoint provides FedRAMP 3PAO Assessment Support Services for clients that require independent third-party assessments. While maintaining our independence, we work closely with our customers to conduct our assessments according to established cybersecurity standards. Our assessors are industry certified and experienced in all aspects of the FedRAMP program from Readiness Assessments to FedRAMP Authorization Assessments to Continuous Monitoring requirements. We are also well-versed in DoD FedRAMP+ assessments outlined in the Cloud Computing Security Requirements Guide.\n\n \n\nAs an accredited FedRAMP 3PAO, RISCPoint is authorized to conduct ready assessments (RAR) and security assessments (SAR) based on the published FedRAMP templates and guidance. We are committed to ensuring Federal vendors and their federal and state partners are secure. Our mission is to make sure our clients are ready and able to support government agencies and keep their data safe. RISCPoint can assist our client’s cybersecurity assessment across all NIST-based frameworks including, FedRAMP, FISMA/RMF, CMMC/NIST 800-171, StateRAMP, TX-RAMP, among others.",
   "contactInformation": [
-    "Jake.nix@riscpoint.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "Jake.nix@riscpoint.com",
+      "contactName": "Jacob Nix"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,9 @@
     }
   ],
   "foundedDate": "2018-01-01",
-  "fedramp_recognized_timestamp": "2023-08-24T00:00:00Z"
+  "cyberFrameworks": [
+    "NIST 800-171",
+    "FISMA",
+    "HITRUST (Official Readiness Partner)"
+  ]
 }

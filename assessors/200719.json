@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Vaultes%20Logo2.png",
   "a2laId": "200719",
   "a2laAccreditationDate": "2020-01-30",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Vaultes applies our extensive technical knowledge and compliance framework expertise to assist CSPs prepare for, obtain, and maintain FedRAMP authorization by providing comprehensive security services including:\n\n* FedRAMP authorization strategy\n* Security control planning and implementation\n* FedRAMP readiness/gap assessment\n* Security documentation preperation\n* Vulnerabilty and penetration testing\n* Security Authorization Package submission\n* Continuous Monitoring",
   "contactInformation": [
-    "fedramp@vaultes.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@vaultes.com",
+      "contactName": "David Nazario"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,9 @@
     }
   ],
   "foundedDate": "2016-01-01",
-  "fedramp_recognized_timestamp": "2020-11-16T00:00:00Z"
+  "cyberFrameworks": [
+    "Cybersecurity Maturity Model Certification (CMMC)",
+    "NIST SP 800-171",
+    "NIST SP 800-53"
+  ]
 }

@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/ITC,%20LLC%20Logo.jpg",
   "a2laId": "137644",
   "a2laAccreditationDate": "2015-05-26",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "ITC, LLC is an 8(a), Small Disadvantaged Business with over two decades of progressive experience with large-scale enterprise computing environments supporting both commerical and Federal Government clients. We understand that a proactive approach and a proven methodology for identifying and measuring risk is necessary to fully protect an organization's information and infrastructure. The experience we have gained from our work with federal government agencies and commercial entities alike has enabled us to create a knowledgebase which provides our entire team with up-to-date information on regulations, best practices, templates, tools , and rapidly changing and evolving cyber threats and vulnerabilities. These resources allow our staff to provide invaluable and unparalleled services to our clients. Moreover, this increased value is the cornerstone of ITC's success in delivering innovative alternatives and solutions to customers.",
   "contactInformation": [
-    "fedramp@itconline.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@itconline.com",
+      "contactName": "Manny Mangilit"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,8 @@
     }
   ],
   "foundedDate": "1993-01-01",
-  "fedramp_recognized_timestamp": "2015-07-15T00:00:00Z"
+  "cyberFrameworks": [
+    "NIST RMF",
+    "ISO 17020"
+  ]
 }

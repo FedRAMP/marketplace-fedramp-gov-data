@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SecureIT%20Logo2.png",
   "a2laId": "138819",
   "a2laAccreditationDate": "2015-08-20",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "As one of the first accredited 3PAOs, SecureIT has deep roots in both advisory and independent 3PAO assessment.  We’ve performed 100+ FedRAMP engagements and have experience with both Agency and JAB assessments, as well as with all FedRAMP impact levels (Low/Tailored/Moderate/High).  SecureIT delivers full lifecycle FedRAMP solutions that are tailored for your specific cloud service offering (CSO), and for where you are in your FedRAMP journey. Our extensive experience with NIST and FISMA engagements means we know controls and control requirements, hurdles that organizations typically face with compliance, and how to leverage existing processes and artifacts to increase efficiency and lessen impact on key personnel.  Our seasoned team of assessors and penetration testers conduct thorough evaluations of your system, identifying vulnerabilities and ensuring compliance with FedRAMP requirements. We understand that you have a business to run, so our FedRAMP 3PAO assessment approach is thoughtful, efficient, flexible, and well-communicated.  Our 3PAO Assessment Offerings include:\n\n* FedRAMP Baseline Capability Assessments\n* FedRAMP Gap Assessments\n* FedRAMP Ready Assessments (RAR)\n* FedRAMP Initial Assessments (Agency/JAB/DOD IL4/5)\n* FedRAMP Significant Change Request (SCR) Assessments\n* FedRAMP Annual Assessments",
   "contactInformation": [
-    "fedramp@secureit.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@secureit.com",
+      "contactName": "David Trout"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,20 @@
     }
   ],
   "foundedDate": "2001-01-01",
-  "fedramp_recognized_timestamp": "2013-10-28T00:00:00Z"
+  "cyberFrameworks": [
+    "StateRAMP",
+    "CMMC",
+    "NIST 800-53/FISMA",
+    "NIST 800-171",
+    "NIST CSF",
+    "SOC 2",
+    "HITRUST",
+    "HIPAA",
+    "ISO 27001",
+    "MARS-E",
+    "IRS 1075",
+    "CJIS",
+    "GDPR",
+    "ITAR"
+  ]
 }

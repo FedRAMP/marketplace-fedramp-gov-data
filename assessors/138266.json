@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Excentium%20Logo.jpg",
   "a2laId": "138266",
   "a2laAccreditationDate": "2015-06-15",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "**Full - 3PAO Engagement**\n* Security Assessment Plan (SAP) development\n* Security Control Assessment (SCA)\n* Security Control interviews\n* Physical Security Assessment\n* Compliance testing\n* Penetration testing\n* Security Assessment Report (SAR) development\n* Security Assessment Package (SAP) submission",
   "contactInformation": [
-    "3pao@excentium.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "3pao@excentium.com",
+      "contactName": "Colin Corlett"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,9 @@
     }
   ],
   "foundedDate": "2006-01-01",
-  "fedramp_recognized_timestamp": "2015-06-15T00:00:00Z"
+  "cyberFrameworks": [
+    "CMMC",
+    "NIST",
+    "RMF"
+  ]
 }

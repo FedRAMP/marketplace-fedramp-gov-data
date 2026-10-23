@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/TalaTek%20Logo2.png",
   "a2laId": "136573",
   "a2laAccreditationDate": "2015-02-03",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "TalaTek helps partners make the FedRAMP process a stepping stone to success versus an obstacle that stands in your way. If you’re a CSP who feels ready to become an approved FedRAMP provider, TalaTek’s certified 3PAO services will help you conduct a fair and independent assessment of your systems so that you can seek an agency-sponsored ATO or JAB Provisional ATO. Our unparalleled expertise with the rigorous and unique requirements of the FedRAMP assessment process means we can provide a thorough and timely assessment that will identify any and all residual risk within an information system. We guide clients through the multiple layers of the submission process in order to obtain FedRAMP certification.",
   "contactInformation": [
-    "3PAO@talatek.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "3PAO@talatek.com",
+      "contactName": "Baan Alsinawi"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,12 @@
     }
   ],
   "foundedDate": "2006-01-01",
-  "fedramp_recognized_timestamp": "2015-02-03T00:00:00Z"
+  "cyberFrameworks": [
+    "FedRAMP",
+    "ISO",
+    "PCI",
+    "SOC",
+    "FISMA",
+    "DIACAP"
+  ]
 }

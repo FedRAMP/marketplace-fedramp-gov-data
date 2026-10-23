@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Steeltoad%20Logo.png",
   "a2laId": "203203",
   "a2laAccreditationDate": "2024-06-20",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "With 25 years of proven experience in cybersecurity across the Department of Defense (DoD), NSA and the Federal Government, our team brings deep cloud expertise and strategic security insight into every engagement.  Whether you are seeking an Authority to Operate (ATO) or want to demonstrate your commitment to the NIST standards for security and compliance – SteelToad can help. With experience performing federal assessments, our team is composed of highly skilled professionals ready to support Cloud Service Providers (CSPs) at any stage of their compliance journey. We provide full lifecycle assessment services, including:\n•        New Cloud Service Onboarding\n•        Gap Assessments\n•        Readiness Assessments\n•        Initial Assessments\n•        Annual Assessments\n•        Significant Change Assessments\n•        Red Teaming and Penetration Testing\n•        Documentation and Reporting\n•        Continuous Monitoring Support (Assessment-Focused)\nAt SteelToad, we are dedicated to helping clients overcome their most complex cybersecurity challenges with clarity, confidence, and compliance. Lock It Down.",
   "contactInformation": [
-    "fedramp@steeltoad.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@steeltoad.com",
+      "contactName": "Andy Cooper"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,19 @@
     }
   ],
   "foundedDate": "2019-01-01",
-  "fedramp_recognized_timestamp": "2025-06-18T00:00:00Z"
+  "cyberFrameworks": [
+    "CJIS",
+    "CMMC C3PAO",
+    "FISMA",
+    "FedRAMP Equivalence",
+    "HIPAA",
+    "IRS 1075",
+    "ISO",
+    "NIST SP 800-53",
+    "NIST SP 800-160",
+    "NIST SP 800-161",
+    "NIST SP 800-171",
+    "NIST SP 800-218 SSDF",
+    "NIST CSF"
+  ]
 }

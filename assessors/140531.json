@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Linford%20Logo2.png",
   "a2laId": "140531",
   "a2laAccreditationDate": "2017-03-13",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Linford & Company performs FedRAMP compliance assessments for Cloud Service Providers (CSP) seeking an Agency or Joint Authorization Board (JAB) Authorization to Operate (ATO). Such activities include (but are not limited to) the following:\n\n- Pre-assessment/gap analysis of a CSP’s readiness for the FedRAMP process to include boundary definition review, documentation review and high-priority control implementation reviews\n- Assessment planning and development of the Security Assessment Plan (SAP)\n- Assessment/testing execution against the NIST 800-53 controls and FedRAMP control enhancements\n- Assessment reporting and development of the final package for submission to the FedRAMP Program Management Office (PMO)/Federal Agencies (as applicable)\n- Continuous monitoring of the system after achieving an ATO",
   "contactInformation": [
-    "fedramp@linfordco.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@linfordco.com",
+      "contactName": "Ray Dunham"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,10 @@
     }
   ],
   "foundedDate": "2008-01-01",
-  "fedramp_recognized_timestamp": "2017-03-31T00:00:00Z"
+  "cyberFrameworks": [
+    "System and Organization Control (SOC) Audits",
+    "Health Insurance Portability and Accountability Act (HIPAA)",
+    "Health Information Trust Alliance (HITRUST)",
+    "Federal Information Security Management Act (FISMA)"
+  ]
 }

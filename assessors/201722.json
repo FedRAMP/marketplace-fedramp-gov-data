@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Ignyte%20Logo.png",
   "a2laId": "201722",
   "a2laAccreditationDate": "2021-04-27",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Ignyte an automation-based 3PAO that can natively conduct assessments using OSCAL templating leveraging its federally funded audit platform. While maintaining independence, Ignyte works closely with customers to automate and map with several other industry frameworks. Ignyte enables the organization to reuse much of the work performed on prior FedRAMP assessments for highly sensitive DoD customers requiring federal clearances. Ignyte as a 3PAO provides automation & audit support on the following key FedRAMP areas:\n\n* FedRAMP Controls Automation\n* FedRAMP POA&M Assessment\n* FedRAMP ConMON Assessment\n* Complete FedRAMP 3PAO Assessment",
   "contactInformation": [
-    "fedramp@ignyteplatform.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@ignyteplatform.com",
+      "contactName": "Max Aulakh"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,11 @@
     }
   ],
   "foundedDate": "2012-01-01",
-  "fedramp_recognized_timestamp": "2022-05-18T00:00:00Z"
+  "cyberFrameworks": [
+    "CNNSI 1253",
+    "FFIEC",
+    "NIST 800-171A",
+    "SOC2",
+    "USAF cATO"
+  ]
 }

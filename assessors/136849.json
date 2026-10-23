@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/BAH%20logo2.png",
   "a2laId": "136849",
   "a2laAccreditationDate": "2014-07-21",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Booz Allen Hamilton, a leading strategy and technology consulting firm, is the first accredited 3PAO that is ISO/IEC 17020 compliant. We leverage our vast cybersecurity knowledge base and experience to streamline the security risk assessment process. We offer a comprehensive suite of 3PAO services to assist CSPs in successfully navigating through the FedRAMP certification process, which include: Readiness assessment, Security package development, Remediation services, 3PAO security assessment and 3PAO continuous monitoring services.",
   "contactInformation": [
-    "fedramp@bah.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@bah.com",
+      "contactName": "Darryl Arnold"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,13 @@
     }
   ],
   "foundedDate": "1914-01-01",
-  "fedramp_recognized_timestamp": "2014-07-21T00:00:00Z"
+  "cyberFrameworks": [
+    "ISO 9001:2008",
+    "ISO 20000",
+    "ISO 27001",
+    "AS9100C",
+    "CMMI DevMLS",
+    "CMMI SVC CL2",
+    "ISO 17020"
+  ]
 }

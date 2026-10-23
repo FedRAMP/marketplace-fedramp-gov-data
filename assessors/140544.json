@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/NCC%20Group%20Logo.jpg",
   "a2laId": "140544",
   "a2laAccreditationDate": "2017-04-26",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "At NCC Group Security Service Inc, our team of seasoned FedRAMP experts, backed by extensive US Government experience, is dedicated to guiding your Cloud Service Offerings through the complexities of the FedRAMP assessment landscape. Whether it's a FedRAMP Readiness Assessment Report (RAR), a full FedRAMP assessment, an annual assessment, or managing significant changes, we ensure your compliance journey is smooth and efficient, adhering strictly to PMO rules and requirements.\nOur in-house specialists include top-tier Penetration Testers and Red Team experts, who bring unparalleled insights and precision to every assessment. We understand the nuances of PMO expectations and requirements, ensuring your services meet the highest standards.\nWhat sets us apart is our exceptional communication skills, making the entire process transparent and straightforward. Our people truly make the difference, providing the expertise you need to achieve your security goals.\nContact us today to discover how we can help you navigate the FedRAMP process with confidence and ease.",
   "contactInformation": [
-    "fedramp@nccgroup.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@nccgroup.com",
+      "contactName": "B. Cameron"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,27 @@
     }
   ],
   "foundedDate": "1999-01-01",
-  "fedramp_recognized_timestamp": "2017-04-24T00:00:00Z"
+  "cyberFrameworks": [
+    "FISMA",
+    "State RAMP",
+    "DFARS 7012 / (CMMC)",
+    "CPCC",
+    "EO14028 / NIST 800-218",
+    "ISO 27001 Certification",
+    "ISO27001 Maturity",
+    "PCI DSS",
+    "HIPAA",
+    "HITRUST",
+    "CMS",
+    "DORA",
+    "GDPR",
+    "CCPA",
+    "CSC",
+    "CRV",
+    "NYCRR 500",
+    "New York Dept of Financial Services (NYDFS)",
+    "NYDH",
+    "TexRAMP",
+    "APEC/CBPR Accountability Agent"
+  ]
 }

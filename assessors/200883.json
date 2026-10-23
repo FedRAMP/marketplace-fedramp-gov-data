@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/DataLock%20Logo.png",
   "a2laId": "200883",
   "a2laAccreditationDate": "2020-08-18",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "As an accredited 3PAO, DataLock Consulting Group provides Independent Assessment services for Cloud Service Providers (CSP), Third-party providers, and for Federal agencies. DataLock performs independent pre-assessments, readiness assessments, full FedRAMP security assessments and penetration testing. Several of our clients leverage our services to meet multiple compliance frameworks, making the process more efficient and less cumbersome on their organizational resources.\n\nOur team is comprised of industry thought leaders, including NIST 800 series consultants and named authors. Our Assessors undergo a rigorous training program and hold industry leading certifications to ensure our clients are working with experts who understand information security and can analyze their unique systems and implementations.",
   "contactInformation": [
-    "fedramp@datalockcg.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@datalockcg.com",
+      "contactName": "Zyad Nabbus"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,8 @@
     }
   ],
   "foundedDate": "2013-01-01",
-  "fedramp_recognized_timestamp": "2021-06-30T00:00:00Z"
+  "cyberFrameworks": [
+    "NIST 800-171",
+    "NIST RMF/FISMA"
+  ]
 }

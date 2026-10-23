@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/AnthonyT%20Logo.png",
   "a2laId": "203181",
   "a2laAccreditationDate": "2024-05-06",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Anthony Timbers LLC is a FedRAMP-recognized Third-Party Assessment Organization (3PAO) and ISO/IEC 17020-accredited inspection body specializing in cybersecurity assessments for federal and commercial organizations. As an authorized 3PAO, we conduct independent FedRAMP security assessments using NIST SP 800-53 baselines, following FedRAMP’s official templates, testing procedures, and reporting standards.\n\nA renowned and trusted cybersecurity firm, Anthony Timbers LLC has served as a federal contractor and has conducted security assessments and advisory work for countless state, local, and education (SLED) entities. Our team of certified professionals brings deep technical expertise across the DoD, federal civilian, and critical infrastructure sectors. We support Cloud Service Providers (CSPs) throughout the entire FedRAMP lifecycle—from initial readiness reviews to full security assessments—helping them achieve and maintain their Authority to Operate (ATO) with efficiency and clarity.\n\nIn addition to FedRAMP, Anthony Timbers LLC is an authorized CMMC Third-Party Assessment Organization (C3PAO), a PCI DSS Qualified Security Assessor (QSA), and a leading provider of penetration testing and assessment services aligned with frameworks such as NIST SP 800-171, NIST Cybersecurity Framework (CSF), and HIPAA. Our mission is to empower secure, compliant cloud adoption through rigorous assessments and enduring partnerships.",
   "contactInformation": [
-    "fedramp@anthonytimbers.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@anthonytimbers.com",
+      "contactName": "Anthony Timbers"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,10 @@
     }
   ],
   "foundedDate": "2020-01-01",
-  "fedramp_recognized_timestamp": "2025-05-09T00:00:00Z"
+  "cyberFrameworks": [
+    "CMMC",
+    "NIST 800-171",
+    "NIST CSF",
+    "PCI DSS"
+  ]
 }

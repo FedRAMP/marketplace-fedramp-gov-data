@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Deloitte%20Logo.png",
   "a2laId": "138883",
   "a2laAccreditationDate": "2017-03-21",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Leveraging cloud services to support core functions of a Federal agency’s extended enterprise plays a vital role in helping increase efficiency and drive performance. While the Cloud First Policy has evolved into a strategic initiative for Federal agencies, leveraging cloud service providers (CSPs) introduces new security risks and new challenges in maintaining compliance with FISMA requirements. Deloitte employs a risk-focused approach to support CSPs and Federal agencies in furthering the adoption of cloud services by:\n\n* Determining FedRAMP readiness\n* Helping to address FedRAMP compliance gaps\n* Preparing FedRAMP artifacts\n* Independently validating compliance with FedRAMP requirements",
   "contactInformation": [
-    "fedramp@deloitte.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@deloitte.com",
+      "contactName": "Matthew Bogusch"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,14 @@
     }
   ],
   "foundedDate": "1845-01-01",
-  "fedramp_recognized_timestamp": "2017-04-27T00:00:00Z"
+  "cyberFrameworks": [
+    "ISO 27001",
+    "COBIT",
+    "PCI",
+    "HIPAA/HITECH",
+    "SSAE 16 SOC1/2",
+    "FISMA/RMF",
+    "DIACAP",
+    "NSA Certified Incident Response Assistance Accreditation"
+  ]
 }

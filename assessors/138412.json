@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/KPMG%20Logo.jpg",
   "a2laId": "138412",
   "a2laAccreditationDate": "2016-06-20",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "KPMG LLP provides 3PAO attestation services including FedRAMP Ready Gap Assessments and 3PAO security assessments.",
   "contactInformation": [
-    "us-dladvfedramp@kpmg.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "us-dladvfedramp@kpmg.com",
+      "contactName": "Vishi Bindra"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,7 @@
     }
   ],
   "foundedDate": "1897-01-01",
-  "fedramp_recognized_timestamp": "2016-06-20T00:00:00Z"
+  "cyberFrameworks": [
+    "SOC"
+  ]
 }

@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Earthling%20Logo.jpg",
   "a2laId": "137339",
   "a2laAccreditationDate": "2015-04-14",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Earthling Security provides end-to-end cloud security, advisory and compliance services. Our services include FedRAMP Advisory Services, FedRAMP 3PAO Services, Cloud Strategy, Secure Cloud Migration Planning, Secure Cloud Architecture services, Managed Security Services, Managed Compliance Service, AWS Security consulting, Microsoft Azure Security consulting, Cloud Security Consulting Services, Managed ISSO Service and regulatory compliance consulting.",
   "contactInformation": [
-    "fedramp@earthlingsecurity.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@earthlingsecurity.com",
+      "contactName": "Yusuf Ahmed"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "2011-01-01",
-  "fedramp_recognized_timestamp": "2012-08-20T00:00:00Z"
+  "foundedDate": "2011-01-01"
 }

@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/RSM%20Logo.jpg",
   "a2laId": "136762",
   "a2laAccreditationDate": "2015-12-15",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "RSM provides comprehensive FedRAMP 3PAO services and support for both federal government and commercial organizations. We leverage our extensive knowledge and experience with regulations to help you address any issues and develop a road map for your organization’s FedRAMP success. \nAttaining FedRAMP approval requires a potentially substantial investment of internal resources. Therefore, we begin with a preliminary gap analysis, providing your decision-makers with a clear picture of program costs, timelines, and internal resource demands to make an informed decision about whether to pursue FedRAMP operational authority. As an accredited 3PAO, our professionals provide assessment support services, including assessment planning, assessment and package testing (audit) and submission of the final assessment to the FedRAMP Program Management Office (PMO). In addition, our security analysts help educate your stakeholders about final assessment requirements, timelines and likely Authority to Operate (ATO) sponsor expectations (if applicable).",
   "contactInformation": [
-    "fedramp@rsmus.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@rsmus.com",
+      "contactName": "Charles Barley Jr."
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,23 @@
     }
   ],
   "foundedDate": "1926-01-01",
-  "fedramp_recognized_timestamp": "2016-11-30T00:00:00Z"
+  "cyberFrameworks": [
+    "CCPA",
+    "CJIS",
+    "CMMC 1.0 / 2.0",
+    "GDPR",
+    "FISMA / RMF",
+    "HIPAA / HITECH",
+    "HITRUST",
+    "ISO27001 / 701",
+    "ISO27017 / 18",
+    "MARS-E",
+    "NIST 800-171 (DFARS)",
+    "NIST CSF",
+    "PCI DSS",
+    "PCI PA-DSS",
+    "PCI P2PE",
+    "PCI PA-P2PE",
+    "SSAE 16 SOC1/2\""
+  ]
 }

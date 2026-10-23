@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Coalfire%20Logo2.png",
   "a2laId": "138514",
   "a2laAccreditationDate": "2014-10-21",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Coalfire delivers a full lifecycle of solutions through professional services, managed services, and technology platforms to help our clients solve their toughest cyber challenges. With more than 20 years of proven cybersecurity leadership, Coalfire combines extensive cloud expertise, industry knowledge, and innovative approaches to fuel success.\n\nOur FedRAMP assessment team is comprised of qualified assessors prepared to support CSPs of all sizes and complexity. We continuously support our clients with the following types of assessments: gap assessment, readiness assessment, initial assessment, annual assessment, significant change assessment and new cloud service onboarding. Many of our clients leverage Coalfire’s coordinated assessment services where FedRAMP is assessed in parallel with other cyber frameworks (e.g., HITRUST, PCI-DSS) to reduce efforts associated with overlapping security control requirements.",
   "contactInformation": [
-    "3pao@coalfire.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "3pao@coalfire.com",
+      "contactName": "Michael Caruso"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,33 @@
     }
   ],
   "foundedDate": "2001-01-01",
-  "fedramp_recognized_timestamp": "2015-07-17T00:00:00Z"
+  "cyberFrameworks": [
+    "C5",
+    "CJIS",
+    "CMMC",
+    "CSA STAR",
+    "CMS EDE",
+    "DEA EPCS",
+    "DFIR",
+    "DoD RMF",
+    "FFIEC",
+    "FISMA",
+    "HIPAA",
+    "HITRUST",
+    "IRS 1075",
+    "ISO",
+    "ITAR and EAR",
+    "JISF",
+    "MARS-E",
+    "NIST 800-171",
+    "NIST 800-218/SSDF",
+    "NIST CSF",
+    "PA-DSS/SSF",
+    "PCI 3DS",
+    "PCI DSS",
+    "PCI Forensic Investigator",
+    "SOC 1, 2 & 3",
+    "StateRAMP",
+    "VA SEC 525"
+  ]
 }

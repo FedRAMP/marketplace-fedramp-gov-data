@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Securisea%20Logo.png",
   "a2laId": "200865",
   "a2laAccreditationDate": "2019-07-29",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "The Securisea 3PAO security practice leverages our deep expertise in assessing some of the most advanced and complex Cloud Service Providers (CSPs) in the world. Our 3PAO services include preparation of Readiness Assessment Report (RAR) in order to be listed as FedRAMP Ready, full 3APO assessments for both Agency and Provisional-ATOs, vulnerability scanning penetration testing, and continuous monitoring of services with existing ATOs.\n\nOur integrated compliance approach allows us to leverage our client’s existing security controls from other frameworks directly into each 3PAO assessment, reducing overhead and work duplication. As experts in a wide variety of security control frameworks, we can provide a comprehensive solution for all of your security assessments.",
   "contactInformation": [
-    "fedramp@securisea.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@securisea.com",
+      "contactName": "Josh Daymont"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,14 @@
     }
   ],
   "foundedDate": "2006-01-01",
-  "fedramp_recognized_timestamp": "2020-04-09T00:00:00Z"
+  "cyberFrameworks": [
+    "FISMA",
+    "NIST 800-53",
+    "NIST 800-171",
+    "PCI 3DS",
+    "PCI DSS",
+    "PCI P2PE",
+    "PCI PIN",
+    "PCI SSF"
+  ]
 }

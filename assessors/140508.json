@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/AFS%20Logo2.png",
   "a2laId": "140508",
   "a2laAccreditationDate": "2019-03-29",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Accenture, as an accredited 3PAO organization, is authorized to provide the below services:\n\nStrategy & Risk Advisory\n\n* Journey to the Cloud Policy & Guidance\n* Strategy Enhancement & Implementation\n* Trusted Advisory Services\n* Technical Architecture Guidance\n* Governance (FISMA, ISSO Support, CSF, Security A&A)\n* Security Artifact Creation (FedRAMP and Agency approved artifacts)\n\nReadiness Assessment\n\n* Impact Assessment & Gap Analysis\n* Readiness Assessment\n\nFedRAMP Assessment\n\n* Full assessment based on FedRAMP controls\n* Provide assessment documentation (ex: Security Assessment Plan (SAP), Security Assessment Report (SAR), Plan of Action & Milestones)\n* Penetration Testing\n\nContinuous Monitoring Services\n\n* Required ongoing risk evaluation activities to maintain your FedRAMP ATO",
   "contactInformation": [
-    "AFS.FedRAMP@afs.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "AFS.FedRAMP@afs.com",
+      "contactName": "Warner Sterling"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "1989-01-01",
-  "fedramp_recognized_timestamp": "2020-02-13T00:00:00Z"
+  "foundedDate": "1989-01-01"
 }

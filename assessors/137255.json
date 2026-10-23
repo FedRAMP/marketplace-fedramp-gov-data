@@ -3,9 +3,13 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Kratos%20Logo.png",
   "a2laId": "137255",
   "a2laAccreditationDate": "2015-05-04",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Kratos has over 10 years of experience serving as a trusted independent FedRAMP 3PAO partner for Cloud Service Providers (CSPs) seeking to obtain or maintain FedRAMP Authorization for their cloud service offerings. Services include: \n\n•\tReadiness Assessment (33 completed as of August 2024)\n•\tInitial Assessment (71 completed as of August 2024)\n•\tAnnual Assessment (146 completed as of August 2024)\n•\tSignificant Change Request (SCR) validation and assessment \n•\tService Onboarding validation and assessment\n•\tFedRAMP Baseline and DoD Impact Level uplift assessment \n•\tGap Assessment \n•\tContinuous Monitoring Validation\n•\tPenetration Testing \n•\tRed Teaming\n•\tSecure Software Development Framework (SSDF) Attestation\n•\tMulti-framework Assessment and Attestation \n\nService Models supported: IaaS, PaaS, SaaS\n\nImpact Levels supported: FedRAMP Tailored Li-SaaS, Low, Moderate, and High; DoD Impact Levels 2, 4, 5, and 6 (Secret) \n\nAO Stakeholders supported: FedRAMP Board and PMO, DoD JVT and DSAWG, and over 30 civilian and DoD agency sponsors\n\nKratos delivers 3PAO assessment services, including readiness assessments, initial assessments, annual assessments, significant change request (SCR) assessments, penetration testing, red teaming, and continuous monitoring validation & attestation. Kratos provides full scope support from assessment planning, execution of testing, evaluating risk, and submission of a final report to accompany the complete Authority to Operate (ATO) package.",
   "contactInformation": [
-    "cybersales@kratosdefense.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "cybersales@kratosdefense.com",
+      "contactName": "Justin Padilla"
+    }
   ],
   "servicesOffered": [
     {
@@ -13,5 +17,14 @@
     }
   ],
   "foundedDate": "1994-01-01",
-  "fedramp_recognized_timestamp": "2012-08-27T00:00:00Z"
+  "cyberFrameworks": [
+    "CMMC / Joint Surveillance",
+    "DoD SRG",
+    "HITRUST",
+    "IA-Pre",
+    "StateRAMP",
+    "FedRAMP Equivalence",
+    "Commercial Solutions for Classified (CSfC)",
+    "Other Attestations: CJIS, DoD DIU, FedRAMP, FERPA, FISMA, HIPAA, IRS Publication 1075, MARS-E, NIST CSF, NIST SP 800-53, NIST SP 800-171, NIST SP 800-218, NNPI, SSDF"
+  ]
 }
