@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/MegaplanIT%20Logo.png",
   "a2laId": "200765",
   "a2laAccreditationDate": "2020-05-06",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "The MegaplanIT FedRAMP 3PAO provides comprehensive IT auditing and penetration testing services for customers interested in an independent, third-party FedRAMP assessment. We maintain a suite of 3PAO services to assist CSPs through their FedRAMP certification process, which include: Readiness assessment, Security package development, Remediation services, 3PAO security assessment, and 3PAO continuous monitoring services.",
   "contactInformation": [
-    "fedramp@megaplanit.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@megaplanit.com",
+      "contactName": "Dominick Vitolo"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "2011-01-01",
-  "fedramp_recognized_timestamp": "2021-02-17T00:00:00Z"
+  "foundedDate": "2011-01-01"
 }

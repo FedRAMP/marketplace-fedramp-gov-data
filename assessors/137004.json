@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Lunarline%20Logo2.png",
   "a2laId": "137004",
   "a2laAccreditationDate": "2015-03-17",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "As one of the original FedRAMP-accredited 3PAOs, Lunarline is authorized to conduct assessments and report results to the FedRAMP PMO. Lunarline's team of expert assessors has conducted over 2,000 successful Security Assessments and Authorizations, using the same standards required by FedRAMP. No matter if the goal is an Agency ATO, FedRAMP Ready, or Continuous Monitoring, we have mastered every piece of the compliance puzzle.\n\n\nLunarline's approach is designed to make the assessment process as painless and fair as possible. All testing is backed by detailed test plans developed in coordination with your team, and all requirements are clearly communicated early in the process. We also take the time to understand your technical and business requirements, to give us the context we need to provide a fair assessment of security control implementation.",
   "contactInformation": [
-    "fedramp@lunarline.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@lunarline.com",
+      "contactName": "Lesley Hess"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "2004-01-01",
-  "fedramp_recognized_timestamp": "2012-05-15T00:00:00Z"
+  "foundedDate": "2004-01-01"
 }

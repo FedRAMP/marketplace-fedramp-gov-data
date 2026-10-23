@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/BT%20Logo.png",
   "a2laId": "139960",
   "a2laAccreditationDate": "2016-06-28",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Baker Tilly is a fully integrated professional services firm that provides accounting, tax, wealth management, and consulting services.  FedRAMP is one of several cyber security service lines (security frameworks) that Baker Tilly provides to cloud service providers (CSPs).\n\nAs a FedRAMP-accredited third-party assessment organization (3PAO), Baker Tilly FedRAMP assessment services includes the following:\n\n--Initial assessments\n--Annual assessments\n--Readiness Assessments (RAR)\n--Significant Change Requests (SCRs)\n--Penetration and Red Team Testing\n\nAdditionally, Baker Tilly provides coordinated assessments with other security standards/frameworks, such as SOC, PCI, HIPAA, and HITRUST, giving our clients a more streamlined audit experience.",
   "contactInformation": [
-    "fedramp@bakertilly.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@bakertilly.com",
+      "contactName": "Jonathan Smith"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "1913-01-01",
-  "fedramp_recognized_timestamp": "2024-09-26T00:00:00Z"
+  "foundedDate": "1913-01-01"
 }

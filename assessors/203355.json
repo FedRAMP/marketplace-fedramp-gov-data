@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Insight%20Logo.png",
   "a2laId": "203355",
   "a2laAccreditationDate": "2024-11-05",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "FedRAMP/GovRAMP/DoD initial assessments, readiness assessments, annual assessments, red team testing, independent security attestations",
   "contactInformation": [
-    "FedRAMP@insightassurance.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "FedRAMP@insightassurance.com",
+      "contactName": "Dillard Trapp"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "2020-01-01",
-  "fedramp_recognized_timestamp": "2025-09-16T00:00:00Z"
+  "foundedDate": "2020-01-01"
 }

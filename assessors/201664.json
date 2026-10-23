@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Fortreum%20Logo.png",
   "a2laId": "201664",
   "a2laAccreditationDate": "2020-10-13",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Fortreum is a specialized compliance assessment organization that conducts security assessments in a fundamental manner that balances client availability and security review cycles. While maintaining our independence, we work closely with our customers to conduct our assessments to align with their other compliance frameworks. Controls are controls, so why not line up the assessment activity to ensure compliance personnel are not spinning their wheels and just gathering evidence for each individual audit? Re-use is key, and something we have adopted through our continuous audit approach. In support of FedRAMP, Fortreum provides the following 3PAO assessment support services:\n\n* FedRAMP Gap Assessment \n\n* FedRAMP Readiness Assessment \n\n* FedRAMP Full/Initial Assessment \n\n* FedRAMP Annual Assessment \n\n* FedRAMP Significant Change Assessment \n\n* FedRAMP Red Team Exercises\n\n* FedRAMP Continuous Monitoring Support (Assessment-focused)",
   "contactInformation": [
-    "compliance@fortreum.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "compliance@fortreum.com",
+      "contactName": "Michael Carter"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "2020-01-01",
-  "fedramp_recognized_timestamp": "2021-07-01T00:00:00Z"
+  "foundedDate": "2020-01-01"
 }

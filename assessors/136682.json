@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/COACT%20Logo.jpg",
   "a2laId": "136682",
   "a2laAccreditationDate": "2016-08-23",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "COACT, Inc. is a Service-Disabled Veteran-Owned Small Business (SDVOSB), founded in 1990, that supports commercial and government clients in understanding and fulfilling their risk management and compliance needs. COACT evolved into a leading provider of high-reliance Governance, Risk, and Compliance (GRC) services across multiple compliance frameworks. For over 30 years, COACT has provided consulting, Independent Verification & Validation (IV&V), and assessment services to both government and commercial clients. Our tiered service offerings range from focused efforts to address specific security objectives, to providing full information security programs for clients in the commercial, healthcare, regulatory, defense, and intelligence domains. With unrivaled ethics, COACT remains free from real or perceived conflicts of interest and does not engineer, manufacture, or resell any products.\n\n \n\nCOACT is able to perform FedRAMP consulting and assessment services to meet the needs of new and existing cloud service offerings. Our team of qualified assessors are available to assess cloud systems and continuously monitor the security posture of those systems in accordance with FedRAMP requirements. The output of our assessment services will provide the information needed to make critical risk-based decisions and demonstrate compliance with FedRAMP. COACT utilizes proven assessment methodologies and an accredited Quality Management System to ensure testing is targeted, effective, and produces actionable information for Authorizing Officials and other stakeholders.",
   "contactInformation": [
-    "info@coact.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "info@coact.com",
+      "contactName": "Brian McCoy"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "1990-01-01",
-  "fedramp_recognized_timestamp": "2016-09-09T00:00:00Z"
+  "foundedDate": "1990-01-01"
 }

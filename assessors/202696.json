@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Bladestack%20Logo.png",
   "a2laId": "202696",
   "a2laAccreditationDate": "2023-05-09",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Our technical focus does not make us lose sight of our clients' overarching goals. Whether it's business growth, cost optimization, or improved customer service, we ensure our technical advice aligns with these broader objectives.",
   "contactInformation": [
-    "fedramp@bladestack.io"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@bladestack.io",
+      "contactName": "Kris Martel"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "2021-01-01",
-  "fedramp_recognized_timestamp": "2024-06-05T00:00:00Z"
+  "foundedDate": "2021-01-01"
 }

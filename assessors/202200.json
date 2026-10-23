@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/CyberQRT%20Logo.png",
   "a2laId": "202200",
   "a2laAccreditationDate": "2023-10-26",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "CyberQRT is a FedRAMP-accredited Third Party Assessment Organization (3PAO), authorized to perform independent security assessments for Cloud Service Providers (CSPs) pursuing or maintaining FedRAMP Authorization. Our accreditation is issued under the FedRAMP 3PAO program and maintained through ongoing oversight and continuous accreditation by the American Association for Laboratory Accreditation (A2LA).\n\nAs a 3PAO, CyberQRT provides comprehensive, independent assessments in accordance with FedRAMP requirements and NIST SP 800-53 controls. Our services include readiness assessments, full security control assessments, annual assessments, significant change reviews, and continuous monitoring validation. We perform detailed testing of management, operational, and technical controls to evaluate implementation, effectiveness, and compliance.\n\nCyberQRT delivers objective, evidence-based findings and high-quality assessment documentation, including Security Assessment Plans (SAP), Security Assessment Reports (SAR), and associated test artifacts required for FedRAMP authorization packages. Our assessment methodology emphasizes rigor, transparency, and alignment with federal standards to support secure cloud adoption across government environments.\n\nWe maintain strict independence, technical integrity, and adherence to FedRAMP and A2LA accreditation requirements to ensure consistent, defensible, and high-confidence assessment results.",
   "contactInformation": [
-    "dmendes@cyberqrt.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "dmendes@cyberqrt.com",
+      "contactName": "Diana Mendes"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "2016-01-01",
-  "fedramp_recognized_timestamp": "2026-02-27T00:00:00Z"
+  "foundedDate": "2016-01-01"
 }

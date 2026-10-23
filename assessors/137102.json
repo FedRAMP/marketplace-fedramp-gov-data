@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/DOT%20ESC%20Logo.png",
   "a2laId": "137102",
   "a2laAccreditationDate": "2014-12-22",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "ESC was the first federal organization accredited as a FedRAMP 3PAO. Our motto is security for Feds by Feds! The ESC's security teams have extensive work experience in IT, Federal Government and a variety of industries in the private sector. As a federal government agency, ESC is positioned & understands your needs. The ESC provides the opportunity for federal organizations that have a cloud service information system, to use our certified/accredited independent FedRAMP 3PAO services to validate and verify their security posture and IT implementation.",
   "contactInformation": [
-    "cyberservices@esc.gov"
+    {
+      "contactType": "Primary",
+      "contactEmail": "cyberservices@esc.gov",
+      "contactName": "Jerome Kemp"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "2006-01-01",
-  "fedramp_recognized_timestamp": "2014-11-30T00:00:00Z"
+  "foundedDate": "2006-01-01"
 }

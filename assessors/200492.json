@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/Tevora%20Logo.png",
   "a2laId": "200492",
   "a2laAccreditationDate": "2019-09-27",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "Tevora’s Federal Services Team is an accredited FedRAMP 3PAO that offers a comprehensive collection of accredited 3PAO services which are tailored to support individual CSPs in maintaining cost effective strategic initiatives for compliance with FedRAMP, FISMA, Office of Management and Budget (OMB), and other Federal civilian and Department of Defense (DoD) mandates. Tevora provides meaningful feedback throughout each project to help CSPs efficiently navigate the FedRAMP assessment and authorization process in partnership with the FedRAMP PMO and Agency sponsor.\n\nTevora’s Federal Services include:\n* Strategy Roadmap Development\n* IT Governance including creation of IT Security Policies, Standards, and Procedures\n* Development of System Security Plans (SSP)\n* Gap and Readiness Assessment Report (RAR)\n* Remediation Services\n* Penetration Testing\n* Accredited 3PAO Security Assessment Reports (SAR)\n* Accredited 3PAO Continuous Monitoring Services",
   "contactInformation": [
-    "fedramp@tevora.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@tevora.com",
+      "contactName": "Jeremiah Sahlberg"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "2003-01-01",
-  "fedramp_recognized_timestamp": "2020-08-27T00:00:00Z"
+  "foundedDate": "2003-01-01"
 }

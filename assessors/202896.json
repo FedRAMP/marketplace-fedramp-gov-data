@@ -3,15 +3,18 @@
   "logo": "https://www.fedramp.gov/assets/img/logos/3PAO_logos/360%20Logo.png",
   "a2laId": "202896",
   "a2laAccreditationDate": "2023-07-17",
-  "serviceDescription": "Independent assessment organization providing FedRAMP assessment services.",
+  "serviceDescription": "360 Advanced Compass Rose, Inc is an accredited Third-Party Assessment Organization (3PAO) authorized to perform FedRAMP assessments. With a dedicated team of senior advisors, Compass Rose helps organizations navigate the complexities of FedRAMP requirements, providing rigorous testing and validation of security controls to ensure compliance with federal standards. As a 3PAO, Compass Rose offers end-to-end support, from initial preparation and gap analysis to the final assessment, ensuring a smooth and efficient path to FedRAMP authorization.\n\nCompass Rose is well-equipped to support your government or federal compliance security needs, including FedRAMP, FISMA, NIST 800-171, StateRAMP, and the upcoming CMMC requirements. As a trusted assessor, 360 Advanced is also authorized to evaluate compliance across other critical frameworks such as ISO, PCI, SOC, and HITRUST.",
   "contactInformation": [
-    "fedramp@360advanced.com"
+    {
+      "contactType": "Primary",
+      "contactEmail": "fedramp@360advanced.com",
+      "contactName": "Keith Frechette"
+    }
   ],
   "servicesOffered": [
     {
       "serviceName": "FedRAMP assessment"
     }
   ],
-  "foundedDate": "2004-01-01",
-  "fedramp_recognized_timestamp": "2024-08-21T00:00:00Z"
+  "foundedDate": "2004-01-01"
 }
