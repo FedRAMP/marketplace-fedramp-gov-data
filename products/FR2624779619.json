@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2624779619",
+    "providerName": "Magenta",
+    "serviceName": "Magenta",
+    "serviceAcronym": "Magenta",
+    "serviceDescription": "Magenta is an artificial-intelligence platform developed by Magenta, headquartered in El Segundo, California, that automates document-intensive manufacturing and quality workflows for regulated manufacturing. The platform deploys specialized AI agents to perform tasks such as supplier data package review, certificate of conformance (CoC) generation, accounts payable invoice processing and purchase-order matching, non-conformance report (NCR) dispositioning, work-instruction generation, and FMEA risk-analysis documentation.",
+    "certificationType": "Rev5",
+    "website": "https://www.withmagenta.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Magenta%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@withmagenta.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@withmagenta.com"
+    }
+  ],
+  "assessor": {
+    "name": "Ignyte Platform Inc.",
+    "assessorID": "201722"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2627740935",
+    "providerName": "Praxon Labs Inc.",
+    "serviceName": "Praxon Arc",
+    "serviceAcronym": "Praxon Arc",
+    "serviceDescription": "Praxon Arc is a secure, multi-tenant AI gateway that enables federal agencies and government contractors to access, govern, and operationalize approved generative AI models through a unified platform. Praxon provides OpenAI-compatible APIs and a centralized user interface while routing requests to authorized model providers within government cloud environments. The platform delivers centralized identity and access controls, model governance, usage monitoring, cost and budget controls, audit logging, and configurable security guardrails - allowing organizations to adopt AI without creating separate integrations or governance processes for each model provider. Praxon is designed to support secure, scalable AI deployment across federal mission, compliance, and operational use cases.",
+    "certificationType": "Rev5",
+    "website": "https://praxonlabs.com/",
+    "logo": "https://www.fedramp.gov/placeholder-128x128px.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@praxonlabs.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Ignyte Platform Inc.",
+    "assessorID": "201722"
+  }
+}

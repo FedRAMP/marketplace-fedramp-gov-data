@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2620331565",
+    "providerName": "Cableteque Corp.",
+    "serviceName": "CabletequeGov",
+    "serviceAcronym": "CabletequeGov",
+    "serviceDescription": "Cableteque is a SaaS platform enabling secure technical data exchange across the design-to-manufacturing lifecycle for electronics systems and assemblies. The platform supports cost estimating, design validation, manufacturability analysis, procurement automation, and manufacturing engineering workflows for defense stakeholders.\n\nThe system stores, processes, and transmitted within the system includes Controlled Unclassified Information (CUI) and Covered Defense Information (CDI) such as technical drawings, design specifications, bill of materials data, component and material specifications, cost and pricing data, and procurement records associated with defense electronics programs. The system also processes ITAR-regulated engineering design data.",
+    "certificationType": "Rev5",
+    "website": "https://cableteque.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cable%20Logo.png",
+    "ueiNumber": "ZGTXJ87N3EG5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "support@cableteque.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@cableteque.com"
+    }
+  ],
+  "assessor": {
+    "name": "Ignyte Platform Inc.",
+    "assessorID": "201722"
+  }
+}

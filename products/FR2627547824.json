@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2627547824",
+    "providerName": "CrowdStrike, Inc.",
+    "serviceName": "CrowdStrike Falcon Platform IL5 SaaS",
+    "serviceAcronym": "CrowdStrike Falcon Platform IL5 SaaS",
+    "serviceDescription": "The primary purpose of the CrowdStrike Falcon Platform is to provide organizations with a comprehensive cybersecurity solution that encompasses the following system functions:\n\nEndpoint Security - Advanced endpoint security capabilities to protect laptops, desktops, servers, and virtual machines from various cyber threats.\n\nThreat Intelligence - Cloud-based intelligence engine to collect and analyze threat data from millions of endpoints worldwide.\n\nManaged Security - Managed security services with a team of security experts actively monitoring and responding to security events.\n\nCloud Security - Cloud security capabilities to protect organizations' cloud environments.\n\nSecurity and IT Operations - Integration of security and IT operations for a unified view of security posture.\n\nIdentity Protection - Identity protection capabilities to safeguard user identities and prevent unauthorized access.\n\nNext-Gen SIEM - Logging and analysis capabilities to collect, correlate, and analyze security events and logs.",
+    "certificationType": "Rev5",
+    "website": "https://www.crowdstrike.com/solutions/falcon-on-govcloud/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/CrowdStrike%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@crowdstrike.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@crowdstrike.com"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}
