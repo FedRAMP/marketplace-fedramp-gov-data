@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-23T19:59:31.678Z",
-    "total_entries": 2377,
+    "export_timestamp": "2026-10-23T22:46:57.182Z",
+    "total_entries": 2383,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -26152,6 +26152,72 @@
         "to_status": "No Status Found (Delisted)",
         "transition_date": "2026-07-21T04:00:00.000Z",
         "recorded_date": "2026-10-23T18:34:15.000Z"
+      },
+      {
+        "unique_id": "28cf27f1-2443-4824-a2ae-e14929c2c0d7",
+        "product_id": "FR2702257111",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-23T20:51:49.000Z",
+        "recorded_date": "2026-10-23T20:56:27.510Z"
+      },
+      {
+        "unique_id": "8a921d40-2c52-446d-b5e6-1dcfca2aec8b",
+        "product_id": "FR2702257113",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-23T20:51:52.000Z",
+        "recorded_date": "2026-10-23T20:56:27.510Z"
+      },
+      {
+        "unique_id": "bb05ad50-3070-4e72-bd97-1968d0a1d893",
+        "product_id": "FR2702257117",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-23T20:51:54.000Z",
+        "recorded_date": "2026-10-23T20:56:27.510Z"
+      },
+      {
+        "unique_id": "92f0b469-b0d8-4f3e-8d25-5da61196a2c0",
+        "product_id": "FR2702257111",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-23T20:51:49.000Z",
+        "recorded_date": "2026-10-23T20:56:27.964Z"
+      },
+      {
+        "unique_id": "d55c78ae-132c-4db8-a66a-061344ef4537",
+        "product_id": "FR2702257113",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-23T20:51:52.000Z",
+        "recorded_date": "2026-10-23T20:56:27.964Z"
+      },
+      {
+        "unique_id": "8d79535d-11e1-431d-85cb-aaab68b28dc9",
+        "product_id": "FR2702257117",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-10-23T20:51:54.000Z",
+        "recorded_date": "2026-10-23T20:56:27.964Z"
       }
     ]
   }

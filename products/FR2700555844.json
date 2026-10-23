@@ -1,10 +1,10 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "Linear (LINEAR)",
+    "fedRampPackageId": "FR2700555844",
     "providerName": "Linear Orbit, Inc.",
     "serviceName": "Linear",
     "serviceAcronym": "LINEAR",
-    "serviceDescription": "Linear is the product development system for teams and agents, purpose-built for planning and building software products. It is a multi-tenant SaaS offering that provides issue tracking, project and cycle planning, roadmaps and initiatives, product intelligence, and agent workflows, delivered through web, desktop, and mobile clients and a public GraphQL API.\n\nLinear is currently listed in the **Initial Implementation** phase and is pursuing a FedRAMP 20x certification for its existing commercial offering, starting with a Class A submission and progressing toward Class C. Linear does not operate a separate government-only environment; the certification scope is the production Linear service hosted on Google Cloud Platform with Cloudflare at the network edge.\n\nProgress toward certification is published at least quarterly in Linear’s Trust Center (https://trust.linear.app).",
+    "serviceDescription": "Linear is the product development system for teams and agents, purpose-built for planning and building software products. It is a multi-tenant SaaS offering that provides issue tracking, project and cycle planning, roadmaps and initiatives, product intelligence, and agent workflows, delivered through web, desktop, and mobile clients and a public GraphQL API.\n\nLinear is currently listed in the **Initial Implementation** phase and is pursuing a FedRAMP 20x certification for its existing commercial offering, starting with a Class A submission and progressing toward Class C. Linear does not operate a separate government-only environment.\n\n**Certification scope.** The cloud service offering is the production Linear service. Federal customer data is stored and processed in Linear's US workspace region on Google Cloud Platform, with Cloudflare at the network edge. The offering includes these groups of information resources:\n\n- **Edge (Cloudflare global network):** DNS, CDN, web application firewall and DDoS protection, and Workers for request routing, file delivery and the MCP server.\n- **US workspace region (GCP us-east1, us-central1):** application, sync and background services on GKE, workspace databases, caches and queues, file storage, analytics, encryption keys, egress, and backups.\n- **Shared control plane (GCP us-east1):** authentication and account services and the account database, shared by all workspace regions.\n- **Build and deploy (GCP us-east1):** Cloud Build and Artifact Registry, with source code in GitHub.\n- **Administrative access:** Google Workspace single sign-on and Cloudflare Access for staff access to production and support tooling.\n- **Third-party information resources:** listed below with their use cases.\n\nThe logical architecture diagram in the Trust Center shows these groups and how requests move between them.\n\nProgress toward certification is published at least quarterly in Linear’s Trust Center (https://trust.linear.app).",
     "certificationType": "20x",
     "website": "https://linear.app",
     "logo": "https://linear.app/static/brand/wordmark-dark.svg"
@@ -33,6 +33,15 @@
     "additionalRepositories": [
       {
         "repositoryType": [
+          "Architecture"
+        ],
+        "url": "https://trust.linear.app/resources?s=3b57kh3cjeib0e6zb08xfb&name=logical-architecture-diagram-(october-2026-)",
+        "repositoryDescription": "Logical architecture diagram of the production Linear service: the certification boundary, how requests are routed to a workspace region, and the third-party information resources each part uses.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Request access on the Trust Center. Requests from .gov and .mil email addresses are approved without an NDA."
+      },
+      {
+        "repositoryType": [
           "Documentation",
           "Policies"
         ],
@@ -56,8 +65,17 @@
         "url": "https://linear.app/dpa",
         "repositoryDescription": "Linear Data Processing Agreement, including subprocessor commitments and data handling terms.",
         "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Availability Reporting"
+        ],
+        "url": "https://linearstatus.com",
+        "repositoryDescription": "Current status and 90-day incident history for the Linear application, API and integrations in each region, hosted by incident.io outside Linear's infrastructure. Machine-readable at https://linearstatus.com/api/v2/summary.json and https://linearstatus.com/history.rss.",
+        "authenticationRequired": false
       }
-    ]
+    ],
+    "nextOngoingCertificationReportDate": "2027-04-15"
   },
   "contactInformation": [
     {
@@ -98,10 +116,6 @@
       {
         "fedRampCertifiedThirdPartyInformationResource": "FR1823447014",
         "useCase": "Internal collaboration and customer support channels."
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1809360201",
-        "useCase": "Data warehouse for product analytics and operational reporting."
       }
     ],
     "nonCertified": [
@@ -122,6 +136,12 @@
         "provider": "Functional Software, Inc.",
         "website": "https://sentry.io",
         "useCase": "Application error tracking and performance monitoring."
+      },
+      {
+        "name": "PostHog",
+        "provider": "PostHog, Inc.",
+        "website": "https://posthog.com",
+        "useCase": "Product analytics for usage events from Linear clients."
       },
       {
         "name": "PlanetScale",
@@ -208,6 +228,12 @@
         "useCase": "Data pipeline into the analytics warehouse."
       },
       {
+        "name": "Snowflake",
+        "provider": "Snowflake Inc.",
+        "website": "https://www.snowflake.com",
+        "useCase": "Data warehouse for product analytics and operational reporting."
+      },
+      {
         "name": "Hex",
         "provider": "Hex Technologies Inc.",
         "website": "https://hex.tech",
@@ -222,5 +248,5 @@
     ]
   },
   "ZD_frid_retro": "FR2700555844",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }

@@ -1,0 +1,593 @@
+{
+  "serviceIdentification": {
+    "providerName": "Nominal, Inc.",
+    "serviceName": "Nominal Platform",
+    "serviceAcronym": "NOM",
+    "serviceDescription": "Cloud platform for aggregating, visualizing, and analyzing test, telemetry, and mission data for hardware and complex systems, operated for U.S. Government customers in a FedRAMP-scoped, government-only AWS GovCloud (US) environment.",
+    "certificationType": "20x",
+    "fedRampPackageId": "Nominal, Inc. (NOM)",
+    "website": "https://www.nominal.io",
+    "logo": "https://nominal.us/fedramp/logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Data Management",
+      "Development Tools"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Certification Data"
+      ],
+      "url": "https://trust.nominal.io",
+      "repositoryDescription": "Nominal Trust Center: FedRAMP 20x Certification Data (Certification Package Overview, Security Decision Record, Vulnerability Detail and Accepted Vulnerability reports, Significant Change Notifications, Secure Configuration Guide), policies and assessment reports.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Request access at https://trust.nominal.io (name, email, organization and reason). Requests from federal agencies and FedRAMP are approved on the day they are received; approval grants self-service download of every FedRAMP 20x resource and is logged. Questions: fedramp-security@nominal.io."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guide"
+      ],
+      "url": "https://trust.nominal.io",
+      "repositoryDescription": "Secure Configuration Guide for the Nominal Platform: human-readable guide, machine-readable JSON baseline and use instructions, under the FedRAMP 20x category.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Request access at https://trust.nominal.io (name, email, organization and reason). Requests from federal agencies and FedRAMP are approved on the day they are received; approval grants self-service download of every FedRAMP 20x resource and is logged. Questions: fedramp-security@nominal.io."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Authorization Documentation",
+          "Assessment Reports",
+          "Policies"
+        ],
+        "url": "https://trust.nominal.io",
+        "repositoryDescription": "Certification package documents under the FedRAMP 20x category; fortnightly Vulnerability Detail and Accepted Vulnerability reports under FedRAMP 20x Vulnerability Reports; weekly Significant Change Notifications under FedRAMP 20x Change Notifications; the NIST SP 800-53 family policy set and independent assessment reports.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Request access at https://trust.nominal.io (name, email, organization and reason). Requests from federal agencies and FedRAMP are approved on the day they are received; approval grants self-service download of every FedRAMP 20x resource and is logged. Questions: fedramp-security@nominal.io."
+      },
+      {
+        "repositoryType": [
+          "Availability Reporting"
+        ],
+        "url": "https://status.nominal.io",
+        "repositoryDescription": "Current and historical availability of the offering's core services with incident history; machine-readable at /api/v2/summary.json, /api/v2/status.json and /api/v2/incidents.json.",
+        "authenticationRequired": false
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2026-12-24"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Nominal FedRAMP Security Inbox",
+      "contactEmail": "fedramp-security@nominal.io"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Nominal Security Team",
+      "contactEmail": "security@nominal.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Nominal Sales",
+      "contactEmail": "sales@nominal.io"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN",
+    "assessorID": "138665"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Nominal Platform",
+      "serviceDescription": "Data ingestion, storage, visualization, and analysis for test, telemetry, and mission data: datasets and channels, runs and events, workbooks and dashboards, checks and alerts, and the Nominal API and client libraries, in the GovCloud deployment.",
+      "dateAvailable": "2026-01-01"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "Primary production cloud infrastructure (AWS GovCloud (US))."
+      }
+    ]
+  },
+  "metadata": {
+    "responsibleOfficial": {
+      "name": "David Jannotta",
+      "title": "Security Lead",
+      "email": "djannotta@nominal.io"
+    },
+    "version": "2026.10.22",
+    "lastUpdated": "2026-10-22T03:09:02Z",
+    "updateSource": "fedramp-assist generate_cpo nominal-io/security-tools@ec605b530c68 GitHub Actions run 39714984582; attested by David Jannotta, Security Lead"
+  },
+  "certificationPackage": {
+    "generatedAt": "2026-10-22T03:09:02Z",
+    "items": [
+      {
+        "rule": "CDS-CSO-IRP",
+        "label": "Policies and procedures"
+      },
+      {
+        "rule": "MAS-CSO-IIR",
+        "label": "Information resources"
+      },
+      {
+        "rule": "MAS-CSO-FLO",
+        "label": "Information flows and security categories"
+      },
+      {
+        "rule": "MAS-CSO-TPR",
+        "label": "Third-party information resources"
+      },
+      {
+        "rule": "CMU-CSO-CMD",
+        "label": "Cryptographic module documentation"
+      },
+      {
+        "rule": "SCG-CSO-RSC",
+        "label": "Secure configuration guidance"
+      },
+      {
+        "rule": "IVV-CSO-ICP",
+        "label": "Independent assessment"
+      }
+    ],
+    "policyIndex": [
+      {
+        "id": "cryptography-policy-bsi",
+        "name": "Cryptography Policy (SC)",
+        "purpose": "To ensure proper and effective use of cryptography to protect the confidentiality, authenticity and/or integrity of information. This policy establishes requirements for the use and protection of cryptographic keys throughout their entire lifecycle.",
+        "state": "APPROVED",
+        "approvedAt": "2026-05-06",
+        "approvedVersionId": "6a61268929882f92aca06bf6"
+      },
+      {
+        "id": "FedRAMP-Access-Control-policy",
+        "name": "FedRAMP Access Control policy",
+        "purpose": "Defines requirements for controlling access to systems and data to ensure only authorized users have access.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c8cc21c53e10d8f1008f"
+      },
+      {
+        "id": "FedRAMP-Access-Control-Procedure",
+        "name": "FedRAMP Access Control Procedure",
+        "purpose": "Describes the specific steps for implementing access control measures as per the policy.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-26",
+        "approvedVersionId": "6a8f526726c6507ac8889e10"
+      },
+      {
+        "id": "FedRAMP-Assessment-Authorization-and-Monitoring-Procedure",
+        "name": "FedRAMP Assessment Authorization and Monitoring Procedure",
+        "purpose": "Outlines the procedures for assessing security, authorizing system operations, and ongoing monitoring.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f8e1c2c69475a82b1693"
+      },
+      {
+        "id": "FedRAMP-Audit-and-Accountability-Policy",
+        "name": "FedRAMP Audit and Accountability Policy",
+        "purpose": "Establishes guidelines for auditing system activities and ensuring accountability for actions performed.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c4aa21c53e10d8f0f4fb"
+      },
+      {
+        "id": "FedRAMP-Audit-and-Accountability-Procedure",
+        "name": "FedRAMP Audit and Accountability Procedure",
+        "purpose": "Provides detailed instructions for auditing system activities and ensuring accountability.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-18",
+        "approvedVersionId": "6a8f53d2b560afb5533f67b8"
+      },
+      {
+        "id": "FedRAMP-Awareness-and-Training-Policy",
+        "name": "FedRAMP Awareness and Training Policy",
+        "purpose": "Outlines the training and awareness programs to ensure personnel understand their security responsibilities.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c89f3eb5b8ac4bce8740"
+      },
+      {
+        "id": "FedRAMP-Awareness-and-Training-Procedure",
+        "name": "FedRAMP Awareness and Training Procedure",
+        "purpose": "Describes the steps for implementing and maintaining awareness and training programs.",
+        "state": "APPROVED",
+        "approvedAt": "2026-05-20",
+        "approvedVersionId": "6a74f20221c53e10d8f14e29"
+      },
+      {
+        "id": "FedRAMP-Configuration-Management-Plan",
+        "name": "FedRAMP Configuration Management Plan",
+        "purpose": "Details the plan for managing system configurations to maintain security and operational integrity.",
+        "state": "APPROVED",
+        "approvedAt": "2026-10-05",
+        "approvedVersionId": "6ac51b287d37363639216fc0"
+      },
+      {
+        "id": "FedRAMP-Configuration-Management-Policy",
+        "name": "FedRAMP Configuration Management Policy",
+        "purpose": "Details the processes for managing and documenting system configurations to maintain security integrity.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c86121c53e10d8f0ff01"
+      },
+      {
+        "id": "FedRAMP-Configuration-Management-Procedure",
+        "name": "FedRAMP Configuration Management Procedure",
+        "purpose": "Specifies the procedures for controlling and documenting system configurations.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f94b3eb5b8ac4bcefc4c"
+      },
+      {
+        "id": "FedRAMP-Contingency-Planning-Policy",
+        "name": "FedRAMP Contingency Planning Policy",
+        "purpose": "Specifies procedures for preparing for, responding to, and recovering from system disruptions or failures.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c83e3eb5b8ac4bce85b5"
+      },
+      {
+        "id": "FedRAMP-Contingency-Planning-Procedure",
+        "name": "FedRAMP Contingency Planning Procedure",
+        "purpose": "Provides detailed steps for developing and executing contingency plans for system disruptions.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-26",
+        "approvedVersionId": "6a8f51f026c6507ac88898ff"
+      },
+      {
+        "id": "FedRAMP-Continuous-Monitoring-Plan",
+        "name": "FedRAMP Continuous Monitoring Plan",
+        "purpose": "Outlines the plan for continuous monitoring of security controls and system activities.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-10",
+        "approvedVersionId": "6a7d3066216dcadb601d144d"
+      },
+      {
+        "id": "FedRAMP-Identification-and-Authentication-Policy",
+        "name": "FedRAMP Identification and Authentication Policy",
+        "purpose": "Sets the standards for verifying user identities and managing authentication mechanisms for secure access.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c800c2c69475a82ab009"
+      },
+      {
+        "id": "FedRAMP-Identification-and-Authentication-Procedure",
+        "name": "FedRAMP Identification and Authentication Procedure",
+        "purpose": "Describes the procedures for verifying identities and managing authentication processes.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f87f21c53e10d8f16728"
+      },
+      {
+        "id": "FedRAMP-Incident-Response-Plan",
+        "name": "FedRAMP Incident Response Plan",
+        "purpose": "Details the plan for responding to security incidents, including roles, responsibilities, and steps to take.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-28",
+        "approvedVersionId": "6a74c9d621c53e10d8f1030c"
+      },
+      {
+        "id": "FedRAMP-Incident-Response-Policy",
+        "name": "FedRAMP Incident Response Policy",
+        "purpose": "Defines the process for identifying, reporting, and responding to security incidents within the system.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c7b1c2c69475a82aaf84"
+      },
+      {
+        "id": "FedRAMP-Incident-Response-Procedure",
+        "name": "FedRAMP Incident Response Procedure",
+        "purpose": "Provides detailed instructions for identifying, reporting, and responding to security incidents.",
+        "state": "APPROVED",
+        "approvedAt": "2026-05-26",
+        "approvedVersionId": "6a74f8133eb5b8ac4bcef5b1"
+      },
+      {
+        "id": "FedRAMP-Maintenance-Policy",
+        "name": "FedRAMP Maintenance Policy",
+        "purpose": "Outlines procedures for performing and managing system maintenance securely and efficiently.",
+        "state": "APPROVED",
+        "approvedAt": "2026-05-06",
+        "approvedVersionId": "6a74c7553eb5b8ac4bce838c"
+      },
+      {
+        "id": "FedRAMP-Maintenance-Procedure",
+        "name": "FedRAMP Maintenance Procedure",
+        "purpose": "Specifies the procedures for securely conducting and documenting system maintenance activities.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f74f3eb5b8ac4bcef1e9"
+      },
+      {
+        "id": "FedRAMP-Media-Protection-Policy",
+        "name": "FedRAMP Media Protection Policy",
+        "purpose": "Specifies requirements for protecting and handling media containing sensitive information.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c6f13eb5b8ac4bce822b"
+      },
+      {
+        "id": "FedRAMP-Media-Protection-Procedure",
+        "name": "FedRAMP Media Protection Procedure",
+        "purpose": "Outlines the steps for protecting, handling, and disposing of media containing sensitive information.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f7e93eb5b8ac4bcef527"
+      },
+      {
+        "id": "FedRAMP-Personnel-Security-Policy",
+        "name": "FedRAMP Personnel Security Policy",
+        "purpose": "Establishes guidelines for managing personnel security, including background checks and access approvals.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c693c2c69475a82aac87"
+      },
+      {
+        "id": "FedRAMP-Personnel-Security-Procedure",
+        "name": "FedRAMP Personnel Security Procedure",
+        "purpose": "Provides detailed instructions for implementing personnel security measures, including background checks.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-21",
+        "approvedVersionId": "6a74f22d21c53e10d8f14f47"
+      },
+      {
+        "id": "FedRAMP-Physical-Environmental-Protection-Policy",
+        "name": "FedRAMP Physical & Environmental Protection Policy",
+        "purpose": "Details the physical security measures to protect systems and data from environmental threats and unauthorized access.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c66521c53e10d8f0f9a1"
+      },
+      {
+        "id": "FedRAMP-Physical-Environmental-Protection-Procedure",
+        "name": "FedRAMP Physical & Environmental Protection Procedure",
+        "purpose": "Describes the procedures for implementing physical and environmental security measures.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f6fe3eb5b8ac4bcef01e"
+      },
+      {
+        "id": "FedRAMP-Planning-Policy",
+        "name": "FedRAMP Planning Policy",
+        "purpose": "Sets forth the procedures for developing, reviewing, and maintaining security plans for systems.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c644c2c69475a82aabbb"
+      },
+      {
+        "id": "FedRAMP-Planning-Procedure",
+        "name": "FedRAMP Planning Procedure",
+        "purpose": "Specifies the steps for developing and maintaining security plans for systems.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-21",
+        "approvedVersionId": "6a74f779c2c69475a82b12d0"
+      },
+      {
+        "id": "FedRAMP-Risk-Assessment-Policy",
+        "name": "FedRAMP Risk Assessment Policy",
+        "purpose": "Establishes processes for identifying, assessing, and managing risks to information systems.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c62521c53e10d8f0f8f4"
+      },
+      {
+        "id": "FedRAMP-Risk-Assessment-Procedure",
+        "name": "FedRAMP Risk Assessment Procedure",
+        "purpose": "Outlines the procedures for conducting and documenting risk assessments.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-18",
+        "approvedVersionId": "6a8f54da26c6507ac888ba72"
+      },
+      {
+        "id": "FedRAMP-Security-Assessment-and-Authorization-Policy",
+        "name": "FedRAMP Security Assessment and Authorization Policy",
+        "purpose": "Outlines the process for assessing security controls and authorizing system operations.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c5d23eb5b8ac4bce7f28"
+      },
+      {
+        "id": "FedRAMP-Supply-Chain-Risk-Management-Plan-SCRMP",
+        "name": "FedRAMP Supply Chain Risk Management Plan (SCRMP)",
+        "purpose": "Defines strategies for managing risks associated with the supply chain to protect system integrity.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-29",
+        "approvedVersionId": "6a74ca2e3eb5b8ac4bce8e59"
+      },
+      {
+        "id": "FedRAMP-Supply-Chain-Risk-Management-Policy",
+        "name": "FedRAMP Supply Chain Risk Management Policy",
+        "purpose": "Establishes guidelines for identifying and mitigating supply chain risks to ensure the security of systems.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c56221c53e10d8f0f727"
+      },
+      {
+        "id": "FedRAMP-Supply-Chain-Risk-Management-Procedure",
+        "name": "FedRAMP Supply Chain Risk Management Procedure",
+        "purpose": "Provides detailed steps for identifying and mitigating supply chain risks to protect systems.",
+        "state": "APPROVED",
+        "approvedAt": "2026-05-29",
+        "approvedVersionId": "6a74f6d6c2c69475a82b0d3a"
+      },
+      {
+        "id": "FedRAMP-System-Communications-Protection-Policy",
+        "name": "FedRAMP System & Communications Protection Policy",
+        "purpose": "Details measures to protect the system and communications infrastructure from unauthorized access and threats.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c5423eb5b8ac4bce7dcb"
+      },
+      {
+        "id": "FedRAMP-System-Communications-Protection-Procedure",
+        "name": "FedRAMP System & Communications Protection Procedure",
+        "purpose": "Describes the specific procedures for protecting the system and communications infrastructure.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-11",
+        "approvedVersionId": "6a7d22b4a402ed16c17c1d8b"
+      },
+      {
+        "id": "FedRAMP-System-Information-Integrity-Procedure",
+        "name": "FedRAMP System & Information Integrity Procedure",
+        "purpose": "Outlines the procedures for maintaining the integrity of system information and ensuring its reliability.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-24",
+        "approvedVersionId": "6a8cbb2b4fa8c1dbb17beafc"
+      },
+      {
+        "id": "FedRAMP-System-Services-Acquisition-Policy",
+        "name": "FedRAMP System & Services Acquisition Policy",
+        "purpose": "Sets the standards for acquiring systems and services, ensuring they meet security requirements.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c50bc2c69475a82aa53c"
+      },
+      {
+        "id": "FedRAMP-System-Services-Acquisition-Procedure",
+        "name": "FedRAMP System & Services Acquisition Procedure",
+        "purpose": "Provides detailed steps for acquiring systems and services, ensuring that they comply with security requirements and meet the organization's operational needs.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f660c2c69475a82b0b59"
+      },
+      {
+        "id": "FedRAMP-System-and-Information-Integrity-Policy",
+        "name": "FedRAMP System and Information Integrity Policy",
+        "purpose": "Defines procedures for ensuring the accuracy, reliability, and security of system information.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c4d73eb5b8ac4bce7c55"
+      },
+      {
+        "id": "incident-response-plan-bsi",
+        "name": "Incident Response Plan",
+        "purpose": "This document establishes the plan for managing information security incidents and events, and offers guidance for employees or incident responders who believe they have discovered, or are responding to, a security incident.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-02",
+        "approvedVersionId": "6a5fd690f3efa0358c08502f"
+      },
+      {
+        "id": "information-security-policy-bsi",
+        "name": "Information Security Policy (AUP)",
+        "purpose": "The purpose of this policy is to communicate our information security policies and outline the acceptable use and protection of Nominal, Inc’s information and assets.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-01",
+        "approvedVersionId": "6a4e83443db78dbe9623daa9"
+      }
+    ],
+    "documents": [
+      {
+        "rule": "MAS-CSO-IIR",
+        "title": "Package Supplement: Supplemental Resource Inventory Annual",
+        "description": "Inventory of the information resources inside the FedRAMP Minimum Assessment Scope, enumerated from AWS Config, the Kubernetes clusters and the in-boundary registry.",
+        "vantaDocumentId": "fedramp20x-supplemental-resource-inventory",
+        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "lastUpdated": "2026-08-26",
+        "nextReview": "2027-08-26",
+        "status": "current"
+      },
+      {
+        "rule": "MAS-CSO-IIR",
+        "title": "Network diagram",
+        "description": "Boundary diagram: accounts, VPCs, clusters, edge and egress, interconnections.",
+        "vantaDocumentId": "network-diagram",
+        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "lastUpdated": "2026-08-11",
+        "nextReview": "2027-08-11",
+        "status": "current"
+      },
+      {
+        "rule": "MAS-CSO-FLO",
+        "title": "Information Flow and Impact Level Matrix",
+        "description": "Information flows between resources with the security category of the federal customer data each carries.",
+        "vantaDocumentId": "fedramp20x-information-flow-impact-matrix",
+        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "lastUpdated": "2026-08-13",
+        "nextReview": "2027-08-13",
+        "status": "current"
+      },
+      {
+        "rule": "MAS-CSO-TPR",
+        "title": "Third-Party Information Resources",
+        "description": "Register of third-party information resources (FedRAMP-certified services leveraged and non-certified components) with usage, justification, mitigations and compensating controls.",
+        "vantaDocumentId": "fedramp20x-third-party-information-resources",
+        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "lastUpdated": "2026-08-09",
+        "nextReview": "2027-08-09",
+        "status": "current"
+      },
+      {
+        "rule": "CMU-CSO-CMD",
+        "title": "Cryptographic Module Documentation",
+        "description": "Cryptographic module inventory by data path: module, provider, version, CMVP validation status.",
+        "vantaDocumentId": "fedramp20x-cvmp-documentation",
+        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "lastUpdated": "2026-08-26",
+        "nextReview": "2027-08-26",
+        "status": "current"
+      },
+      {
+        "rule": "CMU-CSO-CMD",
+        "title": "Using Validated Cryptographic Modules",
+        "description": "How validated modules are used and kept current.",
+        "vantaDocumentId": "fedramp20x-using-validated-cryptographic-modules",
+        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "lastUpdated": "2026-08-26",
+        "nextReview": "2027-08-26",
+        "status": "current"
+      },
+      {
+        "rule": "CMU-CSO-CMD",
+        "title": "FIPS 140-2 Validated Cryptographic Modules",
+        "description": "Validated-module certificates referenced by the inventory.",
+        "vantaDocumentId": "fips-140-2-validated-cryptographic-modules",
+        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "lastUpdated": "2026-07-23",
+        "nextReview": "2027-07-23",
+        "status": "current"
+      },
+      {
+        "rule": "SCG-CSO-RSC",
+        "title": "Recommended Secure Configuration",
+        "description": "Secure Configuration Guide: human-readable guide and machine-readable baseline.",
+        "vantaDocumentId": "fedramp20-recommended-secure-configuration",
+        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "lastUpdated": "2026-08-17",
+        "nextReview": "2027-08-17",
+        "status": "current"
+      },
+      {
+        "rule": "SCG-CSO-RSC",
+        "title": "Secure Configuration Guide Instructions",
+        "description": "Which edition of the guide to use for what.",
+        "vantaDocumentId": "fedramp20x-secure-configuration-guide-use-instructions",
+        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "lastUpdated": "2026-08-17",
+        "nextReview": "2027-08-17",
+        "status": "current"
+      },
+      {
+        "rule": "IVV-CSO-ICP",
+        "title": "Assessment Engagement and Results Procedure",
+        "description": "How the independent assessment (A-LIGN, assessor 138665) is engaged and its results placed in the package; the assessor's overall summary is added on completion.",
+        "vantaDocumentId": "fedramp20x-assessment-engagement-procedure",
+        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "lastUpdated": "2026-08-19",
+        "nextReview": "2027-08-19",
+        "status": "assessment in progress; overall summary of assessment expected after 2026-11-26"
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2702257113",
+  "id_matches_expected": false
+}

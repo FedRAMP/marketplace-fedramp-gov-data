@@ -1,0 +1,112 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "ioMoVo Corp. (IOMOVO-GOV)",
+    "ueiNumber": "L3FXR65MQ785",
+    "providerName": "ioMoVo Corp.",
+    "serviceName": "ioMoVo for Government",
+    "serviceAcronym": "IOMOVO-GOV",
+    "serviceDescription": "ioMoVo for Government is an AI native digital asset management platform for federal communications, media and archive teams. It stores, organizes, enriches, searches and shares photo, video, audio, document and design files.\n\nEvery AI capability, including tagging, transcription, translation, facial recognition and generative summaries, runs on self hosted models inside the ioMoVo for Government boundary. Agency content is never sent to external AI services and is never used to train models outside the agency's tenant.\n\nOperated by ioMoVo on Microsoft Azure Government. Agencies choose a shared multi agency deployment with logical isolation per agency, or a dedicated single agency instance, both inside the same boundary. Separate from the commercial ioMoVo service.\n\n**Status:** FedRAMP Marketplace Initial Implementation Phase, pursuing FedRAMP 20x Class B. Not yet FedRAMP certified.\n\n**Not included in this offering:** ioMarket; external AI model connections (Gemini, Claude, Grok, ChatGPT, Azure OpenAI) and legacy vision services; ioHub drives outside FedRAMP authorized clouds; ioDemand, the desktop sync client and mobile apps.",
+    "certificationType": "20x",
+    "website": "https://www.iomovo.io/trust",
+    "logo": "https://cdn.prod.website-files.com/5e5fd23006075b7087ffe4f8/6ad90fb999f634b9a8b11c55_ba372ab1e89710f379db4bd7a9a65a93_iomovo-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Content Management System (CMS)",
+      "Media",
+      "Design & Multimedia",
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.iomovo.io/trust",
+      "repositoryDescription": "Public Trust Center landing page with FedRAMP status, quarterly progress milestones, services in scope and instructions for requesting security documentation.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Assessment Reports"
+        ],
+        "url": "https://www.iomovo.io/soc-2-report-request",
+        "repositoryDescription": "SOC 2 Type II report (clean opinion, period ended August 31, 2026, Security, Availability and Confidentiality) and supporting security materials.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Submit the request form or email fedramp@iomovo.io. The ioMoVo security team reviews each request and replies by email."
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "ioMoVo Security Team",
+      "contactEmail": "fedramp@iomovo.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "ioMoVo Sales",
+      "contactEmail": "sales@iomovo.io"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "ioCloud",
+      "serviceDescription": "Asset library, storage, versioning, metadata and lifecycle management. Security category: Low."
+    },
+    {
+      "serviceName": "ioGallery",
+      "serviceDescription": "AI insights: tags, descriptions, ALT text, objects, faces and transcripts. Security category: Low."
+    },
+    {
+      "serviceName": "ioStudio",
+      "serviceDescription": "Indexing agents, tools, playbooks and model configuration, limited to self hosted models. Security category: Low."
+    },
+    {
+      "serviceName": "ioFlow",
+      "serviceDescription": "Pipelines, scheduler, smart rules, AI indexing and event log. Security category: Low."
+    },
+    {
+      "serviceName": "ioPortal",
+      "serviceDescription": "Shares and press kits with password, expiration and re share controls. Security category: Low."
+    },
+    {
+      "serviceName": "ioReports",
+      "serviceDescription": "Usage, activity and storage reporting. Security category: Low."
+    },
+    {
+      "serviceName": "ioPilot",
+      "serviceDescription": "AI assistant over the agency's own library, self hosted models only. Security category: Low."
+    },
+    {
+      "serviceName": "ioProject",
+      "serviceDescription": "Cross drive project workspace, self hosted models only. Security category: Low."
+    },
+    {
+      "serviceName": "Integrations",
+      "serviceDescription": "Adobe Creative Cloud panels, Microsoft 365 add ins and the REST API. Security category: Low."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603087869",
+        "useCase": "Microsoft Azure Government (FedRAMP High) hosts the entire offering, including compute, storage, networking, GPU inference and Microsoft Entra ID for ioMoVo staff administration."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "GitHub",
+        "provider": "GitHub, Inc.",
+        "website": "https://github.com",
+        "useCase": "Source code repository and build pipeline (supply chain resource). Holds no agency data."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2702257117",
+  "id_matches_expected": false
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "$schemaVersion": "0.2.0",
+  "type": "object",
+  "title": "FedRAMP Certification Package Overview (FRC-CSO-PKG)",
+  "serviceIdentification": {
+    "providerName": "Veoci Inc.",
+    "serviceName": "Veoci",
+    "serviceAcronym": "Veoci",
+    "serviceDescription": "Veoci is a SaaS emergency management and daily operational resilience platform that enables organizations to plan for, respond to, and recover from incidents and disruptions through configurable workflows, real-time collaboration, and mobile access.",
+    "certificationType": "20x",
+    "fedRampPackageId": "Veoci, Inc. (VEOCI)",
+    "website": "https://veoci.com",
+    "logo": "https://download.veoci.com/frdsua1FsbxBqNsA/Veoci%20Horizontal%20-%20Blue%20onLight.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "email": "fedramp@veoci.com"
+    },
+    {
+      "contactType": "Sales",
+      "email": "sales@veoci.com"
+    }
+  ],
+  "ZD_frid_retro": "FR2702257111",
+  "id_matches_expected": false
+}
