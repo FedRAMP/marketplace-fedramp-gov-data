@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-23T04:03:05.628Z",
-    "total_entries": 2293,
+    "export_timestamp": "2026-10-23T16:20:22.634Z",
+    "total_entries": 2304,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -25228,6 +25228,127 @@
         "to_status": "FedRAMP In Process",
         "transition_date": "2026-10-22T04:00:00.000Z",
         "recorded_date": "2026-10-22T18:56:02.000Z"
+      },
+      {
+        "unique_id": "39d8a7ff",
+        "product_id": "F1403283529",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2016-03-11T05:00:00.000Z",
+        "recorded_date": "2026-10-23T15:57:46.000Z"
+      },
+      {
+        "unique_id": "1a3d5318",
+        "product_id": "F1403283529",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Certified",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2026-03-16T04:00:00.000Z",
+        "recorded_date": "2026-10-23T15:58:10.000Z"
+      },
+      {
+        "unique_id": "9e0c958f",
+        "product_id": "F1602167854",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2017-06-26T04:00:00.000Z",
+        "recorded_date": "2026-10-23T16:01:28.000Z"
+      },
+      {
+        "unique_id": "7cb41a6b",
+        "product_id": "F1602167854",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Certified",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2025-01-14T05:00:00.000Z",
+        "recorded_date": "2026-10-23T16:02:18.000Z"
+      },
+      {
+        "unique_id": "01820f2c",
+        "product_id": "F1604017885",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2017-02-21T05:00:00.000Z",
+        "recorded_date": "2026-10-23T16:07:40.000Z"
+      },
+      {
+        "unique_id": "43f97594",
+        "product_id": "F1604017885",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Certified",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2022-12-05T05:00:00.000Z",
+        "recorded_date": "2026-10-23T16:15:00.000Z"
+      },
+      {
+        "unique_id": "2831f122",
+        "product_id": "F1302271924",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2017-03-10T05:00:00.000Z",
+        "recorded_date": "2026-10-23T16:15:36.000Z"
+      },
+      {
+        "unique_id": "16c62741",
+        "product_id": "F1302271924",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Certified",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2025-04-11T04:00:00.000Z",
+        "recorded_date": "2026-10-23T16:16:07.000Z"
+      },
+      {
+        "unique_id": "c493334d",
+        "product_id": "F1603227880",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2017-08-21T11:00:00.000Z",
+        "recorded_date": "2026-10-23T16:16:53.000Z"
+      },
+      {
+        "unique_id": "06b74f6e",
+        "product_id": "F1603227880",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Certified",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2026-01-09T05:00:00.000Z",
+        "recorded_date": "2026-10-23T16:17:10.000Z"
+      },
+      {
+        "unique_id": "ab4b65d7",
+        "product_id": "F1507136931",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2017-10-18T04:00:00.000Z",
+        "recorded_date": "2026-10-23T16:19:28.000Z"
       }
     ]
   }
