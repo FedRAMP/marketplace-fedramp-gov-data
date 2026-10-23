@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2620071868",
+    "providerName": "Asato Corporation",
+    "serviceName": "asato.ai",
+    "serviceAcronym": "asato.ai",
+    "serviceDescription": "Asato provides an AI-native, SaaS platform for enterprise IT asset management, cost intelligence, operational data products, document/contract extraction, and governed agentic workflows. The platform normalizes heterogeneous enterprise data, supports evidence-backed analytics and automation, and is designed to operate with strong governance, auditability, and tenant isolation. For federal customers, the system would store, process, and transmit enterprise operational and business data such as software asset, contract, procurement, usage, and related metadata; the exact federal data types should be finalized based on the target use case.",
+    "certificationType": "Rev5",
+    "website": "https://www.asato.ai",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Asato%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "customer-success@asato.ai"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Ignyte Platform Inc.",
+    "assessorID": "201722"
+  }
+}

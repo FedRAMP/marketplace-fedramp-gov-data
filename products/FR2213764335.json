@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2213764335",
+    "providerName": "Noblis",
+    "serviceName": "RunCyberAssurance",
+    "serviceAcronym": "RunCyberAssurance",
+    "serviceDescription": "Noblis’ RunCyberAssurance® is a comprehensive, automated solution that advances the efficacy of Continuous Monitoring programs. The Noblis RunCyberAssurance solution enables agencies and their Cloud Service Providers to gain a fast, accurate view into their vulnerabilities, manage Plan of Action and Milestones (POA&Ms) and deviation requests and improve visibility into the security posture of complex information systems. RunCyberAssurance frees cybersecurity professionals from mundane manual tasks, allowing them to focus on high-value threat assessment activities. The solution accepts data feeds “as is” from over 40 industry standard vulnerability scanning tools and generates reports and outputs in FedRAMP and Open Security Controls Assessment Language (OSCAL) formats.   \n\nNoblis’ RunCyberAssurance is powered by our EDGE@AWS Platform-as-a-Service (PaaS) and leverages the Community AWS GovGloud Infrastructure-as-a-Service. In addition, it leverages AWS US East/West, Okta ID-as-a-Service and ServiceNow. The Noblis EDGE@AWS PaaS provides a FedRAMP Moderate compliant platform for Noblis applications and systems.",
+    "certificationType": "Rev5",
+    "website": "https://www.noblis.org",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/RunCA%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "answers@noblis.org"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "answers@noblis.org"
+    }
+  ],
+  "assessor": {
+    "name": "Lunarline, Inc.",
+    "assessorID": "137004"
+  }
+}

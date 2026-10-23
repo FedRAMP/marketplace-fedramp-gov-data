@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2528336463",
+    "providerName": "Document Storage Systems, Inc. (DSS, Inc.)",
+    "serviceName": "DSS Health Cloud (DSSHC)",
+    "serviceAcronym": "DSS Health Cloud (DSSHC)",
+    "serviceDescription": "DSS Health Cloud is delivered as a PaaS/SaaS offering using a multitenant Government-Only Cloud computing environment. It is available to VA Hospital system(s).  As a cloud-based solution hosted in AWS GovCloud, the DSS Health Cloud provides to VA Clinicians, Administrators, Managers, and Users the TeleCare Record Management Plus-Clinical Triage (TRMW), Patient Case Manager High Reliability Organization (PCM HRO/VSPM), RxTracker (RTVX), and Juno EHR (JEHR) applications for the purpose of conducting clinical and administrative activities in a reliable and high-security federal cloud environment.\n\nSaaS\nThe following SaaS applications are provided within the DSS Health Cloud solution.\n\nTeleCare Record Manager Plus-Clinical Triage (TRMW) is a web based application that provides VHA healthcare facilities with an intuitive, user-friendly interface for telecare triage providers. TRM Plus-CT creates progress notes which are then seamlessly incorporated into the patient’s existing EHR.\n•        Centralized web-based interface which allows users to access all VistA facilities from a single interface.\n•        Enterprise-wide ad hoc analytics that delivers reporting at the local, VISN, or enterprise level.\n•        Seamlessly integrated with VistA Scheduling Enhancements (VSE) to allow creation, update, and cancelation of appointments.\n•        Is VA Technical Reference Model compliant.\nPatient Case Manager High Reliability Organization (PCM HRO) standardizes workflows and combines data visualization tools and analytics to reduce Veteran suicide prevention care variation and impact Mental Health SAIL metrics.\n•        Actively monitors suicide prevention processes, performance, and outcomes.\n•        Automates data capture and reporting to prevent lapses in care.\n•        Improves transparency in the management of high-risk patients across the enterprise\n•        Automates identification and escalation of scenarios requiring intervention.\n•        Automates case load reporting and changes over time.\nWith PCM, hospitals leverage real-time data and analytics for greater oversight and more effective, standardized workflows. Providers will save time, reduce medical errors, and ensure every patient receives the care and satisfaction they deserve.\n•        Improve Patient Safety\n•        • Monitor Quality and Performance\n•        • Maximize Patient Throughput with the Patient Flow Module\n\nRxTracker is a single, comprehensive ePrescribing solution that gives providers the ability to effectively perform their full clinical workflow for all care settings: inpatient, outpatient, and ambulatory.\n1.        Proactive and Reactive Patient Safety Alerts\n2.        EPCS\n3.        Metrics, Reporting, and Auditing\n\nJuno EHR is a cloud-based electronic health record suite of applications that automates administrative and clinical workflows within a healthcare organization. The solution provides features to manage all aspects of patient care such as scheduling, registration, clinical notes, order entry, and electronic prescription.\nAll DSS Health Cloud Software applications, with their corresponding components, are hosted within the SaaS authorization boundary. Applications are VA VistA integrated and follow a role-based design model. Using the VA provided and managed PIV smart card, users are authenticated through the VA Identity Authentication Management System (IAM). During the login authentication process, users with active and valid credentials are logged into the application following all FedRAMP High, VA, and organization protocols. All web transactions and data transmissions between the applications and the integrated VistA database go through a VPC/Palo Alto Firewall into the VA Network. The VPC/Palo Alto firewall controls access and monitors LS 1.2 CI/CD pipelines, external services, communication with the VA Network, and with the internet.\nSoftware application input activities are recorded into audit logs, which meet the FedRAMP high-security level as well as DSS organizational auditing security standards. All audit logs are collected by the Splunk SIEM tool, which triggers near-real-time alerts and notifications to DSS Health Cloud Engineers for analysis and continuous monitoring. Logs are stored within the FedRAMP authorization boundary into S3 buckets for seven years for after-the fact investigations of security incidents and to meet regulatory and organizational information retention requirements.\n\nPaaS\nDSS Health Cloud offers the VA hospital Systems a robust and secure multi-tenant PaaS platform that allows flexible integration with other VA vendors' software applications.",
+    "certificationType": "Rev5",
+    "website": "https://www.dssinc.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/DSS%20Logo.png",
+    "ueiNumber": "EJL2XFJ1BZJ1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cyberops@dssinc.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

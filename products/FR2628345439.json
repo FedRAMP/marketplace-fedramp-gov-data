@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2628345439",
+    "providerName": "Stell Engineering",
+    "serviceName": "Stell Requirements Management System",
+    "serviceAcronym": "Stell Requirements Management System",
+    "serviceDescription": "The Stell Requirements Management Software (SRMS) is delivered as a fully managed FedRAMP Moderate Equivalent software-as-a-service (“SaaS”) offering to help federal contractors meet the requirements for protecting Controlled Unclassified Information (CUI). The SRMS is a  multi-tenant Public cloud available and purpose built for commercial aerospace and defense industrial base (government and DoW contractors) partners who handle data subject to government regulations and requirements for the protection of CUI.",
+    "certificationType": "Rev5",
+    "website": "https://stell-engineering.com/",
+    "logo": "https://www.fedramp.gov/placeholder-128x128px.svg",
+    "ueiNumber": "J6T4RJG18UL4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@stell-engineering.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "hello@stell-engineering.com"
+    }
+  ],
+  "assessor": {
+    "name": "ControlCase",
+    "assessorID": "200562"
+  }
+}

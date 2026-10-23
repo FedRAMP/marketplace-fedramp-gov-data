@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1920363607",
+    "providerName": "LevelBlue",
+    "serviceName": "LevelBlue Threat Detection and Response for Government",
+    "serviceAcronym": "LevelBlue Threat Detection and Response for Government",
+    "serviceDescription": "LevelBlue’s Threat Detection and Response for Government (TDR for Gov) is delivered as a SaaS offering using a multi-tenant public cloud computing environment. It is available to federal, state, local, and tribal governments, as well as research institutions, federal and government contractors. TDR for Gov detects, analyzes and may respond to threats and vulnerabilities. It is built on LevelBlue’s Unified Security Management (USM) platform. The service is available as a self-managed service or with 24x7 monitoring by LevelBlue's Security Operations Center, an enhancement of TDR for Gov, (Managed Threat Detection and Response for Government). TDR for Gov uses purpose-built cloud sensors to monitor a customer’s Amazon Web Services, Microsoft Azure Cloud environments, VMware, and Hyper-V virtual sensors to monitor a customer’s virtual and physical on-premises infrastructure. Security-related data is collected and sent to the LevelBlue AlienVault Cloud for security analysis, threat correlation, and secure, compliance-ready data storage. Centralized security monitoring in USM Anywhere gives the customer threat detection capabilities across their cloud and on-premises landscape, helping to eliminate security blind spots.",
+    "certificationType": "Rev5",
+    "website": "https://levelblue.com/xdr/tdr-for-government",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/LevelBlue%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "info@LevelBlue.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Tevora Business Solutions, Inc.",
+    "assessorID": "200492"
+  }
+}

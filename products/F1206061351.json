@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1206061351",
+    "providerName": "Oracle",
+    "serviceName": "Oracle Service Cloud (OSvC)",
+    "serviceAcronym": "Oracle Service Cloud (OSvC)",
+    "serviceDescription": "The Oracle Service Cloud is Oracle's premier Software as a Service (SaaS) solution providing the industry's best in class customer service platform for enterprise customers. Oracle Service Cloud is deployed onto a robust, secure infrastructure hosting Oracle's patented CX software applications in an environment accredited to FedRAMP-Moderate specifications. The Oracle Service Cloud leverages a fault-tolerant core application framework offering flexible add-on modules providing customers with a customizable, out-of-the-box feature set to support both customer-facing and customer service agent-facing functions. The Oracle Service Cloud is offered as a hosted cloud solution (i.e., operated and maintained by Oracle within its secure hosting environment at co-location facilities in the United States) providing customers with a modern, efficient and secure cloud solution via a proven Software as a Service (SaaS) delivery model.",
+    "certificationType": "Rev5",
+    "website": "https://www.oracle.com/cx/service/b2c/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Oracle%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "saas_fedramp_us_grp@oracle.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

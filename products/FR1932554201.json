@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1932554201",
+    "providerName": "Forcepoint",
+    "serviceName": "ONE – Security Service Edge (SSE) – CASB/DLP/SWG/ZTNA/RBI",
+    "serviceAcronym": "ONE – Security Service Edge (SSE) – CASB/DLP/SWG/ZTNA/RBI",
+    "serviceDescription": "Forcepoint ONE is a cloud-native distributed Security Service Edge (SSE) platform that delivers distributed Zero Trust protection on devices, on the network and in the cloud. \n\nForcepoint ONE provides unified threat and data protection for safely accessing cloud, web, and private applications—all managed from a single platform. It enables policies for Cloud Access Security Broker (CASB), Zero Trust Network Access (ZTNA), Secure Web Gateway (SWG), Data Loss Prevention (DLP) and other security technologies to be managed easily and consistently in a single location. \n\n\nProducts:\n- ZTNA - Enable secure remote access to private applications in cloud or private datacenters, providing a better experience and protection than traditional VPNs.\n- SWG - Distributed Secure Web Gateway (SWG) provides secure internet and web access while mitigating risk, improving IT visibility, and enhancing application performance. \n- CASB - Cloud Access Security Broker (CASB) monitors and protects cloud apps and data on any app, from BYOD, managed, and unmanaged devices.\n- RBI - Remote Browser Isolation (RBI) with Content Disarm Reconstruction (CDR) extracts and verifies information before delivering to destination, provides a layer of abstraction by browser operation in cloud-hosted VM, and separates end user device from web-borne malware risks\n\nUse Cases:\n- Secure Bring your own Device (BYOD)\n- Secure the Web and Shadow IT\n- Protect Access to On-premises Apps.\n- Secure the Remote and Hybrid Worker\n- Defend against Malware with Advanced Protection\n- Prevent Data Leakage across the device and cloud\n- Secure IaaS",
+    "certificationType": "Rev5",
+    "website": "https://www.forcepoint.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Forcepoint%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@forcepoint.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

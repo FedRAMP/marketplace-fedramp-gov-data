@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2230252267",
+    "providerName": "Slack Technologies",
+    "serviceName": "GovSlack",
+    "serviceAcronym": "GovSlack",
+    "serviceDescription": "GovSlack is an instance of Slack created specifically for the purposes of handling high workloads for Government customers and highly regulated commercial sectors. Slack has transformed business communication. It's the leading channels-based messaging platform, used by millions to align their teams, unify their systems, and drive their business forward. Only Slack offers a secure, enterprise-grade environment that can scale with the largest companies in the world. It is a new layer of the business technology stack where people can work together more effectively, connect all their other software tools and services, and find information they need to do their best work. Slack is where work happens.",
+    "certificationType": "Rev5",
+    "website": "https://slack.com/solutions/govslack",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Slack%20Logo3.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@slack-corp.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1716961549",
+    "providerName": "Peraton Corporation",
+    "serviceName": "Next Generation Cloud Platform",
+    "serviceAcronym": "Next Generation Cloud Platform",
+    "serviceDescription": "The Next Generation Cloud Platform (NGCP) is a FedRAMP compliant Platform-as-a-Service (PaaS) which deploys multiple Software-as-a-Service (SaaS) solutions to federal, state and commercial customers. The platform currently includes four Application Modules: Employee Performance Management (ePerformance), Environmental Program Information Management System (EPIMS), n.SITE for Connect:Direct transmissions of government data, and e.POWER for Business Process Management. Peraton is deploying multiple SaaS products on the same re-usable framework.",
+    "certificationType": "Rev5",
+    "website": "https://www.peraton.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Peraton%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "ngcpaas@peraton.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

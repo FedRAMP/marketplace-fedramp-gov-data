@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1912671248",
+    "providerName": "Palantir Technologies Inc.",
+    "serviceName": "Palantir Federal Cloud Service – Moderate",
+    "serviceAcronym": "Palantir Federal Cloud Service – Moderate",
+    "serviceDescription": "The Palantir Federal Cloud Service (PFCS) – Moderate is a dedicated environment for the purpose of delivering Palantir software to federal government customers as a cloud service. Palantir software, including Foundry, AIP, Gotham, Apollo, and supporting products utilizing the same infrastructure, enables a multitude of collaborative and operational workflows for end government users. Palantir enables organizations to take advantage of best-in-class Artificial Intelligence, Machine Learning, Data Integration, Data Storage, Data Processing, Analytics, Visualization, Operations, Cybersecurity, and Software Deployment capabilities. The PFCS allows customers to acquire Palantir in a matter of days to quickly deliver value against their hardest problems.\r\n\r\nPFCS – Moderate includes PFCS deployments on\r\nAWS East/West",
+    "certificationType": "Rev5",
+    "website": "https://www.palantir.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Palantir%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@palantir.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

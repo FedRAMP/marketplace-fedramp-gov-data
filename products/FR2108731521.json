@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2108731521",
+    "providerName": "CyLogic",
+    "serviceName": "CyCloud for VMware Cloud Foundation",
+    "serviceAcronym": "CyCloud for VMware Cloud Foundation",
+    "serviceDescription": "CyCloud is a modern Infrastructure-as-a-Service (IaaS) platform engineered to deliver VMware Cloud Foundation (VCF). It provides enterprise-grade compute, software-defined storage, networking, lifecycle management, automation, and self-service cloud operations within a fully integrated architecture. The platform provides standardized infrastructure, predictable operations, rapid deployment, repeatable compliance, and reduced operational risk for U.S. Government, defense, and regulated industry workloads.\n\nDeployed within carrier-dense, cloud-adjacent facilities, CyCloud provides direct access to hundreds of carriers, major network exchanges, global backbone providers, satellite connectivity providers, defense network ecosystems, and direct private connectivity to major cloud service providers. This delivers low-latency connectivity, rapid interconnection options, regional resiliency, reduced transit complexity, and optimized reach for mission-critical applications and data.",
+    "certificationType": "Rev5",
+    "website": "https://www.cylogic.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/CyLogic%20Logo.png",
+    "ueiNumber": "MBX7D3Q84VM5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@cylogic.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@cylogic.com"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

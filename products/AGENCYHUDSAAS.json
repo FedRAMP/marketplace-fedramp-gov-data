@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "AGENCYHUDSAAS",
+    "providerName": "AINS dba OPEXUS",
+    "serviceName": "AINS dba OPEXUS - eCase",
+    "serviceAcronym": "AINS dba OPEXUS - eCase",
+    "serviceDescription": "eCASE is a dynamic case management and rapid application development platform that empowers professionals to elevate trust in public institutions. With secure and collaborative information and document management, robust reporting, adaptive workflows, role-based security, and comprehensive audit trail capabilities, eCASE helps public sector clients automate processes, reduce costs, improve transparency, and ultimately achieve better outcomes with less risk while maintaining compliance within demanding regulatory environments. eCase and eCase COTS solutions, including Correspondence, Audit, Investigations, Government Workforce Management, and FOIAXpress (the industry-leading, purpose-built FOIA case processing software) are FedRAMP-moderate certified SaaS. For more information, visit [opexustech.com](opexustech.com).",
+    "certificationType": "Rev5",
+    "website": "https://www.opexustech.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Opexus%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "isso@opexustech.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

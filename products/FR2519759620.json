@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2519759620",
+    "providerName": "Cribl Inc.",
+    "serviceName": "Cribl.Cloud Government",
+    "serviceAcronym": "Cribl.Cloud Government",
+    "serviceDescription": "The Cribl.Cloud Government system is a cloud-based and vendor-agnostic observability pipeline that offers government entities the flexibility to collect, reduce, enrich, normalize, and route any type of federal data from any source to any destination within their existing data infrastructure to support official government business. \n\n-Cribl.Cloud Government is a software-as-a-service (SaaS) platform that consists of five products: Stream, Edge, Lake, Lakehouse and Search. \n-Stream is a data collection, reduction, enrichment, and routing system for observability data; Edge is an intelligent, scalable, edge-based data collection system for logs, metrics, and application data\n-Lake is a data lake solution aimed at long-term, full-fidelity data storage for IT and security data.\n- Lakehouse automates the management of diverse data types across user-defined storage tiers in Cribl Lake.\n- Search performs federated “search-in-place” queries on any data, in any form.",
+    "certificationType": "Rev5",
+    "website": "https://www.cribl.io",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cribl%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@cribl.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@cribl.io"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

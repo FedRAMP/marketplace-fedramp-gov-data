@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2033152148",
+    "providerName": "Seven Bridges Genomics, Inc",
+    "serviceName": "Seven Bridges Platform",
+    "serviceAcronym": "Seven Bridges Platform",
+    "serviceDescription": "The Seven Bridges Platform is a cloud-based environment for conducting bioinformatic analyses. It is a central hub for teams to store, analyze, and jointly interpret their bioinformatic data. The Platform co-locates analysis pipelines alongside the largest genomic datasets to optimize processing. It allocates storage and compute resources on demand, to meet the needs of ever-growing analyses.",
+    "certificationType": "Rev5",
+    "website": "https://www.sevenbridges.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SB%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "compliance@velsera.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

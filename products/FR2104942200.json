@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2104942200",
+    "providerName": "Acuant, Inc.",
+    "serviceName": "Connect, Ozone, & Facial Recognition System (COFRS)",
+    "serviceAcronym": "Connect, Ozone, & Facial Recognition System (COFRS)",
+    "serviceDescription": "Acuant is a leading global provider of identity verification, regulatory compliance (AML/KYC) and digital\nidentity solutions. Acuant's Trusted Identity Platform is powered by AI and human assisted machine learning to deliver unparalleled results and operational efficiency. Acuant Connect, Ozone and Facial Recognition System (COFRS) combines four product lines to fulfill the need to authenticate an individual against an identity document they present to establish a trusted relationship. \n\nCOFRS is a Software as a Service (SaaS) solution that provides an extremely robust basis for identity proofing. The products together authenticate the physical and digital information protecting the authenticity and integrity of the document, provide an assessment of the degree of match of the individual to the photo(s) stored on the document, and perform presentation attack detection via liveness assessment of the individual performing the transaction.\n\n- AssureID Connect SaaS authenticates the physical security features of the document\n- Ozone eMRTD Authentication SaaS ensures the electronic data is cryptographically intact and digitally bound to a trusted issuing authority\n- Once the document has been determined to be authentic and unmodified from its initial issuance, Acuant FaceID Government SaaS performs a facial recognition match of the photo(s)\nfrom the document with the individual presenting the document\n- Acuant Passive Liveness SaaS performs presentation attack detection to thwart fraud \n\nDocument authentication is vital part of confirming the identity of an individual. Authenticating a document requires reviewing the physical document for the presence of known security features;features which are specific to each document type and series from a given issuer. The security features that are found on the presented document then need to be compared against the expected/known security features for the specific document and its issuer.\n\nAdditionally, with the advent of electronic identity documents, the electronic data stored on the document must be authenticated and validated using Public Key Infrastructure (PKI) components to cryptographically assess the data encoded in the chip of the document and their binding to the Issuer. Finally, to ensure the document belongs to the individual presenting the document, a biometric match comparing the image from the document to the individual should be made, and the liveness of the individual must be determined - especially in remote vetting situations.",
+    "certificationType": "Rev5",
+    "website": "https://www.gbg.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Acuant%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMPIncidentResponse@gbgplc.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

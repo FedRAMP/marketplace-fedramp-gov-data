@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1821856903",
+    "providerName": "Zendesk",
+    "serviceName": "Zendesk Customer Support and Help Desk Platform",
+    "serviceAcronym": "Zendesk Customer Support and Help Desk Platform",
+    "serviceDescription": "Zendesk is a cloud-based customer service platform, designed for companies that want to build customer relationships that are more meaningful, personal, and productive. Zendesk strives to bring businesses and customers closer together by enabling companies to provide great support and mature with self-service and proactive engagement. It is designed to be easy to use, customize, and scale.",
+    "certificationType": "Rev5",
+    "website": "https://www.zendesk.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Zendesk%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@zendesk.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

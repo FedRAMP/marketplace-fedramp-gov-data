@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1900048743",
+    "providerName": "Oracle",
+    "serviceName": "Oracle Cloud Infrastructure-Government Cloud",
+    "serviceAcronym": "Oracle Cloud Infrastructure-Government Cloud",
+    "serviceDescription": "Oracle Cloud Infrastructure is a government-community cloud architected to provide U.S. public sector entities with best-in-class security and industry leading price-performance. Oracle Cloud Infrastructure services are a set of complementary infrastructure and platform cloud services that enable customers to build and run their enterprise workloads through high-performance, secure, and available services that scale elastically. With Oracle Cloud Infrastructure, public sector entities can use Oracle development tools to enhance existing applications while creating and integrating new cloud-native applications.",
+    "certificationType": "Rev5",
+    "website": "https://www.oracle.com/cloud/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Oracle%20CI%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedrampinfo_us@oracle.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1206061350",
+    "providerName": "CGI Federal",
+    "serviceName": "CGI Federal IaaS Cloud",
+    "serviceAcronym": "CGI Federal IaaS Cloud",
+    "serviceDescription": "CGI delivers centralized, simplified, highly secure and fully managed solutions specifically designed to support Federal agencies, local and state governments, and tribal organizations needs. solution-focused services such as web content management solutions, content delivery network solutions, and co-location - enabling side-by-side hosting of virtualized and physical environments to meet transactional and/or specialized performance requirements.\n\nCGI DIFFENTIATORS\n- FedRAMP P-ATO and DISA P-ATO\n- High-touch, customer-centric service model with global presence\n- Business-centric analysis and transition planning\n- Automated cloud service management via secure portal\n- Enabling IT professional services to meet business and mission needs\n- Continental United States (CONUS) data centers staffed by U.S. citizens\n- Flexible, secure cloud infrastructure designed and built for government\n- Standards-based cloud technology supports interoperability",
+    "certificationType": "Rev5",
+    "website": "https://www.cgi.com/en",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/CGI%20Federal.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "Cgif.fedramp.security@cgifederal.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

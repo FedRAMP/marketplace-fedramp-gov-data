@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1906353407",
+    "providerName": "VMware, Inc.",
+    "serviceName": "Workspace ONE",
+    "serviceAcronym": "Workspace ONE",
+    "serviceDescription": "VMware Workspace ONE is a FedRAMP Moderate Authorized solution, providing a digital workspace platform that combines endpoint device deployment and management with secure Zero Trust Access for agencies & branches. Consistently ranked as a leader by industry analysts, Workspace ONE delivers consumer-simple, single sign-on (SSO) access to cloud, web, and Windows apps in one unified catalog that engages employees. Agencies can enable employees with a broad range of devices including iOS, Android, Mac, Windows and rugged devices to meets the needs or preferences of a user or their mission while enforcing fine-grained, conditional access policies that also take into account device compliance information delivered by unified endpoint management (UEM) technology. \n\nThe Workspace ONE FedRAMP environment now includes 'Workspace ONE Access', (formerly VMware Identity Manager), which provides multi-factor and derived credentials authentication, conditional access and single sign-on to SaaS and web apps, and Workspace ONE Intelligent Hub, which offers a unified catalog, actionable notifications of potential interest to employees, and a people directory for a full digital workspace experience. Workspace ONE Intelligence, now available for FedRAMP customers, delivers insights, analytics and automation for the digital workspace by aggregating and correlating device, application and user data coming from multiple sources in your environment. Agencies can improve employee experience with the Digital Employee Experience Management solution powered by Workspace ONE Intelligence, and strengthen the overall security posture by implementing Zero Trust capabilities.",
+    "certificationType": "Rev5",
+    "website": "https://my.workspaceone.com/products/VMware-Workspace-ONE",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/VMWare%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "vgs-fedramp-authorization-access.pdl@broadcom.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

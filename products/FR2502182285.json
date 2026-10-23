@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2502182285",
+    "providerName": "Security Control LLC (an ISI Company)",
+    "serviceName": "Security Control Cloud Software Platform (SCCP)",
+    "serviceAcronym": "Security Control Cloud Software Platform (SCCP)",
+    "serviceDescription": "Security Control cloud software platform is delivered as Software as a Service (SaaS) offering using a multi-tenant SaaS cloud computing environment deployed in AWS GovCloud Community. The Security Control cloud software platform provides functionality for private and public sector clients supporting the defense industrial client base and federal agency clients to manage their facility clearances, personnel records, associated clearance information, and provide tracking for other activities (e.g. foreign travel debrief) for cleared professionals.",
+    "certificationType": "Rev5",
+    "website": "https://mysecuritycontrol.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SC%20Logo.png",
+    "ueiNumber": "W969AAMDYJD1"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "tkirchner@dodsecurity.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "tgillaspie@dodsecurity.com"
+    }
+  ],
+  "assessor": {
+    "name": "Lazarus Alliance, Inc.",
+    "assessorID": "137047"
+  }
+}

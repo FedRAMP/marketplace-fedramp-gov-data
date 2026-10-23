@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2410060106",
+    "providerName": "DTEX Systems, Inc.",
+    "serviceName": "DTEX InTERCEPT for Government",
+    "serviceAcronym": "DTEX InTERCEPT for Government",
+    "serviceDescription": "The DTEX InTERCEPT for Government platform is a SaaS offering that combines Data Loss Prevention, User Behavior Analysis, and User Activity Monitoring to detect and mitigate insider risks before data loss occurs, enabling agencies to meet the requirements of the CNSSD 504 directive for UAM with built-in UEBA.   \n\nDTEX InTERCEPT for Government ingests behavioral telemetry into the platform, and uses data science and AI to surface early-warning indicators for detecting and deterring insider risks.",
+    "certificationType": "Rev5",
+    "website": "https://dtexsystems.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/DTEX%20Logo.png",
+    "ueiNumber": "RNMZVVMLJVC4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@dtexsystems.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "gov@dtexsystems.com"
+    }
+  ],
+  "assessor": {
+    "name": "Linford & Company",
+    "assessorID": "140531"
+  }
+}

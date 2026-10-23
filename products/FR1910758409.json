@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1910758409",
+    "providerName": "Mimecast",
+    "serviceName": "Incydr Gov",
+    "serviceAcronym": "Incydr Gov",
+    "serviceDescription": "Incydr Gov is a SaaS solution that helps organizations see and stop data loss caused by employees and contractors. It monitors data movement across endpoint and cloud to help security teams effectively detect, investigate, and respond to data exfiltration events with unrivaled ease of use, and without disrupting user productivity.",
+    "certificationType": "Rev5",
+    "website": "https://www.mimecast.com/products/incydr/federal-agencies/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Code42%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "certificationqueries@mimecast.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Deloitte & Touche LLP",
+    "assessorID": "138883"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1605027893",
+    "providerName": "DocuSign",
+    "serviceName": "DocuSign CLM",
+    "serviceAcronym": "DocuSign CLM",
+    "serviceDescription": "DocuSign CLM is a secure contract lifecycle management product in DocuSign's Agreement Cloud. DocuSign CLM manages contracts in addition to all other types of documents across desktop, mobile, and partner applications like Salesforce. DocuSign CLM goes beyond standard document and contract management with advanced workflows that automate manual tasks and complex processes to speed time-to-revenue. Businesses use DocuSign CLM to optimize collaboration and processes across internal departments, as well as with prospects and customers.",
+    "certificationType": "Rev5",
+    "website": "https://www.docusign.com/products/clm",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/DocuSign%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@DocuSign.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

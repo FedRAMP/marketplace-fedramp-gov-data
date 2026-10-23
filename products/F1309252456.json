@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1309252456",
+    "providerName": "Rectitude 369",
+    "serviceName": "Rectitude 369 Government Cloud (Formerly GDT)",
+    "serviceAcronym": "Rectitude 369 Government Cloud (Formerly GDT)",
+    "serviceDescription": "The Rectitude 369 Government Cloud is a FedRAMP Compliant Infrastructure as a Service (IaaS) offering that government agencies can leverage to deploy and manage compute, network, and storage resources in a self-service model. The Government Cloud holds a FISMA Moderate Joint Authorization Board Provisional ATO (P-ATO) and is authorized to support DoD Impact Level 2 (IL2) workloads. This Government Community Cloud deployment model ensures only government or supporting organizations supporting government agency workloads are hosted on the system. The Rectitude 369 Government Cloud supports both single system and hybrid deployments to connect workloads in multiple locations aligning to current government agency adoption patterns.",
+    "certificationType": "Rev5",
+    "website": "https://rectitude369.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Rectitude%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@rectitude369.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1818459251",
+    "providerName": "Sirsi Corporation (SirsiDynix)",
+    "serviceName": "EOS.Web",
+    "serviceAcronym": "EOS.Web",
+    "serviceDescription": "SirsiDynix provides libraries with the automation, accessibility, and flexibility to thrive in the modern age through its Integrated Library System (ILS) offerings. Our customers benefit from our products' security, ease of use, robust capabilities, and integration with numerous additional services, with FedRAMP Authorization making these products usable in ways that meet the compliance needs of government customers.",
+    "certificationType": "Rev5",
+    "website": "https://www.sirsidynix.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SirsiDynix%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@sirsidynix.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Tevora Business Solutions, Inc.",
+    "assessorID": "200492"
+  }
+}

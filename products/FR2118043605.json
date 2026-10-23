@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2118043605",
+    "providerName": "Skillsoft",
+    "serviceName": "Percipio",
+    "serviceAcronym": "Percipio",
+    "serviceDescription": "Skillsoft's Percipio is a SaaS learning experience platform that authenticates users, tracks learner's progress, and connects users to content and other optional services. Percipio offers 1000s of video-based courses along with ebooks, audiobooks, practice labs, boot camps, and assessments to help your workforce build skills. Percipio is accessible from both a web browser as well as Apple and Andriod mobile apps. The learning platform and mobile apps were assessed as in-boundary for FedRAMP. The external content providers are not assessed.",
+    "certificationType": "Rev5",
+    "website": "https://www.skillsoft.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Skillsoft%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@skillsoft.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Booz Allen Hamilton",
+    "assessorID": "136849"
+  }
+}

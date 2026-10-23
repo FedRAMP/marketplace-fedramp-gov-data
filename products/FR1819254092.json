@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1819254092",
+    "providerName": "Citrix",
+    "serviceName": "Citrix for Government",
+    "serviceAcronym": "Citrix for Government",
+    "serviceDescription": "Citrix for Governmentis comprised of:\n\n-Citrix Cloud platform provides capabilities to administer Citrix services. It allows customers to create, manage, and deploy workspaces with applications and data to their end-users from a single console, connecting to customer resources on any cloud or infrastructure a customer chooses.\n\n-Citrix DaaS (Desktop as a Service) provides virtualization solutions allowing control of virtual machines, desktops, applications, and security while providing users access from anywhere on any device. This hybrid cloud solution enables secure access to virtual applications, desktops, and data from cloud and on-premises infrastructure.",
+    "certificationType": "Rev5",
+    "website": "https://www.citrix.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Citrix%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@cloud.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

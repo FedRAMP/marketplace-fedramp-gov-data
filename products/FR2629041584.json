@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2629041584",
+    "providerName": "Siteimprove Inc",
+    "serviceName": "Siteimprove Federal Platform",
+    "serviceAcronym": "Siteimprove Federal Platform",
+    "serviceDescription": "Siteimprove Federal Platform is delivered as a Software as a Service (SaaS) offering hosted within Amazon Web Services (AWS) and made available to United States federal government agencies. The platform provides automated scanning, analysis, and reporting on federal agency website content, covering Section 508 accessibility compliance, content quality and broken-link detection. A crawler ingests content from agency websites for analysis, and findings, compliance scores, and remediation tracking are presented to agency users through a web portal. The offering processes, stores, and transmits federal customer data, including controlled unclassified information (CUI) and associated federal metadata. The production environment is deployed across a dedicated multi-account AWS organization and is built on Amazon Elastic Kubernetes Service (EKS) for container orchestration, with self-managed Oracle databases running on Amazon EC2 dedicated hosts as the primary data store and Amazon S3 for object storage. Cryptographic protection of federal data at rest and in transit uses FIPS 140-validated modules, with key management provided through AWS Key Management Service (KMS). Service model: Software as a Service (SaaS). Deployment model: Public Cloud (AWS us-east-2 commercial region, dedicated federal AWS Organization). Customer scope: U.S. federal agencies, with a single-tenant-per-agency architecture (per-tenant AWS account and VPC).",
+    "certificationType": "Rev5",
+    "website": "https://www.siteimprove.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Siteimprove%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@siteimprove.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federalplatform@siteimprove.com"
+    }
+  ],
+  "assessor": {
+    "name": "Securisea, Inc.",
+    "assessorID": "200865"
+  }
+}

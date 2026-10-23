@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2102031769",
+    "providerName": "Red Hat",
+    "serviceName": "Red Hat OpenShift Service on AWS (ROSA)",
+    "serviceAcronym": "Red Hat OpenShift Service on AWS (ROSA)",
+    "serviceDescription": "Red Hat® OpenShift® Service on AWS (ROSA) is a turnkey application platform jointly managed, operated and supported by Red Hat and AWS. It runs natively on Amazon Web Services (AWS), and allows organizations to increase operational efficiency, refocus on innovation, and quickly build, deploy, and scale applications. Red Hat OpenShift Service on AWS includes fully integrated development and operational productivity features including Kubernetes, an Integrated Development Environment (IDE), build pipelines, monitoring, logging and networking. With 24/7 monitoring and management to ensure seamless operations, organizations can focus on accelerating application delivery, not managing infrastructure. This offering is a FedRAMP High baseline, Platform-as-a-Service (PaaS) cloud service for developing and running containerized applications offered on the FedRAMP authorized AWS GovCloud (US).",
+    "certificationType": "Rev5",
+    "website": "https://www.redhat.com/en/technologies/cloud-computing/openshift/aws",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Red%20Hat%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@redhat.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

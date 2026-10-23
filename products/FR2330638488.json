@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2330638488",
+    "providerName": "PTFS/Liblime",
+    "serviceName": "Bibliovation/Knowvation",
+    "serviceAcronym": "Bibliovation/Knowvation",
+    "serviceDescription": "Bibliovation is a Integrated Library System (ILS) offered as a SaaS solution. The platform is web-based and all modules are accessible via proper permissions and web browsers. Bibliovation can combine individual system components (i.e., traditional ILS service core, MARC21 cataloging editor, EDI-compliant acquisitions, Discovery Layer, digital content management, etc.) to meet specific organizational needs.\n\nKnowvation™ is a enterprise level digital content management, discovery and delivery system solution that can be integrated with Bibliovation  ILS.  Key features include:\n\n●            Supports over 225 types of digital documents (PDF, Word, Excel, etc.), including geographical datasets like maps and imagery, JPEG and TIFF images, videos, and maps.\n\n●            Powerful search and discovery, including Boolean (Keyword), concept (Intent-based), pattern (fuzzy-text), metadata, multi-lingual, hierarchical, and geospatial (visual) across all data types.\n\n●            Tools for index-in-place or ingesting data into a single repository, able to read/write/tag metadata during or after ingestion.\n\n●            Extensive administrative tools with security and protected access and reporting on both usage and data with pre-configured and ad-hoc reporting in the system.",
+    "certificationType": "Rev5",
+    "website": "https://www.ptfs.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/PTFS%20Logo.png",
+    "ueiNumber": "N38NEXPESGF8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "dguerieri@ptfs.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@liblime.com"
+    }
+  ],
+  "assessor": {
+    "name": "Lazarus Alliance, Inc.",
+    "assessorID": "137047"
+  }
+}

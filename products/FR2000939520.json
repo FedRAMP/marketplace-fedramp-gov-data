@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2000939520",
+    "providerName": "Broad Institute, Inc.",
+    "serviceName": "Terra",
+    "serviceAcronym": "Terra",
+    "serviceDescription": "Terra is a public, cloud-based platform that provides biomedical researchers with a flexible environment for doing secure and scalable analysis. Terra users can upload their data to the cloud or access datasets sponsored by partner organizations that are hosted through convenient data exploration interfaces. Users can prepare and process data with or without coding expertise, leveraging Terra's repository of best-practice, ready-to-use bioinformatics workflows. Once data is processed, results can be explored in real-time with Terra's in-app integration of interactive analysis tools such as JupyterLab and Jupyter Notebooks. Collaborating with other users is easy with Terra's built-in capabilities for sharing work selectively, protecting data from unwanted re-distribution.",
+    "certificationType": "Rev5",
+    "website": "https://app.terra.bio/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Terra%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@broadinstitute.org"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2002367706",
+    "providerName": "Somnoware Healthcare Systems",
+    "serviceName": "Somnoware",
+    "serviceAcronym": "Somnoware",
+    "serviceDescription": "Somnoware delivers accelerated diagnosis and outcome management for patients with OSA and COPD through its cloud-based platform. Physicians can generate diagnostic reports for any sleep or pulmonary test instantly by leveraging Somnoware's clinical intelligence and integrations with all major diagnostic devices, EMR applications, and therapy manufacturers. Providers have real-time insights to patient CPAP therapy progress, risk profiles, and engagement metrics via Somnoware’s Care Management Console.",
+    "certificationType": "Rev5",
+    "website": "https://www.somnoware.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Somnoware%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "somno-fedadmin@resmed.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

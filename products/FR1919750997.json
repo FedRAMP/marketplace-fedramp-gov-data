@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1919750997",
+    "providerName": "HackerOne",
+    "serviceName": "HackerOne Continuous Security Testing Platform",
+    "serviceAcronym": "HackerOne Continuous Security Testing Platform",
+    "serviceDescription": "HackerOne is a multi-tenant Vulnerability Disclosure and crowdsourced Bug Bounty platform. Organizations rely on HackerOne to detect unknown security vulnerabilities in public-facing systems as well as sensitive assets that are not publicly disclosed. This is done by giving customers access to the world’s largest community of crowdsourced security researchers. Researchers then conduct remote, internet based, crowdsourced vulnerability discovery and disclosure services against internet-accessible assets, including public-facing websites, networks, systems, and applications.",
+    "certificationType": "Rev5",
+    "website": "https://www.hackerone.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/HackerOne%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@hackerone.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

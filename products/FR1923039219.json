@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1923039219",
+    "providerName": "Canon U.S.A., Inc.",
+    "serviceName": "Canon Office Cloud – Managed Print Services",
+    "serviceAcronym": "Canon Office Cloud – Managed Print Services",
+    "serviceDescription": "Canon Office Cloud is a managed print platform offering two services to help federal agencies manage their print environment.\n\nOutput and Scan Management Service: designed to help provide access control to documents, reduce overall printing costs, and improve office productivity.  \n\nKey features include:\n·        CAC/PIV/SIPR authentication to compatible Canon imageRUNNER ADVANCE devices \n·        Secure Print feature provides document access control\n·        Delegated printing\n·        Document scanning to FedRAMP¬ authorized cloud services such as: Microsoft Teams, OneDrive, Google Drive, Exchange, and BOX\n·        Tracking and reporting of print, scan, and copy costs\n\nFleet Auditing and Management Service:  offers advanced auditing and fleet management capabilities.  \nDevice-agnostic discovery enables users to track asset inventories, device use, automatic supply replenishment, and fleet health.\n\nKey features include:\n•        Centralized usage reporting \n•        Print device status and alerting \n•        Customizable toner replenishment \n•        Automated meter collection tools \n•        Service-alert notifications \n•        Inventory change tracking \n•        Service-performance analysis \n•        Robust fleet analysis and reporting \n•        Device security audit and alerting \n•        ServiceNow integration (optional)",
+    "certificationType": "Rev5",
+    "website": "https://usa.canon.com/officecloud",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Canon%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@cusa.canon.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

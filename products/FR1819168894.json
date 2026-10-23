@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1819168894",
+    "providerName": "Proofpoint, Inc.",
+    "serviceName": "Proofpoint Targeted Attack Protection",
+    "serviceAcronym": "Proofpoint Targeted Attack Protection",
+    "serviceDescription": "Proofpoint Targeted Attack Protection (TAP) helps detect, mitigate, and block advanced threat that target people through email. It detects both known and new, never-before-seen attacks that use malicious attachments and URLs to install malware on a device or trick users to share their passwords or other sensitive information.",
+    "certificationType": "Rev5",
+    "website": "https://www.proofpoint.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Proofpoint%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@proofpoint.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

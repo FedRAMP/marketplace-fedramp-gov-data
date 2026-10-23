@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1602257856",
+    "providerName": "SAP National Security Services Inc. (SAP NS2)",
+    "serviceName": "DoD Cloud Intelligent Enterprise – DD-CIE",
+    "serviceAcronym": "DoD Cloud Intelligent Enterprise – DD-CIE",
+    "serviceDescription": "Disclaimer: FedRAMP does not review or endorse vendor-submitted content. Vendors are responsible for accuracy of product descriptions, provided services, and contact information.\r\nThe SAP NS2 DoD Cloud Intelligent Enterprise (DDCIE) IL4 is a secure cloud environment purpose-built to meet U.S. Department of War requirements. SAP NS2 DDCIE IL4 supports defense agencies and mission partners with compliant, scalable SAP solutions.  All solutions are authorized by DISA at a FedRAMP+ IL4 moderate baseline.  \r\nThe SAP NS2 DDCIE IL4 environment hosts the following suite of SAP cloud solutions: SAP S/4HANA Cloud Private Edition, PCE Sidecar, SAP SuccessFactors Human Capital Management, and SAP Integrated Business Planning.\r\n----\r\nSAP NS2 DDCIE is operated exclusively by U.S. citizens with operations and data restricted to U.S. soil. Environments are designed to meet stringent federal security and compliance requirements. Solutions enable agencies and regulated organizations to modernize operations, strengthen resilience, and drive mission success.\r\nSolutions available:\r\nSAP S/4HANA Private Cloud Edition: A modern, intelligent SAP Cloud ERP solution delivered as a managed cloud service. SAP S/4HANA Private Cloud Edition enables organizations to streamline operations, gain real-time insights, and accelerate digital transformation while maintaining control, security, and customization of critical systems.\r\nSAP SuccessFactors Human Capital Management (HCM): A comprehensive, cloud-based human capital management suite designed to optimize workforce performance and engagement. SAP SuccessFactors supports the full employee lifecycle, from recruiting and onboarding to performance, learning, and workforce analytics, ensuring organizations align talent with mission objectives.\r\nIncludes: Employee Central, Employee Central Payroll, Learning, Performance & Goals, Succession & Development, Compensation, Recruiting, Onboarding, Workforce Planning, and Workforce Analytics.\r\nSAP SuccessFactors Employee Central Payroll delivers a robust, integrated payroll engine with enhanced resilience, compliance with U.S. federal requirements, and secure operations by U.S. persons.\r\nSAP Integrated Business Planning: A cloud-based supply chain planning solution that enables real-time, data-driven decision-making. SAP IBP integrates sales and operations planning, demand forecasting, supply planning, and inventory optimization to improve forecast accuracy, reduce costs, and enhance service levels.",
+    "certificationType": "Rev5",
+    "website": "https://www.sapns2.com/ns2-secure-cloud/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SAPNS2%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "SAPNS2_FedRAMPSecurityInbox@sapns2.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

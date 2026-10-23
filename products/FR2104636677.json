@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2104636677",
+    "providerName": "Ipsos America, Inc.",
+    "serviceName": "Ipsos Research",
+    "serviceAcronym": "Ipsos Research",
+    "serviceDescription": "Ipsos: Multi-Modal Survey Research and AI-Powered Data Analytics for the Public Sector\n\nIpsos delivers a secure, FedRAMP Moderate Authorized platform designed to help federal agencies gather critical data and translate it into actionable intelligence. We provide end-to-end support for the entire research lifecycle, from survey design and deployment to advanced, AI-driven analysis.\n\nCore Capabilities:\n\nOur platform supports a full range of data collection methods to reach any audience, including:\n\n* Digital Surveys: Modern, responsive web-based surveys with the capability to distribute invitations via email and SMS.\n* Paper-Based Logistics: We manage the complete paper survey lifecycle, partnering with vetted vendors for printing and mailing, while handling all high-speed scanning and data capture in-house.\n \nNext-Generation AI Analytics:\n\nOur platform securely accesses a suite of leading Large Language Models (LLMs) through AWS Bedrock, a managed service that has achieved FedRAMP High authorization. This allows us to transform vast amounts of unstructured text from open-ended survey responses into clear, data-driven insights. Our AI engine can:\n\n* Automatically Classify Verbatims: Instantly categorize thousands of qualitative responses into key themes.\n* Extract Actionable Insights: Identify and summarize key takeaways, emerging trends, and critical recommendations.\n* Enhance Data Quality and Security: Automatically identify and flag comments containing extreme keywords or potential Personally Identifiable Information (PII) for manual review, redaction, and follow-up, ensuring data integrity and compliance.\n* Generate Executive Summaries: Produce concise narratives to support rapid and informed decision-making.\n \n\nWhy Ipsos for Government?\n\nOur combination of multi-modal survey expertise and secure, AI-powered analytics empowers public sector organizations across all verticals—including healthcare, defense, and civilian agencies—to understand public sentiment, evaluate program effectiveness, and make mission-critical decisions with greater speed and confidence. All data is managed within our secure GovCloud environment, adhering to the strictest contractual and regulatory standards.",
+    "certificationType": "Rev5",
+    "website": "https://www.ipsos.com/en-us/solutions/list?search=Public%20Affairs",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Ipsos%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "global_security@ipsos.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1508127183",
+    "providerName": "NetComm",
+    "serviceName": "Beacon",
+    "serviceAcronym": "Beacon",
+    "serviceDescription": "NetComm is the government's expert for unifying the user experience at the agency IT edge, delivering custom information management software solutions to a wide range of government clients. A Women-Owned Small Business (WOSB) with 30 years of Federal experience, NetComm offers a variety of cloud-based services through Beacon, NetComm's data analytics toolset that allows users to create customized dashboards tailored to an organization's or agency's particular needs, including:\n\n- Automated HR, finance, property management, digital signatures, e-workflows, online collaboration and dashboard tools, specifically tailored to help clients meet their organizational goals \n- Improved access to and analysis of complex data \n- Standards & best practices for security & privacy management in the cloud \n- Mobile Capabilities \n- Data Visualization and Dashboarding\n\nBeacon leverages the Amazon Web Services GovCloud region FedRAMP moderate cloud Infrastructure as a Service (IaaS).",
+    "certificationType": "Rev5",
+    "website": "https://www.netcomm.net/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/NetComm%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@netcomm.net"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

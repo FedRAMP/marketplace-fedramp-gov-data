@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1811073663",
+    "providerName": "ESRI",
+    "serviceName": "ArcGIS Online (AGO)",
+    "serviceAcronym": "ArcGIS Online (AGO)",
+    "serviceDescription": "ArcGIS Online, hosted by Esri, is a secure and scalable software as a service (SaaS) platform that supports organizations in adopting and managing mapping and spatial analysis workflows. The platform is built on resilient technology managed by Esri, eliminating the need for purchasing and maintaining infrastructure and additional resources. It allows for the storage, collection, editing, and analysis of data in a connected solution that integrates with existing business systems. ArcGIS Online enables collaboration and enhances decision-making with both internal and external stakeholders by providing access to maps, apps, and data from any device, anywhere.",
+    "certificationType": "Rev5",
+    "website": "https://ArcGIS.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Esri%20Logo2.png",
+    "ueiNumber": "WUK9A5UR33S7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@Esri.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Sales@Esri.com"
+    }
+  ],
+  "assessor": {
+    "name": "Emagine IT",
+    "assessorID": "137046"
+  }
+}

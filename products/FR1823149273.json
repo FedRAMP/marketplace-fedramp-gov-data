@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1823149273",
+    "providerName": "Duo Security (a Cisco Company)",
+    "serviceName": "Duo Federal",
+    "serviceAcronym": "Duo Federal",
+    "serviceDescription": "Duo’s Federal Editions can verify the identity of users with secure and easy to use two-factor authentication methods that helps public sector entities satisfy NIST 800-63-3 and 53/63/171 authentication requirements. In addition to verifying users’ identities, Duo’s solution checks the security health of every device authenticating into the environment, at the time of access. Admins can use Duo to enforce stricter device and application access policies, such as blocking login requests based on location or anonymous networks. Duo ensures only trusted users and devices can access protected applications. This complete security solution prevents modern attackers that often target multiple areas - including credential theft and the exploitation of known software vulnerabilities affecting outdated software versions.",
+    "certificationType": "Rev5",
+    "website": "https://duo.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Duo%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cisco-fedramp@cisco.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

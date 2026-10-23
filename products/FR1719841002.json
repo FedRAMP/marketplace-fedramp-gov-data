@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1719841002",
+    "providerName": "SAP National Security Services Inc. (SAP NS2)",
+    "serviceName": "SAP NS2 Cloud Intelligent Enterprise",
+    "serviceAcronym": "SAP NS2 Cloud Intelligent Enterprise",
+    "serviceDescription": "Disclaimer: FedRAMP does not review or endorse vendor-submitted content. Vendors are responsible for accuracy of product descriptions, provided services, and contact information.\r\n\r\nThe DISA Provisional Authorization (PA) for the Unclassified, DoD Cloud Intelligent Enterprise by SAP National Security Services (NS2), Federal Government Community dated 17 March 2026 includes the SAP NS2 Commercially Regulated Environment (CRE) and the SAP NS2 Cloud Intelligent Enterprise (CIE) at Impact Level 2 (IL2)\r\nThe SAP NS2 Cloud Intelligent Enterprise (CIE) is a secure, U.S.-based cloud environment enables federal civilian agencies to deploy and operate mission-critical SAP solutions within a compliant, automated cloud framework.\r\nThe SAP NS2 CIE environment has the following suite of SAP cloud solutions available: SAP S/4HANA Private Cloud Edition (PCE), SAP Analytics Cloud (SAC), SAP Business Technology Platform (BTP), SAP SuccessFactors, SAP Employee Central Payroll, PCE Sidecar and HANA Cloud. \r\nThe SAP NS2 Commercial Regulated Environment (CRE) is a secure, U.S.-based cloud environment designed to support Department of War (DoW) contractors including Aerospace & Defense customers. SAP NS2 CRE enables customers to run mission-critical SAP workloads with compliance, resilience, and performance at the core. \r\nThe SAP NS2 CRE environment hosts the following suite of SAP cloud solutions: SAP S/4HANA Cloud Private Edition, SAP HANA Cloud, SAP Analytics Cloud, SAP Business Technology Platform, SAP SuccessFactors, SAP Employee Central Payroll, SAP Integrated Business Planning (IBP), PCE Sidecar and SAP Fieldglass.\r\n---\r\nAll SAP NS2 cloud environments are operated exclusively by U.S. citizens with operations and data restricted to U.S. soil. Environments support both Software-as-a-Service (SaaS) and Platform-as-a-Service (PaaS) solutions with built-in intelligence, seamless integration, and consistent user experience across applications.\r\nEnvironments are designed to meet stringent U.S. security and compliance requirements. Solutions enable agencies and regulated organizations to modernize operations, strengthen resilience, and drive mission success. \r\nSolutions available across SAP NS2 environments:\r\nSAP S/4HANA Private Cloud Edition: A modern, intelligent SAP Cloud ERP solution delivered as a managed cloud service. SAP S/4HANA Cloud Private Edition enables organizations to streamline operations, gain real-time insights, and accelerate digital transformation while maintaining control, security, and customization of critical systems.\r\nSAP Business Technology Platform (SAP BTP): An integrated platform for application development, data management, analytics, and integration. SAP BTP enables organizations to extend and connect SAP and non-SAP applications while accelerating innovation in a secure, compliant environment.\r\nSAP HANA Cloud: A fully managed, in-memory cloud database that supports advanced analytics and application development. SAP HANA Cloud enables real-time data processing, integration, and scalability across hybrid environments.\r\nSAP Analytics Cloud: A unified analytics solution that brings together business intelligence, planning, and predictive analytics in a single platform. It empowers organizations to make faster, data-driven decisions with real-time visibility and AI-driven insights.\r\nSAP SuccessFactors Human Capital Management (HCM): A comprehensive, cloud-based human capital management suite designed to optimize workforce performance and engagement. SAP SuccessFactors supports the full employee lifecycle, from recruiting and onboarding to performance, learning, and workforce analytics, ensuring organizations align talent with mission objectives.\r\nIncludes: Employee Central, Employee Central Payroll, Learning, Performance & Goals, Succession & Development, Compensation, Recruiting, Onboarding, Workforce Planning, and Workforce Analytics.\r\nSAP SuccessFactors Employee Central Payroll delivers a robust, integrated payroll engine with enhanced resilience, compliance with U.S. federal requirements, and secure operations by U.S. citizens.\r\nSAP Integrated Business Planning: A cloud-based supply chain planning solution that enables real-time, data-driven decision-making. SAP IBP integrates sales and operations planning, demand forecasting, supply planning, and inventory optimization to improve forecast accuracy, reduce costs, and enhance service levels.\r\nSAP Fieldglass: A cloud-based vendor management system (VMS) that helps organizations procure, manage, and optimize external workforce and services. SAP Fieldglass increases visibility, compliance, and cost control across contingent labor and services procurement.",
+    "certificationType": "Rev5",
+    "website": "https://www.sapns2.com/cloud/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SAPNS2%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "info@sapns2.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

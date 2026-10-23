@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1209051525",
+    "providerName": "Microsoft",
+    "serviceName": "Azure Commercial Cloud",
+    "serviceAcronym": "Azure Commercial Cloud",
+    "serviceDescription": "Microsoft Azure Commercial Cloud is an open and flexible cloud platform that enables customers to quickly build, test, deploy, and manage their applications, services, and product development across a network of Microsoft-managed datacenters within the United States. The Microsoft Azure Commercial Cloud exports savings to the customer by delivering the software, platform, and information technology infrastructure resources where and when it is needed via the Internet. \n\nMicrosoft Azure Commercial Cloud is used for building, deploying, and managing applications and services through a network of Microsoft-managed data centers. It provides Software as a Service (SaaS), Platform as a Service (PaaS), and Infrastructure as a Service (IaaS) and supports many different programming languages, tools, and frameworks, including both Microsoft-specific and third-party software and systems. The advantages of using Microsoft Azure Commercial Cloud include the ability to build large scalable applications serving large populations of users by scaling up or scaling down in relatively short periods of time.\nFederal agencies interested in collaborative continuous monitoring with Microsoft should reach out to: AzureCollabConMon@microsoft.com",
+    "certificationType": "Rev5",
+    "website": "https://azure.microsoft.com/en-us/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Microsoft%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "AzureFedRAMP@microsoft.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

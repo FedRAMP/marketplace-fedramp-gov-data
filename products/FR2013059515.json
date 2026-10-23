@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2013059515",
+    "providerName": "Cofense",
+    "serviceName": "Cofense PhishMe",
+    "serviceAcronym": "Cofense PhishMe",
+    "serviceDescription": "Cofense PhishMe enables organizations to improve employee resiliency to phishing attacks through real-life simulated phishing scenarios. Thousands of the world's largest organizations in both public and private sector rely on PhishMe to condition employees to recognize and report phishing attacks. \n\nPhishMe enables trained awareness and compliance personnel to run simulated attacks using email templates that look like actual phishing attacks and includes on-the-spot educational content that displays when recipients click on one of the simulated phishing emails. For example, a scenario email might alert recipients that their (e.g. banking) credentials were compromised and ask the recipients to click a link in the email to reset their password. If a recipient does click the link, PhishMe displays educational content to help that individual recognize the characteristics of a phishing email. Through these safe examples, PhishMe customers can help their employees develop an awareness of the risks that real phishing emails pose and reduce their susceptibility of engaging with such emails in the future. \n\nTo maximize the effectiveness of simulation campaigns and reduce the burden on awareness teams, Cofense PhishMe provides a combination of unique capabilities:\n\n- Content is based on real phishing attacks gleaned from real threat intelligence. That means that the scenarios you run are as realistic as possible, ensuring your organization is conditioned to the latest threats.\n\n- Responsive Delivery allows simulation operators to deliver phishing simulations while the user is active in their inbox, which drives higher scenario engagement. \n\n- Predefined playbooks with scenario recommendations based on user behavior and best practices. \n\n- PhishMe helps organizations transform their employees into the last line of active defense against phishing attacks - the leading cause of data breaches - through education, ongoing simulations, and an easy to use reporting tool, Cofense Reporter, so organizations can swiftly detect, respond to and thwart phishing attacks in their tracks.",
+    "certificationType": "Rev5",
+    "website": "https://cofense.com/solutions/industry/federal-government/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cofense%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "federal@cofense.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

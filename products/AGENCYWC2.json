@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "AGENCYWC2",
+    "providerName": "United States Department of the Treasury",
+    "serviceName": "Treasury Cloud Moderate",
+    "serviceAcronym": "Treasury Cloud Moderate",
+    "serviceDescription": "The Treasury Cloud Moderate (TCloud-M) System is owned and operated by the Department of the Treasury, serving as a multi-tenant IaaS/PaaS hosting environment designed to process Moderate Impact level information. TCloud-M is offered as a shared service, available in two cloud hosting models: Boundary Protected and Managed. The IaaS/PaaS provider used for this solution is Amazon Web Services (AWS) US East/West. The TCloud-M platform enables Treasury customers to concentrate on the operational and business aspects of their web presence, such as usability, information architecture, and content authoring, without the need to repeatedly configure and reinvent the technical infrastructure. This platform supports a variety of highly available services hosted on AWS and delivered to end-users through the Akamai Content Delivery Network (CDN).\r\nTCloud-M provides the following boundary protected and managed services to meet business or mission requirements:\r\nBoundary Protected Hosting Environment\r\n•\tCloud account provisioning and invoicing, with transparency on service utilization with FinOps dashboards.\r\n•\tIntrusion Prevention Services (IPS); VPN; Direct connection with Treasury T-NET network.\r\n•\tMonitoring of network ingress and egress traffic.\r\n•\tPreconfigured networking resources.\r\n•\tSingle Sign-On with connection to TCloud Active Directory.\r\n•\tIAM policies, groups, roles, preconfigured to enforce identify guardrails. \r\n•\tAudit trails and change monitoring that produce alerts and notifications to predetermined set of stakeholders.\r\n•\tManagement, configuration, and provisioning of Atlassian software suite available for customers- JIRA, Confluence, Stash (BitBucket), and Bamboo.\r\n•\tAccess to native cloud services and resources provided by the CSP.\r\nManaged Hosting Environment\r\n•\tCloud account provisioning and invoicing, with transparency on service utilization with FinOps dashboards.\r\n•\tRemote Desktop Services.\r\n•\tOperating System (OS) level patching performed as part of monthly patch deployments.\r\n•\tVulnerability scanning: OS, Databases, and Web application.\r\n•\tIdentification, prioritization, and mitigation of OS and Database level vulnerabilities.\r\n•\tConfiguration management for OS and Databases .\r\n•\t Intrusion Prevention Services (IPS); VPN; Web Application Firewall (WAF); Direct connection with Treasury T-NET network.\r\n•\tAnti-Virus and Host Based Firewall. \r\n•\tEndpoint Detection and Response.\r\n•\tAudit log ingestion and monitoring (OS Level, Database, and CSP).\r\n•\tDirectory services, accounts and permission management provided through Microsoft Active Directory.\r\n•\tIAM policies, groups, roles, preconfigured to enforce identify guardrails. \r\n•\tIAM audit trails and change monitoring that produce alerts and notifications to predetermined set of stakeholders.\r\n•\tSingle Sign-On with connection to TCloud Active Directory.\r\n•\tMonitoring of network ingress and egress traffic. \r\n•\tPreconfigured networking resources, with audit trails and change monitoring that produce alerts and notifications to predetermined set of stakeholders.\r\n•\tUnified cloud security platform that includes vulnerability management, compliance and posture management, workload protection, and container security. \r\n•\tDisaster recovery and Contingency Planning - Backup and restore.\r\n•\tDisaster recovery and Contingency Planning - Different availability zones for resiliency.\r\n•\tSecurity incident and response monitoring and coordination with appropriate stakeholders.\r\n•\tManagement, configuration, and provisioning of Atlassian software suite available for customers- JIRA, Confluence, Stash (BitBucket), and Bamboo.\r\n•\tAccess to native cloud services and resources provided by each CSP.",
+    "certificationType": "Rev5",
+    "website": "https://home.treasury.gov/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/DoT%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "TCloudServiceDesk@treasury.gov"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Kamil.Kuza@treasury.gov"
+    }
+  ],
+  "assessor": {
+    "name": "Excentium, Inc.",
+    "assessorID": "138266"
+  }
+}

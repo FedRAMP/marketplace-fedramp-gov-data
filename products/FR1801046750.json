@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1801046750",
+    "providerName": "United States Department of the Treasury",
+    "serviceName": "Treasury Cloud (TCloud)",
+    "serviceAcronym": "Treasury Cloud (TCloud)",
+    "serviceDescription": "The Treasury Cloud High (TCloud-H) system is owned and operated by the Department of the Treasury, serving as a multi-cloud IaaS/PaaS hosting environment designed to process High Impact level information. It includes the following multitenant, government-exclusive cloud platforms: \r\n•\tAmazon Web Services (AWS) GovCloud East/West, \r\n•\tOracle Cloud Infrastructure (OCI) GovCloud East/West, \r\n•\tMicrosoft Azure GovCloud East/West, and \r\n•\tGoogle Cloud Platform (GCP) GovCloud East4/Central1 \r\nTCloud-H FedRAMP’ed environment is offered as a shared service to Treasury Bureau’s, available in two cloud hosting models: Boundary Protected and Managed. Contractual support from each cloud vendor is in place to design, build, maintain, and manage every individual platform based on the hosting model. TCloud-H allows Treasury customers to incorporate innovative tools and forward-thinking IT solutions throughout the design, build, and maintenance phases of a cloud-based project. \r\nTCloud provides the following Boundary Protected and Managed services to meet business or mission requirements:\r\nBoundary Protected Hosting Environment\r\n•\tCloud account provisioning and invoicing, with transparency on service utilization with FinOps dashboards.\r\n•\tIntrusion Prevention Services (IPS); VPN; Direct connection with Treasury T-NET network.\r\n•\tMonitoring of network ingress and egress traffic.\r\n•\tPreconfigured networking resources.\r\n•\tSingle Sign-On with connection to TCloud Active Directory.\r\n•\tIAM policies, groups, roles, preconfigured to enforce identify guardrails. \r\n•\tAudit trails and change monitoring that produce alerts and notifications to predetermined set of stakeholders.\r\n•\tManagement, configuration, and provisioning of Atlassian software suite available for customers- JIRA, Confluence, Stash (BitBucket), and Bamboo.\r\n•\tSelf-managed access to private or intra-VPC native cloud services and resources provided by each CSP.\r\nManaged Hosting Environment\r\n•\tCloud account provisioning and invoicing, with transparency on service utilization with FinOps dashboards.\r\n•\tRemote Desktop Services.\r\n•\tOperating System (OS) level patching performed as part of monthly patch deployments.\r\n•\tVulnerability scanning: OS and Databases.\r\n•\tIdentification, prioritization, and mitigation of OS and Database level vulnerabilities.\r\n•\tConfiguration management for OS and Databases. \r\n•\tIntrusion Prevention Services (IPS); VPN; Web Application Firewall (WAF); Direct connection with Treasury T-NET network.\r\n•\tAnti-Virus and Host Based Firewall. \r\n•\tEndpoint Detection and Response. \r\n•\tAudit log ingestion and monitoring (OS Level, Database, and CSP).\r\n•\tDirectory services, accounts and permission management provided through Microsoft Active Directory.\r\n•\tIAM policies, groups, roles, preconfigured to enforce identify guardrails. \r\n•\tIAM audit trails and change monitoring that produce alerts and notifications to predetermined set of stakeholders.\r\n•\tSingle Sign-On with connection to TCloud Active Directory.\r\n•\tMonitoring of network ingress and egress traffic.  \r\n•\tPreconfigured networking resources, with audit trails and change monitoring that produce alerts and notifications to predetermined set of stakeholders.\r\n•\tUnified cloud security platform that includes vulnerability management, compliance and posture management, workload protection, and container security.\r\n•\tDisaster recovery and Contingency Planning - Backup and restore.\r\n•\tDisaster recovery and Contingency Planning - Different availability zones for resiliency.\r\n•\tSecurity incident and response monitoring and coordination with appropriate stakeholders.\r\n•\tManagement, configuration, and provisioning of Atlassian software suite available for customers- JIRA, Confluence, Stash (BitBucket), and Bamboo.\r\n•\tAccess to native cloud services and resources provided by each CSP.",
+    "certificationType": "Rev5",
+    "website": "https://home.treasury.gov/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/DoT%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "TCloudServiceDesk@treasury.gov"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "Kamil.Kuza@treasury.gov"
+    }
+  ],
+  "assessor": {
+    "name": "Excentium, Inc.",
+    "assessorID": "138266"
+  }
+}

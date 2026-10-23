@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1305012100A",
+    "providerName": "1901 Group",
+    "serviceName": "in3sight High",
+    "serviceAcronym": "in3sight High",
+    "serviceDescription": "1901 Group’s in3sight is a consumption-based as-a-service cloud delivery capability providing Information Technology (IT) managed services for federal customer environments that span cloud, customer site, and hybrid configurations. in3sight is inclusive of 1901 Group’s 24×7 Operations Center in Blacksburg, Virginia where their software as a service (SaaS) platform is used to monitor, manage, and optimize enterprise IT environments. Services are securely extended into customer environments over FIPS140-2 Certified AES encrypted Virtual Private Network tunnels, and the in3sight customer facing capability used for ITIL-based service requests is supported by a FedRAMP FISMA Moderate multi-tenant ServiceNow instance. The 1901 Group SaaS Managed Service Provider (MSP) offering is described within 1901 Group’s Information Technology Service Catalog that encompasses network, unified communications, security, storage, compute and application solutions on an “as a Service” basis. in3sight provides standardized processes, services and technology to customers via an accredited platform, resulting in stable and reliable IT environments, as well as timely, accurate and meaningful monitoring and management information for decision making, and integrated analytics that improve efficiency.",
+    "certificationType": "Rev5",
+    "website": "https://www.1901group.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/1901%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@1901group.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

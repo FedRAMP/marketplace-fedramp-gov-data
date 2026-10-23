@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2135915901",
+    "providerName": "Solventum",
+    "serviceName": "Solventum RevCycle Health Services Platform",
+    "serviceAcronym": "Solventum RevCycle Health Services Platform",
+    "serviceDescription": "RevCycle Health Services Platform (RHSP) is a platform which hosts and supports the operations of key Solventum software systems. These systems include (but are not limited to) Natural Language Processing (NLP) for automatic suggestion of CPT and ICD codes to assist with Computer Assisted Coding (CAC); GPCS (Grouper Plus Content Services) providing reliable, classification, grouping, edits and reimbursement content; Clinical Documentation Integrity (CDI); Enterprise Analytics reporting; worksheet services; clinician created document input; medical coding edits; medical evaluation and management; medical coding assistance system. RHSP utilizes robust AI-inclusive methodologies to create a comprehensive multi-service platform to derive medical codes, assist with medical terminology, and ease the provider workflow.",
+    "certificationType": "Rev5",
+    "website": "https://www.solventum.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Solventum%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "solventumfedramp@3mhealth.jsmalerts.atlassian.net"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

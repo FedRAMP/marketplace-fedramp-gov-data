@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2010339248",
+    "providerName": "Cyxtera Federal Group, Inc.",
+    "serviceName": "Cyxtera Platform Government Edition",
+    "serviceAcronym": "Cyxtera Platform Government Edition",
+    "serviceDescription": "The Cyxtera Platform: Government Edition (CPGE) IaaS is a single-tenant architecture that combines a software-defined network fabric and an on-demand service provisioning system to provide customers the capability to procure and consume data center services. The authorization package consists of an application infrastructure hosted within Microsoft Azure Government and a physical infrastructure located in Cyxtera-owned data centers to support mission-critical needs. Agencies can easily deploy Artificial Intelligence/Machine Learning workloads as well as bare-metal servers for general purpose workloads. CPGE simplifies installation, removal, and general management of the physical infrastructure. The physical infrastructure is securely connected per agency requirements. Delivering the security and control government agencies require, CPGE provides a robust scalable environment that allows an agency to redirect funding from capital purchases to operating expenses with our Enterprise Bare Metal Servers.",
+    "certificationType": "Rev5",
+    "website": "https://www.cyxtera.com/federal",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cyxtera%20Logo.png",
+    "ueiNumber": "LYYVLX7DGKK3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "IaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@cyxtera.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "FederalSales@cyxtera.com"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

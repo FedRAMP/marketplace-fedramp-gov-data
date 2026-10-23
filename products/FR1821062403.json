@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1821062403",
+    "providerName": "Saviynt, Inc.",
+    "serviceName": "Saviynt Enterprise Identity Cloud (EIC)",
+    "serviceAcronym": "Saviynt Enterprise Identity Cloud (EIC)",
+    "serviceDescription": "Saviynt delivers an intelligent and converged platform for Identity Governance and Administration (IGA), Privileged Access Management (PAM) and Cloud Security that enables its customers to effectively manage risk, address continuous compliance needs and securely adopt cloud technologies with confidence. The solution combines advanced analytics with fine-grained privilege management to secure critical data, infrastructure and application assets for Cloud and Enterprise in a unified platform. \n\nSaviynt's completely managed and flexible platform ensures a worry-free adoption of IGA services such as user lifecycle management, access request and certification, Segregation of Duties (SOD) management, infrastructure access governance for IaaS providers (AWS, GCP & Azure), data access governance as well as PAM services. Saviynt's PAM solution is an identity-led service designed for elastic cloud and hybrid IT. It secures privileged access for any application or infrastructure workloads and extends governance to bring-your-own vaults. It is designed to ensure zero standing privileges, provide Just In Time (JIT) access, accelerate rollout at any scale with auto-registration of workloads, and lower the total cost of ownership by eliminating traditional jump boxes.",
+    "certificationType": "Rev5",
+    "website": "https://saviynt.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SVT%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@saviynt.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

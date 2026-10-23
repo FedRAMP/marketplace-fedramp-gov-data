@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2535459082",
+    "providerName": "stackArmor",
+    "serviceName": "The Armory20x",
+    "serviceAcronym": "The Armory20x",
+    "serviceDescription": "Armory20x is a purpose-built solution hosted on Google Cloud Platform (GCP) that provides cloud service providers (CSPs) and independent software vendors (ISVs) a deployment landing zone within an Armory20x tenant to deploy workloads that store, process, and/or transmit federal data categorized at the FedRAMP 20x Low baseline.\n\nThe tenant leverages the security and General Support System (GSS) services of The Armory | FedRAMP Marketplace to provide a known-secure deployment location, leveraging a majority of GCP FedRAMP authorized native cloud and in-boundary security services, for CSPs seeking authorization under 20x.\n\nAs part of the FedRAMP 20x Pilot, CSPs must report their Key Security Indicator (KSI) status as defined by the FedRAMP 20x Key Security Indicators | FedRAMP.gov. Armory20x leverages stackArmor's automated assessment solution to provide status for all required KSIs for a CSP deployed within a 20x tenant.\nTenants are heavily customizable, allowing Armory20x customers to deploy workloads that are suited to their particular application and service needs.\nstackArmor personnel assist CSPs/ISVs with deploying services in a manner that meets FedRAMP 20x KSI requirements and helps ensure an authorizable status under the 20x program.",
+    "certificationType": "Rev5",
+    "website": "https://stackarmor.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Armory%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "jdettweiler@stackarmor.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

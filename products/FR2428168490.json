@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2428168490",
+    "providerName": "LogicMonitor",
+    "serviceName": "LM for Gov",
+    "serviceAcronym": "LM for Gov",
+    "serviceDescription": "Hybrid Observability powered by AI:\nLogicMonitor provides customers with a fully software-as-a-service (SaaS)-based solution for performance monitoring of servers, cloud (AWS, GCP, Azure), virtual machines (VMs), storage, network, applications, websites and more. Customers deploy one or several LogicMonitor virtual appliances known as collectors within their environment, and all collected data is transmitted to and stored within the LogicMonitor for Government cloud environment. LogicMonitor has over 3,000 integrations for the aforementioned technologies. The collectors integrate with a wide variety of operating systems and device types to collect performance data for use in dashboarding, forecasting, alerting, and reporting. Customers manage their collectors and view data through a cloud-based web portal or mobile application.",
+    "certificationType": "Rev5",
+    "website": "https://www.logicmonitor.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/LogicMonitor%20Logo.png",
+    "ueiNumber": "V1B7DNM1DUB5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security-fedramp@logicmonitor.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales-fedramp@logicmonitor.com"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

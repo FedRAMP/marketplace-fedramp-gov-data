@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2032665434",
+    "providerName": "Menlo Security",
+    "serviceName": "Cloud Security Platform powered by Isolation Core",
+    "serviceAcronym": "Cloud Security Platform powered by Isolation Core",
+    "serviceDescription": "Menlo Security is the pioneer of browser security and stops evasive threats such as phishing and ransomware, delivering on the promise of cloud-based security and enabling zero trust application access. The Menlo Secure Enterprise Browser solution prevents attacks while being invisible to end users who can use their preferred web browser, enhancing productivity. Deploy browser security policies in a single click, securing internet access and protecting organizational data down to the last mile.\r\n\r\nMenlo Secure Enterprise Browser Solution\r\nInstantiated for each browser session, the Menlo Secure Cloud Browser secures access to the web, preventing malware, ransomware, and unauthorized access and ensures that data security policies are enforced to prevent malicious or unintentional data theft with multiple Data Loss Prevention (DLP) features. Defending against highly evasive adaptive threats (HEAT), Menlo leverages machine learning and AI-based URL analysis to identify and block the most sophisticated phishing sites. Menlo remote browser isolation (RBI) offers significant performance enhancements in comparison to all other RBI offerings with patented Adaptive Clientless Rendering (ACR). ACR enables web page rendering, including interactive animations such as scrolling, to be performed on the endpoint browser using optimized desktop hardware and browser software, while the full browser feature set—including copy-paste, find in page, and printing—is maintained.\r\n\r\nThe administrative policy defines whether any site is isolated. Isolation may be managed with traditional categories which should be familiar and easy to use by administrators of Secure Web Gateways (SWG). Unlike a SWG, however, Menlo enables isolation by threat types and/or vulnerable web services.\r\n\r\nMitigating the security blindspot posted by mandated transport level encryption (TLS), Menlo Browsing Forensics offers policy-based capture of browsing sessions. Captures are stored in customer data stores, not accessible to Menlo Security. The Browsing Forensics Viewer enables the Security Operations Center (SOC), incident response, and even security awareness training teams to review users’ sessions including clicks, scrolls and text inputs. Policy controls manage whether password entries are retained, whether a user is notified of recording and screen capture rates.\r\n\r\nFiles and archives are delivered with browser protocols. The Menlo Secure Cloud Browser includes comprehensive file and archive inspection. Archives are opened, and each file is subject to hash checks and anti-virus examinations. The safe content of both clean and infected files can be presented as a safe PDF to the user. Policy governs whether any original file or archive may be downloaded from the Secure Cloud Browser. File security checks can be selectively bypassed.\r\n\r\nTraffic steering to the Menlo Cloud supports proxy chaining from, for example, existing SWG or Cloud Access Security Brokers (CASB), as well as PAC file deployment or firewall redirecting. Menlo Browser Security is fully compatible with Secure Access Service Edge (SASE) and Security Service Edge (SSE) deployments.\r\n\r\nCommon use cases for Menlo Browser Security include: comprehensive zero-hour phishing prevention, ransomware prevention, administrative governance of Generative AI, and comprehensive governance of SaaS using workflows similar to CASB, but including SaaS property isolation and comprehensive file upload and download controls applicable on a per-application basis.",
+    "certificationType": "Rev5",
+    "website": "https://www.menlosecurity.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Menlo%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@menlosecurity.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

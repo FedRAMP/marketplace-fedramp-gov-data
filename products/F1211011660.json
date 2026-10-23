@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1211011660",
+    "providerName": "IBM",
+    "serviceName": "IBM Cloud for Government",
+    "serviceAcronym": "IBM Cloud for Government",
+    "serviceDescription": "IBM Cloud for Government is a high performance, high security Cloud, providing both Infrastructure and Platform Cloud Services. IBM Cloud for Government delivers seamless integrated computing environments across multiple data centers. IBM integrates and automates infrastructure and platform services empowering federal agencies with complete control, security, scalability and ease-of-management via an Agency Portal and Secure Open API. The Agency portal and API provide administrators and developers with direct access to more than 100 backend systems, services and activities. IBM Cloud for Government is designed for optimized network management, various performance levels and enhanced security. It provides automated provisioning of services in public, private, and hybrid cloud offerings with quick and easy access to developer tools. Services include orchestration of bare metal and virtual servers, networking services, VMWare, and development tools such as with object storage, auto scaling, and load balancing.",
+    "certificationType": "Rev5",
+    "website": "https://www.ibm.com/cloud/federal",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/IBM%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "IC4G@wwpdl.vnet.ibm.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

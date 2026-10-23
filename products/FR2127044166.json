@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2127044166",
+    "providerName": "Iron Bow",
+    "serviceName": "TriageXpert Cloud",
+    "serviceAcronym": "TriageXpert Cloud",
+    "serviceDescription": "TriageXpert Cloud is a physician-written, evidence-based clinical decision support tool that generates a comprehensive triage note. Through a custom algorithm and natural language processing, clinical users are guided through a targeted medical history with a recommended treatment path. TriageXpert is available as an API or easy to deploy widget.",
+    "certificationType": "Rev5",
+    "website": "https://ironbow.com/iron-bow-dhsi-va-triagexpert",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/IronBow%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "TriageXpert@ironbow.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  }
+}

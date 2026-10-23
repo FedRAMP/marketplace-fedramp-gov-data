@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2215871648",
+    "providerName": "Iron Mountain",
+    "serviceName": "Iron Mountain InSight on AWS",
+    "serviceAcronym": "Iron Mountain InSight on AWS",
+    "serviceDescription": "The Iron Mountain InSight on AWS information system is a software-as-a-service (SaaS) that provides customers with Content Management and Intelligent Document Processing. Content Management includes the ability to ingest, search, view and manage documents; this is referred to as a Content Services Platform (CSP). Intelligent Document Processing allows for the ability to enrich the document metadata by classifying the document type and extraction of data. The CSP and the IDP components are delivered as a single system",
+    "certificationType": "Rev5",
+    "website": "https://www.ironmountain.com/fi/en/services/content-service-platform",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/IM%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "arvind.murthy@ironmountain.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

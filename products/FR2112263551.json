@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2112263551",
+    "providerName": "Ping Identity Corporation",
+    "serviceName": "PingOne for Government (In suspension)",
+    "serviceAcronym": "PingOne for Government (In suspension)",
+    "serviceDescription": "PingOne for Government is a cloud service offering that gives commercial suppliers and Federal agencies the identity and access management services they need to enable the right individual to access the right resource, at the right time, for the right reason in support of federal business objectives.\n\nPingOne for Government is a suite of services that includes three products/components:\n- PingFederate is an enterprise federation server that enables user authentication and single sign-on (SSO). It is designed to serve as a global authentication authority that allows employees, contractors, and partners to access the applications they need from any device securely. PingFederate easily integrates with applications across the enterprise, third-party authentication sources, user directories, and existing IAM systems, leveraging integration kits and identity standards like OAuth, OpenID Connect, SAML, and WS-Federation. And with full support for x.509 PKI certificates, organizations can expand the use of their existing PIV and CAC authenticators to allow for MFA wherever their users are.\n- PingAccess is a centralized access security solution with a comprehensive policy engine. It helps provide secure access to applications and APIs down to the URL level and ensures that only authorized users can access the resources they need. Additionally, PingAccess can enable SSO for web applications and APIs; when used in combination with PingFederate for authentication and token services, both internal and external users can gain secure access to applications.\n- PingDirectory is a high-performance, extensible data store for citizen, mission partner, and government employee and contractor identity data. PingDirectory allows agencies to manage profiles for a multiplicity of channels and devices.",
+    "certificationType": "Rev5",
+    "website": "https://www.pingidentity.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Ping%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@pingidentity.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  }
+}

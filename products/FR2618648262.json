@@ -1,0 +1,34 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2618648262",
+    "providerName": "Defense Cybersecurity Group",
+    "serviceName": "Midwatch",
+    "serviceAcronym": "Midwatch",
+    "serviceDescription": "Midwatch is a secure enclave engineered for the protection of Controlled Unclassified Information (CUI). It provides Federal Agencies and the Defense Industrial Base (DIB) with a secure environment to handle and share sensitive data requiring moderate security controls. Through the use of Virtual Desktop Infrastructure (VDI), Midwatch ensures strict logical separation between secure workloads and an organization’s broader enterprise information systems.\n\nMidwatch enables secure, high-performance collaboration across several critical workflows, including:\nSensitive Data Collaboration: Secure co-authoring and collaboration on sensitive information and complex documentation stacks.\nAdvanced Engineering: Specialized support for CAD workflows and AI/ML GPU-accelerated workloads.\nSoftware Engineering: Secure Software Development and DevSecOps via an integrated Gitflow platform, implemented in alignment with the Secure Software Development Framework (SSDF).\nOperational Management: Integrated project management and secure task orchestration.\nRemote Device Management: Midwatch ViPR provides a secure gateway between the VDI infrastructure and physical office or workshop floors, facilitating controlled and audited file transfers to engineering peripheral devices.\n\nThe Midwatch authorization boundary consists of a DevSecOps platform, VDI infrastructure, Midwatch ViPR remote access services, workflow automation, and vulnerability management tools, all hosted within a dedicated cloud organization. The environment is hardened through a segmented VPC architecture with Google Cloud Armor edge protection, the implementation of a Zero Trust Network Architecture (ZTNA) for all access requests, and robust data protection featuring centralized logging and Customer-Managed Encryption Keys (CMEK).\n\nMidwatch is deployed as a government-community cloud within the Google Cloud Platform (GCP) using US-only data centers. The system utilizes a microservices-based architecture powered by Docker and K3s/K8s/GKE Autopilot.",
+    "certificationType": "Rev5",
+    "website": "https://cybersecgru.com",
+    "logo": "https://www.fedramp.gov/placeholder-128x128px.svg",
+    "ueiNumber": "X8M3VQX188Y8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "IaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@dcg.cui-secure.us"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@cybersecgru.com"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

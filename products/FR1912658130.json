@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1912658130",
+    "providerName": "Datadog",
+    "serviceName": "Datadog",
+    "serviceAcronym": "Datadog",
+    "serviceDescription": "Datadog is the essential monitoring platform for cloud applications. We bring together data from servers, containers, databases, and third-party services to make your stack entirely observable. These capabilities help DevOps teams avoid downtime, resolve performance issues, and ensure customers are getting the best user experience.\n\nDatadog is a monitoring service for modern cloud environments offering Infrastructure Metrics, Application Performance Monitoring (APM), and Log Management within a single platform.",
+    "certificationType": "Rev5",
+    "website": "https://www.datadoghq.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/DataDog%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@datadoghq.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

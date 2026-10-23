@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1603227880",
+    "providerName": "Oracle",
+    "serviceName": "Taleo Cloud - U.S. Government Cloud",
+    "serviceAcronym": "Taleo Cloud - U.S. Government Cloud",
+    "serviceDescription": "Oracle Taleo Cloud services are Oracle’s Software as a Service (SaaS) solution, providing a comprehensive talent management and learning service. Taleo Enterprise Edition offers a comprehensive talent management suite that spans the entire employee lifecycle and helps companies hire, manage, reward, and develop their employees with a full talent management solution for recruiting and on boarding, performance management, employee development and succession planning. Since Taleo Enterprise Edition is built on a single unified platform and delivered on demand, you can implement a single module or the full solution based on your needs. Oracle’s Taleo Learn Cloud offers an employee development and training software solution that supports the learning challenges of large complex enterprises. Taleo Learn links human resources management to learning with Talent Intelligence. The Taleo Learn Cloud Service is a solution for delivering, tracking, managing, and reporting on formal and informal learning. Users have access to learning through a single platform for online, classroom, virtual, and on-the-job training, as well as assessments, blended learning, social learning, and self-reported training. Organizations can design a tailored user experience with complete control of the user interface.",
+    "certificationType": "Rev5",
+    "website": "https://www.oracle.com/applications/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Oracle%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "saas_fedramp_us_grp@oracle.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

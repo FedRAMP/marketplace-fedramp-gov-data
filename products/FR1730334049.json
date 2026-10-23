@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1730334049",
+    "providerName": "Xerox Corporation",
+    "serviceName": "Xerox Managed Print Services for US Government",
+    "serviceAcronym": "Xerox Managed Print Services for US Government",
+    "serviceDescription": "Xerox Managed Print and Capture Services (MPCS) for US Government is a cloud-based solution developed specifically to help US Federal, State, and Local government agencies manage the print and document capture life cycles within an organization while maximizing productivity, security and reducing waste and risk.\n\nThe Xerox Managed Print Services (MPS) capability is a management solution for both Xerox and Non-Xerox print/imaging devices such as printers, multi-function devices, and copiers. Managed print services focus on the management of print output devices themselves, related supplies, and service requirements. The solution ensures proactive device management resulting in maximum uptime, utilization/optimization, and robust print and security policy management.\n\nXerox Capture Services provide advanced multichannel capture, digitization, and data transformation to help government agencies achieve digital transformation goals. Digitization and imaging services can be provided on-site, near-site or off-site.  Digitization can be combined with data transformation, process automation, and electronic document management solutions to ensure optimal speed and productivity. \r\n\r\nXerox Connect for Microsoft OneDrive FedRAMP Authorized and Microsoft 365 FedRAMP Authorized apps are developed specifically to help US Federal, State, and Local government agencies securely connect their Xerox ConnectKey Enabled multi-function devices to the Microsoft Government Community Cloud Environment (GCC). These apps will allow users to choose scan or print workflows, navigate directly to their file or folder, and convert to popular Microsoft Office formats directly from the User Interface of the device.",
+    "certificationType": "Rev5",
+    "website": "https://www.xerox.com/en-us/services/government-solutions/insights/fedramp-approved-cloud-mps",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Xerox%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMPSecurityInbox@xerox.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  }
+}

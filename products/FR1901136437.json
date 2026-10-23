@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1901136437",
+    "providerName": "Synergetics Incorporated",
+    "serviceName": "Open Federal Logistics Information System (OpenFLIS)",
+    "serviceAcronym": "Open Federal Logistics Information System (OpenFLIS)",
+    "serviceDescription": "OpenFLIS is an easily customizable, FedRAMP Ready, cloud-based data collation, retrieval, and dissemination platform that enables users to search and display information across multiple databases, sources, and formats. When coupled with the Synergetics Craft Product Architecture (SCPA) application tool, OpenFLIS provides the ability to reach across technological generations and sources to provide access and visibility to any data in any format. The system consists of the SCPA collation and dissemination tool as well as provisioning, cataloging, search and discovery, Information Management / Knowledge Management (IM/KM), and administrator’s modules that comprise the platform.",
+    "certificationType": "Rev5",
+    "website": "https://synergetics.com/openflis/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Synergetics%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@synergetics.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "First Information Technology Services, Inc.",
+    "assessorID": "137801"
+  }
+}

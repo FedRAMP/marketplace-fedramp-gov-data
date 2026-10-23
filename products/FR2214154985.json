@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2214154985",
+    "providerName": "Nuix US Government",
+    "serviceName": "Nuix Discover for Government",
+    "serviceAcronym": "Nuix Discover for Government",
+    "serviceDescription": "NDG is a web-based e-discovery document platform. Designed and implemented as a Software-as-a-Service (SaaS) application, the cloud solution is a document review platform that scales to support simultaneous, concurrent processing, loading, analysis, review, and production operations primarily intended for criminal justice use/business. NDG is created using infrastructure-as-code for scalable and resilient operations. Core functionality includes: \n- Data import and processing. \n- Data enrichment including computational analysis of structured and unstructured data (analytics). \n- Review enablement including batching, conditional coding, and reporting. \n- Case assessment features and knowledge capture tools (e.g. chronologies, evidence linking). \n- Production/export capabilities. \n- Evidence presentation. \n\nNDG’s architecture includes the Ringtail Processing Framework (RPF) that executes compute tasks including processing, imaging, searching, indexing, production printing, conceptual analysis, and predictive modeling.",
+    "certificationType": "Rev5",
+    "website": "https://www.nuix.com/nuixusg",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Nuix%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@nuixusg.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "NCC Group Security Services, Inc.",
+    "assessorID": "140544"
+  }
+}

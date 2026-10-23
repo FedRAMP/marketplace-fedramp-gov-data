@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1510137547",
+    "providerName": "Rackspace Government Solutions",
+    "serviceName": "Rackspace Government Cloud",
+    "serviceAcronym": "Rackspace Government Cloud",
+    "serviceDescription": "Rackspace Government Cloud (RGC) is purpose-built to help organizations achieve Assessment & Authorization faster and with cost savings of up to 70%. Whether you are a government agency, systems integrator, or independent software vendor, RGC is the foundation you need to rapidly deliver mission value via the cloud.\n\nRackspace Government Cloud (RGC) wraps VMware and AWS in a secure-by-design management platform to meet the compliance requirements for FedRAMP and DoD Cloud Computing SRG. Customer solutions will be deployed and managed in secured enclaves within US Rackspace datacenters and/or AWS East/West and GovCloud. Customers are provided with dedicated application stacks to maintain data security at the necessary levels. All this is backed by a 24x7x365 U.S. only support model that allows Rackspace to provide the highest levels of assurance and security to our government customers.\n\nBenefits Include:\n- 24/7/365 operations and system support providing a fully-managed cloud solution up to and including guest operating systems and networks\n- Secure-by-design cloud environment with proactive support, continuous monitoring, and governance\n- Fully redundant solutions, with backup, restore, and disaster recovery built-in\n- Comprehensive system security services as standard, including enterprise-grade log aggregation, endpoint protection, file integrity monitoring, and host-based Intrusion Prevention Systems (IPS) and Intrusion Detection Systems (IDS)\n- Unique combination of automation, accredited tooling, and human expertise, enabling cyber and operational support",
+    "certificationType": "Rev5",
+    "website": "https://www.rackspace.com/cloud/rackspace-government-cloud",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Rackspace%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@rackspace.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

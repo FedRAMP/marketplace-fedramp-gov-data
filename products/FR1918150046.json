@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR1918150046",
+    "providerName": "Geotab",
+    "serviceName": "Geotab Telematics Platform Government (GTP Gov)",
+    "serviceAcronym": "Geotab Telematics Platform Government (GTP Gov)",
+    "serviceDescription": "The Geotab Telematics Platform (Government) (GTP Gov) is an end-to-end vehicle Telematics product, providing fleet management tools to Government fleets.",
+    "certificationType": "Rev5",
+    "website": "https://www.geotab.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/GeoTab%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@geotab.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

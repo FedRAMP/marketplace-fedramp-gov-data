@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2417149419",
+    "providerName": "Commvault Systems, Inc.",
+    "serviceName": "Commvault Clumio Data Protection Platform",
+    "serviceAcronym": "Commvault Clumio Data Protection Platform",
+    "serviceDescription": "The Clumio Data Protection Platform is delivered as a SaaS offering using Amazon Web Services public cloud computing environment. Clumio is a backup and recovery solution that helps AWS customers build resilience into their applications, data lakes, and sensitive information. Air gapped and immutable by design, Clumio helps organizations recover from ransomware and operational disruptions, automate data compliance, and optimize storage costs.\n\nClumio is available to AWS customers for the public, federal, state, local, and tribal governments, as well as research institutions, federal contractors and government contractors.",
+    "certificationType": "Rev5",
+    "website": "https://www.frm-us1.frm.prod-clumio.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Clumio%20Logo.png",
+    "ueiNumber": "XAXKNJGAZ4H2"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP_Security@commvault.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "clumiosalespub@commvault.com"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

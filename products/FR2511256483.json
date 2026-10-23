@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2511256483",
+    "providerName": "PTC, Inc.",
+    "serviceName": "PTC ServiceMax Federal",
+    "serviceAcronym": "PTC ServiceMax Federal",
+    "serviceDescription": "PTC ServiceMax Federal is delivered as a Software as a Service (SaaS) model using multi-tenant AWS Commercial Cloud deployment for underlying infrastructure. The ServiceMax tool allows customers to manage assets, track field operations, and deploy field technicians. ServiceMax has a core offering that when purchased gives customers access to additional supporting applications. The ServiceMax Core product is listed on the Salesforce Marketplace (AppExchange). If a customer wants to purchase the product, they contact PTC and sign a contract. After signing the contract, PTC provisions a license for the customer through the Salesforce license management tools. Customers manage the configuration and access of the ServiceMax tools once purchased. The ServiceMax package includes the following applications:\n• ServiceMax Core Application – Application offered through the Salesforce Marketplace. Customers purchase the application which is hosted on Salesforce infrastructure. The Core application allows customers to manage assets and boost productivity for field service activities. The application allows technicians to perform services, dispatch technicians to the field, manage contracts, and fill out forms. This is the only service not hosted in AWS. The databases underlying ServiceMax Core are managed by the customer, hosted in their Salesforce tenant.\n• Go Mobile Application – The Go Mobile App is a mobile version of the ServiceMax Core. It allows technicians in the field to have access to assets and documentation, as well as schedule appointments. The Go Mobile Application is part of the Core product license purchased by the customer. Go Mobile talks to the Sync Gateway and Notification Service backend, hosted in AWS. • Go Console Application – Go Console is a multi-tenant application hosted in AWS that serves as the customer administrator console for the Go Application. Go Console ensures endpoints are running the correct version of the Go mobile application and pushes configurations. It is deployed on a Kubernetes cluster. There are multiple instances for Go Console. The Go Console is part of the Core product license purchased by the customer.\n• Notification Services Application – Notification Services is hosted in AWS and serves as a customer administrator backed service to support mobile push notifications. \n• Configurator Application – Configurator is hosted in AWS and helps customer set up ServiceMax Core. It is an optional tool the customer can use to streamline Salesforce configuration management. • Migrator Application – Migrator is hosted in AWS and is an optional service allowing customers to migrate configurations to the ServiceMax Core application. Once the migration is complete, customers receive an email notification that the task is completed. • Data Guide Application – Data Guide is static content hosted in an AWS S3 bucket. If a field agent has a form that a customer needs to fill out the ServiceMax applications will pull the templates from the S3 bucket.",
+    "certificationType": "Rev5",
+    "website": "https://www.ptc.com/en/products/servicemax",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/PTC%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "PTCServiceMaxFederalSecOps@ptcgov.us"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

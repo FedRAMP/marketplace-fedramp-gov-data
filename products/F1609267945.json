@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1609267945",
+    "providerName": "DocuSign",
+    "serviceName": "Docusign - IAM eSignature",
+    "serviceAcronym": "Docusign - IAM eSignature",
+    "serviceDescription": "DocuSign is a San Francisco- and Seattle-based company that provides electronic signature technology and Digital Transaction Management services to facilitate electronic exchanges of contracts and signed documents. DocuSign's features include authentication services, user identity management and workflow automation. Signatures processed by DocuSign are comparable to traditional signatures based on the product's compliance with the ESIGN Act as well as the European Union's Directive 1999/93/EC on electronic signatures. DocuSign Federal is a SaaS application oriented towards federal government entities. Operated and managed as a government community cloud, DocuSign Federal provides government customers with an enterprise signing service to facilitate paperless workflow management. More information about DocuSign Federal can be found at https://www.docusign.com/federal (https://www.docusign.com/solutions/industries/government/federal).",
+    "certificationType": "Rev5",
+    "website": "https://www.docusign.com/solutions/industries/government/federal",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/DocuSign%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@DocuSign.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

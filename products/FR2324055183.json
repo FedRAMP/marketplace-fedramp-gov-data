@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2324055183",
+    "providerName": "Govini",
+    "serviceName": "Ark.ai",
+    "serviceAcronym": "Ark.ai",
+    "serviceDescription": "Ark.ai IL5 is delivered as a SaaS offering using a multi-tenant Government-Only Cloud, AWS GovCloud, cloud computing environment. It is available to federal governments and agencies, federal contractors, and government contractors. Ark.ai IL5 is designed and architected for the national security enterprise, specializing in defense acquisition and analytics.",
+    "certificationType": "Rev5",
+    "website": "https://ark.ai",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Govini%20Logo.png",
+    "ueiNumber": "C92MYZJBLR97"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "devops@govini.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "accreditation@govini.com"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

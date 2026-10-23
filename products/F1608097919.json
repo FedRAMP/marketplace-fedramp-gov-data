@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1608097919",
+    "providerName": "PTC",
+    "serviceName": "PTC Cloud Services",
+    "serviceAcronym": "PTC Cloud Services",
+    "serviceDescription": "PTC Cloud Services is a FedRAMP Certified Software as a Service (SaaS) offering that provides Product Lifecycle Management (PLM) capabilities through PTC Windchill and PTC Windchill+ FedRAMP deployed within the PTC Cloud Services FedRAMP environment, along with Service Lifecycle Management (SLM) services.\r\nPTC Cloud Services delivers a comprehensive suite of applications that enable users to securely create, manage, and collaborate on product data across the product lifecycle, including product development, manufacturing, operations, service, and support activities. The service supports organizations that manage Controlled Unclassified Information (CUI) and export-controlled data subject to the International Traffic in Arms Regulations (ITAR) and Export Administration Regulations (EAR), making it well-suited for federal agencies, defense contractors, and Aerospace & Defense manufacturers.\r\nPTC Cloud Services enables customer organizations to focus on mission outcomes while PTC deploys, operates, and manages the authorized service. The offering combines PTC software expertise with operational responsibilities that include application administration and platform management, delivered within a secure and reliable cloud infrastructure consistent with the FedRAMP Rev. 5 Moderate baseline.\r\nCustomer responsibility note: Customers remain responsible for determining the applicability of ITAR, EAR, and other export-control requirements to their specific data, programs, and use cases. The service supports, but does not replace, customer export-control compliance obligations.",
+    "certificationType": "Rev5",
+    "website": "https://www.ptc.com/services/cloud",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/PTC%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "cs-dod-security@ptc.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}
