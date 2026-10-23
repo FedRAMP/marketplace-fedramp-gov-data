@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "F1305072116",
+    "providerName": "ServiceNow",
+    "serviceName": "Government Community Cloud",
+    "serviceAcronym": "Government Community Cloud",
+    "serviceDescription": "Government Community Cloud (GCC) is a ServiceNow cloud service offering that delivers the Now Platform in an environment that complies with stringent cloud security and privacy compliance requirements defined by the United States Federal Government. Government Community Cloud (GCC) is a multitenant environment restricted to the United States public sector and regulated private sector organizations with a government affiliation. This cloud service offering and the ServiceNow personnel who support it are physically located in the United States. Government Community Cloud (GCC) is hosted in geographically diverse mirrored data centers on infrastructure dedicated to Government Community Cloud (GCC).",
+    "certificationType": "Rev5",
+    "website": "https://www.servicenow.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/ServiceNow%20Logo2.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "usfederalcompliance@servicenow.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2624455459",
+    "providerName": "Valid8 Financial",
+    "serviceName": "Valid8 Financial GovCloud",
+    "serviceAcronym": "Valid8 Financial GovCloud",
+    "serviceDescription": "Valid8 Financial GovCloud is a Software-as-a-Service asset tracing and forensic accounting platform hosted in AWS GovCloud (US) within a dedicated FedRAMP authorization boundary. It supports law enforcement, financial investigations, money laundering, elder financial exploitation, healthcare fraud, embezzlement, securities fraud, drug trafficking, human trafficking, gaming, asset tracing, e-discovery, and litigation-support workflows across dozens of states. Agency-controlled evidentiary datasets are ingested into the boundary, stored in encrypted relational and object storage, and processed through the application and analytics layer to organize, trace, and produce financial information for investigative and litigation use.\nThe authorization boundary consists of the ingestion and intake services, the application and analytics layer, the primary relational datastore, object storage, the Keycloak identity and access management service providing authentication, multi-factor authentication, and role-based access, and the audit, logging, and continuous-monitoring services. The platform runs on a CIS-hardened baseline with FIPS-validated cryptography enforcing encryption in transit and at rest. Access is restricted to authorized agency and supporting Valid8 personnel under role-based access control. The offering is being assessed against the FedRAMP Moderate baseline.",
+    "certificationType": "Rev5",
+    "website": "https://valid8financial.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Valid8%20Logo.png",
+    "ueiNumber": "J9Q2C6NFLYV5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "support@valid8financial.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "b.polinsky@valid8financial.com"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  }
+}

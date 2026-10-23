@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2523939103",
+    "providerName": "Elastic Cloud Hosted",
+    "serviceName": "Elastic Cloud Hosted - High",
+    "serviceAcronym": "Elastic Cloud Hosted - High",
+    "serviceDescription": "Elastic Cloud is a fully managed SaaS offering that brings the power of the Elastic Stack — including Elasticsearch, Kibana, and advanced capabilities like machine learning, alerting, and monitoring — to the cloud.\n\nDesigned for key use cases in Observability, Security, Search (including Vector Search), Elastic Cloud makes it easy to ingest, search, and analyze data from any source in real time.\nDeployments are preconfigured with use-case-optimized hardware profiles for logging, search, and analytics workloads, and can be customized to meet your performance or compliance needs. Elastic Cloud supports enterprise-grade security with features like role-based access control, SAML authentication, and encryption aligned with FedRAMP High standards.\n\nAs an open platform, Elastic Cloud also supports cross-cluster search and hybrid data architectures, allowing customers to unify data across Elastic’s cloud, self-managed environments, and other Elastic-compatible data sources.",
+    "certificationType": "Rev5",
+    "website": "https://elastic.co",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Elastic%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@elastic.co"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "federal@elastic.co"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

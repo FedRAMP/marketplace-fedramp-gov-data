@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2511048038",
+    "providerName": "Check Point Software Technologies, Inc.",
+    "serviceName": "Check Point Infinity Platform for Government",
+    "serviceAcronym": "Check Point Infinity Platform for Government",
+    "serviceDescription": "Check Point Infinity Platform for Government is designed to\nprovide a robust, unified cybersecurity solution tailored to meet the\nstringent security and compliance requirements of federal agencies.\nThis platform integrates advanced threat prevention, secure email,\nand centralized management capabilities to safeguard federal data\nand systems against evolving cyber threats. The initial package\nincludes the following components:\n\nHarmony Email: This solution provides advanced protection for email\nsuch as Microsoft 365 and GMail, against phishing, malware,\nransomware, and account takeover attacks. It ensures secure\ncommunication and collaboration for federal agencies by leveraging\nAI-driven threat detection and prevention.\n\nThreatCloud AI: ThreatCloud AI serves as the backbone of Check Point's\nthreat intelligence ecosystem. It aggregates and analyzes global\nthreat data in real-time, enabling proactive identification and\nmitigation of threats. ThreatCloud ensures that federal systems are\ncontinuously updated with the latest threat intelligence to prevent zero-\nday attacks and other sophisticated cyber threats.\n\nInfinity Portal: The Infinity Portal acts as a centralized management\nconsole, providing federal agencies with a single pane of glass to\nmanage their cybersecurity posture. It enables streamlined policy\nenforcement, real-time monitoring, and comprehensive reporting,\nensuring compliance with federal security standards.\n\nSystem Functionality and Use Case\nThe Check Point Infinity Platform for Government is designed to:\n\nProtect Federal Systems and Data: By integrating advanced threat\nprevention and real-time threat intelligence, the platform safeguards\nfederal systems against known and emerging cyber threats.\n\nEnhance Collaboration Security: Harmony Email and Collaboration\nensures secure communication and collaboration within and across\nfederal agencies, reducing the risk of data breaches and unauthorized\naccess.\n\nSimplify Security Management: The Infinity Portal provides\ncentralized visibility and control, enabling federal IT teams to\nefficiently manage their cybersecurity infrastructure and maintain\ncompliance with federal regulations.\n\nSupport Cloud-First Initiatives: The SaaS-based architecture aligns\nwith federal cloud adoption strategies, providing scalability, flexibility,\nand cost efficiency.\n\nFederal Data Stored, Processed, or Transmitted:\nThe \"Check Point Infinity Platform for Government\" is designed to\nhandle various types of federal data, including:\n\nPersonally Identifiable Information (PII): Such as employee or\ncitizen data processed through email and collaboration tools.\n\nSensitive But Unclassified (SBU) Data: Including internal agency\ncommunications, reports, and operational data.\n\nControlled Unclassified Information (CUI): Such as data related to\nfederal programs, contracts, or research that requires safeguarding.\n\nThreat Intelligence Data: Aggregated and analyzed within\nThreatCloud to enhance the security posture of federal systems.\nThe platform ensures that all data is stored, processed, and\ntransmitted in compliance with federal security standards, including\nencryption in transit and at rest, access controls, and continuous\nmonitoring to detect and respond to potential threats.",
+    "certificationType": "Rev5",
+    "website": "https://www.checkpoint.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Checkpoint%20Logo.png",
+    "ueiNumber": "LKDTJYJEME67"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@checkpoint.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "USPublicSectorSales@checkpoint.com"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

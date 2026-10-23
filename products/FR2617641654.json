@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2617641654",
+    "providerName": "911inform",
+    "serviceName": "911inform",
+    "serviceAcronym": "911inform",
+    "serviceDescription": "911inform is a secure, cloud-based emergency response and situational intelligence platform designed for federal and enterprise environments requiring real-time visibility and coordinated response during critical incidents. Delivered within a FedRAMP-aligned SaaS architecture, the platform provides a centralized command-and-control interface for managing emergencies across facilities and agencies.\n\nAt its core is 911inform’s patented Location Discovery Solution (LDS), a Ray Baum’s Act-compliant technology that delivers precise, dynamic location data for 911 calls across PBX, softphone, and mobile devices. The platform enhances emergency response through patented interactive mapping, real-time cellular 9-1-1 call detection with location reporting, and automated multi-channel notifications.\n\n911inform enables secure communications and interoperability between organizations and first responders, delivering real-time situational intelligence to improve coordination and decision-making.\n\nDesigned for scalability and rapid deployment, 911inform integrates with existing telephony, security, and IT infrastructure while maintaining role-based access control, auditability, and secure data handling.\n\n \n\nSERVICES:\n\nRAY BAUM's Act Compliance\n\nKari’s Law Compliance\n\nCellular 9-1-1 Call reporting\n\nInteractive mapping with routing\n\nNotification and messaging services\n\nFirst Responder Coordination\n\nEmergency Location Services",
+    "certificationType": "Rev5",
+    "website": "https://911inform.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/911%20Logo.png",
+    "ueiNumber": "W2GGANP2APL9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@911inform.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "govsales@911inform.com"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

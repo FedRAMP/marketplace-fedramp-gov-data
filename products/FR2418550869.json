@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2418550869",
+    "providerName": "Yardi Systems, Inc.",
+    "serviceName": "Yardi Government Cloud (YGC)",
+    "serviceAcronym": "Yardi Government Cloud (YGC)",
+    "serviceDescription": "The Yardi Government Cloud is the underlying PAAS on which Yardi's SAAS offerings for the government sector are hosted.",
+    "certificationType": "Rev5",
+    "website": "https://www.yardi.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Yardi%20logo.png",
+    "ueiNumber": "KCJYKGHNZWH9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "dpo@yardi.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "daniel.campbell@yardi.com"
+    }
+  ],
+  "assessor": {
+    "name": "Deloitte & Touche LLP",
+    "assessorID": "138883"
+  }
+}

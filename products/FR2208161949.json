@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2208161949",
+    "providerName": "Crestron Electronics Inc",
+    "serviceName": "Crestron XiO Cloud",
+    "serviceAcronym": "Crestron XiO Cloud",
+    "serviceDescription": "The Crestron XiO Cloud service allows all supported Crestron devices and certain supported third-party devices across an enterprise to be managed and configured from one central, secure location in the cloud. The XiO Cloud service may be used to view the status of a device, to configure various device and network settings, to manage licenses, and to update device firmware.",
+    "certificationType": "Rev5",
+    "website": "https://www.crestron.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Crestron%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "secreq@crestron.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

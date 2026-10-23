@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2607654741",
+    "providerName": "Net-Inspect LLC",
+    "serviceName": "Net-Inspect Enterprise Quality Management (EQM)",
+    "serviceAcronym": "Net-Inspect Enterprise Quality Management (EQM)",
+    "serviceDescription": "Net-Inspect is the global leader in secure quality management software and supply chain visibility, built inside an aerospace contract manufacturing company in 2001. It is now trusted by 9,500+ companies and 400K+ users across 59 countries, with 6.4M+ FAI Reports completed and 99.9% uptime. Net-Inspect creates a digital thread that connects design requirements to manufacturing and quality data across every tier of the supply chain, with first article inspection, supplier quality, and document control in one secure system of record. Integrated solutions span First Article Inspection, APQP/PPAP, Audit, Corrective Action Requests, Document Management, Auto-Ballooning, Supply Chain Management, SPC, and dynamic quality reporting, paired with practical, responsible AI that helps quality teams securely turn trusted data into faster answers. Net-Inspect has maintained FedRAMP Moderate Equivalency since 2019, assessed annually by Coalfire Systems against all 325 NIST 800-53 Moderate controls, and is FedRAMP Ready at the Moderate level, now positioned for Rev5 Class C Certification. Hosted exclusively in Microsoft Azure for Government, it is ITAR compliant, with FIPS 140-validated encryption and background-checked U.S.-citizen support.",
+    "certificationType": "Rev5",
+    "website": "https://net-inspect.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/NetInspect%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "itsecurity@net-inspect.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@net-inspect.com"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

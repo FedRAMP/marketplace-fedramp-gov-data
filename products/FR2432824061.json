@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2432824061",
+    "providerName": "TimeLooper Xplore",
+    "serviceName": "TimeLooper Inc.",
+    "serviceAcronym": "TimeLooper Inc.",
+    "serviceDescription": "TimeLooper Xplore is a multi-tenant, Software-as-a-Service (SaaS) content management platform that enables institutions to manage, store, and publish digital content to mobile applications. The system is hosted in the Amazon Web Services (AWS) GovCloud (US) environment and leverages AWS infrastructure and platform services for scalability, resiliency, and security.\nThe platform is available to federal, state, local, and tribal governments, as well as research institutions, federal contractors, and other government-affiliated organizations. TimeLooper Xplore provides administrative interfaces, data storage, monitoring, and content delivery functionality, while the companion mobile application operates outside the authorization boundary.",
+    "certificationType": "Rev5",
+    "website": "https://veteransaffairs.timelooper.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Timelooper%20Logo.png",
+    "ueiNumber": "GJUBZQDHMMN8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@timelooper.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@timelooper.com"
+    }
+  ],
+  "assessor": {
+    "name": "Lazarus Alliance, Inc.",
+    "assessorID": "137047"
+  }
+}

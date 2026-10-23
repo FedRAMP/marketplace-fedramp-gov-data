@@ -1,0 +1,34 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2208837967",
+    "providerName": "Lifebit Biotech Inc.",
+    "serviceName": "Lifebit Federated Trusted Research Environment",
+    "serviceAcronym": "Lifebit Federated Trusted Research Environment",
+    "serviceDescription": "The Lifebit Cloud Platform is a secure, cloud-native, multi-tenant data analytics environment deployed exclusively within AWS GovCloud (US). It enables compliant data processing for structured and unstructured biomedical, health, and population-level datasets.\n\nCore Functions and Components:\n        •        Hosting Environment: All services reside within AWS GovCloud (US), ensuring compliance with federal data handling and residency requirements.\n        •        Data Ingestion and Processing: Supports ETL workflows including data ingestion from APIs, object stores, and databases. Features include pseudonymization, privacy-preserving record linkage, harmonization to OMOP and other CDMs, and full provenance tracking.\n        •        User Access: Provides browser-based and CLI/API interfaces with role-based access controls, SSO via OpenID Connect, and MFA enforcement.\n        •        Data Security: Implements encryption at rest and in transit (AES-256), FIPS 140-2 validated cryptographic modules, audit logging, and automated monitoring.\n        •        Analytics Environment: Enables secure, containerized analysis via JupyterLab, RStudio, and custom tool integrations, with support for batch and interactive compute.\n        •        Backup and Recovery: Includes automated backups, versioning, and full disaster recovery procedures aligned with FedRAMP continuity requirements.\n        •        Compliance: The system is undergoing FedRAMP Moderate authorization. All services within the authorization boundary are limited to those deployed and operated entirely within AWS GovCloud.\n\nOnly components deployed within this AWS GovCloud boundary and specified within the system’s SSP are included in the authorization. All services are monitored, maintained, and operated by Lifebit staff cleared to work with government systems, and all infrastructure complies with FedRAMP requirements.",
+    "certificationType": "Rev5",
+    "website": "https://www.lifebit.ai",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Lifebit%20Logo.png",
+    "ueiNumber": "DBABSNDZ8YE7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "pablo.prieto@lifebit.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "nate@Lifebit.ai"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  }
+}

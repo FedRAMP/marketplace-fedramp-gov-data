@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2524434194",
+    "providerName": "ThreatLocker, Inc.",
+    "serviceName": "ThreatLocker Zero Trust Platform for Government",
+    "serviceAcronym": "ThreatLocker Zero Trust Platform for Government",
+    "serviceDescription": "ThreatLocker endpoint protection platform secures customer endpoints (laptops/desktops/servers) running Windows and MacOS using a policy driven deny-by-default approach. \r\nThreatLocker's Allowlisting permits software, applications, and scripts to run only if they have been explicitly approved to run and blocks all others from running by default. \r\nThreatLocker's Ringfencing enables organizations to control what applications are permitted to do whilst running, controlling, and limiting, applications' access to other applications, files, registry, and the internet. This stops legitimate and trusted applications being weaponized. \r\nThreatLocker's Network Control is an endpoint firewall permitting only required and explicitly permitted network connectivity and connections and blocking all others by default. Network Control is also used to only allow specified protected devices to communicate with each other, by opening and closing ports dynamically. \r\nThreatLocker's Storage Control offers granular control over both storage devices, such as USB's, and also locations. Data can be protected from exfiltration and damage by limiting which specific applications have access to it. \r\nThreatLocker's Configuration Manager allows organizations to set configuration policies such as password complexity requirements disabling unneeded network protocols across an organization or set of organizations from one central location without the need to use group policies or active directory. \r\nThreatLocker Detect uses the voluminous data in ThreatLocker logs and allows organizations to both alert themselves and respond automatically to anomalous events or suspicious behavior on their endpoints. In summary, the ThreatLocker zero-trust endpoint protection platform allows organizations to: \r\n• Block ransomware, viruses, malware, and rogue software from running. \r\n• Stop users from running unknown or unapproved software. \r\n• Stop lateral movement between applications and systems. \r\n• Stop trusted applications from being weaponized. \r\n• Control access to storage devices. \r\n• Audit and control data access by applications. \r\n• Quickly deploy and run an audit for the entire organization. \r\n• Update permissions quickly when requested and approved by IT. \r\n• Log and control all inbound network traffic. \r\n• Alert on and respond to defined anomalous events.",
+    "certificationType": "Rev5",
+    "website": "https://www.threatlocker.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Threatlocker%20Logo.png",
+    "ueiNumber": "D1P3HWDMJNF4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "FedRAMP@threatlocker.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "FedRAMPsales@threatlocker.com"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

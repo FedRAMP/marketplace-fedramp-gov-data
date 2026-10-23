@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2612836790",
+    "providerName": "Wraithwatch Corporation",
+    "serviceName": "Wraithwatch Government",
+    "serviceAcronym": "Wraithwatch Government",
+    "serviceDescription": "Wraithwatch is a Software-as-a-Service cybersecurity platform built on an intelligent security data fabric. The platform ingests data from across the customer's security and IT stack — endpoint detection and response, SIEM, identity providers, vulnerability scanners, cloud infrastructure, and more — through agentless, read-only API integrations. No agents are deployed on customer endpoints. Ingested data is normalized through deterministic entity resolution into a continuously updated entity graph that models every device, user, permission, vulnerability, configuration, and relationship in the environment. This unified data fabric eliminates tool-by-tool data silos and provides a persistent, queryable model of the customer's environment that powers all downstream platform capabilities.\n\nContinuous Governance, Risk, and Compliance: Wraithwatch replaces periodic, point-in-time compliance assessments with continuous GRC that recomputes every few minutes and immediately upon auto-detection of environmental changes. The platform mathematically computes every viable attack path based on current topology, configurations, permissions, and verified reachability. When the environment changes — a new CVE, a granted permission, a configuration drift — the platform recomputes risks including second-, third-, and fourth-order cascading effects. Compliance posture, risk exposure, and control effectiveness are maintained as living measurements against the entity graph rather than static snapshots. Agencies can execute neutralization plans directly from Wraithwatch or deploy compensating detections where paths cannot be eliminated.\n\nThreat Hunting: Autonomous reasoning workers explore SIEM indexes and security telemetry, identify anomalies and threat precursors, and surface findings with supporting evidence. Analysts issue natural language queries and the platform translates, hunts, pivots across data sources, and performs cross-index correlation at query runtime without requiring pre-mapped data schemas. Results convert into forward-looking detection rules.\n\nThreat Advisory Correlation: Wraithwatch continuously correlates incoming threat intelligence — including newly published CVEs, active exploitation advisories, novel attack techniques, supply chain compromise reporting, and other non-CVE threat disclosures — against the current state of the entity graph. When a new threat is published, the platform automatically evaluates the customer's environment and produces an \"am I affected\" assessment identifying specific impacted assets, exposure conditions, and recommended mitigations. This analysis incorporates the full environmental context — network reachability, compensating controls, privilege relationships, and configuration state — to determine actual exploitability, not just the presence of a vulnerable component.\n\nControl Plan Generation: Agency personnel describe a desired security outcome, and Wraithwatch evaluates every relevant setting across every integrated tool to generate a control plan. Plans are executable in full, one step at a time, or through phased rollouts with test groups. All actions are auditable with rollback support.\n\nAll adversarial analysis runs against the digital twin. No live exploits touch production infrastructure. The platform operates in read-only mode by default; write-mode actions require explicit customer authorization and human confirmation. Wraithwatch supports cloud-hosted deployment on FedRAMP-authorized infrastructure and fully on-premise deployment for air-gapped and CUI environments.",
+    "certificationType": "Rev5",
+    "website": "https://wraithwatch.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/WW%20Logo2.png",
+    "ueiNumber": "W4QUHXU4S836"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "nik@wraithwatch.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@wraithwatch.com"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  }
+}

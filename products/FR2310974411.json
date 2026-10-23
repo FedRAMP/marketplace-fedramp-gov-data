@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2310974411",
+    "providerName": "PagerDuty",
+    "serviceName": "PagerDuty Operations Cloud",
+    "serviceAcronym": "PagerDuty Operations Cloud",
+    "serviceDescription": "The PagerDuty Operations Cloud is a comprehensive platform that enables automated detection, diagnosis, and response to a wide range of events, including customer support alerts, suspicious or abnormal behavior, system disruptions, and performance-impacting incidents. By leveraging advanced event orchestration and intelligent aggregation features, PagerDuty enhances the signal-to-noise ratio, allowing organizations to prioritize critical alerts while minimizing distractions from less significant events.\n\nWith automated actions, the platform can trigger predefined workflows before human intervention is needed, accelerating resolution times and ensuring seamless incident management. On-call scheduling capabilities ensure continuous 24/7 coverage of critical activities, empowering teams to swiftly triage events, including customer support tickets, system alerts, and operational disruptions, and effectively mobilize the appropriate responders to manage incident resolution and recovery. Real-time status updates and external-facing status pages keep stakeholders informed throughout the resolution process.",
+    "certificationType": "Rev5",
+    "website": "https://PagerDuty.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/PagerDuty%20Logo.png",
+    "ueiNumber": "KLLLAKNNNMK6"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-security@pagerduty.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-sales@pagerduty.com"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}

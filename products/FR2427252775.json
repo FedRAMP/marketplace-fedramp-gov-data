@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2427252775",
+    "providerName": "Dejero Labs, Inc.",
+    "serviceName": "Dejero Control and Concentrator",
+    "serviceAcronym": "Dejero Control and Concentrator",
+    "serviceDescription": "Dejero Control and Concentrator is a cloud-based system that provides users the ability and flexibility to centrally manage and control their Dejero deployed equipment to provide high speed reliable connectivity",
+    "certificationType": "Rev5",
+    "website": "https://www.dejero.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Dejero%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@dejero.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "jehan.karim@dejero.com"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

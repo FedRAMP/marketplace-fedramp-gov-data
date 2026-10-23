@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2618046015",
+    "providerName": "Cyera",
+    "serviceName": "Cyera for Government",
+    "serviceAcronym": "Cyera for Government",
+    "serviceDescription": "Cyera for Government is an agentless, cloud-native SaaS data security platform.  Cyera for Government provides continuous visibility, AI-powered data classification, and protection for federal data across hybrid-cloud, SaaS, and on-premises environments. The system functions as a centralized data security control plane, enabling agencies to discover sensitive information, assess risk posture, and enforce security policies in real-time. By unifying Data Security Posture Management (DSPM) with advanced Data Loss Prevention (DLP) and Artificial Intelligence Security Posture Management (AI-SPM), the platform provides the foundation for securing the federal AI lifecycle.\nCyera for Government enables the automated discovery and contextual classification of structured and unstructured data. It utilizes an AI-native classification engine to identify Federal Information, including Personally Identifiable Information (PII), Protected Health Information (PHI), and Controlled Unclassified Information (CUI).\nBeyond discovery, the platform delivers automated risk remediation and continuous monitoring to close security gaps before they are exploited. By analyzing data access patterns and permissions, Cyera identifies over-privileged users and \"shadow data\" that bypasses traditional controls. This proactive approach allows agencies to implement Zero Trust Data Access (ZTDA) architectures, ensuring that sensitive federal assets remain resilient against insider threats and external breaches.\nCyera for Government is specifically engineered to streamline regulatory compliance with federal mandates such as NIST 800-53, CMMC, HIPAA, and FISMA. The platform provides out-of-the-box reporting and audit trails that simplify the assessment and authorization process.",
+    "certificationType": "Rev5",
+    "website": "https://cyera.io",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cyera%20Logo.png",
+    "ueiNumber": "T9M2M1H16HS9"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-operations@cyera.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp-sales@cyera.io"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

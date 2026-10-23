@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2625055623",
+    "providerName": "DataRobot",
+    "serviceName": "DataRobot for Government",
+    "serviceAcronym": "DataRobot for Government",
+    "serviceDescription": "DataRobot’s DataRobot for Government is a SaaS solution that uses artificial intelligence (AI) to help businesses and teams develop, deliver, and govern AI at scale. With DataRobot for Government, customers will be able to explore, build, train, and manage advanced machine learning and generative AI models. DataRobot for Government will display the best-performing models and provide insight on how they work, allowing businesses to improve efficiency in their AI workflows. DataRobot leverages Kubernetes, powered by Amazon Elastic Kubernetes Service (Amazon EKS), to set up the environment. Multiple Amazon EKS clusters and VPCs are used to provide single tenancy isolation.",
+    "certificationType": "Rev5",
+    "website": "https://www.datarobot.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/DataRobot%20Logo.png",
+    "ueiNumber": "ULWEN7VLP4B3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "jennifer.brown@datarobot.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "zach.maurer@datarobot.com"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman Compliance, LLC",
+    "assessorID": "136571"
+  }
+}

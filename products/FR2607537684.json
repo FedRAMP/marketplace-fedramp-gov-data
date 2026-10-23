@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2607537684",
+    "providerName": "Kovr.ai",
+    "serviceName": "Kovr Nova",
+    "serviceAcronym": "Kovr Nova",
+    "serviceDescription": "Kovr AI is a patented AI-native cyber compliance automation platform purpose-built for organizations navigating the most demanding federal and commercial cybersecurity frameworks including FedRAMP, Cybersecurity Maturity Model Certification (CMMC 2.0), NIST SP 800-53, NIST SP 800-171, DoD Security Requirements Guide (SRG), FISMA, DoD Risk Management Framework (RMF), PCI-DSS, ISO 27001, and more. Designed to replace the manual, document-heavy workflows that have historically made federal authorization a multi-year, multi-million-dollar undertaking, Kovr compresses the path from readiness to Authorization to Operate (ATO) by automating the most labor-intensive phases of the compliance lifecycle.\n \nKovr's AI-powered engine empowers users with evidence processing, control analysis, and artifact generation including System Security Plans (SSPs), Security Assessment Reports (SARs), Plans of Action and Milestones (POA&Ms), and Security Requirements Traceability Matrices (SRTMs) directly from system documentation inputs reducing artifact preparation time from weeks to days. The platform natively supports NIST SP 800-53 Rev 5 and 800-171 control baselines, OSCAL-format exports, and continuous controls monitoring (CCM), enabling organizations to maintain their authorization posture between assessment cycles and satisfy evolving continuous monitoring requirements across FedRAMP Rev 5, CMMC, and DoD SRG frameworks.\n \nArtemis, Kovr's secure AI enclave, allows ISSOs, compliance officers, and security teams to generate control implementation narratives, draft assessment responses, and accelerate evidence collection without exposing sensitive system data to external AI services. Pre-built connectors and automated evidence ingestion eliminate manual artifact management, while integrated POA&M lifecycle tracking provides real-time visibility into remediation status.",
+    "certificationType": "Rev5",
+    "website": "https://kovr.ai",
+    "logo": "https://www.fedramp.gov/placeholder-128x128px.svg",
+    "ueiNumber": "FFSRKN1D56E3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@kovr.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "compliance@fortreum.com"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2620043771",
+    "providerName": "Patlytics, Inc.",
+    "serviceName": "Patlytics AI Platform",
+    "serviceAcronym": "Patlytics AI Platform",
+    "serviceDescription": "Patlytics is an AI-powered patent intelligence and intellectual property analytics SaaS platform that supports patent drafting, prior art and invalidity analysis, infringement detection, claim mapping, portfolio management, office action response support, litigation monitoring, and customer reporting. \n\nFor the FedRAMP package, Patlytics operates as a Managed ISV tenant that maintains its own authorization boundary while leveraging The Armory GSS, Google Cloud services, Okta, Cloudflare for Government, and other approved supporting services.",
+    "certificationType": "Rev5",
+    "website": "https://patlytics.ai",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Patlytics%20Logo.png",
+    "ueiNumber": "C2EUGES7YKG4"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "arthur@patlytics.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "paul@patlytics.com"
+    }
+  ],
+  "assessor": {
+    "name": "Emagine IT",
+    "assessorID": "137046"
+  }
+}

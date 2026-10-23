@@ -1,0 +1,31 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2126176344",
+    "providerName": "MicroStrategy",
+    "serviceName": "MicroStrategy Cloud for Government",
+    "serviceAcronym": "MicroStrategy Cloud for Government",
+    "serviceDescription": "MicroStrategy is the world’s top-rated platform for enterprise analytics. The MicroStrategy Intelligence Platform offers a full range of trusted, modern BI experiences, and is designed to help departments and agencies build data-driven cultures and make faster, smarter decisions. Built for performance at scale, MicroStrategy delivers concrete answers to users where and when they’re needed. Foundationally, the platform offers out-of-the-box drivers and gateways for a variety of data sources, types, and formats, and APIs/SDKs which are hosted within the MicroStrategy Platform Deployed within Customer Tenant. Using the platform’s proprietary enterprise semantic graph, agencies can establish a unified, governed, secure, and reusable data model on which a variety of intelligence solutions can be built to deliver accurate, personalized, and trusted information to individual users based on each agency’s enterprise data dictionary.\r\n\r\n \r\n\r\nThe MicroStrategy Cloud for Government is a fully managed enterprise analytics solution that offers all the market-leading capabilities of the MicroStrategy Intelligence Platform on a unique Amazon Web Services (AWS) GovCloud implementation. MicroStrategy Cloud for Government features a fully optimized reference architecture built specifically for deployment in a customer-licensed AWS environment, offered as a software-as-a-service (SaaS) solution. MicroStrategy administers each unique MicroStrategy Cloud for Government environment on the behalf of each government department or agency, including steady state operations, routine application of software upgrades, robust system monitoring and alerting, and 24/7/365 technical support for priority issues. The components that directly support the MicroStrategy Cloud for Government cloud service offering are described in the subsections below.\r\n\r\n \r\n\r\nMicroStrategy Cloud for Government is a SaaS service built on top of AWS GovCloud (US) IaaS servers. MicroStrategy utilizes AWS GovCloud (US) to provide the resources that host the MicroStrategy Cloud for Government platform and leverages the experience and resources of AWS to scale quickly and securely as necessary to meet current and future demand. MicroStrategy is responsible for designing and configuring the MicroStrategy Cloud for Government architecture within AWS GovCloud (US) to ensure that the availability, security, and resiliency requirements are met.",
+    "certificationType": "Rev5",
+    "website": "https://www.microstrategy.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/MicroStrategy%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@microstrategy.com"
+    },
+    {
+      "contactType": "Sales"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  }
+}

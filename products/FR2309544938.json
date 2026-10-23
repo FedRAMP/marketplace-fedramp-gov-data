@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2309544938",
+    "providerName": "Cloudera Government Solutions, Inc",
+    "serviceName": "Cloudera for Government",
+    "serviceAcronym": "Cloudera for Government",
+    "serviceDescription": "Cloudera for Government is a secure and governed cloud service platform that offers a broad set of enterprise data cloud services with data analytics and artificial intelligence functionality. With Cloudera for Government, users can create and manage secure data lakes, self-service analytics, and machine learning services without installing and managing the data platform software. Cloudera for Government services are managed by Cloudera, but the customer’s data remains under their control in their AWS cloud account.\n\nCloudera for Government lets customers:\n•        Control cloud costs by automatically spinning up workloads when needed, scaling them as the load changes over time and suspending their operation when complete.\n•        Isolate and control workloads based on user type, workload type, and workload priority.\n•        Combat proliferating silos and centrally control customer and operational data across multi-cloud and hybrid environments.\n\nCloudera for Government contains several layers of infrastructure, operations software, networks, and the CDP services. The two primary components of the solution are the CDP Control Plane and the Customer Workload Environment.\nThe CDP Control Plane provides a set of core services that perform several functions across the platform. Control Plane services are implemented in a microservice architecture running on Kubernetes. These services can be configured and scaled independently based on their function. Each service performs a specialized function, and services can also communicate with other services within the Control Plane. Each set of microservices that performs a specific function is isolated from other sets of microservices. This segregation permits each set of microservices to have its own identity, allowing for differentiation of access between system components.  \n\nThe Workload Environment is a cloud account that has been associated with a customer tenant inside the Control Plane. A tenant is a group of users that share access to a specific set of resources and a billing relationship with Cloudera. In general, each Cloudera for Government customer is a single tenant, but large organizations may have multiple tenants. When a CDP service, such as a data lake, gets created, it gets created within a Workload Environment. The customer Workload Environment is separate from the Control Plane and resides within the customer’s AWS account outside the system authorization boundary.",
+    "certificationType": "Rev5",
+    "website": "https://www.cloudera.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Cloudera%20Logo.png",
+    "ueiNumber": "LL1ACECJ2YZ3"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@cloudera.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "government@cloudera.com"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  }
+}

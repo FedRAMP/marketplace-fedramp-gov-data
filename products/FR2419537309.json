@@ -1,0 +1,33 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2419537309",
+    "providerName": "DocketScope, Inc.",
+    "serviceName": "DocketScope®",
+    "serviceAcronym": "DocketScope®",
+    "serviceDescription": "Regulatory agencies use DocketScope® software to analyze public comments received as part of notice-and-comment rulemaking and other government agency actions, such as requests for information. Our SaaS product automatically loads comments from Regulations.gov and other sources, including FDMS extracts, identifies identical and similar comments, tags comments containing keywords, and highlights differences between similar comments. Users categorize comment submissions (e.g., unique, duplicate, or form letter, commenter type, etc.), manage an outline of issues raised by commenters, and map substantive text from comments to those issues with just a few clicks. Automation and optional AI support users to maximize accuracy and efficiency. DocketScope’s dashboard delivers real-time visibility of progress and findings. Users also can easily generate a variety of standard or tailored reports. DocketScope empowers agencies by simplifying the analysis of public comments, increasing staff productivity and improving quality.",
+    "certificationType": "Rev5",
+    "website": "https://www.docketscope.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/DOK%20Logo2.png",
+    "ueiNumber": "RU58TJ58LXF7"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "security@docketscope.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@docketscope.com"
+    }
+  ],
+  "assessor": {
+    "name": "SteelToad",
+    "assessorID": "203203"
+  }
+}

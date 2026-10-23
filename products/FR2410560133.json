@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2410560133",
+    "providerName": "BlackOhm",
+    "serviceName": "Omega Platform",
+    "serviceAcronym": "Omega Platform",
+    "serviceDescription": "The BlackOhm Omega Platform is a real-time personnel and asset tracking service consisting of tracking devices and a single pane of glass management interface. Government agencies and entities seeking a FedRAMP certified service can use the Omega Platform to organize, monitor, and manage training exercises and field work in any environment. The Omega Platform provides advanced functionality for situational awareness, including:\r\n\r\n- Real-time and historical location data\r\n\r\n- Personnel-initiated emergency messages and acknowledgements\r\n\r\n- Event driven alerting\r\n\r\n- Configurable boundaries, restricted areas, map overlays, and points of interest\r\n\r\n- After-action reports and analytics",
+    "certificationType": "Rev5",
+    "website": "https://www.blackohm.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Ohm%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp_security@blackohm.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@blackohm.com"
+    }
+  ],
+  "assessor": {
+    "name": "ControlCase",
+    "assessorID": "200562"
+  }
+}

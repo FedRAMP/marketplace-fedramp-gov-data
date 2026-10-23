@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2112348346",
+    "providerName": "Acalvio Technology",
+    "serviceName": "ShadowPlex Platform",
+    "serviceAcronym": "ShadowPlex Platform",
+    "serviceDescription": "Acalvio Technologies provides Deception as a Service (DaaS) through its ShadowPlex platform. \nAcalvio ShadowPlex is an Autonomous Deception Platform deployed as Software as a Service (SaaS) on the Amazon - AWS US East/West Platform as a Service (PaaS) and offers the following core services to enterprises:\n•        Threat Detection\n•        Investigation\n•        Response capabilities\nThese three core features are seamlessly integrated into the foundational ShadowPlex services.",
+    "certificationType": "Rev5",
+    "website": "https://acalvio.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Acalvio%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "Bob@Acalvio.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "fedramp@acalvio.com"
+    }
+  ],
+  "assessor": {
+    "name": "ControlCase",
+    "assessorID": "200562"
+  }
+}

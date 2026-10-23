@@ -1,0 +1,32 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2524349489",
+    "providerName": "IBM",
+    "serviceName": "IBM Data Services for Government",
+    "serviceAcronym": "IBM Data Services for Government",
+    "serviceDescription": "IBM Data Services for Government is delivered as SaaS offering using a multi-tenant cloud computing environment. IBM Data Services for Government is a portfolio of AI products that accelerates the impact of generative AI in core workflows to drive productivity.\n\nIBM watsonx.ai for Government is an integrated AI development studio that makes building and deploying AI simple and scalable. It includes tools, foundation models, and flexible runtimes ready for use as-a-Service. IBM watsonx.ai provides a suite of developer-focused capabilities such as SDKs, APIs, retrieval augmented generation (RAG) frameworks and templates, and more to streamline AI application development. Clients can access business-ready foundation models ranging from IBM Granite, open source models and models from partners such as Meta, to build AI applications for any agency use case.\n\nIBM watsonx.data for Government is a data management suite built for AI providing services to improve gen AI accuracy and performance using unified structured and unstructured data with a no-code, low-code and pro-code user experiences that foster self-service access to data insights. IBM watsonx.data has a unique multi-engine architecture optimized for price and performance. Clients can automate the ingestion, enrichment, and delivery of unstructured data at scale and unify it with structured data. The result? Context-aware and accurate AI that fuels confident decision-making.\n\nIBM watsonx.governance for Government is an end-to-end AI governance service that seamlessly integrates with your existing systems to automate and accelerate responsible AI workflows to help save time, reduce costs and comply with regulations. Clients can direct, manage, and monitor their AI using a single service to speed up responsible, transparent, and explainable AI. IBM watsonx.governance automates and scales end-to-end AI governance enabling clients to seamlessly develop, deploy, monitor and replace models across any IBM or third-party services such as OpenAI and Amazon SageMaker. Take advantage of automated tools that provide risk metrics to stay ahead of threats and simplify compliance with services that automate the process of identifying regulatory changes and translating them into enforceable policies.\n\nIBM watsonx Orchestrate for Government is a single solution to build, test, and deploy AI agents, assistants that automate workflows and processes with generative AI. Clients can browse custom-built agents, IBM watsonx agents and trusted partner solutions. Search by domain, use case or application name to quickly find the right agent for the job. IBM watsonx Orchestrate seamlessly integrates with existing business systems, connects to any AI model or automation tool, and enables collaboration between AI assistants and agents in one unified experience. The outcome? Less manual work. Faster decisions. A more efficient business, at scale. IBM watsonx Orchestate enables AI agents to plan, coordinate and take action together. Whether it’s one agent handling a task or a team collaborating across tools, watsonx Orchestrate intelligently assigns the right agents and resources to get work done, without human micromanagement.\n\nIBM watsonx.data intelligence for Government transforms raw data into actionable insights swiftly, unify data governance, quality, lineage and sharing, and empower data consumers with reliable and contextualized data. IBM watsonx.data intelligence accelerates data discovery, resolves quality issues and automates data governance. Clients can discover and assess data quality at scale—wherever your data resides—with automated capabilities for data profiling, cleansing, monitoring and more. Ensure accuracy, trust and compliance by mapping the journey of your data. Break organizational siloes and enable faster data sharing by automating the delivery of data products\n\nIBM watsonx.data integration for Government service provides a unified control plane for modern data movement, helping government agencies connect, transform, and deliver trusted data wherever it resides. Start with ETL and ELT pipelines for batch integration, then expand as needs evolve to include streaming, replication, and unstructured data, all supported by built-in observability. Deploy and run pipelines across cloud, on-premises, or hybrid environments while maintaining consistent governance and control. By turning raw data into AI-ready data, watsonx.data integration unifies sources, fuels model training, and enhances AI’s contextual understanding. It selects the optimal integration style to meet goals for performance, cost, latency, and security, ensuring fast and reliable access to trusted data across the entire data fabric.",
+    "certificationType": "Rev5",
+    "website": "https://ibm.com",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/IBM%20Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "SaaS-4Gov-SecurityAdmin@wwpdl.vnet.ibm.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "SaaS-4Gov-Sales@wwpdl.vnet.ibm.com"
+    }
+  ],
+  "assessor": {
+    "name": "Fortreum, LLC",
+    "assessorID": "201664"
+  }
+}
