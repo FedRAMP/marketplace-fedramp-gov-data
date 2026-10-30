@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-29T22:17:51.618Z",
-    "total_entries": 2408,
+    "export_timestamp": "2026-10-30T19:59:30.914Z",
+    "total_entries": 2409,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -26493,6 +26493,17 @@
         "to_status": "FedRAMP Certified",
         "transition_date": "2026-10-29T04:00:00.000Z",
         "recorded_date": "2026-10-29T19:34:58.000Z"
+      },
+      {
+        "unique_id": "FDEC8C5A-2379-41D5-8B9B-CA89E3BE8739",
+        "product_id": "AGENCYSF",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Certified",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2023-07-17T04:00:00.000Z",
+        "recorded_date": "2026-10-30T18:25:45.000Z"
       }
     ]
   }
