@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "export_timestamp": "2026-10-31T00:12:53.768Z",
+    "export_timestamp": "2026-10-31T00:46:27.514Z",
     "total_entries": 788,
     "description": "FedRAMP data FRC-CSO-PKG export from GSA system"
   },
   "data": {
-    "products": [
+    "frc-cso-pkg": [
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
         "metadata": {
@@ -2143,7 +2143,7 @@
         },
         "ZD_frid_retro": "FR2628647239",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-31T00:12:51Z"
+        "last_fetched_timestamp": "2026-10-31T00:46:24Z"
       },
       {
         "serviceIdentification": {
@@ -14723,7 +14723,7 @@
         ],
         "ZD_frid_retro": "FR2635050861",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-31T00:12:51Z"
+        "last_fetched_timestamp": "2026-10-31T00:46:25Z"
       },
       {
         "serviceIdentification": {
@@ -15975,7 +15975,7 @@
         },
         "ZD_frid_retro": "FR2635930439",
         "id_matches_expected": false,
-        "last_fetched_timestamp": "2026-10-31T00:12:51Z"
+        "last_fetched_timestamp": "2026-10-31T00:46:25Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
@@ -18867,7 +18867,7 @@
         "certifiedServicesNote": "The date available for each service represents the date the service was included in the AWS US East/West FedRAMP certification boundary based on available assessment records. Actual inclusion dates as reflected in FedRAMP PMO records may vary. AWS has maintained continuous FedRAMP certification for US East/West (Class C) since 2013, and all listed services are subject to ongoing annual independent assessment regardless of their inclusion date.",
         "ZD_frid_retro": "AGENCYAMAZONEW",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-30T23:49:59Z"
+        "last_fetched_timestamp": "2026-10-31T00:09:06Z"
       },
       {
         "serviceIdentification": {
@@ -29197,7 +29197,7 @@
         },
         "ZD_frid_retro": "FR2125653037",
         "id_matches_expected": true,
-        "last_fetched_timestamp": "2026-10-31T00:12:52Z"
+        "last_fetched_timestamp": "2026-10-31T00:46:26Z"
       },
       {
         "serviceIdentification": {
