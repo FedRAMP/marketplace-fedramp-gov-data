@@ -29,6 +29,619 @@
     "name": "Coalfire Systems, Inc.",
     "assessorID": "138514"
   },
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1404043549",
+        "useCase": ""
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2000863987A",
+        "useCase": ""
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2231052341",
+        "useCase": ""
+      }
+    ]
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "API Gateway",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Announcements",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Application Dependency Management",
+      "serviceDescription": "",
+      "dateAvailable": "2024-11-19"
+    },
+    {
+      "serviceName": "Application Performance Monitoring (APM)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Artifact Registry",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Audit",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Autonomous Dedicated",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Autonomous Shared",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Autoscaling",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Bastion",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Big Data Service",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Block Storage",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Budgets",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Certificates",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Cloud Advisor",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Cloud Guard",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Cloud Guard Instance Security",
+      "serviceDescription": "",
+      "dateAvailable": "2025-10-31"
+    },
+    {
+      "serviceName": "Cloud Shell",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Cluster Placement Groups",
+      "serviceDescription": "",
+      "dateAvailable": "2025-10-31"
+    },
+    {
+      "serviceName": "Compliance Documents Service",
+      "serviceDescription": "",
+      "dateAvailable": "2025-10-15"
+    },
+    {
+      "serviceName": "Compute",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Compute Monitoring",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Container Engine for Kubernetes (OKE)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Content Management",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Customer Feedback Service (CFS)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Data Catalog",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Data Flow",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Data Integration Service",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Data Labeling",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Data Safe",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Data Science",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Database Autonomous Recovery Service",
+      "serviceDescription": "",
+      "dateAvailable": "2024-11-19"
+    },
+    {
+      "serviceName": "Database Cloud Service",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Database Management Service (DBM)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Database Migration",
+      "serviceDescription": "",
+      "dateAvailable": "2024-11-19"
+    },
+    {
+      "serviceName": "DevOps - Deploy",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "DevOps – Build Service",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "DevOps – Project Service",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "DevOps – Source Code Management",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Digital Assistant",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Email Delivery",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Events",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Exadata Cloud Service",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Exadata Database Service on Cloud@Customer",
+      "serviceDescription": "",
+      "dateAvailable": "2025-10-31"
+    },
+    {
+      "serviceName": "Exadata Fleet Update Service",
+      "serviceDescription": "",
+      "dateAvailable": "2025-10-15"
+    },
+    {
+      "serviceName": "FastConnect",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "File Storage",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Full Stack Disaster Recovery",
+      "serviceDescription": "",
+      "dateAvailable": "2025-10-31"
+    },
+    {
+      "serviceName": "Functions",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Fusion Application as a Service",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Generative AI Service",
+      "serviceDescription": "",
+      "dateAvailable": "2026-02-23"
+    },
+    {
+      "serviceName": "Golden Gate",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Identity Domains",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Identity and Access Management",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Java Management Service",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Ksplice",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "License Management Service",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Linux/YUM Repo",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Load Balancing",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Log Analytics",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Management Agent Service",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Marketplace",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Metering",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Monitoring",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "MySQL Heatwave",
+      "serviceDescription": "",
+      "dateAvailable": "2025-10-15"
+    },
+    {
+      "serviceName": "NG-VPNaaS Next Generation",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Network Firewall",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Network Load Balancer",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Network Path Analyzer",
+      "serviceDescription": "",
+      "dateAvailable": "2023-11-14"
+    },
+    {
+      "serviceName": "Network Topology Visualization",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "No SQL Database Cloud",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Notifications",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "OCI Cache",
+      "serviceDescription": "",
+      "dateAvailable": "2025-10-15"
+    },
+    {
+      "serviceName": "OCI Container Instances Service",
+      "serviceDescription": "",
+      "dateAvailable": "2024-11-19"
+    },
+    {
+      "serviceName": "OCI Control Center",
+      "serviceDescription": "",
+      "dateAvailable": "2024-11-19"
+    },
+    {
+      "serviceName": "OCI Document Understanding Service",
+      "serviceDescription": "",
+      "dateAvailable": "2025-10-15"
+    },
+    {
+      "serviceName": "OCI Queue",
+      "serviceDescription": "",
+      "dateAvailable": "2024-11-19"
+    },
+    {
+      "serviceName": "OCI Search Service with Opensearch",
+      "serviceDescription": "",
+      "dateAvailable": "2023-11-14"
+    },
+    {
+      "serviceName": "OCI Service Mesh",
+      "serviceDescription": "",
+      "dateAvailable": "2023-11-14"
+    },
+    {
+      "serviceName": "OS Management Hub",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Object Storage",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Operations Insight",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Operator Access Control",
+      "serviceDescription": "",
+      "dateAvailable": "2024-11-26"
+    },
+    {
+      "serviceName": "Oracle Access Governance",
+      "serviceDescription": "",
+      "dateAvailable": "2025-10-15"
+    },
+    {
+      "serviceName": "Oracle Analytics Cloud",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Oracle Cloud AI Services (Anomaly Detection)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Oracle Cloud AI Services (Language)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Oracle Cloud AI Services (Speech)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Oracle Cloud AI Services (Time Series Forecasting Service)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Oracle Cloud AI Services (Vision)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Oracle Integration Cloud",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Oracle Managed Access (OMA)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-11-14"
+    },
+    {
+      "serviceName": "Oracle Process Automation (OPA)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-11-14"
+    },
+    {
+      "serviceName": "Private Endpoints",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Programmable Network Platform (DRG-Transit Hub)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Public Logging",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Registry",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Resource Manager",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Roving Edge Service",
+      "serviceDescription": "",
+      "dateAvailable": "2024-02-29"
+    },
+    {
+      "serviceName": "Secrets in Vault",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Secure Desktops",
+      "serviceDescription": "",
+      "dateAvailable": "2025-10-15"
+    },
+    {
+      "serviceName": "Serverless Kubernetes",
+      "serviceDescription": "",
+      "dateAvailable": "2024-11-19"
+    },
+    {
+      "serviceName": "Service Connector Hub",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Stack Monitoring",
+      "serviceDescription": "",
+      "dateAvailable": "2023-11-14"
+    },
+    {
+      "serviceName": "Streaming",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Support Center (Cloud Incident Service)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Tenancy Lifecycle Service",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Tenant Manager",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Terraform",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Threat Intelligence Platform",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "VCN Flow Logs",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "VMware Solution",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Vault",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Virtual Cloud Networks",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Visual Builder Cloud Service",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Visual Builder Studio",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Vulnerability Scanning Service",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Web Application Acceleration (WAA)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    },
+    {
+      "serviceName": "Web Application Firewall (WAFv2)",
+      "serviceDescription": "",
+      "dateAvailable": "2023-09-14"
+    }
+  ],
   "ZD_frid_retro": "FR1900048743",
   "id_matches_expected": true
 }
