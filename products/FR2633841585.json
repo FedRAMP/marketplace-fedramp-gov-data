@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "c86cfff05b",
-    "lastUpdated": "2026-10-22T16:53:31.000Z",
+    "version": "82fa7ba3da",
+    "lastUpdated": "2026-10-30T20:30:05.000Z",
     "updateSource": "Automated release pipeline",
     "responsibleOfficial": {
       "pointOfContactName": "Brent Shulman",
@@ -36,13 +36,13 @@
         "Trust Center"
       ],
       "url": "https://trust.paramify.com/silkline/silkline-ai",
-      "repositoryDescription": "Silkline's FedRAMP Trust Center holds the FedRAMP 20x Class C program and its control implementations. Public documentation, listed in this overview: this Certification Package Overview (JSON and human-readable), the Secure Configuration Guide with its secure defaults as JSON, and the cryptographic module inventory.",
-      "authenticationRequired": true,
-      "accessRequestInstructions": "Open the landing page without signing in and select Request Access. Silkline reviews each request and grants access in the Trust Center. Send questions about access to fedramp@silkline.ai."
+      "repositoryDescription": "Silkline's FedRAMP Trust Center holds the FedRAMP 20x Class C program and its control implementations. The landing page and these documents are public: the Secure Configuration Guide, Acceptable Use Policy (Rules of Behavior), Code of Conduct, Information Security Policy (Program Umbrella), Privacy and Personal Information Management Policy, Vulnerability Disclosure Policy. The Gated Trust Center Deliverables entry in this overview lists the documents shared on request.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Open the URL without signing in to read the program and download public documents. To read a gated document, select Request Access. Silkline reviews each request and grants access to federal agencies, prospective federal customers, their assessors, and FedRAMP reviewers. Send questions about access to fedramp@silkline.ai."
     },
     "secureConfigurationGuidance": {
       "repositoryType": [
-        "Secure Configuration Guide"
+        "Secure Configuration Guidance"
       ],
       "url": "https://docs.silkline.ai/configuration/secure-configuration-guide",
       "repositoryDescription": "Customer administrator guidance for secure access, roles, sharing, integrations, notifications, exports, and provisioning defaults.",
@@ -50,6 +50,24 @@
       "accessRequestInstructions": "Open the guide URL without signing in. A Markdown version is available at https://docs.silkline.ai/configuration/secure-configuration-guide.md, and its secure defaults as JSON at https://app.silkline.ai/.well-known/fedramp/secure-configuration-guide. Apply the administrator checklist during onboarding, administrative access changes, and periodic reviews. Compare actual settings with the recommended configuration, record exceptions, and contact support@silkline.ai for setup or recovery assistance."
     },
     "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Gated Trust Center Deliverables"
+        ],
+        "url": "https://trust.paramify.com/silkline/silkline-ai",
+        "repositoryDescription": "Documents in the Trust Center shared on request: Access Management Policy, Asset Management Policy, Business Continuity and Disaster Recovery Plan, Configuration Management Plan, Continuous Monitoring Plan, Data Classification and Handling Policy, Data Retention and Disposal Policy, Encryption and Cryptographic Module Policy, Executive Security Charter, FedRAMP Security Inbox (FSI) SOP, Incident Communications Procedures (ICP) SOP, Incident Response Plan, Log Management and Retention Policy, Maintenance Policy, Network Security and Segmentation Policy, Physical Security Policy, Risk Assessment Policy, SBOM Management and Third-Party Component Procedure, Secure Software Development Lifecycle (SDLC) Policy, Security Awareness and Training Policy, Security Budget and Resource Plan, Significant Change Notification (SCN) Procedure, Supply Chain Risk Management Policy, Vendor Due Diligence and Third-Party Risk Procedure, Vulnerability Detection and Response (VDR) Procedure, and the Significant Change Notification register as JSON and Markdown. Ongoing Certification Reports and the information resource inventory have their own entries in this overview.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Open the Trust Center URL, select Request Access, and name the documents you need. Silkline reviews each request and grants access to federal agencies, prospective federal customers, their assessors, and FedRAMP reviewers. Send questions about access to fedramp@silkline.ai."
+      },
+      {
+        "repositoryType": [
+          "Vulnerability Disclosure Policy (VDR-CSO-DET)"
+        ],
+        "url": "https://docs.silkline.ai/configuration/vulnerability-disclosure-policy",
+        "repositoryDescription": "How to report a security vulnerability in Silkline, which systems are in scope, how to test safely, and how Silkline responds.",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Open the URL without signing in. Report vulnerabilities to security@silkline.ai. The same contact details are published at https://app.silkline.ai/.well-known/security.txt."
+      },
       {
         "repositoryType": [
           "Certification Package Overview"
@@ -94,6 +112,24 @@
         "repositoryDescription": "Index of the policies and procedures in the Certification Data, with each document's file, summary, word count, version, last update, and related FedRAMP practices.",
         "authenticationRequired": false,
         "accessRequestInstructions": "Open the URL without signing in. The same index is available as JSON at https://app.silkline.ai/.well-known/fedramp/policies-and-procedures. The documents themselves are shared on request through the Trust Center."
+      },
+      {
+        "repositoryType": [
+          "Ongoing Certification Reports (CCM-OCR-FBM)"
+        ],
+        "url": "https://trust.paramify.com/silkline/silkline-ai",
+        "repositoryDescription": "Ongoing Certification Reports are published in the Trust Center every 3 months. The next report is due 2026-12-15.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Request Trust Center access at the URL to read each report. Send feedback or questions about any report to fedramp@silkline.ai."
+      },
+      {
+        "repositoryType": [
+          "Quarterly Review (CCM-QTR-NRD, CCM-QTR-REG)"
+        ],
+        "url": "https://app.silkline.ai/.well-known/fedramp/quarterly-review",
+        "repositoryDescription": "Calendar file for the next Quarterly Review, targeted for 2026-12-18. Silkline's FedRAMP 20x Quarterly Review walks through the latest Ongoing Certification Report with FedRAMP, agency customers and the independent assessor. To register, email fedramp@silkline.ai; registered parties receive the meeting link and, afterwards, the recording or transcript.",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Open the URL without signing in, or subscribe to it from any calendar application."
       }
     ],
     "nextOngoingCertificationReportDate": "2026-12-15"
@@ -123,7 +159,7 @@
     },
     {
       "serviceName": "Procure",
-      "serviceDescription": "Automate PO generation and approvals. Includes Orders, Automated PO Creation, Supplier Defaults, Bulk Line Items, Order Activity Feed, Send Purchase Orders, Order Sync from ERP/MES, Approvals, Approvals Dashboard, Taxes, Budgets, Shop, Integrations, Integration Sync Health, and GraphQL API. In FedRAMP-enabled organizations: Shop runs only in the Silkline desktop app. Shopping in a cloud-hosted browser, saved supplier sign-in, and refilling a cart from a past order are unavailable. Email to suppliers, including purchase orders and issues, cannot carry PDF or file attachments. The Quantum integration is unavailable. Security category: Moderate (FedRAMP Class C)."
+      "serviceDescription": "Automate PO generation and approvals. Includes Orders, Automated PO Creation, Supplier Defaults, Bulk Line Items, Order Activity Feed, Send Purchase Orders, Order Sync from ERP/MES, Approvals, Approvals Dashboard, Taxes, Budgets, Shop, Integrations, Integration Sync Health, and GraphQL API. In FedRAMP-enabled organizations: Shop runs only in the Silkline desktop app. Shopping in a cloud-hosted browser, saved supplier sign-in, and refilling a cart from a past order are unavailable. Email to suppliers, including purchase orders and issues, cannot carry PDF or file attachments. The Quantum and HRIS integrations are unavailable. Security category: Moderate (FedRAMP Class C)."
     },
     {
       "serviceName": "Track",
@@ -149,8 +185,12 @@
         "useCase": "Datadog for Government (US1-FED) provides observability, security monitoring, incident investigation, and audit evidence."
       },
       {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2428769635XL",
+        "useCase": "Paramify Cloud holds Silkline's FedRAMP 20x package, evidence, and Trust Center."
+      },
+      {
         "fedRampCertifiedThirdPartyInformationResource": "FR2116544598A",
-        "useCase": "Keeper Security Government Cloud stores staff credentials and provides the one-time codes and passkeys staff use to sign in."
+        "useCase": "Keeper Security Government Cloud stores staff credentials, occasionally including credentials a customer supplies, and provides the one-time codes and passkeys staff use to sign in."
       }
     ],
     "nonCertified": [
@@ -175,64 +215,14 @@
         "compensatingControls": "A user sends each message to recipients they choose, and the content they add is theirs under the shared responsibility model. Inbound delivery events require signature validation before processing."
       },
       {
-        "name": "Kernel",
-        "provider": "Kernel",
-        "website": "https://www.onkernel.com/",
-        "useCase": "Managed browser sessions for desktop punchout workflows.",
-        "usageAndConfiguration": "Kernel runs cloud browser sessions that can observe merchant content, session state, and credentials during desktop punchout.",
-        "justification": "Silkline uses Kernel to provide browser automation for desktop punchout.",
-        "mitigationMeasures": "Kernel-backed punchout and supplier sign-in are disabled for FedRAMP-enabled and ITAR organizations.",
-        "compensatingControls": "One organization-level gate runs before every Kernel call and prevents federal sessions from starting in Kernel."
-      },
-      {
-        "name": "Merge",
-        "provider": "Merge",
-        "website": "https://www.merge.dev/",
-        "useCase": "HRIS integration for employee and workforce data.",
-        "usageAndConfiguration": "Merge API and webhooks are limited to configured HRIS integrations and employee records.",
-        "justification": "Silkline uses Merge to normalize supported human-resources systems.",
-        "mitigationMeasures": "The integration is scoped to HRIS data and excluded from customer content workflows.",
-        "compensatingControls": "API and webhook processing enforce the HRIS-only integration boundary."
-      },
-      {
         "name": "Tailscale",
         "provider": "Tailscale",
         "website": "https://tailscale.com/",
         "useCase": "Privileged network access and device coordination.",
-        "usageAndConfiguration": "The coordination plane handles device identity, access policies, and connection metadata while encrypted payloads remain peer-to-peer.",
+        "usageAndConfiguration": "Tailscale is the administrative access path into the boundary, through bastions in AWS GovCloud. The coordination plane handles device identity, access policies, and connection metadata, and session payloads travel peer-to-peer and never reach it. Federal customer data does not reach Tailscale.",
         "justification": "Silkline uses Tailscale to restrict administrative access to system resources.",
-        "mitigationMeasures": "The cryptographic and authorization posture remains subject to a formal FedRAMP suitability decision.",
-        "compensatingControls": "Access policies, device identity, tailnet audit logs, and flow logs constrain and record privileged connectivity."
-      },
-      {
-        "name": "ToDesktop",
-        "provider": "ToDesktop",
-        "website": "https://www.todesktop.com/",
-        "useCase": "Desktop application builds, signing, and automatic updates.",
-        "usageAndConfiguration": "ToDesktop packages and distributes the Electron desktop application and its updates to user devices.",
-        "justification": "Silkline uses ToDesktop to operate the desktop distribution and update channel.",
-        "mitigationMeasures": "The service requires a documented supply-chain determination covering code signing and update integrity.",
-        "compensatingControls": "Signed artifacts and application review reduce the risk of unauthorized desktop code distribution."
-      },
-      {
-        "name": "Context.dev",
-        "provider": "Context Dev Inc.",
-        "website": "https://www.context.dev/",
-        "useCase": "Enrichment of supplier and contact records.",
-        "usageAndConfiguration": "Background tasks run for organizations without FedRAMP enabled, when a supplier or contact is created or its domain or email changes. Lookups send the contact email, or the contact name with the linked company name and domain, and the supplier domain, or the supplier name when no domain is set. They receive public brand and professional profile data.",
-        "justification": "Silkline uses Context.dev to complete supplier brand and contact profiles without manual data entry.",
-        "mitigationMeasures": "Supplier and contact enrichment is disabled for FedRAMP-enabled organizations. Lookups send business identifiers only: work email addresses are lookup keys, personal-domain addresses such as Gmail are not. Low-confidence matches are discarded, and results fill only empty fields.",
-        "compensatingControls": "One organization-level gate runs before every Context.dev call. Requests use HTTPS and an API key held in Pulumi ESC."
-      },
-      {
-        "name": "Open Exchange Rates",
-        "provider": "Open Exchange Rates",
-        "website": "https://openexchangerates.org/",
-        "useCase": "Daily historical currency exchange rates.",
-        "usageAndConfiguration": "A scheduled task requests the rate table for each missing day and stores it as global reference data. Requests carry only a date and the application ID.",
-        "justification": "Silkline uses Open Exchange Rates to convert prices between currencies.",
-        "mitigationMeasures": "Requests contain no organization or customer data, and rates are stored once for all organizations.",
-        "compensatingControls": "Requests use HTTPS and an application ID held in Pulumi ESC."
+        "mitigationMeasures": "The Chief Technology Officer decided on 2026-09-23 to keep Tailscale as the administrative access path, outside the boundary, with bastions running Amazon Linux 2023 in FIPS mode. The use of WireGuard, which has no validated implementation, is a cryptographic departure the Chief Technology Officer accepted on 2026-10-20.",
+        "compensatingControls": "Every session inside the tailnet uses TLS through validated modules. Enforced tailnet access policies and Google Workspace sign-in restrict who can connect, and configuration and network flow logs stream to Datadog for Government."
       },
       {
         "name": "Consolidated Screening List API",
@@ -245,34 +235,14 @@
         "compensatingControls": "The service is operated by a U.S. government agency, and requests use HTTPS with a subscription key held in Pulumi config."
       },
       {
-        "name": "GitBook",
-        "provider": "GitBook",
-        "website": "https://www.gitbook.com/",
-        "useCase": "Hosting of public product documentation and documentation search for the in-app assistant.",
-        "usageAndConfiguration": "GitBook publishes docs.silkline.ai from the documentation in version control. The in-app assistant searches and reads those pages through GitBook's documentation endpoint using search text the model writes from the conversation.",
-        "justification": "Silkline uses GitBook to publish documentation and to answer product questions in the assistant.",
-        "mitigationMeasures": "The assistant is instructed to search without customer records or confidential values, and requests carry no cookies or credentials.",
-        "compensatingControls": "Requests refuse redirects and read only published pages on docs.silkline.ai."
-      },
-      {
-        "name": "Braintrust",
-        "provider": "Braintrust",
-        "website": "https://www.braintrust.dev/",
-        "useCase": "Supporting LLM evaluation.",
-        "usageAndConfiguration": "Braintrust stores evaluation datasets and experiment results that engineers upload from workstations. No production service holds a Braintrust API key or initializes a Braintrust logger, so production LLM calls send no traces. Programmatic access uses a static API key; console access uses native email and password authentication without SSO.",
-        "justification": "Silkline uses Braintrust to evaluate model behavior against curated datasets.",
-        "mitigationMeasures": "Production deployments carry no Braintrust credential, and the Braintrust SDK discards spans when no logger or experiment is initialized.",
-        "compensatingControls": "The organization-level punchout gate keeps federal organizations off the punchout workflows that request tracing; programmatic writes require an API key."
-      },
-      {
         "name": "Pulumi Cloud",
         "provider": "Pulumi",
         "website": "https://www.pulumi.com/product/pulumi-cloud/",
         "useCase": "Infrastructure state and deployment orchestration.",
-        "usageAndConfiguration": "Pulumi Cloud stores infrastructure state and orchestrates deployments into Silkline environments, including AWS GovCloud.",
+        "usageAndConfiguration": "Pulumi Cloud stores infrastructure state and configuration environments and schedules deployments. Deployments of in-boundary stacks run on Silkline-managed runners in AWS GovCloud, except the two stacks that define those runners, which run on Pulumi-hosted runners. Federal customer data is not stored in Pulumi Cloud.",
         "justification": "Silkline uses Pulumi Cloud for reproducible infrastructure management and deployment controls.",
-        "mitigationMeasures": "The hosting and authorization model remains subject to a formal FedRAMP boundary decision.",
-        "compensatingControls": "Per-stack identities, encrypted secrets, and short-lived deployment credentials restrict deployment access."
+        "mitigationMeasures": "The Chief Technology Officer decided on 2026-09-08 that Pulumi Cloud is a third-party resource outside the boundary, acting as the control plane for runners inside it. In-boundary stack secrets are encrypted with Silkline-managed KMS keys in AWS GovCloud, so Pulumi Cloud stores them only as ciphertext. Configuration environments, which hold production credentials, are encrypted at rest with a Silkline-managed key that Pulumi Cloud decrypts through a dedicated role when an environment opens.",
+        "compensatingControls": "The fleet deploy role trusts Pulumi OIDC tokens from Silkline's organization and can be assumed only through the runners' STS endpoint. The two stacks that define the runners use a separate role that trusts only their own projects. A permissions boundary on every deploy role denies edits to deploy identities and reads of customer files in S3. CloudTrail records every use of the keys and roles, and revoking the environment key's role cuts off Pulumi Cloud's access to environment secrets."
       },
       {
         "name": "GitHub",
@@ -295,106 +265,6 @@
         "compensatingControls": "OIDC supplies short-lived Pulumi access and repository controls require reviewed changes before deployment."
       },
       {
-        "name": "Greptile",
-        "provider": "Greptile",
-        "website": "https://www.greptile.com/",
-        "useCase": "Automated code review and repository analysis.",
-        "usageAndConfiguration": "Greptile reads repository source and pull-request context to produce automated review feedback.",
-        "justification": "Silkline uses Greptile to supplement human code review.",
-        "mitigationMeasures": "Greptile output is advisory and changes still pass human review and CI.",
-        "compensatingControls": "Repository permissions and protected branches prevent the service from directly publishing application changes."
-      },
-      {
-        "name": "Stainless",
-        "provider": "Stainless",
-        "website": "https://www.stainless.com/",
-        "useCase": "Generation of client SDK source code.",
-        "usageAndConfiguration": "Stainless processes API specifications and generates SDK source that is committed to version control.",
-        "justification": "Silkline uses Stainless to maintain consistent client libraries for its public APIs.",
-        "mitigationMeasures": "Generated output is reviewed and tested before it is released.",
-        "compensatingControls": "Committed output passes the same source review and CI controls as maintainer-authored code."
-      },
-      {
-        "name": "npm",
-        "provider": "GitHub",
-        "website": "https://www.npmjs.com/",
-        "useCase": "Publication and distribution of client SDK packages.",
-        "usageAndConfiguration": "SDK production repositories publish generated @silkline packages to the npm registry on release, and the application installs them from it.",
-        "justification": "Silkline uses npm to distribute its client SDKs as versioned packages.",
-        "mitigationMeasures": "Members join the @silkline npm organization only by manual invitation, and the organization enforces two-factor authentication for every member.",
-        "compensatingControls": "Packages publish through OIDC Trusted Publishing from release workflows, and the application pins SDK versions in its lockfile behind source review and CI."
-      },
-      {
-        "name": "Rootly",
-        "provider": "Rootly",
-        "website": "https://rootly.com/",
-        "useCase": "Incident workflows, escalation, and response coordination.",
-        "usageAndConfiguration": "Rootly stores incident records, escalation policies, schedules, and response workflow state.",
-        "justification": "Silkline uses Rootly to coordinate incident response and escalation.",
-        "mitigationMeasures": "Incident records are limited to the detail required for response and follow-up activities.",
-        "compensatingControls": "Access is limited to incident responders and workflow notifications use scoped incident context."
-      },
-      {
-        "name": "Slack",
-        "provider": "Salesforce",
-        "website": "https://slack.com/",
-        "useCase": "Operational alerting and incident collaboration.",
-        "usageAndConfiguration": "Monitoring and security systems send alert summaries to controlled Slack channels used by responders.",
-        "justification": "Silkline uses Slack to notify personnel and coordinate operational response.",
-        "mitigationMeasures": "Alert content is scoped to operational context needed for response.",
-        "compensatingControls": "Channel membership and workspace access controls limit incident data to authorized personnel."
-      },
-      {
-        "name": "Linear",
-        "provider": "Linear",
-        "website": "https://linear.app/",
-        "useCase": "Engineering planning and security work tracking.",
-        "usageAndConfiguration": "Linear stores development plans, defect reports, remediation tasks, and security program work items.",
-        "justification": "Silkline uses Linear to assign and track engineering and compliance work.",
-        "mitigationMeasures": "Work items avoid customer content and restrict sensitive details to the minimum needed for remediation.",
-        "compensatingControls": "Workspace access controls limit records to authorized personnel."
-      },
-      {
-        "name": "Notion",
-        "provider": "Notion",
-        "website": "https://www.notion.so/",
-        "useCase": "Internal operational and security documentation.",
-        "usageAndConfiguration": "Notion stores internal documentation, including architecture, boundary, and vendor inventory material.",
-        "justification": "Silkline uses Notion for collaborative operational documentation.",
-        "mitigationMeasures": "Documentation excludes federal customer content and separates internal security material from public pages.",
-        "compensatingControls": "Workspace permissions limit internal documentation to authorized users."
-      },
-      {
-        "name": "Drata",
-        "provider": "Drata",
-        "website": "https://drata.com/",
-        "useCase": "Compliance evidence and control monitoring.",
-        "usageAndConfiguration": "Drata stores compliance evidence and monitors selected organizational and technical controls.",
-        "justification": "Silkline uses Drata to support compliance operations and assessments.",
-        "mitigationMeasures": "Evidence collection is scoped to the material required for compliance verification.",
-        "compensatingControls": "Access controls restrict compliance records to authorized staff and assessors."
-      },
-      {
-        "name": "Paramify",
-        "provider": "Paramify",
-        "website": "https://www.paramify.com/",
-        "useCase": "FedRAMP control implementation and evidence management.",
-        "usageAndConfiguration": "Paramify stores control narratives, component records, mappings, and assessment evidence for the authorization program.",
-        "justification": "Silkline uses Paramify as the governance workflow for its FedRAMP certification package.",
-        "mitigationMeasures": "Records are reviewed by assigned control owners and scoped to security and compliance evidence.",
-        "compensatingControls": "Role-based access and human review govern changes to control evidence."
-      },
-      {
-        "name": "KnowBe4",
-        "provider": "KnowBe4",
-        "website": "https://www.knowbe4.com/",
-        "useCase": "Security awareness training and completion records.",
-        "usageAndConfiguration": "KnowBe4 assigns security training and stores staff training status and completion evidence.",
-        "justification": "Silkline uses KnowBe4 to operate and evidence its security-awareness program.",
-        "mitigationMeasures": "Data is limited to workforce identity and training records.",
-        "compensatingControls": "Administrative access is restricted and training completion is reviewed."
-      },
-      {
         "name": "Google Workspace",
         "provider": "Google",
         "website": "https://workspace.google.com/",
@@ -403,16 +273,6 @@
         "justification": "Silkline uses Google Workspace for workforce communication and collaboration.",
         "mitigationMeasures": "Staff limit customer content in collaboration tools and use application workflows for operational records.",
         "compensatingControls": "Central identity controls, multifactor authentication, and managed groups restrict workforce access."
-      },
-      {
-        "name": "Claude",
-        "provider": "Anthropic",
-        "website": "https://www.anthropic.com/",
-        "useCase": "AI assistance in CI workflows and for staff engineering and operations work.",
-        "usageAndConfiguration": "Depot CI workflows send commit subjects, file lists, and diffs of up to 200 KB to the Claude API to suggest the FedRAMP change label and summarize merges. Staff use Claude through an SSO-enforced workspace. Product inference uses Amazon Bedrock in AWS GovCloud, not this API.",
-        "justification": "Silkline uses Claude to classify changes and to support engineering and operations work.",
-        "mitigationMeasures": "The CI step has read-only file tools and no GitHub write access. Workflow shell steps apply only an allowed label value.",
-        "compensatingControls": "Staff policy forbids submitting customer or in-boundary data, and reviewers can override any suggested label."
       },
       {
         "name": "Chainguard Images",
@@ -435,24 +295,54 @@
         "compensatingControls": "SSO with multifactor authentication restricts access to support staff."
       },
       {
-        "name": "Checkr",
-        "provider": "Checkr",
-        "website": "https://checkr.com/",
-        "useCase": "Pre-employment background checks.",
-        "usageAndConfiguration": "Checkr receives candidate identity details and returns background check results.",
-        "justification": "Silkline uses Checkr to screen personnel before granting system access.",
-        "mitigationMeasures": "Data is limited to candidate identity and screening records.",
-        "compensatingControls": "Administrative access is restricted to authorized personnel."
+        "name": "ToDesktop",
+        "provider": "ToDesktop",
+        "website": "https://www.todesktop.com/",
+        "useCase": "Desktop application builds, signing, and automatic updates.",
+        "usageAndConfiguration": "ToDesktop builds, signs, and distributes the Electron desktop application and its updates to user devices. The application loads app.silkline.ai and bundles only its shell, so federal customer data does not reach ToDesktop.",
+        "justification": "Silkline uses ToDesktop to operate the desktop distribution and update channel.",
+        "mitigationMeasures": "The Chief Technology Officer decided on 2026-10-20 that ToDesktop is a third-party resource outside the boundary. macOS builds are signed with Silkline's Developer ID and notarized by Apple, and Windows installers carry an Authenticode signature issued to Silkline, Inc.",
+        "compensatingControls": "The application installs an update only when its signature matches Silkline's: the Apple team identifier on macOS and the Silkline, Inc. publisher on Windows. A release that the release workflow could not have built raises an alert to the engineering team."
       },
       {
-        "name": "ChatGPT",
-        "provider": "OpenAI",
-        "website": "https://chatgpt.com/",
-        "useCase": "General-purpose AI assistance for staff.",
-        "usageAndConfiguration": "Staff use ChatGPT through an SSO-enforced workspace. The product does not call OpenAI; its OpenAI models run on Amazon Bedrock in AWS GovCloud.",
-        "justification": "Silkline uses ChatGPT to support staff research and writing.",
-        "mitigationMeasures": "Staff policy forbids submitting customer or in-boundary data.",
-        "compensatingControls": "SSO with multifactor authentication restricts access to the workspace."
+        "name": "Open Exchange Rates",
+        "provider": "Open Exchange Rates",
+        "website": "https://openexchangerates.org/",
+        "useCase": "Daily historical currency exchange rates.",
+        "usageAndConfiguration": "A scheduled task requests the rate table for each missing day and stores it as global reference data. Requests carry only a date and the application ID.",
+        "justification": "Silkline uses Open Exchange Rates to convert prices between currencies.",
+        "mitigationMeasures": "Requests contain no organization or customer data, and rates are stored once for all organizations.",
+        "compensatingControls": "Requests use HTTPS and an application ID held in Pulumi ESC."
+      },
+      {
+        "name": "Merge",
+        "provider": "Merge",
+        "website": "https://www.merge.dev/",
+        "useCase": "HRIS integration for employee and workforce data.",
+        "usageAndConfiguration": "Organizations without FedRAMP enabled may connect an HRIS through Merge. Background tasks read employee names, email addresses, phone numbers, job titles, and reporting lines to provision users, and Merge sends webhooks when that data changes.",
+        "justification": "Silkline uses Merge to normalize supported human-resources systems.",
+        "mitigationMeasures": "The HRIS integration is not available to FedRAMP-enabled organizations: they cannot create, enable, connect, or sync it.",
+        "compensatingControls": "The refusal is enforced server-side. Database permissions reject an HRIS integration for a FedRAMP-enabled organization, and one organization-level gate runs before every sync and every Merge API call, including for an organization that enables FedRAMP after connecting."
+      },
+      {
+        "name": "Kernel",
+        "provider": "Kernel",
+        "website": "https://www.onkernel.com/",
+        "useCase": "Managed browser sessions for desktop punchout workflows.",
+        "usageAndConfiguration": "Kernel runs cloud browser sessions that can observe merchant content, session state, and credentials during desktop punchout.",
+        "justification": "Silkline uses Kernel to provide browser automation for desktop punchout.",
+        "mitigationMeasures": "Kernel-backed punchout and supplier sign-in are disabled for FedRAMP-enabled and ITAR organizations.",
+        "compensatingControls": "One organization-level gate runs before every Kernel call and prevents federal sessions from starting in Kernel."
+      },
+      {
+        "name": "Context.dev",
+        "provider": "Context Dev Inc.",
+        "website": "https://www.context.dev/",
+        "useCase": "Enrichment of supplier and contact records.",
+        "usageAndConfiguration": "Background tasks run for organizations without FedRAMP enabled, when a supplier or contact is created or its domain or email changes. Lookups send the contact email, or the contact name with the linked company name and domain, and the supplier domain, or the supplier name when no domain is set. They receive public brand and professional profile data. Returned logos and profile photos are downloaded once and stored in Silkline storage, which the application serves them from.",
+        "justification": "Silkline uses Context.dev to complete supplier brand and contact profiles without manual data entry.",
+        "mitigationMeasures": "Supplier and contact enrichment is disabled for FedRAMP-enabled organizations. Lookups send business identifiers only: work email addresses are lookup keys, personal-domain addresses such as Gmail are not. Low-confidence matches are discarded, and results fill only empty fields.",
+        "compensatingControls": "One organization-level gate runs before every Context.dev call. Requests use HTTPS and an API key held in Pulumi ESC."
       }
     ]
   },

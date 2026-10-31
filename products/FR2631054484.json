@@ -4,7 +4,7 @@
     "providerName": "Anysphere, Inc.",
     "serviceName": "Cursor",
     "serviceAcronym": "CURSOR",
-    "serviceDescription": "Cursor is an AI-powered software development platform that helps developers and organizations understand, generate, review, and maintain software. The offering includes the Cursor editor, AI-assisted development workflows, and related cloud services. Anysphere, Inc. is pursuing FedRAMP 20x Class C certification for the Cursor platform, and A-LIGN is performing the independent assessment. Certification has not yet been granted. Anysphere's FedRAMP 20x Class A application is under FedRAMP review. Origin, Cursor's Git hosting product, is not part of this offering and is not offered to FedRAMP customers; service capabilities that operate on Origin repositories are outside the assessed scope.",
+    "serviceDescription": "Cursor is an AI-powered software development platform that helps developers and organizations understand, generate, review, and maintain software. The offering includes the Cursor editor, AI-assisted development workflows, and related cloud services. Anysphere, Inc. is pursuing FedRAMP 20x Class C certification for the Cursor platform, and A-LIGN confirmed on October 22, 2026 that its assessment work was complete. Certification has not yet been granted. Anysphere's FedRAMP 20x Class A application is under FedRAMP review. Origin, Cursor's Git hosting product, is not part of this offering and is not offered to FedRAMP customers; service capabilities that operate on Origin repositories are outside the assessed scope.",
     "certificationType": "20x",
     "fedRampPackageId": "FR2631054484",
     "ueiNumber": "YK4LNCE1L847",
@@ -25,9 +25,9 @@
         "Trust Center"
       ],
       "url": "https://trust.paramify.com/cursor/cursor",
-      "repositoryDescription": "The Cursor FedRAMP Trust Center, hosted on Paramify, publishes the FedRAMP 20x Class A and Class C compliance programs, provider-reported control implementation status, and controlled deliverables such as the SOC 2 Type II report for the Cursor platform.",
+      "repositoryDescription": "The Cursor FedRAMP Trust Center provides public program information and access to controlled security and compliance materials.",
       "authenticationRequired": true,
-      "accessRequestInstructions": "The compliance programs are viewable without an account. To review controlled deliverables, select Request Access on the FedRAMP Trust Center and identify your agency or organization. For control-level evidence, email fedramp@cursor.com from an official account to request read-only Paramify Assessment Viewer access. The Certification Package Overview is also available programmatically as JSON at https://cursor.com/fedramp/certification-package-overview.json through an unauthenticated HTTPS GET that returns application/json."
+      "accessRequestInstructions": "Public program information is viewable without an account. To request controlled materials, select Request Access on the Cursor FedRAMP Trust Center and identify your agency or organization. Existing authorized reviewers may use their approved Cursor assessment workspace. For assistance, email fedramp@cursor.com from an official account. Public offering metadata is available as JSON at https://cursor.com/fedramp/certification-package-overview.json."
     },
     "secureConfigurationGuidance": {
       "repositoryType": [
@@ -38,7 +38,19 @@
       "authenticationRequired": false
     },
     "securityCategoryNote": "The adopting federal agency determines the applicable FIPS 199 security category for its intended use of each service. This package does not assert a provider-wide Low, Moderate, or High impact level.",
-    "nextOngoingCertificationReportDate": "2027-01-19"
+    "nextOngoingCertificationReportDate": "2027-01-19",
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Certification Package",
+          "Assessment Reports"
+        ],
+        "url": "https://trust.paramify.com/cursor/cursor",
+        "repositoryDescription": "The full controlled Certification Package Overview, including the assessor’s Overall Summary of Assessment, and supporting assessment materials are available through Cursor’s authorized assessment workspace.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Existing authorized FedRAMP reviewers may use their approved Cursor assessment workspace and its Certification Package evidence. To request or confirm access, use Request Access on the Cursor FedRAMP Trust Center or contact fedramp@cursor.com from an official account."
+      }
+    ]
   },
   "certifiedServices": [
     {
@@ -186,9 +198,9 @@
   ],
   "documentationOverview": {
     "status": "Initial Implementation Phase",
-    "version": "2026-10-18",
-    "lastUpdated": "2026-10-18T21:00:22Z",
-    "updateSource": "Anysphere Security owner Ethan Troy issued a qualified Cursor Class C Ongoing Certification Report for July 17–October 17, 2026 on October 18, 2026, ahead of the adopted October 19 target. Its exact JSON and readable copies were supplied confidentially to A-LIGN through the existing SOR and LSI assessment sections. The report retains its October 17, 2026 21:37:18 UTC operational cutoff, adverse findings and incomplete source/register coverage. Issuance does not establish complete Certification Data, public or agency release, access for all necessary parties, or certification. The previously adopted reporting cycle remains every three calendar months on the 19th of October, January, April, and July, with the next adopted report targets January 19, April 19, and July 19, 2027. The first Quarterly Review is booked for October 22, 2026 from noon to 12:30 p.m. America/New_York as an organizer-only calendar event; necessary-party registration, audience access and notice remain outstanding, and no review has been held. October 22 remains the next progress-update target. The following is retained provenance for prior revision 2026-10-15: Anysphere Security owner Ethan Troy's October 15 planning decision revises the first operating Ongoing Certification Report target from October 11 to October 15 and retains October 15 as the proposed Quarterly Review target. The report remains in progress and the review remains planned; review timing and notice to necessary parties remain to be finalized. The other statements are unchanged from revision 2026-10-12, which marked the first Ongoing Certification Report as in progress. The other statements in that revision were unchanged from revision 2026-10-10, which added the FedRAMP 20x Class C progress section and matching JSON data, removed the published Class C progress update from materials in development, and aligned the next Ongoing Certification Report date with the approved schedule. The other statements in that revision were unchanged from revision 2026-10-07, which added that Anysphere's FedRAMP 20x Class A application is under FedRAMP review, checked against the status of that application with FedRAMP. The other statements in that revision were unchanged from revision 2026-09-28, which named the FedRAMP 20x Class C certification being pursued and its independent assessor (A-LIGN, FedRAMP assessor ID 138665; assessment in progress since 2026-09-15), described access to controlled FedRAMP Trust Center deliverables as a one-time approval, stated that Origin is not part of this offering, and stopped listing published materials as in development.",
+    "version": "2026-10-23",
+    "lastUpdated": "2026-10-23T17:15:18Z",
+    "updateSource": "Provider public metadata update: A-LIGN completed its Class C assessment on October 22, 2026. The full Certification Package Overview and assessment materials are shared through the controlled repository. FedRAMP certification has not been granted.",
     "responsibleOfficial": {
       "name": "Ethan Troy",
       "title": "Senior Security Engineer",
@@ -196,7 +208,7 @@
     },
     "availableDocumentation": [
       {
-        "name": "FedRAMP Certification Package Overview",
+        "name": "Public offering metadata (Certification Package Overview)",
         "url": "https://cursor.com/fedramp/certification-package-overview.json",
         "format": "JSON",
         "access": "Public"
@@ -225,9 +237,6 @@
         "format": "PDF",
         "access": "Published as a controlled deliverable on the FedRAMP Trust Center, available to agencies and other necessary parties after a one-time access approval. SOC 2 is an independent attestation and is not a FedRAMP certification."
       }
-    ],
-    "materialsInDevelopment": [
-      "Minimum Assessment Scope resource, information-flow, metadata, and third-party inventories"
     ]
   },
   "contactInformation": [
@@ -247,74 +256,31 @@
     "assessorID": "138665"
   },
   "classCProgress": {
-    "lastUpdated": "2026-10-18",
-    "nextScheduledUpdate": "2026-10-22",
-    "nextQuarterlyReviewTargetDate": "2026-10-22",
-    "certificationStatus": "FedRAMP 20x Class C certification has not yet been granted. Anysphere's FedRAMP 20x Class A application is under FedRAMP review.",
-    "goal": "Obtain FedRAMP 20x Class C certification for the Cursor platform, publish an Ongoing Certification Report each quarter, and hold a Quarterly Review after each report.",
-    "updateCadence": "Updated at least quarterly, and after each Quarterly Review. Progress is measured against the goal and milestones below.",
+    "lastUpdated": "2026-10-23",
+    "certificationStatus": "FedRAMP 20x Class C certification has not yet been granted. Anysphere’s FedRAMP 20x Class A application is under FedRAMP review.",
+    "goal": "Obtain FedRAMP 20x Class C certification for the Cursor platform and maintain ongoing certification reporting and quarterly reviews.",
+    "updateCadence": "Updated at least quarterly and after each Quarterly Review.",
     "milestones": [
       {
-        "id": "assessor-statement-of-work",
-        "title": "Statement of work with the independent assessor",
-        "status": "Complete",
-        "date": "2026-08-31",
-        "detail": "A-LIGN, a FedRAMP recognized independent assessment service, performs the FedRAMP 20x Class C assessment of Cursor under a statement of work dated 2026-08-31."
-      },
-      {
         "id": "assessment-kickoff",
-        "title": "Assessment kickoff",
+        "title": "Class C assessment kickoff",
         "status": "Complete",
         "date": "2026-09-15",
-        "detail": "Cursor and A-LIGN held the kickoff for the FedRAMP 20x Class C assessment."
-      },
-      {
-        "id": "assessment-activities-began",
-        "title": "Assessment activities began",
-        "status": "Complete",
-        "date": "2026-09-15",
-        "detail": "A-LIGN began assessing Cursor against the FedRAMP 20x Class C requirements."
-      },
-      {
-        "id": "first-assessor-review",
-        "title": "Independent assessment determinations",
-        "status": "In progress",
-        "detail": "A-LIGN is recording its determinations on the FedRAMP 20x Class C requirements."
-      },
-      {
-        "id": "remediation",
-        "title": "Submit remediation updates for assessor re-review",
-        "status": "In progress",
-        "targetDate": "2026-10-16",
-        "detail": "Cursor plans to submit remediation updates to A-LIGN for re-review by 2026-10-16; other findings remain under remediation."
+        "detail": "Cursor and A-LIGN began the independent Class C assessment."
       },
       {
         "id": "assessment-complete",
         "title": "Class C assessment complete",
-        "status": "Planned",
-        "targetDate": "2026-10-21",
-        "detail": "Cursor's target for A-LIGN to finalize the FedRAMP 20x Class C assessment."
-      },
-      {
-        "id": "summary-in-package",
-        "title": "Assessor's Overall Summary of Assessment added to the Certification Package Overview",
-        "status": "Planned",
-        "detail": "After the assessment is final, Cursor will include A-LIGN's Overall Summary of Assessment in its public Certification Package Overview without modification."
+        "status": "Complete",
+        "date": "2026-10-22",
+        "detail": "A-LIGN completed its assessment. Assessment completion does not mean that every requirement passed or that FedRAMP certification has been granted."
       },
       {
         "id": "first-ongoing-certification-report",
-        "title": "Qualified operating Ongoing Certification Report",
+        "title": "Ongoing Certification Report",
         "status": "Issued (qualified)",
-        "targetDate": "2026-10-19",
-        "detail": "On October 18, 2026, Ethan Troy issued a qualified Class C operating Ongoing Certification Report for July 17–October 17, 2026, ahead of the October 19 initial issuance target. Its exact JSON and readable copies were supplied confidentially to A-LIGN through the existing SOR and LSI assessment sections. The report retains its October 17, 2026 21:37:18 UTC operational cutoff, adverse findings and incomplete source/register coverage. This is not a verified first-ever report or a complete Certification Data snapshot; public or agency release, supply/access for all necessary parties, certification and assessor Pass are not established. The adopted report cycle remains every three calendar months on the 19th of October, January, April, and July. The next adopted report targets are January 19, April 19, and July 19, 2027.",
-        "date": "2026-10-18"
-      },
-      {
-        "id": "first-quarterly-review",
-        "title": "First Quarterly Review",
-        "status": "Planned",
-        "targetDate": "2026-10-22",
-        "detail": "An organizer-only calendar event is booked for Cursor's first Quarterly Review on October 22, 2026, from noon to 12:30 p.m. America/New_York (Eastern Time). Necessary-party registration, audience access and notice remain outstanding; no review has been held. The October 22 review date and next progress-update target remain unchanged."
+        "date": "2026-10-18",
+        "detail": "Cursor issued a qualified Ongoing Certification Report. The report and its qualifications are available through the controlled repository. The next report date is January 19, 2027."
       }
     ]
   },

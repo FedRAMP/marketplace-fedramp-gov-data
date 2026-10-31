@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.0.5",
-    "lastUpdated": "2026-10-17T00:00:00Z",
+    "version": "1.0.6",
+    "lastUpdated": "2026-10-29T00:00:00Z",
     "updateSource": "Paramify CR26 20x Class C program",
     "responsibleOfficial": {
       "name": "Mehmet Yigit Guney",
@@ -259,10 +259,34 @@
       "module": "AWS Key Management Service HSM (GovCloud)",
       "cmvpCertificate": "4884",
       "use": "Encryption keys for data at rest"
+    },
+    {
+      "module": "Go Cryptographic Module v1.0.0",
+      "cmvpCertificate": "5247",
+      "use": "TLS from the TLS sidecars, and from the pgroll migration engine to Aurora"
+    },
+    {
+      "module": "Amazon Linux 2023 OpenSSL FIPS Provider",
+      "cmvpCertificate": "5021",
+      "use": "TLS from the Terraform-managed Lambda functions"
     }
   ],
+  "x-cryptographicModuleInventory": "https://trust.cleat.ai/cryptographic-modules.json",
   "x-nextQuarterlyReviewDate": "2026-12-02",
-  "x-assessmentSummary": "A-LIGN (FedRAMP assessor ID 138665) is performing the independent assessment under SOW CON-011035. The 20x Class C assessment started on 2026-09-08 and is in progress. The overall assessment summary will be added when A-LIGN issues it.",
+  "x-assessmentSummary": "A-LIGN (FedRAMP assessor ID 138665) is performing the independent assessment under SOW CON-011035. The 20x Class C assessment started on 2026-09-08 and is in progress. A-LIGN agreed on 2026-10-09 to re-test the controls that CLEATUS updated after its KSI Assessment Report v3.2 (2026-09-18); the re-test is pending. The overall assessment summary will be added when A-LIGN issues it.",
+  "x-packageUpdates": [
+    {
+      "version": "1.0.6",
+      "date": "2026-10-29",
+      "changes": [
+        "Session controls (2026-10-20 to 2026-10-26): Customer Admins can shorten the session inactivity window, end member sessions, and revoke connector authorizations; only user input extends a session.",
+        "Cryptography (2026-10-22 and 2026-10-27): every production Fargate task runs in FIPS-140 mode, Terraform-managed Lambda functions load the Amazon Linux 2023 OpenSSL FIPS Provider (CMVP 5021), and the migration image runs Node in FIPS mode with the OpenSSL FIPS Provider (CMVP 4985) and pgroll on the Go Cryptographic Module (CMVP 5247).",
+        "Identity provider (2026-10-26): Better Auth remains the only authentication provider in GovCloud; the release removed the unused Clerk placeholders and the provider switch. The significant change history withdraws the CHG-2026-08-14-TRF records, because GovCloud always ran Better Auth and no transformative change took place.",
+        "Vulnerability remediation (2026-10-22 to 2026-10-27): Node.js 24.22.1 and 22.23.4, which reject the compromised eMudhra intermediate CAs, and package updates for the Amazon Inspector findings on the application images.",
+        "Evidence collection (2026-10-28): a daily automated export collects the incident and vulnerability disclosure registers, and no GovCloud secret holds a GitHub token."
+      ]
+    }
+  ],
   "ZD_frid_retro": "FR2700857472",
   "id_matches_expected": true
 }

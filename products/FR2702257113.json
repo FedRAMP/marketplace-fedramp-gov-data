@@ -5,7 +5,7 @@
     "serviceAcronym": "NOM",
     "serviceDescription": "Cloud platform for aggregating, visualizing, and analyzing test, telemetry, and mission data for hardware and complex systems, operated for U.S. Government customers in a FedRAMP-scoped, government-only AWS GovCloud (US) environment.",
     "certificationType": "20x",
-    "fedRampPackageId": "Nominal, Inc. (NOM)",
+    "fedRampPackageId": "FR2702257113",
     "website": "https://www.nominal.io",
     "logo": "https://nominal.us/fedramp/logo.png"
   },
@@ -42,11 +42,10 @@
       {
         "repositoryType": [
           "Authorization Documentation",
-          "Assessment Reports",
-          "Policies"
+          "Assessment Reports"
         ],
         "url": "https://trust.nominal.io",
-        "repositoryDescription": "Certification package documents under the FedRAMP 20x category; fortnightly Vulnerability Detail and Accepted Vulnerability reports under FedRAMP 20x Vulnerability Reports; weekly Significant Change Notifications under FedRAMP 20x Change Notifications; the NIST SP 800-53 family policy set and independent assessment reports.",
+        "repositoryDescription": "Certification package documents and the independent assessment report under the FedRAMP 20x category; fortnightly Vulnerability Detail and Accepted Vulnerability reports under FedRAMP 20x Vulnerability Reports; weekly Significant Change Notifications under FedRAMP 20x Change Notifications.",
         "authenticationRequired": true,
         "accessRequestInstructions": "Request access at https://trust.nominal.io (name, email, organization and reason). Requests from federal agencies and FedRAMP are approved on the day they are received; approval grants self-service download of every FedRAMP 20x resource and is logged. Questions: fedramp-security@nominal.io."
       },
@@ -80,7 +79,60 @@
   ],
   "assessor": {
     "name": "A-LIGN",
-    "assessorID": "138665"
+    "assessorID": "138665",
+    "assessmentSummary": {
+      "report": "assessment-2026-10-23.json",
+      "sha256": "e4d76b6d47f239f980d1fa0095faeca96babd29ffc0f721307f8106c97cd1f10",
+      "assessmentDate": "2026-10-23",
+      "leadAssessor": "Khalil Darwish",
+      "tool": "FedRAMP 20x KSI Assessment & Readiness Tool v3.20 (CR26)",
+      "baseline": "Class C (Moderate)",
+      "summary": {
+        "totalRules": 203,
+        "implemented": 177,
+        "trueFindings": 19,
+        "optionalNotMet": 7,
+        "notAssessed": 0
+      },
+      "trueFindingIds": [
+        "VDR-TFR-NMV",
+        "SCN-CSO-HIS",
+        "SCN-TRF-NAF",
+        "SCN-TRF-NAV",
+        "CCM-QTR-NID",
+        "CDS-CSO-CBF",
+        "CDS-CSO-FRC",
+        "CDS-CSO-IRP",
+        "CDS-CSO-PUB",
+        "CDS-CSO-SVC",
+        "CDS-TRC-PAC",
+        "CPO-CSO-MTD",
+        "FRC-APP-AFC",
+        "FRC-APP-FCP",
+        "FRC-APP-FIA",
+        "IEC-CSO-DPR",
+        "MKT-IIP-DCP",
+        "SDR-CSO-FRR",
+        "SDR-CSO-MTD"
+      ],
+      "findingsResolvedSinceAssessment": [
+        "CDS-CSO-CBF",
+        "CDS-CSO-FRC",
+        "CDS-CSO-IRP",
+        "CDS-CSO-PUB",
+        "CDS-CSO-SVC",
+        "CPO-CSO-MTD",
+        "FRC-APP-AFC",
+        "FRC-APP-FCP",
+        "FRC-APP-FIA",
+        "IEC-CSO-DPR",
+        "MKT-IIP-DCP",
+        "SDR-CSO-FRR",
+        "SDR-CSO-MTD",
+        "VDR-TFR-NMV"
+      ],
+      "location": "Trust Center, FedRAMP 20x category (request access); responses per rule in the Security Decision Record"
+    }
   },
   "certifiedServices": [
     {
@@ -103,12 +155,12 @@
       "title": "Security Lead",
       "email": "djannotta@nominal.io"
     },
-    "version": "2026.10.22",
-    "lastUpdated": "2026-10-22T03:09:02Z",
-    "updateSource": "fedramp-assist generate_cpo nominal-io/security-tools@ec605b530c68 GitHub Actions run 39714984582; attested by David Jannotta, Security Lead"
+    "version": "2026.10.27",
+    "lastUpdated": "2026-10-27T16:28:44Z",
+    "updateSource": "fedramp-assist generate_cpo nominal-io/security-tools@aab59c9b6ac8 GitHub Actions run 40540782075; attested by David Jannotta, Security Lead"
   },
   "certificationPackage": {
-    "generatedAt": "2026-10-22T03:09:02Z",
+    "generatedAt": "2026-10-27T16:28:44Z",
     "items": [
       {
         "rule": "CDS-CSO-IRP",
@@ -141,348 +193,987 @@
     ],
     "policyIndex": [
       {
-        "id": "cryptography-policy-bsi",
-        "name": "Cryptography Policy (SC)",
-        "purpose": "To ensure proper and effective use of cryptography to protect the confidentiality, authenticity and/or integrity of information. This policy establishes requirements for the use and protection of cryptographic keys throughout their entire lifecycle.",
-        "state": "APPROVED",
-        "approvedAt": "2026-05-06",
-        "approvedVersionId": "6a61268929882f92aca06bf6"
-      },
-      {
-        "id": "FedRAMP-Access-Control-policy",
-        "name": "FedRAMP Access Control policy",
-        "purpose": "Defines requirements for controlling access to systems and data to ensure only authorized users have access.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c8cc21c53e10d8f1008f"
-      },
-      {
-        "id": "FedRAMP-Access-Control-Procedure",
-        "name": "FedRAMP Access Control Procedure",
-        "purpose": "Describes the specific steps for implementing access control measures as per the policy.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-26",
-        "approvedVersionId": "6a8f526726c6507ac8889e10"
-      },
-      {
-        "id": "FedRAMP-Assessment-Authorization-and-Monitoring-Procedure",
-        "name": "FedRAMP Assessment Authorization and Monitoring Procedure",
-        "purpose": "Outlines the procedures for assessing security, authorizing system operations, and ongoing monitoring.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-04",
-        "approvedVersionId": "6a74f8e1c2c69475a82b1693"
-      },
-      {
-        "id": "FedRAMP-Audit-and-Accountability-Policy",
-        "name": "FedRAMP Audit and Accountability Policy",
-        "purpose": "Establishes guidelines for auditing system activities and ensuring accountability for actions performed.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c4aa21c53e10d8f0f4fb"
-      },
-      {
-        "id": "FedRAMP-Audit-and-Accountability-Procedure",
-        "name": "FedRAMP Audit and Accountability Procedure",
-        "purpose": "Provides detailed instructions for auditing system activities and ensuring accountability.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-18",
-        "approvedVersionId": "6a8f53d2b560afb5533f67b8"
-      },
-      {
-        "id": "FedRAMP-Awareness-and-Training-Policy",
-        "name": "FedRAMP Awareness and Training Policy",
-        "purpose": "Outlines the training and awareness programs to ensure personnel understand their security responsibilities.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c89f3eb5b8ac4bce8740"
-      },
-      {
-        "id": "FedRAMP-Awareness-and-Training-Procedure",
-        "name": "FedRAMP Awareness and Training Procedure",
-        "purpose": "Describes the steps for implementing and maintaining awareness and training programs.",
-        "state": "APPROVED",
-        "approvedAt": "2026-05-20",
-        "approvedVersionId": "6a74f20221c53e10d8f14e29"
-      },
-      {
-        "id": "FedRAMP-Configuration-Management-Plan",
-        "name": "FedRAMP Configuration Management Plan",
-        "purpose": "Details the plan for managing system configurations to maintain security and operational integrity.",
-        "state": "APPROVED",
-        "approvedAt": "2026-10-05",
-        "approvedVersionId": "6ac51b287d37363639216fc0"
-      },
-      {
-        "id": "FedRAMP-Configuration-Management-Policy",
-        "name": "FedRAMP Configuration Management Policy",
-        "purpose": "Details the processes for managing and documenting system configurations to maintain security integrity.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c86121c53e10d8f0ff01"
-      },
-      {
-        "id": "FedRAMP-Configuration-Management-Procedure",
-        "name": "FedRAMP Configuration Management Procedure",
-        "purpose": "Specifies the procedures for controlling and documenting system configurations.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-04",
-        "approvedVersionId": "6a74f94b3eb5b8ac4bcefc4c"
-      },
-      {
-        "id": "FedRAMP-Contingency-Planning-Policy",
-        "name": "FedRAMP Contingency Planning Policy",
-        "purpose": "Specifies procedures for preparing for, responding to, and recovering from system disruptions or failures.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c83e3eb5b8ac4bce85b5"
-      },
-      {
-        "id": "FedRAMP-Contingency-Planning-Procedure",
-        "name": "FedRAMP Contingency Planning Procedure",
-        "purpose": "Provides detailed steps for developing and executing contingency plans for system disruptions.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-26",
-        "approvedVersionId": "6a8f51f026c6507ac88898ff"
-      },
-      {
-        "id": "FedRAMP-Continuous-Monitoring-Plan",
-        "name": "FedRAMP Continuous Monitoring Plan",
-        "purpose": "Outlines the plan for continuous monitoring of security controls and system activities.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-10",
-        "approvedVersionId": "6a7d3066216dcadb601d144d"
-      },
-      {
-        "id": "FedRAMP-Identification-and-Authentication-Policy",
-        "name": "FedRAMP Identification and Authentication Policy",
-        "purpose": "Sets the standards for verifying user identities and managing authentication mechanisms for secure access.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c800c2c69475a82ab009"
-      },
-      {
-        "id": "FedRAMP-Identification-and-Authentication-Procedure",
-        "name": "FedRAMP Identification and Authentication Procedure",
-        "purpose": "Describes the procedures for verifying identities and managing authentication processes.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-04",
-        "approvedVersionId": "6a74f87f21c53e10d8f16728"
-      },
-      {
-        "id": "FedRAMP-Incident-Response-Plan",
-        "name": "FedRAMP Incident Response Plan",
-        "purpose": "Details the plan for responding to security incidents, including roles, responsibilities, and steps to take.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-28",
-        "approvedVersionId": "6a74c9d621c53e10d8f1030c"
-      },
-      {
-        "id": "FedRAMP-Incident-Response-Policy",
-        "name": "FedRAMP Incident Response Policy",
-        "purpose": "Defines the process for identifying, reporting, and responding to security incidents within the system.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c7b1c2c69475a82aaf84"
-      },
-      {
-        "id": "FedRAMP-Incident-Response-Procedure",
-        "name": "FedRAMP Incident Response Procedure",
-        "purpose": "Provides detailed instructions for identifying, reporting, and responding to security incidents.",
-        "state": "APPROVED",
-        "approvedAt": "2026-05-26",
-        "approvedVersionId": "6a74f8133eb5b8ac4bcef5b1"
-      },
-      {
-        "id": "FedRAMP-Maintenance-Policy",
-        "name": "FedRAMP Maintenance Policy",
-        "purpose": "Outlines procedures for performing and managing system maintenance securely and efficiently.",
-        "state": "APPROVED",
-        "approvedAt": "2026-05-06",
-        "approvedVersionId": "6a74c7553eb5b8ac4bce838c"
-      },
-      {
-        "id": "FedRAMP-Maintenance-Procedure",
-        "name": "FedRAMP Maintenance Procedure",
-        "purpose": "Specifies the procedures for securely conducting and documenting system maintenance activities.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-04",
-        "approvedVersionId": "6a74f74f3eb5b8ac4bcef1e9"
-      },
-      {
-        "id": "FedRAMP-Media-Protection-Policy",
-        "name": "FedRAMP Media Protection Policy",
-        "purpose": "Specifies requirements for protecting and handling media containing sensitive information.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c6f13eb5b8ac4bce822b"
-      },
-      {
-        "id": "FedRAMP-Media-Protection-Procedure",
-        "name": "FedRAMP Media Protection Procedure",
-        "purpose": "Outlines the steps for protecting, handling, and disposing of media containing sensitive information.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-04",
-        "approvedVersionId": "6a74f7e93eb5b8ac4bcef527"
-      },
-      {
-        "id": "FedRAMP-Personnel-Security-Policy",
-        "name": "FedRAMP Personnel Security Policy",
-        "purpose": "Establishes guidelines for managing personnel security, including background checks and access approvals.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c693c2c69475a82aac87"
-      },
-      {
-        "id": "FedRAMP-Personnel-Security-Procedure",
-        "name": "FedRAMP Personnel Security Procedure",
-        "purpose": "Provides detailed instructions for implementing personnel security measures, including background checks.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-21",
-        "approvedVersionId": "6a74f22d21c53e10d8f14f47"
-      },
-      {
-        "id": "FedRAMP-Physical-Environmental-Protection-Policy",
-        "name": "FedRAMP Physical & Environmental Protection Policy",
-        "purpose": "Details the physical security measures to protect systems and data from environmental threats and unauthorized access.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c66521c53e10d8f0f9a1"
-      },
-      {
-        "id": "FedRAMP-Physical-Environmental-Protection-Procedure",
-        "name": "FedRAMP Physical & Environmental Protection Procedure",
-        "purpose": "Describes the procedures for implementing physical and environmental security measures.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-04",
-        "approvedVersionId": "6a74f6fe3eb5b8ac4bcef01e"
-      },
-      {
-        "id": "FedRAMP-Planning-Policy",
-        "name": "FedRAMP Planning Policy",
-        "purpose": "Sets forth the procedures for developing, reviewing, and maintaining security plans for systems.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c644c2c69475a82aabbb"
-      },
-      {
-        "id": "FedRAMP-Planning-Procedure",
-        "name": "FedRAMP Planning Procedure",
-        "purpose": "Specifies the steps for developing and maintaining security plans for systems.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-21",
-        "approvedVersionId": "6a74f779c2c69475a82b12d0"
-      },
-      {
-        "id": "FedRAMP-Risk-Assessment-Policy",
-        "name": "FedRAMP Risk Assessment Policy",
-        "purpose": "Establishes processes for identifying, assessing, and managing risks to information systems.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c62521c53e10d8f0f8f4"
-      },
-      {
-        "id": "FedRAMP-Risk-Assessment-Procedure",
-        "name": "FedRAMP Risk Assessment Procedure",
-        "purpose": "Outlines the procedures for conducting and documenting risk assessments.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-18",
-        "approvedVersionId": "6a8f54da26c6507ac888ba72"
-      },
-      {
-        "id": "FedRAMP-Security-Assessment-and-Authorization-Policy",
-        "name": "FedRAMP Security Assessment and Authorization Policy",
-        "purpose": "Outlines the process for assessing security controls and authorizing system operations.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c5d23eb5b8ac4bce7f28"
-      },
-      {
-        "id": "FedRAMP-Supply-Chain-Risk-Management-Plan-SCRMP",
-        "name": "FedRAMP Supply Chain Risk Management Plan (SCRMP)",
-        "purpose": "Defines strategies for managing risks associated with the supply chain to protect system integrity.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-29",
-        "approvedVersionId": "6a74ca2e3eb5b8ac4bce8e59"
-      },
-      {
-        "id": "FedRAMP-Supply-Chain-Risk-Management-Policy",
-        "name": "FedRAMP Supply Chain Risk Management Policy",
-        "purpose": "Establishes guidelines for identifying and mitigating supply chain risks to ensure the security of systems.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c56221c53e10d8f0f727"
-      },
-      {
-        "id": "FedRAMP-Supply-Chain-Risk-Management-Procedure",
-        "name": "FedRAMP Supply Chain Risk Management Procedure",
-        "purpose": "Provides detailed steps for identifying and mitigating supply chain risks to protect systems.",
-        "state": "APPROVED",
-        "approvedAt": "2026-05-29",
-        "approvedVersionId": "6a74f6d6c2c69475a82b0d3a"
-      },
-      {
-        "id": "FedRAMP-System-Communications-Protection-Policy",
-        "name": "FedRAMP System & Communications Protection Policy",
-        "purpose": "Details measures to protect the system and communications infrastructure from unauthorized access and threats.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c5423eb5b8ac4bce7dcb"
-      },
-      {
-        "id": "FedRAMP-System-Communications-Protection-Procedure",
-        "name": "FedRAMP System & Communications Protection Procedure",
-        "purpose": "Describes the specific procedures for protecting the system and communications infrastructure.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-11",
-        "approvedVersionId": "6a7d22b4a402ed16c17c1d8b"
-      },
-      {
-        "id": "FedRAMP-System-Information-Integrity-Procedure",
-        "name": "FedRAMP System & Information Integrity Procedure",
-        "purpose": "Outlines the procedures for maintaining the integrity of system information and ensuring its reliability.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-24",
-        "approvedVersionId": "6a8cbb2b4fa8c1dbb17beafc"
-      },
-      {
-        "id": "FedRAMP-System-Services-Acquisition-Policy",
-        "name": "FedRAMP System & Services Acquisition Policy",
-        "purpose": "Sets the standards for acquiring systems and services, ensuring they meet security requirements.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c50bc2c69475a82aa53c"
-      },
-      {
-        "id": "FedRAMP-System-Services-Acquisition-Procedure",
-        "name": "FedRAMP System & Services Acquisition Procedure",
-        "purpose": "Provides detailed steps for acquiring systems and services, ensuring that they comply with security requirements and meet the organization's operational needs.",
-        "state": "APPROVED",
-        "approvedAt": "2026-08-04",
-        "approvedVersionId": "6a74f660c2c69475a82b0b59"
-      },
-      {
-        "id": "FedRAMP-System-and-Information-Integrity-Policy",
-        "name": "FedRAMP System and Information Integrity Policy",
-        "purpose": "Defines procedures for ensuring the accuracy, reliability, and security of system information.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-31",
-        "approvedVersionId": "6a74c4d73eb5b8ac4bce7c55"
-      },
-      {
-        "id": "incident-response-plan-bsi",
-        "name": "Incident Response Plan",
-        "purpose": "This document establishes the plan for managing information security incidents and events, and offers guidance for employees or incident responders who believe they have discovered, or are responding to, a security incident.",
-        "state": "APPROVED",
-        "approvedAt": "2026-07-02",
-        "approvedVersionId": "6a5fd690f3efa0358c08502f"
-      },
-      {
         "id": "information-security-policy-bsi",
-        "name": "Information Security Policy (AUP)",
+        "name": "Information Security Policy",
+        "kind": "policy",
         "purpose": "The purpose of this policy is to communicate our information security policies and outline the acceptable use and protection of Nominal, Inc’s information and assets.",
         "state": "APPROVED",
         "approvedAt": "2026-07-01",
-        "approvedVersionId": "6a4e83443db78dbe9623daa9"
+        "approvedVersionId": "6a4e83443db78dbe9623daa9",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 3-14",
+        "wordCount": 2410,
+        "relatedPractices": [
+          "KSI-CNA-IBP",
+          "KSI-PIY-RIS",
+          "KSI-PIY-RSD",
+          "KSI-SVC-ACM",
+          "KSI-SVC-EIS"
+        ]
+      },
+      {
+        "id": "FedRAMP-Access-Control-policy",
+        "name": "AC - Access Controls Policy",
+        "kind": "policy",
+        "purpose": "Defines requirements for controlling access to systems and data to ensure only authorized users have access.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c8cc21c53e10d8f1008f",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 15-29",
+        "wordCount": 3535,
+        "relatedPractices": [
+          "KSI-CNA-IBP",
+          "KSI-CNA-MAT",
+          "KSI-CNA-RNT",
+          "KSI-CNA-ULN",
+          "KSI-IAM-AAM",
+          "KSI-IAM-APM",
+          "KSI-IAM-ELP",
+          "KSI-IAM-JIT",
+          "KSI-IAM-SNU",
+          "KSI-IAM-SUS",
+          "KSI-MLA-LET",
+          "KSI-MLA-OSM",
+          "KSI-MLA-RVL",
+          "KSI-PIY-RIS",
+          "KSI-PIY-RSD",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON",
+          "KSI-SVC-ACM",
+          "KSI-SVC-ASM",
+          "KSI-SVC-SIN"
+        ]
+      },
+      {
+        "id": "FedRAMP-Awareness-and-Training-Policy",
+        "name": "AT - Awareness and Training Policy",
+        "kind": "policy",
+        "purpose": "Outlines the training and awareness programs to ensure personnel understand their security responsibilities.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c89f3eb5b8ac4bce8740",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 30-39",
+        "wordCount": 1555,
+        "relatedPractices": [
+          "KSI-CED-RAT"
+        ]
+      },
+      {
+        "id": "FedRAMP-Audit-and-Accountability-Policy",
+        "name": "AU - Audit and Accountability Policy",
+        "kind": "policy",
+        "purpose": "Establishes guidelines for auditing system activities and ensuring accountability for actions performed.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c4aa21c53e10d8f0f4fb",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 40-52",
+        "wordCount": 2792,
+        "relatedPractices": [
+          "KSI-CMT-LMC",
+          "KSI-IAM-JIT",
+          "KSI-MLA-LET",
+          "KSI-MLA-OSM",
+          "KSI-MLA-RVL",
+          "KSI-PIY-RSD"
+        ]
+      },
+      {
+        "id": "FedRAMP-Security-Assessment-and-Authorization-Policy",
+        "name": "CA - Security Assessment and Authorization Policy",
+        "kind": "policy",
+        "purpose": "Outlines the process for assessing security controls and authorizing system operations.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c5d23eb5b8ac4bce7f28",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 53-65",
+        "wordCount": 2435,
+        "relatedPractices": [
+          "KSI-CNA-EIS",
+          "KSI-CNA-MAT",
+          "KSI-CNA-RNT",
+          "KSI-CNA-ULN",
+          "KSI-MLA-EVC",
+          "KSI-PIY-RIS",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON"
+        ]
+      },
+      {
+        "id": "FedRAMP-Configuration-Management-Policy",
+        "name": "CM - Configuration Management Policy",
+        "kind": "policy",
+        "purpose": "Details the processes for managing and documenting system configurations to maintain security integrity.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c86121c53e10d8f0ff01",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 66-81",
+        "wordCount": 3454,
+        "relatedPractices": [
+          "KSI-CMT-LMC",
+          "KSI-CMT-RMV",
+          "KSI-CMT-RVP",
+          "KSI-CMT-VTD",
+          "KSI-CNA-DFP",
+          "KSI-CNA-IBP",
+          "KSI-CNA-RNT",
+          "KSI-IAM-ELP",
+          "KSI-IAM-JIT",
+          "KSI-MLA-EVC",
+          "KSI-PIY-GIV",
+          "KSI-PIY-RSD",
+          "KSI-RPL-ABO",
+          "KSI-SVC-ACM",
+          "KSI-SVC-EIS",
+          "KSI-SVC-VRI"
+        ]
+      },
+      {
+        "id": "FedRAMP-Contingency-Planning-Policy",
+        "name": "CP - Contingency Planning Policy",
+        "kind": "policy",
+        "purpose": "Specifies procedures for preparing for, responding to, and recovering from system disruptions or failures.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c83e3eb5b8ac4bce85b5",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 82-94",
+        "wordCount": 2740,
+        "relatedPractices": [
+          "KSI-CED-RAT",
+          "KSI-PIY-GIV",
+          "KSI-PIY-RIS",
+          "KSI-RPL-ABO",
+          "KSI-RPL-ARP",
+          "KSI-RPL-RRO",
+          "KSI-RPL-TRC",
+          "KSI-SVC-SIN"
+        ]
+      },
+      {
+        "id": "FedRAMP-Identification-and-Authentication-Policy",
+        "name": "IA - Identification and Authentication Policy",
+        "kind": "policy",
+        "purpose": "Sets the standards for verifying user identities and managing authentication mechanisms for secure access.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c800c2c69475a82ab009",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 95-108",
+        "wordCount": 2923,
+        "relatedPractices": [
+          "KSI-IAM-AAM",
+          "KSI-IAM-APM",
+          "KSI-IAM-ELP",
+          "KSI-IAM-JIT",
+          "KSI-IAM-SNU",
+          "KSI-SVC-ASM"
+        ]
+      },
+      {
+        "id": "FedRAMP-Incident-Response-Policy",
+        "name": "IR - Incident Response Policy",
+        "kind": "policy",
+        "purpose": "Defines the process for identifying, reporting, and responding to security incidents within the system.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c7b1c2c69475a82aaf84",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 109-121",
+        "wordCount": 2635,
+        "relatedPractices": [
+          "KSI-CED-RAT",
+          "KSI-INR-AAR",
+          "KSI-INR-RIR",
+          "KSI-INR-RPI",
+          "KSI-MLA-OSM",
+          "KSI-PIY-RIS",
+          "KSI-RPL-TRC",
+          "KSI-SCR-MON"
+        ]
+      },
+      {
+        "id": "FedRAMP-Maintenance-Policy",
+        "name": "MA - Maintenance Policy",
+        "kind": "policy",
+        "purpose": "Outlines procedures for performing and managing system maintenance securely and efficiently.",
+        "state": "APPROVED",
+        "approvedAt": "2026-05-06",
+        "approvedVersionId": "6a74c7553eb5b8ac4bce838c",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 122-133",
+        "wordCount": 2141,
+        "relatedPractices": [
+          "KSI-CMT-LMC",
+          "KSI-SVC-EIS"
+        ]
+      },
+      {
+        "id": "FedRAMP-Media-Protection-Policy",
+        "name": "MP - Media Protection Policy",
+        "kind": "policy",
+        "purpose": "Specifies requirements for protecting and handling media containing sensitive information.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c6f13eb5b8ac4bce822b",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 134-144",
+        "wordCount": 1810,
+        "relatedPractices": []
+      },
+      {
+        "id": "FedRAMP-Physical-Environmental-Protection-Policy",
+        "name": "PE - Physical and Environmental Protection Policy",
+        "kind": "policy",
+        "purpose": "Details the physical security measures to protect systems and data from environmental threats and unauthorized access.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c66521c53e10d8f0f9a1",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 145-157",
+        "wordCount": 2774,
+        "relatedPractices": []
+      },
+      {
+        "id": "FedRAMP-Planning-Policy",
+        "name": "PL - Planning Policy",
+        "kind": "policy",
+        "purpose": "Sets forth the procedures for developing, reviewing, and maintaining security plans for systems.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c644c2c69475a82aabbb",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 158-169",
+        "wordCount": 2224,
+        "relatedPractices": [
+          "KSI-CNA-IBP",
+          "KSI-PIY-RSD",
+          "KSI-SVC-ACM",
+          "KSI-SVC-EIS"
+        ]
+      },
+      {
+        "id": "FedRAMP-Personnel-Security-Policy",
+        "name": "PS - Personnel Security Policy",
+        "kind": "policy",
+        "purpose": "Establishes guidelines for managing personnel security, including background checks and access approvals.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c693c2c69475a82aac87",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 170-181",
+        "wordCount": 2021,
+        "relatedPractices": [
+          "KSI-CED-RAT",
+          "KSI-IAM-ELP",
+          "KSI-IAM-JIT",
+          "KSI-IAM-SUS",
+          "KSI-SCR-MON"
+        ]
+      },
+      {
+        "id": "FedRAMP-Risk-Assessment-Policy",
+        "name": "RA - Risk Assessment Policy",
+        "kind": "policy",
+        "purpose": "Establishes processes for identifying, assessing, and managing risks to information systems.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c62521c53e10d8f0f8f4",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 182-192",
+        "wordCount": 2009,
+        "relatedPractices": [
+          "KSI-IAM-JIT",
+          "KSI-IAM-SNU",
+          "KSI-PIY-RVD",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON"
+        ]
+      },
+      {
+        "id": "FedRAMP-System-Services-Acquisition-Policy",
+        "name": "SA - System and Services Acquisition Policy",
+        "kind": "policy",
+        "purpose": "Sets the standards for acquiring systems and services, ensuring they meet security requirements.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c50bc2c69475a82aa53c",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 193-207",
+        "wordCount": 3419,
+        "relatedPractices": [
+          "KSI-PIY-RIS",
+          "KSI-PIY-RSD",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON",
+          "KSI-SVC-ACM"
+        ]
+      },
+      {
+        "id": "FedRAMP-System-Communications-Protection-Policy",
+        "name": "SC - System and Communications Protection Policy",
+        "kind": "policy",
+        "purpose": "Details measures to protect the system and communications infrastructure from unauthorized access and threats.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c5423eb5b8ac4bce7dcb",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 208-222",
+        "wordCount": 3146,
+        "relatedPractices": [
+          "KSI-CNA-MAT",
+          "KSI-CNA-RNT",
+          "KSI-CNA-RVP",
+          "KSI-CNA-ULN",
+          "KSI-IAM-APM",
+          "KSI-IAM-ELP",
+          "KSI-IAM-JIT",
+          "KSI-PIY-RSD",
+          "KSI-SCR-MIT",
+          "KSI-SVC-ASM",
+          "KSI-SVC-EIS",
+          "KSI-SVC-PRR",
+          "KSI-SVC-SIN",
+          "KSI-SVC-VCM",
+          "KSI-SVC-VRI"
+        ]
+      },
+      {
+        "id": "FedRAMP-System-and-Information-Integrity-Policy",
+        "name": "SI - System and Information Integrity Policy",
+        "kind": "policy",
+        "purpose": "Defines procedures for ensuring the accuracy, reliability, and security of system information.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c4d73eb5b8ac4bce7c55",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 223-236",
+        "wordCount": 2785,
+        "relatedPractices": [
+          "KSI-CMT-RMV",
+          "KSI-CMT-VTD",
+          "KSI-CNA-DFP",
+          "KSI-CNA-MAT",
+          "KSI-CNA-RNT",
+          "KSI-CNA-RVP",
+          "KSI-IAM-ELP",
+          "KSI-INR-RIR",
+          "KSI-MLA-ALA",
+          "KSI-MLA-EVC",
+          "KSI-MLA-LET",
+          "KSI-MLA-OSM",
+          "KSI-MLA-RVL",
+          "KSI-PIY-RSD",
+          "KSI-RPL-ABO",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON",
+          "KSI-SVC-ACM",
+          "KSI-SVC-EIS",
+          "KSI-SVC-RUD",
+          "KSI-SVC-VCM",
+          "KSI-SVC-VRI"
+        ]
+      },
+      {
+        "id": "FedRAMP-Supply-Chain-Risk-Management-Policy",
+        "name": "SR - Supply Chain Risk Management Policy",
+        "kind": "policy",
+        "purpose": "Establishes guidelines for identifying and mitigating supply chain risks to ensure the security of systems.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "6a74c56221c53e10d8f0f727",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 237-247",
+        "wordCount": 1800,
+        "relatedPractices": [
+          "KSI-CED-RAT",
+          "KSI-PIY-RIS",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON",
+          "KSI-SVC-ACM",
+          "KSI-SVC-EIS",
+          "KSI-SVC-VRI"
+        ]
+      },
+      {
+        "id": "Acceptable Use Policy (AUP)",
+        "name": "Acceptable Use Policy (AUP)",
+        "kind": "policy",
+        "purpose": "Rules of behavior for authorized use of Nominal information systems: roles and responsibilities, authorized use, account management and authentication, data classification and handling, email and electronic communications, internet and social media, mobile devices and remote access, physical security, and software and asset management (NIST SP 800-53 PL-4).",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-31",
+        "approvedVersionId": "1.1",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 248-259",
+        "wordCount": 2425,
+        "relatedPractices": []
+      },
+      {
+        "id": "operations-security-policy-bsi",
+        "name": "Operations Security Policy",
+        "kind": "policy",
+        "purpose": "To ensure the correct and secure operation of information processing systems and facilities.",
+        "state": "APPROVED",
+        "approvedAt": "2026-01-05",
+        "approvedVersionId": "6a5b84802d448f376ef4a1d8",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 260-272",
+        "wordCount": 2845,
+        "relatedPractices": [
+          "KSI-CMT-RMV",
+          "KSI-CMT-VTD",
+          "KSI-CNA-DFP",
+          "KSI-CNA-MAT",
+          "KSI-CNA-RNT",
+          "KSI-CNA-RVP",
+          "KSI-CNA-ULN",
+          "KSI-IAM-APM",
+          "KSI-IAM-ELP",
+          "KSI-IAM-JIT",
+          "KSI-INR-RIR",
+          "KSI-MLA-ALA",
+          "KSI-MLA-EVC",
+          "KSI-MLA-LET",
+          "KSI-MLA-OSM",
+          "KSI-MLA-RVL",
+          "KSI-PIY-RSD",
+          "KSI-RPL-ABO",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON",
+          "KSI-SVC-ACM",
+          "KSI-SVC-ASM",
+          "KSI-SVC-EIS",
+          "KSI-SVC-PRR",
+          "KSI-SVC-RUD",
+          "KSI-SVC-SIN",
+          "KSI-SVC-VCM",
+          "KSI-SVC-VRI"
+        ]
+      },
+      {
+        "id": "third-party-management-policy-bsi",
+        "name": "Third-Party Risk Management Policy",
+        "kind": "policy",
+        "purpose": "To ensure protection of the organization's data and assets that are shared with, accessible to, or managed by suppliers, including external parties or third-party organizations such as service providers, vendors, and customers, and to maintain an agreed level of information security and service delivery in line with supplier agreements.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-23",
+        "approvedVersionId": "6a71f86d68fbc2d7e4eb9cd8",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 273-284",
+        "wordCount": 2688,
+        "relatedPractices": [
+          "KSI-CED-RAT",
+          "KSI-PIY-RIS",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON",
+          "KSI-SVC-ACM",
+          "KSI-SVC-EIS",
+          "KSI-SVC-VRI"
+        ]
+      },
+      {
+        "id": "FedRAMP-Access-Control-Procedure",
+        "name": "AC Procedures",
+        "kind": "procedure",
+        "purpose": "Describes the specific steps for implementing access control measures as per the policy.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-26",
+        "approvedVersionId": "6a8f526726c6507ac8889e10",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 285-312",
+        "wordCount": 6145,
+        "relatedPractices": [
+          "KSI-CNA-IBP",
+          "KSI-CNA-MAT",
+          "KSI-CNA-RNT",
+          "KSI-CNA-ULN",
+          "KSI-IAM-AAM",
+          "KSI-IAM-APM",
+          "KSI-IAM-ELP",
+          "KSI-IAM-JIT",
+          "KSI-IAM-SNU",
+          "KSI-IAM-SUS",
+          "KSI-MLA-LET",
+          "KSI-MLA-OSM",
+          "KSI-MLA-RVL",
+          "KSI-PIY-RIS",
+          "KSI-PIY-RSD",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON",
+          "KSI-SVC-ACM",
+          "KSI-SVC-ASM",
+          "KSI-SVC-SIN"
+        ]
+      },
+      {
+        "id": "FedRAMP-Awareness-and-Training-Procedure",
+        "name": "AT Procedures",
+        "kind": "procedure",
+        "purpose": "Describes the steps for implementing and maintaining awareness and training programs.",
+        "state": "APPROVED",
+        "approvedAt": "2026-05-20",
+        "approvedVersionId": "6a74f20221c53e10d8f14e29",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 313-322",
+        "wordCount": 1423,
+        "relatedPractices": [
+          "KSI-CED-RAT"
+        ]
+      },
+      {
+        "id": "FedRAMP-Audit-and-Accountability-Procedure",
+        "name": "AU Procedures",
+        "kind": "procedure",
+        "purpose": "Provides detailed instructions for auditing system activities and ensuring accountability.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-18",
+        "approvedVersionId": "6a8f53d2b560afb5533f67b8",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 323-337",
+        "wordCount": 2880,
+        "relatedPractices": [
+          "KSI-CMT-LMC",
+          "KSI-IAM-JIT",
+          "KSI-MLA-LET",
+          "KSI-MLA-OSM",
+          "KSI-MLA-RVL",
+          "KSI-PIY-RSD"
+        ]
+      },
+      {
+        "id": "FedRAMP-Assessment-Authorization-and-Monitoring-Procedure",
+        "name": "CA Procedures",
+        "kind": "procedure",
+        "purpose": "Outlines the procedures for assessing security, authorizing system operations, and ongoing monitoring.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f8e1c2c69475a82b1693",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 338-350",
+        "wordCount": 2408,
+        "relatedPractices": [
+          "KSI-CNA-EIS",
+          "KSI-CNA-MAT",
+          "KSI-CNA-RNT",
+          "KSI-CNA-ULN",
+          "KSI-MLA-EVC",
+          "KSI-PIY-RIS",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON"
+        ]
+      },
+      {
+        "id": "FedRAMP-Configuration-Management-Procedure",
+        "name": "CM Procedures",
+        "kind": "procedure",
+        "purpose": "Specifies the procedures for controlling and documenting system configurations.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f94b3eb5b8ac4bcefc4c",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 351-371",
+        "wordCount": 5714,
+        "relatedPractices": [
+          "KSI-CMT-LMC",
+          "KSI-CMT-RMV",
+          "KSI-CMT-RVP",
+          "KSI-CMT-VTD",
+          "KSI-CNA-DFP",
+          "KSI-CNA-IBP",
+          "KSI-CNA-RNT",
+          "KSI-IAM-ELP",
+          "KSI-IAM-JIT",
+          "KSI-MLA-EVC",
+          "KSI-PIY-GIV",
+          "KSI-PIY-RSD",
+          "KSI-RPL-ABO",
+          "KSI-SVC-ACM",
+          "KSI-SVC-EIS",
+          "KSI-SVC-VRI"
+        ]
+      },
+      {
+        "id": "FedRAMP-Contingency-Planning-Procedure",
+        "name": "CP Procedures",
+        "kind": "procedure",
+        "purpose": "Provides detailed steps for developing and executing contingency plans for system disruptions.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-26",
+        "approvedVersionId": "6a8f51f026c6507ac88898ff",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 372-387",
+        "wordCount": 3412,
+        "relatedPractices": [
+          "KSI-CED-RAT",
+          "KSI-PIY-GIV",
+          "KSI-PIY-RIS",
+          "KSI-RPL-ABO",
+          "KSI-RPL-ARP",
+          "KSI-RPL-RRO",
+          "KSI-RPL-TRC",
+          "KSI-SVC-SIN"
+        ]
+      },
+      {
+        "id": "FedRAMP-Identification-and-Authentication-Procedure",
+        "name": "IA Procedures",
+        "kind": "procedure",
+        "purpose": "Describes the procedures for verifying identities and managing authentication processes.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f87f21c53e10d8f16728",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 388-404",
+        "wordCount": 4040,
+        "relatedPractices": [
+          "KSI-IAM-AAM",
+          "KSI-IAM-APM",
+          "KSI-IAM-ELP",
+          "KSI-IAM-JIT",
+          "KSI-IAM-SNU",
+          "KSI-SVC-ASM"
+        ]
+      },
+      {
+        "id": "FedRAMP-Incident-Response-Procedure",
+        "name": "IR Procedures",
+        "kind": "procedure",
+        "purpose": "Provides detailed instructions for identifying, reporting, and responding to security incidents.",
+        "state": "APPROVED",
+        "approvedAt": "2026-05-26",
+        "approvedVersionId": "6a74f8133eb5b8ac4bcef5b1",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 405-421",
+        "wordCount": 3985,
+        "relatedPractices": [
+          "KSI-CED-RAT",
+          "KSI-INR-AAR",
+          "KSI-INR-RIR",
+          "KSI-INR-RPI",
+          "KSI-MLA-OSM",
+          "KSI-PIY-RIS",
+          "KSI-RPL-TRC",
+          "KSI-SCR-MON"
+        ]
+      },
+      {
+        "id": "FedRAMP-Maintenance-Procedure",
+        "name": "MA Procedures",
+        "kind": "procedure",
+        "purpose": "Specifies the procedures for securely conducting and documenting system maintenance activities.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f74f3eb5b8ac4bcef1e9",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 422-432",
+        "wordCount": 1631,
+        "relatedPractices": [
+          "KSI-CMT-LMC",
+          "KSI-SVC-EIS"
+        ]
+      },
+      {
+        "id": "FedRAMP-Media-Protection-Procedure",
+        "name": "MP Procedures",
+        "kind": "procedure",
+        "purpose": "Outlines the steps for protecting, handling, and disposing of media containing sensitive information.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f7e93eb5b8ac4bcef527",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 433-442",
+        "wordCount": 1346,
+        "relatedPractices": []
+      },
+      {
+        "id": "FedRAMP-Physical-Environmental-Protection-Procedure",
+        "name": "PE Procedures",
+        "kind": "procedure",
+        "purpose": "Describes the procedures for implementing physical and environmental security measures.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f6fe3eb5b8ac4bcef01e",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 443-455",
+        "wordCount": 2130,
+        "relatedPractices": []
+      },
+      {
+        "id": "FedRAMP-Planning-Procedure",
+        "name": "PL Procedures",
+        "kind": "procedure",
+        "purpose": "Specifies the steps for developing and maintaining security plans for systems.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-21",
+        "approvedVersionId": "6a74f779c2c69475a82b12d0",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 456-466",
+        "wordCount": 1799,
+        "relatedPractices": [
+          "KSI-CNA-IBP",
+          "KSI-PIY-RSD",
+          "KSI-SVC-ACM",
+          "KSI-SVC-EIS"
+        ]
+      },
+      {
+        "id": "FedRAMP-Personnel-Security-Procedure",
+        "name": "PS Procedures",
+        "kind": "procedure",
+        "purpose": "Provides detailed instructions for implementing personnel security measures, including background checks.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-21",
+        "approvedVersionId": "6a74f22d21c53e10d8f14f47",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 467-478",
+        "wordCount": 2327,
+        "relatedPractices": [
+          "KSI-CED-RAT",
+          "KSI-IAM-ELP",
+          "KSI-IAM-JIT",
+          "KSI-IAM-SUS",
+          "KSI-SCR-MON"
+        ]
+      },
+      {
+        "id": "FedRAMP-Risk-Assessment-Procedure",
+        "name": "RA Procedures",
+        "kind": "procedure",
+        "purpose": "Outlines the procedures for conducting and documenting risk assessments.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-18",
+        "approvedVersionId": "6a8f54da26c6507ac888ba72",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 479-490",
+        "wordCount": 2356,
+        "relatedPractices": [
+          "KSI-IAM-JIT",
+          "KSI-IAM-SNU",
+          "KSI-PIY-RVD",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON"
+        ]
+      },
+      {
+        "id": "FedRAMP-System-Services-Acquisition-Procedure",
+        "name": "SA Procedures",
+        "kind": "procedure",
+        "purpose": "Provides detailed steps for acquiring systems and services, ensuring that they comply with security requirements and meet the organization's operational needs.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-04",
+        "approvedVersionId": "6a74f660c2c69475a82b0b59",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 491-506",
+        "wordCount": 3719,
+        "relatedPractices": [
+          "KSI-PIY-RIS",
+          "KSI-PIY-RSD",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON",
+          "KSI-SVC-ACM"
+        ]
+      },
+      {
+        "id": "FedRAMP-System-Communications-Protection-Procedure",
+        "name": "SC Procedures",
+        "kind": "procedure",
+        "purpose": "Describes the specific procedures for protecting the system and communications infrastructure.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-11",
+        "approvedVersionId": "6a7d22b4a402ed16c17c1d8b",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 507-522",
+        "wordCount": 3716,
+        "relatedPractices": [
+          "KSI-CNA-MAT",
+          "KSI-CNA-RNT",
+          "KSI-CNA-RVP",
+          "KSI-CNA-ULN",
+          "KSI-IAM-APM",
+          "KSI-IAM-ELP",
+          "KSI-IAM-JIT",
+          "KSI-PIY-RSD",
+          "KSI-SCR-MIT",
+          "KSI-SVC-ASM",
+          "KSI-SVC-EIS",
+          "KSI-SVC-PRR",
+          "KSI-SVC-SIN",
+          "KSI-SVC-VCM",
+          "KSI-SVC-VRI"
+        ]
+      },
+      {
+        "id": "FedRAMP-System-Information-Integrity-Procedure",
+        "name": "SI Procedures",
+        "kind": "procedure",
+        "purpose": "Outlines the procedures for maintaining the integrity of system information and ensuring its reliability.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-24",
+        "approvedVersionId": "6a8cbb2b4fa8c1dbb17beafc",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 523-535",
+        "wordCount": 2237,
+        "relatedPractices": [
+          "KSI-CMT-RMV",
+          "KSI-CMT-VTD",
+          "KSI-CNA-DFP",
+          "KSI-CNA-MAT",
+          "KSI-CNA-RNT",
+          "KSI-CNA-RVP",
+          "KSI-IAM-ELP",
+          "KSI-INR-RIR",
+          "KSI-MLA-ALA",
+          "KSI-MLA-EVC",
+          "KSI-MLA-LET",
+          "KSI-MLA-OSM",
+          "KSI-MLA-RVL",
+          "KSI-PIY-RSD",
+          "KSI-RPL-ABO",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON",
+          "KSI-SVC-ACM",
+          "KSI-SVC-EIS",
+          "KSI-SVC-RUD",
+          "KSI-SVC-VCM",
+          "KSI-SVC-VRI"
+        ]
+      },
+      {
+        "id": "FedRAMP-Supply-Chain-Risk-Management-Procedure",
+        "name": "SR Procedures",
+        "kind": "procedure",
+        "purpose": "Provides detailed steps for identifying and mitigating supply chain risks to protect systems.",
+        "state": "APPROVED",
+        "approvedAt": "2026-05-29",
+        "approvedVersionId": "6a74f6d6c2c69475a82b0d3a",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 536-545",
+        "wordCount": 1531,
+        "relatedPractices": [
+          "KSI-CED-RAT",
+          "KSI-PIY-RIS",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON",
+          "KSI-SVC-ACM",
+          "KSI-SVC-EIS",
+          "KSI-SVC-VRI"
+        ]
+      },
+      {
+        "id": "FedRAMP-Incident-Response-Plan",
+        "name": "Incident Response Plan",
+        "kind": "plan",
+        "purpose": "Details the plan for responding to security incidents, including roles, responsibilities, and steps to take.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-28",
+        "approvedVersionId": "6a74c9d621c53e10d8f1030c",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 546-592",
+        "wordCount": 9255,
+        "relatedPractices": [
+          "KSI-CED-RAT",
+          "KSI-INR-AAR",
+          "KSI-INR-RIR",
+          "KSI-INR-RPI",
+          "KSI-MLA-OSM",
+          "KSI-PIY-RIS",
+          "KSI-RPL-TRC",
+          "KSI-SCR-MON"
+        ]
+      },
+      {
+        "id": "FedRAMP-Continuous-Monitoring-Plan",
+        "name": "ConMon Plan",
+        "kind": "plan",
+        "purpose": "Outlines the plan for continuous monitoring of security controls and system activities.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-10",
+        "approvedVersionId": "6a7d3066216dcadb601d144d",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 593-604",
+        "wordCount": 2435,
+        "relatedPractices": [
+          "KSI-CNA-EIS",
+          "KSI-MLA-EVC",
+          "KSI-SCR-MIT"
+        ]
+      },
+      {
+        "id": "FedRAMP-Configuration-Management-Plan",
+        "name": "Configuration Management Plan",
+        "kind": "plan",
+        "purpose": "Details the plan for managing system configurations to maintain security and operational integrity.",
+        "state": "APPROVED",
+        "approvedAt": "2026-10-05",
+        "approvedVersionId": "6ac51b287d37363639216fc0",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 605-630",
+        "wordCount": 6873,
+        "relatedPractices": [
+          "KSI-CMT-LMC",
+          "KSI-CMT-RMV",
+          "KSI-CMT-RVP",
+          "KSI-CMT-VTD",
+          "KSI-CNA-DFP",
+          "KSI-CNA-IBP",
+          "KSI-CNA-RNT",
+          "KSI-IAM-ELP",
+          "KSI-IAM-JIT",
+          "KSI-MLA-EVC",
+          "KSI-PIY-GIV",
+          "KSI-PIY-RSD",
+          "KSI-RPL-ABO",
+          "KSI-SVC-ACM",
+          "KSI-SVC-EIS",
+          "KSI-SVC-VRI"
+        ]
+      },
+      {
+        "id": "Information System Contingency Plan (ISCP)",
+        "name": "Information System Contingency Plan (ISCP)",
+        "kind": "plan",
+        "purpose": "Information system contingency plan for the Nominal core and corporate information systems: concept of operations, activation and notification, recovery and reconstitution; supersedes the Business Continuity and Disaster Recovery Plan v4.0.",
+        "state": "APPROVED",
+        "approvedAt": "2026-08-05",
+        "approvedVersionId": "1.0",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 631-667",
+        "wordCount": 9140,
+        "relatedPractices": [
+          "KSI-CED-RAT",
+          "KSI-PIY-GIV",
+          "KSI-PIY-RIS",
+          "KSI-RPL-ABO",
+          "KSI-RPL-ARP",
+          "KSI-RPL-RRO",
+          "KSI-RPL-TRC",
+          "KSI-SVC-SIN"
+        ]
+      },
+      {
+        "id": "FedRAMP-Supply-Chain-Risk-Management-Plan-SCRMP",
+        "name": "Supply Chain Risk Management Plan",
+        "kind": "plan",
+        "purpose": "Defines strategies for managing risks associated with the supply chain to protect system integrity.",
+        "state": "APPROVED",
+        "approvedAt": "2026-07-29",
+        "approvedVersionId": "6a74ca2e3eb5b8ac4bce8e59",
+        "file": "policies-2026-10-26.pdf",
+        "location": "pages 668-683",
+        "wordCount": 3852,
+        "relatedPractices": [
+          "KSI-CED-RAT",
+          "KSI-PIY-RIS",
+          "KSI-SCR-MIT",
+          "KSI-SCR-MON",
+          "KSI-SVC-ACM",
+          "KSI-SVC-EIS",
+          "KSI-SVC-VRI"
+        ]
       }
     ],
     "documents": [
@@ -491,7 +1182,7 @@
         "title": "Package Supplement: Supplemental Resource Inventory Annual",
         "description": "Inventory of the information resources inside the FedRAMP Minimum Assessment Scope, enumerated from AWS Config, the Kubernetes clusters and the in-boundary registry.",
         "vantaDocumentId": "fedramp20x-supplemental-resource-inventory",
-        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "sharedVia": "Trust Center, FedRAMP 20x category: FedRAMP Certification Package Documents — 2026-10-26 (PDF), pages 2-3 (request access)",
         "lastUpdated": "2026-08-26",
         "nextReview": "2027-08-26",
         "status": "current"
@@ -501,7 +1192,7 @@
         "title": "Network diagram",
         "description": "Boundary diagram: accounts, VPCs, clusters, edge and egress, interconnections.",
         "vantaDocumentId": "network-diagram",
-        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "sharedVia": "Trust Center, FedRAMP 20x category: FedRAMP Certification Package Documents — 2026-10-26 (PDF), pages 4-15 (request access)",
         "lastUpdated": "2026-08-11",
         "nextReview": "2027-08-11",
         "status": "current"
@@ -511,7 +1202,7 @@
         "title": "Information Flow and Impact Level Matrix",
         "description": "Information flows between resources with the security category of the federal customer data each carries.",
         "vantaDocumentId": "fedramp20x-information-flow-impact-matrix",
-        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "sharedVia": "Trust Center, FedRAMP 20x category: FedRAMP Certification Package Documents — 2026-10-26 (PDF), pages 16-16 (request access)",
         "lastUpdated": "2026-08-13",
         "nextReview": "2027-08-13",
         "status": "current"
@@ -521,7 +1212,7 @@
         "title": "Third-Party Information Resources",
         "description": "Register of third-party information resources (FedRAMP-certified services leveraged and non-certified components) with usage, justification, mitigations and compensating controls.",
         "vantaDocumentId": "fedramp20x-third-party-information-resources",
-        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "sharedVia": "Trust Center, FedRAMP 20x category: FedRAMP Certification Package Documents — 2026-10-26 (PDF), pages 17-17 (request access)",
         "lastUpdated": "2026-08-09",
         "nextReview": "2027-08-09",
         "status": "current"
@@ -531,7 +1222,7 @@
         "title": "Cryptographic Module Documentation",
         "description": "Cryptographic module inventory by data path: module, provider, version, CMVP validation status.",
         "vantaDocumentId": "fedramp20x-cvmp-documentation",
-        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "sharedVia": "Trust Center, FedRAMP 20x category: FedRAMP Certification Package Documents — 2026-10-26 (PDF), pages 18-18 (request access)",
         "lastUpdated": "2026-08-26",
         "nextReview": "2027-08-26",
         "status": "current"
@@ -541,7 +1232,7 @@
         "title": "Using Validated Cryptographic Modules",
         "description": "How validated modules are used and kept current.",
         "vantaDocumentId": "fedramp20x-using-validated-cryptographic-modules",
-        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "sharedVia": "Trust Center, FedRAMP 20x category: FedRAMP Certification Package Documents — 2026-10-26 (PDF), pages 19-19 (request access)",
         "lastUpdated": "2026-08-26",
         "nextReview": "2027-08-26",
         "status": "current"
@@ -551,7 +1242,7 @@
         "title": "FIPS 140-2 Validated Cryptographic Modules",
         "description": "Validated-module certificates referenced by the inventory.",
         "vantaDocumentId": "fips-140-2-validated-cryptographic-modules",
-        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "sharedVia": "Trust Center, FedRAMP 20x category: FedRAMP Certification Package Documents — 2026-10-26 (PDF), pages 20-20 (request access)",
         "lastUpdated": "2026-07-23",
         "nextReview": "2027-07-23",
         "status": "current"
@@ -561,7 +1252,7 @@
         "title": "Recommended Secure Configuration",
         "description": "Secure Configuration Guide: human-readable guide and machine-readable baseline.",
         "vantaDocumentId": "fedramp20-recommended-secure-configuration",
-        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "sharedVia": "Trust Center, FedRAMP 20x category (public): FedRAMP Secure Configuration Guide — v1.0 (2026-08-17) and FedRAMP Secure Configuration Baseline — v1.0 (2026-08-17, JSON)",
         "lastUpdated": "2026-08-17",
         "nextReview": "2027-08-17",
         "status": "current"
@@ -571,7 +1262,7 @@
         "title": "Secure Configuration Guide Instructions",
         "description": "Which edition of the guide to use for what.",
         "vantaDocumentId": "fedramp20x-secure-configuration-guide-use-instructions",
-        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "sharedVia": "Trust Center, FedRAMP 20x category (public): FedRAMP Secure Configuration Comparison and Export Guide — v1.0 (2026-08-17)",
         "lastUpdated": "2026-08-17",
         "nextReview": "2027-08-17",
         "status": "current"
@@ -581,13 +1272,29 @@
         "title": "Assessment Engagement and Results Procedure",
         "description": "How the independent assessment (A-LIGN, assessor 138665) is engaged and its results placed in the package; the assessor's overall summary is added on completion.",
         "vantaDocumentId": "fedramp20x-assessment-engagement-procedure",
-        "sharedVia": "Trust Center, FedRAMP 20x category (request access)",
+        "sharedVia": "Trust Center, FedRAMP 20x category: FedRAMP Certification Package Documents — 2026-10-26 (PDF), pages 21-22 (request access)",
         "lastUpdated": "2026-08-19",
         "nextReview": "2027-08-19",
         "status": "assessment in progress; overall summary of assessment expected after 2026-11-26"
+      },
+      {
+        "rule": "IVV-CSO-DUS",
+        "title": "Representative Sampling Register",
+        "description": "Representative Sampling Register: each use of representative sampling in verification and validation, with population, selection, size, rationale and frequency.",
+        "vantaDocumentId": "6ad0265b08dba0db4e9deb40",
+        "sharedVia": "Trust Center, FedRAMP 20x category: FedRAMP Certification Package Documents — 2026-10-26 (PDF), pages 23-24 (request access)",
+        "lastUpdated": "2026-10-15",
+        "nextReview": "2027-10-15",
+        "status": "current"
       }
-    ]
+    ],
+    "policyDocument": {
+      "file": "policies-2026-10-26.pdf",
+      "sha256": "45c44886ede467cef5e692485b9c7c8847c5025c7a984e91b421d385a45ffcaa",
+      "pages": 683,
+      "edition": "2026-10-26"
+    }
   },
   "ZD_frid_retro": "FR2702257113",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }

@@ -3,11 +3,11 @@
     "providerName": "Vulcan Technologies, Inc.",
     "serviceName": "VulcanGov (Justinian for Government)",
     "serviceAcronym": "VulcanGov",
-    "serviceDescription": "VulcanGov (Justinian for Government) is a SaaS AI platform for government: an AI agent workspace grounded in a curated, continuously updated library of federal and state statutes, regulations, guidance and housing datasets, with full-text and semantic search, secure single-use agent sandboxes for code execution and document generation, and an administration console for agency user management, session audit visibility and usage export. It is delivered from a government-only environment in AWS GovCloud (US) (us-gov-east-1) on a containerized microservices architecture: AWS ECS Fargate, Aurora PostgreSQL, S3 object storage, OpenSearch and ElastiCache. Federal customer data is stored and processed in AWS GovCloud (US); large language model inference is provided by Amazon Bedrock through a documented transport bridge, and every cross-boundary resource, including any temporary deviation, is disclosed in the published third-party information resources and service-scope lists rather than omitted. Data is encrypted at rest (AWS KMS, AES-256) and in transit (TLS 1.2/1.3) with FIPS 140-validated cryptographic modules; identity and access are federated through Okta for Government with enforced multi-factor authentication; security monitoring uses Datadog for Government, Wiz for Government and native AWS security services. Available to federal, state and local governments and to organizations working on their behalf. Public offering information, the secure configuration guide and live availability status are published on the Trust Center at https://trust.vulcangov.app; FedRAMP Certification Data is available to federal reviewers through its gated portal.",
+    "serviceDescription": "VulcanGov (Justinian for Government) is a SaaS AI platform for government: an AI agent workspace grounded in a curated, continuously updated library of federal and state statutes, regulations, guidance and housing datasets, with full-text and semantic search, secure single-use agent sandboxes for code execution and document generation, and an administration console for agency user management, session audit visibility and usage export. It is delivered from a government-only environment in AWS GovCloud (US) (us-gov-east-1) on a containerized microservices architecture: AWS ECS Fargate, Aurora PostgreSQL, S3 object storage, OpenSearch and ElastiCache. Federal customer data is stored in AWS GovCloud (US). Large language model inference runs in Amazon Bedrock in commercial AWS regions (us-east-1, us-east-2 and us-west-2), reached over a documented transport bridge: prompts and the content supplied with them are processed there. Every cross-boundary resource, including any temporary deviation, is disclosed in the published third-party information resources and service-scope lists rather than omitted. Data is encrypted at rest (AWS KMS, AES-256) and in transit (TLS 1.2/1.3) with FIPS 140-validated cryptographic modules; identity and access are federated through Okta for Government with enforced multi-factor authentication; security monitoring uses Datadog for Government, Wiz for Government and native AWS security services. Available to federal, state and local governments and to organizations working on their behalf. Public offering information, the secure configuration guide and live availability status are published on the Trust Center at https://trust.vulcangov.app; FedRAMP Certification Data is available to federal reviewers through its gated portal.",
     "certificationType": "20x",
     "fedRampPackageId": "FR2619254906",
     "ueiNumber": "K6R1PJDRE6P8",
-    "website": "https://vulcan.ai/fedramp",
+    "website": "https://trust.vulcangov.app",
     "logo": "https://trust.vulcangov.app/assets/logo.svg"
   },
   "serviceProperties": {
@@ -84,7 +84,7 @@
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
-        "useCase": "AWS US East/West, FedRAMP Moderate. Amazon Bedrock model inference for the platform's AI features: Anthropic Claude models through US cross-region inference profiles that route only to us-east-1, us-east-2 and us-west-2, reached only through the platform's documented transport bridge. Bedrock receives user prompts and the content supplied with them and returns model output; model invocation logging is not enabled in the bridge account, so prompts and outputs are not retained there."
+        "useCase": "AWS US East/West, FedRAMP Moderate. AWS Bedrock-powered model inference for the platform's AI features through US cross-region inference profiles that route only to us-east-1, us-east-2 and us-west-2, reached only through the platform's documented transport bridge. Bedrock receives user prompts and the content supplied with them and returns model output; model invocation logging is not enabled in the bridge account, so prompts and outputs are not retained there."
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
@@ -105,7 +105,7 @@
     ],
     "nonCertified": []
   },
-  "certificationStatusNote": "The FedRAMP 20x Class C (Moderate) application was filed September 14, 2026 (ticket 67477). On October 6, 2026, FedRAMP placed the application in its review queue; a review team has not yet been assigned. A-LIGN completed the independent assessment September 11, 2026. Ongoing certification report dates will be published upon certification; the available OCR dry-run is a readiness example, not a filed ongoing report. The Security Decision Record and assessment materials are available through the agency portal.",
+  "certificationStatusNote": "The FedRAMP 20x Class C (Moderate) application was filed September 14, 2026 (ticket 67477). On October 6, 2026, FedRAMP placed the application in its review queue; it passed intake on October 15, 2026, and on October 27, 2026 FedRAMP named the review team and said the review would start soon. A-LIGN completed the independent assessment September 11, 2026. Ongoing certification report dates will be published upon certification; the available OCR dry-run is a readiness example, not a filed ongoing report. The Security Decision Record and assessment materials are available through the agency portal.",
   "certificationTrackNote": "This package supports the application for FedRAMP 20x / Program / Class C (Moderate). At the provider's request, the Marketplace listing retains the Legacy FedRAMP Ready designation (June 10, 2026) while the 20x Class C application is under review.",
   "availabilityNote": "Availability measurements began August 16, 2026. The status page shows the measured history, any no-data periods and the full incident history; dates before monitoring began are not backfilled.",
   "documentMetadata": {
@@ -115,14 +115,14 @@
       "email": "jonah@vulcan.ai"
     },
     "updateSource": "Generated by generator/build.py from source/trust-center.source.json. This revision: application queue status, Marketplace designation note, reviewer navigation, Security Inbox address in the access instructions, and third-party resource identifiers.",
-    "version": "2026-10-07+7cf0fddd11ea",
-    "lastUpdatedAt": "2026-10-07T19:39:29+00:00",
-    "sourceRevision": "7cf0fddd11ea"
+    "version": "2026-10-28+75ffefb9fba6",
+    "lastUpdatedAt": "2026-10-28T23:55:30+00:00",
+    "sourceRevision": "75ffefb9fba6"
   },
   "independentAssessmentSummary": {
     "status": "supplied",
     "assessor": "A-LIGN Compliance and Security, Inc. dba A-LIGN (FedRAMP Recognized independent assessor, ID 138665)",
-    "summary": "A-LIGN (FedRAMP Recognized independent assessor; lead assessor Dennis Coats) completed the initial FedRAMP 20x Class C (Moderate) independent assessment of VulcanGov on September 11, 2026. All 203 applicable FedRAMP Consolidated Rules were assessed: 202 were found implemented and 1 gap was identified — FRC-APP-AFC, the FedRAMP Certification Application Form, which had not yet been filed at the assessment date. Provider follow-up: the application was filed September 14, 2026 (ticket 67477), and the provider recorded closure in SDR v48. This follow-up does not change the assessor's September 11 findings. All 46 Key Security Indicators were determined to be implemented and to meet the Class C bar of at least two automated validation methods per KSI. The six-month KSI validation history continues to accrue under the initial-certification arrangement. The assessor's report and control-testing export are available to agencies through the Trust Center portal.",
+    "summary": "A-LIGN (FedRAMP Recognized independent assessor; lead assessor Dennis Coats) completed the initial FedRAMP 20x Class C (Moderate) independent assessment of VulcanGov on September 11, 2026. All 203 rules of the engagement (46 Key Security Indicators and 157 requirement rules) were assessed: 202 were found implemented and 1 gap was identified — FRC-APP-AFC, the FedRAMP Certification Application Form, which had not yet been filed at the assessment date. Provider follow-up: the application was filed September 14, 2026 (ticket 67477), and the provider recorded closure in SDR v48. This follow-up does not change the assessor's September 11 findings. All 46 Key Security Indicators were determined to be implemented and to meet the Class C bar of at least two automated validation methods per KSI. The KSI validation history continues to accrue toward its one-year window (SDR-CSX-KMT) under the initial-certification arrangement. The assessor's report and control-testing export are available to agencies through the Trust Center portal.",
     "suppliedOn": "2026-09-11",
     "note": "Overall summary of the FedRAMP independent assessment (IVV-IAS-OSA) as reflected in the assessor's report cover summary; the assessor's full report and per-rule testing export are published as gated-tier artifacts (independent-assessment class) following the CISO's first-publication review (CDS-CSO-RIS) on 2026-09-11."
   },
@@ -131,7 +131,7 @@
     "nextOngoingCertificationReportDate": null,
     "nextQuarterlyReviewDate": null,
     "selectedRecurrence": "Ongoing Certification Report: the 15th day of the middle month of each calendar quarter (February, May, August, November), or the next business day when the 15th falls on a weekend or federal holiday; synchronous Quarterly Review: second Wednesday after each report publication (selected by the CISO 2026-08-25, replacing the quarter-end anchor selected 2026-08-23; first cycle contingent on certification).",
-    "note": "The FedRAMP 20x Class C (Moderate) application was filed September 14, 2026 (ticket 67477). On October 6, 2026, FedRAMP placed the application in its review queue; a review team has not yet been assigned. A-LIGN completed the independent assessment September 11, 2026. Ongoing certification report dates will be published upon certification; the available OCR dry-run is a readiness example, not a filed ongoing report. The Security Decision Record and assessment materials are available through the agency portal."
+    "note": "The FedRAMP 20x Class C (Moderate) application was filed September 14, 2026 (ticket 67477). On October 6, 2026, FedRAMP placed the application in its review queue; it passed intake on October 15, 2026, and on October 27, 2026 FedRAMP named the review team and said the review would start soon. A-LIGN completed the independent assessment September 11, 2026. Ongoing certification report dates will be published upon certification; the available OCR dry-run is a readiness example, not a filed ongoing report. The Security Decision Record and assessment materials are available through the agency portal."
   },
   "ZD_frid_retro": "FR2619254906",
   "id_matches_expected": true
