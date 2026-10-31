@@ -1,0 +1,267 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "metadata": {
+    "responsibleAccountableOfficial": {
+      "name": "Landon Hill",
+      "title": "Chief Technology Officer",
+      "email": "landon@rmpacgroup.com",
+      "phone": "(478) 293-7711"
+    },
+    "version": "2026.10.26.2",
+    "lastUpdated": "2026-10-26T18:00:00Z",
+    "sourceOfUpdate": "RMPAC ONE source repository, file rmpac-ai/trust/fedramp.json, maintained by the Chief Technology Officer; the Trust Center page renders from this file."
+  },
+  "certificationStatus": "Not FedRAMP Certified. RMPAC ONE is preparing a FedRAMP Marketplace listing in the Initial Implementation Phase (FedRAMP 20x, Program Certification path). No FedRAMP independent assessment has been performed.",
+  "serviceIdentification": {
+    "fedRampPackageId": "RMPAC AI LLC - RMPAC ONE (FedRAMP ID not yet assigned)",
+    "ueiNumber": "RBZDM29WB3J3",
+    "providerName": "RMPAC AI LLC",
+    "serviceName": "RMPAC ONE",
+    "serviceAcronym": "RMPAC ONE",
+    "serviceDescription": "RMPAC ONE is a software-as-a-service construction intelligence and management platform. One workspace carries a construction job from opportunity to closeout:\n\n- **Find and win work:** federal opportunity search (SAM.gov), leads, a bid board, estimates by CSI division, bid packages sent to invited subcontractors, bid leveling and proposals.\n- **Buy and deliver:** procurement buyout, purchase commitments, deliveries and supplier records.\n- **Run the job:** submittals, RFIs, daily logs, punch lists, observations, changes, schedules, meetings, drawings and specifications, with photos and documents attached.\n- **Manage the money:** schedules of values, budgets, AIA G702-style pay applications, cash flow, margin and certified payroll.\n- **Review plans:** a PDF plan workspace for markups and measurements, and a takeoff tool that builds bills of materials from drawing sets by deterministic rules.\n- **Ask questions:** an AI assistant that answers from the customer's own records. Prices researched on the web are shown with their source for a person to accept, change or ignore.\n\nIntended agency use (Direct Use): federal facilities, engineering and acquisition staff who plan, procure, build, oversee and close out construction and renovation projects, used directly within an agency-authorized federal information system. Each agency authorizes its own use.\n\nRMPAC ONE runs on Cloudflare (application hosting, database and file storage) and Amazon Web Services US East (identity, APIs, account database and document text extraction). See the third-party information resources below.",
+    "certificationType": "20x",
+    "website": "https://www.rmpacone.com",
+    "logo": "https://www.rmpacone.com/images/rmpac-one_logo_trademark.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Construction",
+      "Operations Management",
+      "Artificial Intelligence (AI)",
+      "Collaboration",
+      "Data Management",
+      "Analytics",
+      "Finance"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.rmpacone.com/trust/",
+      "repositoryDescription": "RMPAC ONE Trust Center: FedRAMP status, the services in scope, third-party information resources, goals and milestones toward FedRAMP Certification (updated at least quarterly) and how to request FedRAMP Certification Data. Machine-readable data: https://www.rmpacone.com/trust/fedramp.json. No authentication is required for public information.",
+      "authenticationRequired": false
+    }
+  },
+  "agencyUseCase": {
+    "useCase": "Direct Use",
+    "description": "Agency facilities, engineering and acquisition staff use RMPAC ONE directly to run their build process on construction and renovation projects (submittals, RFIs, daily logs, pay applications, procurement and plan review) as part of an agency-authorized federal information system."
+  },
+  "certificationProgress": {
+    "currentPhase": "Preparation for a FedRAMP Marketplace listing (Initial Implementation Phase)",
+    "updated": "2026-10-26",
+    "nextUpdateDue": "2027-01-26",
+    "milestones": [
+      {
+        "target": "2026-Q4",
+        "status": "Done",
+        "completed": "2026-10-26",
+        "goal": "Publish this Trust Center and its JSON data, valid against FedRAMP's Certification Package Overview schema."
+      },
+      {
+        "target": "2026-Q4",
+        "status": "In progress",
+        "goal": "Request a FedRAMP Marketplace listing in the Initial Implementation Phase."
+      },
+      {
+        "target": "2027-Q1",
+        "status": "Planned",
+        "goal": "Keep all source code under version control, with every production change logged and reviewed (KSI-CMT-LMC)."
+      },
+      {
+        "target": "2027-Q1",
+        "status": "Planned",
+        "goal": "Offer phishing-resistant sign-in (passkeys) to every user, and require it for RMPAC staff and customer administrators (KSI-IAM-APM)."
+      },
+      {
+        "target": "2027-Q1",
+        "status": "Planned",
+        "goal": "Write and test an incident response procedure, establish a monitored FedRAMP Security Inbox, and start security training for all staff (KSI-INR-RIR, KSI-CED-RAT)."
+      },
+      {
+        "target": "2027-Q2",
+        "status": "Planned",
+        "goal": "Start persistent vulnerability detection and publish the Secure Configuration Guide (VDR-CSO-DET, SCG-CSO-RSC)."
+      },
+      {
+        "target": "2027-Q2",
+        "status": "Planned",
+        "goal": "Complete the FIPS 199 categorization, information flow documentation and third-party risk documentation for every service in scope (MAS-CSO-IIR, MAS-CSO-FLO, MAS-CSO-TPR)."
+      },
+      {
+        "target": "2027-Q3",
+        "status": "Planned",
+        "goal": "Engage a FedRAMP Recognized independent assessor and schedule a FedRAMP 20x Class B assessment."
+      }
+    ],
+    "updates": [
+      {
+        "date": "2026-10-26",
+        "summary": "Started the FedRAMP 20x effort. Published this Trust Center and its machine-readable Certification Package Overview, checked against FedRAMP's schema and validator. Drafted the Security Decision Record against every Class A rule and Key Security Indicator, recording what is in place and what is not, and set the goals and milestones above."
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Landon Hill, Chief Technology Officer",
+      "contactEmail": "landon@rmpacgroup.com",
+      "contactPhone": "(478) 293-7711"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "RMPAC ONE Sales",
+      "contactEmail": "landon@rmpacgroup.com",
+      "contactPhone": "(888) 777-6722"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Opportunity Intelligence",
+      "serviceDescription": "Federal opportunity search over SAM.gov public data, leads, the bid board, go/no-go reviews, competitor and forecast views.",
+      "securityCategory": "Pending FIPS 199 categorization"
+    },
+    {
+      "serviceName": "Estimation & Bidding",
+      "serviceDescription": "Estimates by CSI division, bid packages, invitations to subcontractors, bid leveling, the Bid Builder and proposals.",
+      "securityCategory": "Pending FIPS 199 categorization"
+    },
+    {
+      "serviceName": "Bid Portal",
+      "serviceDescription": "bid.rmpacone.com, where invited subcontractors read bid documents, ask questions and submit their numbers through a per-invitation link.",
+      "securityCategory": "Pending FIPS 199 categorization"
+    },
+    {
+      "serviceName": "Procurement Intelligence",
+      "serviceDescription": "Buyout, purchase commitments, deliveries and receipts, supplier records and pricing comparisons.",
+      "securityCategory": "Pending FIPS 199 categorization"
+    },
+    {
+      "serviceName": "Project Execution",
+      "serviceDescription": "Submittals, RFIs, daily logs, punch lists, observations, change events and change orders, schedules, meetings, drawings, specifications and the job team, with photo and document attachments.",
+      "securityCategory": "Pending FIPS 199 categorization"
+    },
+    {
+      "serviceName": "Financial Workspace",
+      "serviceDescription": "Schedules of values, budgets, G702-style pay applications, change value, direct costs, cash flow and margin.",
+      "securityCategory": "Pending FIPS 199 categorization"
+    },
+    {
+      "serviceName": "Certified Payroll",
+      "serviceDescription": "Weekly certified payroll submissions from contractors on a job, with review by the prime contractor's accounting staff.",
+      "securityCategory": "Pending FIPS 199 categorization"
+    },
+    {
+      "serviceName": "Risk & Compliance",
+      "serviceDescription": "Contractor credentials, insurance certificates, bonding capacity and safety toolbox talks.",
+      "securityCategory": "Pending FIPS 199 categorization"
+    },
+    {
+      "serviceName": "Plans & PDF Workspace",
+      "serviceDescription": "PDF plan sets with markups, measurements, stamps, signatures, page extraction and comparison.",
+      "securityCategory": "Pending FIPS 199 categorization"
+    },
+    {
+      "serviceName": "BOM and Takeoff",
+      "serviceDescription": "Builds bills of materials from uploaded drawing sets by deterministic rules. For text-only documents with no drawings, a language model merges duplicate lines across documents.",
+      "securityCategory": "Pending FIPS 199 categorization"
+    },
+    {
+      "serviceName": "Ask Wattson",
+      "serviceDescription": "An AI assistant scoped to construction work that answers from the customer's own records and attached documents.",
+      "securityCategory": "Pending FIPS 199 categorization"
+    },
+    {
+      "serviceName": "Documents and Attachments",
+      "serviceDescription": "File storage for plans, specifications, photos and paperwork attached to jobs and records, with large uploads sent in parts.",
+      "securityCategory": "Pending FIPS 199 categorization"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "AWS US East/West, region us-east-1: Amazon Cognito (user directory, sign-in, multi-factor authentication), Amazon API Gateway and AWS Lambda (account, subscription and takeoff APIs), Amazon RDS for PostgreSQL (account and takeoff records) and Amazon Textract (table extraction from uploaded drawings)."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Cloudflare Pages, Workers, D1, R2 and network services",
+        "provider": "Cloudflare, Inc.",
+        "website": "https://www.cloudflare.com",
+        "useCase": "Hosts the application and its server functions, the job and catalog databases (D1) and stored documents (R2), and provides DNS, TLS and the content delivery network. This is Cloudflare's standard commercial service, not the FedRAMP Authorized Cloudflare for Government offering (FR2000863987A)."
+      },
+      {
+        "name": "Anthropic API (Claude)",
+        "provider": "Anthropic, PBC",
+        "website": "https://www.anthropic.com",
+        "useCase": "Language model behind the AI assistant and drafting aids (RFI and preconstruction drafts, reading uploaded documents, merging bill-of-material lines from text-only documents). Receives the prompt and the customer records or document text needed to answer it."
+      },
+      {
+        "name": "Perplexity API",
+        "provider": "Perplexity AI, Inc.",
+        "website": "https://www.perplexity.ai",
+        "useCase": "Public web research for material prices (returned with a cited source for a person to accept), lead-time estimates and manufacturer details. Receives item descriptions and manufacturer names. Perplexity has a FedRAMP listing (FR2604643715); RMPAC has not confirmed that its API account is covered by it."
+      },
+      {
+        "name": "xAI API",
+        "provider": "X.AI Corp.",
+        "website": "https://x.ai",
+        "useCase": "Public web research for material prices, returned with a cited source for a person to accept. Receives item descriptions."
+      },
+      {
+        "name": "1build API",
+        "provider": "1build, Inc.",
+        "website": "https://www.1build.com",
+        "useCase": "Construction cost reference data. Receives material descriptions and locations."
+      },
+      {
+        "name": "Resend",
+        "provider": "Resend, Inc.",
+        "website": "https://resend.com",
+        "useCase": "Sends transactional email (invitations, notices, alerts). Receives recipient addresses and message content."
+      },
+      {
+        "name": "Stripe",
+        "provider": "Stripe, Inc.",
+        "website": "https://stripe.com",
+        "useCase": "Subscription billing. Card data is entered on Stripe and never reaches RMPAC ONE."
+      },
+      {
+        "name": "Google and Apple sign-in",
+        "provider": "Google LLC; Apple Inc.",
+        "website": "https://developers.google.com/identity",
+        "useCase": "Optional federated sign-in. Returns the user's name and email address to Amazon Cognito."
+      },
+      {
+        "name": "SAM.gov Opportunities API",
+        "provider": "U.S. General Services Administration",
+        "website": "https://open.gsa.gov/api/get-opportunities-public-api/",
+        "useCase": "Reads public federal contract opportunity data. Receives search terms only."
+      },
+      {
+        "name": "Open-Meteo",
+        "provider": "Open-Meteo",
+        "website": "https://open-meteo.com",
+        "useCase": "Weather observations for daily logs. Receives a job site's latitude and longitude."
+      },
+      {
+        "name": "OpenStreetMap (Nominatim geocoding and map tiles) and Zippopotam.us",
+        "provider": "OpenStreetMap Foundation; Zippopotam.us",
+        "website": "https://www.openstreetmap.org",
+        "useCase": "Places company and job locations by city or ZIP code, and draws map tiles for shipment tracking. Receives city, state or ZIP code and map coordinates."
+      },
+      {
+        "name": "Public script and font networks (unpkg, jsDelivr, cdnjs, Google Fonts)",
+        "provider": "Various",
+        "website": "https://www.jsdelivr.com",
+        "useCase": "Deliver open-source browser libraries (PDF rendering, OCR, maps, zip files) and web fonts to the user's browser. They receive the user's IP address and the page address, not customer records."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2702852030",
+  "id_matches_expected": false
+}

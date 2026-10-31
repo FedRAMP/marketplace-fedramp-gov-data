@@ -1,0 +1,122 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "TBD",
+    "providerName": "Flare Systems, Inc.",
+    "serviceName": "Flare Platform",
+    "serviceAcronym": "FLARE",
+    "serviceDescription": "The Flare Platform is a cloud-based external threat intelligence, digital risk protection, and cybersecurity monitoring platform that helps organizations identify, monitor, and mitigate cyber threats originating from external sources. It collects, analyzes, and correlates threat intelligence from the clear web, dark web, and other publicly accessible and restricted online sources to provide continuous visibility into an organization's external attack surface, including compromised credentials, exposed data, brand impersonation, phishing activity, and threat actor discussions. The platform provides automated threat detection, alerting, investigation, workflow management, reporting, and analytics to support security operations teams and ongoing cybersecurity risk management. The platform is hosted on Amazon Web Services (AWS) and is delivered to customers as a Software-as-a-Service (SaaS) solution.",
+    "certificationType": "20x",
+    "website": "https://flare.io/",
+    "logo": "https://flare.io/wp-content/uploads/FLR-Group-59.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Assessment Reports"
+      ],
+      "url": "https://trust.mycroft.io/flare",
+      "repositoryDescription": "Trust Center containing all the necessary documentation for FedRAMP Certification submission package.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request FedRAMP access' button on the top right of the Trust Center."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.mycroft.io/flare",
+      "repositoryDescription": "Secure configuration guidance for the Flare Platform, currently hosted within the Flare Trust Center.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request FedRAMP access' button on the top right of the Trust Center."
+    }
+  },
+  "overallSummaryOfAssessment": "Thoropass Assurance (Arlington, Virginia; Firm License No. PAC-FIRM-LIC-134618) performed a SOC 2 Type II examination of the Flare Platform, operated by Flare Systems, Inc., for the period June 1, 2025 to May 31, 2026, covering the Security Trust Services Criteria. The examination resulted in an unqualified opinion with no exceptions noted; one control (security incident logging, tracking, and communication) was not tested due to no security incidents occurring during the period. Amazon Web Services (AWS) was presented as a subservice organization under the carve-out method. Independent verification and validation of Flare's security controls (per FRC-CLA-MFR/IVV-CSX-AIA) is satisfied through Flare's annual SOC 2 Type II examination.",
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Alec Barea",
+      "contactEmail": "alec.barea@flare.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "John Williamson",
+      "contactEmail": "john.williamson@flare.io"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Flare Platform",
+      "serviceDescription": "The Flare Platform is a cloud-based external threat intelligence, digital risk protection, and cybersecurity monitoring platform that helps organizations identify, monitor, and mitigate cyber threats originating from external sources. It collects, analyzes, and correlates threat intelligence from the clear web, dark web, and other publicly accessible and restricted online sources to provide continuous visibility into an organization's external attack surface, including compromised credentials, exposed data, brand impersonation, phishing activity, and threat actor discussions. The platform provides automated threat detection, alerting, investigation, workflow management, reporting, and analytics to support security operations teams and ongoing cybersecurity risk management. The platform is hosted on Amazon Web Services (AWS) and is delivered to customers as a Software-as-a-Service (SaaS) solution."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Amazon Web Services (AWS). Primary cloud infrastructure provider hosting the Flare Platform, including Amazon EC2 and Amazon EKS (compute and container orchestration), Amazon ECR (container registry), Amazon RDS, Amazon S3, and Amazon EBS (data storage, including self-managed Cassandra and Elasticsearch data stores), Amazon VPC, AWS Security Groups, and Amazon Route 53 (network segmentation and traffic control), Amazon CloudFront (CDN), AWS KMS (key management), AWS IAM (identity and access management), AWS Config (configuration management), Amazon GuardDuty (threat detection and security monitoring), and Amazon Bedrock and Amazon SageMaker (generative AI processing and machine learning model training and deployment)."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+        "useCase": "Google Workspace. Single sign-on (SSO) and authentication provider for in-scope systems."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2631054539",
+        "useCase": "Mycroft GRC Platform (Mycroft Technologies Inc). Compliance automation software used by Flare to support the design, implementation, operation, monitoring, and documentation of internal controls."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "GitLab",
+        "provider": "GitLab Inc.",
+        "website": "https://about.gitlab.com",
+        "useCase": "Source code repository and version control, including branch protection rules requiring independent code review before merge to the main branch."
+      },
+      {
+        "name": "JumpCloud",
+        "provider": "JumpCloud Inc.",
+        "website": "https://jumpcloud.com",
+        "useCase": "Identity and access management for workforce users and devices."
+      },
+      {
+        "name": "SentinelOne",
+        "provider": "SentinelOne, Inc.",
+        "website": "https://www.sentinelone.com",
+        "useCase": "Anti-malware protection deployed on production servers and workstations."
+      },
+      {
+        "name": "Aikido Security",
+        "provider": "Aikido Security",
+        "website": "https://www.aikido.dev",
+        "useCase": "Application code vulnerability scanning."
+      },
+      {
+        "name": "Grafana",
+        "provider": "Grafana Labs",
+        "website": "https://grafana.com",
+        "useCase": "Infrastructure monitoring of system availability and performance."
+      },
+      {
+        "name": "Slack",
+        "provider": "Slack Technologies, LLC",
+        "website": "https://slack.com",
+        "useCase": "Alert communication channel used to route security and operational alerts to authorized personnel."
+      },
+      {
+        "name": "Monday",
+        "provider": "monday.com Ltd.",
+        "website": "https://monday.com",
+        "useCase": "Ticketing system used to track change requests, access requests, and other change management and access control events."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2702556365",
+  "id_matches_expected": false
+}

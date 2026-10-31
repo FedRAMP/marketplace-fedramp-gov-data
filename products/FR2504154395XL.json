@@ -1,11 +1,14 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "certificationPackageOverviewUri": "https://trust.withpersona.us/api/certification-package-overview",
   "serviceIdentification": {
     "fedRampPackageId": "FR2504154395XL",
-    "providerName": "Persona Identities, LLC",
+    "ueiNumber": "EPYDWT6LARB7",
+    "providerName": "Persona Identities",
     "serviceName": "Persona for Government",
-    "serviceAcronym": "Persona for Government",
-    "serviceDescription": "The Persona Platform is a cloud-native comprehensive identity verification platform tool hosted on Google Cloud Platform (GCP) that is designed to help federal agencies verify their users' identities. The core capabilities of the Persona Platform are as follows:\n\nIdentity Verification: Persona offers multiple verification methods including government ID verification (supporting over 200 countries and territories), selfie verification with biometric liveness detection, database verification, and NFC verification\n\nFraud Prevention: The platform employs device signals, passive signals (IP address, geolocation, device fingerprinting), and advanced algorithms to detect fraud attempts like deepfakes and spoofing\n\nCompliance Solutions: Persona helps agencies meet global compliance requirements, including KYC (Know Your Customer), KYB (Know Your Business), and AML (Anti-Money Laundering)\n\nCustomizable Workflows: agencies can create tailored verification journeys with drag-and-drop tools and custom rules",
-    "certificationType": "Rev5",
+    "serviceAcronym": "Persona",
+    "serviceDescription": "The Persona Platform is a cloud-native comprehensive identity verification platform hosted on Google Cloud Platform (GCP) that helps federal agencies verify users' identities. Key capabilities include: Identity verification (government ID, selfie with liveness, database and NFC verification), Fraud prevention (device and passive signals including IP, geolocation, fingerprinting to detect spoofing and deepfakes), Compliance (supports KYC, KYB, and AML workflows), and Customizable workflows (drag-and-drop journey builder and rules).",
+    "certificationType": "20x",
     "website": "https://withpersona.com/",
     "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Persona%20Logo.png"
   },
@@ -13,22 +16,110 @@
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Government Community Cloud"
-  },
-  "contactInformation": [
-    {
-      "contactType": "Security",
-      "contactEmail": "security@withpersona.com"
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Customer Relations Management (CRM)",
+      "Cybersecurity & Risk Management",
+      "Data Management",
+      "Human Resources",
+      "Law Enforcement",
+      "Legal & Policy",
+      "Operations Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.withpersona.us",
+      "repositoryDescription": "Public FedRAMP trust center: compliance posture, service overview, Secure Configuration Guide, and the public part of this Certification Package Overview in human-readable and JSON form.",
+      "authenticationRequired": false
     },
-    {
-      "contactType": "Sales",
-      "contactEmail": "sales@withpersona.com"
-    }
-  ],
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.withpersona.us/secure-configuration",
+      "repositoryDescription": "Recommended secure configuration for agency administrators (SCG-CSO-RSC).",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Certification Package",
+          "Trust Center"
+        ],
+        "url": "https://app.trust.withpersona.us",
+        "repositoryDescription": "Private trust center for agencies and assessors: the full FedRAMP Certification Package, including the complete Certification Package Overview, the Security Decision Record, policies and procedures, the information resource inventory, cryptographic module documentation, independent assessment results, KSI validation results, and vulnerability and change records.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Agencies and the FedRAMP PMO can request additional information, evidence, or continuous monitoring updates by contacting the Persona FedRAMP Team at the email below."
+      },
+      {
+        "repositoryType": [
+          "Certification Package API"
+        ],
+        "url": "https://api.trust.withpersona.us/api/export/authorization",
+        "repositoryDescription": "Programmatic access to the complete Certification Package as a ZIP, and to every document in it individually (CDS-TRC-PAC).",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Agencies and the FedRAMP PMO can request additional information, evidence, or continuous monitoring updates by contacting the Persona FedRAMP Team at the email below."
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-01-21",
+    "nextQuarterlyReviewDate": "2026-10-28"
+  },
   "assessor": {
     "name": "First Information Technology Services, Inc.",
     "assessorID": "137801"
   },
+  "certifiedServices": [
+    {
+      "serviceName": "API",
+      "serviceDescription": "RESTful API for programmatic identity verification and data access",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Dashboard",
+      "serviceDescription": "Web-based management console for verification workflows and analytics",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Verifications",
+      "serviceDescription": "Identity verification services including document and biometric checks",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Workflows",
+      "serviceDescription": "Customizable verification workflows and decision logic",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Inquiries & Collections",
+      "serviceDescription": "Data collection forms and inquiry management",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Webhooks",
+      "serviceDescription": "Real-time event notifications and integrations",
+      "securityCategory": "Moderate"
+    }
+  ],
+  "metadata": {
+    "version": "24",
+    "lastUpdated": "2026-10-30T06:22:38.716814Z",
+    "updateSource": "fedramp-validator daily validation job"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Persona Security",
+      "contactEmail": "security@withpersona.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Persona Sales",
+      "contactEmail": "sales@withpersona.com"
+    }
+  ],
   "ZD_frid_retro": "FR2504154395XL",
   "id_matches_expected": true
 }

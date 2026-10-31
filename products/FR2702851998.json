@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "version": "1.0.3",
+    "lastUpdated": "2026-10-28T00:00:00.000Z",
+    "updateSource": null,
+    "responsibleOfficial": {
+      "name": "Cora Kuruoglu",
+      "title": "Information System Security Officer",
+      "email": "security-gov@rediminds.com"
+    }
+  },
+  "serviceIdentification": {
+    "fedRampPackageId": "RediMinds, Inc RediReview",
+    "providerName": "RediMinds, Inc",
+    "serviceName": "RediReview",
+    "serviceAcronym": "RediReview",
+    "serviceDescription": "The RediReview solution is delivered as a SaaS offering using a multi-tenant Government-Only Cloud computing environment hosted entirely in AWS GovCloud (US). \n\nRediReview is a benefits adjudication solution for federal programs and operations. It enables and assists agencies to make timely, accurate, and auditable adjudication decisions based on AI assisted document classification and analysis. The solution provides for secure ingestion of case files and related documents, that are processed post extraction, indexing, and classification of information. The information is then processed through a configurable agency-defined rules framework combined with AI to support adjudication decisions across a range of agency benefits. The result is faster, more consistent processing with less manual effort with complete audit trail. \n\nEach agency operates as a logically isolated tenant with its own data, configuration, and access controls. Tenants share certain common services within a single authorization boundary, including identity and access management, AI services, and data services, which is governed by one System Security Plan, one set of controls, and one continuous monitoring program. The platform runs containerized services in AWS GovCloud (US), organized into presentation, application, and data zones in a port-constrained network, with a separate management network for security monitoring, privileged access, and administration. AI processes run within the same GovCloud environment. Agency users authenticate through a single sign-on service with multi-factor authentication. Agency case files and data enter the boundary through two defined, secured ingress points, authenticated API interface with the agency system or secure retrieval from an encrypted storage bucket within AWS GovCloud (US). All logging and security events are collected for continuous monitoring.",
+    "certificationType": "20x",
+    "website": "https://rediminds.com",
+    "logo": "https://rediminds.com/assets/logo-full.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Health & Wellness",
+      "Artificial Intelligence (AI)",
+      "Data Management",
+      "Legal & Policy",
+      "Analytics"
+    ],
+    "nextOngoingCertificationReportDate": "2027-03-01",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/rediminds",
+      "repositoryDescription": "RediReview FedRAMP Trust Center. Publishes the RediReview compliance program (FedRAMP 20x Class C), controls, third-party interconnections, and package deliverables.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Select Log In on the Trust Center and request access to the Deliverables section. Access is granted to federal agencies, prospective federal customers, and their assessors."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://gov.rediminds.com/documentation/secure-configuration-guide.html",
+      "repositoryDescription": "Recommended Secure Configuration guidance for RediReview, published by RediMinds (SCG-CSO-RSC).",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "System Owner",
+      "contactName": "Joshua LeBoeuf"
+    },
+    {
+      "contactType": "System Point of Contact - Management",
+      "contactName": "Madhu Reddiboina"
+    },
+    {
+      "contactType": "System Point of Contact - Technical",
+      "contactName": "Kaushala Kandasamy"
+    },
+    {
+      "contactType": "Authorizing Official Point of Contact"
+    },
+    {
+      "contactType": "Content Approver",
+      "contactName": "Madhu Reddiboina"
+    },
+    {
+      "contactType": "Privacy Point of Contact",
+      "contactName": "Cora Kuruoglu",
+      "contactEmail": "security-gov@rediminds.com"
+    },
+    {
+      "contactType": "Prepared By",
+      "contactName": "RediMinds, Inc"
+    },
+    {
+      "contactType": "Information System Security Officer",
+      "contactName": "Cora Kuruoglu",
+      "contactEmail": "security-gov@rediminds.com"
+    },
+    {
+      "contactType": "Prepared For",
+      "contactName": "RediMinds, Inc"
+    },
+    {
+      "contactType": "Authorizing Official",
+      "contactName": "Federal Risk and Authorization Management Program Program Management Office"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "RediMinds Gov Sales",
+      "contactEmail": "sales-gov@rediminds.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "RediMinds Gov Security",
+      "contactEmail": "security-gov@rediminds.com"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN",
+    "assessorID": "138665"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "RediReview",
+      "serviceDescription": "RediReview, a multi-tenant SaaS solution hosted in the AWS GovCloud, (US) is designed to enable and assist federal agencies to adjudicate benefits with secure ingestion, classification, and information extraction from documents by applying business rules and artificial intelligence (AI). The solution is designed to inherently deliver fast, accurate, auditable adjudications, with isolated tenants for each agency."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AWS GovCloud",
+        "useCase": "AWS GovCloud (US) is an AWS Region designed to allow US government agencies and customers supporting the US government to move more sensitive workloads into the cloud. In addition to complying with FedRAMP requirements, the AWS GovCloud (US) framework adheres to U.S. International Traffic in Arms Regulations (ITAR) regulations. Additional information is available at http://aws.amazon.com/govcloud-us/. Federal agencies interested in collaborative continuous monitoring with AWS should reach out to: aws-collaborative-conmon@amazon.com"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "CrowdStrike Falcon Platform for Government",
+        "useCase": "The primary purpose of the CrowdStrike Falcon Platform is to provide organizations with a comprehensive cybersecurity solution that encompasses the following system functions: Endpoint Security - Advanced endpoint security capabilities to protect laptops, desktops, servers, and virtual machines from various cyber threats. Threat Intelligence - Cloud-based intelligence engine to collect and analyze threat data from millions of endpoints worldwide. Managed Security - Managed security services with a team of security experts actively monitoring and responding to security events. Cloud Security - Cloud security capabilities to protect organizations' cloud environments. Security and IT Operations - Integration of security and IT operations for a unified view of security posture. Identity Protection - Identity protection capabilities to safeguard user identities and prevent unauthorized access. Next-Gen SIEM - Logging and analysis capabilities to collect, correlate, and analyze security events and logs. Charlotte AI - Delivers automated triage analysis for endpoint, identity and cloud detections and enables security teams to activate LLM inferencing within Falcon Fusion SOAR workflows."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Paramify Cloud - 20x Moderate",
+        "useCase": "The Paramify Cloud (Paramify) is a software platform that automates risk management processes - including compliance planning, solution implementation, gap assessments, and continuous reporting - for cloud service providers, government agencies, and members of the Defense Industrial Base (DIB). Trusted by leading CSPs like Adobe, Cisco, Trellix, Palo Alto Networks, and Flock Safety. Living Gap Assessment Visualize compliance progress with Paramify's intuitive real-time dashboard. Track controls, manage gaps, and easily organize people, places, and components, ensuring audit readiness for FedRAMP 20X, GovRAMP, and other frameworks. Instant Audit-Ready Documentation Automate compliance, generate audit-ready deliverables like System Security Plans (SSPs), POA&Ms, and Customer Responsibility Matrices in days, not months. Continuously validate compliance with real-time automated validation tools for FedRAMP 20X and other frameworks. Fast, Cost-Effective Monitoring Continuously monitor, validate, and report compliance 90% faster at a quarter of the cost. Paramify's automated tools and Evidence Repository simplify compliance, reducing costs and enhancing efficiency. Integrated with issue management tools like Jira, it streamlines workflows, helping you meet tight deadlines."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2702851998",
+  "id_matches_expected": false
+}

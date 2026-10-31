@@ -1,0 +1,164 @@
+{
+  "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "GitHub GHEC-US",
+    "ueiNumber": "WR2ZN519GFX4",
+    "providerName": "GitHub",
+    "serviceName": "GitHub Enterprise Cloud with Data Residency",
+    "serviceAcronym": "GHEC-US",
+    "serviceDescription": "GitHub Enterprise Cloud with Data Residency (GHEC-US) is a commercial, multitenant SaaS offering for software development and repository management. It enables organizations to host and version source code, collaborate through pull requests and issues, automate software delivery workflows, enforce enterprise access and governance policies, and use integrated software security capabilities. GHEC-US provides tenant domain isolation and data residency for customer code and repository data in the United States. Certain services and configurations are subject to the Minimum Assessment Scope conditions in the public service inventory.",
+    "certificationType": "Rev5",
+    "website": "https://github.com/enterprise",
+    "logo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Development Tools",
+      "Collaboration",
+      "Cybersecurity & Risk Management",
+      "Artificial Intelligence (AI)"
+    ],
+    "digitalIdentityLevel": "IAL2/FAL2/AAL2",
+    "fips199ImpactLevel": "Moderate",
+    "certificationClass": "Class C",
+    "authorizationPath": "Agency Certification",
+    "agencySponsor": "U.S. Department of Veterans Affairs",
+    "agencyAuthorizationStatus": "Authorization with Continuous Evaluation ATO",
+    "fedRampCertificationStatus": "Initial Implementation Phase applicant; FedRAMP Certification pending",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Certification Package",
+        "Assessment Reports"
+      ],
+      "url": "https://ghec.github.trust.page/",
+      "repositoryDescription": "Controlled repository for GHEC-US FedRAMP certification and assessment information.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Public GHEC-US FedRAMP information is available without an account in the FedRAMP Rev5 Class C (Moderate) section of the FAQ at https://ghec.github.trust.page/faq. Federal agencies request the controlled certification package by selecting \"GHEC-US FedRAMP certification package (federal agencies)\" in the FedRAMP Rev5 Class C (Moderate) category under Resources at https://ghec.github.trust.page/resources?s=c6kcmwi0s3o4sli7lp3b6&name=ghec-us-fed-ramp-certification-package-%28federal-agencies%29 and requesting access from an agency email address. GitHub then shares the package through an approved channel."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://ghec.github.trust.page/resources?s=2pxasxyx6ah701hz7curhq&name=ghec-us-secure-configuration-guide",
+      "repositoryDescription": "Secure configuration and customer-responsibility guidance for operating GHEC-US in its assessed configuration.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Public Service Inventory"
+        ],
+        "url": "https://ghec.github.trust.page/faq?s=oekph97fcvyo5vxceksxv",
+        "repositoryDescription": "Public GHEC-US Minimum Assessment Scope service inventory.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "IIP Progress"
+        ],
+        "url": "https://ghec.github.trust.page/faq?s=o4yxi4p9nyf9ukewoe6od",
+        "repositoryDescription": "GHEC-US FedRAMP goals, milestones, and quarterly progress.",
+        "authenticationRequired": false
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Crystal Altidor"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Tanner Hogan"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Repositories (Git hosting)",
+      "serviceDescription": "Source code hosting, branches, commits, Git over HTTPS/SSH"
+    },
+    {
+      "serviceName": "Pull requests & code review",
+      "serviceDescription": "PR workflow, reviews, merge controls, rulesets/branch protections"
+    },
+    {
+      "serviceName": "Issues & Projects",
+      "serviceDescription": "Issue tracking and project planning"
+    },
+    {
+      "serviceName": "Discussions",
+      "serviceDescription": "Team/community discussion threads"
+    },
+    {
+      "serviceName": "Wikis",
+      "serviceDescription": "Repository wikis"
+    },
+    {
+      "serviceName": "GitHub Pages",
+      "serviceDescription": "Publish websites from repository contents"
+    },
+    {
+      "serviceName": "REST & GraphQL APIs",
+      "serviceDescription": "Programmatic access to platform functions"
+    },
+    {
+      "serviceName": "Webhooks",
+      "serviceDescription": "Outbound event notifications to customer endpoints"
+    },
+    {
+      "serviceName": "GitHub Actions (GitHub-hosted runners)",
+      "serviceDescription": "Managed CI/CD compute"
+    },
+    {
+      "serviceName": "GitHub Actions (self-hosted runners)",
+      "serviceDescription": "Customer-operated runner agents. In scope when: Customer-operated compute is customer responsibility"
+    },
+    {
+      "serviceName": "GitHub Packages / Container registry",
+      "serviceDescription": "Artifact and container image hosting (ghcr)"
+    },
+    {
+      "serviceName": "GitHub Advanced Security — Code scanning (CodeQL)",
+      "serviceDescription": "SAST scanning"
+    },
+    {
+      "serviceName": "GitHub Advanced Security — Secret Protection",
+      "serviceDescription": "Secret scanning, push protection"
+    },
+    {
+      "serviceName": "Dependabot (alerts, security & version updates)",
+      "serviceDescription": "Dependency vulnerability management"
+    },
+    {
+      "serviceName": "Security overview",
+      "serviceDescription": "Org/enterprise risk reporting"
+    },
+    {
+      "serviceName": "GitHub Copilot",
+      "serviceDescription": "AI coding assistance: code completion, chat, agent mode, code review, PR summaries, CLI. In scope when: Enterprise policy \"Restrict Copilot to FedRAMP models\" must be enabled"
+    },
+    {
+      "serviceName": "Enterprise Managed Users (EMU)",
+      "serviceDescription": "Identity lifecycle via customer IdP (SAML/OIDC + SCIM). In scope when: Customer IdP is customer responsibility"
+    },
+    {
+      "serviceName": "Enterprise & organization administration",
+      "serviceDescription": "Enterprise/org settings, policies, rulesets"
+    },
+    {
+      "serviceName": "Audit log & audit log streaming",
+      "serviceDescription": "Enterprise audit events; streaming to customer SIEM/storage. In scope when: Streaming destination is customer responsibility"
+    }
+  ],
+  "ZD_frid_retro": "FR2702852025",
+  "id_matches_expected": false
+}

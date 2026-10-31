@@ -1,0 +1,122 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "AccessAgility Optifi (OPTIFI)",
+    "ueiNumber": "HMXCQJ8ADNL7",
+    "providerName": "AccessAgility LLC",
+    "serviceName": "Optifi",
+    "serviceAcronym": "OPTIFI",
+    "serviceDescription": "Optifi measures the WiFi experience of the devices an organization already manages and explains what is wrong when it is poor.\n\nA small agent on Windows, macOS, Linux, Android, ChromeOS and iOS devices, and optional fixed sensors, measure the wireless link, the local network, DNS, the internet path and chosen applications. The Optifi cloud service compares those measurements across devices, access points and sites, finds problems, names the likely cause (the device, the access point, the channel, the local network, DNS, the internet or an application) and checks whether a fix worked.\n\nOptifi collects network measurements and device inventory (device name, serial number, operating system and network addresses). It does not collect the content of user traffic, browsing history or device location coordinates.",
+    "certificationType": "20x",
+    "website": "https://optifi.com/",
+    "logo": "https://omni.optifi.com/fedramp/optifi-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Network Management",
+      "Analytics"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://omni.optifi.com/fedramp/trust-center.html",
+      "repositoryDescription": "How agencies request and receive Optifi security and certification materials.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Follow the steps on the Trust Center page. Agency staff request access from the security contact listed there using their government email address."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://omni.optifi.com/fedramp/secure-configuration.html",
+      "repositoryDescription": "Recommended settings for dashboard accounts, device enrollment, agents, sensors and data collection.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Certification Progress"
+        ],
+        "url": "https://omni.optifi.com/fedramp/progress.html",
+        "repositoryDescription": "Optifi's goals and milestones toward FedRAMP 20x certification, updated at least quarterly.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Public Information"
+        ],
+        "url": "https://omni.optifi.com/fedramp/index.html",
+        "repositoryDescription": "Human-readable version of this information.",
+        "authenticationRequired": false
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "AccessAgility Security",
+      "contactEmail": "security@accessagility.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "AccessAgility Sales",
+      "contactEmail": "sales@accessagility.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Optifi dashboard",
+      "serviceDescription": "Web dashboard at omni.optifi.com where staff see problems, devices, sites, roaming, reports and settings."
+    },
+    {
+      "serviceName": "Optifi cloud service",
+      "serviceDescription": "The service behind the dashboard: receives measurements from agents and sensors, stores them, finds and explains problems, and delivers signed agent updates."
+    },
+    {
+      "serviceName": "Optifi agents",
+      "serviceDescription": "Agents for Windows, macOS, Linux, Android, ChromeOS and iOS that measure the device's WiFi and network experience and send results to the Optifi cloud service over HTTPS."
+    },
+    {
+      "serviceName": "Optifi sensors",
+      "serviceDescription": "Optional fixed sensors (WLAN Pi and Raspberry Pi hardware) that listen to nearby access points and measure the network from a known place."
+    },
+    {
+      "serviceName": "Optifi site gateway and controller connector",
+      "serviceDescription": "Optional role for one agent or sensor on a site: relays hourly summaries for nearby devices and reads access point information from a supported WiFi controller (Aruba Instant). Controller credentials stay on the gateway."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Amazon Web Services (US East) hosts the whole Optifi cloud service: web hosting, API, compute, storage, databases, messaging, key management and email."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Google Maps Platform",
+        "provider": "Google LLC",
+        "website": "https://mapsplatform.google.com/",
+        "useCase": "Draws the background map on the dashboard's site pages. The map loads in the user's browser; Optifi measurement data is not sent to it."
+      },
+      {
+        "name": "OpenStreetMap Nominatim",
+        "provider": "OpenStreetMap Foundation",
+        "website": "https://nominatim.openstreetmap.org/",
+        "useCase": "Turns a site address typed by a dashboard user into map coordinates. The lookup runs in the user's browser; only the address text is sent."
+      },
+      {
+        "name": "Google Play (managed)",
+        "provider": "Google LLC",
+        "website": "https://play.google.com/",
+        "useCase": "Optional delivery of the Android agent to managed Android and ChromeOS devices."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2702851992",
+  "id_matches_expected": false
+}

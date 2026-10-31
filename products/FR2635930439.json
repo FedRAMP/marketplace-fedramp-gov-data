@@ -310,17 +310,17 @@
     },
     "rulesVersion": "2026.09.13.02",
     "schemaPin": "2026-06-24",
-    "schemaPinSynced": "2026-09-28"
+    "schemaPinSynced": "2026-10-28"
   },
   "metadata": {
-    "lastUpdated": "2026-10-20T23:28:01Z",
+    "lastUpdated": "2026-10-30T16:23:01Z",
     "responsibleOfficial": {
       "contactEmail": "rajesh@adventbusiness.com",
       "name": "Rajesh Gupta",
       "title": "Vice President and Secretary, System Owner and ISSO, Advent Business Company Inc."
     },
     "updateSource": "Generated at request time by the deployed certification-data service; content changes reach it only through the automated build and deployment pipeline under Advent's change management procedure.",
-    "version": "1.0.0+9ab44788"
+    "version": "1.0.0+63396609"
   },
   "ongoingCertificationReportFeedback": {
     "acknowledgement": "Automatic on receipt (AFC-CSO-ACK mechanism, shared).",
@@ -874,7 +874,7 @@
         "name": "AWS GovCloud (US)",
         "provider": "Amazon Web Services",
         "reference": "MINIMUM_ASSESSMENT_SCOPE.md §5, §2.1",
-        "useCase": "Hosts the entire offering. EC2, S3, KMS, IAM, Config, Inspector, Security Hub, GuardDuty, CloudTrail, CloudWatch and networking in us-gov-east-1."
+        "useCase": "Hosts the entire offering. EC2, S3, KMS, IAM, Config, GuardDuty, CloudTrail, CloudWatch and networking in us-gov-east-1. AWS Inspector and AWS Security Hub are not used."
       },
       {
         "compensatingControls": "No federal customer data and no file content leaves the boundary by this path. A one-time passcode is single-use and time-boxed, and is not sufficient to authenticate on its own.",

@@ -1,0 +1,75 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "Continuity Logic L.L.C. - CL360FG",
+    "ueiNumber": "N829FKX54TL8",
+    "providerName": "Continuity Logic L.L.C.",
+    "serviceName": "CLDigital 360 FedGov",
+    "serviceAcronym": "CL360FG",
+    "serviceDescription": "CLDigital 360 FedGov is a SaaS platform for U.S. federal agencies supporting business continuity and COOP, operational resilience, enterprise risk management, disaster recovery, and crisis/incident management. The platform provides configurable forms, workflows, reporting, analytics, and planning capabilities that help agencies identify and assess risks, maintain continuity and recovery plans, coordinate activities during disruptions, and provide visibility across resilience programs.",
+    "certificationType": "20x",
+    "website": "https://trust.cldigital.com/",
+    "logo": "https://trust.cldigital.com/assets/cldigital-360-fedgov-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Governance, Risk, and Compliance (GRC)",
+      "Operations Management",
+      "Analytics",
+      "Data Management",
+      "Collaboration"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.cldigital.com/",
+      "repositoryDescription": "Public CLDigital Trust Center for CLDigital 360 FedGov: Cloud Service Offering information, public service scope, FedRAMP program status and certification roadmap, and this machine-readable FedRAMP data.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Email FedRAMP-SecurityAssurance@cldigital.com to request the SOC 2 Type II report or other security documentation."
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "David Mack",
+      "contactEmail": "david.mack@cldigital.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "CLDigital Security / FedRAMP",
+      "contactEmail": "FedRAMP-SecurityAssurance@cldigital.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Business Continuity / COOP",
+      "serviceDescription": "Supports business impact analysis, continuity planning, recovery strategies, plan maintenance, exercises, and related continuity activities. Security category: Moderate."
+    },
+    {
+      "serviceName": "Enterprise Risk Management",
+      "serviceDescription": "Supports identification, assessment, tracking, treatment, and reporting of enterprise and operational risks. Security category: Moderate."
+    },
+    {
+      "serviceName": "Disaster Recovery Management",
+      "serviceDescription": "Supports technology recovery planning, application and infrastructure dependencies, recovery strategies, recovery requirements, and exercise activities. Security category: Moderate."
+    },
+    {
+      "serviceName": "Crisis / Incident Management",
+      "serviceDescription": "Supports incident and crisis tracking, response workflows, assignments, status management, and coordinated response activities. Security category: Moderate."
+    },
+    {
+      "serviceName": "Workflow, Forms & Automation",
+      "serviceDescription": "Provides configurable forms, workflows, rules, approvals, assignments, and automation supporting federal resilience and risk processes. Security category: Moderate."
+    },
+    {
+      "serviceName": "Reporting & Analytics",
+      "serviceDescription": "Provides dashboards, reports, metrics, and analytics across continuity, risk, recovery, and incident-management information. Security category: Moderate."
+    }
+  ],
+  "ZD_frid_retro": "FR2702852010",
+  "id_matches_expected": false
+}
