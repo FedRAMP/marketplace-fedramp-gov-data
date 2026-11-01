@@ -81,6 +81,40 @@
     "name": "Kompleye",
     "assessorID": "201591"
   },
+  "thirdPartyInformationResources": {
+    "nonCertified": [
+      {
+        "name": "Anthropic API",
+        "provider": "Anthropic",
+        "useCase": "AI model provider: answers the pipeline's AI steps",
+        "website": "https://www.anthropic.com"
+      },
+      {
+        "name": "Container registry",
+        "provider": "Amazon Web Services",
+        "useCase": "Stores the platform's signed container images",
+        "website": "https://aws.amazon.com/ecr/"
+      },
+      {
+        "name": "GitLab",
+        "provider": "GitLab",
+        "useCase": "Holds the source code and runs the CI/CD pipeline",
+        "website": "https://about.gitlab.com"
+      },
+      {
+        "name": "Splunk HEC",
+        "provider": "Splunk",
+        "useCase": "Receives security events (SIEM)",
+        "website": "https://www.splunk.com"
+      },
+      {
+        "name": "Amazon S3 backup storage",
+        "provider": "Amazon Web Services",
+        "useCase": "Stores encrypted backups",
+        "website": "https://aws.amazon.com/s3/"
+      }
+    ]
+  },
   "ZD_frid_retro": "FR2701557044",
   "id_matches_expected": true
 }

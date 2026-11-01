@@ -8,8 +8,8 @@
       "title": "Chief Technology Officer, VisualVault LLC",
       "email": "fedramp-security@visualvault.com"
     },
-    "version": "1.9",
-    "lastUpdated": "2026-10-30T20:36:09.707Z",
+    "version": "1.10",
+    "lastUpdated": "2026-10-31T20:37:41.251Z",
     "updateSource": "VisualVault Trust Center CPO generator (scheduled refresh)",
     "machineReadableUri": "http://localhost:3002/api/documents/5f626271-cd0d-43c3-85fd-4e4f88b15fe0.json",
     "humanReadableUri": "http://localhost:3002/api/documents/ab1e5360-1a6e-4451-ac60-65f33f9393ac.pdf"
@@ -153,9 +153,9 @@
     "source": {
       "evidenceName": "Generating Inventories - AWS GovCloud Asset Inventory",
       "evidenceReference": "EVD-AWS-GOVCLOUD-INVENTORY",
-      "artifactId": "76ee779a-9e7e-490c-a158-0066b872d315",
+      "artifactId": "cfc62a9a-035c-47f0-b93a-fc80342a7c65",
       "fileName": "aws_govcloud_asset_inventory.json",
-      "collectedAt": "2026-10-30T04:00:54Z",
+      "collectedAt": "2026-10-31T04:00:55Z",
       "generator": "aws_govcloud_asset_inventory.py 2.0.0",
       "collectionMethod": "automated",
       "collectionResult": "SUCCESS",
@@ -165,7 +165,7 @@
         "us-gov-west-1"
       ],
       "totalResources": 979,
-      "inventorySha256": "d98fd9015345ab8c2f6911fb0ada1d2fecf9e6c7a5a38258eb2a8ec49140dbcc"
+      "inventorySha256": "7a04b6ccf2e22ef75e1d5587927f76024a0b94b903eb3d2a4a87b5d1976ac35b"
     },
     "boundary": {
       "mode": "account",
@@ -739,82 +739,132 @@
       "url": "http://localhost:3002/api/documents/0f691b13-d6c5-48f0-881d-a0c3b55a9646.pdf"
     },
     {
-      "name": "VisualVault-Cloud-SAMPLE-Accepted-Vulnerability-Info.json",
-      "version": "1.0",
-      "lastUpdated": "2026-10-28",
+      "name": "EXAMPLE: Accepted Vulnerability Info (JSON)",
+      "description": "EXAMPLE: Machine-readable FedRAMP 20x Accepted Vulnerability Info for FedRAMP 20x Class B. Fictitious example data showing the format and content; not a real report.",
+      "version": "1.1",
+      "lastUpdated": "2026-10-30",
       "access": "Requires a trust center access grant",
       "url": "http://localhost:3002/api/documents/86d1703c-8c22-4d30-b7af-8a4dc33849ee.json"
     },
     {
-      "name": "Accepted Vulnerability Info (VisualVault Cloud) - SAMPLE",
-      "description": "This report lists accepted vulnerabilities for VisualVault Cloud under FedRAMP 20x Class B for the period 2026-09-27 to 2026-10-26, detailing two sample vulnerabilities not expected to be fully mitigated within 192 days. Each entry includes detection source, evaluation timing, internet-reachability, exploitability, Potential Agency Impact (PAIN) rating, and compensating controls. It is a sample document illustrating the human-readable format of the machine-readable JSON report.",
-      "version": "1.0",
-      "lastUpdated": "2026-10-27",
+      "name": "EXAMPLE: Accepted Vulnerability Info (EXAMPLE)",
+      "description": "EXAMPLE: This is a fictitious example report for VisualVault Cloud's FedRAMP 20x Class B certification package, detailing two accepted vulnerabilities that were not fully mitigated within 192 days of evaluation. It includes vulnerability details, Potential Agency Impact (PAIN) ratings, timelines, and compensating controls, along with a reference table and rule coverage mapping.",
+      "version": "1.1",
+      "lastUpdated": "2026-10-26",
       "access": "Requires a trust center access grant",
       "url": "http://localhost:3002/api/documents/8ae6f060-6476-4d41-b6bd-290cf474ea39.pdf"
     },
     {
-      "name": "VisualVault-Cloud-SAMPLE-Final-Incident-Report.json",
-      "version": "1.0",
-      "lastUpdated": "2026-10-28",
+      "name": "EXAMPLE: Final Incident Report (JSON)",
+      "description": "EXAMPLE: Machine-readable FedRAMP 20x Final Incident Report for FedRAMP 20x Class B. Fictitious example data showing the format and content; not a real report.",
+      "version": "1.1",
+      "lastUpdated": "2026-10-30",
       "access": "Requires a trust center access grant",
       "url": "http://localhost:3002/api/documents/c3334b57-7201-45d2-a62c-f9d8fb5e7715.json"
     },
     {
-      "name": "Final Incident Report — VV-INC-2026-0007",
-      "description": "This is a sample FedRAMP 20x Class B Final Incident Report for VisualVault Cloud, documenting a security incident in which exposed API credentials were used by an unauthorized party to download 1,214 documents from one customer agency's vault. It details the incident timeline, Potential Agency Impact (PAIN) rating history (N5→N3→N2), root cause, remediation, and mapping to FedRAMP's IEC-CSO-IIR, IEC-CSO-OIR, and IEC-CSO-FIR reporting rules.",
-      "version": "1.0",
+      "name": "EXAMPLE: Final Incident Report (VV-INC-2026-0007)",
+      "description": "EXAMPLE: This is a fictitious example Final Incident Report for VisualVault Cloud's FedRAMP 20x Class B certification, describing a credential-exposure incident that led to unauthorized download of 1,214 documents from one agency vault. It documents the timeline, impact rating (PAIN N2), root cause, remediation, and mapping to FedRAMP Class B incident reporting rules (IEC-CSO-IIR, IEC-CSO-OIR, IEC-CSO-FIR).",
+      "version": "1.1",
       "lastUpdated": "2026-09-22",
       "access": "Requires a trust center access grant",
       "url": "http://localhost:3002/api/documents/a4856e78-2cfe-41b9-a4ff-2e31003cc078.pdf"
     },
     {
-      "name": "Significant Change Notification (JSON)",
-      "description": "Machine-readable FedRAMP 20x Significant Change Notification for FedRAMP 20x Class B (example).",
-      "version": "1.0",
+      "name": "EXAMPLE: Ongoing Certification Report (JSON)",
+      "description": "EXAMPLE: Machine-readable FedRAMP 20x Ongoing Certification Report for FedRAMP 20x Class B. Fictitious example data showing the format and content; not a real report.",
+      "version": "1.1",
+      "lastUpdated": "2026-10-30",
+      "access": "Requires a trust center access grant",
+      "url": "http://localhost:3002/api/documents/066a3245-e811-47c2-ba49-62bded762014.json"
+    },
+    {
+      "name": "EXAMPLE: Ongoing Certification Report (Example)",
+      "description": "EXAMPLE: This is a fictitious example of VisualVault Cloud's FedRAMP 20x Class B Ongoing Certification Report, covering data changes, planned changes, accepted vulnerabilities, agency usage, and reportable incidents for the period 2026-08-16 to 2026-11-15. It also maps report content to FedRAMP rule coverage requirements (CCM-OCR-AVL and CCM-OCR-FBM).",
+      "version": "1.1",
+      "lastUpdated": "2026-11-16",
+      "access": "Requires a trust center access grant",
+      "url": "http://localhost:3002/api/documents/ea4f6d7c-cd11-4e84-a371-91ed025a2e17.pdf"
+    },
+    {
+      "name": "EXAMPLE: Initial Incident Report (JSON)",
+      "description": "EXAMPLE: Machine-readable FedRAMP 20x Initial Incident Report for FedRAMP 20x Class B. Fictitious example data showing the format and content; not a real report.",
+      "version": "1.1",
+      "lastUpdated": "2026-10-30",
+      "access": "Requires a trust center access grant",
+      "url": "http://localhost:3002/api/documents/c49981e7-6626-4ad1-b80f-b6e7468c2d96.json"
+    },
+    {
+      "name": "EXAMPLE: Initial Incident Report (VV-INC-2026-0007)",
+      "description": "EXAMPLE: This is a fictitious example of a FedRAMP 20x Class B Initial Incident Report for VisualVault Cloud, describing a credential-leak incident that allowed unauthorized download of documents from one agency's vault. It covers the incident timeline, Potential Agency Impact (PAIN) rating, affected agencies, recovery plan, and mapping to FedRAMP rule requirements.",
+      "version": "1.1",
+      "lastUpdated": "2026-09-14",
+      "access": "Requires a trust center access grant",
+      "url": "http://localhost:3002/api/documents/f99c2f55-02e3-4619-9a23-c1dadc658e75.pdf"
+    },
+    {
+      "name": "EXAMPLE: Significant Change Notification (JSON)",
+      "description": "EXAMPLE: Machine-readable FedRAMP 20x Significant Change Notification for FedRAMP 20x Class B. Fictitious example data showing the format and content; not a real report.",
+      "version": "1.1",
       "lastUpdated": "2026-10-30",
       "access": "Requires a trust center access grant",
       "url": "http://localhost:3002/api/documents/1da95d28-e7aa-4e24-96c5-9457ad9ae4ad.json"
     },
     {
-      "name": "Vulnerability Detail Report (JSON)",
-      "description": "Machine-readable FedRAMP 20x Vulnerability Detail Report for FedRAMP 20x Class B (example).",
-      "version": "1.0",
+      "name": "EXAMPLE: Vulnerability Detail Report (JSON)",
+      "description": "EXAMPLE: Machine-readable FedRAMP 20x Vulnerability Detail Report for FedRAMP 20x Class B. Fictitious example data showing the format and content; not a real report.",
+      "version": "1.1",
       "lastUpdated": "2026-10-30",
       "access": "Requires a trust center access grant",
       "url": "http://localhost:3002/api/documents/d10e49d4-4d04-4806-9805-8a051e4d1a34.json"
     },
     {
-      "name": "Ongoing Incident Report (JSON)",
-      "description": "Machine-readable FedRAMP 20x Ongoing Incident Report for FedRAMP 20x Class B (example).",
-      "version": "1.0",
+      "name": "EXAMPLE: Ongoing Incident Report (JSON)",
+      "description": "EXAMPLE: Machine-readable FedRAMP 20x Ongoing Incident Report for FedRAMP 20x Class B. Fictitious example data showing the format and content; not a real report.",
+      "version": "1.1",
       "lastUpdated": "2026-10-30",
       "access": "Requires a trust center access grant",
       "url": "http://localhost:3002/api/documents/6d8020a8-1890-4501-9d92-431e0cddbc99.json"
     },
     {
-      "name": "Ongoing Incident Report — VV-INC-2026-0007 (Sample)",
-      "description": "This is a sample FedRAMP 20x Class B Ongoing Incident Report for VisualVault Cloud, describing a fictitious incident where exposed API credentials led to unauthorized download of 1,214 documents from one agency vault. It covers the timeline, Potential Agency Impact (PAIN) rating history, investigation findings, root cause, and ongoing recovery milestones.",
-      "version": "1.0",
+      "name": "EXAMPLE: Historical VER Activity (JSON)",
+      "description": "EXAMPLE: Machine-readable FedRAMP 20x Historical VER Activity for FedRAMP 20x Class B. Fictitious example data showing the format and content; not a real report.",
+      "version": "1.1",
+      "lastUpdated": "2026-10-30",
+      "access": "Requires a trust center access grant",
+      "url": "http://localhost:3002/api/documents/9a893998-6c67-473f-89ee-0bd589da2d36.json"
+    },
+    {
+      "name": "EXAMPLE: Ongoing Incident Report (VV-INC-2026-0007)",
+      "description": "EXAMPLE: This is a fictitious example of a FedRAMP 20x Class B Ongoing Incident Report describing a credential-leak incident where exposed API keys allowed unauthorized download of documents from one agency's vault. It covers the incident timeline, Potential Agency Impact (PAIN) rating, investigation findings, indicators of compromise, and recovery plan, while mapping each section to FedRAMP's required rule coverage.",
+      "version": "1.1",
       "lastUpdated": "2026-09-15",
       "access": "Requires a trust center access grant",
       "url": "http://localhost:3002/api/documents/f61d0867-eb52-4c91-ac24-88da1db92731.pdf"
     },
     {
-      "name": "FedRAMP 20x Significant Change Notification (Adaptive) - VisualVault Cloud Database Upgrade",
-      "description": "This is a sample Significant Change Notification documenting VisualVault Cloud's adaptive upgrade of its database tier from SQL Server 2019 to SQL Server 2022 on AWS RDS. It details the change rationale, timeline, customer impact, impacted Key Security Indicators, and approval, with no new risks identified post-upgrade.",
-      "version": "1.0",
+      "name": "EXAMPLE: Significant Change Notification - VisualVault Cloud",
+      "description": "EXAMPLE: This is a fictitious example Significant Change Notification for VisualVault Cloud's FedRAMP 20x Class B package, describing an adaptive change (database engine upgrade from SQL Server 2019 to 2022) and its customer impact, risk analysis, timeline, and approval. It also documents which FedRAMP SCN rule requirements (SCN-CSO-INF, SCN-ADP-NTF) are satisfied and where.",
+      "version": "1.1",
       "lastUpdated": "2026-10-20",
       "access": "Requires a trust center access grant",
       "url": "http://localhost:3002/api/documents/7cb1d4df-11da-45fa-a60f-f8f45aeb0fdc.pdf"
     },
     {
-      "name": "Vulnerability Detail Report - VisualVault Cloud",
-      "description": "This is a FedRAMP 20x Class B human-readable vulnerability detail report for VisualVault Cloud covering the period 2026-09-27 to 2026-10-26. It details five tracked vulnerabilities, their detection sources, internet-reachability and exploitability status, PAIN (Potential Agency Impact) ratings and history, mitigation timeframes, and final dispositions, along with PAIN rating definitions and FedRAMP rule coverage mapping. Note this is sample/fictitious data demonstrating report format.",
-      "version": "1.0",
-      "lastUpdated": "2026-10-30",
+      "name": "EXAMPLE: Vulnerability Detail Report (EXAMPLE)",
+      "description": "EXAMPLE: This example report illustrates the human-readable edition of VisualVault Cloud's FedRAMP 20x Class B Vulnerability Detail Report, covering vulnerability detection and response activity for a monthly period. It lists individual vulnerabilities with internet-reachability, exploitability, Potential Agency Impact (PAIN) ratings, mitigation timeframes, and final dispositions, along with PAIN rating definitions and rule coverage mapping.",
+      "version": "1.1",
+      "lastUpdated": "2026-10-26",
       "access": "Requires a trust center access grant",
       "url": "http://localhost:3002/api/documents/a4357f59-df1a-4b17-bda7-02a803e97755.pdf"
+    },
+    {
+      "name": "EXAMPLE: Historical Vulnerability Evaluation and Reporting Activity (EXAMPLE)",
+      "description": "EXAMPLE: This is a fictitious example document showing the human-readable edition of VisualVault Cloud's FedRAMP 20x Class B historical vulnerability evaluation and reporting activity, generated from a machine-readable JSON schema. It details open, closed, and accepted vulnerabilities with detection dates, PAIN risk ratings, internet-reachability, exploitability, and remediation timelines.",
+      "version": "1.1",
+      "lastUpdated": "2026-10-27",
+      "access": "Requires a trust center access grant",
+      "url": "http://localhost:3002/api/documents/5a56c2f7-fcf0-4f7f-9834-0f277ecd3068.pdf"
     }
   ],
   "relevantPolicies": [
