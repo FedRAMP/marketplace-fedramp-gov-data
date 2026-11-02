@@ -1,0 +1,41 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
+  "advisorName": "Virtual Infrastructure Services LLC",
+  "logo": "https://virtual-infra.com/images/virtual-logo.png",
+  "serviceDescription": "Virtual Infrastructure Services LLC advises cloud service providers preparing for and maintaining FedRAMP Certification under the Consolidated Rules for 2026. VIS defines the Minimum Assessment Scope, builds automated Key Security Indicator validations as code on Azure Government, Microsoft 365 GCC High and AWS GovCloud, and helps providers prepare their certification package and ongoing certification. VIS acts only as an advisor: it does not perform independent assessments.",
+  "contactInformation": {
+    "pointOfContactName": "Upendar Vellore Narendar",
+    "jobTitle": "Founder and CEO",
+    "email": "info@virtual-infra.com",
+    "phone": "+1-732-200-7351",
+    "companyWebsite": "https://virtual-infra.com/"
+  },
+  "servicesOffered": [
+    {
+      "serviceName": "20x Readiness Review and Minimum Assessment Scope",
+      "serviceDescription": "Confirms the right certification path and class, defines the Minimum Assessment Scope, and checks whether a SOC 2 Type II or GovRAMP result qualifies for Class A."
+    },
+    {
+      "serviceName": "KSI Validation Engineering",
+      "serviceDescription": "Automated validations for each Key Security Indicator, built as policy and infrastructure as code on Azure Government, Microsoft 365 GCC High and AWS GovCloud."
+    },
+    {
+      "serviceName": "VDR/VER Readiness Sprint",
+      "serviceDescription": "A fixed-scope project to adopt the Vulnerability Detection and Response and Vulnerability Evaluation and Reporting rules, mandatory from 7 December 2026."
+    },
+    {
+      "serviceName": "Package and Assessment Preparation",
+      "serviceDescription": "Helps the provider prepare its Security Decision Record, Certification Package Overview and machine-readable data, and supports it through the independent assessment."
+    },
+    {
+      "serviceName": "Ongoing Certification Support",
+      "serviceDescription": "An annual subscription to review and tune validations, classify significant changes, review ongoing certification reports and prepare for each annual assessment."
+    },
+    {
+      "serviceName": "Rev5 to CR26 Transition",
+      "serviceDescription": "A plan for Rev5-certified services to adopt the Consolidated Rules for 2026 and, where it fits, move to FedRAMP 20x."
+    }
+  ],
+  "advisor_id": "virtual-infrastructure-services-llc",
+  "fedramp_listing_timestamp": ""
+}

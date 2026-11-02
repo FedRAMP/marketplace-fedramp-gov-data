@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-02T05:03:30.730Z",
-    "total_entries": 17,
+    "export_timestamp": "2026-11-02T19:11:13.258Z",
+    "total_entries": 18,
     "description": "FedRAMP data MKT-CAS-WEB export from GSA system"
   },
   "data": {
@@ -43,7 +43,7 @@
         ],
         "advisor_id": "fortinetics-llc",
         "fedramp_listing_timestamp": "2026-08-27T16:29:43Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:22Z"
+        "last_fetched_timestamp": "2026-10-15T23:00:39Z"
       },
       {
         "advisorName": "Verdict Technologies Inc.",
@@ -68,7 +68,7 @@
         ],
         "advisor_id": "verdict-technologies-inc",
         "fedramp_listing_timestamp": "2026-08-27T16:29:41Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:22Z"
+        "last_fetched_timestamp": "2026-10-15T23:00:39Z"
       },
       {
         "advisorName": "Elevate Consult",
@@ -107,7 +107,7 @@
         ],
         "advisor_id": "elevate-consult",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:23Z"
+        "last_fetched_timestamp": "2026-10-15T23:00:40Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
@@ -141,7 +141,7 @@
         ],
         "advisor_id": "steel-patriot-partners",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:23Z"
+        "last_fetched_timestamp": "2026-10-15T23:00:41Z"
       },
       {
         "advisorName": "SunStone Secure",
@@ -169,7 +169,7 @@
         ],
         "advisor_id": "sunstone-secure",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:23Z"
+        "last_fetched_timestamp": "2026-10-15T23:00:42Z"
       },
       {
         "advisorName": "Skirret Consulting, LLC",
@@ -199,7 +199,7 @@
         ],
         "advisor_id": "skirret-consulting-llc",
         "fedramp_listing_timestamp": "2026-09-11T17:52:09.548Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:24Z"
+        "last_fetched_timestamp": "2026-10-15T23:00:43Z"
       },
       {
         "advisorName": "38North Security",
@@ -243,7 +243,7 @@
         ],
         "advisor_id": "38north-security",
         "fedramp_listing_timestamp": "2026-09-16T13:39:40.901Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:24Z"
+        "last_fetched_timestamp": "2026-10-15T23:00:45Z"
       },
       {
         "advisorName": "InfusionPoints",
@@ -305,7 +305,7 @@
         ],
         "advisor_id": "infusionpoints",
         "fedramp_listing_timestamp": "2026-09-21T19:18:04.483Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:25Z"
+        "last_fetched_timestamp": "2026-10-15T23:00:47Z"
       },
       {
         "advisorName": "Workstreet",
@@ -349,7 +349,7 @@
         ],
         "advisor_id": "workstreet",
         "fedramp_listing_timestamp": "2026-09-21T19:18:04.483Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:24Z"
+        "last_fetched_timestamp": "2026-10-15T23:00:47Z"
       },
       {
         "$comment": "Conforms to FedRAMP Advisor Information Schema (MKT-CAS-WEB), version 2.0.0, https://www.fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json.",
@@ -396,7 +396,7 @@
         ],
         "advisor_id": "emagine-it-inc",
         "fedramp_listing_timestamp": "2026-09-21T19:18:04.483Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:24Z"
+        "last_fetched_timestamp": "2026-10-15T23:00:48Z"
       },
       {
         "$schema": "https://www.fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
@@ -437,7 +437,7 @@
         ],
         "advisor_id": "stackarmor",
         "fedramp_listing_timestamp": "2026-10-02T20:17:02.951Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:25Z"
+        "last_fetched_timestamp": "2026-10-23T21:39:36Z"
       },
       {
         "advisorName": "bladestack.io",
@@ -523,7 +523,7 @@
         "a2laId": "202696",
         "advisor_id": "bladestack-io",
         "fedramp_listing_timestamp": "2026-10-02T20:17:02.951Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:25Z"
+        "last_fetched_timestamp": "2026-10-23T21:39:37Z"
       },
       {
         "advisorName": "YGI Solutions",
@@ -568,20 +568,17 @@
         ],
         "advisor_id": "ygi-solutions",
         "fedramp_listing_timestamp": "2026-10-02T20:17:02.951Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:26Z"
+        "last_fetched_timestamp": "2026-10-23T21:39:40Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
         "advisorName": "THONIS SYSTEMS LLC",
         "logo": "https://thonissystems.com/decks/media/thonis-lockup-color.png",
         "serviceDescription": "THONIS SYSTEMS LLC provides scoped advisory services that connect security claims, vulnerability decisions and reporting handoffs to their supporting evidence, applicable service boundary and accountable owner. Engagements begin with a written fit review and an agreed scope. THONIS prepares decision and response materials for customer review; independent assessment, FedRAMP certification and agency authorization decisions remain with the responsible organizations.",
-        "contactInformation": {
-          "pointOfContactName": "John Mawad",
-          "jobTitle": "Managing Member",
-          "email": "john.mawad@thonissystems.com",
-          "phone": "",
-          "companyWebsite": "https://thonissystems.com"
-        },
+        "contactInformation": [
+          "THONIS SYSTEMS LLC — john.mawad@thonissystems.com",
+          "https://thonissystems.com/advisory"
+        ],
         "servicesOffered": [
           {
             "serviceName": "Cloud Vulnerability Decision & Reporting Sprint",
@@ -594,7 +591,7 @@
         ],
         "advisor_id": "thonis-systems-llc",
         "fedramp_listing_timestamp": "2026-10-02T20:17:02.951Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:27Z"
+        "last_fetched_timestamp": "2026-10-23T21:39:42Z"
       },
       {
         "advisorName": "SecureIT",
@@ -653,7 +650,7 @@
         ],
         "advisor_id": "secureit",
         "fedramp_listing_timestamp": "2026-10-02T20:17:02.951Z",
-        "last_fetched_timestamp": "2026-11-02T05:03:27Z"
+        "last_fetched_timestamp": "2026-10-23T21:39:43Z"
       },
       {
         "advisorName": "Ace of Cloud",
@@ -686,7 +683,7 @@
         ],
         "advisor_id": "ace-of-cloud",
         "fedramp_listing_timestamp": "",
-        "last_fetched_timestamp": "2026-11-02T05:03:28Z"
+        "last_fetched_timestamp": "2026-11-02T19:03:55Z"
       },
       {
         "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
@@ -751,7 +748,49 @@
         "independenceLimitation": "ControlSolid provides advisory readiness, gap-assessment consulting and scoped GRC engineering support. Provider-generated checks are not independent assessment. ControlSolid does not act as a 3PAO, perform the independent assessment it helps prepare, issue FedRAMP authorization or certification, or guarantee an agency Authorization to Operate, government endorsement, marketplace acceptance or completion dates.",
         "advisor_id": "controlsolid",
         "fedramp_listing_timestamp": "",
-        "last_fetched_timestamp": "2026-11-02T05:03:30Z"
+        "last_fetched_timestamp": "2026-11-02T19:04:01Z"
+      },
+      {
+        "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
+        "advisorName": "Virtual Infrastructure Services LLC",
+        "logo": "https://virtual-infra.com/images/virtual-logo.png",
+        "serviceDescription": "Virtual Infrastructure Services LLC advises cloud service providers preparing for and maintaining FedRAMP Certification under the Consolidated Rules for 2026. VIS defines the Minimum Assessment Scope, builds automated Key Security Indicator validations as code on Azure Government, Microsoft 365 GCC High and AWS GovCloud, and helps providers prepare their certification package and ongoing certification. VIS acts only as an advisor: it does not perform independent assessments.",
+        "contactInformation": {
+          "pointOfContactName": "Upendar Vellore Narendar",
+          "jobTitle": "Founder and CEO",
+          "email": "info@virtual-infra.com",
+          "phone": "+1-732-200-7351",
+          "companyWebsite": "https://virtual-infra.com/"
+        },
+        "servicesOffered": [
+          {
+            "serviceName": "20x Readiness Review and Minimum Assessment Scope",
+            "serviceDescription": "Confirms the right certification path and class, defines the Minimum Assessment Scope, and checks whether a SOC 2 Type II or GovRAMP result qualifies for Class A."
+          },
+          {
+            "serviceName": "KSI Validation Engineering",
+            "serviceDescription": "Automated validations for each Key Security Indicator, built as policy and infrastructure as code on Azure Government, Microsoft 365 GCC High and AWS GovCloud."
+          },
+          {
+            "serviceName": "VDR/VER Readiness Sprint",
+            "serviceDescription": "A fixed-scope project to adopt the Vulnerability Detection and Response and Vulnerability Evaluation and Reporting rules, mandatory from 7 December 2026."
+          },
+          {
+            "serviceName": "Package and Assessment Preparation",
+            "serviceDescription": "Helps the provider prepare its Security Decision Record, Certification Package Overview and machine-readable data, and supports it through the independent assessment."
+          },
+          {
+            "serviceName": "Ongoing Certification Support",
+            "serviceDescription": "An annual subscription to review and tune validations, classify significant changes, review ongoing certification reports and prepare for each annual assessment."
+          },
+          {
+            "serviceName": "Rev5 to CR26 Transition",
+            "serviceDescription": "A plan for Rev5-certified services to adopt the Consolidated Rules for 2026 and, where it fits, move to FedRAMP 20x."
+          }
+        ],
+        "advisor_id": "virtual-infrastructure-services-llc",
+        "fedramp_listing_timestamp": "",
+        "last_fetched_timestamp": "2026-11-02T19:03:57Z"
       }
     ]
   }
