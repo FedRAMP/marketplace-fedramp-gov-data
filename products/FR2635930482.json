@@ -8,8 +8,8 @@
       "title": "Chief Technology Officer, VisualVault LLC",
       "email": "fedramp-security@visualvault.com"
     },
-    "version": "1.10",
-    "lastUpdated": "2026-10-31T20:37:41.251Z",
+    "version": "1.11",
+    "lastUpdated": "2026-11-01T20:52:42.726Z",
     "updateSource": "VisualVault Trust Center CPO generator (scheduled refresh)",
     "machineReadableUri": "http://localhost:3002/api/documents/5f626271-cd0d-43c3-85fd-4e4f88b15fe0.json",
     "humanReadableUri": "http://localhost:3002/api/documents/ab1e5360-1a6e-4451-ac60-65f33f9393ac.pdf"
@@ -153,9 +153,9 @@
     "source": {
       "evidenceName": "Generating Inventories - AWS GovCloud Asset Inventory",
       "evidenceReference": "EVD-AWS-GOVCLOUD-INVENTORY",
-      "artifactId": "cfc62a9a-035c-47f0-b93a-fc80342a7c65",
+      "artifactId": "f4ce1d05-724a-4f9f-895a-b887150c22e4",
       "fileName": "aws_govcloud_asset_inventory.json",
-      "collectedAt": "2026-10-31T04:00:55Z",
+      "collectedAt": "2026-11-01T04:00:56Z",
       "generator": "aws_govcloud_asset_inventory.py 2.0.0",
       "collectionMethod": "automated",
       "collectionResult": "SUCCESS",
@@ -165,7 +165,7 @@
         "us-gov-west-1"
       ],
       "totalResources": 979,
-      "inventorySha256": "7a04b6ccf2e22ef75e1d5587927f76024a0b94b903eb3d2a4a87b5d1976ac35b"
+      "inventorySha256": "0bd314e1a3cc58feedc2e798382ed6ddbf2fe0dcf8d72dfba6f1435206139fa3"
     },
     "boundary": {
       "mode": "account",
@@ -835,12 +835,12 @@
       "url": "http://localhost:3002/api/documents/9a893998-6c67-473f-89ee-0bd589da2d36.json"
     },
     {
-      "name": "EXAMPLE: Ongoing Incident Report (VV-INC-2026-0007)",
-      "description": "EXAMPLE: This is a fictitious example of a FedRAMP 20x Class B Ongoing Incident Report describing a credential-leak incident where exposed API keys allowed unauthorized download of documents from one agency's vault. It covers the incident timeline, Potential Agency Impact (PAIN) rating, investigation findings, indicators of compromise, and recovery plan, while mapping each section to FedRAMP's required rule coverage.",
+      "name": "EXAMPLE: Vulnerability Detail Report (EXAMPLE)",
+      "description": "EXAMPLE: This example report illustrates the human-readable edition of VisualVault Cloud's FedRAMP 20x Class B Vulnerability Detail Report, covering vulnerability detection and response activity for a monthly period. It lists individual vulnerabilities with internet-reachability, exploitability, Potential Agency Impact (PAIN) ratings, mitigation timeframes, and final dispositions, along with PAIN rating definitions and rule coverage mapping.",
       "version": "1.1",
-      "lastUpdated": "2026-09-15",
+      "lastUpdated": "2026-10-26",
       "access": "Requires a trust center access grant",
-      "url": "http://localhost:3002/api/documents/f61d0867-eb52-4c91-ac24-88da1db92731.pdf"
+      "url": "http://localhost:3002/api/documents/a4357f59-df1a-4b17-bda7-02a803e97755.pdf"
     },
     {
       "name": "EXAMPLE: Significant Change Notification - VisualVault Cloud",
@@ -851,12 +851,12 @@
       "url": "http://localhost:3002/api/documents/7cb1d4df-11da-45fa-a60f-f8f45aeb0fdc.pdf"
     },
     {
-      "name": "EXAMPLE: Vulnerability Detail Report (EXAMPLE)",
-      "description": "EXAMPLE: This example report illustrates the human-readable edition of VisualVault Cloud's FedRAMP 20x Class B Vulnerability Detail Report, covering vulnerability detection and response activity for a monthly period. It lists individual vulnerabilities with internet-reachability, exploitability, Potential Agency Impact (PAIN) ratings, mitigation timeframes, and final dispositions, along with PAIN rating definitions and rule coverage mapping.",
+      "name": "EXAMPLE: Ongoing Incident Report (VV-INC-2026-0007)",
+      "description": "EXAMPLE: This is a fictitious example of a FedRAMP 20x Class B Ongoing Incident Report describing a credential-leak incident where exposed API keys allowed unauthorized download of documents from one agency's vault. It covers the incident timeline, Potential Agency Impact (PAIN) rating, investigation findings, indicators of compromise, and recovery plan, while mapping each section to FedRAMP's required rule coverage.",
       "version": "1.1",
-      "lastUpdated": "2026-10-26",
+      "lastUpdated": "2026-09-15",
       "access": "Requires a trust center access grant",
-      "url": "http://localhost:3002/api/documents/a4357f59-df1a-4b17-bda7-02a803e97755.pdf"
+      "url": "http://localhost:3002/api/documents/f61d0867-eb52-4c91-ac24-88da1db92731.pdf"
     },
     {
       "name": "EXAMPLE: Historical Vulnerability Evaluation and Reporting Activity (EXAMPLE)",
