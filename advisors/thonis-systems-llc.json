@@ -3,10 +3,13 @@
   "advisorName": "THONIS SYSTEMS LLC",
   "logo": "https://thonissystems.com/decks/media/thonis-lockup-color.png",
   "serviceDescription": "THONIS SYSTEMS LLC provides scoped advisory services that connect security claims, vulnerability decisions and reporting handoffs to their supporting evidence, applicable service boundary and accountable owner. Engagements begin with a written fit review and an agreed scope. THONIS prepares decision and response materials for customer review; independent assessment, FedRAMP certification and agency authorization decisions remain with the responsible organizations.",
-  "contactInformation": [
-    "THONIS SYSTEMS LLC — john.mawad@thonissystems.com",
-    "https://thonissystems.com/advisory"
-  ],
+  "contactInformation": {
+    "pointOfContactName": "John Mawad",
+    "jobTitle": "Managing Member",
+    "email": "john.mawad@thonissystems.com",
+    "phone": "",
+    "companyWebsite": "https://thonissystems.com"
+  },
   "servicesOffered": [
     {
       "serviceName": "Cloud Vulnerability Decision & Reporting Sprint",
