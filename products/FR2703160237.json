@@ -1,0 +1,174 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "MolLogic-CHEM-HW-MYMOL",
+    "ueiNumber": "D99JEPGQRTK9",
+    "providerName": "MolLogic LLC",
+    "serviceName": "ChemIllusion Homework and MyMol Subscriptions",
+    "serviceAcronym": "CHEM-HW-MYMOL",
+    "serviceDescription": "Cloud software-as-a-service for chemistry homework delivery, autograding, and instructor authoring, together with paid MyMol Plus, Premium, and Professional subscription entitlements on chemillusion.com and the MyMol native apps. **Intended FedRAMP 20x program target (not assessed, authorized, certified, or Marketplace-listed):** Class B certification at **Low** system impact level. This draft package supports a FedRAMP 2026 (20x) **Initial Implementation Phase Marketplace listing request only**.",
+    "certificationType": "20x",
+    "website": "https://chemillusion.com",
+    "logo": "https://chemillusion.com/og/logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Education & Training",
+      "Learning Management",
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://chemillusion.com/trust",
+      "repositoryDescription": "FedRAMP-oriented trust center landing page (human-readable). Programmatic package overview JSON is served at /api/fedramp/certification-package-overview from the production API.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://chemillusion.com/trust#secure-configuration",
+      "repositoryDescription": "Draft secure configuration and hardening guidance for administrators (in preparation; anchor on trust center until a standalone SCG is published).",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Policies and Procedures"
+        ],
+        "url": "https://github.com/scottmreed/chem-art-generator/tree/main/soc2-compliance-evidence/policies",
+        "repositoryDescription": "Information security, access control, backup/DR, change management, incident response, and vendor management policies (private repository; public summaries on trust center when enabled).",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Email support@chemillusion.com from an agency or institutional domain. FedRAMP Marketplace listing materials are not yet published; this repository path documents internal policy sources."
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Primary",
+      "contactName": "Scott Reed",
+      "contactEmail": "scott@chemillusion.com",
+      "contactPhone": "503-473-4021"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "ChemIllusion Security Contact",
+      "contactEmail": "support@chemillusion.com",
+      "contactPhone": "503-473-4021"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "ChemIllusion Sales",
+      "contactEmail": "support@chemillusion.com",
+      "contactPhone": "503-473-4021"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Student homework and quiz player",
+      "serviceDescription": "Delivers assigned homework and quizzes, records attempts and scores, and surfaces feedback. **FedRAMP security category (intended CSO target, not assessed):** Low. Sources: student course routes in `frontend/src/App.tsx`; data handling in `docs/privacy/lms/student_lms_privacy_notice.md` (verified 2026-10-30)."
+    },
+    {
+      "serviceName": "Homework and quiz authoring (entitled instructors)",
+      "serviceDescription": "Build and publish homework assignments and quizzes where the account holds the homework authoring entitlement. **FedRAMP security category (intended CSO target, not assessed):** Low. Sources: `frontend/src/config/homeworkCreatorAccess.ts`; backend enforcement required per file header (verified 2026-10-30)."
+    },
+    {
+      "serviceName": "MyMol Plus (Basic tier)",
+      "serviceDescription": "Paid subscription sold as MyMol Plus (`basic` plan) with enhanced quotas and MyMol features per `docs/TIER_FEATURES.md`. **FedRAMP security category (intended CSO target, not assessed):** Low. Verified 2026-10-30 against `docs/TIER_FEATURES.md`."
+    },
+    {
+      "serviceName": "Premium subscription",
+      "serviceDescription": "Premium tier entitlements for MyMol and web surfaces inherited from lower tiers plus Premium-only capabilities documented in `docs/TIER_FEATURES.md`. **FedRAMP security category (intended CSO target, not assessed):** Low. Verified 2026-10-30."
+    },
+    {
+      "serviceName": "Professional subscription (\"Pro\")",
+      "serviceDescription": "Professional tier — owner-confirmed 2026-10-30 that \"Pro\" means this tier only; there is no separate Pro SKU (plan code `professional`). **FedRAMP security category (intended CSO target, not assessed):** Low. Sources: `docs/TIER_FEATURES.md`; owner confirmation 2026-10-30."
+    },
+    {
+      "serviceName": "MyMol Android in-app purchases (Google Play Billing)",
+      "serviceDescription": "MyMol Plus sold inside the Android app via Google Play Billing 8, verified on Railway (`POST /api/mymol/store/verify`, `POST /api/webhooks/google-play`). **In assessment boundary — cannot be removed by hiding web UI.** **FedRAMP security category (intended CSO target, not assessed):** Low. Sources: `docs/runbooks/mymol-iap.md` (verified 2026-10-30)."
+    },
+    {
+      "serviceName": "Subscription billing and account management",
+      "serviceDescription": "Stripe checkout and subscription lifecycle on the web; Google Play Billing on MyMol Android; Apple App Store billing for MyMol iOS where enabled — ChemIllusion stores payment vendor metadata only (no card data on ChemIllusion systems). **FedRAMP security category (intended CSO target, not assessed):** Low. Sources: `soc2-compliance-evidence/policies/information-security-policy.md`; `docs/runbooks/mymol-iap.md`; `docs/privacy/subprocessors.md` (verified 2026-10-30)."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [],
+    "nonCertified": [
+      {
+        "name": "Supabase (Postgres, Auth, Storage)",
+        "provider": "Supabase, Inc.",
+        "website": "https://supabase.com",
+        "useCase": "Primary database, authentication, and object storage for accounts, homework content, and student submissions. **In assessment boundary — cannot be removed by UI gating.** Source: `wiki/pages/02-deployment-and-request-topology.md`; `soc2-compliance-evidence/vendor-register.canonical.csv` (verified 2026-10-30)."
+      },
+      {
+        "name": "Railway (FastAPI backend)",
+        "provider": "Railway Corp.",
+        "website": "https://railway.app",
+        "useCase": "Hosts authenticated APIs, grading, quota enforcement, and AI orchestration. Shared production backend for the offering. Verified 2026-10-30."
+      },
+      {
+        "name": "Vercel (web hosting and serverless)",
+        "provider": "Vercel Inc.",
+        "website": "https://vercel.com",
+        "useCase": "Serves chemillusion.com UI, `/api/proxy` to Railway, and serverless routes. Verified 2026-10-30."
+      },
+      {
+        "name": "Stripe",
+        "provider": "Stripe, Inc.",
+        "website": "https://stripe.com",
+        "useCase": "Payment processing and subscription management for MyMol Plus, Premium, and Professional. Required for paid tiers in scope. Verified 2026-10-30."
+      },
+      {
+        "name": "OpenAI API",
+        "provider": "OpenAI, L.L.C.",
+        "website": "https://openai.com",
+        "useCase": "Model inference for tutor/chat features reachable from homework and entitled MyMol flows. Verified 2026-10-30 via vendor register."
+      },
+      {
+        "name": "Google Gemini API",
+        "provider": "Google LLC",
+        "website": "https://ai.google.dev",
+        "useCase": "Model inference and multimodal features for signed-in educational flows. Verified 2026-10-30."
+      },
+      {
+        "name": "Anthropic API",
+        "provider": "Anthropic, PBC",
+        "website": "https://www.anthropic.com",
+        "useCase": "Model inference for selected signed-in tools. Verified 2026-10-30."
+      },
+      {
+        "name": "OpenRouter",
+        "provider": "OpenRouter, Inc.",
+        "website": "https://openrouter.ai",
+        "useCase": "Model routing for selected homework/Lesson Hub chat responses. Verified 2026-10-30."
+      },
+      {
+        "name": "Google Workspace (SMTP)",
+        "provider": "Google LLC",
+        "website": "https://workspace.google.com",
+        "useCase": "Transactional and support email delivery. Listed in `docs/privacy/subprocessors.md` (draft, verified 2026-10-30)."
+      },
+      {
+        "name": "Apple App Store (StoreKit) / Sign in with Apple",
+        "provider": "Apple Inc.",
+        "website": "https://www.apple.com",
+        "useCase": "MyMol iOS distribution, in-app MyMol Plus subscriptions (StoreKit 2), server notifications, and optional Sign in with Apple. Verified 2026-10-30 via `docs/runbooks/mymol-iap.md` and subprocessors draft."
+      },
+      {
+        "name": "Google Play Billing / Play Console",
+        "provider": "Google LLC",
+        "website": "https://play.google.com/console",
+        "useCase": "MyMol Android in-app MyMol Plus subscriptions (Google Play Billing 8), Real-time developer notifications to `/api/webhooks/google-play`, and Play distribution. **In assessment boundary for Android IAP in scope.** Sources: `docs/runbooks/mymol-iap.md`, `backend/app/services/google_play_client.py` (verified 2026-10-30)."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2703160237",
+  "id_matches_expected": false
+}

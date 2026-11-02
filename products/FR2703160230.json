@@ -1,0 +1,68 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "Teradata",
+    "ueiNumber": "Q51GSVBYXTS9",
+    "providerName": "Teradata ",
+    "serviceName": "Teradata Cloud",
+    "serviceAcronym": "TDC",
+    "serviceDescription": "Teradata empowers enterprises to turn intelligence into autonomous action, grounding AI agents in deep business context and trusted data. As AI agents multiply, Teradata is the context foundation, governance layer, and performance backbone that companies need now. The Teradata Cloud Platform puts AI into production across cloud, on-premises, and hybrid environments. Learn more at Teradata.com.",
+    "certificationType": "20x",
+    "website": "https://www.teradata.com/",
+    "logo": "https://www.teradata.com/Content/Assets/default/teradata-logo-social.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Artificial Intelligence (AI)",
+      "Data Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://fedramp.teradata.com/",
+      "repositoryDescription": "Publicly accessible Teradata Cloud Trust Center providing information on FedRAMP 20x certification progress, security posture, and applicable compliance documentation. The initial repository will consist of a static webpage, with plans to integrate a live compliance portal, such as Vanta, following certification to provide continuously updated KSI verification results and vulnerability status.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": ""
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance "
+      ],
+      "url": "https://fedramp.teradata.com/",
+      "repositoryDescription": "Publicly accessible repository for Teradata Cloud Secure Configuration Guides, providing customers and administrators with security configuration instructions, including SSO setup, user account management, access controls, and recommended security settings. The repository consolidates existing Teradata documentation and provides links to applicable configuration guidance.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": ""
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Primary",
+      "contactName": "",
+      "contactEmail": "Security.Compliance@Teradata.com",
+      "contactPhone": "866-837-2328"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "",
+      "contactEmail": "Security.Compliance@Teradata.com",
+      "contactPhone": "866-837-2328"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "",
+      "contactEmail": "ask.services@teradata.com",
+      "contactPhone": "866-837-2328"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN ",
+    "assessorID": "138665"
+  },
+  "ZD_frid_retro": "FR2703160230",
+  "id_matches_expected": false
+}

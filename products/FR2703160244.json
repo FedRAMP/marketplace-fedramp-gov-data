@@ -1,0 +1,37 @@
+{
+  "serviceIdentification": {
+    "providerName": "Black Duck",
+    "serviceName": "Polaris",
+    "serviceAcronym": "Polaris",
+    "serviceDescription": "Polaris is a software-as-a-service application security platform providing static application security testing (SAST), software composition analysis (SCA), AI capabilities, issue and component management, reporting and dashboards, and integration with source code management systems, bug tracking systems, and IDEs. It supports importing findings from third-party application security tools. Dynamic application security testing (DAST) is excluded from the initial authorization scope.",
+    "certificationType": "20x",
+    "fedRampPackageId": "Black Duck Polaris",
+    "website": "https://www.blackduck.com/platform.html",
+    "logo": "https://www.blackduck.com/content/dam/black-duck/style-guide/header/BlackDuckLogo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Primary",
+      "contactName": "Collin Hogue-Spears",
+      "contactEmail": "choguespears@blackduck.com",
+      "contactPhone": "805-227-1174"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "John Savio",
+      "contactEmail": "jsavio@blackduck.com",
+      "contactPhone": "805-227-1174"
+    },
+    {
+      "contactType": "Security"
+    }
+  ],
+  "ZD_frid_retro": "FR2703160244",
+  "id_matches_expected": false
+}

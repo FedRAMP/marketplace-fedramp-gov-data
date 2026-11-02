@@ -1,4 +1,5 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
     "fedRampPackageId": "F1506076709",
     "providerName": "Blackboard",
@@ -17,18 +18,14 @@
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "mason.yin@blackboard.com"
-    },
-    {
       "contactType": "Sales",
       "contactEmail": "David.palmer@blackboard.com"
+    },
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp-security@blackboard.com"
     }
   ],
-  "assessor": {
-    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
-    "assessorID": "138665"
-  },
   "ZD_frid_retro": "F1506076709",
   "id_matches_expected": true
 }

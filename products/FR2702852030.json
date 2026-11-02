@@ -7,11 +7,11 @@
       "email": "landon@rmpacgroup.com",
       "phone": "(478) 293-7711"
     },
-    "version": "2026.10.26.2",
-    "lastUpdated": "2026-10-26T18:00:00Z",
+    "version": "2026.11.02.1",
+    "lastUpdated": "2026-11-02T15:00:00Z",
     "sourceOfUpdate": "RMPAC ONE source repository, file rmpac-ai/trust/fedramp.json, maintained by the Chief Technology Officer; the Trust Center page renders from this file."
   },
-  "certificationStatus": "Not FedRAMP Certified. RMPAC ONE is preparing a FedRAMP Marketplace listing in the Initial Implementation Phase (FedRAMP 20x, Program Certification path). No FedRAMP independent assessment has been performed.",
+  "certificationStatus": "Not FedRAMP Certified. RMPAC AI LLC requested a FedRAMP Marketplace listing for RMPAC ONE in the Initial Implementation Phase on 2026-10-28 (FedRAMP 20x, Program Certification path) and is awaiting FedRAMP's response. No FedRAMP independent assessment has been performed.",
   "serviceIdentification": {
     "fedRampPackageId": "RMPAC AI LLC - RMPAC ONE (FedRAMP ID not yet assigned)",
     "ueiNumber": "RBZDM29WB3J3",
@@ -51,8 +51,8 @@
     "description": "Agency facilities, engineering and acquisition staff use RMPAC ONE directly to run their build process on construction and renovation projects (submittals, RFIs, daily logs, pay applications, procurement and plan review) as part of an agency-authorized federal information system."
   },
   "certificationProgress": {
-    "currentPhase": "Preparation for a FedRAMP Marketplace listing (Initial Implementation Phase)",
-    "updated": "2026-10-26",
+    "currentPhase": "FedRAMP Marketplace listing requested (Initial Implementation Phase), awaiting FedRAMP's response",
+    "updated": "2026-10-28",
     "nextUpdateDue": "2027-01-26",
     "milestones": [
       {
@@ -63,7 +63,8 @@
       },
       {
         "target": "2026-Q4",
-        "status": "In progress",
+        "status": "Done",
+        "completed": "2026-10-28",
         "goal": "Request a FedRAMP Marketplace listing in the Initial Implementation Phase."
       },
       {
@@ -98,6 +99,10 @@
       }
     ],
     "updates": [
+      {
+        "date": "2026-10-28",
+        "summary": "Submitted RMPAC ONE's request for a FedRAMP Marketplace listing in the Initial Implementation Phase, with this Trust Center, its machine-readable Certification Package Overview and the Direct Use agency use case. Awaiting FedRAMP's response."
+      },
       {
         "date": "2026-10-26",
         "summary": "Started the FedRAMP 20x effort. Published this Trust Center and its machine-readable Certification Package Overview, checked against FedRAMP's schema and validator. Drafted the Security Decision Record against every Class A rule and Key Security Indicator, recording what is in place and what is not, and set the goals and milestones above."
