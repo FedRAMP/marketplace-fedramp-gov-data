@@ -29,6 +29,40 @@
     "name": "Schellman Compliance, LLC",
     "assessorID": "136571"
   },
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2520950455",
+        "useCase": ""
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2526948870",
+        "useCase": ""
+      }
+    ]
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Private Connectivity",
+      "serviceDescription": "",
+      "dateAvailable": "2024-09-13"
+    },
+    {
+      "serviceName": "Splunk Cloud Platform",
+      "serviceDescription": "",
+      "dateAvailable": "2024-09-13"
+    },
+    {
+      "serviceName": "Splunk Enterprise Security",
+      "serviceDescription": "",
+      "dateAvailable": "2024-09-13"
+    },
+    {
+      "serviceName": "Splunk IT Service Intelligence",
+      "serviceDescription": "",
+      "dateAvailable": "2024-09-13"
+    }
+  ],
   "ZD_frid_retro": "FR2314156865",
   "id_matches_expected": true
 }

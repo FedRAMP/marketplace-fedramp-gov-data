@@ -30,6 +30,487 @@
     "name": "Fortreum, LLC",
     "assessorID": "201664"
   },
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2527132001",
+        "useCase": ""
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2421035110",
+        "useCase": ""
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1823368486",
+        "useCase": ""
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2510664395",
+        "useCase": ""
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2311345531",
+        "useCase": ""
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2502963317",
+        "useCase": ""
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2406453618",
+        "useCase": ""
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1605027892",
+        "useCase": ""
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2113557839",
+        "useCase": ""
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1825941347A",
+        "useCase": ""
+      }
+    ]
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Advanced Ticketing Integrations*",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Advanced and Scalable Incident Handling",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Alert Deduplication",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Alert Severity",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Alert Suppression",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Alert Triage & Deduplication",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Analytics API and Data Export",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Analytics Dashboard",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Audio and Video Conference Integrations*",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Audit Trail Reporting",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Auto-Pause Incident Notifications",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Auto-Pause Transient Events",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Basic Conditions",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Basic Enrichment",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Business Performance Reviews",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Business Service Subscription",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Business and Technical Services and Dependencies",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Change Correlation",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Change Events",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "ChatOps*",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Content-Based Alert Grouping",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Custom Change Event Transformer",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Custom Fields",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Custom Incident Actions",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Domestic SMS/Phone notifications",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Dynamic Field Enrichment and Extraction",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Dynamic Service Graph",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Dynamically Add Additional Responders",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Email and push notifications",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Escalation Policy Report",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Escalation policies",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Event Rule Notes",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Event Triggered Webhooks*",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "External Status Pages",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Full-Featured Mobile App for iOS and Android",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Global Event Orchestration*",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Global Integration Key",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Global Search",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "If/else statements",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Incident Activity and Service Performance Reports",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Incident Priority",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Incident Roles",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Incident Tasks",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Incident Timeline",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Incident Urgencies",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Incident Workflows*",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Intelligent Alert Grouping",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Internal Status Pages",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "International SMS/Phone notifications",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Live Call Routing*",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Max users per escalation level",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Monitoring and Developer Integrations*",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "On-call Schedules",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "One Touch to Join to Conference Bridge*",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Operational Maturity",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Operational Reviews, On-call Readiness Analytics and Administration",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Out-of-the-box Integrations, Plus Workflow Extensions*",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Outlier Incidents",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "PagerDuty Advance",
+      "serviceDescription": "",
+      "dateAvailable": "2025-05-02"
+    },
+    {
+      "serviceName": "Past Incidents",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Paused Incident Notifications",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Postmortems",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Private Status Pages",
+      "serviceDescription": "",
+      "dateAvailable": "2025-05-02"
+    },
+    {
+      "serviceName": "Probable Origin",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Recurring Conditions",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Related Incidents",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Responder and Team Reports",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Role-based permissions",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Round Robin Scheduling",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Routing Rules",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Rule Nesting",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Schedule Conditions",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Service Directory",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Service Orchestration Rules*",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Service Performance Reviews",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Service Rules",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Single Sign-on",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Stakeholder Users",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Status Update Notification Templates",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Team On-Call Handoff Reviews",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Team-based Organizing and Advanced Permissions",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Threshold Conditions",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Ticketing *",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Time-Based Alert Grouping",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Unlimited Open and Flexible APIs",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "User Onboarding Report",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    },
+    {
+      "serviceName": "Visibility Console",
+      "serviceDescription": "",
+      "dateAvailable": "2024-05-02"
+    }
+  ],
   "ZD_frid_retro": "FR2310974411",
   "id_matches_expected": true
 }
