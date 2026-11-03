@@ -38,7 +38,7 @@
       "authenticationRequired": true,
       "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request FedRAMP Access' button on the top right of the Trust Center."
     },
-    "nextOngoingCertificationReportDate": "2026-08-31"
+    "nextOngoingCertificationReportDate": "2027-01-31"
   },
   "contactInformation": [
     {
@@ -49,10 +49,14 @@
     },
     {
       "contactType": "Sales",
-      "contactName": "Eric Yanofsky, Head of GTM",
+      "contactName": "Eric Yanofsky, Head (VP), Sales and Partnerships",
       "contactEmail": "sales@mycroft.io"
     }
   ],
+  "assessor": {
+    "name": "Insight Assurance LLC",
+    "assessorID": "203355"
+  },
   "overallSummaryOfAssessment": "Insight Assurance LLC (FedRAMP Assessor ID 203355) performed an independent, documentation-level review of this FedRAMP 20x Class A certification package for completeness and accuracy against FedRAMP 20x Class A requirements, completed 2026-09-02. This review examined the Certification Package Overview, Security Decision Record, and Ongoing Certification Report for internal consistency, completeness of required content, and accuracy of citations to supporting evidence; it did not independently test or validate the underlying security controls. No significant findings were identified. This engagement is general due diligence supplementary to the package and is not claimed as satisfying any specific optional independent-assessment rule (e.g., IVV-CSO-FIA); the mandatory independent verification and validation requirement (IVV-CSX-AIA) is satisfied by Mycroft's annual SOC 2 Type 2 examination (MJD Advisors, LLC), described in the Security Decision Record.",
   "certifiedServices": [
     {

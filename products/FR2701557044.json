@@ -27,7 +27,7 @@
       "url": "https://platform.gomoderniza.ai/trust-center",
       "repositoryDescription": "FedRAMP Certification Data: offering profile, Key Security Indicators, historical snapshots, policies, vulnerability and ongoing certification reports.",
       "authenticationRequired": false,
-      "accessRequestInstructions": "Public certification data needs no account. Agency customers and assessors receive a read-only account with the compliance:read permission, which unlocks per-measurement evidence and historical snapshots through the same URLs."
+      "accessRequestInstructions": "Public certification data needs no account. Agency customers and assessors receive a read-only account with the compliance:read permission, which unlocks per-measurement evidence and historical snapshots through the same URLs. Questions or feedback about an Ongoing Certification Report: Sign in at https://platform.gomoderniza.ai/trust-center with the account your agency access grant gave you. Open the section \"Questions about the report\" in the left menu. Pick the Ongoing Certification Report, write the question or feedback, and press Send. The answer appears under your question in the same section; you see only your own questions. If you cannot sign in, e-mail Security@businessintegra.com and put the report id in the subject line. Every question and answer is kept in a tamper-evident ledger; an anonymized summary goes into the next Ongoing Certification Report."
     },
     "secureConfigurationGuidance": {
       "repositoryType": [
@@ -35,7 +35,8 @@
       ],
       "url": "https://platform.gomoderniza.ai/docs/secure-configuration",
       "repositoryDescription": "How to configure the offering securely.",
-      "authenticationRequired": false
+      "authenticationRequired": false,
+      "accessRequestInstructions": "**How to get the guide.** The guide is a public web page. Open the address given here in any browser; no account is needed. It shows the values the platform runs with at the moment you open it. https://platform.gomoderniza.ai/docs/secure-configuration\n\n**How to use it.**\n1. Read \"If you do only ten things\" first and apply each item to your agency's accounts\n2. Have your first Super Admin follow \"First steps for a new administrator\" on the day the account is created\n3. Set roles, Super Admin power and sign-in rules as the sections on accounts and sign-in describe\n4. Check \"Platform settings managed by Moderniza\" — a row marked Differs is not yet at the recommended value\n5. ask the security contact if your agency needs a stricter value\n6. Open the guide again after each Moderniza release or at least every quarter, because the values on the page are read live\n\n**Who gets the guide and related material.** The guide itself is public. The list of known weaknesses and the related security policies are shared only with agency customers and assessors who hold an open Agency Access grant (a read-only account with the compliance:read permission). Ask the security contact for access; a Super Admin gives it in Admin, Agency Access, and every read is logged.\n\nSecurity contact: Prathiba Ramadoss <Security@businessintegra.com>"
     },
     "nextOngoingCertificationReportDate": "2026-12-15"
   },
@@ -80,6 +81,45 @@
   "assessor": {
     "name": "Kompleye",
     "assessorID": "201591"
+  },
+  "thirdPartyInformationResources": {
+    "nonCertified": [
+      {
+        "name": "Anthropic API",
+        "provider": "Anthropic",
+        "useCase": "AI model provider: answers the pipeline's AI steps",
+        "website": "https://www.anthropic.com"
+      },
+      {
+        "name": "Container registry",
+        "provider": "Amazon Web Services",
+        "useCase": "Stores the platform's signed container images",
+        "website": "https://aws.amazon.com/ecr/"
+      },
+      {
+        "name": "GitLab",
+        "provider": "GitLab",
+        "useCase": "Holds the source code and runs the CI/CD pipeline",
+        "website": "https://about.gitlab.com"
+      },
+      {
+        "name": "SMTP relay",
+        "provider": "SMTP relay",
+        "useCase": "Sends notification e-mail"
+      },
+      {
+        "name": "CISA KEV feed",
+        "provider": "CISA",
+        "useCase": "Known-exploited vulnerability feed read by the vulnerability checks",
+        "website": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      },
+      {
+        "name": "Amazon S3 backup storage",
+        "provider": "Amazon Web Services",
+        "useCase": "Stores encrypted backups",
+        "website": "https://aws.amazon.com/s3/"
+      }
+    ]
   },
   "ZD_frid_retro": "FR2701557044",
   "id_matches_expected": true

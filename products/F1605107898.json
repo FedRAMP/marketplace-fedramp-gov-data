@@ -1,6 +1,6 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "F1605107898",
+    "fedRampPackageId": "",
     "providerName": "Vbrick Systems, Inc.",
     "serviceName": "Vbrick Enterprise Video Platform",
     "serviceAcronym": "EVP",
@@ -44,7 +44,7 @@
     },
     "nextOngoingCertificationReportDate": "2026-10-30",
     "ongoingCertificationReportLocation": "Paramify Trust Center: https://trust.paramify.com/vbrick/vbrick-evp",
-    "availabilityWebServiceUrl": "Tobepublished",
+    "availabilityWebServiceUrl": "https://status.vbrick.com/",
     "informationResources": {
       "metadataIncludedInScope": "Yes. Metadata about federal customer data - including authentication data,\ncustomer metadata, PII, and system-generated analytics - is included in\nscope, stored across MongoDB, Elasticsearch and AWS S3.",
       "resources": [
@@ -216,5 +216,5 @@
     "packageMaintenanceInterval": "2 weeks"
   },
   "ZD_frid_retro": "F1605107898",
-  "id_matches_expected": true
+  "id_matches_expected": null
 }

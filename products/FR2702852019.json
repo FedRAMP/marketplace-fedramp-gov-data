@@ -1,0 +1,220 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "",
+    "providerName": "Vbrick Systems, Inc.",
+    "serviceName": "Vbrick Enterprise Video Platform",
+    "serviceAcronym": "EVP",
+    "serviceDescription": "Vbrick EVP enables organizations to securely and efficiently\ndeliver high quality live and on-demand video to huge\naudiences internally, using the organizations wide area\nnetwork, and externally via the cloud.\nFeatures of Vbrick EVP include, the central management of\nvideo assets, user access and permissions, network delivery",
+    "certificationType": "20x",
+    "website": "https://vbrick.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/VBrick%20Logo.png",
+    "certificationClass": "Class C",
+    "certificationPath": "Program"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Hybrid Cloud",
+    "businessCategory": [
+      "Collaboration",
+      "Communication",
+      "Content Management System (CMS)",
+      "Design & Multimedia",
+      "Media"
+    ],
+    "trustCenter": {
+      "url": "https://trust.paramify.com/vbrick/vbrick-evp",
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "repositoryDescription": "Paramify-hosted Trust Center publishing our FedRAMP compliance\nposture, control implementation status. Documentation is available to\napproved visitors upon request.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Go to Request Access -> Fill in the required information under Trust Center\nAccess Request -> Submit forapproval",
+      "agencyAccessDenialProcess": "Vbrick will notify FedRAMP within five (5) business days of denying an\nagency's request for access to FedRAMP Certification Data, using the\nrequired notification form (CSPs Agency Access Denial), available at:\nhttps://help.fedramp.gov/hc/en-us/requests/new?ticket_form_id=518298266\n17243"
+    },
+    "secureConfigurationGuidance": {
+      "url": "https://revdocs.vbrick.com/docs/secure-configuration-guide",
+      "repositoryType": [
+        "Secure Configuration Guide"
+      ],
+      "repositoryDescription": "Secure Configuration Guide (SCG) is provided by Vbrick\nSystems, Inc. to support agency customers in deploying and\nadministering Vbrick EVP.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": ""
+    },
+    "nextOngoingCertificationReportDate": "2026-10-30",
+    "ongoingCertificationReportLocation": "Paramify Trust Center: https://trust.paramify.com/vbrick/vbrick-evp",
+    "availabilityWebServiceUrl": "https://status.vbrick.com/",
+    "informationResources": {
+      "metadataIncludedInScope": "Yes. Metadata about federal customer data - including authentication data,\ncustomer metadata, PII, and system-generated analytics - is included in\nscope, stored across MongoDB, Elasticsearch and AWS S3.",
+      "resources": [
+        {
+          "name": "Vbrick Rev (EVP) Application Servers (EC2)",
+          "type": "Machine-Based",
+          "descriptionAndRole": "EC2 instances running the core video platform application —\nhandles upload, transcoding",
+          "handlesFederalCustomerData": true
+        },
+        {
+          "name": "AWS S3",
+          "type": "Machine-Based",
+          "descriptionAndRole": "AWS S3 buckets storing customer-uploaded data",
+          "handlesFederalCustomerData": true
+        },
+        {
+          "name": "MongoDB",
+          "type": "Machine-Based",
+          "descriptionAndRole": "MongoDB stores authentication data, customer metadata,\npersonally identifiable information (PII)",
+          "handlesFederalCustomerData": true
+        },
+        {
+          "name": "Elasticsearch",
+          "type": "Machine-Based",
+          "descriptionAndRole": "Stores customer metadata, supplemental metadata, and\nsystem-generated analytics.",
+          "handlesFederalCustomerData": true
+        }
+      ]
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "FedRAMP Security Inbox",
+      "contactEmail": "fedramp@vbrick.com"
+    },
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@vbrick.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@vbrick.com"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514",
+    "assessmentSummary": {
+      "overallSummary": "TBD",
+      "assessmentFailures": "TBD",
+      "areasOfDispute": "TBD",
+      "fullResultsLocation": "TBD"
+    }
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Vbrick Enterprise Video Platform",
+      "serviceDescription": "Rev enables organizations to securely and efficiently deliver high\nquality live and on-demand video to huge audiences internally,\nusing the organizations wide area network, and externally via the\ncloud. Features of Rev include, the central management of video\nassets, user access and permissions, network delivery devices,\nand video publishing and distribution - in the most bandwidth-\nefficient way possible.",
+      "dateAvailable": "2026-10-12",
+      "securityCategory": "Moderate"
+    }
+  ],
+  "informationFlows": {
+    "securityCategoryOfTheOffering": "Moderate",
+    "dataFlowDiagramReference": "EVP Cloud Service Data Flow Diagram, APPENDIX G -\nInformation System Contingency Plan (ISCP)",
+    "flows": [
+      {
+        "flowName": "Authentication",
+        "sourceResource": "Viewer's client (browser/application)",
+        "destinationResource": "Authentication Service (EVP Servers); for LDAP —",
+        "informationTypeCarried": "Login credentials (username/password); LDAP\nauthentication requests/responses; SSO authentication\ndata, session cookies/authentication tokens",
+        "securityCategory": "Moderate",
+        "explanation": "Viewers authenticate via local credentials, LDAP (customer directory), or\nSSO (customer provider). A session cookie with authentication token is\nissued on success, valid for a tenant-configurable period (default 30 min)."
+      },
+      {
+        "flowName": "Upload – from a User directly",
+        "sourceResource": "User's client (browser)",
+        "destinationResource": "EVP Application Servers (cid:0) Customer Content Storage\n(AWS S3)",
+        "informationTypeCarried": "Video content, metadata and temporary workflow data\nremoved upon completion",
+        "securityCategory": "Moderate",
+        "explanation": "Authenticated user uploads video via the UI over HTTPS.\nStored in a tenant-specific, encrypted S3 bucket; optionally\ntranscoded (tenant-configurable) with output stored in the\nsame directory. User sets permissions before the video\nbecomes viewable."
+      },
+      {
+        "flowName": "Upload - Distributed Media Engine (DME)",
+        "sourceResource": "Customer-configured local hardware device (DME)",
+        "destinationResource": "EVP Application Servers (cid:0) Customer Content Storage\n(AWS S3)",
+        "informationTypeCarried": "Video content, device access-key credentials",
+        "securityCategory": "Moderate",
+        "explanation": "Device is configured with an access key pair and uploads\nvideo via HTTPS. Storage/transcoding follow the same\nprocess as direct upload. Video is not activated by default (cid:0)\ntypically requires manual admin action, per tenant policy."
+      },
+      {
+        "flowName": "Upload - API / Integrated Service",
+        "sourceResource": "Third-party software or integrated service (via API)",
+        "destinationResource": "EVP Application Servers (cid:0) Customer Content Storage\n(AWS S3)",
+        "informationTypeCarried": "Video content, API key pair",
+        "securityCategory": "Moderate",
+        "explanation": "Integrated service authenticated with an assigned API key\npair and video is uploaded via HTTPS. Storage/transcoding\nfollow the same process as direct upload. Video is not\nactivated by default (cid:0) typically requires manual admin\naction, per tenant policy."
+      }
+    ]
+  },
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "AWS infrastructure supporting application hosting, storage, containers, and\nnetworking.",
+        "usageAndConfiguration": "Resources are deployed across AWS US East-West regions.",
+        "justificationForUse": "Required to support application workloads and computing\nrequirements.",
+        "mitigationMeasures": "Encryption in transit and at rest, least-privilege access, network\nsegmentation.",
+        "compensatingControls": "Vulnerability scanning is performed on Vbrick-managed workloads hosted\nwithin AWS and network configuration reviewed periodically."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "CrowdStrike Falcon (Exposure Management / Cloud\nSecurity Posture Management)",
+        "provider": "CrowdStrike, Inc.",
+        "website": "https://www.crowdstrike.com/",
+        "useCase": "Cloud security services - Vulnerability Management, Cloud Security Posture\nManagement",
+        "usageAndConfiguration": "Deployed through sensor installation and by AWS integration",
+        "justificationForUse": "Used to support vulnerability identification, cloud security\nposture assessment, and container image scanning.",
+        "mitigationMeasures": "Access is limited to the information and environments required to perform\nthe defined security functions. Tool does not access or store federal\ncustomer data.",
+        "compensatingControls": "Scan findings are reviewed internally through the Information Security\nProgram, access to the Falcon console is restricted to authorized personnel\nonly."
+      }
+    ]
+  },
+  "policiesAndProcedures": [
+    {
+      "name": "Certification Data Sharing Policy",
+      "location": "Certification Data Sharing - Policy",
+      "summary": "Defines requirements for sharing applicable FedRAMP\ncertification data publicly, including use of a\nFedRAMP-compatible trust center.",
+      "wordCount": 2085,
+      "version": "Version 1",
+      "dateOfLastUpdate": "2026-07-01"
+    },
+    {
+      "name": "Certification Data Sharing Procedure",
+      "location": "Certification Data Sharing - Procedure",
+      "summary": "Defines the operational steps for implementing the\nCertification Data Sharing Policy, including trust center\nmaintenance and agency access management.",
+      "wordCount": 1823,
+      "version": "Version 1",
+      "dateOfLastUpdate": "2026-08-03"
+    }
+  ],
+  "cryptographicModules": [
+    {
+      "servicesCovered": "Vbrick Enterprise Video Platform",
+      "moduleName": "AWS Key Management Service HSM",
+      "moduleVersion": "Hardware Version: 3.0; Firmware Version: 1.8.104",
+      "cryptographicServicesProvided": "Data at rest",
+      "cmvpValidated": "Active validation"
+    },
+    {
+      "servicesCovered": "Vbrick Enterprise Video Platform",
+      "moduleName": "AWS-LC",
+      "moduleVersion": "AWS-LC FIPS 1.0.2 and AWS-LC FIPS 1.1.0",
+      "cryptographicServicesProvided": "Data in transit",
+      "cmvpValidated": "Active validation"
+    }
+  ],
+  "packageMetadata": {
+    "responsibleOfficial": {
+      "name": "Todd Kistner",
+      "title": "VP, Cloud Operations",
+      "email": "todd.kistner@vbrick.com",
+      "phone": "203-303-0259"
+    },
+    "version": "Version 1.0",
+    "dateTimeOfLastUpdate": "2026-09-09T15:00:00Z",
+    "sourceOfUpdate": "Vbrick Information Security",
+    "packageMaintenanceInterval": "2 weeks"
+  },
+  "ZD_frid_retro": "FR2702852019",
+  "id_matches_expected": null
+}

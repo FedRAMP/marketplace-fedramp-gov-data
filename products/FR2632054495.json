@@ -54,7 +54,7 @@
   "certifiedServices": [
     {
       "serviceName": "JupiterOne GovCloud",
-      "serviceDescription": "The government-focused deployment of the JupiterOne cyber asset attack surface management platform, providing federal customers with continuous asset visibility, relationship mapping, and compliance evidence management within a dedicated environment aligned to FedRAMP requirements."
+      "serviceDescription": "The government-focused deployment of the JupiterOne cyber asset attack surface management platform, providing federal customers with continuous asset visibility, relationship mapping, and compliance evidence management. Hosted in AWS Commercial in the us-east-2 region."
     }
   ],
   "thirdPartyInformationResources": {
@@ -63,7 +63,7 @@
         "name": "Amazon Web Services",
         "provider": "Amazon Web Services, Inc.",
         "website": "https://aws.amazon.com",
-        "useCase": "Underlying infrastructure provider for JupiterOne GovCloud, including networking, compute, storage, and database services within the FedRAMP Minimum Assessment Scope."
+        "useCase": "Underlying infrastructure provider for JupiterOne GovCloud (AWS Commercial, us-east-2 region), including networking, compute, storage, and database services within the FedRAMP Minimum Assessment Scope."
       }
     ]
   },

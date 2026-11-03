@@ -1,0 +1,36 @@
+{
+  "advisorName": "Automata",
+  "logo": "https://www.automata.org/automata-mark.svg",
+  "serviceDescription": "Automata helps cloud service providers prepare for FedRAMP certification under Rev5 or 20x: we recommend the route and class, assess readiness against the baseline or the Key Security Indicators, write the documentation and evidence, engineer the fixes in the government clouds, and prepare for the independent assessment and the monitoring that follows. Automata does not assess or certify offerings.",
+  "contactInformation": {
+    "pointOfContactName": "Chris Rule",
+    "jobTitle": "Chief Operating Officer",
+    "email": "fedramp@automata.org",
+    "phone": "202-209-2906",
+    "companyWebsite": "https://www.automata.org"
+  },
+  "servicesOffered": [
+    {
+      "serviceName": "Rev5 or 20x recommendation",
+      "serviceDescription": "We compare your offering with the 20x class definitions and the Rev5 baselines, then recommend which to pursue and at which class."
+    },
+    {
+      "serviceName": "Readiness assessment",
+      "serviceDescription": "We test the live configuration control by control against the Rev5 baseline, or indicator by indicator against the KSIs."
+    },
+    {
+      "serviceName": "Documentation and evidence",
+      "serviceDescription": "For Rev5 we write the SSP, policies, procedures and POA&M, including the controls your providers’ customer responsibility matrices (CRMs) leave to you. For 20x we put together the evidence that shows each indicator is met."
+    },
+    {
+      "serviceName": "Cloud security engineering",
+      "serviceDescription": "We harden identity, segmentation, key management and logging on AWS GovCloud (US), Azure Government or Assured Workloads, and deliver the work as infrastructure as code."
+    },
+    {
+      "serviceName": "Assessment preparation and continuous monitoring",
+      "serviceDescription": "We prepare everyone who speaks to a control for the independent assessor’s interviews. Afterward we run the ongoing cycle with you, which covers scans, POA&M updates and significant-change reporting."
+    }
+  ],
+  "advisor_id": "automata",
+  "fedramp_listing_timestamp": "2026-11-03T15:23:10.583Z"
+}

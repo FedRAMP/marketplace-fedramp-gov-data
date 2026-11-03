@@ -72,8 +72,8 @@
   "thirdPartyInformationResources": {
     "certified": [
       {
-        "fedRampCertifiedThirdPartyInformationResource": "Microsoft Azure Government",
-        "useCase": "Hosts the entire cloud service offering: compute, storage, identity, network, AI inference, secrets management, monitoring and physical infrastructure. Holds a FedRAMP High provisional authorization and is authorized for CUI under DFARS 252.204-7012. Physical, environmental and platform controls are inherited per Microsoft's published Customer Responsibility Matrix. Rohirrim operates a dedicated subscription isolated from any commercial Azure tenancy, with enclave-level segmentation, customer-managed secrets in Key Vault, encryption at rest and in transit, and independent monitoring through Microsoft Sentinel and Defender for Cloud."
+        "fedRampCertifiedThirdPartyInformationResource": "F1603087869",
+        "useCase": "Microsoft Azure Government, listed on the FedRAMP Marketplace as \"Azure Government (includes Dynamics 365)\" under provider Microsoft. Hosts the entire cloud service offering: compute, storage, identity, network, AI inference, secrets management, monitoring and physical infrastructure. Holds a FedRAMP High provisional authorization and is authorized for CUI under DFARS 252.204-7012. Physical, environmental and platform controls are inherited per Microsoft's published Customer Responsibility Matrix. Rohirrim operates a dedicated subscription isolated from any commercial Azure tenancy, with enclave-level segmentation, customer-managed secrets in Key Vault, encryption at rest and in transit, and independent monitoring through Microsoft Sentinel and Defender for Cloud."
       }
     ],
     "nonCertified": []

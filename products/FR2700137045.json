@@ -70,6 +70,14 @@
         "url": "https://trust.regscale.com/api/v1/fedramp/20x/systems/trust-center-20x-class-c/manifest.json",
         "repositoryDescription": "Cryptographic module inventory (CMU-CSO-CMD): modules, CMVP validation status, requirement levels and risk decisions — the `crypto` section of the public manifest.",
         "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Independent Assessment"
+        ],
+        "url": "https://trust.regscale.com/api/v1/fedramp/20x/systems/trust-center-20x-class-c/oscal/assessment-results.json",
+        "repositoryDescription": "Independent assessment results (IVV-CSO-ICP), emitted as OSCAL assessment results with a detached JWS-ES256 signature at the sibling .jws path.",
+        "authenticationRequired": false
       }
     ],
     "significantChangeNotificationMechanism": {
@@ -154,9 +162,17 @@
       "title": "Chief Information Security Officer (CISO)",
       "email": "dhoak@regscale.com"
     },
-    "version": 10,
-    "lastUpdated": "2026-10-05T15:08:34.921925+00:00",
-    "sourceOfUpdate": "csp:cpo"
+    "version": 11,
+    "lastUpdated": "2026-10-27T14:39:54.606736+00:00",
+    "sourceOfUpdate": "csp:cpo:assessor-summary"
+  },
+  "assessmentSummary": {
+    "summary": "The independent assessment of the RegScale Trust Center found that all requirements within scope were implemented and supported by sufficient evidence. No unmet controls or findings were identified. Because the provider recently began operations, the assessor recommended that RegScale continue managing the offering in accordance with FedRAMP requirements for historical metrics.",
+    "recommendation": "Recommend Certification",
+    "assessor": "A-LIGN",
+    "leadAssessor": "Melina Barreca",
+    "date": "2026-10-27",
+    "source": "20x independent assessment attestation"
   },
   "ZD_frid_retro": "FR2700137045",
   "id_matches_expected": true

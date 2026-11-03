@@ -34,10 +34,10 @@
       "repositoryType": [
         "Secure Configuration Guidance"
       ],
-      "url": "https://trust.fulcrumpro.us",
-      "repositoryDescription": "The Secure Configuration Guide for the offering. It is not published and is not stored in the Trust Center; it is sent by email on request.",
+      "url": "https://trust.fulcrumpro.us/configuration-guide",
+      "repositoryDescription": "The Secure Configuration Guide for the offering, with its recommended settings in machine-readable form. It is in the Trust Center for organizations given access and is not published publicly.",
       "authenticationRequired": true,
-      "accessRequestInstructions": "The guide is supplied on request to agencies, assessors and customers. Sign in to the Fulcrum Trust Center as described above, with your work email address; customers use the same sign-in. If your organization is not already given access, the sign-in records your request and notifies Fulcrum, which contacts you at that address, within 5 business days for a government address. If your organization already has access, the sign-in sends no request: email fedramp-security@fulcrumpro.com naming your organization instead."
+      "accessRequestInstructions": "The guide is available to agencies, assessors and customers. Sign in to the Fulcrum Trust Center as described above, with your work email address; customers use the same sign-in. If your organization is not already given access, the sign-in records your request and notifies Fulcrum, which contacts you at that address, within 5 business days for a government address. Once your organization has access, the guide is on the Trust Center's Configuration guide page. If you cannot use the sign-in, email fedramp-security@fulcrumpro.com naming your organization."
     },
     "nextOngoingCertificationReportDate": "2027-03-02"
   },
@@ -160,7 +160,7 @@
       "serviceDescription": "Automatic drawing bubbling in Control; Archie web search, help-article search and code execution; the inspection, inventory continuity, job log and work-in-progress report downloads and grid column export; and these REST API operations: purchase order PDF, calibration certificate and scrap report downloads, single nonconformance and corrective action reads, item can-make and purchase history reads, item customer, item tag and material vendor changes, department, equipment and work center changes, in-process tracking lists, completing an item-to-make operation, and material lookup."
     }
   ],
-  "documentationOverview": "Fulcrum keeps its FedRAMP certification data in the Fulcrum Trust Center, which government agencies and assessors can sign in to as described below. The Secure Configuration Guide, which explains how customers configure the offering securely, is supplied on request.",
+  "documentationOverview": "Fulcrum keeps its FedRAMP certification data in the Fulcrum Trust Center, which government agencies and assessors can sign in to as described below. The Secure Configuration Guide, which explains how customers configure the offering securely, is in the Trust Center for organizations given access.",
   "ZD_frid_retro": "FR2701256060",
   "id_matches_expected": true
 }

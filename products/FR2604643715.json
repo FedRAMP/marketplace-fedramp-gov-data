@@ -1,14 +1,17 @@
 {
   "serviceIdentification": {
     "fedRampPackageId": "FR2604643715",
-    "providerName": "Perplexity AI",
+    "ueiNumber": "P9N9FFAUBLQ4",
+    "providerName": "Perplexity AI, Inc.",
     "serviceName": "Perplexity Enterprise and API Platform",
-    "serviceAcronym": "Perplexity Enterprise and API Platform",
-    "serviceDescription": "Perplexity's Enterprise platform provides agency users with access to leading frontier AI models (including OpenAI GPT, Anthropic Claude, Google Gemini, Perplexity Sonar, and more). The platform supports research and analysis across internal agency data and public sources through an intuitive conversational interface. Built on Perplexity's exabyte-scale proprietary knowledge index, responses are grounded in verifiable sources, providing trustworthy, transparent, and reliable information to users.\r\nThrough Perplexity's Search API, developers may also access Perplexity's exabyte-scale knowledge index to provide web-grounded answers in real time. The index tracks over 300bn unique URLs and processes hundreds of millions of pages per day, providing agencies a durable foundation for real time web retrieval.\r\nPerplexity's features include robust security and compliance measures such as SAML SSO, customizable access controls and data retention, comprehensive administrative management, audit logs, and dedicated priority support. Perplexity Enterprise minimizes the risks inherent in single-model solutions, with Perplexity’s model-agnostic architecture providing greater uptime and empowering IT administrators to enable and disable specific models to enforce policy compliance.",
-    "certificationType": "Rev5",
+    "serviceAcronym": "Perplexity Enterprise",
+    "serviceDescription": "Perplexity's Enterprise platform provides agency users with access to leading frontier AI models (including OpenAI GPT, Anthropic Claude, Google Gemini, Perplexity Sonar, and more). The platform supports research and analysis across internal agency data and public sources through an intuitive conversational interface. Built on Perplexity's exabyte-scale proprietary knowledge index, responses are grounded in verifiable sources, providing trustworthy, transparent, and reliable information to users.\n\nThrough Perplexity's Search API, developers may also access Perplexity's exabyte-scale knowledge index to provide web-grounded answers in real time. The index tracks over 300bn unique URLs and processes hundreds of millions of pages per day, providing agencies a durable foundation for real time web retrieval.\n\nPerplexity's features include robust security and compliance measures such as SAML SSO, customizable access controls and data retention, comprehensive administrative management, audit logs, and dedicated priority support. Perplexity Enterprise minimizes the risks inherent in single-model solutions, with Perplexity's model-agnostic architecture providing greater uptime and empowering IT administrators to enable and disable specific models to enforce policy compliance.",
+    "certificationType": "20x",
+    "certificationClass": "Class C",
+    "certificationDate": "2026-10-28",
     "website": "https://www.perplexity.ai/enterprise",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Perplexity%20Logo.png",
-    "ueiNumber": "P9N9FFAUBLQ4"
+    "logo": "https://fedramp20x.i.perplexity.ai/assets/perplexity-mark.svg",
+    "logoPage": "https://live.standards.site/perplexity/logo"
   },
   "serviceProperties": {
     "serviceType": [
@@ -26,18 +29,1425 @@
       "Finance",
       "Legal & Policy",
       "Research"
-    ]
+    ],
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://www.perplexity.ai/help-center/en/articles/14714627-getting-started-with-fedramp-20x-secure-configuration",
+      "repositoryDescription": "Guidance for securely onboarding, configuring, operating, and decommissioning Perplexity Enterprise for Government.",
+      "authenticationRequired": false
+    },
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Assessment Reports"
+      ],
+      "url": "https://fedramp20x.i.perplexity.ai",
+      "repositoryDescription": "Perplexity's FedRAMP 20x trust center contains the certification package, continuous-monitoring results, and security-posture information.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Visit https://fedramp20x.i.perplexity.ai, sign in with a one-time PIN sent to your email address, and submit your name, agency, and purpose."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Product Documentation",
+          "Authorization Materials"
+        ],
+        "url": "https://www.perplexity.ai/help-center/en/",
+        "repositoryDescription": "Public product documentation and user guidance are available in the Help Center. The complete OSCAL assessment package and human-readable assessment results are available to authorized agency representatives through the Trust Center or by contacting usgov@perplexity.ai.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Continuous Monitoring"
+        ],
+        "url": "https://fedramp20x.i.perplexity.ai",
+        "repositoryDescription": "FedRAMP 20x continuous monitoring: the live KSI dashboard, human-readable assessment reports, and the machine-readable API for agency SIEM/GRC pipelines (docs/agency_access.md, docs/programmatic_access.md).",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Access to this continuous monitoring dashboard and its API is granted to individual authorized agency representatives (authorizing officials, auditors, and compliance leads), not to entire domains. To request access, visit https://fedramp20x.i.perplexity.ai, sign in with a one-time PIN sent to your email address, and submit the access request with your name, agency, and purpose. Access is granted when the requester is an agency representative with an authorization or oversight need. There is no need to keep the request page open: once your request is approved, your address joins the standing allowlist and you sign in at any time with just the one-time PIN. Access is per-individual, so colleagues submit their own requests. Questions can go to fedramp@perplexity.ai. Perplexity notifies FedRAMP of any denied agency request within five business days."
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-02-01"
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "fedramp@perplexity.ai"
-    },
-    {
       "contactType": "Sales",
       "contactEmail": "usgov@perplexity.ai"
+    },
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@perplexity.ai"
     }
   ],
+  "assessor": {
+    "name": "360 Advanced",
+    "assessorID": "202896"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Perplexity Enterprise Pro for Government",
+      "serviceDescription": "Conversational research and analysis across public and authorized agency data.",
+      "securityCategory": "moderate",
+      "dateAvailable": "2026-02-01"
+    },
+    {
+      "serviceName": "Perplexity API",
+      "serviceDescription": "Search API, Sonar API, Agent API, and Embeddings API.",
+      "securityCategory": "moderate",
+      "dateAvailable": "2026-04-30"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "fedramp_status": {
+          "fedramp_id": "AGENCYAMAZONEW",
+          "marketplace_url": "https://www.fedramp.gov/marketplace/products/AGENCYAMAZONEW/",
+          "status": "FedRAMP Certified"
+        },
+        "general_usage_and_configuration": "Cloud provider",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "Amazon Bedrock inherits Perplexity's already existing AWS account-level controls.",
+          "explanation_or_justification_for_use": "Inference capacity, reliability, and model availability.",
+          "general_usage_and_configuration": "Amazon Bedrock is a cloud provider used for artificial intelligence research and deployment.",
+          "mitigation_measures": "Amazon Bedrock inherits Perplexity's already existing AWS account-level controls. Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "Amazon Bedrock",
+        "url": "https://aws.amazon.com/bedrock",
+        "useCase": "Amazon Bedrock is a cloud provider used for artificial intelligence research and deployment. Inference capacity, reliability, and model availability."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "fedramp_status": {
+          "fedramp_id": "AGENCYAMAZONEW",
+          "marketplace_url": "https://www.fedramp.gov/marketplace/products/AGENCYAMAZONEW/",
+          "status": "FedRAMP Certified"
+        },
+        "general_usage_and_configuration": "Cloud provider",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "AWS SSO/role-based access and JIT/least-privilege expectations are in place.",
+          "explanation_or_justification_for_use": "Core compute, infrastructure, account-level security, and production service availability.",
+          "general_usage_and_configuration": "Amazon Web Services is a cloud provider used for cloud infrastructure and security.",
+          "mitigation_measures": "Restricted EKS API endpoint access, scoped security groups, and an AWS account security contact is configured. Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "AWS",
+        "url": "https://aws.amazon.com/trust-center/",
+        "useCase": "Amazon Web Services is a cloud provider used for cloud infrastructure and security. Core compute, infrastructure, account-level security, and production service availability."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2000863987A",
+        "fedramp_status": {
+          "fedramp_id": "FR2000863987A",
+          "marketplace_url": "https://www.fedramp.gov/marketplace/products/FR2000863987A/",
+          "status": "FedRAMP Certified"
+        },
+        "general_usage_and_configuration": "Cloud monitoring",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "The H1 2026 access/firewall review is current, and Cloudflare Zero Trust is in scope.",
+          "explanation_or_justification_for_use": "DDoS and WAF protection for the public apex zone.",
+          "general_usage_and_configuration": "Cloudflare is a cloud monitoring provider used for edge network and security infrastructure.",
+          "mitigation_measures": "DDoS managed rules are enabled by default for onboarded zones; both custom and managed WAF entrypoints are managed via infrastructure-as-code, and the two required WAF phases are present and passing. Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "Cloudflare",
+        "url": "https://www.cloudflare.com/trust-hub/",
+        "useCase": "Cloudflare is a cloud monitoring provider used for edge network and security infrastructure. DDoS and WAF protection for the public apex zone."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2023864279A",
+        "fedramp_status": {
+          "fedramp_id": "FR2023864279A",
+          "marketplace_url": "https://www.fedramp.gov/marketplace/products/FR2023864279A/",
+          "status": "FedRAMP Certified"
+        },
+        "general_usage_and_configuration": "Cloud monitoring",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "Monitor configuration and monitoring coverage are managed via infrastructure-as-code.",
+          "explanation_or_justification_for_use": "Operational monitoring and alerting of platform health and security/availability signals.",
+          "general_usage_and_configuration": "Datadog is a cloud monitoring provider used for cloud monitoring and observability.",
+          "mitigation_measures": "Published, active, unmuted deployment monitors are in place, along with latency monitors, availability monitors with alert destinations, and CI/CD health monitoring. Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "Datadog",
+        "url": "https://trust.datadoghq.com/",
+        "useCase": "Datadog is a cloud monitoring provider used for cloud monitoring and observability. Operational monitoring and alerting of platform health and security/availability signals."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "fedramp_status": {
+          "fedramp_id": "FR1805751477",
+          "marketplace_url": "https://www.fedramp.gov/marketplace/products/FR1805751477/",
+          "status": "FedRAMP Certified"
+        },
+        "general_usage_and_configuration": "Cloud provider",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "Answers generated using Google Cloud-hosted models are delivered with inline citations to source material and are subject to human review before use. Model outputs are monitored for accuracy on an ongoing basis, with issues surfaced through user feedback mechanisms and used to inform continuous model and prompt tuning.",
+          "explanation_or_justification_for_use": "Gemini models (including Gemini 3.1 Pro) are offered as selectable and default AI models within Perplexity's own products, including Search, Model Council, and Enterprise plans.",
+          "general_usage_and_configuration": "Google Cloud is a cloud provider used for artificial intelligence research and deployment, including AI models like Gemini.",
+          "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "Google Cloud",
+        "url": "https://cloud.google.com/security/compliance/compliance-reports-manager",
+        "useCase": "Google Cloud is a cloud provider used for artificial intelligence research and deployment, including AI models like Gemini. Gemini models (including Gemini 3.1 Pro) are offered as selectable and default AI models within Perplexity's own products, including Search, Model Council, and Enterprise plans."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2533155773",
+        "fedramp_status": {
+          "fedramp_id": "FR2533155773",
+          "marketplace_url": "https://www.fedramp.gov/marketplace/products/FR2533155773/",
+          "status": "FedRAMP Certified"
+        },
+        "general_usage_and_configuration": "Cloud provider",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "Answers generated using OpenAI-hosted models are delivered with inline citations to source material and are subject to human review before use. Model outputs are monitored for accuracy on an ongoing basis, with issues surfaced through user feedback mechanisms and used to inform continuous model and prompt tuning.",
+          "explanation_or_justification_for_use": "OpenAI models are offered as selectable third-party models.",
+          "general_usage_and_configuration": "OpenAI is a cloud provider used for artificial intelligence research and deployment.",
+          "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "OpenAI",
+        "url": "https://trust.openai.com/",
+        "useCase": "OpenAI is a cloud provider used for artificial intelligence research and deployment. OpenAI models are offered as selectable third-party models."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1809360201",
+        "fedramp_status": {
+          "fedramp_id": "FR1809360201",
+          "marketplace_url": "https://www.fedramp.gov/marketplace/products/FR1809360201/",
+          "status": "FedRAMP Certified"
+        },
+        "general_usage_and_configuration": "Data storage and processing",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "Customer PII stored in Snowflake is protected by role-based dynamic data masking applied at query time, so raw PII is not visible to warehouse users by default.",
+          "explanation_or_justification_for_use": "Data warehouse/analytics and data movement, including the Polytomic Snowflake ↔ Salesforce workflow.",
+          "general_usage_and_configuration": "Snowflake is a data storage and processing provider used as a cloud data warehouse and analytics platform.",
+          "mitigation_measures": "Privileged Snowflake access is provisioned just-in-time through Serval with independent approval and time-bound expiry; analytics roles are automatically deprovisioned through the Okta group/role workflow. Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "Snowflake",
+        "url": "https://trust.snowflake.com/",
+        "useCase": "Snowflake is a data storage and processing provider used as a cloud data warehouse and analytics platform. Data warehouse/analytics and data movement, including the Polytomic Snowflake ↔ Salesforce workflow."
+      }
+    ],
+    "nonCertified": [
+      {
+        "fedramp_status": {
+          "fedramp_id": null,
+          "marketplace_url": null,
+          "status": "Not Listed"
+        },
+        "general_usage_and_configuration": "Data ingestion platform",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "Data synced through Airbyte pipelines is encrypted in transit, and sync schedules and destination-side retention settings are configured on Perplexity's side to limit how long data persists within pipeline-managed storage. Any anomalous sync volume or unexpected destination writes are monitored and alerted on internally.",
+          "explanation_or_justification_for_use": "Data movement/CDC to the analytics warehouse; migrating the Stripe integration from Fivetran to Airbyte was considered as a cost-reduction option.",
+          "general_usage_and_configuration": "Airbyte is a data ingestion platform used for data integration and movement.",
+          "mitigation_measures": "Airbyte's production database access is limited to a read-only replica: it cannot write to production data, and its pipeline load is isolated from the production primary. Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "Airbyte",
+        "provider": "Airbyte",
+        "url": "https://trust.airbyte.com/",
+        "useCase": "Airbyte is a data ingestion platform used for data integration and movement. Data movement/CDC to the analytics warehouse; migrating the Stripe integration from Fivetran to Airbyte was considered as a cost-reduction option.",
+        "website": "https://trust.airbyte.com/"
+      },
+      {
+        "fedramp_status": {
+          "fedramp_id": null,
+          "marketplace_url": null,
+          "status": "Not Listed"
+        },
+        "general_usage_and_configuration": "Cloud provider",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "Answers generated using Anthropic-hosted models are delivered with inline citations to source material and are subject to human review before use. Model outputs are monitored for accuracy on an ongoing basis, with issues surfaced through user feedback mechanisms and used to inform continuous model and prompt tuning.",
+          "explanation_or_justification_for_use": "Anthropic models are offered as selectable third-party models.",
+          "general_usage_and_configuration": "Anthropic is a cloud provider used for artificial intelligence research and deployment, including AI models like Claude.",
+          "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "Anthropic",
+        "provider": "Anthropic",
+        "url": "https://trust.anthropic.com/",
+        "useCase": "Anthropic is a cloud provider used for artificial intelligence research and deployment, including AI models like Claude. Anthropic models are offered as selectable third-party models.",
+        "website": "https://trust.anthropic.com/"
+      },
+      {
+        "fedramp_status": {
+          "fedramp_id": null,
+          "marketplace_url": null,
+          "status": "Not Listed"
+        },
+        "general_usage_and_configuration": "Data Ingestion Platform",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "Data synced through Fivetran lands in Snowflake, where role-based dynamic data masking protects PII at query time.",
+          "explanation_or_justification_for_use": "Data movement/integration for analytics, sales, and marketing.",
+          "general_usage_and_configuration": "Fivetran is a data ingestion platform used for data integration and movement.",
+          "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "Fivetran",
+        "provider": "Fivetran",
+        "url": "https://trust.fivetran.com/",
+        "useCase": "Fivetran is a data ingestion platform used for data integration and movement. Data movement/integration for analytics, sales, and marketing.",
+        "website": "https://trust.fivetran.com/"
+      },
+      {
+        "fedramp_status": {
+          "fedramp_id": null,
+          "marketplace_url": null,
+          "status": "Not Listed"
+        },
+        "general_usage_and_configuration": "Marketing",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "Loops maintains vendor-side controls, including just-in-time and logged production access by its own personnel and employee confidentiality agreements.",
+          "explanation_or_justification_for_use": "Lifecycle, upsell, churn-prevention, and resurrection email workflows.",
+          "general_usage_and_configuration": "Loops.so is a marketing platform used for email marketing and automation.",
+          "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "Loops.so",
+        "provider": "Loops.so",
+        "url": "https://trust.oneleet.com/loops",
+        "useCase": "Loops.so is a marketing platform used for email marketing and automation. Lifecycle, upsell, churn-prevention, and resurrection email workflows.",
+        "website": "https://trust.oneleet.com/loops"
+      },
+      {
+        "fedramp_status": {
+          "fedramp_id": null,
+          "marketplace_url": null,
+          "status": "Not Listed"
+        },
+        "general_usage_and_configuration": "Integrations",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "The reviewed Merge connector path has strict upstream revocation on disconnect; this applies only to that connector configuration. Query and app data passed through the Merge-provided connector is anonymized and is not stored or logged by Merge.",
+          "explanation_or_justification_for_use": "Merge connects a customer's third-party workspace (e.g., Linear) to Perplexity and handles the associated user authentication for that connection.",
+          "general_usage_and_configuration": "Merge is an integrations provider used as a third-party connector for the Perplexity AI platform.",
+          "mitigation_measures": "Query and app data passed through the Merge-provided connector is anonymized and is not stored or logged by Merge. Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "Merge",
+        "provider": "Merge",
+        "url": "https://www.merge.dev/",
+        "useCase": "Merge is an integrations provider used as a third-party connector for the Perplexity AI platform. Merge connects a customer's third-party workspace (e.g., Linear) to Perplexity and handles the associated user authentication for that connection.",
+        "website": "https://www.merge.dev/"
+      },
+      {
+        "fedramp_status": {
+          "fedramp_id": null,
+          "marketplace_url": null,
+          "status": "Not Listed"
+        },
+        "general_usage_and_configuration": "Finance and payments",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "Metronome's role is scoped to usage/balance tracking only; invoicing and payment execution remain with Stripe, a PCI DSS Level 1 service provider, so cardholder data does not pass through Metronome.",
+          "explanation_or_justification_for_use": "Metronome is used to track and bill consumption of paid Perplexity products at the account and seat level, replacing manual usage reconciliation for enterprise and self-serve customers.",
+          "general_usage_and_configuration": "Metronome is a finance and payments provider used for payment processing.",
+          "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "Metronome",
+        "provider": "Metronome",
+        "url": "https://metronome.com",
+        "useCase": "Metronome is a finance and payments provider used for payment processing. Metronome is used to track and bill consumption of paid Perplexity products at the account and seat level, replacing manual usage reconciliation for enterprise and self-serve customers.",
+        "website": "https://metronome.com"
+      },
+      {
+        "fedramp_status": {
+          "fedramp_id": null,
+          "marketplace_url": null,
+          "status": "Not Listed"
+        },
+        "general_usage_and_configuration": "Integrations",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "Identity-scoped account resolution, source-permission constraints, query-time retrieval, local-state clearing/soft deletion, and strict upstream revocation on disconnect are documented for the reviewed Pipedream path.",
+          "explanation_or_justification_for_use": "Scale access to a large MCP/connector ecosystem.",
+          "general_usage_and_configuration": "Pipedream is an integrations provider used as a third-party connector for the Perplexity AI platform.",
+          "mitigation_measures": "Pipedream holds the OAuth grant while Perplexity stores an owner-scoped marker."
+        },
+        "name": "Pipedream",
+        "provider": "Pipedream",
+        "url": "https://pipedream.com/",
+        "useCase": "Pipedream is an integrations provider used as a third-party connector for the Perplexity AI platform. Scale access to a large MCP/connector ecosystem.",
+        "website": "https://pipedream.com/"
+      },
+      {
+        "fedramp_status": {
+          "fedramp_id": null,
+          "marketplace_url": null,
+          "status": "Not Listed"
+        },
+        "general_usage_and_configuration": "Data Integration and Movement",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "Polytomic's use is scoped to sales and marketing data flows; any expansion involving customer data paths requires GRC and Legal review first.",
+          "explanation_or_justification_for_use": "Trialed as an ETL/reverse-ETL alternative to Hightouch and Fivetran for sales and marketing.",
+          "general_usage_and_configuration": "Polytomic is a data integration and movement provider.",
+          "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "Polytomic",
+        "provider": "Polytomic",
+        "url": "https://polytomic.com",
+        "useCase": "Polytomic is a data integration and movement provider. Trialed as an ETL/reverse-ETL alternative to Hightouch and Fivetran for sales and marketing.",
+        "website": "https://polytomic.com"
+      },
+      {
+        "fedramp_status": {
+          "fedramp_id": null,
+          "marketplace_url": null,
+          "status": "Not Listed"
+        },
+        "general_usage_and_configuration": "Finance and payments",
+        "location": "US",
+        "mas_cso_tpr": {
+          "compensating_controls": "Payment card data is collected and processed by Stripe, a PCI DSS Level 1 service provider; cardholder data is not stored on Perplexity systems.",
+          "explanation_or_justification_for_use": "Billing/payment data integration/pipeline context is indicated by the Stripe-named pipeline.",
+          "general_usage_and_configuration": "Stripe is a finance and payments provider used for payment processing.",
+          "mitigation_measures": "Privileged Stripe access is provisioned just-in-time with independent approval and time-bound expiry. Annual third-party risk assessments are performed as part of the vendor risk management program."
+        },
+        "name": "Stripe",
+        "provider": "Stripe",
+        "url": "https://stripe.com",
+        "useCase": "Stripe is a finance and payments provider used for payment processing. Billing/payment data integration/pipeline context is indicated by the Stripe-named pipeline.",
+        "website": "https://stripe.com"
+      }
+    ]
+  },
+  "rule_id": "CPO-CSO-OVR",
+  "title": "Certification Package Overview: CPO-CSO-OVR (Overview of the Cloud Service Offering)",
+  "section_registry": {
+    "CPO-CSO-MTD": {
+      "rule_id": "CPO-CSO-MTD",
+      "title": "Certification Package Overview: CPO-CSO-MTD (Certification Package Overview Metadata)",
+      "anchor": "cpo-cso-mtd",
+      "source": "Checked-in certification package metadata",
+      "status": "available"
+    },
+    "CDS-CSO-PUB": {
+      "rule_id": "CDS-CSO-PUB",
+      "title": "Certification Data Sharing: CDS-CSO-PUB (Public Information)",
+      "anchor": "cds-cso-pub",
+      "source": "Checked-in public information record",
+      "status": "available"
+    },
+    "CDS-CSO-SVC": {
+      "rule_id": "CDS-CSO-SVC",
+      "title": "Certification Data Sharing: CDS-CSO-SVC (Public Service List)",
+      "anchor": "cds-cso-svc",
+      "source": "Certified services in the checked-in public information record",
+      "status": "available"
+    },
+    "CDS-CSO-IRP": {
+      "rule_id": "CDS-CSO-IRP",
+      "title": "Certification Data Sharing: CDS-CSO-IRP (Include Relevant Policies)",
+      "anchor": "cds-cso-irp",
+      "source": "Validated relevant policies register",
+      "status": "available"
+    },
+    "MAS-CSO-IIR": {
+      "rule_id": "MAS-CSO-IIR",
+      "title": "Minimum Assessment Scope: MAS-CSO-IIR (Identify Information Resources)",
+      "anchor": "mas-cso-iir",
+      "source": "Version-controlled certification package evidence",
+      "status": "available"
+    },
+    "MAS-CSO-FLO": {
+      "rule_id": "MAS-CSO-FLO",
+      "title": "Minimum Assessment Scope: MAS-CSO-FLO (Information Flows and Security Categories)",
+      "anchor": "mas-cso-flo",
+      "source": "Version-controlled certification package evidence",
+      "status": "available"
+    },
+    "MAS-CSO-TPR": {
+      "rule_id": "MAS-CSO-TPR",
+      "title": "Minimum Assessment Scope: MAS-CSO-TPR (Third-Party Information Resources)",
+      "anchor": "mas-cso-tpr",
+      "source": "Validated third-party resource snapshot",
+      "status": "available"
+    },
+    "CMU-CSO-CMD": {
+      "rule_id": "CMU-CSO-CMD",
+      "title": "Using Cryptographic Modules: CMU-CSO-CMD (Cryptographic Module Documentation)",
+      "anchor": "cmu-cso-cmd",
+      "source": "Version-controlled certification package evidence",
+      "status": "available"
+    },
+    "IVV-CSO-ICP": {
+      "rule_id": "IVV-CSO-ICP",
+      "title": "Independent Verification and Validation: IVV-CSO-ICP (Inclusion in Certification Package)",
+      "anchor": "ivv-cso-icp",
+      "source": "360 Advanced Compass Rose",
+      "status": "available"
+    }
+  },
+  "sections": {
+    "CPO-CSO-MTD": {
+      "responsibleOfficial": "Ewa Jodlowska",
+      "title": "GRC Manager",
+      "contactEmail": "fedramp@perplexity.ai",
+      "version": "2026.07.14.01",
+      "lastUpdated": "2026.09.11",
+      "source": "360 Advanced Compass Rose"
+    },
+    "CDS-CSO-PUB": {
+      "serviceIdentification": {
+        "fedRampPackageId": "FR2604643715",
+        "ueiNumber": "P9N9FFAUBLQ4",
+        "providerName": "Perplexity AI, Inc.",
+        "serviceName": "Perplexity Enterprise and API Platform",
+        "serviceAcronym": "Perplexity Enterprise",
+        "serviceDescription": "Perplexity's Enterprise platform provides agency users with access to leading frontier AI models (including OpenAI GPT, Anthropic Claude, Google Gemini, Perplexity Sonar, and more). The platform supports research and analysis across internal agency data and public sources through an intuitive conversational interface. Built on Perplexity's exabyte-scale proprietary knowledge index, responses are grounded in verifiable sources, providing trustworthy, transparent, and reliable information to users.\n\nThrough Perplexity's Search API, developers may also access Perplexity's exabyte-scale knowledge index to provide web-grounded answers in real time. The index tracks over 300bn unique URLs and processes hundreds of millions of pages per day, providing agencies a durable foundation for real time web retrieval.\n\nPerplexity's features include robust security and compliance measures such as SAML SSO, customizable access controls and data retention, comprehensive administrative management, audit logs, and dedicated priority support. Perplexity Enterprise minimizes the risks inherent in single-model solutions, with Perplexity's model-agnostic architecture providing greater uptime and empowering IT administrators to enable and disable specific models to enforce policy compliance.",
+        "certificationType": "20x",
+        "certificationClass": "Class C",
+        "certificationDate": "2026-10-28",
+        "website": "https://www.perplexity.ai/enterprise",
+        "logo": "https://fedramp20x.i.perplexity.ai/assets/perplexity-mark.svg",
+        "logoPage": "https://live.standards.site/perplexity/logo"
+      },
+      "serviceProperties": {
+        "serviceType": [
+          "SaaS"
+        ],
+        "deploymentModel": "Public Cloud",
+        "businessCategory": [
+          "Analytics",
+          "Artificial Intelligence (AI)",
+          "Collaboration",
+          "Communication",
+          "Content Management System (CMS)",
+          "Development Tools",
+          "Education & Training",
+          "Finance",
+          "Legal & Policy",
+          "Research"
+        ],
+        "secureConfigurationGuidance": {
+          "repositoryType": [
+            "Secure Configuration Guidance"
+          ],
+          "url": "https://www.perplexity.ai/help-center/en/articles/14714627-getting-started-with-fedramp-20x-secure-configuration",
+          "repositoryDescription": "Guidance for securely onboarding, configuring, operating, and decommissioning Perplexity Enterprise for Government.",
+          "authenticationRequired": false
+        },
+        "trustCenter": {
+          "repositoryType": [
+            "Trust Center",
+            "Assessment Reports"
+          ],
+          "url": "https://fedramp20x.i.perplexity.ai",
+          "repositoryDescription": "Perplexity's FedRAMP 20x trust center contains the certification package, continuous-monitoring results, and security-posture information.",
+          "authenticationRequired": true,
+          "accessRequestInstructions": "Visit https://fedramp20x.i.perplexity.ai, sign in with a one-time PIN sent to your email address, and submit your name, agency, and purpose."
+        },
+        "additionalRepositories": [
+          {
+            "repositoryType": [
+              "Product Documentation",
+              "Authorization Materials"
+            ],
+            "url": "https://www.perplexity.ai/help-center/en/",
+            "repositoryDescription": "Public product documentation and user guidance are available in the Help Center. The complete OSCAL assessment package and human-readable assessment results are available to authorized agency representatives through the Trust Center or by contacting usgov@perplexity.ai.",
+            "authenticationRequired": false
+          },
+          {
+            "repositoryType": [
+              "Continuous Monitoring"
+            ],
+            "url": "https://fedramp20x.i.perplexity.ai",
+            "repositoryDescription": "FedRAMP 20x continuous monitoring: the live KSI dashboard, human-readable assessment reports, and the machine-readable API for agency SIEM/GRC pipelines (docs/agency_access.md, docs/programmatic_access.md).",
+            "authenticationRequired": true,
+            "accessRequestInstructions": "Access to this continuous monitoring dashboard and its API is granted to individual authorized agency representatives (authorizing officials, auditors, and compliance leads), not to entire domains. To request access, visit https://fedramp20x.i.perplexity.ai, sign in with a one-time PIN sent to your email address, and submit the access request with your name, agency, and purpose. Access is granted when the requester is an agency representative with an authorization or oversight need. There is no need to keep the request page open: once your request is approved, your address joins the standing allowlist and you sign in at any time with just the one-time PIN. Access is per-individual, so colleagues submit their own requests. Questions can go to fedramp@perplexity.ai. Perplexity notifies FedRAMP of any denied agency request within five business days."
+          }
+        ],
+        "nextOngoingCertificationReportDate": "2027-02-01"
+      },
+      "contactInformation": [
+        {
+          "contactType": "Sales",
+          "contactEmail": "usgov@perplexity.ai"
+        },
+        {
+          "contactType": "Security",
+          "contactEmail": "fedramp@perplexity.ai"
+        }
+      ],
+      "certifiedServices": [
+        {
+          "serviceName": "Perplexity Enterprise Pro for Government",
+          "serviceDescription": "Conversational research and analysis across public and authorized agency data.",
+          "securityCategory": "moderate",
+          "dateAvailable": "2026-02-01"
+        },
+        {
+          "serviceName": "Perplexity API",
+          "serviceDescription": "Search API, Sonar API, Agent API, and Embeddings API.",
+          "securityCategory": "moderate",
+          "dateAvailable": "2026-04-30"
+        }
+      ],
+      "assessor": {
+        "name": "360 Advanced",
+        "assessorID": "202896"
+      }
+    },
+    "CDS-CSO-SVC": {
+      "certifiedServices": [
+        {
+          "serviceName": "Perplexity Enterprise Pro for Government",
+          "serviceDescription": "Conversational research and analysis across public and authorized agency data.",
+          "securityCategory": "moderate",
+          "dateAvailable": "2026-02-01"
+        },
+        {
+          "serviceName": "Perplexity API",
+          "serviceDescription": "Search API, Sonar API, Agent API, and Embeddings API.",
+          "securityCategory": "moderate",
+          "dateAvailable": "2026-04-30"
+        }
+      ]
+    },
+    "CDS-CSO-IRP": {
+      "csp": "Perplexity AI, Inc.",
+      "fedramp_id": "FR2604643715",
+      "uei": "P9N9FFAUBLQ4",
+      "authorization_type": "FedRAMP 20x Moderate (Class C)",
+      "register_generated": "2026-08-26",
+      "inventory_confirmed": "2026-10-23",
+      "policies": [
+        {
+          "name": "Access Control Policy",
+          "document_name": "Access Control Policy_v2.2.docx",
+          "summary": "To limit access to information and information processing systems, networks and facilities to authorized parties in accordance with business objectives.",
+          "word_count": 1860,
+          "version": "2.2",
+          "last_update": "2026-06-09",
+          "related_fedramp_practices": [
+            "KSI-IAM-AAM",
+            "KSI-IAM-ELP",
+            "KSI-IAM-JIT"
+          ],
+          "slug": "access-control-policy",
+          "document_url": "/relevant-policies/access-control-policy",
+          "json_url": "/relevant-policies/access-control-policy.json"
+        },
+        {
+          "name": "AI Use Policy",
+          "document_name": "AI Use Policy_v1.1.docx",
+          "summary": "This policy describes how Perplexity AI employees use artificial intelligence tools in their work. It outlines our commitments to transparency, safety, and privacy in using these tools.",
+          "word_count": 632,
+          "version": "1.1",
+          "last_update": "2026-05-29",
+          "related_fedramp_practices": [],
+          "slug": "ai-use-policy",
+          "document_url": "/relevant-policies/ai-use-policy",
+          "json_url": "/relevant-policies/ai-use-policy.json"
+        },
+        {
+          "name": "Asset Management Policy",
+          "document_name": "Asset Management Policy_v2.2.docx",
+          "summary": "To identify organizational assets and define appropriate protection responsibilities. To ensure that information receives an appropriate level of protection in accordance with its importance to the organization. To prevent unauthorized disclosure, modification, removal, or destruction of information stored on media.",
+          "word_count": 668,
+          "version": "2.2",
+          "last_update": "2026-05-22",
+          "related_fedramp_practices": [
+            "KSI-PIY-GIV"
+          ],
+          "slug": "asset-management-policy",
+          "document_url": "/relevant-policies/asset-management-policy",
+          "json_url": "/relevant-policies/asset-management-policy.json"
+        },
+        {
+          "name": "Business Continuity Management Policy",
+          "document_name": "Business Continuity Management Policy_v2.2.docx",
+          "summary": "This policy outlines how Perplexity AI will manage the recovery of critical business processes and systems during disruptions. It supports the implementation of our business continuity program and is for internal use.",
+          "word_count": 937,
+          "version": "2.2",
+          "last_update": "2026-06-10",
+          "related_fedramp_practices": [
+            "KSI-RPL-ARP",
+            "KSI-RPL-RRO",
+            "KSI-RPL-TRC"
+          ],
+          "slug": "business-continuity-management-policy",
+          "document_url": "/relevant-policies/business-continuity-management-policy",
+          "json_url": "/relevant-policies/business-continuity-management-policy.json"
+        },
+        {
+          "name": "Code of Conduct",
+          "document_name": "Code of Conduct_v2.2.docx",
+          "summary": "The primary goal of Perplexity AI, Inc.’s Code of Conduct is to foster inclusive, collaborative, and safe working conditions for all Perplexity AI, Inc. staff. As such, Perplexity AI, Inc. is committed to providing a friendly, safe, and welcoming environment for all staff, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, or religion (or lack thereof). This code of conduct outlines our expectations for all Perplexity AI, Inc. staff, as well as the consequences for unacceptable behavior.",
+          "word_count": 2647,
+          "version": "2.2",
+          "last_update": "2026-06-09",
+          "related_fedramp_practices": [],
+          "slug": "code-of-conduct",
+          "document_url": "/relevant-policies/code-of-conduct",
+          "json_url": "/relevant-policies/code-of-conduct.json"
+        },
+        {
+          "name": "Cryptography Policy",
+          "document_name": "Cryptography Policy_v2.2.docx",
+          "summary": "To ensure proper and effective use of cryptography to protect the confidentiality, authenticity and/or integrity of information. This policy establishes requirements for the use and protection of cryptographic keys and cryptographic methods throughout the entire encryption lifecycle.",
+          "word_count": 554,
+          "version": "2.2",
+          "last_update": "2026-05-22",
+          "related_fedramp_practices": [
+            "KSI-SVC-ASM",
+            "KSI-SVC-SIN",
+            "KSI-SVC-VCM",
+            "KSI-SVC-VRI"
+          ],
+          "slug": "cryptography-policy",
+          "document_url": "/relevant-policies/cryptography-policy",
+          "json_url": "/relevant-policies/cryptography-policy.json"
+        },
+        {
+          "name": "Data Management Policy",
+          "document_name": "Data Management Policy_v1.1.docx",
+          "summary": "To ensure that information is classified, protected, retained and securely disposed of in accordance with its importance to the organization.",
+          "word_count": 1577,
+          "version": "1.1",
+          "last_update": "2026-05-26",
+          "related_fedramp_practices": [
+            "KSI-SVC-RUD",
+            "KSI-SVC-SIN"
+          ],
+          "slug": "data-management-policy",
+          "document_url": "/relevant-policies/data-management-policy",
+          "json_url": "/relevant-policies/data-management-policy.json"
+        },
+        {
+          "name": "GDPR Compliance Policy",
+          "document_name": "GDPR Compliance Policy_1.2.docx",
+          "summary": "This policy applies to all employees, contractors, and vendors while doing business with Perplexity AI. and others who have access to European Union (EU) and the European Economic Area (EEA) data subject information (“personal data”) in connection with Perplexity AI’s operating activities.",
+          "word_count": 2387,
+          "version": "1.2",
+          "last_update": "2026-06-09",
+          "related_fedramp_practices": [],
+          "slug": "gdpr-compliance-policy",
+          "document_url": "/relevant-policies/gdpr-compliance-policy",
+          "json_url": "/relevant-policies/gdpr-compliance-policy.json"
+        },
+        {
+          "name": "HIPAA Compliance Policy",
+          "document_name": "HIPAA Compliance Policy_v1.1.docx",
+          "summary": "This policy applies to all employees, contractors, and vendors while doing business with Perplexity AI, Inc. and others who have access to Protected Health Information (“PHI”) in connection with Perplexity AI, Inc. 's business associate activities.",
+          "word_count": 1265,
+          "version": "1.1",
+          "last_update": "2026-06-09",
+          "related_fedramp_practices": [],
+          "slug": "hipaa-compliance-policy",
+          "document_url": "/relevant-policies/hipaa-compliance-policy",
+          "json_url": "/relevant-policies/hipaa-compliance-policy.json"
+        },
+        {
+          "name": "HIPAA Workstation Security Policy",
+          "document_name": "HIPAA Workstation Security Policy_v2.2.docx",
+          "summary": "This policy is intended to support compliance with the HIPAA Security Rule, including 45 CFR 164.310(b) Workstation Use, 45 CFR 164.310(c) Workstation Security, and, where applicable, 45 CFR 164.310(d) Device and Media Controls, as well as related technical safeguards under 45 CFR 164.312, including Access Control, Audit Controls, and Person or Entity Authentication.",
+          "word_count": 978,
+          "version": "2.2",
+          "last_update": "2026-05-22",
+          "related_fedramp_practices": [],
+          "slug": "hipaa-workstation-security-policy",
+          "document_url": "/relevant-policies/hipaa-workstation-security-policy",
+          "json_url": "/relevant-policies/hipaa-workstation-security-policy.json"
+        },
+        {
+          "name": "Human Resource Security Policy",
+          "document_name": "Human Resource Security Policy_v1.1.docx",
+          "summary": "To ensure that employees and external parties meet security requirements, understand their responsibilities and are suitable for their roles.",
+          "word_count": 1004,
+          "version": "1.1",
+          "last_update": "2026-06-09",
+          "related_fedramp_practices": [
+            "KSI-CED-RAT",
+            "KSI-IAM-AAM"
+          ],
+          "slug": "human-resource-security-policy",
+          "document_url": "/relevant-policies/human-resource-security-policy",
+          "json_url": "/relevant-policies/human-resource-security-policy.json"
+        },
+        {
+          "name": "Incident Response Plan",
+          "document_name": "Incident Response Plan_v1.1.docx",
+          "summary": "This document establishes the plan for managing information security incidents and events and offers guidance for employees or incident responders who believe they have discovered or are responding to a security incident.",
+          "word_count": 4617,
+          "version": "1.1",
+          "last_update": "2026-08-07",
+          "related_fedramp_practices": [
+            "KSI-INR-AAR",
+            "KSI-INR-RPI"
+          ],
+          "slug": "incident-response-plan",
+          "document_url": "/relevant-policies/incident-response-plan",
+          "json_url": "/relevant-policies/incident-response-plan.json"
+        },
+        {
+          "name": "Information Security Policy (AUP)",
+          "document_name": "Information Security Policy (AUP)_v2.2.docx",
+          "summary": "This Information Security Policy is intended to protect Perplexity AI, Inc.’s employees, partners and the company from illegal or damaging actions by individuals, either knowingly or unknowingly.",
+          "word_count": 2339,
+          "version": "2.2",
+          "last_update": "2026-07-07",
+          "related_fedramp_practices": [],
+          "slug": "information-security-policy-aup",
+          "document_url": "/relevant-policies/information-security-policy-aup",
+          "json_url": "/relevant-policies/information-security-policy-aup.json"
+        },
+        {
+          "name": "Information Security Roles and Responsibilities Policy",
+          "document_name": "Information Security Roles and Responsibilities Policy_v1.1.docx",
+          "summary": "Perplexity AI, Inc. is committed to conducting business in compliance with all applicable laws, regulations, and company policies. Perplexity AI, Inc. has adopted this policy to outline the security measures required to protect electronic information systems and related equipment from unauthorized use.",
+          "word_count": 917,
+          "version": "1.1",
+          "last_update": "2026-05-26",
+          "related_fedramp_practices": [
+            "KSI-PIY-RES"
+          ],
+          "slug": "information-security-roles-and-responsibilities-policy",
+          "document_url": "/relevant-policies/information-security-roles-and-responsibilities-policy",
+          "json_url": "/relevant-policies/information-security-roles-and-responsibilities-policy.json"
+        },
+        {
+          "name": "Mobile Device Policy",
+          "document_name": "Mobile Device Policy_1.0.docx",
+          "summary": "This policy governs the use of both Perplexity-issued and any personal devices used to access Perplexity systems or data and supplements the Information Security Policy (AUP).",
+          "word_count": 1579,
+          "version": "1.0",
+          "last_update": "2026-05-22",
+          "related_fedramp_practices": [
+            "KSI-IAM-APM",
+            "KSI-INR-RIR"
+          ],
+          "slug": "mobile-device-policy",
+          "document_url": "/relevant-policies/mobile-device-policy",
+          "json_url": "/relevant-policies/mobile-device-policy.json"
+        },
+        {
+          "name": "Operations Security Policy",
+          "document_name": "Operations Security Policy_v1.1.docx",
+          "summary": "To ensure the correct and secure operation of information processing systems and facilities.",
+          "word_count": 2413,
+          "version": "1.1",
+          "last_update": "2026-06-10",
+          "related_fedramp_practices": [
+            "KSI-CMT-RVP",
+            "KSI-MLA-OSM",
+            "KSI-MLA-RVL",
+            "KSI-RPL-ABO",
+            "KSI-SVC-VRI"
+          ],
+          "slug": "operations-security-policy",
+          "document_url": "/relevant-policies/operations-security-policy",
+          "json_url": "/relevant-policies/operations-security-policy.json"
+        },
+        {
+          "name": "Physical Security Policy",
+          "document_name": "Physical Security Policy_v2.2.docx",
+          "summary": "To prevent unauthorized physical access or damage to the organisation's information and information processing facilities.",
+          "word_count": 1056,
+          "version": "2.2",
+          "last_update": "2026-05-26",
+          "related_fedramp_practices": [],
+          "slug": "physical-security-policy",
+          "document_url": "/relevant-policies/physical-security-policy",
+          "json_url": "/relevant-policies/physical-security-policy.json"
+        },
+        {
+          "name": "Risk Management Policy",
+          "document_name": "Risk Management Policy_v2.2.docx",
+          "summary": "To define actions to address Perplexity AI, Inc. information security risks and opportunities. To define a plan for the achievement of information security and privacy objectives.",
+          "word_count": 3025,
+          "version": "2.2",
+          "last_update": "2026-05-26",
+          "related_fedramp_practices": [],
+          "slug": "risk-management-policy",
+          "document_url": "/relevant-policies/risk-management-policy",
+          "json_url": "/relevant-policies/risk-management-policy.json"
+        },
+        {
+          "name": "Secure Development Policy",
+          "document_name": "Secure Development Policy_v2.2.docx",
+          "summary": "To ensure that information security is designed and implemented within the development lifecycle for applications and information systems.",
+          "word_count": 1323,
+          "version": "2.2",
+          "last_update": "2026-06-10",
+          "related_fedramp_practices": [
+            "KSI-PIY-RSD"
+          ],
+          "slug": "secure-development-policy",
+          "document_url": "/relevant-policies/secure-development-policy",
+          "json_url": "/relevant-policies/secure-development-policy.json"
+        },
+        {
+          "name": "Third-Party Management Policy",
+          "document_name": "Third-Party Management Policy_v2.2.docx",
+          "summary": "To ensure the protection of the organization's data and assets that are shared with, accessible to or managed by suppliers, including external parties or third-party organizations such as service providers, vendors and customers and to maintain an agreed level of information security and service delivery in line with supplier agreements. This document outlines a baseline of security controls that Perplexity AI, Inc. expects partners and other third-party companies to meet when interacting with Perplexity AI, Inc.'s Confidential data.",
+          "word_count": 2067,
+          "version": "2.2",
+          "last_update": "2026-07-08",
+          "related_fedramp_practices": [
+            "KSI-SCR-MIT",
+            "KSI-SCR-MON"
+          ],
+          "slug": "third-party-management-policy",
+          "document_url": "/relevant-policies/third-party-management-policy",
+          "json_url": "/relevant-policies/third-party-management-policy.json"
+        }
+      ]
+    },
+    "MAS-CSO-IIR": {
+      "submissionStatement": [
+        "Perplexity identifies the Cloud Service Offering's Minimum Assessment Scope as all machine-based and non-machine-based information resources that are likely to handle federal customer data or likely to affect the confidentiality, integrity, or availability of that data. Resource classes are bounded by approved authorization-boundary account, region, cluster, namespace, repository, third-party tenant, and organizational-function lists.",
+        "Perplexity uses a distributed inventory model in which each resource class is tied to an upstream system of record and reconciled against an independent discovery or runtime source. The GRC evidence platform stores timestamped evidence copies and lineage; the named upstream systems remain authoritative. No single tool is designated as the authoritative inventory for all information resources."
+      ],
+      "resourceClasses": [
+        {
+          "resourceClass": "AWS compute, storage, database, messaging, networking, IAM, cryptographic, logging, monitoring, backup, and security resources in the authorization boundary",
+          "authoritativeInventory": "AWS provider-native resource and service APIs provide the authoritative runtime inventory for the approved account and region allowlist. Versioned Terraform state identifies resources managed through Terraform, while Terraform source establishes approved intended configuration. Provider-native discovery is reconciled against Terraform to identify live, unmanaged, or drifted resources."
+        },
+        {
+          "resourceClass": "Source repositories and build or deployment configuration that build, configure, deploy, test, secure, or operate the authorized offering",
+          "authoritativeInventory": "The GitHub organization repository inventory, constrained by a GRC-approved in-scope repository list, is authoritative for repository existence and status. Repository records are reconciled to Buildkite pipelines, Shipyard service definitions, Helm manifests, Terraform roots, container builds, and deployed-image provenance so that auxiliary, archived, or externally hosted deployment sources are not omitted. GitHub rulesets, branch protections, CODEOWNERS, pull-request history, and security settings provide the associated governance evidence."
+        },
+        {
+          "resourceClass": "Software dependencies, base images, container images, machine images, and deployable artifacts incorporated into the authorized offering",
+          "authoritativeInventory": "GitHub dependency-graph and committed package manifests and lockfiles provide the authoritative declared-dependency inventory for each in-scope repository. The applicable container or artifact registry and image inventory provide the authoritative inventory of published artifacts, and cloud or Kubernetes runtime metadata identifies the versions actually deployed. Packer and CI/CD records provide machine-image and build lineage. Dependabot provides vulnerability and update evidence."
+        },
+        {
+          "resourceClass": "Personnel functions, workforce identities, and access paths capable of changing, operating, securing, supporting, or administratively accessing the offering",
+          "authoritativeInventory": "Rippling is authoritative for employee and contractor identity, worker type, employment status, department, manager, and lifecycle status. Okta is authoritative for active workforce identities, authentication policy, groups, and application assignments. Serval is authoritative for its cataloged access roles, requests, approvals, business justifications, and time-bounded grants. Provider-native IAM and target-application entitlement inventories are authoritative for effective access. Joiner, mover, leaver, privileged-access, and exception populations are reconciled across these sources."
+        },
+        {
+          "resourceClass": "Managed workforce endpoints used by personnel who can affect the authorized offering",
+          "authoritativeInventory": "IRU, formerly Kandji, is authoritative for enrolled and managed macOS endpoints and their management and configuration posture. Microsoft Intune is authoritative for managed Windows endpoints. The combined endpoint population is reconciled against the active workforce and privileged-access populations."
+        },
+        {
+          "resourceClass": "Third-party cloud services, suppliers, subprocessors, external APIs or models, and externally operated security or business systems that handle federal customer data or can materially affect the offering",
+          "authoritativeInventory": "Actual technical usage is established from architecture and data-flow documentation, Terraform, deployment manifests, application configuration, provider integrations, identity or application assignments, and provider-native administration or API records. Vanta's active vendor inventory and security-review records provide the authoritative managed vendor-risk record. These sources are reconciled to contracts, DPAs, procurement or payment records, identity integrations, production configuration, and network egress. Each applicable third party is linked to its provider, use case, data handled, connection path, owner, authorization or certification status, mitigation measures, compensating controls, and lifecycle status."
+        },
+        {
+          "resourceClass": "FedRAMP evidence, certification-package, and persistent-validation resources",
+          "authoritativeInventory": "The ppl-ai/fedramp20x GitHub repository provides the version-controlled rule mappings, metric definitions, schemas, evidence mappings, and publication code. The controlled evidence-storage path and its object metadata provide the evidence-artifact inventory."
+        }
+      ]
+    },
+    "MAS-CSO-FLO": {
+      "enterpriseFlows": [
+        {
+          "name": "User request",
+          "description": "A user’s request first passes through Cloudflare edge network protections before reaching the AWS production load balancer."
+        },
+        {
+          "name": "Application processing",
+          "description": "The production load balancer uses certificates managed by AWS Certificate Manager and routes requests to the production EKS cluster, which interacts with production data stores."
+        },
+        {
+          "name": "Data replication",
+          "description": "Production data is transferred through the data lake replication service to the centralized data lake."
+        },
+        {
+          "name": "Sandbox processing",
+          "description": "The sandbox uses a separate load balancer, EKS cluster, and data stores, with certificates managed through AWS Certificate Manager."
+        },
+        {
+          "name": "Administrative access",
+          "description": "Perplexity engineers obtain time-limited access through Just-in-Time Access Management, while Identity Management controls access to authorized production and sandbox resources."
+        },
+        {
+          "name": "PII access",
+          "description": "Access to PII and the data lake is restricted through strict permissions and Just-in-Time access controls."
+        },
+        {
+          "name": "Software changes",
+          "description": "Source code changes are maintained in version control (Github) and reviewed before deployment into the AWS environment."
+        }
+      ],
+      "apiFlows": [
+        {
+          "name": "Request intake",
+          "description": "Client requests pass through middleware that enforces CORS requirements and performs logging, Datadog tracing, and request correlation."
+        },
+        {
+          "name": "Access control",
+          "description": "Bearer authentication validates the request, after which the system establishes user context, applies Redis-backed rate limits, and assigns request ID and timeout controls."
+        },
+        {
+          "name": "Endpoint routing",
+          "description": "Authorized requests are routed to chat completions, structured responses, or embeddings endpoints."
+        },
+        {
+          "name": "Model configuration",
+          "description": "The selected endpoint resolves the applicable model configuration using internal model settings, cached configuration, or supported external providers."
+        },
+        {
+          "name": "Search-augmented flow",
+          "description": "Search-augmented requests may undergo query reformulation and route through Pro Search or Fast Search before the unified API engine summarizes results and generates citations."
+        },
+        {
+          "name": "Direct-inference flow",
+          "description": "Direct-inference requests use model-pool selection and a primary inference client, with a legacy or fallback client available when needed, before reaching the selected inference backend."
+        },
+        {
+          "name": "Inference backends",
+          "description": "Requests may be processed by Perplexity-hosted infrastructure or external model providers such as OpenAI, Anthropic, and Fireworks."
+        },
+        {
+          "name": "Response delivery",
+          "description": "Results are returned as server-sent events, JSON responses with usage information, or embedding vectors, depending on the endpoint."
+        },
+        {
+          "name": "Supporting data flows",
+          "description": "ElastiCache, Amazon S3, Kinesis, and Amazon RDS support rate limiting, metadata, asynchronous storage, event processing, and billing-related functions."
+        },
+        {
+          "name": "Observability and configuration",
+          "description": "Datadog receives operational telemetry, and Eppo receives experimentation data, feature configuration, or evaluation information."
+        }
+      ]
+    },
+    "MAS-CSO-TPR": {
+      "authorization_type": "FedRAMP 20x Moderate (Class C)",
+      "csp": "Perplexity AI, Inc.",
+      "fedramp_id": "FR2604643715",
+      "register_generated": "2026-11-03",
+      "thirdPartyInformationResources": {
+        "certified": [
+          {
+            "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+            "fedramp_status": {
+              "fedramp_id": "AGENCYAMAZONEW",
+              "marketplace_url": "https://www.fedramp.gov/marketplace/products/AGENCYAMAZONEW/",
+              "status": "FedRAMP Certified"
+            },
+            "general_usage_and_configuration": "Cloud provider",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "Amazon Bedrock inherits Perplexity's already existing AWS account-level controls.",
+              "explanation_or_justification_for_use": "Inference capacity, reliability, and model availability.",
+              "general_usage_and_configuration": "Amazon Bedrock is a cloud provider used for artificial intelligence research and deployment.",
+              "mitigation_measures": "Amazon Bedrock inherits Perplexity's already existing AWS account-level controls. Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "Amazon Bedrock",
+            "url": "https://aws.amazon.com/bedrock",
+            "useCase": "Amazon Bedrock is a cloud provider used for artificial intelligence research and deployment. Inference capacity, reliability, and model availability."
+          },
+          {
+            "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+            "fedramp_status": {
+              "fedramp_id": "AGENCYAMAZONEW",
+              "marketplace_url": "https://www.fedramp.gov/marketplace/products/AGENCYAMAZONEW/",
+              "status": "FedRAMP Certified"
+            },
+            "general_usage_and_configuration": "Cloud provider",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "AWS SSO/role-based access and JIT/least-privilege expectations are in place.",
+              "explanation_or_justification_for_use": "Core compute, infrastructure, account-level security, and production service availability.",
+              "general_usage_and_configuration": "Amazon Web Services is a cloud provider used for cloud infrastructure and security.",
+              "mitigation_measures": "Restricted EKS API endpoint access, scoped security groups, and an AWS account security contact is configured. Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "AWS",
+            "url": "https://aws.amazon.com/trust-center/",
+            "useCase": "Amazon Web Services is a cloud provider used for cloud infrastructure and security. Core compute, infrastructure, account-level security, and production service availability."
+          },
+          {
+            "fedRampCertifiedThirdPartyInformationResource": "FR2000863987A",
+            "fedramp_status": {
+              "fedramp_id": "FR2000863987A",
+              "marketplace_url": "https://www.fedramp.gov/marketplace/products/FR2000863987A/",
+              "status": "FedRAMP Certified"
+            },
+            "general_usage_and_configuration": "Cloud monitoring",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "The H1 2026 access/firewall review is current, and Cloudflare Zero Trust is in scope.",
+              "explanation_or_justification_for_use": "DDoS and WAF protection for the public apex zone.",
+              "general_usage_and_configuration": "Cloudflare is a cloud monitoring provider used for edge network and security infrastructure.",
+              "mitigation_measures": "DDoS managed rules are enabled by default for onboarded zones; both custom and managed WAF entrypoints are managed via infrastructure-as-code, and the two required WAF phases are present and passing. Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "Cloudflare",
+            "url": "https://www.cloudflare.com/trust-hub/",
+            "useCase": "Cloudflare is a cloud monitoring provider used for edge network and security infrastructure. DDoS and WAF protection for the public apex zone."
+          },
+          {
+            "fedRampCertifiedThirdPartyInformationResource": "FR2023864279A",
+            "fedramp_status": {
+              "fedramp_id": "FR2023864279A",
+              "marketplace_url": "https://www.fedramp.gov/marketplace/products/FR2023864279A/",
+              "status": "FedRAMP Certified"
+            },
+            "general_usage_and_configuration": "Cloud monitoring",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "Monitor configuration and monitoring coverage are managed via infrastructure-as-code.",
+              "explanation_or_justification_for_use": "Operational monitoring and alerting of platform health and security/availability signals.",
+              "general_usage_and_configuration": "Datadog is a cloud monitoring provider used for cloud monitoring and observability.",
+              "mitigation_measures": "Published, active, unmuted deployment monitors are in place, along with latency monitors, availability monitors with alert destinations, and CI/CD health monitoring. Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "Datadog",
+            "url": "https://trust.datadoghq.com/",
+            "useCase": "Datadog is a cloud monitoring provider used for cloud monitoring and observability. Operational monitoring and alerting of platform health and security/availability signals."
+          },
+          {
+            "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+            "fedramp_status": {
+              "fedramp_id": "FR1805751477",
+              "marketplace_url": "https://www.fedramp.gov/marketplace/products/FR1805751477/",
+              "status": "FedRAMP Certified"
+            },
+            "general_usage_and_configuration": "Cloud provider",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "Answers generated using Google Cloud-hosted models are delivered with inline citations to source material and are subject to human review before use. Model outputs are monitored for accuracy on an ongoing basis, with issues surfaced through user feedback mechanisms and used to inform continuous model and prompt tuning.",
+              "explanation_or_justification_for_use": "Gemini models (including Gemini 3.1 Pro) are offered as selectable and default AI models within Perplexity's own products, including Search, Model Council, and Enterprise plans.",
+              "general_usage_and_configuration": "Google Cloud is a cloud provider used for artificial intelligence research and deployment, including AI models like Gemini.",
+              "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "Google Cloud",
+            "url": "https://cloud.google.com/security/compliance/compliance-reports-manager",
+            "useCase": "Google Cloud is a cloud provider used for artificial intelligence research and deployment, including AI models like Gemini. Gemini models (including Gemini 3.1 Pro) are offered as selectable and default AI models within Perplexity's own products, including Search, Model Council, and Enterprise plans."
+          },
+          {
+            "fedRampCertifiedThirdPartyInformationResource": "FR2533155773",
+            "fedramp_status": {
+              "fedramp_id": "FR2533155773",
+              "marketplace_url": "https://www.fedramp.gov/marketplace/products/FR2533155773/",
+              "status": "FedRAMP Certified"
+            },
+            "general_usage_and_configuration": "Cloud provider",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "Answers generated using OpenAI-hosted models are delivered with inline citations to source material and are subject to human review before use. Model outputs are monitored for accuracy on an ongoing basis, with issues surfaced through user feedback mechanisms and used to inform continuous model and prompt tuning.",
+              "explanation_or_justification_for_use": "OpenAI models are offered as selectable third-party models.",
+              "general_usage_and_configuration": "OpenAI is a cloud provider used for artificial intelligence research and deployment.",
+              "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "OpenAI",
+            "url": "https://trust.openai.com/",
+            "useCase": "OpenAI is a cloud provider used for artificial intelligence research and deployment. OpenAI models are offered as selectable third-party models."
+          },
+          {
+            "fedRampCertifiedThirdPartyInformationResource": "FR1809360201",
+            "fedramp_status": {
+              "fedramp_id": "FR1809360201",
+              "marketplace_url": "https://www.fedramp.gov/marketplace/products/FR1809360201/",
+              "status": "FedRAMP Certified"
+            },
+            "general_usage_and_configuration": "Data storage and processing",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "Customer PII stored in Snowflake is protected by role-based dynamic data masking applied at query time, so raw PII is not visible to warehouse users by default.",
+              "explanation_or_justification_for_use": "Data warehouse/analytics and data movement, including the Polytomic Snowflake ↔ Salesforce workflow.",
+              "general_usage_and_configuration": "Snowflake is a data storage and processing provider used as a cloud data warehouse and analytics platform.",
+              "mitigation_measures": "Privileged Snowflake access is provisioned just-in-time through Serval with independent approval and time-bound expiry; analytics roles are automatically deprovisioned through the Okta group/role workflow. Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "Snowflake",
+            "url": "https://trust.snowflake.com/",
+            "useCase": "Snowflake is a data storage and processing provider used as a cloud data warehouse and analytics platform. Data warehouse/analytics and data movement, including the Polytomic Snowflake ↔ Salesforce workflow."
+          }
+        ],
+        "nonCertified": [
+          {
+            "fedramp_status": {
+              "fedramp_id": null,
+              "marketplace_url": null,
+              "status": "Not Listed"
+            },
+            "general_usage_and_configuration": "Data ingestion platform",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "Data synced through Airbyte pipelines is encrypted in transit, and sync schedules and destination-side retention settings are configured on Perplexity's side to limit how long data persists within pipeline-managed storage. Any anomalous sync volume or unexpected destination writes are monitored and alerted on internally.",
+              "explanation_or_justification_for_use": "Data movement/CDC to the analytics warehouse; migrating the Stripe integration from Fivetran to Airbyte was considered as a cost-reduction option.",
+              "general_usage_and_configuration": "Airbyte is a data ingestion platform used for data integration and movement.",
+              "mitigation_measures": "Airbyte's production database access is limited to a read-only replica: it cannot write to production data, and its pipeline load is isolated from the production primary. Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "Airbyte",
+            "provider": "Airbyte",
+            "url": "https://trust.airbyte.com/",
+            "useCase": "Airbyte is a data ingestion platform used for data integration and movement. Data movement/CDC to the analytics warehouse; migrating the Stripe integration from Fivetran to Airbyte was considered as a cost-reduction option.",
+            "website": "https://trust.airbyte.com/"
+          },
+          {
+            "fedramp_status": {
+              "fedramp_id": null,
+              "marketplace_url": null,
+              "status": "Not Listed"
+            },
+            "general_usage_and_configuration": "Cloud provider",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "Answers generated using Anthropic-hosted models are delivered with inline citations to source material and are subject to human review before use. Model outputs are monitored for accuracy on an ongoing basis, with issues surfaced through user feedback mechanisms and used to inform continuous model and prompt tuning.",
+              "explanation_or_justification_for_use": "Anthropic models are offered as selectable third-party models.",
+              "general_usage_and_configuration": "Anthropic is a cloud provider used for artificial intelligence research and deployment, including AI models like Claude.",
+              "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "Anthropic",
+            "provider": "Anthropic",
+            "url": "https://trust.anthropic.com/",
+            "useCase": "Anthropic is a cloud provider used for artificial intelligence research and deployment, including AI models like Claude. Anthropic models are offered as selectable third-party models.",
+            "website": "https://trust.anthropic.com/"
+          },
+          {
+            "fedramp_status": {
+              "fedramp_id": null,
+              "marketplace_url": null,
+              "status": "Not Listed"
+            },
+            "general_usage_and_configuration": "Data Ingestion Platform",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "Data synced through Fivetran lands in Snowflake, where role-based dynamic data masking protects PII at query time.",
+              "explanation_or_justification_for_use": "Data movement/integration for analytics, sales, and marketing.",
+              "general_usage_and_configuration": "Fivetran is a data ingestion platform used for data integration and movement.",
+              "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "Fivetran",
+            "provider": "Fivetran",
+            "url": "https://trust.fivetran.com/",
+            "useCase": "Fivetran is a data ingestion platform used for data integration and movement. Data movement/integration for analytics, sales, and marketing.",
+            "website": "https://trust.fivetran.com/"
+          },
+          {
+            "fedramp_status": {
+              "fedramp_id": null,
+              "marketplace_url": null,
+              "status": "Not Listed"
+            },
+            "general_usage_and_configuration": "Marketing",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "Loops maintains vendor-side controls, including just-in-time and logged production access by its own personnel and employee confidentiality agreements.",
+              "explanation_or_justification_for_use": "Lifecycle, upsell, churn-prevention, and resurrection email workflows.",
+              "general_usage_and_configuration": "Loops.so is a marketing platform used for email marketing and automation.",
+              "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "Loops.so",
+            "provider": "Loops.so",
+            "url": "https://trust.oneleet.com/loops",
+            "useCase": "Loops.so is a marketing platform used for email marketing and automation. Lifecycle, upsell, churn-prevention, and resurrection email workflows.",
+            "website": "https://trust.oneleet.com/loops"
+          },
+          {
+            "fedramp_status": {
+              "fedramp_id": null,
+              "marketplace_url": null,
+              "status": "Not Listed"
+            },
+            "general_usage_and_configuration": "Integrations",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "The reviewed Merge connector path has strict upstream revocation on disconnect; this applies only to that connector configuration. Query and app data passed through the Merge-provided connector is anonymized and is not stored or logged by Merge.",
+              "explanation_or_justification_for_use": "Merge connects a customer's third-party workspace (e.g., Linear) to Perplexity and handles the associated user authentication for that connection.",
+              "general_usage_and_configuration": "Merge is an integrations provider used as a third-party connector for the Perplexity AI platform.",
+              "mitigation_measures": "Query and app data passed through the Merge-provided connector is anonymized and is not stored or logged by Merge. Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "Merge",
+            "provider": "Merge",
+            "url": "https://www.merge.dev/",
+            "useCase": "Merge is an integrations provider used as a third-party connector for the Perplexity AI platform. Merge connects a customer's third-party workspace (e.g., Linear) to Perplexity and handles the associated user authentication for that connection.",
+            "website": "https://www.merge.dev/"
+          },
+          {
+            "fedramp_status": {
+              "fedramp_id": null,
+              "marketplace_url": null,
+              "status": "Not Listed"
+            },
+            "general_usage_and_configuration": "Finance and payments",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "Metronome's role is scoped to usage/balance tracking only; invoicing and payment execution remain with Stripe, a PCI DSS Level 1 service provider, so cardholder data does not pass through Metronome.",
+              "explanation_or_justification_for_use": "Metronome is used to track and bill consumption of paid Perplexity products at the account and seat level, replacing manual usage reconciliation for enterprise and self-serve customers.",
+              "general_usage_and_configuration": "Metronome is a finance and payments provider used for payment processing.",
+              "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "Metronome",
+            "provider": "Metronome",
+            "url": "https://metronome.com",
+            "useCase": "Metronome is a finance and payments provider used for payment processing. Metronome is used to track and bill consumption of paid Perplexity products at the account and seat level, replacing manual usage reconciliation for enterprise and self-serve customers.",
+            "website": "https://metronome.com"
+          },
+          {
+            "fedramp_status": {
+              "fedramp_id": null,
+              "marketplace_url": null,
+              "status": "Not Listed"
+            },
+            "general_usage_and_configuration": "Integrations",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "Identity-scoped account resolution, source-permission constraints, query-time retrieval, local-state clearing/soft deletion, and strict upstream revocation on disconnect are documented for the reviewed Pipedream path.",
+              "explanation_or_justification_for_use": "Scale access to a large MCP/connector ecosystem.",
+              "general_usage_and_configuration": "Pipedream is an integrations provider used as a third-party connector for the Perplexity AI platform.",
+              "mitigation_measures": "Pipedream holds the OAuth grant while Perplexity stores an owner-scoped marker."
+            },
+            "name": "Pipedream",
+            "provider": "Pipedream",
+            "url": "https://pipedream.com/",
+            "useCase": "Pipedream is an integrations provider used as a third-party connector for the Perplexity AI platform. Scale access to a large MCP/connector ecosystem.",
+            "website": "https://pipedream.com/"
+          },
+          {
+            "fedramp_status": {
+              "fedramp_id": null,
+              "marketplace_url": null,
+              "status": "Not Listed"
+            },
+            "general_usage_and_configuration": "Data Integration and Movement",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "Polytomic's use is scoped to sales and marketing data flows; any expansion involving customer data paths requires GRC and Legal review first.",
+              "explanation_or_justification_for_use": "Trialed as an ETL/reverse-ETL alternative to Hightouch and Fivetran for sales and marketing.",
+              "general_usage_and_configuration": "Polytomic is a data integration and movement provider.",
+              "mitigation_measures": "Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "Polytomic",
+            "provider": "Polytomic",
+            "url": "https://polytomic.com",
+            "useCase": "Polytomic is a data integration and movement provider. Trialed as an ETL/reverse-ETL alternative to Hightouch and Fivetran for sales and marketing.",
+            "website": "https://polytomic.com"
+          },
+          {
+            "fedramp_status": {
+              "fedramp_id": null,
+              "marketplace_url": null,
+              "status": "Not Listed"
+            },
+            "general_usage_and_configuration": "Finance and payments",
+            "location": "US",
+            "mas_cso_tpr": {
+              "compensating_controls": "Payment card data is collected and processed by Stripe, a PCI DSS Level 1 service provider; cardholder data is not stored on Perplexity systems.",
+              "explanation_or_justification_for_use": "Billing/payment data integration/pipeline context is indicated by the Stripe-named pipeline.",
+              "general_usage_and_configuration": "Stripe is a finance and payments provider used for payment processing.",
+              "mitigation_measures": "Privileged Stripe access is provisioned just-in-time with independent approval and time-bound expiry. Annual third-party risk assessments are performed as part of the vendor risk management program."
+            },
+            "name": "Stripe",
+            "provider": "Stripe",
+            "url": "https://stripe.com",
+            "useCase": "Stripe is a finance and payments provider used for payment processing. Billing/payment data integration/pipeline context is indicated by the Stripe-named pipeline.",
+            "website": "https://stripe.com"
+          }
+        ]
+      },
+      "uei": "P9N9FFAUBLQ4"
+    },
+    "CMU-CSO-CMD": {
+      "awsEncryption": [
+        {
+          "name": "Amazon RDS and Aurora",
+          "description": "Production databases in us-east-1 have storage encryption enabled. RDS uses AES-256 encryption with AWS KMS for database storage, logs, backups, replicas, and snapshots."
+        },
+        {
+          "name": "Amazon EBS",
+          "description": "EBS encryption by default is enabled in us-east-1. EBS volumes use AES-256 encryption, with AWS KMS used to manage the associated encryption keys."
+        },
+        {
+          "name": "Amazon S3",
+          "description": "Terraform-managed restricted and confidential buckets in us-east-1 have default encryption configured. Perplexity's shared modules support SSE-S3 with AES-256-GCM and SSE-KMS with envelope encryption."
+        },
+        {
+          "name": "Amazon DynamoDB",
+          "description": "Terraform-managed restricted and confidential tables in us-east-1 are encrypted at rest with AES-256. The current tables use DynamoDB's default AWS-owned encryption keys rather than customer-managed KMS keys."
+        },
+        {
+          "name": "AWS Secrets Manager",
+          "description": "Production application secrets are centrally stored in AWS Secrets Manager. Each secret version is protected with a 256-bit AES data key and AWS KMS envelope encryption."
+        },
+        {
+          "name": "AWS KMS",
+          "description": "Perplexity uses symmetric AWS KMS keys for encryption key management. DataEngine uses KMS GenerateDataKey with AES_256, and SSE-KMS workloads use KMS-managed keys for envelope encryption."
+        },
+        {
+          "name": "AWS Certificate Manager and load balancers",
+          "description": "ACM certificates are attached to production HTTPS load balancers. The configured listeners support TLS 1.2 and TLS 1.3 for encrypted connections between Cloudflare and AWS-hosted services."
+        }
+      ],
+      "cloudflareEncryption": [
+        {
+          "name": "Public endpoint encryption",
+          "description": "Cloudflare provides TLS encryption for perplexity.ai, www.perplexity.ai, and api.perplexity.ai. The endpoints use TLS 1.3 with TLS_AES_256_GCM_SHA384 and support TLS 1.2 fallback with ECDHE-ECDSA-AES128-GCM-SHA256."
+        },
+        {
+          "name": "Edge certificates",
+          "description": "Cloudflare Universal SSL manages the public certificates used by the Perplexity endpoints."
+        },
+        {
+          "name": "Origin encryption",
+          "description": "Cloudflare Full mode encrypts traffic between Cloudflare and the AWS origin. Always Use HTTPS is enabled for the active perplexity.ai zone."
+        }
+      ],
+      "applicationEncryption": [
+        {
+          "name": "DataEngine field encryption",
+          "description": "DataEngine encrypts selected database fields with AES-256-GCM."
+        },
+        {
+          "name": "DataEngine key management",
+          "description": "DataEngine uses AWS KMS to generate AES-256 branch keys."
+        },
+        {
+          "name": "Encrypted session tokens",
+          "description": "Perplexity and NextAuth session tokens use direct-encryption JWE with A256GCM. NextAuth uses HKDF for key derivation and supports current and previous secrets for rotation."
+        },
+        {
+          "name": "Application identity tokens",
+          "description": "Computer application identity tokens use EdDSA with Ed25519 keys and JWKS for signing and verification."
+        }
+      ],
+      "integrityProtection": [
+        {
+          "name": "Source-code signatures",
+          "description": "Production source commits use GitHub-generated PGP signatures. Protected pull requests, linear history, and squash-only merges support signature coverage on the main branch."
+        },
+        {
+          "name": "Deployment artifacts",
+          "description": "Container manifests, container layers, Cloudflare Worker bundles, and asset manifests use SHA-256 hashes to verify content integrity."
+        }
+      ]
+    },
+    "IVV-CSO-ICP": {
+      "status": "available",
+      "assessmentOverview": {
+        "documentType": "FedRAMP 20x Moderate – Assessment Results",
+        "impactClass": "Class C (Moderate)",
+        "fedramp20xVersion": "2026.07.14.01",
+        "packageId": "FR2604643715",
+        "provider": "Perplexity AI, Inc.",
+        "assessorOrganization": "360 Advanced Compass Rose",
+        "assessmentPeriod": {
+          "start": "2026-05-15",
+          "end": "2026-08-31"
+        },
+        "createdOn": "2026-08-31",
+        "lastUpdated": "2026-09-11",
+        "oscalVersion": "1.1.3"
+      },
+      "publicationNote": "The independent assessor generated these artifacts. They are published without modification.",
+      "artifacts": [
+        {
+          "label": "Human-readable PDF",
+          "filename": "Perplexity AI FedRAMP 20x Moderate Assessment Results - Human Readable_2026_9_11.pdf",
+          "path": "/reports/independent-assessment/perplexity-fedramp20x-moderate-assessment-results-2026-09-11.pdf",
+          "mediaType": "application/pdf",
+          "sizeBytes": 792640,
+          "sha256": "f3a3794a3b8930e0b7a2ca2f911c9b9fcf32a83ff3d0da57f31f5035159d1cd8"
+        },
+        {
+          "label": "Machine-readable JSON",
+          "filename": "perplexity-fedramp20x-moderate-assessment-results-oscal-2026-09-11.json",
+          "path": "/reports/independent-assessment/perplexity-fedramp20x-moderate-assessment-results-oscal-2026-09-11.json",
+          "mediaType": "application/json",
+          "sizeBytes": 494716,
+          "sha256": "bf4ebf22d8279909fa67365bbd18d0c5befa02f483e19e84d1ac8b74e7810271"
+        }
+      ]
+    }
+  },
   "ZD_frid_retro": "FR2604643715",
   "id_matches_expected": true
 }

@@ -1,9 +1,9 @@
 {
   "reportMetadata": {
     "reportType": "FedRAMP Certification Package Overview",
-    "generatedAt": "2026-09-16T11:09:36Z",
-    "pipelineExecutionId": "idVfXSH5RmOh2MUVIkcbkA",
-    "version": "2.0.1"
+    "generatedAt": "2026-11-02T18:26:52Z",
+    "pipelineExecutionId": "zOLPDFRgTce_MX7r43DWOA",
+    "version": "1.0.1"
   },
   "serviceIdentification": {
     "fedRampPackageId": "FR2631258132",
@@ -14,7 +14,7 @@
     "serviceDescription": "Harness.io Software-as-a-Service (SaaS) is a fully managed, cloud-native software delivery platform that provides continuous integration, continuous delivery, security testing, and related DevSecOps capabilities using a cloud computing environment.",
     "certificationType": "20x",
     "website": "https://www.harness.io",
-    "logo": "https://cdn.prod.website-files.com/6222ca42ea87e1bd1aa1d10c/6511d736f2e624696bd189cd_harness%20logo.svg"
+    "logo": "https://cdn.prod.website-files.com/69e786e187c925d08ee02b90/69e786e187c925d08ee02bda_6222d7526cc398da63a4f639_nav-logo.svg"
   },
   "serviceProperties": {
     "serviceType": [
@@ -26,10 +26,10 @@
       "Cybersecurity & Risk Management",
       "Development Tools"
     ],
-    "nextOngoingCertificationReportDate": "2026-10-01",
+    "nextOngoingCertificationReportDate": "2027-02-01",
     "trustCenter": {
       "repositoryType": [
-        "Trust Center"
+        "Certification Package"
       ],
       "url": "https://trust.paramify.com/harness/harness-for-government",
       "repositoryDescription": "Harness Federal Trust Center",
@@ -37,16 +37,13 @@
       "accessRequestInstructions": "https://support.paramify.com/hc/en-us/articles/48690571994003-Trust-Center-Deliverables-in-Paramify-Cloud"
     },
     "secureConfigGuidance": {
-      "repositoryType": [
-        "Secure Configuration Guidance"
-      ],
       "url": "https://developer.harness.io/",
       "repositoryDescription": "Harness Platform",
       "authenticationRequired": false,
       "accessRequestInstructions": ""
     }
   },
-  "additionalRepositories": [
+  "section3_additionalRepositories": [
     {
       "repositoryType": [
         "Commercial Assessment Reports and Documents"
@@ -77,11 +74,11 @@
       "contactPhone": "310-775-7247"
     }
   ],
-  "independentAssessor": {
+  "section5_independentAssessor": {
     "name": "N/A",
     "assessorID": "000000"
   },
-  "certifiedServices": [
+  "section6_certifiedServices": [
     {
       "serviceName": "Harness Platform",
       "serviceDescription": "Software Delivery Platform",
@@ -137,34 +134,34 @@
       "securityCategory": "Class A"
     }
   ],
-  "informationResources": [
+  "section7_informationResources": [
     {
       "securityCategory": "Category 1: Primary Customer Data & Storage Tier",
-      "informationResourcesIncluded": "AWS - RDS/Aurora/PostgreSQL (4 instances), AWS - S3 (57 buckets)",
+      "informationResourcesIncluded": "AWS - RDS/Aurora/PostgreSQL, AWS - S3",
       "handledDataTypes": "Federal Customer Data, Controlled Unclassified Information (CUI), PII, application backups, analytical event logs",
       "riskSensitivityClassification": "High Sensitivity — High Impact / Federal Customer Data Boundary"
     },
     {
       "securityCategory": "Category 2: Core Workloads & In-Memory Compute",
-      "informationResourcesIncluded": "AWS - Elastic Kubernetes Service (EKS) (1 cluster), Virtual Machines EC2 (41 instances)",
+      "informationResourcesIncluded": "AWS - Elastic Kubernetes Service (EKS), Virtual Machines (EC2)",
       "handledDataTypes": "Microservice execution state, in-flight transaction payloads, temporary user session caches",
       "riskSensitivityClassification": "High / Moderate Sensitivity — Core Workload & Processing Boundary"
     },
     {
       "securityCategory": "Category 3: Identity & Access Management (IAM)",
-      "informationResourcesIncluded": "AWS IAM (62 roles, 10 OIDC providers), Okta, AWS Secrets Manager (90 secrets)",
+      "informationResourcesIncluded": "AWS IAM, Okta, OIDC Providers, AWS Secrets Manager",
       "handledDataTypes": "User credentials, SAML/OIDC assertions, MFA secrets, RBAC rules, administrative tokens",
       "riskSensitivityClassification": "High Sensitivity — Privileged Management & Authentication Boundary"
     },
     {
       "securityCategory": "Category 4: Network Perimeter & Ingress Defense",
-      "informationResourcesIncluded": "AWS - VPC (2), AWS - WAF, AWS - Elastic Load Balancing (2), AWS - Security Groups (13)",
+      "informationResourcesIncluded": "AWS - VPC, AWS - WAF, AWS - Elastic Load Balancing, AWS - Security Groups",
       "handledDataTypes": "Network routing tables, TLS-encrypted traffic, HTTP headers, public IP metadata, WAF inspection rules",
       "riskSensitivityClassification": "Low to Moderate Sensitivity — Public Edge & Network Routing Boundary"
     },
     {
       "securityCategory": "Category 5: Observability, Security & Audit Logging",
-      "informationResourcesIncluded": "AWS - SecurityHub / GuardDuty (1 detector), AWS - CloudTrail (2 trails) / CloudWatch (13 log groups), Google SecOps",
+      "informationResourcesIncluded": "AWS - SecurityHub / GuardDuty, AWS - CloudTrail  / CloudWatch, Google SecOps",
       "handledDataTypes": "System API call audits, runtime security alerts, infrastructure metrics, security telemetry, dashboard configs",
       "riskSensitivityClassification": "Moderate Sensitivity — System Management & Audit Boundary"
     },
@@ -172,15 +169,16 @@
       "securityCategory": "Category 6: External Enterprise & Support SaaS",
       "informationResourcesIncluded": "Google Workspace, Zendesk",
       "handledDataTypes": "Support tickets, customer communication logs, internal documentation",
-      "riskSensitivityClassification": "Low to Moderate Sensitivity — Third-Party SaaS Service Boundary"
+      "riskSensitivityClassification": "Low to Moderate Sensitivity — Third-Party SaaS Service Boundary",
+      "note": "External SaaS resources are not discovered via AWS APIs - see Section 8 Third-Party Information Resources for details"
     }
   ],
-  "thirdPartyResources": {
+  "section8_thirdPartyResources": {
     "fedRampCertified": [
       {
         "fedRampCertifiedThirdPartyInformationResource": "AWS GovCloud",
-        "fedRampId": "FR1816285609",
-        "useCase": "IaaS provider for all cloud infrastructure resources; FedRAMP High certified"
+        "fedRampId": "—",
+        "useCase": "IaaS provider for all cloud resources — FedRAMP High certified infrastructure"
       }
     ],
     "nonCertified": [
@@ -188,32 +186,32 @@
         "name": "Google Workspace",
         "provider": "Google LLC",
         "website": "https://workspace.google.com",
-        "useCase": "Corporate email and internal collaboration"
+        "useCase": "Corporate email and collaboration — internal business communications"
       },
       {
         "name": "Google SecOps",
         "provider": "Google LLC",
-        "website": "https://cloud.google.com/security/products/security-operations",
-        "useCase": "SIEM for security monitoring and log telemetry"
+        "website": "https://cloud.google.com/security-operations",
+        "useCase": "SIEM for security monitoring — security logs and telemetry"
       },
       {
         "name": "Zendesk",
-        "provider": "Zendesk Inc.",
+        "provider": "Zendesk, Inc.",
         "website": "https://www.zendesk.com",
-        "useCase": "Customer support ticketing and request management"
+        "useCase": "Customer support ticketing — support request management"
       },
       {
         "name": "Okta",
-        "provider": "Okta Inc.",
+        "provider": "Okta, Inc.",
         "website": "https://www.okta.com",
-        "useCase": "Identity Provider for SSO/MFA federated authentication"
+        "useCase": "Identity Provider for SSO/MFA — federated authentication"
       }
     ]
   },
-  "cryptographicModules": [
+  "section9_cryptographicModules": [
     {
-      "resource": "KMS Keys (6 keys)",
-      "resourceType": "AWS Key Management Service",
+      "resource": "AWS KMS Keys",
+      "resourceType": "Key Management Service",
       "cryptoModule": "AWS KMS HSM",
       "cmvpCertNumber": "#4523",
       "fipsStandard": "FIPS 140-3",
@@ -222,8 +220,8 @@
       "status": "Compliant"
     },
     {
-      "resource": "S3 Buckets (57 buckets)",
-      "resourceType": "AWS Simple Storage Service",
+      "resource": "S3 Buckets",
+      "resourceType": "Object Storage",
       "cryptoModule": "AWS KMS HSM (SSE)",
       "cmvpCertNumber": "#4523",
       "fipsStandard": "FIPS 140-3",
@@ -232,8 +230,8 @@
       "status": "Compliant"
     },
     {
-      "resource": "RDS Instances (4 instances)",
-      "resourceType": "AWS Relational Database Service",
+      "resource": "RDS Instances",
+      "resourceType": "Relational Database",
       "cryptoModule": "AWS KMS HSM",
       "cmvpCertNumber": "#4523",
       "fipsStandard": "FIPS 140-3",
@@ -242,8 +240,8 @@
       "status": "Compliant"
     },
     {
-      "resource": "EBS Volumes (101 volumes)",
-      "resourceType": "AWS Elastic Block Store",
+      "resource": "EBS Volumes",
+      "resourceType": "Block Storage",
       "cryptoModule": "AWS KMS HSM",
       "cmvpCertNumber": "#4523",
       "fipsStandard": "FIPS 140-3",
@@ -252,8 +250,8 @@
       "status": "Compliant"
     },
     {
-      "resource": "Secrets Manager (90 secrets)",
-      "resourceType": "AWS Secrets Manager",
+      "resource": "AWS Secrets Manager",
+      "resourceType": "Secrets Management",
       "cryptoModule": "AWS KMS HSM",
       "cmvpCertNumber": "#4523",
       "fipsStandard": "FIPS 140-3",
@@ -262,8 +260,8 @@
       "status": "Compliant"
     },
     {
-      "resource": "Load Balancers (2 — ALB + NLB)",
-      "resourceType": "AWS Elastic Load Balancing",
+      "resource": "Elastic Load Balancers",
+      "resourceType": "Load Balancer / TLS Termination",
       "cryptoModule": "AWS-LC Cryptographic Module (TLS)",
       "cmvpCertNumber": "#4631",
       "fipsStandard": "FIPS 140-3",
@@ -272,19 +270,39 @@
       "status": "Compliant"
     },
     {
-      "resource": "EC2 / EKS Nodes (41 EC2 + 1 EKS cluster)",
-      "resourceType": "AWS EC2 / EKS Compute",
-      "cryptoModule": "AWS Nitro Enclaves",
-      "cmvpCertNumber": "#4704",
+      "resource": "VPC FIPS Endpoints",
+      "resourceType": "VPC Endpoint",
+      "cryptoModule": "AWS-LC Cryptographic Module (FIPS endpoint)",
+      "cmvpCertNumber": "#4631",
       "fipsStandard": "FIPS 140-3",
       "securityLevel": "Level 1",
-      "sunsetDate": "2028-09-10",
+      "sunsetDate": "2028-06-20",
+      "status": "Compliant"
+    },
+    {
+      "resource": "ACM Certificates",
+      "resourceType": "TLS Certificate Management",
+      "cryptoModule": "AWS-LC Cryptographic Module",
+      "cmvpCertNumber": "#4631",
+      "fipsStandard": "FIPS 140-3",
+      "securityLevel": "Level 1",
+      "sunsetDate": "2028-06-20",
+      "status": "Compliant"
+    },
+    {
+      "resource": "EKS Clusters / EC2 Instances — in-transit TLS",
+      "resourceType": "Compute / Container Orchestration",
+      "cryptoModule": "AWS-LC Cryptographic Module",
+      "cmvpCertNumber": "#4631",
+      "fipsStandard": "FIPS 140-3",
+      "securityLevel": "Level 1",
+      "sunsetDate": "2028-06-20",
       "status": "Compliant"
     }
   ],
-  "metadata": {
-    "schemaFilename": "fedramp-20x-cpo-schema.json",
-    "schemaVersion": "v1.0",
+  "section10_metadata": {
+    "schemaFilename": "FRC-CSO-PKG",
+    "schemaVersion": "v1.0.1",
     "pointOfContact": {
       "name": "Kevin Moy",
       "title": "Director, GRC",
@@ -293,9 +311,9 @@
     },
     "versionHistory": [
       {
-        "version": "3",
-        "dateTime": "2026-10-03=7T00:00:00Z",
-        "source": "Manual"
+        "version": "4",
+        "dateTime": "2026-11-02T18:26:52Z",
+        "source": "Automated"
       }
     ]
   },

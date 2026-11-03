@@ -1,6 +1,6 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "TBD",
+    "fedRampPackageId": "FR2701857792",
     "providerName": "Liferay, Inc.",
     "serviceName": "Liferay SaaS",
     "serviceAcronym": "LR-SAAS",
@@ -23,6 +23,15 @@
       "Development Tools",
       "Marketing & Sales"
     ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/liferay/liferay-saas/",
+      "repositoryDescription": "FedRAMP Trust Center for the Cloud Service Offering.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access must be requested for Trust Center deliverables."
+    },
     "informationResources": {
       "resources": [
         {
@@ -41,26 +50,14 @@
     },
     {
       "contactType": "Security",
-      "contactName": "Zsolt Balogh",
-      "contactEmail": "zsolt.balogh@liferay.com"
+      "contactEmail": "security@liferay.com"
     },
     {
       "contactType": "Sales",
       "contactTypeAsEntered": "Sales/Partnerships",
-      "contactName": "Bernard Mc Closkey",
-      "contactEmail": "bernard.mccloskey@liferay.com"
-    },
-    {
-      "contactType": "Security",
-      "contactName": "Balazs Sinka",
-      "contactEmail": "balazs.sinka@liferay.com"
+      "contactEmail": "sales@liferay.com"
     }
   ],
-  "assessor": {
-    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
-    "assessorID": "138665",
-    "independentAssessmentUsed": true
-  },
   "alternativeSecurityFramework": {
     "frameworkUsed": "SOC 2 Type II",
     "impactLevelScope": "Security (Common Criteria), Availability and Confidentiality\n— 2017 Trust Services Criteria (TSP section 100); the\nexamination is a Type 2 SOC 2 plus HIPAA and CSA STAR.\nSystem examined: Liferay Cloud Service Platforms System\nof Liferay, Inc., hosted on Google Cloud Platform\n(subservice organization, carve-out method). Examination\nperiod: 2025-06-01 to 2026-05-31.",
@@ -111,5 +108,5 @@
     ]
   },
   "ZD_frid_retro": "FR2701857792",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }
