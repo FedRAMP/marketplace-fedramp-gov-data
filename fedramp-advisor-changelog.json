@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-02T05:03:43.000Z",
-    "total_entries": 12,
+    "export_timestamp": "2026-11-03T05:03:55.808Z",
+    "total_entries": 13,
     "description": "FedRAMP data AdvisorStatusChangeLog export from GSA system"
   },
   "data": {
@@ -101,6 +101,14 @@
         "to_status": "Listed",
         "transition_date": "2026-10-28T16:35:28.822Z",
         "recorded_date": "2026-10-28T16:35:28.822Z"
+      },
+      {
+        "unique_id": "b2a453cd-b1a2-4714-8fda-1ca8b7a76a63",
+        "advisor_id": "virtual-infrastructure-services-llc",
+        "from_status": "",
+        "to_status": "Listed",
+        "transition_date": "2026-11-02T19:03:58.423Z",
+        "recorded_date": "2026-11-02T19:03:58.423Z"
       }
     ]
   }
