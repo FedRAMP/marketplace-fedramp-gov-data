@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "02eb257295",
-    "lastUpdated": "2026-11-02T23:36:52.000Z",
+    "version": "cf279f8011",
+    "lastUpdated": "2026-11-04T03:46:40.000Z",
     "updateSource": "Automated release pipeline",
     "responsibleOfficial": {
       "pointOfContactName": "Brent Shulman",
@@ -343,6 +343,188 @@
         "justification": "Silkline uses Context.dev to complete supplier brand and contact profiles without manual data entry.",
         "mitigationMeasures": "Supplier and contact enrichment is disabled for FedRAMP-enabled organizations. Lookups send business identifiers only: work email addresses are lookup keys, personal-domain addresses such as Gmail are not. Low-confidence matches are discarded, and results fill only empty fields.",
         "compensatingControls": "One organization-level gate runs before every Context.dev call. Requests use HTTPS and an API key held in Pulumi ESC."
+      }
+    ]
+  },
+  "supplementalInformation": {
+    "fedRampCertified": false,
+    "statement": "These information resources are not part of the Silkline.ai cloud service offering and are not FedRAMP Certified. They neither handle nor affect federal customer data, and are listed for transparency only (MAS-CSO-SUP).",
+    "informationResources": [
+      {
+        "name": "GitBook",
+        "provider": "GitBook",
+        "website": "https://www.gitbook.com/",
+        "useCase": "Hosting of public product documentation and documentation search for the in-app assistant.",
+        "usageAndConfiguration": "GitBook publishes docs.silkline.ai from the documentation in version control. The in-app assistant searches and reads those pages through GitBook's documentation endpoint using search text the model writes from the conversation.",
+        "justification": "Silkline uses GitBook to publish documentation and to answer product questions in the assistant.",
+        "mitigationMeasures": "Assistant documentation search is disabled for FedRAMP-enabled and ITAR organizations. For other organizations, the assistant is instructed to search without customer records or confidential values, and requests carry no cookies or credentials.",
+        "compensatingControls": "One organization-level gate runs before the assistant is given the documentation tools and again before every documentation call. Requests refuse redirects and read only published pages on docs.silkline.ai.",
+        "outsideScope": "It hosts public product documentation and receives only documentation search text, never customer data."
+      },
+      {
+        "name": "Braintrust",
+        "provider": "Braintrust",
+        "website": "https://www.braintrust.dev/",
+        "useCase": "Supporting LLM evaluation.",
+        "usageAndConfiguration": "Braintrust stores evaluation datasets and experiment results that engineers upload from workstations. No production service holds a Braintrust API key or initializes a Braintrust logger, so production LLM calls send no traces. Programmatic access uses a static API key; console access uses native email and password authentication without SSO.",
+        "justification": "Silkline uses Braintrust to evaluate model behavior against curated datasets.",
+        "mitigationMeasures": "Production deployments carry no Braintrust credential, and the Braintrust SDK discards spans when no logger or experiment is initialized.",
+        "compensatingControls": "The organization-level punchout gate keeps federal organizations off the punchout workflows that request tracing; programmatic writes require an API key.",
+        "outsideScope": "It runs offline evaluations without federal customer data or production access."
+      },
+      {
+        "name": "Greptile",
+        "provider": "Greptile",
+        "website": "https://www.greptile.com/",
+        "useCase": "Automated code review and repository analysis.",
+        "usageAndConfiguration": "Greptile reads repository source and pull-request context to produce automated review feedback.",
+        "justification": "Silkline uses Greptile to supplement human code review.",
+        "mitigationMeasures": "Greptile output is advisory and changes still pass human review and CI.",
+        "compensatingControls": "Repository permissions and protected branches prevent the service from directly publishing application changes.",
+        "outsideScope": "It comments on pull requests and cannot merge or deploy."
+      },
+      {
+        "name": "Stainless",
+        "provider": "Stainless",
+        "website": "https://www.stainless.com/",
+        "useCase": "Generation of client SDK source code.",
+        "usageAndConfiguration": "Stainless processes API specifications and generates SDK source that is committed to version control.",
+        "justification": "Silkline uses Stainless to maintain consistent client libraries for its public APIs.",
+        "mitigationMeasures": "Generated output is reviewed and tested before it is released.",
+        "compensatingControls": "Committed output passes the same source review and CI controls as maintainer-authored code.",
+        "outsideScope": "It holds no federal customer data, and its output reaches the offering only as source committed to version control, where it passes the same review and CI as maintainer-authored code."
+      },
+      {
+        "name": "npm",
+        "provider": "GitHub",
+        "website": "https://www.npmjs.com/",
+        "useCase": "Publication and distribution of client SDK packages.",
+        "usageAndConfiguration": "SDK production repositories publish generated @silkline packages to the npm registry on release, and the application installs them from it.",
+        "justification": "Silkline uses npm to distribute its client SDKs as versioned packages.",
+        "mitigationMeasures": "Members join the @silkline npm organization only by manual invitation, and the organization enforces two-factor authentication for every member.",
+        "compensatingControls": "Packages publish through OIDC Trusted Publishing from release workflows, and the application pins SDK versions in its lockfile behind source review and CI.",
+        "outsideScope": "It holds no federal customer data, and the application installs only versions pinned in its lockfile behind source review and CI."
+      },
+      {
+        "name": "Rootly",
+        "provider": "Rootly",
+        "website": "https://rootly.com/",
+        "useCase": "Incident workflows, escalation, and response coordination.",
+        "usageAndConfiguration": "Rootly stores incident records, escalation policies, schedules, and response workflow state.",
+        "justification": "Silkline uses Rootly to coordinate incident response and escalation.",
+        "mitigationMeasures": "Incident records are limited to the detail required for response and follow-up activities.",
+        "compensatingControls": "Access is limited to incident responders and workflow notifications use scoped incident context.",
+        "outsideScope": "Staff policy keeps federal customer data out of it, and the application only reads its public status page."
+      },
+      {
+        "name": "Slack",
+        "provider": "Salesforce",
+        "website": "https://slack.com/",
+        "useCase": "Operational alerting and incident collaboration.",
+        "usageAndConfiguration": "Monitoring and security systems send alert summaries to controlled Slack channels used by responders.",
+        "justification": "Silkline uses Slack to notify personnel and coordinate operational response.",
+        "mitigationMeasures": "Alert content is scoped to operational context needed for response.",
+        "compensatingControls": "Channel membership and workspace access controls limit incident data to authorized personnel.",
+        "outsideScope": "Staff policy keeps federal customer data out of it, and it cannot change the offering."
+      },
+      {
+        "name": "Linear",
+        "provider": "Linear",
+        "website": "https://linear.app/",
+        "useCase": "Engineering planning, security work tracking, and elevation requests.",
+        "usageAndConfiguration": "Linear stores development plans, defect reports, remediation tasks, and security program work items. An approved elevation request is the input the access-elevation granter in AWS GovCloud acts on.",
+        "justification": "Silkline uses Linear to assign and track engineering and compliance work.",
+        "mitigationMeasures": "Work items avoid customer content and restrict sensitive details to the minimum needed for remediation.",
+        "compensatingControls": "Workspace access controls limit records to authorized personnel.",
+        "outsideScope": "Staff policy keeps federal customer data out of it. Its approvals take effect only through the access-elevation granter, which is in the MAS and grants only time-bound access to requests from configured approvers."
+      },
+      {
+        "name": "Notion",
+        "provider": "Notion",
+        "website": "https://www.notion.so/",
+        "useCase": "Internal operational and security documentation.",
+        "usageAndConfiguration": "Notion stores internal documentation, including architecture, boundary, and vendor inventory material.",
+        "justification": "Silkline uses Notion for collaborative operational documentation.",
+        "mitigationMeasures": "Documentation excludes federal customer content and separates internal security material from public pages.",
+        "compensatingControls": "Workspace permissions limit internal documentation to authorized users.",
+        "outsideScope": "Staff policy keeps federal customer data out of it, and it cannot change the offering."
+      },
+      {
+        "name": "Drata",
+        "provider": "Drata",
+        "website": "https://drata.com/",
+        "useCase": "Compliance evidence and control monitoring.",
+        "usageAndConfiguration": "Drata stores compliance evidence and monitors selected organizational and technical controls.",
+        "justification": "Silkline uses Drata to support compliance operations and assessments.",
+        "mitigationMeasures": "Evidence collection is scoped to the material required for compliance verification.",
+        "compensatingControls": "Access controls restrict compliance records to authorized staff and assessors.",
+        "outsideScope": "It holds compliance records only, with no federal customer data or production access."
+      },
+      {
+        "name": "Paramify",
+        "provider": "Paramify",
+        "website": "https://www.paramify.com/",
+        "useCase": "FedRAMP control implementation and evidence management.",
+        "usageAndConfiguration": "Paramify stores control narratives, component records, mappings, and assessment evidence for the authorization program.",
+        "justification": "Silkline uses Paramify as the governance workflow for its FedRAMP certification package.",
+        "mitigationMeasures": "Records are reviewed by assigned control owners and scoped to security and compliance evidence.",
+        "compensatingControls": "Role-based access and human review govern changes to control evidence.",
+        "outsideScope": "It holds the authorization package and released evidence summaries only, with no federal customer data or production access."
+      },
+      {
+        "name": "KnowBe4",
+        "provider": "KnowBe4",
+        "website": "https://www.knowbe4.com/",
+        "useCase": "Security awareness training and completion records.",
+        "usageAndConfiguration": "KnowBe4 assigns security training and stores staff training status and completion evidence.",
+        "justification": "Silkline uses KnowBe4 to operate and evidence its security-awareness program.",
+        "mitigationMeasures": "Data is limited to workforce identity and training records.",
+        "compensatingControls": "Administrative access is restricted and training completion is reviewed.",
+        "outsideScope": "It holds staff training records only, with no federal customer data or production access."
+      },
+      {
+        "name": "Claude",
+        "provider": "Anthropic",
+        "website": "https://www.anthropic.com/",
+        "useCase": "AI assistance in CI workflows and for staff engineering and operations work.",
+        "usageAndConfiguration": "Depot CI workflows send commit subjects, file lists, and diffs of up to 200 KB to the Claude API to suggest the FedRAMP change label and summarize merges. Staff use Claude through an SSO-enforced workspace. Product inference uses Amazon Bedrock in AWS GovCloud, not this API.",
+        "justification": "Silkline uses Claude to classify changes and to support engineering and operations work.",
+        "mitigationMeasures": "The CI step has read-only file tools and no GitHub write access. Workflow shell steps apply only an allowed label value.",
+        "compensatingControls": "Staff policy forbids submitting customer or in-boundary data, and reviewers can override any suggested label.",
+        "outsideScope": "It has no federal customer data or production access, and its code changes reach the offering only through reviewed pull requests."
+      },
+      {
+        "name": "Checkr",
+        "provider": "Checkr",
+        "website": "https://checkr.com/",
+        "useCase": "Pre-employment background checks.",
+        "usageAndConfiguration": "Checkr receives candidate identity details and returns background check results.",
+        "justification": "Silkline uses Checkr to screen personnel before granting system access.",
+        "mitigationMeasures": "Data is limited to candidate identity and screening records.",
+        "compensatingControls": "Administrative access is restricted to authorized personnel.",
+        "outsideScope": "It holds pre-employment screening records only, with no federal customer data or production access."
+      },
+      {
+        "name": "Justworks",
+        "provider": "Justworks",
+        "website": "https://www.justworks.com/",
+        "useCase": "Payroll, benefits, and HR records.",
+        "usageAndConfiguration": "Justworks holds employee records for payroll, benefits, and time off.",
+        "justification": "Silkline uses Justworks as its professional employer organization.",
+        "mitigationMeasures": "Data is limited to workforce identity, payroll, and benefits records.",
+        "compensatingControls": "Administrative access is restricted to authorized personnel.",
+        "outsideScope": "It holds workforce HR records only, with no federal customer data or production access."
+      },
+      {
+        "name": "ChatGPT",
+        "provider": "OpenAI",
+        "website": "https://chatgpt.com/",
+        "useCase": "General-purpose AI assistance for staff.",
+        "usageAndConfiguration": "Staff use ChatGPT through an SSO-enforced workspace. The product does not call OpenAI; its OpenAI models run on Amazon Bedrock in AWS GovCloud.",
+        "justification": "Silkline uses ChatGPT to support staff research and writing.",
+        "mitigationMeasures": "Staff policy forbids submitting customer or in-boundary data.",
+        "compensatingControls": "SSO with multifactor authentication restricts access to the workspace.",
+        "outsideScope": "Staff use it without federal customer data or production access."
       }
     ]
   },

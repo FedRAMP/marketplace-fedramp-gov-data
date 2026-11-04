@@ -8,8 +8,8 @@
       "title": "Chief Technology Officer, VisualVault LLC",
       "email": "fedramp-security@visualvault.com"
     },
-    "version": "1.12",
-    "lastUpdated": "2026-11-02T20:59:00.630Z",
+    "version": "1.13",
+    "lastUpdated": "2026-11-03T21:14:13.587Z",
     "updateSource": "VisualVault Trust Center CPO generator (scheduled refresh)",
     "machineReadableUri": "http://localhost:3002/api/documents/5f626271-cd0d-43c3-85fd-4e4f88b15fe0.json",
     "humanReadableUri": "http://localhost:3002/api/documents/ab1e5360-1a6e-4451-ac60-65f33f9393ac.pdf"
@@ -153,9 +153,9 @@
     "source": {
       "evidenceName": "Generating Inventories - AWS GovCloud Asset Inventory",
       "evidenceReference": "EVD-AWS-GOVCLOUD-INVENTORY",
-      "artifactId": "3aeb7f34-f3b4-4df6-a23a-0b45d05e1d93",
+      "artifactId": "838c9084-5c49-4d34-82e9-85b93dc76454",
       "fileName": "aws_govcloud_asset_inventory.json",
-      "collectedAt": "2026-11-02T04:00:53Z",
+      "collectedAt": "2026-11-03T04:00:58Z",
       "generator": "aws_govcloud_asset_inventory.py 2.0.0",
       "collectionMethod": "automated",
       "collectionResult": "SUCCESS",
@@ -165,7 +165,7 @@
         "us-gov-west-1"
       ],
       "totalResources": 979,
-      "inventorySha256": "a3cb1ec8a2ffa194008374c94c19bb81b266b2c9b04cc6c19bf3dfdbb1a0a611"
+      "inventorySha256": "81f98d3543c5440ded921dc34a16e2e734b8af3f6e8664b674dfe3c99ec867cb"
     },
     "boundary": {
       "mode": "account",
@@ -695,31 +695,30 @@
       {
         "name": "Security Decision Record (machine-readable)",
         "format": "JSON",
-        "version": "1.0.9",
+        "version": "1.0.10",
         "url": "http://localhost:3002/api/documents/e1199dde-d05a-4ddc-900b-2a6babe8324a.json"
       },
       {
         "name": "Security Decision Record (human-readable)",
         "format": "PDF",
-        "version": "1.0.9",
+        "version": "1.0.10",
         "url": "http://localhost:3002/api/documents/ee5e73e5-5835-4610-9614-3b689ba28520.pdf"
       }
     ]
   },
   "documentationOverview": [
     {
-      "name": "VisualVault Security Decision Report JSON",
-      "description": "VisualVault Security Decision Report JSON Document",
-      "version": "1.0.9",
-      "lastUpdated": "2026-10-26",
+      "name": "sdr-1.0.10.json",
+      "version": "1.0.10",
+      "lastUpdated": "2026-11-03",
       "access": "Requires a trust center access grant",
       "url": "http://localhost:3002/api/documents/e1199dde-d05a-4ddc-900b-2a6babe8324a.json"
     },
     {
       "name": "VisualVault Cloud FedRAMP 20x Class B Security Decision Record",
-      "description": "This is a human-readable rendering of VisualVault Cloud's machine-readable Security Decision Record for its FedRAMP 20x Class B certification, assessed by A-LIGN. It details implementation status, automated test results, and evidence for 47 Key Security Indicators and 157 FedRAMP Requirements, including four currently failing SSL/TLS enforcement tests.",
-      "version": "1.0.9",
-      "lastUpdated": "2026-10-26",
+      "description": "This is a human-readable edition of VisualVault Cloud's machine-readable Security Decision Record for FedRAMP 20x Class B certification. It summarizes implementation status, test results, and evidence for Key Security Indicators (KSIs) and FedRAMP Requirements, as assessed by A-LIGN Compliance and Security. It includes detailed breakdowns by theme and process, such as change management, identity and access management, incident response, and vulnerability detection.",
+      "version": "1.0.10",
+      "lastUpdated": "2026-11-03",
       "access": "Requires a trust center access grant",
       "url": "http://localhost:3002/api/documents/ee5e73e5-5835-4610-9614-3b689ba28520.pdf"
     },
