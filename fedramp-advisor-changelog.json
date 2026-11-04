@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-03T05:03:55.808Z",
-    "total_entries": 13,
+    "export_timestamp": "2026-11-04T05:06:34.216Z",
+    "total_entries": 16,
     "description": "FedRAMP data AdvisorStatusChangeLog export from GSA system"
   },
   "data": {
@@ -109,6 +109,30 @@
         "to_status": "Listed",
         "transition_date": "2026-11-02T19:03:58.423Z",
         "recorded_date": "2026-11-02T19:03:58.423Z"
+      },
+      {
+        "unique_id": "93e98d7a-ebee-4c4c-837f-15fc62bbd807",
+        "advisor_id": "aether-security",
+        "from_status": "",
+        "to_status": "Listed",
+        "transition_date": "2026-11-03T15:23:04.888Z",
+        "recorded_date": "2026-11-03T15:23:04.888Z"
+      },
+      {
+        "unique_id": "50281180-9d17-4d40-9691-976aee2c81c0",
+        "advisor_id": "automata",
+        "from_status": "",
+        "to_status": "Listed",
+        "transition_date": "2026-11-03T15:23:06.881Z",
+        "recorded_date": "2026-11-03T15:23:06.881Z"
+      },
+      {
+        "unique_id": "d8682f60-f633-4e81-a1ab-615672534c11",
+        "advisor_id": "marfi-systems-incorporated",
+        "from_status": "",
+        "to_status": "Listed",
+        "transition_date": "2026-11-03T15:23:09.060Z",
+        "recorded_date": "2026-11-03T15:23:09.060Z"
       }
     ]
   }

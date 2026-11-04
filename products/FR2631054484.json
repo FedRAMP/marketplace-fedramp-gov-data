@@ -4,7 +4,7 @@
     "providerName": "Anysphere, Inc.",
     "serviceName": "Cursor",
     "serviceAcronym": "CURSOR",
-    "serviceDescription": "Cursor is an AI-powered software development platform that helps developers and organizations understand, generate, review, and maintain software. The offering includes the Cursor editor, AI-assisted development workflows, and related cloud services. Anysphere, Inc. is pursuing FedRAMP 20x Class C certification for the Cursor platform, and A-LIGN confirmed on October 22, 2026 that its assessment work was complete. Certification has not yet been granted. Anysphere's FedRAMP 20x Class A application is under FedRAMP review. Origin, Cursor's Git hosting product, is not part of this offering and is not offered to FedRAMP customers; service capabilities that operate on Origin repositories are outside the assessed scope.",
+    "serviceDescription": "Cursor is an AI-powered software development platform that helps developers and organizations understand, generate, review, and maintain software. The offering includes the Cursor editor, AI-assisted development workflows, and related cloud services. Anysphere, Inc. is pursuing FedRAMP 20x Class C certification for the Cursor platform, and A-LIGN confirmed on October 22, 2026 that its assessment work was complete. Cursor became FedRAMP Certified under the 20x Program Class A (Pilot) profile on October 29, 2026, as recorded on the FedRAMP Marketplace. The Class C request remains under FedRAMP review. Origin, Cursor's Git hosting product, is not part of this offering and is not offered to FedRAMP customers; service capabilities that operate on Origin repositories are outside the assessed scope.",
     "certificationType": "20x",
     "fedRampPackageId": "FR2631054484",
     "ueiNumber": "YK4LNCE1L847",
@@ -24,7 +24,7 @@
       "repositoryType": [
         "Trust Center"
       ],
-      "url": "https://trust.paramify.com/cursor/cursor",
+      "url": "https://trust.paramify.com/spacexsi/cursor",
       "repositoryDescription": "The Cursor FedRAMP Trust Center provides public program information and access to controlled security and compliance materials.",
       "authenticationRequired": true,
       "accessRequestInstructions": "Public program information is viewable without an account. To request controlled materials, select Request Access on the Cursor FedRAMP Trust Center and identify your agency or organization. Existing authorized reviewers may use their approved Cursor assessment workspace. For assistance, email fedramp@cursor.com from an official account. Public offering metadata is available as JSON at https://cursor.com/fedramp/certification-package-overview.json."
@@ -45,7 +45,7 @@
           "Certification Package",
           "Assessment Reports"
         ],
-        "url": "https://trust.paramify.com/cursor/cursor",
+        "url": "https://trust.paramify.com/spacexsi/cursor",
         "repositoryDescription": "The full controlled Certification Package Overview, including the assessor’s Overall Summary of Assessment, and supporting assessment materials are available through Cursor’s authorized assessment workspace.",
         "authenticationRequired": true,
         "accessRequestInstructions": "Existing authorized FedRAMP reviewers may use their approved Cursor assessment workspace and its Certification Package evidence. To request or confirm access, use Request Access on the Cursor FedRAMP Trust Center or contact fedramp@cursor.com from an official account."
@@ -197,10 +197,10 @@
     }
   ],
   "documentationOverview": {
-    "status": "Initial Implementation Phase",
-    "version": "2026-10-23",
-    "lastUpdated": "2026-10-23T17:15:18Z",
-    "updateSource": "Provider public metadata update: A-LIGN completed its Class C assessment on October 22, 2026. The full Certification Package Overview and assessment materials are shared through the controlled repository. FedRAMP certification has not been granted.",
+    "status": "Ongoing Certification",
+    "version": "2026-11-03",
+    "lastUpdated": "2026-11-03T17:42:57Z",
+    "updateSource": "Provider public metadata update: the FedRAMP Marketplace records that Cursor became FedRAMP Certified under the 20x Program Class A (Pilot) profile on October 29, 2026. A-LIGN confirmed completion of its Class C assessment on October 22, 2026, and the Class C request remains under FedRAMP review. The full Certification Package Overview and assessment materials are shared through the controlled repository. Trust Center repository links updated on November 3, 2026 to the current SpaceXSI workspace location.",
     "responsibleOfficial": {
       "name": "Ethan Troy",
       "title": "Senior Security Engineer",
@@ -227,13 +227,13 @@
       },
       {
         "name": "Cursor FedRAMP Trust Center",
-        "url": "https://trust.paramify.com/cursor/cursor",
+        "url": "https://trust.paramify.com/spacexsi/cursor",
         "format": "Trust Center",
         "access": "Public compliance program; controlled deliverables are available to agencies and other necessary parties after a one-time access approval requested on the FedRAMP Trust Center"
       },
       {
         "name": "SOC 2 Type II Report (Schellman; Security, Availability, and Confidentiality; August 15, 2025 to August 15, 2026)",
-        "url": "https://trust.paramify.com/cursor/cursor",
+        "url": "https://trust.paramify.com/spacexsi/cursor",
         "format": "PDF",
         "access": "Published as a controlled deliverable on the FedRAMP Trust Center, available to agencies and other necessary parties after a one-time access approval. SOC 2 is an independent attestation and is not a FedRAMP certification."
       }
@@ -256,8 +256,8 @@
     "assessorID": "138665"
   },
   "classCProgress": {
-    "lastUpdated": "2026-10-23",
-    "certificationStatus": "FedRAMP 20x Class C certification has not yet been granted. Anysphere’s FedRAMP 20x Class A application is under FedRAMP review.",
+    "lastUpdated": "2026-11-02",
+    "certificationStatus": "Cursor became FedRAMP Certified under the 20x Program Class A (Pilot) profile on October 29, 2026, as recorded on the FedRAMP Marketplace. The FedRAMP 20x Class C request remains under FedRAMP review.",
     "goal": "Obtain FedRAMP 20x Class C certification for the Cursor platform and maintain ongoing certification reporting and quarterly reviews.",
     "updateCadence": "Updated at least quarterly and after each Quarterly Review.",
     "milestones": [
@@ -273,7 +273,7 @@
         "title": "Class C assessment complete",
         "status": "Complete",
         "date": "2026-10-22",
-        "detail": "A-LIGN completed its assessment. Assessment completion does not mean that every requirement passed or that FedRAMP certification has been granted."
+        "detail": "A-LIGN completed its assessment. Assessment completion does not mean that every requirement passed or that FedRAMP 20x Class C certification has been granted."
       },
       {
         "id": "first-ongoing-certification-report",

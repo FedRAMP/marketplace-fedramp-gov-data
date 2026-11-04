@@ -3,9 +3,9 @@
     "providerName": "Toonimo Inc.",
     "serviceName": "Toonimo Digital Adoption Platform",
     "serviceAcronym": "Toonimo-DAP",
-    "serviceDescription": "Toonimo is a cloud-native SaaS digital adoption platform that delivers in-application walkthroughs, AI chatbot and voicebot guidance, process intelligence, and analytics so organizations can help employees and constituents complete tasks in existing web applications. The FedRAMP authorization boundary is commercial Amazon Web Services only (containers on Kubernetes/EKS, managed database, object storage, CDN, WAF, KMS). Oracle Cloud Infrastructure is used for some commercial non-federal tenants and is outside this boundary.\n\nTarget certification: FedRAMP 20x Class C (Moderate) via Program Certification (no agency sponsor). Marketplace status: Initial Implementation. FedRAMP ID pending assignment.",
+    "serviceDescription": "Toonimo is a cloud-native SaaS digital adoption platform that delivers in-application walkthroughs, AI chatbot and voicebot guidance, process intelligence, and analytics so organizations can help employees and constituents complete tasks in existing web applications. The FedRAMP authorization boundary is commercial Amazon Web Services only (containers on Kubernetes/EKS, managed database, object storage, CDN, WAF, KMS). Oracle Cloud Infrastructure is used for some commercial non-federal tenants and is outside this boundary.\n\nTarget certification: FedRAMP 20x Class C (Moderate) via Program Certification (no agency sponsor). Marketplace status: Initial Implementation. FedRAMP ID: FR2635050850.",
     "certificationType": "20x",
-    "fedRampPackageId": "TOONIMO-DAP",
+    "fedRampPackageId": "FR2635050850",
     "ueiNumber": "",
     "website": "https://www.toonimo.com",
     "logo": "https://www.toonimo.com/images/logo_toonimo_g.png"
@@ -102,5 +102,5 @@
     ]
   },
   "ZD_frid_retro": "FR2635050850",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }

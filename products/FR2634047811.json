@@ -6,7 +6,7 @@
     "providerName": "86Borders LLC",
     "serviceName": "86Borders ConnectAllCare",
     "serviceAcronym": "86B-CAC",
-    "serviceDescription": "86Borders is the trusted partner for health plans seeking measurable outcomes and quality improvement through human-first member engagement. By pairing local Care Coordinators with our ConnectAllCare (CAC) platform, we help payers and other risk-bearing entities reach hard-to-engage members, overcome social and behavioral barriers, and translate genuine connection into improved outcomes, higher quality scores, and healthier communities. 86Borders ConnectAllCare is a cloud-based healthcare coordination platform managing patient engagement and social care, deployed on AWS Commercial infrastructure.\n\n### Certification Package Metadata [CPO-CSO-MTD]\n- **Accountable Official:** Dan McDonald, Chief Executive Officer (CEO) (dmcdonald@86borders.com)\n- **Version:** 1.0.3\n- **Date and Time of Last Update:** 2026-10-20T13:50:00.000Z\n- **Source of Update:** Manual",
+    "serviceDescription": "86Borders is the trusted partner for health plans seeking measurable outcomes and quality improvement through human-first member engagement. By pairing local Care Coordinators with our ConnectAllCare (CAC) platform, we help payers and other risk-bearing entities reach hard-to-engage members, overcome social and behavioral barriers, and translate genuine connection into improved outcomes, higher quality scores, and healthier communities. 86Borders ConnectAllCare is a cloud-based healthcare coordination platform managing patient engagement and social care, deployed on AWS Commercial infrastructure.\n\n### Certification Package Metadata [CPO-CSO-MTD]\n- **Accountable Official:** Dan McDonald, Chief Executive Officer (CEO) (dmcdonald@86borders.com)\n- **Version:** 1.0.4\n- **Date and Time of Last Update:** 2026-11-03T13:21:00.000Z\n- **Source of Update:** Manual",
     "certificationType": "20x",
     "website": "https://www.86borders.com",
     "logo": "https://www.86borders.com/wp-content/uploads/2026/07/86Borders-Logo-scaled-2.png"
@@ -50,9 +50,10 @@
       },
       {
         "repositoryType": [
-          "Assessment Reports"
+          "Assessment Reports",
+          "Security Decision Record (SDR)"
         ],
-        "url": "https://trust.paramify.com/86borders/connectallcare",
+        "url": "https://trust.paramify.com/86borders/connectallcare/deliverables",
         "repositoryDescription": "FedRAMP Independent Assessment Results per [IVV-CSO-ICP] and [CPO-CSO-OSA]. Status: FedRAMP 20x Class C Assessment currently in progress. Results will be uploaded immediately upon completion per [CPO-CSX-CPM] (bi-weekly maintenance rule).",
         "authenticationRequired": true,
         "accessRequestInstructions": "Access is restricted to Authorizing Officials (AOs) and FedRAMP PMO reviewers. If you are an AO or a FedRAMP PMO reviewer, select the 'Request Access' button on desired assessment report and follow the prompts."
@@ -84,11 +85,11 @@
     },
     {
       "serviceName": "86Borders/ConnectAllCare",
-      "serviceDescription": "Healthcare coordination platform managing patient engagement and social care. (FIPS 199 Category: High [PHI/PII])",
+      "serviceDescription": "Healthcare coordination platform managing patient engagement and social care. (FIPS 199 Category: High)",
       "dateAvailable": "2026-08-26"
     },
     {
-      "serviceName": "A-LIGN A-SCEND",
+      "serviceName": "A-LIGN (A-SCEND)",
       "serviceDescription": "Cybersecurity compliance automation and audit portal; configured for evidence collection and continuous monitoring. (FIPS 199 Category: Moderate)",
       "dateAvailable": "2026-08-26"
     },
@@ -224,12 +225,12 @@
     },
     {
       "serviceName": "Atlassian (Jira/Confluence)",
-      "serviceDescription": "Enterprise documentation knowledge base (Confluence) and issue/task tracking platform (Jira); hosts compliance policies, system architecture, and incident tracking. (FIPS 199 Category: High [CUI/Internal])",
+      "serviceDescription": "Enterprise documentation knowledge base (Confluence) and issue/task tracking platform (Jira); hosts compliance policies, system architecture, and incident tracking. (FIPS 199 Category: High)",
       "dateAvailable": "2026-08-26"
     },
     {
       "serviceName": "Google Workspace (Mail & Drive)",
-      "serviceDescription": "Enterprise cloud productivity, corporate email (Gmail), and cloud file storage (Drive) platform. (FIPS 199 Category: High [CUI/PII])",
+      "serviceDescription": "Enterprise cloud productivity, corporate email (Gmail), and cloud file storage (Drive) platform. (FIPS 199 Category: High)",
       "dateAvailable": "2026-08-26"
     },
     {

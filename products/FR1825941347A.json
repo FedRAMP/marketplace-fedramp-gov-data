@@ -6,7 +6,7 @@
     "providerName": "Zoom Video Communications, LLC",
     "serviceName": "Zoom for Government",
     "serviceAcronym": "ZfG",
-    "serviceDescription": "The Zoom for Government Platform is a Zoom product offering for the US Federal, and US Department of Defense communities. The Zoom for Government Platform is an all-in-one collaboration platform that makes connecting easier, more immersive, and more dynamic for people and businesses.\n\nZoom for Government FedRAMP JAB authorized products include:\n\n- Zoom Cloud Video Conferencing\n- Zoom Events\n- Zoom Rooms\n- Zoom Whiteboard\n- Zoom Canvas\n- Zoom Hub\n- Workspace Reservation\n- Zoom Mesh\n- Continuous Meeting Chat\n- AI Companion for ZfG\n- Zoom Team Chat\n- Zoom Phone\n- Zoom Node\n- Zoom Contact Center (ZCC)\n- Zoom API\n- Zoom Meeting SDK\n- Zoom Client\n- Zoom for Chrome PWA\n- QSS",
+    "serviceDescription": "The Zoom for Government Platform is a Zoom product offering for the US Federal, and US Department of Defense communities. The Zoom for Government Platform is an all-in-one collaboration platform that makes connecting easier, more immersive, and more dynamic for people and businesses.\n\nZoom for Government FedRAMP JAB authorized products include:\n\n- Zoom Cloud Video Conferencing\n- Zoom Events\n- Zoom Rooms\n- Zoom Whiteboard\n- Zoom Canvas\n- Zoom Hub\n- Workspace Reservation\n- Zoom Mesh\n- Continuous Meeting Chat\n- AI Companion for ZfG\n- Zoom Team Chat\n- Zoom Phone\n- Zoom Node\n- Zoom Contact Center (ZCC)\n- Zoom Virtual Agent (ZVA)\n- AI Expert Assist\n- Quality Management (QM)\n- Workforce Management (WFM)\n- Zoom API\n- Zoom Meeting SDK\n- Zoom Client\n- Zoom for Chrome PWA\n- QSS",
     "certificationType": "Rev5",
     "website": "https://www.zoomgov.com/",
     "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Zoom%20Logo.png"
@@ -107,6 +107,26 @@
     {
       "serviceName": "Zoom Contact Center (ZCC)",
       "serviceDescription": "An omnichannel contact center that's optimized for video and integrated into the same Zoom experience. Zoom Contact Center brings unified communications together with contact center capabilities. ZCC builds off the FedRAMP Authorized service Zoom Phone. ZCC is administered in the Zoom for Government administrative portal.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Zoom Virtual Agent (ZVA)",
+      "serviceDescription": "An AI-powered conversational self-service solution that enables organizations to deploy intelligent virtual agents across digital channels. ZVA allows customers to automate common inquiries and resolutions, reducing agent workload while delivering fast, accurate responses to end users.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "AI Expert Assist",
+      "serviceDescription": "A real-time AI-powered assistance tool designed to support contact center agents during live customer interactions. AI Expert Assist surfaces relevant knowledge base articles, suggested responses, and contextual guidance directly within the agent's workspace, enabling faster issue resolution and improved service quality.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Quality Management (QM)",
+      "serviceDescription": "A contact center quality assurance solution that enables supervisors and administrators to monitor, evaluate, and improve agent performance. QM provides tools for interaction recording review, customizable scoring, and performance analytics, allowing organizations to maintain service quality standards and support agent development.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Workforce Management (WFM)",
+      "serviceDescription": "A workforce planning and scheduling solution that enables contact center administrators to optimize staffing, forecast demand, and manage agent schedules. WFM provides real-time adherence tracking and reporting tools, allowing organizations to efficiently align workforce capacity with operational needs.",
       "securityCategory": "Moderate"
     },
     {
