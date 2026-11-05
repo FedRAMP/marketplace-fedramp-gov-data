@@ -1,11 +1,11 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "MolLogic-CHEM-HW-MYMOL",
+    "fedRampPackageId": "FR2703160237",
     "ueiNumber": "D99JEPGQRTK9",
     "providerName": "MolLogic LLC",
     "serviceName": "ChemIllusion Homework and MyMol Subscriptions",
     "serviceAcronym": "CHEM-HW-MYMOL",
-    "serviceDescription": "Cloud software-as-a-service for chemistry homework delivery, autograding, and instructor authoring, together with paid MyMol Plus, Premium, and Professional subscription entitlements on chemillusion.com and the MyMol native apps. **Intended FedRAMP 20x program target (not assessed, authorized, certified, or Marketplace-listed):** Class B certification at **Low** system impact level. This draft package supports a FedRAMP 2026 (20x) **Initial Implementation Phase Marketplace listing request only**.",
+    "serviceDescription": "Cloud software-as-a-service for chemistry homework delivery, autograding, and instructor authoring, together with paid MyMol Plus, Premium, and Professional subscription entitlements on chemillusion.com and the MyMol native apps. **FedRAMP 20x Initial Implementation Phase Marketplace listing** (package ID FR2703160237, listed 2026-11-04) — a Marketplace listing is not FedRAMP authorization or certification. **Intended program target (not assessed or authorized):** Class B certification at **Low** system impact level. Certification is in process.",
     "certificationType": "20x",
     "website": "https://chemillusion.com",
     "logo": "https://chemillusion.com/og/logo.png"
@@ -44,7 +44,7 @@
         "url": "https://github.com/scottmreed/chem-art-generator/tree/main/soc2-compliance-evidence/policies",
         "repositoryDescription": "Information security, access control, backup/DR, change management, incident response, and vendor management policies (private repository; public summaries on trust center when enabled).",
         "authenticationRequired": true,
-        "accessRequestInstructions": "Email support@chemillusion.com from an agency or institutional domain. FedRAMP Marketplace listing materials are not yet published; this repository path documents internal policy sources."
+        "accessRequestInstructions": "Email support@chemillusion.com from an agency or institutional domain. Policy sources are documented in this private repository path; additional public summaries may appear on the trust center over time."
       }
     ]
   },
@@ -170,5 +170,5 @@
     ]
   },
   "ZD_frid_retro": "FR2703160237",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }

@@ -7,8 +7,8 @@
       "email": "security@tarly.co",
       "phone": "585-474-2276"
     },
-    "version": "2026.10.16.1",
-    "lastUpdated": "2026-10-16T19:19:58Z",
+    "version": "2026.11.04.1",
+    "lastUpdated": "2026-11-05T00:51:18Z",
     "sourceOfUpdate": "Tarly compliance repository source revision"
   },
   "serviceIdentification": {
@@ -130,10 +130,10 @@
   "thirdPartyInformationResources": {
     "certified": [
       {
-        "fedRampCertifiedThirdPartyInformationResource": "F1603047324",
-        "useCase": "Microsoft Azure Commercial (FedRAMP High, Authorized) is the sole hosting platform for the Tarly Cowork authorization boundary and its Tarly-operated shared public-data services. Current production services include Container Apps, PostgreSQL Flexible Server, Storage, Key Vault, Container Registry, Front Door Premium with managed WAF, Azure DNS, Entra ID, Log Analytics and Azure Monitor, Microsoft Defender for Cloud, Azure AI services, and Azure Communication Services Email. Cowork does not use Service Bus as a direct application-runtime connection; the separate Tarly-operated shared-data ingestion plane contains an Azure Service Bus namespace that can affect the freshness and integrity of public records Cowork later reads.",
+        "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
+        "useCase": "Microsoft Azure Commercial (FedRAMP Certified, Rev5, Class D/High; F1209051525) is the sole hosting platform for the Tarly Cowork authorization boundary and its Tarly-operated shared public-data services. Current production services include Container Apps, PostgreSQL Flexible Server, Storage, Key Vault, Container Registry, Front Door Premium with managed WAF, Azure DNS, Entra ID, Log Analytics and Azure Monitor, Microsoft Defender for Cloud, Azure AI services, and Azure Communication Services Email. Cowork does not use Service Bus as a direct application-runtime connection; the separate Tarly-operated shared-data ingestion plane contains an Azure Service Bus namespace that can affect the freshness and integrity of public records Cowork later reads. Listing status does not establish inheritance for every deployed service, feature or region. Microsoft documents the certified Azure Communication Services Email offering in Azure Government under the Microsoft 365 GCC High reference FR1824057433. The configured production Email endpoint is in Azure Commercial; certification eligibility for that exact resource is not established, and no Azure Commercial or GCC High inheritance is claimed for it.",
         "generalUsageAndConfiguration": "Azure hosts the production frontend, backend API, isolated workspace sandbox, managed data stores, private endpoints, image supply chain, identity, telemetry, AI inference and retrieval, transactional email, and Tarly-operated shared public-data PostgreSQL and Azure AI Search services. Front Door is the sole intended public application ingress; the API and sandbox Container Apps have internal ingress. Cowork uses credentialed read paths to the shared data services. PostgreSQL, Storage, Key Vault, and Container Registry use the network controls documented in the boundary inventory.",
-        "justification": "Tarly Cowork requires an elastic managed hosting and security platform. Azure Commercial supplies the managed services, inherited controls, Central US deployment, and FedRAMP High authorization on which the offering depends.",
+        "justification": "Tarly Cowork requires an elastic managed hosting and security platform. Azure Commercial supplies the managed services, inherited controls, Central US deployment, and a FedRAMP High authorization for applicable in-scope services on which the offering depends. The service/feature/region and customer-responsibility mapping limits each inheritance claim.",
         "mitigationMeasures": [
           "Restrict public application ingress to Front Door and WAF and use private endpoints for protected platform data services.",
           "Use workload and managed identities where implemented, centralized monitoring, Defender findings, immutable compliance evidence, and infrastructure-as-code review.",
@@ -143,7 +143,10 @@
           "The application enforces tenant and procurement-file authorization before data access and records security-relevant activity.",
           "The controlled privilege and attack-surface matrices fail closed when required resources, flows, source references, or exceptions are omitted.",
           "Where platform private connectivity or keyless authentication is not yet complete, narrow credentials, outbound allowlisting, monitoring, rotation, and dated remediation records reduce risk."
-        ]
+        ],
+        "name": "Microsoft Azure Commercial",
+        "provider": "Microsoft Corporation",
+        "website": "https://www.fedramp.gov/marketplace/products/F1209051525/"
       }
     ],
     "nonCertified": [
@@ -167,17 +170,17 @@
         "name": "Tarly Microsoft 365 / SharePoint Online integration",
         "provider": "Microsoft Corporation (tenant operated by Tarly)",
         "website": "https://www.microsoft.com/microsoft-365",
-        "useCase": "The connector is a test placeholder for a future customer-operated SharePoint tenant. It is configured to a Tarly-operated SharePoint Online site so the import path can be exercised, and it lets authenticated Cowork users search that configured site and import selected documents into a procurement file as evidence. No agency or customer tenant is connected, so no federal customer data flows through it today. The data flow is inbound from SharePoint to Cowork; this record does not claim the current tenant is agency-operated or covered by an agency authorization.",
-        "generalUsageAndConfiguration": "The production backend has a configured Tarly Microsoft 365 tenant, application identity, secret-backed credential, and SharePoint site URL. Application code uses Microsoft Graph HTTPS read, search, list, and download operations and imports only a user-selected document into Cowork evidence storage.",
-        "justification": "The connector provides a governed shared source for documents that authorized Cowork users need to locate and import without unmanaged local transfer steps.",
+        "useCase": "Dormant SharePoint search/import capability retained in the assessment inventory. The owner confirms the integration is not in use. On 2026-11-04 the Tarly test application was disabled and its tenant-wide Sites.Read.All grant, delegated User.Read consent and all requested API permissions were removed. No agency/customer SharePoint connection is authorized. Tenant/environment eligibility and selected-site read-only validation are required before future use; no GCC, GCC High or agency authorization is claimed for the test tenant.",
+        "generalUsageAndConfiguration": "The production backend retains Terraform-managed test-tenant credential and site bindings, but the Entra service principal is disabled and holds no application roles or delegated consent. The application requires explicit SHAREPOINT_ENABLED=true in addition to complete credentials and a configured site; dormant credentials alone do not activate it.",
+        "justification": "Retain the planned import capability and its dormant credential binding under assessment while it is unused; activate only after an approved customer/agency tenant and site-permission review.",
         "mitigationMeasures": [
-          "Keep the application credential in the managed secret store and restrict the connector to the configured site and read-oriented Graph operations.",
-          "Require authenticated Cowork access and explicit user selection before importing a document, and treat imported content as untrusted until processed inside the boundary.",
-          "Do not represent the Tarly-operated tenant as an agency information resource or extend the integration to an agency tenant without a new configuration and scope review."
+          "Keep the unused Entra service principal disabled with no API permission grants, delegated consent or configured API permissions.",
+          "Default SHAREPOINT_ENABLED to false and block authentication, cached-token use, search and download unless explicitly enabled and fully configured.",
+          "Before activation, require Sites.Selected with an explicit read-only grant to the approved site, tenant/data-flow review and positive/negative functional validation."
         ],
         "compensatingControls": [
-          "Secret protection, application authorization, source and import audit metadata, user-selected transfer, and in-boundary access controls after import.",
-          "The retained 2026-08-26 measurement checked Microsoft Graph appRoleAssignments and the roles claim of a client-credentials token; both showed Sites.Read.All and no write role. That tenant-wide read grant does not establish site-scoped least privilege. Current tenant contents, licensing and the effective grant were not remeasured by the 2026-10-16 scope review. Keep the production-connected import path, credential and permissions in assessment; require a site-scoped design and functional validation before connecting agency or customer content."
+          "Microsoft Graph independently confirmed accountEnabled=false, no application-role assignments, no delegated consent and no configured API permissions. A client-credentials request failed with AADSTS7000112 (application disabled) and issued no token.",
+          "Retain the original 2026-08-26 Sites.Read.All observation as historical evidence. Newly disabled sign-ins and revoked grants do not prove retroactive invalidation of earlier issued tokens; those remain subject to expiry. No credential or token values are retained in the review."
         ]
       }
     ]

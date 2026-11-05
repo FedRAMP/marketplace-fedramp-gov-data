@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-04T20:34:58.619Z",
-    "total_entries": 6078,
+    "export_timestamp": "2026-11-05T05:04:28.653Z",
+    "total_entries": 6082,
     "description": "FedRAMP data ATOs export from GSA system"
   },
   "data": {
@@ -32758,7 +32758,7 @@
         "uuid": "2a5ca291-1530-4553-b995-dff1c29a54ea",
         "product_id": "FR1820435960",
         "agency_id": "22-044",
-        "is_active": true,
+        "is_active": false,
         "is_reuse": true,
         "is_uplift": false,
         "ato_date": "2023-07-31T04:00:00.000Z",
@@ -72941,6 +72941,54 @@
         "exp_date": "",
         "log_date": "2026-08-17T04:00:00.000Z",
         "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "fb9f09a0",
+        "product_id": "FR2131766015",
+        "agency_id": "22-022-01",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-01-28T05:00:00.000Z",
+        "exp_date": "2029-01-28T05:00:00.000Z",
+        "log_date": "2026-09-03T04:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "e9264763",
+        "product_id": "FR2131766015",
+        "agency_id": "22-015",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2025-12-22T05:00:00.000Z",
+        "exp_date": "2029-11-30T05:00:00.000Z",
+        "log_date": "2026-09-14T04:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "15c86c39",
+        "product_id": "FR1820435960",
+        "agency_id": "22-044",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-10-27T04:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-04T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "6a3e5e14",
+        "product_id": "FR2512056954",
+        "agency_id": "22-025",
+        "is_active": true,
+        "is_reuse": false,
+        "is_uplift": false,
+        "ato_date": "2026-05-08T04:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-04T05:00:00.000Z",
+        "log_reason": "Initial Authorization"
       }
     ]
   }

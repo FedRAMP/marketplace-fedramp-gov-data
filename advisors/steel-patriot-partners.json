@@ -1,31 +1,38 @@
 {
-  "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
   "advisorName": "Steel Patriot Partners",
   "logo": "https://www.steelpatriotpartners.com/hubfs/Steel_Patriot_Partners_logo.svg",
-  "serviceDescription": "Steel Patriot Partners is a cybersecurity and data governance advisory firm that helps cloud service providers and their customers navigate FedRAMP. We advise organizations on FedRAMP readiness, authorization strategy, security control implementation, continuous monitoring, and data governance so they can achieve and maintain FedRAMP authorization efficiently.",
-  "contactInformation": [
-    "Company: Steel Patriot Partners",
-    "Contact: Doug Stonier, Director of Compliance",
-    "Phone: 855-578-7272",
-    "Email: security-alerts@steelpatriotpartners.com",
-    "Website: https://www.steelpatriotpartners.com"
-  ],
+  "serviceDescription": "Steel Patriot Partners (SPP) is a cybersecurity systems integrator specializing in the design, implementation, and operation of secure, compliant cloud environments. We help cloud service providers navigate FedRAMP by combining compliance expertise, cloud engineering, cybersecurity integration, and ongoing operational support.\n\nSPP's leadership brings decades of experience across federal cloud services, cybersecurity engineering, independent security assessments, and compliance program operations. Our team includes leaders who built and operated one of the early FedRAMP cloud service providers, held senior assessment and advisory roles at Schellman, and served in leadership positions at HITRUST and PwC. This collective experience provides insight into FedRAMP from the perspectives of cloud service providers, independent assessors, and the teams responsible for implementing and maintaining security controls.\n\nOur services span the full FedRAMP lifecycle, including readiness assessments, compliance program development, secure cloud architecture and engineering, technical control implementation, assessment preparation, and continuous compliance operations. SPP supports FedRAMP Rev. 5, FedRAMP 20x, and other federal security requirements across AWS GovCloud, Microsoft Azure Government, GCP, and other regulated cloud environments including on prem solutions.\n\nUnlike traditional compliance only advisory firms, SPP combines regulatory expertise with hands on engineering and operational capabilities. We help organizations translate FedRAMP requirements into implemented security controls, reduce technical and compliance risk, and establish sustainable security and compliance programs that extend beyond initial certification.",
+  "contactInformation": {
+    "pointOfContactName": "Amy Ford",
+    "jobTitle": "Chief Operating Officer",
+    "email": "fedramp@steelpatriotpartners.com",
+    "phone": "855-578-7272",
+    "companyWebsite": "https://www.steelpatriotpartners.com"
+  },
   "servicesOffered": [
     {
-      "serviceName": "FedRAMP Readiness & Advisory",
-      "serviceDescription": "Gap assessments, readiness reviews, and advisory support to prepare cloud service offerings for FedRAMP authorization."
+      "serviceName": "Assessments - FedRAMP Readiness and Strategy\n\n",
+      "serviceDescription": "Assessment of existing cloud environments, security controls, and compliance programs against FedRAMP requirements. Drawing on experience from both cloud service provider operations and independent security assessments, SPP evaluates technical implementation, control effectiveness, documentation, and operational readiness. Services include readiness and gap assessments, system boundary evaluation, security architecture reviews, control applicability, remediation planning, and certification roadmaps. SPP helps organizations identify deficiencies that could affect independent assessments and establish a practical, risk-based path toward FedRAMP certification.\n\n"
     },
     {
-      "serviceName": "Security Control Implementation Support",
-      "serviceDescription": "Guidance on implementing and documenting the security and privacy controls required for FedRAMP authorization."
+      "serviceName": "Cybersecurity Compliance Program Build\n\n",
+      "serviceDescription": "Design and implementation of FedRAMP compliance programs aligned with Rev. 5, FedRAMP 20x, and applicable federal requirements. Services include control implementation planning, System Security Plan (SSP) development, policies and procedures, evidence management, POA&M development, compliance automation, and assessment preparation. SPP integrates compliance requirements into operational processes to establish a sustainable program that supports initial certification and ongoing compliance.\n\n"
     },
     {
-      "serviceName": "Continuous Monitoring & Ongoing Authorization",
-      "serviceDescription": "Advisory support for maintaining FedRAMP authorization, including continuous monitoring, vulnerability management, and reporting."
+      "serviceName": "Cloud and Security Engineering\n\n",
+      "serviceDescription": "Architecture, engineering, and implementation of secure cloud environments designed to meet FedRAMP requirements. Services include cloud security architecture, system boundary implementation, identity and access management, network security, encryption, security hardening, DevSecOps integration, and technical security control implementation. SPP integrates cloud infrastructure and cybersecurity technologies to establish secure, operationally sustainable environments across AWS GovCloud, Microsoft Azure Government, GCP, and other supported platforms.\n\n"
     },
     {
-      "serviceName": "Cybersecurity Data Governance",
-      "serviceDescription": "Advisory services for establishing data governance, data protection, and compliance practices aligned to federal security requirements."
+      "serviceName": "Cybersecurity Compliance Operations\n\n",
+      "serviceDescription": "Ongoing management and operational support of FedRAMP compliance programs following initial implementation or certification. Services include continuous monitoring, POA&M management, control and documentation maintenance, evidence collection, change impact assessments, vulnerability oversight, and coordination with independent assessors and federal stakeholders. SPP also supports evolving FedRAMP requirements, including CR26, Vulnerability Detection and Response (VDR), Vulnerability Evaluation and Reporting (VER), and FedRAMP 20x transition activities.\n\n"
+    },
+    {
+      "serviceName": "Security Engineering Operations\n\n",
+      "serviceDescription": "Ongoing security engineering and operational support for cloud environments operating under FedRAMP requirements. Services include security platform administration, vulnerability management, configuration management, cloud security monitoring, security tool integration, infrastructure security maintenance, and remediation support. SPP operates and optimizes cybersecurity technologies, including SIEM, endpoint protection, cloud security posture management, vulnerability scanning, and identity security platforms, to maintain the technical effectiveness of implemented security controls.\n\n"
+    },
+    {
+      "serviceName": "Executive Advisement - Federal Cloud and Compliance Strategy\n\n",
+      "serviceDescription": "Strategic advisory services for organizations pursuing or maintaining FedRAMP certification. Drawing on leadership experience in federal cloud service delivery, independent security assessments, and compliance program management, SPP advises executive and technical leadership on certification pathways, federal cloud strategy, regulatory requirements, security investment priorities, and program governance. Services include assessment strategy, regulatory interpretation, federal stakeholder coordination, and long-term operational planning. SPP helps organizations align federal market objectives with technical architecture, compliance investments, and sustainable security operations."
     }
   ],
   "advisor_id": "steel-patriot-partners",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-04T20:35:01.911Z",
-    "total_entries": 50,
+    "export_timestamp": "2026-11-05T05:04:31.799Z",
+    "total_entries": 51,
     "description": "FedRAMP data AssessorStatusChangeLog export from GSA system"
   },
   "data": {
@@ -405,6 +405,14 @@
         "to_status": "Listed",
         "transition_date": "2020-11-16T05:00:00.000Z",
         "recorded_date": "2026-10-23T20:46:03.657Z"
+      },
+      {
+        "unique_id": "cb044050-a160-4395-a3e8-d2b680c11812",
+        "assessor_id": 200934,
+        "from_status": "Listed",
+        "to_status": "Delisted",
+        "transition_date": "2026-08-27T04:00:00.000Z",
+        "recorded_date": "2026-11-05T00:20:29.108Z"
       }
     ]
   }

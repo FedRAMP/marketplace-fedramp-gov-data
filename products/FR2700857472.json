@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.0.6",
-    "lastUpdated": "2026-10-29T00:00:00Z",
+    "version": "1.0.7",
+    "lastUpdated": "2026-11-04T00:00:00Z",
     "updateSource": "Paramify CR26 20x Class C program",
     "responsibleOfficial": {
       "name": "Mehmet Yigit Guney",
@@ -273,8 +273,21 @@
   ],
   "x-cryptographicModuleInventory": "https://trust.cleat.ai/cryptographic-modules.json",
   "x-nextQuarterlyReviewDate": "2026-12-02",
-  "x-assessmentSummary": "A-LIGN (FedRAMP assessor ID 138665) is performing the independent assessment under SOW CON-011035. The 20x Class C assessment started on 2026-09-08 and is in progress. A-LIGN agreed on 2026-10-09 to re-test the controls that CLEATUS updated after its KSI Assessment Report v3.2 (2026-09-18); the re-test is pending. The overall assessment summary will be added when A-LIGN issues it.",
+  "x-assessmentSummary": "A-LIGN (FedRAMP assessor ID 138665) performs the independent 20x Class C assessment. The assessment started on 2026-09-08. A-LIGN issued results on 2026-10-22 and updated results on 2026-10-30. The results of 2026-10-30 cover 203 rules: 200 TRUE, 3 PARTIAL, and 0 FALSE. The 3 PARTIAL rules were SCG-ENH-CMP, SCG-ENH-EXP, and SCN-TRF-TPR. On 2026-11-04, A-LIGN re-read these 3 rules and set them to PASS in the Paramify assessment. The updated result file is pending. A-LIGN's overall summary of the assessment (IVV-IAS-OSA) will be added here without modification when A-LIGN supplies it.",
   "x-packageUpdates": [
+    {
+      "version": "1.0.7",
+      "date": "2026-11-04",
+      "changes": [
+        "Assessment summary (2026-11-04): states the A-LIGN results of 2026-10-30 (200 TRUE, 3 PARTIAL, 0 FALSE) and the A-LIGN re-read of the 3 PARTIAL rules on 2026-11-04, in place of the pending re-test.",
+        "Access control (2026-11-04): every server action that reads or changes company, organization, billing, pursuit, document, saved search, award, or people data checks that the caller is signed in and has access to that company or organization. The organization update action accepts only the name, slug, and image, and only from an Owner. The security settings export covers every setting in the secure configuration guide.",
+        "Session transport (2026-11-02): the browser calls the API on its own origin with the HttpOnly session cookie. Sign-in and session responses no longer contain the session token, the API refuses the session token as Bearer, and every cookie-authenticated API call passes same-origin, Origin, and CSRF checks.",
+        "Authentication (2026-10-30 to 2026-11-02): two-factor secrets are read only in the AES-256-GCM format, and passkey registration accepts only ES256 and RS256, the algorithms that the FIPS provider verifies.",
+        "Hardening (2026-11-02): the /env and /process-env debug routes are removed, and the AuditLogs table is append-only for every database role.",
+        "Cryptography (2026-10-29): the evidence collector runs on the OpenSSL FIPS Provider 3.1.2 (CMVP 4985) and calls every AWS service on its FIPS endpoint.",
+        "Vulnerability remediation (2026-10-29 to 2026-10-31): package updates for the Amazon Inspector and dependency findings on the application, evidence collector, database bootstrap, Writer sandbox, and SonarQube images."
+      ]
+    },
     {
       "version": "1.0.6",
       "date": "2026-10-29",
