@@ -83,18 +83,22 @@
     "assessorID": "201591"
   },
   "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Stores the platform's signed container images"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Stores encrypted backups"
+      }
+    ],
     "nonCertified": [
       {
         "name": "Anthropic API",
         "provider": "Anthropic",
         "useCase": "AI model provider: answers the pipeline's AI steps",
         "website": "https://www.anthropic.com"
-      },
-      {
-        "name": "Container registry",
-        "provider": "Amazon Web Services",
-        "useCase": "Stores the platform's signed container images",
-        "website": "https://aws.amazon.com/ecr/"
       },
       {
         "name": "GitLab",
@@ -112,12 +116,6 @@
         "provider": "CISA",
         "useCase": "Known-exploited vulnerability feed read by the vulnerability checks",
         "website": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
-      },
-      {
-        "name": "Amazon S3 backup storage",
-        "provider": "Amazon Web Services",
-        "useCase": "Stores encrypted backups",
-        "website": "https://aws.amazon.com/s3/"
       }
     ]
   },

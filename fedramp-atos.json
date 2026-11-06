@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-06T05:03:08.697Z",
-    "total_entries": 6051,
+    "export_timestamp": "2026-11-06T15:00:24.177Z",
+    "total_entries": 6056,
     "description": "FedRAMP data ATOs export from GSA system"
   },
   "data": {
@@ -72616,6 +72616,66 @@
         "ato_date": "2026-10-27T04:00:00.000Z",
         "exp_date": "",
         "log_date": "2026-11-05T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "a285f0c4",
+        "product_id": "F1302201919",
+        "agency_id": "22-020",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-07-10T04:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-06T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "87e1d80e",
+        "product_id": "AGENCYAMAZONEW",
+        "agency_id": "22-011-01",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-11-03T05:00:00.000Z",
+        "exp_date": "2029-11-03T04:00:00.000Z",
+        "log_date": "2026-11-06T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "8e4a9cda",
+        "product_id": "F1209051525",
+        "agency_id": "22-011-01",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-11-03T05:00:00.000Z",
+        "exp_date": "2029-11-03T04:00:00.000Z",
+        "log_date": "2026-11-06T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "e90df95a",
+        "product_id": "F1603047866",
+        "agency_id": "22-011-01",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-11-03T05:00:00.000Z",
+        "exp_date": "2029-11-03T04:00:00.000Z",
+        "log_date": "2026-11-06T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "df084125",
+        "product_id": "FR1805751477",
+        "agency_id": "22-011-01",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-11-03T05:00:00.000Z",
+        "exp_date": "2029-11-03T04:00:00.000Z",
+        "log_date": "2026-11-06T05:00:00.000Z",
         "log_reason": "Reuse Authorization"
       }
     ]
