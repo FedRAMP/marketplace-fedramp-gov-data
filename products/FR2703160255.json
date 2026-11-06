@@ -7,7 +7,7 @@
     "serviceDescription": "Factory is an autonomous software engineering platform that supports the software development lifecycle for U.S. federal agencies and contractors. Factory is committed to developing American superintelligence for software engineering.\n\nFactory for Government is the FedRAMP version of the Factory Enterprise Platform, which is available on commercial marketplaces.\n\nFactory's agents, called Droids, start work from engineering signals such as tickets, alerts, and vulnerability findings. They then analyze the codebase, plan changes, and write, test, review, and ship code through existing CI/CD pipelines. Engineers set goals and approve what ships.\n\nThe platform is model agnostic: it routes each task to the most effective approved model and supports customer-provided keys. Organization-wide policies govern what agents can access, run, and change. Agents work in isolated sandboxes, and every action is recorded in an audit trail that can be exported to agency monitoring tools through OpenTelemetry.\n\nFactory helps engineering and security teams modernize legacy code, including COBOL and mainframe systems; complete language, framework, platform, and data migrations; remediate vulnerability backlogs; automate code review, testing, and incident response; and expand engineering capacity for mission-critical federal systems.",
     "website": "https://factory.com",
     "logo": "https://factory.com/brand-guidelines/logos/factory-lockup-black.svg",
-    "fedRampPackageId": "Factory / Factory",
+    "fedRampPackageId": "FR2703160255",
     "ueiNumber": "YKS4WJJAQSZ9",
     "certificationType": "20x"
   },
@@ -45,5 +45,5 @@
     }
   ],
   "ZD_frid_retro": "FR2703160255",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }

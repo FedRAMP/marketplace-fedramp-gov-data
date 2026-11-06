@@ -1,28 +1,28 @@
 {
   "serviceIdentification": {
     "fedRampPackageId": "FR2028958787",
-    "providerName": "Signature Performance, Inc.",
+    "ueiNumber": "WKUNWXBN45R1",
+    "providerName": "Signature Performance",
     "serviceName": "ClaimsXM",
     "serviceAcronym": "ClaimsXM",
     "serviceDescription": "ClaimsXM is a robust platform inclusive of claims processing software, program code, and business rules and logic to support the operation and management of Customer claims processing activities by authorized users with all data hosted in the Microsoft Azure Government Cloud with FedRAMP certification. This data-driven approach to streamlining administrative tasks is an innovative, rules-based solution that reduces excessive administrative healthcare costs, provider frustrations, and the manual challenges of claims administration. Signature Performance offers a managed service through our automated and integrated technology solution so that fraud, waste, and abuse within the healthcare system can be detected and reduced, saving the healthcare industry time and money. The platform improves the coordination and quality of care through claims administration and customer service to ensure healthcare members and their beneficiaries have access to high-quality healthcare.",
     "certificationType": "Rev5",
-    "website": "https://www.signatureperformance.com",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/SignaturePerformance%20Logo.png",
-    "ueiNumber": "WKUNWXBN45R1"
+    "website": "https://www.signatureperformance.com/fedramp",
+    "logo": "https://www.signatureperformance.com/_media/d876b0_1d93b42502c24b3496dea21d32cd3812~mv2.png"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
     "deploymentModel": "Government Community Cloud",
-    "businessCategory": [
-      "Contact Center",
-      "Customer Relations Management (CRM)",
-      "Data Management",
-      "Finance",
-      "Health & Wellness",
-      "Operations Management"
-    ]
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://www.signatureperformance.com/fedramp/secure-configuration-guide",
+      "repositoryDescription": "ClaimsXM Secure Configuration Guide",
+      "authenticationRequired": false
+    }
   },
   "contactInformation": [
     {
@@ -31,12 +31,29 @@
     },
     {
       "contactType": "Sales",
+      "contactName": "Zach Fain",
       "contactEmail": "zfain@signatureperformance.com"
     }
   ],
   "assessor": {
     "name": "Lunarline, Inc.",
     "assessorID": "137004"
+  },
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603087869",
+        "useCase": "Microsoft Azure Government hosting services"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1823149273",
+        "useCase": "Duo Federal multi-factor authentication"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1704655535",
+        "useCase": "NICE CXone IVR integration"
+      }
+    ]
   },
   "ZD_frid_retro": "FR2028958787",
   "id_matches_expected": true

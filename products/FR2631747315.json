@@ -50,8 +50,45 @@
         "repositoryDescription": "Security Decision Record for Sustainment Digital Manufacturing Hub (DMH), published in human-readable form alongside its machine-readable counterpart at /security_decision_record.json.",
         "authenticationRequired": true,
         "accessRequestInstructions": "Access to the Security Decision Record is currently controlled, contact security@sustainment.com for access."
+      },
+      {
+        "repositoryType": [
+          "Certification Package Reports"
+        ],
+        "url": "https://fedramp-20x-2d57df.gitlab.io/certification-package/index.html",
+        "repositoryDescription": "Ongoing Certification Report, incident reports, significant change notifications, accepted vulnerability information and the vulnerability detail report for Sustainment Digital Manufacturing Hub (DMH), each in human-readable and machine-readable form.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Access to the Certification Package reports is currently controlled, contact security@sustainment.com for access."
+      },
+      {
+        "repositoryType": [
+          "Assessment Reports"
+        ],
+        "url": "https://fedramp-20x-2d57df.gitlab.io/CPO-Overall-Assessment-Summary-20260929.json",
+        "repositoryDescription": "Independent assessor's overall summary of the verification and validation assessment of Sustainment Digital Manufacturing Hub (DMH), as supplied by the assessor.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Access to assessment reports is currently controlled, contact security@sustainment.com for access."
+      },
+      {
+        "repositoryType": [
+          "Assessment Reports"
+        ],
+        "url": "https://fedramp-20x-2d57df.gitlab.io/assessment-results-final-20260929.json",
+        "repositoryDescription": "Independent assessor's full machine-readable assessment results for Sustainment Digital Manufacturing Hub (DMH), as supplied by the assessor.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Access to assessment reports is currently controlled, contact security@sustainment.com for access."
+      },
+      {
+        "repositoryType": [
+          "Policies and Procedures"
+        ],
+        "url": "https://fedramp-20x-2d57df.gitlab.io/policy_document_index.json",
+        "repositoryDescription": "Index of Sustainment's policy documents (name, file, current version, date of last update), published alongside the documents themselves.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Access to policies and procedures is currently controlled, contact security@sustainment.com for access."
       }
-    ]
+    ],
+    "nextOngoingCertificationReportDate": "2027-01-05"
   },
   "contactInformation": [
     {
@@ -65,6 +102,11 @@
       "contactName": "Chris Hill",
       "contactEmail": "sales@sustainment.com",
       "contactPhone": "833-412-1962"
+    },
+    {
+      "contactType": "Ongoing Certification Report subscriptions",
+      "contactName": "Sustainment Security Team",
+      "contactEmail": "security@sustainment.com"
     }
   ],
   "assessor": {

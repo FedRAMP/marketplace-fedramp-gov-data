@@ -8,11 +8,11 @@
       "title": "Chief Technology Officer, VisualVault LLC",
       "email": "fedramp-security@visualvault.com"
     },
-    "version": "1.14",
-    "lastUpdated": "2026-11-04T17:27:12.858Z",
-    "updateSource": "Document Generation",
-    "machineReadableUri": "https://trust.visualvault.com/api/documents/5f626271-cd0d-43c3-85fd-4e4f88b15fe0.json",
-    "humanReadableUri": "https://trust.visualvault.com/api/documents/ab1e5360-1a6e-4451-ac60-65f33f9393ac.pdf"
+    "version": "1.15",
+    "lastUpdated": "2026-11-05T17:30:08.091Z",
+    "updateSource": "VisualVault Trust Center CPO generator (scheduled refresh)",
+    "machineReadableUri": "http://localhost:3002/api/documents/5f626271-cd0d-43c3-85fd-4e4f88b15fe0.json",
+    "humanReadableUri": "http://localhost:3002/api/documents/ab1e5360-1a6e-4451-ac60-65f33f9393ac.pdf"
   },
   "serviceIdentification": {
     "fedRampPackageId": "FR2630354511",
@@ -23,7 +23,7 @@
     "serviceDescription": "VisualVault is a secure, scalable platform that helps government agencies automate constituent-facing processes that require Compliance and Enforcement — from licensing and permitting to case management and general compliance enforcement. It enables agencies to configure workflows and adapt to evolving requirements.",
     "certificationType": "20x",
     "website": "https://www.visualvault.com",
-    "logo": "https://trust.visualvault.com/api/documents/b5e815e4-c102-4876-b76f-a1f1b3e83728.svg"
+    "logo": "http://localhost:3002/api/documents/b5e815e4-c102-4876-b76f-a1f1b3e83728.svg"
   },
   "serviceProperties": {
     "serviceType": [
@@ -46,8 +46,8 @@
       "repositoryType": [
         "Secure Configuration Guidance"
       ],
-      "url": "https://trust.visualvault.com/api/documents/0f691b13-d6c5-48f0-881d-a0c3b55a9646.pdf",
-      "repositoryDescription": "VisualVault Cloud Secure Configuration Guide (version 1.0). Machine-readable version: https://trust.visualvault.com/api/documents/2f2c8a2c-b166-41a8-8d4e-0559fcb79a01.json",
+      "url": "http://localhost:3002/api/documents/0f691b13-d6c5-48f0-881d-a0c3b55a9646.pdf",
+      "repositoryDescription": "VisualVault Cloud Secure Configuration Guide (version 1.0). Machine-readable version: http://localhost:3002/api/documents/2f2c8a2c-b166-41a8-8d4e-0559fcb79a01.json",
       "authenticationRequired": true,
       "accessRequestInstructions": "Sign in to the trust center and request access to this compliance program, or contact fedramp-security@visualvault.com."
     },
@@ -153,9 +153,9 @@
     "source": {
       "evidenceName": "Generating Inventories - AWS GovCloud Asset Inventory",
       "evidenceReference": "EVD-AWS-GOVCLOUD-INVENTORY",
-      "artifactId": "3a284d90-9742-4bff-82d7-9e47b193b79d",
+      "artifactId": "11fa921f-a6f0-481b-89ab-39cdb1c8c9c7",
       "fileName": "aws_govcloud_asset_inventory.json",
-      "collectedAt": "2026-11-04T04:00:59Z",
+      "collectedAt": "2026-11-05T04:00:58Z",
       "generator": "aws_govcloud_asset_inventory.py 2.0.0",
       "collectionMethod": "automated",
       "collectionResult": "SUCCESS",
@@ -165,7 +165,7 @@
         "us-gov-west-1"
       ],
       "totalResources": 979,
-      "inventorySha256": "4a678f223ad116c2c0d69481bf0490395df6a016457e6c5f47890d7b073c2a97"
+      "inventorySha256": "d3ad5b8cd9196400a37551211485ffe2f46c6daaafcd45a4db1f6685ad864db8"
     },
     "boundary": {
       "mode": "account",
@@ -696,13 +696,13 @@
         "name": "Security Decision Record (machine-readable)",
         "format": "JSON",
         "version": "1.0.10",
-        "url": "https://trust.visualvault.com/api/documents/e1199dde-d05a-4ddc-900b-2a6babe8324a.json"
+        "url": "http://localhost:3002/api/documents/e1199dde-d05a-4ddc-900b-2a6babe8324a.json"
       },
       {
         "name": "Security Decision Record (human-readable)",
         "format": "PDF",
         "version": "1.0.10",
-        "url": "https://trust.visualvault.com/api/documents/ee5e73e5-5835-4610-9614-3b689ba28520.pdf"
+        "url": "http://localhost:3002/api/documents/ee5e73e5-5835-4610-9614-3b689ba28520.pdf"
       }
     ]
   },
@@ -712,22 +712,22 @@
       "version": "1.0.10",
       "lastUpdated": "2026-11-03",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/e1199dde-d05a-4ddc-900b-2a6babe8324a.json"
+      "url": "http://localhost:3002/api/documents/e1199dde-d05a-4ddc-900b-2a6babe8324a.json"
     },
     {
       "name": "VisualVault Cloud FedRAMP 20x Class B Security Decision Record",
-      "description": "This is a human-readable edition of VisualVault Cloud's machine-readable Security Decision Record for FedRAMP 20x Class B certification. It summarizes implementation status, test results, and evidence for Key Security Indicators (KSIs) and FedRAMP Requirements, as assessed by A-LIGN Compliance and Security. It includes detailed breakdowns by theme and process, such as change management, identity and access management, incident response, and vulnerability detection.",
+      "description": "This is a human-readable rendering of VisualVault Cloud's machine-readable Security Decision Record for its FedRAMP 20x Class B certification, summarizing implementation status, assessments, and test results for Key Security Indicators and FedRAMP Requirements. It covers 47 Key Security Indicators and 157 FedRAMP Requirement records, along with evidence, automated test run history, and assessment data provided by A-LIGN.",
       "version": "1.0.10",
       "lastUpdated": "2026-11-03",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/ee5e73e5-5835-4610-9614-3b689ba28520.pdf"
+      "url": "http://localhost:3002/api/documents/ee5e73e5-5835-4610-9614-3b689ba28520.pdf"
     },
     {
       "name": "VisualVault-Cloud-Secure-Configuration-Guide-v1.0-settings.json",
       "version": "1.0",
       "lastUpdated": "2026-10-26",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/2f2c8a2c-b166-41a8-8d4e-0559fcb79a01.json"
+      "url": "http://localhost:3002/api/documents/2f2c8a2c-b166-41a8-8d4e-0559fcb79a01.json"
     },
     {
       "name": "VisualVault Cloud Secure Configuration Guide",
@@ -735,7 +735,7 @@
       "version": "1.0",
       "lastUpdated": "2026-10-26",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/0f691b13-d6c5-48f0-881d-a0c3b55a9646.pdf"
+      "url": "http://localhost:3002/api/documents/0f691b13-d6c5-48f0-881d-a0c3b55a9646.pdf"
     },
     {
       "name": "EXAMPLE: Accepted Vulnerability Info (JSON)",
@@ -743,7 +743,7 @@
       "version": "1.1",
       "lastUpdated": "2026-10-30",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/86d1703c-8c22-4d30-b7af-8a4dc33849ee.json"
+      "url": "http://localhost:3002/api/documents/86d1703c-8c22-4d30-b7af-8a4dc33849ee.json"
     },
     {
       "name": "EXAMPLE: Accepted Vulnerability Info (EXAMPLE)",
@@ -751,7 +751,7 @@
       "version": "1.1",
       "lastUpdated": "2026-10-26",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/8ae6f060-6476-4d41-b6bd-290cf474ea39.pdf"
+      "url": "http://localhost:3002/api/documents/8ae6f060-6476-4d41-b6bd-290cf474ea39.pdf"
     },
     {
       "name": "EXAMPLE: Final Incident Report (JSON)",
@@ -759,7 +759,7 @@
       "version": "1.1",
       "lastUpdated": "2026-10-30",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/c3334b57-7201-45d2-a62c-f9d8fb5e7715.json"
+      "url": "http://localhost:3002/api/documents/c3334b57-7201-45d2-a62c-f9d8fb5e7715.json"
     },
     {
       "name": "EXAMPLE: Final Incident Report (VV-INC-2026-0007)",
@@ -767,23 +767,23 @@
       "version": "1.1",
       "lastUpdated": "2026-09-22",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/a4856e78-2cfe-41b9-a4ff-2e31003cc078.pdf"
+      "url": "http://localhost:3002/api/documents/a4856e78-2cfe-41b9-a4ff-2e31003cc078.pdf"
     },
     {
       "name": "EXAMPLE: Ongoing Certification Report (JSON)",
-      "description": "EXAMPLE: Machine-readable FedRAMP 20x Ongoing Certification Report for FedRAMP 20x Class B. Fictitious example data showing the format and content; not a real report.",
-      "version": "1.1",
-      "lastUpdated": "2026-10-30",
+      "description": "Machine-readable FedRAMP 20x Ongoing Certification Report for FedRAMP 20x Class B.",
+      "version": "1.2",
+      "lastUpdated": "2026-11-04",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/066a3245-e811-47c2-ba49-62bded762014.json"
+      "url": "http://localhost:3002/api/documents/066a3245-e811-47c2-ba49-62bded762014.json"
     },
     {
-      "name": "EXAMPLE: Ongoing Certification Report (Example)",
-      "description": "EXAMPLE: This is a fictitious example of VisualVault Cloud's FedRAMP 20x Class B Ongoing Certification Report, covering data changes, planned changes, accepted vulnerabilities, agency usage, and reportable incidents for the period 2026-08-16 to 2026-11-15. It also maps report content to FedRAMP rule coverage requirements (CCM-OCR-AVL and CCM-OCR-FBM).",
-      "version": "1.1",
-      "lastUpdated": "2026-11-16",
+      "name": "VisualVault Cloud FedRAMP 20x Class B Ongoing Certification Report",
+      "description": "This is a quarterly Ongoing Certification Report for VisualVault Cloud under FedRAMP 20x Class B, covering the period 2026-08-05 to 2026-11-04. It summarizes changes to certification data, planned changes, accepted vulnerabilities, transformative changes, updated recommendations, agency usage, and attests to no reportable incidents, with mapping to FedRAMP rule requirements (CCM-OCR-AVL, CCM-OCR-FBM).",
+      "version": "1.2",
+      "lastUpdated": "2026-11-04",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/ea4f6d7c-cd11-4e84-a371-91ed025a2e17.pdf"
+      "url": "http://localhost:3002/api/documents/ea4f6d7c-cd11-4e84-a371-91ed025a2e17.pdf"
     },
     {
       "name": "EXAMPLE: Initial Incident Report (JSON)",
@@ -791,7 +791,7 @@
       "version": "1.1",
       "lastUpdated": "2026-10-30",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/c49981e7-6626-4ad1-b80f-b6e7468c2d96.json"
+      "url": "http://localhost:3002/api/documents/c49981e7-6626-4ad1-b80f-b6e7468c2d96.json"
     },
     {
       "name": "EXAMPLE: Initial Incident Report (VV-INC-2026-0007)",
@@ -799,7 +799,7 @@
       "version": "1.1",
       "lastUpdated": "2026-09-14",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/f99c2f55-02e3-4619-9a23-c1dadc658e75.pdf"
+      "url": "http://localhost:3002/api/documents/f99c2f55-02e3-4619-9a23-c1dadc658e75.pdf"
     },
     {
       "name": "EXAMPLE: Significant Change Notification (JSON)",
@@ -807,7 +807,7 @@
       "version": "1.1",
       "lastUpdated": "2026-10-30",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/1da95d28-e7aa-4e24-96c5-9457ad9ae4ad.json"
+      "url": "http://localhost:3002/api/documents/1da95d28-e7aa-4e24-96c5-9457ad9ae4ad.json"
     },
     {
       "name": "EXAMPLE: Vulnerability Detail Report (JSON)",
@@ -815,7 +815,7 @@
       "version": "1.1",
       "lastUpdated": "2026-10-30",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/d10e49d4-4d04-4806-9805-8a051e4d1a34.json"
+      "url": "http://localhost:3002/api/documents/d10e49d4-4d04-4806-9805-8a051e4d1a34.json"
     },
     {
       "name": "EXAMPLE: Ongoing Incident Report (JSON)",
@@ -823,7 +823,7 @@
       "version": "1.1",
       "lastUpdated": "2026-10-30",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/6d8020a8-1890-4501-9d92-431e0cddbc99.json"
+      "url": "http://localhost:3002/api/documents/6d8020a8-1890-4501-9d92-431e0cddbc99.json"
     },
     {
       "name": "EXAMPLE: Historical VER Activity (JSON)",
@@ -831,7 +831,7 @@
       "version": "1.1",
       "lastUpdated": "2026-10-30",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/9a893998-6c67-473f-89ee-0bd589da2d36.json"
+      "url": "http://localhost:3002/api/documents/9a893998-6c67-473f-89ee-0bd589da2d36.json"
     },
     {
       "name": "EXAMPLE: Ongoing Incident Report (VV-INC-2026-0007)",
@@ -839,7 +839,7 @@
       "version": "1.1",
       "lastUpdated": "2026-09-15",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/f61d0867-eb52-4c91-ac24-88da1db92731.pdf"
+      "url": "http://localhost:3002/api/documents/f61d0867-eb52-4c91-ac24-88da1db92731.pdf"
     },
     {
       "name": "EXAMPLE: Significant Change Notification - VisualVault Cloud",
@@ -847,7 +847,7 @@
       "version": "1.1",
       "lastUpdated": "2026-10-20",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/7cb1d4df-11da-45fa-a60f-f8f45aeb0fdc.pdf"
+      "url": "http://localhost:3002/api/documents/7cb1d4df-11da-45fa-a60f-f8f45aeb0fdc.pdf"
     },
     {
       "name": "EXAMPLE: Vulnerability Detail Report (EXAMPLE)",
@@ -855,7 +855,7 @@
       "version": "1.1",
       "lastUpdated": "2026-10-26",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/a4357f59-df1a-4b17-bda7-02a803e97755.pdf"
+      "url": "http://localhost:3002/api/documents/a4357f59-df1a-4b17-bda7-02a803e97755.pdf"
     },
     {
       "name": "EXAMPLE: Historical Vulnerability Evaluation and Reporting Activity (EXAMPLE)",
@@ -863,7 +863,7 @@
       "version": "1.1",
       "lastUpdated": "2026-10-27",
       "access": "Requires a trust center access grant",
-      "url": "https://trust.visualvault.com/api/documents/5a56c2f7-fcf0-4f7f-9834-0f277ecd3068.pdf"
+      "url": "http://localhost:3002/api/documents/5a56c2f7-fcf0-4f7f-9834-0f277ecd3068.pdf"
     }
   ],
   "relevantPolicies": [
@@ -879,7 +879,7 @@
         "PE-16",
         "PE-17"
       ],
-      "url": "https://trust.visualvault.com/api/documents/1c16634c-4ef5-4ce6-b2dd-a85c511754c3.pdf"
+      "url": "http://localhost:3002/api/documents/1c16634c-4ef5-4ce6-b2dd-a85c511754c3.pdf"
     },
     {
       "name": "Security Assessment and Authorization Policy",
@@ -897,7 +897,7 @@
         "CA-07",
         "CA-08"
       ],
-      "url": "https://trust.visualvault.com/api/documents/202c44ed-0fbf-4c96-bcab-e75d11d4b90a.pdf"
+      "url": "http://localhost:3002/api/documents/202c44ed-0fbf-4c96-bcab-e75d11d4b90a.pdf"
     },
     {
       "name": "SOP-0030 - Information Release",
@@ -909,7 +909,7 @@
       "relatedPractices": [
         "AC-22"
       ],
-      "url": "https://trust.visualvault.com/api/documents/208fe036-e0c2-4244-81d2-6f48e6b25723.pdf"
+      "url": "http://localhost:3002/api/documents/208fe036-e0c2-4244-81d2-6f48e6b25723.pdf"
     },
     {
       "name": "VisualVault Audit and Accountability Policy",
@@ -931,7 +931,7 @@
         "AU-11",
         "AC-05"
       ],
-      "url": "https://trust.visualvault.com/api/documents/34b2fb8f-7ea5-4d85-b20f-f034960e32f8.pdf"
+      "url": "http://localhost:3002/api/documents/34b2fb8f-7ea5-4d85-b20f-f034960e32f8.pdf"
     },
     {
       "name": "Contingency Planning Policy",
@@ -951,7 +951,7 @@
         "CP-09",
         "CP-10"
       ],
-      "url": "https://trust.visualvault.com/api/documents/3e827644-bd79-4780-bae4-eace813f38f9.pdf"
+      "url": "http://localhost:3002/api/documents/3e827644-bd79-4780-bae4-eace813f38f9.pdf"
     },
     {
       "name": "POLICY-0019 – Personnel Management Policy",
@@ -965,7 +965,7 @@
         "PS-08",
         "AC-01"
       ],
-      "url": "https://trust.visualvault.com/api/documents/46e12c0e-43f2-4c86-b494-f54122b2b656.pdf"
+      "url": "http://localhost:3002/api/documents/46e12c0e-43f2-4c86-b494-f54122b2b656.pdf"
     },
     {
       "name": "Media Protection Policy",
@@ -986,7 +986,7 @@
         "AC-01",
         "AC-20(2)"
       ],
-      "url": "https://trust.visualvault.com/api/documents/4a274d68-e322-41dd-8b3b-01018ef0c79d.pdf"
+      "url": "http://localhost:3002/api/documents/4a274d68-e322-41dd-8b3b-01018ef0c79d.pdf"
     },
     {
       "name": "Access, Identification, and Authentication Policy",
@@ -1024,7 +1024,7 @@
         "IA-03",
         "AC-05"
       ],
-      "url": "https://trust.visualvault.com/api/documents/586e609d-1c80-4fac-8f9b-ddaacfc5782b.pdf"
+      "url": "http://localhost:3002/api/documents/586e609d-1c80-4fac-8f9b-ddaacfc5782b.pdf"
     },
     {
       "name": "Personnel Security Policy",
@@ -1045,7 +1045,7 @@
         "PL-04",
         "AT-02"
       ],
-      "url": "https://trust.visualvault.com/api/documents/5996e31c-2b06-496b-8282-82011455d4fb.pdf"
+      "url": "http://localhost:3002/api/documents/5996e31c-2b06-496b-8282-82011455d4fb.pdf"
     },
     {
       "name": "Vendor Management Policy",
@@ -1054,7 +1054,7 @@
       "wordCount": 1643,
       "version": "3.1",
       "lastUpdated": "2026-03-11",
-      "url": "https://trust.visualvault.com/api/documents/6567e198-dd3d-4af2-8364-e626aded3aa4.pdf"
+      "url": "http://localhost:3002/api/documents/6567e198-dd3d-4af2-8364-e626aded3aa4.pdf"
     },
     {
       "name": "Information Security Policy (POLICY-0009)",
@@ -1082,7 +1082,7 @@
         "PL-08",
         "PM-13"
       ],
-      "url": "https://trust.visualvault.com/api/documents/7b0ebda8-8cab-4a4e-b2f0-f4021819166e.pdf"
+      "url": "http://localhost:3002/api/documents/7b0ebda8-8cab-4a4e-b2f0-f4021819166e.pdf"
     },
     {
       "name": "Mobile Device Policy",
@@ -1094,7 +1094,7 @@
       "relatedPractices": [
         "AC-19"
       ],
-      "url": "https://trust.visualvault.com/api/documents/8a339f04-5e30-481e-bf5d-190c8387be6f.pdf"
+      "url": "http://localhost:3002/api/documents/8a339f04-5e30-481e-bf5d-190c8387be6f.pdf"
     },
     {
       "name": "Risk Assessment Policy",
@@ -1115,7 +1115,7 @@
         "RA-05(6)",
         "RA-05(8)"
       ],
-      "url": "https://trust.visualvault.com/api/documents/ab762c9c-f0fc-472c-8ff6-64a0f24b5731.pdf"
+      "url": "http://localhost:3002/api/documents/ab762c9c-f0fc-472c-8ff6-64a0f24b5731.pdf"
     },
     {
       "name": "Operations Management Policy",
@@ -1165,7 +1165,7 @@
         "SI-11",
         "SI-12"
       ],
-      "url": "https://trust.visualvault.com/api/documents/b9850ae4-7513-4114-bba9-9cf7d5c30ef9.pdf"
+      "url": "http://localhost:3002/api/documents/b9850ae4-7513-4114-bba9-9cf7d5c30ef9.pdf"
     },
     {
       "name": "Configuration Management Policy",
@@ -1187,7 +1187,7 @@
         "CM-10",
         "CM-11"
       ],
-      "url": "https://trust.visualvault.com/api/documents/baa50b83-4501-4283-915a-f3573782d8d6.pdf"
+      "url": "http://localhost:3002/api/documents/baa50b83-4501-4283-915a-f3573782d8d6.pdf"
     },
     {
       "name": "Systems and Services Acquisition Policy (POLICY-0012)",
@@ -1222,9 +1222,9 @@
         "SC-01",
         "CA-07"
       ],
-      "url": "https://trust.visualvault.com/api/documents/cbe1bf3b-a012-4622-b37e-e56c81111572.pdf"
+      "url": "http://localhost:3002/api/documents/cbe1bf3b-a012-4622-b37e-e56c81111572.pdf"
     }
   ],
-  "ZD_frid_retro": "FR2635930482",
-  "id_matches_expected": false
+  "ZD_frid_retro": "FR2630354511",
+  "id_matches_expected": true
 }

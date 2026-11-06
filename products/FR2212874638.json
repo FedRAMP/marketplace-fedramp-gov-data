@@ -1,35 +1,99 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2212874638",
-    "providerName": "Acumen, LLC",
+    "providerName": "SkyShaper, LLC",
     "serviceName": "SkyShaper Technologies",
-    "serviceAcronym": "SkyShaper Technologies",
-    "serviceDescription": "Acumen’s SkyShaper Technologies (SST) provides government agency clients with Software-as-a-Service (SaaS) offerings with the ability to utilize data management and visualization, statistical analysis, and project management applications in one secure environment. Through SST's offerings, users can perform wide array of functions including on-demand computation of complex data models, high speed file transfers, and large data storage in various supported formats and structures.",
+    "serviceAcronym": "SST",
+    "serviceDescription": "SkyShaper: A Secure Platform for Data-Driven Work:  SkyShaper is a secure cloud platform that combines analytical and research tools, scalable computation, governed data resources, collaboration capabilities, and project workspaces in one environment. Designed for Federal and State agencies, research organizations, and commercial partners, SkyShaper provides the technology and governance capabilities needed to work with sensitive data while adapting to evolving mission requirements.   Flexible Deployment and Service Models:  SkyShaper is offered as Software as a Service (SaaS), Platform as a Service (PaaS), and Infrastructure as a Service (IaaS) delivery models, and runs on single-cloud, multi-cloud, and hybrid-cloud architectures. You choose the level of management, customization, and operational control that fits your mission. These service models allow organizations to consume the full suite of SkyShaper applications and services through a SaaS model, build and extend customized analytical environments on SkyShaper platform services through a PaaS model, or leverage SkyShaper compute, storage, and infrastructure capabilities through an IaaS model.  Resources for Analytics, Research, and AI:  SkyShaper provides computing and application resources that can be aligned with the needs of individual projects and workloads. Users can work in web-based analytical applications, submit and monitor workloads through the Job Board (SkyShaper's proprietary service for executing analytical jobs), or access dedicated CPU and GPU resources for analytical, research, and artificial intelligence workloads. Integrated tools cover data access, exploration, analysis, visualization, and code execution, with support for SAS, Stata, Python, R, and other mission-specific technologies. This flexible approach enables organizations to provision resources according to project requirements, without maintaining unnecessary infrastructure.  All SkyShaper service models share identity management, access controls, monitoring, security, and compliance capabilities. These controls span SkyShaper’s User Platform, Data Platform, and Applications Platform, and cover users, projects, data, applications, and computing resources.",
     "certificationType": "Rev5",
-    "website": "https://www.acumenllc.com/",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Acumen%20Logo.png",
-    "ueiNumber": "XVMTJF1497P1"
+    "fedRampPackageId": "FR2212874638",
+    "website": "https://www.skyshaper.com/",
+    "logo": "https://cdn.prod.website-files.com/6a06260b693dc695a9f9655f/6a2adb27642ad7dcbcffb344_logo-text-colored-horizontal-150ppi-p-500.png",
+    "ueiNumber": "FR2212874638"
   },
   "serviceProperties": {
     "serviceType": [
-      "SaaS"
+      "SaaS",
+      "PaaS",
+      "IaaS"
     ],
-    "deploymentModel": "Government Community Cloud"
+    "deploymentModel": "Hybrid Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Artificial Intelligence (AI)",
+      "Collaboration",
+      "Communication",
+      "Data Management",
+      "Development Tools",
+      "Research",
+      "Storage"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.skyshaper.com",
+      "repositoryDescription": "Public-facing summary of SkyShaper's FedRAMP certification status and security posture",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://www.skyshaper.com/fedramp",
+      "repositoryDescription": "Recommended secure configuration settings for SST deployment",
+      "authenticationRequired": false
+    },
+    "nextOngoingCertificationReportDate": "2027-07-01"
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "Security@SkyShaper.com"
+      "contactType": "Sales",
+      "contactName": "Felix Tismer",
+      "contactEmail": "sales@skyshaper.com",
+      "contactPhone": "650-558-8882"
     },
     {
-      "contactType": "Sales",
-      "contactEmail": "Sales@SkyShaper.com"
+      "contactType": "Security",
+      "contactName": "Ricky Ip",
+      "contactEmail": "security@skyshaper.com",
+      "contactPhone": "650-558-8882"
     }
   ],
   "assessor": {
-    "name": "Coalfire Systems, Inc.",
-    "assessorID": "138514"
+    "name": "Fortreum",
+    "assessorID": "201664",
+    "overallSummaryOfAssessment": "The following were completed for this assessment: manual testing/penetration testing/web application vulnerability scans/database vulnerability scans/operating system (OS) vulnerability scans/container vulnerability scans. Fortreum recommends this system for authorization."
   },
+  "certifiedServices": [
+    {
+      "serviceName": "SkyShaper Capabilities",
+      "serviceDescription": "SkyShaper's capabilities fall into three groups: environments and applications for analytical work, management tools for users and data, and communication and support for collaboration. Together, these capabilities provide a secure and scalable environment for accessing computing resources, working with data, managing permissions, and collaborating throughout the project lifecycle."
+    },
+    {
+      "serviceName": "Environments and Applications",
+      "serviceDescription": "• Project Desktop – Central workspace for analytics, development, and project activities, providing users with a consistent environment for research, modeling, and collaboration. • Job Board – Scalable job execution platform for analytical workloads, supporting the scheduling, monitoring, and management of computational tasks. • On-Demand Computation – Elastic CPU and GPU resources for advanced computing, enabling users to scale processing power based on workload requirements. • ADAPT Data Visualization – Interactive dashboards, maps, charts, and visual analytics that help users explore data, identify trends, and communicate results. • ADAPT Query Tool – No-code data querying, exploration, and extraction capability that enables users to access and analyze data without requiring programming expertise."
+    },
+    {
+      "serviceName": "Management Tools",
+      "serviceDescription": "• Account Management – User authentication and account administration, providing secure access controls and support for managing user accounts across the platform. • Group Management – Role based access and permission management, enabling administrators to assign privileges and control access to resources and project content. • Data Management – Secure storage, sharing, and governance controls that support data lifecycle management, collaboration, and compliance with organizational requirements."
+    },
+    {
+      "serviceName": "Communication and Support",
+      "serviceDescription": "• Communications Portal – Secure collaboration and discussion environment that enables users to share information, coordinate activities, and communicate within and across teams. • User Support – Documentation, training resources, and technical assistance that help users effectively utilize platform capabilities and resolve issues when they arise."
+    }
+  ],
+  "packageMetadata": {
+    "responsibleOfficialName": "Ricky Ip",
+    "responsibleOfficialContact": "rip@acumenllc.com",
+    "version": "1",
+    "lastUpdated": "46302",
+    "sourceOfUpdate": "Updated for changes to CDS-CSO-PUB"
+  },
+  "policiesAndProcedures": [
+    {
+      "summary": "SSP, pen test report, and all other relevant documentation is available in SST's trust center"
+    }
+  ],
   "ZD_frid_retro": "FR2212874638",
   "id_matches_expected": true
 }

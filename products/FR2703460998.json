@@ -1,0 +1,69 @@
+{
+  "serviceIdentification": {
+    "providerName": "Legora",
+    "serviceName": "Legora",
+    "serviceAcronym": "LEGORA",
+    "serviceDescription": "## Offering\n\nLegora is an AI workspace for legal teams: legal research, document review, drafting, and legal and regulatory monitoring in one place. Counsel work in Legora or directly in Word or Outlook, across large volumes of documents, with every answer cited to the authority or document it came from. The proposed listing covers the Legora SaaS offering delivered through its commercial U.S. environment. The features and information types available for each federal use will be agreed with the agency.\n\n## Listing status\n\nLegora is preparing an Initial Implementation Marketplace listing request under FedRAMP 20x.\n\nLast updated: 2026-11-05.\n\n## Intended agency use\n\nUse type: Direct Use.\n\nScope: Proposed scope for provider review.\n\nLegora intends federal agency counsel to use its workspace directly, in a federal agency information system that will receive an Authorization to Operate. The intended use is the day-to-day legal work every agency carries: FOIA and other records requests, employment matters, contracting and procurement, and litigation and investigations. In each case counsel are working through large volumes of agency records, researching the statutes and regulations that apply to the agency, and preparing drafts for attorney review. An initial evaluation would use public or synthetic material. The agency would determine permissible data and authorize use.\n\n## Secure configuration guidance\n\nApplicable guidance and a public reference will be confirmed for the proposed offering before the listing request.\n\n## Progress\n\nUpdate cadence: At least quarterly.\n\nNext review target: 2027-02-04.\n\n### Prepare the Marketplace listing\n\nTarget: Before the listing request.\n\nProgress: Public overview and JSON drafted for review.\n\nNext action: Approve the listing facts, publish the public files and validate their live URLs.\n\n### Request Initial Implementation status\n\nTarget: After public content approval and live validation.\n\nProgress: Request materials prepared for review.\n\nNext action: Submit the provider listing form and retain the acknowledgement.\n\n### Document certification readiness\n\nTarget: Next quarterly progress update.\n\nProgress: A working certification package is being developed.\n\nNext action: Record progress on offering scope, security evidence and the certification application.\n\n### Plan the next assessment\n\nTarget: Within two years of the initial Marketplace listing date.\n\nProgress: Assessment scheduling remains a planning item.\n\nNext action: Document a scheduled Class B, C or D assessment within the required period.",
+    "certificationType": "20x",
+    "fedRampPackageId": "Legora (LEGORA)",
+    "ueiNumber": "",
+    "website": "https://legora.com",
+    "logo": "https://framerusercontent.com/images/t4E7HtGvgFipxaYtePy1dSQAjks.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Legal & Policy",
+      "Research"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://security.legora.com/",
+      "repositoryDescription": "Public security overview and access to available assurance documentation.\n\nThe Trust Center provides public security information and an access request process for available assurance documentation. Public FedRAMP listing information is maintained on this page and in its companion JSON.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Open the public Trust Center. For restricted documentation, select Request access and complete the access request. Contact fedramp-security@legora.com for help."
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "FedRAMP Security Inbox",
+      "contactEmail": "fedramp-security@legora.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "FedRAMP Sales Inbox",
+      "contactEmail": "fedramp-sales@legora.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Legal Research",
+      "serviceDescription": "Proposed listing scope. Research the statutes, regulations and case law that apply to the agency, inside the platform, with every answer cited to the underlying authority, for attorney review.\n\nScope status: Proposed service scope.\n\nSecurity category: Pending Legora review.\n\nCertification status: Legora is preparing an Initial Implementation Marketplace listing request under FedRAMP 20x."
+    },
+    {
+      "serviceName": "Document Review (Tabular Review)",
+      "serviceDescription": "Proposed listing scope. Put the same set of questions to a large body of agency records, whether for a FOIA response, a litigation matter or an investigation, with each answer cited to the source document and uncertain items flagged for human review.\n\nScope status: Proposed service scope.\n\nSecurity category: Pending Legora review.\n\nCertification status: Legora is preparing an Initial Implementation Marketplace listing request under FedRAMP 20x."
+    },
+    {
+      "serviceName": "Drafting (Editor)",
+      "serviceDescription": "Proposed listing scope. Draft and revise memos, correspondence, agreements and filings, in Legora or directly in Word, drawing on the research and documents above, for attorney review.\n\nScope status: Proposed service scope.\n\nSecurity category: Pending Legora review.\n\nCertification status: Legora is preparing an Initial Implementation Marketplace listing request under FedRAMP 20x."
+    },
+    {
+      "serviceName": "Legal and Regulatory Monitoring (Monitors)",
+      "serviceDescription": "Proposed listing scope. Proactively track new court decisions, rules and guidance by topic and jurisdiction, route them to the responsible attorney, and check them against existing agency policies to show what changed.\n\nScope status: Proposed service scope.\n\nSecurity category: Pending Legora review.\n\nCertification status: Legora is preparing an Initial Implementation Marketplace listing request under FedRAMP 20x."
+    },
+    {
+      "serviceName": "Contract and Agreement Review",
+      "serviceDescription": "Proposed listing scope. Review contracts, procurement documents and interagency agreements against the agency’s standard positions, summarize and flag risk, and prepare redlines in Word for attorney review.\n\nScope status: Proposed service scope.\n\nSecurity category: Pending Legora review.\n\nCertification status: Legora is preparing an Initial Implementation Marketplace listing request under FedRAMP 20x."
+    }
+  ],
+  "ZD_frid_retro": "FR2703460998",
+  "id_matches_expected": false
+}

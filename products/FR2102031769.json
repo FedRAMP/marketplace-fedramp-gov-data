@@ -1,27 +1,54 @@
 {
   "serviceIdentification": {
     "fedRampPackageId": "FR2102031769",
-    "providerName": "Red Hat",
+    "ueiNumber": "CWGDUMKVDUC4",
+    "providerName": "Red Hat, LLC",
     "serviceName": "Red Hat OpenShift Service on AWS (ROSA)",
-    "serviceAcronym": "Red Hat OpenShift Service on AWS (ROSA)",
+    "serviceAcronym": "ROSA",
     "serviceDescription": "Red Hat® OpenShift® Service on AWS (ROSA) is a turnkey application platform jointly managed, operated and supported by Red Hat and AWS. It runs natively on Amazon Web Services (AWS), and allows organizations to increase operational efficiency, refocus on innovation, and quickly build, deploy, and scale applications. Red Hat OpenShift Service on AWS includes fully integrated development and operational productivity features including Kubernetes, an Integrated Development Environment (IDE), build pipelines, monitoring, logging and networking. With 24/7 monitoring and management to ensure seamless operations, organizations can focus on accelerating application delivery, not managing infrastructure. This offering is a FedRAMP High baseline, Platform-as-a-Service (PaaS) cloud service for developing and running containerized applications offered on the FedRAMP authorized AWS GovCloud (US).",
     "certificationType": "Rev5",
     "website": "https://www.redhat.com/en/technologies/cloud-computing/openshift/aws",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Red%20Hat%20Logo.png"
+    "logo": "https://static.redhat.com/libs/redhat/brand-assets/latest/corp/logo.svg"
   },
   "serviceProperties": {
     "serviceType": [
       "PaaS"
     ],
-    "deploymentModel": "Government Community Cloud"
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Development Tools",
+      "System Administration",
+      "Operations Management",
+      "Cybersecurity & Risk Management"
+    ],
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html-single/getting_started_with_red_hat_openshift_service_on_aws_classic_architecture_in_aws_govcloud/index#rosa-fedramp-security-config",
+      "repositoryDescription": "Secure Configuration Guide for Red Hat OpenShift Service on AWS (ROSA) Classic in AWS GovCloud",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Secure Configuration Guidance"
+        ],
+        "url": "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/getting_started_with_red_hat_openshift_service_on_aws_in_aws_govcloud/rosa-fedramp-security-config",
+        "repositoryDescription": "Secure Configuration Guide for Red Hat OpenShift Service on AWS with Hosted Control Planes in AWS GovCloud",
+        "authenticationRequired": false
+      }
+    ]
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Product Security",
       "contactEmail": "fedramp@redhat.com"
     },
     {
-      "contactType": "Sales"
+      "contactType": "Sales",
+      "contactEmail": "rosa-govcloud-help@redhat.com"
     }
   ],
   "assessor": {
@@ -30,19 +57,14 @@
   },
   "certifiedServices": [
     {
-      "serviceName": "Red Hat Lightspeed",
-      "serviceDescription": "",
-      "dateAvailable": "2023-09-07"
-    },
-    {
       "serviceName": "Red Hat OpenShift Service on AWS (ROSA) Classic",
-      "serviceDescription": "",
-      "dateAvailable": "2025-12-16"
+      "serviceDescription": "ROSA Classic is a managed OpenShift container platform running on AWS GovCloud, authorized at FedRAMP High. Red Hat SREs handle all infrastructure management, patching, and upgrades, allowing agencies to focus on application workloads rather than platform operations. Agencies can migrate existing on-premises OpenShift workloads to AWS and take advantage of native AWS service integrations while deploying sensitive workloads with confidence in FedRAMP High compliance.",
+      "dateAvailable": "2023-08-09"
     },
     {
       "serviceName": "Red Hat OpenShift Service on AWS with Hosted Control Planes",
-      "serviceDescription": "",
-      "dateAvailable": "2025-12-16"
+      "serviceDescription": "ROSA with Hosted Control Planes (HCP) is a deployment model for ROSA in which the OpenShift control plane is hosted and managed in a Red Hat-owned AWS account rather than the customer environment. This architecture reduces infrastructure footprint and costs, enables cluster provisioning in approximately 15 minutes, allows independent upgrades of control plane and worker nodes, and improves security posture by providing clear separation between the management plane and tenant workloads. Red Hat manages the underlying HCP infrastructure, freeing customers from operational overhead while providing a highly available control plane deployed across multiple availability zones.",
+      "dateAvailable": "2025-12-08"
     }
   ],
   "ZD_frid_retro": "FR2102031769",

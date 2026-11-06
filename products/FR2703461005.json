@@ -1,0 +1,214 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "packageMetadata": {
+    "responsibleOfficial": {
+      "name": "Frank Taliano",
+      "title": "Senior Director, M-Files Government Cloud",
+      "email": "fedramp@m-files.com",
+      "phone": "972-516-4210"
+    },
+    "version": "0.3.0-draft",
+    "lastUpdated": "2026-10-27T00:00:00Z",
+    "sourceOfUpdate": "Maintained by the M-Files Government Cloud program. The human-readable trust center page is generated from this file."
+  },
+  "initialImplementationProgress": {
+    "lastUpdated": "2026-09-23",
+    "nextUpdate": "2026-12-31",
+    "listingDate": "TBD: date FedRAMP approves the Initial Implementation listing",
+    "targetClass": "Class C",
+    "certificationPath": "Program",
+    "intendedUse": {
+      "type": "Direct Use",
+      "targetUseCases": "records digitization and management, grants and FOIA case files, and NARA-aligned records retention"
+    },
+    "independentAssessment": {
+      "plannedStart": "the first half of 2027 (Q1 – Q2)",
+      "targetCertification": "June 2027",
+      "assessor": "Not yet selected"
+    },
+    "milestones": [
+      {
+        "title": "Gap analysis complete",
+        "when": "March 2026",
+        "status": "done",
+        "detail": "Independent Rev5/DoD gap assessment of M-Files Cloud completed; 12 gaps identified with remediation plan."
+      },
+      {
+        "title": "Advisory engagement",
+        "when": "April 2026",
+        "status": "done",
+        "detail": "FedRAMP advisory partner engaged to guide architecture, policy and evidence design."
+      },
+      {
+        "title": "Target certification set",
+        "when": "September 2026",
+        "status": "done",
+        "detail": "FedRAMP 20x Class C selected via the Program path."
+      },
+      {
+        "title": "Marketplace listing submitted",
+        "when": "Q4 2026",
+        "status": "active",
+        "detail": "Public information, trust center landing page and use-case statement submitted to FedRAMP."
+      },
+      {
+        "title": "Federal architecture finalized",
+        "when": "Q4 2026",
+        "status": "planned",
+        "detail": "Azure Government boundary design and third-party service dispositions approved."
+      },
+      {
+        "title": "Independent assessor selected",
+        "when": "Q4 2026 – Q1 2027",
+        "status": "planned",
+        "detail": "FedRAMP Recognized assessment service contracted."
+      },
+      {
+        "title": "Boundary build and policy set",
+        "when": "Q1 2027",
+        "status": "planned",
+        "detail": "Dedicated environment, in-boundary tooling, FedRAMP policies and KSI evidence automation in place."
+      },
+      {
+        "title": "Assessment begins",
+        "when": "Q1 – Q2 2027",
+        "status": "planned",
+        "detail": "Class C independent assessment starts; certification package submitted on completion."
+      },
+      {
+        "title": "Target certification",
+        "when": "June 2027",
+        "status": "planned",
+        "detail": "Targeted FedRAMP 20x Class C certification, subject to assessment results and FedRAMP review."
+      }
+    ]
+  },
+  "serviceIdentification": {
+    "fedRampPackageId": "M-Files Government Cloud (MFGC)",
+    "ueiNumber": "ELSEKWMYHEL3",
+    "providerName": "M-Files Inc.",
+    "serviceName": "M-Files Government Cloud",
+    "serviceAcronym": "MFGC",
+    "serviceDescription": "M-Files Government Cloud is a software-as-a-service enterprise document management platform. It enables agencies to manage documents, records, and information without operating local server infrastructure, and to implement workflows and business processes in a single, unified environment. M-Files models document-centric work across structured and unstructured content, with permissions enforced at the object and workflow-state level rather than only at the file level. Core capabilities include advanced document management, AI-driven metadata extraction and classification, workflow automation, records management and retention, audit trails, and Microsoft 365 functionality that enables agencies to extend their existing Microsoft environment with information governance and automated business processes.",
+    "certificationType": "20x",
+    "website": "https://www.m-files.com/solutions-by-industry/government-public-sector/",
+    "logo": "https://www.m-files.com/fedramp/mfiles_logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Content Management System (CMS)",
+      "Data Management",
+      "Governance, Risk, and Compliance (GRC)",
+      "Artificial Intelligence (AI)",
+      "Collaboration"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Initial Implementation Progress",
+        "Policies and Procedures"
+      ],
+      "url": "https://www.m-files.com/fedramp",
+      "repositoryDescription": "M-Files FedRAMP Trust Center. Public tier: Certification Package Overview (human-readable and JSON), public service list, Initial Implementation progress tracker (updated at least quarterly). Authenticated tier (planned): policies and procedures index, Secure Configuration Guide, System Security Plan and appendices, and (once available) independent assessment materials and FedRAMP Certification Reports. Documentation overview: during the Initial Implementation Phase M-Files publishes this Certification Package Overview, the public service list, and the progress tracker; the Secure Configuration Guide, policies and procedures, and System Security Plan will be added as they are completed.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "The public tier requires no sign-in. To request access to additional certification data as it becomes available, email fedramp@m-files.com with your agency and role."
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Primary",
+      "contactName": "FedRAMP Program Lead",
+      "contactEmail": "fedramp@m-files.com",
+      "contactPhone": "972-516-4210"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "M-Files Security Team",
+      "contactEmail": "security@m-files.com",
+      "contactPhone": "972-516-4210"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "M-Files Public Sector Sales",
+      "contactEmail": "sales@m-files.com",
+      "contactPhone": "972-516-4210"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "M-Files Cloud Vaults",
+      "serviceDescription": "Document and information management service. Multi-tenant vaults, planned to be hosted on Azure Kubernetes Service in Azure Government, provide metadata-driven document management, information governance, records management, access control, version control, search, and workflow automation. **In scope.** Security category: Moderate.",
+      "dateAvailable": "2027-06-30"
+    },
+    {
+      "serviceName": "M-Files Web",
+      "serviceDescription": "Browser-based client for accessing vaults over TLS 1.2+. **In scope.** Security category: Moderate."
+    },
+    {
+      "serviceName": "M-Files Desktop",
+      "serviceDescription": "Windows desktop client for accessing vaults. Client software runs on customer-managed endpoints; server-side components are in scope. **Server side in scope; client is a customer responsibility.** Security category: Moderate."
+    },
+    {
+      "serviceName": "M-Files Mobile",
+      "serviceDescription": "iOS and Android clients for vault access. **Server side in scope; client is a customer responsibility.** Security category: Moderate."
+    },
+    {
+      "serviceName": "M-Files Admin",
+      "serviceDescription": "Administrative application used to configure and maintain the M-Files environment. Enables administrators to manage vaults, metadata, workflows, permissions, users, integrations, backups, and other system settings. **In scope** Security category: Moderate."
+    },
+    {
+      "serviceName": "M-Files Manage",
+      "serviceDescription": "Self-service administration portal used to manage M-Files Cloud subscriptions and services. Enables authorized administrators to manage cloud vaults, users, licenses, subscriptions, and other cloud service settings, including cloud vault provisioning and user access management. **In scope** Security category: Moderate."
+    },
+    {
+      "serviceName": "M-Files for Microsoft 365",
+      "serviceDescription": "Microsoft 365 experiences, including Microsoft 365 Copilot, SharePoint, Microsoft Teams, Microsoft Outlook, Microsoft Purview, and Microsoft Defender, enhanced with M-Files document management, workflow automation, records management, and business context that strengthen governance, information protection, compliance, and AI readiness, all built on SharePoint Embedded. **In scope** Security category: Moderate."
+    },
+    {
+      "serviceName": "M-Files Aino",
+      "serviceDescription": "Conversational AI assistant for content understanding and question answering. Enables users to ask natural-language questions, generate document summaries, and receive source-cited answers grounded in vault content, strictly respecting the user's existing vault permissions and access controls. **In scope** Security category: Moderate."
+    },
+    {
+      "serviceName": "M-Files Hubshare",
+      "serviceDescription": "Secure document sharing and external collaboration solution that enables organizations to work with external parties on shared documents. External users are governed by the same identity and permission controls as internal users. **Scope TBD.** Security category: Moderate."
+    },
+    {
+      "serviceName": "Third-party connectors",
+      "serviceDescription": "M-Files connected services. Includes M-Files for Salesforce, M-Files for SAP, and M-Files for DocuSign. **Scope TBD.** Security category: Moderate."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Microsoft Azure Government F1603087869",
+        "useCase": "Hosting platform. AKS, Azure SQL Database, Cosmos DB, Storage, Key Vault, Load Balancer, Private Link, NSGs, DDoS Protection, Backup, Monitor, Log Analytics, Application Insights, Sentinel (SIEM), Defender for Cloud and Endpoint, Entra ID, Azure Virtual Desktop, Azure DNS."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Microsoft 365 GCC MSO365MT",
+        "useCase": "Corporate productivity and M-Files for Microsoft 365 integration target."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Microsoft Foundry / Azure OpenAI (Azure Government) F1603087869",
+        "useCase": "AI model hosting for M-Files Aino and M-Files Agents."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Microsoft Fabric F1603087869",
+        "useCase": "Analytics and log processing."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "GitHub (cloud)",
+        "provider": "GitHub, Inc. (Microsoft)",
+        "website": "https://github.com",
+        "useCase": "Source control and CI/CD. Authorized only at LI-SaaS - insufficient for Moderate. Disposition: replace with in-boundary GitLab Enterprise."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2703461005",
+  "id_matches_expected": false
+}

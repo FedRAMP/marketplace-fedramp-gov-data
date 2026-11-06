@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "5218cc00ea",
-    "lastUpdated": "2026-11-04T20:57:14.000Z",
+    "version": "d9c6be7f35",
+    "lastUpdated": "2026-11-05T20:48:11.000Z",
     "updateSource": "Automated release pipeline",
     "responsibleOfficial": {
       "pointOfContactName": "Brent Shulman",
@@ -328,10 +328,10 @@
         "name": "Kernel",
         "provider": "Kernel",
         "website": "https://www.onkernel.com/",
-        "useCase": "Managed browser sessions for desktop punchout workflows.",
-        "usageAndConfiguration": "Kernel runs cloud browser sessions that can observe merchant content, session state, and credentials during desktop punchout.",
-        "justification": "Silkline uses Kernel to provide browser automation for desktop punchout.",
-        "mitigationMeasures": "Kernel-backed punchout and supplier sign-in are disabled for FedRAMP-enabled and ITAR organizations.",
+        "useCase": "Managed browser sessions for desktop Shop workflows.",
+        "usageAndConfiguration": "Kernel runs cloud browser sessions that can observe merchant content, session state, and credentials during desktop Shop sessions.",
+        "justification": "Silkline uses Kernel to provide browser automation for desktop Shop.",
+        "mitigationMeasures": "Kernel-backed Shop and supplier sign-in are disabled for FedRAMP-enabled and ITAR organizations.",
         "compensatingControls": "One organization-level gate runs before every Kernel call and prevents federal sessions from starting in Kernel."
       },
       {
@@ -369,7 +369,7 @@
         "usageAndConfiguration": "Braintrust stores evaluation datasets and experiment results that engineers upload from workstations. No production service holds a Braintrust API key or initializes a Braintrust logger, so production LLM calls send no traces. Programmatic access uses a static API key; console access uses native email and password authentication without SSO.",
         "justification": "Silkline uses Braintrust to evaluate model behavior against curated datasets.",
         "mitigationMeasures": "Production deployments carry no Braintrust credential, and the Braintrust SDK discards spans when no logger or experiment is initialized.",
-        "compensatingControls": "The organization-level punchout gate keeps federal organizations off the punchout workflows that request tracing; programmatic writes require an API key.",
+        "compensatingControls": "The organization-level Shop gate keeps federal organizations off the Shop workflows that request tracing; programmatic writes require an API key.",
         "outsideScope": "It runs offline evaluations without federal customer data or production access."
       },
       {

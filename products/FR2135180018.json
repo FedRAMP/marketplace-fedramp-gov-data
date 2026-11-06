@@ -1,14 +1,15 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
     "fedRampPackageId": "FR2135180018",
+    "ueiNumber": "CB6BNZA248C3",
     "providerName": "CuraPatient",
     "serviceName": "Composite Apps/ CuraPatient",
-    "serviceAcronym": "Composite Apps/ CuraPatient",
-    "serviceDescription": "In accordance with FedRAMP requirements and policies the CSP CuraPatient has completed the FedRAMP review process and is ready to support agency requests. \r\n\r\nCuraPatient provides a secure, user-friendly experience Artificial Intelligence (AI) powered digital platform that drives sustainable efficiency across complex operations. The platform provides secure integration with client systems and multi-device accessibility, including native iOS, Android, and responsive web applications. CuraPatient’s core functionalities streamline key processes such as medical claims processing, patient engagement, reduce administrative tasks and support scalable/ secure operations. Our commitment to FedRAMP requirements reflects our dedication to protecting sensitive data, ensuring we maintain and uphold the highest security standards.",
+    "serviceAcronym": "CuraPatient",
+    "serviceDescription": "CuraPatient, from Composite Apps, is a cloud-based payment integrity platform for healthcare claims. Its CuraClaims solution detects and investigates fraud, waste and abuse before and after payment. A claims genomics layer profiles every claim, provider and billing pattern to surface outliers and clusters of suspicious activity, and it is backed by deep models of legal, regulatory and contractual obligations that identify attempts to game the system. Working alongside support staff, CuraClaims gives review teams 10 to 50 times their capacity, with a 98.1% accuracy rate in flagging inconsistencies. CuraClaims supports the U.S. Department of Veterans Affairs with secure, role-based access, full audit trails, and protection of PHI and PII. The system was assessed by First Information Technology Services (FITS), an accredited 3PAO, against the FedRAMP High baseline under NIST SP 800-53 Rev 5.",
     "certificationType": "Rev5",
     "website": "https://curapatient.com/",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Curapatient%20Logo.png",
-    "ueiNumber": "CB6BNZA248C3"
+    "logo": "https://curapatient.com/fedramp/curapatient-logo.png"
   },
   "serviceProperties": {
     "serviceType": [
@@ -22,10 +23,12 @@
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "CuraPatient Security Team",
       "contactEmail": "infosec@curapatient.com"
     },
     {
       "contactType": "Sales",
+      "contactName": "CuraPatient Sales",
       "contactEmail": "sales@curapatient.com"
     }
   ],

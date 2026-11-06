@@ -1,0 +1,98 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "OpenLM (OLMP)",
+    "ueiNumber": "F63QL4XZ2H66",
+    "providerName": "OpenLM",
+    "serviceName": "OpenLM Platform",
+    "serviceAcronym": "OLMP",
+    "serviceDescription": "OpenLM Platform is a software-as-a-service for engineering and enterprise software license management, hosted by OpenLM on AWS in the United States. It monitors license usage across license servers, workstations, dongles and SaaS platforms, shows who uses which license and when, and helps organizations reclaim unused licenses, control access and plan renewals. It is sold in two plans, Monitoring and Automation, with optional add-on services; all are listed under certified services.",
+    "certificationType": "20x",
+    "website": "https://www.openlm.com/",
+    "logo": "https://trust.openlm.com/assets/openlm-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Operations Management",
+      "Analytics"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.openlm.com/",
+      "repositoryDescription": "OpenLM FedRAMP trust center: public service information and, after approval, the certification package documents.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Request access at https://trust.openlm.com/request-access.html. Confirm your email address through the link we send. Addresses ending in .gov or .mil are approved automatically; other addresses are checked by OpenLM within 2 business days."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.openlm.com/secure-configuration-guide.html",
+      "repositoryDescription": "How to securely access, configure, operate and decommission OpenLM Platform administrator accounts.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Assessment Reports",
+          "Policies"
+        ],
+        "url": "https://trust.openlm.com/",
+        "repositoryDescription": "Documents OpenLM supplies for the certification: SOC 2 Type II report, bridge letter, audit engagement documents, security decision record, certification package overview, policies and procedures, and a sample ongoing certification report.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Request access at https://trust.openlm.com/request-access.html."
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-02-15"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "William Choppa, President & General Manager - Americas",
+      "contactEmail": "william.choppa@openlm.com",
+      "contactPhone": "+1 713-405-3455"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Abhijeet Das, CISO",
+      "contactEmail": "security@openlm.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "OpenLM Platform - Monitoring plan",
+      "serviceDescription": "Monitors all application types (network, named user, standalone): license server monitoring, agent-based usage monitoring and discovery (applications and web URLs), usage, denials and inventory reporting, identification of unused license features, and directory synchronization. Security category: Low."
+    },
+    {
+      "serviceName": "OpenLM Platform - Automation plan",
+      "serviceDescription": "Everything in the Monitoring plan, plus project and group usage, alerts and notifications with ITSM integration, DLL monitoring, compliance and SAM cost management, geo compliance, roles and permissions, and License Access Control. Security category: Low."
+    },
+    {
+      "serviceName": "Actual Usage and License Harvesting",
+      "serviceDescription": "Add-on to either plan (additional tokens required): idle session monitoring and automatic reclaiming of unused licenses. Security category: Low."
+    },
+    {
+      "serviceName": "License Access Control",
+      "serviceDescription": "Included in the Automation plan; available as an add-on or standalone service: controls who can access which licenses. Security category: Low."
+    },
+    {
+      "serviceName": "OpenLM Analytics",
+      "serviceDescription": "Add-on, not included in the plans: advanced license usage analytics and reporting. Security category: Low."
+    },
+    {
+      "serviceName": "OpenLM LicOps for HPC",
+      "serviceDescription": "Add-on, not included in the plans: license operations for high-performance computing environments. Security category: Low."
+    },
+    {
+      "serviceName": "Dongle Monitoring",
+      "serviceDescription": "Add-on, not included in the plans: monitoring of USB license dongles and hardware keys: location, usage and unauthorized devices. Security category: Low."
+    }
+  ],
+  "ZD_frid_retro": "FR2703460985",
+  "id_matches_expected": false
+}

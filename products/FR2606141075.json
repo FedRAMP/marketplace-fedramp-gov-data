@@ -1,40 +1,86 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
     "fedRampPackageId": "FR2606141075",
+    "ueiNumber": "UHDVM7XT27T3",
     "providerName": "Entratus",
     "serviceName": "Entratus Conversational AI Platform",
-    "serviceAcronym": "Entratus Conversational AI Platform",
-    "serviceDescription": "Our cloud-based platform enables organizations to build and deploy intelligent virtual assistants capable of:\n\nMulti-Channel Engagement: Natural language conversations via voice, web, and SMS channels with seamless handoff capabilities.\nFlexible API Integration: Connect to various data sources and third-party systems for real-time information retrieval and processing.\nCompliance-First Architecture: Built-in audit trails, conversation recording transcript generation, and comprehensive logging for regulatory requirements.\nScalable Multi-Tenant Infrastructure: Supporting enterprise, government agencies, and commercial applications.\n\nSecurity & Compliance Features\n\nEnd-to-end encryption for all data in transit and at rest.\nComprehensive audit logging of all system interactions and decision chains.\nRole-based access control with multi-factor authentication.\nAutomated quality assurance through scorecard systems.\nHuman-in-the-loop oversight capabilities.\n\nPlatform Capabilities\n\nCustom AI agent development for specific business processes.\nIntegration with public APIs (e.g., insurance quoting).\nWorkflow automation and intelligent routing.\nReal-time transcription and analytics.\nBias monitoring and performance evaluation tools.\n\nOur platform provides organizations with the tools to create transparent, auditable, and efficient AI-powered customer interactions while maintaining strict security and compliance standards required for sensitive data handling.",
-    "certificationType": "Rev5",
-    "website": "https://www.entratus.us/",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Entratus%20Logo2.png"
+    "serviceAcronym": "ECAP",
+    "serviceDescription": "Our cloud-based platform enables organizations to build and deploy intelligent virtual assistants capable of:\n\n- **Multi-Channel Engagement:** Natural language conversations across voice, chat, SMS, email, and digital channels.\n- **Multilingual Support:** Advanced natural language processing for diverse constituent populations.\n- **Analytics:** Comprehensive reporting on conversations, outcomes, and service levels.\n\nThe federal offering runs on dedicated federal infrastructure with a separate authorization boundary from the Entratus commercial platform.",
+    "certificationType": "20x",
+    "website": "https://www.entratus.us",
+    "logo": "https://www.entratus.us/images/logos/entratus/LogoDark.png"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Public Cloud",
+    "deploymentModel": "Government-Only Cloud",
     "businessCategory": [
+      "Artificial Intelligence (AI)",
       "Collaboration",
-      "Communication",
       "Contact Center",
-      "Customer Service"
-    ]
+      "Customer Service",
+      "Communication"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.entratus.ai",
+      "repositoryDescription": "Entratus Trust Portal containing FedRAMP Certification Data, security policies, and assessment materials for the Entratus Conversational AI Platform.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Federal agency personnel may request access by visiting https://trust.entratus.ai and submitting an access request with a government email address. Questions may be directed to the Security contact listed in this file."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://entratus.atlassian.net/wiki/spaces/support/overview",
+      "repositoryDescription": "Secure Configuration Guidance for agency administrators of the Entratus Conversational AI Platform, including recommended settings for identity, access, data retention, and channel integrations.",
+      "authenticationRequired": false
+    },
+    "nextOngoingCertificationReportDate": "2026-11-06"
   },
   "contactInformation": [
     {
       "contactType": "Security",
-      "contactEmail": "GRC@entratus.us"
+      "contactName": "William Yeack, Chief Information Security Officer",
+      "contactEmail": "grc@entratus.us"
     },
     {
       "contactType": "Sales",
+      "contactName": "Entratus Federal Sales",
       "contactEmail": "sales@entratus.us"
     }
   ],
+  "advisors": [
+    {
+      "name": "YGI Solutions"
+    }
+  ],
   "assessor": {
-    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "name": "A-LIGN Compliance and Security, Inc.",
     "assessorID": "138665"
   },
+  "certifiedServices": [
+    {
+      "serviceName": "Virtual Benefits Counselor",
+      "serviceDescription": "Guides constituents through eligibility, applications, and enrollment."
+    },
+    {
+      "serviceName": "Consumer Complaint Handler",
+      "serviceDescription": "Manages high-volume complaint intake and processing."
+    },
+    {
+      "serviceName": "Virtual Call Center",
+      "serviceDescription": "Handles citizen requests across phone, chat, and SMS."
+    },
+    {
+      "serviceName": "Custom Agent",
+      "serviceDescription": "Purpose-built conversational workflows for specific agency needs."
+    }
+  ],
   "ZD_frid_retro": "FR2606141075",
   "id_matches_expected": true
 }
