@@ -1,0 +1,91 @@
+{
+  "serviceIdentification": {
+    "providerName": "Moody’s Analytics Inc.",
+    "serviceName": "Moody’s for Government",
+    "serviceAcronym": "MforGov",
+    "serviceDescription": "About Moody's for Government\n\nMoody's for Government is a Software as a Service (SaaS) platform that brings certain Moody's data, analytics, and workflow solutions to US agencies through cloud-based offerings designed with industry standard security controls. We provide tools to help agencies make informed decisions, manage risk, and modernize critical workflows using Moody's analytical capabilities and technology.\n\nMoody's maintains an information security program designed to protect customer data through data protection policies, workforce training, access controls, and secure software-development practices.\n\nMoody's Lending Suite\n\nMoody's Lending Suite helps public sector lenders make informed decisions across the credit lifecycle. With Lending Suite, program teams can focus on their mission and strategic initiatives while supporting credit risk management.\n\nConnected approval workflows, credit memo creation, and system integration support data integrity and transparency and can help streamline decision-making workflows. Integrated risk metrics help teams score credit applications, while spreading and scoring capabilities help them assess borrower risk using in-house or Moody's models. An integrated system for data, market insights, and forecast scenarios supports underwriting and decisioning.\n\nLending Suite is designed to support government agencies involved in commercial and industrial (C&I), commercial real estate (CRE), small and medium-sized business (SMB), and agriculture lending.\n",
+    "certificationType": "20x",
+    "fedRampPackageId": "<FEDRAMP_ID>",
+    "ueiNumber": "3ESM7FWLTK3",
+    "website": "https://www.moodys.com/web/en/us/who-we-serve/public-sector.html",
+    "logo": "https://www.moodys.com/asset/images/logo/moodys_blue.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "businessCategory": [
+      "Finance"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://ci-nw.heliostrustcenter.moodysgov.net/",
+      "repositoryDescription": "The public certification data surface. Publishes the signed certification package, this overview, the security decision record and the recurring reports, with per-document publication controls and an access log.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Email FedRAMP@moodys.com to request access to the Trust Center."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Authorization Documentation",
+          "Assessment Reports"
+        ],
+        "url": "https://ci-nw.heliostrustcenter.moodysgov.net/documents",
+        "repositoryDescription": "Authorization documentation.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Email FedRAMP@moodys.com to request access to the document library."
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-01-31"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Arun Prasath",
+      "contactEmail": "arun.prasath@moodys.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Moody's Client Services",
+      "contactEmail": "ClientServices@moodys.com"
+    },
+    {
+      "contactType": "Responsible Official",
+      "contactName": "James Alexander, Sr. Director Risk Management",
+      "contactEmail": "FedRAMP@moodys.com"
+    }
+  ],
+  "assessor": {
+    "name": "Coalfire",
+    "assessorID": "138514"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Lending Suite (including all packages)",
+      "serviceDescription": "About Moody's for Government\n\nMoody's for Government is a Software as a Service (SaaS) platform that brings certain Moody's data, analytics, and workflow solutions to US agencies through cloud-based offerings designed with industry standard security controls. We provide tools to help agencies make informed decisions, manage risk, and modernize critical workflows using Moody's analytical capabilities and technology.\n\nMoody's maintains an information security program designed to protect customer data through data protection policies, workforce training, access controls, and secure software-development practices.\n\nMoody's Lending Suite\n\nMoody's Lending Suite helps public sector lenders make informed decisions across the credit lifecycle. With Lending Suite, program teams can focus on their mission and strategic initiatives while supporting credit risk management.\n\nConnected approval workflows, credit memo creation, and system integration support data integrity and transparency and can help streamline decision-making workflows. Integrated risk metrics help teams score credit applications, while spreading and scoring capabilities help them assess borrower risk using in-house or Moody's models. An integrated system for data, market insights, and forecast scenarios supports underwriting and decisioning.\n\nLending Suite is designed to support government agencies involved in commercial and industrial (C&I), commercial real estate (CRE), small and medium-sized business (SMB), and agriculture lending.\n",
+      "securityCategory": "Moderate",
+      "dateAvailable": "2026-11-05"
+    }
+  ],
+  "version": "1.0",
+  "lastUpdated": "2026-11-05",
+  "updateSource": "Initial version",
+  "overallSummaryOfAssessment": "<THE ASSESSOR'S OVERALL SUMMARY OF THE INDEPENDENT ASSESSMENT>\n",
+  "deferredItems": [
+    {
+      "itemId": "independent_assessor",
+      "reason": "Coalfire is engaged for independent assessment and support of a pending Class C certification. No independent assessment is planned for Class A.",
+      "reviewBy": "2026-12-31"
+    },
+    {
+      "itemId": "overall_summary_of_assessment",
+      "reason": "No independent assessment is planned for Class A.",
+      "reviewBy": "2026-12-31"
+    }
+  ],
+  "ZD_frid_retro": "FR2703560529",
+  "id_matches_expected": false
+}

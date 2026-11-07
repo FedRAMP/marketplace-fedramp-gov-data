@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "version": "1.0.1",
+    "lastUpdated": "2026-11-05T00:00:00.000Z",
+    "updateSource": "Paramify, Inc.",
+    "responsibleOfficial": {
+      "name": "Knocknoc Security Team",
+      "title": "Information System Management Point of Contact",
+      "email": "security@knocknoc.io",
+      "phone": "206-539-0423"
+    }
+  },
+  "serviceIdentification": {
+    "fedRampPackageId": "Pending FedRAMP Marketplace Listing and ID",
+    "ueiNumber": "L846F459E447",
+    "providerName": "Knocknoc",
+    "serviceName": "Knocknoc",
+    "serviceAcronym": "Knocknoc SaaS",
+    "serviceDescription": "Knocknoc is a prevention-first cybersecurity capability that removes attack surface before adversaries can exploit them. By orchestrating existing firewall and control infrastructure to enforce default-deny posture, Knocknoc makes protected systems invisible on the network until a legitimate user authenticates - eliminating standing access and exposure. The platform requires no client installation, has no VPN dependency and can run without Internet or be entirely air-gapped, enabling deployment across enterprise, critical infrastructure, and government environments in under a day. Knocknoc is purpose-built for complex, high-security on-premise environments.",
+    "certificationType": "20x",
+    "website": "https://www.knocknoc.io/",
+    "logo": "https://www.knocknoc.io/wp-content/uploads/2022/12/Knocknoc_long_darkbg_Medium_transprent.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Communication",
+      "Cybersecurity & Risk Management",
+      "Network Management",
+      "System Administration",
+      "Virtual Private Network (VPN)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/knocknoc",
+      "repositoryDescription": "The FedRAMP Trust Center is a secure portal to support ongoing assurance. Deliverables may be publicly available to download or restricted which require an approved access request. Go to the URL → Deliverables to view items and request access where needed.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Go to the FedRAMP Trust Center and select “Request Access.” Provide your name, business email, the reason for your request, and the resources you need access to. Each request will be reviewed and approved or denied. You will receive an email with the access approval decision. You will then be able to authenticate by email to access the files that are not publicly accessible on the trust center. For questions, contact the security email or review this article: https://support.paramify.com/hc/en-us/articles/48690571994003-Trust-Center-Deliverables-in-Paramify-Cloud"
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.knocknoc.io/books/admin-guide/page/secure-configuration-guide",
+      "repositoryDescription": "The Knocknoc Secure Configuration Guide (https://docs.knocknoc.io/books/admin-guide/page/secure-configuration-guide) explains how to securely access, configure, operate, and decommission top-level administrative accounts, including SAML-based admin provisioning, phishing-resistant MFA, and break-glass local accounts. It also describes security-relevant settings for authentication, privileged credentials, and firewall integrations, along with their recommended values and security implications, and includes logging and monitoring guidance and a secure configuration checklist.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "The guide is publicly available and requires no authentication or access request."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Trust Center"
+        ],
+        "url": "https://trust.knocknoc.io",
+        "repositoryDescription": "Commercial Trust Center for non-FedRAMP related security and compliance deliverables.",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Go to https://trust.knocknoc.io"
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Privacy Point of Contact",
+      "contactName": "Knocknoc Security Team",
+      "contactEmail": "security@knocknoc.io",
+      "contactPhone": "206-539-0423"
+    },
+    {
+      "contactType": "Information System Security Officer",
+      "contactName": "Knocknoc Security Team",
+      "contactEmail": "security@knocknoc.io",
+      "contactPhone": "206-539-0423"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Knocknoc Security Team",
+      "contactEmail": "security@knocknoc.io",
+      "contactPhone": "206-539-0423"
+    },
+    {
+      "contactType": "System Owner",
+      "contactName": "Knocknoc Security Team",
+      "contactEmail": "security@knocknoc.io",
+      "contactPhone": "206-539-0423"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Michael Baker",
+      "contactEmail": "michael@knocknoc.io",
+      "contactPhone": "206-539-0423"
+    },
+    {
+      "contactType": "Authorizing Official",
+      "contactName": "Federal Risk and Authorization Management Program",
+      "contactEmail": "info@fedramp.gov"
+    },
+    {
+      "contactType": "Content Approver",
+      "contactName": "Knocknoc Security Team",
+      "contactEmail": "security@knocknoc.io",
+      "contactPhone": "206-539-0423"
+    },
+    {
+      "contactType": "Prepared For",
+      "contactName": "Knocknoc",
+      "contactEmail": "fedramp@knocknoc.io"
+    },
+    {
+      "contactType": "System Point of Contact - Technical",
+      "contactName": "Knocknoc Security Team",
+      "contactEmail": "security@knocknoc.io",
+      "contactPhone": "206-539-0423"
+    },
+    {
+      "contactType": "Prepared By",
+      "contactName": "Knocknoc",
+      "contactEmail": "fedramp@knocknoc.io"
+    },
+    {
+      "contactType": "Authorizing Official Point of Contact",
+      "contactName": "FedRAMP PMO",
+      "contactEmail": "info@fedramp.gov"
+    },
+    {
+      "contactType": "System Point of Contact - Management",
+      "contactName": "Knocknoc Security Team",
+      "contactEmail": "security@knocknoc.io",
+      "contactPhone": "206-539-0423"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Knocknoc",
+      "serviceDescription": "Knocknoc is a prevention-first cybersecurity capability that removes attack surface before adversaries can exploit them. By orchestrating existing firewall and control infrastructure to enforce default-deny posture, Knocknoc makes protected systems invisible on the network until a legitimate user authenticates - eliminating standing access and exposure. The platform requires no client installation, has no VPN dependency and can run without Internet or be entirely air-gapped, enabling deployment across enterprise, critical infrastructure, and government environments in under a day. Knocknoc is purpose-built for complex, high-security on-premise environments."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Paramify Cloud",
+        "useCase": "The Paramify Cloud (Paramify) is a software platform that automates risk management processes including compliance planning, solution implementation, gap assessments, and continuous reporting. Knocknoc uses Paramify Cloud to manage its FedRAMP compliance program and to host its FedRAMP Trust Center. Paramify Cloud publishes Knocknoc’s Certification Package Overview and other certification deliverables, and manages agency access requests for restricted deliverables. Paramify Cloud does not store or process Knocknoc customer data."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2703560539",
+  "id_matches_expected": false
+}

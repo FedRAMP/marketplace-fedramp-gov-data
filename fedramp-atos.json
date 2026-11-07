@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-06T15:00:24.177Z",
-    "total_entries": 6056,
+    "export_timestamp": "2026-11-07T05:04:39.177Z",
+    "total_entries": 6063,
     "description": "FedRAMP data ATOs export from GSA system"
   },
   "data": {
@@ -31222,7 +31222,7 @@
         "uuid": "5d8b68d2-c657-48aa-8ebc-fb7a15296db5",
         "product_id": "F1603047866",
         "agency_id": "22-007-09",
-        "is_active": true,
+        "is_active": false,
         "is_reuse": true,
         "is_uplift": false,
         "ato_date": "2023-06-13T04:00:00.000Z",
@@ -49702,7 +49702,7 @@
         "uuid": "4ff503eb-0c0e-4129-add1-dce52078104d",
         "product_id": "FR2032565438",
         "agency_id": "22-007-09",
-        "is_active": true,
+        "is_active": false,
         "is_reuse": true,
         "is_uplift": false,
         "ato_date": "2024-08-19T04:00:00.000Z",
@@ -49714,7 +49714,7 @@
         "uuid": "01ade40c-d7a4-4e0f-aa05-e515c1434f27",
         "product_id": "F1606097904A",
         "agency_id": "22-007-09",
-        "is_active": true,
+        "is_active": false,
         "is_reuse": true,
         "is_uplift": false,
         "ato_date": "2024-09-13T04:00:00.000Z",
@@ -72675,6 +72675,90 @@
         "is_uplift": false,
         "ato_date": "2026-11-03T05:00:00.000Z",
         "exp_date": "2029-11-03T04:00:00.000Z",
+        "log_date": "2026-11-06T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "cd2ad83d",
+        "product_id": "F1302271924A",
+        "agency_id": "22-007-09",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-10-20T04:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-06T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "bf1ab14c",
+        "product_id": "F1603047866",
+        "agency_id": "22-007-09",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-03-17T04:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-06T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "e681ee51",
+        "product_id": "FR1719841002",
+        "agency_id": "22-007-09",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-08-24T04:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-06T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "b038d5bb",
+        "product_id": "MSO365MT",
+        "agency_id": "22-007-09",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-08-25T04:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-06T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "fa8a9869",
+        "product_id": "F1305072116",
+        "agency_id": "22-007-09",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-07-07T04:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-06T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "6156dcd7",
+        "product_id": "FR2032565438",
+        "agency_id": "22-007-09",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-10-24T04:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-06T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "348c58bb",
+        "product_id": "F1606097904A",
+        "agency_id": "22-007-09",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-10-22T04:00:00.000Z",
+        "exp_date": "",
         "log_date": "2026-11-06T05:00:00.000Z",
         "log_reason": "Reuse Authorization"
       }

@@ -35,7 +35,7 @@
         "Secure Configuration Guidance"
       ],
       "url": "https://fedramp.fulcrumpro.us/configuration-guide",
-      "repositoryDescription": "The Secure Configuration Guide for the offering: what each security setting does, the recommended configuration against the shipped one, and how to access, operate and decommission administrative accounts. It is generated from the same source as the Trust Center's edition, which adds citations for assessors and the recommended settings in machine-readable form.",
+      "repositoryDescription": "The Secure Configuration Guide for the offering: what each security setting does, the recommended configuration against the shipped one, and how to access, operate and decommission administrative accounts. It is generated from the same source as the Trust Center's edition, which adds citations for assessors and the recommended settings in machine-readable form. To use it, a tenant administrator follows each row's recommendation in the guide's table of recommended settings. Not every row is a value to set: some depend on whether the tenant has shared devices, one says which two settings not to turn on together, and some ask for an audit of who holds a role or permission. To check a tenant against it, export the tenant's security settings from the Fulcrum API, as the guide describes, and compare the export with the recommendations on the Trust Center, which gives a verdict for each recommended setting.",
       "authenticationRequired": false
     },
     "nextOngoingCertificationReportDate": "2027-03-02"

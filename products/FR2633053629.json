@@ -1,6 +1,6 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "TGuardAI Inc. (TGAI)",
+    "fedRampPackageId": "FR2633053629",
     "providerName": "TGuardAI Inc.",
     "serviceName": "TrustGuard AI Compliance Platform",
     "serviceAcronym": "TGAI",
@@ -26,7 +26,8 @@
       ],
       "url": "https://app-gov.trustguardai.com/trust-center/tguard-ai",
       "repositoryDescription": "FedRAMP Trust Center for the TrustGuard AI Compliance Platform. PUBLISHED LIVE: public tier open unauthenticated; reviewer tier request-only behind a server-side NDA gate with .gov/.mil auto-approve and access logging.",
-      "authenticationRequired": false
+      "authenticationRequired": false,
+      "accessRequestInstructions": "The Trust Center landing page and this Certification Package Overview are open and require no authentication or access request. Certification data in the reviewer tier (Security Decision Record, KSI validation reports, Minimum Assessment Scope, Secure Configuration Guide, Ongoing Certification Reports, VER/IEC/SCN reports, architecture and program documents, and supporting evidence) is released to necessary parties on request. To request access, open https://app-gov.trustguardai.com/trust-center/tguard-ai and use the \"Request Access\" action, supplying your name, organization, government email address, and the purpose of the request; acceptance of a non-disclosure agreement is required. Requests from .gov and .mil email domains, and from the engaged FedRAMP-Recognized 3PAO (a-lign.com), are auto-approved and receive an emailed access link, typically within minutes. All other requests are reviewed by the TrustGuard AI security team within one business day. All access grants and document downloads are logged. For assistance, or if a request is denied, contact security-inbox@trustguardai.com."
     }
   },
   "contactInformation": [
@@ -89,5 +90,5 @@
     ]
   },
   "ZD_frid_retro": "FR2633053629",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }

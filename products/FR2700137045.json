@@ -85,7 +85,16 @@
       "historyFeed": "https://trust.regscale.com/api/v1/fedramp/20x/systems/trust-center-20x-class-c/scn.json",
       "auditRecords": "https://trust.regscale.com/api/v1/fedramp/20x/systems/trust-center-20x-class-c/scn-audit.json"
     },
-    "perServiceMaterialsExplanation": "RegScale does not supply separate per-service certification materials. The offering is a single consolidated service with one authorization boundary, so the full certification package covers it in one comprehensive set rather than per-service breakouts, aligned with the control note. This discretionary (MAY) decision was reviewed and signed off by Cory Henrickson, RegScale."
+    "perServiceMaterialsExplanation": "RegScale does not supply separate per-service certification materials. The offering is a single consolidated service with one authorization boundary, so the full certification package covers it in one comprehensive set rather than per-service breakouts, aligned with the control note. This discretionary (MAY) decision was reviewed and signed off by Cory Henrickson, RegScale.",
+    "agencyUseCases": {
+      "useCases": [
+        {
+          "kind": "direct",
+          "definition": "Direct Use: the product is used directly by agency customers for integration into a federal information system and will receive an agency Authorization to Operate."
+        }
+      ],
+      "narrative": "Direct use. Agency customers use the RegScale Trust Center directly, as a standalone SaaS offering, for integration into a federal information system that receives an agency Authorization to Operate."
+    }
   },
   "contactInformation": [
     {
@@ -162,8 +171,8 @@
       "title": "Chief Information Security Officer (CISO)",
       "email": "dhoak@regscale.com"
     },
-    "version": 12,
-    "lastUpdated": "2026-11-04T16:53:52.475835+00:00",
+    "version": 13,
+    "lastUpdated": "2026-11-06T18:42:53.988189+00:00",
     "sourceOfUpdate": "csp:cpo"
   },
   "assessmentSummary": {

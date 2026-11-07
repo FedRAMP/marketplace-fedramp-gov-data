@@ -1,39 +1,135 @@
 {
-  "serviceIdentification": {
-    "fedRampPackageId": "FR2516072131",
-    "providerName": "Ramp",
-    "serviceName": "Ramp for Government (RampGov)",
-    "serviceAcronym": "Ramp for Government (RampGov)",
-    "serviceDescription": "Ramp provides a unified platform for charge cards, expense management, and bill payments, designed to maximize visibility, enforce policy controls, and drive operational efficiency at scale. Our customers rely on Ramp to manage their financial operations, drive efficiency, and stop wasteful spending.",
-    "certificationType": "Rev5",
-    "website": "https://ramp.com/government",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Ramp%20Logo.png",
-    "ueiNumber": "MMC6R2DML8L4"
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "assessor": {
+    "name": "Coalfire Systems, Inc.",
+    "assessorID": "138514"
   },
+  "cpoVersion": "2026.11.06-1",
+  "lastUpdated": "2026-11-06T09:05:38.447602+00:00",
+  "$schemaVersion": "0.1.4",
+  "sourceOfUpdate": "FedRAMP 2026 ConMon snapshot",
+  "certifiedServices": [
+    {
+      "serviceName": "Expense Management Platform",
+      "dateAvailable": "2026-06-18",
+      "securityCategory": "Moderate",
+      "serviceDescription": "Automates expense reporting, receipt collection, policy checks, and employee reimbursements.",
+      "dateAvailableMeaning": "available",
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Corporate Card",
+      "dateAvailable": "2026-06-18",
+      "securityCategory": "Moderate",
+      "serviceDescription": "Provides physical and virtual charge cards with configurable spending limits and transaction visibility.",
+      "dateAvailableMeaning": "available",
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Bill Pay",
+      "dateAvailable": "2026-06-18",
+      "securityCategory": "Moderate",
+      "serviceDescription": "Centralizes vendor invoices, approval workflows, and payment processing.",
+      "dateAvailableMeaning": "available",
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Super Intelligence Spend Management",
+      "dateAvailable": "2026-11-05",
+      "securityCategory": "Moderate",
+      "serviceDescription": "Uses SI (super intelligence) to analyze spending, identify savings opportunities, and support financial policy enforcement.",
+      "dateAvailableMeaning": "available",
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Procurement",
+      "dateAvailable": "2026-11-05",
+      "securityCategory": "Moderate",
+      "serviceDescription": "Manages purchase requests, approval workflows, and purchase orders to control spending before purchases occur.",
+      "dateAvailableMeaning": "available",
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Router",
+      "dateAvailable": "2026-11-05",
+      "securityCategory": "Moderate",
+      "serviceDescription": "Provides a single API for accessing multiple SI (super intelligence) models, with request routing, usage tracking, and spending controls.",
+      "dateAvailableMeaning": "available",
+      "inMinimumAssessmentScope": true
+    }
+  ],
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
+    "trustCenter": {
+      "url": "https://boundera.io/tc/rampgov",
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "repositoryDescription": "FedRAMP Trust Center landing page with access instructions.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Go to https://boundera.io/tc/rampgov\n\nClick Request Access.\n\nYou'll receive an email once access has been granted."
+    },
     "deploymentModel": "Government Community Cloud",
     "businessCategory": [
-      "Accounting",
-      "Analytics",
       "Finance"
-    ]
+    ],
+    "availabilityService": "https://support.ramp.com/ramp-system-status-and-outages",
+    "documentationOverview": "Ramp publishes the following documentation for its FedRAMP 20x cloud service offering: the Certification Package Overview, and the Secure Configuration Guide, along with applicable security policies. Documentation is provided in both human-readable and JSON formats available in a dedicated Trust Center for public access to this documentation.",
+    "additionalRepositories": [
+      {
+        "url": "https://boundera.io/tc/rampgov",
+        "repositoryType": [
+          "Policies and Procedures"
+        ],
+        "repositoryDescription": "Policy and procedure index (CDS-CSO-IRP): each policy and procedure the provider has made visible at the reader's access level, with its name, file, summary, version, date of last update, and related FedRAMP Practices.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Go to https://boundera.io/tc/rampgov\n\nClick Request Access.\n\nYou'll receive an email once access has been granted."
+      }
+    ],
+    "nextQuarterlyReviewDate": "2027-02-10",
+    "quarterlyReviewRegistration": "https://ramp.zoom.us/webinar/register/WN_-8Md94kvTZePuPyccX-tWg",
+    "secureConfigurationGuidance": {
+      "url": "https://boundera.io/tc/rampgov",
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "repositoryDescription": "Secure Configuration Guide.",
+      "authenticationRequired": false
+    },
+    "nextOngoingCertificationReportDate": "2027-01-31"
   },
   "contactInformation": [
     {
+      "contactName": "Lewis Drummond",
       "contactType": "Security",
-      "contactEmail": "fedramp@ramp.com"
+      "contactEmail": "Fedramp@ramp.com"
     },
     {
+      "contactName": "Kelly Horton",
       "contactType": "Sales",
       "contactEmail": "govteam@ramp.com"
+    },
+    {
+      "contactName": "Lewis Drummond",
+      "contactType": "Responsible Official",
+      "contactEmail": "security@ramp.com",
+      "contactTitle": "VP of Infrastructure"
     }
   ],
-  "assessor": {
-    "name": "Coalfire Systems, Inc.",
-    "assessorID": "138514"
+  "serviceIdentification": {
+    "logo": "https://assets.boundera.io/brand/uploads/logos/56f6feacb5014011a34220a6c9fe29bc.png",
+    "website": "https://ramp.com/public-sector",
+    "ueiNumber": "MMC6R2DML8L4",
+    "serviceName": "Ramp for Government (RampGov)",
+    "providerName": "Ramp",
+    "serviceAcronym": "RampGov",
+    "fedRampPackageId": "FR2516072131",
+    "certificationType": "20x",
+    "certificationClass": "A",
+    "marketplaceListing": "https://www.fedramp.gov/marketplace/products/FR2516072131/",
+    "serviceDescription": "Ramp provides a unified platform for charge cards, expense management, bill payments, procurement, super intelligence spend management and ramp's router designed to maximize visibility, enforce policy controls, and drive operational efficiency at scale. Our customers rely on Ramp to manage their financial operations, drive efficiency, and stop wasteful spending."
   },
   "ZD_frid_retro": "FR2516072131",
   "id_matches_expected": true
