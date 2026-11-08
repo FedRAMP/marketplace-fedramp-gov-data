@@ -4,10 +4,12 @@
     "providerName": "TGuardAI Inc.",
     "serviceName": "TrustGuard AI Compliance Platform",
     "serviceAcronym": "TGAI",
-    "serviceDescription": "TrustGuard AI is a comprehensive, AI-native Governance, Risk, and Compliance (GRC) platform that unifies internal compliance automation and external threat monitoring in a single system of record. Inside the organization, TrustGuard AI continuously collects evidence, maps it to recognized control frameworks — including FedRAMP, SOC 2, ISO 27001, NIST 800-53, NIST CSF, HIPAA, PCI DSS, and CMMC — and uses retrieval-augmented AI to assess controls, surface gaps, draft remediations, and generate audit-ready, machine-readable findings and reports. Looking outward, it delivers continuous third-party and supply-chain risk monitoring, scoring vendors and partners against real-world security signals so teams can quantify exposure, prioritize outreach, and track remediation across their entire ecosystem. By combining automated internal compliance with external security ratings and attack-surface intelligence, TrustGuard AI gives security, risk, and compliance leaders one continuously-updated view of their posture — from their own controls to every vendor they depend on. The platform is offered as SaaS. The provider maintains a SOC 2 Type 2 program and is undergoing a FedRAMP 20x Moderate (Class C) assessment; the FedRAMP-assessed instance operates in production within AWS GovCloud (US).",
+    "ueiNumber": "",
+    "_ueiNumberNote": "Intentionally blank, per the official FedRAMP Certification Package Overview schema, which states for this field: \"Unique Entity Identifier (UEI) assigned to the CSP by SAM.gov. If no UEI is available leave this blank.\" CDS-CSO-PUB requires the listed information only insofar as it is \"available and applicable\", and ueiNumber is not a required property of serviceIdentification in the schema. The provider is not yet registered in SAM.gov; SAM.gov registration is a federal contracting/payment prerequisite rather than a FedRAMP certification prerequisite. The UEI will be supplied in this field upon registration, which requires no re-assessment.",
+    "serviceDescription": "TrustGuard AI is a comprehensive, AI-native Governance, Risk, and Compliance (GRC) platform that unifies internal compliance automation and external threat monitoring in a single system of record. Inside the organization, TrustGuard AI continuously collects evidence, maps it to recognized control frameworks — including FedRAMP, SOC 2, ISO 27001, NIST 800-53, NIST CSF, HIPAA, PCI DSS, and CMMC — and uses retrieval-augmented AI to assess controls, surface gaps, draft remediations, and generate audit-ready, machine-readable findings and reports. Looking outward, it delivers continuous third-party and supply-chain risk monitoring, scoring vendors and partners against real-world security signals so teams can quantify exposure, prioritize outreach, and track remediation across their entire ecosystem. By combining automated internal compliance with external security ratings and attack-surface intelligence, TrustGuard AI gives security, risk, and compliance leaders one continuously-updated view of their posture — from their own controls to every vendor they depend on. The platform is offered as SaaS. The provider maintains a SOC 2 Type 2 program, and its FedRAMP 20x Moderate (Class C) independent verification and validation assessment was COMPLETED on 2026-10-09 by A-LIGN, a FedRAMP-Recognized independent assessment service, with all 203 applicable FedRAMP requirements (157 provider FRRs + 46 Key Security Indicators) determined MET; the FedRAMP authorization decision and FedRAMP-assigned Certification ID remain outstanding as FedRAMP outputs. The FedRAMP-assessed instance operates in production within AWS GovCloud (US). The provider's legal entity name is TGuardAI Inc.; A-LIGN's assessment letter refers to the same entity by its trade name \"TrustGuard AI Inc.\"",
     "certificationType": "20x",
     "website": "https://app-gov.trustguardai.com",
-    "logo": "https://app-gov.trustguardai.com/logo.png"
+    "logo": "https://app-gov.trustguardai.com/logo.svg"
   },
   "serviceProperties": {
     "serviceType": [
@@ -28,7 +30,19 @@
       "repositoryDescription": "FedRAMP Trust Center for the TrustGuard AI Compliance Platform. PUBLISHED LIVE: public tier open unauthenticated; reviewer tier request-only behind a server-side NDA gate with .gov/.mil auto-approve and access logging.",
       "authenticationRequired": false,
       "accessRequestInstructions": "The Trust Center landing page and this Certification Package Overview are open and require no authentication or access request. Certification data in the reviewer tier (Security Decision Record, KSI validation reports, Minimum Assessment Scope, Secure Configuration Guide, Ongoing Certification Reports, VER/IEC/SCN reports, architecture and program documents, and supporting evidence) is released to necessary parties on request. To request access, open https://app-gov.trustguardai.com/trust-center/tguard-ai and use the \"Request Access\" action, supplying your name, organization, government email address, and the purpose of the request; acceptance of a non-disclosure agreement is required. Requests from .gov and .mil email domains, and from the engaged FedRAMP-Recognized 3PAO (a-lign.com), are auto-approved and receive an emailed access link, typically within minutes. All other requests are reviewed by the TrustGuard AI security team within one business day. All access grants and document downloads are logged. For assistance, or if a request is denied, contact security-inbox@trustguardai.com."
-    }
+    },
+    "secureConfigurationGuidance": {
+      "_rule": "CDS-CSO-PUB item 12 (link to Secure Configuration Guidance) + SCG-CSO-AUP (MUST: instructions explaining how to obtain and use the Secure Configuration Guide). SCG-CSO-PUB is a SHOULD, so the guide itself is released to necessary parties on request rather than posted unauthenticated; the LINK and the obtain/use instructions are public, which is what CDS-CSO-PUB requires.",
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://app-gov.trustguardai.com/trust-center/tguard-ai",
+      "repositoryDescription": "Secure Configuration Guide (SCG) for the TrustGuard AI Compliance Platform, published in the Trust Center reviewer tier as 'Secure Configuration Guide (SCG)' (human-readable) and 'Secure Configuration Guide — Machine-Readable' (JSON). Covers customer-configurable security settings, hardening baselines, the cryptographic module register (CMU-CSO-CMD; FIPS-validated / CMVP-validated module inventory per CMU-CSO-UVM), and the customer responsibility matrix.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Open https://app-gov.trustguardai.com/trust-center/tguard-ai and use the \"Request Access\" action with your name, organization, government email address and purpose. Requests from .gov and .mil domains and from the engaged FedRAMP-Recognized 3PAO (a-lign.com) are auto-approved and receive an emailed access link, typically within minutes; .gov/.mil requesters are exempt from the NDA gate. Once granted, open the Trust Center and download 'Secure Configuration Guide (SCG)'. How to USE the guide: apply the hardening baselines to your tenant configuration, then use the customer responsibility matrix to confirm which controls you own versus which TrustGuard operates. Questions: security-inbox@trustguardai.com."
+    },
+    "nextOngoingCertificationReportDate": "2027-01-05",
+    "_nextOngoingCertificationReportDateBasis": "CCM-OCR-NRD (MUST: the target date for the next Ongoing Certification Report must be public). Derived from CCM-OCR-AVL, which fixes the cadence at every 3 months, applied to the most recent Ongoing Certification Report (Q1, period ending 2026-10-05): 2026-10-05 + 3 months = 2027-01-05."
   },
   "contactInformation": [
     {
@@ -52,6 +66,57 @@
     "name": "A-LIGN (A-LIGN Compliance and Security, Inc.) — FedRAMP-Recognized 3PAO engaged by the provider to perform the independent verification and validation for the initial FedRAMP 20x Moderate / Class C assessment",
     "id": "138665",
     "assessorID": "138665"
+  },
+  "overallAssessmentSummary": {
+    "_rule": "CPO-CSO-OSA (MUST, Class C) — overall summary of the FedRAMP independent assessment, supplied by the assessor per IVV-IAS-OSA and included here by the provider. Governing ruleset: FedRAMP/rules 2026.11.02.01.",
+    "assessorName": "A-LIGN (A-LIGN Compliance and Security, Inc.)",
+    "assessorID": "138665",
+    "assessorRecognition": "FedRAMP-Recognized independent assessment service",
+    "assessmentCompletionDate": "2026-10-09",
+    "assessmentFieldworkPeriod": "September 2026",
+    "certificationPath": "Program",
+    "certificationType": "20x",
+    "certificationClass": "C",
+    "impactLevel": "Moderate",
+    "assessmentScope": "Independent verification and validation of all FedRAMP requirements applicable to a 20x Class C Certification for the TrustGuard AI Compliance Platform as deployed in AWS GovCloud (US). Scope comprised 203 applicable requirements: 157 provider-applicable FedRAMP Rule Requirements (FRRs) and 46 Key Security Indicators (KSIs).",
+    "requirementsAssessed": 203,
+    "requirementsMet": 203,
+    "requirementsNotMet": 0,
+    "overallResult": "All 203 applicable requirements determined MET (status YES) by the assessor.",
+    "failuresOrAreasOfDispute": "No failures and no areas of dispute were recorded by the assessor. The sole qualification is time-based, not a control deficiency: the 6-month persistent-validation history window had not yet fully accrued at the assessment date (see historicalMetricsQualification).",
+    "historicalMetricsQualification": {
+      "description": "A-LIGN's machine-readable export records ccHistory=false for all 203 assessed requirements, meaning 6 months of accrued persistent-validation history was not yet available at the 2026-10-09 assessment date. This reflects elapsed operating time only; it is not an adverse finding against any requirement, and every requirement was still determined MET.",
+      "affectedRequirements": 203,
+      "governingRuleAtAssessmentTime": "FRC-CSX-MOT (Metrics Over Time for Key Security Indicators) required historical metrics over at least the past 6 months. This rule was REMOVED from the FedRAMP Consolidated Rules for 2026 on 2026-10-08 and no longer exists in the governing ruleset 2026.11.02.01.",
+      "governingRuleNow": "SDR-CSX-KMT (Key Security Indicator Metrics) — MUST include historical metrics in the Security Decision Record. FedRAMP's official note to this rule expressly accommodates initial certification: \"For initial FedRAMP Certification, providers will need to have mechanisms in place and agree to meet this requirement in the event the cloud service has not been operating with related metrics available for the required period prior to applying for initial certification.\"",
+      "providerPosition": "The required automated verification and validation mechanisms are implemented and operating (at least 2 automated methods per Key Security Indicator, per FRC-CSX-VVK), metric history is accruing continuously, and the provider commits to meeting the full historical-metrics requirement as the window completes."
+    },
+    "assessorAttestationVerbatim": "A-LIGN attests that a formal assessment was conducted during the month of September to fully analyze and validate the controls related to the TrustGuard AI FedRAMP 20x environment for the TrustGuard AI Inc. AI Compliance Platform Cloud FedRAMP offering. A-LIGN examined the TrustGuard AI documentation and control implementations. There were no deviations from the agreed upon scope and assessment timeline did not change. Assessment Results: TrustGuard AI Inc. has demonstrated that all 20x controls related to the TrustGuard AI Compliance Platform are successfully satisfied with the exception of the 6-month persistence validation which will be satisfied once the allocated time passes. The results of the control assessment have been provided to FedRAMP and can be requested from TrustGuard AI.",
+    "assessorAttestationSignatory": {
+      "name": "Derrick Loper",
+      "title": "Managing Consultant, A-LIGN Federal Practice",
+      "role": "Signatory of the A-LIGN attestation letter; head of A-LIGN's FedRAMP certification program and manager of the engagement assessor",
+      "signatureDate": "2026-10-09"
+    },
+    "assessmentPerformedBy": {
+      "name": "Melina Barreca",
+      "role": "A-LIGN engagement assessor who performed the assessment and produced the machine-readable assessment export (meta.assessor)"
+    },
+    "sourceRecords": [
+      {
+        "artifact": "package/ivv/3pao_assessment_result_2026-10-09.json",
+        "description": "A-LIGN machine-readable assessment export; 203 requirement determinations, all status YES",
+        "sha256": "c5617c3b5f8f790e3533a2bafadc37d501528112a4b233c4846307b478855c72",
+        "exportedAt": "2026-10-09T05:05:36.012Z"
+      },
+      {
+        "artifact": "package/ivv/3pao_attestation_letter_2026-10-09.docx",
+        "description": "Signed A-LIGN attestation letter (original); plain-text transcription at package/ivv/3pao_attestation_letter_2026-10-09.txt"
+      }
+    ],
+    "providerInclusionStatement": "Included by the provider per CPO-CSO-OSA and IVV-CSO-ICP, without inappropriate modification of the assessor's supplied results. The assessor's attestation text is reproduced verbatim above.",
+    "entityNameNote": "The provider's legal entity name is TGuardAI Inc. A-LIGN's attestation letter refers to the same entity by its trade name \"TrustGuard AI Inc.\"; the assessor's wording is preserved verbatim and unmodified.",
+    "fedrampAuthorizationDecision": "Outstanding — the FedRAMP authorization decision and FedRAMP-assigned Certification ID are FedRAMP outputs and are not asserted by the provider or the assessor."
   },
   "certifiedServices": [
     {

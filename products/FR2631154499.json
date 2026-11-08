@@ -28,7 +28,7 @@
       "url": "https://trust.ironwifi.com/",
       "repositoryDescription": "IronWiFi Trust Center hosting SOC 2 Type II / SOC 3 reports, security control and subprocessor listings, and FedRAMP Certification Data for this offering.",
       "authenticationRequired": false,
-      "accessRequestInstructions": "The Trust Center landing page and its Controls and Subprocessors sections are open, no account required. Under Resources, the SOC 3 report, Data Processing Agreement and Terms of Service open directly. The FedRAMP Documentation category holds the certification package: the FedRAMP Public Information link opens directly, and the complete package bundle (every package file plus its SHA-256 manifest, as one zip) is downloadable without an account from the website URL listed under documentationOverview. The individual package documents in that category (Security Decision Record in PDF and JSON, Certification Package Overview PDF, Key Security Indicator Summary PDF, example Ongoing Certification Report in PDF and JSON, component inventory with its method and script, and the manifest) are released on request: select Request access on the resource; requests are reviewed and access is granted to the requesting email address. The SOC 2 Type II report is released the same way under a non-disclosure agreement. Questions about a request, or requests from federal agencies that need a different route, go to security@ironwifi.com."
+      "accessRequestInstructions": "The Trust Center landing page and its Controls and Subprocessors sections are open, no account required. Under Resources, the SOC 3 report, Data Processing Agreement and Terms of Service open directly. The FedRAMP Documentation category holds the certification package: the FedRAMP Public Information link opens directly, and the certification package documents are available on request in the IronWiFi Trust Center. The individual package documents in that category (Security Decision Record in PDF and JSON, Certification Package Overview PDF, Key Security Indicator Summary PDF, example Ongoing Certification Report in PDF and JSON, component inventory with its method and script, and the manifest) are released on request: select Request access on the resource; requests are reviewed and access is granted to the requesting email address. The SOC 2 Type II report is released the same way under a non-disclosure agreement. Questions about a request, or requests from federal agencies that need a different route, go to security@ironwifi.com."
     },
     "additionalRepositories": [
       {
@@ -386,10 +386,10 @@
       "https://www.ironwifi.com/fedramp/",
       "https://www.ironwifi.com/fedramp/secure-configuration/"
     ],
-    "detailedDiagrams": "The information flow and categorization document (information-flows-and-categories.md, built from the platform data flow diagram) and the machine-readable component inventory are part of the certification package; the inventory is released on request through the Trust Center and is in the public package bundle, and the flow document is supplied to federal agencies and FedRAMP on request to security@ironwifi.com."
+    "detailedDiagrams": "The information flow and categorization document (information-flows-and-categories.md, built from the platform data flow diagram) and the machine-readable component inventory are part of the certification package; the inventory is released on request through the Trust Center (request access), and the flow document is supplied to federal agencies and FedRAMP on request to security@ironwifi.com."
   },
   "documentationOverview": {
-    "description": "Documentation supplied by IronWiFi for the offering, as CDS-CSO-PUB item 13 requires. The Certification Package Overview (this JSON and its page), the public FedRAMP page, the secure configuration guidance and the complete package bundle are readable without an account; the individual package documents and the SOC 2 Type II report are released on request through the Trust Center.",
+    "description": "Documentation supplied by IronWiFi for the offering, as CDS-CSO-PUB item 13 requires. The Certification Package Overview (this JSON and its page), the public FedRAMP page, and the secure configuration guidance are readable without an account; the individual package documents and the SOC 2 Type II report are released on request through the Trust Center.",
     "documents": [
       {
         "name": "Certification Package Overview",
@@ -402,13 +402,13 @@
         "summary": "This document and its human-readable page; the PDF in the Trust Center carries the sections the schema has no field for."
       },
       {
-        "name": "Certification package bundle",
+        "name": "Certification package documents",
         "formats": [
-          "ZIP at a stable URL"
+          "Documents in the IronWiFi Trust Center"
         ],
-        "access": "Public",
-        "url": "https://www.ironwifi.com/fedramp/IronWiFi-FedRAMP-20x-ClassA-Package.zip",
-        "summary": "IronWiFi-prepared 20x Class A package documents (overview JSON and PDF, Security Decision Record PDF and JSON, example Ongoing Certification Report PDF and JSON, component inventory JSON, method PDF and script, Key Security Indicator Summary PDF, Secure Configuration Guide PDF and JSON, policy register Markdown and JSON) with MANIFEST.json, the SHA-256 and size of each file, the ruleset version and the build verification verdict. These files are provider materials, not a FedRAMP Certification. Stable URL; the ZIP snapshot version and assembly time are inside MANIFEST.json (1.4, 2026-09-13). The live public JSON on this site is version 1.5."
+        "access": "Trust Center, request access",
+        "url": "https://trust.ironwifi.com/resources",
+        "summary": "IronWiFi-prepared 20x Class A certification package documents, available on request in the IronWiFi Trust Center. These files are provider materials, not a FedRAMP Certification."
       },
       {
         "name": "Security Decision Record",
@@ -416,7 +416,7 @@
           "PDF",
           "JSON"
         ],
-        "access": "Trust Center, request access; also in the public bundle",
+        "access": "Trust Center, request access",
         "summary": "The implementation, validation and assessment position for every FedRAMP rule and Key Security Indicator this certification addresses, with the senior official's acceptance where a rule is not fully implemented."
       },
       {
@@ -424,7 +424,7 @@
         "formats": [
           "PDF"
         ],
-        "access": "Trust Center, request access; also in the public bundle",
+        "access": "Trust Center, request access",
         "summary": "Standalone summary of the seven Key Security Indicators FedRAMP mandates at Class A (FRC-CLA-MFR items 17 to 23), rendered from the Security Decision Record JSON, with the SOC 2 Type II control, PDF page and auditor result cited for each."
       },
       {
@@ -433,7 +433,7 @@
           "PDF",
           "JSON"
         ],
-        "access": "Trust Center, request access; also in the public bundle",
+        "access": "Trust Center, request access",
         "summary": "The format of the quarterly report required by CCM-OCR-AVL; the first real report is due 2026-12-15."
       },
       {
@@ -443,7 +443,7 @@
           "PDF (method)",
           "Script"
         ],
-        "access": "Trust Center, request access; also in the public bundle",
+        "access": "Trust Center, request access",
         "summary": "The machine-readable inventory of the Minimum Assessment Scope, how it is derived, and the read-only script that generates it."
       },
       {
@@ -479,7 +479,7 @@
           "PDF"
         ],
         "access": "Public",
-        "summary": "SCG-CSO-RSC: the tenant owner and privileged accounts, their secure access, configuration, operation and decommissioning, secure defaults at provisioning, and the recommended tenant configuration for agency deployments; JSON twin at secure-configuration.json, PDF in the package bundle. Version 1.1, effective 2026-09-13.",
+        "summary": "SCG-CSO-RSC: the tenant owner and privileged accounts, their secure access, configuration, operation and decommissioning, secure defaults at provisioning, and the recommended tenant configuration for agency deployments; JSON twin at secure-configuration.json, PDF in the IronWiFi Trust Center (request access). Version 1.1, effective 2026-09-13.",
         "url": "https://www.ironwifi.com/fedramp/secure-configuration/"
       },
       {
@@ -496,7 +496,7 @@
           "JSON",
           "Markdown"
         ],
-        "access": "Public bundle",
+        "access": "IronWiFi Trust Center (request access)",
         "summary": "CDS-CSO-IRP register of 28 policies and procedures with name, file, summary, word count, version, date and related FedRAMP practices."
       }
     ]
@@ -509,9 +509,9 @@
       "phone": "800-963-6221",
       "note": "security@ironwifi.com is a monitored role mailbox reaching the accountable official; FedRAMP communications go to the FedRAMP Security Inbox. A role address is published so that communications keep reaching an accountable owner across personnel changes."
     },
-    "version": "1.6",
-    "dateAndTimeOfLastUpdate": "2026-09-18T18:00:00Z",
-    "sourceOfUpdate": "IronWiFi, LLC, accountable official Martin Benuska (CEO); version 1.6: FRC-APP-AFC submitted 2026-09-13 with FedRAMP's decision pending; listing status Not yet certified, Certification Class Unknown, FIPS 199 Moderate distinguished from FedRAMP Moderate and from Class C, Google Cloud High inheritance not claimed, OCR date not applicable until certification.",
+    "version": "1.7",
+    "dateAndTimeOfLastUpdate": "2026-11-07T17:00:00Z",
+    "sourceOfUpdate": "IronWiFi, LLC, accountable official Martin Benuska (CEO); version 1.6: FRC-APP-AFC submitted 2026-09-13 with FedRAMP's decision pending; listing status Not yet certified, Certification Class Unknown, FIPS 199 Moderate distinguished from FedRAMP Moderate and from Class C, Google Cloud High inheritance not claimed, OCR date not applicable until certification. Version 1.7 (2026-11-07): certification package moved from a public ZIP to the IronWiFi Trust Center on request; no status changes.",
     "schemaNote": "CPO-CSO-MTD requires this metadata in the Certification Package Overview. The published schema (fedramp-certification-package-overview-schema-2026-06-24) defines no property for it, so it is carried here as a declared object; extra fields do not fail FedRAMP schema validation. The accountable official's role address is also recorded under contactInformation."
   },
   "ZD_frid_retro": "FR2631154499",

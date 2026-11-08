@@ -36,14 +36,14 @@
       "url": "https://platform.gomoderniza.ai/docs/secure-configuration",
       "repositoryDescription": "How to configure the offering securely.",
       "authenticationRequired": false,
-      "accessRequestInstructions": "**How to get the guide.** The guide is a public web page. Open the address given here in any browser; no account is needed. It shows the values the platform runs with at the moment you open it. https://platform.gomoderniza.ai/docs/secure-configuration\n\n**How to use it.**\n1. Read \"If you do only ten things\" first and apply each item to your agency's accounts\n2. Have your first Super Admin follow \"First steps for a new administrator\" on the day the account is created\n3. Set roles, Super Admin power and sign-in rules as the sections on accounts and sign-in describe\n4. Check \"Platform settings managed by Moderniza\" — a row marked Differs is not yet at the recommended value\n5. ask the security contact if your agency needs a stricter value\n6. Open the guide again after each Moderniza release or at least every quarter, because the values on the page are read live\n\n**Who gets the guide and related material.** The guide itself is public. The list of known weaknesses and the related security policies are shared only with agency customers and assessors who hold an open Agency Access grant (a read-only account with the compliance:read permission). Ask the security contact for access; a Super Admin gives it in Admin, Agency Access, and every read is logged.\n\nSecurity contact: Prathiba Ramadoss <Security@businessintegra.com>"
+      "accessRequestInstructions": "**How to get the guide.** The guide is a public web page. Open the address given here in any browser; no account is needed. It shows the values the platform runs with at the moment you open it. https://platform.gomoderniza.ai/docs/secure-configuration\n\n**How to use it.**\n1. Read \"If you do only ten things\" first and apply each item to your agency's accounts\n2. Have your first Super Admin follow \"First steps for a new administrator\" on the day the account is created\n3. Set roles, Super Admin power and sign-in rules as the sections on accounts and sign-in describe\n4. Check \"Platform settings managed by Moderniza\" — a row marked Differs is not yet at the recommended value\n5. ask the security contact if your agency needs a stricter value\n6. Open the guide again after each Moderniza release or at least every quarter, because the values on the page are read live\n\n**Who gets the guide and related material.** The guide itself is public. The list of known weaknesses and the related security policies are shared only with agency customers and assessors who hold an open Agency Access grant (a read-only account with the compliance:read permission). Ask the security contact for access; a Super Admin gives it in Admin, Agency Access, and every read is logged.\n\nSecurity contact: Balaji Ramanujam <Security@businessintegra.com>"
     },
     "nextOngoingCertificationReportDate": "2026-12-15"
   },
   "contactInformation": [
     {
       "contactType": "Security",
-      "contactName": "Prathiba Ramadoss",
+      "contactName": "Balaji Ramanujam",
       "contactEmail": "Security@businessintegra.com"
     },
     {
@@ -97,13 +97,13 @@
       {
         "name": "Anthropic API",
         "provider": "Anthropic",
-        "useCase": "AI model provider: answers the pipeline's AI steps",
+        "useCase": "AI model provider: answers the pipeline's AI steps. Customer source code and extracted business rules are sent to the API over an encrypted connection to a restricted list of allowed addresses. This service is not FedRAMP-authorized.",
         "website": "https://www.anthropic.com"
       },
       {
         "name": "GitLab",
         "provider": "GitLab",
-        "useCase": "Holds the source code and runs the CI/CD pipeline",
+        "useCase": "Self-hosted GitLab, operated by the provider outside the AWS environment, that holds Moderniza source code and the generated applications and runs the CI/CD pipeline",
         "website": "https://about.gitlab.com"
       },
       {

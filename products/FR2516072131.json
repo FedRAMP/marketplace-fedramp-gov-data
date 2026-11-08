@@ -4,8 +4,8 @@
     "name": "Coalfire Systems, Inc.",
     "assessorID": "138514"
   },
-  "cpoVersion": "2026.11.06-1",
-  "lastUpdated": "2026-11-06T09:05:38.447602+00:00",
+  "cpoVersion": "2026.11.07-1",
+  "lastUpdated": "2026-11-07T10:54:33.641949+00:00",
   "$schemaVersion": "0.1.4",
   "sourceOfUpdate": "FedRAMP 2026 ConMon snapshot",
   "certifiedServices": [
@@ -38,14 +38,6 @@
       "dateAvailable": "2026-11-05",
       "securityCategory": "Moderate",
       "serviceDescription": "Uses SI (super intelligence) to analyze spending, identify savings opportunities, and support financial policy enforcement.",
-      "dateAvailableMeaning": "available",
-      "inMinimumAssessmentScope": true
-    },
-    {
-      "serviceName": "Procurement",
-      "dateAvailable": "2026-11-05",
-      "securityCategory": "Moderate",
-      "serviceDescription": "Manages purchase requests, approval workflows, and purchase orders to control spending before purchases occur.",
       "dateAvailableMeaning": "available",
       "inMinimumAssessmentScope": true
     },
