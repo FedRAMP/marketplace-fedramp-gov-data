@@ -4,8 +4,8 @@
     "name": "Schellman Compliance, LLC",
     "assessorID": "136571"
   },
-  "cpoVersion": "2026.11.09-2",
-  "lastUpdated": "2026-11-09T04:44:05.799696+00:00",
+  "cpoVersion": "2026.11.09-10",
+  "lastUpdated": "2026-11-09T15:17:51.449258+00:00",
   "$schemaVersion": "0.1.4",
   "sourceOfUpdate": "FedRAMP 2026 ConMon snapshot",
   "certifiedServices": [
@@ -51,14 +51,14 @@
       ],
       "repositoryDescription": "FedRAMP Trust Center landing page with access instructions.",
       "authenticationRequired": false,
-      "accessRequestInstructions": "Go to https://boundera.io/tc/fedramp-trust-center\n\nClick Request Access.\n\nYou’ll receive an email once access has been granted."
+      "accessRequestInstructions": "Go to https://boundera.io/tc/fedramp-trust-center and click Request access.\n\nEnter your name, work email and organization. Under \"I represent\", choose \"A federal agency\". Under \"Access needed\", choose \"Full\".\n\nBoundera approves federal reviewers within one business day. No NDA or terms acceptance is required. You receive an email with a sign-in link; sign-in is by email link, no password.\n\nQuestions: security@boundera.io."
     },
     "deploymentModel": "Public Cloud",
     "businessCategory": [
       "Cybersecurity & Risk Management"
     ],
     "availabilityService": "https://stats.uptimerobot.com/xCcAavrKoH/802400387",
-    "documentationOverview": "Secure configuration guide is publicly available on our website.",
+    "documentationOverview": "The Secure Configuration Guide is public at https://boundera.io/trust/secure-configuration-guide.\n\nEverything else is in the Trust Center after sign-in. Documents tab: Certification Package Overview, Security Decision Record, Ongoing Certification Report, Vulnerability Detail Report, Accepted Vulnerability Info, Historical Vulnerability Evaluation and Reporting Activity, Significant Change Notifications (12 months), Incident Reports and Incident Log, each as JSON and HTML. Each notification and incident report also downloads on its own, in the form FedRAMP's schema validates. KSI Dashboard: each Key Security Indicator with its tests, evidence and the assessor's finding. Requirements: each FedRAMP rule with its statement, validation and the assessor's finding. Policies: the policy and procedure index.\n\nMachine readers: the public Certification Package Overview is at https://boundera.io/api/tc/public/fedramp-trust-center/cpo/; the full documents index is at /api/tc/{customer}/documents/ with a Trust Center API key.",
     "additionalRepositories": [
       {
         "url": "https://boundera.io/tc/fedramp-trust-center",
@@ -67,7 +67,7 @@
         ],
         "repositoryDescription": "Policy and procedure index (CDS-CSO-IRP): each policy and procedure the provider has made visible at the reader's access level, with its name, file, summary, version, date of last update, and related FedRAMP Practices.",
         "authenticationRequired": true,
-        "accessRequestInstructions": "Go to https://boundera.io/tc/fedramp-trust-center\n\nClick Request Access.\n\nYou’ll receive an email once access has been granted."
+        "accessRequestInstructions": "Go to https://boundera.io/tc/fedramp-trust-center and click Request access.\n\nEnter your name, work email and organization. Under \"I represent\", choose \"A federal agency\". Under \"Access needed\", choose \"Full\".\n\nBoundera approves federal reviewers within one business day. No NDA or terms acceptance is required. You receive an email with a sign-in link; sign-in is by email link, no password.\n\nQuestions: security@boundera.io."
       }
     ],
     "nextQuarterlyReviewDate": "2026-11-05",
@@ -117,9 +117,9 @@
       "status": "done"
     },
     {
-      "date": "2026-08-01",
+      "date": "2026-11-09",
       "title": "FedRAMP 20x Class C application submitted",
-      "status": "planned"
+      "status": "done"
     }
   ],
   "serviceIdentification": {
