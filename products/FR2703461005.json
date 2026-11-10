@@ -7,14 +7,14 @@
       "email": "fedramp@m-files.com",
       "phone": "972-516-4210"
     },
-    "version": "0.3.0-draft",
-    "lastUpdated": "2026-10-27T00:00:00Z",
+    "version": "0.5.1",
+    "lastUpdated": "2026-11-06T00:00:00Z",
     "sourceOfUpdate": "Maintained by the M-Files Government Cloud program. The human-readable trust center page is generated from this file."
   },
   "initialImplementationProgress": {
-    "lastUpdated": "2026-09-23",
+    "lastUpdated": "2026-11-06",
     "nextUpdate": "2026-12-31",
-    "listingDate": "TBD: date FedRAMP approves the Initial Implementation listing",
+    "listingDate": "2026-11-06",
     "targetClass": "Class C",
     "certificationPath": "Program",
     "intendedUse": {
@@ -46,10 +46,10 @@
         "detail": "FedRAMP 20x Class C selected via the Program path."
       },
       {
-        "title": "Marketplace listing submitted",
-        "when": "Q4 2026",
-        "status": "active",
-        "detail": "Public information, trust center landing page and use-case statement submitted to FedRAMP."
+        "title": "Marketplace listing approved",
+        "when": "November 2026",
+        "status": "done",
+        "detail": "FedRAMP approved the Initial Implementation Marketplace listing and assigned FedRAMP ID FR2703461005."
       },
       {
         "title": "Federal architecture finalized",
@@ -84,7 +84,7 @@
     ]
   },
   "serviceIdentification": {
-    "fedRampPackageId": "M-Files Government Cloud (MFGC)",
+    "fedRampPackageId": "FR2703461005",
     "ueiNumber": "ELSEKWMYHEL3",
     "providerName": "M-Files Inc.",
     "serviceName": "M-Files Government Cloud",
@@ -173,10 +173,6 @@
       "serviceDescription": "Conversational AI assistant for content understanding and question answering. Enables users to ask natural-language questions, generate document summaries, and receive source-cited answers grounded in vault content, strictly respecting the user's existing vault permissions and access controls. **In scope** Security category: Moderate."
     },
     {
-      "serviceName": "M-Files Hubshare",
-      "serviceDescription": "Secure document sharing and external collaboration solution that enables organizations to work with external parties on shared documents. External users are governed by the same identity and permission controls as internal users. **Scope TBD.** Security category: Moderate."
-    },
-    {
       "serviceName": "Third-party connectors",
       "serviceDescription": "M-Files connected services. Includes M-Files for Salesforce, M-Files for SAP, and M-Files for DocuSign. **Scope TBD.** Security category: Moderate."
     }
@@ -210,5 +206,5 @@
     ]
   },
   "ZD_frid_retro": "FR2703461005",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }

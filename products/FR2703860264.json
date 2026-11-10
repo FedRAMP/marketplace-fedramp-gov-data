@@ -1,0 +1,169 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "metadata": {
+    "version": "2026.11.08",
+    "lastUpdated": "2026-11-08T00:00:00Z",
+    "updateSource": {
+      "type": "git",
+      "repository": "bichart_landing_page",
+      "url": "https://bichart.ai/fedramp/cpo.json",
+      "path": "public/fedramp/cpo.json",
+      "description": "Maintained in BIChart's website repository and published at https://bichart.ai/fedramp/cpo.json. The human-readable page at https://bichart.ai/fedramp is generated from this file at build time; the file is validated against the FedRAMP schema before every deployment."
+    },
+    "accountableOfficial": {
+      "name": "Alec Smith",
+      "title": "Chief Executive Officer",
+      "email": "alec@bichart.ai"
+    }
+  },
+  "serviceIdentification": {
+    "fedRampPackageId": "BIChart Inc. BICP",
+    "ueiNumber": "W5CES866E5W5",
+    "providerName": "BIChart Inc.",
+    "serviceName": "BIChart Platform",
+    "serviceAcronym": "BICP",
+    "serviceDescription": "BIChart Platform is a multi-tenant software-as-a-service application hosted on Amazon Web Services (us-east-1). Agency analytics teams use it in a web browser to assess a Tableau environment and migrate selected content to Microsoft Power BI or Microsoft Fabric as part of an agency-authorized information system.\n\nBIChart connects to Tableau Cloud or a network-reachable Tableau Server with an agency-created Personal Access Token, or an administrator uploads Tableau workbook and data-source files directly. BIChart processes workbook definitions, data-source metadata, usage metadata and operational logs; embedded data extracts in uploaded packages are removed before processing. Converted content can be downloaded as Power BI project files or, when the agency authorizes a Microsoft service principal, published to an agency Fabric workspace. Tableau tokens and Microsoft service-principal credentials configured by the agency are stored in AWS Secrets Manager.",
+    "certificationType": "20x",
+    "website": "https://bichart.ai",
+    "logo": "https://bichart.ai/bichart-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Data Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Assessment Reports"
+      ],
+      "url": "https://trust.bichart.ai/",
+      "repositoryDescription": "BIChart’s trust center. The landing page is public and lists the SOC 2 Type II report and other restricted security documentation.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Open the trust center landing page, select the document you need and use its access request option. Restricted documents are released after BIChart approves the request."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://bichart.ai/fedramp/secure-configuration",
+      "repositoryDescription": "Agency administrator guidance for scoping Tableau access, configuring user and connection access, and reviewing and cleaning up after an assessment or migration.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Marketplace listing progress"
+        ],
+        "url": "https://bichart.ai/fedramp#progress",
+        "repositoryDescription": "Implementation progress and milestone record for BIChart’s FedRAMP 20x listing, updated at least quarterly. The current milestones are carried in the milestones field of this file and rendered on the public page.",
+        "authenticationRequired": false
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "Alec Smith",
+      "contactEmail": "sales@bichart.ai"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "FedRAMP Security Inbox",
+      "contactEmail": "fedramp-security@bichart.ai"
+    }
+  ],
+  "federalUseCase": {
+    "type": "Direct Use",
+    "rule": "MKT-IIP-AGU",
+    "description": "BIChart Platform is intended for Direct Use by agency analytics and reporting programs that migrate Tableau content to Microsoft Power BI or Microsoft Fabric inside an agency-authorized information system that receives an agency Authorization to Operate."
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Migration Assessment",
+      "serviceDescription": "BIChart inventories and assesses an agency’s Tableau environment, including workbooks, data sources, usage, complexity and related metadata, to support migration planning. Results are presented to users of the agency’s BIChart tenant. Assessment data excludes extract payloads and underlying business datasets.",
+      "securityCategory": "Moderate",
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Tableau to Power BI",
+      "serviceDescription": "BIChart converts supported Tableau workbook and data-source content into Power BI project files and semantic models. Agency administrators choose the source content and either download the output or publish it to a Microsoft Fabric workspace they authorize.",
+      "securityCategory": "Moderate",
+      "inMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Tableau Prep to Fabric",
+      "serviceDescription": "BIChart converts supported Tableau Prep flows for use in Microsoft Fabric. Publishing to an agency workspace requires the agency to authorize a Microsoft service principal for the destination; the output can otherwise be downloaded.",
+      "securityCategory": "Moderate",
+      "inMinimumAssessmentScope": true
+    }
+  ],
+  "serviceScope": {
+    "notIncluded": [
+      "Other source platforms marketed on bichart.ai (IBM Cognos, Qlik, SSRS and others) are outside the federal offering at this time.",
+      "The optional BIChart desktop agent for in-network Tableau Server is not part of the federal offering at this time."
+    ]
+  },
+  "milestones": [
+    {
+      "milestone": "SAM.gov registration and Unique Entity Identifier",
+      "target": "2026-10",
+      "status": "complete",
+      "note": "UEI W5CES866E5W5."
+    },
+    {
+      "milestone": "SOC 2 Type II report issued",
+      "target": "2026-10-12",
+      "status": "complete",
+      "note": "Ezzy & Associates LLC; examination period 2026-05-15 to 2026-08-15; Security criteria; report dated 2026-10-12. The auditor's opinion is qualified on three exceptions under the Security criteria. Management remediated them on 2026-07-28, 2026-09-08 and 2026-09-09; quarterly checks run from 2026-10-31. No security incidents occurred during the period. The full report, including the exceptions and remediation detail, is available on the trust center. Basis for FedRAMP 20x Class A (FRC-CLA-ASF)."
+    },
+    {
+      "milestone": "Public offering overview published in JSON and human-readable form",
+      "target": "2026-11-07",
+      "status": "complete",
+      "note": "This file and https://bichart.ai/fedramp (CDS-CSO-PUB, CDS-CSO-CBF)."
+    },
+    {
+      "milestone": "Security category decided for each listed service",
+      "target": "2026-11-07",
+      "status": "complete",
+      "note": "All three services are categorized Moderate (FIPS 199) because they may hold agency-issued credentials and data-source definitions whose disclosure would have a serious adverse effect (CDS-CSO-SVC)."
+    },
+    {
+      "milestone": "Initial Implementation Marketplace listing requested",
+      "target": "2026-11",
+      "status": "planned",
+      "note": "FedRAMP Marketplace Listing Request Form."
+    },
+    {
+      "milestone": "FedRAMP 20x Class A application submitted",
+      "target": "2026-12",
+      "status": "planned",
+      "note": "Submitted after the Initial Implementation listing is granted (FRC-APP-MLF). Based on the SOC 2 Type II report above (FRC-CLA-ASF)."
+    },
+    {
+      "milestone": "FedRAMP 20x Class C assessment to be scheduled with a FedRAMP Recognized assessor",
+      "target": "2027-Q2",
+      "status": "planned",
+      "note": "Class C is the target because its presumption of adequacy covers most Low and Moderate impact agency information systems, where services of Moderate security category are used. An assessment must be scheduled within two years of listing (MKT-IIP-DLA); the assessor will be named here once under contract."
+    },
+    {
+      "milestone": "Next SOC 2 Type II examination period",
+      "target": "TBD",
+      "status": "tbd",
+      "note": "Date to be published when the next examination period is agreed with the auditor."
+    },
+    {
+      "milestone": "Quarterly progress update",
+      "target": "2027-02",
+      "status": "in-progress",
+      "note": "This record is updated at least quarterly (MKT-IIP-DCP)."
+    }
+  ],
+  "ZD_frid_retro": "FR2703860264",
+  "id_matches_expected": false
+}

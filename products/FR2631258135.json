@@ -4,7 +4,7 @@
     "providerName": "Specset",
     "serviceName": "Specset Cloud Platform",
     "serviceAcronym": "SCP",
-    "serviceDescription": "The Specset Cloud Platform is an AI platform for construction document review. It automates technical review across project manuals, drawing sheets and shop drawings: submittal review against project specifications, UFGS (Unified Facilities Guide Specifications) compliance checking, design review automation, asset management logic, and search and question answering across a project's documents. The platform flags potential issues and returns cited answers drawn from the customer's own project documents. Specset is the trade name of Spot.xyz Corporation, formerly Specbook. The SOC 2 Type II report supporting this package is issued to Spot.xyz Corporation DBA Specset, and the Unique Entity Identifier above is registered to that entity. FedRAMP ID FR2631258135 is the sole active Marketplace listing for this offering; a duplicate listing created at intake, FR2631747321, is pending retirement, requested 2026-08-31.",
+    "serviceDescription": "The Specset Cloud Platform is an AI platform for construction document review. It automates technical review across project manuals, drawing sheets and shop drawings: submittal review against project specifications, UFGS (Unified Facilities Guide Specifications) compliance checking, design review automation, asset management logic, and search and question answering across a project's documents. The platform flags potential issues and returns cited answers drawn from the customer's own project documents. Specset is the trade name of Spot.xyz Corporation, formerly Specbook. The SOC 2 Type II report supporting this package is issued to Spot.xyz Corporation DBA Specset, and the Unique Entity Identifier above is registered to that entity. FedRAMP ID FR2631258135 is the only Marketplace listing for this offering; the duplicate created at intake, FR2631747321, is no longer listed.",
     "certificationType": "20x",
     "fedRampPackageId": "FR2631258135",
     "website": "https://specset.com",
@@ -28,7 +28,7 @@
         "Assessment Reports"
       ],
       "url": "https://trust.specset.com",
-      "repositoryDescription": "Specset Trust Center, the single repository for FedRAMP Certification Data for the Specset Cloud Platform. The landing page, compliance posture summary, subprocessor list and FedRAMP milestone information are public. The Class A certification data has been published there since 2026-09-14 as restricted resources, with no non-disclosure agreement or acceptance of terms required. Twenty-four are open to access requests; the documentation list here names each document. The two SOC 2 engagement letters and the management representation letter are private, supplied on request to fedramp@specset.com.",
+      "repositoryDescription": "Specset Trust Center, the single repository for FedRAMP Certification Data for the Specset Cloud Platform. The landing page, compliance posture summary, subprocessor list and FAQ are public. Specset's dated progress toward FedRAMP Certification (MKT-IIP-DCP) is published at https://www.specset.com/security#fedramp-progress. The Class A certification data has been published there since 2026-09-14 as restricted resources, with no non-disclosure agreement or acceptance of terms required. FedRAMP certified the offering at 20x Class A on 2026-11-06, and FedRAMP's Certification Report has been there since that day. Twenty-five are open to access requests; the documentation list here names each document. The two SOC 2 engagement letters and the management representation letter are private, supplied on request to fedramp@specset.com.",
       "authenticationRequired": true,
       "accessRequestInstructions": "The landing page at https://trust.specset.com requires no login. FedRAMP staff and agency reviewers request access to the restricted FedRAMP Certification Data from the Trust Center page. Requests from fedramp.gov and gsa.gov email addresses are approved automatically; Specset approves all other requests manually. Specset does not require acceptance of terms or a non-disclosure agreement. If a request is not approved within one business day, email fedramp@specset.com."
     },
@@ -306,7 +306,7 @@
       {
         "name": "Anthropic API (Claude, direct)",
         "provider": "Anthropic, PBC",
-        "useCase": "Direct Claude model inference for a small set of models not served through Amazon Bedrock, selectable only by Specset administrators; prompts may include customer document text. Never enabled for organizations in CUI mode.",
+        "useCase": "Direct Claude model inference for a small set of models not served through Amazon Bedrock, selectable only by Specset administrators; prompts may include customer document text. Never enabled for organizations in CUI mode. Retired on 2026-11-05: the application no longer calls this API and its egress allowance is removed, so no information flow reaches it; the entry stays until the information-resources inventory edition that retires the record.",
         "website": "https://www.anthropic.com"
       },
       {
@@ -383,15 +383,110 @@
       }
     ]
   },
+  "informationFlows": {
+    "summary": "Customer data enters only through HTTPS to Google Cloud load balancers and is processed and stored inside the Google Cloud Assured Workloads project specset-prod-assured (us-west1; Cloud Storage in the US multi-region). Kubernetes network policies limit the workloads' connections, and the application server and workers may reach only the 33 hostnames on the egress allow-list. Which of those an organization's data may reach is decided per organization: in CUI mode, model processing, embeddings and web grounding use only Vertex AI in the Assured Workloads project at location us, and the commercial model providers, web search, the hosted scraping service, support chat and the construction integrations are disabled.",
+    "securityCategory": "The offering is categorized Moderate. Each third-party information resource carries its own FIPS 199 category in the information-resources inventory.",
+    "machineReadable": "Permitted connections (MAS-CSO-FLO): every permitted connection between the offering's components and to external resources, generated from the deployed configuration, with the code and the derivation. Listed under documentation.",
+    "flows": [
+      {
+        "name": "Customer access",
+        "from": "Customer users' browsers, the specset command-line tool and MCP clients",
+        "to": "Application API server and static web application (inside the boundary)",
+        "path": "HTTPS (TLS 1.2+ policy) to Google Cloud's global external Application Load Balancer; API requests pass Cloud Armor; static files come from Cloud Storage",
+        "data": "Customer content, account data and credentials",
+        "securityCategory": "Moderate"
+      },
+      {
+        "name": "Support chat",
+        "from": "Customer users' browsers, for organizations not in CUI mode",
+        "to": "Intercom (United States hosting)",
+        "path": "HTTPS from the in-app support messenger; the messenger never loads for an organization in CUI mode",
+        "data": "Customer users' contact details and identification hashes, and support conversation content; no project documents",
+        "securityCategory": "Moderate"
+      },
+      {
+        "name": "Processing and storage",
+        "from": "Application API server and workers",
+        "to": "Cloud SQL for PostgreSQL, Memorystore for Redis, Qdrant, Temporal and Cloud Storage (inside the boundary)",
+        "path": "Private addresses inside the project's VPC for the database, cache, vector database and workflow service, with TLS verified by the client on every hop; Cloud Storage through its Google API host",
+        "data": "Customer content, documents, embeddings and workflow state",
+        "securityCategory": "Moderate"
+      },
+      {
+        "name": "AI processing for organizations in CUI mode",
+        "from": "Application API server and workers",
+        "to": "Vertex AI, project specset-prod-assured, location us (aiplatform.us.rep.googleapis.com)",
+        "path": "HTTPS; Workload Identity, no keys",
+        "data": "Prompts, document content and embeddings",
+        "securityCategory": "Moderate"
+      },
+      {
+        "name": "AI processing for other organizations",
+        "from": "Application API server and workers",
+        "to": "Vertex AI (commercial route, project specbook-production, global), Amazon Bedrock, Azure OpenAI, Cloudflare Workers AI, Google AI Studio, and Perplexity for web search",
+        "path": "HTTPS to each provider's listed hostnames only",
+        "data": "Prompts and document content of organizations not in CUI mode",
+        "securityCategory": "Moderate (each provider's category is in the inventory)"
+      },
+      {
+        "name": "Email",
+        "from": "Application workers and API server",
+        "to": "Amazon SES (us-west-2); for email received at project addresses, the receiving S3 bucket and SQS queue (workers only)",
+        "path": "HTTPS; federated AWS role, no static keys",
+        "data": "Recipient addresses and notification content, and email received for project addresses; notifications to organizations in CUI mode carry no project content, and those organizations have no project address",
+        "securityCategory": "Moderate"
+      },
+      {
+        "name": "Customer sign-in",
+        "from": "Application API server and workers",
+        "to": "Google Sign-In and Microsoft Entra ID",
+        "path": "HTTPS (OpenID Connect)",
+        "data": "Identity tokens and profile claims",
+        "securityCategory": "Moderate"
+      },
+      {
+        "name": "Customer-initiated integrations and public data",
+        "from": "Application API server and workers",
+        "to": "Procore and Autodesk Platform Services (the customer's own tenant; disabled in CUI mode), Firecrawl (public bid portals; disabled in CUI mode), NOAA and National Weather Service APIs (project-site coordinates)",
+        "path": "HTTPS to each service's listed hostnames only",
+        "data": "As described for each in the inventory",
+        "securityCategory": "Moderate or Low, per the inventory"
+      },
+      {
+        "name": "Website inquiries",
+        "from": "Application API server",
+        "to": "Slack (incoming webhook)",
+        "path": "HTTPS to hooks.slack.com only",
+        "data": "Prospect contact details from the public website's contact form; no customer content or customer-user data",
+        "securityCategory": "Moderate"
+      },
+      {
+        "name": "Administration",
+        "from": "Specset's two founders",
+        "to": "Cluster and administrative interfaces",
+        "path": "Identity-Aware Proxy (Google Workspace sign-in with security keys) for the workflow console; Connect Gateway to the private cluster control plane; per-task administrative access through Privileged Access Manager",
+        "data": "Operational metadata; customer data through the founders' read identities (stored files through the gcs-reader service account; database rows of organizations not in CUI mode through the read-only inspection tunnel, approved per session) and through per-task administrative access under Privileged Access Manager",
+        "securityCategory": "Moderate"
+      },
+      {
+        "name": "Engineering assistants",
+        "from": "Claude Code and OpenAI Codex on operator laptops (the two technical founders and a developer)",
+        "to": "Anthropic and OpenAI model inference (each provider's API; no processing-region selection)",
+        "path": "What the assistant reads with the operator's own access is sent to the provider. Infrastructure reads go through the read-only service account; database rows through the SELECT-only, time-limited tunnel whose start the operator approves each session",
+        "data": "Operational data and what the operator has the assistant read, which can include customer data of organizations not in CUI mode. Data of organizations in CUI mode must not reach an engineering assistant; the read-only service account cannot read their database rows and sees their application log entries only as sanitized copies",
+        "securityCategory": "Moderate"
+      }
+    ]
+  },
   "metadata": {
     "accountableOfficial": {
       "name": "Gordon Hempton",
       "title": "CEO and Co-Founder",
       "email": "gordon@specset.com"
     },
-    "version": "2026.10.30",
-    "lastUpdated": "2026-11-04T05:28:00Z",
-    "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Version 2026.10.30, published with Security Decision Record v2026.09.14.16, follows version 2026.10.21, the last one published; version 2026.10.28 was merged into this repository but never published, and its changes are part of this version. Since 2026.10.21: the Claude Code and Codex entries say who runs them, a technical founder or, since 2026-10-23, a developer whose only production access is minting the read-only service account's tokens; Cursor is listed: its GitHub App has worked on the marketing website's source since 2026-09-29, and a developer has used its local agent on the application and infrastructure source since 2026-10-23; the Vanta entry, which said no customer data, says what its scanner's grant could read until 2026-10-29 and that since then its roles do not list log entries, Data Access audit-log entries or bucket objects; the AWS entry says what Amazon SES notifications carry and adds the email received for project addresses since 2026-10-29. The cryptographic module list says that since 2026-10-30 the application's Node.js processes run on the OpenSSL FIPS Provider, FIPS 140-3 certificate 4985, and names what stays outside a validated module or its approved mode, where it had said the TLS libraries inside the containers Specset runs are not validated; it no longer lists the administrative load balancer's path to the vector database, retired on 2026-10-26, names the commercial Vertex AI route and gives the deployed component versions. The policy and procedure reference is regenerated, each repository document dated by when its change reached the main branch (UTC): the Vulnerability Management Procedure at edition 2026-10-22, the privileged access procedure at edition 2026-10-31, the significant change notification and representative-samples procedures at edition 2026-10-17, and the Secure Configuration Guide last updated 2026-10-21. Earlier versions are in this repository's history."
+    "version": "2026.11.09",
+    "lastUpdated": "2026-11-09T17:27:00Z",
+    "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Version 2026.11.09, published with Security Decision Record v2026.09.14.16, follows version 2026.11.06. Since 2026.11.06: the overview carries the information flows (MAS-CSO-FLO), support chat and the engineering assistants included, and names the permitted-connections document; the direct Anthropic API entry says that route was retired on 2026-11-05; the Ongoing Certification Report entry names the feedback route (CCM-OCR-FBM); the service description says FR2631747321 is no longer listed; the trust center description points to the dated progress on www.specset.com/security. Earlier versions are in this repository's history."
   },
   "documentation": [
     {
@@ -403,7 +498,7 @@
     {
       "name": "Ongoing Certification Report (OCR) — example",
       "type": "JSON + Markdown (FedRAMP 2026-06-24 schema)",
-      "summary": "Schema-conformant example of the quarterly report of certification-data changes, planned changes, accepted vulnerabilities, agencies and reportable incidents, labeled as an example. The first report is due 2026-12-01.",
+      "summary": "Schema-conformant example of the quarterly report of certification-data changes, planned changes, accepted vulnerabilities, agencies and reportable incidents, labeled as an example. The first report is due 2026-12-01. Questions and feedback about any report go to fedramp@specset.com, from any sender and at any time (CCM-OCR-FBM); a founder answers within 2 business days, and the next report summarizes the questions and answers without identifying who asked.",
       "availability": "Supplied with the Class A application; a restricted trust-center resource open to access requests since 2026-09-14, no NDA."
     },
     {
@@ -483,6 +578,18 @@
       "type": "Web page",
       "summary": "The Secure Configuration Guide for the administrators of a customer organization: the roles that control an organization, the recommended security settings for an organization that holds federal information or CUI, managing Admin accounts, and account access. The Secure Configuration Guide rules (SCG-CSO) apply to Classes B, C and D, not to Class A; the guide was published on 2026-10-03, ahead of the Class C application, and is linked from serviceProperties.secureConfigurationGuidance in this document.",
       "availability": "Public, no login: https://docs.specset.com/docs/secure-configuration"
+    },
+    {
+      "name": "FedRAMP Certification Report (Class A)",
+      "type": "PDF, as FedRAMP issued it",
+      "summary": "FedRAMP's Certification Report for the 20x Class A certification of the Specset Cloud Platform, issued 2026-11-06: FedRAMP's certification letter, its validation report and its feedback. SHA-256 of the file as FedRAMP issued it: 4895a80c260103cf6ad1327e1fc084fecce2244f8a35ad25cf8eb9ebf9815354.",
+      "availability": "Trust center (trust.specset.com), restricted resource open to access requests since 2026-11-06, no NDA; the same file, byte for byte, is in the certification-data bucket (https://www.specset.com/fedramp/programmatic-access)"
+    },
+    {
+      "name": "Permitted connections (MAS-CSO-FLO)",
+      "type": "JSON + Markdown (generated), with the generator and the derivation",
+      "summary": "Every permitted connection between the components of the offering and to external information resources, derived from the Kubernetes network policies, the egress allow-list, the load-balancer configuration and the firewall, each joined to its information-resources record and security category; and each machine identity with what it may reach.",
+      "availability": "Class C package document; supplied on request to fedramp@specset.com until the Class C package is filed with it."
     }
   ],
   "policiesAndProcedures": [
@@ -552,9 +659,9 @@
       "type": "Procedure",
       "file": "https://docs.specset.com/docs/secure-configuration",
       "summary": "For the administrators of a customer organization: the accounts that control an organization, the recommended security settings for one holding federal information or CUI, and how account access is requested and recovered.",
-      "wordCount": 1355,
+      "wordCount": 1684,
       "currentVersion": "2026.09.18.2",
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-11-06",
       "relatedFedRampPractices": [
         "SCG-CSO-RSC",
         "SCG-CSO-PUB",
@@ -601,9 +708,9 @@
       "type": "Procedure",
       "file": "significant-change-notification.md",
       "summary": "How each production change is evaluated for significance, confirmed by an operator, recorded and, when significant, notified.",
-      "wordCount": 3151,
-      "currentVersion": "edition 2026-10-17",
-      "lastUpdated": "2026-10-17",
+      "wordCount": 3171,
+      "currentVersion": "edition 2026-11-06",
+      "lastUpdated": "2026-11-06",
       "relatedFedRampPractices": [
         "SCN (all rules)",
         "KSI-CMT-LMC"
@@ -629,9 +736,9 @@
       "type": "Procedure",
       "file": "privileged-access.md",
       "summary": "How the founders obtain administrative access to production per task, with a reason and for a limited time, through Privileged Access Manager, and the last-resort path.",
-      "wordCount": 4055,
-      "currentVersion": "edition 2026-10-31",
-      "lastUpdated": "2026-10-31",
+      "wordCount": 4056,
+      "currentVersion": "edition 2026-11-06",
+      "lastUpdated": "2026-11-06",
       "relatedFedRampPractices": [
         "KSI-IAM-JIT",
         "KSI-IAM-ELP"

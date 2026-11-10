@@ -32,7 +32,16 @@
       "repositoryDescription": "Factory Trust Center with security and compliance documentation. FedRAMP milestones and progress are available at https://trust.factory.com.",
       "authenticationRequired": true,
       "accessRequestInstructions": "Request access at https://trust.factory.com."
-    }
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.factory.com/enterprise",
+      "repositoryDescription": "Factory for Enterprise documentation: identity, access, and Enterprise Controls.",
+      "authenticationRequired": false
+    },
+    "nextOngoingCertificationReportDate": "2027-02-11"
   },
   "contactInformation": [
     {
@@ -42,6 +51,44 @@
     {
       "contactType": "Sales",
       "contactEmail": "federal@factory.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Factory web app and Admin Console",
+      "serviceDescription": "Browser app for Droid sessions and organization administration. Security category: Moderate."
+    },
+    {
+      "serviceName": "Factory API",
+      "serviceDescription": "Programmatic access to sessions, organization settings, and model requests. Security category: Moderate."
+    },
+    {
+      "serviceName": "Cloud Droids",
+      "serviceDescription": "Factory-managed, isolated compute where Droids run. Security category: Moderate."
+    },
+    {
+      "serviceName": "Factory Router and BYOK",
+      "serviceDescription": "Routes tasks to approved models; supports agency-supplied model keys. Security category: Moderate."
+    },
+    {
+      "serviceName": "Automations",
+      "serviceDescription": "Scheduled and event-driven Droid workflows. Security category: Moderate."
+    },
+    {
+      "serviceName": "Delegations",
+      "serviceDescription": "Assigning work to Droids from Slack, Linear, Jira, and Microsoft Teams. Security category: Moderate."
+    },
+    {
+      "serviceName": "AutoWiki",
+      "serviceDescription": "Generated codebase documentation. Security category: Moderate."
+    },
+    {
+      "serviceName": "Agent Readiness",
+      "serviceDescription": "Assessment of repository readiness for agent-driven work. Security category: Moderate."
+    },
+    {
+      "serviceName": "Audit log and OpenTelemetry export",
+      "serviceDescription": "Organization audit events and telemetry export. Security category: Moderate."
     }
   ],
   "ZD_frid_retro": "FR2703160255",
