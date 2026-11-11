@@ -66,31 +66,31 @@
   "certifiedServices": [
     {
       "serviceName": "OpenLM Platform - Monitoring plan",
-      "serviceDescription": "Monitors all application types (network, named user, standalone): license server monitoring, agent-based usage monitoring and discovery (applications and web URLs), usage, denials and inventory reporting, identification of unused license features, and directory synchronization. Security category: Low."
+      "serviceDescription": "Monitors all application types (network, named user, standalone): license server monitoring, agent-based usage monitoring and discovery (applications and web URLs), usage, denials and inventory reporting, identification of unused license features, and directory synchronization. Security category: Moderate."
     },
     {
       "serviceName": "OpenLM Platform - Automation plan",
-      "serviceDescription": "Everything in the Monitoring plan, plus project and group usage, alerts and notifications with ITSM integration, DLL monitoring, compliance and SAM cost management, geo compliance, roles and permissions, and License Access Control. Security category: Low."
+      "serviceDescription": "Everything in the Monitoring plan, plus project and group usage, alerts and notifications with ITSM integration, DLL monitoring, compliance and SAM cost management, geo compliance, roles and permissions, and License Access Control. Security category: Moderate."
     },
     {
       "serviceName": "Actual Usage and License Harvesting",
-      "serviceDescription": "Add-on to either plan (additional tokens required): idle session monitoring and automatic reclaiming of unused licenses. Security category: Low."
+      "serviceDescription": "Add-on to either plan (additional tokens required): idle session monitoring and automatic reclaiming of unused licenses. Security category: Moderate."
     },
     {
       "serviceName": "License Access Control",
-      "serviceDescription": "Included in the Automation plan; available as an add-on or standalone service: controls who can access which licenses. Security category: Low."
+      "serviceDescription": "Included in the Automation plan; available as an add-on or standalone service: controls who can access which licenses. Security category: Moderate."
     },
     {
       "serviceName": "OpenLM Analytics",
-      "serviceDescription": "Add-on, not included in the plans: advanced license usage analytics and reporting. Security category: Low."
+      "serviceDescription": "Add-on, not included in the plans: advanced license usage analytics and reporting. Security category: Moderate."
     },
     {
       "serviceName": "OpenLM LicOps for HPC",
-      "serviceDescription": "Add-on, not included in the plans: license operations for high-performance computing environments. Security category: Low."
+      "serviceDescription": "Add-on, not included in the plans: license operations for high-performance computing environments. Security category: Moderate."
     },
     {
       "serviceName": "Dongle Monitoring",
-      "serviceDescription": "Add-on, not included in the plans: monitoring of USB license dongles and hardware keys: location, usage and unauthorized devices. Security category: Low."
+      "serviceDescription": "Add-on, not included in the plans: monitoring of USB license dongles and hardware keys: location, usage and unauthorized devices. Security category: Moderate."
     }
   ],
   "ZD_frid_retro": "FR2703460985",

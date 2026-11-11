@@ -75,7 +75,7 @@
     "whereWeStand": [
       "Enablement is listed in the FedRAMP Marketplace under FedRAMP ID FR2628647239 at the Initial Implementation stage. It is not FedRAMP certified and holds zero FedRAMP authorizations. Nothing in this statement claims otherwise.",
       "The certification being pursued is a FedRAMP 20x Class C Program Certification. No date for obtaining it is promised anywhere on this page, because that decision belongs to FedRAMP, not to Advent.",
-      "Advent tracks 45 FedRAMP rules covering certification data sharing, trust center operation, cryptographic module use, minimum assessment scope, and vulnerability detection and response against its own implementation. Current standing: 22 met, 15 partially met, 2 with known gaps, 3 not applicable to this offering, and 3 not currently triggered. These counts are recomputed from the rule-by-rule verdict data every time this page is generated, so they can move between quarterly statements; the dated figures elsewhere in this statement stay as written.",
+      "Advent tracks 45 FedRAMP rules covering certification data sharing, trust center operation, cryptographic module use, minimum assessment scope, and vulnerability detection and response against its own implementation. Current standing: 24 met, 15 partially met, 2 with known gaps, 3 not applicable to this offering, and 1 not currently triggered. These counts are recomputed from the rule-by-rule verdict data every time this page is generated, so they can move between quarterly statements; the dated figures elsewhere in this statement stay as written.",
       "All 46 Key Security Indicators report at least one active automated validation method, and 42 of 46 report two or more. Verified against the daily evidence snapshot of 2026-08-11. Per-indicator evidence is available to agencies and assessors through the access-controlled endpoints listed on this page."
     ]
   },
@@ -308,19 +308,19 @@
       "status": "https://enablement.cc/ml/20x/status",
       "trust": "https://enablement.cc/ml/20x/trust"
     },
-    "rulesVersion": "2026.09.13.02",
+    "rulesVersion": "2026.11.02.01",
     "schemaPin": "2026-06-24",
     "schemaPinSynced": "2026-10-28"
   },
   "metadata": {
-    "lastUpdated": "2026-10-31T03:26:09Z",
+    "lastUpdated": "2026-11-11T02:30:30Z",
     "responsibleOfficial": {
       "contactEmail": "rajesh@adventbusiness.com",
       "name": "Rajesh Gupta",
       "title": "Vice President and Secretary, System Owner and ISSO, Advent Business Company Inc."
     },
     "updateSource": "Generated at request time by the deployed certification-data service; content changes reach it only through the automated build and deployment pipeline under Advent's change management procedure.",
-    "version": "1.0.0+ed68d386"
+    "version": "1.0.0+e09c635d"
   },
   "ongoingCertificationReportFeedback": {
     "acknowledgement": "Automatic on receipt (AFC-CSO-ACK mechanism, shared).",
@@ -352,7 +352,7 @@
     "deploymentModel": "Government Community Cloud",
     "description": "**Enablement®: Own your compliance. Send nothing out. Need no experts, no AI.**\n\nMost compliance platforms make you hire specialists, wire in third-party services, and increasingly hand your data to AI you cannot audit. Enablement flips that. It is a self-contained, deterministic, zero-trust platform where your teams build and run everything visually, and nothing ever leaves your boundary.\n\n1. **No-code process building. No developers, no AI, no token bills.** Business users design complete workflows (BPMN) visually and get web and mobile interfaces generated automatically. No coding, no integration team, no consultants. The engine is deterministic rather than generative: it never hallucinates, never invents an answer, and costs nothing per token. What you design is exactly what runs, the same way every time, fully auditable.\n2. **Deploy anywhere. True portability.** Run Enablement in any commercial cloud, any government cloud, your own data center, or as a fully self-contained appliance. No cloud lock-in, no vendor-specific dependency. Move it, mirror it, or air-gap it.\n3. **Rapid CMMC Level 2 compliance, with continuous monitoring built in.** CMMC Level 2 readiness comes out of the box, backed by native, always-on continuous monitoring. No separate scanning products to buy, license, or integrate. Assess, monitor, and produce authorization evidence from day one, on a single system.\n4. **A genuine zero-trust boundary. Your data never touches a third party.** Your source code lives in its own repository. No data is sent to any outside service for authentication, code analysis, container scanning, file scanning, or continuous monitoring. Nothing is shipped to a SaaS, a scanning vendor, or an AI provider. What happens in your boundary stays in your boundary.\n5. **Access control and document marking that remove human error.** Fine-grained role-based and attribute-based access control (RBAC and ABAC) governs exactly who can see and do what. Documents are marked automatically to federal standards (DoW and NARA). No manual labeling, no inconsistent tags, no mislabeled files. The platform does the marking so people cannot get it wrong.\n6. **Stop data leaks before they happen.** Human error is the number one cause of data spillage. Enablement checks every share and warns before a document reaches unauthorized personnel, catching the mistake at the moment of sharing rather than after a breach. A potential disclosure, and the liability that follows, becomes a blocked action.\n7. **Every authentication method, and your password never reaches the server.** Passkeys, single sign-on (SSO), authenticator apps, email, and more. The password is proven with a challenge-response, so the secret never leaves the user's device; the server stores only a verifier and salt, never the password or any recoverable form of it. Strong, flexible, phishing-resistant sign-in without ever transmitting the credential.\n8. **One control set, three frameworks.** Policies and controls are written once and mapped to FedRAMP 20x Key Security Indicators, CMMC Level 2 practices, and SOC 2 Trust Services Criteria. A Section 508 Accessibility Conformance Report (VPAT 2.5) is available on request. Built by CMMI-appraised, ISO-certified Advent.\n\n**Intended agency use.** Enablement is intended for both FedRAMP use cases: direct use by agency customers, and indirect use as a third-party information resource inside other cloud service offerings that agencies use directly.\n\nLive evidence: [FedRAMP Trust Center](https://enablement.cc/ml/20x/trust) · [Secure Configuration Guide](https://enablement.cc/ml/20x/scg) · [enablement.company](https://enablement.company)",
     "fedRampId": "FR2628647239",
-    "fedRampPackageId": "ADVENTBUSINESS-ENB",
+    "fedRampPackageId": "FR2628647239",
     "impactLevel": "Moderate",
     "implementationPhase": "Initial Implementation",
     "logo": "https://enablement.cc/assets/enablement/logo.png",
@@ -415,7 +415,7 @@
       {
         "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
         "authenticationRequired": true,
-        "repositoryDescription": "KSI evidence report (FRC-CSX-VVK / FRC-CSX-MOT)",
+        "repositoryDescription": "KSI evidence report (FRC-CSX-VVK / SDR-CSX-KMT)",
         "repositoryType": [
           "Machine-Readable Authorization Data"
         ],
@@ -918,5 +918,5 @@
     "summaryUri": "https://enablement.cc/ml/20x/access-log-summary"
   },
   "ZD_frid_retro": "FR2628647239",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }

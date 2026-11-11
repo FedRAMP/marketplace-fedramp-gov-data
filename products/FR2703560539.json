@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.0.1",
-    "lastUpdated": "2026-11-05T00:00:00.000Z",
+    "version": "1.0.2",
+    "lastUpdated": "2026-11-11T00:00:00.000Z",
     "updateSource": "Paramify, Inc.",
     "responsibleOfficial": {
       "name": "Knocknoc Security Team",
@@ -11,7 +11,7 @@
     }
   },
   "serviceIdentification": {
-    "fedRampPackageId": "Pending FedRAMP Marketplace Listing and ID",
+    "fedRampPackageId": "FR2703560539",
     "ueiNumber": "L846F459E447",
     "providerName": "Knocknoc",
     "serviceName": "Knocknoc",
@@ -19,7 +19,7 @@
     "serviceDescription": "Knocknoc is a prevention-first cybersecurity capability that removes attack surface before adversaries can exploit them. By orchestrating existing firewall and control infrastructure to enforce default-deny posture, Knocknoc makes protected systems invisible on the network until a legitimate user authenticates - eliminating standing access and exposure. The platform requires no client installation, has no VPN dependency and can run without Internet or be entirely air-gapped, enabling deployment across enterprise, critical infrastructure, and government environments in under a day. Knocknoc is purpose-built for complex, high-security on-premise environments.",
     "certificationType": "20x",
     "website": "https://www.knocknoc.io/",
-    "logo": "https://www.knocknoc.io/wp-content/uploads/2022/12/Knocknoc_long_darkbg_Medium_transprent.png"
+    "logo": "https://knocknoc.io/wp-content/uploads/2026/11/Knocknoc_stacked_darkbg_Large.png"
   },
   "serviceProperties": {
     "serviceType": [
@@ -90,9 +90,8 @@
     },
     {
       "contactType": "Sales",
-      "contactName": "Michael Baker",
-      "contactEmail": "michael@knocknoc.io",
-      "contactPhone": "206-539-0423"
+      "contactName": "Hello @ Knocknoc",
+      "contactEmail": "hello@knocknoc.io"
     },
     {
       "contactType": "Authorizing Official",
@@ -148,5 +147,5 @@
     ]
   },
   "ZD_frid_retro": "FR2703560539",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }
