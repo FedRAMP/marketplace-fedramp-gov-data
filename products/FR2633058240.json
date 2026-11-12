@@ -42,9 +42,8 @@
           "Assessment Reports"
         ],
         "url": "https://trust.ultra.security",
-        "repositoryDescription": "A-LIGN FedRAMP 20x Class B independent assessment report v3.2 (CR26) (assessed 2026-08-12; 203 of 203 rules met, 0 findings). Per-rule Assessment Process & Findings are included in the Security Decision Record per FedRAMP IVV. Included in the certification package per IVV-CSO-ICP.",
-        "authenticationRequired": true,
-        "accessRequestInstructions": "Request via the document-request control in Ultra's trust center (trust.ultra.security); approved requests are granted access."
+        "repositoryDescription": "A-LIGN FedRAMP 20x Class B independent assessment v3.2 (CR26) (assessed 2026-08-12; 203 of 203 rules and KSIs met, 0 findings), published on the trust center as a labeled copy with personal, customer and AWS account names redacted; the original is available to FedRAMP on request. Per-rule assessment summaries are in the Security Decision Record (IVV-CSO-ICP).",
+        "authenticationRequired": false
       },
       {
         "repositoryType": [
@@ -55,7 +54,7 @@
         "authenticationRequired": false
       }
     ],
-    "nextOngoingCertificationReportDate": "2026-11-13"
+    "nextOngoingCertificationReportDate": "2027-02-12"
   },
   "contactInformation": [
     {
@@ -81,7 +80,7 @@
   "certifiedServices": [
     {
       "serviceName": "Ultra Agentic Security Platform",
-      "serviceDescription": "The FedRAMP-assessed cloud service offering: the Ultra Hub control plane (org/team/workspace management, identities, governance, guardrails, and telemetry) and its AWS-hosted data stores. This is the Minimum Assessment Scope, categorized Low (FedRAMP 20x Class B baseline). The product also includes a customer-deployed enforcement point that runs client-side in the customer's environment; per FedRAMP guidance a customer-deployed/hosted component is always outside the assessment scope and is not part of this certified service (where an agency deploys it, it is covered under that agency's ATO).",
+      "serviceDescription": "The FedRAMP-assessed cloud service offering: the Ultra Hub control plane (org/team/workspace management, identities, governance, guardrails, and telemetry) and its AWS-hosted data stores. This is the Minimum Assessment Scope, categorized Low (FedRAMP 20x Class B baseline). The product also includes a customer-deployed enforcement point that runs client-side in the customer's environment; per FedRAMP guidance a customer-deployed/hosted component is always outside the assessment scope and is not part of this certified service (where an agency deploys it, it is covered under that agency's ATO). Includes the hosted MCP gateway (mcp.ultra.security), an Ultra-operated alternative to the customer-deployed enforcement point.",
       "dateAvailable": "2026-08-12"
     }
   ],
@@ -98,6 +97,18 @@
         "provider": "Google LLC",
         "website": "https://workspace.google.com",
         "useCase": "Corporate email and productivity (FedRAMP High authorized); limited handling of federal customer communications."
+      },
+      {
+        "name": "Braintrust",
+        "provider": "Braintrust Data",
+        "website": "https://www.braintrust.dev",
+        "useCase": "Evaluation and monitoring telemetry for the Hub's anomaly-detection judge: metrics-only spans and evaluation results exported from production over a bounded OTLP exporter (off unless enabled). Mitigations: Telemetry is limited to evaluation metrics and does not include Federal Customer Data; dedicated project and service identity; TLS in transit; tracked in Ultra's Vanta vendor inventory."
+      },
+      {
+        "name": "Stripe",
+        "provider": "Stripe, Inc.",
+        "website": "https://stripe.com",
+        "useCase": "Self-serve plans and payments: customer billing contact, payment-method tokens (card entry is Stripe-hosted, so card data goes directly to Stripe), and monthly per-organization action counts for invoicing. Mitigations: No Federal Customer Data sent to Stripe (billing contact, payment tokens and usage counts only); Stripe-hosted card elements; TLS in transit; tracked in Ultra's Vanta vendor inventory."
       }
     ]
   },

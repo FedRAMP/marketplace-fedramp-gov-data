@@ -278,6 +278,10 @@
         "useCase": "AWS US East/West — supporting services: Amazon SES (outbound transactional email and, since 2026-10-29, email received for project addresses), Route 53 (DNS), S3 (CI build cache, CloudTrail audit logs, a legacy database-backup bucket from the pre-2026 hosting platform, and received email), SQS (received-email notifications), GuardDuty (threat detection), and Amazon Bedrock (Claude model inference entered in us-west-2 through global cross-Region inference profiles, which may process requests in any AWS commercial Region; for organizations not in CUI mode only; prompts may include customer document text). For an organization not in CUI mode, notification bodies may carry project content, and a submittal-review notification attaches the marked-up review PDF (on unless the project turns it off) and the review spreadsheet (off unless the project turns it on). Since 2026-10-21 05:32 UTC an organization in CUI mode receives, in place of each notification that can carry project content, a notice with a link and no project content or attachment; the link resolves only for an authenticated member of the organization. Since 2026-10-29 Amazon SES also receives email for project addresses (projects.specset.com): SES accepts the message outside the boundary, scans it, writes it to a KMS-encrypted S3 bucket in the same account and notifies an encrypted SQS queue, and the workers read the queue and the object and delete them. Project addresses are only for organizations with the project email feature and never for organizations in CUI mode; no organization has the feature as of 2026-10-30, and the bucket deletes a message after four days."
       },
       {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "AWS GovCloud (US): Amazon Bedrock (Claude model inference) for organizations in CUI mode, with the IAM role the production application assumes for those calls, CloudTrail, KMS and GuardDuty. Not enabled: the setting that turns the route on is off, so no organization's data reaches it, and organizations in CUI mode use only Vertex AI in the Assured Workloads project for model calls."
+      },
+      {
         "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
         "useCase": "Azure Commercial Cloud — Azure OpenAI (GPT model inference for organizations not in CUI mode; prompts may include customer document text), Microsoft Entra ID application registrations for customer 'Sign in with Microsoft' single sign-on, and a Windows evaluation lab in the same subscription, whose runbook allows public or synthetic files only (not technically enforced)."
       },
@@ -303,12 +307,6 @@
       }
     ],
     "nonCertified": [
-      {
-        "name": "Anthropic API (Claude, direct)",
-        "provider": "Anthropic, PBC",
-        "useCase": "Direct Claude model inference for a small set of models not served through Amazon Bedrock, selectable only by Specset administrators; prompts may include customer document text. Never enabled for organizations in CUI mode. Retired on 2026-11-05: the application no longer calls this API and its egress allowance is removed, so no information flow reaches it; the entry stays until the information-resources inventory edition that retires the record.",
-        "website": "https://www.anthropic.com"
-      },
       {
         "name": "Intercom",
         "provider": "Intercom, Inc.",
@@ -360,13 +358,19 @@
       {
         "name": "OpenAI Codex — engineering assistant",
         "provider": "OpenAI",
-        "useCase": "Coding assistant run on operator laptops by the two technical founders and, since 2026-10-23, a developer, in the assessment scope on the same terms as Claude Code. It acts with the operator's own access, under the operator's responsibility for what it reads and the rule that data of organizations in CUI mode must not reach an engineering assistant. It reads the infrastructure as the same read-only service account, which has no write permission on production, and reads database rows through the same SELECT-only, time-limited tunnel, whose start the person running it approves. Every tunnel start is recorded as an Admin Activity audit entry, and an alert fires on any write by that account. What it reads is sent to the model provider.",
+        "useCase": "Coding assistant run on operator laptops by the two technical founders and, since 2026-10-23, a developer, in the assessment scope on the same terms as Claude Code. It acts with the operator's own access, under the operator's responsibility for what it reads and the rule that data of organizations in CUI mode must not reach an engineering assistant. It reads the infrastructure as the same read-only service account, which has no write permission on production, and reads database rows through the same SELECT-only, time-limited tunnel once the person running it has started the tunnel from their own terminal or approved its start in Claude Code; Codex's hook refuses tunnel starts. Every tunnel start is recorded as an Admin Activity audit entry, and an alert fires on any write by that account. What it reads is sent to the model provider.",
         "website": "https://openai.com/codex"
+      },
+      {
+        "name": "Google Antigravity — engineering assistant",
+        "provider": "Google LLC",
+        "useCase": "Coding assistant run on operator laptops, in the assessment scope on the same terms as Claude Code and OpenAI Codex; before 2026-11-10, one technical founder had used it, on code and documentation only. It acts with the operator's own access, under the operator's responsibility for what it reads and the rule that data of organizations in CUI mode must not reach an engineering assistant. A repository hook runs every shell command as the same read-only service account, which has no write permission on production, and refuses what the other assistants' guard refuses. It reads database rows through the same SELECT-only, time-limited tunnel once the person running it has started the tunnel from their own terminal or approved its start in Claude Code; the hook refuses tunnel starts in Antigravity, as Codex's does. Every tunnel start is recorded as an Admin Activity audit entry, and an alert fires on any write by that account. What it reads is sent to Google.",
+        "website": "https://antigravity.google"
       },
       {
         "name": "Cursor (Anysphere) — coding agent",
         "provider": "Anysphere, Inc.",
-        "useCase": "Coding agent. Its GitHub App, installed on the marketing website repository only, has read that site's source and proposed changes to it since 2026-09-29; since 2026-10-23 a developer also uses its local agent on the application and infrastructure source. Model inference runs through Cursor's service. It was outside the assessment scope while it reached only the marketing website, and is in it since the local agent began, because its edits affect software integrity and because a script it writes could use the developer's own credentials. Specset's rule is that it works on code only and reads no customer data, and a fail-closed hook in the application and infrastructure repositories refuses the known paths to production, customer data and credentials; what the developer's credentials reach is bounded by Google Cloud IAM (no production access beyond minting the read-only service account's tokens, and no grant on customer documents) and by the application. Changes reach the application, the infrastructure and www.specset.com only through pull requests that a founder approves under each repository's branch protection.",
+        "useCase": "Coding agent. Its GitHub App, installed on the marketing website repository only, has read that site's source and proposed changes to it since 2026-09-29; since 2026-10-23 a developer also uses its local agent on the application and infrastructure source. Model inference runs through Cursor's service. It was outside the assessment scope while it reached only the marketing website, and is in it since the local agent began, because its edits affect software integrity and because a script it writes could use the developer's own credentials. Specset's rule is that it works on code only and reads no customer data, and a fail-closed hook in the application and infrastructure repositories refuses the known paths to production, customer data and credentials, including the local development database, object store and vector database, which can hold projects cloned from production; what the developer's credentials reach is bounded by Google Cloud IAM (no production access beyond minting the read-only service account's tokens, and no grant on customer documents) and by the application. Changes reach the application, the infrastructure and www.specset.com only through pull requests that a founder approves under each repository's branch protection.",
         "website": "https://cursor.com"
       },
       {
@@ -377,14 +381,14 @@
       },
       {
         "name": "Customer single sign-on identity providers (Google Sign-In and customer-configured OpenID Connect providers)",
-        "provider": "The customer's own identity provider (Google Sign-In, or any OpenID Connect provider a customer configures)",
-        "useCase": "Customer-chosen authentication for customer users. Specset receives the identity assertion and the claims the customer's provider releases; no project document or row leaves the boundary. Each provider is the customer's own information resource under the customer's own administration, so its certification status is the customer's decision. Corporate Google single sign-on is enforced for Specset staff and superadmin access.",
+        "provider": "The customer's own identity provider: Google Sign-In, or an OpenID Connect provider such as Okta that the customer configures and Specset enables by adding its hostnames to the egress allow-list",
+        "useCase": "Customer-chosen authentication for customer users. Specset receives the identity assertion and the claims the customer's provider releases; no project document or row leaves the boundary. A customer-configured provider is reachable only after Specset adds its hostnames to the egress allow-list at the organization's request; none had been added as of this edition. Each provider is the customer's own information resource under the customer's own administration, so its certification status is the customer's decision. Corporate Google single sign-on is enforced for Specset staff and superadmin access.",
         "website": "https://openid.net/developers/how-connect-works/"
       }
     ]
   },
   "informationFlows": {
-    "summary": "Customer data enters only through HTTPS to Google Cloud load balancers and is processed and stored inside the Google Cloud Assured Workloads project specset-prod-assured (us-west1; Cloud Storage in the US multi-region). Kubernetes network policies limit the workloads' connections, and the application server and workers may reach only the 33 hostnames on the egress allow-list. Which of those an organization's data may reach is decided per organization: in CUI mode, model processing, embeddings and web grounding use only Vertex AI in the Assured Workloads project at location us, and the commercial model providers, web search, the hosted scraping service, support chat and the construction integrations are disabled.",
+    "summary": "Customer data enters only through HTTPS to Google Cloud load balancers and is processed and stored inside the Google Cloud Assured Workloads project specset-prod-assured (us-west1; Cloud Storage in the US multi-region). Kubernetes network policies limit the workloads' connections: beyond the database, cache, vector database and workflow service on the project's private network, the application server and workers may reach only the 35 hostnames on the egress allow-list, each named exactly. Which of those an organization's data may reach is decided per organization: in CUI mode, model processing, embeddings and web grounding use only Vertex AI in the Assured Workloads project at location us, and the commercial model providers, web search, the hosted scraping service, support chat and the construction integrations are disabled.",
     "securityCategory": "The offering is categorized Moderate. Each third-party information resource carries its own FIPS 199 category in the information-resources inventory.",
     "machineReadable": "Permitted connections (MAS-CSO-FLO): every permitted connection between the offering's components and to external resources, generated from the deployed configuration, with the code and the derivation. Listed under documentation.",
     "flows": [
@@ -438,10 +442,10 @@
       },
       {
         "name": "Customer sign-in",
-        "from": "Application API server and workers",
-        "to": "Google Sign-In and Microsoft Entra ID",
-        "path": "HTTPS (OpenID Connect)",
-        "data": "Identity tokens and profile claims",
+        "from": "Application API server",
+        "to": "Google Sign-In and Microsoft Entra ID; and an organization's own OpenID Connect provider, such as Okta, once Specset has added that provider's hostnames to the egress allow-list at the organization's request (none added as of this edition)",
+        "path": "HTTPS (OpenID Connect). The user signs in at the provider in the browser; the API server fetches the provider's discovery document and signing keys and redeems the authorization code, at hostnames on the egress allow-list only.",
+        "data": "Authorization codes, identity tokens and profile claims",
         "securityCategory": "Moderate"
       },
       {
@@ -470,10 +474,10 @@
       },
       {
         "name": "Engineering assistants",
-        "from": "Claude Code and OpenAI Codex on operator laptops (the two technical founders and a developer)",
-        "to": "Anthropic and OpenAI model inference (each provider's API; no processing-region selection)",
-        "path": "What the assistant reads with the operator's own access is sent to the provider. Infrastructure reads go through the read-only service account; database rows through the SELECT-only, time-limited tunnel whose start the operator approves each session",
-        "data": "Operational data and what the operator has the assistant read, which can include customer data of organizations not in CUI mode. Data of organizations in CUI mode must not reach an engineering assistant; the read-only service account cannot read their database rows and sees their application log entries only as sanitized copies",
+        "from": "Claude Code, OpenAI Codex, Google Antigravity and Cursor on operator laptops (the two technical founders and, since 2026-10-23, a developer)",
+        "to": "Anthropic, OpenAI, Google and Anysphere (Cursor) model inference (Anthropic's and OpenAI's APIs offer no processing-region selection; the processing regions of the Google Antigravity and Cursor services are not verified)",
+        "path": "What the assistant reads with the operator's own access is sent to its provider. In Claude Code, Codex and Antigravity, repository settings and hooks run infrastructure reads as the read-only service account, and database rows come through the SELECT-only, time-limited tunnel. The operator approves its start in Claude Code or starts it from their own terminal; the Codex and Antigravity hooks refuse the start. In Cursor, a fail-closed repository hook refuses the known paths to production, customer data (local copies included) and credentials. The hooks read command text, so Google Cloud IAM and the application's recorded, alerted CUI opt-in bound what a script using the operator's credentials can reach",
+        "data": "Source code, operational data and, in Claude Code, Codex and Antigravity, what the operator has the assistant read, which can include customer data of organizations not in CUI mode; Cursor is held to source code by rule and hook. Data of organizations in CUI mode must not reach an engineering assistant: the read-only service account cannot read their database rows, customer documents or secret values, and sees their application log entries only as sanitized copies",
         "securityCategory": "Moderate"
       }
     ]
@@ -484,9 +488,9 @@
       "title": "CEO and Co-Founder",
       "email": "gordon@specset.com"
     },
-    "version": "2026.11.09",
-    "lastUpdated": "2026-11-09T17:27:00Z",
-    "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Version 2026.11.09, published with Security Decision Record v2026.09.14.16, follows version 2026.11.06. Since 2026.11.06: the overview carries the information flows (MAS-CSO-FLO), support chat and the engineering assistants included, and names the permitted-connections document; the direct Anthropic API entry says that route was retired on 2026-11-05; the Ongoing Certification Report entry names the feedback route (CCM-OCR-FBM); the service description says FR2631747321 is no longer listed; the trust center description points to the dated progress on www.specset.com/security. Earlier versions are in this repository's history."
+    "version": "2026.11.10",
+    "lastUpdated": "2026-11-11T16:12:00Z",
+    "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Version 2026.11.10, published with Security Decision Record v2026.09.14.17, follows version 2026.11.09. Since 2026.11.09: the policy and procedure reference gives the policy editions Vanta holds as approved (4.0, 5.0 for Physical Security and 3.1 for Information Security Roles and Responsibilities, approved 2026-11-06; the renewals of 2026-10-12 for Human Resource Security, Secure Development and Operations Security; Data Management 3.3, approved 2026-11-10) and the current editions of the Secure Configuration Guide and four procedures, the Vulnerability Management Procedure at edition 2026-11-10; the information flows add Google Antigravity to the engineering assistants and say how each assistant's reads are bounded, the customer sign-in flow covers an organization's own OpenID Connect provider, reachable only once its hostnames are added to the egress allow-list, and the summary names the internal services the network policies allow and counts 35 allowed hostnames: since 2026-11-10 the allow-list also names two AWS GovCloud (US) hosts, for a model route for organizations in CUI mode that is not enabled, and AWS GovCloud (US) is listed as a FedRAMP certified third-party information resource with that route; the direct Anthropic API entry is removed: that route was retired on 2026-11-05, no information flow reaches it, and the next information-resources inventory edition moves it to the excluded services; Google Antigravity is listed as a third-party information resource, the OpenAI Codex entry corrects how its database tunnel is started, the Cursor entry names the local stores its hook refuses, and the customer identity-provider entry says a customer-configured provider is reachable only once Specset adds its hostnames. Earlier versions are in this repository's history."
   },
   "documentation": [
     {
@@ -629,9 +633,9 @@
       "type": "Procedure",
       "file": "vulnerability-management.pdf",
       "summary": "Persistent vulnerability detection, PAIN-based evaluation, response timeframes, exceptions and risk acceptance, and the monthly vulnerability activity report.",
-      "wordCount": 4877,
-      "currentVersion": "2026-10-22",
-      "lastUpdated": "2026-10-22",
+      "wordCount": 5059,
+      "currentVersion": "2026-11-10",
+      "lastUpdated": "2026-11-10",
       "relatedFedRampPractices": [
         "VDR (all rules)",
         "VER (all rules)"
@@ -659,9 +663,9 @@
       "type": "Procedure",
       "file": "https://docs.specset.com/docs/secure-configuration",
       "summary": "For the administrators of a customer organization: the accounts that control an organization, the recommended security settings for one holding federal information or CUI, and how account access is requested and recovered.",
-      "wordCount": 1684,
+      "wordCount": 1707,
       "currentVersion": "2026.09.18.2",
-      "lastUpdated": "2026-11-06",
+      "lastUpdated": "2026-11-10",
       "relatedFedRampPractices": [
         "SCG-CSO-RSC",
         "SCG-CSO-PUB",
@@ -676,8 +680,8 @@
       "file": "ongoing-certification-reports.md",
       "summary": "How the quarterly Ongoing Certification Report is assembled, checked for sensitive information and published, how questions about it are answered, the reviews held in the same quarterly slot and the Class C Quarterly Review.",
       "wordCount": 1371,
-      "currentVersion": "edition 2026-10-05",
-      "lastUpdated": "2026-10-05",
+      "currentVersion": "edition 2026-11-07",
+      "lastUpdated": "2026-11-07",
       "relatedFedRampPractices": [
         "CCM-OCR-AVL",
         "CCM-OCR-NRD",
@@ -708,9 +712,9 @@
       "type": "Procedure",
       "file": "significant-change-notification.md",
       "summary": "How each production change is evaluated for significance, confirmed by an operator, recorded and, when significant, notified.",
-      "wordCount": 3171,
-      "currentVersion": "edition 2026-11-06",
-      "lastUpdated": "2026-11-06",
+      "wordCount": 3213,
+      "currentVersion": "edition 2026-11-11",
+      "lastUpdated": "2026-11-11",
       "relatedFedRampPractices": [
         "SCN (all rules)",
         "KSI-CMT-LMC"
@@ -736,9 +740,9 @@
       "type": "Procedure",
       "file": "privileged-access.md",
       "summary": "How the founders obtain administrative access to production per task, with a reason and for a limited time, through Privileged Access Manager, and the last-resort path.",
-      "wordCount": 4056,
-      "currentVersion": "edition 2026-11-06",
-      "lastUpdated": "2026-11-06",
+      "wordCount": 4104,
+      "currentVersion": "edition 2026-11-10",
+      "lastUpdated": "2026-11-10",
       "relatedFedRampPractices": [
         "KSI-IAM-JIT",
         "KSI-IAM-ELP"
@@ -769,9 +773,9 @@
       "type": "Policy",
       "file": "Asset Management Policy (Vanta policy document)",
       "summary": "Identifies the organization's assets and who is responsible for protecting them, and prevents unauthorized disclosure, modification, removal or destruction of information on media.",
-      "wordCount": 548,
-      "currentVersion": "3.0",
-      "lastUpdated": "2026-05-29",
+      "wordCount": 558,
+      "currentVersion": "4.0",
+      "lastUpdated": "2026-11-06",
       "relatedFedRampPractices": [
         "MAS-CSO-IIR",
         "KSI-PIY-GIV"
@@ -800,9 +804,9 @@
       "type": "Policy",
       "file": "Code of Conduct (Vanta policy document)",
       "summary": "The conduct expected of all staff, for safe and collaborative working conditions, and the consequences of unacceptable behavior.",
-      "wordCount": 1107,
-      "currentVersion": "3.0",
-      "lastUpdated": "2026-05-29",
+      "wordCount": 1117,
+      "currentVersion": "4.0",
+      "lastUpdated": "2026-11-06",
       "relatedFedRampPractices": [],
       "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
     },
@@ -811,9 +815,9 @@
       "type": "Policy",
       "file": "Cryptography Policy (Vanta policy document)",
       "summary": "Requirements for cryptographic keys and methods across the encryption lifecycle, so that cryptography protects the confidentiality, authenticity and integrity of information.",
-      "wordCount": 416,
-      "currentVersion": "3.0",
-      "lastUpdated": "2026-05-29",
+      "wordCount": 426,
+      "currentVersion": "4.0",
+      "lastUpdated": "2026-11-06",
       "relatedFedRampPractices": [
         "CMU-CSO-CMD",
         "CMU-CSO-UVM",
@@ -827,10 +831,10 @@
       "name": "Data Management Policy",
       "type": "Policy",
       "file": "Data Management Policy (Vanta policy document)",
-      "summary": "Classification, protection, retention and secure disposal of information according to its importance; version 3.2 amends the retained version 3.0 text.",
-      "wordCount": 3165,
-      "currentVersion": "3.2",
-      "lastUpdated": "2026-10-05",
+      "summary": "Classification, protection, retention and secure disposal of information according to its importance; version 3.3 amends the retained version 3.0 text.",
+      "wordCount": 3197,
+      "currentVersion": "3.3",
+      "lastUpdated": "2026-11-10",
       "relatedFedRampPractices": [
         "KSI-SVC-RUD",
         "KSI-SVC-SIN"
@@ -844,7 +848,7 @@
       "summary": "Screening, security responsibilities, training and suitability of personnel and contractors, before, during and after employment.",
       "wordCount": 1024,
       "currentVersion": "3.1",
-      "lastUpdated": "2026-09-14",
+      "lastUpdated": "2026-10-12",
       "relatedFedRampPractices": [
         "KSI-CED-RAT"
       ],
@@ -871,9 +875,9 @@
       "type": "Policy",
       "file": "Information Security Policy (AUP) (Vanta policy document)",
       "summary": "The company's information security policies and the acceptable use and protection of its information and assets, including mobile devices.",
-      "wordCount": 2521,
-      "currentVersion": "3.0",
-      "lastUpdated": "2026-05-29",
+      "wordCount": 2531,
+      "currentVersion": "4.0",
+      "lastUpdated": "2026-11-06",
       "relatedFedRampPractices": [],
       "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
     },
@@ -881,10 +885,10 @@
       "name": "Information Security Roles and Responsibilities",
       "type": "Policy",
       "file": "Information Security Roles and Responsibilities (Vanta policy document)",
-      "summary": "Who in the company is responsible for which part of information security, so that policies are communicated and responsibility is clearly assigned.",
-      "wordCount": 914,
-      "currentVersion": "3.0",
-      "lastUpdated": "2026-05-29",
+      "summary": "Who in the company is responsible for which part of information security, so that policies are communicated and responsibility is clearly assigned; version 3.1 names the holder of the IT Manager role and retains the version 3.0 text.",
+      "wordCount": 1082,
+      "currentVersion": "3.1",
+      "lastUpdated": "2026-11-06",
       "relatedFedRampPractices": [
         "KSI-PIY-RES"
       ],
@@ -897,7 +901,7 @@
       "summary": "Secure operation of information-processing systems, including change management, logging and monitoring, malware and vulnerability handling and data leakage prevention.",
       "wordCount": 3497,
       "currentVersion": "3.2",
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-12",
       "relatedFedRampPractices": [
         "KSI-CMT-LMC",
         "KSI-CMT-RVP",
@@ -911,9 +915,9 @@
       "type": "Policy",
       "file": "Physical Security Policy (Vanta policy document)",
       "summary": "Prevents unauthorized physical access to, and damage to, the organization's information and information-processing facilities; production facilities are Google Cloud's.",
-      "wordCount": 743,
-      "currentVersion": "4.0",
-      "lastUpdated": "2026-05-29",
+      "wordCount": 753,
+      "currentVersion": "5.0",
+      "lastUpdated": "2026-11-06",
       "relatedFedRampPractices": [],
       "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
     },
@@ -922,9 +926,9 @@
       "type": "Policy",
       "file": "Risk Management Policy (Vanta policy document)",
       "summary": "How information security risks and opportunities are identified and treated, and the plan for reaching the security and privacy objectives.",
-      "wordCount": 2674,
-      "currentVersion": "3.0",
-      "lastUpdated": "2026-05-29",
+      "wordCount": 2686,
+      "currentVersion": "4.0",
+      "lastUpdated": "2026-11-06",
       "relatedFedRampPractices": [],
       "availability": "Approved and maintained in Vanta with employee acceptance records; supplied on request to fedramp@specset.com."
     },
@@ -935,7 +939,7 @@
       "summary": "Security designed and implemented within the development lifecycle of applications and information systems.",
       "wordCount": 976,
       "currentVersion": "3.1",
-      "lastUpdated": "2026-09-14",
+      "lastUpdated": "2026-10-12",
       "relatedFedRampPractices": [
         "KSI-PIY-RSD",
         "KSI-CMT-VTD",
@@ -948,9 +952,9 @@
       "type": "Policy",
       "file": "Third-Party Management Policy (Vanta policy document)",
       "summary": "Protection of data and assets shared with, accessible to or managed by suppliers, and the agreed level of security and service in supplier agreements.",
-      "wordCount": 1321,
-      "currentVersion": "3.0",
-      "lastUpdated": "2026-05-29",
+      "wordCount": 1331,
+      "currentVersion": "4.0",
+      "lastUpdated": "2026-11-06",
       "relatedFedRampPractices": [
         "MAS-CSO-TPR",
         "KSI-SCR-MIT",
