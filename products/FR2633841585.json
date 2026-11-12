@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1090ef2ab2",
-    "lastUpdated": "2026-11-11T19:47:02.000Z",
+    "version": "96e2f182d3",
+    "lastUpdated": "2026-11-12T18:38:04.000Z",
     "updateSource": "Automated release pipeline",
     "responsibleOfficial": {
       "pointOfContactName": "Brent Shulman",
@@ -302,7 +302,7 @@
         "usageAndConfiguration": "ToDesktop builds, signs, and distributes the Electron desktop application and its updates to user devices. The application loads app.silkline.ai and bundles only its shell, so federal customer data does not reach ToDesktop.",
         "justification": "Silkline uses ToDesktop to operate the desktop distribution and update channel.",
         "mitigationMeasures": "The Chief Technology Officer decided on 2026-10-20 that ToDesktop is a third-party resource outside the boundary. macOS builds are signed with Silkline's Developer ID and notarized by Apple, and Windows installers carry an Authenticode signature issued to Silkline, Inc.",
-        "compensatingControls": "The application installs an update only when its signature matches Silkline's: the Apple team identifier on macOS and the Silkline, Inc. publisher on Windows. A release that the release workflow could not have built raises an alert to the engineering team."
+        "compensatingControls": "The application installs an update only when its signature matches Silkline's: the Apple team identifier on macOS and the Silkline, Inc. publisher on Windows. ToDesktop posts each release to Rootly, and a Rootly alert workflow alerts #eng-infra when the Desktop Release workflow could not have built it."
       },
       {
         "name": "Open Exchange Rates",
