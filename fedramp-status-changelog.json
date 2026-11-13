@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-13T05:03:18.733Z",
-    "total_entries": 2440,
+    "export_timestamp": "2026-11-13T20:12:53.736Z",
+    "total_entries": 2445,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -26845,6 +26845,61 @@
         "to_status": "Initial Implementation",
         "transition_date": "2026-11-12T21:43:43.000Z",
         "recorded_date": "2026-11-12T21:50:48.670Z"
+      },
+      {
+        "unique_id": "BE67EA87-3E14-4880-BF83-58DDF7C080A7",
+        "product_id": "MSO365MTA",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class D",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-10-19T04:00:00.000Z",
+        "recorded_date": "2026-11-13T16:35:55.000Z"
+      },
+      {
+        "unique_id": "4563697E-F0EA-491A-AE80-53922C4AA323",
+        "product_id": "MSO365MT",
+        "cert_type": "Rev5",
+        "cert_path": "Agency",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP Certified",
+        "to_status": "No Status Found (Delisted)",
+        "transition_date": "2026-11-13T05:00:00.000Z",
+        "recorded_date": "2026-11-13T16:39:26.000Z"
+      },
+      {
+        "unique_id": "F7121158-0491-46F2-8678-B561CA03F076",
+        "product_id": "FR2516072131",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "FedRAMP Ready",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-11-13T05:00:00.000Z",
+        "recorded_date": "2026-11-13T18:49:59.000Z"
+      },
+      {
+        "unique_id": "A29CECAE-7705-4468-9CBC-6C7BB8F417C5",
+        "product_id": "FR2631154499",
+        "cert_type": "20x",
+        "cert_path": "",
+        "cert_class": "Class A",
+        "from_status": "Initial Implementation",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-11-10T05:00:00.000Z",
+        "recorded_date": "2026-11-13T19:36:24.000Z"
+      },
+      {
+        "unique_id": "9409A480-495E-4651-B05E-1339214C546C",
+        "product_id": "FR2631154499",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Class A",
+        "from_status": "Initial Implementation",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-11-13T05:00:00.000Z",
+        "recorded_date": "2026-11-13T20:09:08.000Z"
       }
     ]
   }
