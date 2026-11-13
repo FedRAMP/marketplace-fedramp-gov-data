@@ -1,0 +1,208 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "Juume AI, Inc. (JUUME)",
+    "ueiNumber": "SU6BHPRRBMM3",
+    "providerName": "Juume AI, Inc.",
+    "serviceName": "CapraOne",
+    "serviceAcronym": "JUUME",
+    "serviceDescription": "CapraOne is a multi-tenant, AI-powered application platform delivered as Software-as-a-Service and hosted on Google Cloud Platform (us-central1, Iowa). The platform combines large-language-model and retrieval-augmented-generation (RAG) capabilities — including a managed vector database deployed Bring-Your-Own-Cloud (BYOC) inside Juume AI's GCP boundary, and containerised developer and inference environments — to deliver AI-assisted workflows to enterprise and government customers.\n\n**Hosting and shared responsibility:** Production runs entirely on Google Cloud Platform (FedRAMP High, Package ID FR1805751477), US-only region us-central1. Physical security, hypervisor isolation, and underlying hardware controls are fully inherited from GCP's High authorization. Juume AI is responsible for configuration, identity and access management, application security, and the continuous data pipelines that operate within that boundary.\n\n**Data protection:** TLS 1.2+ in transit, encryption at rest, network segmentation into policy-enforced trust zones, continuous posture monitoring via Google Cloud Security Command Center.\n\n**Current independent assurance:** SOC 2 Type II (Security, Availability, Confidentiality, Privacy), examination period 15 January 2026 – 30 August 2026, report issued 23 September 2026, no exceptions noted.\n\n**Entity identifiers:** UEI SU6BHPRRBMM3 · CAGE 23ZJ6.\n\n**FedRAMP status:** Initial Implementation Phase — pursuing FedRAMP 20x Class A Program Certification under the Consolidated Rules for 2026. Not yet FedRAMP Certified.",
+    "certificationType": "20x",
+    "website": "https://juume.ai",
+    "logo": "https://data.juume.ai/assets/juume-ai-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Development Tools",
+      "Analytics"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Assessment Reports",
+        "Policies",
+        "Ongoing Certification Reports",
+        "Incident Reports"
+      ],
+      "url": "https://juume.ai/trust-center",
+      "repositoryDescription": "Juume AI's FedRAMP-compatible Trust Center. Public tier: service overview, FedRAMP progress, policy summaries, this JSON document, and incident notices. Restricted tier (NDA / verified agency identity): SOC 2 Type II report and bridge letter, penetration test summary, policy documents, Security Decision Record, and Ongoing Certification Reports.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Public information requires no login. To request restricted FedRAMP Certification Data:\n\n1. Email **security@juumeai.com** with subject line `FedRAMP Access Request`.\n2. Include your name, agency or organization, official (.gov/.mil preferred) email address, and the documents you need.\n3. Federal agency personnel are granted access on identity verification; other parties are sent a mutual NDA for signature.\n4. Access is provisioned within **5 business days**. Per FedRAMP rule CDS-UTC-AAD, Juume AI notifies FedRAMP within 5 business days of any denied agency request."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://data.juume.ai/secure_configuration.pdf",
+      "repositoryDescription": "Recommended secure configuration of CapraOne for customer administrators: SSO/MFA enforcement, role-based access, API key rotation, data-retention settings, and audit-log export.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Availability Reporting"
+        ],
+        "url": "https://juume.ai/status",
+        "repositoryDescription": "Current and 30-day historical availability of core platform services with availability incidents, in human-readable and JSON formats. Hosted separately from the platform so it remains available during a platform outage (CDS-CSO-AVR).",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Incident Reports"
+        ],
+        "url": "https://juume.ai/status",
+        "repositoryDescription": "FedRAMP Initial, Ongoing, and Final Incident Reports for FedRAMP Reportable Incidents (IEC-CSO-FIR). Contains an attestation of no reportable incidents when none have occurred.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Shared Responsibility Matrix"
+        ],
+        "url": "https://data.juume.ai/shared-responsibility.json",
+        "repositoryDescription": "Customer Responsibility / Shared Responsibility Matrix describing controls inherited from Google Cloud Platform (FR1805751477), controls operated by Juume AI, and controls the customer agency retains.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Policies"
+        ],
+        "url": "https://data.juume.ai/policy_overview.pdf",
+        "repositoryDescription": "Juume AI Policy Overview: a summary of the security and privacy policies that govern CapraOne.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Policies"
+        ],
+        "url": "https://data.juume.ai/restricted/policy_handbook.pdf",
+        "repositoryDescription": "Juume AI Policy Handbook: the complete security and privacy policy documents.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Public information requires no login. To request restricted FedRAMP Certification Data:\n\n1. Email **security@juumeai.com** with subject line `FedRAMP Access Request`.\n2. Include your name, agency or organization, official (.gov/.mil preferred) email address, and the documents you need.\n3. Federal agency personnel are granted access on identity verification; other parties are sent a mutual NDA for signature.\n4. Access is provisioned within **5 business days**. Per FedRAMP rule CDS-UTC-AAD, Juume AI notifies FedRAMP within 5 business days of any denied agency request."
+      },
+      {
+        "repositoryType": [
+          "Assessment Reports"
+        ],
+        "url": "https://data.juume.ai/restricted/soc2_bridge_letter.pdf",
+        "repositoryDescription": "SOC 2 Type II bridge letter: covers the period from the end of the SOC 2 Type II examination (30 August 2026) to the date of the letter.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Public information requires no login. To request restricted FedRAMP Certification Data:\n\n1. Email **security@juumeai.com** with subject line `FedRAMP Access Request`.\n2. Include your name, agency or organization, official (.gov/.mil preferred) email address, and the documents you need.\n3. Federal agency personnel are granted access on identity verification; other parties are sent a mutual NDA for signature.\n4. Access is provisioned within **5 business days**. Per FedRAMP rule CDS-UTC-AAD, Juume AI notifies FedRAMP within 5 business days of any denied agency request."
+      },
+      {
+        "repositoryType": [
+          "Assessment Reports"
+        ],
+        "url": "https://data.juume.ai/restricted/platform_assessment.pdf",
+        "repositoryDescription": "Juume AI Platform Assessment (SEC-PT-001): security assessment of the October 2026 application security scan of CapraOne, with findings, risk determination, and remediation plan.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Public information requires no login. To request restricted FedRAMP Certification Data:\n\n1. Email **security@juumeai.com** with subject line `FedRAMP Access Request`.\n2. Include your name, agency or organization, official (.gov/.mil preferred) email address, and the documents you need.\n3. Federal agency personnel are granted access on identity verification; other parties are sent a mutual NDA for signature.\n4. Access is provisioned within **5 business days**. Per FedRAMP rule CDS-UTC-AAD, Juume AI notifies FedRAMP within 5 business days of any denied agency request."
+      },
+      {
+        "repositoryType": [
+          "Security Decision Record"
+        ],
+        "url": "https://data.juume.ai/restricted/sdr.json",
+        "repositoryDescription": "Security Decision Record v1.0.2 in machine-readable form: Juume AI's implementation of every mandatory FedRAMP 20x Class A rule and Key Security Indicator (SDR-CSO-FRR).",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Public information requires no login. To request restricted FedRAMP Certification Data:\n\n1. Email **security@juumeai.com** with subject line `FedRAMP Access Request`.\n2. Include your name, agency or organization, official (.gov/.mil preferred) email address, and the documents you need.\n3. Federal agency personnel are granted access on identity verification; other parties are sent a mutual NDA for signature.\n4. Access is provisioned within **5 business days**. Per FedRAMP rule CDS-UTC-AAD, Juume AI notifies FedRAMP within 5 business days of any denied agency request."
+      },
+      {
+        "repositoryType": [
+          "Security Decision Record"
+        ],
+        "url": "https://data.juume.ai/restricted/sdr.pdf",
+        "repositoryDescription": "Security Decision Record v1.0.2 in human-readable form (PDF).",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Public information requires no login. To request restricted FedRAMP Certification Data:\n\n1. Email **security@juumeai.com** with subject line `FedRAMP Access Request`.\n2. Include your name, agency or organization, official (.gov/.mil preferred) email address, and the documents you need.\n3. Federal agency personnel are granted access on identity verification; other parties are sent a mutual NDA for signature.\n4. Access is provisioned within **5 business days**. Per FedRAMP rule CDS-UTC-AAD, Juume AI notifies FedRAMP within 5 business days of any denied agency request."
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-04-01"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Juume AI Security Team (FedRAMP Security Inbox)",
+      "contactEmail": "security@juumeai.com",
+      "contactPhone": "+1 (301)-200-2441"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Juume AI Public Sector Sales",
+      "contactEmail": "publicsector@juumeai.com",
+      "contactPhone": "+1 (301)-200-2441"
+    },
+    {
+      "contactType": "Primary",
+      "contactName": "Tyson Powell, Head of IT & Security / CISO",
+      "contactEmail": "compliance@juumeai.com"
+    }
+  ],
+  "advisors": [],
+  "certifiedServices": [
+    {
+      "serviceName": "CapraOne (core application)",
+      "serviceDescription": "Multi-tenant SaaS application delivering AI-assisted workflows to enterprise and agency users. **Security category:** Low (confidentiality: low, integrity: low, availability: low). Handles customer-submitted content and AI-generated outputs.",
+      "dateAvailable": "2026-01-15"
+    },
+    {
+      "serviceName": "Retrieval-Augmented Generation & Vector Search",
+      "serviceDescription": "Managed RAG and vector-search capability supporting the platform's AI features, backed by a managed vector database. **Security category:** Low. Handles embeddings derived from customer content.",
+      "dateAvailable": "2026-01-15"
+    },
+    {
+      "serviceName": "Containerised Developer & Inference Environments",
+      "serviceDescription": "Isolated container workloads used to build, test, and run platform capabilities. **Security category:** Low. Does not directly store customer data at rest.",
+      "dateAvailable": "2026-01-15"
+    },
+    {
+      "serviceName": "Platform APIs & Integrations",
+      "serviceDescription": "REST APIs through which customers programmatically access platform functionality. Authenticated via customer-issued API keys. **Security category:** Low.",
+      "dateAvailable": "2026-01-15"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Google Cloud Platform (FedRAMP High) — all production compute (Kubernetes), managed PostgreSQL, object storage, networking, and Security Command Center monitoring in us-central1. Physical security, hypervisor isolation, and hardware controls are inherited from this authorization."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2634450946",
+        "useCase": "Pinecone — managed vector database deployed Bring-Your-Own-Cloud (BYOC) inside Juume AI's GCP project; embeddings derived from customer content remain within the Juume AI GCP boundary. Pinecone's control plane is covered by its FedRAMP package."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "GitHub",
+        "provider": "GitHub, Inc.",
+        "website": "https://github.com",
+        "useCase": "Source-code management, peer review, and CI/CD deployment pipeline for the platform. Does not handle customer data."
+      },
+      {
+        "name": "Rippling",
+        "provider": "People Center, Inc.",
+        "website": "https://www.rippling.com",
+        "useCase": "Workforce identity, single sign-on, HRIS, and endpoint device management for Juume AI personnel."
+      },
+      {
+        "name": "SentinelOne",
+        "provider": "SentinelOne, Inc.",
+        "website": "https://www.sentinelone.com",
+        "useCase": "Endpoint detection and response on company-managed devices."
+      },
+      {
+        "name": "Jira",
+        "provider": "Atlassian Pty Ltd",
+        "website": "https://www.atlassian.com/software/jira",
+        "useCase": "Change, vulnerability, and incident tracking."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2704160183",
+  "id_matches_expected": false
+}

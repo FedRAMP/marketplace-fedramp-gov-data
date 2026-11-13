@@ -1,0 +1,45 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "Averisys Analytics AADAP",
+    "providerName": "Averisys Analytics",
+    "serviceName": "Averisys AI Data Analytics Platform",
+    "serviceAcronym": "AADAP",
+    "ueiNumber": "KHRRVMY4CKN4",
+    "serviceDescription": "Averisys AI Data Analytics Platform is a software-as-a-service decision-intelligence platform hosted on Microsoft Azure. Users upload or connect datasets and run statistical and machine-learning analyses, including classification and prediction, time-series forecasting, time-to-event (survival) analysis, structural equation modeling, causal analysis, segmentation, and qualitative text analysis. The platform adds AI-generated interpretation, risk identification, what-if analysis, and recommendations, with human review steps and a downloadable audit record of each analysis. It is delivered as five domain platforms: Customer Intelligence, Brand Intelligence, Workforce Intelligence, Fraud Intelligence, and Sales Performance Intelligence.",
+    "certificationType": "20x",
+    "website": "https://averisysanalytics.com/",
+    "logo": "https://averisysanalytics.com/averisys-logo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://averisysanalytics.com/trust-center/fedramp",
+      "repositoryDescription": "Public FedRAMP page of the Averisys Analytics Trust Center: certification goals and progress, service list, contacts, vulnerability reporting, and links to all published certification files. No sign-in, NDA, or agreement is required.",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Averisys Analytics Security",
+      "contactEmail": "info@averisysanalytics.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Averisys Analytics Sales",
+      "contactEmail": "info@averisysanalytics.com"
+    }
+  ],
+  "ZD_frid_retro": "FR2704160231",
+  "id_matches_expected": false
+}

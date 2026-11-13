@@ -1,173 +1,151 @@
 {
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
-    "fedRampPackageId": "FR1821856903",
-    "providerName": "Zendesk",
-    "serviceName": "Zendesk Customer Support and Help Desk Platform",
-    "serviceAcronym": "Zendesk Customer Support and Help Desk Platform",
-    "serviceDescription": "Zendesk is a cloud-based customer service platform, designed for companies that want to build customer relationships that are more meaningful, personal, and productive. Zendesk strives to bring businesses and customers closer together by enabling companies to provide great support and mature with self-service and proactive engagement. It is designed to be easy to use, customize, and scale.",
-    "certificationType": "Rev5",
-    "website": "https://www.zendesk.com/",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Zendesk%20Logo.png"
+    "providerName": "Zendesk, Inc.",
+    "serviceName": "Zendesk for Government",
+    "serviceAcronym": "Zendesk Platform",
+    "serviceDescription": "Zendesk for Government is an AI service platform that helps agencies deliver responsive, secure service at scale, for the people they serve and the employees who support them. With customer service, employee service and AI agents on one platform, agencies can resolve requests faster, automate routine work, and scale securely across departments.",
+    "certificationType": "20x",
+    "fedRampPackageId": "REPLACE_WITH_FEDRAMP_ID",
+    "ueiNumber": "K8JTE3C7S7N5",
+    "website": "https://zendesk.com",
+    "logo": "https://www.zendesk.com/favicon.ico"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Public Cloud"
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Artificial Intelligence (AI)",
+      "Contact Center",
+      "Customer Relations Management (CRM)",
+      "Customer Service",
+      "Fleet Management",
+      "Human Resources"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.zendesk.com/trust-center/",
+      "repositoryDescription": "The Zendesk Trust Center provides organizations everything they need to complete their security reviews. Browse documents, certifications, and compliance details with confidence. The Trust Center is updated regularly to reflect the latest audit results and subprocessor disclosures.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://support.zendesk.com/hc/en-us/articles/5004813573658-FedRAMP-Secure-Configuration-Guide-SCG",
+      "repositoryDescription": "A public-facing document for agencies and organizations to enable the recommended security configurations for the Zendesk Platform to meet FedRAMP requirements.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": []
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Zendesk Security Team",
       "contactEmail": "fedramp@zendesk.com"
     },
     {
-      "contactType": "Sales"
+      "contactType": "Sales",
+      "contactName": "Public Sector Sales",
+      "contactEmail": "fedramp@zendesk.com"
     }
   ],
   "assessor": {
     "name": "Schellman Compliance, LLC",
     "assessorID": "136571"
   },
+  "certifiedServices": [
+    {
+      "ServiceCategory": "Moderate",
+      "serviceName": "Zendesk Suite for Government",
+      "serviceDescription": "All product features below are categorized as Class C (Moderate).\n\n- Ticketing\n- Knowledge\n- Messaging & Live Chat\n- Analytics & Reporting\n- Voice\n- AI & Automation\n- AI Agents\n- Quality Assurance\n- Advanced Data Privacy & Protection\n- Workforce Management"
+    }
+  ],
   "thirdPartyInformationResources": {
     "certified": [
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2106555313",
-        "useCase": ""
+        "name": "AWS US East/West",
+        "provider": "Amazon",
+        "useCase": "Provides the cloud infrastructure platform and services supporting the Zendesk for Government trust boundary. Zendesk inherits IaaS/PaaS controls from AWS according to its Customer Responsibility Matrix.",
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2403745080",
-        "useCase": ""
+        "name": "The Data Cloud on AWS US East/West",
+        "provider": "Snowflake Inc.",
+        "useCase": "Provides data warehousing and supports Analytics functionality of the Zendesk platform. Also serves as the SIEM for the trust boundary.",
+        "fedRampCertifiedThirdPartyInformationResource": "FR1809360201"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2031222637",
-        "useCase": ""
+        "name": "Okta IDaaS Regulated Cloud",
+        "provider": "Okta",
+        "useCase": "Provides centralized identity and access management for Zendesk employees with access to the trust boundary.",
+        "fedRampCertifiedThirdPartyInformationResource": "F1512167750"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1814168113",
-        "useCase": ""
+        "name": "ChatGPT Enterprise and API Platform",
+        "provider": "OpenAI",
+        "useCase": "Provides generative artifician intelligence and natural language processing services for the Zendesk platform.",
+        "fedRampCertifiedThirdPartyInformationResource": "FR2533155773"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1923743650A",
-        "useCase": ""
+        "name": "Wiz for U.S. Government",
+        "provider": "Wiz, Inc.",
+        "useCase": "Provides overarching cloud security posture management and vulnerability management capabilities.",
+        "fedRampCertifiedThirdPartyInformationResource": "FR2308034636A"
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "MongoDB Atlas",
+        "provider": "MongoDB, Inc.",
+        "website": "https://mongodb.com",
+        "useCase": "Managed NoSQL document database service supporting application data for the offering, deployed in AWS US East / West.",
+        "generalUsageAndConfiguration": "MongoDB Atlas clusters deployed on AWS running in US region, storing application data.",
+        "justificationForUse": "Zendesk already uses this cloud-native document database service in it's commercial offering to support the platform's functionality.",
+        "mitigationMeasures": "All Atlas traffic uses TLS 1.2 encryption by default and is supported by the OpenSSL FIPS Object Module. All customer data is encrypted at rest using AES-256. In addition, MongoDB personnel do not have access to Zendesk's customer data by default; only a small group of background-checked privileged users may access the database clusters in rare cases to investigate and restore critical services.",
+        "compensatingControls": "Zendesk uses the concept of least-privilege to provision MongoDB Atlas access only to authorized engineers. In addition, Zendesk utilizes zero trust network architecture and endpoint device controls to ensure that multi-layered access controls are in place. All access to MongoDB Atlas is logged and monitored.",
+        "disposition": "Retained with documented vendor mitigations and compensating controls."
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2424553196",
-        "useCase": ""
+        "name": "Datadog",
+        "provider": "Datadog, Inc.",
+        "website": "https://datadoghq.com",
+        "useCase": "Logging and monitoring platform for production services.",
+        "generalUsageAndConfiguration": "Zendesk uses a completely separate instance of Datadog running in the US. Zendesk uses the Commercial version of Datadog and not Datadog for Government which is Class D certified.",
+        "justificationForUse": "Zendesk was already using using the Commercial version of Datadog and has mechanisms to keep logging data isolated to US processing and storage.",
+        "mitigationMeasures": "Datadog logs are encrypted at rest using AES-256.",
+        "compensatingControls": "Zendesk only retains production logs for 30 days. In addition, multiple layers of access controls such as MFA and role-based access are in place.",
+        "disposition": "Retained with documented vendor mitigations and compensating controls."
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2009476860A",
-        "useCase": ""
+        "name": "Sentry",
+        "provider": "Functional Software, Inc.",
+        "website": "https://sentry.io",
+        "useCase": "Error reporting platform for production services.",
+        "generalUsageAndConfiguration": "Zendesk uses a completely separate instance of Sentry specifically for this service. Sentry does not have a FedRAMP-certified offering.",
+        "justificationForUse": "This is Zendesk's existing error reporting and observability platform.",
+        "mitigationMeasures": "All Sentry traffic uses TLS 1.2 encryption and data is encrypted at rest using AES-256.",
+        "compensatingControls": "Zendesk only retains production logs for 90 days. In addition, multiple layers of access controls such as MFA and role-based access are in place.",
+        "disposition": "Retained with documented vendor mitigations and compensating controls."
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2530025267",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2220549818",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2014656304",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2000863987A",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2013059515",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2023864279A",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1932554201",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1834348080",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1919750997",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1831429369",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2122038682",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1718334757",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2201340492",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2218073444",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2524416446",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2432218524",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2313477206",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "F1605027892",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1722838693",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2425742814",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2002367706",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2213722684",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1918740338",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2134635186",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2433985791",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1924344515",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2308034636A",
-        "useCase": ""
+        "name": "Cloudflare",
+        "provider": "Cloudflare, Inc.",
+        "website": "https://cloudflare.com",
+        "useCase": "Zendesk's edge proxy layer. Performs DNS, TLS termination, WAF, and rate limiting for customer traffic.",
+        "generalUsageAndConfiguration": "Zendesk uses a completely separate instance of Cloudflare for this service. Zendesk uses the Commercial version of Cloudflare and does not use Cloudflare for Government which is Class D certified.",
+        "justificationForUse": "This is Zendesk's existing error reporting and observability platform.",
+        "mitigationMeasures": "All traffic uses TLS 1.2 encryption.",
+        "compensatingControls": "Zendesk utilizes zero trust network architecture, endpoint device controls, MFA, and role-based access to ensure that multi-layered access controls are in place.",
+        "disposition": "Retained with documented vendor mitigations and compensating controls."
       }
     ]
   },
   "ZD_frid_retro": "FR1821856903",
-  "id_matches_expected": true
+  "id_matches_expected": false
 }

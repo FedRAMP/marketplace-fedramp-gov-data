@@ -1,0 +1,77 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "schemaVersion": "0.2.0",
+  "publicationStatus": "draft",
+  "lastReviewed": "2026-11-08",
+  "serviceIdentification": {
+    "providerName": "Hamming.ai",
+    "serviceName": "Hamming",
+    "serviceAcronym": "HAMMING",
+    "serviceDescription": "Hamming is a cloud-based security and quality assurance platform for AI voice and chat agents. It combines continuous testing, adversarial red teaming, and runtime monitoring to help organizations identify risks, validate improvements, and detect regressions.",
+    "certificationType": "20x",
+    "fedRampPackageId": "Hamming.ai (Hamming)",
+    "ueiNumber": "NQUNJRVVLGC4",
+    "website": "https://www.hamming.ai",
+    "logo": "https://hamming.ai/images/hamming-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Artificial Intelligence (AI)",
+      "Governance, Risk, and Compliance (GRC)",
+      "Contact Center",
+      "Customer Service"
+    ],
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.hamming.ai/guides/fedramp-secure-configuration-guidance",
+      "repositoryDescription": "Authenticated Hamming documentation page containing high-level Secure Configuration Guidance for the FedRAMP 20x launch profile. Detailed certification evidence is not published on this page.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Sign in at https://docs.hamming.ai. If access is not available, request it by emailing security@hamming.ai with the organization, FedRAMP review purpose, and reviewer names and email addresses."
+    },
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.hamming.ai",
+      "repositoryDescription": "Public landing page for Hamming security and compliance information. Access to restricted documentation requires approval.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Request access to restricted documentation through https://trust.hamming.ai."
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "FedRAMP",
+      "contactEmail": "fedramp@hamming.ai"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Security",
+      "contactEmail": "security@hamming.ai"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Continuous Testing",
+      "serviceDescription": "Automated evaluations, recurring regression tests, and load testing to assess agent security, quality, and performance. Federal assessment scope and security category are pending confirmation; this is not a certification claim."
+    },
+    {
+      "serviceName": "Runtime Monitoring",
+      "serviceDescription": "Monitor production conversations for security risks, quality issues, and performance changes, with reports and alerts to support investigation. Federal assessment scope and security category are pending confirmation; this is not a certification claim."
+    },
+    {
+      "serviceName": "Red Teaming",
+      "serviceDescription": "Adversarial testing to identify vulnerabilities and evaluate resistance to unsafe or policy-violating behavior. Federal assessment scope and security category are pending confirmation; this is not a certification claim."
+    }
+  ],
+  "advisors": [],
+  "ZD_frid_retro": "FR2704160203",
+  "id_matches_expected": false
+}

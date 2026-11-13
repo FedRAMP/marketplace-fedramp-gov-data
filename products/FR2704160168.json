@@ -1,0 +1,197 @@
+{
+  "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "$schemaVersion": "0.2.0",
+  "serviceIdentification": {
+    "fedRampPackageId": "Abbott Diabetes Care Inc. / LibreView",
+    "ueiNumber": "QHAQG6LBGBC5",
+    "providerName": "Abbott Diabetes Care Inc.",
+    "serviceName": "LibreView",
+    "serviceAcronym": "LibreView",
+    "serviceDescription": "LibreView is a secure, cloud-based diabetes management system that gives healthcare professionals and patients clear, easy-to-understand reports from compatible FreeStyle glucose monitoring devices.",
+    "certificationType": "20x",
+    "website": "https://www.libreview.com/",
+    "logo": "https://www.freestyle.abbott/content/dam/adc/freestyle/countries/us-en/images/rebranding/app/LibreView.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Health & Wellness",
+      "Data Management",
+      "Analytics"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.diabetescare.abbott/",
+      "repositoryDescription": "Abbott Diabetes Care's Trust Center provides security, privacy, compliance, FedRAMP, and product-assurance information for LibreView.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "The Trust Center landing page and public resources are available without authentication. Human-readable certification-data PDF: https://trust.diabetescare.abbott/resources?s=qo2fje7f0pxysyvko2cb3g&name=libre-view-fed-ramp-certification-data-pdf. Machine-readable certification-data JSON resource page: https://trust.diabetescare.abbott/resources?s=77c2ria0oy5m3swctxba5k&name=libre-view-fed-ramp-certification-data-json. Programmatic access uses the direct JSON endpoint identified in programmaticAccess.method. For a restricted resource, select Request access, provide the requested contact and company information and a reason for access, and submit the request. Previously approved viewers may select Reclaim access.",
+      "programmaticAccess": {
+        "status": "Publicly accessible without authentication or approval workflow",
+        "method": "Direct JSON endpoint: https://trust.diabetescare.abbott/doc/trust?rid=6ae4bc11cea1a7f5016bebed&r=9g8z07rxhbcsff7xo69vs4"
+      },
+      "humanReadableCertificationDataUrl": "https://trust.diabetescare.abbott/resources?s=qo2fje7f0pxysyvko2cb3g&name=libre-view-fed-ramp-certification-data-pdf",
+      "machineReadableCertificationDataResourceUrl": "https://trust.diabetescare.abbott/resources?s=77c2ria0oy5m3swctxba5k&name=libre-view-fed-ramp-certification-data-json"
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.diabetescare.abbott/resources?s=s8weau3ip2jusekh52h6sg&name=libre-view-secure-configuration-guide-pdf",
+      "repositoryDescription": "LibreView Secure Configuration Guide Version 1.4 in human-readable PDF and machine-readable JSON formats.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Human-readable PDF resource: https://trust.diabetescare.abbott/resources?s=s8weau3ip2jusekh52h6sg&name=libre-view-secure-configuration-guide-pdf. Machine-readable JSON resource page: https://trust.diabetescare.abbott/resources?s=b3tgf3u82bm68iqvmnbve&name=libre-view-secure-configuration-guide-json. Direct JSON endpoint: https://trust.diabetescare.abbott/doc/trust?rid=6ae4bbc35284eb3cdf0d5667&r=9g8z07rxhbcsff7xo69vs4."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Product Documentation",
+          "Patient Guidance"
+        ],
+        "url": "https://pat.libreview.io/articles/qsg?country=US&lang=en-US",
+        "repositoryDescription": "U.S. patient quick-start and operating guidance including account creation, uploads, reports, connection to a healthcare practice, account and device management, and regulatory information.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Product Documentation",
+          "Healthcare Professional Guidance"
+        ],
+        "url": "https://pro.libreview.io/articles/qsg?country=US&lang=en-US",
+        "repositoryDescription": "U.S. healthcare-professional quick-start and operating guidance, including account and practice setup, care-team administration, uploads, patient invitations, dashboards, reports, export, settings, and regulatory information.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Product Documentation",
+          "Support Landing Page"
+        ],
+        "url": "https://www.libreview.com/support",
+        "repositoryDescription": "LibreView customer-support landing page for patient and healthcare-professional product guidance. Individual deep article URLs may redirect to this landing page.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Terms of Use",
+          "Professional"
+        ],
+        "url": "https://www.libreview.com/files/documents/en-US/pro-TOU_2025-06-17.html",
+        "repositoryDescription": "Terms governing professional use of LibreView and describing the service, permitted uses, roles, and responsibilities.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Terms of Use",
+          "Patient"
+        ],
+        "url": "https://www.libreview.com/files/documents/en-US/pat-TOU_2025-06-17.html",
+        "repositoryDescription": "Terms governing patient and individual use of LibreView and describing account responsibilities, permitted uses, and service conditions.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Privacy Documentation"
+        ],
+        "url": "https://www.libreview.com/files/documents/en-US/unified-PP_2026-04-01.html",
+        "repositoryDescription": "LibreView privacy notice describing collection, use, protection, retention, storage, disclosure, and privacy contacts.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "HIPAA Documentation"
+        ],
+        "url": "https://www.libreview.com/files/documents/en-US/HIPAADoc_2024-04-01.pdf",
+        "repositoryDescription": "Abbott Diabetes Care notice concerning uses and disclosures of medical information under HIPAA.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Security Documentation",
+          "Vulnerability Disclosure"
+        ],
+        "url": "https://www.cybersecurity.abbott/home/coordinated-disclosure-program.html",
+        "repositoryDescription": "LibreView-ecosystem coordinated vulnerability disclosure policy, reporting instructions, scope, and secure communication guidance.",
+        "authenticationRequired": false
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "Carole Hamm",
+      "contactEmail": "carole.hamm@abbott.com"
+    },
+    {
+      "contactType": "Security",
+      "contactEmail": "adcsecops@abbott.com"
+    }
+  ],
+  "assessor": {
+    "name": "Kratos",
+    "assessorID": "137255"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "LibreView Professional Accounts",
+      "serviceDescription": "LibreView professional accounts provide clinical-practice users and authorized representatives or agents with access to LibreView functions appropriate to their roles.",
+      "securityCategory": "Moderate",
+      "includedInMinimumAssessmentScope": true,
+      "scopeQualification": "LibreView-hosted identity, authentication, authorization, and account-management functions for professional users are included. Patient and caregiver accounts and their consumer-facing account-management functions are excluded. Shared identity resources remain included when they can affect professional-user access or federal customer data. Customer browsers and external email systems are outside the LibreView cloud service offering.",
+      "dateAvailable": "2015-09-17"
+    },
+    {
+      "serviceName": "Glucose Data Upload and Synchronization",
+      "serviceDescription": "LibreView uploads and synchronizes glucose-device and compatible Libre-application data for storage, review, and reporting.",
+      "securityCategory": "Moderate",
+      "includedInMinimumAssessmentScope": true,
+      "scopeQualification": "LibreView cloud upload endpoints, validation, ingestion, synchronization, and patient-association functions are included. Sensors, readers, mobile apps, customer computers, cables, and locally installed device drivers are excluded.",
+      "dateAvailable": "2015-09-17"
+    },
+    {
+      "serviceName": "Patient Profiles and Glucose History",
+      "serviceDescription": "LibreView stores, associates, organizes, retrieves, and presents historical glucose data, connected-device data, and supported user-entered information.",
+      "securityCategory": "Moderate",
+      "includedInMinimumAssessmentScope": true,
+      "scopeQualification": "LibreView-hosted patient profiles, databases, storage, association, retrieval, and related processing are included. Source devices and customer-managed copies of information are outside the cloud service offering.",
+      "dateAvailable": "2015-09-17"
+    },
+    {
+      "serviceName": "Glucose Reports and Analytics",
+      "serviceDescription": "LibreView generates, displays, customizes, prints, and saves glucose reports and analytics, including marketed report types such as Ambulatory Glucose Profile, Glucose Pattern Insights, Daily Patterns, and Weekly Summary where available.",
+      "securityCategory": "Moderate",
+      "includedInMinimumAssessmentScope": true,
+      "scopeQualification": "LibreView-hosted report generation, analytics, authorization, viewing, and delivery are included. Saved, printed, or downloaded copies become customer-managed and are outside the cloud service offering after delivery.",
+      "dateAvailable": "2015-09-17"
+    },
+    {
+      "serviceName": "LibreView Practice and Care Team Administration",
+      "serviceDescription": "LibreView enables healthcare practices to create and administer Practices, Practice IDs, Care Team membership, professional invitations, and role-appropriate access to shared patient information.",
+      "securityCategory": "Moderate",
+      "includedInMinimumAssessmentScope": true,
+      "scopeQualification": "LibreView-hosted Practice, Practice ID, Care Team, invitation, role, and permission functions are included. Customer workforce processes and customer-controlled endpoints are outside the cloud service offering.",
+      "dateAvailable": "2015-09-17"
+    },
+    {
+      "serviceName": "Remote Patient Invitation and Data Sharing",
+      "serviceDescription": "LibreView provides invitation and connection workflows that allow patients to share LibreView data with an authorized healthcare Practice, allow Care Teams to review shared data remotely, and allow patients to stop sharing their data at any time.",
+      "securityCategory": "Moderate",
+      "includedInMinimumAssessmentScope": true,
+      "scopeQualification": "LibreView-hosted invitation state, Practice connections, sharing authorization, transmission, and stop-sharing controls are included. Recipient systems, external mailboxes, and customer handling after receipt are outside the cloud service offering.",
+      "dateAvailable": "2015-09-17"
+    },
+    {
+      "serviceName": "Patient Dashboard and Data Export",
+      "serviceDescription": "LibreView provides a Practice-facing patient dashboard, supported patient views and flags, and supported report or data-export functions used to review and manage patient information.",
+      "securityCategory": "Moderate",
+      "includedInMinimumAssessmentScope": true,
+      "scopeQualification": "LibreView-hosted dashboard rendering, patient views and flags, export authorization, generation, and delivery are included. Downloaded or printed files and recipient systems are outside the cloud service offering after delivery.",
+      "dateAvailable": "2015-09-17"
+    }
+  ],
+  "ZD_frid_retro": "FR2704160168",
+  "id_matches_expected": false
+}

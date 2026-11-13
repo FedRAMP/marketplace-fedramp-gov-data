@@ -1,0 +1,97 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "Knowtex Inc. (KTX)",
+    "ueiNumber": "BW1HKP7FA37",
+    "providerName": "Knowtex Inc.",
+    "serviceName": "Knowtex",
+    "serviceAcronym": "KTX",
+    "serviceDescription": "Knowtex is an AI assistant that supports federal clinicians before, during, and after every patient visit. Before the visit, it prepares the clinician with relevant patient history and context. During the visit, it listens ambiently with the patient's consent so the clinician can stay focused on the patient. After the visit, it automates complex medical workflows and completes clinician-approved work directly in the agency's electronic health record. Throughout, Knowtex surfaces clinical insights that help clinicians make informed decisions. Clinicians can use Knowtex on the web, on Windows desktop, and on mobile, and it keeps working offline.\n\nKnowtex runs in AWS GovCloud (US-East), serves government customers only, processes protected health information, and is categorized at the FedRAMP Moderate impact level.\n\n**Overall FIPS 199 categorization:** Moderate (Confidentiality: Moderate, Integrity: Moderate, Availability: Moderate). All listed services are categorized as Moderate for confidentiality, integrity, and availability.",
+    "certificationType": "Rev5",
+    "website": "https://www.knowtex.ai/",
+    "logo": "https://cdn.prod.website-files.com/69a6904456d2410b124ed295/69a6eb3a31af8d6eb1a66af1_logo-black.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Health & Wellness"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://app.vanta.com/knowtex.ai/trust/w1cbswpztlpqpbbj0sdvgx",
+      "repositoryDescription": "Knowtex Trust Center with security policies, compliance reports, and FedRAMP certification materials.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Request access to restricted documents through the Trust Center, or email privacy@knowtex.ai."
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Primary",
+      "contactName": "Jocelyn Kang, Co-Founder and CTO",
+      "contactEmail": "jocelyn@knowtex.ai"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Knowtex Security and Privacy",
+      "contactEmail": "privacy@knowtex.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Knowtex Sales",
+      "contactEmail": "sales@knowtex.ai"
+    }
+  ],
+  "assessor": {
+    "name": "Prescient Security",
+    "assessorID": "202040"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Pre-visit preparation",
+      "serviceDescription": "Reviews patient history and prepares the clinician before the visit."
+    },
+    {
+      "serviceName": "Ambient visit assistance",
+      "serviceDescription": "Listens to the clinical conversation through web, Windows desktop, and mobile apps, including offline."
+    },
+    {
+      "serviceName": "Workflow automation",
+      "serviceDescription": "Automates post-visit clinical and administrative work for clinician review and approval."
+    },
+    {
+      "serviceName": "Clinical insights",
+      "serviceDescription": "Surfaces relevant clinical information and insights to support the clinician."
+    },
+    {
+      "serviceName": "EHR integration",
+      "serviceDescription": "Completes clinician-approved work in the agency's electronic health record."
+    },
+    {
+      "serviceName": "Administration and user management",
+      "serviceDescription": "Lets authorized administrators manage users, access, and settings."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "AWS GovCloud (US) us-gov-east-1 provides the underlying IaaS infrastructure; Knowtex inherits controls as a leveraged authorization."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "DuploCloud",
+        "provider": "DuploCloud, Inc.",
+        "website": "https://duplocloud.com/",
+        "useCase": "Infrastructure provisioning and DevSecOps automation for the Knowtex environment in AWS GovCloud."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2704160211",
+  "id_matches_expected": false
+}

@@ -31,7 +31,7 @@
       },
       {
         "goal": "Move partially met rules to met and close the known gaps.",
-        "measuredBy": "Measured by the same rule verdicts summarized above: 15 partially met and 2 with known gaps at page generation. The next statement will report the same counts, so movement, or the lack of it, will be visible."
+        "measuredBy": "Measured by the same rule verdicts summarized above: 16 partially met and 2 with known gaps at page generation. The next statement will report the same counts, so movement, or the lack of it, will be visible."
       },
       {
         "goal": "Build the six-month persistent validation history that Class C reporting expects.",
@@ -59,7 +59,7 @@
     "nextUpdateDueBy": "2026-11-11",
     "notGoingWell": [
       "There is a six-day hole in the daily evidence history: no Key Security Indicator snapshots were recorded from 2026-07-31 through 2026-08-05. It cannot be backfilled and will not be. The gap stays in the record, and an assessor reading the history will see it.",
-      "15 of the 45 tracked rules are still only partially met and 2 have known gaps.",
+      "16 of the 45 tracked rules are still only partially met and 2 have known gaps.",
       "An independent assessor has been engaged since 2026-08-25 and the assessment is in progress, but it has not yet delivered its reports. Every per indicator assessment statement in the Security Decision Record still reads as not yet assessed, and none of them may be written by the provider."
     ],
     "rule": "MKT-IIP-DCP",
@@ -75,7 +75,7 @@
     "whereWeStand": [
       "Enablement is listed in the FedRAMP Marketplace under FedRAMP ID FR2628647239 at the Initial Implementation stage. It is not FedRAMP certified and holds zero FedRAMP authorizations. Nothing in this statement claims otherwise.",
       "The certification being pursued is a FedRAMP 20x Class C Program Certification. No date for obtaining it is promised anywhere on this page, because that decision belongs to FedRAMP, not to Advent.",
-      "Advent tracks 45 FedRAMP rules covering certification data sharing, trust center operation, cryptographic module use, minimum assessment scope, and vulnerability detection and response against its own implementation. Current standing: 24 met, 15 partially met, 2 with known gaps, 3 not applicable to this offering, and 1 not currently triggered. These counts are recomputed from the rule-by-rule verdict data every time this page is generated, so they can move between quarterly statements; the dated figures elsewhere in this statement stay as written.",
+      "Advent tracks 45 FedRAMP rules covering certification data sharing, trust center operation, cryptographic module use, minimum assessment scope, and vulnerability detection and response against its own implementation. Current standing: 24 met, 16 partially met, 2 with known gaps, 3 not applicable to this offering, and 0 not currently triggered. These counts are recomputed from the rule-by-rule verdict data every time this page is generated, so they can move between quarterly statements; the dated figures elsewhere in this statement stay as written.",
       "All 46 Key Security Indicators report at least one active automated validation method, and 42 of 46 report two or more. Verified against the daily evidence snapshot of 2026-08-11. Per-indicator evidence is available to agencies and assessors through the access-controlled endpoints listed on this page."
     ]
   },
@@ -260,16 +260,29 @@
         "renderer": "Each notification page, rendered from that notification's JSON record at request time"
       },
       {
+        "access": "Token-gated (CDS-CSO-RIS), like the JSON report.",
+        "humanReadable": "https://enablement.cc/ml/20x/ocr.html?src_id=1711",
+        "machineReadable": "https://enablement.cc/ml/20x/ocr?src_id=1711",
+        "renderer": "The Ongoing Certification Report page, rendered from the same report at request time, or served as kept when the report was issued"
+      },
+      {
         "access": "Token-gated (CDS-CSO-RIS), like the JSON Security Decision Record.",
         "humanReadable": "https://enablement.cc/ml/20x/sdr.html?src_id=1711",
         "machineReadable": "https://enablement.cc/ml/20x/sdr?src_id=1711",
         "renderer": "The Security Decision Record page, rendered from the same Security Decision Record at request time"
+      },
+      {
+        "access": "Token-gated (CDS-CSO-RIS). The index lists the report issued for each calendar month, kept as issued.",
+        "humanReadable": "https://enablement.cc/ml/20x/vdr.html?src_id=1711",
+        "index": "https://enablement.cc/ml/20x/vdr-archive?src_id=1711",
+        "machineReadable": "https://enablement.cc/ml/20x/vdr?src_id=1711",
+        "renderer": "The monthly vulnerability report page, rendered from the Vulnerability Detail Report and the Accepted Vulnerability Info at request time and withheld if it would omit a value either carries"
       }
     ],
     "howOmissionIsPrevented": "Single-sourcing stops the page contradicting the JSON; it does not stop the page omitting part of it, which is the failure that actually occurred when availability endpoints were added to the document after the HTML tables were written. An automated comparison walks every value in each JSON document and confirms it reached the page, so a new field must be either rendered or added to a named exemption list carrying its reason.",
     "howStalenessIsPrevented": "Structurally, not procedurally. Each human-readable page is RENDERED FROM the machine-readable document at request time and is handed no other source of facts — no database handle, no second query, no cached copy. A stale HTML rendering is therefore not a state this service can be in.",
     "howToVerifyIndependently": "Fetch both formats and compare them yourself. The provider's release checks fail on any divergence, and its automated tests re-run the comparison across an outage, a measurement gap, a partial day, a single-endpoint window and an empty log.",
-    "limitationsOfThisCheck": "For the trust and status pages it runs at release time, not on every request, so it gates a release rather than a response. For Significant Change Notifications and the Security Decision Record it also runs on every request, and a page that would leave out a value is withheld: notifications are written by hand and can be published without a release, and the Security Decision Record carries live evidence that changes between releases. It compares values one way (every JSON scalar must appear in the HTML); the reverse needs no check because the page has no other source. Booleans and nulls are matched by field rather than by literal, since a page renders them as words.",
+    "limitationsOfThisCheck": "For the trust and status pages it runs at release time, not on every request, so it gates a release rather than a response. For Significant Change Notifications and the Security Decision Record it also runs on every request, and a page that would leave out a value is withheld: notifications are written by hand and can be published without a release, and the Security Decision Record carries live evidence that changes between releases. The Ongoing Certification Report is checked the same way on every request for its page and again when it is issued. It compares values one way (every JSON scalar must appear in the HTML); the reverse needs no check because the page has no other source. Booleans and nulls are matched by field rather than by literal, since a page renders them as words.",
     "rule": "CDS-CSO-CBF"
   },
   "enablementArtifacts": {
@@ -313,14 +326,14 @@
     "schemaPinSynced": "2026-10-28"
   },
   "metadata": {
-    "lastUpdated": "2026-11-12T03:07:41Z",
+    "lastUpdated": "2026-11-13T04:42:04Z",
     "responsibleOfficial": {
       "contactEmail": "rajesh@adventbusiness.com",
       "name": "Rajesh Gupta",
       "title": "Vice President and Secretary, System Owner and ISSO, Advent Business Company Inc."
     },
     "updateSource": "Generated at request time by the deployed certification-data service; content changes reach it only through the automated build and deployment pipeline under Advent's change management procedure.",
-    "version": "1.0.0+b96713e6"
+    "version": "1.0.0+c704a771"
   },
   "ongoingCertificationReportFeedback": {
     "acknowledgement": "Automatic on receipt (AFC-CSO-ACK mechanism, shared).",
@@ -334,6 +347,17 @@
       "CCM-OCR-AFS"
     ],
     "substantiveResponseTargetBusinessDays": 5
+  },
+  "quarterlyReview": {
+    "cadence": "One review every 3 months, held 4 business days after each Ongoing Certification Report. If a report is released late, the review follows the actual release date and this date is updated within 1 business day.",
+    "calendarFileStatus": "The calendar file and the meeting link are published here no later than 10 business days before the review.",
+    "nextReviewDate": "2027-01-26",
+    "openTo": "All necessary parties: FedRAMP, agency customers and their assessors. No account or token is needed to register.",
+    "registration": "Write to the FedRAMP Security Inbox at fedramp-security@adventbusiness.com, which answers with the calendar file and the meeting details.",
+    "rules": [
+      "CCM-QTR-NRD",
+      "CCM-QTR-REG"
+    ]
   },
   "securityCategorization": {
     "authority": "MINIMUM_ASSESSMENT_SCOPE.md §3 (information flows and security categories) and §9.1 item 8 (Class C declaration). Available token-gated at https://enablement.cc/ml/20x/doc/mas.",
@@ -429,6 +453,24 @@
           "Human-Readable Authorization Data"
         ],
         "url": "https://enablement.cc/ml/20x/sdr.html?src_id=1711"
+      },
+      {
+        "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+        "authenticationRequired": true,
+        "repositoryDescription": "Ongoing Certification Report, human-readable page rendered from the same document as the JSON report (CCM-OCR-AVL, CDS-CSO-CBF)",
+        "repositoryType": [
+          "Human-Readable Authorization Data"
+        ],
+        "url": "https://enablement.cc/ml/20x/ocr.html?src_id=1711"
+      },
+      {
+        "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
+        "authenticationRequired": true,
+        "repositoryDescription": "Issued Ongoing Certification Reports, each kept as issued, with the snapshot of certification data taken when it was issued and a SHA-256 hash of each stored file (CCM-OCR-AVL, CDS-CSO-HAD)",
+        "repositoryType": [
+          "Machine-Readable Authorization Data"
+        ],
+        "url": "https://enablement.cc/ml/20x/ocr-archive?src_id=1711"
       },
       {
         "accessRequestInstructions": "Request tenant-scoped API access from fedramp-security@adventbusiness.com.",
@@ -891,11 +933,11 @@
     "nonCertified": [
       {
         "compensatingControls": "A failover DNS flip is a documented manual recovery step rather than an automatic one, so a zone change is a deliberate operator action. Certificates are issued and renewed by Let's Encrypt through certbot on the host, so a DNS compromise alone does not yield a trusted certificate.",
-        "mitigationMeasures": "DNSSEC signing is enabled on the enablement.cc hosted zone (ServeSignature SIGNING, verified 2026-08-07), which supersedes the 'not enabled' entry at §9.2 svc-route53-dnssec. Zone changes are restricted to key-based programmatic access; the account has no console-enabled IAM user and root MFA is enabled.",
-        "name": "Amazon Route 53 (commercial account)",
+        "mitigationMeasures": "DNSSEC is not enabled on the enablement.cc zone as of 2026-11-12 (no key at the authoritative servers, no delegation-signer record at the parent, no signatures from public resolvers); a remediation item is open, recorded in the Minimum Assessment Scope §2.5-4. Zone changes are restricted to key-based programmatic access under the account's access controls.",
+        "name": "Amazon Route 53 (AWS GovCloud account)",
         "provider": "Amazon Web Services",
         "reference": "MINIMUM_ASSESSMENT_SCOPE.md §5, §9.2 svc-route53-dnssec",
-        "useCase": "Authoritative DNS for enablement.cc. Route 53 is not available in GovCloud, so the zone is hosted in the commercial account. DNS carries no customer data."
+        "useCase": "Authoritative public DNS for enablement.cc and enablement.us, served by Route 53 in the AWS GovCloud account (checked from public DNS on 2026-11-12). DNS carries no customer data."
       },
       {
         "compensatingControls": "Feeds carry detection content, never customer data. A poisoned feed degrades detection rather than granting access, and feed staleness is itself monitored.",

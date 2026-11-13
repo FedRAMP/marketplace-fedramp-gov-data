@@ -1,44 +1,160 @@
 {
+  "metadata": {
+    "version": "1.0.6",
+    "lastUpdated": "2026-11-09T00:00:00.000Z",
+    "updateSource": null,
+    "responsibleOfficial": {
+      "name": "Steven Aiello",
+      "title": "Information System Owner",
+      "email": "saiello@x.ai"
+    }
+  },
   "serviceIdentification": {
     "fedRampPackageId": "FR2618542150",
-    "providerName": "xAI",
+    "providerName": "SpaceXSI",
     "serviceName": "Grok for Government",
-    "serviceAcronym": "Grok for Government",
-    "serviceDescription": "xAI’s Grok Enterprise for Government delivers frontier AI capabilities purpose-built for U.S. federal agencies, now available in a secure, compliant environment. Powered by the most advanced Grok family of models, it combines unmatched reasoning, real-time knowledge integration (including secure enterprise search), multi-agent collaboration, multimodal understanding (text, code, images, and video), massive context windows, and powerful API/agentic workflows.",
+    "serviceAcronym": "Grok",
+    "serviceDescription": "SpaceXSI's Grok for Government delivers frontier AI capabilities purpose-built for U.S. federal agencies, now available in a secure, compliant environment. Powered by the most advanced Grok family of models, it combines unmatched reasoning, real-time knowledge integration (including secure enterprise search), multi-agent collaboration, multimodal understanding (text, code, images, and video), massive context windows, and powerful API/agentic workflows. SpaceXSI is delivered as a SaaS offering using a single-tenant or multi-tenant government-community cloud computing environment. Grok for Government is available to the public, federal, state, local, and tribal governments, as well as research institutions, federal contractors, and government contractors.",
     "certificationType": "Rev5",
     "website": "https://x.ai/grok/government",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/XAI%20Logo.png"
+    "logo": "https://x.ai/icon.png?icon.2jebtfdg6783w.png"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Government Community Cloud",
+    "deploymentModel": "Government-Only Cloud",
     "businessCategory": [
-      "Analytics",
-      "Collaboration",
-      "Customer Service",
-      "Cybersecurity & Risk Management",
-      "Data Management",
-      "Design & Multimedia",
-      "Development Tools",
-      "Legal & Policy",
-      "Research"
-    ]
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/spacexsi",
+      "repositoryDescription": "SpaceXSI FedRAMP Trust Center. Public program information is available without an account, controlled supporting deliverables are available by request.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "To request controlled deliverables, select Request Access in the SpaceXSI FedRAMP Trust Center and identify your agency or organization. For control-level evidence, email fedramp@spacex.com from an official account to request read-only Paramify Assessment Viewer access."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "repositoryDescription": "The Secure Configuration Guide is available with an account.",
+      "url": "https://trust.paramify.com/spacexsi",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "To request controlled deliverables, select Request Access in the SpaceXSI FedRAMP Trust Center and identify your agency or organization. For control-level evidence, email fedramp@spacex.com from an official account to request read-only Paramify Assessment Viewer access."
+    }
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "security@x.ai"
+      "contactType": "Information System Security Officer",
+      "contactName": "Reed Rising",
+      "contactEmail": "reed.rising@spacex.com"
     },
     {
-      "contactType": "Sales",
-      "contactEmail": "sales@x.ai"
+      "contactType": "Sales"
+    },
+    {
+      "contactType": "Authorizing Official Point of Contact",
+      "contactName": "Supriya Ahuja",
+      "contactEmail": "supriya.ahuja@hq.dhs.gov",
+      "contactPhone": "202-709-0974"
+    },
+    {
+      "contactType": "Authorizing Official",
+      "contactName": "Department of Homeland Security (DHS)"
+    },
+    {
+      "contactType": "Content Approver",
+      "contactName": "Steven Aiello",
+      "contactEmail": "saiello@x.ai"
+    },
+    {
+      "contactType": "System Owner",
+      "contactName": "Steven Aiello",
+      "contactEmail": "saiello@x.ai"
+    },
+    {
+      "contactType": "FedRAMP PMO"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "David Leng",
+      "contactEmail": "david.leng@spacex.com"
+    },
+    {
+      "contactType": "Prepared For",
+      "contactName": "SpaceXSI"
+    },
+    {
+      "contactType": "Prepared By",
+      "contactName": "SpaceXSI"
+    },
+    {
+      "contactType": "System Point of Contact - Other",
+      "contactName": "Branden Carlson",
+      "contactEmail": "branden.carlson@spacex.com"
     }
   ],
   "assessor": {
-    "name": "Schellman Compliance, LLC",
-    "assessorID": "136571"
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
+  },
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Knox Systems FedRAMP High Managed Platform",
+        "useCase": "Knox Systems provides a FedRAMP-authorized, multi-tenant cloud platform that delivers commercial software to federal customers on managed infrastructure across AWS, Azure and Google Cloud Platform. Knox handles 24/7 security and network operations for the workloads it hosts, including continuous monitoring, vulnerability scanning, patch management and incident response. SpaceXSI uses Knox only for Upwind, our cloud security monitoring service, and no other Knox-hosted offering is part of our system."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Microsoft 365 Government Community Cloud-High",
+        "useCase": "Microsoft 365 (M365) Government Community Cloud-High (GCC-H) is a product family of cloud-hosted messaging and collaboration services. These cloud-based services are designed to provide organizations with streamlined communication, high availability, comprehensive security, and simplified information technology (IT) management. M365 GCC-H provides the interactivity of on-premises client and server applications with the flexibility and scalability of web-based services. M365 leverages Azure as the IaaS/PaaS for the underlying infrastructure and hardware. Therefore, M365 relies on Azure-inherited services. For more information on these Azure services, refer to the Azure ATO package. Federal agencies interested in collaborative continuous monitoring with Microsoft should reach out to: M365CollabConMon@microsoft.com"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Okta GHC",
+        "useCase": "Okta for Government High service offering provides centralized identity and access management capabilities to customers who want to manage access across any application or device, whether they are on-premises in the customer's office/data center or in the cloud. The Okta IDaaS platform is the primary application platform provided to customers. The IDaaS application provides several important features/capabilities, which are listed below. - Universal Directory: Okta Universal Directory provides a single view across all these groups with AD and LDAP directory integrations and out-of-the-box connections with HR systems, CSV files, and third-party IdPs. Integration with Applications: Okta comes with pre-integrated applications that customers can select to allow their users to access them through the Okta Integration Network, either in their enterprise or in a cloud - Okta API Integration: Customers can also integrate their own applications with Okta API - Okta Sign-In Widget (SIW): SIW is the out of the box end user experience that our customers can deploy in an Okta hosted environment. SIW provides configurable user registration, sign in and recovery experience. - Okta Software Development Kit (SDKs): SDKs allow customers to build their own identity experience using Okta as a back end. - Okta Customer Organization Logging: Okta's prebuilt monitoring, logging, and reporting tools make it easy to analyze security posture, user access events, lifecycle management transitions, security risks and other identity-related data. - Okta Admin Dashboard: Okta's Admin Dashboard provides central administration and provisioning of users and the applications they can access. - Adaptive Multi-Factor Authentication (aMFA): Adaptive MFA provides an additional layer of security for access control, which gives Okta customers the ability to create contextual access policies that assess risk factors such as device, network, location, travel, IP, and other context at each step of the authentication process. Single Sign-On (SSO): Okta SSO creates a seamless user experience by providing single sign-on to all the web and mobile applications users need to access. - Okta Verify: Okta Verify is Okta's native desktop and mobile application that can be used for mobile client-based MFA authentication. Okta Verify supports the following authentication mechanisms against a customers' organization: Time-based One-time Password (TOTP), Okta Push Challenge-Response, and Okta FastPass (signed once challenge) - Okta FastPass - NIST 800-63B AAL2/AAL3 authenticator"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "PagerDuty Operations Cloud",
+        "useCase": "The PagerDuty Operations Cloud is a comprehensive platform that enables automated detection, diagnosis, and response to a wide range of events, including customer support alerts, suspicious or abnormal behavior, system disruptions, and performance-impacting incidents. By leveraging advanced event orchestration and intelligent aggregation features, PagerDuty enhances the signal-to-noise ratio, allowing organizations to prioritize critical alerts while minimizing distractions from less significant events. With automated actions, the platform can trigger predefined workflows before human intervention is needed, accelerating resolution times and ensuring seamless incident management. On-call scheduling capabilities ensure continuous 24/7 coverage of critical activities, empowering teams to swiftly triage events, including customer support tickets, system alerts, and operational disruptions, and effectively mobilize the appropriate responders to manage incident resolution and recovery. Real-time status updates and external-facing status pages keep stakeholders informed throughout the resolution process."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Paramify Cloud - 20x Moderate",
+        "useCase": "The Paramify Cloud (Paramify) is a software platform that automates risk management processes - including compliance planning, solution implementation, gap assessments, and continuous reporting - for cloud service providers, government agencies, and members of the Defense Industrial Base (DIB). Trusted by leading CSPs like Adobe, Cisco, Trellix, Palo Alto Networks, and Flock Safety. Living Gap Assessment Visualize compliance progress with Paramify's intuitive real-time dashboard. Track controls, manage gaps, and easily organize people, places, and components, ensuring audit readiness for FedRAMP 20X, GovRAMP, and other frameworks. Instant Audit-Ready Documentation Automate compliance, generate audit-ready deliverables like System Security Plans (SSPs), POA&Ms, and Customer Responsibility Matrices in days, not months. Continuously validate compliance with real-time automated validation tools for FedRAMP 20X and other frameworks. Fast, Cost-Effective Monitoring Continuously monitor, validate, and report compliance 90% faster at a quarter of the cost. Paramify's automated tools and Evidence Repository simplify compliance, reducing costs and enhancing efficiency. Integrated with issue management tools like Jira, it streamlines workflows, helping you meet tight deadlines."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "SentinelOne Singularity Platform High",
+        "useCase": "The SentinelOne Singularity platform is a unified, cloud-delivered security platform that provides customers with automation, endpoint detection and response and security information and event management (SIEM) capabilities integrated with a unified data lake to ingest and centralize structured and unstructured data. SentinelOne leverages advanced machine learning algorithms and behavioral AI to analyze and automatically contextualize endpoint data collected across Windows, macOS, Linux, and Cloud Workloads. Data is contextualized and correlated into our patented Storylines technology, which accelerates triage and reduces mean time to detect/respond. Data is organized into a cohesive threat narrative which allows analysts to easily identify threat-related events as well as pivot and hunt to scope threat tactics, techniques, and impact. This gives our customers the ability to quickly stop ransomware and cyber attacks at machine speed with 1-click automated remediation and rollback of malicious activities and changes. Additionally, SentinelOne offers world-class managed detection and response (MDR), digital forensics and incident response (DFIR), and threat hunting services. Our MDR service not only augments security teams by triaging active or suspicious alerts and mitigating and blocking threats as needed, but also keeps them informed and protected from global advanced persistent threat (APT) campaigns, novel attacker techniques, and emerging trends in cybercrime with included threat hunting services. Customers can also call on SentinelOne's integrated DFIR team for deeper forensic analysis of an event and assistance with incident response. Singularity Cloud Native Security (CNS) is an agentless CNAPP capability for protecting cloud environments and assets. Combined with our agent-based Cloud Workload Security capabilities, agencies have a comprehensive build-time to run-time security solution for their cloud infrastructure. CNS leverages a unique offensive security engine to prioritize vulnerabilities and misconfigurations that are truly exploitable to save time for SOC analysts in triage and investigation efforts CNS includes full capabilities covering CSPM, CIEM, KSPM, IAC Scanning, Secrets Scanning, CDR, and CWP use cases and security requirements. Singularity Hyperautomation is a powerful no-code automation solution for streamlining security operations, accelerating threat response, and boosting operational efficiency for security operations teams. Hyperautomation offers analysts the ability to build multi-step automation playbooks taking advantage of unified workflows, pre-built integrations, out-of-the-box templates, and flexible customizations for simplifying delivery of SOAR capabilities from within the unified Singularity platform. Purple AI is an agentic-AI powered capability to enable security analysts to detect earlier, respond faster, and stay ahead of modern attacks and threat actors. Integrating innovative LLM, Generative AI, and Natural Language processing technologies, Purple AI is a force multiplier for analysts by reducing manual triage and investigation and, with informed reasoning and decision making, unlocking the ability to take action with human oversight and governance. Purple AI simplifies the complex, amplifies every analyst, and delivers autonomous responses to accelerate security operations. The following SentinelOne Singularity Platform services are FedRAMP High Authorized: -Cloud Funnel -Cloud Workload Protection (CWP) -Digital Forensics & Incident Response (DFIR) services -Endpoint Detection and Response (EDR) -Endpoint Protection Platform (EPP) -Extended Detection and Response (XDR) -Purple AI Foundations for Public Sector -RemoteOps and RemoteOps Forensics -SentineOne Agent (Windows, macOS, Linux, and cloud-native Kubernetes) -SentinelOne Management Console -Singularity Cloud Native Security (CNS) -Singularity Data Lake -Singularity Hyperautomation -Singularity Marketplace -Singularity Network Discovery -Singularity Operations Center (OpsCenter) -Singularity Threat Intelligence -Singularity Vulnerability Management -Vigilance Managed Detection and Response (MDR) services -WatchTower and WatchTower Pro Threat Hunting services"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Slack",
+        "useCase": "Slack has transformed business communication. It's the leading channels-based messaging platform, used by millions to align their teams, unify their systems, and drive their businesses forward. Only Slack offers a secure, enterprise-grade environment that can scale with the largest companies in the world. It is a new layer of the business technology stack where people can work together more effectively, connect all their other software tools and services, and find the information they need to do their best work. Slack is where work happens. Slack can support customers who are seeking both an Li-SaaS (FedRAMP low impact level) and FedRAMP Moderate impact level authorization or ATO. The Enterprise Grid plan is for customers who require compliance with FedRAMP Moderate. Enterprise Select is no longer offered as of 8/1/2025. Slack's Pro and Business+ plans are for customers who require compliance with FedRAMP Li-SaaS or Low."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Keeper",
+        "useCase": "Keeper Security Government Cloud is a FedRAMP and StateRAMP Authorized zero-knowledge, zero-trust platform for password, secrets and privileged access management, hosted in AWS GovCloud for U.S. federal, state and local agencies. It gives agencies encrypted credential vaults, secrets management for DevOps and infrastructure, privileged session management and audit reporting, which supports controls such as IA-5 authenticator management and AC-2 account management."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Linear",
+        "provider": "Linear Orbit, Inc.",
+        "website": "https://linear.app",
+        "useCase": "A software development project management component that enables users to create and manage tasks and projects, assign responsibilities, and track progress."
+      },
+      {
+        "name": "Origin",
+        "provider": "Cursor",
+        "useCase": "A code collaboration and version control component provided by Cursor that enables teams to securely store and manage source code."
+      },
+      {
+        "name": "Cloudflare",
+        "provider": "Cloudflare, Inc.",
+        "website": "https://www.cloudflare.com/",
+        "useCase": "Public DNS service provider."
+      }
+    ]
   },
   "ZD_frid_retro": "FR2618542150",
   "id_matches_expected": true

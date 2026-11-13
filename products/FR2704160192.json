@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "version": "1.0.2",
+    "lastUpdated": "2026-11-12T00:00:00.000Z",
+    "updateSource": "Paramify, Inc.",
+    "responsibleOfficial": {
+      "name": "Jessica Pugel",
+      "title": "Information System Management Point of Contact",
+      "email": "jessica@get-civic.com",
+      "phone": "530-615-9654"
+    }
+  },
+  "serviceIdentification": {
+    "fedRampPackageId": "Pending FedRAMP Marketplace Listing",
+    "ueiNumber": "T28FPXMSAPC4",
+    "providerName": "Civic Group Inc.",
+    "serviceName": "Civic Revere",
+    "serviceAcronym": "Civic",
+    "serviceDescription": "Civic Revere is a correspondence management and constituent services platform designed for government teams. The platform supports inbox and casework management, constituent communications and outreach, scheduling, office administration, legislative intelligence, and automated reporting within a unified system. Revere also provides AI-enabled capabilities to support government workflows, communications, and data management.\n\nUEI: T28FPXMSAPC4\nCAGE: 11LM6",
+    "certificationType": "20x",
+    "website": "https://get-civic.com/",
+    "logo": "https://framerusercontent.com/images/ePZojas49MlTFIC3YuPVF1uN2Y.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Communication",
+      "Customer Relations Management (CRM)",
+      "Customer Service"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/civic",
+      "repositoryDescription": "The FedRAMP Trust Center is a secure portal to support ongoing assurance. Deliverables may be publicly available to download or restricted which require an approved access request. Go to the URL → Deliverables to view items and request access where needed.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Go to the FedRAMP Trust Center and select “Request Access.” Provide your name, business email, the reason for your request, and the resources you need access to. Each request will be reviewed and approved or denied. You will receive an email with the access approval decision. You will then be able to authenticate by email to access the files that are not publicly accessible on the trust center. For questions, contact the security email or review this article: https://support.paramify.com/hc/en-us/articles/48690571994003-Trust-Center-Deliverables-in-Paramify-Cloud"
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.paramify.com/civic/civic-revere/deliverables",
+      "repositoryDescription": "The Secure Configuration Guide explains how to securely deploy and configure the cloud service offering. This includes security-relevant settings and their recommended values such as administrative account settings, authentication, and access controls.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Go to the FedRAMP Trust Center and select “Request Access.” Provide your name, business email, the reason for your request, and the resources you need access to. Each request will be reviewed and approved or denied. You will receive an email with the access approval decision. You will then be able to authenticate by email to access the files that are not publicly accessible on the trust center. For questions, contact the security email or review this article: https://support.paramify.com/hc/en-us/articles/48690571994003-Trust-Center-Deliverables-in-Paramify-Cloud"
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Information System Security Officer",
+      "contactName": "Civic Security Team",
+      "contactEmail": "security@get-civic.com"
+    },
+    {
+      "contactType": "System Point of Contact - Management",
+      "contactName": "Jessica Pugel",
+      "contactEmail": "jessica@get-civic.com",
+      "contactPhone": "530-615-9654"
+    },
+    {
+      "contactType": "Prepared By",
+      "contactName": "Civic Group Inc."
+    },
+    {
+      "contactType": "System Owner"
+    },
+    {
+      "contactType": "System Point of Contact - Technical"
+    },
+    {
+      "contactType": "Authorizing Official Point of Contact"
+    },
+    {
+      "contactType": "Authorizing Official",
+      "contactName": "Federal Risk and Authorization Management Program Program Management Office"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Civic Security Team",
+      "contactEmail": "security@get-civic.com"
+    },
+    {
+      "contactType": "Prepared For",
+      "contactName": "Civic Group Inc."
+    },
+    {
+      "contactType": "Privacy Point of Contact"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Jon Kokot",
+      "contactEmail": "jon@get-civic.com",
+      "contactPhone": "832-725-3529"
+    },
+    {
+      "contactType": "Content Approver"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Civic Revere",
+      "serviceDescription": "Civic Revere is a correspondence management and constituent services platform designed for government teams. The platform supports inbox and casework management, constituent communications and outreach, scheduling, office administration, legislative intelligence, and automated reporting within a unified system. Revere also provides AI-enabled capabilities to support government workflows, communications, and data management."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "Paramify Cloud",
+        "useCase": "The Paramify Cloud (Paramify) is a software platform that automates risk management processes including compliance planning, solution implementation, gap assessments, and continuous reporting. Civic uses Paramify Cloud to manage its FedRAMP compliance program and to host its FedRAMP Trust Center. Paramify Cloud publishes Civic's Certification Package Overview and other certification deliverables, and manages agency access requests for restricted deliverables. Paramify Cloud does not store or process Civic customer data."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2704160192",
+  "id_matches_expected": false
+}

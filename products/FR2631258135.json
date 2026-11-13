@@ -179,7 +179,7 @@
     }
   ],
   "cryptographicModules": {
-    "summary": "Each place where cryptography protects federal customer data in the Specset Cloud Platform, the module that performs it and its status under the NIST Cryptographic Module Validation Program (CMVP). Modules that Google operates inside its services are BoringCrypto: Google states that it holds FIPS 140-3 certificate 5104, which NIST lists as active, and Google Cloud KMS keys at the software protection level use the same module. Which certificate covers the build behind each Google service is Google's statement, which Specset relies on and cannot test. Since 2026-10-30 the application's Node.js processes run in FIPS mode on the OpenSSL FIPS Provider, FIPS 140-3 certificate 4985, for the TLS connections Node.js makes and its node:crypto calls. The other TLS libraries inside the containers Specset runs (the workflow service and its tools, the vector database, the workflow SDK's core, the certificate issuer and the database proxy) are not CMVP-validated as deployed, and inside the application the check of a password not yet rehashed and one-time-password codes use code outside the validated module, while the encryption of authenticator secrets uses the provider but not in its approved mode, because the application supplies the AES-GCM IV that the certificate's security policy has the module generate. The list was checked against the information-resources inventory and the Terraform configuration on 2026-10-07; its administrative load-balancer and commercial Vertex AI entries against the inventory edition 2026-10-27 and the Terraform configuration, and its component versions against the deployed images, on 2026-10-28; certificate status and component releases are re-read at each quarterly Ongoing Certification Report.",
+    "summary": "Each place where cryptography protects federal customer data in the Specset Cloud Platform, the module that performs it and its status under the NIST Cryptographic Module Validation Program (CMVP). Modules that Google operates inside its services are BoringCrypto: Google states that it holds FIPS 140-3 certificate 5104, which NIST lists as active, and Google Cloud KMS keys at the software protection level use the same module. Which certificate covers the build behind each Google service is Google's statement, which Specset relies on and cannot test. Since 2026-10-30 the application's Node.js processes run in FIPS mode on the OpenSSL FIPS Provider, FIPS 140-3 certificate 4985, for the TLS connections Node.js makes and its node:crypto calls. The other TLS libraries inside the containers Specset runs (the workflow service and its tools, the vector database, the workflow SDK's core, the certificate issuer and the database proxy) are not CMVP-validated as deployed, and inside the application the check of a password not yet rehashed and one-time-password codes use code outside the validated module, while the encryption of authenticator secrets uses the provider but not in its approved mode, because the application supplies the AES-GCM IV that the certificate's security policy has the module generate. The list was checked against the information-resources inventory and the Terraform configuration on 2026-10-07; its administrative load-balancer and commercial Vertex AI entries against the inventory edition 2026-10-27 and the Terraform configuration on 2026-10-28; its component versions against the deployed workloads on 2026-11-12; certificate status and component releases are re-read at each quarterly Ongoing Certification Report.",
     "modules": [
       {
         "protects": "Data at rest: Cloud SQL application and workflow databases and their backups. AES-256 under a customer-managed Cloud KMS key, software protection level, rotated every 90 days.",
@@ -213,7 +213,7 @@
       },
       {
         "protects": "Data in transit: application and workers to Cloud SQL. TLS 1.2 or later with the server certificate verified against the instance's own certificate authority; the instance refuses unencrypted connections.",
-        "module": "Clients: the OpenSSL FIPS Provider, loaded by Node.js in FIPS mode since 2026-10-30; Go's standard TLS library in Temporal 1.32.0. Server: Cloud SQL.",
+        "module": "Clients: the OpenSSL FIPS Provider, loaded by Node.js in FIPS mode since 2026-10-30; Go's standard TLS library in Temporal 1.32.2. Server: Cloud SQL.",
         "operatedBy": "Specset (clients); Google (server)",
         "cmvpStatus": "Validated for the application's client: OpenSSL FIPS Provider, FIPS 140-3 certificate 4985 (The OpenSSL Project; Level 1; active, sunset 2030-03-10), in its approved mode; not CMVP-validated as deployed (not built or run in an approved mode) for Temporal's client; the server side is Google's, and Specset makes no separate claim for it"
       },
@@ -231,19 +231,19 @@
       },
       {
         "protects": "Data in transit: to the Temporal workflow service and between its services. TLS from the in-cluster certificate authority, verified by every client.",
-        "module": "Server: Go's standard TLS library in Temporal 1.32.0. Clients: the Temporal TypeScript SDK 1.24.0 in the application image (worker connections through the SDK's Rust core on rustls; client connections on the OpenSSL FIPS Provider, loaded by Node.js in FIPS mode since 2026-10-30); Go's standard TLS library in the Temporal web UI 2.57.0, the Temporal admin tools 1.32.0 and the autoscaler (KEDA 2.21.0).",
+        "module": "Server: Go's standard TLS library in Temporal 1.32.2. Clients: the Temporal TypeScript SDK 1.25.0 in the application image (worker connections through the SDK's Rust core on rustls; client connections on the OpenSSL FIPS Provider, loaded by Node.js in FIPS mode since 2026-10-30); Go's standard TLS library in the Temporal web UI 2.58.1, the Temporal admin tools 1.32.2 and the autoscaler (KEDA 2.21.0).",
         "operatedBy": "Specset",
         "cmvpStatus": "Validated for the application's client connections: OpenSSL FIPS Provider, FIPS 140-3 certificate 4985 (The OpenSSL Project; Level 1; active, sunset 2030-03-10), in its approved mode; the rest not CMVP-validated as deployed (not built or run in an approved mode)"
       },
       {
-        "protects": "Data in transit: in-cluster certificate authority. cert-manager v1.21.2 issues the Temporal, autoscaler and Qdrant certificates (ECDSA P-256).",
-        "module": "Go's standard cryptography library in cert-manager v1.21.2",
+        "protects": "Data in transit: in-cluster certificate authority. cert-manager v1.21.3 issues the Temporal, autoscaler and Qdrant certificates (ECDSA P-256).",
+        "module": "Go's standard cryptography library in cert-manager v1.21.3",
         "operatedBy": "Specset",
         "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode)"
       },
       {
         "protects": "Data in transit: administrative path to Cloud SQL. An operator's session reaches the in-cluster Cloud SQL Auth Proxy through a TLS-protected port-forward over Connect Gateway; the proxy carries it to the instance over TLS 1.3 with verified client and server identities.",
-        "module": "Go's standard TLS library in Cloud SQL Auth Proxy 2.26.2 and in kubectl on the operator's machine; Google Front End TLS for Connect Gateway.",
+        "module": "Go's standard TLS library in Cloud SQL Auth Proxy 2.26.3 and in kubectl on the operator's machine; Google Front End TLS for Connect Gateway.",
         "operatedBy": "Specset (proxy, kubectl); Google (Connect Gateway)",
         "cmvpStatus": "Not CMVP-validated as deployed (not built or run in an approved mode) for the Go library; Google's front end as above"
       },
@@ -271,11 +271,11 @@
     "certified": [
       {
         "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
-        "useCase": "Google Cloud Platform (Google Services) — primary hosting of all production infrastructure in project specset-prod-assured (Assured Workloads): GKE Autopilot, Cloud SQL, Cloud Storage, Memorystore, Cloud KMS, Cloud Load Balancing and Cloud Armor, Cloud Logging and Monitoring, Secret Manager, Artifact Registry, and Vertex AI (Gemini) model inference, embeddings and Web Grounding for Enterprise. Organizations in CUI mode use Vertex AI in the Assured Workloads project at location us only; other organizations use Vertex AI in a peer Google Cloud project, specbook-production, outside Assured Workloads. Stores and processes customer data. A third Google Cloud project, specbook-development, holds the development user-content buckets, development service identity and development vendor-key secrets; it sits outside Assured Workloads and inside the assessment scope because it shares integration credentials and software delivery with production. It does not handle federal customer data. A founder-run project-clone tool is built to copy a production project into the founder's local development environment on their laptop for debugging, not into this project (a full clone does not check that its object store is local), so a founder's laptop may hold customer content of organizations not in CUI mode. Specset enables CUI mode on any tenant provisioned for a federal customer before federal content is uploaded; the clone tool refuses any organization in CUI mode, for a full clone since 2026-10-12 and for a re-copy of an already-cloned project's files since 2026-10-13, and no organization now in CUI mode has been cloned. Two further Google Cloud projects are inside the assessment scope and hold no customer content: specset-dataroom, an investor data room with no connection to the offering, and vanta-scanner, which holds the compliance scanner's federated identity and read-only custom roles outside the boundary project."
+        "useCase": "Google Cloud Platform (Google Services) — primary hosting of all production infrastructure in project specset-prod-assured (Assured Workloads): GKE Autopilot, Cloud SQL, Cloud Storage, Memorystore, Cloud KMS, Cloud Load Balancing and Cloud Armor, Cloud Logging and Monitoring, Secret Manager, Artifact Registry, and Vertex AI (Gemini) model inference, embeddings and Web Grounding for Enterprise. Organizations in CUI mode use Vertex AI in the Assured Workloads project at location us only; other organizations use Vertex AI at location global (not US-only) in a peer Google Cloud project, specbook-production, outside Assured Workloads. Stores and processes customer data. A third Google Cloud project, specbook-development, holds the development user-content buckets, development service identity and development vendor-key secrets; it sits outside Assured Workloads and inside the assessment scope because it shares integration credentials and software delivery with production. It does not handle federal customer data. A founder-run project-clone tool is built to copy a production project into the founder's local development environment on their laptop for debugging, not into this project (a full clone does not check that its object store is local), so a founder's laptop may hold customer content of organizations not in CUI mode. Specset enables CUI mode on any tenant provisioned for a federal customer before federal content is uploaded; the clone tool refuses any organization in CUI mode, for a full clone since 2026-10-12 and for a re-copy of an already-cloned project's files since 2026-10-13, and no organization now in CUI mode has been cloned. Two further Google Cloud projects are inside the assessment scope and hold no customer content: specset-dataroom, an investor data room with no connection to the offering, and vanta-scanner, which holds the compliance scanner's federated identity and read-only custom roles outside the boundary project."
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
-        "useCase": "AWS US East/West — supporting services: Amazon SES (outbound transactional email and, since 2026-10-29, email received for project addresses), Route 53 (DNS), S3 (CI build cache, CloudTrail audit logs, a legacy database-backup bucket from the pre-2026 hosting platform, and received email), SQS (received-email notifications), GuardDuty (threat detection), and Amazon Bedrock (Claude model inference entered in us-west-2 through global cross-Region inference profiles, which may process requests in any AWS commercial Region; for organizations not in CUI mode only; prompts may include customer document text). For an organization not in CUI mode, notification bodies may carry project content, and a submittal-review notification attaches the marked-up review PDF (on unless the project turns it off) and the review spreadsheet (off unless the project turns it on). Since 2026-10-21 05:32 UTC an organization in CUI mode receives, in place of each notification that can carry project content, a notice with a link and no project content or attachment; the link resolves only for an authenticated member of the organization. Since 2026-10-29 Amazon SES also receives email for project addresses (projects.specset.com): SES accepts the message outside the boundary, scans it, writes it to a KMS-encrypted S3 bucket in the same account and notifies an encrypted SQS queue, and the workers read the queue and the object and delete them. Project addresses are only for organizations with the project email feature and never for organizations in CUI mode; no organization has the feature as of 2026-10-30, and the bucket deletes a message after four days."
+        "useCase": "AWS US East/West — supporting services: Amazon SES (outbound transactional email and, since 2026-10-29, email received for project addresses), Route 53 (DNS), S3 (CI build cache, CloudTrail audit logs, and received email), SQS (received-email notifications), GuardDuty (threat detection), and Amazon Bedrock (Claude model inference entered in us-west-2 through global cross-Region inference profiles, which may process requests in any AWS commercial Region; for organizations not in CUI mode only; prompts may include customer document text). For an organization not in CUI mode, notification bodies may carry project content, and a submittal-review notification attaches the marked-up review PDF (on unless the project turns it off) and the review spreadsheet (off unless the project turns it on). Since 2026-10-21 05:32 UTC an organization in CUI mode receives, in place of each notification that can carry project content, a notice with a link and no project content or attachment; the link resolves only for an authenticated member of the organization. Since 2026-10-29 Amazon SES also receives email for project addresses (projects.specset.com): SES accepts the message outside the boundary, scans it, writes it to a KMS-encrypted S3 bucket in the same account and notifies an encrypted SQS queue, and the workers read the queue and the object and delete them. Project addresses are only for organizations with the project email feature and never for organizations in CUI mode; no organization has the feature as of 2026-10-30, and the bucket deletes a message after four days."
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
@@ -283,7 +283,7 @@
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
-        "useCase": "Azure Commercial Cloud — Azure OpenAI (GPT model inference for organizations not in CUI mode; prompts may include customer document text), Microsoft Entra ID application registrations for customer 'Sign in with Microsoft' single sign-on, and a Windows evaluation lab in the same subscription, whose runbook allows public or synthetic files only (not technically enforced)."
+        "useCase": "Azure Commercial Cloud — Azure OpenAI (GPT model inference for organizations not in CUI mode; prompts may include customer document text. A route for organizations in CUI mode, to the US Data Zone deployments only, is provisioned and not enabled: the setting that turns it on is off, so no organization in CUI mode uses Azure OpenAI. By Microsoft's default, prompts and completions are stored for abuse monitoring in the account's US geography, and content the monitoring flags can be reviewed by authorized Microsoft employees; Specset plans to apply modified abuse monitoring to the deployments organizations in CUI mode would use by 2026-12-31, or to keep them off Azure OpenAI until it is applied), Microsoft Entra ID application registrations for customer 'Sign in with Microsoft' single sign-on, and a Windows evaluation lab in the same subscription, whose runbook allows public or synthetic files only (not technically enforced)."
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
@@ -419,8 +419,8 @@
       {
         "name": "AI processing for organizations in CUI mode",
         "from": "Application API server and workers",
-        "to": "Vertex AI, project specset-prod-assured, location us (aiplatform.us.rep.googleapis.com)",
-        "path": "HTTPS; Workload Identity, no keys",
+        "to": "Vertex AI, project specset-prod-assured, location us (aiplatform.us.rep.googleapis.com); provisioned and not enabled: Amazon Bedrock in AWS GovCloud (US) and the Azure OpenAI US Data Zone deployments",
+        "path": "HTTPS, no static keys: Workload Identity for Vertex AI; for the routes provisioned and not enabled, an AWS GovCloud (US) role assumed through Google web identity (Amazon Bedrock) and a federated managed identity with key authentication disabled (Azure OpenAI)",
         "data": "Prompts, document content and embeddings",
         "securityCategory": "Moderate"
       },
@@ -488,9 +488,9 @@
       "title": "CEO and Co-Founder",
       "email": "gordon@specset.com"
     },
-    "version": "2026.11.10",
-    "lastUpdated": "2026-11-11T16:12:00Z",
-    "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Version 2026.11.10, published with Security Decision Record v2026.09.14.17, follows version 2026.11.09. Since 2026.11.09: the policy and procedure reference gives the policy editions Vanta holds as approved (4.0, 5.0 for Physical Security and 3.1 for Information Security Roles and Responsibilities, approved 2026-11-06; the renewals of 2026-10-12 for Human Resource Security, Secure Development and Operations Security; Data Management 3.3, approved 2026-11-10) and the current editions of the Secure Configuration Guide and four procedures, the Vulnerability Management Procedure at edition 2026-11-10; the information flows add Google Antigravity to the engineering assistants and say how each assistant's reads are bounded, the customer sign-in flow covers an organization's own OpenID Connect provider, reachable only once its hostnames are added to the egress allow-list, and the summary names the internal services the network policies allow and counts 35 allowed hostnames: since 2026-11-10 the allow-list also names two AWS GovCloud (US) hosts, for a model route for organizations in CUI mode that is not enabled, and AWS GovCloud (US) is listed as a FedRAMP certified third-party information resource with that route; the direct Anthropic API entry is removed: that route was retired on 2026-11-05, no information flow reaches it, and the next information-resources inventory edition moves it to the excluded services; Google Antigravity is listed as a third-party information resource, the OpenAI Codex entry corrects how its database tunnel is started, the Cursor entry names the local stores its hook refuses, and the customer identity-provider entry says a customer-configured provider is reachable only once Specset adds its hostnames. Earlier versions are in this repository's history."
+    "version": "2026.11.12",
+    "lastUpdated": "2026-11-12T21:40:00Z",
+    "updateSource": "github.com/specsetai/fedramp-marketplace (main branch; schema-validated by the repository's validate workflow; published to specset.com/fedramp/). Version 2026.11.12, published with Security Decision Record v2026.09.14.18, follows version 2026.11.10. Since 2026.11.10: the policy and procedure reference gives the Incident Response and Vulnerability Management Procedures at edition 2026-11-12 and the current editions of the Ongoing Certification Reports and Quarterly Reviews and Significant Change Notification procedures; the cryptographic module list gives the component versions read from the deployed workloads on 2026-11-12 (Temporal 1.32.2, Temporal web UI 2.58.1, Temporal admin tools 1.32.2, cert-manager v1.21.3, Cloud SQL Auth Proxy 2.26.3, Temporal TypeScript SDK 1.25.0); the AWS supporting-services entry drops the legacy database-backup bucket, deleted on 2026-11-09; the Azure entry states the route for organizations in CUI mode to the US Data Zone deployments, provisioned and not enabled, and Microsoft's default abuse-monitoring storage with Specset's plan for it; the Google Cloud entry gives the location of the commercial Vertex AI route (global); the information flow for organizations in CUI mode names the two routes that are provisioned and not enabled; and the example Ongoing Certification Report's summary says the first report is planned for 2026-12-01 and due no later than 2026-12-04. Earlier versions are in this repository's history."
   },
   "documentation": [
     {
@@ -502,7 +502,7 @@
     {
       "name": "Ongoing Certification Report (OCR) — example",
       "type": "JSON + Markdown (FedRAMP 2026-06-24 schema)",
-      "summary": "Schema-conformant example of the quarterly report of certification-data changes, planned changes, accepted vulnerabilities, agencies and reportable incidents, labeled as an example. The first report is due 2026-12-01. Questions and feedback about any report go to fedramp@specset.com, from any sender and at any time (CCM-OCR-FBM); a founder answers within 2 business days, and the next report summarizes the questions and answers without identifying who asked.",
+      "summary": "Schema-conformant example of the quarterly report of certification-data changes, planned changes, accepted vulnerabilities, agencies and reportable incidents, labeled as an example. The first report is planned for 2026-12-01 and due no later than 2026-12-04. Questions and feedback about any report go to fedramp@specset.com, from any sender and at any time (CCM-OCR-FBM); a founder answers within 2 business days, and the next report summarizes the questions and answers without identifying who asked.",
       "availability": "Supplied with the Class A application; a restricted trust-center resource open to access requests since 2026-09-14, no NDA."
     },
     {
@@ -602,9 +602,9 @@
       "type": "Procedure",
       "file": "incident-response.pdf",
       "summary": "Incident detection, triage, FedRAMP reportability evaluation, initial, ongoing and final incident reports, the FedRAMP Security Inbox procedure and the quarterly review.",
-      "wordCount": 3808,
-      "currentVersion": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "wordCount": 4029,
+      "currentVersion": "2026-11-12",
+      "lastUpdated": "2026-11-12",
       "relatedFedRampPractices": [
         "IEC-CSO-EFR",
         "IEC-CSO-EFI",
@@ -633,9 +633,9 @@
       "type": "Procedure",
       "file": "vulnerability-management.pdf",
       "summary": "Persistent vulnerability detection, PAIN-based evaluation, response timeframes, exceptions and risk acceptance, and the monthly vulnerability activity report.",
-      "wordCount": 5059,
-      "currentVersion": "2026-11-10",
-      "lastUpdated": "2026-11-10",
+      "wordCount": 5482,
+      "currentVersion": "2026-11-12",
+      "lastUpdated": "2026-11-12",
       "relatedFedRampPractices": [
         "VDR (all rules)",
         "VER (all rules)"
@@ -679,9 +679,9 @@
       "type": "Procedure",
       "file": "ongoing-certification-reports.md",
       "summary": "How the quarterly Ongoing Certification Report is assembled, checked for sensitive information and published, how questions about it are answered, the reviews held in the same quarterly slot and the Class C Quarterly Review.",
-      "wordCount": 1371,
-      "currentVersion": "edition 2026-11-07",
-      "lastUpdated": "2026-11-07",
+      "wordCount": 1417,
+      "currentVersion": "edition 2026-11-12",
+      "lastUpdated": "2026-11-12",
       "relatedFedRampPractices": [
         "CCM-OCR-AVL",
         "CCM-OCR-NRD",
@@ -712,9 +712,9 @@
       "type": "Procedure",
       "file": "significant-change-notification.md",
       "summary": "How each production change is evaluated for significance, confirmed by an operator, recorded and, when significant, notified.",
-      "wordCount": 3213,
-      "currentVersion": "edition 2026-11-11",
-      "lastUpdated": "2026-11-11",
+      "wordCount": 3328,
+      "currentVersion": "edition 2026-11-12",
+      "lastUpdated": "2026-11-12",
       "relatedFedRampPractices": [
         "SCN (all rules)",
         "KSI-CMT-LMC"
