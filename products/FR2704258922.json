@@ -1,0 +1,104 @@
+{
+  "certifiedServices": [
+    {
+      "serviceDescription": "System and package onboarding, FedRAMP Rev5 control and FedRAMP 20x Key Security Indicator tracking, and approval records for each package. Security category: Moderate.",
+      "serviceName": "Packages and Requirements"
+    },
+    {
+      "serviceDescription": "Read-only collection of cloud configuration telemetry and fixed rules that decide each Key Security Indicator result. Security category: Moderate.",
+      "serviceName": "Policy-as-Code (PaC) Key Security Indicators"
+    },
+    {
+      "serviceDescription": "Scan result import, PAIN rating, remediation dates and evidence tracking aligned to the FedRAMP vulnerability detection and response and evaluation rules. Security category: Moderate.",
+      "serviceName": "VDR/VER Vulnerability Tracking"
+    },
+    {
+      "serviceDescription": "Compliance and security ticketing with role-based approvals and separation-of-duties support. Security category: Moderate.",
+      "serviceName": "ITSM Ticketing"
+    },
+    {
+      "serviceDescription": "Role-gated library for the policies, procedures, plans and evidence files of a package. Security category: Moderate.",
+      "serviceName": "Document Library"
+    },
+    {
+      "serviceDescription": "Staging, review and approval of certification data before it is published, with a separate portal for each agency. Certification data is shared with agencies on request. Security category: Moderate.",
+      "serviceName": "Trust Center"
+    },
+    {
+      "serviceDescription": "Answers compliance questions and drafts recommendations. All decisions are made and approved by humans. Security category: Moderate.",
+      "serviceName": "Alan AI Compliance Assistant"
+    }
+  ],
+  "contactInformation": [
+    {
+      "contactEmail": "contact@traverge.com",
+      "contactName": "Traverge Sales",
+      "contactPhone": "904-257-6192",
+      "contactType": "Sales"
+    },
+    {
+      "contactEmail": "cipher-alerts@traverge.com",
+      "contactName": "CIPHER Security Team",
+      "contactType": "Security"
+    }
+  ],
+  "serviceIdentification": {
+    "certificationType": "20x",
+    "fedRampPackageId": "CIPHER Platforms Incorporated - CIPHER GRC",
+    "logo": "https://www.ciphergrc.ai/images/cipher-grc-logo.png",
+    "providerName": "CIPHER Platforms Incorporated",
+    "serviceAcronym": "CIPHER GRC",
+    "serviceDescription": "CIPHER GRC is a software-as-a-service governance, risk, and compliance platform for cloud service providers pursuing and maintaining FedRAMP Certification. It supports FedRAMP Rev5 packages and FedRAMP 20x continuous, telemetry-based certification, including Key Security Indicator results decided by policy-as-code, vulnerability detection and response, ITSM ticketing, a document library, and a trust center with review and approval before anything is published. Humans remain the decision-makers; Traverge subject matter experts and the Alan AI assistant provide recommendations only. CIPHER GRC is a product of CIPHER Platforms Incorporated, a Traverge Company. The UEI number given is that of the parent company, Traverge Incorporated.",
+    "serviceName": "Cybersecurity Intelligence & Provenance for Hybrid Enterprise Risk (CIPHER) Governance, Risk, and Compliance (GRC)",
+    "ueiNumber": "YBHXHHJN9WU6",
+    "website": "https://www.ciphergrc.ai"
+  },
+  "serviceProperties": {
+    "additionalRepositories": [
+      {
+        "authenticationRequired": false,
+        "repositoryDescription": "Overview of the documentation CIPHER Platforms supplies for CIPHER GRC.",
+        "repositoryType": [
+          "Documentation Overview"
+        ],
+        "url": "https://www.ciphergrc.ai/fedramp/documentation/"
+      },
+      {
+        "authenticationRequired": false,
+        "repositoryDescription": "Goals and milestones toward FedRAMP 20x Class C Certification, updated at least quarterly.",
+        "repositoryType": [
+          "Certification Progress"
+        ],
+        "url": "https://www.ciphergrc.ai/fedramp/progress/"
+      }
+    ],
+    "businessCategory": [
+      "Governance, Risk, and Compliance (GRC)",
+      "Cybersecurity & Risk Management",
+      "Artificial Intelligence (AI)"
+    ],
+    "deploymentModel": "Public Cloud",
+    "secureConfigurationGuidance": {
+      "authenticationRequired": false,
+      "repositoryDescription": "Recommended secure configuration for CIPHER GRC top-level administrative and privileged accounts.",
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://www.ciphergrc.ai/fedramp/secure-configuration/"
+    },
+    "serviceType": [
+      "SaaS"
+    ],
+    "trustCenter": {
+      "accessRequestInstructions": "Federal agency staff request access by email to contact@traverge.com from a government address, naming the agency, the requester's role and the reason for the request. See https://www.ciphergrc.ai/trust-center/ for the full instructions.",
+      "authenticationRequired": false,
+      "repositoryDescription": "Landing page with instructions for requesting access to CIPHER GRC FedRAMP Certification Data as it becomes available, and links to the public information about the offering.",
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.ciphergrc.ai/trust-center/"
+    }
+  },
+  "ZD_frid_retro": "FR2704258922",
+  "id_matches_expected": false
+}
