@@ -1,8 +1,8 @@
 {
   "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "metadata": {
-    "version": "2026.11.08",
-    "lastUpdated": "2026-11-08T00:00:00Z",
+    "version": "2026.11.15",
+    "lastUpdated": "2026-11-15T00:00:00Z",
     "updateSource": {
       "type": "git",
       "repository": "bichart_landing_page",
@@ -17,7 +17,7 @@
     }
   },
   "serviceIdentification": {
-    "fedRampPackageId": "BIChart Inc. BICP",
+    "fedRampPackageId": "FR2703860264",
     "ueiNumber": "W5CES866E5W5",
     "providerName": "BIChart Inc.",
     "serviceName": "BIChart Platform",
@@ -134,16 +134,16 @@
       "note": "All three services are categorized Moderate (FIPS 199) because they may hold agency-issued credentials and data-source definitions whose disclosure would have a serious adverse effect (CDS-CSO-SVC)."
     },
     {
-      "milestone": "Initial Implementation Marketplace listing requested",
-      "target": "2026-11",
-      "status": "planned",
-      "note": "FedRAMP Marketplace Listing Request Form."
+      "milestone": "Initial Implementation Marketplace listing granted",
+      "target": "2026-11-13",
+      "status": "complete",
+      "note": "Package FR2703860264. Phase: Initial Implementation. Status: not yet certified. https://www.fedramp.gov/marketplace/products/FR2703860264/"
     },
     {
       "milestone": "FedRAMP 20x Class A application submitted",
       "target": "2026-12",
       "status": "planned",
-      "note": "Submitted after the Initial Implementation listing is granted (FRC-APP-MLF). Based on the SOC 2 Type II report above (FRC-CLA-ASF)."
+      "note": "Initial Implementation listing FR2703860264 is granted (FRC-APP-MLF). Based on the SOC 2 Type II report above (FRC-CLA-ASF)."
     },
     {
       "milestone": "FedRAMP 20x Class C assessment to be scheduled with a FedRAMP Recognized assessor",
@@ -165,5 +165,5 @@
     }
   ],
   "ZD_frid_retro": "FR2703860264",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }

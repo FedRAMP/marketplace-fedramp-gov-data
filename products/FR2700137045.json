@@ -37,6 +37,7 @@
         "authenticationRequired": false
       }
     ],
+    "nextOngoingCertificationReportDate": "2027-02-15",
     "perServiceMaterialsExplanation": "RegScale does not supply separate per-service certification materials. The offering is a single consolidated service with one authorization boundary, so the full certification package covers it in one comprehensive set rather than per-service breakouts, aligned with the control note. This discretionary (MAY) decision was reviewed and signed off by Cory Henrickson, RegScale.",
     "agencyUseCases": {
       "useCases": [
@@ -95,25 +96,23 @@
   "thirdPartyInformationResources": {
     "certified": [
       {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
+        "useCase": "Source control and CI/CD: code repositories and GitHub Actions pipelines (deploy-gcp-v2.yml, trunk-pr.yml) that build, test, and deploy the offering."
+      },
+      {
         "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
         "useCase": "Primary cloud hosting for the RegScale service offering: Cloud Run compute, managed PostgreSQL (Cloud SQL) and Redis (Memorystore), Cloud Storage buckets, VPC networking, and Secret Manager."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2308034636A",
+        "useCase": "Cloud security posture management (CSPM) and vulnerability scanning across the GCP boundary; findings feed RegScale continuous monitoring."
       }
     ],
     "nonCertified": [
       {
-        "name": "GitHub",
-        "provider": "GitHub, Inc. (Microsoft)",
-        "useCase": "Source control and CI/CD: code repositories and GitHub Actions pipelines (deploy-gcp-v2.yml, trunk-pr.yml) that build, test, and deploy the offering."
-      },
-      {
         "name": "Sonar (SonarQube)",
         "provider": "SonarSource S.A.",
         "useCase": "Static application security testing (SAST) and code-quality analysis executed in the CI pipeline."
-      },
-      {
-        "name": "Wiz",
-        "provider": "Wiz, Inc.",
-        "useCase": "Cloud security posture management (CSPM) and vulnerability scanning across the GCP boundary; findings feed RegScale continuous monitoring."
       }
     ]
   },
@@ -123,8 +122,8 @@
       "title": "Chief Information Security Officer (CISO)",
       "email": "dhoak@regscale.com"
     },
-    "version": 14,
-    "lastUpdated": "2026-11-12T15:45:32.438107+00:00",
+    "version": 17,
+    "lastUpdated": "2026-11-15T19:31:27.978471+00:00",
     "sourceOfUpdate": "csp:cpo"
   },
   "assessmentSummary": {
