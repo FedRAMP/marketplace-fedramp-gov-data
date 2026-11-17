@@ -1,32 +1,157 @@
 {
   "serviceIdentification": {
     "fedRampPackageId": "MSO365MTA",
+    "ueiNumber": "FMVPEWNJGLM1",
     "providerName": "Microsoft",
     "serviceName": "Microsoft 365 Government Community Cloud & Supporting Services",
-    "serviceAcronym": "Microsoft 365 Government Community Cloud & Supporting Services",
-    "serviceDescription": "Microsoft 365 (M365) Government Community Cloud (GCC) is a suite of cloud-hosted messaging and collaboration services to meet the unique and evolving requirements of the United States Federal, State, Local, and Tribal governments, as well as contractors holding or processing data on behalf of the US Government. These cloud-based services are designed to provide organizations with streamlined communication, high availability, comprehensive security, and simplified information technology (IT) management. M365 GCC provides the interactivity of on-premises client and server applications with the flexibility and scalability of web-based services. M365 GCC leverages Azure Government as the IaaS/PaaS for the underlying infrastructure and hardware. Therefore, M365 GCC relies on Azure Government-inherited services. For more information on these Azure Government services, refer to the Azure Government ATO package.\nFederal agencies interested in collaborative continuous monitoring with Microsoft should reach out to: M365CollabConMon@microsoft.com",
+    "serviceAcronym": "M365 GCC",
+    "serviceDescription": "Microsoft 365 (M365) Government Community Cloud (GCC) is a suite of cloud-hosted messaging and collaboration services to meet the unique and evolving requirements of the United States Federal, State, Local, and Tribal governments, as well as contractors holding or processing data on behalf of the US Government. These cloud-based services are designed to provide organizations with streamlined communication, high availability, comprehensive security, and simplified information technology (IT) management. M365 GCC provides the interactivity of on-premises client and server applications with the flexibility and scalability of web-based services. M365 GCC leverages Azure Government as the IaaS/PaaS for underlying infrastructure and hardware for M365 GCC services operating in virtualized environments; additionally, certain management plane functions and M365-owned baremetal servers are hosted in Azure Commercial datacenters. Therefore, M365 GCC relies on both Azure Government and Azure Commercial inherited services. For more information on these Azure services, refer to the Azure ATO packages.\n\nFederal agencies interested in collaborative continuous monitoring with Microsoft should reach out to: M365CollabConMon@microsoft.com\n ",
     "certificationType": "Rev5",
-    "website": "https://www.microsoft.com/",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Microsoft%20Logo.png"
+    "website": "https://www.microsoft.com/microsoft-365/government",
+    "logo": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Public Cloud"
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Collaboration",
+      "Communication",
+      "Data Management",
+      "Storage"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://servicetrust.microsoft.com/",
+      "repositoryDescription": "Trust Center landing page for Microsoft 365 Government Community Cloud & Supporting Services.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-fedramp",
+      "repositoryDescription": "Secure Configuration Guidance for Microsoft 365 Government Community Cloud & Supporting Services.",
+      "authenticationRequired": false
+    },
+    "nextOngoingCertificationReportDate": "2027-02-28"
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "O365FedRAMP@microsoft.com"
+      "contactType": "Sales",
+      "contactEmail": "usgcce@microsoft.com"
     },
     {
-      "contactType": "Sales"
+      "contactType": "Security",
+      "contactEmail": "O365FedRAMP@microsoft.com"
     }
   ],
   "assessor": {
     "name": "Kratos",
     "assessorID": "137255"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Cloud Input Intelligence (CII)",
+      "serviceDescription": "CII provides a compliant platform that utilizes data driven personalized experience that captures user intent on technology and learns over time. Applications built on the CII service will provide improved experiences in inking, text entry and other input modalities across a user's devices."
+    },
+    {
+      "serviceName": "Contact Support Relays (CSR)",
+      "serviceDescription": "The Contact Support Relays (CSR) Service enables Screen Sharing functionality in Remote Help which is a Remote Assistance application. It allows Screen Sharing connections to be established across network settings (e.g., geographic) between Remote Help users."
+    },
+    {
+      "serviceName": "Containers on Substrate-Managed Intelligent Clusters (COSMIC)",
+      "serviceDescription": "COSMIC (Containers on Substrate-Managed Intelligent Clusters) is a modern compliant microservice platform in which services are built and deployed via containers running on Azure Kubernetes Service (AKS). COSMIC enforces compliant Windows and Linux Containers on managed shared compute Azure Kubernetes Clusters.  Partner services on COSMIC include IDEAs Personalization Service Run-Time (IPS-RT), Meeting Intelligence (MEET), Microsoft Search in Bing (MSB), and Universal Print."
+    },
+    {
+      "serviceName": "Customer Insight and Analysis (CIA)",
+      "serviceDescription": "CIA is a reporting service in the 'Admin Portal' tenant to reflect data such as the M365 license consumption and service usage to assist with business-making decisions."
+    },
+    {
+      "serviceName": "Exchange Online (EXO)",
+      "serviceDescription": "EXO (with support service) is a remotely hosted enterprise messaging solution managed by Microsoft. EXO provides users with single sign-on access to email, calendar, and contacts from virtually any location, at any time. Users interact with EXO via software email clients (e.g. Outlook) and webmail.\n\nExchange Online (EXO) capabilities and supporting services include: Exchange Kiosk (2 GB mailbox), Exchange Plan 1 (50 GB mailbox + 50 GB archive), Exchange Plan 2 (100 GB mailbox + up to 1.5 TB archive), Calendar, Auto-expanding email archive, Built-in security add-on for cloud mailboxes, Public folder mailboxes, Resource mailboxes, Inactive mailboxes, Microsoft Shifts, Microsoft Bookings, Microsoft Search, Viva Insights app in Teams, Personal insights and experiences, Premium personal insights and experiences, Personal Data Encryption, Customer Key, Microsoft 365 Groups, Customer Lockbox, Viva Insights, Exchange Archiving."
+    },
+    {
+      "serviceName": "M365 Suite User Experience (SUE)",
+      "serviceDescription": "SUE provides the web front end administrative interface (Web GUI and service health monitoring functionality) for M365, including Teams, EXO, and ODSP.\n\nM365 Suite User Experience (SUE) capabilities and supporting services include: Admin Center to Administer M365, Manage core service settings from M365, Windows PowerShell to Manage M365."
+    },
+    {
+      "serviceName": "Microsoft 365 Copilot",
+      "serviceDescription": "Microsoft 365 Copilot is an AI-powered productivity tool that uses large language models (LLMs) and integrates your data with the Microsoft Graph and Microsoft 365 apps and services. It works alongside popular Microsoft 365 apps such as Word, Excel, PowerPoint, Outlook, Teams, and more. Microsoft 365 Copilot provides real-time intelligent assistance, enabling users to enhance their creativity, productivity, and skills. Enterprise Sydney acts as the orchestrator for Copilot, overseeing the integration of various AI-powered tools and ensuring compliance with security standards.\n\nMicrosoft 365 Copilot capabilities and supporting services include: Microsoft 365 Copilot, Copilot Chat Analytics."
+    },
+    {
+      "serviceName": "Microsoft Purview and Microsoft Defender for Office 365 (MDO)",
+      "serviceDescription": "Microsoft Purview and Microsoft Purview and Microsoft Defender for Office 365 (MDO) is a seamless integration into Microsoft 365 subscriptions that protects against threats in email, links (URLS), file attachments, and collaboration tools. Microsoft Purview is a comprehensive set of solutions that can help your organization govern, protect, and manage data, wherever it lives.\n\nMicrosoft Purview and MDO capabilities and supporting services include: Adoption Score, Secure Score, Compliance Management, Manual retention labels, Basic org-wide or location-wide retention policies, Rules-based automatic retention policies, Machine Learning-based retention, Teams message retention policies, Records Management, DLP for emails & files, DLP for Teams chat, Endpoint DLP, Basic Message Encryption, Advanced Message Encryption, Microsoft Defender for Office 365 Plan 2, Safe Documents, eDiscovery (Standard) (including Hold and Export), Litigation Hold, eDiscovery (Premium), Audit (Standard), Audit (Premium), Microsoft Purview Insider Risk Management, Communication Compliance, Information Barriers, Microsoft Defender Suite GCC, Microsoft Purview Suite GCC, Microsoft 365 G5 Info Protection and Governance, Microsoft 365 G5 Insider Risk Management, Microsoft Purview Insider Risk Management forensic evidence, Microsoft 365 G5 eDiscovery and Audit, Microsoft Defender Suite FLW for GCC, Microsoft Purview Suite FLW for GCC, Microsoft Defender + Purview Suite FLW for GCC, Microsoft 365 F5 Information Protection and Governance, Microsoft 365 F5 Insider Risk Management, Microsoft 365 F5 eDiscovery and Audit, Microsoft Defender for Office 365 Plan 1, Premium Assessments add-on for Compliance Manager, Priva Privacy Risk Management, Priva Subject Rights Requests, Microsoft Purview Data Loss Prevention (for email and files), 10-year Audit Log Retention."
+    },
+    {
+      "serviceName": "Microsoft Teams (MS Teams)",
+      "serviceDescription": "MS Teams is a workspace solution that provides instant messaging and group chat, voice/video calling and conferencing, file sharing, and shared workspace. Azure Communication Services (ACS) is the underlying communication infrastructure for MS Teams and therefore included in this MS Teams audit scope.\n\nMicrosoft Teams (MS Teams) capabilities and supporting services include: Microsoft Teams, Unlimited chat, Online meetings, Live Events, Webinars, Screen sharing and custom backgrounds, Record meetings, Priority notifications, Audio Conferencing, In-person events, Hybrid RSVP, Places card, Work plans, Workplace presence, Places Explorer, Places Finder, Teams Premium, Audio Conferencing with Select Dial Out, Extended Dial Out Minutes to US and Canada, Teams Phone Standard, Domestic Calling Plan, Domestic Calling 120 Minute Plan, International Calling Plan (includes Domestic Plan), Teams Phone with Calling Plan, Microsoft Teams Shared Space License."
+    },
+    {
+      "serviceName": "Office for Web",
+      "serviceDescription": "Office for Web includes the Office Collaboration Service (OCS) and Real Time Channel (RTC), which provides users the ability to view and edit documents in M365 in real-time on any device, via web browser (Desktop, Web, iPhone, Android).\n\nOffice for Web capabilities and supporting services include: Microsoft 365 for the web, Visio for the web, Microsoft Editor premium features, Multilingual user interface for Microsoft 365 apps."
+    },
+    {
+      "serviceName": "Office Intelligent Services (IS)",
+      "serviceDescription": "Office Intelligent Services (IS), is a back-end feature in the Windows, Mac, iOS, Android, and online clients, to enhance the users experience with M365.\n\nIS capabilities and supporting services include: Install apps on up to 5 PCs/Mac + 5 tablets + 5 smartphones, Create and share Microsoft Loop components and pages, Contribute to Loop components, pages and workspaces, Microsoft Forms, Microsoft Planner, Microsoft To Do, Shared computer activation for Microsoft 365 apps."
+    },
+    {
+      "serviceName": "OneDrive SharePoint (ODSP)",
+      "serviceDescription": "OneDrive SharePoint (ODSP), formerly SPO, allows customers to share and manage content, knowledge, and applications to empower teamwork, quickly retrieve information, and seamlessly collaborate across the organization.\n\nOneDrive SharePoint (ODSP) capabilities and supporting services include: SharePoint Kiosk (2 GB OneDrive storage), SharePoint Plan 1 (10 GB storage, 1 TB OneDrive storage), SharePoint Plan 2 (10 GB storage, 1+ TB OneDrive storage), Microsoft Lists, SharePoint Advanced Management, Microsoft 365 Extra File Storage, Viva Connections."
+    },
+    {
+      "serviceName": "Viva Glint",
+      "serviceDescription": "Viva Glint helps organizations measure employee engagement and experiences so they can take action to improve them. Glint offers a flexible surveying approach so organizations can gain a greater understanding of key experiences that shape an employee's journey and the resulting impact on individual and business outcomes. With Viva Glint, organizations capture invaluable employee feedback and transform those insights into actions. Feedback and action-taking are brought directly into the flow of work. Managers and their teams are empowered to take joint ownership and drive meaningful actions and habits that support happiness, success, and wellbeing at work."
+    },
+    {
+      "serviceName": "Viva Insights",
+      "serviceDescription": "Viva Insights helps people and businesses thrive with data-driven, privacy-protected insights and offers recommendations to improve productivity and wellbeing. It provides personal insights to your employees, team insights for managers, organization insights for your managers and business leaders, and advanced insights for analysts to address critical questions about work culture."
+    },
+    {
+      "serviceName": "Windows 365",
+      "serviceDescription": "Windows 365 is a complete software-as-a-service (SaaS) solution that streams a personalized, secure, and scalable Windows experience to any device. The Windows 365 service brokers the creation of customer-owned VMs within Azure Virtual Desktop. Azure Virtual Desktop is a cloud Virtual Desktop Infrastructure (VDI) platform that securely delivers virtual desktops and remote apps with maximum flexibility and control."
+    },
+    {
+      "serviceName": "Flashpoint - (Internal Service)",
+      "serviceDescription": "Flashpoint is an internal Microsoft analytics and insights platform that operates within the M365 compliance boundary, processing A365 signals ingested through the Maven pump service. It securely encrypts customer content and EUPI using region-specific Azure Key Vault keys and processes data through Event Hub and a scalable Azure-based architecture including Kusto, Cosmos DB, orchestration services, and web endpoints.\n\nThe platform enriches incoming signals with contextual data to generate usage metrics and actionable insights for authorized Microsoft partners. These insights are exposed through first-party APIs and power internal Microsoft services as well as customer-facing experiences such as Admin Center reporting. Flashpoint Model D supports near real-time and offline data publishing, reporting, and export capabilities while maintaining strict security and compliance controls. Ongoing enhancements include GDPR-compliant long-term storage, export services, and deletion workflows to support data lifecycle management and regulatory requirements."
+    },
+    {
+      "serviceName": "ObjectStore - (Internal Service)",
+      "serviceDescription": "ObjectStore is a high availability, high throughput, low latency distributed data storage and online serving platform."
+    },
+    {
+      "serviceName": "Office Service Infrastructure (OSI) - (Internal Service)",
+      "serviceDescription": "OSI provides a platform for backend applications that enhance the overall M365 service offering. This includes application deployment, hosting, and monitoring of infrastructure applications such as Forms, Planner, Click2Run, Office Licensing Service, and Roaming. OSI is hosted as a Management Dashboard only that consumes system metadata telemetry used by Office Intelligent (IS) services/workloads as a secondary source of system data for On-Call Engineers (OCEs). This service is exclusively hosted in M365 GCCH, but supports IS services across GCC, GCCH and DoD environments."
+    },
+    {
+      "serviceName": "Profile Data Roaming Service (PDRS) - (Internal Service)",
+      "serviceDescription": "Profile Data Roaming Service (PDRS), formerly known as AFS, is a high-scale, low latency data roaming service. It enables the collection and synchronization of a customer's data across devices and applications connected to their Microsoft Entra ID or Microsoft account, powering features (Windows Timeline, Cloud Clipboard & Windows Settings Sync)."
+    },
+    {
+      "serviceName": "Substrate Intelligence Platform (SIP) - (Internal Service)",
+      "serviceDescription": "SIP is a part of Substrate, it assists M365 product teams in data processing and deployment activities essential for creating AI powered intelligent features. SIP assists these M365 product teams by provisioning eyes-off environments, which can be used to perform such activities. SIP is not a product available for consumption by M365 end-users. SIP is a platform which is part of Substrate infrastructure."
+    },
+    {
+      "serviceName": "Terminal Service Gateway (TSG) - (Internal Service)",
+      "serviceDescription": "The Terminal Service Gateway (TSG) service provides a security domain and a set of remote Terminal Services Gateways (TSGs) (HTTPS connection between remote users on the internet and the internal network resources) used by service teams."
+    },
+    {
+      "serviceName": "Torus - (Internal Service)",
+      "serviceDescription": "Torus is a centralized management forest that handles requests and manages both TTL and level of access to M365. It evaluates access request, verify if certain prerequisites are met, then communicate with access control agents on hosts to grant/limit access to specific accounts."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1206061353",
+        "useCase": "The M365 GCC information system leverages the Akamai CDN to enhance customer load times and reduce latency for web content."
+      }
+    ],
+    "nonCertified": []
   },
   "ZD_frid_retro": "MSO365MTA",
   "id_matches_expected": true

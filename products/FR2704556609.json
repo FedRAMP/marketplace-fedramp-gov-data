@@ -1,0 +1,46 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2704556609",
+    "providerName": "FedSpire LLC",
+    "serviceName": "FedSpire GRC",
+    "serviceAcronym": "FSG",
+    "serviceDescription": "Fedspire is a governance, risk, and compliance (GRC) platform built for FedRAMP 20x and the FedRAMP Consolidated Rules for 2026 (CR26). Rather than mapping a general-purpose compliance product onto federal requirements, Fedspire treats the published FedRAMP ruleset as its data model: the platform ingests the consolidated ruleset directly, pins the version in use, and detects breaking changes between releases — a removed rule, a narrowed class applicability, a changed Key Security Indicator statement — so providers find out that a requirement moved before an assessor does.\n\nFedspire supports the full Certification lifecycle across Classes A through C. The platform maintains the authoritative set of information resources that constitute the cloud service offering, collects deterministic telemetry from the provider's cloud accounts, identity provider, security agents, and vulnerability tooling, and reconciles that telemetry into Key Security Indicator validation results. Automated validation methods are counted per indicator against the threshold FedRAMP sets for the target Certification Class, re-verified on that class's cadence, and retained as daily historical metrics for the period the Security Decision Record requires. Every assertion carries its source endpoint, collection time, and a content hash.\n\nCapabilities include continuous evidence collection and Key Security Indicator validation; identity and access evidence drawn directly from the provider's identity provider; security agent coverage reconciliation that identifies machines missing — or silently not reporting — required endpoint, logging, and vulnerability agents; vulnerability detection and response tracking with Potential Agency Impact rating and timeframe management; significant change evaluation and notification workflows; information resource and third-party dependency registers; drafting and maintenance of the Security Decision Record and supporting documentation; and a FedRAMP-compatible Trust Center that publishes certification data to agencies in both human-readable and machine-readable form from one canonical source, so the two cannot drift apart.\n\nFedspire emits FedRAMP's 20x JSON schemas natively.\n\nFedspire uses a large language model to draft control narratives, summarize findings, and answer questions about collected evidence. Generative output is never used to produce Key Security Indicator validation results, telemetry, or any machine-readable assertion; consistent with the CR26 definition of deterministic telemetry, those are produced only by deterministic collection and evaluation, and model-assisted drafts are presented for human review before entering the record.\n\nFedspire is offered as SaaS and operates in AWS Public Cloud East/West and AWS GovCloud (US).\n\nThe provider plans to pursue FedRAMP 20x Class C Certification.",
+    "certificationType": "20x",
+    "website": "https://www.fedspire.com",
+    "logo": "https://fedspire.com/fedspire-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Collaboration",
+      "Cybersecurity & Risk Management",
+      "Data Management",
+      "Governance, Risk, and Compliance (GRC)",
+      "Operations Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://fedspire.com/trust.html",
+      "repositoryDescription": "Trust Center containing all the necessary documentation for FedRAMP Certification submission package.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request access' button on each document in the FedRAMP 20x Schemas section of the Trust Center."
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedramp@fedspire.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "info@fedspire.com"
+    }
+  ],
+  "ZD_frid_retro": "FR2704556609",
+  "id_matches_expected": true
+}

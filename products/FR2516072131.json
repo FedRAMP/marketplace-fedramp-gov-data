@@ -4,15 +4,14 @@
     "name": "Coalfire Systems, Inc.",
     "assessorID": "138514"
   },
-  "cpoVersion": "2026.11.16-1",
-  "lastUpdated": "2026-11-16T00:45:29.348346+00:00",
+  "cpoVersion": "2026.11.17-1",
+  "lastUpdated": "2026-11-17T03:16:54.572434+00:00",
   "$schemaVersion": "0.1.4",
   "sourceOfUpdate": "FedRAMP 2026 ConMon snapshot",
   "certifiedServices": [
     {
       "serviceName": "Expense Management Platform",
       "dateAvailable": "2026-06-18",
-      "securityCategory": "Moderate",
       "serviceDescription": "Automates expense reporting, receipt collection, policy checks, and employee reimbursements.",
       "dateAvailableMeaning": "available",
       "inMinimumAssessmentScope": true
@@ -20,7 +19,6 @@
     {
       "serviceName": "Corporate Card",
       "dateAvailable": "2026-06-18",
-      "securityCategory": "Moderate",
       "serviceDescription": "Provides physical and virtual charge cards with configurable spending limits and transaction visibility.",
       "dateAvailableMeaning": "available",
       "inMinimumAssessmentScope": true
@@ -28,7 +26,6 @@
     {
       "serviceName": "Bill Pay",
       "dateAvailable": "2026-06-18",
-      "securityCategory": "Moderate",
       "serviceDescription": "Centralizes vendor invoices, approval workflows, and payment processing.",
       "dateAvailableMeaning": "available",
       "inMinimumAssessmentScope": true
@@ -36,7 +33,6 @@
     {
       "serviceName": "Super Intelligence Spend Management",
       "dateAvailable": "2026-11-05",
-      "securityCategory": "Moderate",
       "serviceDescription": "Uses SI (super intelligence) to analyze spending, identify savings opportunities, and support financial policy enforcement.",
       "dateAvailableMeaning": "available",
       "inMinimumAssessmentScope": true
@@ -44,7 +40,6 @@
     {
       "serviceName": "Router",
       "dateAvailable": "2026-11-05",
-      "securityCategory": "Moderate",
       "serviceDescription": "Provides a single API for accessing multiple SI (super intelligence) models, with request routing, usage tracking, and spending controls.",
       "dateAvailableMeaning": "available",
       "inMinimumAssessmentScope": true

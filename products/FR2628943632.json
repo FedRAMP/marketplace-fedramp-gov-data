@@ -1,14 +1,14 @@
 {
   "serviceIdentification": {
-    "providerName": "Pryme Infil, Inc.",
-    "serviceName": "Pryme Infil",
-    "serviceAcronym": "PRYME",
-    "serviceDescription": "Cloud-based command-and-control platform for public safety operations, providing operational planning, real-time team coordination, encrypted messaging, GPS mapping, risk assessments, and after-action documentation for law enforcement and public safety agencies.",
-    "certificationType": "20x",
     "fedRampPackageId": "FR2628943632",
     "ueiNumber": "Z363L7GPL7P9",
-    "website": "https://www.prymeinfil.com/",
-    "logo": "https://cdn.prod.website-files.com/698cfd876cf33430c0e79e6b/69e90cda3b41e585b3212654_pryme%20infil%20logo%20small-01.svg"
+    "providerName": "Pryme Infil",
+    "serviceName": "Pryme Infil",
+    "serviceAcronym": "Pryme",
+    "serviceDescription": "Cloud-based command-and-control platform for public safety operations, providing operational planning, real-time team coordination, encrypted messaging, GPS mapping, risk assessments, and after-action documentation for law enforcement and public safety agencies.",
+    "certificationType": "20x",
+    "website": "https://www.prymeinfil.com",
+    "logo": "https://app.prymeinfil.com/ui/assets/images/logos/pryme-icon-dark.png"
   },
   "serviceProperties": {
     "serviceType": [
@@ -16,39 +16,80 @@
     ],
     "deploymentModel": "Government-Only Cloud",
     "businessCategory": [
-      "Law Enforcement",
-      "Operations Management"
+      "Analytics",
+      "Data Management",
+      "Operations Management",
+      "Law Enforcement"
     ],
+    "nextOngoingCertificationReportDate": "2027-03-10",
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
-      "url": "https://app.vanta.com/prymeinfil/trust/7tlcmt81p2x555bymou4kr",
-      "repositoryDescription": "Pryme Infil Trust Center — security and compliance documentation for agencies evaluating the offering.",
+      "url": "https://trust.paramify.com/prymeinfil",
+      "repositoryDescription": "Pryme Infil Trust Center. Security and compliance documentation for agencies evaluating the offering, including the full FedRAMP Certification Package (Ongoing Certification Reports, Readiness Assessment Report and Security Assessment Plan, and the policy packet).",
       "authenticationRequired": true,
-      "accessRequestInstructions": "Visit the Trust Center and select the document you wish to review. You will be presented with a request form; submit it to request access. Pryme Infil reviews each request and grants access to the requested documents once approved."
+      "accessRequestInstructions": "Click the \"Request Access\" button within the Trust Center and submit the request form."
     },
     "secureConfigurationGuidance": {
       "repositoryType": [
         "Secure Configuration Guidance"
       ],
-      "url": "https://app.vanta.com/prymeinfil/trust/7tlcmt81p2x555bymou4kr/resources?s=329nbsfnmtgsp5fldc4awl&name=secure-configuration-guide",
-      "repositoryDescription": "Secure Configuration Guide for agency administrators — how to securely access, configure, operate, and decommission privileged accounts, and the security implication of each administrative setting.",
-      "authenticationRequired": true,
-      "accessRequestInstructions": "Access the guide through the Pryme Infil Trust Center: select the document and submit the request form. Pryme Infil reviews each request and grants access once approved."
-    }
+      "url": "https://paramify-gov-prod-trust-s3.s3-fips.us-gov-west-1.amazonaws.com/a3c1b716-f5fc-48f8-b040-211d2c22e46f/deliverables/c934d56d-af8d-4325-85d4-e5d2d9a5fb8c/secure-configuration-guide-v1.0.pdf",
+      "repositoryDescription": "Pryme Infil Trust Center deliverables.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "No access request required."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Trust Center"
+        ],
+        "url": "https://app.vanta.com/prymeinfil/trust/7tlcmt81p2x555bymou4kr",
+        "repositoryDescription": "The Pryme Infil Trust Center - Vanta, is our secure portal for sharing security and compliance documentation with agencies and customers who are evaluating Pryme. It holds our security policies and supporting compliance documents, and shares restricted documents once an access request is approved.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "To request access, open https://app.vanta.com/prymeinfil/trust/7tlcmt81p2x555bymou4kr, select the document you need and submit the request form; Pryme Infil reviews each request and grants access once it is approved."
+      },
+      {
+        "repositoryType": [
+          "Assessment Reports"
+        ],
+        "url": "https://app.paramify.com/trust/artifact?artifact=762cbd70-276b-4613-bad4-3df01ecfc991&slug=prymeinfil&name=pryme-infil",
+        "repositoryDescription": "Insight Assurance's signed independent assessment narrative for Pryme Infil's FedRAMP 20x Class C assessment, v1.0 FINAL, issued 2026-11-13. It contains the overall summary of assessment and the assessor's statement for each of the 46 Key Security Indicators and 158 rules. Published as issued by the assessor, without modification.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Click the \"Request Access\" button within the Trust Center and submit the request form."
+      },
+      {
+        "repositoryType": [
+          "System Authorization Documentation"
+        ],
+        "url": "https://app.paramify.com/trust/artifact?artifact=fc25aee2-9bc0-44fd-a973-251936ca9a02&slug=prymeinfil&name=pryme-infil",
+        "repositoryDescription": "Cryptographic Modules Table",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Click the \"Request Access\" button within the Trust Center and submit the request form."
+      },
+      {
+        "repositoryType": [
+          "Policies",
+          "Procedures"
+        ],
+        "url": "https://paramify-gov-prod-trust-s3.s3-fips.us-gov-west-1.amazonaws.com/a3c1b716-f5fc-48f8-b040-211d2c22e46f/deliverables/f0e421e0-323f-4e39-b67e-65f477fe5451/policy-and-procedure-index.json",
+        "repositoryDescription": "The Pryme Infil policy and procedure index (CDS-CSO-IRP): every relevant policy and procedure with its name, file, summary, word count, current version, date of last update and related FedRAMP practices. This address is the machine-readable JSON; the human-readable PDF is at https://paramify-gov-prod-trust-s3.s3-fips.us-gov-west-1.amazonaws.com/a3c1b716-f5fc-48f8-b040-211d2c22e46f/deliverables/4322fc1c-2f3c-4ae8-b227-27a2140bd95d/policy-and-procedure-index.pdf.",
+        "authenticationRequired": false
+      }
+    ]
   },
   "contactInformation": [
-    {
-      "contactType": "Sales",
-      "contactName": "Jarred Pereira",
-      "contactEmail": "sales@prymeinfil.com",
-      "contactPhone": "707-505-5004"
-    },
     {
       "contactType": "Security",
       "contactName": "Mike Cowgill",
       "contactEmail": "security@prymeinfil.com",
+      "contactPhone": "707-505-5004"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Jarred Pereira",
+      "contactEmail": "sales@prymeinfil.com",
       "contactPhone": "707-505-5004"
     }
   ],
@@ -58,36 +99,114 @@
   },
   "certifiedServices": [
     {
-      "serviceName": "Operational Planning & Coordination",
-      "serviceDescription": "Tactical operation and event planning (SMEAC, course of action, breach and energetic-breach plans, contingencies, deconfliction, control points, briefings, negotiations), structured risk assessment, real-time operational messaging and channels, live and historical GPS mapping of personnel and assets, and in-app, email, and push notifications.",
-      "dateAvailable": "2023-03-10"
-    },
-    {
-      "serviceName": "After-Action & Incident Reporting",
-      "serviceDescription": "After-action reports, use-of-force and injury reporting, property damage, medical aid, and evidentiary finds.",
-      "dateAvailable": "2023-03-10"
-    },
-    {
-      "serviceName": "Training & Readiness",
-      "serviceDescription": "Training events, training matrices, qualification tracking and compliance results, and K9 program management (certifications, health records, deployments, training logs).",
-      "dateAvailable": "2023-03-10"
-    },
-    {
-      "serviceName": "Personnel & Resource Management",
-      "serviceDescription": "Teams, rosters, personnel and applicant profiles, emergency contacts, personas and permissions, and inventory and assignment of equipment and assets (drones, chemical agents, body-worn cameras, firearms, less-lethal weapons, radios, vehicles, GPS devices).",
-      "dateAvailable": "2023-03-10"
-    },
-    {
-      "serviceName": "Records, Forms & Document Management",
-      "serviceDescription": "Upload, storage, and organization of operational documents, images, and media in per-tenant encrypted storage; custom form templates, captured form data, and agency-configurable data dictionary fields.",
-      "dateAvailable": "2026-04-06"
-    },
-    {
-      "serviceName": "Dashboards & Analytics",
-      "serviceDescription": "Configurable dashboards and widgets with an analytics layer over tenant operational data.",
-      "dateAvailable": "2025-07-08"
+      "serviceName": "Pryme",
+      "serviceDescription": "Cloud-based command-and-control platform for public safety operations, providing operational planning, real-time team coordination, encrypted messaging, GPS mapping, risk assessments, and after-action documentation for law enforcement and public safety agencies."
     }
   ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "Usage and configuration. AWS GovCloud (US) is the infrastructure the whole offering runs on. Pryme operates four accounts in the aws-us-gov partition (management, production west, staging west and production east) under one AWS Organization. The system runs in us-gov-west-1; us-gov-east-1 holds the cold disaster-recovery copy, dormant until a runbook activates it. The services used are EKS and ECR for the application, Aurora PostgreSQL behind RDS Proxy, EFS, S3 and ElastiCache for data, Cognito, DynamoDB and Lambda for authentication, SES for mail, KMS, Secrets Manager and ACM for keys and secrets, Route 53, the Application Load Balancer, WAF, Network Firewall and Transit Gateway for the network, CloudTrail, GuardDuty, Security Hub, Inspector and Config for security monitoring, CodePipeline and CodeBuild for builds, AWS Backup, and IAM Identity Center for staff access. All federal customer data is processed and stored here: each agency has its own database, S3 bucket and KMS key, and backups and the east replicas stay inside the partition.\nJustification. AWS GovCloud (US) holds a FedRAMP High (Class D) JAB authorization, is operated by US citizens on US soil, and offers every service the offering needs, so AWS-native services are used instead of third-party SaaS wherever possible. Pryme's commercial AWS partition hosts non-government workloads only, is out of scope and has no connectivity to this boundary.\nMitigation measures. Data at rest is encrypted with AES-256 under customer-managed KMS keys in FIPS 140-3 Level 3 HSMs (CMVP #4884), one key per tenant. Data in transit terminates at the load balancer on a FIPS TLS 1.3 and 1.2 policy, and every SDK client and Terraform provider uses the FIPS endpoints. Staff reach the console only through IAM Identity Center behind Twingate zero trust access with security-key multi-factor authentication. All egress leaves through the Network Firewall, CloudTrail streams to the Cloud SIEM, and the infrastructure is defined in Terraform with daily drift detection.\nCompensating controls. None are needed for the leveraged services: the authorization covers them, and the controls Pryme operates above the shared-responsibility line are the subject of this package."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2023864279A",
+        "useCase": "Usage and configuration. Datadog for Government is the offering's monitoring platform and security information and event management system. The Datadog Agent runs on the EKS clusters inside the boundary and sends container logs, metrics and Kubernetes state over HTTPS to the US1-FED site (ddog-gov.com), authenticated with an API key held in AWS Secrets Manager. Cloud SIEM also ingests the organization CloudTrail, EKS audit logs, VPC flow logs, the application's security event stream, the production PostgreSQL log, GuardDuty findings, GitHub and Google Workspace audit events, and Identity Center, Cognito and Twingate sign-in and connection logs; a read-only cross-account role lets Datadog read AWS configuration. Pryme uses logs, metrics, monitors, SLOs, synthetics, Cloud SIEM, Incident Management and Case Management; application performance monitoring, real user monitoring and cloud security management are switched off. Staff sign in through Google Workspace single sign-on with multi-factor authentication, roles are defined as code, and the assessor has a read-only role.\nJustification. Datadog for Government is FedRAMP High authorized and hosted in AWS GovCloud, and it is Pryme's record of truth for security signals and incidents, so the offering leverages it rather than operating its own logging and SIEM stack.\nMitigation measures. Telemetry carries metadata and identifiers only: tenant, user and request identifiers, resource names, counts and error text. The application's redaction enricher removes personal fields before a log line is written, and no record content is logged by design, so an agency's operational data does not reach Datadog. The AWS integration role is read-only, the API keys are rotated by a person and never embedded in code, the SIEM index is retained for 365 days with archives in Object-Locked S3, Datadog access is reviewed quarterly under the Datadog Logical Access Review, and the vendor is reviewed at least annually in Vanta under the Third-Party Management Policy.\nCompensating controls. None are needed beyond the authorization; the data minimization above bounds what the platform could expose."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+        "useCase": "Usage and configuration. Google Workspace is the identity provider for Pryme staff and the company's mail and document suite. Staff sign in to GitHub, Datadog and Twingate through Workspace single sign-on, and Twingate syncs its users and groups from the Workspace directory, which is also the roster that the nightly account reconciliation checks IAM Identity Center, GitHub, Datadog, Twingate and Cognito against. The FedRAMP Administrators organizational unit, which holds every account with privileged access to the system, has been restricted to security keys and passkeys since 2026-10-21 (YubiKey 5 FIPS, CMVP #5291), and two-step verification cannot be weakened. The security@ mailbox is a Workspace group monitored every business day by the CTO with a designated backup, with fedramp.gov and gsa.gov on its approved-senders list. A read-only service account lets the daily posture check read these settings.\nJustification. Google Workspace is FedRAMP High authorized on the edition Pryme uses, and one identity source for every administrative system keeps joiner, mover and leaver control in a single place.\nMitigation measures. No operational data reaches Workspace: the application's data stays in AWS GovCloud. Workspace mail may hold agency personnel contact details from support correspondence (names, titles, agency addresses and work phone numbers), never operational records. Workspace audit events stream to the Cloud SIEM, access is reviewed quarterly under the Google Workspace Logical Access Review, the authentication posture is validated daily by automated checks, and the vendor is reviewed at least annually in Vanta under the Third-Party Management Policy. A known limit, tracked in the POA&M, is that Workspace cannot tell a hardware-bound security key from a synced passkey.\nCompensating controls. None are needed beyond the authorization; support correspondence is handled under the Data Management Policy as confidential customer data."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2428769635XL",
+        "useCase": "Usage and configuration. Paramify Cloud is the compliance platform and package of record for this certification. It holds the FedRAMP 20x Class C program, the solution capabilities and control implementations, the evidence sets and their validators, and it generates the Security Decision Record, the Certification Package Overview and the Ongoing Certification Report, which are published on the Paramify Trust Center (trust.paramify.com/prymeinfil) from FIPS S3 endpoints in us-gov-west-1. Four CodeBuild pipelines inside the boundary upload evidence artifacts to Paramify over HTTPS every day, each with its own upload token held in AWS Secrets Manager; the management-account runner reads AWS, Datadog, GitHub, Google Workspace, Vanta and Jira with read-only credentials and never touches a database. Staff use the web application; the operator's read key lives in the macOS Keychain and is never written to a file.\nJustification. Paramify Cloud is FedRAMP 20x certified at Class C, the same class as this offering, and is built for the certification package, so Pryme leverages it rather than assembling the package by hand.\nMitigation measures. Uploaded evidence consists of identifiers, counts and configuration values, never a token, a credential or an end user's personal data; tenant database names are hashed, Cognito pool names are withheld, and no resource identifier that could name a customer is emitted. The fetchers are read-only against every source, the upload tokens are scoped to evidence, issues, capabilities, validators and pipelines with an expiry, the read key is never on the runner, and the artifacts also stay in a 365-day compliance-locked evidence bucket inside the boundary as the copy of record. The vendor is reviewed at least annually in Vanta under the Third-Party Management Policy.\nCompensating controls. None are needed beyond the certification; no federal customer data is uploaded to Paramify."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Atlantis",
+        "provider": "Atlantis",
+        "useCase": "Usage and configuration. Atlantis is the open-source Terraform automation server that applies Pryme's infrastructure code. It runs on the staging EKS cluster in AWS GovCloud, from a digest-pinned image. GitHub sends it pull-request webhooks over HTTPS 443 through an internet-facing network load balancer whose security group admits only GitHub's webhook addresses, and an internal load balancer that forwards only the Atlantis events host, path and method and checks the webhook secret. Atlantis runs a plan on every pull request and applies only a reviewed, undiverged branch under a GitHub ruleset, with code owners gating the production, management and east roots. It assumes a dedicated automation role in each account through EKS Pod Identity, keeps state in per-root encrypted S3 buckets with locking, and its web interface is reachable only through Twingate.\nJustification. Pull-request-driven infrastructure change, reviewed and recorded in GitHub and applied from inside the boundary, is the control the configuration management process relies on; no hosted alternative is needed.\nMitigation measures. The inbound path is restricted by source address, host, path, method and secret, and is the only internet-facing entry besides the production load balancer. The pod is hardened in a namespace that denies ingress by default, egress leaves through the Network Firewall, custom workflows and apply-all are disabled, and a separate daily drift job in the management account plans every root with plan-only roles and reports any difference.\nCompensating controls. Atlantis receives, processes and stores no federal customer data; that absence is the compensating control. It handles infrastructure code and Terraform state only, has no credentials for the application's databases or buckets, and the Aurora databases are not managed in Terraform at all."
+      },
+      {
+        "name": "CodeQL",
+        "provider": "GitHub, Inc.",
+        "website": "https://government.github.com",
+        "useCase": "Usage and configuration. CodeQL is GitHub's static analysis engine, run by GitHub Actions on the application repository on every pull request and on the default branch. It reads the source code already hosted on GitHub Enterprise Cloud and writes its findings to the repository's code scanning alerts; the daily GitHub CI results fetcher reads whether the check reported and uploads the result to Paramify as evidence.\nJustification. Static analysis at the source, inside the same GitHub tenancy that holds the code, adds no new data flow and gives the secure development process a repeatable vulnerability check on every change.\nMitigation measures. CodeQL sees source code only, which holds no customer data, and its alerts are tracked under the vulnerability management process with the same remediation timelines as scanner findings.\nCompensating controls. CodeQL receives, processes and stores no federal customer data; that absence is the compensating control. The application's data lives in AWS GovCloud and never enters a repository, and secret scanning on the repository keeps credentials out of the code it reads."
+      },
+      {
+        "name": "Dependabot",
+        "provider": "GitHub, Inc.",
+        "website": "https://government.github.com",
+        "useCase": "Usage and configuration. Dependabot is GitHub's dependency monitor, enabled on the application repository on GitHub Enterprise Cloud. It reads the npm and NuGet manifests and lock files, raises an alert when a dependency has a published vulnerability, and opens update pull requests that go through the normal review and CI. The daily branch protection fetcher reads whether Dependabot alerts are enabled and uploads the result to Paramify.\nJustification. Continuous software composition analysis on the manifests, inside the GitHub tenancy that already holds them, supports the supply chain and vulnerability management processes without another vendor.\nMitigation measures. Dependabot reads dependency manifests only; its pull requests are reviewed like any other change and must pass CI before they merge.\nCompensating controls. Dependabot receives, processes and stores no federal customer data; that absence is the compensating control. The repositories hold code and infrastructure definitions only, and the application's data never enters them."
+      },
+      {
+        "name": "Firebase Cloud Messaging",
+        "provider": "Firebase Cloud Messaging",
+        "useCase": "Usage and configuration. Firebase Cloud Messaging delivers push notifications from the Pryme API to agency users' mobile devices, and to iOS devices through Apple's push service behind it. The API pods send each request over HTTPS through the egress VPC and the Network Firewall, authenticated with a per-tenant Firebase service-account credential that is stored encrypted in the tenant registry under a KMS-backed key. Every push is a wake-up signal only: a category, a generic title and body such as \"Pryme: New message\", and a random notification identifier. On receipt the app fetches the content from the Pryme API over TLS with the user's session, and the API re-checks that the caller is the recipient and still has access.\nJustification. Push delivery to a mobile device is only possible through the platform vendors' services. Firebase Cloud Messaging is outside Google's FedRAMP scope and no certified substitute exists for this last hop, so Pryme declares it and minimizes what it carries.\nMitigation measures. The payload builder emits no name, address, location, message body, event or record field, and unit tests pin the exact keys of every push shape. Google and Apple see device tokens, delivery timing, the category and a hashed collapse identifier that lets repeat pushes replace each other; none of these identifies a record or a person. The credentials are per tenant and encrypted, and the vendor is reviewed at least annually in Vanta under the Third-Party Management Policy.\nCompensating controls. Firebase Cloud Messaging receives, processes and stores no federal customer data; that absence is the compensating control, enforced in the payload code and its tests, with the content delivered only by Pryme's own authenticated API."
+      },
+      {
+        "name": "FluxCD",
+        "provider": "GitOps",
+        "useCase": "Usage and configuration. FluxCD is the open-source GitOps controller that deploys the application. Its controllers run in each EKS cluster inside AWS GovCloud and reconcile the cluster with the manifests on the main branch of the GitOps repository on GitHub Enterprise Cloud, which they pull with a deploy credential scoped to that repository. Image automation scans the in-region ECR registry every minute through EKS Pod Identity and commits the new image version tag back to the repository; the nodes then pull the image from ECR. Drift detection and rollback are enabled on every Helm release. The east cluster's controllers are dormant with the rest of the cold disaster-recovery site.\nJustification. Declarative deployment from a reviewed repository makes every change to the clusters a commit, which the configuration management and change control processes rely on; the controllers run inside the boundary.\nMitigation measures. Flux's credentials reach only the GitOps repository and the ECR registry, reconciliation is restricted to the main branch, CI validates the manifests and Helm values before merge, and the deployments are reviewed under the SDLC review. The controller images are pulled from the vendor's public registry by pinned version; mirroring them into ECR is planned.\nCompensating controls. FluxCD receives, processes and stores no federal customer data; that absence is the compensating control. It handles manifests and image tags only and has no access to the application's databases or buckets."
+      },
+      {
+        "name": "GitHub Enterprise Cloud",
+        "provider": "GitHub Enterprise Cloud",
+        "useCase": "Usage and configuration. GitHub Enterprise Cloud, with data residency in the United States, hosts the application source code, the Terraform infrastructure code and the Kubernetes deployment manifests. Staff sign in through Google Workspace single sign-on with multi-factor authentication. A push to the application repository triggers AWS CodePipeline through a webhook, and CodePipeline pulls the source with an access token; GitHub also sends pull-request webhooks to Atlantis through a restricted load balancer path, and FluxCD pulls the deployment manifests and commits image version tags with a deploy credential. All connections use HTTPS on port 443. Repository rulesets require review, code owners gate the infrastructure applies, CodeQL and gitleaks report on every pull request, Dependabot alerts and secret scanning with push protection are on for the application repository, and the enterprise audit log is streamed to the Datadog Cloud SIEM.\nJustification. GitHub Enterprise Cloud is the source control and continuous integration service the development life cycle is built on. GitHub's own FedRAMP authorization is at the Low level, below this offering's, so it is declared as a non-certified resource.\nMitigation measures. Review rulesets and code owners, scanning on every change, audit events in the SIEM, credentials scoped to single repositories (the evidence fetchers use a read-only GitHub App), and GitHub's encryption in transit and at rest. The vendor is reviewed at least annually in Vanta under the Third-Party Management Policy. Replacing the CodePipeline access token with a GitHub App is planned.\nCompensating controls. GitHub Enterprise Cloud receives, processes and stores no federal customer data; that absence is the compensating control. The repositories hold code and infrastructure definitions only, the application's data never enters them, and secret scanning with push protection and code review keep credentials and data out."
+      },
+      {
+        "name": "Gitleaks",
+        "provider": "GitHub, Inc.",
+        "website": "https://government.github.com",
+        "useCase": "Usage and configuration. Gitleaks is an open-source secret scanner. GitHub Actions runs it on every pull request to the application repository on GitHub Enterprise Cloud, where it scans the changed source for credentials, tokens and keys and reports a check; the daily GitHub CI results fetcher reads whether the check reported and uploads the result to Paramify. It complements GitHub's native secret scanning with push protection on the same repository.\nJustification. A second, independent secret scanner on every change keeps credentials out of the repositories, which is a supply chain control and a precondition for declaring that the repositories hold code only.\nMitigation measures. Gitleaks reads source code only and runs inside the GitHub tenancy that already holds it; a finding is treated as a credential exposure and the credential is rotated under the incident response and vulnerability management processes.\nCompensating controls. Gitleaks receives, processes and stores no federal customer data; that absence is the compensating control. The application's data never enters a repository, and the scanner exists to keep secrets out of the code it reads."
+      },
+      {
+        "name": "Jira",
+        "provider": "Atlassian",
+        "website": "https://www.atlassian.com/government",
+        "useCase": "Usage and configuration. Jira, on Atlassian's commercial cloud at pryme.atlassian.net, is Pryme's issue tracker. It holds the engineering backlog, the program's change requests and configuration exceptions and the tracking of vulnerability remediation. Staff sign in with single sign-on and multi-factor authentication. The evidence fetchers read it over HTTPS with a service account that has the Viewer role and read-only scopes and a token capped at one year. Security incidents are not recorded in Jira: they stay in Datadog Incident Management.\nJustification. Jira is the tracker the development and change management processes run on. Pryme's site is on Atlassian's commercial cloud, not Atlassian Government Cloud, so it is declared as a non-certified resource.\nMitigation measures. The data classification policy prohibits controlled unclassified information in tickets, incidents and their details are kept out of Jira, the integration is read-only, access is by single sign-on with multi-factor authentication, and the vendor is reviewed at least annually in Vanta under the Third-Party Management Policy.\nCompensating controls. Jira receives, processes and stores no federal customer data; that absence is the compensating control, kept true by the no-CUI rule for tickets and by recording incidents in Datadog rather than Jira."
+      },
+      {
+        "name": "Kubescape",
+        "provider": "Kubescape",
+        "useCase": "Usage and configuration. Kubescape is the open-source Kubernetes security scanner that scores the clusters against the CIS EKS and NSA-CISA benchmarks. It runs as a weekly scheduled job inside the staging and production EKS clusters in AWS GovCloud, deployed through the GitOps repository, and writes its results as JSON to a results bucket in the same account. The Kubescape benchmark fetcher reads the control identifiers and counts from that bucket and uploads them to Paramify as evidence. The job reports nothing to the vendor's cloud service.\nJustification. A benchmark scan of the running clusters gives the configuration management process a repeatable, in-boundary measure of hardening; an open-source scanner run locally avoids sending cluster configuration to another vendor.\nMitigation measures. The scanner reads Kubernetes configuration and manifests only, its results hold control identifiers and counts, and the results stay in an encrypted bucket inside the boundary. The scanner image is pulled by pinned version.\nCompensating controls. Kubescape receives, processes and stores no federal customer data; that absence is the compensating control. It reads cluster configuration, never workload data, and has no credentials for the application's databases or buckets."
+      },
+      {
+        "name": "OpenWeatherMap",
+        "provider": "OpenWeatherMap",
+        "useCase": "Usage and configuration. OpenWeatherMap supplies the weather shown for an event's location. The Pryme API calls it server-side over HTTPS through the egress VPC and the Network Firewall, using an API key delivered from AWS Secrets Manager. A request carries the event's city, state and country only (the county when no city resolves): never the caller's coordinates, a bounding box or a postal code. OpenWeatherMap geocodes that place name to its own city-level point and returns the forecast, and Pryme caches the result.\nJustification. Weather is part of operational planning in the offering. OpenWeatherMap is not FedRAMP authorized, so it is declared as a non-certified resource; the federal weather.gov API is a deferred alternative.\nMitigation measures. The city-and-state limit is enforced in code by the weather provider catalog, a startup validator that refuses any configuration allowing coordinates, and guardrail tests. The API key is a managed secret, egress passes the Network Firewall, and the vendor is reviewed at least annually in Vanta under the Third-Party Management Policy.\nCompensating controls. OpenWeatherMap receives, processes and stores no federal customer data; that absence is the compensating control. An event's exact location never leaves the boundary: the service sees only a city and state, and the code-enforced limit keeps it that way."
+      },
+      {
+        "name": "Terraform",
+        "provider": "HashiCorp",
+        "website": "https://hashicorp.com",
+        "useCase": "Usage and configuration. Terraform is the open-source infrastructure-as-code tool that defines the four AWS GovCloud accounts. Version 1.10 or later with the AWS provider 6.x runs inside the boundary: in Atlantis for plans and applies, in a daily CodeBuild drift job that plans every root with plan-only roles, and occasionally on an engineer's workstation. Every provider and state backend uses the FIPS endpoints. State lives in a per-root S3 bucket encrypted with a customer-managed KMS key, with deletion protection and state locking. The only connection to HashiCorp is the download of the CLI and providers from its public release and registry endpoints over HTTPS.\nJustification. A declarative, reviewed definition of the infrastructure, with daily drift detection against it, is the basis of the configuration management process; the tool runs inside the boundary and sends nothing to the vendor.\nMitigation measures. State buckets are encrypted, locked and protected from deletion; the Aurora databases and their contents are not managed in Terraform; drift reports carry resource addresses only; and changes reach production only through Atlantis under review.\nCompensating controls. Terraform receives, processes and stores no federal customer data; that absence is the compensating control. Its state holds resource configuration, never application data."
+      },
+      {
+        "name": "Twingate Cloud Edge",
+        "provider": "Twingate Cloud Edge",
+        "useCase": "Usage and configuration. Twingate Cloud Edge is the control plane of the zero trust network access service through which Pryme administrators reach private resources in AWS GovCloud: the EKS private endpoints, the internal load balancer for Atlantis and other tools, Aurora through RDS Proxy, and the AWS console through IAM Identity Center. Administrators sign in through Google Workspace, and Twingate syncs its users and groups from the Workspace directory. Pryme-operated connectors, one EC2 instance per environment plus an in-cluster connector, make outbound-only connections to Twingate and terminate the end-to-end encrypted sessions from administrator devices; Twingate relays forward that encrypted traffic only when a direct connection cannot be made and cannot decrypt it. The control plane issues short-lived access decisions and policy and stores identity records, access policies and connection events. Connection logs stream to the Datadog Cloud SIEM, and the nightly account reconciliation checks the Twingate user list against the Workspace roster.\nJustification. Zero trust access removes bastion hosts and inbound administrative ports from the boundary. Twingate is not FedRAMP authorized, so it is declared as a non-certified resource and will be replaced before the Class D phase.\nMitigation measures. Each session requires a device certificate and an identity from Workspace with security-key multi-factor authentication. Twingate's transport encryption does not use FIPS 140 validated modules, so the administrative protocols inside the tunnel rely on their own TLS sessions to FIPS endpoints; the connector hosts run Amazon Linux 2023 in FIPS mode. Sessions are logged in the SIEM, and the vendor is reviewed at least annually in Vanta under the Third-Party Management Policy.\nCompensating controls. Twingate Cloud Edge receives, processes and stores no federal customer data; that absence is the compensating control. The control plane sees brokering metadata and policy only, and the data plane is encrypted end to end between the administrator's device and connectors inside the boundary."
+      },
+      {
+        "name": "Vanta SaaS",
+        "provider": "Vanta Inc",
+        "website": "https://vanta.com",
+        "useCase": "Usage and configuration. Vanta is the trust management platform Pryme uses for its SOC 2 program, policies, vendor risk management, training records and the Vanta Trust Center. It reads configuration through read-only, least-privilege integrations: a read-only scanner role that Vanta assumes in the production and external AWS accounts, and read access to GitHub. The evidence fetchers read Vanta's tests and vendor records over HTTPS with a read-only API application, and a separate write application, used only from the operator's laptop, uploads documents. Pryme's tenant is on Vanta's commercial service at app.vanta.com.\nJustification. Vanta operates the vendor risk management and SOC 2 monitoring that the Third-Party Management Policy requires and gives agencies a second trust portal. It is declared as a non-certified resource.\nMitigation measures. The integrations are read-only and scoped, Vanta receives configuration and compliance metadata and records about Pryme's own program, the API applications are read-only except for document upload, and the connection is reviewed at least annually under the Third-Party Management Policy.\nCompensating controls. Vanta receives, processes and stores no federal customer data; that absence is the compensating control. Its integrations read infrastructure configuration, not application data, and the documents in it describe Pryme's program, not any agency's operations."
+      }
+    ]
+  },
+  "documentationOverview": "Pryme Infil publishes its FedRAMP 20x Class C documentation on its Trust Center at https://trust.paramify.com/prymeinfil/pryme-infil. Public deliverables: this certification data, machine-readable against the FedRAMP Certification Package Overview schema; the Secure Configuration Guide; the programmatic-access documentation; and the policy and procedure index (CDS-CSO-IRP), as a PDF and as JSON, listing every policy and procedure with its file, summary, word count, version, date of last update and related FedRAMP practices. Restricted deliverables, available on approved request: the Certification Package Overview (CPO); the Security Decision Record (SDR) and the Customer Responsibility Matrix (CRM) are added as each is published. Ongoing Certification Reports are published quarterly, each followed by a Quarterly Review.",
+  "metadata": {
+    "version": "1.0.1",
+    "lastUpdated": "2026-11-03T00:00:00.000Z",
+    "updateSource": "Pryme Infil",
+    "responsibleOfficial": {
+      "name": "Mike Cowgill",
+      "title": "Security Point of Contact",
+      "email": "security@prymeinfil.com"
+    }
+  },
   "ZD_frid_retro": "FR2628943632",
   "id_matches_expected": true
 }

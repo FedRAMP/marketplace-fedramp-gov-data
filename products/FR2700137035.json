@@ -25,10 +25,22 @@
         "Trust Center"
       ],
       "url": "https://trust.calderapbc.com",
-      "repositoryDescription": "Caldera’s trust center, hosted by Vanta. It holds our SOC 2 Type II report, security policies, subprocessor list, and the current status of our security controls.",
+      "repositoryDescription": "Caldera’s trust center, hosted by Vanta. It holds our FedRAMP certification package documents, SOC 2 Type II report, security policies, subprocessor list, and the current status of our security controls.",
       "authenticationRequired": true,
-      "accessRequestInstructions": "Request access at trust.calderapbc.com to view the SOC 2 Type II report and other restricted documents."
-    }
+      "accessRequestInstructions": "Request access at trust.calderapbc.com to view our FedRAMP certification package documents, SOC 2 Type II report, and supporting materials. FedRAMP and federal agency personnel are granted access without signing an NDA."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Product Documentation"
+        ],
+        "url": "https://support.calderapbc.com",
+        "repositoryDescription": "Mesa’s public product documentation: a quickstart, guides to using Mesa, organization administration (settings, teams, connections, and the audit log), and release notes.",
+        "authenticationRequired": false
+      }
+    ],
+    "documentationOverview": "Caldera publishes product documentation for Mesa at support.calderapbc.com. Security documentation (our SOC 2 Type II report, security policies, and subprocessor list) is in our trust center at trust.calderapbc.com, and FedRAMP information is published at www.calderapbc.com/security/fedramp, with a machine-readable copy in JSON.",
+    "nextOngoingCertificationReportDate": "2027-03-08"
   },
   "contactInformation": [
     {
@@ -58,7 +70,7 @@
     "status": "Mesa is listed on the FedRAMP Marketplace in the Initial Implementation phase, and Caldera is pursuing FedRAMP 20x Class A certification for it.",
     "certificationPath": "Program",
     "certificationClass": "Class A",
-    "lastUpdated": "2026-10-05",
+    "lastUpdated": "2026-11-16",
     "milestones": [
       {
         "title": "SOC 2 Type II report issued",
@@ -79,7 +91,9 @@
       },
       {
         "title": "FedRAMP 20x Class A gap assessment",
-        "status": "planned"
+        "status": "completed",
+        "date": "2026-10-05",
+        "detail": "Remaining requirements identified."
       },
       {
         "title": "FedRAMP 20x Class A certification package submitted",
