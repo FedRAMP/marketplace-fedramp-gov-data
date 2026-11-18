@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-17T05:08:18.792Z",
-    "total_entries": 6088,
+    "export_timestamp": "2026-11-18T05:06:04.779Z",
+    "total_entries": 6092,
     "description": "FedRAMP data ATOs export from GSA system"
   },
   "data": {
@@ -65230,7 +65230,7 @@
         "uuid": "08477bb0-40c9-48f8-b596-8fefec4168ff",
         "product_id": "F1511207635",
         "agency_id": "22-011-05",
-        "is_active": true,
+        "is_active": false,
         "is_reuse": true,
         "is_uplift": false,
         "ato_date": "2025-12-02T05:00:00.000Z",
@@ -73060,6 +73060,54 @@
         "ato_date": "2026-10-02T04:00:00.000Z",
         "exp_date": "",
         "log_date": "2026-11-16T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "4f208a86",
+        "product_id": "FR1832870021",
+        "agency_id": "22-022-01",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-05-29T04:00:00.000Z",
+        "exp_date": "2027-04-30T04:00:00.000Z",
+        "log_date": "2026-11-17T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "fbdba7fa",
+        "product_id": "F1511207635",
+        "agency_id": "22-011-05",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-11-13T05:00:00.000Z",
+        "exp_date": "2027-12-17T05:00:00.000Z",
+        "log_date": "2026-11-17T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "ae117e03",
+        "product_id": "FR2528033654",
+        "agency_id": "22-011",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-11-13T05:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-17T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "3494a0ed",
+        "product_id": "F1506076709",
+        "agency_id": "22-034",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-07-02T04:00:00.000Z",
+        "exp_date": "2029-07-02T04:00:00.000Z",
+        "log_date": "2026-11-17T05:00:00.000Z",
         "log_reason": "Reuse Authorization"
       }
     ]

@@ -7,8 +7,8 @@
       "email": "security@tarly.co",
       "phone": "585-474-2276"
     },
-    "version": "2026.11.04.1",
-    "lastUpdated": "2026-11-05T00:51:18Z",
+    "version": "2026.11.17.1",
+    "lastUpdated": "2026-11-17T05:38:52Z",
     "sourceOfUpdate": "Tarly compliance repository source revision"
   },
   "serviceIdentification": {
@@ -164,23 +164,6 @@
         "compensatingControls": [
           "Staging and image-scan gates, immutable production image references, signed provenance and audit history.",
           "Open supporting-CI hardening and privilege findings are retained; a successful application build does not establish that every supporting control is met."
-        ]
-      },
-      {
-        "name": "Tarly Microsoft 365 / SharePoint Online integration",
-        "provider": "Microsoft Corporation (tenant operated by Tarly)",
-        "website": "https://www.microsoft.com/microsoft-365",
-        "useCase": "Dormant SharePoint search/import capability retained in the assessment inventory. The owner confirms the integration is not in use. On 2026-11-04 the Tarly test application was disabled and its tenant-wide Sites.Read.All grant, delegated User.Read consent and all requested API permissions were removed. No agency/customer SharePoint connection is authorized. Tenant/environment eligibility and selected-site read-only validation are required before future use; no GCC, GCC High or agency authorization is claimed for the test tenant.",
-        "generalUsageAndConfiguration": "The production backend retains Terraform-managed test-tenant credential and site bindings, but the Entra service principal is disabled and holds no application roles or delegated consent. The application requires explicit SHAREPOINT_ENABLED=true in addition to complete credentials and a configured site; dormant credentials alone do not activate it.",
-        "justification": "Retain the planned import capability and its dormant credential binding under assessment while it is unused; activate only after an approved customer/agency tenant and site-permission review.",
-        "mitigationMeasures": [
-          "Keep the unused Entra service principal disabled with no API permission grants, delegated consent or configured API permissions.",
-          "Default SHAREPOINT_ENABLED to false and block authentication, cached-token use, search and download unless explicitly enabled and fully configured.",
-          "Before activation, require Sites.Selected with an explicit read-only grant to the approved site, tenant/data-flow review and positive/negative functional validation."
-        ],
-        "compensatingControls": [
-          "Microsoft Graph independently confirmed accountEnabled=false, no application-role assignments, no delegated consent and no configured API permissions. A client-credentials request failed with AADSTS7000112 (application disabled) and issued no token.",
-          "Retain the original 2026-08-26 Sites.Read.All observation as historical evidence. Newly disabled sign-ins and revoked grants do not prove retroactive invalidation of earlier issued tokens; those remain subject to expiry. No credential or token values are retained in the review."
         ]
       }
     ]

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-17T20:59:31.187Z",
-    "total_entries": 2452,
+    "export_timestamp": "2026-11-18T05:06:08.685Z",
+    "total_entries": 2453,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -26977,6 +26977,17 @@
         "to_status": "FedRAMP Certified",
         "transition_date": "2026-11-17T05:00:00.000Z",
         "recorded_date": "2026-11-17T20:50:37.000Z"
+      },
+      {
+        "unique_id": "88DB8E13-83E8-45D4-B7A8-0E8849D48EA3",
+        "product_id": "FR2628647242",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Class C",
+        "from_status": "FedRAMP In Process",
+        "to_status": "FedRAMP Certified",
+        "transition_date": "2026-11-17T05:00:00.000Z",
+        "recorded_date": "2026-11-17T21:16:15.000Z"
       }
     ]
   }

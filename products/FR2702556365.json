@@ -1,14 +1,15 @@
 {
   "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
-    "fedRampPackageId": "TBD",
+    "fedRampPackageId": "FR2702556365",
+    "ueiNumber": "UC9PYS2NG4S3",
     "providerName": "Flare Systems, Inc.",
     "serviceName": "Flare Platform",
     "serviceAcronym": "FLARE",
     "serviceDescription": "The Flare Platform is a cloud-based external threat intelligence, digital risk protection, and cybersecurity monitoring platform that helps organizations identify, monitor, and mitigate cyber threats originating from external sources. It collects, analyzes, and correlates threat intelligence from the clear web, dark web, and other publicly accessible and restricted online sources to provide continuous visibility into an organization's external attack surface, including compromised credentials, exposed data, brand impersonation, phishing activity, and threat actor discussions. The platform provides automated threat detection, alerting, investigation, workflow management, reporting, and analytics to support security operations teams and ongoing cybersecurity risk management. The platform is hosted on Amazon Web Services (AWS) and is delivered to customers as a Software-as-a-Service (SaaS) solution.",
     "certificationType": "20x",
     "website": "https://flare.io/",
-    "logo": "https://flare.io/wp-content/uploads/FLR-Group-59.svg"
+    "logo": "https://static-assets.mycroft.io/production/org_logos/09d3fdee-d3da-47f7-9890-3bc227b8d2de.png"
   },
   "serviceProperties": {
     "serviceType": [
@@ -36,19 +37,30 @@
       "repositoryDescription": "Secure configuration guidance for the Flare Platform, currently hosted within the Flare Trust Center.",
       "authenticationRequired": true,
       "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request FedRAMP access' button on the top right of the Trust Center."
-    }
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Availability Status"
+        ],
+        "url": "https://status.flare.io/",
+        "repositoryDescription": "Flare availability status page, presenting current and historical availability and availability incidents for the Flare Platform.",
+        "authenticationRequired": false
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-02-17"
   },
   "overallSummaryOfAssessment": "Thoropass Assurance (Arlington, Virginia; Firm License No. PAC-FIRM-LIC-134618) performed a SOC 2 Type II examination of the Flare Platform, operated by Flare Systems, Inc., for the period June 1, 2025 to May 31, 2026, covering the Security Trust Services Criteria. The examination resulted in an unqualified opinion with no exceptions noted; one control (security incident logging, tracking, and communication) was not tested due to no security incidents occurring during the period. Amazon Web Services (AWS) was presented as a subservice organization under the carve-out method. Independent verification and validation of Flare's security controls (per FRC-CLA-MFR/IVV-CSX-AIA) is satisfied through Flare's annual SOC 2 Type II examination.",
   "contactInformation": [
     {
       "contactType": "Security",
-      "contactName": "Alec Barea",
-      "contactEmail": "alec.barea@flare.io"
+      "contactName": "Flare Security Team",
+      "contactEmail": "security@flare.io"
     },
     {
       "contactType": "Sales",
-      "contactName": "John Williamson",
-      "contactEmail": "john.williamson@flare.io"
+      "contactName": "Flare US Federal Sales Team",
+      "contactEmail": "us-fed@flare.io"
     }
   ],
   "certifiedServices": [
@@ -118,5 +130,5 @@
     ]
   },
   "ZD_frid_retro": "FR2702556365",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }
