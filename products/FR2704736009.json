@@ -1,0 +1,194 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "NewRelic",
+    "ueiNumber": "MUTPZC2JHSP4",
+    "providerName": "New Relic",
+    "serviceName": "New Relic for FedRAMP Class D (High)",
+    "serviceAcronym": "NR",
+    "serviceDescription": "New Relic is the intelligent observability platform, providing complete visibility across your complex IT environment (both on-prem and in the cloud). Our SaaS solution is a unified data platform that ingests and analyzes a wide array of telemetry data—metrics, events, logs, and traces. This provides a single source of truth for monitoring the performance of applications, infrastructure, and user experiences. Our platform empowers your teams to see, understand, and act on real-time telemetry data from every application, service, and piece of infrastructure.",
+    "certificationType": "Rev5",
+    "website": "https://newrelic.com/",
+    "logo": "https://drive.google.com/uc?export=view&id=1Gg2O7HCVtqACwPVVoaN_b3SHxfaNXIJM&filename=NR-Logo-HZ-RGB.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Collaboration",
+      "Cybersecurity & Risk Management",
+      "Data Management",
+      "Development Tools",
+      "Network Management",
+      "Operations Management",
+      "Storage",
+      "System Administration"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.newrelic.com/",
+      "repositoryDescription": "New Relic Trust Center.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Email fedrampinfo@newrelic.com for access."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://drive.google.com/file/d/1-1r4C9CCMmRanLnPHoMuHTk0bfp4P8eD/view",
+      "repositoryDescription": "Secure Configuration Guide for New Relic for FedRAMP Class D (High).",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactEmail": "fedrampinfo@newrelic.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactEmail": "publicsector@newrelic.com"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman",
+    "assessorID": "136571"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Data Insights: Alerts",
+      "serviceDescription": "Data Insights: Alerts"
+    },
+    {
+      "serviceName": "Data Insights: Change Tracking",
+      "serviceDescription": "Data Insights: Change Tracking"
+    },
+    {
+      "serviceName": "Data Insights: Charts, dashboards, and querying",
+      "serviceDescription": "Data Insights: Charts, dashboards, and querying"
+    },
+    {
+      "serviceName": "Data Insights: Cloud Cost Intelligence",
+      "serviceDescription": "Data Insights: Cloud Cost Intelligence"
+    },
+    {
+      "serviceName": "Data Insights: Distributed Tracing",
+      "serviceDescription": "Data Insights: Distributed Tracing"
+    },
+    {
+      "serviceName": "Data Insights: Errors Inbox",
+      "serviceDescription": "Data Insights: Errors Inbox"
+    },
+    {
+      "serviceName": "Data Insights: NRQL",
+      "serviceDescription": "Data Insights: NRQL"
+    },
+    {
+      "serviceName": "Data Insights: Service Level Management",
+      "serviceDescription": "Data Insights: Service Level Management"
+    },
+    {
+      "serviceName": "Full Stack Observability: AI Monitoring",
+      "serviceDescription": "Full Stack Observability: AI Monitoring"
+    },
+    {
+      "serviceName": "Full Stack Observability: Application Performance Monitoring (APM)",
+      "serviceDescription": "Full Stack Observability: Application Performance Monitoring (APM)"
+    },
+    {
+      "serviceName": "Full Stack Observability: Browser Monitoring",
+      "serviceDescription": "Full Stack Observability: Browser Monitoring"
+    },
+    {
+      "serviceName": "Full Stack Observability: Cloud Monitoring",
+      "serviceDescription": "Full Stack Observability: Cloud Monitoring"
+    },
+    {
+      "serviceName": "Full Stack Observability: Infrastructure Monitoring",
+      "serviceDescription": "Full Stack Observability: Infrastructure Monitoring"
+    },
+    {
+      "serviceName": "Full Stack Observability: Kubernetes Monitoring",
+      "serviceDescription": "Full Stack Observability: Kubernetes Monitoring"
+    },
+    {
+      "serviceName": "Full Stack Observability: Log Management",
+      "serviceDescription": "Full Stack Observability: Log Management"
+    },
+    {
+      "serviceName": "Full Stack Observability: Mobile Monitoring",
+      "serviceDescription": "Full Stack Observability: Mobile Monitoring"
+    },
+    {
+      "serviceName": "Full Stack Observability: Model Performance Monitoring (MLOps)",
+      "serviceDescription": "Full Stack Observability: Model Performance Monitoring (MLOps)"
+    },
+    {
+      "serviceName": "Full Stack Observability: Network Monitoring",
+      "serviceDescription": "Full Stack Observability: Network Monitoring"
+    },
+    {
+      "serviceName": "Full Stack Observability: OpenTelemetry",
+      "serviceDescription": "Full Stack Observability: OpenTelemetry"
+    },
+    {
+      "serviceName": "Full Stack Observability: SAP Solutions",
+      "serviceDescription": "Full Stack Observability: SAP Solutions"
+    },
+    {
+      "serviceName": "Full Stack Observability: Serverless Function Monitoring",
+      "serviceDescription": "Full Stack Observability: Serverless Function Monitoring"
+    },
+    {
+      "serviceName": "Full Stack Observability: Streaming Video & Ads",
+      "serviceDescription": "Full Stack Observability: Streaming Video & Ads"
+    },
+    {
+      "serviceName": "Full Stack Observability: Synthetic Monitoring",
+      "serviceDescription": "Full Stack Observability: Synthetic Monitoring"
+    },
+    {
+      "serviceName": "Full Stack Observability: Website Performance Monitoring",
+      "serviceDescription": "Full Stack Observability: Website Performance Monitoring"
+    },
+    {
+      "serviceName": "Security: Interactive Application Security Testing (IAST)",
+      "serviceDescription": "Security: Interactive Application Security Testing (IAST)"
+    },
+    {
+      "serviceName": "Security: Security RX (Remediation Explorer)",
+      "serviceDescription": "Security: Security RX (Remediation Explorer)"
+    },
+    {
+      "serviceName": "Service Architecture Intelligence: Catalogs",
+      "serviceDescription": "Service Architecture Intelligence: Catalogs"
+    },
+    {
+      "serviceName": "Service Architecture Intelligence: GitHub Integration",
+      "serviceDescription": "Service Architecture Intelligence: GitHub Integration"
+    },
+    {
+      "serviceName": "Service Architecture Intelligence: Maps",
+      "serviceDescription": "Service Architecture Intelligence: Maps"
+    },
+    {
+      "serviceName": "Service Architecture Intelligence: Scorecards",
+      "serviceDescription": "Service Architecture Intelligence: Scorecards"
+    },
+    {
+      "serviceName": "Service Architecture Intelligence: Teams",
+      "serviceDescription": "Service Architecture Intelligence: Teams"
+    },
+    {
+      "serviceName": "New Relic AI",
+      "serviceDescription": "New Relic AI"
+    }
+  ],
+  "ZD_frid_retro": "FR2704736009",
+  "id_matches_expected": false
+}

@@ -1,0 +1,104 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "GroveWare Technologies, Inc (MXG)",
+    "providerName": "GroveWare Technologies, Inc",
+    "serviceName": "MobiTask and eXFORMA for Government",
+    "serviceAcronym": "MXG",
+    "serviceDescription": "MobiTask and eXFORMA for Government is GroveWare Technologies' cloud platform for environmental, health, safety, and compliance field work. eXFORMA is the web application and API layer used to configure digital forms and workflows, run reports, and manage compliance cases, and MobiTask is the mobile application field staff use to collect data, carry out inspections, and complete tasks, including while offline. Agencies use the platform to digitize inspections, licensing, incident reporting, and regulatory compliance workflows, and to integrate the results with their existing systems through APIs. The government offering is hosted on Amazon Web Services in US regions only, in a tenant-isolated architecture.",
+    "certificationType": "20x",
+    "website": "https://www.groveware.com",
+    "logo": "https://static-assets.mycroft.io/production/org_logos/e6eeb2a0-d61d-4f31-8e0d-30007fa0d18e.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Operations Management",
+      "Governance, Risk, and Compliance (GRC)",
+      "Data Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Assessment Reports"
+      ],
+      "url": "https://trust.mycroft.io/groveware",
+      "repositoryDescription": "Trust Center containing all the necessary documentation for FedRAMP Certification submission package.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request FedRAMP access' button on the top right of the Trust Center."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.mycroft.io/groveware",
+      "repositoryDescription": "Secure configuration guidance for MobiTask and eXFORMA for Government, currently hosted within the GroveWare Trust Center.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request FedRAMP access' button on the top right of the Trust Center."
+    }
+  },
+  "overallSummaryOfAssessment": "GreenHat Assurance LLC (Kalispell, Montana; Firm License No. PAC-FIRM-LIC-58382) performed a SOC 2 Type II examination of the GroveWare platform, comprising the eXFORMA web application and the MobiTask mobile application, for the period May 1, 2026 to August 1, 2026, covering the Security, Availability, Confidentiality, and Privacy Trust Services Criteria. The examination resulted in an unqualified opinion with no exceptions noted. Amazon Web Services (AWS) was presented as a subservice organization under the carve-out method; GroveWare-operated on-premises infrastructure was included within the system boundary, and customer-administered on-premises deployments were excluded. MobiTask and eXFORMA for Government runs on the AWS-hosted portion of that boundary, in US regions only. Independent verification and validation of GroveWare's security controls is satisfied through GroveWare's annual SOC 2 Type II examination.",
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "GroveWare Security Team",
+      "contactEmail": "security@groveware.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "GroveWare Sales Team",
+      "contactEmail": "sales@groveware.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "MobiTask",
+      "serviceDescription": "Mobile application for iOS and Android that field staff use to collect data, carry out inspections, and complete tasks, including while offline, with submissions synchronized to eXFORMA."
+    },
+    {
+      "serviceName": "eXFORMA",
+      "serviceDescription": "Web application and APIs used to configure digital forms and workflows, run reports, manage compliance cases, and integrate with customers' existing systems. Customer-branded configurations such as TowerTracker, RapidReport, BuildSafe, and Radiation Watch are delivered through eXFORMA and MobiTask."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Amazon Web Services (AWS US East/West). Hosts the government offering in US regions only, including compute, relational databases (Amazon RDS), load balancing, web application firewall, and centralized logging, monitoring, and security event alerting (Amazon CloudWatch, used as GroveWare's SIEM)."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
+        "useCase": "Microsoft Entra ID (Azure Commercial Cloud). OAuth2 identity provider used to authenticate users and administrators accessing the platform."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2631054539",
+        "useCase": "Mycroft GRC Platform (Mycroft Technologies Inc). Compliance automation software used by GroveWare to support the design, implementation, operation, monitoring, and documentation of internal controls."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "GitHub",
+        "provider": "GitHub (Microsoft)",
+        "website": "https://github.com",
+        "useCase": "Source code hosting and version control, including pull request review and approval workflows."
+      },
+      {
+        "name": "Jira",
+        "provider": "Atlassian",
+        "website": "https://www.atlassian.com/software/jira",
+        "useCase": "Ticketing and issue tracking, including monitoring alerts, incident response, vulnerability remediation, and change requests."
+      },
+      {
+        "name": "1Password",
+        "provider": "1Password (AgileBits Inc.)",
+        "website": "https://1password.com",
+        "useCase": "Password and secrets management for GroveWare personnel, including credentials used to administer the platform."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2704735972",
+  "id_matches_expected": false
+}

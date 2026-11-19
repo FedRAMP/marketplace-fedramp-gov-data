@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "version": "0.1.4",
+    "lastUpdated": "2026-11-18T20:33:36Z",
+    "updateSource": "Defense Unicorns"
+  },
+  "serviceIdentification": {
+    "fedRampPackageId": "Defense Unicorns UDS-EA",
+    "ueiNumber": "VVNBQBAWMBG8",
+    "providerName": "Defense Unicorns",
+    "serviceName": "UDS Enterprise on Azure",
+    "serviceAcronym": "UDS-EA",
+    "serviceDescription": "UDS Enterprise on Azure is a Defense Unicorns operated application platform in Microsoft Azure Government. It combines UDS Enterprise, UDS Registry, and CAT with an Azure Government foundation to support application deployment, artifact distribution, security operations, and compliance evidence workflows. The Defense Unicorns operated environment is the subject of this FedRAMP 20x Class C assessment. Software vendors can reuse the versioned architecture and deployment baseline in their own Azure Government environments to support their own assessments; those separate deployments are outside this assessment.",
+    "certificationType": "20x",
+    "website": "https://defenseunicorns.com/platform/uds-enterprise/",
+    "logo": "https://events.defenseunicorns.com/hubfs/UDS_Enterprise_Logo_Dark.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Development Tools",
+      "Cybersecurity & Risk Management",
+      "Governance, Risk, and Compliance (GRC)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/defense-unicorns",
+      "repositoryDescription": "Working documentation covers offering scope and included services, Azure Government architecture and system boundaries, platform deployment and configuration, operations and recovery, and security and compliance evidence. Technical guidance and assessment materials are being prepared for the FedRAMP 20x Class C assessment. Released documents and access instructions will be provided through this Trust Center.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Click Request Access from Trust Center"
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "Defense Unicorns Sales",
+      "contactEmail": "sales@defenseunicorns.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Defense Unicorns Security",
+      "contactEmail": "fedramp@defenseunicorns.com"
+    },
+    {
+      "contactType": "Primary",
+      "contactName": "Paul Norris",
+      "contactEmail": "paul.norris@defenseunicorns.com"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN",
+    "assessorID": "138665"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "UDS",
+      "serviceDescription": "Unified Defense Stack (UDS) provides the Kubernetes platform capabilities used to deploy and operate applications in UDS Enterprise on Azure. It integrates identity and access management, networking, policy enforcement, observability, and runtime security to support consistent application operations.\n\nSecurity category: Moderate."
+    },
+    {
+      "serviceName": "UDS Compliance Assessment Tool",
+      "serviceDescription": "CAT evaluates application artifacts using automated security and compliance checks. It produces findings and supporting evidence that help teams assess application readiness and identify remediation needs before deployment.\n\nSecurity category: Moderate."
+    },
+    {
+      "serviceName": "UDS Registry",
+      "serviceDescription": "UDS Registry stores and distributes application packages and associated artifacts, including software bills of materials, security reports, and attestations. It supports controlled delivery and traceability of the software used in UDS Enterprise on Azure.\n\nSecurity category: Moderate."
+    }
+  ],
+  "ZD_frid_retro": "FR2704760660",
+  "id_matches_expected": false
+}

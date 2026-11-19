@@ -1,0 +1,66 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "Ping Identity",
+    "ueiNumber": "J9DGYVYCJ3Z8",
+    "providerName": "Ping Identity",
+    "serviceName": "Ping Government Identity Cloud",
+    "serviceAcronym": "PGIC",
+    "serviceDescription": "Ping Government Identity Cloud is Ping Identity Corporation's SaaS identity and access management offering serving government and nongovernment customers. The proposed FedRAMP scope covers authentication journeys, federation and single sign-on, identity lifecycle management, provisioning and synchronization, application and tenant administration, and audit and logging across Development, Staging, and Production environments. Ping is pursuing FedRAMP 20x Class C certification.",
+    "certificationType": "20x",
+    "website": "http://www.pingidentity.com/",
+    "logo": "https://www.pingidentity.com/content/dam/picr/nav/Logo-Ping-Brand-Horizontal-Color.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management"
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "FedRAMP Security Team",
+      "contactEmail": "fedramp_security@pingidentity.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Sales Team",
+      "contactEmail": "sales@pingidentity.com"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman",
+    "assessorID": "136571"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Authentication journeys",
+      "serviceDescription": "Sign-in, registration, account recovery, and configured authentication flows."
+    },
+    {
+      "serviceName": "Federation and single sign-on",
+      "serviceDescription": "Supported federation, single sign-on, and application authentication."
+    },
+    {
+      "serviceName": "Identity lifecycle management",
+      "serviceDescription": "Identity profiles, account lifecycle, roles, and self-service account management."
+    },
+    {
+      "serviceName": "Provisioning and synchronization",
+      "serviceDescription": "Identity provisioning and synchronization through approved connectors."
+    },
+    {
+      "serviceName": "Application and tenant administration",
+      "serviceDescription": "Application configuration, administrative interfaces, APIs, and service accounts."
+    },
+    {
+      "serviceName": "Audit and logging",
+      "serviceDescription": "Customer-accessible identity audit records and log retrieval."
+    }
+  ],
+  "ZD_frid_retro": "FR2704736027",
+  "id_matches_expected": false
+}

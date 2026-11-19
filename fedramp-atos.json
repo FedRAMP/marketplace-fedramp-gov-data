@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-18T05:06:04.779Z",
-    "total_entries": 6092,
+    "export_timestamp": "2026-11-19T05:02:53.319Z",
+    "total_entries": 6099,
     "description": "FedRAMP data ATOs export from GSA system"
   },
   "data": {
@@ -6106,7 +6106,7 @@
         "uuid": "a53652e2-d451-42bd-8ea9-2bac3ab25cfc",
         "product_id": "FR2122140784",
         "agency_id": "22-007-13",
-        "is_active": true,
+        "is_active": false,
         "is_reuse": false,
         "is_uplift": false,
         "ato_date": "2023-07-10T04:00:00.000Z",
@@ -9286,7 +9286,7 @@
         "uuid": "dd6b3180-95c3-42a8-89ae-78c444b2b2bf",
         "product_id": "FR2425742814",
         "agency_id": "22-021-06",
-        "is_active": true,
+        "is_active": false,
         "is_reuse": false,
         "is_uplift": false,
         "ato_date": "2025-06-13T04:00:00.000Z",
@@ -47672,7 +47672,7 @@
       },
       {
         "uuid": "361cd82d-e905-4b1d-b3e8-87ef9dc9fc3b",
-        "product_id": "FR2122140784",
+        "product_id": "FR2122140784A",
         "agency_id": "22-017",
         "is_active": true,
         "is_reuse": true,
@@ -55064,7 +55064,7 @@
       },
       {
         "uuid": "a3026edc-1450-420c-b89f-234e7719dc08",
-        "product_id": "FR2122140784",
+        "product_id": "FR2122140784A",
         "agency_id": "22-059",
         "is_active": true,
         "is_reuse": true,
@@ -62516,7 +62516,7 @@
       },
       {
         "uuid": "e4c8e5bd-f3e1-4d70-bf09-f855779c4472",
-        "product_id": "FR2122140784",
+        "product_id": "FR2122140784A",
         "agency_id": "22-023",
         "is_active": true,
         "is_reuse": true,
@@ -73108,6 +73108,90 @@
         "ato_date": "2026-07-02T04:00:00.000Z",
         "exp_date": "2029-07-02T04:00:00.000Z",
         "log_date": "2026-11-17T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "6d243bb4",
+        "product_id": "FR1828574469",
+        "agency_id": "22-007-13",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-11-13T05:00:00.000Z",
+        "exp_date": "2027-05-13T04:00:00.000Z",
+        "log_date": "2026-11-18T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "3936a893",
+        "product_id": "FR2324454026",
+        "agency_id": "22-007-13",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-11-13T05:00:00.000Z",
+        "exp_date": "2027-05-13T04:00:00.000Z",
+        "log_date": "2026-11-18T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "f5c1808c",
+        "product_id": "FR2434554673",
+        "agency_id": "22-012",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-11-17T05:00:00.000Z",
+        "exp_date": "2026-05-17T04:00:00.000Z",
+        "log_date": "2026-11-18T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "eca51d5f",
+        "product_id": "FR2122140784A",
+        "agency_id": "22-007-13",
+        "is_active": true,
+        "is_reuse": false,
+        "is_uplift": true,
+        "ato_date": "2026-05-12T04:00:00.000Z",
+        "exp_date": "2027-07-10T04:00:00.000Z",
+        "log_date": "2026-11-18T05:00:00.000Z",
+        "log_reason": "Uplift"
+      },
+      {
+        "uuid": "6a044eb3",
+        "product_id": "FR2425742814A",
+        "agency_id": "22-021-06",
+        "is_active": true,
+        "is_reuse": false,
+        "is_uplift": true,
+        "ato_date": "2026-08-14T04:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-18T05:00:00.000Z",
+        "log_reason": "Uplift"
+      },
+      {
+        "uuid": "639547d4",
+        "product_id": "FR2607452240",
+        "agency_id": "22-007-04",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-11-18T05:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-18T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "99f38c79",
+        "product_id": "FR2412062433",
+        "agency_id": "22-011-01",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-09-14T04:00:00.000Z",
+        "exp_date": "2029-09-14T04:00:00.000Z",
+        "log_date": "2026-11-18T05:00:00.000Z",
         "log_reason": "Reuse Authorization"
       }
     ]

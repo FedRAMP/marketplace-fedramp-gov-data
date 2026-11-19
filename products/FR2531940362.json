@@ -2,34 +2,98 @@
   "serviceIdentification": {
     "fedRampPackageId": "FR2531940362",
     "providerName": "Sand Solutions Limited Co.",
-    "serviceName": "Sand Solutions Government Cloud (SGC2)",
-    "serviceAcronym": "Sand Solutions Government Cloud (SGC2)",
-    "serviceDescription": "SGC2 delivers Infrastructure-as-a-Service (IaaS) and Platform-as-a-Service (PaaS) through dedicated Virtual Private Clouds (VPCs) provisioned for each agency customer. These VPCs allow agencies to host multiple application workloads side-by-side on Virtual Machines (VMs) while ensuring strict segmentation of both performance and data.\n\nEach VPC is designed with a comprehensive suite of managed services—including system, networking, security, application, database, business continuity planning, and continuous monitoring.  By embedding managed services, SGC2 reduces IT overhead, enhances application performance, and enables agencies and contractors to run regulated workloads without the complexity of managing the platform and application patching, or technical deployment tasks.  We can also provision bare-metal servers in our colocation racks for licensing and more intense workloads.\n\nSGC2 operates exclusively from U.S. colocation data centers that hold their own FedRAMP Authorization. In addition, SGC2 has been independently assessed by a 3PAO and designated FedRAMP Moderate Equivalent with a completed Security Assessment Report (SAR) and an active Continuous Monitoring (ConMon) program. This full assessment provides the assurance of a validated FedRAMP Moderate Equivalent platform, enabling customers to inherit controls and streamline their own DIBCAC compliance while allowing agencies to accelerate sponsorship and shorten the path to ATOs for hosted workloads.",
+    "serviceName": "Sand Solutions Government Cloud",
+    "serviceAcronym": "SGC2",
+    "serviceDescription": "Sand Solutions Government Cloud (SGC2) provides U.S.-based, managed cloud infrastructure and platform services for organizations with regulated workloads. The offering supports customer-specific hosted environments with infrastructure administration and optional managed services, subject to the documented SGC2 authorization boundary and customer service agreements. Available capabilities may include compute, networking, storage, operating system administration, database administration, monitoring, backup, and recovery. Customer responsibilities and the scope of managed services are established for each deployment.",
     "certificationType": "Rev5",
-    "website": "https://www.sandsolutionslimited.com/trust/fedramp/",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Sand%20Logo.png",
+    "website": "https://www.sandsolutionslimited.com",
+    "logo": "https://www.sandsolutionslimited.com/wp-content/uploads/2018/04/Sand-Solutions-Logo-updated.png",
     "ueiNumber": "EEMLJA8GSL75"
   },
   "serviceProperties": {
     "serviceType": [
-      "PaaS",
-      "IaaS"
+      "IaaS",
+      "PaaS"
     ],
-    "deploymentModel": "Government Community Cloud"
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Data Management",
+      "Network Management",
+      "Operations Management",
+      "Storage",
+      "System Administration"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/sandsolutions/sgc2",
+      "repositoryDescription": "The Sand Solutions Government Cloud (SGC2) Trust Center provides authorized parties with access to SGC2 authorization and continuous monitoring documentation, along with information on how Sand Solutions secures and operates SGC2. Sand Solutions operates SGC2, an IaaS/PaaS offering, as both the cloud service provider and the managed service provider.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Federal agencies, FedRAMP, and current or prospective customers request access using the Request Access button on the SGC2 Trust Center at https://trust.paramify.com/sandsolutions/sgc2. Sand Solutions reviews each request and grants access to approved requesters."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.paramify.com/sandsolutions/sgc2/compliance-programs/678abec0-f8b9-497f-ba5a-12b7a29b2d39",
+      "repositoryDescription": "SGC2 Secure Configuration Guide (SCG-CSO-RSC).",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Federal agencies, FedRAMP, and current or prospective customers request access using the Request Access button on the SGC2 Trust Center at https://trust.paramify.com/sandsolutions/sgc2. Sand Solutions reviews each request and grants access to approved requesters, typically within one business day."
+    },
+    "additionalRepositories": [],
+    "nextOngoingCertificationReportDate": "2027-09-01"
   },
   "contactInformation": [
     {
       "contactType": "Security",
-      "contactEmail": "fedramp@sgc2.com"
+      "contactName": "SGC2 FedRAMP Contact",
+      "contactEmail": "fedramp@sgc2.com",
+      "contactPhone": "800-730-5288"
     },
     {
       "contactType": "Sales",
-      "contactEmail": "fedramp@sgc2.com"
+      "contactName": "SGC2 Sales",
+      "contactEmail": "sales@sgc2.com",
+      "contactPhone": "800-730-5288"
     }
   ],
   "assessor": {
-    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "name": "A-LIGN",
     "assessorID": "138665"
+  },
+  "advisors": [],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1404304159",
+        "useCase": "DataBank colocation facilities hosting SGC2 infrastructure; physical and environmental (PE) controls are inherited from DataBank."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1918740338",
+        "useCase": "Sumo Logic log aggregation, retention, and security monitoring for SGC2 audit and event logs."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2218073444",
+        "useCase": "Lucid GovSuite for SGC2 architecture and data flow diagrams."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2116544598A",
+        "useCase": "Keeper password vault for Sand Solutions administrative credentials and secrets."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2428769635XL",
+        "useCase": "Paramify Cloud for FedRAMP documentation, control management, and the SGC2 Trust Center."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Microsoft 365 (Commercial)",
+        "provider": "Microsoft",
+        "useCase": "Sand Solutions corporate email, collaboration, and staff authentication.",
+        "website": "https://www.microsoft.com/microsoft-365"
+      }
+    ]
   },
   "ZD_frid_retro": "FR2531940362",
   "id_matches_expected": true

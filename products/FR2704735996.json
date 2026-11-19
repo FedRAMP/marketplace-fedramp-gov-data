@@ -1,0 +1,39 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "Danti AI, Inc. (DANTI)",
+    "providerName": "Danti AI, Inc.",
+    "serviceName": "Danti",
+    "serviceAcronym": "DANTI",
+    "serviceDescription": "Danti is an AI-powered search engine for Earth data. Users ask questions in plain language, as they would search the internet, and Danti finds and combines information from many sources, including satellite and aerial imagery, news, social media, shipping data, and the customer's own data. It returns linked imagery, reports, and analysis in seconds.\n\nDanti helps defense, intelligence, and civilian users find decision-making information about any place on Earth without needing a geospatial specialist.",
+    "certificationType": "20x",
+    "website": "https://www.danti.ai",
+    "logo": "https://raw.githubusercontent.com/danti-ai/fedramp/main/assets/danti-logo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Analytics",
+      "Data Management",
+      "Research"
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Martice Nicks",
+      "contactEmail": "security@danti.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Jesse Kallman",
+      "contactEmail": "sales@danti.ai"
+    }
+  ],
+  "ZD_frid_retro": "FR2704735996",
+  "id_matches_expected": false
+}

@@ -46,7 +46,7 @@
       "url": "https://fedramp20x.i.perplexity.ai",
       "repositoryDescription": "Perplexity's FedRAMP 20x trust center contains the certification package, continuous-monitoring results, and security-posture information.",
       "authenticationRequired": true,
-      "accessRequestInstructions": "Visit https://fedramp20x.i.perplexity.ai, sign in with a one-time PIN sent to your email address, and submit your name, agency, and purpose."
+      "accessRequestInstructions": "Visit https://fedramp20x.i.perplexity.ai and sign in with a one-time PIN sent to your email address. Enter the PIN on the sign-in screen; you do not need to send it, or any other code, to Perplexity. Then submit your name, agency, and purpose."
     },
     "additionalRepositories": [
       {
@@ -65,7 +65,7 @@
         "url": "https://fedramp20x.i.perplexity.ai",
         "repositoryDescription": "FedRAMP 20x continuous monitoring: the live KSI dashboard, human-readable assessment reports, and the machine-readable API for agency SIEM/GRC pipelines (docs/agency_access.md, docs/programmatic_access.md).",
         "authenticationRequired": true,
-        "accessRequestInstructions": "Access to this continuous monitoring dashboard and its API is granted to individual authorized agency representatives (authorizing officials, auditors, and compliance leads), not to entire domains. To request access, visit https://fedramp20x.i.perplexity.ai, sign in with a one-time PIN sent to your email address, and submit the access request with your name, agency, and purpose. Access is granted when the requester is an agency representative with an authorization or oversight need. There is no need to keep the request page open: once your request is approved, your address joins the standing allowlist and you sign in at any time with just the one-time PIN. Access is per-individual, so colleagues submit their own requests. Questions can go to fedramp@perplexity.ai. Perplexity notifies FedRAMP of any denied agency request within five business days."
+        "accessRequestInstructions": "Access to this continuous monitoring dashboard and its API is granted to individual authorized agency representatives (authorizing officials, auditors, and compliance leads), not to entire domains. To request access, visit https://fedramp20x.i.perplexity.ai and sign in with a one-time PIN sent to your email address. Enter the PIN on the sign-in screen; you do not need to send it, or any other code, to Perplexity. Then submit the access request with your name, agency, and purpose. Access is granted when the requester is an agency representative with an authorization or oversight need. There is no need to keep the request page open: once your request is approved, your address joins the standing allowlist and you sign in at any time with just the one-time PIN. Access is per-individual, so colleagues submit their own requests. Questions can go to fedramp@perplexity.ai. Perplexity notifies FedRAMP of any denied agency request within five business days."
       }
     ],
     "nextOngoingCertificationReportDate": "2027-02-01"
@@ -541,7 +541,7 @@
           "url": "https://fedramp20x.i.perplexity.ai",
           "repositoryDescription": "Perplexity's FedRAMP 20x trust center contains the certification package, continuous-monitoring results, and security-posture information.",
           "authenticationRequired": true,
-          "accessRequestInstructions": "Visit https://fedramp20x.i.perplexity.ai, sign in with a one-time PIN sent to your email address, and submit your name, agency, and purpose."
+          "accessRequestInstructions": "Visit https://fedramp20x.i.perplexity.ai and sign in with a one-time PIN sent to your email address. Enter the PIN on the sign-in screen; you do not need to send it, or any other code, to Perplexity. Then submit your name, agency, and purpose."
         },
         "additionalRepositories": [
           {
@@ -560,7 +560,7 @@
             "url": "https://fedramp20x.i.perplexity.ai",
             "repositoryDescription": "FedRAMP 20x continuous monitoring: the live KSI dashboard, human-readable assessment reports, and the machine-readable API for agency SIEM/GRC pipelines (docs/agency_access.md, docs/programmatic_access.md).",
             "authenticationRequired": true,
-            "accessRequestInstructions": "Access to this continuous monitoring dashboard and its API is granted to individual authorized agency representatives (authorizing officials, auditors, and compliance leads), not to entire domains. To request access, visit https://fedramp20x.i.perplexity.ai, sign in with a one-time PIN sent to your email address, and submit the access request with your name, agency, and purpose. Access is granted when the requester is an agency representative with an authorization or oversight need. There is no need to keep the request page open: once your request is approved, your address joins the standing allowlist and you sign in at any time with just the one-time PIN. Access is per-individual, so colleagues submit their own requests. Questions can go to fedramp@perplexity.ai. Perplexity notifies FedRAMP of any denied agency request within five business days."
+            "accessRequestInstructions": "Access to this continuous monitoring dashboard and its API is granted to individual authorized agency representatives (authorizing officials, auditors, and compliance leads), not to entire domains. To request access, visit https://fedramp20x.i.perplexity.ai and sign in with a one-time PIN sent to your email address. Enter the PIN on the sign-in screen; you do not need to send it, or any other code, to Perplexity. Then submit the access request with your name, agency, and purpose. Access is granted when the requester is an agency representative with an authorization or oversight need. There is no need to keep the request page open: once your request is approved, your address joins the standing allowlist and you sign in at any time with just the one-time PIN. Access is per-individual, so colleagues submit their own requests. Questions can go to fedramp@perplexity.ai. Perplexity notifies FedRAMP of any denied agency request within five business days."
           }
         ],
         "nextOngoingCertificationReportDate": "2027-02-01"
@@ -1014,7 +1014,7 @@
       "authorization_type": "FedRAMP 20x Moderate (Class C)",
       "csp": "Perplexity AI, Inc.",
       "fedramp_id": "FR2604643715",
-      "register_generated": "2026-11-18",
+      "register_generated": "2026-11-19",
       "thirdPartyInformationResources": {
         "certified": [
           {

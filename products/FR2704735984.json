@@ -1,0 +1,124 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "Certiv, Inc. (CERTIV)",
+    "ueiNumber": "C9YVFFHEW3H9",
+    "providerName": "Certiv, Inc.",
+    "serviceName": "Certiv AI Agent Assurance Platform",
+    "serviceAcronym": "CERTIV",
+    "serviceDescription": "Certiv watches what AI agents do on work devices. Scout on the device sends us what the agent did. we apply your rules. not FedRAMP certified yet.",
+    "certificationType": "20x",
+    "website": "https://certiv.ai/",
+    "logo": "https://certiv.ai/logo/logo_and_name_color-light.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Cybersecurity & Risk Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Assessment Reports",
+        "Policies"
+      ],
+      "url": "https://trust.certiv.ai",
+      "repositoryDescription": "Certiv Trust Center. security overview, subprocessors, compliance status. SOC 2 report and FedRAMP materials on request.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Select Request Access on https://trust.certiv.ai and use your agency email address, or email security@certiv.ai with your name, agency and role."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.certiv.ai/docs/organization/settings/",
+      "repositoryDescription": "admin docs - org settings, SSO, MFA, Scout rollout.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Sign in with your Certiv console account. Agencies evaluating Certiv can email security@certiv.ai for access."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "FedRAMP Information"
+        ],
+        "url": "https://certiv.ai/fedramp/",
+        "repositoryDescription": "this data in human-readable form, plus status and quarterly updates.",
+        "authenticationRequired": false
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-01-31"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Certiv Security",
+      "contactEmail": "security@certiv.ai"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Certiv Sales",
+      "contactEmail": "hello@certiv.ai"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Certiv Console",
+      "serviceDescription": "app.certiv.ai - policies, devices, sessions, findings, approvals. proposed Moderate."
+    },
+    {
+      "serviceName": "Policy decision API",
+      "serviceDescription": "api.certiv.ai. takes agent traffic from Scout, answers allow, block, rewrite or pause. proposed Moderate."
+    },
+    {
+      "serviceName": "Human approvals",
+      "serviceDescription": "holds a risky agent action till someone allows or denies it. proposed Moderate."
+    },
+    {
+      "serviceName": "Agent discovery and inventory",
+      "serviceDescription": "list of AI agents, MCP servers and local models seen on enrolled devices. proposed Moderate."
+    },
+    {
+      "serviceName": "Scout management",
+      "serviceDescription": "enrolls Scout devices, sends rules, settings, update and disable commands, takes in health data. proposed Moderate."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "AWS US East/West hosts the Certiv cloud service (EKS, Aurora PostgreSQL, S3, KMS, CloudFront, Bedrock, SES)."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Stytch",
+        "provider": "Stytch, Inc.",
+        "website": "https://stytch.com",
+        "useCase": "Customer sign-in, single sign-on and organization membership for the console."
+      },
+      {
+        "name": "Sentry",
+        "provider": "Functional Software, Inc.",
+        "website": "https://sentry.io",
+        "useCase": "Error monitoring for the API and console."
+      },
+      {
+        "name": "PostHog",
+        "provider": "PostHog, Inc.",
+        "website": "https://posthog.com",
+        "useCase": "Product usage analytics for the console."
+      },
+      {
+        "name": "Google Cloud DLP",
+        "provider": "Google LLC",
+        "website": "https://cloud.google.com/sensitive-data-protection",
+        "useCase": "Optional content scanning, used only when a customer turns on the DLP integration."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2704735984",
+  "id_matches_expected": false
+}

@@ -3,10 +3,10 @@
   "packageMetadata": {
     "cloudServiceOffering": "The Armory",
     "provider": "stackArmor",
-    "preparedDate": "2026-10-19",
-    "version": "2026.10.6",
-    "lastUpdated": "2026-10-19",
-    "sourceOfUpdate": "CDS monthly artifact refresh for the 2026-10 review cycle, ISSM-reviewed source documents, and configured public CPO endpoint maintenance.",
+    "preparedDate": "2026-11-18",
+    "version": "2026.11.1",
+    "lastUpdated": "2026-11-18",
+    "sourceOfUpdate": "CDS monthly artifact refresh for the 2026-11 review cycle, ISSM-reviewed source documents, and configured public CPO endpoint maintenance.",
     "accountableOfficial": {
       "name": "Johann Dettweiler",
       "title": "Information System Security Manager (ISSM)",
@@ -35,9 +35,9 @@
       "The 2026-06-24 schema requires assessor.id while defining assessorID as the named property; this package includes both id and assessorID with the same provider-supplied assessor ID.",
       "The provider-supplied logo value pointed to the product page; the package uses the Armory logo image URL identified from the product page metadata to satisfy the schema image URL pattern."
     ],
-    "artifactVersion": "2026.10.6",
-    "lastReviewedAt": "2026-10-19",
-    "cdsReviewMonth": "2026-10"
+    "artifactVersion": "2026.11.1",
+    "lastReviewedAt": "2026-11-18",
+    "cdsReviewMonth": "2026-11"
   },
   "serviceIdentification": {
     "fedRampPackageId": "FR2513256853",

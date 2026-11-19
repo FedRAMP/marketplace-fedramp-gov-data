@@ -3,7 +3,7 @@
     "providerName": "NEXGEN Asset Management",
     "serviceName": "NEXGEN Asset Management",
     "serviceAcronym": "NEXGEN AM",
-    "serviceDescription": "NEXGEN Asset Management (NEXGEN AM) is a cloud-hosted Enterprise Asset Management (EAM) and Computerized Maintenance Management System (CMMS) delivered as Software as a Service (SaaS). It provides real-time inventory tracking, asset lifecycle management, predictive maintenance workflows, analytics and reporting, and secure mobile field access for technicians through integrated web and mobile interfaces. Federal agencies use NEXGEN AM to manage government-owned physical assets, facilities, vehicles, equipment, and critical infrastructure. Key capabilities support shifting from reactive to predictive maintenance, minimizing downtime, optimizing resource allocation and capital planning, reducing costs, and enabling data-driven decisions.",
+    "serviceDescription": "NEXGEN Asset Management (NEXGEN AM) is a cloud-hosted Enterprise Asset Management (EAM) and Computerized Maintenance Management System (CMMS) delivered as Software as a Service (SaaS). It provides real-time inventory tracking, asset lifecycle management, predictive maintenance workflows, analytics and reporting, and secure mobile field access for technicians through integrated web and mobile interfaces. Federal agencies use NEXGEN AM to manage government-owned physical assets, facilities, vehicles, equipment, and critical infrastructure. Key capabilities support shifting from reactive to predictive maintenance, minimizing downtime, optimizing resource allocation and capital planning, reducing costs, and enabling data-driven decisions. FedRAMP authorization boundary is limited to Azure Government Cloud environments under package FR2631258127; Azure Commercial Cloud is outside the boundary.",
     "certificationType": "20x",
     "fedRampPackageId": "FR2631258127",
     "website": "https://www.nexgenam.com",
@@ -21,16 +21,25 @@
       "repositoryType": [
         "Trust Center"
       ],
-      "url": "https://www.nexgenam.com/fedrampcert/",
-      "repositoryDescription": "Public FedRAMP progress, security information, and certification package overview materials for NEXGEN Asset Management (NEXGEN AM).",
+      "url": "https://trust.nexgenam.com",
+      "repositoryDescription": "Public Trust Center (Vanta-hosted) providing FedRAMP progress, security information, certification package overview, Secure Configuration Guide, control/KSI status, and related materials for NEXGEN Asset Management (NEXGEN AM).",
       "authenticationRequired": false
-    }
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.nexgenam.com",
+      "repositoryDescription": "NEXGEN (SCG) Secure Configuration Guide DOC-1.0 — describes NEXGEN-operated secure defaults for NEXGEN AM in Azure Government. Current controlled document is available via the Trust Center at https://trust.nexgenam.com; contact security for the latest controlled copy.",
+      "authenticationRequired": false
+    },
+    "nextOngoingCertificationReportDate": "2027-02-15"
   },
   "contactInformation": [
     {
       "contactType": "Security",
       "contactName": "Gaja Naik",
-      "contactEmail": "gnaik@nexgenam.com",
+      "contactEmail": "fedramp@nexgenam.com",
       "contactPhone": "916-779-7302"
     },
     {
@@ -47,7 +56,7 @@
   "certifiedServices": [
     {
       "serviceName": "NEXGEN Asset Management",
-      "serviceDescription": "Core Enterprise Asset Management (EAM) and Computerized Maintenance Management System (CMMS) capabilities including real-time inventory tracking, asset lifecycle management, predictive maintenance workflows, analytics and reporting, and secure mobile field access. Included in the FedRAMP Minimum Assessment Scope.",
+      "serviceDescription": "Core Enterprise Asset Management (EAM) and Computerized Maintenance Management System (CMMS) capabilities including real-time inventory tracking, asset lifecycle management, predictive maintenance workflows, analytics and reporting, and secure mobile field access. Included in the FedRAMP Minimum Assessment Scope (Production and Sandbox environments fully in scope in Azure Government).",
       "dateAvailable": "2026-01-01"
     }
   ],
@@ -69,7 +78,57 @@
         "fedRampCertifiedThirdPartyInformationResource": "FR2023864279",
         "useCase": "DataDog for Government for monitoring and observability."
       }
+    ],
+    "nonCertified": [
+      {
+        "name": "Twilio Programmable Messaging",
+        "provider": "Twilio Inc.",
+        "website": "https://www.twilio.com",
+        "useCase": "Outbound-only SMS notifications. Outside the FedRAMP authorization boundary (MAS DOC-1.1 X2); provider-side delivery logs and recipient contact data stay with Twilio. Not FedRAMP authorized as used."
+      },
+      {
+        "name": "SendGrid",
+        "provider": "Twilio Inc.",
+        "website": "https://sendgrid.com",
+        "useCase": "Outbound-only email notifications. Outside the FedRAMP authorization boundary (MAS DOC-1.1 X2); provider-side delivery logs and recipient contact data stay with SendGrid. Not FedRAMP authorized as used."
+      },
+      {
+        "name": "Zoho Desk",
+        "provider": "Zoho Corporation",
+        "website": "https://www.zoho.com/desk/",
+        "useCase": "Corporate incident-support and ticketing system referenced in IR Standard DOC-1.2 s.3.1. Outside the FedRAMP authorization boundary (MAS DOC-1.1 X5); tickets do not contain federal customer data."
+      },
+      {
+        "name": "Vanta for Government",
+        "provider": "Vanta Inc.",
+        "website": "https://www.vanta.com",
+        "useCase": "Compliance automation and hosting of the public Trust Center (https://trust.nexgenam.com). FedRAMP package ID pending confirmation; listed as non-certified until confirmed."
+      }
     ]
+  },
+  "x-nexgen-schemaValidation": {
+    "schemaName": "FedRAMP Certification Package Overview (FRC-CSO-PKG)",
+    "schemaId": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+    "schemaVersion": "0.2.0",
+    "schemaDate": "2026-06-24",
+    "schemaSha256_fedramp.gov_copy": "3870303570bf608dc723cf338cbc3b2295ebd79475003c63699876ac0b89262d",
+    "localValidation": {
+      "validator": "python-jsonschema 4.26.0",
+      "validatorDialect": "JSON Schema draft 2020-12 (Draft202012Validator) with FormatChecker",
+      "validatedAt": "2026-11-16T20:56:52Z",
+      "result": "VALID",
+      "errorCount": 0,
+      "scope": "Validated with this x-nexgen-schemaValidation block present; schema permits x- extension fields."
+    },
+    "officialFedRAMPValidator": {
+      "url": "https://www.fedramp.gov/schemas/validator/?schema=fedramp-certification-package-overview-schema-2026-06-24.json",
+      "result": "VALID",
+      "validatedAt": "2026-11-16T20:59:00Z",
+      "errorCount": 0,
+      "resultText": "Valid - Your document conforms to the FedRAMP Certification Package Overview (FRC-CSO-PKG) schema.",
+      "informationalNotes": "1 additional top-level field (x-nexgen-schemaValidation) reported as informational; allowed and does not affect validity.",
+      "scope": "Run on this file (with nonCertified services added 2026-11-16) before this result was recorded; no other content changed."
+    }
   },
   "ZD_frid_retro": "FR2631258127",
   "id_matches_expected": true

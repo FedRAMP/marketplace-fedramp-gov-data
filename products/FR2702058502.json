@@ -30,22 +30,22 @@
       "url": "https://trust.ocient.com",
       "repositoryDescription": "Ocient's FedRAMP-compatible trust center (hosted on Conveyor). It holds the OcientAIQ FedRAMP Certification Package (Certification Package Overview, Security Decision Record, Ongoing Certification Reports), Ocient's information security policies, the SOC 2 Type II report and other assessment materials.",
       "authenticationRequired": true,
-      "accessRequestInstructions": "Visit https://trust.ocient.com and select **Request Access**. Sign in with your agency email address. Federal agency users are approved for FedRAMP Certification Data without manual review. AI agents and tools can access the same materials programmatically through the trust center's documented API and MCP connector. For help, contact trust@ocient.com."
+      "accessRequestInstructions": "Visit [trust.ocient.com](https://trust.ocient.com) and select **Request Access**. Sign in with your agency email address. Federal agency users are approved for FedRAMP Certification Data without manual review. AI agents and tools can access the same materials programmatically through the trust center's documented API and MCP connector. For help, contact <trust@ocient.com>."
     },
     "secureConfigurationGuidance": {
       "repositoryType": [
         "Secure Configuration Guidance"
       ],
       "url": "https://docs.ocient.com/ocient-security-guide",
-      "repositoryDescription": "The Ocient Security Guide: Ocient's public security baseline for hardening Ocient Systems. It covers SSO and MFA with OIDC identity providers, role-based access control, network security and firewall guidance with required ports and protocols, encryption at rest and in transit, operating system and application patching, key management, audit log management and SIEM forwarding, and privacy controls. For OcientCloud and Ocient Management Services, Ocient support personnel apply these settings according to the customer's requirements and service agreement.",
+      "repositoryDescription": "The Ocient Security Guide is Ocient's public security baseline for hardening Ocient Systems. It covers:\n\n- SSO and MFA with OIDC identity providers\n- Role-based access control\n- Network security and firewall guidance, with required ports and protocols\n- Encryption at rest and in transit\n- Operating system and application patching\n- Key management\n- Audit log management and SIEM forwarding\n- Privacy controls\n\nFor OcientCloud and Ocient Management Services, Ocient support personnel apply these settings according to the customer's requirements and service agreement.",
       "authenticationRequired": false
     },
-    "nextOngoingCertificationReportDate": "2027-02-28"
+    "nextOngoingCertificationReportDate": "2027-02-05"
   },
   "certifiedServices": [
     {
       "serviceName": "OcientAIQ Unified Data Platform",
-      "serviceDescription": "The petabyte-scale data foundation of OcientAIQ, delivered as a cloud and managed cloud service that Ocient operates. It gives AI agents, applications, and analytical workflows fast, governed access to enterprise data, unifying ingest, governance, query execution, and optimization.\n\n**Not included in this certification:** customer-operated on-premises, hybrid, sovereign, and air-gapped deployments; OcientAIQ Solutions Delivery (professional services)."
+      "serviceDescription": "The petabyte-scale data foundation of OcientAIQ, delivered as a cloud and managed cloud service that Ocient operates. It gives AI agents, applications, and analytical workflows fast, governed access to enterprise data, unifying ingest, governance, query execution, and optimization.\n\n**Not included in this certification:**\n\n- Customer-operated on-premises, hybrid, sovereign, and air-gapped deployments\n- OcientAIQ Solutions Delivery (professional services)"
     }
   ],
   "thirdPartyInformationResources": {
@@ -101,8 +101,8 @@
       "email": "trust@ocient.com",
       "phone": "773-300-5891"
     },
-    "version": "1.0.0",
-    "lastUpdated": "2026-10-16T00:00:00Z",
+    "version": "1.0.1",
+    "lastUpdated": "2026-11-18T00:00:00Z",
     "updateSource": "Ocient Information Security Team"
   },
   "contactInformation": [
