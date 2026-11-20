@@ -1,0 +1,589 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "lastUpdate": {
+    "version": "1.4",
+    "lastUpdateDate": "2026-11-18",
+    "updateSource": "BuildOps Security team. FedRAMP 20x Class A Certification Package Overview, prepared from the BuildOps SOC 2 Type II report (Security criteria; period 2026-03-31 to 2026-06-30; Cyber Crest CPA Services, LLC; report dated 2026-08-31), the BuildOps Trust Center subprocessor list, BuildOps' approved policy set, and answers from BuildOps DevOps (2026-11-18). The system boundary matches the SOC 2 Type II system boundary. Version 1.4 (2026-11-18): public FedRAMP information and this Certification Package Overview hosted in BuildOps' public GitHub repository (https://github.com/BuildOps-Internal/fedramp-marketplace); AWS US East/West listed as a FedRAMP Certified third-party information resource (AGENCYAMAZONEW). Version 1.3 (2026-11-18): next Ongoing Certification Report 2027-03-12 for a target submission of 2026-12-15. Version 1.2 (2026-11-18): FedRAMP contact changed to the FedRAMP Security Inbox (fedramp@buildops.com); 20 services named as on the BuildOps status page; 46 information resources (adds Amazon Cognito, Apryse and CKEditor); AI features opt-in only for federal agency tenants; all customer data stored in the United States; next SOC 2 Type II examination period and signed engagement letter; bridge letter signed by the Director of IT and Information Security; Analytics business category added; public FedRAMP section in the Trust Center; FedRAMP Marketplace listing request filed 2026-11-18 (FedRAMP ticket #70511). Companion document: BuildOps 20x Class A Security Decision Record, version 1.40."
+  },
+  "serviceIdentification": {
+    "fedRampPackageId": "BuildOps, Inc. - BuildOps",
+    "ueiNumber": "N9JQYHNTTDA5",
+    "providerName": "BuildOps, Inc.",
+    "serviceName": "BuildOps Management Platform",
+    "serviceAcronym": "BuildOps",
+    "serviceDescription": "BuildOps is a multi-tenant, cloud-based software platform for commercial contractors and subcontractors in the mechanical, electrical, plumbing (MEP), and fire and life safety (FLS) industries. It provides one system for managing service and project work end to end: customer relationship management, quoting, dispatching and scheduling, field service and time tracking through web and mobile applications, service agreements, job costing, invoicing, payments, fleet management, and reporting.\n\nThe platform is hosted on Amazon Web Services (AWS) in the US East (N. Virginia, us-east-1) region across multiple Availability Zones, with US East (Ohio, us-east-2) held as a cold-standby recovery region. All customer data is stored in the United States. AI features are off by default for federal agency tenants and are enabled only if the agency opts in. BuildOps operates the platform under an information security program independently examined in a SOC 2 Type II report against the AICPA Trust Services Criteria for Security.",
+    "certificationType": "20x",
+    "certificationClass": "Class A",
+    "website": "https://buildops.com/",
+    "logo": "https://cdn.prod.website-files.com/69ca5a8696b428c0fbc088cf/69ea531f364dbd06ba5554b1_buildops_logo.webp"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Construction",
+      "Operations Management",
+      "Customer Relations Management (CRM)",
+      "Fleet Management",
+      "Finance",
+      "Analytics"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.buildops.com",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Public FedRAMP information (service overview, certified services, contacts, next Ongoing Certification Report date and this Certification Package Overview in JSON and human-readable form) is open to everyone without login in BuildOps' public GitHub repository (https://github.com/BuildOps-Internal/fedramp-marketplace); the JSON is at https://raw.githubusercontent.com/BuildOps-Internal/fedramp-marketplace/main/buildops-frc-cso-pkg.json. For non-public resources (SOC 2 Type II report and bridge letter, penetration test summary, security policies, the Security Decision Record and Ongoing Certification Reports), select the resource and submit the access request form with your agency email. Requests from .gov, .mil and .fed.us addresses are approved automatically with no manual review and no NDA, and grant access to all Trust Center resources for 3 months; when access lapses, request again and it is approved instantly by the same rule. Programmatic access is available through the Vanta Trust Center API (https://developer.vanta.com/). BuildOps notifies FedRAMP within 5 business days of denying any agency access request (CDS-UTC-AAD). Questions: fedramp@buildops.com.",
+      "repositoryDescription": "BuildOps Trust Center (hosted on Vanta), BuildOps' FedRAMP-compatible trust center. Primary location for FedRAMP Certification Data, the SOC 2 Type II report and bridge letter, remediation evidence for the SOC 2 exceptions, penetration test summary, security policies, subprocessor list, Ongoing Certification Reports, and incident reports."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "FedRAMP Public Information"
+        ],
+        "url": "https://github.com/BuildOps-Internal/fedramp-marketplace",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Public",
+        "repositoryDescription": "BuildOps' public GitHub repository for FedRAMP information, readable without login: README with the service overview, certified services, contacts and next Ongoing Certification Report date; this Certification Package Overview in human-readable form (PDF) and as JSON at a stable direct link (https://raw.githubusercontent.com/BuildOps-Internal/fedramp-marketplace/main/buildops-frc-cso-pkg.json)."
+      },
+      {
+        "repositoryType": [
+          "Certification Data (human-readable and machine-readable)",
+          "Assessment Reports",
+          "Policies and Procedures"
+        ],
+        "url": "https://trust.buildops.com/resources",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Request access through the Trust Center access request form (see Trust Center instructions above).",
+        "repositoryDescription": "SOC 2 Type II report (period 2026-03-31 to 2026-06-30) and management bridge letter (2026-07-01 to submission), remediation evidence for the four SOC 2 exceptions, penetration test summary, BuildOps security policies, the Security Decision Record, and this Certification Package Overview in human-readable and JSON formats."
+      },
+      {
+        "repositoryType": [
+          "Subprocessor List"
+        ],
+        "url": "https://trust.buildops.com/subprocessors",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Public",
+        "repositoryDescription": "Current list of BuildOps subprocessors that process customer data, with purpose and location."
+      },
+      {
+        "repositoryType": [
+          "Customer Documentation"
+        ],
+        "url": "https://help.buildops.com/en/",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Public",
+        "repositoryDescription": "BuildOps Help Center: product documentation, including user, role, and permission administration and release notes."
+      },
+      {
+        "repositoryType": [
+          "API Documentation"
+        ],
+        "url": "https://developer.buildops.com/",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Public",
+        "repositoryDescription": "BuildOps Dev Center: public REST API reference and OAuth authentication guidance for customer integrations."
+      },
+      {
+        "repositoryType": [
+          "Privacy Policy"
+        ],
+        "url": "https://buildops.com/privacy-policy/",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Public",
+        "repositoryDescription": "BuildOps privacy policy."
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-03-12"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Primary",
+      "contactName": "Bob Motamede",
+      "contactTitle": "Director of IT and Information Security",
+      "contactEmail": "bob.motamede@buildops.com",
+      "contactPhone": "213-559-1988"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "BuildOps FedRAMP Security Inbox",
+      "contactEmail": "fedramp@buildops.com",
+      "contactPhone": "213-559-1988"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "BuildOps Sales",
+      "contactEmail": "federal@buildops.com",
+      "contactPhone": "213-559-1988"
+    }
+  ],
+  "assessment": {
+    "assessmentAuditor": "Cyber Crest CPA Services, LLC (SOC 2 Type II service auditor under the approved alternative security framework, FRC-CLA-ASF). No FedRAMP Recognized assessor engaged; the optional independent verification and validation (FRC-CLA-IVV) was not performed, so the assessor object is omitted.",
+    "assessmentFramework": "SOC 2 Type II (AICPA Trust Services Criteria: Security)",
+    "assessmentPeriod": "2026-03-31 to 2026-06-30",
+    "assessmentDate": "2026-08-31",
+    "assessmentResult": "Unqualified opinion: controls were suitably designed and operated effectively throughout the period. 4 exceptions noted, each with a documented management response and remediation: (1) security awareness training not completed within 30 days of hire for 5 of 15 sampled new hires and 3 of 5 new contractors - now enforced by automatic account disablement at day 30; (2) one of 7 critical vendors reviewed without PCI DSS documentation - Attestation of Compliance obtained and vendor template updated; (3) written password policy differed from enforced AWS and Okta settings - policy revised to NIST SP 800-63B and settings reconciled; (4) GuardDuty Runtime Monitoring not enabled for ECS on AWS Fargate - runtime monitoring now provided by the Datadog agent.",
+    "assessmentSummary": "No significant security incidents, data breaches, or material service disruptions affecting user entities occurred during the period (SOC 2 Type II, Section 3.8). A management bridge letter signed by BuildOps' Director of IT and Information Security covers 2026-07-01 to the submission date. Evidence of management's remediation for each of the four exceptions is available to agencies through the Trust Center or on request.",
+    "assessmentReport": "Complete SOC 2 Type II report and bridge letter are on the BuildOps Trust Center (https://trust.buildops.com/resources), available on request.",
+    "nextAssessmentSchedule": "Next SOC 2 Type II examination (Security criteria) by CyberCrest Controls covers 2026-08-31 to 2027-08-30, under a signed engagement letter; the report is expected between late October and early November 2027. The management bridge letter covers the time from the end of the current report (2026-06-30) until that report is issued. SOC 2 Type II examinations are performed annually."
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "CRM",
+      "serviceDescription": "Web Application: customer, property and contact records, and the history of work for each customer and site.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Asset Management",
+      "serviceDescription": "Web Application: records of customer equipment and assets at each property, with service history.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Dispatch Board",
+      "serviceDescription": "Web Application: dispatching and scheduling of technicians and crews to jobs, visits and service calls.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Service and Maintenance",
+      "serviceDescription": "Web Application: service jobs and recurring maintenance work from request to completion.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Project Management",
+      "serviceDescription": "Web Application: construction and installation projects, including budgets, schedules, change orders and progress billing.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Reporting and Dashboards",
+      "serviceDescription": "Web Application: operational and financial reports and dashboards on the customer's own data.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Inventory & Purchasing",
+      "serviceDescription": "Web Application: parts and materials inventory, purchase orders and vendor bills.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Labor & Time-tracking",
+      "serviceDescription": "Web Application: capture and approval of technician time against jobs for payroll and job costing.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Service Agreements",
+      "serviceDescription": "Web Application: recurring maintenance contracts and the work they generate.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "CRM+",
+      "serviceDescription": "Add-On: sales tools on top of CRM, including quoting and proposals with delivery and approval tracking.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Fleet+",
+      "serviceDescription": "Add-On: vehicle and fleet tracking for field teams.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Pipeline+",
+      "serviceDescription": "Add-On: sales opportunity and pipeline management for service and project work.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Payments+",
+      "serviceDescription": "Add-On: invoicing and card and bank payment collection, processed by BuildOps' payment processor. BuildOps does not store card numbers, card security codes or full bank account numbers.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Mobile Application",
+      "serviceDescription": "iOS and Android client used by field technicians. The installed app is a client of the in-scope cloud service; all data is processed and stored in the BuildOps cloud environment.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Sage Intacct",
+      "serviceDescription": "Integration: syncs accounting data between BuildOps and the customer's own Sage Intacct system, for customers who enable it.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "QuickBooks",
+      "serviceDescription": "Integration: syncs accounting data between BuildOps and the customer's own QuickBooks system, for customers who enable it.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Spectrum & Vista",
+      "serviceDescription": "Integration: syncs accounting data between BuildOps and the customer's own Viewpoint Spectrum or Vista system, for customers who enable it.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "NetSuite",
+      "serviceDescription": "Integration: syncs accounting data between BuildOps and the customer's own NetSuite system, for customers who enable it.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Sage 300",
+      "serviceDescription": "Integration: syncs accounting data between BuildOps and the customer's own Sage 300 system, for customers who enable it.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    },
+    {
+      "serviceName": "Platform Integrations",
+      "serviceDescription": "Integration: the BuildOps public API and other connections the customer chooses to enable between BuildOps and its own systems.",
+      "securityCategorization": "Low",
+      "inScope": "Yes"
+    }
+  ],
+  "informationResources": [
+    {
+      "name": "AWS (Commercial) - us-east-1, us-east-2 standby",
+      "resourceType": "Infrastructure",
+      "resourceDescription": "Cloud provider hosting the production environment in isolated AWS accounts and VPCs: Amazon ECS on AWS Fargate (primary compute), Amazon EKS, Amazon EC2 and EBS (supporting workloads), AWS Lambda, Elastic Load Balancing, and AWS WAF",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Amazon RDS (Aurora MySQL)",
+      "resourceType": "Database",
+      "resourceDescription": "Primary application datastore; encrypted at rest with AWS KMS; daily backups with point-in-time recovery",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Amazon S3",
+      "resourceType": "Storage",
+      "resourceDescription": "File uploads, attachments, and encrypted backups",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Amazon MSK, SQS, and SNS",
+      "resourceType": "Messaging",
+      "resourceDescription": "Managed Kafka, queuing, and notifications for asynchronous workloads",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Amazon ElastiCache",
+      "resourceType": "Caching",
+      "resourceDescription": "Low-latency querying and search caching",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Amazon SES and Amazon Textract",
+      "resourceType": "Infrastructure",
+      "resourceDescription": "Transactional email delivery and document text extraction",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "AWS KMS and AWS Systems Manager Parameter Store",
+      "resourceType": "Key and Secrets Management",
+      "resourceDescription": "Encryption keys for data at rest (including backups) and encrypted storage of production secrets",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "AWS CloudTrail, CloudWatch, GuardDuty, and Inspector",
+      "resourceType": "Logging and Security Monitoring",
+      "resourceDescription": "Audit and change logging, uptime monitoring and alerting, intrusion detection, and container image vulnerability scanning",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "AWS CodeBuild and CodePipeline",
+      "resourceType": "CI/CD",
+      "resourceDescription": "Builds container images and releases them to production compute",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "GitHub (including GitHub Actions and Advanced Security)",
+      "resourceType": "Source Control / CI",
+      "resourceDescription": "Source code, mandatory pull request review with branch protection, CI tests, code and secret scanning, and dependency vulnerability alerts",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Snowflake",
+      "resourceType": "Data Warehouse",
+      "resourceDescription": "Holds production customer data replicated from the application databases by change data capture for reporting; access through Okta SSO restricted to the BuildOps production network",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Sigma Computing",
+      "resourceType": "Reporting",
+      "resourceDescription": "Reporting dashboards over Snowflake embedded in the BuildOps web application",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Payabli",
+      "resourceType": "Payment Processing",
+      "resourceDescription": "Authorization, settlement, and tokenization of card and bank payments initiated through Payments+",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Auth0 (Okta, Inc.)",
+      "resourceType": "Identity Provider",
+      "resourceDescription": "Customer user sign-in for the web and mobile applications, multi-factor authentication including passkeys (required for federal agency tenants), enterprise SSO federation, and token issuance",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Amazon Cognito",
+      "resourceType": "Identity Provider",
+      "resourceDescription": "Sign-in for the BuildOps customer portal; holds portal user accounts. The customer portal is not enabled for federal agency tenants until its sign-in is phishing-resistant",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Algolia",
+      "resourceType": "Search",
+      "resourceDescription": "In-app search indexes of customer records",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "OpenAI",
+      "resourceType": "AI Service",
+      "resourceDescription": "AI features: summaries and document and data extraction. Off by default for federal agency tenants (opt-in only)",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Anthropic",
+      "resourceType": "AI Service",
+      "resourceDescription": "AI features: assistant, summaries, and extraction. Off by default for federal agency tenants (opt-in only)",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Cloudinary",
+      "resourceType": "Storage",
+      "resourceDescription": "Image and attachment storage, resizing, and delivery",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Joyfill",
+      "resourceType": "Product Feature",
+      "resourceDescription": "Embedded forms in the web and mobile applications",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "PandaDoc",
+      "resourceType": "Product Feature",
+      "resourceDescription": "Proposal and quote documents with e-signature",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Apryse",
+      "resourceType": "Product Feature",
+      "resourceDescription": "PDF and drawing library that runs inside BuildOps' own environment; no customer data is sent to Apryse",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "CKEditor",
+      "resourceType": "Product Feature",
+      "resourceDescription": "Rich-text editor and PDF converter, self-hosted in BuildOps' AWS production environment",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Google Maps Platform and Firebase Cloud Messaging",
+      "resourceType": "Product Feature",
+      "resourceDescription": "Address lookup, mapping, route optimization, and Android push notifications",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Pusher",
+      "resourceType": "Product Feature",
+      "resourceDescription": "Real-time updates delivered to the web application",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Stream",
+      "resourceType": "Product Feature",
+      "resourceDescription": "In-app activity feeds and notifications",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "LaunchDarkly",
+      "resourceType": "Product Feature",
+      "resourceDescription": "Feature flag management; receives user and company identifiers",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Avalara",
+      "resourceType": "Product Feature",
+      "resourceDescription": "Sales tax calculation on invoices, quotes, and purchase orders (customers who enable the integration)",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Workato",
+      "resourceType": "Integration",
+      "resourceDescription": "Accounting system integrations (QuickBooks Online, Sage Intacct, NetSuite) for customers who enable them",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "hh2",
+      "resourceType": "Integration",
+      "resourceDescription": "Accounting sync for customers on Sage and Vista",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Flatfile",
+      "resourceType": "Data Import",
+      "resourceDescription": "Spreadsheet data import during customer onboarding",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Datadog",
+      "resourceType": "Logging and Monitoring",
+      "resourceDescription": "Application and infrastructure telemetry, logs, browser monitoring, and container runtime monitoring",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "LogRocket",
+      "resourceType": "Monitoring",
+      "resourceDescription": "Mobile application session capture and crash reporting",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "No"
+    },
+    {
+      "name": "Sentry",
+      "resourceType": "Monitoring",
+      "resourceDescription": "Error monitoring for the Forms and QuickBooks Desktop connector services",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "No"
+    },
+    {
+      "name": "Amplitude",
+      "resourceType": "Analytics",
+      "resourceDescription": "Product usage analytics and in-app guides",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "No"
+    },
+    {
+      "name": "Appcues",
+      "resourceType": "Customer Support",
+      "resourceDescription": "In-app onboarding guides and announcements",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "No"
+    },
+    {
+      "name": "Intercom",
+      "resourceType": "Customer Support",
+      "resourceDescription": "In-app support chat, help center, and support tickets",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "No"
+    },
+    {
+      "name": "jam.dev",
+      "resourceType": "Customer Support",
+      "resourceDescription": "Customer-initiated bug recordings sent to support",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "No"
+    },
+    {
+      "name": "Decimal AI",
+      "resourceType": "Customer Support",
+      "resourceDescription": "AI review of customer support tickets and escalations",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "No"
+    },
+    {
+      "name": "Atlassian (Jira Service Management)",
+      "resourceType": "Customer Support / Operations",
+      "resourceDescription": "Support ticketing and routing of production alerts to operations personnel",
+      "resourceFederalData": "Yes",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Okta",
+      "resourceType": "Identity Provider",
+      "resourceDescription": "Workforce identity, SSO, and MFA for all administrative and production access",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Iru (endpoint management and EDR) and CrowdStrike Falcon Secure Access",
+      "resourceType": "Endpoint Protection",
+      "resourceDescription": "Device management, disk encryption, anti-malware, and browser security on workforce endpoints",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "incident.io",
+      "resourceType": "Incident Management",
+      "resourceDescription": "Incident declaration, on-call escalation, and response coordination",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "1Password",
+      "resourceType": "Secrets Management",
+      "resourceDescription": "Workforce credential vault",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Google Workspace",
+      "resourceType": "Corporate Service",
+      "resourceDescription": "Corporate email and documents",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "Yes"
+    },
+    {
+      "name": "Vanta",
+      "resourceType": "Governance, Risk, and Compliance",
+      "resourceDescription": "Continuous control monitoring, risk register, vendor reviews, policy management, and Trust Center hosting",
+      "resourceFederalData": "No",
+      "resourceCIAImpact": "No"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "AWS US East/West (FedRAMP Certified). Primary cloud infrastructure hosting the BuildOps platform in US East (N. Virginia, us-east-1), with US East (Ohio, us-east-2) as the standby recovery region. All other third-party information resources are listed in informationResources."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2704861270",
+  "id_matches_expected": false
+}

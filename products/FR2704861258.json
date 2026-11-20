@@ -1,0 +1,99 @@
+{
+  "serviceIdentification": {
+    "providerName": "Trivedi Advanced Technologies LLC",
+    "serviceName": "Plumsense for Government",
+    "serviceAcronym": "PSG",
+    "serviceDescription": "Plumsense for Government is a software-as-a-service environmental monitoring and digital compliance platform hosted entirely in AWS GovCloud (US), with us-gov-west-1 as the primary region and a pilot-light disaster-recovery environment in us-gov-east-1. It provides continuous, real-time monitoring of temperature-sensitive and other critical environments, including medical and laboratory storage of vaccines, medications, blood products and laboratory samples, and food-safety operations, with intelligent alerts and centralized, audit-ready compliance reporting. It collects telemetry from connected sensors and gateways, including supported legacy monitoring sensors through compatible gateways, over MQTT (AWS IoT Core with X.509 device certificates) and LoRaWAN, and presents it through a web portal, mobile app and REST APIs for monitoring, digital checklists and reporting. It also delivers over-the-air firmware updates to Plumsense devices. Plumsense hardware is engineered and manufactured in the United States by Trivedi Advanced Technologies LLC.",
+    "certificationType": "20x",
+    "fedRampPackageId": "Trivedi Advanced Technologies LLC - PSG",
+    "ueiNumber": "J2MUFZE2VKY4",
+    "website": "https://www.plumsense.com",
+    "logo": "https://trust.plumsense.com/logo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government-Only Cloud",
+    "businessCategory": [
+      "Operations Management",
+      "Governance, Risk, and Compliance (GRC)",
+      "Analytics"
+    ],
+    "nextOngoingCertificationReportDate": "2027-04-15",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.plumsense.com/#certification-data",
+      "repositoryDescription": "Certification Data (security decision record, ongoing certification reports, independent assessment reports and supporting evidence) is shared through an access-controlled Microsoft SharePoint repository operated by Trivedi Advanced Technologies LLC. Access is limited to FedRAMP and authorized federal agency personnel, is granted per named individual, and is logged.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Email security@plumsense.com from your government email address with your name, agency, role and the purpose of the request. The Plumsense security team verifies the request and grants that email address read access to the repository."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.plumsense.com/secure-configuration.html",
+      "repositoryDescription": "Secure configuration guidance for customer administrators of Plumsense for Government.",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Plumsense Security Team",
+      "contactEmail": "security@plumsense.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Plumsense Sales",
+      "contactEmail": "sales@plumsense.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Plumsense Monitoring Portal and APIs",
+      "serviceDescription": "Customer web portal, mobile app back end and REST APIs (Amazon API Gateway, AWS Lambda and Amazon EKS in us-gov-west-1) for monitoring, digital checklists, alerts and reports."
+    },
+    {
+      "serviceName": "Plumsense Device Connectivity",
+      "serviceDescription": "Device telemetry ingestion over MQTT through AWS IoT Core with X.509 certificate authentication, and over LoRaWAN through a network server on Amazon EKS."
+    },
+    {
+      "serviceName": "Plumsense Firmware Updates",
+      "serviceDescription": "Over-the-air firmware update service for Plumsense devices on Amazon EKS, reached by devices over TLS."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "AWS GovCloud (US), FedRAMP High: hosting for all in-boundary compute, storage, databases, IoT, workforce access (AWS IAM Identity Center) and security services in us-gov-west-1 and us-gov-east-1."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1209051525",
+        "useCase": "Microsoft Azure Commercial Cloud (includes Microsoft Entra ID), FedRAMP High: workforce identity provider for AWS IAM Identity Center via SAML and SCIM. Conditional Access requires phishing-resistant MFA for all GovCloud access."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Cloudflare Zero Trust (WARP)",
+        "provider": "Cloudflare",
+        "useCase": "Network access for administrators to internal administrative endpoints. The commercial Cloudflare service is used; Cloudflare's FedRAMP-authorized offering (Cloudflare for Government) is not."
+      },
+      {
+        "name": "GitHub (Team plan)",
+        "provider": "GitHub",
+        "useCase": "Source control and pull-request change management for infrastructure as code. GitHub's FedRAMP authorization covers GitHub Enterprise Cloud, not the Team plan in use."
+      },
+      {
+        "name": "Amazon Route 53 (commercial partition)",
+        "provider": "Amazon Web Services",
+        "useCase": "Public DNS for the plumsense.com domain, including the custom domains of in-boundary GovCloud endpoints. Hosted in a commercial AWS account outside the GovCloud boundary; DNS records contain no federal data."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2704861258",
+  "id_matches_expected": false
+}

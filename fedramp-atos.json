@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-19T05:02:53.319Z",
-    "total_entries": 6099,
+    "export_timestamp": "2026-11-20T05:06:29.750Z",
+    "total_entries": 6103,
     "description": "FedRAMP data ATOs export from GSA system"
   },
   "data": {
@@ -73192,6 +73192,54 @@
         "ato_date": "2026-09-14T04:00:00.000Z",
         "exp_date": "2029-09-14T04:00:00.000Z",
         "log_date": "2026-11-18T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "98af822b",
+        "product_id": "FR2022963780",
+        "agency_id": "22-034",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-09-25T04:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-19T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "516e8e72",
+        "product_id": "FR2421252644",
+        "agency_id": "22-011-01",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-09-23T04:00:00.000Z",
+        "exp_date": "2029-09-23T04:00:00.000Z",
+        "log_date": "2026-11-19T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "bfcf697c",
+        "product_id": "FR2607452240",
+        "agency_id": "22-031-01",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-10-05T04:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-19T05:00:00.000Z",
+        "log_reason": "Reuse Authorization"
+      },
+      {
+        "uuid": "b06d8494",
+        "product_id": "FR2226322745",
+        "agency_id": "22-032",
+        "is_active": true,
+        "is_reuse": true,
+        "is_uplift": false,
+        "ato_date": "2026-11-19T05:00:00.000Z",
+        "exp_date": "",
+        "log_date": "2026-11-19T05:00:00.000Z",
         "log_reason": "Reuse Authorization"
       }
     ]

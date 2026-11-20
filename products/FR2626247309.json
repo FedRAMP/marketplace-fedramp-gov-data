@@ -1,40 +1,78 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2626247309",
     "providerName": "Groupize, Inc.",
     "serviceName": "Groupize",
-    "serviceAcronym": "Groupize",
-    "serviceDescription": "Groupize Group Travel takes the complexity out of travel management: travel for meetings – from air and hotel to real-time reporting, Groupize handles booking, spend, and traveler experience in one place.",
+    "serviceAcronym": "GPZ",
+    "serviceDescription": "Groupize provides a unified platform to manage meetings, events, and group travel logistics across government agencies, contractors, and the travel management companies that support them. Groupize integrates with SAP Concur and delivers group travel authorization workflows aligned to agency policy. Additionally, Groupize offers meeting sourcing and room block management that bring rate visibility and per diem controls, and centralized dashboards that give real-time oversight of travelers, itineraries, and spend. Groupize supports everything from routine group travel to large-scale mobilizations—meetings, surge travel, field operations, and emergency travel—across distributed and cross-border programs.",
     "certificationType": "Rev5",
+    "fedRampPackageId": "FR2626247309",
     "website": "https://groupize.ai/",
-    "logo": "https://www.fedramp.gov/placeholder-128x128px.svg",
+    "logo": "https://groupize.ai/wp-content/uploads/2026/11/Groupize_Logo_Black.png",
     "ueiNumber": "DAU9DU4P1FA5"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Government Community Cloud",
+    "deploymentModel": "Government-Only Cloud",
     "businessCategory": [
-      "Finance",
-      "Governance, Risk, and Compliance (GRC)",
-      "Travel Management"
-    ]
+      "Travel Management",
+      "Operations Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://groupize.ai/fedramp-listing-details/",
+      "repositoryDescription": "Groupize security and compliance information, including FedRAMP status and certifications.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://groupize.zendesk.com/",
+      "repositoryDescription": "Guidance for agency administrators on securely configuring Groupize.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Available to customers in the Groupize help center. Agencies can request access by emailing fedramp@groupize.com."
+    },
+    "nextOngoingCertificationReportDate": "2026-12-31"
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Josh Schramm",
       "contactEmail": "fedramp@groupize.com"
     },
     {
       "contactType": "Sales",
-      "contactEmail": "info@groupize.com"
+      "contactName": "Charles de Gaspe Beaubien",
+      "contactEmail": "charles@groupize.com"
     }
   ],
   "assessor": {
-    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "name": "A-LIGN",
     "assessorID": "138665"
   },
+  "advisors": [
+    {
+      "name": "SunStone Secure, LLC"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Group travel management",
+      "serviceDescription": "Group travel authorization workflows aligned to agency policy, with SAP Concur integration."
+    },
+    {
+      "serviceName": "Meeting and event sourcing",
+      "serviceDescription": "Venue sourcing and room block management with rate visibility and per diem controls."
+    },
+    {
+      "serviceName": "Traveler and spend dashboards",
+      "serviceDescription": "Centralized, real-time oversight of travelers, itineraries, and spend."
+    }
+  ],
   "ZD_frid_retro": "FR2626247309",
   "id_matches_expected": true
 }

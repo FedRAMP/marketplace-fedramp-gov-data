@@ -1,0 +1,112 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "Delinea (DelineaGov)",
+    "ueiNumber": "MDXRAPTTVPF5",
+    "providerName": "Delinea",
+    "serviceName": "Delinea Platform",
+    "serviceAcronym": "DelineaGov",
+    "serviceDescription": "Delinea identity security platform continuously controls what AI agents, humans and machines can do and for how long. It extends Privileged Access Management from the point of access to the moment of action, using just-in-time authorization to reduce standing privilege across on-premise, cloud, multi-cloud and short-lived infrastructure, without adding friction for legitimate users. \n\nThe Delinea Platform brings identity, risk analysis, access control, threat protection and governance together. It continuously discovers AI agents, humans and machines across on-premise, cloud and SaaS environments, and maps how each identity got its access. It measures what each identity actually does against what it is entitled to do and ranks the risk, so teams fix the highest-risk accounts first. Granular controls vault and rotate privileged credentials, secure privileged access and revoke it when the task is done. Each privileged session is recorded and tied to a named identity under one policy model and one audit trail. When auditors or regulators ask what happened and why it was allowed, customers have an answer.",
+    "certificationType": "20x",
+    "website": "https://delinea.com/",
+    "logo": "https://ucs-default.us.prod.unified-content.global.bf-squads.com/a8ea6632-90eb-4941-80b8-00d589a53065/delinea-logo-wordmark-tm-rgb-purple.png?response-content-type=image%2Fpng&Expires=1794316974&KeyName=content-storage-default-signing-key&Signature=oy-gH7IfChTjYV6iCoLjaN3uBts="
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "System Administration"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.delinea.com",
+      "repositoryDescription": "The Delinea Trust Center contains the FedRAMP 20x Class C Timeline, as well as details on other Compliance Frameworks which Delinea currently holds Certifications for.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.delinea.com/online-help/delinea-platform/getting-started/secure-tenant.htm",
+      "repositoryDescription": "This guide outlines recommended best practices for securing your environment within the Delinea Platform. Following these practices helps ensure the availability, integrity, and confidentiality of privileged access and sensitive data.",
+      "authenticationRequired": false
+    },
+    "nextOngoingCertificationReportDate": "2027-05-01"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "FedRAMP Security",
+      "contactEmail": "security@delinea.com",
+      "contactPhone": "202-991-0540"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Ginelle Osworth",
+      "contactEmail": "ginelle.osworth@delinea.com",
+      "contactPhone": "202-802-9399"
+    }
+  ],
+  "assessor": {
+    "name": "Schellman",
+    "assessorID": "136571"
+  },
+  "advisors": [
+    {
+      "name": "bladestack.io"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Secret Server",
+      "serviceDescription": "Enterprise-grade vault that identifies and secures every AI, machine, service, application, admin, and root accounts, with built-in automation for discovery, password rotation, and session monitoring,",
+      "dateAvailable": "2027-05-01"
+    },
+    {
+      "serviceName": "Privileged Remote Access",
+      "serviceDescription": "Browser-based secure remote access that authorizes each remote session for admins, contractors and vendors under policy. Remote sessions are recorded and tied to a named identity.",
+      "dateAvailable": "2027-05-01"
+    },
+    {
+      "serviceName": "Privileged Control for Servers",
+      "serviceDescription": "Controls privileged access to servers with just-enough privilege elevation and layered MFA enforcement to prevent lateral movement while increasing accountability.",
+      "dateAvailable": "2027-05-01"
+    },
+    {
+      "serviceName": "Server Suite (MFA & Policy on Platform)",
+      "serviceDescription": "Unifies policy management for Windows, Linux, and UNIX within Active Directory, so privileged access is governed through centrally managed policies consistently enforced across servers.",
+      "dateAvailable": "2027-05-01"
+    },
+    {
+      "serviceName": "Delinea Credential Manager Browser Extension",
+      "serviceDescription": "Gives users secure access to work-related credentials and shared passwords to web applications directly in their browsers, without disrupting workflows or causing friction.",
+      "dateAvailable": "2027-05-01"
+    },
+    {
+      "serviceName": "Connection Manager",
+      "serviceDescription": "Desktop application to manage and interact with multiple remote sessions for both Remote Desktop Protocol (RDP) and SSH in a unified environment.",
+      "dateAvailable": "2027-05-01"
+    },
+    {
+      "serviceName": "Identity Threat Protection",
+      "serviceDescription": "Scores identity risk, runs posture checks across authentication, privileged access, privileged escalation, stale access, key management, and AI security, and detects identity-based threats.",
+      "dateAvailable": "2027-05-01"
+    },
+    {
+      "serviceName": "Privileged Control for Cloud Entitlements",
+      "serviceDescription": "Continuously discovers identities, accounts, and their access across Google, Amazon, and Microsoft clouds to identify anomalous behavior and refactor privileges.",
+      "dateAvailable": "2027-05-01"
+    },
+    {
+      "serviceName": "Continuous Identity Discovery",
+      "serviceDescription": "Continuously discovers AI agents, humans and machines, new accounts, changes to administrative privileges and shadow administrators and maps how each identity got its access.",
+      "dateAvailable": "2027-05-01"
+    }
+  ],
+  "ZD_frid_retro": "FR2704861246",
+  "id_matches_expected": false
+}
