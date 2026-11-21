@@ -83,12 +83,16 @@
     "assessorID": "201591"
   },
   "metadata": {
-    "version": "20261119T230639Z",
-    "lastUpdated": "2026-11-19T23:08:13Z",
-    "updateSource": "Offering profile at persistent validation snapshot 20261119T230639Z, commit 3bf9e63611c4 (scripts/fedramp_20x_snapshot.py, every 24 hours)"
+    "version": "20261120T230725Z",
+    "lastUpdated": "2026-11-20T23:08:57Z",
+    "updateSource": "Offering profile at persistent validation snapshot 20261120T230725Z, commit ae061a5aff14 (scripts/fedramp_20x_snapshot.py, every 24 hours)"
   },
   "thirdPartyInformationResources": {
     "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "AI model provider: answers the pipeline's AI steps with Anthropic Claude models served by Amazon Bedrock. Customer source code and extracted business rules are sent to Amazon Bedrock inside the AWS environment over an encrypted connection; model calls to any other address are refused."
+      },
       {
         "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
         "useCase": "Stores the platform's signed container images"
@@ -99,12 +103,6 @@
       }
     ],
     "nonCertified": [
-      {
-        "name": "Anthropic API",
-        "provider": "Anthropic",
-        "useCase": "AI model provider: answers the pipeline's AI steps. Customer source code and extracted business rules are sent to the API over an encrypted connection to a restricted list of allowed addresses. This service is not FedRAMP-authorized.",
-        "website": "https://www.anthropic.com"
-      },
       {
         "name": "GitLab",
         "provider": "GitLab",

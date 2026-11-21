@@ -1,11 +1,11 @@
 {
   "serviceIdentification": {
     "providerName": "Trivedi Advanced Technologies LLC",
-    "serviceName": "Plumsense for Government",
-    "serviceAcronym": "PSG",
-    "serviceDescription": "Plumsense for Government is a software-as-a-service environmental monitoring and digital compliance platform hosted entirely in AWS GovCloud (US), with us-gov-west-1 as the primary region and a pilot-light disaster-recovery environment in us-gov-east-1. It provides continuous, real-time monitoring of temperature-sensitive and other critical environments, including medical and laboratory storage of vaccines, medications, blood products and laboratory samples, and food-safety operations, with intelligent alerts and centralized, audit-ready compliance reporting. It collects telemetry from connected sensors and gateways, including supported legacy monitoring sensors through compatible gateways, over MQTT (AWS IoT Core with X.509 device certificates) and LoRaWAN, and presents it through a web portal, mobile app and REST APIs for monitoring, digital checklists and reporting. It also delivers over-the-air firmware updates to Plumsense devices. Plumsense hardware is engineered and manufactured in the United States by Trivedi Advanced Technologies LLC.",
+    "serviceName": "Plumsense",
+    "serviceAcronym": "PS",
+    "serviceDescription": "Plumsense is a software-as-a-service environmental monitoring and digital compliance platform hosted entirely in AWS GovCloud (US), with us-gov-west-1 as the primary region and a pilot-light disaster-recovery environment in us-gov-east-1. It provides continuous, real-time monitoring of temperature-sensitive and other critical environments, including medical and laboratory storage of vaccines, medications, blood products and laboratory samples, and food-safety operations, with intelligent alerts and centralized, audit-ready compliance reporting. It collects telemetry from connected sensors and gateways, including supported legacy monitoring sensors through compatible gateways, over MQTT (AWS IoT Core with X.509 device certificates) and LoRaWAN, and presents it through a web portal, mobile app and REST APIs for monitoring, digital checklists and reporting. It also delivers over-the-air firmware updates to Plumsense devices. Plumsense hardware is engineered and manufactured in the United States by Trivedi Advanced Technologies LLC.",
     "certificationType": "20x",
-    "fedRampPackageId": "Trivedi Advanced Technologies LLC - PSG",
+    "fedRampPackageId": "FR2704861258",
     "ueiNumber": "J2MUFZE2VKY4",
     "website": "https://www.plumsense.com",
     "logo": "https://trust.plumsense.com/logo.svg"
@@ -35,7 +35,7 @@
         "Secure Configuration Guidance"
       ],
       "url": "https://trust.plumsense.com/secure-configuration.html",
-      "repositoryDescription": "Secure configuration guidance for customer administrators of Plumsense for Government.",
+      "repositoryDescription": "Secure configuration guidance for customer administrators of Plumsense.",
       "authenticationRequired": false
     }
   },
@@ -95,5 +95,5 @@
     ]
   },
   "ZD_frid_retro": "FR2704861258",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }

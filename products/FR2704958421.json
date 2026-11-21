@@ -1,0 +1,139 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "FR2605038539",
+    "providerName": "Strike Graph",
+    "serviceName": "Strike Graph",
+    "serviceAcronym": "SG",
+    "serviceDescription": "Strike Graph is an AI-native governance, risk, and compliance (GRC) platform built on a graph-based ontology that supports more than 30 security and compliance frameworks. Agencies use Strike Graph to design, operate, and measure their own compliance programs, including control management, evidence collection, risk management, and audit readiness.",
+    "certificationType": "20x",
+    "website": "https://www.strikegraph.com",
+    "logo": "https://www.strikegraph.com/hubfs/fedramp/strike-graph-logo-color.png",
+    "ueiNumber": "LTF6QGKHVKE5"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Governance, Risk, and Compliance (GRC)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://grc.strikegraph.com/trust/4420eab5/strike-graph",
+      "repositoryDescription": "Strike Graph trust center. Documents available on request: Subprocessor List, Penetration Test Report, and SOC 2 Type II Audit Report. The human-readable service information and certification progress document is public at https://www.strikegraph.com/hubfs/fedramp/service-information-and-progress.pdf.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Open the trust center page and select Request Access next to the document you need. For anything else, email support@strikegraph.com."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://www.strikegraph.com/hubfs/fedramp/secure-configuration-guide.pdf",
+      "repositoryDescription": "FedRAMP Secure Configuration Guide for customer administrators: how to securely access, configure, operate, and decommission top-level administrative accounts, and the security-related settings those accounts control.",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Strike Graph Security",
+      "contactEmail": "security@strikegraph.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Strike Graph Sales",
+      "contactEmail": "sales@strikegraph.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Federal and defense frameworks",
+      "serviceDescription": "Framework content in the Strike Graph platform, with requirements mapped to controls and evidence: NIST 800-53 / FedRAMP, NIST 800-171 / CMMC, NIST CSF, CJIS, CMS."
+    },
+    {
+      "serviceName": "Security and privacy frameworks",
+      "serviceDescription": "Framework content in the Strike Graph platform, with requirements mapped to controls and evidence: SOC 1, SOC 2, ISO 27001, ISO 27701, ISO 27799, CIS V8, HITRUST CSF, PCI-DSS, TISAX, Essential Eight, UK Cyber Essentials."
+    },
+    {
+      "serviceName": "AI governance frameworks",
+      "serviceDescription": "Framework content in the Strike Graph platform, with requirements mapped to controls and evidence: NIST AI RMF, ISO 42001."
+    },
+    {
+      "serviceName": "Regulatory frameworks",
+      "serviceDescription": "Framework content in the Strike Graph platform, with requirements mapped to controls and evidence: HIPAA, GDPR, CCPA / CPRA, DORA, NIS2, FINRA/GLBA, AZ DIFI."
+    },
+    {
+      "serviceName": "Life sciences and quality frameworks",
+      "serviceDescription": "Framework content in the Strike Graph platform, with requirements mapped to controls and evidence: EU MDR, FDA Pre-post market, GCP, GLP, GMP, ISO 13485, ISO 9001, ISO 14001."
+    },
+    {
+      "serviceName": "Atlas AI",
+      "serviceDescription": "Reviews a program's controls, evidence, ownership, and audit schedule on a set cadence and produces ranked remediation plans; each action requires human approval before it runs."
+    },
+    {
+      "serviceName": "Verify AI",
+      "serviceDescription": "Checks uploaded evidence files against the evidence description the customer has defined and flags items that are incomplete, inconsistent, or inaccurate."
+    },
+    {
+      "serviceName": "AI Security Assistant",
+      "serviceDescription": "Answers questions about the customer's policies, controls, and procedures from their Strike Graph records, drafts integration configurations, and completes uploaded security questionnaires."
+    },
+    {
+      "serviceName": "Action Items (POA&M)",
+      "serviceDescription": "Tracks remediation tasks and plans of action and milestones against controls and risks."
+    },
+    {
+      "serviceName": "Risk management",
+      "serviceDescription": "Risk register and assessment workflow linking risks to controls and evidence."
+    },
+    {
+      "serviceName": "System Security Plan",
+      "serviceDescription": "Generates and maintains system security plan documentation from the customer's controls and evidence."
+    },
+    {
+      "serviceName": "Self Assessments",
+      "serviceDescription": "Customer-run assessments of control and framework readiness."
+    },
+    {
+      "serviceName": "Dashboards & reporting",
+      "serviceDescription": "Dashboards and reports on compliance program status across frameworks."
+    },
+    {
+      "serviceName": "Customizations",
+      "serviceDescription": "Customer-defined frameworks, controls, and evidence requirements."
+    },
+    {
+      "serviceName": "Workspaces",
+      "serviceDescription": "Lets a parent organization define risks, controls, and evidence once and share or assign them to subsidiaries or locations, with per-entity isolation and roll-up reporting."
+    },
+    {
+      "serviceName": "Integrations",
+      "serviceDescription": "Connections to customer systems for automated evidence collection."
+    },
+    {
+      "serviceName": "Questionnaires",
+      "serviceDescription": "Completes vendor and customer security questionnaires from the customer's compliance data."
+    },
+    {
+      "serviceName": "Third-Party Risk Management (TrustChain)",
+      "serviceDescription": "Assessment and monitoring of the customer's vendors and other third parties."
+    },
+    {
+      "serviceName": "Trust Center",
+      "serviceDescription": "Customer-branded portal for sharing security and compliance documentation with outside parties."
+    },
+    {
+      "serviceName": "SBOM Manager",
+      "serviceDescription": "Management of software bills of materials."
+    },
+    {
+      "serviceName": "Vulnerability scanning",
+      "serviceDescription": "Vulnerability scanning of customer assets with results tracked in the platform."
+    }
+  ],
+  "ZD_frid_retro": "FR2704958421",
+  "id_matches_expected": false
+}

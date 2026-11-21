@@ -300,10 +300,10 @@
       }
     },
     {
-      "title": "Incident Response Procedures",
+      "title": "Risk Response Procedures",
       "access": "agency",
-      "delivery": "direct",
-      "summary": "Incident detection, response, and reporting (dissemination controls preclude portal delivery; supplied directly to agencies)",
+      "delivery": "portal",
+      "summary": "Risk response, supply chain risk, vulnerability disclosure, and flaw remediation benchmarks",
       "metadata": {
         "file": "VDJ-Risk-Response-Procedures.md",
         "related_practices": [
@@ -340,8 +340,8 @@
     {
       "title": "Risk & Vulnerability Management Procedures",
       "access": "agency",
-      "delivery": "direct",
-      "summary": "Vulnerability detection, evaluation, and remediation SLAs (dissemination controls preclude portal delivery)",
+      "delivery": "portal",
+      "summary": "Vulnerability detection, evaluation, and remediation service levels",
       "metadata": {
         "file": "VDJ-Risk-Vulnerability-Management-Procedures.md",
         "related_practices": [
@@ -359,8 +359,8 @@
     {
       "title": "Continuous Monitoring SOP",
       "access": "agency",
-      "delivery": "direct",
-      "summary": "Ongoing security-monitoring program (CUI marking review in progress; supplied directly to agencies meanwhile)",
+      "delivery": "portal",
+      "summary": "Ongoing security-monitoring program, including the monthly vulnerability report",
       "metadata": {
         "file": "VDJ-Continuous-Monitoring-SOP.md",
         "related_practices": [
@@ -374,13 +374,23 @@
       }
     },
     {
+      "title": "Vulnerability Remediation Plan",
+      "access": "agency",
+      "delivery": "portal",
+      "summary": "How vulnerabilities are triaged, remediated, and reported",
+      "metadata": {
+        "file": "VDJ-Vulnerability-Remediation-Plan.md",
+        "related_practices": []
+      }
+    },
+    {
       "title": "FedRAMP Certification Package (CPO · SDR · OCR)",
       "access": "agency",
       "delivery": "portal",
       "summary": "Full authorization package (human-readable + machine-readable JSON at /reports)"
     }
   ],
-  "documentation_overview": "Public documents are readable by everyone below. Documents marked 'agency' are FedRAMP Certification Data: portal-delivered items are retrievable as signed PDFs, marked Proprietary and Confidential, through the authenticated trust center (/documents); direct-delivery items carry dissemination controls that preclude portal delivery and are supplied to agencies through a direct controlled channel on request. Per CDS-CSO-IRP, the metadata published machine-readably here for every document is: file name, version, word count, last update and related FedRAMP practices. 1 of the 11 entries below is a composite artifact with no single source document and carries no per-document metadata.",
+  "documentation_overview": "Public documents are readable by everyone below. Documents marked 'agency' are FedRAMP Certification Data: portal-delivered items are retrievable as signed PDFs, marked Proprietary and Confidential, through the authenticated trust center (/documents); direct-delivery items carry dissemination controls that preclude portal delivery and are supplied to agencies through a direct controlled channel on request. Per CDS-CSO-IRP, the metadata published machine-readably here for every document is: file name and related FedRAMP practices. Not published in this payload: version, word count and last update. Those are carried in the header of each document itself and in the signed PDF released through the authenticated trust center. 1 of the 12 entries below is a composite artifact with no single source document and carries no per-document metadata.",
   "faq": [
     {
       "q": "Where is my data stored?",
@@ -451,10 +461,6 @@
       "rolling_percent": 99.998,
       "window_days": 30,
       "daily_history": [
-        {
-          "date": "2026-10-21",
-          "availability_percent": 100
-        },
         {
           "date": "2026-10-22",
           "availability_percent": 100
@@ -570,6 +576,10 @@
         {
           "date": "2026-11-19",
           "availability_percent": 100
+        },
+        {
+          "date": "2026-11-20",
+          "availability_percent": 100
         }
       ]
     },
@@ -607,7 +617,7 @@
     "statement": "VirtualDojo is pursuing FedRAMP 20x Certification Class C for VirtualDojo AI CRM by the Program path. Progress below is measured against dated milestones and refreshed at least quarterly. Milestones that are not yet met say so.",
     "review_cadence": "quarterly",
     "next_review_date": "2026-12-01",
-    "last_updated": "2026-11-20T04:12:29Z",
+    "last_updated": "2026-11-21T04:13:25Z",
     "goals": [
       {
         "id": "G1",
@@ -635,15 +645,15 @@
         "detail": "Cloud Scheduler triggers a Cloud Run job daily at 04:00 UTC under a dedicated service account. The first scheduled firing was 2026-07-04 at 04:00 UTC; per-indicator results are retained for every day since. The job was created on 2026-07-03 and the runs that day were started by hand, so 2026-07-03 is reported as manual and is not counted as persistent validation.\n",
         "measure": "consecutive_days_of_validation",
         "measured": {
-          "value": 79,
+          "value": 80,
           "unit": "days",
           "window": {
             "from": "2026-09-02",
-            "to": "2026-11-19"
+            "to": "2026-11-20"
           },
           "source": "retained per-day validation results",
           "target": 183,
-          "percent_complete": 43
+          "percent_complete": 44
         }
       },
       {
@@ -671,15 +681,15 @@
         "detail": "FRC-CSX-MOT requires six months of historical metrics from persistent validation at Class C. The mechanism is in place and accumulating; the six-month point is reached on 2027-01-03.\n",
         "measure": "consecutive_days_of_validation",
         "measured": {
-          "value": 79,
+          "value": 80,
           "unit": "days",
           "window": {
             "from": "2026-09-02",
-            "to": "2026-11-19"
+            "to": "2026-11-20"
           },
           "source": "retained per-day validation results",
           "target": 183,
-          "percent_complete": 43
+          "percent_complete": 44
         }
       },
       {
@@ -1974,19 +1984,23 @@
       },
       {
         "date": "2026-11-20",
+        "class": "scheduled"
+      },
+      {
+        "date": "2026-11-21",
         "class": "manual"
       }
     ],
     "scheduled": {
-      "days": 138,
+      "days": 139,
       "from": "2026-07-04",
-      "to": "2026-11-19",
+      "to": "2026-11-20",
       "meaning": "The scheduled validation job ran unattended on this date at its documented 04:00 UTC cycle and produced per-indicator results. This is the only class that counts as persistent validation."
     },
     "manual": {
       "days": 2,
       "from": "2026-07-03",
-      "to": "2026-11-20",
+      "to": "2026-11-21",
       "meaning": "Validation ran on this date but was started by hand, outside the scheduled cycle. Not counted as persistent validation."
     },
     "reconstructed": {
@@ -1995,7 +2009,7 @@
       "to": "2026-07-02",
       "meaning": "Status derived after the fact from retained audit evidence. Not the output of validation performed on this date."
     },
-    "total_days_with_evidence": 311,
+    "total_days_with_evidence": 312,
     "gaps": 1
   },
   "certification_data_access": {
@@ -2035,8 +2049,8 @@
   },
   "live_monitoring": {
     "controls_monitored": 46,
-    "controls_passing": 41,
-    "last_validated": "2026-11-20T04:07:26.201507Z"
+    "controls_passing": 40,
+    "last_validated": "2026-11-21T04:08:01.517531Z"
   },
   "metadata": {
     "responsibleOfficial": {
@@ -2045,7 +2059,7 @@
       "email": "security@virtualdojo.com"
     },
     "version": "1.1",
-    "lastUpdated": "2026-11-20T04:12:30.428245+00:00",
+    "lastUpdated": "2026-11-21T04:13:26.557321+00:00",
     "updateSource": "Generated by fedramp-ksi-validator export.certification_package from package.yaml and the automated KSI/FRR validation results."
   },
   "serviceIdentification": {

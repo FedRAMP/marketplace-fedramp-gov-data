@@ -1,21 +1,20 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR2628647241",
-    "ueiNumber": "DCXZNU8JTTM9",
     "providerName": "Partos Inc.",
     "serviceName": "Partos for Government",
     "serviceAcronym": "Partos",
     "serviceDescription": "Partos is an AI-native operating system for the U.S. aerospace and defense supply chain, unifying prime contractors, suppliers, and sub-tier vendors in a single Government Community Cloud environment on AWS GovCloud (US). Partos accelerates supplier onboarding and vetting with continuous KYB, KYC, AML, and OFAC screening and compliance monitoring across ITAR, EAR export controls, and DFARS. It delivers end-to-end, multi-tier supply chain risk visibility and active risk management, and orchestrates domestic and international supplier payments—ACH, RTP, and wires—with compliance tracing preserved throughout. The platform leverages export control regulatory frameworks (including ITAR, EAR, and CUI) to automatically enforce data access boundaries. Access is dynamically controlled based on variables like nationality and geographic location, ensuring continuous compliance at every layer. A unified data ontology and pipeline layer powers Partos AI, a multi-agent, multimodal system in which specialized agents collaborate to answer questions and act across the entire supply chain. Partos AI works both reactively and proactively—agents operate as an extension of your team, monitoring, surfacing risks, and advancing work 24/7 rather than only responding on request. Partos AI is model-agnostic (open-source and proprietary), extensible via a no-code workflow builder and REST, WebSocket, SSE, and MCP interfaces, and embeddable in any enterprise application. It supports multi- and single-tenancy, multiple IdPs and SSO, SCIM provisioning, and granular role-, group-, and permission-based access. Customers retain full ownership and exportability of their data and the AI's memory.",
     "certificationType": "20x",
+    "fedRampPackageId": "FR2628647241",
     "website": "https://partos.ai",
-    "logo": "https://cdn.partos.ai/fedramp/logo.png"
+    "logo": "https://cdn.partos.ai/fedramp/logo.png",
+    "ueiNumber": "DCXZNU8JTTM9"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
     "deploymentModel": "Government Community Cloud",
-    "digitalIdentityLevel": "IAL2/AAL2/FAL2",
     "businessCategory": [
       "Artificial Intelligence (AI)",
       "Governance, Risk, and Compliance (GRC)",
@@ -28,19 +27,22 @@
       "Finance",
       "Accounting"
     ],
+    "additionalRepositories": [],
+    "nextOngoingCertificationReportDate": "2026-11-27",
     "trustCenter": {
       "repositoryType": [
         "Trust Center"
       ],
-      "url": "https://trust.partos.ai",
-      "repositoryDescription": "Central access point for Partos for Government FedRAMP Certification Data, including current certification progress, security posture, continuous monitoring evidence, and machine- and human-readable certification artifacts. Provides federal agencies and authorized parties with self-service access and instructions for requesting FedRAMP Certification Data.",
-      "authenticationRequired": false
+      "url": "https://www.partos.ai/trust/fedramp",
+      "repositoryDescription": "Central access point for Partos for Government FedRAMP Certification Data, including current certification progress, security posture, continuous monitoring evidence, and machine- and human-readable certification artifacts. Provides federal agencies and authorized parties with access and instructions for requesting FedRAMP Certification Data.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Authorized federal reviewers, assessors (3PAO), and agency personnel can access the permissioned PMO view of the\nFedRAMP Trust Center, which includes the detailed Security Decision Record, control-level evidence,\nprovider-rule implementation detail, and the downloadable submission package.\n\n1. Go to the [Partos Trust Center](https://partos.ai/en/trust/) and choose **Sign in**.\n2. Enter your work email and the reason you need access, and complete the verification check.\n3. Enter the one-time code sent to your email.\n4. If your email has already been approved, you are signed in. Otherwise, your request is sent to Partos for\n   approval; once approved, you will receive an email with a sign-in link, valid for 48 hours.\n5. Once signed in, you can open the Public and PMO views, including the full submission package and evidence.\n   Sessions last 24 hours; after that, sign in again with a new code.\n\nQuestions about access? Email [federal@partos.ai](mailto:federal@partos.ai) with your organization, role, and\nthe reason for access. For security matters, contact [security@partos.ai](mailto:security@partos.ai) (mark the\nsubject line SECURITY for urgent issues).\n\nAccess is approved individually by Partos on a need-to-know basis. Each sign-in is notified and access to\nrecords is logged.\n"
     },
     "secureConfigurationGuidance": {
       "repositoryType": [
         "Secure Configuration Guidance"
       ],
-      "url": "https://partos.ai/fedramp/secure-configuration-guide-SCG-CSO-PUB",
+      "url": "https://www.partos.ai/trust/fedramp/secure-configuration-guide-SCG-CSO-PUB/",
       "repositoryDescription": "Guidance for securely accessing, configuring, and operating Partos for Government, including administrative account setup and hardening. Contains the Secure Configuration Guide.",
       "authenticationRequired": false
     }
@@ -48,7 +50,7 @@
   "contactInformation": [
     {
       "contactType": "Sales",
-      "contactEmail": "federal@partos.ai"
+      "contactEmail": "partos@partos.ai"
     },
     {
       "contactType": "Security",

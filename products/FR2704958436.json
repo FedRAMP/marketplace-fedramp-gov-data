@@ -1,0 +1,207 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "providerName": "IGNIS Inc.",
+    "serviceName": "Ignis Platform",
+    "serviceAcronym": "IGNIS",
+    "serviceDescription": "IGNIS is a field-first common operating picture (COP) for wildland fire and emergency response, developed by IGNIS Inc., a Bridger Aerospace company. IGNIS gives incident management teams, ground firefighters, aviation and air attack operations, and dispatch centers a shared, live operational map across iOS, Android, and web.\n\nWith IGNIS Pro, users create and manage incidents and bring resources in by incident code or QR code. Invited responders, including those on free IGNIS accounts, can join and contribute to an incident without a paid license, so local and cooperating agencies can take part in managed incidents at no cost. Participants contribute field-built mapping such as fire perimeters, dozer and hand lines, helicopter dip sites, and drop targets, share personnel locations, and distribute incident documents including Incident Action Plans and comms plans. IGNIS integrates authoritative fire data and aerial intelligence, including georeferenced imagery, aircraft position and track, and livestream video from multi-mission aircraft, and continues to operate in low-connectivity environments through offline synchronization.\n\nThe overall FIPS 199 security categorization of the cloud service offering is Moderate (confidentiality Moderate, integrity Moderate, availability Moderate), the high-water mark across its services.",
+    "certificationType": "20x",
+    "fedRampPackageId": "IGNIS Inc. - IGNIS",
+    "ueiNumber": "NDDRGN467NV7",
+    "website": "https://www.bridgeraerospace.com/technology/ignis/",
+    "logo": "https://trust.ignistech.io/assets/ignis-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Operations Management",
+      "Collaboration",
+      "Communication",
+      "Data Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.ignistech.io",
+      "repositoryDescription": "Ignis FedRAMP trust center (landing page includes access instructions).",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Public materials are available without sign-in. Federal agency staff and systems can obtain just-in-time access to FedRAMP Certification Data by registering at the trust center landing page with a .gov or .mil email address, or by emailing the security contact listed below. Programmatic access and API documentation are published on the landing page. Access requests are normally granted the same business day. Denials are reported to FedRAMP within 5 business days."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.ignistech.io/secure-configuration-guide",
+      "repositoryDescription": "Ignis Secure Configuration Guide.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Documentation"
+        ],
+        "url": "https://trust.ignistech.io/documentation",
+        "repositoryDescription": "Overview of documentation supplied for the Ignis offering.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Availability",
+          "Status Page"
+        ],
+        "url": "https://status.ignistech.io",
+        "repositoryDescription": "Availability service with 30-day history and JSON feed.",
+        "authenticationRequired": false
+      }
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "IGNIS Security Team",
+      "contactEmail": "security@ignistech.io"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "IGNIS Sales",
+      "contactEmail": "sales@ignistech.io",
+      "contactPhone": "406-219-1081"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "IGNIS Mobile (iOS & Android)",
+      "serviceDescription": "Field application for the operating picture, including offline base layers, 3D PDF map overlays, fire symbology and track recording, fire weather forecasts, and reference documents. Available to free and Pro users. The FIPS 199 security category of this service is Moderate."
+    },
+    {
+      "serviceName": "IGNIS Web",
+      "serviceDescription": "Browser-based operating picture and incident management console. The FIPS 199 security category of this service is Moderate."
+    },
+    {
+      "serviceName": "Incidents",
+      "serviceDescription": "Create and manage incidents, and invite participants by incident code or QR code. Creating incidents requires IGNIS Pro; any invited user, including free accounts, can join and contribute. The FIPS 199 security category of this service is Moderate."
+    },
+    {
+      "serviceName": "Field-Built Mapping",
+      "serviceDescription": "Shared points, lines, and polygons (perimeters, fire lines, dip sites, drop targets) synchronized across users and devices, with author and timestamp on every feature. The FIPS 199 security category of this service is Moderate."
+    },
+    {
+      "serviceName": "Teams",
+      "serviceDescription": "Organize people and share content across an organization. Requires IGNIS Pro. The FIPS 199 security category of this service is Moderate."
+    },
+    {
+      "serviceName": "Personnel Location",
+      "serviceDescription": "Opt-in, incident-scoped sharing of personnel positions (blue force tracking) in 24-hour sessions renewable by the user. Requires IGNIS Pro. The FIPS 199 security category of this service is Moderate."
+    },
+    {
+      "serviceName": "Aerial Intelligence",
+      "serviceDescription": "Georeferenced imagery uploaded by aircrews, livestream video from aircraft encoders to an IGNIS-provided endpoint, and aircraft position and track. Aircraft, encoders, and onboard sensor systems are not part of the offering. Requires IGNIS Pro. The FIPS 199 security category of this service is Moderate."
+    },
+    {
+      "serviceName": "Offline Mesh Sharing",
+      "serviceDescription": "Device-to-device synchronization of incident data over Bluetooth when connectivity is unavailable, with full sync when any device reconnects. Requires IGNIS Pro. The FIPS 199 security category of this service is Moderate."
+    },
+    {
+      "serviceName": "Operational Data Layers",
+      "serviceDescription": "15+ field-ready map layers, including authoritative fire data. Available to free and Pro users. The FIPS 199 security category of this service is Moderate."
+    },
+    {
+      "serviceName": "FIST Detection Triage",
+      "serviceDescription": "Detection triage workflow used with public WildCAD data in coordination with the Wildland Fire Service. The FIPS 199 security category of this service is Moderate."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Amazon Web Services (commercial, us-east-1) hosts the Ignis platform, including compute, container registry, databases, storage, networking, and security services."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Google Cloud Firebase Authentication signs users in and issues tokens."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+        "useCase": "Google Workspace provides workforce identity federated to AWS IAM Identity Center."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
+        "useCase": "GitHub Enterprise Cloud hosts source code and supports code review."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Firebase Cloud Messaging",
+        "provider": "Google",
+        "website": "https://firebase.google.com/products/cloud-messaging",
+        "useCase": "Delivers push notifications to the mobile apps."
+      },
+      {
+        "name": "Cloudflare",
+        "provider": "Cloudflare",
+        "website": "https://www.cloudflare.com",
+        "useCase": "Provides DNS, TLS termination, edge protection, API proxying, Workers for tile caching, Queues, and R2 storage for images, video, and documents. FedRAMP coverage for this deployment is pending verification."
+      },
+      {
+        "name": "Tailscale",
+        "provider": "Tailscale",
+        "website": "https://tailscale.com",
+        "useCase": "Provides mesh VPN access for administrators to the production VPC."
+      },
+      {
+        "name": "GitHub Actions",
+        "provider": "GitHub",
+        "website": "https://github.com",
+        "useCase": "Runs build and deployment workflows. FedRAMP coverage for this use is pending verification."
+      },
+      {
+        "name": "Pulumi",
+        "provider": "Pulumi",
+        "website": "https://www.pulumi.com",
+        "useCase": "Manages infrastructure as code and stores deployment state."
+      },
+      {
+        "name": "Ditto Cloud",
+        "provider": "DittoLive Incorporated",
+        "website": "https://ditto.live",
+        "useCase": "Synchronizes incident map points, lines, and polygons across devices through peer-to-peer and cloud sync, including offline. The future hosting model is under review."
+      },
+      {
+        "name": "Confluent Cloud (commercial)",
+        "provider": "Confluent",
+        "website": "https://www.confluent.io",
+        "useCase": "Provides managed Kafka for aircraft location and event streams."
+      },
+      {
+        "name": "Mapbox",
+        "provider": "Mapbox",
+        "website": "https://www.mapbox.com",
+        "useCase": "Provides basemap tiles and place search in client applications."
+      },
+      {
+        "name": "Blacksmith",
+        "provider": "Blacksmith",
+        "website": "https://www.blacksmith.sh",
+        "useCase": "Provides hosted runners for GitHub Actions workflows."
+      },
+      {
+        "name": "Oneleet",
+        "provider": "Oneleet",
+        "website": "https://www.oneleet.com",
+        "useCase": "Collects audit evidence and monitors security controls for SOC 2 Type II and PCI DSS."
+      },
+      {
+        "name": "Buf Schema Registry",
+        "provider": "Buf",
+        "website": "https://buf.build",
+        "useCase": "Hosts Protobuf schemas and publishes generated SDKs for iOS and Android builds."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2704958436",
+  "id_matches_expected": false
+}

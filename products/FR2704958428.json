@@ -1,0 +1,89 @@
+{
+  "serviceIdentification": {
+    "providerName": "Oxalis Solutions LLC",
+    "serviceName": "YARDOS US Government",
+    "serviceAcronym": "YARDOS:USG",
+    "serviceDescription": "YARDOS US Government (YARDOS:USG) is a single, provider-operated, browser-based Software-as-a-Service (SaaS) maintenance, repair, and overhaul (MRO) and cost-estimating platform hosted exclusively in AWS GovCloud (US) for direct adoption by U.S. federal agencies (44 U.S.C. § 3506). Built for capital-intensive, long-service federal assets—including naval vessels, federal fleets, aerospace and defense depots, installations, and civil infrastructure—YARDOS:USG unifies work planning, inspection plans, condition found reports, change-order workflows, execution reporting, Independent Government Cost Estimate (IGCE) / growth-work IGE preparation (FAR 15.404-1, FAR 36.203, DFARS 243.204-70, GAO-20-195G), and agency-controlled specialist AI assistance in one cloud record. Each federal agency runs in a dedicated AWS GovCloud (US) account with agency identity federation, governed in-boundary AI without external model training on customer data, and role-based separation so prime and subcontractor personnel access only authorized technical scope while procurement-sensitive government estimates remain restricted to agency personnel (FAR 3.104). Commercial YARDOS and customer-hosted or on-premises installations are excluded from the FedRAMP 20x Class C scope.",
+    "certificationType": "20x",
+    "fedRampPackageId": "Oxalis Solutions LLC (YARDOS:USG)",
+    "ueiNumber": "KEM9N1XDET43",
+    "website": "https://yardos.us/",
+    "logo": "https://yardos.us/wp-content/themes/yardos-theme/assets/img/yardos-logo-aqua-light.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Government Community Cloud",
+    "businessCategory": [
+      "Operations Management",
+      "Fleet Management",
+      "Data Management",
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Certification Data"
+      ],
+      "url": "https://trust.yardos.us/",
+      "repositoryDescription": "Oxalis Trust Center for YARDOS US Government (YARDOS:USG): public offering information, quarterly FedRAMP 20x Initial Implementation progress updates, security policies, and agency access request portal.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Public offering metadata is available without login at https://yardos.us/fedramp/cpo.json and https://trust.yardos.us/. Contact security@yardos.us or request access through https://trust.yardos.us/ for restricted YARDOS:USG certification materials."
+    },
+    "documentationOverview": "Planned documentation includes public service scope and secure configuration guidance, plus a Certification Package Overview, Security Decision Record, assessment materials, and ongoing certification reports for authorized parties."
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "YARDOS Sales",
+      "contactEmail": "sales@yardos.us"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "YARDOS Security",
+      "contactEmail": "security@yardos.us"
+    }
+  ],
+  "offeringServices": [
+    {
+      "serviceName": "YARDOS US Government (YARDOS:USG)",
+      "serviceDescription": "Unified federal MRO and cost-estimating SaaS platform operated by Oxalis Solutions LLC in dedicated per-tenant AWS GovCloud (US) accounts, encompassing four integrated modules within one Minimum Assessment Scope: (1) Work & Inspection Management (work items, inspection plans, condition found reports, change-order routing, and closeout); (2) Estimation & IGCEs (Independent Government Cost Estimate and growth-work IGE preparation, traceable Bases of Estimate aligned with GAO-20-195G, baseline cost/schedule estimating under FAR 15.404-1 and FAR 36.203, change-order definitization support under DFARS 243.204-70, and agency-only procurement-sensitive separation under FAR 3.104); (3) Specialist AI (agency-controlled AI assistance operating inside AWS GovCloud (US) under tenant role permissions with no external model training on customer data); and (4) Program Oversight & Reporting (real-time scope, schedule, predicted end cost, and role-scoped prime/subcontractor collaboration alongside agency ERP systems).",
+      "securityCategory": "Moderate (proposed)",
+      "modules": [
+        {
+          "name": "Work & Inspection Management",
+          "description": "Work-item tracking, inspection plans, condition found reports, change-order workflows, routing, and closeout."
+        },
+        {
+          "name": "Estimation & IGCEs",
+          "description": "Independent Government Cost Estimate (IGCE) and growth-work IGE preparation, traceable Bases of Estimate (GAO-20-195G), baseline cost and schedule estimating (FAR 15.404-1, FAR 36.203), change-order definitization support (DFARS 243.204-70), and agency-only procurement-sensitive access separation (FAR 3.104)."
+        },
+        {
+          "name": "Specialist AI",
+          "description": "Agency-controlled AI assistance for work-item, inspection, and estimating workflows operating within the AWS GovCloud (US) boundary under tenant role permissions, with no customer data used to train external models."
+        },
+        {
+          "name": "Program Oversight & Reporting",
+          "description": "Unified visibility into scope, schedule, execution status, and predicted end cost across agency staff and role-scoped prime/subcontractor users alongside existing ERP and planning systems."
+        }
+      ]
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "Primary production cloud infrastructure (AWS GovCloud (US)) hosting isolated per-tenant agency accounts, compute, managed PostgreSQL, object storage, KMS encryption, and centralized security logging."
+      }
+    ]
+  },
+  "publicationMetadata": {
+    "status": "Initial Implementation Phase preparation (FedRAMP 20x Class C target)",
+    "packageIdStatus": "Provider-name and offering-acronym placeholder until FedRAMP ID assignment",
+    "rulesDatasetVersion": "2026.11.02.01",
+    "schemaVersion": "0.2.0"
+  },
+  "ZD_frid_retro": "FR2704958428",
+  "id_matches_expected": false
+}
