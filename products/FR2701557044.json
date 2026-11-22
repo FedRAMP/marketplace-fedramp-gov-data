@@ -83,9 +83,9 @@
     "assessorID": "201591"
   },
   "metadata": {
-    "version": "20261120T230725Z",
-    "lastUpdated": "2026-11-20T23:08:57Z",
-    "updateSource": "Offering profile at persistent validation snapshot 20261120T230725Z, commit ae061a5aff14 (scripts/fedramp_20x_snapshot.py, every 24 hours)"
+    "version": "20261121T230726Z",
+    "lastUpdated": "2026-11-21T23:08:59Z",
+    "updateSource": "Offering profile at persistent validation snapshot 20261121T230726Z, commit 059d81659bbb (scripts/fedramp_20x_snapshot.py, every 24 hours)"
   },
   "thirdPartyInformationResources": {
     "certified": [
@@ -99,6 +99,10 @@
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Sends the platform's notification e-mail from the AWS environment through Amazon Simple Email Service over an encrypted connection (TLS): monitoring and security alerts, compliance reminders and monthly summaries. Messages carry alert text only (the system name, the problem and counts); they do not carry customer source code or extracted business rules."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
         "useCase": "Stores encrypted backups"
       }
     ],
@@ -108,11 +112,6 @@
         "provider": "GitLab",
         "useCase": "Self-hosted GitLab, operated by the provider outside the AWS environment, that holds Moderniza source code and the generated applications and runs the CI/CD pipeline",
         "website": "https://about.gitlab.com"
-      },
-      {
-        "name": "SMTP relay",
-        "provider": "SMTP relay",
-        "useCase": "Sends notification e-mail"
       },
       {
         "name": "CISA KEV feed",
