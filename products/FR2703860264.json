@@ -1,8 +1,8 @@
 {
   "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "metadata": {
-    "version": "2026.11.15",
-    "lastUpdated": "2026-11-15T00:00:00Z",
+    "version": "2026.11.22",
+    "lastUpdated": "2026-11-22T00:00:00Z",
     "updateSource": {
       "type": "git",
       "repository": "bichart_landing_page",
@@ -22,7 +22,7 @@
     "providerName": "BIChart Inc.",
     "serviceName": "BIChart Platform",
     "serviceAcronym": "BICP",
-    "serviceDescription": "BIChart Platform is a multi-tenant software-as-a-service application hosted on Amazon Web Services (us-east-1). Agency analytics teams use it in a web browser to assess a Tableau environment and migrate selected content to Microsoft Power BI or Microsoft Fabric as part of an agency-authorized information system.\n\nBIChart connects to Tableau Cloud or a network-reachable Tableau Server with an agency-created Personal Access Token, or an administrator uploads Tableau workbook and data-source files directly. BIChart processes workbook definitions, data-source metadata, usage metadata and operational logs; embedded data extracts in uploaded packages are removed before processing. Converted content can be downloaded as Power BI project files or, when the agency authorizes a Microsoft service principal, published to an agency Fabric workspace. Tableau tokens and Microsoft service-principal credentials configured by the agency are stored in AWS Secrets Manager.",
+    "serviceDescription": "BIChart Platform is a multi-tenant software-as-a-service application hosted on Amazon Web Services (us-east-1). The federal offering runs in its own AWS account, separate from BIChart's commercial service, and each agency reaches it at its own address under fed.bichart.ai. Agency users sign in only through their agency's identity provider (SAML); the federal offering has no BIChart-managed passwords. Agency analytics teams use it in a web browser to assess a Tableau environment and migrate selected content to Microsoft Power BI or Microsoft Fabric as part of an agency-authorized information system.\n\nBIChart connects to Tableau Cloud or a network-reachable Tableau Server with an agency-created Personal Access Token, or an administrator uploads Tableau workbook and data-source files directly. BIChart processes workbook definitions, data-source metadata, usage metadata and operational logs; embedded data extracts in uploaded packages are removed before processing. Converted content can be downloaded as Power BI project files or, when the agency authorizes a Microsoft service principal, published to an agency Fabric workspace. Tableau tokens and Microsoft service-principal credentials configured by the agency are stored in AWS Secrets Manager.",
     "certificationType": "20x",
     "website": "https://bichart.ai",
     "logo": "https://bichart.ai/bichart-logo.png"
@@ -63,7 +63,8 @@
         "repositoryDescription": "Implementation progress and milestone record for BIChart’s FedRAMP 20x listing, updated at least quarterly. The current milestones are carried in the milestones field of this file and rendered on the public page.",
         "authenticationRequired": false
       }
-    ]
+    ],
+    "nextOngoingCertificationReportDate": "2027-02-12"
   },
   "contactInformation": [
     {
@@ -102,6 +103,14 @@
       "inMinimumAssessmentScope": true
     }
   ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Amazon Web Services (AWS US East/West) hosts the entire federal offering in a dedicated AWS account: application and data in us-east-1, the availability status page in us-west-2. Services used: CloudFront, AWS WAF, API Gateway, Lambda, S3, DynamoDB, Cognito, Secrets Manager (agency-configured Tableau and Microsoft credentials), KMS, VPC, Route 53, Certificate Manager, CloudTrail, CloudWatch, Config, Security Hub, GuardDuty, SNS, EventBridge, IAM and IAM Identity Center."
+      }
+    ]
+  },
   "serviceScope": {
     "notIncluded": [
       "Other source platforms marketed on bichart.ai (IBM Cognos, Qlik, SSRS and others) are outside the federal offering at this time.",
@@ -153,13 +162,13 @@
     },
     {
       "milestone": "Next SOC 2 Type II examination period",
-      "target": "TBD",
-      "status": "tbd",
-      "note": "Date to be published when the next examination period is agreed with the auditor."
+      "target": "2027-02-15",
+      "status": "in-progress",
+      "note": "Examination period 2026-08-16 to 2027-02-15 (Ezzy & Associates LLC, Security criteria). Report expected around March 2027 (auditor estimate)."
     },
     {
       "milestone": "Quarterly progress update",
-      "target": "2027-02",
+      "target": "2027-02-12",
       "status": "in-progress",
       "note": "This record is updated at least quarterly (MKT-IIP-DCP)."
     }
