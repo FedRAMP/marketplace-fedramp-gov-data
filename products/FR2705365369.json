@@ -1,0 +1,133 @@
+{
+  "serviceIdentification": {
+    "providerName": "Cato Networks",
+    "serviceName": "Cato Networks SASE – Commercial",
+    "serviceAcronym": "cato",
+    "serviceDescription": "**Overview.** Cato Networks SASE – Commercial is a cloud-delivered Secure Access Service Edge platform that combines network connectivity, application access and cybersecurity in one centrally managed service. The platform connects distributed offices, remote personnel, data centers and cloud environments. Customers apply consistent security policies as users reach private applications, software-as-a-service (SaaS) applications and internet resources.\n\n**Mission use.** The service supports secure access across dispersed workforces and locations, including remote operations, collaboration and delivery of public services. Customers use it to modernize wide area networks, support cloud migration, consolidate security services and control access to mission and business applications.\n\n**Operation.** Cato operates the service through interconnected Points of Presence (PoPs) that process customer traffic, enforce security policies and provide connectivity across Cato's private backbone.\n\n**Management.** The Cato Management Application (CMA) gives administrators one web interface to configure networking and security policies, manage connectivity, review events and investigate operational and security issues.\n\n**Connectivity.** Customers connect cloud environments through Cato virtual Sockets (vSockets), IPsec tunnels or supported cloud interconnects. Remote personnel connect through the Cato VPN Client or browser-based clientless access for supported applications. Physical Cato Socket appliances can be used to connect customer locations to the service.\n\n**Security category.** The Cato Networks SASE – Commercial service, including all services listed below as components of the Cato SASE platform, is categorized FIPS 199 High.",
+    "certificationType": "20x",
+    "fedRampPackageId": "CatoNetworks",
+    "ueiNumber": "F38DSSB1NCW9",
+    "website": "https://www.catonetworks.com",
+    "logo": "https://www.catonetworks.com/wp-content/uploads/2026/09/cato_logo_rgb_color_art_101.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Analytics",
+      "Cybersecurity & Risk Management",
+      "Data Management",
+      "Network Management",
+      "Operations Management",
+      "System Administration",
+      "Virtual Private Network (VPN)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://security.catonetworks.com/",
+      "repositoryDescription": "Cato Networks Trust Center: security and compliance documents, including the SOC 2 Type II report, NIST SP 800-53 Rev. 5 attestation, ISO certifications, FedRAMP 20x related materials, security policies, security FAQs, compliance badges and vulnerability disclosure information.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "The landing page is public and requires no login. To request access to documents that are not publicly viewable, select “Get Access” at the top of the page and follow the prompts. Cato checks whether an NDA is already in place and, if so, approves access. Otherwise an NDA is sent to the requestor, and access is granted once it is executed."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://knowledge.catonetworks.com/",
+      "repositoryDescription": "Product documentation and help articles for the Cato SASE platform, including configuration guides, client downloads and release summaries, and product updates.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Documentation Overview"
+        ],
+        "url": "https://security.catonetworks.com/",
+        "repositoryDescription": "FedRAMP Class A Certification Package for Cato Networks SASE – Commercial: Certification Package Overview; implementation, validation and assessment information for each applicable FedRAMP rule and Key Security Indicator; an Ongoing Certification Report; and the SOC 2 Type II materials (complete report, bridge or gap letter if applicable, verified audit engagement documentation, estimated schedule for the upcoming report, and supplemental compliance evidence if applicable).",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "The landing page is public and requires no login. To request access to documents that are not publicly viewable, select “Get Access” at the top of the page and follow the prompts. Cato checks whether an NDA is already in place and, if so, approves access. Otherwise an NDA is sent to the requestor, and access is granted once it is executed."
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-02-20"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "Andrew Turner",
+      "contactEmail": "andrew.turner@catonetworks.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Patrick Newcomb, GRC FedRAMP Lead",
+      "contactEmail": "patrick.newcomb@catonetworks.com"
+    }
+  ],
+  "assessor": {
+    "name": "A-Lign",
+    "assessorID": "138665"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Cato SASE Base Platform",
+      "serviceDescription": "Connects sites, data centers and cloud environments through the Cato Cloud with optimized, resilient connectivity, centralized management and policy enforcement. Connectivity options: Socket, vSocket, IPsec, App Connector and Cloud Interconnect. Socket-connected sites include the LAN Firewall service for traffic between local segments."
+    },
+    {
+      "serviceName": "Zero Trust Network Access (ZTNA)",
+      "serviceDescription": "Identity-based, application-specific access policies that use device context to grant personnel access to the resources they need."
+    },
+    {
+      "serviceName": "AI Security for Users",
+      "serviceDescription": "Discovery, observability and policy enforcement for user interactions with public AI services accessed through the Cato Cloud."
+    },
+    {
+      "serviceName": "AI Security for Applications",
+      "serviceDescription": "Runtime security, governance and compliance for internally developed AI applications and self-built agents."
+    },
+    {
+      "serviceName": "Assets Security",
+      "serviceDescription": "Device identification, classification and control across LAN and Cato Cloud environments, including micro-segmentation to enforce zero trust within LANs."
+    },
+    {
+      "serviceName": "Cloud Access Security Broker (CASB)",
+      "serviceDescription": "Visibility and control over cloud and SaaS use: discovers application usage, assesses risk and enforces granular policies on access and data usage, including controls on sanctioned and unsanctioned services."
+    },
+    {
+      "serviceName": "Data Loss Prevention (DLP)",
+      "serviceDescription": "Detects and prevents unauthorized exposure of sensitive data across the Cato Cloud; inspects content and applies policies to detect or restrict transfers through supported applications and traffic flows."
+    },
+    {
+      "serviceName": "Threat Prevention",
+      "serviceDescription": "Real-time, inline inspection and enforcement for traffic from sites, remote users and cloud resources, combining intrusion prevention, malware prevention and DNS security against known, unknown and evasive threats."
+    },
+    {
+      "serviceName": "Advanced Threat Prevention (ATP)",
+      "serviceDescription": "Enhanced protection against advanced and unknown threats for traffic across the Cato Cloud."
+    },
+    {
+      "serviceName": "Agentic Threat Prevention (AGTP)",
+      "serviceDescription": "Stops agentic attacks powered by frontier AI models, using autonomous AI agents to analyze behavioral signals, identify likely next steps in the kill chain and tailor protections dynamically."
+    },
+    {
+      "serviceName": "Digital Experience Monitoring (DEM)",
+      "serviceDescription": "Visibility into user and application experience, with monitoring, performance analysis and troubleshooting of users, applications and network paths."
+    },
+    {
+      "serviceName": "Firewall as a Service (FWaaS)",
+      "serviceDescription": "Controls traffic between locations, users, applications and internet destinations, with application-aware policies and segmentation to limit lateral movement."
+    },
+    {
+      "serviceName": "Secure Web Gateway (SWG)",
+      "serviceDescription": "Governs access to websites and web applications through URL filtering, application controls and inspection of web traffic, including encrypted traffic where configured."
+    },
+    {
+      "serviceName": "Software-Defined Wide Area Networking (SD-WAN)",
+      "serviceDescription": "Encrypted connectivity between offices, data centers and cloud environments, with traffic prioritization and path selection for performance and resilience."
+    }
+  ],
+  "ZD_frid_retro": "FR2705365369",
+  "id_matches_expected": false
+}

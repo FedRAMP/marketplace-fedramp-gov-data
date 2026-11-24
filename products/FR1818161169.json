@@ -1,12 +1,12 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "FR1818161169",
     "providerName": "MuleSoft",
     "serviceName": "MuleSoft Government Cloud",
-    "serviceAcronym": "MuleSoft Government Cloud",
-    "serviceDescription": "MuleSoft's Anypoint Platform is a hybrid platform for designing, developing and managing APIs and integrations.\n\nUniquely built as a single solution, it includes integration Platform as a Service (iPaaS) functionality combined with world class API Management, which provide users with end to end automation, enterprise messaging, advanced user and role based management, services/tools for providing API and integration analytics and management, API design and publishing tools, and the ability to share and collaborate on API specifications, code snippets and templates of best practices.",
+    "serviceAcronym": "MSGov",
+    "serviceDescription": "MuleSoft's Anypoint Platform is a hybrid platform for designing, developing and managing APIs and integrations. Uniquely built as a single solution, it includes integration Platform as a Service (iPaaS) functionality combined with world class API Management, which provide users with end to end automation, enterprise messaging, advanced user and role based management, services/tools for providing API and integration analytics and management, API design and publishing tools, and the ability to share and collaborate on API specifications, code snippets and templates of best practices.",
     "certificationType": "Rev5",
-    "website": "https://www.mulesoft.com/integration-solutions/soa/government",
+    "fedRampPackageId": "FR1818161169",
+    "website": "https://www.mulesoft.com/government",
     "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/MuleSoft%20Logo.png"
   },
   "serviceProperties": {
@@ -18,7 +18,25 @@
       "Collaboration",
       "Development Tools",
       "Operations Management"
-    ]
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "System Authorization Documentation"
+      ],
+      "url": "https://publicsector-compliance-us.my.salesforce.com/",
+      "repositoryDescription": "Salesforce's Public Sector Documentation Portal hosts MuleSoft Government Cloud compliance materials.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "https://help.salesforce.com/s/articleView?id=ind.government_cloud_access_documentation.htm&type=5"
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.mulesoft.com/gov-cloud/gov-cloud-secure-configuration-fedramp",
+      "repositoryDescription": "Secure Configuration Guidance is available on MuleSoft's public facing doc site.",
+      "authenticationRequired": false
+    },
+    "nextOngoingCertificationReportDate": "2027-12-02"
   },
   "contactInformation": [
     {
@@ -26,22 +44,38 @@
       "contactEmail": "Public.Sector.Compliance@salesforce.com"
     },
     {
-      "contactType": "Sales"
+      "contactType": "Sales",
+      "contactPhone": "1-844-807-8829"
     }
   ],
   "assessor": {
     "name": "Coalfire Systems, Inc.",
     "assessorID": "138514"
   },
+  "certifiedServices": [
+    {
+      "serviceName": "MuleSoft Any Point Platform",
+      "serviceDescription": "MuleSoft’s Anypoint Platform provides a complete solution for developers to build an application network, i.e., to include a network of applications, data and devices connected with APIs to make them pluggable and reusable across many services.",
+      "dateAvailable": "2019-07-31"
+    }
+  ],
   "thirdPartyInformationResources": {
     "certified": [
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2607452240",
-        "useCase": ""
+        "fedRampCertifiedThirdPartyInformationResource": "FR1918740338",
+        "useCase": "MuleSoft utilizes Sumo Logic as a log aggregation tool to capture, index, and correlate real-time data into a searchable repository from which it can generate graphs, reports, alerts, dashboards and visualizations. The service is used for system and application log aggregation. The use of Sumo Logic is dedicated to MSGov. Sumo Logic is configured and used in alignment with FedRAMP requirements as described within this SSP."
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1825941347A",
-        "useCase": ""
+        "fedRampCertifiedThirdPartyInformationResource": "FR1807853629A",
+        "useCase": "MuleSoft uses CrowdStrike as a centrally managed antivirus protection and endpoint detection and response platform. This service is used to provide system visibility across the environment, anti-virus protection, endpoint detection and response, and security response control during incidents or investigations."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2120962552",
+        "useCase": "MuleSoft uses LaunchDarkly for its feature flagging capability. Data sent to and from this service is limited to the custom name of the feature flag, the status of the flag (“on”/”off”), and a Unique User Identifier (UUID). No customer data or critical system data will leave the boundary through this service. The use of LaunchDarkly is dedicated to the MSGov. LaunchDarkly is configured and used in alignment with FedRAMP requirements as described within this SSP."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "MuleSoft uses AWS GovCloud as its IaaS provider."
       }
     ]
   },

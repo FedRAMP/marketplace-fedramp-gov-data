@@ -1,43 +1,157 @@
 {
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-11-19T00:00:00.000Z",
+    "updateSource": "Nozomi Networks Inc. POC",
+    "responsibleOfficial": {
+      "name": "Karen Meohas",
+      "title": "Information System Security Officer",
+      "email": "karen.meohas@nozominetworks.com"
+    }
+  },
   "serviceIdentification": {
     "fedRampPackageId": "FR2602138115",
+    "ueiNumber": "GVLPML92XBQ3",
     "providerName": "Nozomi Networks Inc.",
     "serviceName": "Vantage for Government",
-    "serviceAcronym": "Vantage for Government",
-    "serviceDescription": "Vantage for Government is an AI-powered OT/IoT cyber-resilience platform specifically designed to meet the security needs of federal agencies and critical infrastructure operators. It delivers unified asset visibility, threat detection and response, and risk management capabilities for OT, IoT and IT environments. \r\n \r\n1. Asset Visibility \r\n1.a. Asset Inventory: The platform combines passive, active and host-based data collection with AI-driven analysis and enrichment. This provides visibility across wired, wireless, and endpoint environments. Integrations with third-party systems and external files consolidate asset data into a single platform. \r\n1.b. Vulnerability and Exposure Management: The platform provides non-intrusive OT/IoT vulnerability detection with prioritized remediation recommendations based on exploitability and operational impact. \r\n \r\n2. Threat Detection and Response  \r\n2.a. Threat Detection: The platform continuously monitors network and endpoint activity using built-in detection rules and OT/IoT-specific threat intelligence to detect ransomware, state-sponsored activity and hacktivist campaigns. AI-driven correlation reduces alert fatigue by delivering actionable, prioritized alerts. \r\n2.b. Process Anomaly Detection: The platform extracts commands and process telemetry through deep packet inspection of OT/IoT protocols. It establishes baselines and detects anomalies (including unknown threats) in process telemetry, control commands and device behavior. \r\n2.c. AI-Driven Remediation Recommendations: The AI engine correlates alerts and recommends mitigation actions based on operational context and defined workflows. \r\n2.d. Response Actions: The platform can automate response actions, such as enforcing network rules and isolating hosts, through integrations with SIEM, SOAR, firewalls and other SOC tools, or directly at the endpoint. \r\n2.e. Customizable Playbooks: User-defined playbooks and workflows standardize manual incident response across security and operations teams. They help teams share context and maintain timely communication. \r\n \r\n3. Risk Management & Compliance \r\n3.a. Measurable Risk: The platform provides customizable, multifactor risk scoring at the asset, zone, site and enterprise levels. Risk scores are assessed using asset inventory, network mapping, vulnerability detection, threat intelligence, and operational significance. \r\n3.b. Risk Mitigation: The platform supports risk mitigation through prioritized remediation recommendations based on operational impact and asset criticality. \r\n3.c. Compliance & Risk Monitoring: Dashboards with real-time risk trends, site-level accountability, industry benchmarks and compliance controls help teams communicate risk across the organization.",
+    "serviceAcronym": "NNVG",
+    "serviceDescription": "Vantage for Government is an AI-powered OT/IoT cyber-resilience platform specifically designed to meet the security needs of federal agencies and critical infrastructure operators. It delivers unified asset visibility, threat detection and response, and risk management capabilities for OT, IoT and IT environments. \n\nAsset Visibility \n\n1.a. Asset Inventory: The platform combines passive, active and host-based data collection with AI-driven analysis and enrichment. This provides visibility across wired, wireless, and endpoint environments. Integrations with third-party systems and external files consolidate asset data into a single platform. \n\n1.b. Vulnerability and Exposure Management: The platform provides non-intrusive OT/IoT vulnerability detection with prioritized remediation recommendations based on exploitability and operational impact. \n\nThreat Detection and Response \n\n2.a. Threat Detection: The platform continuously monitors network and endpoint activity using built-in detection rules and OT/IoT-specific threat intelligence to detect ransomware, state-sponsored activity and hacktivist campaigns. AI-driven correlation reduces alert fatigue by delivering actionable, prioritized alerts. \n\n2.b. Process Anomaly Detection: The platform extracts commands and process telemetry through deep packet inspection of OT/IoT protocols. It establishes baselines and detects anomalies (including unknown threats) in process telemetry, control commands and device behavior. \n\n2.c. AI-Driven Remediation Recommendations: The AI engine correlates alerts and recommends mitigation actions based on operational context and defined workflows. \n\n2.d. Response Actions: The platform can automate response actions, such as enforcing network rules and isolating hosts, through integrations with SIEM, SOAR, firewalls and other SOC tools, or directly at the endpoint. \n\n2.e. Customizable Playbooks: User-defined playbooks and workflows standardize manual incident response across security and operations teams. They help teams share context and maintain timely communication. \n\nRisk Management & Compliance \n\n3.a. Measurable Risk: The platform provides customizable, multifactor risk scoring at the asset, zone, site and enterprise levels. Risk scores are assessed using asset inventory, network mapping, vulnerability detection, threat intelligence, and operational significance. \n\n3.b. Risk Mitigation: The platform supports risk mitigation through prioritized remediation recommendations based on operational impact and asset criticality. \n\n3.c. Compliance & Risk Monitoring: Dashboards with real-time risk trends, site-level accountability, industry benchmarks and compliance controls help teams communicate risk across the organization. \n\nProduct Use Model : Indirect Use - The product will be included as a third-party information resource in other cloud service offerings that are directly used by agency customers.",
     "certificationType": "Rev5",
-    "website": "https://www.nozominetworks.com/",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Nozomi%20Logo.png",
-    "ueiNumber": "GVLPML92XBQ3"
+    "website": "https://www.fedramp.gov/marketplace/products/FR2602138115/",
+    "logo": "https://cdn.prod.website-files.com/645a4534705010e2cb244f50/647cdfc8e9b140d6c4dd4877_nozomi-logo.svg"
   },
   "serviceProperties": {
     "serviceType": [
       "SaaS"
     ],
-    "deploymentModel": "Government Community Cloud",
+    "deploymentModel": "Government-Only Cloud",
     "businessCategory": [
-      "Analytics",
-      "Collaboration",
-      "Cybersecurity & Risk Management",
-      "Network Management",
-      "Operations Management",
-      "System Administration",
-      "Virtual Private Network (VPN)"
-    ]
+      "Cybersecurity & Risk Management"
+    ],
+    "nextOngoingCertificationReportDate": "2027-06-17",
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.paramify.com/nozomi-networks",
+      "repositoryDescription": "FedRAMP non-anonymous documentation may be requested through the Trust Center. Requests are reviewed, and access is provided on a need-to-know basis.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://technicaldocs.nozominetworks.com/out/pdf-output/Vantage%20for%20Government-Administrator%20Guide.pdf",
+      "repositoryDescription": "Product-specific documentation is available through Nozomi Networks documentation resources at nozominetworks.com.",
+      "authenticationRequired": false
+    }
   },
   "contactInformation": [
     {
-      "contactType": "Security",
-      "contactEmail": "fedramp@nozominetworks.com"
+      "contactType": "Prepared By",
+      "contactName": "Nozomi Networks Inc.",
+      "contactEmail": "karen.meohas@nozominetworks.com"
+    },
+    {
+      "contactType": "System Owner",
+      "contactName": "Philip Trainor",
+      "contactEmail": "philip.trainor@nozominetworks.com"
+    },
+    {
+      "contactType": "Authorizing Official Point of Contact",
+      "contactName": "Chris Harrell",
+      "contactEmail": "christopher.harrell@nnsa.doe.gov"
     },
     {
       "contactType": "Sales",
+      "contactName": "Bill Aubin",
       "contactEmail": "bill.aubin@nozominetworks.com"
+    },
+    {
+      "contactType": "Authorizing Official",
+      "contactName": "Federal Risk and Authorization Management Program Program Management Office"
+    },
+    {
+      "contactType": "Information System Security Officer",
+      "contactName": "Karen Meohas",
+      "contactEmail": "karen.meohas@nozominetworks.com"
+    },
+    {
+      "contactType": "Prepared For",
+      "contactName": "Nozomi Networks Inc.",
+      "contactEmail": "karen.meohas@nozominetworks.com"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "FedRAMP Security Team",
+      "contactEmail": "fedramp@nozominetworks.com"
+    },
+    {
+      "contactType": "Content Approver",
+      "contactName": "Karen Meohas",
+      "contactEmail": "karen.meohas@nozominetworks.com"
+    },
+    {
+      "contactType": "FedRAMP PMO"
     }
   ],
   "assessor": {
     "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
     "assessorID": "138665"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Vantage for Government",
+      "serviceDescription": "Vantage for Government is an AI-powered OT/IoT cyber-resilience platform specifically designed to meet the security needs of federal agencies and critical infrastructure operators. It delivers unified asset visibility, threat detection and response, and risk management capabilities for OT, IoT and IT environments. \n\nAsset Visibility \n\n1.a. Asset Inventory: The platform combines passive, active and host-based data collection with AI-driven analysis and enrichment. This provides visibility across wired, wireless, and endpoint environments. Integrations with third-party systems and external files consolidate asset data into a single platform. \n\n1.b. Vulnerability and Exposure Management: The platform provides non-intrusive OT/IoT vulnerability detection with prioritized remediation recommendations based on exploitability and operational impact. \n\nThreat Detection and Response \n\n2.a. Threat Detection: The platform continuously monitors network and endpoint activity using built-in detection rules and OT/IoT-specific threat intelligence to detect ransomware, state-sponsored activity and hacktivist campaigns. AI-driven correlation reduces alert fatigue by delivering actionable, prioritized alerts. \n\n2.b. Process Anomaly Detection: The platform extracts commands and process telemetry through deep packet inspection of OT/IoT protocols. It establishes baselines and detects anomalies (including unknown threats) in process telemetry, control commands and device behavior. \n\n2.c. AI-Driven Remediation Recommendations: The AI engine correlates alerts and recommends mitigation actions based on operational context and defined workflows. \n\n2.d. Response Actions: The platform can automate response actions, such as enforcing network rules and isolating hosts, through integrations with SIEM, SOAR, firewalls and other SOC tools, or directly at the endpoint. \n\n2.e. Customizable Playbooks: User-defined playbooks and workflows standardize manual incident response across security and operations teams. They help teams share context and maintain timely communication. \n\nRisk Management & Compliance \n\n3.a. Measurable Risk: The platform provides customizable, multifactor risk scoring at the asset, zone, site and enterprise levels. Risk scores are assessed using asset inventory, network mapping, vulnerability detection, threat intelligence, and operational significance. \n\n3.b. Risk Mitigation: The platform supports risk mitigation through prioritized remediation recommendations based on operational impact and asset criticality. \n\n3.c. Compliance & Risk Monitoring: Dashboards with real-time risk trends, site-level accountability, industry benchmarks and compliance controls help teams communicate risk across the organization."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "Amazon US East/West is a multi-tenant public cloud for Federal, State and Local Government customers, as well as commercial customers, designed to meet a wide range of regulatory requirements, to include government compliance and security requirements. AWS leverages the Infrastructure-as-a-Service (IaaS) cloud computing model, which enables convenient, on-demand Internet access to a shared pool of configurable computing resources such as servers, storage, network infrastructure, and various other web services. Customers can rapidly provision or release computing resources on demand. Federal agencies interested in collaborative continuous monitoring with AWS should reach out to: aws-collaborative-conmon@amazon.com"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047866",
+        "useCase": "AWS GovCloud (US) is an AWS Region designed to allow US government agencies and customers supporting the US government to move more sensitive workloads into the cloud. In addition to complying with FedRAMP requirements, the AWS GovCloud (US) framework adheres to U.S. International Traffic in Arms Regulations (ITAR) regulations. Additional information is available at http://aws.amazon.com/govcloud-us/. Federal agencies interested in collaborative continuous monitoring with AWS should reach out to: aws-collaborative-conmon@amazon.com"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603087869",
+        "useCase": "Microsoft Azure Government is an open and flexible cloud platform that enables customers to quickly build, test, deploy, and manage their applications, services, and product development across a network of Microsoft-managed datacenters within the United States. The Microsoft Azure Government exports savings to the customer by delivering the software, platform, and information technology infrastructure resources where and when it is needed via the Internet. Microsoft Azure Government is used for building, deploying, and managing applications and services through a network of Microsoft-managed data centers. It provides Software as a Service (SaaS), Platform as a Service (PaaS), and Infrastructure as a Service (IaaS) and supports many different programming languages, tools, and frameworks, including both Microsoft-specific and third-party software and systems. The advantages of using Microsoft Azure Government include the ability to build large scalable applications serving large populations of users by scaling up or scaling down in relatively short periods of time. Federal agencies interested in collaborative continuous monitoring with Microsoft should reach out to: AzureCollabConMon@microsoft.com"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2023864279A",
+        "useCase": "Datadog is an AI-powered observability and security platform that unifies metrics, traces, logs, security signals, and more across your stack into a single pane of glass. Observe any stack at any scale, secure applications from code to cloud, and act faster with automated workflows all in Datadog. Streamline collaboration between Development, Operations, and Security teams with AI-powered insights and automated remediation for faster troubleshooting and improved system health and security. Datadog for Government extends these capabilities to U.S. government agencies, educational institutions, and the organizations that support them. Hosted on AWS GovCloud, it supports hybrid, multi-cloud, and on-prem environments. Federal, state, and local teams can accelerate IT modernization, strengthen security posture, and support initiatives like Zero Trust and cloud migration-delivering secure, reliable digital services with confidence. The services in scope for Datadog for Government are: Infrastructure Metrics - Observe, analyze, and alert on metrics across hosts, containers, and cloud environments. Cloud Network Monitoring - Provide multi-cloud visibility into network flows in granular detail and enable users to aggregate and monitor that data. Network Device Monitoring - Monitor the health and performance of network devices such as routers, switches, and firewalls. Cloud Cost Management - Analyze and optimize cloud spend with visibility into resource usage and cost drivers. Application Performance Monitoring (APM) - Collect, search, and analyze traces across fully distributed architectures. Continuous Profiler - Continuously analyze code-level performance to identify resource bottlenecks and optimize application efficiency. Serverless Monitoring - Monitor the performance and execution of serverless functions across cloud environments. Database Monitoring - Provide visibility into database performance, query activity, and resource utilization. Log Management - Collect, enrich, monitor, and analyze logs from all systems for troubleshooting, auditing, visualization, and alerting. Error Tracking - Capture, visualize, and browse errors reported by services. Sensitive Data Scanner - Identify and monitor sensitive data within logs to support compliance and data protection requirements. Audit Trail - Track user activity and configuration changes for auditing and compliance purposes. Archive Search - Enable long-term retention and search of log data for compliance and forensic analysis. Cloud Security Monitoring - Enable real time threat detection and investigate security alerts across infrastructure metrics, distributed traces, and logs. This capability encompasses Cloud SIEM, Cloud Workload Security, Cloud Security Platform Monitoring, and Cloud Security Vulnerability Management. Real User Monitoring (RUM) - Collect user actions (e.g., button clicks) to understand user activity within a page. Session Replay - Reconstruct user sessions to visually analyze user behavior and troubleshoot issues. Synthetic Monitoring - Monitor applications and API endpoints via simulated user requests and browser rendering. Incident Management - Detect, manage, and respond to incidents with workflows for alerting, collaboration, and resolution. Mobile Application - Access the Datadog platform from mobile devices."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
+        "useCase": "GitHub is a collaborative development platform inspired by the way you work. From open source (https://github.com/open-source) to business (https://github.com/business), you can plan, build, review, and ship software at work - all while tracking bugs and discussing ideas. You can securely develop your organization's software on GitHub, whether you work for a small startup or a large agency."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2116544598A",
+        "useCase": "Keeper ICAM & Identity Security Platform for Government is a cloud-native platform built on zero-trust and zero-knowledge principles that secures access for human and non-person entities across servers, web applications and databases. It unifies password and credential management, secrets management, privileged access management, secure remote access, session monitoring and recording, and remote browser isolation in one platform, delivering the credential, privileged access, secrets, and non-person-entity pillars of ICAM. Authorized at the FedRAMP High baseline, Keeper ICAM & Identity Security Platform for Government continuously verifies every access request regardless of location or device, and simplifies compliance with delegated administration, enforcement policies, event tracking and customizable audit logs."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2201340492",
+        "useCase": "The KnowBe4 Platform includes the following in-scope: KSAT Learning Management System and all included training content (ModStore, Compliance Plus), KSAT Simulated Phishing Platform, PhishER / PhishER Plus, Phish Alert Button, SecurityCoach (SCH) and AI Defense Agents (AIDA) (excluding AIDA Deepfakes). KnowBe4 products currently excluded from scope: Free Tools (SecondChance, RanSim, Password Exposure Test, Weak Password Test, Breached Password Test, Browser Password Inspector), AIDA Deepfakes, KCES (KnowBe4 Cloud Email Security of Defend / Prevent), Protect, Workspace and Webform. KSAT (KnowBe4 Security Awareness Training), which includes security awareness training and simulated phishing, is designed to provide users with an interactive platform to better manage IT security problems of social engineering, spear-phishing, and ransomware attacks. The ModStore and Compliance Plus are libraries of available training modules that can be used within the KSAT platform or in external learning management systems. PhishER (and its add-on PhishER Plus) is a Security Orchestration, Automation, and Response (SOAR) platform that can be used to manage emails that KSAT users report as suspicious or malicious. The purpose of this platform is to provide an organization with a way to evaluate suspicious emails making it through to the inbox of users. SecurityCoach (SCH) helps strengthen your organization's security culture by delivering immediate feedback to your users at the moment risky behavior occurs. AI Defense Agents (AIDA) is a suite of AI Agents for human risk management that continuously automates administration and content personalization so security teams can focus on strategic risk decisions rather than operational tasks. Each included AIDA Agent is optional to enable. The Phish Alert Button (PAB) is an optional component placed in the inbox of a customer end user. This allows end users to report a suspected phishing simulation and any suspicious email message to their security team. The PAB integrates with KSAT and PhishER / PhishER Plus. KnowBe4 products share a central configuration and authentication settings area located within the KnowBe4 Platform. This is included in scope and is used throughout the KnowBe4 suite of products."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "MSO365MTA",
+        "useCase": "Microsoft 365 (M365) Government Community Cloud (GCC) is a suite of cloud-hosted messaging and collaboration services to meet the unique and evolving requirements of the United States Federal, State, Local, and Tribal governments, as well as contractors holding or processing data on behalf of the US Government. These cloud-based services are designed to provide organizations with streamlined communication, high availability, comprehensive security, and simplified information technology (IT) management. M365 GCC provides the interactivity of on-premises client and server applications with the flexibility and scalability of web-based services. M365 GCC leverages Azure Government as the IaaS/PaaS for the underlying infrastructure and hardware. Therefore, M365 GCC relies on Azure Government-inherited services. For more information on these Azure Government services, refer to the Azure Government ATO package. Federal agencies interested in collaborative continuous monitoring with Microsoft should reach out to: M365CollabConMon@microsoft.com"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1824057433",
+        "useCase": "Microsoft 365 (M365) Government Community Cloud-High (GCC-H) is a product family of cloud-hosted messaging and collaboration services. These cloud-based services are designed to provide organizations with streamlined communication, high availability, comprehensive security, and simplified information technology (IT) management. M365 GCC-H provides the interactivity of on-premises client and server applications with the flexibility and scalability of web-based services. M365 leverages Azure as the IaaS/PaaS for the underlying infrastructure and hardware. Therefore, M365 relies on Azure-inherited services. For more information on these Azure services, refer to the Azure ATO package. Federal agencies interested in collaborative continuous monitoring with Microsoft should reach out to: M365CollabConMon@microsoft.com"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2428769635XL",
+        "useCase": "The Paramify Cloud (Paramify) is a software platform that automates risk management processes - including compliance planning, solution implementation, gap assessments, and continuous reporting - for cloud service providers, government agencies, and members of the Defense Industrial Base (DIB). Trusted by leading CSPs like Adobe, Cisco, Trellix, Palo Alto Networks, and Flock Safety. Living Gap Assessment Visualize compliance progress with Paramify's intuitive real-time dashboard. Track controls, manage gaps, and easily organize people, places, and components, ensuring audit readiness for FedRAMP 20X, GovRAMP, and other frameworks. Instant Audit-Ready Documentation Automate compliance, generate audit-ready deliverables like System Security Plans (SSPs), POA&Ms, and Customer Responsibility Matrices in days, not months. Continuously validate compliance with real-time automated validation tools for FedRAMP 20X and other frameworks. Fast, Cost-Effective Monitoring Continuously monitor, validate, and report compliance 90% faster at a quarter of the cost. Paramify's automated tools and Evidence Repository simplify compliance, reducing costs and enhancing efficiency. Integrated with issue management tools like Jira, it streamlines workflows, helping you meet tight deadlines."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2003061248",
+        "useCase": "Salesforce is the #1 CRM, enabling public sector organizations to modernize service. Salesforce helps public sector organizations to transform digital service delivery, achieve faster time to value, and improve mission success with automation tools, purpose-built solutions, and smart insights that help move the mission forward - all within a compliant cloud environment. Government Cloud Plus is a dedicated instance of Salesforce's industry leading Platform as a Service (PaaS) and Software as a Service (SaaS) applications, enabling organizations to scale and secure apps on an authorized government cloud so they can accelerate mission success. Government Cloud Plus has been designed to provide high levels of performance, reliability, and security. Learn more at Salesforce.com/Government A list of current in-scope Salesforce products included in the authorization boundary is available at: https://help.salesforce.com/s/articleView?id=000384503&type=1"
+      }
+    ]
   },
   "ZD_frid_retro": "FR2602138115",
   "id_matches_expected": true

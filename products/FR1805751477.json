@@ -1,19 +1,20 @@
 {
   "serviceIdentification": {
     "fedRampPackageId": "FR1805751477",
+    "ueiNumber": "NQV3T7DDKNT6",
+    "serviceName": "Google Services (Google Cloud Platform Products and Underlying Infrastructure)",
+    "serviceDescription": "The Google Services offering consists of two primary layers: Google Cloud Platform (GCP) and Google Common Infrastructure (GCI). The Google Cloud Platform is made up of customer facing services. The services within the Google Cloud Platform sit on top of Google Common Infrastructure, which is infrastructure private to Google that is responsible for the implementation of common controls for all Google service offerings. These two pieces work together to provide the Google Services offering. GCP is an extensive suite of products from Google-controlled development environments to customer-managed environments (e.g. Google Compute Engine) offering flexibility via fully customizable virtual machines and utilization of other services like: fully-managed databases and data analytics tools, networking services including virtual load balancing and virtual private cloud solutions, access management tools, Cloud project management tools, machine learning capabilities, and developer tools. Assured Workloads is a GCP feature which turns on specific project configurations per the target compliance regime for customers. Products discretely integrate with Assured Workloads and enforce the organization policies themselves. The entire authorized security boundary of Google Services is documented, assessed, and managed against the FedRAMP High baseline of security and privacy controls. Services that are denoted with an asterisk (*) do not meet the SA-9(5) requirement. Please review the JAB P-ATO letter for more information.",
     "providerName": "Google",
-    "serviceName": "Google Services (Google Cloud Platform Products and underlying Infrastructure)",
-    "serviceAcronym": "Google Services (Google Cloud Platform Products and underlying Infrastructure)",
-    "serviceDescription": "The Google Services offering consists of two primary layers: Google Cloud Platform (GCP) and Google Common Infrastructure (GCI). The Google Cloud Platform is made up of customer facing services. The services within the Google Cloud Platform sit on top of Google Common Infrastructure, which is infrastructure private to Google that is responsible for the implementation of common controls for all Google service offerings. These two pieces work together to provide the Google Services offering.\n\nGCP is an extensive suite of products from Google-controlled development environments to customer-managed environments (e.g. Google Compute Engine) offering flexibility via fully customizable virtual machines and utilization of other services like: fully-managed databases and data analytics tools, networking services including virtual load balancing and virtual private cloud solutions, access management tools, Cloud project management tools, machine learning capabilities, and developer tools.\n\nAssured Workloads is a GCP feature which turns on specific project configurations per the target compliance regime for customers. Products discretely integrate with Assured Workloads and enforce the organization policies themselves.\n\n** The entire authorized security boundary of Google Services is documented, assessed, and managed against the FedRAMP High baseline of security and privacy controls. Services that are denoted with an asterisk (*) do not meet the SA-9(5) requirement. Please review the JAB P-ATO letter for more information.",
+    "serviceAcronym": "GCP/GCI",
     "certificationType": "Rev5",
     "website": "https://cloud.google.com/",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Google%20Logo.png"
+    "logo": "https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
   },
   "serviceProperties": {
     "serviceType": [
-      "SaaS",
+      "IaaS",
       "PaaS",
-      "IaaS"
+      "SaaS"
     ],
     "deploymentModel": "Public Cloud",
     "businessCategory": [
@@ -27,995 +28,697 @@
       "Storage",
       "System Administration",
       "Virtual Private Network (VPN)"
-    ]
+    ],
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.cloud.google.com/docs/security/compliance/fedramp-implementation-guide",
+      "repositoryDescription": "A comprehensive guide to implementing and managing FedRAMP (Federal Risk and Authorization Management Program) compliance on Google Cloud. It is primarily written for IT, security, and compliance professionals who are responsible for ensuring that their Google Cloud environments meet federal security standards.",
+      "authenticationRequired": false
+    }
   },
   "contactInformation": [
     {
       "contactType": "Security",
-      "contactEmail": "fedramp+services@google.com"
+      "contactName": "Google FedRAMP Security Team",
+      "contactEmail": "fedramp+services@google.com",
+      "contactPhone": "650-253-0000"
     },
     {
-      "contactType": "Sales"
+      "contactType": "Sales",
+      "contactName": "Google FedRAMP Sales Team",
+      "contactEmail": "fedramp@google.com",
+      "contactPhone": "650-253-0000"
     }
   ],
   "assessor": {
     "name": "Coalfire Systems, Inc.",
     "assessorID": "138514"
   },
-  "thirdPartyInformationResources": {
-    "certified": [
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2425960757",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2214062312",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2431264500",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2412062433",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1814168113",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2226322745",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1918442180",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2424553196",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2504148525",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "F1212191840A",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2000939520",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2125059322",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "F1605107897",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2014656304",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2000863987A",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1706403967",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2234550858",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2325657620",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2200507410",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "F1206111371",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1807853629A",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2100845343",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2414718666",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1814557199",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2410060106",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2004446306",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2510664395",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1932554201",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1834348080",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1918150046",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2031155471",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2212912561",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1927682057",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2226144516",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1910758409",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2234963115",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2119265538",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2105946715",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1913470600",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "F1606097904A",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1722838693",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2309954376",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2204842850",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2234256499",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2214346691",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2033152148",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2035740126",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1722532017",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2130949241",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2134635186",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1901136437",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2213647361",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2215045786",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2009746321",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "F1605037894",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2433985791",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1825232355A",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2103344623",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1726564822",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1821856903",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1720454205",
-        "useCase": ""
-      }
-    ]
-  },
   "certifiedServices": [
     {
       "serviceName": "AI Protection",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Suite of security controls safeguarding AI systems, foundation models, and agent workflows from data poisoning, prompt attacks, and abuse."
     },
     {
       "serviceName": "Access Approval*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Cloud governance control requiring explicit customer approval before Google administrators can access customer data during support operations."
     },
     {
       "serviceName": "Access Context Manager",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Zero-trust security tool enabling administrators to define fine-grained contextual access levels based on IP, device, and identity."
     },
     {
       "serviceName": "Access Transparency",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Security and governance feature providing real-time audit logs when Google personnel access customer data for maintenance or support."
     },
     {
       "serviceName": "Admin Console",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Centralized web-based administrative console for deploying, configuring, monitoring, and managing Google Cloud resources."
     },
     {
       "serviceName": "Agent Assist",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Real-time conversational AI system empowering customer support agents with automated response suggestions and knowledge lookup."
+    },
+    {
+      "serviceName": "Agent Designer",
+      "serviceDescription": "Agent Designer is the no-code toolset within the Gemini Enterprise UI that allows customers to build, customize, and manage AI agents using natural language."
     },
     {
       "serviceName": "Agent Search on Gemini Enterprise Agent Platform (formerly Vertex AI Search)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Enterprise search platform that indexes structured and unstructured data to provide generative AI answers with grounding and citations."
     },
     {
       "serviceName": "AlloyDB",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Fully managed PostgreSQL-compatible database service engineered for demanding enterprise transactional and analytical workloads."
     },
     {
       "serviceName": "Apigee",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Comprehensive API management platform for designing, securing, analyzing, and scaling APIs across hybrid and multi-cloud environments."
     },
     {
       "serviceName": "App Engine",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Fully managed Platform as a Service (PaaS) for building and scaling web applications and APIs without managing server infrastructure."
     },
     {
       "serviceName": "App Hub",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Centralized application management dashboard organizing cloud resources into cohesive business applications and service boundaries."
     },
     {
       "serviceName": "Application Integration",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Enterprise integration platform as a service (iPaaS) offering visual workflows to connect cloud and on-premises applications without code."
     },
     {
       "serviceName": "Artifact Analysis",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Vulnerability scanning and metadata storage service that automatically scans container images in Artifact Registry for vulnerabilities."
     },
     {
       "serviceName": "Artifact Registry (replaced Container Registry)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Unified package management service for storing, managing, and securing container images, language packages, and OS artifacts."
     },
     {
       "serviceName": "Assured Open Source Software (Assured OSS)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Security service providing curated, tested, and Google-vetted open source software packages with verifiable provenance."
     },
     {
       "serviceName": "Assured Workloads",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Security and compliance management platform that automates regulatory compliance baselines (e.g. FedRAMP, CJIS, IL4/IL5)."
+    },
+    {
+      "serviceName": "Attribute Calculator",
+      "serviceDescription": "Security infrastructure service that evaluates contextual attributes (such as device posture, IP, and location) to enforce fine-grained, attribute-based access control."
     },
     {
       "serviceName": "Audit Manager",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Governance tool that automates audit evidence collection, control validation, and compliance reporting against industry standards."
+    },
+    {
+      "serviceName": "AutoML Tables",
+      "serviceDescription": "AutoML Tables is a managed Vertex AI service that lets customers automatically train and deploy machine learning models on structured (tabular) and time-series data without writing model code."
     },
     {
       "serviceName": "Backup and DR Service",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Centralized data protection service managing policy-driven backup, disaster recovery, and ransomware protection for cloud workloads."
     },
     {
       "serviceName": "Backup for GKE",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Dedicated data protection service providing scheduled, policy-based backup and recovery for Kubernetes workloads and persistent volumes."
     },
     {
       "serviceName": "Batch*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Fully managed batch processing service scheduling, provisioning, and executing containerized batch computing jobs at scale."
     },
     {
       "serviceName": "BigQuery",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Serverless, highly scalable enterprise cloud data warehouse designed for fast SQL analytics across massive datasets."
     },
     {
       "serviceName": "BigQuery Data Transfer Service",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
-    },
-    {
-      "serviceName": "Bigtable",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Automated data ingestion service scheduling and executing transfers from SaaS applications and external databases into BigQuery."
     },
     {
       "serviceName": "Binary Authorization",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
-    },
-    {
-      "serviceName": "CX Insights (formerly Conversational Insights)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Deploy-time security control enforcing signature verification and policy compliance before container images can launch in GKE."
     },
     {
       "serviceName": "Certificate Authority Service",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Scalable, private certificate authority service automating the deployment, issuance, and lifecycle management of digital certificates."
     },
     {
       "serviceName": "Certificate Manager",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Unified certificate lifecycle management service enabling provisioning, renewal, and deployment of public and private TLS certificates."
+    },
+    {
+      "serviceName": "Chrome Enterprise Premium",
+      "serviceDescription": "Zero-trust enterprise browser protection service enforcing threat defense, data loss prevention, and access controls within Chrome."
     },
     {
       "serviceName": "Cloud Asset Inventory",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Metadata inventory service providing time-series asset history, resource tracking, and policy search across entire cloud projects."
+    },
+    {
+      "serviceName": "Cloud Bigtable",
+      "serviceDescription": "Fully managed, highly scalable NoSQL database designed for high-throughput, low-latency operational and analytical workloads."
     },
     {
       "serviceName": "Cloud Billing*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Financial management platform and APIs to track, manage, analyze, and optimize Google Cloud resource costs and billing accounts."
     },
     {
       "serviceName": "Cloud Build",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Fully managed serverless continuous integration and continuous delivery (CI/CD) platform executing builds across multiple environments."
     },
     {
       "serviceName": "Cloud CDN*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Low-latency content delivery network leveraging Google's global edge network to cache web and video content close to users."
     },
     {
       "serviceName": "Cloud DNS",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Highly available, resilient, low-latency global Domain Name System (DNS) service with programmatic record management and DNSSEC."
     },
     {
       "serviceName": "Cloud Data Fusion",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
-    },
-    {
-      "serviceName": "Cloud Data Loss Prevention API",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Fully managed visual data integration and ETL service built on CDAP for designing and deploying data transformation pipelines."
     },
     {
       "serviceName": "Cloud Deploy",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Serverless continuous delivery service automating the deployment of containerized applications across GKE, Cloud Run, and Anthos."
     },
     {
       "serviceName": "Cloud Domains",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Domain registration and management service integrated with Google Cloud DNS and billing for streamlined domain ownership."
     },
     {
       "serviceName": "Cloud Endpoints*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "API management system to develop, deploy, secure, and monitor APIs using an OpenAPI specification or gRPC."
     },
     {
       "serviceName": "Cloud Error Reporting*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Real-time application error aggregation service grouping and alerting on runtime stack traces from cloud applications."
     },
     {
       "serviceName": "Cloud External Key Manager (Cloud EKM)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Integration enabling Google Cloud KMS to protect cloud data using cryptographic keys stored in external third-party HSM systems."
     },
     {
       "serviceName": "Cloud Functions for Firebase*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Serverless framework that automatically runs backend code in response to Firebase feature triggers and HTTPS requests."
     },
     {
       "serviceName": "Cloud HSM (Hardware Security Module)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Cloud-hosted FIPS 140-2 Level 3 validated hardware security module service for managing encryption keys without dedicated hardware."
     },
     {
       "serviceName": "Cloud Healthcare API (formerly Cloud Healthcare)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Healthcare-specific data management API supporting FHIR, HL7 v2, and DICOM formats with HIPAA compliance safeguards."
     },
     {
       "serviceName": "Cloud Identity",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Identity as a service (IDaaS) and mobility management solution for managing users, groups, security policies, and device access."
     },
     {
       "serviceName": "Cloud Interconnect",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "High-availability, low-latency network connectivity service extending on-premises or other cloud networks directly to Google Cloud VPCs."
     },
     {
-      "serviceName": "Cloud Intrusion Detection System (Cloud IDS)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceName": "Cloud Intrusion Detection System (Cloud IDS)*",
+      "serviceDescription": "Managed network threat detection system evaluating VPC traffic for intrusions, malware, spyware, and command-and-control activity."
     },
     {
       "serviceName": "Cloud Key Management Service (Cloud KMS)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Centralized cloud service for generating, managing, rotating, and controlling cryptographic keys across Google Cloud services."
     },
     {
       "serviceName": "Cloud Load Balancing: Application Load Balancer",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Global and regional layer 7 load balancer distributing HTTP and HTTPS traffic with SSL offloading and path-based routing."
     },
     {
       "serviceName": "Cloud Load Balancing: Passthrough Network Load Balancer",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "High-throughput, regional layer 4 passthrough load balancer distributing TCP and UDP traffic to backend instances."
     },
     {
       "serviceName": "Cloud Load Balancing: Proxy Network Load Balancer",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Layer 4 reverse-proxy load balancer terminating TCP connections and routing traffic across multi-region backends."
     },
     {
       "serviceName": "Cloud Logging",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Fully managed real-time log ingestion, storage, search, and analysis service for system and application telemetry across Google Cloud."
     },
     {
       "serviceName": "Cloud Monitoring",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Full-stack infrastructure and application monitoring service providing metrics collection, interactive dashboards, and alerting."
     },
     {
       "serviceName": "Cloud NAT (Network Address Translation)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Fully managed network address translation service enabling private VPC instances to access the internet without public IPs."
     },
     {
       "serviceName": "Cloud Natural Language API",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Machine learning service that extracts syntax, sentiment, entities, and content classification from unstructured text."
     },
     {
       "serviceName": "Cloud Next Generation Firewall (Cloud NGFW) - Essentials",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Distributed network firewall offering stateful L3/L4 traffic filtering, threat intelligence filtering, and centralized VPC security policy enforcement."
     },
     {
       "serviceName": "Cloud Next Generation Firewall (Cloud NGFW) - Standard",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Native firewall tier offering stateful inspection, fully qualified domain name (FQDN) filtering, and geolocation filtering."
     },
     {
       "serviceName": "Cloud Profiler*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Continuous CPU and memory profiling tool analyzing production application performance to identify resource-intensive code."
     },
     {
       "serviceName": "Cloud Quotas",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Quota management service providing APIs and console controls to monitor, adjust, and automate service quota allocation."
     },
     {
       "serviceName": "Cloud Router",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Fully distributed virtual router service dynamically exchanging BGP routes between Google Cloud VPCs and external networks."
     },
     {
       "serviceName": "Cloud Run",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Fully managed serverless platform for deploying and automatically scaling containerized microservices and background jobs."
     },
     {
       "serviceName": "Cloud SDK",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Command-line tools and client libraries (including gcloud, gsutil, and bq) for managing Google Cloud resources and services."
     },
     {
       "serviceName": "Cloud SQL",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Fully managed relational database service supporting MySQL, PostgreSQL, and SQL Server with automated backups and replication."
     },
     {
       "serviceName": "Cloud Scheduler*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Enterprise cron job service that automates recurring units of work, HTTP endpoints, and Pub/Sub message publishing."
     },
     {
-      "serviceName": "Cloud Service Mesh (formerly Anthos Service Mesh)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceName": "Cloud Service Mesh",
+      "serviceDescription": "Managed service mesh providing traffic routing, mutual TLS security, observability, and policy enforcement for microservices."
     },
     {
       "serviceName": "Cloud Shell*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Browser-based command-line environment and development container pre-packaged with administrative tools and Cloud SDK."
     },
     {
       "serviceName": "Cloud Source Repositories*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Fully featured, private Git repositories hosted on Google Cloud infrastructure with integrated security and IAM access control."
+    },
+    {
+      "serviceName": "Cloud Spanner",
+      "serviceDescription": "Fully managed, globally distributed relational database service providing ACID transactions, SQL support, and high availability."
     },
     {
       "serviceName": "Cloud Storage",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Scalable, durable object storage service designed to store and serve unstructured data with multiple global and regional classes."
     },
     {
       "serviceName": "Cloud Storage for Firebase*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Object storage service designed for mobile and web developers to upload, store, and serve user-generated content securely."
     },
     {
       "serviceName": "Cloud Tasks",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Asynchronous task execution service that manages queueing, dispatch rate, retries, and scheduling of background tasks."
     },
     {
-      "serviceName": "Cloud Trace*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceName": "Cloud Trace",
+      "serviceDescription": "Distributed tracing system that collects latency data from microservices architectures to identify bottlenecks and optimize performance."
     },
     {
       "serviceName": "Cloud Translation API",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Neural machine translation API dynamically translating text across hundreds of languages with custom glossary support."
     },
     {
       "serviceName": "Cloud VPN",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Secure networking service connecting peer on-premises or cloud networks to Google Cloud VPC networks via IPsec VPN tunnels."
     },
     {
       "serviceName": "Cloud Vision API",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Computer vision machine learning API offering pre-trained models for image labeling, OCR, object detection, and content moderation."
     },
     {
       "serviceName": "Cloud Workstations",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Fully managed, browser-accessible developer environments running secure containerized IDEs inside private cloud networks."
     },
     {
       "serviceName": "Compute Engine",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Infrastructure as a service offering highly customizable virtual machine instances running on Google's global network."
+    },
+    {
+      "serviceName": "Conversational Insights (formerly CCAI Insights)",
+      "serviceDescription": "Contact center analytics tool leveraging natural language processing to transcribe, inspect, and analyze customer conversations."
     },
     {
       "serviceName": "Data Security Posture Management",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
-    },
-    {
-      "serviceName": "Data Studio (formerly Looker Studio (including Pro))",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Dataplex security feature continuously discovering sensitive cloud data, evaluating access controls, and highlighting exposure risks."
     },
     {
       "serviceName": "DataStream*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Serverless change data capture (CDC) and replication service synchronizing data across heterogeneous databases and BigQuery."
     },
     {
       "serviceName": "Database Center",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Unified database fleet management dashboard providing posture assessment, health monitoring, and governance recommendations."
     },
     {
       "serviceName": "Database Migration Service*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Serverless, reliable database migration tool providing automated, minimal-downtime replication to Google Cloud managed databases."
     },
     {
       "serviceName": "Dataflow",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Fully managed streaming and batch data processing service built on Apache Beam for reliable, serverless data pipeline execution."
     },
     {
       "serviceName": "Dataform",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Data transformation orchestration service for BigQuery enabling data teams to develop, test, version control, and schedule SQL models."
     },
     {
       "serviceName": "Datastore*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Highly scalable, fully managed NoSQL document database providing ACID transactions, SQL-like queries, and high availability."
     },
     {
       "serviceName": "Dialogflow CX",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
-    },
-    {
-      "serviceName": "Dialogflow ES",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Advanced conversational AI development platform for building complex, multi-turn, state-based virtual chatbots and voice agents."
     },
     {
       "serviceName": "Direct VPC Egress (replaced Serverless VPC Access)",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Serverless networking feature enabling Cloud Run services to route outbound traffic directly into private VPC networks."
     },
     {
       "serviceName": "Document AI",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Intelligent document processing platform using machine learning to parse, extract, classify, and analyze structured data from documents."
     },
     {
       "serviceName": "Earth Engine*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Planetary-scale geospatial analysis platform combining a multi-petabyte catalog of satellite imagery with cloud computing power."
     },
     {
       "serviceName": "EventArc Standard (excluding Advanced)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Event-driven architecture service that asynchronously routes standardized CloudEvents from Google Cloud services to compute targets."
+    },
+    {
+      "serviceName": "Federated Connectors via Gemini Enterprise",
+      "serviceDescription": "Gemini Enterprise brings together Gemini's advanced reasoning and Google-quality search to enterprise data across systems, utilizing Agent Search on Gemini Enterprise Agent Platform infrastructure for secure search, answer generation, and grounding."
     },
     {
       "serviceName": "Filestore (Basic HDD and Basic SSD tiers)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Fully managed Network Attached Storage (NAS) file storage service delivering NFS file shares for GKE and Compute Engine."
     },
     {
       "serviceName": "Firebase Authentication*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Backend authentication service providing client SDKs and ready-made UI libraries to authenticate users across multiple providers."
     },
     {
       "serviceName": "Firestore (replaced Datastore; excluding Firestore with MongoDB compatibility)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Serverless NoSQL document database built for global auto-scaling, real-time synchronization, and offline mobile and web support."
     },
     {
       "serviceName": "Firewall Insights",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Security analytics tool providing observability into VPC firewall rule usage, shadowed rules, and network security optimizations."
+    },
+    {
+      "serviceName": "Forecasting on Gemini Enterprise Agent Platform",
+      "serviceDescription": "Managed time-series forecasting service utilizing Google AI algorithms to predict business and operational metrics."
     },
     {
       "serviceName": "GKE Config Sync (formerly Config Sync)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "GitOps-driven configuration management service continuously synchronizing cluster state and Kubernetes policies from Git repositories."
     },
     {
       "serviceName": "GKE Hub",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Centralized management console and control plane for organizing, grouping, and administering fleets of Kubernetes clusters."
     },
     {
       "serviceName": "GKE Identity Service (formerly Anthos Identity Service (AIS) - [Hybrid Identity])",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Authentication integration service allowing Kubernetes clusters to authenticate users with corporate identity providers via OIDC."
     },
     {
-      "serviceName": "Gemini Enterprise",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceName": "Gemini Enterprise Agent Platform Inference: Batch and Online (formerly Vertex AI Prediction: Batch and Online)",
+      "serviceDescription": "High-performance model serving infrastructure supporting low-latency online predictions and scalable batch inference."
+    },
+    {
+      "serviceName": "Gemini Enterprise Agent Platform Managed Training (formerly Vertex AI Training)",
+      "serviceDescription": "Fully managed infrastructure service for running custom ML training jobs, distributed hyperparameter tuning, and model optimization."
+    },
+    {
+      "serviceName": "Gemini Enterprise Agent Platform Pipelines (formerly Vertex AI Pipelines)",
+      "serviceDescription": "Serverless orchestration service running end-to-end ML workflows using Kubeflow Pipelines and TFX frameworks."
+    },
+    {
+      "serviceName": "Gemini Enterprise Agent Platform Workbench Instances (formerly Vertex AI Workbench Instances)",
+      "serviceDescription": "Enterprise Jupyter notebook development environment integrated with cloud accelerators, Git, and data tools."
     },
     {
       "serviceName": "Gemini Enterprise for Customer Experience (GECX) (formerly Conversational AI and Contact Center AI)*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Conversational AI platform integrating generative customer agents, virtual representatives, and voice-and-chat center analytics."
+    },
+    {
+      "serviceName": "Gemini for Business",
+      "serviceDescription": "Comprehensive AI ecosystem encompassing conversational AI apps, multi-agent frameworks, enterprise search, and governance controls."
+    },
+    {
+      "serviceName": "Generative AI in Gemini platform",
+      "serviceDescription": "Foundational generative AI platform offering APIs, model tuning, prompt engineering, and multimodal AI services."
     },
     {
       "serviceName": "Google Cloud Armor",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Web application firewall (WAF) and distributed denial-of-service (DDoS) protection service for cloud and hybrid applications."
     },
     {
       "serviceName": "Google Cloud Managed Service for Apache Kafka (excluding Kafka Connect and Kafka Schema Registry)",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Fully managed, scalable Apache Kafka event streaming service native to Google Cloud infrastructure."
     },
     {
       "serviceName": "Google Cloud Marketplace",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Digital catalog enabling customers to discover, procure, deploy, and manage certified third-party software and SaaS applications."
     },
     {
       "serviceName": "Google Cloud Migration Center",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Unified migration platform offering discovery, total cost of ownership (TCO) evaluation, and migration planning for IT infrastructure."
     },
     {
       "serviceName": "Google Kubernetes Engine (GKE)",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Managed, enterprise-ready Kubernetes service for deploying, managing, and scaling containerized applications on Google Cloud."
     },
     {
       "serviceName": "Google Security Operations SIEM (Google SecOps SIEM)",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Cloud-native security information and event management platform built for petabyte-scale telemetry search and threat detection."
     },
     {
       "serviceName": "Google Security Operations SOAR (Google SecOps SOAR)",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Security orchestration, automation, and response platform enabling automated playbook execution and incident triage."
+    },
+    {
+      "serviceName": "Identity & Access Management (IAM)",
+      "serviceDescription": "Fine-grained authorization system defining identities and access permissions across Google Cloud resources."
     },
     {
       "serviceName": "Identity Platform*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Customer identity and access management (CIAM) platform providing secure authentication, multi-factor support, and user management."
     },
     {
-      "serviceName": "Identity and Access Management (IAM)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
-    },
-    {
-      "serviceName": "Identity-Aware Proxy (IAP) (excluding IAP for TCP)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceName": "Identity-Aware Proxy (IAP)",
+      "serviceDescription": "Application security gateway controlling web application access through user identity and context-based rules."
     },
     {
       "serviceName": "Infrastructure Manager",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Infrastructure as Code (IaC) management service automating deployment and lifecycle governance of Google Cloud resources via Terraform."
     },
     {
       "serviceName": "Integration Connectors",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Pre-built connectivity framework offering standardized connectors to integrate third-party applications, databases, and protocols."
     },
     {
       "serviceName": "Key Access Justification",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Security policy mechanism providing detailed justification context and allowing customer-controlled approval for every KMS key decryption request."
     },
     {
       "serviceName": "Knowledge Catalog (formerly Dataplex Universal Catalog; replaced Data Catalog)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Unified metadata and governance catalog for discovering, searching, and managing data assets across cloud architectures."
     },
     {
       "serviceName": "Looker (Google Cloud Core)",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Managed enterprise business intelligence and data analytics platform integrated natively with Google Cloud infrastructure and IAM."
+    },
+    {
+      "serviceName": "Looker Studio (formerly Google Data Studio) Free",
+      "serviceDescription": "Enterprise business intelligence and interactive data visualization platform converting raw datasets into shareable dashboards."
+    },
+    {
+      "serviceName": "Looker Studio (formerly Google Data Studio) Pro",
+      "serviceDescription": "Enterprise business intelligence and interactive data visualization platform converting raw datasets into shareable dashboards."
     },
     {
       "serviceName": "Managed Service for Apache Airflow (formerly Cloud Composer)",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Fully managed workflow orchestration service based on Apache Airflow for authoring, scheduling, and monitoring data pipelines."
     },
     {
       "serviceName": "Managed Service for Apache Spark (formerly Dataproc)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Managed big data service for running Apache Spark, Apache Hadoop, and open-source data analytics frameworks in the cloud."
+    },
+    {
+      "serviceName": "Memorystore for Memcached",
+      "serviceDescription": "Fully managed in-memory key-value cache service compatible with Memcached for scaling web and database read performance."
+    },
+    {
+      "serviceName": "Memorystore for Redis",
+      "serviceDescription": "Fully managed, in-memory data store service providing low-latency Redis caching for high-performance cloud applications."
     },
     {
       "serviceName": "Memorystore for Redis Cluster",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Fully managed, scalable Redis Cluster service providing high-capacity, distributed in-memory caching with multi-terabyte support."
     },
     {
       "serviceName": "Memorystore for Valkey",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Fully managed, high-performance in-memory key-value data store service compatible with open-source Valkey."
     },
     {
       "serviceName": "Metadata on Gemini Enterprise Agent Platform (Vertex ML Metadata)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Managed tracking service that captures ML lineage, pipeline artifacts, execution metrics, and dataset versions for ML workflows."
     },
     {
       "serviceName": "Migrate to Virtual Machines",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Automated lift-and-shift migration service converting on-premises and multi-cloud virtual machines directly into Compute Engine."
     },
     {
       "serviceName": "Model Armor",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "AI security service providing real-time filtering, prompt injection detection, and content guardrails for foundation models and agents."
+    },
+    {
+      "serviceName": "Model Monitoring on Gemini Enterprise Agent Platform (formerly Vertex AI Model Monitoring)",
+      "serviceDescription": "Automated monitoring system evaluating production models for feature drift, prediction drift, and concept degradation."
+    },
+    {
+      "serviceName": "Model Registry on Gemini Enterprise Agent Platform",
+      "serviceDescription": "Central repository for tracking, versioning, organizing, and governing deployed machine learning and foundation models."
     },
     {
       "serviceName": "Network Connectivity Center",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Centralized networking hub for managing global connectivity and connecting on-premises, multicloud, and VPC networks via routers."
     },
     {
       "serviceName": "Network Intelligence Center",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Network monitoring, verification, and diagnostics platform offering topology mapping, connectivity testing, and performance metrics."
     },
     {
       "serviceName": "Network Service Tiers*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Networking capability allowing customers to optimize network connectivity between Google's Premium Tier and standard transit tiers."
     },
     {
       "serviceName": "Organization Policy Service",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Governance framework allowing administrators to configure centralized constraints and guardrails across Google Cloud resource hierarchies."
     },
     {
       "serviceName": "Persistent Disk",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "High-performance block storage service attached to Compute Engine and GKE virtual machine instances with automated replication."
     },
     {
       "serviceName": "Privileged Access Manager",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Security governance service enabling just-in-time, temporary elevation of administrative permissions with automated approval workflows."
     },
     {
       "serviceName": "Pub/Sub",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Globally distributed asynchronous messaging service designed for high-throughput event ingestion and real-time streaming data."
     },
     {
       "serviceName": "Recommender",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Intelligent advisory service analyzing cloud usage patterns to provide automated recommendations for cost savings and security."
+    },
+    {
+      "serviceName": "Regional External Proxy Network Load Balancer",
+      "serviceDescription": "Layer 4 reverse-proxy load balancer terminating TCP/SSL connections and distributing traffic across backends."
+    },
+    {
+      "serviceName": "Regional Internal Proxy Network Load Balancer",
+      "serviceDescription": "Layer 4 reverse-proxy load balancer terminating TCP/SSL connections and distributing traffic across backends."
     },
     {
       "serviceName": "Resource Manager",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Centralized hierarchical management service organizing cloud projects, folders, and organization nodes for unified policy inheritance."
+    },
+    {
+      "serviceName": "Secret Manager",
+      "serviceDescription": "Secure and auditable storage system for sensitive credentials, API keys, certificates, and passwords with automatic rotation support."
     },
     {
       "serviceName": "Secure Source Manager",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Managed private Git repository hosting service built on Google Cloud offering integrated security and IAM access controls."
     },
     {
       "serviceName": "Secure Web Proxy (Cloud SWP)",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Cloud-first egress web proxy service enforcing granular web access policies and TLS inspection for outbound internet traffic."
     },
     {
       "serviceName": "Security Command Center (Excluding Enterprise)",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Centralized security and risk management platform for detecting cloud vulnerabilities, misconfigurations, and compliance threats."
     },
     {
-      "serviceName": "Sensitive Data Protection (formerly Cloud DLP)",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceName": "Sensitive Data Protection",
+      "serviceDescription": "Security service (formerly Cloud DLP) discovering, classifying, and de-identifying sensitive data and PII across cloud stores."
     },
     {
       "serviceName": "Service Directory",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Managed service registry providing unified, scalable service registration and resolution across cloud and hybrid environments."
     },
     {
-      "serviceName": "Spanner",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceName": "Speech-to-Text",
+      "serviceDescription": "Machine learning API converting spoken audio into accurate text transcripts across dozens of languages and acoustic models."
     },
     {
       "serviceName": "Storage Transfer Service",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Secure, managed data transfer service for migrating large-scale datasets between cloud providers, on-premises storage, and Cloud Storage."
     },
     {
       "serviceName": "Talent Solution*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Machine learning-powered job search and recommendation APIs providing candidate matching and skill parsing for recruiting platforms."
     },
     {
       "serviceName": "Text-to-Speech",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "API synthesizing natural-sounding speech from text using Google's deep learning neural models across diverse voices and languages."
     },
     {
       "serviceName": "Traffic Director",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Google Cloud's fully managed traffic control plane for service mesh and load balancing across microservices instances."
     },
     {
       "serviceName": "VPC Service Controls",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Security perimeter technology that isolates Google Cloud resources and sensitive data to prevent unauthorized data exfiltration."
+    },
+    {
+      "serviceName": "Vector Search on Gemini Enterprise Agent Platform (formerly Vertex AI Vector Search)",
+      "serviceDescription": "High-scale vector database offering low-latency approximate nearest neighbor (ANN) search over embeddings for semantic AI."
     },
     {
       "serviceName": "Video Intelligence API*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Pre-trained machine learning API that analyzes stored and streaming videos to detect objects, shot changes, text, and explicit content."
     },
     {
       "serviceName": "Virtual Private Cloud (includes Private Google Access, Private Service Connect, Private Services Access, VPC Flow Logs)",
-      "serviceDescription": "",
-      "dateAvailable": "2026-06-08"
+      "serviceDescription": "Managed virtual networking infrastructure providing private IP connectivity, routing, subnets, and security perimeters in Google Cloud."
     },
     {
       "serviceName": "Web Risk API*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Security service allowing client applications to check URLs against Google's constantly updated lists of malicious web assets."
     },
     {
       "serviceName": "Workflows*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Serverless workflow orchestration platform that connects Google Cloud services and HTTP APIs into reliable multi-step processes."
     },
     {
       "serviceName": "reCAPTCHA Enterprise*",
-      "serviceDescription": "",
-      "dateAvailable": "2025-05-21"
+      "serviceDescription": "Advanced fraud detection service analyzing user interactions to protect web applications and APIs from bot attacks and credential stuffing."
     }
   ],
+  "responsibleOfficial": {
+    "name": "Chris DeRusha",
+    "title": "Director, Google Cloud",
+    "email": "fedramp-conmon-external@google.com",
+    "contactPhone": "650-253-0000"
+  },
+  "version": "1.0.1",
+  "lastUpdate": "2026-11-24T14:48:48Z",
+  "sourceOfUpdate": "Google FedRAMP Compliance Team",
   "ZD_frid_retro": "FR1805751477",
   "id_matches_expected": true
 }

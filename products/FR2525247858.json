@@ -1,37 +1,64 @@
 {
+  "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
     "fedRampPackageId": "FR2525247858",
     "providerName": "Databricks, Inc.",
     "serviceName": "Databricks on Azure Commercial",
-    "serviceAcronym": "Databricks on Azure Commercial",
-    "serviceDescription": "The Databricks Data Intelligence Platform is a unified, AI-powered platform built on a lakehouse architecture to provide an open, unified foundation for all data and governance, and is powered by a Data Intelligence Engine & Apache Spark™ that understands the uniqueness of your data. It enables organizations to process, govern, and extract actionable insights from all their data using both Machine Learning (ML) and generative Artificial Intelligence (AI) including Large Language Models (LLMs). It unifies data engineering, analytics (SQL), and AI workloads, simplifying data management and accelerating analytics with features like automated ETL, advanced query optimization, and AI-driven data cataloging. The platform’s Data Intelligence Engine understands the unique semantics and usage patterns of an organization’s data, offering natural language access, tailored recommendations, and robust governance and privacy controls.",
+    "serviceAcronym": "DBX-AC",
+    "serviceDescription": "The Databricks Data + AI Platform is a unified, AI-powered platform built on a lakehouse architecture to provide an open, unified foundation for all data and governance, and is powered by a Data Intelligence Engine and Apache Spark™ that understands the uniqueness of your data. It enables organizations to process, govern, and extract actionable insights from all their data using both machine learning (ML) and generative AI, including large language models (LLMs). It unifies data engineering, analytics (SQL), and AI workloads, simplifying data management and accelerating analytics with features like automated extract, transform, and load (ETL), advanced query optimization, and AI-driven data cataloging. The platform's Data Intelligence Engine understands the unique semantics and usage patterns of an organization's data, offering natural language access, tailored recommendations, and robust governance and privacy controls. See https://learn.microsoft.com/en-us/azure/databricks/security/privacy/fedramp-high-azure#regional-support-for-features for the services included in this certification, by region.",
     "certificationType": "Rev5",
-    "website": "https://azure.microsoft.com/en-us/products/databricks",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Databricks%20Logo.png",
+    "website": "https://azure.microsoft.com/products/databricks",
+    "logo": "https://docs.databricks.com/aws/en/img/logo.svg",
     "ueiNumber": "JJZCW7PZP8Q4"
   },
   "serviceProperties": {
     "serviceType": [
-      "SaaS",
-      "PaaS"
+      "PaaS",
+      "SaaS"
     ],
     "deploymentModel": "Public Cloud",
     "businessCategory": [
       "Analytics",
-      "Collaboration",
-      "Cybersecurity & Risk Management",
-      "Data Management",
-      "Research",
-      "Storage"
+      "Artificial Intelligence (AI)",
+      "Data Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Assessment Reports"
+      ],
+      "url": "https://www.databricks.com/trust/fedramp",
+      "repositoryDescription": "Databricks Trust Center hosting FedRAMP certification data, authorization artifacts, and Certification Data Sharing (CDS) access.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/security/",
+      "repositoryDescription": "Databricks Security and Compliance documentation and Security Best Practices / secure configuration guidance for the platform.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Service List"
+        ],
+        "url": "https://learn.microsoft.com/en-us/azure/databricks/security/privacy/fedramp-high-azure#regional-support-for-features",
+        "repositoryDescription": "Regional support for features: the services included in this certification, by region.",
+        "authenticationRequired": false
+      }
     ]
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Databricks Security Team",
       "contactEmail": "federal-compliance@databricks.com"
     },
     {
       "contactType": "Sales",
+      "contactName": "Databricks Public Sector Sales",
       "contactEmail": "federal-compliance@databricks.com"
     }
   ],

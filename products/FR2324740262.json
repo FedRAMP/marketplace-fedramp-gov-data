@@ -1,37 +1,72 @@
 {
+  "$schema": "https://www.fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
     "fedRampPackageId": "FR2324740262",
     "providerName": "Databricks, Inc.",
-    "serviceName": "Databricks on AWS GovCloud",
-    "serviceAcronym": "Databricks on AWS GovCloud",
-    "serviceDescription": "The Databricks Data Intelligence Platform is a unified, AI-powered platform built on a lakehouse architecture to provide an open, unified foundation for all data and governance, and is powered by a Data Intelligence Engine & Apache Spark™ that understands the uniqueness of your data. It enables organizations to process, govern, and extract actionable insights from all their data using both Machine Learning (ML) and generative Artificial Intelligence (AI) including Large Language Models (LLMs). It unifies data engineering, analytics (SQL), and AI workloads, simplifying data management and accelerating analytics with features like automated ETL, advanced query optimization, and AI-driven data cataloging. The platform’s Data Intelligence Engine understands the unique semantics and usage patterns of an organization’s data, offering natural language access, tailored recommendations, and robust governance and privacy controls.",
+    "serviceName": "Databricks on Government Clouds",
+    "serviceAcronym": "DBX-GC",
+    "serviceDescription": "The Databricks Data + AI Platform is a unified, AI-powered platform built on a lakehouse architecture to provide an open, unified foundation for all data and governance, and is powered by a Data Intelligence Engine and Apache Spark™ that understands the uniqueness of your data. It enables organizations to process, govern, and extract actionable insights from all their data using both machine learning (ML) and generative AI, including large language models (LLMs). It unifies data engineering, analytics (SQL), and AI workloads, simplifying data management and accelerating analytics with features like automated extract, transform, and load (ETL), advanced query optimization, and AI-driven data cataloging. The platform's Data Intelligence Engine understands the unique semantics and usage patterns of an organization's data, offering natural language access, tailored recommendations, and robust governance and privacy controls. See AWS GovCloud: https://docs.databricks.com/aws/en/security/privacy/fedramp-high#regional-support-for-features and Azure Government: https://learn.microsoft.com/en-us/azure/databricks/security/privacy/gov-cloud#databricks-on-azure-government-regions-and-urls for the services included in this certification, by region.",
     "certificationType": "Rev5",
     "website": "https://www.databricks.com/solutions/industries/federal-government",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/Databricks%20Logo.png",
+    "logo": "https://docs.databricks.com/aws/en/img/logo.svg",
     "ueiNumber": "JJZCW7PZP8Q4"
   },
   "serviceProperties": {
     "serviceType": [
-      "SaaS",
-      "PaaS"
+      "PaaS",
+      "SaaS"
     ],
     "deploymentModel": "Government Community Cloud",
     "businessCategory": [
       "Analytics",
-      "Collaboration",
-      "Cybersecurity & Risk Management",
-      "Data Management",
-      "Research",
-      "Storage"
+      "Artificial Intelligence (AI)",
+      "Data Management"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "Assessment Reports"
+      ],
+      "url": "https://www.databricks.com/trust/fedramp",
+      "repositoryDescription": "Databricks Trust Center hosting FedRAMP certification data, authorization artifacts, and Certification Data Sharing (CDS) access.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.databricks.com/aws/en/security/index.html",
+      "repositoryDescription": "Databricks Security and Compliance documentation and Security Best Practices / secure configuration guidance for the platform.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "Service List"
+        ],
+        "url": "https://docs.databricks.com/aws/en/security/privacy/fedramp-high#regional-support-for-features",
+        "repositoryDescription": "Databricks on AWS GovCloud, regional support for features: the services included in this certification, by region.",
+        "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Service List"
+        ],
+        "url": "https://learn.microsoft.com/en-us/azure/databricks/security/privacy/gov-cloud#databricks-on-azure-government-regions-and-urls",
+        "repositoryDescription": "Databricks on Azure Government: regions, compliance status and availability.",
+        "authenticationRequired": false
+      }
     ]
   },
   "contactInformation": [
     {
       "contactType": "Security",
+      "contactName": "Databricks Security Team",
       "contactEmail": "federal-compliance@databricks.com"
     },
     {
       "contactType": "Sales",
+      "contactName": "Databricks Public Sector Sales",
       "contactEmail": "federal-compliance@databricks.com"
     }
   ],
@@ -39,86 +74,6 @@
     "name": "Fortreum, LLC",
     "assessorID": "201664"
   },
-  "thirdPartyInformationResources": {
-    "certified": [
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2516365096",
-        "useCase": ""
-      }
-    ]
-  },
-  "certifiedServices": [
-    {
-      "serviceName": "AutoML",
-      "serviceDescription": "",
-      "dateAvailable": "2024-10-30"
-    },
-    {
-      "serviceName": "Classic Compute",
-      "serviceDescription": "",
-      "dateAvailable": "2024-10-30"
-    },
-    {
-      "serviceName": "Dashboards",
-      "serviceDescription": "",
-      "dateAvailable": "2025-02-26"
-    },
-    {
-      "serviceName": "Databricks SQL (DBSQL)",
-      "serviceDescription": "",
-      "dateAvailable": "2024-10-30"
-    },
-    {
-      "serviceName": "Delta Live Tables",
-      "serviceDescription": "",
-      "dateAvailable": "2025-02-26"
-    },
-    {
-      "serviceName": "Delta Live Tables (DLT)",
-      "serviceDescription": "",
-      "dateAvailable": "2024-10-30"
-    },
-    {
-      "serviceName": "Delta Sharing",
-      "serviceDescription": "",
-      "dateAvailable": "2024-10-30"
-    },
-    {
-      "serviceName": "Feature Store",
-      "serviceDescription": "",
-      "dateAvailable": "2025-02-26"
-    },
-    {
-      "serviceName": "Feature Store, Jobs & Workflows",
-      "serviceDescription": "",
-      "dateAvailable": "2024-10-30"
-    },
-    {
-      "serviceName": "Jobs & Workflows",
-      "serviceDescription": "",
-      "dateAvailable": "2025-02-26"
-    },
-    {
-      "serviceName": "Lakeview",
-      "serviceDescription": "",
-      "dateAvailable": "2024-10-30"
-    },
-    {
-      "serviceName": "Photon",
-      "serviceDescription": "",
-      "dateAvailable": "2024-10-30"
-    },
-    {
-      "serviceName": "Repos",
-      "serviceDescription": "",
-      "dateAvailable": "2024-10-30"
-    },
-    {
-      "serviceName": "Unity Catalog",
-      "serviceDescription": "",
-      "dateAvailable": "2024-10-30"
-    }
-  ],
   "ZD_frid_retro": "FR2324740262",
   "id_matches_expected": true
 }
