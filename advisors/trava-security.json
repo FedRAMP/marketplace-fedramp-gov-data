@@ -1,0 +1,33 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
+  "advisorName": "Trava Security",
+  "logo": "https://cdn.prod.website-files.com/6a0f5ccfbd1550c3ff99bde0/6a0f797f576ba3d446832817_Trava%20Stacked%20Logo.svg",
+  "serviceDescription": "Trava Security is a cybersecurity and compliance firm providing FedRAMP 20x consulting and advisory services to cloud service providers. Trava acts as an advisory service under the FedRAMP Consolidated Rules for 2026 and does not perform independent assessments. We help organizations with an active SOC 2 Type II, GovRAMP, or FedRAMP Rev5 certification decide whether FedRAMP 20x fits their federal opportunities, prepare for and achieve certification, and maintain the ongoing requirements that keep it active. We manage FedRAMP 20x alongside SOC 2, ISO 27001, HIPAA, and other frameworks as one compliance program.",
+  "contactInformation": {
+    "pointOfContactName": "Trava Compliance Advisory Team",
+    "jobTitle": "FedRAMP 20x Advisory Lead",
+    "email": "fedramp@travasecurity.com",
+    "phone": "+1-812-785-6360",
+    "companyWebsite": "https://travasecurity.com"
+  },
+  "servicesOffered": [
+    {
+      "serviceName": "FedRAMP 20x Readiness and Go/No-Go Advisory",
+      "serviceDescription": "Reviews the federal opportunities a cloud service provider is pursuing, what those buyers require, and the provider's current certifications and capabilities, then recommends whether to pursue FedRAMP 20x and which certification class to target."
+    },
+    {
+      "serviceName": "FedRAMP 20x Certification Preparation",
+      "serviceDescription": "Guides providers with an active SOC 2 Type II or GovRAMP certification through preparing for and applying for FedRAMP 20x certification, including gap analysis and remediation planning. Independent assessments required for certification are performed by an independent assessor."
+    },
+    {
+      "serviceName": "FedRAMP Rev5 to 20x Transition Advisory",
+      "serviceDescription": "Helps FedRAMP Rev5 certified providers plan and complete their transition to FedRAMP 20x at their current certification class."
+    },
+    {
+      "serviceName": "FedRAMP 20x Continuous Monitoring Support",
+      "serviceDescription": "Supports the ongoing requirements that keep a FedRAMP 20x certification active, including continuous monitoring and assurance reporting, certification package maintenance, incident reporting, and vulnerability detection."
+    }
+  ],
+  "advisor_id": "trava-security",
+  "fedramp_listing_timestamp": "2026-11-24T23:28:35.017Z"
+}
