@@ -46,12 +46,12 @@
       "authenticationRequired": true,
       "accessRequestInstructions": "To obtain access, please:\n1. Complete the form located here: https://www.fedramp.gov/resources/documents/Agency_Package_Request_Form.pdf, then print and sign.\n2. Distribute to your Government Supervisor for review and signature.\n3. Please email your signed Request Form to package-access@fedramp.gov\n\nThe following information can be used to complete the form:\nPackage Request ID:\nGovCloud: F1603047866\nEast/West: AGENCYAMAZONEW\n\nOnce the request form has been submitted to FedRAMP and approved, they will reach out to AWS for processing. The team cannot process the request until the form is received from the PMO."
     },
-    "nextOngoingCertificationReportDate": "2026-10-26",
+    "nextOngoingCertificationReportDate": "2027-02-03",
     "securityCategorization": "High (FedRAMP Certification Level Class D)"
   },
   "cpoMetadata": {
-    "version": "2026.10.16",
-    "lastUpdated": "2026-10-16T16:35:50.575Z",
+    "version": "2026.11.20",
+    "lastUpdated": "2026-11-20T18:34:48.307Z",
     "updateSource": "AWS FedRAMP GRC Tool (grc.complianceai.security.aws.dev)",
     "accountableOfficial": {
       "contactName": "Chris Ruhl",
@@ -148,7 +148,7 @@
     },
     {
       "serviceName": "Amazon Connect Customer",
-      "serviceDescription": "Amazon Connect Customer utilized AI agents to reason, act, and drive interactions to resolution - with human agents ready to step in when needed. One intelligent system that learns from every conversation, making the next one better.",
+      "serviceDescription": "Amazon Connect Customer is a cloud-based contact center solution that enables organizations to build and manage customer communication experiences across multiple channels including voice, chat, and SMS. The service engages customers at every touchpoint through AI-powered capabilities, intelligent routing, and real-time performance tracking to connect customers with agents and facilitate issue resolution.",
       "dateAvailable": "2022-10-11"
     },
     {
@@ -315,11 +315,6 @@
       "serviceName": "Amazon Polly",
       "serviceDescription": "Amazon Polly is a service that turns text into lifelike speech, the creation of applications that talk, and the build of entirely new categories of speech-enabled products. Polly's Text-to-Speech (TTS) service uses advanced deep learning technologies to synthesize natural sounding human speech.",
       "dateAvailable": "2019-09-04"
-    },
-    {
-      "serviceName": "Amazon Quick [formerly Amazon Quick Suite]",
-      "serviceDescription": "Amazon Quick Suite is a fully managed, cloud-powered business intelligence service that answers questions and turns those answers into actions using agentic teammates for research, business insights, and automation.",
-      "dateAvailable": "2021-09-10"
     },
     {
       "serviceName": "Amazon RDS for Db2",
@@ -542,6 +537,11 @@
       "dateAvailable": "2019-12-23"
     },
     {
+      "serviceName": "AWS DevOps Agent",
+      "serviceDescription": "AWS DevOps Agent is an AI-powered operations agent that helps teams investigate, resolve, and prevent operational issues. It analyzes operational data such as metrics, logs, and traces to identify likely root causes of incidents, recommends mitigations, and supports release readiness and change risk assessment. Engineers interact with investigations through the AWS DevOps Agent web application and APIs.",
+      "dateAvailable": "2026-11-20"
+    },
+    {
       "serviceName": "AWS Direct Connect",
       "serviceDescription": "AWS Direct Connect is a cloud service solution that enables the establishment of a dedicated network connection from premises to AWS.",
       "dateAvailable": "2019-09-04"
@@ -680,6 +680,11 @@
       "serviceName": "AWS Private Certificate Authority",
       "serviceDescription": "AWS Private Certificate Authority (PCA) is a private certificate authority (CA) service that extends AWS Certificate Managers (ACM) certificate management capabilities to both public and private certificates. AWS Private CA allows developers to be more agile by providing APIs to create and deploy private certificates programmatically. Private certificates can be created for applications that require custom certificate lifetimes or resource names as well as managed for connected resources.",
       "dateAvailable": "2023-03-06"
+    },
+    {
+      "serviceName": "AWS Quick",
+      "serviceDescription": "AWS Quick is a fully managed, cloud-powered business intelligence service that answers questions and turns those answers into actions using agentic teammates for research, business insights, and automation.",
+      "dateAvailable": "2021-09-10"
     },
     {
       "serviceName": "AWS Resilience Hub",

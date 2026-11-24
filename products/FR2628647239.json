@@ -43,15 +43,15 @@
     "goals": [
       {
         "goal": "Apply to FedRAMP for a FedRAMP 20x Class C certification.",
-        "measuredBy": "Measured by whether an application has been submitted. As of 2026-09-14 it has not. Under FedRAMP's certification process the provider applies by submitting its Certification Package Overview and Security Decision Record, with trust center access, once the independent assessor has delivered its assessment reports. SteelToad Consulting LLC is carrying out that assessment and has not yet delivered its reports. Advent commits to submitting the application within three months after they arrive. The offering has been listed on the FedRAMP Marketplace as FedRAMP 20x Class C, Initial Implementation, since 2026-07-17."
+        "measuredBy": "Measured by whether an application has been submitted. Reached on 2026-11-14: the application was submitted through FedRAMP's certification application form, after the independent assessor delivered its assessment reports the same day. FedRAMP is now reviewing it. The decision belongs to FedRAMP, so no certification date is promised here. The offering has been listed on the FedRAMP Marketplace at the Initial Implementation stage since 2026-07-17."
       },
       {
         "goal": "Engage an independent assessment service.",
-        "measuredBy": "Measured by a signed engagement and a real assessor id in the published package. Reached on 2026-08-25: the package now names SteelToad Consulting LLC, FedRAMP assessor id 203203, replacing the unassigned placeholder this statement originally reported. Engaging the assessor is not the same as being assessed, so the goal that follows it, completing the assessment, is now the item on the critical path."
+        "measuredBy": "Measured by a signed engagement and a real assessor id in the published package. Reached on 2026-08-25: the package names SteelToad Consulting LLC, FedRAMP assessor id 203203. The assessment that followed was completed on 2026-11-14."
       },
       {
         "goal": "Bring every Key Security Indicator to two or more active automated validation methods.",
-        "measuredBy": "Measured by the daily evidence snapshots: 42 of 46 as of 2026-08-11. The remaining four are the yardstick for the next statement."
+        "measuredBy": "Measured by the daily evidence snapshots: 42 of 46 as measured on 2026-08-11. The next statement reports a fresh measurement."
       },
       {
         "goal": "Move partially met rules to met and close the known gaps.",
@@ -78,29 +78,37 @@
       {
         "date": "2026-08-28",
         "milestone": "Assessment team named in the published package: Dean Rock, Lead Assessor, and Andy Cooper, Assessor, both of SteelToad Consulting LLC."
+      },
+      {
+        "date": "2026-11-14",
+        "milestone": "Independent assessment completed: SteelToad Consulting LLC delivered its assessment summaries."
+      },
+      {
+        "date": "2026-11-14",
+        "milestone": "FedRAMP 20x Class C certification application submitted to FedRAMP."
       }
     ],
-    "nextUpdateDueBy": "2026-11-11",
+    "nextUpdateDueBy": "2027-02-23",
     "notGoingWell": [
       "There is a six-day hole in the daily evidence history: no Key Security Indicator snapshots were recorded from 2026-07-31 through 2026-08-05. It cannot be backfilled and will not be. The gap stays in the record, and an assessor reading the history will see it.",
       "16 of the 45 tracked rules are still only partially met and 2 have known gaps.",
-      "An independent assessor has been engaged since 2026-08-25 and the assessment is in progress, but it has not yet delivered its reports. Every per indicator assessment statement in the Security Decision Record still reads as not yet assessed, and none of them may be written by the provider."
+      "The FedRAMP Marketplace listing still shows certification type Rev5, path Agency, class Unknown and no impact level, while this package declares FedRAMP 20x, Program path, Class C, Moderate. A correction has been requested from FedRAMP."
     ],
     "rule": "MKT-IIP-DCP",
     "ruleText": "Providers MUST demonstrate continuous progress towards a FedRAMP Certification, documented in their Trust Center or website and updated at least quarterly; progress is measured by the provider against documented goals and milestones.",
-    "seriesNote": "This is the first statement in this series. Every statement carries its own date and the date the next one is due, so the cadence can be checked from the statements alone.",
+    "seriesNote": "This is the second statement in this series; the first was dated 2026-08-11. Every statement carries its own date and the date the next one is due, so the cadence can be checked from the statements alone.",
     "sources": {
       "fedRampGettingCertified": "https://www.fedramp.gov/2026/providers/implement/get-certified/",
       "fedRampTimeline": "https://www.fedramp.gov/2026/timeline/",
       "marketplaceListing": "https://fedramp.gov/marketplace/products/FR2628647239"
     },
-    "statementDate": "2026-08-11",
+    "statementDate": "2026-11-23",
     "updateCadence": "at least quarterly",
     "whereWeStand": [
-      "Enablement is listed in the FedRAMP Marketplace under FedRAMP ID FR2628647239 at the Initial Implementation stage. It is not FedRAMP certified and holds zero FedRAMP authorizations. Nothing in this statement claims otherwise.",
+      "Enablement is listed in the FedRAMP Marketplace under FedRAMP ID FR2628647239 at the Initial Implementation stage. Its FedRAMP 20x Class C certification application was submitted on 2026-11-14 and is under FedRAMP review. It is not FedRAMP certified and holds zero FedRAMP authorizations. Nothing in this statement claims otherwise.",
       "The certification being pursued is a FedRAMP 20x Class C Program Certification. No date for obtaining it is promised anywhere on this page, because that decision belongs to FedRAMP, not to Advent.",
       "Advent tracks 45 FedRAMP rules covering certification data sharing, trust center operation, cryptographic module use, minimum assessment scope, and vulnerability detection and response against its own implementation. Current standing: 24 met, 16 partially met, 2 with known gaps, 3 not applicable to this offering, and 0 not currently triggered. These counts are recomputed from the rule-by-rule verdict data every time this page is generated, so they can move between quarterly statements; the dated figures elsewhere in this statement stay as written.",
-      "All 46 Key Security Indicators report at least one active automated validation method, and 42 of 46 report two or more. Verified against the daily evidence snapshot of 2026-08-11. Per-indicator evidence is available to agencies and assessors through the access-controlled endpoints listed on this page."
+      "As measured on 2026-08-11, the most recent measurement in this statement series, all 46 Key Security Indicators reported at least one active automated validation method, and 42 of 46 reported two or more. That figure is not re-measured in this statement and will be updated in the next one. Per-indicator evidence is available to agencies and assessors through the access-controlled endpoints listed on this page."
     ]
   },
   "certifiedServices": [
@@ -350,14 +358,14 @@
     "schemaPinSynced": "2026-10-28"
   },
   "metadata": {
-    "lastUpdated": "2026-11-22T14:00:03Z",
+    "lastUpdated": "2026-11-23T20:39:06Z",
     "responsibleOfficial": {
       "contactEmail": "rajesh@adventbusiness.com",
       "name": "Rajesh Gupta",
       "title": "Vice President and Secretary, System Owner and ISSO, Advent Business Company Inc."
     },
     "updateSource": "Generated at request time by the deployed certification-data service; content changes reach it only through the automated build and deployment pipeline under Advent's change management procedure.",
-    "version": "1.0.0+20f75bbd"
+    "version": "1.0.0+6c378dc7"
   },
   "ongoingCertificationReportFeedback": {
     "acknowledgement": "Automatic on receipt (AFC-CSO-ACK mechanism, shared).",

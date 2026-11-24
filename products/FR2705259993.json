@@ -1,0 +1,60 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "Arcturel (ARC)",
+    "ueiNumber": "G84HYT11P4S3",
+    "providerName": "Arcturel",
+    "serviceName": "Arcturel",
+    "serviceAcronym": "ARC",
+    "serviceDescription": "Arcturel is a deployment and compliance platform for companies that sell software to federal agencies.",
+    "certificationType": "20x",
+    "website": "https://arcturel.com/",
+    "logo": "https://arcturel.com/arcturel-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS",
+      "PaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Governance, Risk, and Compliance (GRC)",
+      "Development Tools",
+      "Cybersecurity & Risk Management"
+    ]
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactEmail": "sales@arcturel.com"
+    },
+    {
+      "contactType": "Security",
+      "contactEmail": "security@arcturel.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Platform",
+      "serviceDescription": "Sign-in, organizations, roles and the audit trail the other services share.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Deployments",
+      "serviceDescription": "Gated, scanned and signed releases to Kubernetes inside Arcturel's boundary.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Review",
+      "serviceDescription": "Security and compliance comments on every pull request. A person approves the merge.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Compliance",
+      "serviceDescription": "Evidence gathered from the work, and drafted statements for a person to approve.",
+      "securityCategory": "Moderate"
+    }
+  ],
+  "ZD_frid_retro": "FR2705259993",
+  "id_matches_expected": false
+}

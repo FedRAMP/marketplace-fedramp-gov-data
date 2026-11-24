@@ -41,10 +41,10 @@
         "Trust Center",
         "Assessment Reports"
       ],
-      "url": "https://trust.bichart.ai/",
-      "repositoryDescription": "BIChart’s trust center. The landing page is public and lists the SOC 2 Type II report and other restricted security documentation.",
+      "url": "https://trust.fed.bichart.ai/",
+      "repositoryDescription": "BIChart’s trust center holds the FedRAMP certification package, including the SOC 2 Type II report. It is restricted to FedRAMP and agency reviewers; the landing page explains how to get access and links to the documentation of the API.",
       "authenticationRequired": true,
-      "accessRequestInstructions": "Open the trust center landing page, select the document you need and use its access request option. Restricted documents are released after BIChart approves the request."
+      "accessRequestInstructions": "Write to fedramp-security@bichart.ai from your agency address, naming your agency and role. Access is set up once per person and lasts until it is withdrawn: sign in at https://trust.fed.bichart.ai/ with a link sent to your address, with no approval per document or download. For tools, create an API token after signing in; the API is documented at https://trust.fed.bichart.ai/api-reference.html."
     },
     "secureConfigurationGuidance": {
       "repositoryType": [

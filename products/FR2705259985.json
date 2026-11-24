@@ -1,0 +1,117 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "Artemis Security - Artemis (no FedRAMP ID assigned yet)",
+    "providerName": "Artemis Global Technologies, Inc.",
+    "serviceName": "Artemis Platform",
+    "serviceAcronym": "Artemis",
+    "serviceDescription": "Artemis Platform detects important threats and provides the context SOC teams need to respond. It streams only detection-critical logs and retrieves the rest on demand through a federated approach. Customers may optionally install a customer-managed endpoint agent that sends data to Artemis. Outside the FedRAMP Class A boundary: the Slack and Microsoft Teams integrations, the Artemis mobile app, and Apollo MDR.\n\n**Intended use (MKT-IIP-AGU): Indirect Use.** Artemis Platform is intended to be used as a third-party security operations resource in cloud offerings used directly by U.S. federal agencies. Providers would use Artemis in place of Splunk for selected threat detection and investigation workflows in the environment supporting the federal offering.",
+    "certificationType": "20x",
+    "website": "https://artemissecurity.com",
+    "logo": "https://artemissecurity.com/logo.png",
+    "ueiNumber": ""
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center",
+        "FedRAMP Certification Data"
+      ],
+      "url": "https://trust.artemissecurity.com",
+      "repositoryDescription": "Through this Trust Center, with approved access: the complete SOC 2 Type II report; the signed bridge letter, which states the expected date of the next report; the signed audit engagement letter; supplemental compliance evidence (ISO certificates and reports); the signed FedRAMP certification type election; and a draft Security Decision Record (human-readable and JSON). The Certification Package Overview (human-readable and JSON) will be added before Artemis applies for certification, and Ongoing Certification Reports once certified.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Select \"Request access\" and use your official .gov or .mil email address. Access for these addresses is approved automatically and gives standing access to Artemis's FedRAMP materials. If Artemis denies an agency access request, Artemis notifies FedRAMP within 5 business days. Questions: fedramp@artemissecurity.com."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://trust.artemissecurity.com/resources?s=p9a9a8atoa7x6k4beyb01i&name=artemis-platform-secure-configuration-guide-%28fed-ramp-20-x%29",
+      "repositoryDescription": "Artemis Platform Secure Configuration Guide (FedRAMP 20x), version 1.0 (2026-11-20), published as a public resource on the Artemis Vanta Trust Center.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Open the link, or open Resources on the Trust Center and select View on \"Artemis Platform Secure Configuration Guide (FedRAMP 20x)\". No access request is needed."
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": [
+          "FedRAMP Certification Progress"
+        ],
+        "url": "https://trust.artemissecurity.com/updates",
+        "repositoryDescription": "Progress toward FedRAMP 20x Class A Certification (MKT-IIP-DCP): goals and milestones in the \"FedRAMP 20x progress update\" post, updated at least quarterly. The Class A application is targeted for 2026-11-25, after the FedRAMP Marketplace listing (FRC-APP-MLF).",
+        "authenticationRequired": false
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-02-25"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "FedRAMP Security Inbox",
+      "contactEmail": "fedramp@artemissecurity.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Artemis Sales",
+      "contactEmail": "contact@artemissecurity.com"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Detection",
+      "serviceDescription": "Four layers of detection built for the customer's environment, with a MITRE-mapped library of 3,000+ detectors. Security category: Moderate."
+    },
+    {
+      "serviceName": "Investigation",
+      "serviceDescription": "Every alert investigated on arrival, including alerts from other vendors, with related findings combined into one case. Security category: Moderate."
+    },
+    {
+      "serviceName": "Response",
+      "serviceDescription": "Response generated per case and approved by the customer in one click. Security category: Moderate."
+    },
+    {
+      "serviceName": "Threat Hunting",
+      "serviceDescription": "AI agents form hypotheses from the environment's own signals and new threat research and hunt daily. Security category: Moderate."
+    },
+    {
+      "serviceName": "Environment Intelligence",
+      "serviceDescription": "A live model of every user, account, device and AI agent that finds exposure and waste continuously. Security category: Moderate."
+    },
+    {
+      "serviceName": "Search (ingested and federated, including Log Explorer)",
+      "serviceDescription": "Agentic search over data ingested into Artemis and data left in the customer's SIEM, EDR or data lake (federated), including SQL search in Log Explorer. Security category: Moderate."
+    },
+    {
+      "serviceName": "AI Agents",
+      "serviceDescription": "Autonomous agents with a plain-English workspace (AI Mode) on every page and case; model calls run through Amazon Bedrock. Security category: Moderate."
+    },
+    {
+      "serviceName": "MCP and API",
+      "serviceDescription": "Connect AI tools to Artemis over MCP, or call Artemis from scripts and CI through the API. Security category: Moderate."
+    },
+    {
+      "serviceName": "Connectors (Artemis side; customer tools remain outside the boundary)",
+      "serviceDescription": "300+ connectors; hot-path data is ingested and high-volume data is queried where it lives. The customer's own tools stay outside the boundary. Security category: Moderate."
+    },
+    {
+      "serviceName": "Skills",
+      "serviceDescription": "Runbooks saved as reusable skills for the agents. Security category: Moderate."
+    },
+    {
+      "serviceName": "Endpoint agent (optional; customer-managed, data it sends is included)",
+      "serviceDescription": "Customer-installed, customer-managed agent that sends data to Artemis. The agent is customer-managed; the data it sends is in scope. Security category: Moderate."
+    },
+    {
+      "serviceName": "Web portal and sign-in",
+      "serviceDescription": "Customer user interface with sign-in through Descope; single sign-on enforced in the FedRAMP tenant. Security category: Moderate."
+    }
+  ],
+  "ZD_frid_retro": "FR2705259985",
+  "id_matches_expected": false
+}
