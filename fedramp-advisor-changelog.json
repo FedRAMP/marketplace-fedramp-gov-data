@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-24T05:04:23.628Z",
-    "total_entries": 16,
+    "export_timestamp": "2026-11-25T05:03:40.639Z",
+    "total_entries": 19,
     "description": "FedRAMP data AdvisorStatusChangeLog export from GSA system"
   },
   "data": {
@@ -133,6 +133,30 @@
         "to_status": "Listed",
         "transition_date": "2026-11-03T15:23:09.060Z",
         "recorded_date": "2026-11-03T15:23:09.060Z"
+      },
+      {
+        "unique_id": "7efc9488-b7cf-4e84-a7d0-78d2c47b709d",
+        "advisor_id": "trava-security",
+        "from_status": "",
+        "to_status": "Listed",
+        "transition_date": "2026-11-24T23:28:25.042Z",
+        "recorded_date": "2026-11-24T23:28:25.042Z"
+      },
+      {
+        "unique_id": "176a1bf1-b928-4845-9ce9-f388c88f8efb",
+        "advisor_id": "secureknots-llc",
+        "from_status": "",
+        "to_status": "Listed",
+        "transition_date": "2026-11-24T23:28:29.403Z",
+        "recorded_date": "2026-11-24T23:28:29.403Z"
+      },
+      {
+        "unique_id": "5b474d2c-26b3-4e57-ac6d-918e14507d68",
+        "advisor_id": "summit-cyber-llc",
+        "from_status": "",
+        "to_status": "Listed",
+        "transition_date": "2026-11-24T23:28:33.270Z",
+        "recorded_date": "2026-11-24T23:28:33.270Z"
       }
     ]
   }

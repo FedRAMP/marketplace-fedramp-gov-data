@@ -1,6 +1,6 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "Artemis Security - Artemis (no FedRAMP ID assigned yet)",
+    "fedRampPackageId": "FR2705259985",
     "providerName": "Artemis Global Technologies, Inc.",
     "serviceName": "Artemis Platform",
     "serviceAcronym": "Artemis",
@@ -8,7 +8,7 @@
     "certificationType": "20x",
     "website": "https://artemissecurity.com",
     "logo": "https://artemissecurity.com/logo.png",
-    "ueiNumber": ""
+    "ueiNumber": "X9KKJ1L97Z96"
   },
   "serviceProperties": {
     "serviceType": [
@@ -25,7 +25,7 @@
         "FedRAMP Certification Data"
       ],
       "url": "https://trust.artemissecurity.com",
-      "repositoryDescription": "Through this Trust Center, with approved access: the complete SOC 2 Type II report; the signed bridge letter, which states the expected date of the next report; the signed audit engagement letter; supplemental compliance evidence (ISO certificates and reports); the signed FedRAMP certification type election; and a draft Security Decision Record (human-readable and JSON). The Certification Package Overview (human-readable and JSON) will be added before Artemis applies for certification, and Ongoing Certification Reports once certified.",
+      "repositoryDescription": "Through this Trust Center, with approved access: the complete SOC 2 Type II report; the signed bridge letter, which states the expected date of the next report; the signed audit engagement letter; supplemental compliance evidence (ISO certificates and reports); the signed FedRAMP certification type election; the draft Security Decision Record (human-readable and JSON) and the draft Certification Package Overview (human-readable; this public information is its JSON version); and sample Ongoing Certification and Incident Reports (human-readable and JSON). Ongoing Certification Reports will be added once Artemis is certified.",
       "authenticationRequired": true,
       "accessRequestInstructions": "Select \"Request access\" and use your official .gov or .mil email address. Access for these addresses is approved automatically and gives standing access to Artemis's FedRAMP materials. If Artemis denies an agency access request, Artemis notifies FedRAMP within 5 business days. Questions: fedramp@artemissecurity.com."
     },
@@ -113,5 +113,5 @@
     }
   ],
   "ZD_frid_retro": "FR2705259985",
-  "id_matches_expected": false
+  "id_matches_expected": true
 }

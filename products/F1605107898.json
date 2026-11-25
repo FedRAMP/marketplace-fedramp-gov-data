@@ -1,15 +1,17 @@
 {
   "serviceIdentification": {
-    "fedRampPackageId": "",
+    "fedRampPackageId": "FR2702852019",
+    "ueiNumber": "KSS9H8NC9LY3",
     "providerName": "Vbrick Systems, Inc.",
     "serviceName": "Vbrick Enterprise Video Platform",
+    "serviceShortName": "Vbrick EVP",
     "serviceAcronym": "EVP",
-    "serviceDescription": "Vbrick EVP enables organizations to securely and efficiently\ndeliver high quality live and on-demand video to huge\naudiences internally, using the organizations wide area\nnetwork, and externally via the cloud.\nFeatures of Vbrick EVP include, the central management of\nvideo assets, user access and permissions, network delivery",
+    "serviceDescription": "Vbrick Enterprise Video Platform (EVP) is a multi-tenant Software as a Service (SaaS) offering, operated on Amazon Web Services, that enables organizations to securely deliver live and on-demand video to organizational users, anonymous users, or both. It provides central management of video assets, user access and permissions, network delivery devices, and video publishing and distribution, and integrates with customer directory services, single sign-on, and applications such as Microsoft Teams, Webex and SharePoint.",
     "certificationType": "20x",
-    "website": "https://vbrick.com/",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/VBrick%20Logo.png",
     "certificationClass": "Class C",
-    "certificationPath": "Program"
+    "certificationPath": "Program",
+    "website": "https://vbrick.com/",
+    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/VBrick%20Logo.png"
   },
   "serviceProperties": {
     "serviceType": [
@@ -24,62 +26,982 @@
       "Media"
     ],
     "trustCenter": {
-      "url": "https://trust.paramify.com/vbrick/vbrick-evp",
+      "url": "https://trust.paramify.com/vbrick",
       "repositoryType": [
         "Trust Center"
       ],
-      "repositoryDescription": "Paramify-hosted Trust Center publishing our FedRAMP compliance\nposture, control implementation status. Documentation is available to\napproved visitors upon request.",
+      "repositoryDescription": "Paramify-hosted Trust Center publishing our FedRAMP compliance posture, control implementation status. Documentation is available to approved visitors upon request.",
       "authenticationRequired": true,
-      "accessRequestInstructions": "Go to Request Access -> Fill in the required information under Trust Center\nAccess Request -> Submit forapproval",
-      "agencyAccessDenialProcess": "Vbrick will notify FedRAMP within five (5) business days of denying an\nagency's request for access to FedRAMP Certification Data, using the\nrequired notification form (CSPs Agency Access Denial), available at:\nhttps://help.fedramp.gov/hc/en-us/requests/new?ticket_form_id=518298266\n17243"
+      "accessRequestInstructions": "Go to Request Access -> Fill in the required information under Trust Center Access Request -> Submit for approval. Once approved, you will receive an email notification. Return to the Trust Center and login via the email option to access the requested deliverables.",
+      "agencyAccessDenialProcess": "Vbrick will notify FedRAMP within five (5) business days of denying an agency's request for access to FedRAMP Certification Data, using the required notification form (CSPs Agency Access Denial), available at: https://help.fedramp.gov/hc/en-us/requests/new?ticket_form_id=51829826617243"
     },
     "secureConfigurationGuidance": {
       "url": "https://revdocs.vbrick.com/docs/secure-configuration-guide",
       "repositoryType": [
         "Secure Configuration Guide"
       ],
-      "repositoryDescription": "Secure Configuration Guide (SCG) is provided by Vbrick\nSystems, Inc. to support agency customers in deploying and\nadministering Vbrick EVP.",
-      "authenticationRequired": false,
-      "accessRequestInstructions": ""
+      "repositoryDescription": "Secure Configuration Guide (SCG) is provided by Vbrick Systems, Inc. to support agency customers in deploying and administering Vbrick EVP.",
+      "authenticationRequired": false
     },
-    "nextOngoingCertificationReportDate": "2026-10-30",
-    "ongoingCertificationReportLocation": "Paramify Trust Center: https://trust.paramify.com/vbrick/vbrick-evp",
+    "additionalRepositories": [
+      {
+        "url": "https://trust.paramify.com/vbrick",
+        "repositoryType": [
+          "Policies and Procedures",
+          "Ongoing Certification Reports"
+        ],
+        "repositoryDescription": "FedRAMP Certification Data for Vbrick EVP, including policies and procedures, Ongoing Certification Reports, and Significant Change Notifications. Available to approved visitors through the Paramify Trust Center.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Go to Request Access -> Fill in the required information under Trust Center Access Request -> Submit for approval. Once approved, you will receive an email notification. Return to the Trust Center and login via the email option to access the requested deliverables."
+      },
+      {
+        "url": "https://portal.vbrick.com/part/Vbrick_CPO_Class_C.json",
+        "repositoryType": [
+          "Certification Package Overview"
+        ],
+        "repositoryDescription": "Machine-readable Certification Package Overview for Vbrick EVP, conforming to the FedRAMP Certification Package Overview schema.",
+        "authenticationRequired": false
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2027-01-29",
+    "nextQuarterlyReviewDate": "2027-02-04",
+    "ongoingCertificationReportLocation": "Paramify Trust Center: https://trust.paramify.com/vbrick",
     "availabilityWebServiceUrl": "https://status.vbrick.com/",
+    "documentationOverview": [
+      {
+        "name": "Certification Package Overview (this document)",
+        "description": "Overview of the offering, scope, third parties, cryptographic modules and package metadata.",
+        "access": "Public"
+      },
+      {
+        "name": "Security Decision Record (SDR)",
+        "description": "Implementation, verification and validation of each applicable FedRAMP rule and Key Security Indicator.",
+        "access": "Trust Center (restricted)"
+      },
+      {
+        "name": "Secure Configuration Guide",
+        "description": "Guidance for agency customers on configuring and administering Vbrick EVP securely.",
+        "access": "Public"
+      },
+      {
+        "name": "System Boundary Definition (EVP-DOC-01-US)",
+        "description": "Minimum Assessment Scope, information resources, interconnections and information flows.",
+        "access": "Trust Center (restricted)"
+      },
+      {
+        "name": "FIPS 199 Categorization (Appendix K)",
+        "description": "Security categorization of the offering (Moderate).",
+        "access": "Trust Center (restricted)"
+      },
+      {
+        "name": "Inventory of Instances, Software and Databases (Appendix M)",
+        "description": "Data types, holding components, protections and authorized roles.",
+        "access": "Trust Center (restricted)"
+      },
+      {
+        "name": "Cryptographic Modules Table (Appendix Q)",
+        "description": "Cryptographic modules by service, CMVP certificates and validation status.",
+        "access": "Trust Center (restricted)"
+      },
+      {
+        "name": "Ongoing Certification Reports and Significant Change Notifications",
+        "description": "Quarterly reports and change notifications.",
+        "access": "Trust Center (restricted)"
+      },
+      {
+        "name": "Policies and procedures",
+        "description": "See policiesAndProcedures.",
+        "access": "Trust Center (restricted)"
+      }
+    ],
     "informationResources": {
-      "metadataIncludedInScope": "Yes. Metadata about federal customer data - including authentication data,\ncustomer metadata, PII, and system-generated analytics - is included in\nscope, stored across MongoDB, Elasticsearch and AWS S3.",
+      "metadataIncludedInScope": "Yes. Metadata about federal customer data (D3, and the tenant and user identifiers in D6 and D7) is in scope wherever it resides, including third-party resources that receive it. All tenant data in the US environment is treated as federal customer data.",
+      "inclusionCriteria": {
+        "A": "Data handling: stores, processes or transmits federal customer data or metadata about it.",
+        "B": "Impact path: could reasonably affect the confidentiality, integrity or availability of federal customer data."
+      },
+      "dataSets": [
+        {
+          "code": "D1",
+          "name": "Customer Content",
+          "contents": "Videos, audio, images, presentations, thumbnails and live streams uploaded or produced by tenants.",
+          "informationType": "Information Management",
+          "securityCategory": "Moderate"
+        },
+        {
+          "code": "D2",
+          "name": "Derived Content",
+          "contents": "Transcripts, translations, generated titles, descriptions, tags, chapters and summaries, text-to-speech audio, and other outputs created from customer content by EVP features.",
+          "informationType": "Information Management",
+          "securityCategory": "Moderate"
+        },
+        {
+          "code": "D3",
+          "name": "Customer Metadata",
+          "contents": "Metadata about customer content and tenants: titles, descriptions, permissions, tenant configuration, entitlements, search indexes, and tenant names and identifiers.",
+          "informationType": "Information Management",
+          "securityCategory": "Moderate"
+        },
+        {
+          "code": "D4",
+          "name": "Provisioned Account Attributes",
+          "contents": "Limited user and group records provided by the customer through one-way synchronization from the customer's directory or SSO provider: user and group identifiers, display names and email addresses. Local-account credentials exist only where a customer chooses local accounts.",
+          "informationType": "Information Management",
+          "securityCategory": "Moderate"
+        },
+        {
+          "code": "D5",
+          "name": "Biometric Data",
+          "contents": "Profile pictures and facial-recognition data, present only for tenants that enable Vbrick Video IQ facial recognition.",
+          "informationType": "Information Management",
+          "securityCategory": "Moderate"
+        },
+        {
+          "code": "D6",
+          "name": "Usage, Client and Device Logs",
+          "contents": "Access logs, client experience logs and logs from customer devices such as DMEs, including user identifiers, email addresses and client IP addresses.",
+          "informationType": "Information Management",
+          "securityCategory": "Moderate"
+        },
+        {
+          "code": "D7",
+          "name": "System Security Data",
+          "contents": "Audit logs, security events, configuration, vulnerability and inventory data, keys and certificates for the EVP service. May reference tenants and users but contains no customer content.",
+          "informationType": "Information Management",
+          "securityCategory": "Moderate"
+        }
+      ],
       "resources": [
         {
-          "name": "Vbrick Rev (EVP) Application Servers (EC2)",
+          "name": "Elastic Load Balancers",
           "type": "Machine-Based",
-          "descriptionAndRole": "EC2 instances running the core video platform application —\nhandles upload, transcoding",
-          "handlesFederalCustomerData": true
+          "resourceCategory": "Vbrick-operated",
+          "location": "Production 01",
+          "descriptionAndRole": "Front end for the Proxy/WAF tier; FIPS TLS policy (TLS 1.3/1.2).",
+          "dataSets": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D6"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
         },
         {
-          "name": "AWS S3",
+          "name": "Proxy/WAF tier",
           "type": "Machine-Based",
-          "descriptionAndRole": "AWS S3 buckets storing customer-uploaded data",
-          "handlesFederalCustomerData": true
+          "resourceCategory": "Vbrick-operated",
+          "location": "Production 01",
+          "descriptionAndRole": "HAProxy, NGINX/OpenResty and locally managed open-appsec; DMZ and IDS.",
+          "dataSets": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D6"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
         },
         {
-          "name": "MongoDB",
+          "name": "EVP Core Nodes and processing services",
           "type": "Machine-Based",
-          "descriptionAndRole": "MongoDB stores authentication data, customer metadata,\npersonally identifiable information (PII)",
-          "handlesFederalCustomerData": true
+          "resourceCategory": "Vbrick-operated",
+          "location": "Production 01; Management (recording packaging)",
+          "descriptionAndRole": "UI, API, video management, transcoding, video ingestion, analytics, AI service and recording packaging.",
+          "dataSets": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D6"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
         },
         {
-          "name": "Elasticsearch",
+          "name": "MongoDB cluster",
           "type": "Machine-Based",
-          "descriptionAndRole": "Stores customer metadata, supplemental metadata, and\nsystem-generated analytics.",
-          "handlesFederalCustomerData": true
+          "resourceCategory": "Vbrick-operated",
+          "location": "Production 01; replica in DR-01",
+          "descriptionAndRole": "Vbrick-managed on EC2; metadata and permissions.",
+          "dataSets": [
+            "D2",
+            "D3",
+            "D4",
+            "D5"
+          ],
+          "dataState": "Both",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "RabbitMQ cluster",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Production 01; DR-01",
+          "descriptionAndRole": "Internal messaging.",
+          "dataSets": [
+            "D3"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Elasticsearch cluster",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Production 01",
+          "descriptionAndRole": "Vbrick-managed on EC2; search and analytics.",
+          "dataSets": [
+            "D2",
+            "D3",
+            "D4"
+          ],
+          "dataState": "Both",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "License Service",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Production 01",
+          "descriptionAndRole": "Entitlements.",
+          "dataSets": [
+            "D3"
+          ],
+          "dataState": "At rest",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Audit Service",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Production 01",
+          "descriptionAndRole": "Application logging.",
+          "dataSets": [
+            "D6",
+            "D7"
+          ],
+          "dataState": "Both",
+          "inclusionCriterion": "A, B",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Integration endpoints",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Production 01",
+          "descriptionAndRole": "Microsoft Teams, Webex streaming, Video Conference Integration (SIP) and Vbrick Peer-to-Peer endpoints.",
+          "dataSets": [
+            "D1",
+            "D3",
+            "D6"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Video Conference Integration services",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Production 01; DR-01",
+          "descriptionAndRole": "SIP recorder, streaming and Microsoft Teams bot hosts, ECS tasks and SQS queues.",
+          "dataSets": [
+            "D1",
+            "D3"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "WebRTC services",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Production 01; DR-01",
+          "descriptionAndRole": "vci-webrtc hosts and rev-webrtc-listener containers. In scope because the environment is shared between tenants; disabled by default for federal tenants and not certified for agency use.",
+          "dataSets": [
+            "D1"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A, B",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "MCP Server",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "us-east-1 (Amazon ECS)",
+          "descriptionAndRole": "Lets an authorized user connect a customer-designated LLM to query content and metadata the user is authorized to see.",
+          "dataSets": [
+            "D2",
+            "D3"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Lambda functions (application)",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "us-east-1; us-west-2 (DR)",
+          "descriptionAndRole": "AI services, request validation, authentication and media delivery.",
+          "dataSets": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "S3 buckets: customer and derived content",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "us-east-1",
+          "descriptionAndRole": "Customer and derived content, live streaming and AI outputs; tenant-specific and encrypted.",
+          "dataSets": [
+            "D1",
+            "D2"
+          ],
+          "dataState": "Both",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "S3 buckets: DR replicas and snapshots",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "us-east-1; us-west-2",
+          "descriptionAndRole": "DR replicas and database and search snapshots.",
+          "dataSets": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5"
+          ],
+          "dataState": "At rest",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "S3 buckets: logs",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "us-east-1; us-west-2",
+          "descriptionAndRole": "Access, CloudFront, load balancer, DME and data logs.",
+          "dataSets": [
+            "D6"
+          ],
+          "dataState": "At rest",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "S3 buckets: configuration and keys",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "us-east-1; us-west-2",
+          "descriptionAndRole": "Configuration, keys, certificates, Lambda code and static web assets.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "At rest",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "CloudFront distributions (US)",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Edge; US origins only",
+          "descriptionAndRole": "Content delivery for US tenants; serves content only from US-region origins.",
+          "dataSets": [
+            "D1",
+            "D6"
+          ],
+          "dataState": "In transit (cached)",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Central logging and SIEM",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Management",
+          "descriptionAndRole": "Logstash and Kibana, and log archive.",
+          "dataSets": [
+            "D6",
+            "D7"
+          ],
+          "dataState": "Both",
+          "inclusionCriterion": "A, B",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Zabbix and monitoring hosts",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Management",
+          "descriptionAndRole": "Infrastructure monitoring.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "Both",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Database management and backup",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Management",
+          "descriptionAndRole": "MongoDB Ops Manager and Elastic X-Pack; administrative access to D2–D5.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Shield",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Management",
+          "descriptionAndRole": "Vbrick inventory, vulnerability findings and POA&M, and change-event monitoring platform.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "At rest",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Mail Host",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Management",
+          "descriptionAndRole": "Outbound system notifications.",
+          "dataSets": [
+            "D3",
+            "D4"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Bastion and Windows jump host",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Production 01; Management",
+          "descriptionAndRole": "Administrative access.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Egress proxy",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Management",
+          "descriptionAndRole": "Deny-by-default outbound traffic control.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Certificate authority",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Management",
+          "descriptionAndRole": "Internal certificate issuance.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "At rest",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Wazuh",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Management",
+          "descriptionAndRole": "Host security monitoring and file integrity.",
+          "dataSets": [
+            "D6",
+            "D7"
+          ],
+          "dataState": "Both",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Build and deployment pipeline",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "us-east-1; Jenkins server in co-location space, Ashburn, VA",
+          "descriptionAndRole": "Jenkins build system, Ansible, image builder, build repositories and ECR images.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "At rest",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Security and inventory stores",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "us-east-1",
+          "descriptionAndRole": "AWS Config, Systems Manager inventory, container scanning and evidence.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "At rest",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Operations automation",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "us-east-1; us-west-2",
+          "descriptionAndRole": "Lambda functions for patching, inventory, change-event alerting, scaling hooks and reports.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "DR-01 standby hosts",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "DR-01 (us-west-2)",
+          "descriptionAndRole": "Disaster recovery standby hosts.",
+          "dataSets": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D6"
+          ],
+          "dataState": "Both",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Deployment Validation environment",
+          "type": "Machine-Based",
+          "resourceCategory": "Vbrick-operated",
+          "location": "Staging-01 (us-east-1)",
+          "descriptionAndRole": "Tests production deployment scripts against a replica of the production database; not publicly accessible; data deleted on shutdown.",
+          "dataSets": [
+            "D3",
+            "D4",
+            "D5"
+          ],
+          "dataState": "At rest during a validation run only",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Amazon EC2 and EBS",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1; us-west-2",
+          "descriptionAndRole": "Hosts and block storage for EVP, management and DR, including Auto Scaling groups.",
+          "dataSets": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D6",
+            "D7"
+          ],
+          "dataState": "Both",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Amazon S3",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1; us-west-2",
+          "descriptionAndRole": "Object storage for content, replicas, snapshots, logs and configuration.",
+          "dataSets": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D6",
+            "D7"
+          ],
+          "dataState": "At rest",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Amazon CloudFront",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "Edge; US origins only",
+          "descriptionAndRole": "Content delivery for US tenants.",
+          "dataSets": [
+            "D1",
+            "D6"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Elastic Load Balancing",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1; us-west-2",
+          "descriptionAndRole": "Front end for the Proxy/WAF tier. Covered under Amazon EC2.",
+          "dataSets": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D6"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Amazon ECS and Amazon ECR",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1; us-west-2",
+          "descriptionAndRole": "Video Conference Integration tasks and MCP Server; container images.",
+          "dataSets": [
+            "D1",
+            "D2",
+            "D3",
+            "D7"
+          ],
+          "dataState": "Both",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "AWS Lambda",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1; us-west-2",
+          "descriptionAndRole": "Serverless processing for AI services, media delivery and operations.",
+          "dataSets": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Amazon SQS",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1; us-west-2",
+          "descriptionAndRole": "Control messaging for Video Conference Integration.",
+          "dataSets": [
+            "D3"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Amazon SES",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1",
+          "descriptionAndRole": "Outbound system email delivery.",
+          "dataSets": [
+            "D3",
+            "D4"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "AWS KMS and AWS Secrets Manager",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1; us-west-2",
+          "descriptionAndRole": "Encryption keys for data at rest; service credentials.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "At rest",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "AWS IAM, IAM Identity Center and AWS Organizations",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "Production, Management and Organizations accounts",
+          "descriptionAndRole": "Administrative access and service control policies.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "At rest",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "AWS CloudTrail, Amazon CloudWatch and Amazon Athena",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "Production and Audit accounts",
+          "descriptionAndRole": "Audit logging, monitoring and log queries.",
+          "dataSets": [
+            "D6",
+            "D7"
+          ],
+          "dataState": "Both",
+          "inclusionCriterion": "A, B",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "AWS Systems Manager",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1; us-west-2",
+          "descriptionAndRole": "Session Manager brokered host access; inventory.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "Both",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "AWS Config and Amazon Inspector",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1; us-west-2",
+          "descriptionAndRole": "Configuration recording; image and host vulnerability checks.",
+          "dataSets": [
+            "D7"
+          ],
+          "dataState": "At rest",
+          "inclusionCriterion": "B",
+          "handlesFederalCustomerData": false,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Amazon Macie (optional feature)",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1",
+          "descriptionAndRole": "Sensitive-data discovery on S3 (reads D1–D3; findings are D7).",
+          "dataSets": [
+            "D1",
+            "D2",
+            "D3",
+            "D7"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A, B",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Amazon Transcribe and Amazon Translate",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1",
+          "descriptionAndRole": "Transcription and translation.",
+          "dataSets": [
+            "D1",
+            "D2"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Amazon Polly",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1",
+          "descriptionAndRole": "Text-to-speech.",
+          "dataSets": [
+            "D1",
+            "D2"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Amazon Bedrock (Anthropic Claude)",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1",
+          "descriptionAndRole": "Generative AI features; AWS and Anthropic do not train on customer data.",
+          "dataSets": [
+            "D1",
+            "D2",
+            "D3"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        },
+        {
+          "name": "Amazon Rekognition",
+          "type": "Machine-Based",
+          "resourceCategory": "AWS managed service",
+          "location": "us-east-1",
+          "descriptionAndRole": "Facial recognition for Vbrick Video IQ.",
+          "dataSets": [
+            "D1",
+            "D5"
+          ],
+          "dataState": "In transit",
+          "inclusionCriterion": "A",
+          "handlesFederalCustomerData": true,
+          "securityCategory": "Moderate"
+        }
+      ],
+      "supportingResources": [
+        {
+          "name": "EVP status page (status.vbrick.com)",
+          "descriptionAndRole": "Vbrick-built availability service served from an S3 bucket and CloudFront in us-west-2. Holds no federal customer data or metadata and has no path to production systems."
+        }
+      ],
+      "exclusions": [
+        {
+          "resourceSet": "EU deployment: Prod-02, Staging-02 and Management (eu-central-1); DR-02 (eu-west-1)",
+          "reasonCode": "X1",
+          "rationale": "Serves non-US customers; no federal data; no network path, replication, shared keys or shared servers with the US environment."
+        },
+        {
+          "resourceSet": "AP deployment: Prod-03 and its management VPC (ap-southeast-2)",
+          "reasonCode": "X1",
+          "rationale": "Serves non-US customers; no federal data; no network path, replication, shared keys or shared servers with the US environment."
+        },
+        {
+          "resourceSet": "Lambda@Edge functions for the EU and AP CloudFront distributions",
+          "reasonCode": "X1",
+          "rationale": "Belong to the excluded deployments; AWS requires Lambda@Edge functions to reside in us-east-1."
+        },
+        {
+          "resourceSet": "Ramp ECDN: S3 buckets, API Gateway and api.rampecdn.com distribution",
+          "reasonCode": "X2",
+          "rationale": "Separate Vbrick product; handles no EVP customer data; covered by the account-level controls."
+        },
+        {
+          "resourceSet": "Non-production account",
+          "reasonCode": "X3",
+          "rationale": "No customer data."
+        },
+        {
+          "resourceSet": "Customer-premises devices and customer systems",
+          "reasonCode": "X4",
+          "rationale": "Customer-owned or customer-operated."
+        },
+        {
+          "resourceSet": "Corporate tools, other ticketing systems, billing and cost reporting",
+          "reasonCode": "X5",
+          "rationale": "No federal customer data and no privileged path; production work cannot be initiated from them."
+        },
+        {
+          "resourceSet": "AWS Cloud Intelligence Dashboards",
+          "reasonCode": "X5",
+          "rationale": "Cost and usage reporting only; no federal customer data and no privileged path."
         }
       ]
-    }
+    },
+    "availabilityMachineReadableUrl": "https://status.vbrick.com/us.json"
   },
   "contactInformation": [
-    {
-      "contactType": "FedRAMP Security Inbox",
-      "contactEmail": "fedramp@vbrick.com"
-    },
     {
       "contactType": "Security",
       "contactEmail": "fedramp@vbrick.com"
@@ -91,57 +1013,391 @@
   ],
   "assessor": {
     "name": "Coalfire Systems, Inc.",
-    "assessorID": "138514",
-    "assessmentSummary": {
-      "overallSummary": "TBD",
-      "assessmentFailures": "TBD",
-      "areasOfDispute": "TBD",
-      "fullResultsLocation": "TBD"
-    }
+    "assessorID": "138514"
   },
   "certifiedServices": [
     {
-      "serviceName": "Vbrick Enterprise Video Platform",
-      "serviceDescription": "Rev enables organizations to securely and efficiently deliver high\nquality live and on-demand video to huge audiences internally,\nusing the organizations wide area network, and externally via the\ncloud. Features of Rev include, the central management of video\nassets, user access and permissions, network delivery devices,\nand video publishing and distribution - in the most bandwidth-\nefficient way possible.",
-      "dateAvailable": "2026-10-12",
+      "serviceName": "Video on Demand",
+      "serviceDescription": "Upload through the browser, API or customer devices; storage in tenant-specific encrypted storage; optional transcoding; permission management; and authenticated playback, including CDN-accelerated delivery.",
       "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Live Webcasting",
+      "serviceDescription": "Authenticated access and unified URLs for live webcasts, including cloud live streaming through CloudFront.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Video Conference Recording",
+      "serviceDescription": "Connection to SIP-enabled conferences, with recordings ingested and processed as video on demand.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Microsoft Teams and Webex Integrations",
+      "serviceDescription": "Cloud-side endpoints for streaming and recording from Microsoft Teams and Webex meetings.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Authentication and Directory Integration",
+      "serviceDescription": "Local accounts, SAML single sign-on, and LDAP/SCIM-based user and group synchronization and authentication (cloud side).",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Public REST API and Application Integrations",
+      "serviceDescription": "Authenticated API access for uploads, downloads and integrated applications.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Transcription and Translation",
+      "serviceDescription": "Optional automated transcription and translation of video audio tracks.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Generative AI Features",
+      "serviceDescription": "Optional automatic titles, descriptions, tags, chapters, summaries, semantic search and chat with video content.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Text-to-Speech",
+      "serviceDescription": "Optional narration and spoken renditions of video metadata.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Vbrick Video IQ Facial Recognition",
+      "serviceDescription": "Optional discovery and tagging of users in videos based on profile pictures.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "MCP Server",
+      "serviceDescription": "Lets an authorized user connect a customer-designated large language model to query content and metadata the user is authorized to see.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Video Analytics and Reporting",
+      "serviceDescription": "Viewing and usage analytics generated by the platform.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Content and Tenant Administration",
+      "serviceDescription": "Central management of video assets, user access and permissions, and tenant configuration.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Device and Client Logging Service",
+      "serviceDescription": "Cloud receipt of troubleshooting logs from Vbrick devices and client software.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Peer-to-Peer Delivery Coordination",
+      "serviceDescription": "Cloud-side endpoint that coordinates peer-to-peer video delivery.",
+      "securityCategory": "Moderate"
+    },
+    {
+      "serviceName": "Email Notifications",
+      "serviceDescription": "System-generated email notifications to tenant users.",
+      "securityCategory": "Moderate"
+    }
+  ],
+  "servicesNotIncluded": [
+    {
+      "serviceName": "WebRTC services",
+      "reason": "Disabled by default for federal tenants; not certified for agency use. Its resources remain in the Minimum Assessment Scope because the environment is shared between tenants."
+    },
+    {
+      "serviceName": "Vbrick Distributed Media Engine (DME) and encoders",
+      "reason": "Customer-owned and customer-operated devices."
+    },
+    {
+      "serviceName": "Vbrick LDAP/SCIM Connector",
+      "reason": "Software installed and operated in the customer's network."
+    },
+    {
+      "serviceName": "Vbrick Peer-to-Peer client software",
+      "reason": "Software deployed and operated by the customer on its workstations."
+    },
+    {
+      "serviceName": "Vbrick mobile applications",
+      "reason": "Separately delivered client software."
+    },
+    {
+      "serviceName": "Video players and browsers on viewer devices",
+      "reason": "Installed on and controlled by the customer's systems."
+    },
+    {
+      "serviceName": "Customer-designated LLMs connected through the MCP Server",
+      "reason": "Selected and operated by the customer."
+    },
+    {
+      "serviceName": "Customer and third-party platforms (Microsoft Teams, Webex, SharePoint, customer SSO providers and directories)",
+      "reason": "Operated by the customer or a third party; only the EVP-side integration is in scope."
+    },
+    {
+      "serviceName": "Vbrick Ramp ECDN",
+      "reason": "Separate Vbrick product."
+    },
+    {
+      "serviceName": "EVP deployments in the EU (Frankfurt, Ireland) and AP (Sydney)",
+      "reason": "Non-US regional deployments; no federal customer data and no network path to the US environment."
+    },
+    {
+      "serviceName": "Vbrick non-production environments",
+      "reason": "No customer data."
     }
   ],
   "informationFlows": {
     "securityCategoryOfTheOffering": "Moderate",
-    "dataFlowDiagramReference": "EVP Cloud Service Data Flow Diagram, APPENDIX G -\nInformation System Contingency Plan (ISCP)",
+    "dataFlowDiagramReference": "System Boundary Definition EVP-DOC-01-US, Appendix C – Data Flow Diagram",
     "flows": [
       {
-        "flowName": "Authentication",
-        "sourceResource": "Viewer's client (browser/application)",
-        "destinationResource": "Authentication Service (EVP Servers); for LDAP —",
-        "informationTypeCarried": "Login credentials (username/password); LDAP\nauthentication requests/responses; SSO authentication\ndata, session cookies/authentication tokens",
+        "flowName": "Authentication – SAML SSO",
+        "sourceResource": "User's browser; customer SSO provider",
+        "destinationResource": "Proxy/WAF → EVP Core Nodes → MongoDB",
+        "dataSets": [
+          "D4"
+        ],
+        "informationTypeCarried": "SAML assertions, session tokens, provisioned account attributes",
         "securityCategory": "Moderate",
-        "explanation": "Viewers authenticate via local credentials, LDAP (customer directory), or\nSSO (customer provider). A session cookie with authentication token is\nissued on success, valid for a tenant-configurable period (default 30 min)."
+        "explanation": "Users authenticate through the customer's SAML identity provider over TLS. EVP does not store passwords for SSO users."
       },
       {
-        "flowName": "Upload – from a User directly",
-        "sourceResource": "User's client (browser)",
-        "destinationResource": "EVP Application Servers (cid:0) Customer Content Storage\n(AWS S3)",
-        "informationTypeCarried": "Video content, metadata and temporary workflow data\nremoved upon completion",
+        "flowName": "Authentication and directory sync – LDAP/SCIM Connector",
+        "sourceResource": "Vbrick LDAP/SCIM Connector in the customer network",
+        "destinationResource": "Proxy/WAF → EVP Core Nodes → MongoDB",
+        "dataSets": [
+          "D4"
+        ],
+        "informationTypeCarried": "User and group records; forwarded LDAP authentication requests",
         "securityCategory": "Moderate",
-        "explanation": "Authenticated user uploads video via the UI over HTTPS.\nStored in a tenant-specific, encrypted S3 bucket; optionally\ntranscoded (tenant-configurable) with output stored in the\nsame directory. User sets permissions before the video\nbecomes viewable."
+        "explanation": "The connector connects outbound from the customer network over an encrypted channel, synchronizes users and groups one way, and forwards LDAP authentication to the customer directory."
       },
       {
-        "flowName": "Upload - Distributed Media Engine (DME)",
-        "sourceResource": "Customer-configured local hardware device (DME)",
-        "destinationResource": "EVP Application Servers (cid:0) Customer Content Storage\n(AWS S3)",
-        "informationTypeCarried": "Video content, device access-key credentials",
+        "flowName": "Authentication – local accounts",
+        "sourceResource": "User's browser",
+        "destinationResource": "Proxy/WAF → EVP Core Nodes → MongoDB",
+        "dataSets": [
+          "D4"
+        ],
+        "informationTypeCarried": "Local-account credentials, session tokens",
         "securityCategory": "Moderate",
-        "explanation": "Device is configured with an access key pair and uploads\nvideo via HTTPS. Storage/transcoding follow the same\nprocess as direct upload. Video is not activated by default (cid:0)\ntypically requires manual admin action, per tenant policy."
+        "explanation": "Used only where a customer chooses local accounts."
       },
       {
-        "flowName": "Upload - API / Integrated Service",
-        "sourceResource": "Third-party software or integrated service (via API)",
-        "destinationResource": "EVP Application Servers (cid:0) Customer Content Storage\n(AWS S3)",
-        "informationTypeCarried": "Video content, API key pair",
+        "flowName": "Media upload and download – browser",
+        "sourceResource": "User's browser",
+        "destinationResource": "Elastic Load Balancers → Proxy/WAF → EVP Core Nodes → Amazon S3; MongoDB",
+        "dataSets": [
+          "D1",
+          "D3"
+        ],
+        "informationTypeCarried": "Video and other media files, metadata",
         "securityCategory": "Moderate",
-        "explanation": "Integrated service authenticated with an assigned API key\npair and video is uploaded via HTTPS. Storage/transcoding\nfollow the same process as direct upload. Video is not\nactivated by default (cid:0) typically requires manual admin\naction, per tenant policy."
+        "explanation": "Authenticated users upload and download media over HTTPS. Content is stored in tenant-specific encrypted S3 storage and may be transcoded."
+      },
+      {
+        "flowName": "Media upload and download – DMEs and encoders",
+        "sourceResource": "Customer-operated DME or encoder",
+        "destinationResource": "Elastic Load Balancers → Proxy/WAF → EVP Core Nodes → Amazon S3; MongoDB",
+        "dataSets": [
+          "D1",
+          "D3",
+          "D6"
+        ],
+        "informationTypeCarried": "Video files, device registration, heartbeat and configuration, software updates, device logs",
+        "securityCategory": "Moderate",
+        "explanation": "Customer-owned devices authenticate with access keys and exchange media and configuration over HTTPS; device logs are sent to EVP."
+      },
+      {
+        "flowName": "Media upload and download – API and integrations",
+        "sourceResource": "Customer-operated application or integration (e.g., SharePoint)",
+        "destinationResource": "Elastic Load Balancers → Proxy/WAF → EVP Core Nodes → Amazon S3; MongoDB",
+        "dataSets": [
+          "D1",
+          "D2",
+          "D3"
+        ],
+        "informationTypeCarried": "Media files, metadata, API credentials",
+        "securityCategory": "Moderate",
+        "explanation": "Integrating applications authenticate to the public REST API and transfer content over HTTPS."
+      },
+      {
+        "flowName": "Video on demand playback",
+        "sourceResource": "Amazon S3 via EVP Core Nodes and CloudFront",
+        "destinationResource": "Viewer's browser or player",
+        "dataSets": [
+          "D1",
+          "D6"
+        ],
+        "informationTypeCarried": "Video content, access logs",
+        "securityCategory": "Moderate",
+        "explanation": "Video is served from cloud storage or through US-origin CloudFront distributions. Cached content is visible only to authenticated users unless marked public."
+      },
+      {
+        "flowName": "Live webcasts",
+        "sourceResource": "Customer encoder or on-premises device",
+        "destinationResource": "Proxy/WAF → EVP Core Nodes → CloudFront → viewer",
+        "dataSets": [
+          "D1",
+          "D3"
+        ],
+        "informationTypeCarried": "Live video streams (in transit only), webcast metadata",
+        "securityCategory": "Moderate",
+        "explanation": "EVP authenticates viewers and routes the webcast; live content is not stored in the cloud while in progress."
+      },
+      {
+        "flowName": "Video conference recording",
+        "sourceResource": "SIP-enabled conference, Microsoft Teams or Webex",
+        "destinationResource": "Integration endpoints → Video Conference Integration services (ECS, SQS) → Amazon S3",
+        "dataSets": [
+          "D1",
+          "D3"
+        ],
+        "informationTypeCarried": "Conference audio and video, recording metadata",
+        "securityCategory": "Moderate",
+        "explanation": "Conferences are recorded live, processed and added to the tenant as video on demand."
+      },
+      {
+        "flowName": "Client and device logging",
+        "sourceResource": "DMEs and Vbrick Peer-to-Peer clients",
+        "destinationResource": "CloudFront (dme-logs.us) → S3 log buckets → central logging",
+        "dataSets": [
+          "D6"
+        ],
+        "informationTypeCarried": "Client and device logs including user identifiers, email addresses and client IP addresses",
+        "securityCategory": "Moderate",
+        "explanation": "Used for remote troubleshooting."
+      },
+      {
+        "flowName": "Transcription and translation",
+        "sourceResource": "EVP Core Nodes and Lambda",
+        "destinationResource": "Amazon Transcribe and Amazon Translate → Amazon S3",
+        "dataSets": [
+          "D1",
+          "D2"
+        ],
+        "informationTypeCarried": "Audio tracks, transcripts and translations",
+        "securityCategory": "Moderate",
+        "explanation": "Optional feature; outputs are stored within the boundary; AWS does not train on customer data."
+      },
+      {
+        "flowName": "Generative AI and text-to-speech",
+        "sourceResource": "EVP Core Nodes and Lambda",
+        "destinationResource": "Amazon Bedrock (Anthropic Claude) and Amazon Polly → Amazon S3",
+        "dataSets": [
+          "D1",
+          "D2",
+          "D3"
+        ],
+        "informationTypeCarried": "Transcripts, extracted video frames, metadata, generated text and audio",
+        "securityCategory": "Moderate",
+        "explanation": "Optional features; only the minimum necessary data is sent; outputs are stored within the boundary; AWS and Anthropic do not train on customer data."
+      },
+      {
+        "flowName": "Facial recognition (Video IQ)",
+        "sourceResource": "EVP Core Nodes and Lambda",
+        "destinationResource": "Amazon Rekognition → Amazon S3; MongoDB",
+        "dataSets": [
+          "D1",
+          "D5"
+        ],
+        "informationTypeCarried": "Video frames, profile pictures, facial-recognition data",
+        "securityCategory": "Moderate",
+        "explanation": "Optional feature enabled per tenant; AWS does not train on customer data."
+      },
+      {
+        "flowName": "MCP Server queries",
+        "sourceResource": "Customer-designated LLM",
+        "destinationResource": "Proxy/WAF → MCP Server (ECS) → EVP Core Nodes",
+        "dataSets": [
+          "D2",
+          "D3"
+        ],
+        "informationTypeCarried": "Content and metadata the user is authorized to see",
+        "securityCategory": "Moderate",
+        "explanation": "Requests arrive over HTTPS; the customer selects and operates the LLM and is responsible for data sent to it."
+      },
+      {
+        "flowName": "System notifications",
+        "sourceResource": "EVP Core Nodes",
+        "destinationResource": "Mail Host → Amazon SES → tenant users",
+        "dataSets": [
+          "D3",
+          "D4"
+        ],
+        "informationTypeCarried": "Notification content, user email addresses",
+        "securityCategory": "Moderate",
+        "explanation": "Outbound system-generated email."
+      },
+      {
+        "flowName": "Disaster recovery replication",
+        "sourceResource": "Production 01 (us-east-1)",
+        "destinationResource": "DR-01 (us-west-2)",
+        "dataSets": [
+          "D1",
+          "D2",
+          "D3",
+          "D4",
+          "D5"
+        ],
+        "informationTypeCarried": "Replicated content and database records",
+        "securityCategory": "Moderate",
+        "explanation": "S3 cross-region replication and a MongoDB replica over encrypted connections; no replication to non-US regions."
+      },
+      {
+        "flowName": "Deployment validation",
+        "sourceResource": "Production 01 database",
+        "destinationResource": "Staging-01 (us-east-1)",
+        "dataSets": [
+          "D3",
+          "D4",
+          "D5"
+        ],
+        "informationTypeCarried": "Replica of the production database",
+        "securityCategory": "Moderate",
+        "explanation": "Used only during a validation run; data never leaves the Production account and is deleted at shutdown."
+      },
+      {
+        "flowName": "Build and deployment",
+        "sourceResource": "GitHub Enterprise Cloud → Jenkins (co-location)",
+        "destinationResource": "ECR and S3 build repositories → Harness delegate in Production 01",
+        "dataSets": [
+          "D7"
+        ],
+        "informationTypeCarried": "Source code, build artifacts, container images, configuration",
+        "securityCategory": "Moderate",
+        "explanation": "Jenkins builds and publishes artifacts over HTTPS; deployment runs within AWS under an approved Jira change request."
+      },
+      {
+        "flowName": "Administrative and support access",
+        "sourceResource": "Vbrick operations and support staff (Entra ID identities)",
+        "destinationResource": "IAM Identity Center → AWS Console / Systems Manager Session Manager → Management VPC → hosts",
+        "dataSets": [
+          "D7"
+        ],
+        "informationTypeCarried": "Administrative sessions; administrative access to D1–D6",
+        "securityCategory": "Moderate",
+        "explanation": "SSO with MFA; host access is brokered by Session Manager with no direct network path from Vbrick offices."
+      },
+      {
+        "flowName": "Security and operations telemetry",
+        "sourceResource": "Production hosts, Zabbix, CloudWatch, CloudTrail, Shield",
+        "destinationResource": "CrowdStrike, Qualys, PagerDuty, Slack, Site24x7",
+        "dataSets": [
+          "D6",
+          "D7"
+        ],
+        "informationTypeCarried": "Host telemetry, scan results, CloudTrail write events, alerts",
+        "securityCategory": "Moderate",
+        "explanation": "Carries system security data and no customer content."
+      },
+      {
+        "flowName": "Compute scaling actions",
+        "sourceResource": "nOps (cross-account role)",
+        "destinationResource": "Lambda functions, EventBridge rules and Auto Scaling groups in the Production account",
+        "dataSets": [
+          "D7"
+        ],
+        "informationTypeCarried": "Scaling instructions and instance events",
+        "securityCategory": "Moderate",
+        "explanation": "Actions are recorded in CloudTrail in the Audit account and analyzed by CrowdStrike."
       }
     ]
   },
@@ -149,72 +1405,565 @@
     "certified": [
       {
         "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
-        "useCase": "AWS infrastructure supporting application hosting, storage, containers, and\nnetworking.",
-        "usageAndConfiguration": "Resources are deployed across AWS US East-West regions.",
-        "justificationForUse": "Required to support application workloads and computing\nrequirements.",
-        "mitigationMeasures": "Encryption in transit and at rest, least-privilege access, network\nsegmentation.",
-        "compensatingControls": "Vulnerability scanning is performed on Vbrick-managed workloads hosted\nwithin AWS and network configuration reviewed periodically."
+        "name": "Amazon Web Services – AWS US East/West",
+        "provider": "Amazon Web Services, Inc.",
+        "useCase": "Infrastructure provider hosting the EVP service: compute (EC2, including Elastic Load Balancing and Auto Scaling; EBS), storage (S3), networking and delivery (VPC, CloudFront), containers (ECS, ECR), serverless (Lambda), messaging (SQS), email (SES), keys and secrets (KMS, Secrets Manager), identity and governance (IAM, IAM Identity Center, Organizations), logging and monitoring (CloudTrail, CloudWatch, Athena, Config, Inspector, Systems Manager, Macie), and the optional AI features (Transcribe, Translate, Polly, Bedrock with Anthropic Claude, Rekognition).",
+        "usageAndConfiguration": "Services used only in us-east-1 (primary) and us-west-2 (disaster recovery) within the Production account, with the Organizations management account and the Audit account.",
+        "justificationForUse": "Hosting platform for the service.",
+        "mitigationMeasures": "Data at rest encrypted with AWS KMS; AI services configured so that AWS and Anthropic do not train on customer data.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1823447014",
+        "name": "Slack",
+        "provider": "Slack Technologies, LLC",
+        "useCase": "Operations alert visibility.",
+        "usageAndConfiguration": "Operations channel for change-event alerts and FedRAMP message alerts. FedRAMP Certified (Rev5, Agency path, Class C) on the Enterprise Grid plan.",
+        "justificationForUse": "Real-time alert visibility.",
+        "mitigationMeasures": "Receives notifications only; no access to production.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2428769635XL",
+        "name": "Paramify Cloud",
+        "provider": "Paramify, Inc.",
+        "useCase": "GRC platform and Trust Center.",
+        "usageAndConfiguration": "Holds the SDR, solution capabilities and Trust Center. FedRAMP Certified (20x, Program path, Class C).",
+        "justificationForUse": "Certification data sharing.",
+        "mitigationMeasures": "No connection to production; holds system documentation, not customer data.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
       }
     ],
     "nonCertified": [
       {
-        "name": "CrowdStrike Falcon (Exposure Management / Cloud\nSecurity Posture Management)",
+        "name": "CrowdStrike Falcon",
         "provider": "CrowdStrike, Inc.",
         "website": "https://www.crowdstrike.com/",
-        "useCase": "Cloud security services - Vulnerability Management, Cloud Security Posture\nManagement",
-        "usageAndConfiguration": "Deployed through sensor installation and by AWS integration",
-        "justificationForUse": "Used to support vulnerability identification, cloud security\nposture assessment, and container image scanning.",
-        "mitigationMeasures": "Access is limited to the information and environments required to perform\nthe defined security functions. Tool does not access or store federal\ncustomer data.",
-        "compensatingControls": "Scan findings are reviewed internally through the Information Security\nProgram, access to the Falcon console is restricted to authorized personnel\nonly."
+        "useCase": "Endpoint detection and response, vulnerability management, container image scanning, CSPM and DSPM.",
+        "usageAndConfiguration": "Falcon sensor on every production host; container image scanning; CSPM of the Production account; DSPM scanners in a dedicated VPC in the account; receives CloudTrail write events for indicator-of-attack analysis.",
+        "justificationForUse": "Endpoint protection, vulnerability detection and configuration monitoring.",
+        "mitigationMeasures": "Integration roles limited to what each module needs; console access requires MFA; DSPM returns classification findings, not content.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
+      },
+      {
+        "name": "Microsoft Entra ID",
+        "provider": "Microsoft Corporation",
+        "website": "https://www.microsoft.com/security/business/microsoft-entra",
+        "useCase": "Workforce identity source for administrative access.",
+        "usageAndConfiguration": "Groups provisioned to IAM Identity Center by SCIM.",
+        "justificationForUse": "Central workforce identity with MFA for privileged access.",
+        "mitigationMeasures": "MFA for every production access holder; Conditional Access blocks the AWS applications on devices that are not company-owned; production access through Identity Center permission sets and time-boxed approval.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
+      },
+      {
+        "name": "GitHub Enterprise Cloud",
+        "provider": "GitHub, Inc.",
+        "website": "https://github.com/",
+        "useCase": "Source control for software and infrastructure code deployed to production.",
+        "usageAndConfiguration": "Source code, infrastructure-as-code templates and environment configuration; sign-in through Entra SSO; access by team. No access to the production environment.",
+        "justificationForUse": "Version control for software and infrastructure code.",
+        "mitigationMeasures": "Signed commits verified by GitHub; pull request with one approval required on the production branch; team access reviewed at least monthly.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
+      },
+      {
+        "name": "Atlassian Jira",
+        "provider": "Atlassian Corporation",
+        "website": "https://www.atlassian.com/software/jira",
+        "useCase": "Change and work authorization.",
+        "usageAndConfiguration": "The only system that authorizes work in production, including changes, access requests and log deletion; support escalations may reference tenants.",
+        "justificationForUse": "Change and work authorization.",
+        "mitigationMeasures": "Production work is performed only against an approved Jira ticket; tickets reference tenants by name or identifier, not customer content; access limited to Vbrick personnel through SSO.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
+      },
+      {
+        "name": "Salesforce",
+        "provider": "Salesforce, Inc.",
+        "website": "https://www.salesforce.com/",
+        "useCase": "Customer support cases and customer maintenance notifications.",
+        "usageAndConfiguration": "Support cases may include tenant names or identifiers; Marketing Cloud Account Engagement sends customer maintenance notifications.",
+        "justificationForUse": "Customer support and maintenance notifications.",
+        "mitigationMeasures": "No access to production; requests in Salesforce do not drive production work unless a Jira ticket is approved.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
+      },
+      {
+        "name": "Qualys Policy Audit",
+        "provider": "Qualys, Inc.",
+        "website": "https://www.qualys.com/",
+        "useCase": "Configuration compliance scanning.",
+        "usageAndConfiguration": "Checks EC2 images and MongoDB databases against CIS Benchmarks.",
+        "justificationForUse": "Configuration compliance scanning.",
+        "mitigationMeasures": "Scanning credentials limited to audit functions; results reviewed by Information Security.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
+      },
+      {
+        "name": "PagerDuty",
+        "provider": "PagerDuty, Inc.",
+        "website": "https://www.pagerduty.com/",
+        "useCase": "On-call alerting.",
+        "usageAndConfiguration": "Escalates alerts from Zabbix, Site24x7, CloudWatch, CloudTrail change events and Shield.",
+        "justificationForUse": "On-call alerting.",
+        "mitigationMeasures": "Receives notifications only; no access to production.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
+      },
+      {
+        "name": "Site24x7",
+        "provider": "Zoho Corporation",
+        "website": "https://www.site24x7.com/",
+        "useCase": "External availability monitoring.",
+        "usageAndConfiguration": "Monitors availability of public endpoints.",
+        "justificationForUse": "Availability monitoring.",
+        "mitigationMeasures": "Probes public endpoints only; no credentials or access to production.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
+      },
+      {
+        "name": "Cobalt",
+        "provider": "Cobalt Labs, Inc.",
+        "website": "https://www.cobalt.io/",
+        "useCase": "Independent penetration testing.",
+        "usageAndConfiguration": "Annual penetration test of the EVP service using a dedicated test tenant.",
+        "justificationForUse": "Independent penetration testing.",
+        "mitigationMeasures": "Testers have no access to customer tenants; credentials limited to the test tenant and test period.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
+      },
+      {
+        "name": "nOps Compute Copilot",
+        "provider": "nOps",
+        "website": "https://www.nops.io/",
+        "useCase": "Compute cost optimization for autoscaled capacity.",
+        "usageAndConfiguration": "Manages selected Auto Scaling groups in the Production account through Lambda functions, EventBridge rules and IAM roles that nOps deploys and maintains through a cross-account role; a separate read-only role supports cost analysis.",
+        "justificationForUse": "Compute cost optimization for autoscaled capacity.",
+        "mitigationMeasures": "Actions by nOps roles are recorded in CloudTrail in the Audit account and analyzed by CrowdStrike; IAM changes raise immediate Shield alerts.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
+      },
+      {
+        "name": "Harness",
+        "provider": "Harness Inc.",
+        "website": "https://www.harness.io/",
+        "useCase": "Deployment orchestration.",
+        "usageAndConfiguration": "SaaS that orchestrates production deployment pipelines; a delegate in Production 01 connects outbound to Harness over HTTPS and runs pipeline steps with its host's IAM role.",
+        "justificationForUse": "Deployment orchestration.",
+        "mitigationMeasures": "Production deployments run only under an approved Jira change request; the delegate makes outbound connections only; delegate actions are recorded in CloudTrail in the Audit account; deployment credentials are held in AWS Secrets Manager.",
+        "compensatingControls": "Tracked in the Vendor Supply Chain Risk Management Tracker and reviewed monthly; vendor SOC 2 Type II, ISO 27001 or equivalent reports and agreements reviewed annually."
       }
     ]
   },
   "policiesAndProcedures": [
     {
-      "name": "Certification Data Sharing Policy",
-      "location": "Certification Data Sharing - Policy",
-      "summary": "Defines requirements for sharing applicable FedRAMP\ncertification data publicly, including use of a\nFedRAMP-compatible trust center.",
-      "wordCount": 2085,
+      "name": "Addressing FedRAMP Communications Policy",
+      "fileName": "Addressing FedRAMP Communications Policy",
+      "summary": "Establishes requirements for maintaining a FedRAMP Security Inbox and receiving, acknowledging and acting on FedRAMP communications within required timeframes.",
+      "wordCount": 710,
       "version": "Version 1",
-      "dateOfLastUpdate": "2026-07-01"
+      "dateOfLastUpdate": "2026-07-01",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: AFC (Addressing FedRAMP Communication)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Addressing FedRAMP Communications Procedures",
+      "fileName": "Addressing_FedRAMP_Communications_Procedures_AFC-PRO-01.pdf",
+      "summary": "Receiving, acknowledging and acting on FedRAMP communications through the FedRAMP Security Inbox, including Emergency and Important messages.",
+      "wordCount": 1206,
+      "version": "Version 1",
+      "dateOfLastUpdate": "2026-07-01",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: AFC (Addressing FedRAMP Communication)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Capacity Planning Procedure",
+      "fileName": "Capacity_Planning_Procedure_CAP-PRO-01.pdf",
+      "summary": "Implements the Capacity Planning Policy: defining capacity requirements, monitoring utilization and planning capacity for the EVP.",
+      "wordCount": 3237,
+      "version": "Version 1",
+      "dateOfLastUpdate": "2026-08-04",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: KSI-CNA (Cloud Native Architecture)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Certification Data Sharing Policy",
+      "fileName": "Certification Data Sharing - Policy",
+      "summary": "Defines requirements for sharing FedRAMP certification data, including use of a FedRAMP-compatible trust center.",
+      "wordCount": 2479,
+      "version": "Version 1",
+      "dateOfLastUpdate": "2026-07-01",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: CDS (Certification Data Sharing)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
     },
     {
       "name": "Certification Data Sharing Procedure",
-      "location": "Certification Data Sharing - Procedure",
-      "summary": "Defines the operational steps for implementing the\nCertification Data Sharing Policy, including trust center\nmaintenance and agency access management.",
-      "wordCount": 1823,
+      "fileName": "Certification_Data_Sharing_Procedure_CDS-PRO-01.pdf",
+      "summary": "Implements the Certification Data Sharing Policy: Trust Center content, machine-readable schema conformance, agency access and historical certification data.",
+      "wordCount": 2219,
       "version": "Version 1",
-      "dateOfLastUpdate": "2026-08-03"
-    }
-  ],
-  "cryptographicModules": [
-    {
-      "servicesCovered": "Vbrick Enterprise Video Platform",
-      "moduleName": "AWS Key Management Service HSM",
-      "moduleVersion": "Hardware Version: 3.0; Firmware Version: 1.8.104",
-      "cryptographicServicesProvided": "Data at rest",
-      "cmvpValidated": "Active validation"
+      "dateOfLastUpdate": "2026-08-03",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: CDS (Certification Data Sharing)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
     },
     {
-      "servicesCovered": "Vbrick Enterprise Video Platform",
-      "moduleName": "AWS-LC",
-      "moduleVersion": "AWS-LC FIPS 1.0.2 and AWS-LC FIPS 1.1.0",
-      "cryptographicServicesProvided": "Data in transit",
-      "cmvpValidated": "Active validation"
+      "name": "Collaborative Continuous Monitoring Handbook",
+      "fileName": "Collaborative_Continuous_Monitoring_Handbook_CCM-PRO-01.pdf",
+      "summary": "Collaborative Continuous Monitoring: Ongoing Certification Reports, quarterly reviews and sharing of current certification information with agencies.",
+      "wordCount": 3952,
+      "version": "Version 1",
+      "dateOfLastUpdate": "2026-07-01",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: CCM (Collaborative Continuous Monitoring)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Collaborative Continuous Monitoring Policy",
+      "fileName": "Collaborative Continuous Monitoring Policy",
+      "summary": "Establishes requirements for collaborative continuous monitoring, including Ongoing Certification Reports and quarterly reviews shared with agencies.",
+      "wordCount": 1604,
+      "version": "Version 1",
+      "dateOfLastUpdate": "2026-07-01",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: CCM (Collaborative Continuous Monitoring)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Configuration Management Handbook",
+      "fileName": "Configuration_Management_Handbook_CM-PRO-02.pdf",
+      "summary": "Configuration and change management: baselines, change control, deployment and configuration monitoring for the EVP.",
+      "wordCount": 4974,
+      "version": "Version 6",
+      "dateOfLastUpdate": "2026-07-06",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: CM (Configuration Management)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Configuration Management Policy",
+      "fileName": "Configuration Management Policy",
+      "summary": "Establishes configuration and change management requirements for the EVP, including baselines, change approval and configuration monitoring.",
+      "wordCount": 1409,
+      "version": "Version 7",
+      "dateOfLastUpdate": "2026-07-08",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: CM (Configuration Management)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Contingency Planning Handbook",
+      "fileName": "Contingency_Planning_Handbook_CP-PRO-03.pdf",
+      "summary": "Contingency planning: backup, recovery planning and contingency plan testing for the EVP.",
+      "wordCount": 2325,
+      "version": "Version 5",
+      "dateOfLastUpdate": "2026-01-01",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: CP (Contingency Planning)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Incident Evaluation and Communication Policy",
+      "fileName": "Incident Evaluation and Communication Policy",
+      "summary": "Establishes requirements for evaluating incidents for FedRAMP reportability and communicating FedRAMP Reportable Incidents to FedRAMP, agencies and necessary parties.",
+      "wordCount": 1278,
+      "version": "Version 1",
+      "dateOfLastUpdate": "2026-07-01",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: IEC (Incident Evaluation and Communication)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Incident Evaluation and Communication Procedure",
+      "fileName": "Incident_Evaluation_and_CommunicationProcedure_IEC-PRO-01.pdf",
+      "summary": "Evaluating incidents for FedRAMP reportability and communicating FedRAMP Reportable Incidents to FedRAMP, agencies and necessary parties.",
+      "wordCount": 1616,
+      "version": "Version 2",
+      "dateOfLastUpdate": "2026-10-30",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: IEC (Incident Evaluation and Communication)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Incident Response Handbook",
+      "fileName": "Incident_Response_Handbook_IR-PRO-02.pdf",
+      "summary": "Incident response: triage, containment, remediation and notification for security incidents affecting the EVP.",
+      "wordCount": 6758,
+      "version": "Version 7",
+      "dateOfLastUpdate": "2026-07-31",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: IR (Incident Response)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Incident Response Plan",
+      "fileName": "Incident Response Plan",
+      "summary": "Defines the coordinated plan for detecting, responding to, recovering from and reporting security incidents affecting the EVP.",
+      "wordCount": 3514,
+      "version": "Version 4",
+      "dateOfLastUpdate": "2026-07-01",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: IR (Incident Response)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Incident Response Policy",
+      "fileName": "Incident Response Policy",
+      "summary": "Establishes incident response requirements for the EVP, including roles, response phases and notification.",
+      "wordCount": 2362,
+      "version": "Version 7",
+      "dateOfLastUpdate": "2026-07-21",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: IR (Incident Response)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "InfoSec Program Goals and Executive Review – CY2027",
+      "fileName": "InfoSec_Goals_and_Executive_Review_IS-GER-01.pdf",
+      "summary": "Annual Information Security program goals, resourcing and executive review for CY2027.",
+      "wordCount": 1687,
+      "version": "Version 1",
+      "dateOfLastUpdate": "2026-08-01",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: KSI-PIY (Policy and Inventory)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Information Security Policy",
+      "fileName": "Information Security Policy",
+      "summary": "Establishes Vbrick's information security program for the EVP, including governance, roles and responsibilities, and the policy framework under which the family policies operate.",
+      "wordCount": 30813,
+      "version": "Version 6",
+      "dateOfLastUpdate": "2026-01-01",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: PM (Program Management)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Information System Contingency Plan",
+      "fileName": "Information_System_Contingency_Plan_CP-PRO-04.pdf",
+      "summary": "Information System Contingency Plan: recovery roles, procedures and restoration of the EVP following disruption.",
+      "wordCount": 12250,
+      "version": "Version 7",
+      "dateOfLastUpdate": "2026-01-01",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: CP (Contingency Planning)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Key Security Indicators Policy",
+      "fileName": "Key Security Indicators Policy",
+      "summary": "Establishes requirements for meeting, measuring and validating each FedRAMP 20x Key Security Indicator for the EVP.",
+      "wordCount": 2546,
+      "version": "Version 1",
+      "dateOfLastUpdate": "2026-07-01",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: KSI-CED (Cybersecurity Education)",
+        "FedRAMP 20x: KSI-CMT (Change Management)",
+        "FedRAMP 20x: KSI-CNA (Cloud Native Architecture)",
+        "FedRAMP 20x: KSI-IAM (Identity and Access Management)",
+        "FedRAMP 20x: KSI-INR (Incident Response)",
+        "FedRAMP 20x: KSI-MLA (Monitoring, Logging and Auditing)",
+        "FedRAMP 20x: KSI-PIY (Policy and Inventory)",
+        "FedRAMP 20x: KSI-RPL (Recovery Planning)",
+        "FedRAMP 20x: KSI-SCR (Supply Chain Risk)",
+        "FedRAMP 20x: KSI-SVC (Service Configuration)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Key Security Indicators Procedure",
+      "fileName": "Key_Security_Indicators_Procedure_KSI-PRO-01.pdf",
+      "summary": "Implements the Key Security Indicators Policy: operational workflows by which Vbrick meets and measures each Key Security Indicator.",
+      "wordCount": 4270,
+      "version": "Version 1",
+      "dateOfLastUpdate": "2026-07-01",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: KSI-CED (Cybersecurity Education)",
+        "FedRAMP 20x: KSI-CMT (Change Management)",
+        "FedRAMP 20x: KSI-CNA (Cloud Native Architecture)",
+        "FedRAMP 20x: KSI-IAM (Identity and Access Management)",
+        "FedRAMP 20x: KSI-INR (Incident Response)",
+        "FedRAMP 20x: KSI-MLA (Monitoring, Logging and Auditing)",
+        "FedRAMP 20x: KSI-PIY (Policy and Inventory)",
+        "FedRAMP 20x: KSI-RPL (Recovery Planning)",
+        "FedRAMP 20x: KSI-SCR (Supply Chain Risk)",
+        "FedRAMP 20x: KSI-SVC (Service Configuration)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Significant Change Notification Policy",
+      "fileName": "Significant Change Notification Policy",
+      "summary": "Establishes requirements for identifying, classifying, documenting and notifying significant changes to the EVP.",
+      "wordCount": 2703,
+      "version": "Version 1",
+      "dateOfLastUpdate": "2026-07-01",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: SCN (Significant Change Notification)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Significant Change Notification Procedure",
+      "fileName": "Significant_Change_Notification_Procedure_SCN-PRO-01.pdf",
+      "summary": "Implements the Significant Change Notification Policy: identifying, classifying, documenting and communicating significant changes.",
+      "wordCount": 3650,
+      "version": "Version 2",
+      "dateOfLastUpdate": "2026-09-04",
+      "relatedFedRampPractices": [
+        "FedRAMP 20x: SCN (Significant Change Notification)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Software Development Life Cycle Procedure Handbook",
+      "fileName": "Software_Development_Lifecycle_Procedure_SDLC-PRO-01.pdf",
+      "summary": "Implements the Software Development Life Cycle Policy: secure development, testing and release of EVP software.",
+      "wordCount": 3481,
+      "version": "Version 2",
+      "dateOfLastUpdate": "2026-01-01",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: SA (System and Services Acquisition)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Software Development Lifecycle Policy",
+      "fileName": "Software Development Lifecycle Policy",
+      "summary": "Establishes secure software development requirements for the EVP, including design, code review, testing and release.",
+      "wordCount": 3454,
+      "version": "Version 9",
+      "dateOfLastUpdate": "2026-01-01",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: SA (System and Services Acquisition)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Supply Chain Risk Management Plan",
+      "fileName": "Supply Chain Risk Management Plan",
+      "summary": "Defines how suppliers and third-party components that handle federal customer data or affect the EVP are identified, risk-rated, monitored and reviewed.",
+      "wordCount": 2255,
+      "version": "Version 5",
+      "dateOfLastUpdate": "2026-08-04",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: SR (Supply Chain Risk Management)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "System and Communication Protection Handbook",
+      "fileName": "System_and_Communications_Protection_Handbook_SC-PRO-02.pdf",
+      "summary": "System and communications protection: boundary protection, encryption in transit and at rest, and network segregation.",
+      "wordCount": 4384,
+      "version": "Version 6",
+      "dateOfLastUpdate": "2026-07-01",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: SC (System and Communications Protection)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "System and Communications Protection Policy",
+      "fileName": "System and Communications Protection Policy",
+      "summary": "Establishes system and communications protection requirements, including boundary protection, network segregation and encryption of data in transit and at rest.",
+      "wordCount": 1520,
+      "version": "Version 7",
+      "dateOfLastUpdate": "2026-07-01",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: SC (System and Communications Protection)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
+    },
+    {
+      "name": "Vulnerability Management Procedure",
+      "fileName": "Vulnerability Management Procedure",
+      "summary": "Defines how vulnerabilities in the EVP are detected, evaluated, prioritized, remediated and reported.",
+      "wordCount": 2256,
+      "version": "Version 1",
+      "dateOfLastUpdate": "2026-07-01",
+      "relatedFedRampPractices": [
+        "NIST SP 800-53 Rev 5: RA (Risk Assessment)"
+      ],
+      "location": "Paramify Trust Center (restricted layer)"
     }
   ],
+  "cryptographicModules": {
+    "summary": "Data at rest in Amazon EBS (including MongoDB and Elasticsearch volumes), Amazon S3, backups and snapshots, AWS Secrets Manager and Amazon CloudWatch Logs is encrypted with AES-256 using keys held in AWS Key Management Service (CMVP #4884). Connections from users and customer systems terminate at load balancers that use a FIPS TLS policy accepting TLS 1.3 and 1.2, provided by AWS-LC (CMVP #4631); unencrypted connections are not accepted. EVP hosts run Amazon Linux 2023 in FIPS mode, using the validated kernel cryptographic API (CMVP #5369) and OpenSSL FIPS provider (CMVP #5438) for operating system and application-layer cryptography. Within the production VPCs, all production instances use supported Nitro-based instance types, which use the offload capabilities of the underlying Nitro System hardware to encrypt in-transit traffic between instances automatically. Multi-factor authentication uses third-party authenticator applications, listed below with their validation status. Agency tenants use these modules by default. Modules by service are listed in the Cryptographic Modules Table (SSP Appendix Q, Version 1.4, 09 Nov 2026).",
+    "modules": [
+      {
+        "servicesCovered": "Data at rest: Amazon EBS (full disk, including MongoDB and Elasticsearch volumes), Amazon S3 (SSE-KMS), backups and snapshots, AWS Secrets Manager and Amazon CloudWatch Logs",
+        "moduleName": "AWS Key Management Service HSM",
+        "cryptographicServicesProvided": "Data at rest",
+        "cmvpValidated": "Active validation, CMVP #4884 (FIPS 140-3, Level 3)"
+      },
+      {
+        "servicesCovered": "Data in transit: user and customer connections from the internet to the Elastic Load Balancing FIPS TLS policy (TLS 1.3/1.2)",
+        "moduleName": "AWS-LC Cryptographic Module",
+        "cryptographicServicesProvided": "Data in transit",
+        "cmvpValidated": "Active validation, CMVP #4631 (FIPS 140-3, Level 1)"
+      },
+      {
+        "servicesCovered": "EVP hosts (Amazon Linux 2023): host operating system kernel",
+        "moduleName": "Amazon Linux 2023 Kernel Cryptographic API",
+        "cryptographicServicesProvided": "Operating system cryptography",
+        "cmvpValidated": "Active validation, CMVP #5369 (FIPS 140-3, Level 1); operated in FIPS mode"
+      },
+      {
+        "servicesCovered": "EVP hosts (Amazon Linux 2023): user-space and application-layer cryptography",
+        "moduleName": "Amazon Linux 2023 OpenSSL FIPS Provider",
+        "cryptographicServicesProvided": "User-space and application-layer cryptography",
+        "cmvpValidated": "Active validation, CMVP #5438 (FIPS 140-3, Level 1); operated in FIPS mode"
+      },
+      {
+        "servicesCovered": "Multi-factor authentication: TOTP code generation for the Azure SSO (Microsoft Entra ID) service, with number matching",
+        "moduleName": "Microsoft Authenticator",
+        "cryptographicServicesProvided": "Multi-factor authentication",
+        "cmvpValidated": "Third-party module operated in FIPS mode; CMVP certificate not cited"
+      },
+      {
+        "servicesCovered": "Multi-factor authentication: TOTP code generation",
+        "moduleName": "Symantec VIP",
+        "cryptographicServicesProvided": "Multi-factor authentication",
+        "cmvpValidated": "Third-party module operated in FIPS mode; CMVP certificate not cited"
+      },
+      {
+        "servicesCovered": "Multi-factor authentication: TOTP code generation",
+        "moduleName": "Google Authenticator",
+        "cryptographicServicesProvided": "Multi-factor authentication",
+        "cmvpValidated": "Not validated (No FIPS)"
+      }
+    ]
+  },
   "packageMetadata": {
     "responsibleOfficial": {
       "name": "Todd Kistner",
       "title": "VP, Cloud Operations",
-      "email": "todd.kistner@vbrick.com",
+      "email": "fedramp@vbrick.com",
       "phone": "203-303-0259"
     },
-    "version": "Version 1.0",
-    "dateTimeOfLastUpdate": "2026-09-09T15:00:00Z",
+    "version": "Version 2.6",
+    "dateTimeOfLastUpdate": "2026-11-10T00:00:00Z",
     "sourceOfUpdate": "Vbrick Information Security",
-    "packageMaintenanceInterval": "2 weeks"
+    "packageMaintenanceInterval": "2 weeks",
+    "securityDecisionRecordVersion": "1.0.13",
+    "systemBoundaryDefinition": "EVP-DOC-01-US Rev 15"
   },
   "ZD_frid_retro": "F1605107898",
-  "id_matches_expected": null
+  "id_matches_expected": false
 }

@@ -4,7 +4,7 @@
     "providerName": "Factory",
     "serviceName": "Factory for Government",
     "serviceAcronym": "Factory",
-    "serviceDescription": "Factory is an autonomous software engineering platform that supports the software development lifecycle for U.S. federal agencies and contractors. Factory is committed to developing American superintelligence for software engineering.\n\nFactory for Government is the FedRAMP version of the Factory Enterprise Platform, which is available on commercial marketplaces.\n\nFactory's agents, called Droids, start work from engineering signals such as tickets, alerts, and vulnerability findings. They then analyze the codebase, plan changes, and write, test, review, and ship code through existing CI/CD pipelines. Engineers set goals and approve what ships.\n\nThe platform is model agnostic: it routes each task to the most effective approved model and supports customer-provided keys. Organization-wide policies govern what agents can access, run, and change. Agents work in isolated sandboxes, and every action is recorded in an audit trail that can be exported to agency monitoring tools through OpenTelemetry.\n\nFactory helps engineering and security teams modernize legacy code, including COBOL and mainframe systems; complete language, framework, platform, and data migrations; remediate vulnerability backlogs; automate code review, testing, and incident response; and expand engineering capacity for mission-critical federal systems.",
+    "serviceDescription": "Factory is an autonomous software engineering platform for U.S. federal agencies and contractors. Factory for Government is the FedRAMP version of the Factory Enterprise Platform.\n\nFactory's agents, called Droids, take engineering work such as tickets, alerts, and vulnerability findings, then plan, write, test, and review code through the agency's existing pipelines. Engineers set goals and approve what ships. Organization-wide controls govern which models and tools Droids can use, Droids run in isolated sandboxes, and every action is recorded in an exportable audit log.",
     "website": "https://factory.com",
     "logo": "https://factory.com/brand-guidelines/logos/factory-lockup-black.svg",
     "fedRampPackageId": "FR2703160255",
@@ -29,16 +29,16 @@
         "Trust Center"
       ],
       "url": "https://trust.factory.com",
-      "repositoryDescription": "Factory Trust Center with security and compliance documentation. FedRAMP milestones and progress are available at https://trust.factory.com.",
+      "repositoryDescription": "The Certification Package Overview and the Security Decision Record (each in PDF and JSON); the SOC 2 Type II report, the bridge letter, and the engagement letter for the 2026 examination; Ongoing Certification Reports; simulated Initial, Ongoing, and Final Incident Reports; the nine policies listed in the Certification Package Overview; the FedRAMP Certification Profile and Program Selection record; the FedRAMP Agency Use Case record; and the three Quarterly Review procedures. All are available through the Trust Center on request.",
       "authenticationRequired": true,
-      "accessRequestInstructions": "Request access at https://trust.factory.com."
+      "accessRequestInstructions": "Request access on the Trust Center landing page (https://trust.factory.com). Requests from fedramp.gov and gsa.gov email addresses are approved without manual review and need no non-disclosure agreement."
     },
     "secureConfigurationGuidance": {
       "repositoryType": [
         "Secure Configuration Guidance"
       ],
-      "url": "https://docs.factory.com/enterprise",
-      "repositoryDescription": "Factory for Enterprise documentation: identity, access, and Enterprise Controls.",
+      "url": "https://trust.factory.com/resources?s=pkiiwnefscfz1w28jfs97&name=secure-implementation-guidelines",
+      "repositoryDescription": "Secure Implementation Guidelines v1.0 (18 November 2026), public in the Factory Trust Center.",
       "authenticationRequired": false
     },
     "nextOngoingCertificationReportDate": "2027-02-11"

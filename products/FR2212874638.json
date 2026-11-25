@@ -3,12 +3,12 @@
     "providerName": "SkyShaper, LLC",
     "serviceName": "SkyShaper Technologies",
     "serviceAcronym": "SST",
-    "serviceDescription": "SkyShaper: A Secure Platform for Data-Driven Work:  SkyShaper is a secure cloud platform that combines analytical and research tools, scalable computation, governed data resources, collaboration capabilities, and project workspaces in one environment. Designed for Federal and State agencies, research organizations, and commercial partners, SkyShaper provides the technology and governance capabilities needed to work with sensitive data while adapting to evolving mission requirements.   Flexible Deployment and Service Models:  SkyShaper is offered as Software as a Service (SaaS), Platform as a Service (PaaS), and Infrastructure as a Service (IaaS) delivery models, and runs on single-cloud, multi-cloud, and hybrid-cloud architectures. You choose the level of management, customization, and operational control that fits your mission. These service models allow organizations to consume the full suite of SkyShaper applications and services through a SaaS model, build and extend customized analytical environments on SkyShaper platform services through a PaaS model, or leverage SkyShaper compute, storage, and infrastructure capabilities through an IaaS model.  Resources for Analytics, Research, and AI:  SkyShaper provides computing and application resources that can be aligned with the needs of individual projects and workloads. Users can work in web-based analytical applications, submit and monitor workloads through the Job Board (SkyShaper's proprietary service for executing analytical jobs), or access dedicated CPU and GPU resources for analytical, research, and artificial intelligence workloads. Integrated tools cover data access, exploration, analysis, visualization, and code execution, with support for SAS, Stata, Python, R, and other mission-specific technologies. This flexible approach enables organizations to provision resources according to project requirements, without maintaining unnecessary infrastructure.  All SkyShaper service models share identity management, access controls, monitoring, security, and compliance capabilities. These controls span SkyShaper’s User Platform, Data Platform, and Applications Platform, and cover users, projects, data, applications, and computing resources.",
+    "serviceDescription": "SkyShaper SaaS and PaaS offerings deliver secure cloud platforms that integrate governed data resources, project workspaces, secure data exchange, analytics and visualization tools, scalable computation, and collaboration capabilities, all administered through customizable role-based access control (RBAC) infrastructures that enforce granular delegation of control to authorized parties. Individual entities authorized to share confidential data sources solely direct which other parties have access; groups authorized by these entities to access data sources can configure the structure of user memberships and their workspaces; entities and groups can restrict the forms of data products exportable from the unified system; and users access system resources through multi-factor authentication without the ability to cross-stream files and data across different groups' workspaces. Workspaces incorporate suites of data management, statistical, analytic, machine learning, AI, and visualization applications. SkyShaper service models provide on-demand provisioning and commissioning of virtual computing enclaves in clouds with built-in security infrastructure that enforces access controls, monitoring, and disclosure protections according to RBAC structures configured to fulfill conditions of a body of data sharing agreements (e.g., data use agreements, business associated agreements) governing sophisticated bilateral and multilateral interactions between parties in communities of any size. SaaS/PaaS service models operate in single- and multi-cloud environments, available on Amazon Web Services (AWS), Microsoft Azure, and other cloud environments, including the SkyShaper IaaS cloud.",
     "certificationType": "Rev5",
     "fedRampPackageId": "FR2212874638",
     "website": "https://www.skyshaper.com/",
     "logo": "https://cdn.prod.website-files.com/6a06260b693dc695a9f9655f/6a2adb27642ad7dcbcffb344_logo-text-colored-horizontal-150ppi-p-500.png",
-    "ueiNumber": "FR2212874638"
+    "ueiNumber": "W8DBWK1MN5P9"
   },
   "serviceProperties": {
     "serviceType": [
@@ -66,28 +66,28 @@
   },
   "certifiedServices": [
     {
-      "serviceName": "SkyShaper Capabilities",
-      "serviceDescription": "SkyShaper's capabilities fall into three groups: environments and applications for analytical work, management tools for users and data, and communication and support for collaboration. Together, these capabilities provide a secure and scalable environment for accessing computing resources, working with data, managing permissions, and collaborating throughout the project lifecycle."
+      "serviceName": "SkyShaper SaaS",
+      "serviceDescription": "SkyShaper SaaS model services support three integrated platforms: User-Platforms, Apps-Platforms, and Data-Platforms. User-Platforms provide secure logon and user management tools, along with options for web portals, communications, data transfers (e.g., APIs, desktop file exchange, data entry forms), document/report generation, and access to Apps-Platforms. Apps-Platforms supply collaborative workspaces with configuration tools, plus options for desktop-as-a-service, software, and elastic CPU and GPU resources to support research, analytics, AI, visualizations, web applications, office tools, and operational workloads. Data-Platforms provide data-as-a-service, storing confidential data with data management tools that enable selective sharing of data resources with Apps-Platforms. Compliance Officers assigned by relevant parties use SaaS tools to establish RBAC structures that govern groups' and users' access to data, applications, and project workspaces. While the core platform architecture remains consistent across deployments, organizations may configure individual services, tools, and support capabilities to meet their requirements."
     },
     {
-      "serviceName": "Environments and Applications",
-      "serviceDescription": "• Project Desktop – Central workspace for analytics, development, and project activities, providing users with a consistent environment for research, modeling, and collaboration. • Job Board – Scalable job execution platform for analytical workloads, supporting the scheduling, monitoring, and management of computational tasks. • On-Demand Computation – Elastic CPU and GPU resources for advanced computing, enabling users to scale processing power based on workload requirements. • ADAPT Data Visualization – Interactive dashboards, maps, charts, and visual analytics that help users explore data, identify trends, and communicate results. • ADAPT Query Tool – No-code data querying, exploration, and extraction capability that enables users to access and analyze data without requiring programming expertise."
+      "serviceName": "SkyShaper PaaS",
+      "serviceDescription": "SkyShaper PaaS model services provide managed environments for developing, deploying, and running applications, including preconfigured hosting for applications and datasets, scaling of application and storage resources to match workloads, and middleware services (e.g., messaging, authentication integration, API management, and monitoring)."
     },
     {
-      "serviceName": "Management Tools",
-      "serviceDescription": "• Account Management – User authentication and account administration, providing secure access controls and support for managing user accounts across the platform. • Group Management – Role based access and permission management, enabling administrators to assign privileges and control access to resources and project content. • Data Management – Secure storage, sharing, and governance controls that support data lifecycle management, collaboration, and compliance with organizational requirements."
+      "serviceName": "SkyShaper IaaS",
+      "serviceDescription": "SkyShaper IaaS model services provide a physical infrastructure that delivers CPU and GPU computing capacities, virtual servers, storage, networking, infrastructure security, backup and disaster recovery, and infrastructure monitoring. SkyShaper SaaS and PaaS model services configure and manage SkyShaper IaaS resources."
     },
     {
-      "serviceName": "Communication and Support",
-      "serviceDescription": "• Communications Portal – Secure collaboration and discussion environment that enables users to share information, coordinate activities, and communicate within and across teams. • User Support – Documentation, training resources, and technical assistance that help users effectively utilize platform capabilities and resolve issues when they arise."
+      "serviceName": "Hybrid and Multi-Cloud Deployment",
+      "serviceDescription": "SkyShaper supports flexible cloud deployments, with SaaS and PaaS capable of combining resources and activities across multiple clouds (e.g., AWS, Azure, SkyShaper IaaS). Hybrid deployments support user activities through environments that integrate resources from multiple clouds with SaaS tools and RBAC structures aligned to meet parties' architectural, security, and operational requirements."
     }
   ],
   "packageMetadata": {
     "responsibleOfficialName": "Ricky Ip",
-    "responsibleOfficialContact": "rip@acumenllc.com",
-    "version": "1",
-    "lastUpdated": "46302",
-    "sourceOfUpdate": "Updated for changes to CDS-CSO-PUB"
+    "responsibleOfficialContact": "security@skyshaper.com",
+    "version": "4",
+    "lastUpdated": "2026-11-24",
+    "sourceOfUpdate": "Updated SkyShaper system and certified services descriptions."
   },
   "policiesAndProcedures": [
     {
