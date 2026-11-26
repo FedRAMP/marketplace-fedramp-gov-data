@@ -2,9 +2,9 @@
   "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
     "providerName": "Anysphere, Inc.",
-    "serviceName": "Cursor",
+    "serviceName": "Cursor Commercial Platform",
     "serviceAcronym": "CURSOR",
-    "serviceDescription": "Cursor is an AI-powered software development platform that helps developers and organizations understand, generate, review, and maintain software. The offering includes the Cursor editor, AI-assisted development workflows, and related cloud services. Anysphere, Inc. is pursuing FedRAMP 20x Class C certification for the Cursor platform, and A-LIGN confirmed on October 22, 2026 that its assessment work was complete. Cursor became FedRAMP Certified under the 20x Program Class A (Pilot) profile on October 29, 2026, as recorded on the FedRAMP Marketplace. The Class C request remains under FedRAMP review. Origin, Cursor's Git hosting product, is not part of this offering and is not offered to FedRAMP customers; service capabilities that operate on Origin repositories are outside the assessed scope.",
+    "serviceDescription": "Cursor Commercial Platform is an AI-powered software development platform that helps developers and organizations understand, generate, review, and maintain software. The offering includes the Cursor editor, AI-assisted development workflows, and related cloud services. Anysphere, Inc. is pursuing FedRAMP 20x Class C certification for Cursor Commercial Platform, and A-LIGN confirmed on October 22, 2026 that its assessment work was complete. Cursor became FedRAMP Certified under the 20x Program Class A (Pilot) profile on October 29, 2026, as recorded on the FedRAMP Marketplace. Class C certification is in progress and has not been granted. Origin, Cursor's Git hosting product, is not part of this offering and is not offered to FedRAMP customers; service capabilities that operate on Origin repositories are outside the assessed scope.",
     "certificationType": "20x",
     "fedRampPackageId": "FR2631054484",
     "ueiNumber": "YK4LNCE1L847",
@@ -25,9 +25,9 @@
         "Trust Center"
       ],
       "url": "https://trust.paramify.com/spacexsi/cursor",
-      "repositoryDescription": "The Cursor FedRAMP Trust Center provides public program information and access to controlled security and compliance materials.",
+      "repositoryDescription": "The Cursor Commercial Platform FedRAMP Trust Center provides public program information and access to controlled security and compliance materials.",
       "authenticationRequired": true,
-      "accessRequestInstructions": "Public program information is viewable without an account. To request controlled materials, select Request Access on the Cursor FedRAMP Trust Center and identify your agency or organization. Existing authorized reviewers may use their approved Cursor assessment workspace. For assistance, email fedramp@cursor.com from an official account. Public offering metadata is available as JSON at https://cursor.com/fedramp/certification-package-overview.json."
+      "accessRequestInstructions": "Public program information is viewable without an account. To request controlled materials, select Request Access on the Cursor Commercial Platform FedRAMP Trust Center and identify your agency or organization. Existing authorized reviewers may use their approved Cursor Commercial Platform assessment workspace. For assistance, email fedramp@cursor.com from an official account. Public offering metadata is available as JSON at https://cursor.com/fedramp/certification-package-overview.json."
     },
     "secureConfigurationGuidance": {
       "repositoryType": [
@@ -46,9 +46,9 @@
           "Assessment Reports"
         ],
         "url": "https://trust.paramify.com/spacexsi/cursor",
-        "repositoryDescription": "The full controlled Certification Package Overview, including the assessor’s Overall Summary of Assessment, and supporting assessment materials are available through Cursor’s authorized assessment workspace.",
+        "repositoryDescription": "The full controlled Certification Package Overview, including the assessor’s Overall Summary of Assessment, and supporting assessment materials are available through Cursor Commercial Platform’s authorized assessment workspace.",
         "authenticationRequired": true,
-        "accessRequestInstructions": "Existing authorized FedRAMP reviewers may use their approved Cursor assessment workspace and its Certification Package evidence. To request or confirm access, use Request Access on the Cursor FedRAMP Trust Center or contact fedramp@cursor.com from an official account."
+        "accessRequestInstructions": "Existing authorized FedRAMP reviewers may use their approved Cursor Commercial Platform assessment workspace and its Certification Package evidence. To request or confirm access, use Request Access on the Cursor Commercial Platform FedRAMP Trust Center or contact fedramp@cursor.com from an official account."
       }
     ]
   },
@@ -198,9 +198,9 @@
   ],
   "documentationOverview": {
     "status": "Ongoing Certification",
-    "version": "2026-11-11",
-    "lastUpdated": "2026-11-11T17:20:09Z",
-    "updateSource": "Provider public metadata update: the FedRAMP Marketplace records that Cursor became FedRAMP Certified under the 20x Program Class A (Pilot) profile on October 29, 2026. A-LIGN confirmed completion of its Class C assessment on October 22, 2026, and the Class C request remains under FedRAMP review. The full Certification Package Overview and assessment materials are shared through the controlled repository. Trust Center repository links updated on November 3, 2026 to the current SpaceXSI workspace location. Grok Bot service URL updated on November 11, 2026 to its documentation on docs.x.ai, which replaces the retired cursor.com Grok Bot docs.",
+    "version": "2026-11-25",
+    "lastUpdated": "2026-11-26T02:01:00Z",
+    "updateSource": "Provider public metadata update: Anysphere, Inc. identifies this offering as Cursor Commercial Platform, FedRAMP ID FR2631054484. This revision aligns the offering name, related repository descriptions and Class C status. The December 15, 2026 Quarterly Review target is retained from the existing provider schedule. Earlier public updates recorded the Class A (Pilot) certification dated October 29, 2026 and A-LIGN's Class C assessment completion dated October 22, 2026. Trust Center repository links moved to the SpaceXSI workspace on November 3, 2026. The Grok Bot service URL changed to docs.x.ai on November 11, 2026, replacing the retired cursor.com Grok Bot documentation. The full Certification Package Overview and assessment materials remain in the controlled repository.",
     "responsibleOfficial": {
       "name": "Ethan Troy",
       "title": "Senior Security Engineer",
@@ -226,7 +226,7 @@
         "access": "Public"
       },
       {
-        "name": "Cursor FedRAMP Trust Center",
+        "name": "Cursor Commercial Platform FedRAMP Trust Center",
         "url": "https://trust.paramify.com/spacexsi/cursor",
         "format": "Trust Center",
         "access": "Public compliance program; controlled deliverables are available to agencies and other necessary parties after a one-time access approval requested on the FedRAMP Trust Center"
@@ -256,9 +256,9 @@
     "assessorID": "138665"
   },
   "classCProgress": {
-    "lastUpdated": "2026-11-02",
-    "certificationStatus": "Cursor became FedRAMP Certified under the 20x Program Class A (Pilot) profile on October 29, 2026, as recorded on the FedRAMP Marketplace. The FedRAMP 20x Class C request remains under FedRAMP review.",
-    "goal": "Obtain FedRAMP 20x Class C certification for the Cursor platform and maintain ongoing certification reporting and quarterly reviews.",
+    "lastUpdated": "2026-11-25",
+    "certificationStatus": "Cursor became FedRAMP Certified under the 20x Program Class A (Pilot) profile on October 29, 2026, as recorded on the FedRAMP Marketplace. Class C certification is in progress and has not been granted.",
+    "goal": "Obtain FedRAMP 20x Class C certification for Cursor Commercial Platform and maintain ongoing certification reporting and quarterly reviews.",
     "updateCadence": "Updated at least quarterly and after each Quarterly Review.",
     "milestones": [
       {
@@ -282,7 +282,8 @@
         "date": "2026-10-18",
         "detail": "Cursor issued a qualified Ongoing Certification Report. The report and its qualifications are available through the controlled repository. The next report date is January 19, 2027."
       }
-    ]
+    ],
+    "nextQuarterlyReviewTargetDate": "2026-12-15"
   },
   "ZD_frid_retro": "FR2631054484",
   "id_matches_expected": true

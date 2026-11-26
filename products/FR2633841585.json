@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1cec8bfdeb",
-    "lastUpdated": "2026-11-24T18:02:07.000Z",
+    "version": "9d86a3a733",
+    "lastUpdated": "2026-11-25T17:47:41.000Z",
     "updateSource": "Automated release pipeline",
     "responsibleOfficial": {
       "pointOfContactName": "Brent Shulman",
@@ -55,7 +55,7 @@
           "Gated Trust Center Deliverables"
         ],
         "url": "https://trust.paramify.com/silkline/silkline-ai",
-        "repositoryDescription": "Documents in the Trust Center shared on request: Access Management Policy, Asset Management Policy, Business Continuity and Disaster Recovery Plan, Configuration Management Plan, Continuous Monitoring Plan, Data Classification and Handling Policy, Data Retention and Disposal Policy, Encryption and Cryptographic Module Policy, Executive Security Charter, FedRAMP Security Inbox (FSI) SOP, Incident Communications Procedures (ICP) SOP, Incident Response Plan, Log Management and Retention Policy, Maintenance Policy, Network Security and Segmentation Policy, Physical Security Policy, Risk Assessment Policy, SBOM Management and Third-Party Component Procedure, Secure Software Development Lifecycle (SDLC) Policy, Security Awareness and Training Policy, Security Budget and Resource Plan, Significant Change Notification (SCN) Procedure, Supply Chain Risk Management Policy, Vendor Due Diligence and Third-Party Risk Procedure, Vulnerability Detection and Response (VDR) Procedure, and the Significant Change Notification register as JSON and Markdown. Ongoing Certification Reports and the information resource inventory have their own entries in this overview.",
+        "repositoryDescription": "Documents in the Trust Center shared on request: Access Management Policy, Asset Management Policy, Business Continuity and Disaster Recovery Plan, Configuration Management Plan, Continuous Monitoring Plan, Data Classification and Handling Policy, Data Retention and Disposal Policy, Encryption and Cryptographic Module Policy, Executive Security Charter, FedRAMP Security Inbox (FSI) SOP, Incident Communications Procedures (ICP) SOP, Incident Response Plan, Log Management and Retention Policy, Maintenance Policy, Network Security and Segmentation Policy, Physical Security Policy, Risk Assessment Policy, SBOM Management and Third-Party Component Procedure, Secure Software Development Lifecycle (SDLC) Policy, Security Awareness and Training Policy, Security Budget and Resource Plan, Significant Change Notification (SCN) Procedure, Supply Chain Risk Management Policy, Vendor Due Diligence and Third-Party Risk Procedure, Vulnerability Detection and Response (VDR) Procedure, and the Significant Change Notification register as JSON and Markdown. Ongoing Certification Reports, the independent assessment results and the information resource inventory have their own entries in this overview.",
         "authenticationRequired": true,
         "accessRequestInstructions": "Open the Trust Center URL, select Request Access, and name the documents you need. Silkline reviews each request and grants access to federal agencies, prospective federal customers, their assessors, and FedRAMP reviewers. Send questions about access to fedramp@silkline.ai."
       },
@@ -124,12 +124,30 @@
       },
       {
         "repositoryType": [
+          "Assessment Reports (CPO-CSO-OSA, IVV-IAS-OSA, IVV-IAS-SUM)"
+        ],
+        "url": "https://trust.paramify.com/silkline/silkline-ai",
+        "repositoryDescription": "A-LIGN's independent verification and validation results for the FedRAMP 20x Class C assessment, published in the Trust Center without modification as independent-assessment-results-2026-11-24.json. It is the overall summary of the assessment and the per-practice summary: every requirement with its testing notes, result, any finding and its resolution.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Open the Trust Center URL, select Request Access, and name the independent assessment results. Silkline reviews each request and grants access to federal agencies, prospective federal customers, their assessors, and FedRAMP reviewers. Send questions about access to fedramp@silkline.ai."
+      },
+      {
+        "repositoryType": [
           "Quarterly Review (CCM-QTR-NRD, CCM-QTR-REG)"
         ],
         "url": "https://app.silkline.ai/.well-known/fedramp/quarterly-review",
         "repositoryDescription": "Calendar file for the next Quarterly Review, targeted for 2026-12-18. Silkline's FedRAMP 20x Quarterly Review walks through the latest Ongoing Certification Report with FedRAMP, agency customers and the independent assessor. To register, email fedramp@silkline.ai; registered parties receive the meeting link and, afterwards, the recording or transcript.",
         "authenticationRequired": false,
         "accessRequestInstructions": "Open the URL without signing in, or subscribe to it from any calendar application."
+      },
+      {
+        "repositoryType": [
+          "Certification Progress (MKT-IIP-DCP)"
+        ],
+        "url": "https://app.silkline.ai/.well-known/fedramp/certification-progress/view",
+        "repositoryDescription": "Silkline's progress toward FedRAMP certification against its documented goals and milestones, with planned and actual dates. Reviewed at least every 3 months; next review by 2027-02-24.",
+        "authenticationRequired": false,
+        "accessRequestInstructions": "Open the URL without signing in. The same record is available as JSON at https://app.silkline.ai/.well-known/fedramp/certification-progress."
       }
     ],
     "nextOngoingCertificationReportDate": "2026-12-15"
@@ -302,7 +320,7 @@
         "usageAndConfiguration": "ToDesktop builds, signs, and distributes the Electron desktop application and its updates to user devices. The application loads app.silkline.ai and bundles only its shell, so federal customer data does not reach ToDesktop.",
         "justification": "Silkline uses ToDesktop to operate the desktop distribution and update channel.",
         "mitigationMeasures": "The Chief Technology Officer decided on 2026-10-20 that ToDesktop is a third-party resource outside the boundary. macOS builds are signed with Silkline's Developer ID and notarized by Apple, and Windows installers carry an Authenticode signature issued to Silkline, Inc.",
-        "compensatingControls": "The application installs an update only when its signature matches Silkline's: the Apple team identifier on macOS and the Silkline, Inc. publisher on Windows. ToDesktop posts each release to Rootly, and a Rootly alert workflow alerts #eng-infra when the Desktop Release workflow could not have built it."
+        "compensatingControls": "The application installs an update only when its signature matches Silkline's: the Apple team identifier on macOS and the Silkline, Inc. publisher on Windows. ToDesktop posts each release to Rootly, and a Rootly alert workflow alerts the engineering team when the Desktop Release workflow could not have built it."
       },
       {
         "name": "Open Exchange Rates",
