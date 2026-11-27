@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "export_timestamp": "2026-11-27T20:59:30.513Z",
-    "total_entries": 2493,
+    "export_timestamp": "2026-11-27T22:39:59.176Z",
+    "total_entries": 2496,
     "description": "FedRAMP data CertProcessStatusChangeLog export from GSA system"
   },
   "data": {
@@ -27428,6 +27428,39 @@
         "to_status": "Initial Implementation",
         "transition_date": "2026-11-24T23:09:21.000Z",
         "recorded_date": "2026-11-24T23:23:33.218Z"
+      },
+      {
+        "unique_id": "5c5d637b-81cb-4c31-a13c-07cb4f15a2e2",
+        "product_id": "FR2705661894",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-11-27T22:11:29.000Z",
+        "recorded_date": "2026-11-27T22:18:12.156Z"
+      },
+      {
+        "unique_id": "005f0f53-0fee-4649-bb78-7c82ca58d8d6",
+        "product_id": "FR2705661903",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-11-27T22:11:37.000Z",
+        "recorded_date": "2026-11-27T22:18:12.156Z"
+      },
+      {
+        "unique_id": "ea6dd213-5472-42ce-a2c9-698a09fcd37c",
+        "product_id": "FR2705661910",
+        "cert_type": "20x",
+        "cert_path": "Program",
+        "cert_class": "Unknown",
+        "from_status": "",
+        "to_status": "Initial Implementation",
+        "transition_date": "2026-11-27T22:11:44.000Z",
+        "recorded_date": "2026-11-27T22:18:12.156Z"
       }
     ]
   }

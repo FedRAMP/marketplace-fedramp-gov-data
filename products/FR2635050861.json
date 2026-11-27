@@ -8,9 +8,9 @@
   "certification_status": "FedRAMP 20x Class C, Initial Implementation Phase",
   "certification_path": "Program (no agency sponsor)",
   "agency_use_case": "Direct Use",
-  "agency_use_case_detail": "VirtualDojo AI CRM targets two federal markets and is intended for direct\nuse by federal agencies (MKT-IIP-AGU Direct Use).\n\nFederal agencies: the platform is designed for direct agency adoption to\nmanage customer-relationship, procurement, and contract workflows and the\nControlled Unclassified Information (CUI) involved integrated into a federal\ninformation system under 44 U.S.C. 3506 and receiving an agency Authorization\nto Operate once FedRAMP Certification is achieved.\n\nFederal contractors: contractors performing on federal contract vehicles\n(e.g., GSA Schedules, NASA SEWP VI, Army ITES) must, under DFARS 252.204-7012\nand CMMC, host the CUI generated in contract performance in a cloud service\nmeeting the FedRAMP Moderate baseline. VirtualDojo AI CRM is built to satisfy\nthat requirement, maintaining federal CUI generated on behalf of those\nagencies through their contractors.\n\nStatus: VirtualDojo is pursuing FedRAMP 20x Certification (Class C, Program\npath) at the Moderate impact level and is in the Initial Implementation\nPhase. It has not completed a FedRAMP assessment and holds no agency ATO yet;\nthis listing will be updated as agency adoption is confirmed.",
+  "agency_use_case_detail": "VirtualDojo AI CRM targets two federal markets and is intended for direct\nuse by federal agencies (MKT-IIP-AGU Direct Use).\n\nFederal agencies: the platform is designed for direct agency adoption to\nmanage customer-relationship, procurement, and contract workflows and the\nControlled Unclassified Information (CUI) involved integrated into a federal\ninformation system under 44 U.S.C. 3506 and receiving an agency Authorization\nto Operate once FedRAMP Certification is achieved.\n\nFederal contractors: contractors performing on federal contract vehicles\n(e.g., GSA Schedules, NASA SEWP VI, Army ITES) must, under DFARS 252.204-7012\nand CMMC, host the CUI generated in contract performance in a cloud service\nmeeting the FedRAMP Moderate baseline. VirtualDojo AI CRM is built to satisfy\nthat requirement, maintaining federal CUI generated on behalf of those\nagencies through their contractors.\n\nStatus: VirtualDojo is pursuing FedRAMP 20x Certification (Class C, Program\npath) at the Moderate impact level and is in the Initial Implementation\nPhase. Its independent assessment by Anthony Timbers LLC (FedRAMP Recognized\nAssessor) is complete: fieldwork 2026-09-28 to 2026-10-02, KSI examination\nreport dated 2026-10-05, received 2026-10-06. It holds no agency ATO yet;\nthis listing will be updated as agency adoption is confirmed.",
   "provider": {
-    "name": "VirtualDojo, Inc.",
+    "name": "VirtualDojo Inc.",
     "uei": "JZCAH18DEDC8",
     "cage_code": "142E1",
     "website": "https://virtualdojo.com"
@@ -115,7 +115,7 @@
     },
     "assessor": {
       "name": "Anthony Timbers LLC",
-      "role": "FedRAMP-recognized 3PAO",
+      "role": "FedRAMP Recognized Assessor",
       "assessor_id": "203181"
     }
   },
@@ -123,8 +123,8 @@
     {
       "provider": "Google Cloud Platform",
       "service": "GCP Assured Workloads, including Vertex AI in-boundary (us-central1 for interactive inference; us multi-region via US REP endpoint for CUI-classifier batch jobs; org policy denies global)",
-      "fedramp_id": "FR1805580474",
-      "impact_level": "Moderate",
+      "fedramp_id": "FR1805751477",
+      "impact_level": "High",
       "authorization_type": "JAB P-ATO"
     },
     {
@@ -597,27 +597,27 @@
     "logo": "https://trust.virtualdojo.com/static/logo.png"
   },
   "quarterly_reviews": {
-    "next_date": "2026-12-01",
+    "next_date": "2026-12-10",
     "registration_url": "https://trust.virtualdojo.com/quarterly-reviews",
     "calendar_file_url": null,
     "feedback_mechanism": "security@virtualdojo.com",
     "meetings": [
       {
-        "date": "2026-12-01",
+        "date": "2026-12-10",
         "time_local": "14:00",
         "timezone": "America/New_York",
-        "starts_at_utc": "2026-12-01T19:00:00Z",
+        "starts_at_utc": "2026-12-10T19:00:00Z",
         "join_url": "https://teams.microsoft.com/meet/298395501401406?p=HERVnLUSLrogOkIjfd",
         "platform": "Microsoft Teams"
       }
     ]
   },
-  "next_certification_report_date": "2026-11-20",
+  "next_certification_report_date": "2026-12-03",
   "continuous_progress": {
     "statement": "VirtualDojo is pursuing FedRAMP 20x Certification Class C for VirtualDojo AI CRM by the Program path. Progress below is measured against dated milestones and refreshed at least quarterly. Milestones that are not yet met say so.",
     "review_cadence": "quarterly",
     "next_review_date": "2026-12-01",
-    "last_updated": "2026-11-27T04:12:22Z",
+    "last_updated": "2026-11-27T20:31:59Z",
     "goals": [
       {
         "id": "G1",
@@ -642,18 +642,18 @@
         "title": "Scheduled, non-interactive KSI validation operating daily",
         "status": "met",
         "date_met": "2026-07-04",
-        "detail": "Cloud Scheduler triggers a Cloud Run job daily at 04:00 UTC under a dedicated service account. The first scheduled firing was 2026-07-04 at 04:00 UTC; per-indicator results are retained for every day since. The job was created on 2026-07-03 and the runs that day were started by hand, so 2026-07-03 is reported as manual and is not counted as persistent validation.\n",
+        "detail": "Cloud Scheduler triggers a Cloud Run job every 4 hours (0 */4 * * * UTC) under a dedicated service account. The first scheduled firing was 2026-07-04 at 04:00 UTC; per-indicator results are retained for every day since. The job was created on 2026-07-03 and the runs that day were started by hand, so 2026-07-03 is reported as manual and is not counted as persistent validation.\n",
         "measure": "consecutive_days_of_validation",
         "measured": {
-          "value": 86,
+          "value": 87,
           "unit": "days",
           "window": {
             "from": "2026-09-02",
-            "to": "2026-11-26"
+            "to": "2026-11-27"
           },
           "source": "retained per-day validation results",
           "target": 183,
-          "percent_complete": 47
+          "percent_complete": 48
         }
       },
       {
@@ -665,7 +665,7 @@
         "detail": "Class C requires at least two automated methods per indicator (FRC-CSX-VVK). Method independence and outcome-based validation evidence are being strengthened indicator by indicator.\n",
         "measure": "ksis_with_2plus_methods",
         "measured": {
-          "value": 45,
+          "value": 46,
           "of": 46,
           "unit": "indicators",
           "source": "latest validation run (indicators with 2+ PASSING automated methods)"
@@ -681,15 +681,15 @@
         "detail": "FRC-CSX-MOT requires six months of historical metrics from persistent validation at Class C. The mechanism is in place and accumulating; the six-month point is reached on 2027-01-03.\n",
         "measure": "consecutive_days_of_validation",
         "measured": {
-          "value": 86,
+          "value": 87,
           "unit": "days",
           "window": {
             "from": "2026-09-02",
-            "to": "2026-11-26"
+            "to": "2026-11-27"
           },
           "source": "retained per-day validation results",
           "target": 183,
-          "percent_complete": 47
+          "percent_complete": 48
         }
       },
       {
@@ -725,7 +725,7 @@
         "title": "Application for FedRAMP Certification submitted",
         "status": "in_progress",
         "target_date": "2026-10-16",
-        "detail": "Both prerequisites are met: the Marketplace listing (2026-09-22, FRC-APP-MLF) and the independent assessment (assessment date 2026-10-02, assessor report received 2026-10-06, FRC-APP-FIA). The Certification Package is being submitted to the FedRAMP office the week of 2026-10-12. The package must be verified and validated within the 7 days before submission (FRC-APP-FCP), so the final regeneration happens in that week.\n",
+        "detail": "Both prerequisites are met: the Marketplace listing (2026-09-22, FRC-APP-MLF) and the independent assessment (assessment date 2026-10-02, assessor report received 2026-10-06, FRC-APP-FIA). The Certification Package submission was targeted for the week of 2026-10-12. The package must be verified and validated within the 7 days before submission (FRC-APP-FCP), so the final regeneration happens in that week. The 2026-10-16 target was missed; the submission is not yet recorded as complete. The FRC-APP-FIA application window runs to 2027-01-02.\n",
         "measure": "manual"
       }
     ],
@@ -2012,19 +2012,19 @@
       },
       {
         "date": "2026-11-27",
-        "class": "manual"
+        "class": "scheduled"
       }
     ],
     "scheduled": {
-      "days": 145,
+      "days": 146,
       "from": "2026-07-04",
-      "to": "2026-11-26",
+      "to": "2026-11-27",
       "meaning": "The scheduled validation job ran unattended on this date at its documented 04:00 UTC cycle and produced per-indicator results. This is the only class that counts as persistent validation."
     },
     "manual": {
-      "days": 2,
+      "days": 1,
       "from": "2026-07-03",
-      "to": "2026-11-27",
+      "to": "2026-07-03",
       "meaning": "Validation ran on this date but was started by hand, outside the scheduled cycle. Not counted as persistent validation."
     },
     "reconstructed": {
@@ -2038,10 +2038,10 @@
   },
   "certification_data_access": {
     "agency_inventory": "CDS-TRC-AAI. The inventory of federal agency users and systems holding\naccess to FedRAMP Certification Data is the membership of the Microsoft\nEntra group VDJ-TrustCenter-Agencies, which is the group the self-service\nprovisioning flow grants into. The history of that access is retained\nseparately from current membership: every grant, denial and access event\nis written to Cloud Logging with the principal, the resource and the\noutcome, on buckets whose 400-day retention is locked, so a record\nsurvives the removal of a user from the group.\n\nFedRAMP may obtain either by emailing security@virtualdojo.com. The\ncurrent inventory is supplied as a group membership export and the\nhistory as the corresponding access records for the requested period,\nwithin 5 business days of the request.",
-    "historical_snapshots": "CDS-CSO-HAD. Snapshots of FedRAMP Certification Data are aligned to\nOngoing Certification Reports and retained for the duration of the\ncertification. Each Ongoing Certification Report is published with the\nCertification Package as it stood at that report, reachable through the\nauthenticated trust center under /reports and programmatically under\n/api/certification-package, and the underlying validation run for each\nreport is retained in the append-only evidence bucket.\n\nAll necessary parties obtain a snapshot by selecting the corresponding\nreport in the trust center, or by requesting a specific period from\nsecurity@virtualdojo.com.\n\nNo Ongoing Certification Report has been issued yet: this offering is not\nyet certified and its first report is due 2026-10-02. Per the note on\nCDS-CSO-HAD, snapshots are not reconstructed for periods before the first\nOngoing Certification Report, so none is outstanding. The retention\nmechanism above is in place ahead of that first report."
+    "historical_snapshots": "CDS-CSO-HAD. Snapshots of FedRAMP Certification Data are aligned to\nOngoing Certification Reports and retained for the duration of the\ncertification. Each Ongoing Certification Report is published with the\nCertification Package as it stood at that report, reachable through the\nauthenticated trust center under /reports and programmatically under\n/api/certification-package, and the underlying validation run for each\nreport is retained in the append-only evidence bucket.\n\nAll necessary parties obtain a snapshot by selecting the corresponding\nreport in the trust center, or by requesting a specific period from\nsecurity@virtualdojo.com.\n\nNo Ongoing Certification Report has been issued yet: this offering is not\nyet certified and its first report is targeted for 2026-12-03 (moved\nfrom 2026-11-20). Per the note on\nCDS-CSO-HAD, snapshots are not reconstructed for periods before the first\nOngoing Certification Report, so none is outstanding. The retention\nmechanism above is in place ahead of that first report."
   },
   "secure_configuration_release_history": {
-    "current_version": "1.2",
+    "current_version": "2.0",
     "document_id": "VDJ-SCG-001",
     "public_url": "https://trust.virtualdojo.com/secure-configuration-guide",
     "versions": [
@@ -2068,13 +2068,29 @@
         "approver": "Devin Henderson, CEO / ISSO",
         "default_settings_changed": false,
         "summary": "Implemented SCG-ENH-VRH. Introduced this purpose-built, queryable release-history register for the Secure Configuration Guide and updated the guide's Section 1.4 decision register and Section 9 to record the control as implemented rather than a documented deviation. No recommended secure defaults changed."
+      },
+      {
+        "version": "1.3",
+        "date": "2026-11-23",
+        "author": "Devin Henderson, CEO / ISSO",
+        "approver": "Devin Henderson, CEO / ISSO",
+        "default_settings_changed": false,
+        "summary": "Accuracy corrections. Recorded SCG-ENH-EXP as partial coverage, matching VDJ-API-001 v2.1 Section 6.2.1 (the security-settings export does not include SSO, MFA policy or roles and permissions); stated that no machine-readable URL for this guide exists yet; fixed a stray code span in the SCG-CSO-AUP text; cited the NIST SP 800-63B revision; corrected the Last Updated date. No recommended secure defaults changed."
+      },
+      {
+        "version": "2.0",
+        "date": "2026-11-23",
+        "author": "Devin Henderson, CEO / ISSO",
+        "approver": "Devin Henderson, CEO / ISSO",
+        "default_settings_changed": true,
+        "summary": "Rewritten from the product code. The account model (profiles; System Administrator permission as the top-level administrative account), every security setting's default, allowed range and page name, and the API table now match the current release. Recommended values are stated per setting. Added the SCG-CSO-SDF onboarding decision and 30-day checklist and the machine-readable guide (SCG-ENH-MRG)."
       }
     ]
   },
   "live_monitoring": {
     "controls_monitored": 46,
-    "controls_passing": 37,
-    "last_validated": "2026-11-27T04:07:22.904659Z"
+    "controls_passing": 46,
+    "last_validated": "2026-11-27T20:27:01.182272Z"
   },
   "metadata": {
     "responsibleOfficial": {
@@ -2083,11 +2099,11 @@
       "email": "security@virtualdojo.com"
     },
     "version": "1.1",
-    "lastUpdated": "2026-11-27T04:12:23.740532+00:00",
+    "lastUpdated": "2026-11-27T20:32:01.297975+00:00",
     "updateSource": "Generated by fedramp-ksi-validator export.certification_package from package.yaml and the automated KSI/FRR validation results."
   },
   "serviceIdentification": {
-    "providerName": "VirtualDojo, Inc.",
+    "providerName": "VirtualDojo Inc.",
     "serviceName": "VirtualDojo AI CRM",
     "serviceAcronym": "VAC",
     "serviceDescription": "VirtualDojo AI CRM is a cloud-based customer relationship management\nplatform with AI-powered proposal generation, contact management,\npipeline forecasting, and document automation. The platform is designed\nfor government contractors and federal agencies managing procurement\nworkflows, storing Controlled Unclassified Information (CUI) including\ngovernment contract data, customer PII, proposal documents, and\nfinancial/pricing data.",
@@ -2123,7 +2139,7 @@
       "repositoryDescription": "Secure Configuration Guide for federal agency customers.",
       "authenticationRequired": false
     },
-    "nextOngoingCertificationReportDate": "2026-11-20"
+    "nextOngoingCertificationReportDate": "2026-12-03"
   },
   "contactInformation": [
     {

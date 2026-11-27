@@ -1,0 +1,130 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "NPC Labs, Inc B3IQ",
+    "providerName": "NPC Labs, Inc.",
+    "serviceName": "B3IQ",
+    "serviceAcronym": "B3IQ",
+    "serviceDescription": "B3IQ is a cloud-based service from NPC Labs, Inc. that lets customers buy, host, and manage GPU computing machines. Customers use the B3IQ website to create and manage accounts, place and track orders, and configure their machines. B3IQ’s central service assigns work to each machine over its own outbound connection, and the machine reports its results back. This means customers do not need to open inbound access to their machines. The service also includes a staff console for authorized support and operational changes, with activity records kept for staff actions. A built-in chat assistant helps customers with questions. B3IQ uses approved third-party suppliers for supporting functions such as payments, electronic signatures, email, and identity checks. It also keeps a separate encrypted backup of company data for recovery. Customers own their machines. B3IQ hosts and operates them for customers, and is responsible for the software and services that manage them.",
+    "certificationType": "20x",
+    "website": "https://b3iq.org",
+    "logo": "https://b3iq.org/trust/fedramp/b3iq-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Artificial Intelligence (AI)"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://b3iq.org/trust/",
+      "repositoryDescription": "Review current security and compliance efforts, how to request additional documentation for certifications, report incidents, and more.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://b3iq.org/trust/fedramp/secure-configuration",
+      "repositoryDescription": "Tells B3IQ customers how to configure B3IQ securely and explains the security impact of the settings that only top-level administrators can change.",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Sean Geng, CTO",
+      "contactEmail": "reports@b3iq.org",
+      "contactPhone": "+1 332 324 8327"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Viktoriya Hying, COO",
+      "contactEmail": "contact@npclabs.org",
+      "contactPhone": "+1 332 324 8327"
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc.",
+    "assessorID": "138665"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "B3IQ",
+      "serviceDescription": "B3IQ is a cloud-based service from NPC Labs, Inc. that lets customers buy, host, and manage GPU computing machines, including the customer website, staff console, chat assistant, and the central service that assigns work to machines."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2000863987",
+        "useCase": "Cloudflare (Cloudflare for Government, for gov workloads only): hosts the Workers, D1, R2, DNS, tunnels, and staff access for the whole platform."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+        "useCase": "Google Workspace: provides staff sign-in (SSO), email, documents, and Calendar."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
+        "useCase": "GitHub (GitHub Enterprise Cloud, for gov workloads only): hosts source code, Actions CI/CD, and deploy secrets."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2230252267",
+        "useCase": "Slack (GovSlack, for gov workloads only): receives internal deal-room alerts and the chat transcript mirror."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Hugging Face",
+        "provider": "Hugging Face",
+        "useCase": "Distributes model weights to machines."
+      },
+      {
+        "name": "npm",
+        "provider": "npm",
+        "useCase": "Publishes the CLI package."
+      },
+      {
+        "name": "Anthropic Claude",
+        "provider": "Anthropic",
+        "useCase": "Chat assistant requests are routed to Claude via OpenRouter."
+      },
+      {
+        "name": "OpenRouter",
+        "provider": "OpenRouter",
+        "useCase": "Routes chat-assistant requests to the AI model provider, Anthropic."
+      },
+      {
+        "name": "Telegram",
+        "provider": "Telegram",
+        "useCase": "Sends chat-assistant messages to users."
+      },
+      {
+        "name": "Stripe",
+        "provider": "Stripe, Inc.",
+        "useCase": "Handles hosted checkout and payment rails for machine purchases and invoices."
+      },
+      {
+        "name": "BILL",
+        "provider": "BILL (Bill.com)",
+        "useCase": "Handles hosted checkout and payment rails for machine purchases and invoices."
+      },
+      {
+        "name": "Airwallex",
+        "provider": "Airwallex",
+        "useCase": "Handles hosted checkout and payment rails for machine purchases and invoices."
+      },
+      {
+        "name": "Coinbase",
+        "provider": "Coinbase",
+        "useCase": "Handles hosted checkout and payment rails for machine purchases and invoices."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2705661910",
+  "id_matches_expected": false
+}

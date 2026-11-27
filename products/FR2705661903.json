@@ -1,0 +1,87 @@
+{
+  "serviceIdentification": {
+    "providerName": "Athenium LLC",
+    "serviceName": "Global Atlas API",
+    "serviceAcronym": "ATL_API",
+    "serviceDescription": "Atlas, Athenium's global weather and climate data product, was originally built for the U.S. Intelligence Community in collaboration with In-Q-Tel. DHS and intelligence community programs use it for atmospheric conditions, target-area microclimate, and historical weather context anywhere in the world. Through its API, users can query seventy years of cleaned, quality-controlled data spanning 200+ variables and 2.6 million global grid cells directly from a notebook, model, or data warehouse, with results returned as columnar, model-ready data on a single coherent grid. The same data is also reachable by AI agents through a single MCP endpoint that carries the governance and provenance of the API, backed by a company that has served government stakeholders for over 12 years.",
+    "certificationType": "20x",
+    "fedRampPackageId": "Athenium_ATL_API",
+    "website": "https://www.athenium.com/",
+    "logo": "https://barocline.com/ARI_Horizontal.png",
+    "ueiNumber": "LGN8BUG8NHY8"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Data Management",
+      "Analytics"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://www.athenium.com/about/certifications/",
+      "repositoryDescription": "Athenium certifications and FedRAMP trust center. The page is publicly accessible; underlying certification documents (KSI results, Security Decision Record, Ongoing Certification Reports) are available on request via ken.haugen@athenium.com.",
+      "authenticationRequired": false
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://docs.barocline.com/api/",
+      "repositoryDescription": "API documentation and recommended secure configuration guidance for Global Atlas API.",
+      "authenticationRequired": false
+    }
+  },
+  "contactInformation": [
+    {
+      "contactType": "Security",
+      "contactName": "Ken Haugen",
+      "contactEmail": "ken.haugen@athenium.com",
+      "contactPhone": "(603) 617-9802"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Glenn Ojeda",
+      "contactEmail": "glenn.ojeda@athenium.com",
+      "contactPhone": "(787) 455-0645"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Global Atlas API",
+      "serviceDescription": "API access to seventy years of cleaned, quality-controlled global weather and climate data spanning 200+ variables and 2.6 million grid cells, returned as columnar, model-ready data on a single coherent grid."
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AGENCYAMAZONEW",
+        "useCase": "AWS US East: compute, networking, and security monitoring for all production workloads (EC2, ECS, VPC, Application Load Balancer, Inspector, GuardDuty, CloudWatch)."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Google Cloud Platform: data layer hosting for the Atlas dataset (BigQuery, Cloud Storage)."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Red Hat 3scale API Management",
+        "provider": "Red Hat, Inc.",
+        "website": "https://www.redhat.com/en/technologies/jboss-middleware/3scale",
+        "useCase": "API management and authentication layer."
+      },
+      {
+        "name": "Zuplo",
+        "provider": "Zuplo, Inc.",
+        "website": "https://zuplo.com/",
+        "useCase": "API gateway and authentication layer."
+      }
+    ]
+  },
+  "ZD_frid_retro": "FR2705661903",
+  "id_matches_expected": false
+}

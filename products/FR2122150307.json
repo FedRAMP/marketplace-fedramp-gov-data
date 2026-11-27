@@ -1,107 +1,148 @@
 {
   "serviceIdentification": {
     "fedRampPackageId": "FR2122150307",
-    "providerName": "MongoDB",
-    "serviceName": "MongoDB Atlas for Government",
-    "serviceAcronym": "MongoDB Atlas for Government",
-    "serviceDescription": "MongoDB Atlas for Government is a fully-managed multi-cloud developer data platform authorized at FedRAMP® Moderate. Building on MongoDB’s document data model and query API, Atlas for Government automates operational and administrative tasks and offers advanced data distribution capabilities.\r\n\r\n\r\nDesigned to be secure by default, it runs in a FedRAMP Moderate Authorized, dedicated environment tailored for U.S. government needs, including Criminal Justice Information Solutions (CJIS) applications. Encryption is supported for data at rest, in transit, and in use, including encryption capabilities such as Queryable Encryption and Client-Side Field-Level Encryption. \r\n\r\n\r\nAtlas for Government is available in AWS GovCloud regions, AWS FedRAMP Moderate regions (US East/West), and GCP Assured Workload US regions.",
+    "providerName": "MongoDB, Inc.",
+    "serviceName": "Atlas for Government",
+    "serviceAcronym": "A4G",
     "certificationType": "Rev5",
     "website": "https://www.mongodb.com/products/platform/atlas-for-government",
-    "logo": "https://www.fedramp.gov/assets/img/logos/CSP_logos/MongoDB%20Logo2.png"
+    "logo": "https://raw.githubusercontent.com/mongodb/fedramp-cpo/refs/heads/main/MDB-A4G-Logo.png",
+    "serviceDescription": "MongoDB Atlas for Government is a fully managed Platform as a Service (PaaS) trusted by U.S. federal, state, and local governments, including Criminal Justice Information Solutions (CJIS) applications, and the Independent Software Vendors (ISVs) that support them. Atlas for Government provisions, operates, monitors, backs up, and scales MongoDB database clusters on the customer’s behalf in a secure, scalable environment.\n\nAtlas for Government integrates a suite of data and application services under a unified customer experience to provision and manage clusters through a simplified user interface. The services within the FedRAMP authorization boundary include Managed MongoDB database clusters, Atlas Search, time series collections, backup and restore, monitoring and alerting, and the Atlas UI, Administration API, and CLI. Altogether these services support transactional workloads, time series data, search, and petabyte-scale data storage.\n\nData is encrypted in transit using TLS and at rest using FIPS 140-validated encryption, with support for customer-managed keys. MongoDB supports Client-Side Field Level Encryption and Queryable Encryption, which encrypt sensitive fields in customer applications before reaching Atlas for Government. Customer database clusters are deployed in AWS GovCloud (US) regions, AWS U.S. East/West regions, GCP Assured Workloads U.S. regions, and now Microsoft Azure Government for a truly multi-cloud management platform."
   },
   "serviceProperties": {
     "serviceType": [
-      "SaaS",
       "PaaS"
     ],
-    "deploymentModel": "Public Cloud",
+    "deploymentModel": "Government Community Cloud",
     "businessCategory": [
-      "Analytics",
       "Data Management",
+      "Analytics",
       "Storage"
-    ]
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://trust.mongodb.com/",
+      "repositoryDescription": "Public trust center with policies and compliance reports.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "You must have a MongoDB Atlas for Government (A4G) account to request access or have been invited to our trust portal to access FedRAMP package details. Please contact fedramp@mongodb.com if you need access."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
+      "url": "https://www.mongodb.com/docs/atlas/government/security/",
+      "repositoryDescription": "Secure configuration guide for agency customers.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "Email fedramp@mongodb.com to request access."
+    },
+    "nextOngoingCertificationReportDate": "2027-01-01"
   },
   "contactInformation": [
     {
       "contactType": "Security",
-      "contactEmail": "fedramp@mongodb.com"
+      "contactName": "Security Team",
+      "contactEmail": "security@mongodb.com",
+      "contactPhone": "+1-866-237-8815"
     },
     {
       "contactType": "Sales",
-      "contactEmail": "fedramp@mongodb.com"
+      "contactName": "Gov Sales",
+      "contactEmail": "fedramp@mongodb.com",
+      "contactPhone": "+1-866-237-8815"
     }
   ],
   "assessor": {
     "name": "Schellman Compliance, LLC",
     "assessorID": "136571"
   },
+  "certifiedServices": [
+    {
+      "serviceName": "MongoDB Atlas",
+      "serviceDescription": "Core platform included in the certification boundary.",
+      "dateAvailable": "2026-07-04"
+    }
+  ],
   "thirdPartyInformationResources": {
     "certified": [
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2431264500",
-        "useCase": ""
+        "fedRampCertifiedThirdPartyInformationResource": "AWS GovCloud",
+        "useCase": "Hosts production MongoDB database clusters (Class D/High impact level)"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2430123303",
-        "useCase": ""
+        "fedRampCertifiedThirdPartyInformationResource": "AWS US East/West",
+        "useCase": "Hosts production MongoDB database clusters (Class C/Moderate impact level)"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2523656707",
-        "useCase": ""
+        "fedRampCertifiedThirdPartyInformationResource": "Azure Government (includes Dynamics 365)",
+        "useCase": "Hosts production MongoDB database clusters (Class D/High impact level)"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2306445868",
-        "useCase": ""
+        "fedRampCertifiedThirdPartyInformationResource": "Google Services (Google Cloud Platform Products and underlying Infrastructure)",
+        "useCase": "Hosts production MongoDB database clusters (Class D/High impact level)"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2414718666",
-        "useCase": ""
+        "fedRampCertifiedThirdPartyInformationResource": "Okta IDaaS Regulated Cloud",
+        "useCase": "Customer authentication and sign-in"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2234963115",
-        "useCase": ""
+        "fedRampCertifiedThirdPartyInformationResource": "Salesforce Government Cloud Plus",
+        "useCase": "Customer support ticketing"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2406651384",
-        "useCase": ""
+        "fedRampCertifiedThirdPartyInformationResource": "Slack",
+        "useCase": "Customer support and internal operations"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2322855016",
-        "useCase": ""
+        "fedRampCertifiedThirdPartyInformationResource": "Google Workspace",
+        "useCase": "Internal operations"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2313477206",
-        "useCase": ""
+        "fedRampCertifiedThirdPartyInformationResource": "GitHub Enterprise Cloud",
+        "useCase": "Software source code"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2230451369",
-        "useCase": ""
+        "fedRampCertifiedThirdPartyInformationResource": "PagerDuty Operations Cloud",
+        "useCase": "On-call alerting"
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Let's Encrypt",
+        "provider": "Internet Security Research Group",
+        "website": "https://letsencrypt.org/",
+        "useCase": "Trusted TLS certificates"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2213647361",
-        "useCase": ""
+        "name": "Sentry",
+        "provider": "Functional Software, Inc.",
+        "website": "https://sentry.io/",
+        "useCase": "Stack trace and error debugging"
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2215045786",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2125561001",
-        "useCase": ""
-      },
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "FR2525556241XM",
-        "useCase": ""
+        "name": "SAP SuccessFactors",
+        "provider": "SAP SE",
+        "website": "https://www.sap.com/products/hcm.html",
+        "useCase": "Internal human resources operations"
       }
     ]
   },
-  "certifiedServices": [
-    {
-      "serviceName": "GCP Assured Workloads",
-      "serviceDescription": "",
-      "dateAvailable": "2024-08-13"
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "metadata": {
+    "version": "0.1.0",
+    "lastUpdated": "2026-11-25T09:59:53-05:00",
+    "updateSource": {
+      "file": "cpo/cpo.md",
+      "commit": "5be972c851e63d5894411fecadb3b8a363017783"
+    },
+    "responsibleOfficial": {
+      "name": "Valentina Poghosyan",
+      "title": "Chief Compliance Officer",
+      "email": "valentina.poghosyan@mongodb.com",
+      "phone": "+1-555-555-0100"
     }
-  ],
+  },
   "ZD_frid_retro": "FR2122150307",
   "id_matches_expected": true
 }

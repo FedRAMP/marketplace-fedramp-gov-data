@@ -1,0 +1,70 @@
+{
+  "serviceIdentification": {
+    "fedRampPackageId": "TBD",
+    "providerName": "Optum",
+    "serviceName": "Stratus Imaging Solutions",
+    "serviceAcronym": "SI",
+    "serviceDescription": "The Stratus Imaging Solution is a suite of cloud native applications designed to improve clinical and operational efficiencies around healthcare imaging needs and transform patient care via accessible, sharable, secure imaging data. Products include a diagnostic PACS including embedded reporting, a vendor neutral archive, an enterprise viewer, analytics, and research modules.  This is the first major cloud-native enterprise imaging platform delivered as a fully managed software as a service (SaaS).",
+    "website": "https://business.optum.com/en/operations-technology/enterprise-imaging/stratus.html",
+    "logo": "https://www.optum.com/content/dam/optum4/images/logos/optum-logo-ora-rgb1.svg",
+    "ueiNumber": "TBD",
+    "certificationType": "20x"
+  },
+  "serviceProperties": {
+    "serviceType": [
+      "SaaS"
+    ],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Health & Wellness"
+    ],
+    "trustCenter": {
+      "repositoryType": [
+        "Trust Center"
+      ],
+      "url": "https://business.optum.com/en/operations-technology/enterprise-imaging/stratus.html",
+      "repositoryDescription": "Optum's Trust Center is in progress at this time. During the Initial Implementation stage, the Trust Center will contain the CPO. Additional documents will be made available as Optum prepares for Class A certification.",
+      "authenticationRequired": false,
+      "accessRequestInstructions": "TBD. There are no documents requiring authentication at this time."
+    },
+    "nextOngoingCertificationReportDate": "2027-02-19"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "Cornelius Coakley",
+      "contactEmail": "cornelius.coakley@optum.com",
+      "contactPhone": "+14105700542"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Hrushikesh Karbhase",
+      "contactEmail": "hrushikesh_karbhase@optum.com",
+      "contactPhone": "+19529175432"
+    }
+  ],
+  "certifiedServices": [
+    {
+      "serviceName": "Change Healthcare Stratus Imaging Archive",
+      "serviceDescription": "A fully managed, cloud-native medical imaging archive for providers who want to simplify image management, reduce IT costs and enable secure access from anywhere. This cloud-native medical imaging vendor neutral archive can be integrated with any radiology or cardiology picture archive and communication system (PACS) and multiple electronic health record (EHR) systems."
+    },
+    {
+      "serviceName": "Change Healthcare Stratus Imaging Viewer",
+      "serviceDescription": "A cloud-based imaging solution that helps providers improve patient care by providing timely access to imaging. Stratus Imaging Viewer is a single, Electronic Health Record (EHR)-integrated universal viewer can reduce IT overhead, help eliminate duplication and minimize complexity for the entire care team."
+    },
+    {
+      "serviceName": "Change Healthcare Stratus Imaging Analytics",
+      "serviceDescription": "Empowers organizations to transform with real-time insights that enhance operational decision-making. Gain meaningful insights with dynamic data visualizations, key performance indicators, problem-specific analytic workflows, and data discovery, comparison and prediction tools."
+    },
+    {
+      "serviceName": "Change Healthcare Stratus Imaging Share",
+      "serviceDescription": "A cloud-based medical image sharing platform that allows providers to view and exchange medical images with payers, patients and EHRs. Eliminate the frustrating wait for prior images to be pulled or to arrive from a referring physician’s office, consult other physicians on treatment plans well before the patient’s visit and streamline the process of storing, sharing and accessing images across multiple organizations ."
+    },
+    {
+      "serviceName": "Change Healthcare Stratus Imaging Discover",
+      "serviceDescription": "EA cloud-based learning and collaboration platform that allows health care professionals to create educational content and share it with their peers. Organize clinical images and data to facilitate conferences, research and education. Conduct multidisciplinary team meetings, virtual tumor boards and peer learning discussions and share cases or case folders across the enterprise from a single person to an entire hospital staff."
+    }
+  ],
+  "ZD_frid_retro": "FR2705661894",
+  "id_matches_expected": false
+}
