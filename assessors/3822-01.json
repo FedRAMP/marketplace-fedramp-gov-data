@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lazarusalliance.com/schemas/fedramp-assessor-information-lazarus-alliance.json",
+  "assessorName": "Lazarus Alliance, Inc.",
+  "logo": "https://lazarusalliance.com/wp-content/uploads/2023/08/cropped-LA-Logo-2023080101.png",
+  "a2laId": "3822.01",
+  "a2laAccreditationDate": "2025-12-02",
+  "serviceDescription": "Lazarus Alliance is a veteran-owned small business (VOSB) and A2LA-accredited Independent Assessment Service (ISO/IEC 17020 #3822.01). We provide independent FedRAMP 3PAO assessments (including native 20x Class A, B, and C, Moderate, High, and equivalency pathways), CMMC C3PAO assessments, and related cybersecurity compliance services. Our AI-Enhanced Cybervisor™ teams and automation platform support efficient, evidence-driven assessments for cloud service providers seeking certification.",
+  "contactInformation": {
+    "name": "Michael Peters",
+    "title": "CEO & Founder",
+    "email": "3PAO@lazarusalliance.com",
+    "phone": "+1-888-896-7580",
+    "address": {
+      "streetAddress": "27743 N. 70th Street, Suite 100",
+      "addressLocality": "Scottsdale",
+      "addressRegion": "AZ",
+      "postalCode": "85266",
+      "addressCountry": "US"
+    },
+    "url": "https://lazarusalliance.com"
+  },
+  "servicesOffered": [
+    {
+      "serviceName": "FedRAMP 3PAO Assessment",
+      "serviceDescription": "Independent 3PAO assessments for FedRAMP, including native 20x Class A, B, and C, Rev5 readiness and assessments, Moderate/High baselines, significant change requests, continuous monitoring validation, and equivalency pathways. A2LA-accredited under ISO/IEC 17020 #3822.01."
+    },
+    {
+      "serviceName": "CMMC C3PAO Assessment",
+      "serviceDescription": "Authorized CMMC Third-Party Assessment Organization (C3PAO, CPN 10251) assessments for CMMC Level 2, including readiness, gap analysis, formal assessments, and continuous monitoring support."
+    },
+    {
+      "serviceName": "FedRAMP Moderate Equivalency Assessments",
+      "serviceDescription": "Accelerated equivalency programs and cross-framework assessments leveraging existing Moderate authorizations for additional agency ATOs, DoD IL4/IL5, GovRAMP/StateRAMP, and related pathways."
+    },
+    {
+      "serviceName": "GovRAMP 3PAO Assessment",
+      "serviceDescription": "Independent third-party assessment services for GovRAMP and StateRAMP, including readiness, full assessments, and continuous monitoring for state and local government cloud offerings."
+    },
+    {
+      "serviceName": "SOC 1, SOC 2, and SOC 3 Examinations",
+      "serviceDescription": "Independent SOC 1, SOC 2, and SOC 3 examinations and readiness assessments for service organizations, including Type 1 and Type 2 reports."
+    },
+    {
+      "serviceName": "PCI DSS QSA Assessment",
+      "serviceDescription": "Qualified Security Assessor (QSA) services for PCI DSS, including Reports on Compliance (RoC), SAQs, gap analysis, and remediation support."
+    },
+    {
+      "serviceName": "ISO/IEC 27001 and Related Management System Audits",
+      "serviceDescription": "Independent audits and certification support for ISO/IEC 27001, 27701, 27017, 27018, 27002, 27005, 42001, 9001, and related standards."
+    },
+    {
+      "serviceName": "NIST SP 800-53, 800-171, and CSF Assessments",
+      "serviceDescription": "Security control assessments, gap analyses, and readiness support against NIST SP 800-53, NIST SP 800-171, NIST CSF 2.0, and related federal and defense baselines."
+    },
+    {
+      "serviceName": "HIPAA and HITECH Assessments",
+      "serviceDescription": "HIPAA Security Rule assessments, HITECH-related reviews, and supporting readiness and gap analysis services (including NIST 800-66 alignment)."
+    },
+    {
+      "serviceName": "CJIS Security Policy Assessments",
+      "serviceDescription": "Independent assessments and gap analyses for the Criminal Justice Information Services (CJIS) Security Policy."
+    },
+    {
+      "serviceName": "ITAR Compliance Assessments",
+      "serviceDescription": "Independent assessments and gap analyses for International Traffic in Arms Regulations (ITAR) compliance requirements."
+    },
+    {
+      "serviceName": "DFARS NIST 800-171 Assessments",
+      "serviceDescription": "Assessments and readiness support for DFARS NIST SP 800-171 and related controlled unclassified information (CUI) requirements."
+    },
+    {
+      "serviceName": "IRS 1075 and 4812 Assessments",
+      "serviceDescription": "Independent assessments and readiness support for IRS Publication 1075 and 4812 safeguarding requirements."
+    },
+    {
+      "serviceName": "ARC-AMPE Assessments",
+      "serviceDescription": "Independent audit, assessment, and readiness services for the CMS ARC-AMPE (Acceptable Risk Controls for ACA, Medicaid, and Partner Entities) framework."
+    },
+    {
+      "serviceName": "C5 Cloud Security Assessments",
+      "serviceDescription": "Assessments and readiness support for the German C5 (Cloud Computing Compliance Criteria Catalogue) framework."
+    },
+    {
+      "serviceName": "NERC CIP Assessments",
+      "serviceDescription": "NERC CIP and related 693-based audit assessments and readiness support for bulk electric system entities."
+    },
+    {
+      "serviceName": "ACAB LADMF / DMF Assessments",
+      "serviceDescription": "ACAB DMF (Data Management Framework) audit and certification assessments."
+    },
+    {
+      "serviceName": "Privacy Impact Assessments (PIA / DPIA)",
+      "serviceDescription": "Privacy impact assessments and related privacy compliance reviews, including support for GDPR, CCPA/CPRA, and other privacy frameworks."
+    },
+    {
+      "serviceName": "SOX 302 and 404 Assessments",
+      "serviceDescription": "Sarbanes-Oxley (SOX) 302 and 404 assessment and related internal control support."
+    },
+    {
+      "serviceName": "Vulnerability Assessment and Penetration Testing",
+      "serviceDescription": "Independent vulnerability assessments, penetration testing, red team exercises, static and dynamic code analysis, wireless security testing, social engineering, and phishing testing."
+    },
+    {
+      "serviceName": "FISMA and Security Control Assessments (SCA-V)",
+      "serviceDescription": "FISMA-aligned security control assessments and Security Control Assessment & Validation (SCA-V) services."
+    },
+    {
+      "serviceName": "Readiness, Gap Analysis, and Continuous Monitoring",
+      "serviceDescription": "Pre-assessment readiness reviews, gap analyses, SPRS support, continuous monitoring validation, policy and governance development, and Cybervisor™ advisory services across multiple frameworks."
+    }
+  ],
+  "foundedDate": "2000-03-01",
+  "cyberFrameworks": [
+    "FedRAMP",
+    "CMMC",
+    "GovRAMP",
+    "NIST SP 800-53",
+    "NIST SP 800-171",
+    "NIST CSF",
+    "SOC 1",
+    "SOC 2",
+    "SOC 3",
+    "PCI DSS",
+    "ISO/IEC 27001",
+    "ISO/IEC 27701",
+    "ISO/IEC 27017",
+    "ISO/IEC 27018",
+    "ISO/IEC 42001",
+    "HIPAA",
+    "CJIS",
+    "ITAR",
+    "DFARS NIST 800-171",
+    "IRS 1075",
+    "IRS 4812",
+    "ARC-AMPE",
+    "C5",
+    "NERC CIP",
+    "ACAB LADMF",
+    "SOX",
+    "Common Criteria"
+  ],
+  "fedramp_recognized_timestamp": ""
+}
