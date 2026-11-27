@@ -1,0 +1,94 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-advisor-information-schema-2026-06-24.json",
+  "advisorName": "Earthling Security, LLC",
+  "logo": "https://earthlingsecurity.com/wp-content/uploads/2025/06/logo-web-dark-new.svg",
+  "a2laId": "3698.01",
+  "serviceDescription": "Earthling Security, LLC provides FedRAMP advisory and consulting services to cloud service providers pursuing authorization under FedRAMP 20x and Rev5, from gap analysis and authorization strategy through documentation, system design, program management, and continuous monitoring, delivered as projects or as managed FedRAMP-as-a-Service. We also advise on CMMC, GovRAMP, CJIS, FISMA, SOC 2, ISO 27001, PCI DSS, and HIPAA, and support continuous compliance through our Symetri platform. Earthling has supported the FedRAMP program since 2012.",
+  "contactInformation": {
+    "pointOfContactName": "Yusuf Ahmed and Mase Izadjoo",
+    "jobTitle": "CEO and VP, Security and Revenue Office",
+    "email": "info@earthlingsecurity.com",
+    "phone": "877-282-2137",
+    "companyWebsite": "https://earthlingsecurity.com"
+  },
+  "servicesOffered": [
+    {
+      "serviceName": "Business Strategy and Advisory Consulting",
+      "serviceDescription": "Authorization path selection (20x or Rev5), impact level, agency strategy, timeline, and budget planning for federal market entry."
+    },
+    {
+      "serviceName": "FedRAMP Gap Analysis",
+      "serviceDescription": "Review of the current environment against FedRAMP 20x Key Security Indicators or the Rev5 baseline, with a prioritized remediation roadmap. Available as a free gap analysis workshop."
+    },
+    {
+      "serviceName": "FedRAMP 20x Readiness and Transition",
+      "serviceDescription": "Preparation for 20x authorization, including machine-readable evidence, automated validation, and transition planning for existing Rev5 authorizations."
+    },
+    {
+      "serviceName": "FedRAMP Authorization Documentation",
+      "serviceDescription": "Development of the authorization package, including the System Security Plan, policies, procedures, and supporting plans."
+    },
+    {
+      "serviceName": "FedRAMP System Design and Architecture",
+      "serviceDescription": "Authorization boundary definition, data flows, and secure architecture design across AWS, Azure, and Google Cloud."
+    },
+    {
+      "serviceName": "FedRAMP Program Management",
+      "serviceDescription": "End-to-end coordination of the authorization effort, including assessor and agency engagement, milestones, and remediation tracking."
+    },
+    {
+      "serviceName": "FedRAMP Continuous Monitoring",
+      "serviceDescription": "Ongoing vulnerability management, POA&M tracking, significant change support, and continuous monitoring reporting after authorization."
+    },
+    {
+      "serviceName": "FedRAMP-as-a-Service (FRaaS)",
+      "serviceDescription": "Managed delivery of a FedRAMP program, from authorization preparation through ongoing continuous monitoring, as a single service."
+    },
+    {
+      "serviceName": "Compliance-as-a-Service (CaaS)",
+      "serviceDescription": "Managed operation of compliance programs across federal and commercial frameworks, including evidence collection, POA&M management, and audit support."
+    },
+    {
+      "serviceName": "Automated Control Environments and CodeOps",
+      "serviceDescription": "Pre-validated Infrastructure as Code and Policy as Code templates for Terraform, AWS CloudFormation, and Azure Bicep that implement and enforce FedRAMP Moderate and High controls in CI/CD pipelines."
+    },
+    {
+      "serviceName": "CMMC Advisory",
+      "serviceDescription": "CMMC Level 1 and Level 2 readiness, NIST SP 800-171 and DFARS implementation, documentation, and evidence preparation as a Cyber AB Registered Practitioner Organization (RPO-10383)."
+    },
+    {
+      "serviceName": "GovRAMP Advisory",
+      "serviceDescription": "Readiness, documentation, and continuous monitoring support for GovRAMP Core, Low, Low+, and Moderate."
+    },
+    {
+      "serviceName": "CJIS Security Policy Advisory",
+      "serviceDescription": "Readiness and control implementation for systems handling criminal justice information."
+    },
+    {
+      "serviceName": "FISMA and NIST Risk Management Framework Advisory",
+      "serviceDescription": "NIST SP 800-53 control implementation, authorization packages, and continuous monitoring for federal agency systems."
+    },
+    {
+      "serviceName": "SOC 2 Readiness",
+      "serviceDescription": "Readiness and evidence preparation for SOC 2 Type I and Type II audits."
+    },
+    {
+      "serviceName": "ISO 27001 Readiness",
+      "serviceDescription": "Information security management system design and readiness for ISO 27001 certification."
+    },
+    {
+      "serviceName": "PCI DSS Advisory",
+      "serviceDescription": "Readiness support for PCI DSS, from self-assessment questionnaires to Level 1 Reports on Compliance."
+    },
+    {
+      "serviceName": "HIPAA Security Advisory",
+      "serviceDescription": "HIPAA Security Rule risk analysis, safeguards, and documentation."
+    },
+    {
+      "serviceName": "Continuous Compliance with Symetri",
+      "serviceDescription": "Continuous control monitoring, drift detection, automated POA&Ms, and evidence collection across all of the frameworks above through Earthling's Symetri platform."
+    }
+  ],
+  "advisor_id": "earthling-security-llc",
+  "fedramp_listing_timestamp": "2026-11-27T22:21:03.847Z"
+}
