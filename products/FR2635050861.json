@@ -199,10 +199,10 @@
           "SCG",
           "KSI-PIY"
         ],
-        "version": "1.2",
-        "word_count": 5528,
-        "word_count_source": "generated PDF",
-        "last_updated": "2026-09-08"
+        "version": "2.0",
+        "word_count_source": "not available: the per-document sidecar measured version 1.2, not the released version 2.0",
+        "last_updated": "2026-11-23",
+        "version_source": "secure_config_release_history.yaml (release register)"
       }
     },
     {
@@ -390,7 +390,7 @@
       "summary": "Full authorization package (human-readable + machine-readable JSON at /reports)"
     }
   ],
-  "documentation_overview": "Public documents are readable by everyone below. Documents marked 'agency' are FedRAMP Certification Data: portal-delivered items are retrievable as signed PDFs, marked Proprietary and Confidential, through the authenticated trust center (/documents); direct-delivery items carry dissemination controls that preclude portal delivery and are supplied to agencies through a direct controlled channel on request. Per CDS-CSO-IRP, the metadata published machine-readably here for every document is: file name and related FedRAMP practices. Not published in this payload: version, word count and last update. Those are carried in the header of each document itself and in the signed PDF released through the authenticated trust center. 1 of the 12 entries below is a composite artifact with no single source document and carries no per-document metadata.",
+  "documentation_overview": "Public documents are readable by everyone below. Documents marked 'agency' are FedRAMP Certification Data: portal-delivered items are retrievable as signed PDFs, marked Proprietary and Confidential, through the authenticated trust center (/documents); direct-delivery items carry dissemination controls that preclude portal delivery and are supplied to agencies through a direct controlled channel on request. Per CDS-CSO-IRP, each document's metadata is published machine-readably in its documents[].metadata entry. Published for every document with a source: file name and related FedRAMP practices. The version is published for 10 of 11 such documents; not yet for Vulnerability Remediation Plan, which carries it in the document header. The word count is published for 9 of 11 such documents; not yet for Secure Configuration Guide and Vulnerability Remediation Plan. The last update is published for 10 of 11 such documents; not yet for Vulnerability Remediation Plan, which carries it in the document header. 1 of the 12 entries below is a composite artifact with no single source document and carries no per-document metadata.",
   "faq": [
     {
       "q": "Where is my data stored?",
@@ -457,14 +457,11 @@
   "service_availability": {
     "monitoring": "Google Cloud uptime checks (5-minute interval) on app.virtualdojo.com",
     "monitoring_since": "2026-07-04",
+    "hosting": "This status page is served by the trust center's own Cloud Run service in us-east4, through a load balancer backend that routes only to that us-east4 service, while the VirtualDojo AI CRM runs in us-central1. The trust center runs under its own service account and reads this page's data from its own us-east4 storage bucket, so serving it does not depend on the CRM's region, application, database or cache. The published figures are refreshed by the validation job, which runs in us-central1, so during a us-central1 outage the page stays up showing the last published figures. It is in the same Google Cloud project as the CRM, so an event affecting that whole project could affect both, and a loss of us-east4 would take this page down while the CRM kept running. If the page is unreachable, the measurement record is preserved and republished on recovery.",
     "measured": {
       "rolling_percent": 99.998,
       "window_days": 30,
       "daily_history": [
-        {
-          "date": "2026-10-28",
-          "availability_percent": 100
-        },
         {
           "date": "2026-10-29",
           "availability_percent": 100
@@ -580,6 +577,10 @@
         {
           "date": "2026-11-26",
           "availability_percent": 100
+        },
+        {
+          "date": "2026-11-27",
+          "availability_percent": 100
         }
       ]
     },
@@ -617,7 +618,7 @@
     "statement": "VirtualDojo is pursuing FedRAMP 20x Certification Class C for VirtualDojo AI CRM by the Program path. Progress below is measured against dated milestones and refreshed at least quarterly. Milestones that are not yet met say so.",
     "review_cadence": "quarterly",
     "next_review_date": "2026-12-01",
-    "last_updated": "2026-11-27T20:31:59Z",
+    "last_updated": "2026-11-28T04:13:02Z",
     "goals": [
       {
         "id": "G1",
@@ -651,9 +652,7 @@
             "from": "2026-09-02",
             "to": "2026-11-27"
           },
-          "source": "retained per-day validation results",
-          "target": 183,
-          "percent_complete": 48
+          "source": "retained per-day validation results"
         }
       },
       {
@@ -674,23 +673,11 @@
       {
         "id": "M3",
         "goal": "G1",
-        "title": "Six months of continuous validation history",
+        "title": "Historical KSI metrics carried in the Security Decision Record",
         "status": "in_progress",
-        "target_date": "2027-01-03",
-        "target_value": 183,
-        "detail": "FRC-CSX-MOT requires six months of historical metrics from persistent validation at Class C. The mechanism is in place and accumulating; the six-month point is reached on 2027-01-03.\n",
-        "measure": "consecutive_days_of_validation",
-        "measured": {
-          "value": 87,
-          "unit": "days",
-          "window": {
-            "from": "2026-09-02",
-            "to": "2026-11-27"
-          },
-          "source": "retained per-day validation results",
-          "target": 183,
-          "percent_complete": 48
-        }
+        "target_date": "2026-12-02",
+        "detail": "SDR-CSX-KMT requires, at Class C, a summary of each Key Security Indicator metric over the past 30 days in the Security Decision Record, plus a summary up to the past year and all daily metric data up to the past year where available. Scheduled validation runs are archived to the append-only evidence bucket, and the Security Decision Record generator is being extended to summarize them per indicator. Only archived runs stamped as scheduled are counted; days before the first such run are stated as not available rather than reconstructed, and the record extends daily until it covers the full year.\n",
+        "measure": "manual"
       },
       {
         "id": "M4",
@@ -706,7 +693,7 @@
         "goal": "G2",
         "title": "FedRAMP Marketplace listing obtained",
         "status": "met",
-        "target_date": "2026-09-01",
+        "date_met": "2026-09-22",
         "detail": "Marketplace Provider Listing Request submitted 2026-09-17 (ticket #67687); package validated and approved by FedRAMP 2026-09-21 and listed in the Initial Implementation Phase on 2026-09-22 as FR2635050861. Listing is a prerequisite to applying for Certification (FRC-APP-MLF).\n",
         "measure": "manual"
       },
@@ -715,7 +702,7 @@
         "goal": "G3",
         "title": "Independent assessment conducted",
         "status": "met",
-        "target_date": "2026-09-30",
+        "date_met": "2026-10-02",
         "detail": "Independent assessment by a FedRAMP Recognized assessment service (Anthony Timbers LLC, Marketplace assessor id 203181). Assessment date 2026-10-02 as supplied by the assessor; KSI examination report dated 2026-10-05 and received 2026-10-06, which completes the assessment (38 of 46 indicators met, 8 partially met, remediation in progress). The assessment must be less than three months old at application (FRC-APP-FIA), so the application window runs to 2027-01-02.\n",
         "measure": "manual"
       },
@@ -2013,6 +2000,10 @@
       {
         "date": "2026-11-27",
         "class": "scheduled"
+      },
+      {
+        "date": "2026-11-28",
+        "class": "manual"
       }
     ],
     "scheduled": {
@@ -2022,9 +2013,9 @@
       "meaning": "The scheduled validation job ran unattended on this date at its documented 04:00 UTC cycle and produced per-indicator results. This is the only class that counts as persistent validation."
     },
     "manual": {
-      "days": 1,
+      "days": 2,
       "from": "2026-07-03",
-      "to": "2026-07-03",
+      "to": "2026-11-28",
       "meaning": "Validation ran on this date but was started by hand, outside the scheduled cycle. Not counted as persistent validation."
     },
     "reconstructed": {
@@ -2033,7 +2024,7 @@
       "to": "2026-07-02",
       "meaning": "Status derived after the fact from retained audit evidence. Not the output of validation performed on this date."
     },
-    "total_days_with_evidence": 318,
+    "total_days_with_evidence": 319,
     "gaps": 1
   },
   "certification_data_access": {
@@ -2090,7 +2081,7 @@
   "live_monitoring": {
     "controls_monitored": 46,
     "controls_passing": 46,
-    "last_validated": "2026-11-27T20:27:01.182272Z"
+    "last_validated": "2026-11-28T04:07:41.927809Z"
   },
   "metadata": {
     "responsibleOfficial": {
@@ -2099,7 +2090,7 @@
       "email": "security@virtualdojo.com"
     },
     "version": "1.1",
-    "lastUpdated": "2026-11-27T20:32:01.297975+00:00",
+    "lastUpdated": "2026-11-28T04:13:04.395807+00:00",
     "updateSource": "Generated by fedramp-ksi-validator export.certification_package from package.yaml and the automated KSI/FRR validation results."
   },
   "serviceIdentification": {

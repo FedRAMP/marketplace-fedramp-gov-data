@@ -1,19 +1,13 @@
 {
   "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
-  "metadata": {
-    "version": "2026.11.17",
-    "lastUpdated": "2026-11-17T18:45:00Z",
-    "updateSource": "Mycroft Security team (Mycroft compliance automation platform). Overall summary of assessment from Insight Assurance LLC IA-FEDRAMP-MYC-20XC-STM v1.0 (2026-11-13), included unmodified."
-  },
   "serviceIdentification": {
-    "fedRampPackageId": "FR2631054539",
-    "ueiNumber": "DZDSBAUK5ZC9",
-    "providerName": "Mycroft Technologies Inc",
+    "providerName": "Mycroft",
     "serviceName": "Mycroft GRC Platform",
     "serviceAcronym": "MYC",
-    "serviceDescription": "The Mycroft Platform is a compliance and security management solution designed to help customers build, maintain, and demonstrate compliance with various security frameworks. Key capabilities include: Compliance Automation: task management dashboards and templates for policy documentation, vendor and risk management, and IT asset management. Continuous Monitoring: automated evidence collection and control monitoring. Vulnerability and Threat Monitoring: centralized tracking via integrations with third-party tools and cloud security posture management. Mycroft Agent: installed on customer-employee workstations to provide device management, control monitoring, and Endpoint Detection and Response (EDR). AI Integration: leverages generative AI (large language models) for conversational troubleshooting, adaptive remediation, and context-specific guidance, which requires customer review prior to implementation.",
+    "serviceDescription": "The Mycroft Platform is a compliance and security management solution designed to help customers build, maintain, and demonstrate compliance with various security frameworks. Key capabilities include: Compliance Automation: task management dashboards and templates for policy documentation, vendor and risk management, and IT asset management. Continuous Monitoring: automated evidence collection and control monitoring. Vulnerability and Threat Monitoring: centralized tracking via integrations with third-party tools and cloud security posture management. Mycroft Agent: installed on customer-employee workstations to provide device management, control monitoring, and Endpoint Detection and Response (EDR). AI Integration: leverages generative AI (large language models) for conversational troubleshooting, adaptive remediation, and context-specific guidance, which requires customer review prior to implementation.\n",
     "website": "https://mycroft.io",
     "logo": "https://static-assets.mycroft.io/production/org_logos/0b3d4e12-16c0-44d6-b1a9-9b2b86fcbd11.png",
+    "fedRampPackageId": "FR2631054539",
     "certificationType": "20x"
   },
   "serviceProperties": {
@@ -44,27 +38,27 @@
       "authenticationRequired": true,
       "accessRequestInstructions": "Access requests can be submitted by pressing the 'Request Access' button on the top right of the Trust Center."
     },
-    "nextOngoingCertificationReportDate": "2027-01-31"
+    "nextOngoingCertificationReportDate": "2026-12-12"
   },
   "contactInformation": [
     {
       "contactType": "Security",
-      "contactName": "Mike Kim, Co-founder / CEO",
+      "contactName": "Security Team",
       "contactEmail": "security@mycroft.io",
       "contactPhone": "647-824-7230"
     },
     {
       "contactType": "Sales",
-      "contactName": "Eric Yanofsky, Head (VP), Sales and Partnerships",
+      "contactName": "Sales Team",
       "contactEmail": "sales@mycroft.io",
       "contactPhone": "647-824-7230"
     }
   ],
   "assessor": {
-    "name": "Insight Assurance LLC",
+    "name": "Insight Assurance LLC ",
     "assessorID": "203355"
   },
-  "overallSummaryOfAssessment": "I performed an independent assessment of the Mycroft GRC Platform against the FedRAMP 20x Class C requirements. Mycroft's existing certification for this offering (FedRAMP package ID FR2631054539) is 20x Class A; this assessment supports Class C. I assessed all 46 Key Security Indicators (KSIs) and the 157 FedRAMP rules that apply to a Class C provider, organized by Mycroft's 70 platform controls. For each KSI and rule I examined the documentation and configuration evidence Mycroft supplied, analyzed the platform's test results and exported data, and interviewed Mark Tabinga of Mycroft in writing. I did not perform live technical testing. For records Mycroft referenced in its platform that I did not open, I applied stated reliance criteria and recorded each determination on the Reliance tab; I did not rely on statements about future events or on outcomes I would test myself. KSI results: 0 met, 12 met with exceptions, 30 partially met, 2 not met and 2 not assessed. No KSI is rated Met because none yet shows two passing automated validation methods, a corroborated interview and no remaining exceptions together. KSIs not met: CNA-EIS, SVC-VCM. KSIs not assessed because no evidence was provided: MLA-ALA, SVC-PRR. Rule results: 23 supported by evidence, 60 partly evidenced, 21 planned but not yet implemented, 26 not yet evidenced, 7 pending, and 20 optional or to confirm. Where Mycroft's current Security Decision Record states more than the evidence shows, the difference is recorded in the KSI or rule result. No formal areas of dispute are recorded. I will verify that these statements are included in the published package without modification once Mycroft publishes it. For every result below Met, the report states the exceptions and the evidence that would change the result. Insight Assurance does not design or perform remediation.",
+  "overallSummaryOfAssessment": "I performed an independent assessment of the Mycroft GRC Platform against the FedRAMP 20x Class C requirements.\nMycroft's existing certification for this offering (FedRAMP package ID FR2631054539) is 20x Class A; this assessment supports\nClass C. I assessed all 46 Key Security Indicators (KSIs) and the 157 FedRAMP rules that apply to a Class C provider, organized\nby Mycroft's 70 platform controls. For each KSI and rule I examined the documentation and configuration evidence Mycroft\nsupplied, analyzed the platform's test results and exported data, and interviewed Mark Tabinga of Mycroft in writing. I did not\nperform live technical testing. For records Mycroft referenced in its platform that I did not open, I applied stated reliance criteria\nand recorded each determination on the Reliance tab; I did not rely on statements about future events or on outcomes I would\ntest myself. KSI results: 0 met, 12 met with exceptions, 30 partially met, 2 not met and 2 not assessed. No KSI is rated Met\nbecause none yet shows two passing automated validation methods, a corroborated interview and no remaining exceptions\ntogether. KSIs not met: CNA-EIS, SVC-VCM. KSIs not assessed because no evidence was provided: MLA-ALA, SVC-PRR. Rule\nresults: 23 supported by evidence, 60 partly evidenced, 21 planned but not yet implemented, 26 not yet evidenced, 7 pending,\nand 20 optional or to confirm. Where Mycroft's current Security Decision Record states more than the evidence shows, the\ndifference is recorded in the KSI or rule result. No formal areas of dispute are recorded. I will verify that these statements are\nincluded in the published package without modification once Mycroft publishes it. For every result below Met, the report states\nthe exceptions and the evidence that would change the result. Insight Assurance does not design or perform remediation.",
   "certifiedServices": [
     {
       "serviceName": "Mycroft GRC Platform",
@@ -75,88 +69,66 @@
   "thirdPartyInformationResources": {
     "certified": [
       {
-        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
-        "useCase": "Google Cloud Platform (High Impact, JAB authorized). Primary cloud infrastructure provider hosting the Mycroft GRC Platform."
+        "fedRampCertifiedThirdPartyInformationResource": "FR2000863987A",
+        "useCase": "Provides cloud-based web security, content delivery network (CDN), and distributed domain name server (DNS) services. Optimizes website performance while protecting digital infrastructure from distributed denial-of-service (DDoS) attacks and malicious traffic."
       },
       {
-        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
-        "useCase": "Google Workspace (High, JAB authorized). Corporate productivity, email, and collaboration suite."
+        "fedRampCertifiedThirdPartyInformationResource": "FR1805751477",
+        "useCase": "Provides a comprehensive suite of cloud computing services, including scalable infrastructure, data storage, and advanced analytics. Enables organizations to build, deploy, and manage applications securely on Google's global infrastructure."
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "FR1812058188",
-        "useCase": "GitHub Enterprise Cloud (Low, Agency authorized). Source code management and CI/CD for platform development."
+        "useCase": "Source code repository and version control platform. Stores proprietary code, development workflows, and technical documentation."
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
+        "useCase": "Provides a cloud-based suite of productivity, collaboration, and communication tools including corporate email, cloud storage, and shared document management. Enables distributed teams to securely create files, manage schedules, and conduct video conferencing within an integrated ecosystem"
+      },
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FR2003061248",
+        "useCase": "Customer relationship management platform. Manages sales, customer data, marketing automation, and business processes."
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "FR1823447014",
-        "useCase": "Slack (Moderate, Agency authorized). Internal team communication and collaboration."
+        "useCase": "Team communication and collaboration platform. Facilitates internal messaging, file sharing, and workflow integrations."
       }
     ],
     "nonCertified": [
       {
-        "name": "Cloudflare (Business plan)",
-        "provider": "Cloudflare, Inc.",
-        "website": "https://cloudflare.com",
-        "useCase": "Managed web application firewall in front of production. Mycroft is moving to Cloudflare for Government (FR2000863987A), planned by 2026-12-31."
-      },
-      {
         "name": "1Password",
         "provider": "1Password",
         "website": "https://1password.com",
-        "useCase": "Password manager."
-      },
-      {
-        "name": "Linear",
-        "provider": "Linear",
-        "website": "https://linear.app",
-        "useCase": "Project management software."
-      },
-      {
-        "name": "Resend",
-        "provider": "Resend",
-        "website": "https://resend.com",
-        "useCase": "Transactional email provider."
-      },
-      {
-        "name": "Twilio SendGrid",
-        "provider": "Twilio",
-        "website": "https://sendgrid.com",
-        "useCase": "Transactional email provider."
-      },
-      {
-        "name": "PropelAuth",
-        "provider": "PropelAuth",
-        "website": "https://propelauth.com",
-        "useCase": "Authentication gateway."
-      },
-      {
-        "name": "PostHog",
-        "provider": "PostHog",
-        "website": "https://posthog.com",
-        "useCase": "Product analytics."
-      },
-      {
-        "name": "Mycroft",
-        "provider": "Mycroft Technologies Inc",
-        "website": "https://mycroft.io",
-        "useCase": "Compliance automation and technology stack."
-      },
-      {
-        "name": "Pylon",
-        "provider": "Pylon",
-        "website": "https://usepylon.com",
-        "useCase": "Customer support ticket management."
-      },
-      {
-        "name": "Turbopuffer",
-        "provider": "Turbopuffer",
-        "website": "https://turbopuffer.com",
-        "useCase": "Document index for documents uploaded to Mycroft and for the CISO knowledge base."
+        "useCase": "Password management and credential storage solution. Secures and manages organizational passwords and secrets."
       },
       {
         "name": "Clickhouse",
         "provider": "Clickhouse",
         "website": "https://clickhouse.com",
-        "useCase": "Risk operations centre data warehouse."
+        "useCase": "For the risk operations centre data warehouse"
+      },
+      {
+        "name": "FleetDM",
+        "provider": "FleetDM",
+        "website": "https://fleetdm.com",
+        "useCase": "Provides open-source endpoint management and security monitoring powered by osquery. Enables security and IT operations teams to track asset inventory, query device states, and maintain real-time compliance across laptops, servers, and cloud infrastructure."
+      },
+      {
+        "name": "Humi (by Employment Hero)",
+        "provider": "Humi (by Employment Hero)",
+        "website": "https://employmenthero.com/en-ca",
+        "useCase": "Provides a cloud-based human resources information system (HRIS), payroll, and benefits administration platform built specifically for Canadian businesses (acquired by Employment Hero in 2025). Enables organizations to centralize employee records, automate compliant payroll processing and tax remittances across provinces, manage recruiting and onboarding workflows, and track time, attendance, and performance."
+      },
+      {
+        "name": "PostHog",
+        "provider": "PostHog",
+        "website": "https://posthog.com",
+        "useCase": "Product analytics and feature management platform. Tracks user behavior, A/B testing, and product insights."
+      },
+      {
+        "name": "PropelAuth",
+        "provider": "PropelAuth",
+        "website": "https://www.propelauth.com",
+        "useCase": "Authentication and user management for B2B applications. Provides multi-tenant auth, SSO, and user provisioning."
       }
     ]
   },
